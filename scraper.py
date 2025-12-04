@@ -161,10 +161,12 @@ Automatically updated list of trending AI research papers from HuggingFace.
         arxiv_url = details.get('arxiv_page_url', '')
         pdf_url = details.get('pdf_url', '')
         github_links = details.get('github_links', [])
-        abstract = details.get('abstract', 'No abstract available.')
+        abstract = details.get('abstract', '')
         
-        # Truncate abstract
-        if len(abstract) > 300:
+        # Handle None or empty abstract
+        if not abstract:
+            abstract = 'No abstract available.'
+        elif len(abstract) > 300:
             abstract = abstract[:297] + "..."
         
         readme += f"### {i}. {title}\n\n"
@@ -229,7 +231,6 @@ MIT License - feel free to use this data for your own projects!
         f.write(readme)
     
     print("✅ Generated README.md")
-
 
 if __name__ == "__main__":
     print("Starting daily AI papers scraper...")
