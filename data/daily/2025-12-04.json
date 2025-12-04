@@ -12,7 +12,7 @@
       "github_links": [],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2511.21631",
-      "scraped_at": "2025-12-04T20:19:20.961877"
+      "scraped_at": "2025-12-04T21:17:47.069463"
     },
     "scraped_date": "2025-12-04"
   },
@@ -37,7 +37,7 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2512.02834",
-      "scraped_at": "2025-12-04T20:19:23.118436"
+      "scraped_at": "2025-12-04T21:17:49.192535"
     },
     "scraped_date": "2025-12-04"
   },
@@ -60,7 +60,7 @@
       "github_links": [],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2512.03442",
-      "scraped_at": "2025-12-04T20:19:25.281652"
+      "scraped_at": "2025-12-04T21:17:51.363234"
     },
     "scraped_date": "2025-12-04"
   },
@@ -83,7 +83,7 @@
       "github_links": [],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2512.03405",
-      "scraped_at": "2025-12-04T20:19:27.476746"
+      "scraped_at": "2025-12-04T21:17:53.492069"
     },
     "scraped_date": "2025-12-04"
   },
@@ -108,7 +108,7 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2512.03043",
-      "scraped_at": "2025-12-04T20:19:29.578861"
+      "scraped_at": "2025-12-04T21:17:55.616626"
     },
     "scraped_date": "2025-12-04"
   },
@@ -127,7 +127,7 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2512.04069",
-      "scraped_at": "2025-12-04T20:19:31.728245"
+      "scraped_at": "2025-12-04T21:17:57.841621"
     },
     "scraped_date": "2025-12-04"
   },
@@ -150,7 +150,7 @@
       "github_links": [],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2512.03534",
-      "scraped_at": "2025-12-04T20:19:33.755115"
+      "scraped_at": "2025-12-04T21:17:59.919631"
     },
     "scraped_date": "2025-12-04"
   },
@@ -173,7 +173,7 @@
       "github_links": [],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2512.04040",
-      "scraped_at": "2025-12-04T20:19:36.010946"
+      "scraped_at": "2025-12-04T21:18:02.035416"
     },
     "scraped_date": "2025-12-04"
   },
@@ -196,7 +196,7 @@
       "github_links": [],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2512.03746",
-      "scraped_at": "2025-12-04T20:19:38.067484"
+      "scraped_at": "2025-12-04T21:18:04.082998"
     },
     "scraped_date": "2025-12-04"
   },
@@ -215,7 +215,44 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2511.22345",
-      "scraped_at": "2025-12-04T20:19:40.618700"
+      "scraped_at": "2025-12-04T21:18:06.180570"
+    },
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "title": "SR-GRPO: Stable Rank as an Intrinsic Geometric Reward for Large Language Model Alignment",
+    "paper_url": "https://huggingface.co/papers/2512.02807",
+    "authors": [
+      "Yi Yang",
+      "yixuantt"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SR-GRPO: Stable Rank as an Intrinsic Geometric Reward for Large Language Model Alignment",
+      "abstract": "🤯 We know RLHF relies heavily on external rewards. But what if the model already knows when it's reasoning well? The paper SR-GRPO introduces a simple intrinsic metric, stable rank , which serves as an annotation-free quality signal for LLM output. It measures the richness and coherence of the hidden states. It is like checking the complexity of the model's brain signal to see if it is reasoning clearly. The result: The SR-GRPO alignment method significantly boosts performance on challenging mathematical reasoning and STEM tasks, eliminating the need for expensive human preference data. Just look inside! 🧐 Paper: SR-GRPO: Stable Rank as an Intrinsic Geometric Reward for Large Language Model Alignment",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.02807",
+      "pdf_url": "https://arxiv.org/pdf/2512.02807",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.02807",
+      "scraped_at": "2025-12-04T21:18:08.400168"
+    },
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "title": "Jina-VLM: Small Multilingual Vision Language Model",
+    "paper_url": "https://huggingface.co/papers/2512.04032",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Jina-VLM: Small Multilingual Vision Language Model",
+      "abstract": "our latest multilingual vlm model at 2b size, about to release soon",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04032",
+      "pdf_url": "https://arxiv.org/pdf/2512.04032",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04032",
+      "scraped_at": "2025-12-04T21:18:10.545247"
     },
     "scraped_date": "2025-12-04"
   },
@@ -240,7 +277,7 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2512.03540",
-      "scraped_at": "2025-12-04T20:19:42.781709"
+      "scraped_at": "2025-12-04T21:18:12.576045"
     },
     "scraped_date": "2025-12-04"
   },
@@ -257,27 +294,7 @@
       "github_links": [],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2512.02924",
-      "scraped_at": "2025-12-04T20:19:44.858222"
-    },
-    "scraped_date": "2025-12-04"
-  },
-  {
-    "title": "SR-GRPO: Stable Rank as an Intrinsic Geometric Reward for Large Language Model Alignment",
-    "paper_url": "https://huggingface.co/papers/2512.02807",
-    "authors": [
-      "Yi Yang",
-      "yixuantt"
-    ],
-    "stars": "0",
-    "details": {
-      "title": "SR-GRPO: Stable Rank as an Intrinsic Geometric Reward for Large Language Model Alignment",
-      "abstract": "🤯 We know RLHF relies heavily on external rewards. But what if the model already knows when it's reasoning well? The paper SR-GRPO introduces a simple intrinsic metric, stable rank , which serves as an annotation-free quality signal for LLM output. It measures the richness and coherence of the hidden states. It is like checking the complexity of the model's brain signal to see if it is reasoning clearly. The result: The SR-GRPO alignment method significantly boosts performance on challenging mathematical reasoning and STEM tasks, eliminating the need for expensive human preference data. Just look inside! 🧐 Paper: SR-GRPO: Stable Rank as an Intrinsic Geometric Reward for Large Language Model Alignment",
-      "arxiv_page_url": "https://arxiv.org/abs/2512.02807",
-      "pdf_url": "https://arxiv.org/pdf/2512.02807",
-      "github_links": [],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2512.02807",
-      "scraped_at": "2025-12-04T20:19:46.947599"
+      "scraped_at": "2025-12-04T21:18:14.792437"
     },
     "scraped_date": "2025-12-04"
   },
@@ -294,24 +311,7 @@
       "github_links": [],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2512.03073",
-      "scraped_at": "2025-12-04T20:19:49.014636"
-    },
-    "scraped_date": "2025-12-04"
-  },
-  {
-    "title": "Jina-VLM: Small Multilingual Vision Language Model",
-    "paper_url": "https://huggingface.co/papers/2512.04032",
-    "authors": [],
-    "stars": "0",
-    "details": {
-      "title": "Jina-VLM: Small Multilingual Vision Language Model",
-      "abstract": "our latest multilingual vlm model at 2b size, about to release soon",
-      "arxiv_page_url": "https://arxiv.org/abs/2512.04032",
-      "pdf_url": "https://arxiv.org/pdf/2512.04032",
-      "github_links": [],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2512.04032",
-      "scraped_at": "2025-12-04T20:19:51.293128"
+      "scraped_at": "2025-12-04T21:18:16.953344"
     },
     "scraped_date": "2025-12-04"
   },
@@ -334,7 +334,7 @@
       "github_links": [],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2511.20515",
-      "scraped_at": "2025-12-04T20:19:53.370089"
+      "scraped_at": "2025-12-04T21:18:18.990243"
     },
     "scraped_date": "2025-12-04"
   },
@@ -357,7 +357,7 @@
       "github_links": [],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2512.04072",
-      "scraped_at": "2025-12-04T20:19:55.477733"
+      "scraped_at": "2025-12-04T21:18:21.101903"
     },
     "scraped_date": "2025-12-04"
   },
@@ -379,7 +379,7 @@
       "github_links": [],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2512.03771",
-      "scraped_at": "2025-12-04T20:19:57.520691"
+      "scraped_at": "2025-12-04T21:18:23.201891"
     },
     "scraped_date": "2025-12-04"
   },
@@ -398,7 +398,7 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2512.03383",
-      "scraped_at": "2025-12-04T20:19:59.592819"
+      "scraped_at": "2025-12-04T21:18:25.299264"
     },
     "scraped_date": "2025-12-04"
   },
@@ -417,7 +417,7 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2512.04000",
-      "scraped_at": "2025-12-04T20:20:01.699407"
+      "scraped_at": "2025-12-04T21:18:27.368119"
     },
     "scraped_date": "2025-12-04"
   },
@@ -434,7 +434,7 @@
       "github_links": [],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2512.03979",
-      "scraped_at": "2025-12-04T20:20:03.794116"
+      "scraped_at": "2025-12-04T21:18:29.397458"
     },
     "scraped_date": "2025-12-04"
   },
@@ -453,7 +453,7 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2512.03794",
-      "scraped_at": "2025-12-04T20:20:05.813512"
+      "scraped_at": "2025-12-04T21:18:31.533447"
     },
     "scraped_date": "2025-12-04"
   },
@@ -478,7 +478,7 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2512.04082",
-      "scraped_at": "2025-12-04T20:20:07.825029"
+      "scraped_at": "2025-12-04T21:18:33.581102"
     },
     "scraped_date": "2025-12-04"
   },
@@ -498,7 +498,7 @@
       "github_links": [],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2511.20494",
-      "scraped_at": "2025-12-04T20:20:09.829762"
+      "scraped_at": "2025-12-04T21:18:35.717215"
     },
     "scraped_date": "2025-12-04"
   }
