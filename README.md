@@ -4,11 +4,22 @@ Automatically updated list of trending AI research papers from HuggingFace.
 
 **Last Updated:** 2025-12-04
 
-**Total Papers:** 24
+## 📊 Statistics
+
+- **Today's Papers:** 24
+- **This Week:** 24 papers
+- **This Month:** 24 papers
+
+## 📁 Archives
+
+- **Daily:** [`data/daily/2025-12-04.json`](data/daily/2025-12-04.json)
+- **Weekly:** [`data/weekly/2025-W48.json`](data/weekly/2025-W48.json)
+- **Monthly:** [`data/monthly/2025-12.json`](data/monthly/2025-12.json)
+- **Latest:** [`data/latest.json`](data/latest.json)
 
 ---
 
-## 📚 Today's Papers
+## 📚 Today's Papers (2025-12-04)
 
 ### 1. Qwen3-VL Technical Report
 
@@ -62,7 +73,7 @@ Automatically updated list of trending AI research papers from HuggingFace.
 
 **Authors:** Kaixuan Fan, Hongyu Li, Manyuan Zhang, Kaituo Feng, zhengli1013
 
-**⭐ Stars:** 29
+**⭐ Stars:** 43
 
 **Links:** [HuggingFace](https://huggingface.co/papers/2512.03043) | [arXiv](https://arxiv.org/abs/2512.03043) | [PDF](https://arxiv.org/pdf/2512.03043)
 
@@ -238,7 +249,7 @@ Automatically updated list of trending AI research papers from HuggingFace.
 
 ### 20. Divide, then Ground: Adapting Frame Selection to Query Types for Long-Form Video Understanding
 
-**⭐ Stars:** 0
+**⭐ Stars:** 1
 
 **Links:** [HuggingFace](https://huggingface.co/papers/2512.04000) | [arXiv](https://arxiv.org/abs/2512.04000) | [PDF](https://arxiv.org/pdf/2512.04000)
 
@@ -297,13 +308,23 @@ Automatically updated list of trending AI research papers from HuggingFace.
 ---
 
 
+## 📅 Historical Data
+
+### Recent Days
+- **2025-12-04**: [24 papers](data/daily/2025-12-04.json)
+
+### Weekly Archives
+- **2025-W48**: [24 papers](data/weekly/2025-W48.json)
+
+### Monthly Archives
+- **2025-12**: [24 papers](data/monthly/2025-12.json)
+
+
+---
+
 ## 🔄 Update Schedule
 
 This repository automatically updates daily at 00:00 UTC with the latest AI papers from HuggingFace.
-
-## 📊 Data
-
-All paper data is stored in JSON format in the [`data/papers.json`](data/papers.json) file.
 
 ## 🛠️ How It Works
 
@@ -311,6 +332,24 @@ This repository uses:
 - **Crawl4AI** for web scraping
 - **GitHub Actions** for daily automation
 - **Python** for data processing
+- **Organized archives** by day, week, and month
+
+## 📊 Data Structure
+```
+data/
+├── daily/          # Individual day snapshots
+│   ├── 2024-12-04.json
+│   ├── 2024-12-05.json
+│   └── ...
+├── weekly/         # Cumulative weekly papers
+│   ├── 2024-W48.json
+│   ├── 2024-W49.json
+│   └── ...
+├── monthly/        # Cumulative monthly papers
+│   ├── 2024-12.json
+│   └── ...
+└── latest.json     # Always the most recent scrape
+```
 
 ## 📝 License
 
