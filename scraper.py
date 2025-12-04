@@ -194,9 +194,10 @@ def load_recent_papers(days=7):
 
 
 def generate_readme(papers):
-    """Generate README.md with today's papers and archive info"""
+    """Generate an attractive README.md with better design"""
     today = datetime.now()
     today_str = today.strftime("%Y-%m-%d")
+    today_display = today.strftime("%B %d, %Y")
     week_str = today.strftime("%Y-W%W")
     month_str = today.strftime("%Y-%m")
     
@@ -214,28 +215,50 @@ def generate_readme(papers):
         with open(monthly_file, "r", encoding="utf-8") as f:
             monthly_count = len(json.load(f))
     
-    readme = f"""# 🤖 Daily AI Papers
+    # Count total papers in all archives
+    total_papers = 0
+    if Path("data/daily").exists():
+        for daily_file in Path("data/daily").glob("*.json"):
+            with open(daily_file, "r", encoding="utf-8") as f:
+                total_papers += len(json.load(f))
+    
+    readme = f"""<div align="center">
 
-Automatically updated list of trending AI research papers from HuggingFace.
+# 🤖 Daily AI Papers
 
-**Last Updated:** {today_str}
+### 📊 Trending AI Research Papers from HuggingFace
 
-## 📊 Statistics
+[![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/yourusername/daily-ai-papers/actions)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-{len(papers)}-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-{total_papers}+-orange?style=for-the-badge&logo=academia)](data/)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
-- **Today's Papers:** {len(papers)}
-- **This Week:** {weekly_count} papers
-- **This Month:** {monthly_count} papers
+**Automatically updated every day at 00:00 UTC** ⏰
 
-## 📁 Archives
+[📊 View Data](data/) | [🔍 Latest Papers](data/latest.json) | [📅 Archives](#-historical-archives) | [⭐ Star This Repo](#)
 
-- **Daily:** [`data/daily/{today_str}.json`](data/daily/{today_str}.json)
-- **Weekly:** [`data/weekly/{week_str}.json`](data/weekly/{week_str}.json)
-- **Monthly:** [`data/monthly/{month_str}.json`](data/monthly/{month_str}.json)
-- **Latest:** [`data/latest.json`](data/latest.json)
+</div>
 
 ---
 
-## 📚 Today's Papers ({today_str})
+## 📈 Statistics
+
+<table>
+<tr>
+<td align="center"><b>📄 Today</b><br/><font size="5">{len(papers)}</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">{weekly_count}</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">{monthly_count}</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">{total_papers}+</font><br/>papers</td>
+</tr>
+</table>
+
+**Last Updated:** {today_display}
+
+---
+
+## 🔥 Today's Trending Papers
+
+> Latest AI research papers from HuggingFace Papers, updated daily
 
 """
     
@@ -254,58 +277,77 @@ Automatically updated list of trending AI research papers from HuggingFace.
         # Handle None or empty abstract
         if not abstract:
             abstract = 'No abstract available.'
-        elif len(abstract) > 300:
-            abstract = abstract[:297] + "..."
+        elif len(abstract) > 250:
+            abstract = abstract[:247] + "..."
         
-        readme += f"### {i}. {title}\n\n"
+        readme += f"""<details>
+<summary><b>{i}. {title}</b> ⭐ {stars}</summary>
+
+<br/>
+
+"""
         
         if authors:
             authors_str = ", ".join(authors[:5])
             if len(authors) > 5:
-                authors_str += f" (+{len(authors) - 5} more)"
-            readme += f"**Authors:** {authors_str}\n\n"
+                authors_str += f" _+{len(authors) - 5} more_"
+            readme += f"**👥 Authors:** {authors_str}\n\n"
         
-        readme += f"**⭐ Stars:** {stars}\n\n"
-        
-        # Links
+        # Links with emojis
         links = []
         if paper_url:
-            links.append(f"[HuggingFace]({paper_url})")
+            links.append(f"[🤗 HuggingFace]({paper_url})")
         if arxiv_url:
-            links.append(f"[arXiv]({arxiv_url})")
+            links.append(f"[📄 arXiv]({arxiv_url})")
         if pdf_url:
-            links.append(f"[PDF]({pdf_url})")
+            links.append(f"[📥 PDF]({pdf_url})")
         
         if links:
-            readme += f"**Links:** {' | '.join(links)}\n\n"
+            readme += f"**🔗 Links:** {' • '.join(links)}\n\n"
         
         # GitHub repos
         if github_links:
-            readme += "**GitHub:** "
-            readme += " | ".join([f"[Repo]({link})" for link in github_links[:3]])
-            readme += "\n\n"
+            gh_links = " • ".join([f"[⭐ Code]({link})" for link in github_links[:3]])
+            readme += f"**💻 Code:** {gh_links}\n\n"
         
-        # Abstract
-        readme += f"**Abstract:** {abstract}\n\n"
-        readme += "---\n\n"
+        # Abstract in blockquote
+        readme += f"> {abstract}\n\n"
+        readme += "</details>\n\n"
     
     # Archive section
-    readme += """
-## 📅 Historical Data
+    readme += f"""---
 
-### Recent Days
+## 📅 Historical Archives
+
+### 📊 Quick Access
+
+| Type | Link | Papers |
+|------|------|--------|
+| 🕐 Latest | [`latest.json`](data/latest.json) | {len(papers)} |
+| 📅 Today | [`{today_str}.json`](data/daily/{today_str}.json) | {len(papers)} |
+| 📆 This Week | [`{week_str}.json`](data/weekly/{week_str}.json) | {weekly_count} |
+| 🗓️ This Month | [`{month_str}.json`](data/monthly/{month_str}.json) | {monthly_count} |
+
+### 📜 Recent Days
+
 """
     
-    # List last 7 days
+    # List last 7 days in a table
+    readme += "| Date | Papers | Link |\n"
+    readme += "|------|--------|------|\n"
+    
     for i in range(7):
         date = (today - timedelta(days=i)).strftime("%Y-%m-%d")
         daily_file = f"data/daily/{date}.json"
         if Path(daily_file).exists():
             with open(daily_file, "r", encoding="utf-8") as f:
                 count = len(json.load(f))
-            readme += f"- **{date}**: [{count} papers](data/daily/{date}.json)\n"
+            emoji = "📌" if i == 0 else "📄"
+            readme += f"| {emoji} {date} | {count} | [View JSON](data/daily/{date}.json) |\n"
     
-    readme += "\n### Weekly Archives\n"
+    readme += "\n### 📚 Weekly Archives\n\n"
+    readme += "| Week | Papers | Link |\n"
+    readme += "|------|--------|------|\n"
     
     # List available weeks
     weekly_files = sorted(Path("data/weekly").glob("*.json"), reverse=True)
@@ -313,9 +355,11 @@ Automatically updated list of trending AI research papers from HuggingFace.
         week_name = week_file.stem
         with open(week_file, "r", encoding="utf-8") as f:
             count = len(json.load(f))
-        readme += f"- **{week_name}**: [{count} papers](data/weekly/{week_name}.json)\n"
+        readme += f"| 📅 {week_name} | {count} | [View JSON](data/weekly/{week_name}.json) |\n"
     
-    readme += "\n### Monthly Archives\n"
+    readme += "\n### 🗂️ Monthly Archives\n\n"
+    readme += "| Month | Papers | Link |\n"
+    readme += "|------|--------|------|\n"
     
     # List available months
     monthly_files = sorted(Path("data/monthly").glob("*.json"), reverse=True)
@@ -323,55 +367,161 @@ Automatically updated list of trending AI research papers from HuggingFace.
         month_name = month_file.stem
         with open(month_file, "r", encoding="utf-8") as f:
             count = len(json.load(f))
-        readme += f"- **{month_name}**: [{count} papers](data/monthly/{month_name}.json)\n"
+        readme += f"| 🗓️ {month_name} | {count} | [View JSON](data/monthly/{month_name}.json) |\n"
     
-    # Footer
+    # Features section
     readme += """
+---
+
+## ✨ Features
+
+- 🔄 **Automated Daily Updates** - Runs every day at midnight UTC
+- 📊 **Comprehensive Data** - Abstracts, authors, links, and metadata
+- 🗄️ **Historical Archives** - Daily, weekly, and monthly snapshots
+- 🔗 **Direct Links** - arXiv, PDF, GitHub repos, and HuggingFace pages
+- 📈 **Trending Papers** - Star counts and popularity metrics
+- 💾 **JSON Format** - Easy to parse and integrate into your projects
+- 🎨 **Clean Interface** - Beautiful, organized README
 
 ---
 
-## 🔄 Update Schedule
+## 🚀 Usage
 
-This repository automatically updates daily at 00:00 UTC with the latest AI papers from HuggingFace.
+### View Papers
+
+- **Latest Papers**: Check this README (updated daily)
+- **JSON Data**: Download from [`data/latest.json`](data/latest.json)
+- **Historical Data**: Browse the [`data/`](data/) directory
+
+### Integrate Into Your Project
+
+```python
+import requests
+
+# Get latest papers
+response = requests.get('https://raw.githubusercontent.com/yourusername/daily-ai-papers/main/data/latest.json')
+papers = response.json()
+
+for paper in papers:
+    print(f"Title: {paper['title']}")
+    print(f"arXiv: {paper['details']['arxiv_page_url']}")
+    print(f"PDF: {paper['details']['pdf_url']}")
+```
+
+### Use as RSS Alternative
+
+Monitor this repo for daily AI paper updates:
+- ⭐ Star this repository
+- 👀 Watch for notifications
+- 🔔 Enable "All Activity" for daily updates
+
+---
+
+## 📊 Data Structure
+
+```
+data/
+├── daily/              # Individual day snapshots
+│   ├── 2024-12-04.json
+│   ├── 2024-12-05.json
+│   └── ...
+├── weekly/             # Cumulative weekly papers
+│   ├── 2024-W48.json
+│   └── ...
+├── monthly/            # Cumulative monthly papers
+│   ├── 2024-12.json
+│   └── ...
+└── latest.json         # Most recent scrape
+```
+
+### JSON Schema
+
+```json
+{
+  "title": "Paper Title",
+  "paper_url": "https://huggingface.co/papers/...",
+  "authors": ["Author 1", "Author 2"],
+  "stars": "42",
+  "scraped_date": "2024-12-04",
+  "details": {
+    "abstract": "Paper abstract...",
+    "arxiv_page_url": "https://arxiv.org/abs/...",
+    "pdf_url": "https://arxiv.org/pdf/...",
+    "github_links": ["https://github.com/..."],
+    "metadata": {}
+  }
+}
+```
+
+---
 
 ## 🛠️ How It Works
 
 This repository uses:
-- **Crawl4AI** for web scraping
-- **GitHub Actions** for daily automation
-- **Python** for data processing
-- **Organized archives** by day, week, and month
 
-## 📊 Data Structure
-```
-data/
-├── daily/          # Individual day snapshots
-│   ├── 2024-12-04.json
-│   ├── 2024-12-05.json
-│   └── ...
-├── weekly/         # Cumulative weekly papers
-│   ├── 2024-W48.json
-│   ├── 2024-W49.json
-│   └── ...
-├── monthly/        # Cumulative monthly papers
-│   ├── 2024-12.json
-│   └── ...
-└── latest.json     # Always the most recent scrape
-```
+- **[Crawl4AI](https://github.com/unclecode/crawl4ai)** - Modern web scraping framework
+- **[BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/)** - HTML parsing
+- **[GitHub Actions](https://github.com/features/actions)** - Automated daily runs
+- **Python 3.11+** - Data processing and generation
 
-## 📝 License
+### Workflow
 
-MIT License - feel free to use this data for your own projects!
+1. 🕐 GitHub Actions triggers at 00:00 UTC daily
+2. 🔍 Scrapes HuggingFace Papers page
+3. 📥 Downloads detailed info for each paper
+4. 💾 Saves to daily/weekly/monthly archives
+5. 📝 Generates this beautiful README
+6. ✅ Commits and pushes updates
 
 ---
 
-*Generated by [Daily AI Papers Bot](https://github.com/yourusername/daily-ai-papers)*
+## 🤝 Contributing
+
+Found a bug or have a feature request? 
+
+- 🐛 [Report Issues](https://github.com/yourusername/daily-ai-papers/issues)
+- 💡 [Submit Ideas](https://github.com/yourusername/daily-ai-papers/discussions)
+- 🔧 [Pull Requests Welcome](https://github.com/yourusername/daily-ai-papers/pulls)
+
+---
+
+## 📜 License
+
+MIT License - feel free to use this data for your own projects!
+
+See [LICENSE](LICENSE) for more details.
+
+---
+
+## 🌟 Star History
+
+If you find this useful, please consider giving it a star! ⭐
+
+[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/daily-ai-papers&type=Date)](https://star-history.com/#yourusername/daily-ai-papers&Date)
+
+---
+
+## 📬 Contact & Support
+
+- 💬 [GitHub Discussions](https://github.com/yourusername/daily-ai-papers/discussions)
+- 🐛 [Issue Tracker](https://github.com/yourusername/daily-ai-papers/issues)
+- ⭐ Don't forget to star this repo!
+
+---
+
+<div align="center">
+
+**Made with ❤️ by the AI Community**
+
+[⬆ Back to Top](#-daily-ai-papers)
+
+</div>
 """
     
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme)
     
-    print("✅ Generated README.md")
+    print("✅ Generated enhanced README.md")
 
 
 if __name__ == "__main__":
