@@ -1,0 +1,38 @@
+name: Daily AI Papers Scraper
+
+on:
+  schedule:
+    # Run every day at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install crawl4ai beautifulsoup4 playwright
+        playwright install chromium
+        
+    - name: Run scraper
+      run: python scraper.py
+      
+    - name: Commit and push if changed
+      run: |
+        git config --global user.name 'AI Papers Bot'
+        git config --global user.email 'bot@github.com'
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Update papers: ${timestamp}" || exit 0
+        git push
