@@ -2,8 +2,9 @@ from crawl4ai import AsyncWebCrawler
 from bs4 import BeautifulSoup
 import asyncio
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
+from collections import defaultdict
 
 BASE_URL = "https://huggingface.co"
 
@@ -125,29 +126,116 @@ async def scrape_hf_papers():
         return all_papers
 
 
-def save_to_json(data, filename="data/papers.json"):
-    """Save scraped data to JSON file"""
-    Path("data").mkdir(exist_ok=True)
-    with open(filename, "w", encoding="utf-8") as f:
+def save_to_json(data):
+    """Save scraped data with daily, weekly, and monthly archives"""
+    today = datetime.now()
+    today_str = today.strftime("%Y-%m-%d")
+    week_str = today.strftime("%Y-W%W")  # Week number
+    month_str = today.strftime("%Y-%m")
+    
+    # Create archive directories
+    Path("data/daily").mkdir(parents=True, exist_ok=True)
+    Path("data/weekly").mkdir(parents=True, exist_ok=True)
+    Path("data/monthly").mkdir(parents=True, exist_ok=True)
+    
+    # Add scrape date to each paper
+    for paper in data:
+        paper["scraped_date"] = today_str
+    
+    # Save daily snapshot
+    daily_file = f"data/daily/{today_str}.json"
+    with open(daily_file, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
-    print(f"\n✅ Saved {len(data)} papers to {filename}")
+    print(f"✅ Saved daily snapshot: {daily_file}")
+    
+    # Save/update weekly archive
+    weekly_file = f"data/weekly/{week_str}.json"
+    weekly_data = []
+    if Path(weekly_file).exists():
+        with open(weekly_file, "r", encoding="utf-8") as f:
+            weekly_data = json.load(f)
+    weekly_data.extend(data)
+    with open(weekly_file, "w", encoding="utf-8") as f:
+        json.dump(weekly_data, f, indent=2, ensure_ascii=False)
+    print(f"✅ Updated weekly archive: {weekly_file} (Total: {len(weekly_data)} papers)")
+    
+    # Save/update monthly archive
+    monthly_file = f"data/monthly/{month_str}.json"
+    monthly_data = []
+    if Path(monthly_file).exists():
+        with open(monthly_file, "r", encoding="utf-8") as f:
+            monthly_data = json.load(f)
+    monthly_data.extend(data)
+    with open(monthly_file, "w", encoding="utf-8") as f:
+        json.dump(monthly_data, f, indent=2, ensure_ascii=False)
+    print(f"✅ Updated monthly archive: {monthly_file} (Total: {len(monthly_data)} papers)")
+    
+    # Save latest for easy access
+    with open("data/latest.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+    print(f"✅ Saved latest papers: data/latest.json")
+
+
+def load_recent_papers(days=7):
+    """Load papers from the last N days"""
+    papers = []
+    today = datetime.now()
+    
+    for i in range(days):
+        date = (today - timedelta(days=i)).strftime("%Y-%m-%d")
+        daily_file = f"data/daily/{date}.json"
+        
+        if Path(daily_file).exists():
+            with open(daily_file, "r", encoding="utf-8") as f:
+                daily_papers = json.load(f)
+                papers.extend(daily_papers)
+    
+    return papers
 
 
 def generate_readme(papers):
-    """Generate README.md from scraped papers"""
-    today = datetime.now().strftime("%Y-%m-%d")
+    """Generate README.md with today's papers and archive info"""
+    today = datetime.now()
+    today_str = today.strftime("%Y-%m-%d")
+    week_str = today.strftime("%Y-W%W")
+    month_str = today.strftime("%Y-%m")
+    
+    # Load week and month totals
+    weekly_file = f"data/weekly/{week_str}.json"
+    monthly_file = f"data/monthly/{month_str}.json"
+    
+    weekly_count = 0
+    if Path(weekly_file).exists():
+        with open(weekly_file, "r", encoding="utf-8") as f:
+            weekly_count = len(json.load(f))
+    
+    monthly_count = 0
+    if Path(monthly_file).exists():
+        with open(monthly_file, "r", encoding="utf-8") as f:
+            monthly_count = len(json.load(f))
     
     readme = f"""# 🤖 Daily AI Papers
 
 Automatically updated list of trending AI research papers from HuggingFace.
 
-**Last Updated:** {today}
+**Last Updated:** {today_str}
 
-**Total Papers:** {len(papers)}
+## 📊 Statistics
+
+- **Today's Papers:** {len(papers)}
+- **This Week:** {weekly_count} papers
+- **This Month:** {monthly_count} papers
+
+## 📁 Archives
+
+- **Daily:** [`data/daily/{today_str}.json`](data/daily/{today_str}.json)
+- **Weekly:** [`data/weekly/{week_str}.json`](data/weekly/{week_str}.json)
+- **Monthly:** [`data/monthly/{month_str}.json`](data/monthly/{month_str}.json)
+- **Latest:** [`data/latest.json`](data/latest.json)
 
 ---
 
-## 📚 Today's Papers
+## 📚 Today's Papers ({today_str})
 
 """
     
@@ -201,15 +289,50 @@ Automatically updated list of trending AI research papers from HuggingFace.
         readme += f"**Abstract:** {abstract}\n\n"
         readme += "---\n\n"
     
+    # Archive section
+    readme += """
+## 📅 Historical Data
+
+### Recent Days
+"""
+    
+    # List last 7 days
+    for i in range(7):
+        date = (today - timedelta(days=i)).strftime("%Y-%m-%d")
+        daily_file = f"data/daily/{date}.json"
+        if Path(daily_file).exists():
+            with open(daily_file, "r", encoding="utf-8") as f:
+                count = len(json.load(f))
+            readme += f"- **{date}**: [{count} papers](data/daily/{date}.json)\n"
+    
+    readme += "\n### Weekly Archives\n"
+    
+    # List available weeks
+    weekly_files = sorted(Path("data/weekly").glob("*.json"), reverse=True)
+    for week_file in weekly_files[:4]:  # Last 4 weeks
+        week_name = week_file.stem
+        with open(week_file, "r", encoding="utf-8") as f:
+            count = len(json.load(f))
+        readme += f"- **{week_name}**: [{count} papers](data/weekly/{week_name}.json)\n"
+    
+    readme += "\n### Monthly Archives\n"
+    
+    # List available months
+    monthly_files = sorted(Path("data/monthly").glob("*.json"), reverse=True)
+    for month_file in monthly_files[:6]:  # Last 6 months
+        month_name = month_file.stem
+        with open(month_file, "r", encoding="utf-8") as f:
+            count = len(json.load(f))
+        readme += f"- **{month_name}**: [{count} papers](data/monthly/{month_name}.json)\n"
+    
     # Footer
     readme += """
+
+---
+
 ## 🔄 Update Schedule
 
 This repository automatically updates daily at 00:00 UTC with the latest AI papers from HuggingFace.
-
-## 📊 Data
-
-All paper data is stored in JSON format in the [`data/papers.json`](data/papers.json) file.
 
 ## 🛠️ How It Works
 
@@ -217,6 +340,24 @@ This repository uses:
 - **Crawl4AI** for web scraping
 - **GitHub Actions** for daily automation
 - **Python** for data processing
+- **Organized archives** by day, week, and month
+
+## 📊 Data Structure
+```
+data/
+├── daily/          # Individual day snapshots
+│   ├── 2024-12-04.json
+│   ├── 2024-12-05.json
+│   └── ...
+├── weekly/         # Cumulative weekly papers
+│   ├── 2024-W48.json
+│   ├── 2024-W49.json
+│   └── ...
+├── monthly/        # Cumulative monthly papers
+│   ├── 2024-12.json
+│   └── ...
+└── latest.json     # Always the most recent scrape
+```
 
 ## 📝 License
 
@@ -231,6 +372,7 @@ MIT License - feel free to use this data for your own projects!
         f.write(readme)
     
     print("✅ Generated README.md")
+
 
 if __name__ == "__main__":
     print("Starting daily AI papers scraper...")
