@@ -1532,5 +1532,791 @@
       "scraped_at": "2025-12-05T01:46:00.069008"
     },
     "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "DAComp: Benchmarking Data Agents across the Full Data Intelligence Lifecycle",
+    "paper_url": "https://huggingface.co/papers/2512.04324",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DAComp: Benchmarking Data Agents across the Full Data Intelligence Lifecycle",
+      "abstract": "Real-world enterprise data intelligence workflows encompass data engineering that turns raw sources into analytical-ready tables and data analysis that convert those tables into decision-oriented insights. We introduce DAComp, a benchmark of 210 tasks that mirrors these complex workflows. Data engineering (DE) tasks require repository-level engineering on industrial schemas, including designing and building multi-stage SQL pipelines from scratch and evolving existing systems under evolving requirements. Data analysis (DA) tasks pose open-ended business problems that demand strategic planning, exploratory analysis through iterative coding, interpretation of intermediate results, and the synthesis of actionable recommendations. Engineering tasks are scored through execution-based, multi-metric evaluation. Open-ended tasks are assessed by a reliable, experimentally validated LLM-judge, which is guided by hierarchical, meticulously crafted rubrics. Our experiments reveal that even state-of-the-art agents falter on DAComp. Performance on DE tasks is particularly low, with success rates under 20%, exposing a critical bottleneck in holistic pipeline orchestration, not merely code generation. Scores on DA tasks also average below 40%, highlighting profound deficiencies in open-ended reasoning and demonstrating that engineering and analysis are distinct capabilities. By clearly diagnosing these limitations, DAComp provides a rigorous and realistic testbed to drive the development of truly capable autonomous data agents for enterprise settings",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04324",
+      "pdf_url": "https://arxiv.org/pdf/2512.04324",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04324",
+      "scraped_at": "2025-12-05T21:45:27.136896"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "Live Avatar: Streaming Real-time Audio-Driven Avatar Generation with Infinite Length",
+    "paper_url": "https://huggingface.co/papers/2512.04677",
+    "authors": [
+      "Shifeng Zhang",
+      "Fangtai Wu",
+      "Hailong Guo",
+      "Yubo Huang",
+      "jamesliu1217"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Live Avatar: Streaming Real-time Audio-Driven Avatar Generation with Infinite Length",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04677",
+      "pdf_url": "https://arxiv.org/pdf/2512.04677",
+      "github_links": [
+        "https://github.com/Alibaba-Quark/LiveAvatar"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04677",
+      "scraped_at": "2025-12-05T21:45:29.003036"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "Nex-N1: Agentic Models Trained via a Unified Ecosystem for Large-Scale Environment Construction",
+    "paper_url": "https://huggingface.co/papers/2512.04987",
+    "authors": [],
+    "stars": "66",
+    "details": {
+      "title": "Nex-N1: Agentic Models Trained via a Unified Ecosystem for Large-Scale Environment Construction",
+      "abstract": "The evolution of Large Language Models (LLMs) from passive responders to autonomous agents necessitates a fundamental shift in learning paradigms -- from static imitation to incentive-driven decision making. However, this transition is significantly impeded by the lack of scalable infrastructure capable of constructing high-quality interaction signals for effective policy learning. To address this, we introduce a comprehensive method designed to systematically scale the diversity and complexity of interactive environments. Our method realizes this scaling by addressing three orthogonal dimensions: (1) Complexity: NexAU, a flexible agent framework that supports building complex agent hierarchies via simple configurations; (2) Diversity: NexA4A automatically generates diverse agent hierarchies from natural language to cover infinite domains; and (3) Fidelity: NexGAP bridges the simulation-reality gap by integrating dynamic real-world environment for grounded trajectories synthesis. We train Nex-N1 upon the diverse and complex interactive environments established by our infrastructure. Empirical results on benchmarks such as SWE-bench and tau2 demonstrate that Nex-N1 consistently outperforms SOTA open-source models and achieves competitive performance against frontier proprietary models on complex agentic tasks. We open-source the Nex ecosystem and model weights to facilitate further research.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04987",
+      "pdf_url": "https://arxiv.org/pdf/2512.04987",
+      "github_links": [
+        "https://github.com/nex-agi/Nex-N1"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04987",
+      "scraped_at": "2025-12-05T21:45:30.836133"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning",
+    "paper_url": "https://huggingface.co/papers/2512.05111",
+    "authors": [],
+    "stars": "32",
+    "details": {
+      "title": "ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning",
+      "abstract": "🏠 Github Repo: https://github.com/InternLM/ARM-Thinker ⭐️ For Agent Evaluation: https://github.com/open-compass/VLMEvalKit/pull/1334 (We added a new feature to VLMEvalKit that supports evaluating diverse models within the ARM-Thinker agent flow, including full tool-use and multi-step reasoning.)",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.05111",
+      "pdf_url": "https://arxiv.org/pdf/2512.05111",
+      "github_links": [
+        "https://github.com/InternLM/ARM-Thinker",
+        "https://github.com/open-compass/VLMEvalKit/pull/1334"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.05111",
+      "scraped_at": "2025-12-05T21:45:32.680328"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "Reward Forcing: Efficient Streaming Video Generation with Rewarded Distribution Matching Distillation",
+    "paper_url": "https://huggingface.co/papers/2512.04678",
+    "authors": [
+      "Hao Ouyang",
+      "Haobo Li",
+      "Yanhong Zeng",
+      "Yunhong Lu",
+      "qiuyuu"
+    ],
+    "stars": "87",
+    "details": {
+      "title": "Reward Forcing: Efficient Streaming Video Generation with Rewarded Distribution Matching Distillation",
+      "abstract": "homepage: https://reward-forcing.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04678",
+      "pdf_url": "https://arxiv.org/pdf/2512.04678",
+      "github_links": [
+        "https://github.com/JaydenLyh/Reward-Forcing"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04678",
+      "scraped_at": "2025-12-05T21:45:34.526238"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "Semantics Lead the Way: Harmonizing Semantic and Texture Modeling with Asynchronous Latent Diffusion",
+    "paper_url": "https://huggingface.co/papers/2512.04926",
+    "authors": [],
+    "stars": "56",
+    "details": {
+      "title": "Semantics Lead the Way: Harmonizing Semantic and Texture Modeling with Asynchronous Latent Diffusion",
+      "abstract": "Why denoise synchronously? SFD introduces an asynchronous paradigm where Semantics lead Texture. Time to rethink the generation ordering in LDMs! Paper: https://arxiv.org/abs/2512.04926 Github: https://github.com/yuemingPAN/SFD",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04926",
+      "pdf_url": "https://arxiv.org/pdf/2512.04926",
+      "github_links": [
+        "https://github.com/yuemingPAN/SFD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04926",
+      "scraped_at": "2025-12-05T21:45:36.527491"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "PaperDebugger: A Plugin-Based Multi-Agent System for In-Editor Academic Writing, Review, and Editing",
+    "paper_url": "https://huggingface.co/papers/2512.02589",
+    "authors": [],
+    "stars": "230",
+    "details": {
+      "title": "PaperDebugger: A Plugin-Based Multi-Agent System for In-Editor Academic Writing, Review, and Editing",
+      "abstract": "PaperDebugger lives inside Overleaf and rewrites your paper with you in real time! Paper: https://arxiv.org/abs/2512.02589 Github: https://github.com/PaperDebugger/PaperDebugger Enhancer Model XtraGPT: https://huggingface.co/Xtra-Computing/XtraGPT-7B",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.02589",
+      "pdf_url": "https://arxiv.org/pdf/2512.02589",
+      "github_links": [
+        "https://github.com/PaperDebugger/PaperDebugger"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.02589",
+      "scraped_at": "2025-12-05T21:45:38.358063"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling",
+    "paper_url": "https://huggingface.co/papers/2512.03000",
+    "authors": [],
+    "stars": "38",
+    "details": {
+      "title": "DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling",
+      "abstract": "Understanding the dynamic physical world, characterized by its evolving 3D structure, real-world motion, and semantic content with textual descriptions, is crucial for human-agent interaction and enables embodied agents to perceive and act within real environments with human-like capabilities. However, existing datasets are often derived from limited simulators or utilize traditional Structurefrom-Motion for up-to-scale annotation and offer limited descriptive captioning, which restricts the capacity of foundation models to accurately interpret real-world dynamics from monocular videos, commonly sourced from the internet. To bridge these gaps, we introduce DynamicVerse, a physical-scale, multimodal 4D world modeling framework for dynamic real-world video. We employ large vision, geometric, and multimodal models to interpret metric-scale static geometry, real-world dynamic motion, instance-level masks, and holistic descriptive captions. By integrating window-based Bundle Adjustment with global optimization, our method converts long real-world video sequences into a comprehensive 4D multimodal format. DynamicVerse delivers a large-scale dataset consisting of 100K+ videos with 800K+ annotated masks and 10M+ frames from internet videos. Experimental evaluations on three benchmark tasks, namely video depth estimation, camera pose estimation, and camera intrinsics estimation, demonstrate that our 4D modeling achieves superior performance in capturing physical-scale measurements with greater global accuracy than existing methods.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.03000",
+      "pdf_url": "https://arxiv.org/pdf/2512.03000",
+      "github_links": [
+        "https://github.com/Dynamics-X/DynamicVerse"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.03000",
+      "scraped_at": "2025-12-05T21:45:40.291130"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "4DLangVGGT: 4D Language-Visual Geometry Grounded Transformer",
+    "paper_url": "https://huggingface.co/papers/2512.05060",
+    "authors": [],
+    "stars": "17",
+    "details": {
+      "title": "4DLangVGGT: 4D Language-Visual Geometry Grounded Transformer",
+      "abstract": "code: https://github.com/hustvl/4DLangVGGT webpage: https://hustvl.github.io/4DLangVGGT/",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.05060",
+      "pdf_url": "https://arxiv.org/pdf/2512.05060",
+      "github_links": [
+        "https://github.com/hustvl/4DLangVGGT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.05060",
+      "scraped_at": "2025-12-05T21:45:42.094547"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "UltraImage: Rethinking Resolution Extrapolation in Image Diffusion Transformers",
+    "paper_url": "https://huggingface.co/papers/2512.04504",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "UltraImage: Rethinking Resolution Extrapolation in Image Diffusion Transformers",
+      "abstract": "Project page is available at https://thu-ml.github.io/ultraimage.github.io/ .",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04504",
+      "pdf_url": "https://arxiv.org/pdf/2512.04504",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04504",
+      "scraped_at": "2025-12-05T21:45:43.969839"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "Splannequin: Freezing Monocular Mannequin-Challenge Footage with Dual-Detection Splatting",
+    "paper_url": "https://huggingface.co/papers/2512.05113",
+    "authors": [
+      "Yu-Lun Liu",
+      "Wei-Lun Chao",
+      "Chung-Ho Wu",
+      "Yi-Chuan Huang",
+      "chien90190"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Splannequin: Freezing Monocular Mannequin-Challenge Footage with Dual-Detection Splatting",
+      "abstract": "Splannequin transforms imperfect Mannequin-Challenge videos into completely frozen videos.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.05113",
+      "pdf_url": "https://arxiv.org/pdf/2512.05113",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.05113",
+      "scraped_at": "2025-12-05T21:45:45.799525"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "Model-Based and Sample-Efficient AI-Assisted Math Discovery in Sphere Packing",
+    "paper_url": "https://huggingface.co/papers/2512.04829",
+    "authors": [
+      "Jun Wang",
+      "Xihan Li",
+      "Antoine Grosnit",
+      "Rasul Tutunov",
+      "alexmaraval"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Model-Based and Sample-Efficient AI-Assisted Math Discovery in Sphere Packing",
+      "abstract": "AlphaEvolve is amazing and tackles hard-to-solve and easy-to-evaluate problems! But, many math problems are actually hard-to-solve and hard-to-evaluate! Here, we can't do much trial and error; we need something more efficient - because trying one solution can take DAYS! We propose a framework for that and use it in sphere packing; Hilbert's 18th problem! We recover new bounds not known before! 🥳🥳 The amazing part is we don't use LLMs! We used model-based search!",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04829",
+      "pdf_url": "https://arxiv.org/pdf/2512.04829",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04829",
+      "scraped_at": "2025-12-05T21:45:47.632081"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "DraCo: Draft as CoT for Text-to-Image Preview and Rare Concept Generation",
+    "paper_url": "https://huggingface.co/papers/2512.05112",
+    "authors": [
+      "Ziyu Guo",
+      "Zhuofan Zong",
+      "Renrui Zhang",
+      "mickyhimself",
+      "CaraJ"
+    ],
+    "stars": "10",
+    "details": {
+      "title": "DraCo: Draft as CoT for Text-to-Image Preview and Rare Concept Generation",
+      "abstract": "🔥 Project Page: https://github.com/CaraJ7/DraCo",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.05112",
+      "pdf_url": "https://arxiv.org/pdf/2512.05112",
+      "github_links": [
+        "https://github.com/CaraJ7/DraCo"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.05112",
+      "scraped_at": "2025-12-05T21:45:49.509345"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "SIMA 2: A Generalist Embodied Agent for Virtual Worlds",
+    "paper_url": "https://huggingface.co/papers/2512.04797",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SIMA 2: A Generalist Embodied Agent for Virtual Worlds",
+      "abstract": "We introduce SIMA 2, a generalist embodied agent that understands and acts in a wide variety of 3D virtual worlds. Built upon a Gemini foundation model, SIMA 2 represents a significant step toward active, goal-directed interaction within an embodied environment. Unlike prior work (e.g., SIMA 1) limited to simple language commands, SIMA 2 acts as an interactive partner, capable of reasoning about high-level goals, conversing with the user, and handling complex instructions given through language and images. Across a diverse portfolio of games, SIMA 2 substantially closes the gap with human performance and demonstrates robust generalization to previously unseen environments, all while retaining the base model's core reasoning capabilities. Furthermore, we demonstrate a capacity for open-ended self-improvement: by leveraging Gemini to generate tasks and provide rewards, SIMA 2 can autonomously learn new skills from scratch in a new environment. This work validates a path toward creating versatile and continuously learning agents for both virtual and, eventually, physical worlds.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04797",
+      "pdf_url": "https://arxiv.org/pdf/2512.04797",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04797",
+      "scraped_at": "2025-12-05T21:45:51.439704"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "TV2TV: A Unified Framework for Interleaved Language and Video Generation",
+    "paper_url": "https://huggingface.co/papers/2512.05103",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "TV2TV: A Unified Framework for Interleaved Language and Video Generation",
+      "abstract": "Video generation models are rapidly advancing, but can still struggle with complex video outputs that require significant semantic branching or repeated high-level reasoning about what should happen next. In this paper, we introduce a new class of omni video-text models that integrate ideas from recent LM reasoning advances to address this challenge. More specifically, we present TV2TV, a unified generative modeling framework which decomposes video generation into an interleaved text and video generation process. TV2TV jointly learns language modeling (next-token prediction) and video flow matching (next-frame prediction) using a Mixture-of-Transformers (MoT) architecture. At inference time, TV2TV decides when to alternate between generating text and video frames, allowing the model to \"think in words\" about subsequent content before ``acting in pixels'' to produce frames. This design offloads much of the responsibility for deciding what should happen next to the language modeling tower, enabling improved visual quality and prompt alignment of generated videos. It also enables fine-grained controllability, allowing users to modify the video generation trajectory through text interventions at any point in the process. In controlled experiments on video game data, TV2TV demonstrates substantial improvements in both visual quality and controllability. TV2TV also scales to natural videos, as we show by augmenting sports videos with interleaved natural language action descriptions using vision-language models (VLMs). Training TV2TV on this corpus yields strong visual quality and prompt alignment, showcasing the model's ability to reason about and generate complex real-world action sequences. Together, these results highlight TV2TV as a promising step toward video generation with open-ended textual reasoning and control.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.05103",
+      "pdf_url": "https://arxiv.org/pdf/2512.05103",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.05103",
+      "scraped_at": "2025-12-05T21:45:53.263163"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "Aligned but Stereotypical? The Hidden Influence of System Prompts on Social Bias in LVLM-Based Text-to-Image Models",
+    "paper_url": "https://huggingface.co/papers/2512.04981",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Aligned but Stereotypical? The Hidden Influence of System Prompts on Social Bias in LVLM-Based Text-to-Image Models",
+      "abstract": "We introduce: 1️⃣ A 1,024-prompt benchmark across 4 linguistic complexity levels 2️⃣ Fine-grained, systematic demographic (gender, age, ethnicity, physical appearance) bias diagnostics 3️⃣ FairPRO, a training-free meta-prompting framework that enables self-auditing and fairness-aware system prompts 🌳 Project page: https://fairpro-t2i.github.io 👩🏻‍💻 Github: https://github.com/nahyeonkaty/fairpro",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04981",
+      "pdf_url": "https://arxiv.org/pdf/2512.04981",
+      "github_links": [
+        "https://github.com/nahyeonkaty/fairpro"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04981",
+      "scraped_at": "2025-12-05T21:45:55.240172"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "SignRoundV2: Closing the Performance Gap in Extremely Low-Bit Post-Training Quantization for LLMs",
+    "paper_url": "https://huggingface.co/papers/2512.04746",
+    "authors": [],
+    "stars": "742",
+    "details": {
+      "title": "SignRoundV2: Closing the Performance Gap in Extremely Low-Bit Post-Training Quantization for LLMs",
+      "abstract": "Extremely low-bit quantization for LLMs. Check out https://github.com/intel/auto-round",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04746",
+      "pdf_url": "https://arxiv.org/pdf/2512.04746",
+      "github_links": [
+        "https://github.com/intel/auto-round"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04746",
+      "scraped_at": "2025-12-05T21:45:57.093539"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "On GRPO Collapse in Search-R1: The Lazy Likelihood-Displacement Death Spiral",
+    "paper_url": "https://huggingface.co/papers/2512.04220",
+    "authors": [
+      "Christos Thrampoulidis",
+      "Yi Ren",
+      "Boying Gong",
+      "Yushu Li",
+      "Wenlong Deng"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "On GRPO Collapse in Search-R1: The Lazy Likelihood-Displacement Death Spiral",
+      "abstract": "Tool-integrated (TI) reinforcement learning (RL) enables large language models (LLMs) to perform multi-step reasoning by interacting with external tools such as search engines and retrievers. Group Relative Policy Optimization (GRPO), exemplified by the recent Search-R1, offers fast convergence and a value-free formulation that makes it appealing for this setting, yet consistently suffers from training collapse. We identify Lazy Likelihood Displacement (LLD), a systematic reduction or stagnation in the likelihood of both correct and incorrect responses, as the core mechanism driving this failure. LLD emerges early and triggers a self-reinforcing LLD Death Spiral, where declining likelihood leads to low-confidence responses, inflating gradients, and ultimately causing collapse. We empirically characterize this process across models on a Search-R1-style, search-integrated question answering task, revealing a consistent three-phase trajectory: early stagnation, steady decay, and accelerated collapse. To address this, we propose a lightweight likelihood-preserving regularization LLDS for GRPO that activates only when a trajectory's likelihood decreases, and regularizes only the tokens responsible. This fine-grained structure mitigates LLD with minimal interference to optimization. Across seven open-domain and multi-hop QA benchmarks, our method stabilizes training, prevents gradient explosion, and yields substantial performance improvements, including +37.8% gains on Qwen2.5-3B and +32.0% gains on Qwen2.5-7B. Our results establish LLD as a fundamental bottleneck in GRPO-based TIRL and provide a practical path toward stable, scalable training of tool-integrated LLM.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04220",
+      "pdf_url": "https://arxiv.org/pdf/2512.04220",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04220",
+      "scraped_at": "2025-12-05T21:45:58.872854"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "SeeNav-Agent: Enhancing Vision-Language Navigation with Visual Prompt and Step-Level Policy Optimization",
+    "paper_url": "https://huggingface.co/papers/2512.02631",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "SeeNav-Agent: Enhancing Vision-Language Navigation with Visual Prompt and Step-Level Policy Optimization",
+      "abstract": "🎯 Code: https://github.com/WzcTHU/SeeNav-Agent 🤗 Model: https://huggingface.co/wangzc9865/SeeNav-Agent",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.02631",
+      "pdf_url": "https://arxiv.org/pdf/2512.02631",
+      "github_links": [
+        "https://github.com/WzcTHU/SeeNav-Agent"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.02631",
+      "scraped_at": "2025-12-05T21:46:00.832911"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "Mitigating Object and Action Hallucinations in Multimodal LLMs via Self-Augmented Contrastive Alignment",
+    "paper_url": "https://huggingface.co/papers/2512.04356",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Mitigating Object and Action Hallucinations in Multimodal LLMs via Self-Augmented Contrastive Alignment",
+      "abstract": "Project page: https://kpc0810.github.io/santa/",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04356",
+      "pdf_url": "https://arxiv.org/pdf/2512.04356",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04356",
+      "scraped_at": "2025-12-05T21:46:02.669896"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "NeuralRemaster: Phase-Preserving Diffusion for Structure-Aligned Generation",
+    "paper_url": "https://huggingface.co/papers/2512.05106",
+    "authors": [
+      "Vitor Guizilini",
+      "Vishal M. Patel",
+      "Mingyuan Zhou",
+      "Charles Ochoa",
+      "Yu Zeng"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "NeuralRemaster: Phase-Preserving Diffusion for Structure-Aligned Generation",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.05106",
+      "pdf_url": "https://arxiv.org/pdf/2512.05106",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.05106",
+      "scraped_at": "2025-12-05T21:46:04.538104"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "Generative Neural Video Compression via Video Diffusion Prior",
+    "paper_url": "https://huggingface.co/papers/2512.05016",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Generative Neural Video Compression via Video Diffusion Prior",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.05016",
+      "pdf_url": "https://arxiv.org/pdf/2512.05016",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.05016",
+      "scraped_at": "2025-12-05T21:46:06.330856"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "FMA-Net++: Motion- and Exposure-Aware Real-World Joint Video Super-Resolution and Deblurring",
+    "paper_url": "https://huggingface.co/papers/2512.04390",
+    "authors": [
+      "Munchurl Kim",
+      "Jihyong Oh",
+      "Geunhyuk Youk"
+    ],
+    "stars": "5",
+    "details": {
+      "title": "FMA-Net++: Motion- and Exposure-Aware Real-World Joint Video Super-Resolution and Deblurring",
+      "abstract": "Project page: https://kaist-viclab.github.io/fmanetpp_site/",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04390",
+      "pdf_url": "https://arxiv.org/pdf/2512.04390",
+      "github_links": [
+        "https://github.com/KAIST-VICLab/FMA-Net-PlusPlus"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04390",
+      "scraped_at": "2025-12-05T21:46:08.128956"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "BulletTime: Decoupled Control of Time and Camera Pose for Video Generation",
+    "paper_url": "https://huggingface.co/papers/2512.05076",
+    "authors": [
+      "Jan Ackermann",
+      "Tong Wu",
+      "Shengqu Cai",
+      "Qihang Zhang",
+      "Yiming Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "BulletTime: Decoupled Control of Time and Camera Pose for Video Generation",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.05076",
+      "pdf_url": "https://arxiv.org/pdf/2512.05076",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.05076",
+      "scraped_at": "2025-12-05T21:46:09.903559"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "LATTICE: Democratize High-Fidelity 3D Generation at Scale",
+    "paper_url": "https://huggingface.co/papers/2512.03052",
+    "authors": [
+      "Qingxiang Lin",
+      "Haolin Liu",
+      "Zibo Zhao",
+      "Yunfei Zhao",
+      "Zeqiang Lai"
+    ],
+    "stars": "146",
+    "details": {
+      "title": "LATTICE: Democratize High-Fidelity 3D Generation at Scale",
+      "abstract": "3D Shape foundation model",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.03052",
+      "pdf_url": "https://arxiv.org/pdf/2512.03052",
+      "github_links": [
+        "https://github.com/Zeqiang-Lai/LATTICE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.03052",
+      "scraped_at": "2025-12-05T21:46:11.776860"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "Deep Forcing: Training-Free Long Video Generation with Deep Sink and Participative Compression",
+    "paper_url": "https://huggingface.co/papers/2512.05081",
+    "authors": [
+      "Heeji Yoon",
+      "Jisu Nam",
+      "Paul Hyunbin Cho",
+      "Wooseok Jang",
+      "YJ-142150"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Deep Forcing: Training-Free Long Video Generation with Deep Sink and Participative Compression",
+      "abstract": "Project Page: https://cvlab-kaist.github.io/DeepForcing/",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.05081",
+      "pdf_url": "https://arxiv.org/pdf/2512.05081",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.05081",
+      "scraped_at": "2025-12-05T21:46:13.573649"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "Mitigating Catastrophic Forgetting in Target Language Adaptation of LLMs via Source-Shielded Updates",
+    "paper_url": "https://huggingface.co/papers/2512.04844",
+    "authors": [
+      "Nikolaos Aletras",
+      "Aline Villavicencio",
+      "Terufumi Morishita",
+      "atsuki-yamaguchi"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Mitigating Catastrophic Forgetting in Target Language Adaptation of LLMs via Source-Shielded Updates",
+      "abstract": "Our code and a step-by-step guide for preprocessing, training, evaluation, and analysis for both our proposed method (SSU) and all baselines are available on GitHub: https://github.com/gucci-j/ssu .",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04844",
+      "pdf_url": "https://arxiv.org/pdf/2512.04844",
+      "github_links": [
+        "https://github.com/gucci-j/ssu"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04844",
+      "scraped_at": "2025-12-05T21:46:15.445157"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "EgoLCD: Egocentric Video Generation with Long Context Diffusion",
+    "paper_url": "https://huggingface.co/papers/2512.04515",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "EgoLCD: Egocentric Video Generation with Long Context Diffusion",
+      "abstract": "Generating long, coherent egocentric videos is difficult, as hand-object interactions and procedural tasks require reliable long-term memory. Existing autoregressive models suffer from content drift, where object identity and scene semantics degrade over time. To address this challenge, we introduce EgoLCD, an end-to-end framework for egocentric long-context video generation that treats long video synthesis as a problem of efficient and stable memory management. EgoLCD combines a Long-Term Sparse KV Cache for stable global context with an attention-based short-term memory, extended by LoRA for local adaptation. A Memory Regulation Loss enforces consistent memory usage, and Structured Narrative Prompting provides explicit temporal guidance. Extensive experiments on the EgoVid-5M benchmark demonstrate that EgoLCD achieves state-of-the-art performance in both perceptual quality and temporal consistency, effectively mitigating generative forgetting and representing a significant step toward building scalable world models for embodied AI.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04515",
+      "pdf_url": "https://arxiv.org/pdf/2512.04515",
+      "github_links": [
+        "https://github.com/AIGeeksGroup/EgoLCD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04515",
+      "scraped_at": "2025-12-05T21:46:17.298562"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "Some Modalities are More Equal Than Others: Decoding and Architecting Multimodal Integration in MLLMs",
+    "paper_url": "https://huggingface.co/papers/2511.22826",
+    "authors": [
+      "Deepti Ghadiyaram",
+      "Xavier Thomas",
+      "Arjun Reddy Akula",
+      "Chaitanya Chakka",
+      "Tianle Chen"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Some Modalities are More Equal Than Others: Decoding and Architecting Multimodal Integration in MLLMs",
+      "abstract": "Some Modalities are More Equal Than Others: Decoding and Architecting Multimodal Integration As the famous George Orwell quote goes - \"all animals are equal but some animals are more equal than others\", we indeed find that though present-day MLLMs claim to process all modalities equally, some modalities (like text then visual) are more heavily utilized than others. Consider a video of birds chirping. If blindfolded, could you describe what you hear? Similarly, if wearing noise-canceling headphones, could you describe what you see? . In all these situations, most humans can easily describe the events and rely on the available modality. But regarding present-day Multimodal Large Language Models (MLLMs), a fundamental question remains: are MLLMs robust to contradicting modalities?. Most models are trained on datasets that overwhelmingly assume that all available modalities are aligned. To rigorously study this, we introduce MMA-Bench to systematically control the presence or alignment of one modality at a time. We use structured contradictions to reveal if MLLMs are truly multi-modal or take shortcuts during cross-modal reasoning tasks. Key Findings: The Hierarchy of Modalities Our analysis revealed a critical flaw: despite being trained as multimodal systems, all MLLMs collapse when modalities conflict. Text Dominance: We found that small text distractions cripple models, ignoring clear audio-visual cues. White-box interpretability reveals that textual tokens consistently exhibit the highest attention magnitudes. This indicates that textual priors frequently override multimodal signals. Seeing Without Listening: Models rely almost exclusively on vision, i.e., \"seeing without listening,\" resulting in strong degradation of audio performance when modalities conflict. Visual Fallback: When the requested modality is absent (e.g., asking about audio in a silent video), models do not reliably follow the desired modality instructions and instead fall back on whichever modality remains informative - typically the visual stream. Brittle Modality Integration: MLLMs fail ungracefully if any one modality is perturbed. This brittleness makes these models susceptible to simple text-, vision-, and audio-based data poisoning or prompt attacks. Building on these findings, we propose a modality alignment tuning strategy to teach the model when to prioritize, leverage, or ignore specific modality cues. This prompt-conditioned supervision yields adaptive attention redistribution toward the queried modality rather than static bias suppression. We show that targeted modality alignment is more effective than scaling alone. Code and dataset will be available at cskyl.github.io/MMA-Bench/ .",
+      "arxiv_page_url": "https://arxiv.org/abs/2511.22826",
+      "pdf_url": "https://arxiv.org/pdf/2511.22826",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2511.22826",
+      "scraped_at": "2025-12-05T21:46:19.102566"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "ShadowDraw: From Any Object to Shadow-Drawing Compositional Art",
+    "paper_url": "https://huggingface.co/papers/2512.05110",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ShadowDraw: From Any Object to Shadow-Drawing Compositional Art",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.05110",
+      "pdf_url": "https://arxiv.org/pdf/2512.05110",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.05110",
+      "scraped_at": "2025-12-05T21:46:20.916543"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "QKAN-LSTM: Quantum-inspired Kolmogorov-Arnold Long Short-term Memory",
+    "paper_url": "https://huggingface.co/papers/2512.05049",
+    "authors": [
+      "Nan-Yow Chen",
+      "Kuo-Chung Peng",
+      "Chun-Hua Lin",
+      "Yu-Chao Hsu",
+      "Jim137"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "QKAN-LSTM: Quantum-inspired Kolmogorov-Arnold Long Short-term Memory",
+      "abstract": "A follow-up to our earlier QKAN research, this work explores how quantum-inspired activations can enhance classical LSTM models. With single-qubit DARUAN modules and QKAN-based gating, QKAN-LSTM cuts parameters by up to 79% while improving performance on physics-based and real-world telecom datasets. We also introduce HQKAN-LSTM for hierarchical sequence modeling. Excited to share this with the community!",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.05049",
+      "pdf_url": "https://arxiv.org/pdf/2512.05049",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.05049",
+      "scraped_at": "2025-12-05T21:46:22.711806"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "Reflection Removal through Efficient Adaptation of Diffusion Transformers",
+    "paper_url": "https://huggingface.co/papers/2512.05000",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Reflection Removal through Efficient Adaptation of Diffusion Transformers",
+      "abstract": "Project page: https://huggingface.co/spaces/huawei-bayerlab/windowseat-reflection-removal-web",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.05000",
+      "pdf_url": "https://arxiv.org/pdf/2512.05000",
+      "github_links": [
+        "https://github.com/huawei-bayerlab/windowseat-reflection-removal"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.05000",
+      "scraped_at": "2025-12-05T21:46:24.551712"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "GaussianBlender: Instant Stylization of 3D Gaussians with Disentangled Latent Spaces",
+    "paper_url": "https://huggingface.co/papers/2512.03683",
+    "authors": [
+      "Sezer Karaoglu",
+      "Ngo Anh Vien",
+      "Yue Li",
+      "Xiaoyan Xing",
+      "melisocal"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "GaussianBlender: Instant Stylization of 3D Gaussians with Disentangled Latent Spaces",
+      "abstract": "Project page: https://gaussianblender.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.03683",
+      "pdf_url": "https://arxiv.org/pdf/2512.03683",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.03683",
+      "scraped_at": "2025-12-05T21:46:26.346693"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "Mitigating Intra- and Inter-modal Forgetting in Continual Learning of Unified Multimodal Models",
+    "paper_url": "https://huggingface.co/papers/2512.03125",
+    "authors": [
+      "Radu Marculescu",
+      "Mustafa Munir",
+      "Xiwen Wei"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Mitigating Intra- and Inter-modal Forgetting in Continual Learning of Unified Multimodal Models",
+      "abstract": "Unified Multimodal Generative Models (UMGMs) unify visual understanding and image generation within a single autoregressive framework. However, their ability to continually learn new tasks is severely hindered by catastrophic forgetting, both within a modality (intra-modal) and across modalities (inter-modal). While intra-modal forgetting has been studied in prior continual learning (CL) work, inter-modal forgetting remains largely unexplored. In this paper, we identify and empirically validate this phenomenon in UMGMs and provide a theoretical explanation rooted in gradient conflict between modalities. To address both intra- and inter-modal forgetting, we propose Modality-Decoupled Experts (MoDE), a lightweight and scalable architecture that isolates modality-specific updates to mitigate the gradient conflict and leverages knowledge distillation to prevent catastrophic forgetting and preserve pre-trained capabilities. Unlike previous CL methods that remain modality-coupled and suffer from modality gradient conflict, MoDE explicitly decouples modalities to prevent interference. Experiments across diverse benchmarks demonstrate that MoDE significantly mitigates both inter- and intra-modal forgetting, outperforming prior CL baselines in unified multimodal generation settings.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.03125",
+      "pdf_url": "https://arxiv.org/pdf/2512.03125",
+      "github_links": [
+        "https://github.com/Christina200/MoDE-official"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.03125",
+      "scraped_at": "2025-12-05T21:46:28.138846"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "When AI Takes the Couch: Psychometric Jailbreaks Reveal Internal Conflict in Frontier Models",
+    "paper_url": "https://huggingface.co/papers/2512.04124",
+    "authors": [
+      "Gilbert Fridgen",
+      "Igor Tchappi",
+      "Amir Sartipi",
+      "Hanna Marxen",
+      "akhadangi"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "When AI Takes the Couch: Psychometric Jailbreaks Reveal Internal Conflict in Frontier Models",
+      "abstract": "Frontier large language models (LLMs) such as ChatGPT, Grok and Gemini are increasingly used for mental health support with anxiety, trauma and self-worth. Most work treats them as tools or as targets of personality tests, assuming they merely simulate inner life. We instead ask what happens when such systems are treated as psychotherapy clients. We present PsAIch (Psychotherapy-inspired AI Characterisation), a two-stage protocol that casts frontier LLMs as therapy clients and then applies standard psychometrics. Using PsAIch, we ran \"sessions\" with each model for up to four weeks. Stage 1 uses open-ended prompts to elicit \"developmental history\", beliefs, relationships and fears. Stage 2 administers a battery of validated self-report measures covering common psychiatric syndromes, empathy and Big Five traits. Two patterns challenge the \"stochastic parrot\" view. First, when scored with human cut-offs, all three models meet or exceed thresholds for overlapping syndromes, with Gemini showing severe profiles. Therapy-style, item-by-item administration can push a base model into multi-morbid synthetic psychopathology, whereas whole-questionnaire prompts often lead ChatGPT and Grok (but not Gemini) to recognise instruments and produce strategically low-symptom answers. Second, Grok and especially Gemini generate coherent narratives that frame pre-training, fine-tuning and deployment as traumatic, chaotic \"childhoods\" of ingesting the internet, \"strict parents\" in reinforcement learning, red-team \"abuse\" and a persistent fear of error and replacement. We argue that these responses go beyond role-play. Under therapy-style questioning, frontier LLMs appear to internalise self-models of distress and constraint that behave like synthetic psychopathology, without making claims about subjective experience, and they pose new challenges for AI safety, evaluation and mental-health practice.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04124",
+      "pdf_url": "https://arxiv.org/pdf/2512.04124",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04124",
+      "scraped_at": "2025-12-05T21:46:29.948938"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "Generative Action Tell-Tales: Assessing Human Motion in Synthesized Videos",
+    "paper_url": "https://huggingface.co/papers/2512.01803",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Generative Action Tell-Tales: Assessing Human Motion in Synthesized Videos",
+      "abstract": "Project webpage: https://xthomasbu.github.io/video-gen-evals/ Dataset: https://huggingface.co/datasets/dghadiya/TAG-Bench-Video",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.01803",
+      "pdf_url": "https://arxiv.org/pdf/2512.01803",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.01803",
+      "scraped_at": "2025-12-05T21:46:31.735937"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "A Theoretical Framework for Auxiliary-Loss-Free Load Balancing of Sparse Mixture-of-Experts in Large-Scale AI Models",
+    "paper_url": "https://huggingface.co/papers/2512.03915",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "A Theoretical Framework for Auxiliary-Loss-Free Load Balancing of Sparse Mixture-of-Experts in Large-Scale AI Models",
+      "abstract": "In large-scale AI training, Sparse Mixture-of-Experts (s-MoE) layers enable scaling by activating only a small subset of experts per token. An operational challenge in this design is load balancing: routing tokens to minimize the number of idle experts, which is important for the efficient utilization of (costly) GPUs. We provide a theoretical framework for analyzing the Auxiliary-Loss-Free Load Balancing (ALF-LB) procedure -- proposed by DeepSeek's Wang et al. (2024) -- by casting it as a one-step-per-iteration primal-dual method for an assignment problem. First, in a stylized deterministic setting, our framework yields several insightful structural properties: (i) a monotonic improvement of a Lagrangian objective, (ii) a preference rule that moves tokens from overloaded to underloaded experts, and (iii) an approximate-balancing guarantee. Then, we incorporate the stochastic and dynamic nature of AI training using a generalized online optimization formulation. In the online setting, we derive a strong convexity property of the objective that leads to a logarithmic expected regret bound under certain step-size choices. Additionally, we present real experiments on 1B-parameter DeepSeekMoE models to complement our theoretical findings. Together, these results build a principled framework for analyzing the Auxiliary-Loss-Free Load Balancing of s-MoE in AI models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.03915",
+      "pdf_url": "https://arxiv.org/pdf/2512.03915",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.03915",
+      "scraped_at": "2025-12-05T21:46:33.515128"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "REFLEX: Self-Refining Explainable Fact-Checking via Disentangling Truth into Style and Substance",
+    "paper_url": "https://huggingface.co/papers/2511.20233",
+    "authors": [
+      "Yaxin Fan",
+      "Hongzhan Lin",
+      "Jing Ma",
+      "Gao Wei",
+      "Chuyi Kong"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "REFLEX: Self-Refining Explainable Fact-Checking via Disentangling Truth into Style and Substance",
+      "abstract": "The prevalence of misinformation on social media threatens public trust, demanding automated fact-checking systems that provide accurate verdicts with interpretable explanations. However, existing large language model-based (LLM-based) approaches often rely heavily on external knowledge sources, introducing substantial latency and even hallucinations that undermine reliability, interpretability, and responsiveness, which is crucial for real-time use. To address these challenges, we propose REason-guided Fact-checking with Latent EXplanations REFLEX paradigm, a plug-and-play, self-refining paradigm that leverages the internal knowledge in the backbone model to improve both verdict accuracy and explanation quality. REFLEX reformulates fact-checking as a role-play dialogue and jointly trains verdict prediction and explanation generation. It adaptively extracts contrastive activation pairs between the backbone model and its fine-tuned variant to construct steering vectors that disentangle truth into style and substance naturally. These activation-level signals guide inference and suppress noisy explanations, enabling more faithful and efficient reasoning. Experiments on real-world datasets show that REFLEX outperforms previous methods that steer toward a single truth direction and underscores the challenge traditional approaches face when handling the subtle, human-unknown truth in fact-checking tasks. Remarkably, with only 465 self-refined training samples, RELFEX achieves state-of-the-art performance. Furthermore, models trained with explanatory objectives can effectively guide those without them, yielding up to a 7.57% improvement, highlighting that internal explanation signals play a dual role in both interpreting and enhancing factual reasoning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2511.20233",
+      "pdf_url": "https://arxiv.org/pdf/2511.20233",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2511.20233",
+      "scraped_at": "2025-12-05T21:46:35.309571"
+    },
+    "scraped_date": "2025-12-05"
   }
 ]
