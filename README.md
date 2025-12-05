@@ -5,8 +5,8 @@
 ### 📊 Trending AI Research Papers from HuggingFace
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/yourusername/daily-ai-papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-24-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-24+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-25-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-49+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 **Automatically updated every day at 00:00 UTC** ⏰
@@ -21,14 +21,14 @@
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">24</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">48</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">48</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">24+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">25</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">73</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">73</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">49+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** December 04, 2025
+**Last Updated:** December 05, 2025
 
 ---
 
@@ -89,7 +89,20 @@
 </details>
 
 <details>
-<summary><b>5. OneThinker: All-in-one Reasoning Model for Image and Video</b> ⭐ 43</summary>
+<summary><b>5. SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL</b> ⭐ 1</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.04069) • [📄 arXiv](https://arxiv.org/abs/2512.04069) • [📥 PDF](https://arxiv.org/pdf/2512.04069)
+
+**💻 Code:** [⭐ Code](https://github.com/spacetools/SpaceTools)
+
+> TL;DR: SpaceTools empowers VLMs with vision and robotic tools for spatial reasoning via Double Interactive Reinforcement Learning (DIRL), enabled by our Toolshed infrastructure. Achieves state-of-the-art performance on spatial reasoning benchmarks...
+
+</details>
+
+<details>
+<summary><b>6. OneThinker: All-in-one Reasoning Model for Image and Video</b> ⭐ 43</summary>
 
 <br/>
 
@@ -100,19 +113,6 @@
 **💻 Code:** [⭐ Code](https://github.com/tulerfeng/OneThinker)
 
 > Project page: https://github.com/tulerfeng/OneThinker
-
-</details>
-
-<details>
-<summary><b>6. SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL</b> ⭐ 1</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.04069) • [📄 arXiv](https://arxiv.org/abs/2512.04069) • [📥 PDF](https://arxiv.org/pdf/2512.04069)
-
-**💻 Code:** [⭐ Code](https://github.com/spacetools/SpaceTools)
-
-> TL;DR: SpaceTools empowers VLMs with vision and robotic tools for spatial reasoning via Double Interactive Reinforcement Learning (DIRL), enabled by our Toolshed infrastructure. Achieves state-of-the-art performance on spatial reasoning benchmarks...
 
 </details>
 
@@ -151,7 +151,7 @@
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.03746) • [📄 arXiv](https://arxiv.org/abs/2512.03746) • [📥 PDF](https://arxiv.org/pdf/2512.03746)
 
-> No abstract available.
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API CodeV: Code with Images for Faithful Visual Reasoning via Tool-Aware Policy...
 
 </details>
 
@@ -169,7 +169,33 @@
 </details>
 
 <details>
-<summary><b>11. SR-GRPO: Stable Rank as an Intrinsic Geometric Reward for Large Language Model Alignment</b> ⭐ 0</summary>
+<summary><b>11. CookAnything: A Framework for Flexible and Consistent Multi-Step Recipe Image Generation</b> ⭐ 3</summary>
+
+<br/>
+
+**👥 Authors:** Yi Yao, Hongxia Xie, Bin Wen, Ruoxuan Zhang, twbear2024
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.03540) • [📄 arXiv](https://arxiv.org/abs/2512.03540) • [📥 PDF](https://arxiv.org/pdf/2512.03540)
+
+**💻 Code:** [⭐ Code](https://github.com/zhangdaxia22/CookAnything)
+
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API DCText: Scheduled Attention Masking for Visual Text Generation via Divide-a...
+
+</details>
+
+<details>
+<summary><b>12. AutoNeural: Co-Designing Vision-Language Models for NPU Inference</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.02924) • [📄 arXiv](https://arxiv.org/abs/2512.02924) • [📥 PDF](https://arxiv.org/pdf/2512.02924)
+
+> AutoNeural-VL-1.5B — the world's first real-time multimodal model built for in-car AI. It runs fully local on the Qualcomm SA8295P NPU with a software–hardware co-designed architecture, setting a new bar for speed and quality. AutoNeural redefines...
+
+</details>
+
+<details>
+<summary><b>13. SR-GRPO: Stable Rank as an Intrinsic Geometric Reward for Large Language Model Alignment</b> ⭐ 0</summary>
 
 <br/>
 
@@ -182,39 +208,13 @@
 </details>
 
 <details>
-<summary><b>12. Jina-VLM: Small Multilingual Vision Language Model</b> ⭐ 0</summary>
+<summary><b>14. Jina-VLM: Small Multilingual Vision Language Model</b> ⭐ 0</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.04032) • [📄 arXiv](https://arxiv.org/abs/2512.04032) • [📥 PDF](https://arxiv.org/pdf/2512.04032)
 
 > our latest multilingual vlm model at 2b size, about to release soon
-
-</details>
-
-<details>
-<summary><b>13. CookAnything: A Framework for Flexible and Consistent Multi-Step Recipe Image Generation</b> ⭐ 3</summary>
-
-<br/>
-
-**👥 Authors:** Yi Yao, Hongxia Xie, Bin Wen, Ruoxuan Zhang, twbear2024
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.03540) • [📄 arXiv](https://arxiv.org/abs/2512.03540) • [📥 PDF](https://arxiv.org/pdf/2512.03540)
-
-**💻 Code:** [⭐ Code](https://github.com/zhangdaxia22/CookAnything)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>14. AutoNeural: Co-Designing Vision-Language Models for NPU Inference</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.02924) • [📄 arXiv](https://arxiv.org/abs/2512.02924) • [📥 PDF](https://arxiv.org/pdf/2512.02924)
-
-> AutoNeural-VL-1.5B — the world's first real-time multimodal model built for in-car AI. It runs fully local on the Qualcomm SA8295P NPU with a software–hardware co-designed architecture, setting a new bar for speed and quality. AutoNeural redefines...
 
 </details>
 
@@ -230,46 +230,7 @@
 </details>
 
 <details>
-<summary><b>16. AlignBench: Benchmarking Fine-Grained Image-Text Alignment with Synthetic Image-Caption Pairs</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Tosho Hirasawa, Shohei Tanaka, Kuniaki Saito, yushiku, risashinoda
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2511.20515) • [📄 arXiv](https://arxiv.org/abs/2511.20515) • [📥 PDF](https://arxiv.org/pdf/2511.20515)
-
-> Assessing image-text alignment models such as CLIP is crucial for bridging visual and linguistic representations. Yet existing benchmarks rely on rule-based perturbations or short captions, limiting their ability to measure fine-grained alignment....
-
-</details>
-
-<details>
-<summary><b>17. SkillFactory: Self-Distillation For Learning Cognitive Behaviors</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Manya Wadhwa, Jack Lu, gregdurrett, sedrickkeh, Zaynes
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.04072) • [📄 arXiv](https://arxiv.org/abs/2512.04072) • [📥 PDF](https://arxiv.org/pdf/2512.04072)
-
-> SkillFactory: Self-Distillation For Learning Cognitive Behaviors
-
-</details>
-
-<details>
-<summary><b>18. In-Context Representation Hijacking</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** yossig, MichaelKar, aimir, tux
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.03771) • [📄 arXiv](https://arxiv.org/abs/2512.03771) • [📥 PDF](https://arxiv.org/pdf/2512.03771)
-
-> We introduce Doublespeak , a simple in-context representation hijacking attack against large language models (LLMs). The attack works by systematically replacing a harmful keyword (e.g., bomb ) with a benign token (e.g., carrot ) across multiple i...
-
-</details>
-
-<details>
-<summary><b>19. UniQL: Unified Quantization and Low-rank Compression for Adaptive Edge LLMs</b> ⭐ 4</summary>
+<summary><b>16. UniQL: Unified Quantization and Low-rank Compression for Adaptive Edge LLMs</b> ⭐ 4</summary>
 
 <br/>
 
@@ -282,7 +243,72 @@
 </details>
 
 <details>
-<summary><b>20. Divide, then Ground: Adapting Frame Selection to Query Types for Long-Form Video Understanding</b> ⭐ 1</summary>
+<summary><b>17. AlignBench: Benchmarking Fine-Grained Image-Text Alignment with Synthetic Image-Caption Pairs</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Tosho Hirasawa, Shohei Tanaka, Kuniaki Saito, yushiku, risashinoda
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2511.20515) • [📄 arXiv](https://arxiv.org/abs/2511.20515) • [📥 PDF](https://arxiv.org/pdf/2511.20515)
+
+> Assessing image-text alignment models such as CLIP is crucial for bridging visual and linguistic representations. Yet existing benchmarks rely on rule-based perturbations or short captions, limiting their ability to measure fine-grained alignment....
+
+</details>
+
+<details>
+<summary><b>18. SkillFactory: Self-Distillation For Learning Cognitive Behaviors</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Manya Wadhwa, Jack Lu, gregdurrett, sedrickkeh, Zaynes
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.04072) • [📄 arXiv](https://arxiv.org/abs/2512.04072) • [📥 PDF](https://arxiv.org/pdf/2512.04072)
+
+> SkillFactory: Self-Distillation For Learning Cognitive Behaviors
+
+</details>
+
+<details>
+<summary><b>19. BlurDM: A Blur Diffusion Model for Image Deblurring</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.03979) • [📄 arXiv](https://arxiv.org/abs/2512.03979) • [📥 PDF](https://arxiv.org/pdf/2512.03979)
+
+> We present a Blur Diffusion Model (BlurDM), which seamlessly integrates the blur formation process into diffusion for image deblurring. Observing that motion blur stems from continuous exposure, BlurDM implicitly models the blur formation process ...
+
+</details>
+
+<details>
+<summary><b>20. In-Context Representation Hijacking</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** yossig, MichaelKar, aimir, tux
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.03771) • [📄 arXiv](https://arxiv.org/abs/2512.03771) • [📥 PDF](https://arxiv.org/pdf/2512.03771)
+
+> We introduce Doublespeak , a simple in-context representation hijacking attack against large language models (LLMs). The attack works by systematically replacing a harmful keyword (e.g., bomb ) with a benign token (e.g., carrot ) across multiple i...
+
+</details>
+
+<details>
+<summary><b>21. PSA: Pyramid Sparse Attention for Efficient Video Understanding and Generation</b> ⭐ 4</summary>
+
+<br/>
+
+**👥 Authors:** Bohan Zhuang, Weijie Wang, Xi Lin, Youping Gu, Xiaolong Li
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.04025) • [📄 arXiv](https://arxiv.org/abs/2512.04025) • [📥 PDF](https://arxiv.org/pdf/2512.04025)
+
+**💻 Code:** [⭐ Code](https://github.com/ziplab/Pyramid-Sparse-Attention)
+
+> Attention mechanisms are the core of foundation models, but their quadratic complexity remains a critical bottleneck for scaling. This challenge has driven the development of efficient attention mechanisms, with sparsity emerging as the dominant p...
+
+</details>
+
+<details>
+<summary><b>22. Divide, then Ground: Adapting Frame Selection to Query Types for Long-Form Video Understanding</b> ⭐ 1</summary>
 
 <br/>
 
@@ -295,18 +321,7 @@
 </details>
 
 <details>
-<summary><b>21. BlurDM: A Blur Diffusion Model for Image Deblurring</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.03979) • [📄 arXiv](https://arxiv.org/abs/2512.03979) • [📥 PDF](https://arxiv.org/pdf/2512.03979)
-
-> We present a Blur Diffusion Model (BlurDM), which seamlessly integrates the blur formation process into diffusion for image deblurring. Observing that motion blur stems from continuous exposure, BlurDM implicitly models the blur formation process ...
-
-</details>
-
-<details>
-<summary><b>22. AdaptVision: Efficient Vision-Language Models via Adaptive Visual Acquisition</b> ⭐ 2</summary>
+<summary><b>23. AdaptVision: Efficient Vision-Language Models via Adaptive Visual Acquisition</b> ⭐ 2</summary>
 
 <br/>
 
@@ -319,7 +334,7 @@
 </details>
 
 <details>
-<summary><b>23. PosterCopilot: Toward Layout Reasoning and Controllable Editing for Professional Graphic Design</b> ⭐ 17</summary>
+<summary><b>24. PosterCopilot: Toward Layout Reasoning and Controllable Editing for Professional Graphic Design</b> ⭐ 17</summary>
 
 <br/>
 
@@ -334,7 +349,7 @@
 </details>
 
 <details>
-<summary><b>24. Adversarial Confusion Attack: Disrupting Multimodal Large Language Models</b> ⭐ 0</summary>
+<summary><b>25. Adversarial Confusion Attack: Disrupting Multimodal Large Language Models</b> ⭐ 0</summary>
 
 <br/>
 
@@ -354,28 +369,29 @@
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 24 |
-| 📅 Today | [`2025-12-04.json`](data/daily/2025-12-04.json) | 24 |
-| 📆 This Week | [`2025-W48.json`](data/weekly/2025-W48.json) | 48 |
-| 🗓️ This Month | [`2025-12.json`](data/monthly/2025-12.json) | 48 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 25 |
+| 📅 Today | [`2025-12-05.json`](data/daily/2025-12-05.json) | 25 |
+| 📆 This Week | [`2025-W48.json`](data/weekly/2025-W48.json) | 73 |
+| 🗓️ This Month | [`2025-12.json`](data/monthly/2025-12.json) | 73 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2025-12-04 | 24 | [View JSON](data/daily/2025-12-04.json) |
+| 📌 2025-12-05 | 25 | [View JSON](data/daily/2025-12-05.json) |
+| 📄 2025-12-04 | 24 | [View JSON](data/daily/2025-12-04.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2025-W48 | 48 | [View JSON](data/weekly/2025-W48.json) |
+| 📅 2025-W48 | 73 | [View JSON](data/weekly/2025-W48.json) |
 
 ### 🗂️ Monthly Archives
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2025-12 | 48 | [View JSON](data/monthly/2025-12.json) |
+| 🗓️ 2025-12 | 73 | [View JSON](data/monthly/2025-12.json) |
 
 ---
 

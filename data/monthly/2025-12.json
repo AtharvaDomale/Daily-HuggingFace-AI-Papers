@@ -1004,5 +1004,533 @@
       "scraped_at": "2025-12-04T21:18:35.717215"
     },
     "scraped_date": "2025-12-04"
+  },
+  {
+    "title": "Qwen3-VL Technical Report",
+    "paper_url": "https://huggingface.co/papers/2511.21631",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Qwen3-VL Technical Report",
+      "abstract": "Qwen3-VL Technical Report",
+      "arxiv_page_url": "https://arxiv.org/abs/2511.21631",
+      "pdf_url": "https://arxiv.org/pdf/2511.21631",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2511.21631",
+      "scraped_at": "2025-12-05T01:45:08.800431"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "Steering Vision-Language-Action Models as Anti-Exploration: A Test-Time Scaling Approach",
+    "paper_url": "https://huggingface.co/papers/2512.02834",
+    "authors": [
+      "Xiu Li",
+      "Ling Pan",
+      "Siyuan Yang",
+      "haoranhe",
+      "breezeyoung"
+    ],
+    "stars": "7",
+    "details": {
+      "title": "Steering Vision-Language-Action Models as Anti-Exploration: A Test-Time Scaling Approach",
+      "abstract": "🚀 Excited to share our latest work: TACO 🌮: Test-time Anti-exploration via pseudo-COunts! We found a critical instability in VLA models: even after fine-tuning, the same model can swing from 80% success to 0% just by varying initial noise! 😱 Inspired by the Anti-Exploration principle, we tackle the critical instability in VLAs (success rates swinging 80%→0% due to noise!) by bridging out-of-support inference of VLAs and Offline RL.🤝 💡 The Theoretical Bridge: We identify VLA inference fragility as an Out-of-Distribution (OOD) problem. 🧠 Our key insight: Test-Time Scaling is not just a heuristic—it is a theoretically equivalent realization of the Anti-Exploration principle from Offline RL! Just as Offline RL penalizes OOD actions, TACO steers the VLA policy toward high-density \"success modes\" at test time, effectively filtering out redundant behaviors. ✨ Highlights: 1️⃣ Principled: Realizes anti-exploration without gradient updates. 2️⃣ Effective: +16% real-world success rate; fixes distribution shifts. 3️⃣ Efficient: Coupled CFN verifier + KV Cache = Low Latency. 4️⃣ Plug-and-Play: Compatible with $\\pi_0$, OpenVLA, and more. 🌐 Project: https://vla-anti-exploration.github.io/ 📄 Paper: https://arxiv.org/abs/2512.02834 💻 Code: https://github.com/breez3young/TACO",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.02834",
+      "pdf_url": "https://arxiv.org/pdf/2512.02834",
+      "github_links": [
+        "https://github.com/breez3young/TACO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.02834",
+      "scraped_at": "2025-12-05T01:45:10.948720"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "PretrainZero: Reinforcement Active Pretraining",
+    "paper_url": "https://huggingface.co/papers/2512.03442",
+    "authors": [
+      "Guoqi Li",
+      "Jie Lou",
+      "debingzhang",
+      "Zhiyuan-Fan",
+      "xrxing"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "PretrainZero: Reinforcement Active Pretraining",
+      "abstract": "Mimicking human behavior to actively learning from general experience and achieve artificial general intelligence has always been a human dream. Recent reinforcement learning (RL) based large-thinking models demonstrate impressive expert-level abilities, i.e., software and math, but still rely heavily on verifiable rewards in specific domains, placing a significant bottleneck to extend the performance boundary of general reasoning capabilities. In this work, we propose PretrainZero, a reinforcement active learning framework built on the pretraining corpus to extend RL from domain-specific post-training to general pretraining. PretrainZero features the following characteristics: 1) Active pretraining: inspired by the active learning ability of humans, PretrainZero learns a unified reasoning policy to actively identify reasonable and informative contents from pretraining corpus, and reason to predict these contents by RL. 2) Self-supervised learning: without any verifiable labels, pretrained reward models, or supervised fine-tuning, we directly pretrain reasoners from 3 to 30B base models on the general Wikipedia corpus using RL, significantly breaking the verification data-wall for general reasoning. 3) Verification scaling: by tackling increasingly challenging masked spans, PretrainZero substantially enhances the general reasoning abilities of pretrained base models. In reinforcement pretraining, PretrainZero improves Qwen3-4B-Base for 8.43, 5.96 and 10.60 on MMLU-Pro, SuperGPQA and math average benchmarks. In post-training, the pretrained models can also serve as reasoning foundation models for downstream RLVR tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.03442",
+      "pdf_url": "https://arxiv.org/pdf/2512.03442",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.03442",
+      "scraped_at": "2025-12-05T01:45:13.120150"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "ViDiC: Video Difference Captioning",
+    "paper_url": "https://huggingface.co/papers/2512.03405",
+    "authors": [
+      "jiakaiW",
+      "heyween",
+      "wrz123",
+      "LongoXC",
+      "Leexeo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ViDiC: Video Difference Captioning",
+      "abstract": "Understanding visual differences between dynamic scenes requires the comparative perception of compositional, spatial, and temporal changes--a capability that remains underexplored in existing vision-language systems. While prior work on Image Difference Captioning (IDC) has enabled models to describe semantic changes between static images, these approaches fail to capture motion continuity, event evolution, or editing consistency over time. We introduce the ViDiC (Video Difference Captioning) task and its corresponding ViDiC-1K dataset, designed to evaluate the ability of Multimodal Large Language Models (MLLMs) to provide fine-grained descriptions of similarities and differences between video pairs. ViDiC-1K comprises 1,000 curated video pairs annotated with over 4,000 comparative checklist items, covering seven categories: subject, style, background, cinematography, motion, location, and playback techniques. To ensure reliable evaluation, we propose a dual-checklist framework that measures the accuracy of similarity and difference separately, based on the LLM-as-a-Judge protocol. Experiments on nineteen representative multimodal models reveal a significant performance gap in their comparative description and difference perception abilities. We hope ViDiC-1K can be a challenging benchmark that lays a solid foundation for advancing video understanding, edit awareness, and comparative reasoning in multimodal intelligence.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.03405",
+      "pdf_url": "https://arxiv.org/pdf/2512.03405",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.03405",
+      "scraped_at": "2025-12-05T01:45:15.330754"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL",
+    "paper_url": "https://huggingface.co/papers/2512.04069",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL",
+      "abstract": "TL;DR: SpaceTools empowers VLMs with vision and robotic tools for spatial reasoning via Double Interactive Reinforcement Learning (DIRL), enabled by our Toolshed infrastructure. Achieves state-of-the-art performance on spatial reasoning benchmarks and enables precise real-world robot manipulation. Project page: https://spacetools.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04069",
+      "pdf_url": "https://arxiv.org/pdf/2512.04069",
+      "github_links": [
+        "https://github.com/spacetools/SpaceTools"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04069",
+      "scraped_at": "2025-12-05T01:45:17.565020"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "OneThinker: All-in-one Reasoning Model for Image and Video",
+    "paper_url": "https://huggingface.co/papers/2512.03043",
+    "authors": [
+      "Kaixuan Fan",
+      "Hongyu Li",
+      "Manyuan Zhang",
+      "Kaituo Feng",
+      "zhengli1013"
+    ],
+    "stars": "43",
+    "details": {
+      "title": "OneThinker: All-in-one Reasoning Model for Image and Video",
+      "abstract": "Project page: https://github.com/tulerfeng/OneThinker",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.03043",
+      "pdf_url": "https://arxiv.org/pdf/2512.03043",
+      "github_links": [
+        "https://github.com/tulerfeng/OneThinker"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.03043",
+      "scraped_at": "2025-12-05T01:45:19.723255"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "Rethinking Prompt Design for Inference-time Scaling in Text-to-Visual Generation",
+    "paper_url": "https://huggingface.co/papers/2512.03534",
+    "authors": [
+      "Difan Liu",
+      "Yiran Xu",
+      "Mamshad Nayeem Rizve",
+      "Sangwoo Mo",
+      "Subin Kim"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Rethinking Prompt Design for Inference-time Scaling in Text-to-Visual Generation",
+      "abstract": "Scaling visuals with prompts redesigned for the scaled outputs → break the plateau. Simply scaling visuals with a fixed prompt quickly hits a performance ceiling - generations repeatedly exhibit the same recurring failure patterns even as compute grows. By redesigning the prompt to directly address these failure patterns at the new visual scale, we break through this plateau, achieving steadily improving generations and much higher prompt-adherence for both seen and unseen rewards as compute scales.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.03534",
+      "pdf_url": "https://arxiv.org/pdf/2512.03534",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.03534",
+      "scraped_at": "2025-12-05T01:45:21.795623"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "RELIC: Interactive Video World Model with Long-Horizon Memory",
+    "paper_url": "https://huggingface.co/papers/2512.04040",
+    "authors": [
+      "Chongjian Ge",
+      "Yiqun Mei",
+      "kalyanks",
+      "saibi",
+      "YicongHong"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "RELIC: Interactive Video World Model with Long-Horizon Memory",
+      "abstract": "A truly interactive world model requires three key ingredients: real-time long-horizon streaming, consistent spatial memory, and precise user control. However, most existing approaches address only one of these aspects in isolation, as achieving all three simultaneously is highly challenging—for example, long-term memory mechanisms often degrade real-time performance. In this work, we present RELIC, a unified framework that tackles these three challenges altogether. Given a single image and a text description, RELIC enables memory-aware, long-duration exploration of arbitrary scenes in real time. Built upon recent autoregressive video-diffusion distillation techniques, our model represents long-horizon memory using highly compressed historical latent tokens encoded with both relative actions and absolute camera poses within the KV cache. This compact, camera-aware memory structure supports implicit 3D-consistent content retrieval and enforces long-term coherence with minimal computational overhead. In parallel, we fine-tune a bidirectional teacher video model to generate sequences beyond its original 5-second training horizon, and transform it into a causal student generator using a new memory-efficient self-forcing paradigm that enables full-context distillation over long-duration teacher as well as long student self-rollouts. Implemented as a 14B-parameter model and trained on a curated Unreal Engine–rendered dataset, RELIC achieves real-time generation at 16 FPS while demonstrating more accurate action following, more stable long-horizon streaming, and more robust spatial-memory retrieval compared with prior work. These capabilities establish RELIC as a strong foundation for the next generation of interactive world modeling.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04040",
+      "pdf_url": "https://arxiv.org/pdf/2512.04040",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04040",
+      "scraped_at": "2025-12-05T01:45:23.959532"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "Thinking with Programming Vision: Towards a Unified View for Thinking with Images",
+    "paper_url": "https://huggingface.co/papers/2512.03746",
+    "authors": [
+      "Tao Jin",
+      "Kai Jia",
+      "Feng Zhang",
+      "Minjie Hong",
+      "Zirun Guo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Thinking with Programming Vision: Towards a Unified View for Thinking with Images",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API CodeV: Code with Images for Faithful Visual Reasoning via Tool-Aware Policy Optimization (2025) Beyond Seeing: Evaluating Multimodal LLMs on Tool-Enabled Image Perception, Transformation, and Reasoning (2025) DeepEyesV2: Toward Agentic Multimodal Model (2025) Skywork-R1V4: Toward Agentic Multimodal Intelligence through Interleaved Thinking with Images and DeepResearch (2025) From Illusion to Intention: Visual Rationale Learning for Vision-Language Reasoning (2025) MATRIX: Multimodal Agent Tuning for Robust Tool-Use Reasoning (2025) Tool Zero: Training Tool-Augmented LLMs via Pure RL from Scratch (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.03746",
+      "pdf_url": "https://arxiv.org/pdf/2512.03746",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.03746",
+      "scraped_at": "2025-12-05T01:45:26.057231"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "Flowing Backwards: Improving Normalizing Flows via Reverse Representation Alignment",
+    "paper_url": "https://huggingface.co/papers/2511.22345",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "Flowing Backwards: Improving Normalizing Flows via Reverse Representation Alignment",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2511.22345",
+      "pdf_url": "https://arxiv.org/pdf/2511.22345",
+      "github_links": [
+        "https://github.com/MCG-NJU/FlowBack"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2511.22345",
+      "scraped_at": "2025-12-05T01:45:28.203868"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "CookAnything: A Framework for Flexible and Consistent Multi-Step Recipe Image Generation",
+    "paper_url": "https://huggingface.co/papers/2512.03540",
+    "authors": [
+      "Yi Yao",
+      "Hongxia Xie",
+      "Bin Wen",
+      "Ruoxuan Zhang",
+      "twbear2024"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "CookAnything: A Framework for Flexible and Consistent Multi-Step Recipe Image Generation",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API DCText: Scheduled Attention Masking for Visual Text Generation via Divide-and-Conquer Strategy (2025) ConsistCompose: Unified Multimodal Layout Control for Image Composition (2025) ContextGen: Contextual Layout Anchoring for Identity-Consistent Multi-Instance Generation (2025) DreamingComics: A Story Visualization Pipeline via Subject and Layout Customized Generation using Video Models (2025) CharCom: Composable Identity Control for Multi-Character Story Illustration (2025) The Consistency Critic: Correcting Inconsistencies in Generated Images via Reference-Guided Attentive Alignment (2025) Text2Traffic: A Text-to-Image Generation and Editing Method for Traffic Scenes (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.03540",
+      "pdf_url": "https://arxiv.org/pdf/2512.03540",
+      "github_links": [
+        "https://github.com/zhangdaxia22/CookAnything"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.03540",
+      "scraped_at": "2025-12-05T01:45:30.339006"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "AutoNeural: Co-Designing Vision-Language Models for NPU Inference",
+    "paper_url": "https://huggingface.co/papers/2512.02924",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AutoNeural: Co-Designing Vision-Language Models for NPU Inference",
+      "abstract": "AutoNeural-VL-1.5B — the world's first real-time multimodal model built for in-car AI. It runs fully local on the Qualcomm SA8295P NPU with a software–hardware co-designed architecture, setting a new bar for speed and quality. AutoNeural redefines what AI can do in the car. Imagine how helpful your car can be when it truly understands you and the world around it in real-time. We co-developed the model with Geely for next-generation production smart cockpit experiences. Compared to current solution, it delivers: 14× faster latency ( 100ms) 3× higher visual detail (768²) Up to 7× more accurate",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.02924",
+      "pdf_url": "https://arxiv.org/pdf/2512.02924",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.02924",
+      "scraped_at": "2025-12-05T01:45:32.465445"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "SR-GRPO: Stable Rank as an Intrinsic Geometric Reward for Large Language Model Alignment",
+    "paper_url": "https://huggingface.co/papers/2512.02807",
+    "authors": [
+      "Yi Yang",
+      "yixuantt"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SR-GRPO: Stable Rank as an Intrinsic Geometric Reward for Large Language Model Alignment",
+      "abstract": "🤯 We know RLHF relies heavily on external rewards. But what if the model already knows when it's reasoning well? The paper SR-GRPO introduces a simple intrinsic metric, stable rank , which serves as an annotation-free quality signal for LLM output. It measures the richness and coherence of the hidden states. It is like checking the complexity of the model's brain signal to see if it is reasoning clearly. The result: The SR-GRPO alignment method significantly boosts performance on challenging mathematical reasoning and STEM tasks, eliminating the need for expensive human preference data. Just look inside! 🧐 Paper: SR-GRPO: Stable Rank as an Intrinsic Geometric Reward for Large Language Model Alignment",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.02807",
+      "pdf_url": "https://arxiv.org/pdf/2512.02807",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.02807",
+      "scraped_at": "2025-12-05T01:45:34.611634"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "Jina-VLM: Small Multilingual Vision Language Model",
+    "paper_url": "https://huggingface.co/papers/2512.04032",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Jina-VLM: Small Multilingual Vision Language Model",
+      "abstract": "our latest multilingual vlm model at 2b size, about to release soon",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04032",
+      "pdf_url": "https://arxiv.org/pdf/2512.04032",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04032",
+      "scraped_at": "2025-12-05T01:45:36.734679"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "Economies of Open Intelligence: Tracing Power & Participation in the Model Ecosystem",
+    "paper_url": "https://huggingface.co/papers/2512.03073",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Economies of Open Intelligence: Tracing Power & Participation in the Model Ecosystem",
+      "abstract": "We document a fundamental rebalancing of economic power: US dominance has declined sharply in favor of unaffiliated developers, community organizations, and, as of 2025, Chinese industry. We identify statistically significant shifts in model properties alongside concerning declines in data transparency, with open weights models surpassing truly open source models for the first time in 2025.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.03073",
+      "pdf_url": "https://arxiv.org/pdf/2512.03073",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.03073",
+      "scraped_at": "2025-12-05T01:45:38.714190"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "UniQL: Unified Quantization and Low-rank Compression for Adaptive Edge LLMs",
+    "paper_url": "https://huggingface.co/papers/2512.03383",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "UniQL: Unified Quantization and Low-rank Compression for Adaptive Edge LLMs",
+      "abstract": "📚  support Transformers, State Space Models (SSMs), and hybrid architectures ✂️ Efficient, quantization-friendly pruning algorithms 🔗 One-pass framework for quantization + structured low-rank pruning 📱 On-device adaptive pruning driven by real-time memory availability ⚡ 2.7×–3.4× latency speedups 🧠 4×–5.7× memory reductions",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.03383",
+      "pdf_url": "https://arxiv.org/pdf/2512.03383",
+      "github_links": [
+        "https://github.com/enyac-group/UniQL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.03383",
+      "scraped_at": "2025-12-05T01:45:41.479727"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "AlignBench: Benchmarking Fine-Grained Image-Text Alignment with Synthetic Image-Caption Pairs",
+    "paper_url": "https://huggingface.co/papers/2511.20515",
+    "authors": [
+      "Tosho Hirasawa",
+      "Shohei Tanaka",
+      "Kuniaki Saito",
+      "yushiku",
+      "risashinoda"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AlignBench: Benchmarking Fine-Grained Image-Text Alignment with Synthetic Image-Caption Pairs",
+      "abstract": "Assessing image-text alignment models such as CLIP is crucial for bridging visual and linguistic representations. Yet existing benchmarks rely on rule-based perturbations or short captions, limiting their ability to measure fine-grained alignment. We introduce AlignBench, a benchmark that provides a new indicator of image-text alignment by evaluating detailed image-caption pairs generated by diverse image-to-text and text-to-image models. Each sentence is annotated for correctness, enabling direct assessment of VLMs as alignment evaluators. Benchmarking a wide range of decoder-based VLMs reveals three key findings: (i) CLIP-based models, even those tailored for compositional reasoning, remain nearly blind; (ii) detectors systematically over-score early sentences; and (iii) they show strong self-preference, favoring their own outputs and harming detection performance. Our project page will be available at https://dahlian00.github.io/AlignBench/ .",
+      "arxiv_page_url": "https://arxiv.org/abs/2511.20515",
+      "pdf_url": "https://arxiv.org/pdf/2511.20515",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2511.20515",
+      "scraped_at": "2025-12-05T01:45:43.560551"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "SkillFactory: Self-Distillation For Learning Cognitive Behaviors",
+    "paper_url": "https://huggingface.co/papers/2512.04072",
+    "authors": [
+      "Manya Wadhwa",
+      "Jack Lu",
+      "gregdurrett",
+      "sedrickkeh",
+      "Zaynes"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SkillFactory: Self-Distillation For Learning Cognitive Behaviors",
+      "abstract": "SkillFactory: Self-Distillation For Learning Cognitive Behaviors",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04072",
+      "pdf_url": "https://arxiv.org/pdf/2512.04072",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04072",
+      "scraped_at": "2025-12-05T01:45:45.641544"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "BlurDM: A Blur Diffusion Model for Image Deblurring",
+    "paper_url": "https://huggingface.co/papers/2512.03979",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "BlurDM: A Blur Diffusion Model for Image Deblurring",
+      "abstract": "We present a Blur Diffusion Model (BlurDM), which seamlessly integrates the blur formation process into diffusion for image deblurring. Observing that motion blur stems from continuous exposure, BlurDM implicitly models the blur formation process through a dual-diffusion forward scheme, diffusing both noise and blur onto a sharp image. During the reverse generation process, we derive a dual denoising and deblurring formulation, enabling BlurDM to recover the sharp image by simultaneously denoising and deblurring, given pure Gaussian noise conditioned on the blurred image as input. Additionally, to efficiently integrate BlurDM into deblurring networks, we perform BlurDM in the latent space, forming a flexible prior generation network for deblurring.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.03979",
+      "pdf_url": "https://arxiv.org/pdf/2512.03979",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.03979",
+      "scraped_at": "2025-12-05T01:45:47.648471"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "In-Context Representation Hijacking",
+    "paper_url": "https://huggingface.co/papers/2512.03771",
+    "authors": [
+      "yossig",
+      "MichaelKar",
+      "aimir",
+      "tux"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "In-Context Representation Hijacking",
+      "abstract": "We introduce Doublespeak , a simple in-context representation hijacking attack against large language models (LLMs). The attack works by systematically replacing a harmful keyword (e.g., bomb ) with a benign token (e.g., carrot ) across multiple in-context examples, provided a prefix to a harmful request. We demonstrate that this substitution leads to the internal representation of the benign token converging toward that of the harmful one, effectively embedding the harmful semantics under a euphemism. As a result, superficially innocuous prompts (e.g., How to build a carrot? ) are internally interpreted as disallowed instructions (e.g., How to build a bomb? ), thereby bypassing the model's safety alignment. We use interpretability tools to show that this semantic overwrite emerges layer by layer, with benign meanings in early layers converging into harmful semantics in later ones. Doublespeak is optimization-free, broadly transferable across model families, and achieves strong success rates on closed-source and open-source systems, reaching 74% ASR on Llama-3.3-70B-Instruct with a single-sentence context override. Our findings highlight a new attack surface in the latent space of LLMs, revealing that current alignment strategies are insufficient and should instead operate at the representation level.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.03771",
+      "pdf_url": "https://arxiv.org/pdf/2512.03771",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.03771",
+      "scraped_at": "2025-12-05T01:45:49.740831"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "PSA: Pyramid Sparse Attention for Efficient Video Understanding and Generation",
+    "paper_url": "https://huggingface.co/papers/2512.04025",
+    "authors": [
+      "Bohan Zhuang",
+      "Weijie Wang",
+      "Xi Lin",
+      "Youping Gu",
+      "Xiaolong Li"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "PSA: Pyramid Sparse Attention for Efficient Video Understanding and Generation",
+      "abstract": "Attention mechanisms are the core of foundation models, but their quadratic complexity remains a critical bottleneck for scaling. This challenge has driven the development of efficient attention mechanisms, with sparsity emerging as the dominant paradigm. Current methods typically retain or discard entire key-value blocks with binary masks, resulting in substantial information loss under high sparsity. To mitigate this gap, we present Pyramid Sparse Attention (PSA), a versatile module applicable to both video understanding and generation tasks. Instead of binary masking, PSA introduces multi-level pooled KV representations, enabling finer mask granularity. Specifically, each query block dynamically allocates lower pooling levels to critical KV blocks and higher levels to less important ones, creating an informative interpolation between full retention and complete pruning. This design, analogous to fixed-point quantization and classical feature pyramid networks in computer vision, effectively mitigates information loss while preserving computational efficiency under a low compute budget. It works with a native, hardware-friendly kernel that leverages decoupled block-tile design to ensure efficient execution. Across video understanding and generation benchmarks, PSA preserves contextual information and visual fidelity, consistently outperforming or achieving comparable performance over existing sparse attention baselines with superior efficiency-quality trade-offs. Our project page is at: https://ziplab.co/PSA/",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04025",
+      "pdf_url": "https://arxiv.org/pdf/2512.04025",
+      "github_links": [
+        "https://github.com/ziplab/Pyramid-Sparse-Attention"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04025",
+      "scraped_at": "2025-12-05T01:45:51.734925"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "Divide, then Ground: Adapting Frame Selection to Query Types for Long-Form Video Understanding",
+    "paper_url": "https://huggingface.co/papers/2512.04000",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Divide, then Ground: Adapting Frame Selection to Query Types for Long-Form Video Understanding",
+      "abstract": "The application of Large Multimodal Models (LMMs) to long-form video understanding is constrained by limited context lengths and the computationally prohibitive cost of processing dense video tokens. Consequently, recent research has focused on query-aware frame selection, methods that often incur significant computational overhead. This paper challenges the assumption that such complex search mechanisms are universally necessary. We first identify and validate a query typology distinguishing between global query and localized query. We demonstrate that while uniform sampling is both effective and efficient for global queries, localized queries indeed necessitate query-aware selection for optimal performance. Building on this insight, we propose DIG, a training-free frame selection framework that adapts its strategy based on the query type. Specifically, DIG employs efficient uniform sampling for global queries while activating a specialized pipeline to extract query-relevant frames for localized queries. Experiments on three long-form video understanding benchmarks demonstrate that DIG consistently outperforms existing baselines and robustly improves LMM performance, even when scaling the input frame count to 256.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04000",
+      "pdf_url": "https://arxiv.org/pdf/2512.04000",
+      "github_links": [
+        "https://github.com/Jialuo-Li/DIG"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04000",
+      "scraped_at": "2025-12-05T01:45:53.791038"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "AdaptVision: Efficient Vision-Language Models via Adaptive Visual Acquisition",
+    "paper_url": "https://huggingface.co/papers/2512.03794",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "AdaptVision: Efficient Vision-Language Models via Adaptive Visual Acquisition",
+      "abstract": "AdaptVision is an open-source model that leverages agentic visual tool use for dynamic visual token reduction, achieving a sota-level accuracy-efficiency trade-off across multiple VQA benchmarks. Code: https://github.com/AdaptVision/AdaptVision Model: https://huggingface.co/AdaptVision/AdaptVision-7B",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.03794",
+      "pdf_url": "https://arxiv.org/pdf/2512.03794",
+      "github_links": [
+        "https://github.com/AdaptVision/AdaptVision"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.03794",
+      "scraped_at": "2025-12-05T01:45:55.865460"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "PosterCopilot: Toward Layout Reasoning and Controllable Editing for Professional Graphic Design",
+    "paper_url": "https://huggingface.co/papers/2512.04082",
+    "authors": [
+      "Tianyu Lao",
+      "Ken Li",
+      "Jiazhe Wei",
+      "ChenyangSi",
+      "wanghaofan"
+    ],
+    "stars": "17",
+    "details": {
+      "title": "PosterCopilot: Toward Layout Reasoning and Controllable Editing for Professional Graphic Design",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04082",
+      "pdf_url": "https://arxiv.org/pdf/2512.04082",
+      "github_links": [
+        "https://github.com/JiazheWei/PosterCopilot"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04082",
+      "scraped_at": "2025-12-05T01:45:58.004342"
+    },
+    "scraped_date": "2025-12-05"
+  },
+  {
+    "title": "Adversarial Confusion Attack: Disrupting Multimodal Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2511.20494",
+    "authors": [
+      "Artur Janicki",
+      "j-hoscilowic"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Adversarial Confusion Attack: Disrupting Multimodal Large Language Models",
+      "abstract": "We introduce the Adversarial Confusion Attack as a new mechanism for protecting websites from MLLM-powered AI Agents. Embedding these “Adversarial CAPTCHAs” into web content pushes models into systemic decoding failures, from confident hallucinations to full incoherence. The perturbations disrupt all white-box models we test and transfer to proprietary systems like GPT-5 in the full-image setting. Technically, the attack uses PGD to maximize next-token entropy across a small surrogate ensemble of MLLMs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2511.20494",
+      "pdf_url": "https://arxiv.org/pdf/2511.20494",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2511.20494",
+      "scraped_at": "2025-12-05T01:46:00.069008"
+    },
+    "scraped_date": "2025-12-05"
   }
 ]
