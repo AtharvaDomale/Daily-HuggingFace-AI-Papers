@@ -194,7 +194,7 @@ def load_recent_papers(days=7):
 
 
 def generate_readme(papers):
-    """Generate an attractive README.md with better design"""
+    """Generate an enhanced README.md with promotional content"""
     today = datetime.now()
     today_str = today.strftime("%Y-%m-%d")
     today_display = today.strftime("%B %d, %Y")
@@ -224,20 +224,129 @@ def generate_readme(papers):
     
     readme = f"""<div align="center">
 
-# 🤖 Daily AI Papers
+# 🤖 Daily HuggingFace AI Papers
 
-### 📊 Trending AI Research Papers from HuggingFace
+### 📊 Your Automated AI Research Companion
 
-[![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/yourusername/daily-ai-papers/actions)
+> **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
+
+[![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-{len(papers)}-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
 [![Total Papers](https://img.shields.io/badge/Total%20Papers-{total_papers}+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
 **Automatically updated every day at 00:00 UTC** ⏰
 
-[📊 View Data](data/) | [🔍 Latest Papers](data/latest.json) | [📅 Archives](#-historical-archives) | [⭐ Star This Repo](#)
+[📊 View Data](data/) | [🔍 Latest Papers](data/latest.json) | [📅 Archives](#-historical-archives) | [⭐ Star This Repo](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers)
 
 </div>
+
+---
+
+## 🎯 Why This Repo?
+
+- ✅ **Saves 30+ minutes** of daily paper hunting
+- ✅ **Organized archives** - daily, weekly, and monthly snapshots
+- ✅ **Direct links** to arXiv, PDFs, and GitHub repositories
+- ✅ **Machine-readable JSON** format for easy integration
+- ✅ **Zero maintenance** - fully automated via GitHub Actions
+- ✅ **Historical data** - track AI research trends over time
+
+---
+
+## 🚀 Who Is This For?
+
+<table>
+<tr>
+<td align="center">🔬<br/><b>Researchers</b><br/>Stay current with latest developments</td>
+<td align="center">💼<br/><b>ML Engineers</b><br/>Discover SOTA techniques</td>
+<td align="center">📚<br/><b>Students</b><br/>Learn from cutting-edge research</td>
+</tr>
+<tr>
+<td align="center">🏢<br/><b>Companies</b><br/>Track AI trends & competition</td>
+<td align="center">📰<br/><b>Content Creators</b><br/>Find topics for blogs & videos</td>
+<td align="center">🤖<br/><b>AI Enthusiasts</b><br/>Explore the latest in AI</td>
+</tr>
+</table>
+
+---
+
+## ⚡ Quick Start
+
+### 1️⃣ Get Today's Papers (cURL)
+
+```bash
+curl https://raw.githubusercontent.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/main/data/latest.json
+```
+
+### 2️⃣ Python Integration
+
+```python
+import requests
+import pandas as pd
+
+# Load latest papers
+url = "https://raw.githubusercontent.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/main/data/latest.json"
+papers = requests.get(url).json()
+
+# Convert to DataFrame for analysis
+df = pd.DataFrame(papers)
+print(f"📚 Today's papers: {{len(df)}}")
+
+# Filter by stars
+trending = df[df['stars'].astype(int) > 10]
+print(f"🔥 Trending papers: {{len(trending)}}")
+```
+
+### 3️⃣ JavaScript/Node.js
+
+```javascript
+const fetch = require('node-fetch');
+
+async function getTodaysPapers() {{
+  const response = await fetch(
+    'https://raw.githubusercontent.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/main/data/latest.json'
+  );
+  const papers = await response.json();
+  
+  console.log(`📚 Found ${{papers.length}} papers today!`);
+  papers.forEach(paper => {{
+    console.log(`\\n📄 ${{paper.title}}`);
+    console.log(`⭐ ${{paper.stars}} stars`);
+    console.log(`🔗 ${{paper.details.arxiv_page_url}}`);
+  }});
+}}
+
+getTodaysPapers();
+```
+
+### 4️⃣ Build Your Own Newsletter
+
+```python
+import requests
+from datetime import datetime
+
+def generate_weekly_digest():
+    # Load this week's papers
+    papers = requests.get(
+        "https://raw.githubusercontent.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/main/data/weekly/{week_str}.json"
+    ).json()
+    
+    # Sort by stars
+    papers.sort(key=lambda x: int(x['stars']), reverse=True)
+    
+    # Generate email content
+    email = f"# Top AI Papers This Week ({{datetime.now().strftime('%Y-%m-%d')}})\\n\\n"
+    
+    for i, paper in enumerate(papers[:10], 1):
+        email += f"{{i}}. **{{paper['title']}}** ⭐ {{paper['stars']}}\\n"
+        email += f"   {{paper['details']['arxiv_page_url']}}\\n\\n"
+    
+    return email
+
+print(generate_weekly_digest())
+```
 
 ---
 
@@ -350,70 +459,112 @@ def generate_readme(papers):
     readme += "|------|--------|------|\n"
     
     # List available weeks
-    weekly_files = sorted(Path("data/weekly").glob("*.json"), reverse=True)
-    for week_file in weekly_files[:4]:  # Last 4 weeks
-        week_name = week_file.stem
-        with open(week_file, "r", encoding="utf-8") as f:
-            count = len(json.load(f))
-        readme += f"| 📅 {week_name} | {count} | [View JSON](data/weekly/{week_name}.json) |\n"
+    if Path("data/weekly").exists():
+        weekly_files = sorted(Path("data/weekly").glob("*.json"), reverse=True)
+        for week_file in weekly_files[:4]:  # Last 4 weeks
+            week_name = week_file.stem
+            with open(week_file, "r", encoding="utf-8") as f:
+                count = len(json.load(f))
+            readme += f"| 📅 {week_name} | {count} | [View JSON](data/weekly/{week_name}.json) |\n"
     
     readme += "\n### 🗂️ Monthly Archives\n\n"
     readme += "| Month | Papers | Link |\n"
     readme += "|------|--------|------|\n"
     
     # List available months
-    monthly_files = sorted(Path("data/monthly").glob("*.json"), reverse=True)
-    for month_file in monthly_files[:6]:  # Last 6 months
-        month_name = month_file.stem
-        with open(month_file, "r", encoding="utf-8") as f:
-            count = len(json.load(f))
-        readme += f"| 🗓️ {month_name} | {count} | [View JSON](data/monthly/{month_name}.json) |\n"
+    if Path("data/monthly").exists():
+        monthly_files = sorted(Path("data/monthly").glob("*.json"), reverse=True)
+        for month_file in monthly_files[:6]:  # Last 6 months
+            month_name = month_file.stem
+            with open(month_file, "r", encoding="utf-8") as f:
+                count = len(json.load(f))
+            readme += f"| 🗓️ {month_name} | {count} | [View JSON](data/monthly/{month_name}.json) |\n"
     
-    # Features section
+    # Features section with enhanced content
     readme += """
 ---
 
 ## ✨ Features
 
-- 🔄 **Automated Daily Updates** - Runs every day at midnight UTC
-- 📊 **Comprehensive Data** - Abstracts, authors, links, and metadata
-- 🗄️ **Historical Archives** - Daily, weekly, and monthly snapshots
-- 🔗 **Direct Links** - arXiv, PDF, GitHub repos, and HuggingFace pages
-- 📈 **Trending Papers** - Star counts and popularity metrics
-- 💾 **JSON Format** - Easy to parse and integrate into your projects
-- 🎨 **Clean Interface** - Beautiful, organized README
+- 🔄 **Automated Daily Updates** - Runs every day at midnight UTC via GitHub Actions
+- 📊 **Comprehensive Data** - Full abstracts, author lists, and metadata for every paper
+- 🗄️ **Historical Archives** - Daily, weekly, and monthly snapshots for trend analysis
+- 🔗 **Direct Links** - Quick access to arXiv, PDFs, GitHub repos, and HuggingFace pages
+- 📈 **Trending Papers** - Star counts and popularity metrics to find hot research
+- 💾 **JSON Format** - Machine-readable format for easy integration into your projects
+- 🎨 **Beautiful README** - Clean, organized presentation updated automatically
+- 🔍 **Searchable Archives** - Easy to filter and find papers by date or topic
 
 ---
 
-## 🚀 Usage
+## 🚀 Usage Examples
 
 ### View Papers
 
-- **Latest Papers**: Check this README (updated daily)
-- **JSON Data**: Download from [`data/latest.json`](data/latest.json)
-- **Historical Data**: Browse the [`data/`](data/) directory
+- **📖 Latest Papers**: Check this README (updated daily at 00:00 UTC)
+- **📦 JSON Data**: Download from [`data/latest.json`](data/latest.json)
+- **📚 Historical Data**: Browse the [`data/`](data/) directory for archives
 
-### Integrate Into Your Project
+### Integrate Into Your Projects
+
+#### Python Example: Daily Digest Script
 
 ```python
 import requests
+from datetime import datetime
 
-# Get latest papers
-response = requests.get('https://raw.githubusercontent.com/yourusername/daily-ai-papers/main/data/latest.json')
-papers = response.json()
+# Fetch latest papers
+url = "https://raw.githubusercontent.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/main/data/latest.json"
+papers = requests.get(url).json()
 
-for paper in papers:
-    print(f"Title: {paper['title']}")
-    print(f"arXiv: {paper['details']['arxiv_page_url']}")
-    print(f"PDF: {paper['details']['pdf_url']}")
+# Filter papers with code
+papers_with_code = [p for p in papers if p['details'].get('github_links')]
+
+print(f"📊 Papers with code today: {{len(papers_with_code)}}")
+
+for paper in papers_with_code[:5]:
+    print(f"\\n📄 {{paper['title']}}")
+    print(f"⭐ {{paper['stars']}} stars")
+    print(f"🔗 {{paper['details']['arxiv_page_url']}}")
+    for repo in paper['details']['github_links'][:1]:
+        print(f"💻 {{repo}}")
+```
+
+#### Build a Research Tracker
+
+```python
+import requests
+import json
+
+def track_research_keywords(keywords):
+    """Find papers matching your research interests"""
+    papers = requests.get(
+        "https://raw.githubusercontent.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/main/data/latest.json"
+    ).json()
+    
+    matches = []
+    for paper in papers:
+        title = paper.get('title', '').lower()
+        abstract = paper.get('details', {}).get('abstract', '').lower()
+        
+        if any(keyword.lower() in title or keyword.lower() in abstract 
+               for keyword in keywords):
+            matches.append(paper)
+    
+    return matches
+
+# Example usage
+llm_papers = track_research_keywords(['llm', 'language model', 'gpt', 'transformer'])
+print(f"Found {{len(llm_papers)}} papers about LLMs today!")
 ```
 
 ### Use as RSS Alternative
 
 Monitor this repo for daily AI paper updates:
-- ⭐ Star this repository
-- 👀 Watch for notifications
-- 🔔 Enable "All Activity" for daily updates
+- ⭐ **Star this repository** to show your support
+- 👀 **Watch** → Custom → Check "Releases" for notifications
+- 🔔 Enable **"All Activity"** to get notified of every daily update
+- 📧 Subscribe to GitHub notifications for commits
 
 ---
 
@@ -431,57 +582,94 @@ data/
 ├── monthly/            # Cumulative monthly papers
 │   ├── 2024-12.json
 │   └── ...
-└── latest.json         # Most recent scrape
+└── latest.json         # Most recent scrape (always current)
 ```
 
 ### JSON Schema
 
 ```json
-{
+{{
   "title": "Paper Title",
   "paper_url": "https://huggingface.co/papers/...",
   "authors": ["Author 1", "Author 2"],
   "stars": "42",
   "scraped_date": "2024-12-04",
-  "details": {
-    "abstract": "Paper abstract...",
+  "details": {{
+    "abstract": "Full paper abstract...",
     "arxiv_page_url": "https://arxiv.org/abs/...",
     "pdf_url": "https://arxiv.org/pdf/...",
     "github_links": ["https://github.com/..."],
-    "metadata": {}
-  }
-}
+    "metadata": {{}},
+    "scraped_at": "2024-12-04T00:15:30"
+  }}
+}}
 ```
 
 ---
 
 ## 🛠️ How It Works
 
-This repository uses:
+This repository uses modern Python tools to provide reliable, automated paper tracking:
 
-- **[Crawl4AI](https://github.com/unclecode/crawl4ai)** - Modern web scraping framework
-- **[BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/)** - HTML parsing
-- **[GitHub Actions](https://github.com/features/actions)** - Automated daily runs
-- **Python 3.11+** - Data processing and generation
+**Technology Stack:**
+- 🤖 **[Crawl4AI](https://github.com/unclecode/crawl4ai)** - Advanced web scraping framework
+- 🍜 **[BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/)** - HTML parsing and extraction
+- ⚙️ **[GitHub Actions](https://github.com/features/actions)** - Automated daily execution
+- 🐍 **Python 3.11+** - Data processing and JSON generation
 
-### Workflow
+### Daily Workflow
 
-1. 🕐 GitHub Actions triggers at 00:00 UTC daily
-2. 🔍 Scrapes HuggingFace Papers page
-3. 📥 Downloads detailed info for each paper
-4. 💾 Saves to daily/weekly/monthly archives
-5. 📝 Generates this beautiful README
-6. ✅ Commits and pushes updates
+1. 🕐 **Trigger**: GitHub Actions runs at 00:00 UTC daily
+2. 🔍 **Scrape**: Fetches HuggingFace Papers trending page
+3. 📥 **Extract**: Downloads detailed info for each paper (abstracts, links, metadata)
+4. 💾 **Archive**: Saves to daily/weekly/monthly JSON files
+5. 📝 **Generate**: Creates this beautiful, updated README
+6. ✅ **Commit**: Automatically commits and pushes changes
+
+### Why This Approach?
+
+- ✅ **Reliable**: No manual updates needed, runs automatically
+- ✅ **Complete**: Captures full paper details, not just titles
+- ✅ **Organized**: Structured archives make trend analysis easy
+- ✅ **Accessible**: JSON format works with any programming language
+- ✅ **Transparent**: All code is open source and auditable
 
 ---
 
 ## 🤝 Contributing
 
-Found a bug or have a feature request? 
+We welcome contributions! Here's how you can help:
 
-- 🐛 [Report Issues](https://github.com/yourusername/daily-ai-papers/issues)
-- 💡 [Submit Ideas](https://github.com/yourusername/daily-ai-papers/discussions)
-- 🔧 [Pull Requests Welcome](https://github.com/yourusername/daily-ai-papers/pulls)
+### Ways to Contribute
+
+- 🐛 **Report Bugs**: [Open an issue](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/issues) for any problems you find
+- 💡 **Feature Requests**: [Share your ideas](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/discussions) for new features
+- 🔧 **Code Contributions**: [Submit a PR](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/pulls) with improvements
+- 📖 **Documentation**: Help improve README or add examples
+- ⭐ **Spread the Word**: Star the repo and share with colleagues!
+
+### Development Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers.git
+cd Daily-HuggingFace-AI-Papers
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the scraper
+python scraper.py
+```
+
+### Ideas for Contributions
+
+- Add paper categorization (NLP, CV, RL, etc.)
+- Create visualization scripts for trends
+- Build a simple search API
+- Add RSS feed generation
+- Create browser extension
+- Add email notification system
 
 ---
 
@@ -489,7 +677,13 @@ Found a bug or have a feature request?
 
 MIT License - feel free to use this data for your own projects!
 
-See [LICENSE](LICENSE) for more details.
+This means you can:
+- ✅ Use commercially
+- ✅ Modify and distribute
+- ✅ Use privately
+- ✅ No warranty provided
+
+See [LICENSE](LICENSE) for full details.
 
 ---
 
@@ -497,36 +691,69 @@ See [LICENSE](LICENSE) for more details.
 
 If you find this useful, please consider giving it a star! ⭐
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/daily-ai-papers&type=Date)](https://star-history.com/#yourusername/daily-ai-papers&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=AtharvaDomale/Daily-HuggingFace-AI-Papers&type=Date)](https://star-history.com/#AtharvaDomale/Daily-HuggingFace-AI-Papers&Date)
 
 ---
 
-## 📬 Contact & Support
+## 💬 Community & Support
 
-- 💬 [GitHub Discussions](https://github.com/yourusername/daily-ai-papers/discussions)
-- 🐛 [Issue Tracker](https://github.com/yourusername/daily-ai-papers/issues)
-- ⭐ Don't forget to star this repo!
+### Get Help
+
+- 📖 **Documentation**: Check this README first
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/discussions) for questions
+- 🐛 **Bug Reports**: [Issue Tracker](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/issues)
+
+### Stay Updated
+
+- ⭐ Star this repo to stay in the loop
+- 👀 Watch for new features and updates
+- 🐦 Follow [@AtharvaDomale](https://github.com/AtharvaDomale) for project updates
 
 ---
 
-<div align="center">
+## ❓ FAQ
 
-**Made with ❤️ by the AI Community**
+<details>
+<summary><b>How often is this updated?</b></summary>
+<br/>
+Every day at 00:00 UTC via GitHub Actions. You'll always have the latest papers from HuggingFace!
+</details>
 
-[⬆ Back to Top](#-daily-ai-papers)
+<details>
+<summary><b>Can I use this data in my project?</b></summary>
+<br/>
+Yes! It's MIT licensed. Use it for research, apps, newsletters, or anything else. Just maintain the license notice.
+</details>
 
-</div>
-"""
-    
-    with open("README.md", "w", encoding="utf-8") as f:
-        f.write(readme)
-    
-    print("✅ Generated enhanced README.md")
+<details>
+<summary><b>How do I get notified of updates?</b></summary>
+<br/>
+Star & Watch this repo, or use RSS feeds via GitHub's built-in functionality. You can also write a script to check the JSON daily.
+</details>
 
+<details>
+<summary><b>Why HuggingFace Papers?</b></summary>
+<br/>
+HuggingFace Papers curates trending AI research with community engagement (stars). It's a great signal for what's hot in AI research.
+</details>
 
-if __name__ == "__main__":
-    print("Starting daily AI papers scraper...")
-    papers = asyncio.run(scrape_hf_papers())
-    save_to_json(papers)
-    generate_readme(papers)
-    print("\n🎉 All done!")
+<details>
+<summary><b>Can I request specific features?</b></summary>
+<br/>
+Absolutely! Open a discussion or issue with your ideas. We're always looking to improve!
+</details>
+
+---
+
+## 🙏 Acknowledgments
+
+- 🤗 **HuggingFace** for providing the excellent Papers platform
+- 🌐 **Crawl4AI** for the robust scraping framework
+- 👥 **Contributors** who help improve this project
+- ⭐ **Everyone** who stars and uses this repository
+
+---
+
+## 📊 Project Stats
+
+![GitHub stars](https://img.shields.io/github/stars/A
