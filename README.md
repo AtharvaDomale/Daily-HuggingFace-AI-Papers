@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-38-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-62+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-100+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">38</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">111</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">111</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">62+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">149</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">149</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">100+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** December 05, 2025
+**Last Updated:** December 06, 2025
 
 ---
 
@@ -158,7 +158,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>4. ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning</b> ⭐ 32</summary>
+<summary><b>4. ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning</b> ⭐ 33</summary>
 
 <br/>
 
@@ -212,20 +212,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>8. DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling</b> ⭐ 38</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.03000) • [📄 arXiv](https://arxiv.org/abs/2512.03000) • [📥 PDF](https://arxiv.org/pdf/2512.03000)
-
-**💻 Code:** [⭐ Code](https://github.com/Dynamics-X/DynamicVerse)
-
-> Understanding the dynamic physical world, characterized by its evolving 3D structure, real-world motion, and semantic content with textual descriptions, is crucial for human-agent interaction and enables embodied agents to perceive and act within ...
-
-</details>
-
-<details>
-<summary><b>9. 4DLangVGGT: 4D Language-Visual Geometry Grounded Transformer</b> ⭐ 17</summary>
+<summary><b>8. 4DLangVGGT: 4D Language-Visual Geometry Grounded Transformer</b> ⭐ 20</summary>
 
 <br/>
 
@@ -234,6 +221,19 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/hustvl/4DLangVGGT)
 
 > code: https://github.com/hustvl/4DLangVGGT webpage: https://hustvl.github.io/4DLangVGGT/
+
+</details>
+
+<details>
+<summary><b>9. DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling</b> ⭐ 38</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.03000) • [📄 arXiv](https://arxiv.org/abs/2512.03000) • [📥 PDF](https://arxiv.org/pdf/2512.03000)
+
+**💻 Code:** [⭐ Code](https://github.com/Dynamics-X/DynamicVerse)
+
+> Understanding the dynamic physical world, characterized by its evolving 3D structure, real-world motion, and semantic content with textual descriptions, is crucial for human-agent interaction and enables embodied agents to perceive and act within ...
 
 </details>
 
@@ -275,7 +275,18 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>13. DraCo: Draft as CoT for Text-to-Image Preview and Rare Concept Generation</b> ⭐ 10</summary>
+<summary><b>13. SIMA 2: A Generalist Embodied Agent for Virtual Worlds</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.04797) • [📄 arXiv](https://arxiv.org/abs/2512.04797) • [📥 PDF](https://arxiv.org/pdf/2512.04797)
+
+> We introduce SIMA 2, a generalist embodied agent that understands and acts in a wide variety of 3D virtual worlds. Built upon a Gemini foundation model, SIMA 2 represents a significant step toward active, goal-directed interaction within an embodi...
+
+</details>
+
+<details>
+<summary><b>14. DraCo: Draft as CoT for Text-to-Image Preview and Rare Concept Generation</b> ⭐ 10</summary>
 
 <br/>
 
@@ -286,17 +297,6 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/CaraJ7/DraCo)
 
 > 🔥 Project Page: https://github.com/CaraJ7/DraCo
-
-</details>
-
-<details>
-<summary><b>14. SIMA 2: A Generalist Embodied Agent for Virtual Worlds</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.04797) • [📄 arXiv](https://arxiv.org/abs/2512.04797) • [📥 PDF](https://arxiv.org/pdf/2512.04797)
-
-> We introduce SIMA 2, a generalist embodied agent that understands and acts in a wide variety of 3D virtual worlds. Built upon a Gemini foundation model, SIMA 2 represents a significant step toward active, goal-directed interaction within an embodi...
 
 </details>
 
@@ -312,20 +312,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>16. Aligned but Stereotypical? The Hidden Influence of System Prompts on Social Bias in LVLM-Based Text-to-Image Models</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.04981) • [📄 arXiv](https://arxiv.org/abs/2512.04981) • [📥 PDF](https://arxiv.org/pdf/2512.04981)
-
-**💻 Code:** [⭐ Code](https://github.com/nahyeonkaty/fairpro)
-
-> We introduce: 1️⃣ A 1,024-prompt benchmark across 4 linguistic complexity levels 2️⃣ Fine-grained, systematic demographic (gender, age, ethnicity, physical appearance) bias diagnostics 3️⃣ FairPRO, a training-free meta-prompting framework that ena...
-
-</details>
-
-<details>
-<summary><b>17. SignRoundV2: Closing the Performance Gap in Extremely Low-Bit Post-Training Quantization for LLMs</b> ⭐ 742</summary>
+<summary><b>16. SignRoundV2: Closing the Performance Gap in Extremely Low-Bit Post-Training Quantization for LLMs</b> ⭐ 742</summary>
 
 <br/>
 
@@ -338,7 +325,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>18. On GRPO Collapse in Search-R1: The Lazy Likelihood-Displacement Death Spiral</b> ⭐ 0</summary>
+<summary><b>17. On GRPO Collapse in Search-R1: The Lazy Likelihood-Displacement Death Spiral</b> ⭐ 0</summary>
 
 <br/>
 
@@ -347,6 +334,19 @@ getTodaysPapers();
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.04220) • [📄 arXiv](https://arxiv.org/abs/2512.04220) • [📥 PDF](https://arxiv.org/pdf/2512.04220)
 
 > Tool-integrated (TI) reinforcement learning (RL) enables large language models (LLMs) to perform multi-step reasoning by interacting with external tools such as search engines and retrievers. Group Relative Policy Optimization (GRPO), exemplified ...
+
+</details>
+
+<details>
+<summary><b>18. Aligned but Stereotypical? The Hidden Influence of System Prompts on Social Bias in LVLM-Based Text-to-Image Models</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.04981) • [📄 arXiv](https://arxiv.org/abs/2512.04981) • [📥 PDF](https://arxiv.org/pdf/2512.04981)
+
+**💻 Code:** [⭐ Code](https://github.com/nahyeonkaty/fairpro)
+
+> We introduce: 1️⃣ A 1,024-prompt benchmark across 4 linguistic complexity levels 2️⃣ Fine-grained, systematic demographic (gender, age, ethnicity, physical appearance) bias diagnostics 3️⃣ FairPRO, a training-free meta-prompting framework that ena...
 
 </details>
 
@@ -364,7 +364,18 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>20. Mitigating Object and Action Hallucinations in Multimodal LLMs via Self-Augmented Contrastive Alignment</b> ⭐ 0</summary>
+<summary><b>20. Generative Neural Video Compression via Video Diffusion Prior</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.05016) • [📄 arXiv](https://arxiv.org/abs/2512.05016) • [📥 PDF](https://arxiv.org/pdf/2512.05016)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>21. Mitigating Object and Action Hallucinations in Multimodal LLMs via Self-Augmented Contrastive Alignment</b> ⭐ 0</summary>
 
 <br/>
 
@@ -375,7 +386,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>21. NeuralRemaster: Phase-Preserving Diffusion for Structure-Aligned Generation</b> ⭐ 0</summary>
+<summary><b>22. NeuralRemaster: Phase-Preserving Diffusion for Structure-Aligned Generation</b> ⭐ 0</summary>
 
 <br/>
 
@@ -388,18 +399,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>22. Generative Neural Video Compression via Video Diffusion Prior</b> ⭐ 0</summary>
+<summary><b>23. Reflection Removal through Efficient Adaptation of Diffusion Transformers</b> ⭐ 3</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.05016) • [📄 arXiv](https://arxiv.org/abs/2512.05016) • [📥 PDF](https://arxiv.org/pdf/2512.05016)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.05000) • [📄 arXiv](https://arxiv.org/abs/2512.05000) • [📥 PDF](https://arxiv.org/pdf/2512.05000)
 
-> No abstract available.
+**💻 Code:** [⭐ Code](https://github.com/huawei-bayerlab/windowseat-reflection-removal)
+
+> Project page: https://huggingface.co/spaces/huawei-bayerlab/windowseat-reflection-removal-web
 
 </details>
 
 <details>
-<summary><b>23. FMA-Net++: Motion- and Exposure-Aware Real-World Joint Video Super-Resolution and Deblurring</b> ⭐ 5</summary>
+<summary><b>24. FMA-Net++: Motion- and Exposure-Aware Real-World Joint Video Super-Resolution and Deblurring</b> ⭐ 5</summary>
 
 <br/>
 
@@ -414,7 +427,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>24. BulletTime: Decoupled Control of Time and Camera Pose for Video Generation</b> ⭐ 0</summary>
+<summary><b>25. BulletTime: Decoupled Control of Time and Camera Pose for Video Generation</b> ⭐ 0</summary>
 
 <br/>
 
@@ -427,7 +440,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>25. LATTICE: Democratize High-Fidelity 3D Generation at Scale</b> ⭐ 146</summary>
+<summary><b>26. Some Modalities are More Equal Than Others: Decoding and Architecting Multimodal Integration in MLLMs</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Deepti Ghadiyaram, Xavier Thomas, Arjun Reddy Akula, Chaitanya Chakka, Tianle Chen
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2511.22826) • [📄 arXiv](https://arxiv.org/abs/2511.22826) • [📥 PDF](https://arxiv.org/pdf/2511.22826)
+
+> Some Modalities are More Equal Than Others: Decoding and Architecting Multimodal Integration As the famous George Orwell quote goes - "all animals are equal but some animals are more equal than others", we indeed find that though present-day MLLMs...
+
+</details>
+
+<details>
+<summary><b>27. LATTICE: Democratize High-Fidelity 3D Generation at Scale</b> ⭐ 148</summary>
 
 <br/>
 
@@ -442,7 +468,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>26. Deep Forcing: Training-Free Long Video Generation with Deep Sink and Participative Compression</b> ⭐ 0</summary>
+<summary><b>28. Deep Forcing: Training-Free Long Video Generation with Deep Sink and Participative Compression</b> ⭐ 0</summary>
 
 <br/>
 
@@ -455,7 +481,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>27. Mitigating Catastrophic Forgetting in Target Language Adaptation of LLMs via Source-Shielded Updates</b> ⭐ 0</summary>
+<summary><b>29. Mitigating Catastrophic Forgetting in Target Language Adaptation of LLMs via Source-Shielded Updates</b> ⭐ 0</summary>
 
 <br/>
 
@@ -470,7 +496,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>28. EgoLCD: Egocentric Video Generation with Long Context Diffusion</b> ⭐ 1</summary>
+<summary><b>30. EgoLCD: Egocentric Video Generation with Long Context Diffusion</b> ⭐ 1</summary>
 
 <br/>
 
@@ -483,20 +509,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>29. Some Modalities are More Equal Than Others: Decoding and Architecting Multimodal Integration in MLLMs</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Deepti Ghadiyaram, Xavier Thomas, Arjun Reddy Akula, Chaitanya Chakka, Tianle Chen
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2511.22826) • [📄 arXiv](https://arxiv.org/abs/2511.22826) • [📥 PDF](https://arxiv.org/pdf/2511.22826)
-
-> Some Modalities are More Equal Than Others: Decoding and Architecting Multimodal Integration As the famous George Orwell quote goes - "all animals are equal but some animals are more equal than others", we indeed find that though present-day MLLMs...
-
-</details>
-
-<details>
-<summary><b>30. ShadowDraw: From Any Object to Shadow-Drawing Compositional Art</b> ⭐ 0</summary>
+<summary><b>31. ShadowDraw: From Any Object to Shadow-Drawing Compositional Art</b> ⭐ 0</summary>
 
 <br/>
 
@@ -507,7 +520,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>31. QKAN-LSTM: Quantum-inspired Kolmogorov-Arnold Long Short-term Memory</b> ⭐ 0</summary>
+<summary><b>32. QKAN-LSTM: Quantum-inspired Kolmogorov-Arnold Long Short-term Memory</b> ⭐ 0</summary>
 
 <br/>
 
@@ -516,19 +529,6 @@ getTodaysPapers();
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.05049) • [📄 arXiv](https://arxiv.org/abs/2512.05049) • [📥 PDF](https://arxiv.org/pdf/2512.05049)
 
 > A follow-up to our earlier QKAN research, this work explores how quantum-inspired activations can enhance classical LSTM models. With single-qubit DARUAN modules and QKAN-based gating, QKAN-LSTM cuts parameters by up to 79% while improving perform...
-
-</details>
-
-<details>
-<summary><b>32. Reflection Removal through Efficient Adaptation of Diffusion Transformers</b> ⭐ 3</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.05000) • [📄 arXiv](https://arxiv.org/abs/2512.05000) • [📥 PDF](https://arxiv.org/pdf/2512.05000)
-
-**💻 Code:** [⭐ Code](https://github.com/huawei-bayerlab/windowseat-reflection-removal)
-
-> Project page: https://huggingface.co/spaces/huawei-bayerlab/windowseat-reflection-removal-web
 
 </details>
 
@@ -585,18 +585,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>37. A Theoretical Framework for Auxiliary-Loss-Free Load Balancing of Sparse Mixture-of-Experts in Large-Scale AI Models</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.03915) • [📄 arXiv](https://arxiv.org/abs/2512.03915) • [📥 PDF](https://arxiv.org/pdf/2512.03915)
-
-> In large-scale AI training, Sparse Mixture-of-Experts (s-MoE) layers enable scaling by activating only a small subset of experts per token. An operational challenge in this design is load balancing: routing tokens to minimize the number of idle ex...
-
-</details>
-
-<details>
-<summary><b>38. REFLEX: Self-Refining Explainable Fact-Checking via Disentangling Truth into Style and Substance</b> ⭐ 0</summary>
+<summary><b>37. REFLEX: Self-Refining Explainable Fact-Checking via Disentangling Truth into Style and Substance</b> ⭐ 0</summary>
 
 <br/>
 
@@ -605,6 +594,17 @@ getTodaysPapers();
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2511.20233) • [📄 arXiv](https://arxiv.org/abs/2511.20233) • [📥 PDF](https://arxiv.org/pdf/2511.20233)
 
 > The prevalence of misinformation on social media threatens public trust, demanding automated fact-checking systems that provide accurate verdicts with interpretable explanations. However, existing large language model-based (LLM-based) approaches ...
+
+</details>
+
+<details>
+<summary><b>38. A Theoretical Framework for Auxiliary-Loss-Free Load Balancing of Sparse Mixture-of-Experts in Large-Scale AI Models</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.03915) • [📄 arXiv](https://arxiv.org/abs/2512.03915) • [📥 PDF](https://arxiv.org/pdf/2512.03915)
+
+> In large-scale AI training, Sparse Mixture-of-Experts (s-MoE) layers enable scaling by activating only a small subset of experts per token. An operational challenge in this design is load balancing: routing tokens to minimize the number of idle ex...
 
 </details>
 
@@ -617,28 +617,29 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 38 |
-| 📅 Today | [`2025-12-05.json`](data/daily/2025-12-05.json) | 38 |
-| 📆 This Week | [`2025-W48.json`](data/weekly/2025-W48.json) | 111 |
-| 🗓️ This Month | [`2025-12.json`](data/monthly/2025-12.json) | 111 |
+| 📅 Today | [`2025-12-06.json`](data/daily/2025-12-06.json) | 38 |
+| 📆 This Week | [`2025-W48.json`](data/weekly/2025-W48.json) | 149 |
+| 🗓️ This Month | [`2025-12.json`](data/monthly/2025-12.json) | 149 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2025-12-05 | 38 | [View JSON](data/daily/2025-12-05.json) |
+| 📌 2025-12-06 | 38 | [View JSON](data/daily/2025-12-06.json) |
+| 📄 2025-12-05 | 38 | [View JSON](data/daily/2025-12-05.json) |
 | 📄 2025-12-04 | 24 | [View JSON](data/daily/2025-12-04.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2025-W48 | 111 | [View JSON](data/weekly/2025-W48.json) |
+| 📅 2025-W48 | 149 | [View JSON](data/weekly/2025-W48.json) |
 
 ### 🗂️ Monthly Archives
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2025-12 | 111 | [View JSON](data/monthly/2025-12.json) |
+| 🗓️ 2025-12 | 149 | [View JSON](data/monthly/2025-12.json) |
 
 ---
 
