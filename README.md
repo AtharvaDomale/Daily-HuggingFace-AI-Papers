@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-38-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-138+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-176+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">38</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">187</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">187</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">138+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">38</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">225</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">176+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** December 07, 2025
+**Last Updated:** December 08, 2025
 
 ---
 
@@ -119,7 +119,7 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Live Avatar: Streaming Real-time Audio-Driven Avatar Generation with Infinite Length</b> ⭐ 0</summary>
+<summary><b>1. Live Avatar: Streaming Real-time Audio-Driven Avatar Generation with Infinite Length</b> ⭐ 348</summary>
 
 <br/>
 
@@ -145,7 +145,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>3. Nex-N1: Agentic Models Trained via a Unified Ecosystem for Large-Scale Environment Construction</b> ⭐ 69</summary>
+<summary><b>3. Nex-N1: Agentic Models Trained via a Unified Ecosystem for Large-Scale Environment Construction</b> ⭐ 71</summary>
 
 <br/>
 
@@ -158,20 +158,33 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>4. ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning</b> ⭐ 40</summary>
+<summary><b>4. ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning</b> ⭐ 50</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.05111) • [📄 arXiv](https://arxiv.org/abs/2512.05111) • [📥 PDF](https://arxiv.org/pdf/2512.05111)
 
-**💻 Code:** [⭐ Code](https://github.com/InternLM/ARM-Thinker) • [⭐ Code](https://github.com/open-compass/VLMEvalKit/pull/1334)
+**💻 Code:** [⭐ Code](https://github.com/open-compass/VLMEvalKit/pull/1334) • [⭐ Code](https://github.com/InternLM/ARM-Thinker)
 
 > 🏠 Github Repo: https://github.com/InternLM/ARM-Thinker ⭐️ For Agent Evaluation: https://github.com/open-compass/VLMEvalKit/pull/1334 (We added a new feature to VLMEvalKit that supports evaluating diverse models within the ARM-Thinker agent flow, i...
 
 </details>
 
 <details>
-<summary><b>5. Reward Forcing: Efficient Streaming Video Generation with Rewarded Distribution Matching Distillation</b> ⭐ 101</summary>
+<summary><b>5. PaperDebugger: A Plugin-Based Multi-Agent System for In-Editor Academic Writing, Review, and Editing</b> ⭐ 670</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.02589) • [📄 arXiv](https://arxiv.org/abs/2512.02589) • [📥 PDF](https://arxiv.org/pdf/2512.02589)
+
+**💻 Code:** [⭐ Code](https://github.com/PaperDebugger/PaperDebugger)
+
+> PaperDebugger lives inside Overleaf and rewrites your paper with you in real time! Paper: https://arxiv.org/abs/2512.02589 Github: https://github.com/PaperDebugger/PaperDebugger Enhancer Model XtraGPT: https://huggingface.co/Xtra-Computing/XtraGPT-7B
+
+</details>
+
+<details>
+<summary><b>6. Reward Forcing: Efficient Streaming Video Generation with Rewarded Distribution Matching Distillation</b> ⭐ 111</summary>
 
 <br/>
 
@@ -186,7 +199,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>6. Semantics Lead the Way: Harmonizing Semantic and Texture Modeling with Asynchronous Latent Diffusion</b> ⭐ 116</summary>
+<summary><b>7. Semantics Lead the Way: Harmonizing Semantic and Texture Modeling with Asynchronous Latent Diffusion</b> ⭐ 180</summary>
 
 <br/>
 
@@ -199,33 +212,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>7. PaperDebugger: A Plugin-Based Multi-Agent System for In-Editor Academic Writing, Review, and Editing</b> ⭐ 350</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.02589) • [📄 arXiv](https://arxiv.org/abs/2512.02589) • [📥 PDF](https://arxiv.org/pdf/2512.02589)
-
-**💻 Code:** [⭐ Code](https://github.com/PaperDebugger/PaperDebugger)
-
-> PaperDebugger lives inside Overleaf and rewrites your paper with you in real time! Paper: https://arxiv.org/abs/2512.02589 Github: https://github.com/PaperDebugger/PaperDebugger Enhancer Model XtraGPT: https://huggingface.co/Xtra-Computing/XtraGPT-7B
-
-</details>
-
-<details>
-<summary><b>8. 4DLangVGGT: 4D Language-Visual Geometry Grounded Transformer</b> ⭐ 33</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.05060) • [📄 arXiv](https://arxiv.org/abs/2512.05060) • [📥 PDF](https://arxiv.org/pdf/2512.05060)
-
-**💻 Code:** [⭐ Code](https://github.com/hustvl/4DLangVGGT)
-
-> code: https://github.com/hustvl/4DLangVGGT webpage: https://hustvl.github.io/4DLangVGGT/
-
-</details>
-
-<details>
-<summary><b>9. DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling</b> ⭐ 40</summary>
+<summary><b>8. DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling</b> ⭐ 47</summary>
 
 <br/>
 
@@ -238,7 +225,33 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>10. Splannequin: Freezing Monocular Mannequin-Challenge Footage with Dual-Detection Splatting</b> ⭐ 0</summary>
+<summary><b>9. Deep Forcing: Training-Free Long Video Generation with Deep Sink and Participative Compression</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Heeji Yoon, Jisu Nam, Paul Hyunbin Cho, Wooseok Jang, YJ-142150
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.05081) • [📄 arXiv](https://arxiv.org/abs/2512.05081) • [📥 PDF](https://arxiv.org/pdf/2512.05081)
+
+> Project Page: https://cvlab-kaist.github.io/DeepForcing/
+
+</details>
+
+<details>
+<summary><b>10. 4DLangVGGT: 4D Language-Visual Geometry Grounded Transformer</b> ⭐ 37</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.05060) • [📄 arXiv](https://arxiv.org/abs/2512.05060) • [📥 PDF](https://arxiv.org/pdf/2512.05060)
+
+**💻 Code:** [⭐ Code](https://github.com/hustvl/4DLangVGGT)
+
+> code: https://github.com/hustvl/4DLangVGGT webpage: https://hustvl.github.io/4DLangVGGT/
+
+</details>
+
+<details>
+<summary><b>11. Splannequin: Freezing Monocular Mannequin-Challenge Footage with Dual-Detection Splatting</b> ⭐ 0</summary>
 
 <br/>
 
@@ -251,26 +264,13 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>11. UltraImage: Rethinking Resolution Extrapolation in Image Diffusion Transformers</b> ⭐ 0</summary>
+<summary><b>12. UltraImage: Rethinking Resolution Extrapolation in Image Diffusion Transformers</b> ⭐ 0</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.04504) • [📄 arXiv](https://arxiv.org/abs/2512.04504) • [📥 PDF](https://arxiv.org/pdf/2512.04504)
 
 > Project page is available at https://thu-ml.github.io/ultraimage.github.io/ .
-
-</details>
-
-<details>
-<summary><b>12. NeuralRemaster: Phase-Preserving Diffusion for Structure-Aligned Generation</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Vitor Guizilini, Vishal M. Patel, Mingyuan Zhou, Charles Ochoa, Yu Zeng
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.05106) • [📄 arXiv](https://arxiv.org/abs/2512.05106) • [📥 PDF](https://arxiv.org/pdf/2512.05106)
-
-> No abstract available.
 
 </details>
 
@@ -286,31 +286,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>14. TV2TV: A Unified Framework for Interleaved Language and Video Generation</b> ⭐ 0</summary>
+<summary><b>14. NeuralRemaster: Phase-Preserving Diffusion for Structure-Aligned Generation</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.05103) • [📄 arXiv](https://arxiv.org/abs/2512.05103) • [📥 PDF](https://arxiv.org/pdf/2512.05103)
+**👥 Authors:** Vitor Guizilini, Vishal M. Patel, Mingyuan Zhou, Charles Ochoa, Yu Zeng
 
-> Video generation models are rapidly advancing, but can still struggle with complex video outputs that require significant semantic branching or repeated high-level reasoning about what should happen next. In this paper, we introduce a new class of...
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.05106) • [📄 arXiv](https://arxiv.org/abs/2512.05106) • [📥 PDF](https://arxiv.org/pdf/2512.05106)
+
+> No abstract available.
 
 </details>
 
 <details>
-<summary><b>15. Model-Based and Sample-Efficient AI-Assisted Math Discovery in Sphere Packing</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Jun Wang, Xihan Li, Antoine Grosnit, Rasul Tutunov, alexmaraval
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.04829) • [📄 arXiv](https://arxiv.org/abs/2512.04829) • [📥 PDF](https://arxiv.org/pdf/2512.04829)
-
-> AlphaEvolve is amazing and tackles hard-to-solve and easy-to-evaluate problems! But, many math problems are actually hard-to-solve and hard-to-evaluate! Here, we can't do much trial and error; we need something more efficient - because trying one ...
-
-</details>
-
-<details>
-<summary><b>16. Reflection Removal through Efficient Adaptation of Diffusion Transformers</b> ⭐ 6</summary>
+<summary><b>15. Reflection Removal through Efficient Adaptation of Diffusion Transformers</b> ⭐ 12</summary>
 
 <br/>
 
@@ -323,20 +312,44 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>17. On GRPO Collapse in Search-R1: The Lazy Likelihood-Displacement Death Spiral</b> ⭐ 0</summary>
+<summary><b>16. TV2TV: A Unified Framework for Interleaved Language and Video Generation</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Christos Thrampoulidis, Yi Ren, Boying Gong, Yushu Li, Wenlong Deng
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.05103) • [📄 arXiv](https://arxiv.org/abs/2512.05103) • [📥 PDF](https://arxiv.org/pdf/2512.05103)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.04220) • [📄 arXiv](https://arxiv.org/abs/2512.04220) • [📥 PDF](https://arxiv.org/pdf/2512.04220)
-
-> Tool-integrated (TI) reinforcement learning (RL) enables large language models (LLMs) to perform multi-step reasoning by interacting with external tools such as search engines and retrievers. Group Relative Policy Optimization (GRPO), exemplified ...
+> Video generation models are rapidly advancing, but can still struggle with complex video outputs that require significant semantic branching or repeated high-level reasoning about what should happen next. In this paper, we introduce a new class of...
 
 </details>
 
 <details>
-<summary><b>18. DraCo: Draft as CoT for Text-to-Image Preview and Rare Concept Generation</b> ⭐ 12</summary>
+<summary><b>17. Model-Based and Sample-Efficient AI-Assisted Math Discovery in Sphere Packing</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Jun Wang, Xihan Li, Antoine Grosnit, Rasul Tutunov, alexmaraval
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.04829) • [📄 arXiv](https://arxiv.org/abs/2512.04829) • [📥 PDF](https://arxiv.org/pdf/2512.04829)
+
+> AlphaEvolve is amazing and tackles hard-to-solve and easy-to-evaluate problems! But, many math problems are actually hard-to-solve and hard-to-evaluate! Here, we can't do much trial and error; we need something more efficient - because trying one ...
+
+</details>
+
+<details>
+<summary><b>18. SignRoundV2: Closing the Performance Gap in Extremely Low-Bit Post-Training Quantization for LLMs</b> ⭐ 749</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.04746) • [📄 arXiv](https://arxiv.org/abs/2512.04746) • [📥 PDF](https://arxiv.org/pdf/2512.04746)
+
+**💻 Code:** [⭐ Code](https://github.com/intel/auto-round)
+
+> Extremely low-bit quantization for LLMs. Check out https://github.com/intel/auto-round
+
+</details>
+
+<details>
+<summary><b>19. DraCo: Draft as CoT for Text-to-Image Preview and Rare Concept Generation</b> ⭐ 13</summary>
 
 <br/>
 
@@ -351,26 +364,15 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>19. SignRoundV2: Closing the Performance Gap in Extremely Low-Bit Post-Training Quantization for LLMs</b> ⭐ 747</summary>
+<summary><b>20. On GRPO Collapse in Search-R1: The Lazy Likelihood-Displacement Death Spiral</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.04746) • [📄 arXiv](https://arxiv.org/abs/2512.04746) • [📥 PDF](https://arxiv.org/pdf/2512.04746)
+**👥 Authors:** Christos Thrampoulidis, Yi Ren, Boying Gong, Yushu Li, Wenlong Deng
 
-**💻 Code:** [⭐ Code](https://github.com/intel/auto-round)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.04220) • [📄 arXiv](https://arxiv.org/abs/2512.04220) • [📥 PDF](https://arxiv.org/pdf/2512.04220)
 
-> Extremely low-bit quantization for LLMs. Check out https://github.com/intel/auto-round
-
-</details>
-
-<details>
-<summary><b>20. Generative Neural Video Compression via Video Diffusion Prior</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.05016) • [📄 arXiv](https://arxiv.org/abs/2512.05016) • [📥 PDF](https://arxiv.org/pdf/2512.05016)
-
-> No abstract available.
+> Tool-integrated (TI) reinforcement learning (RL) enables large language models (LLMs) to perform multi-step reasoning by interacting with external tools such as search engines and retrievers. Group Relative Policy Optimization (GRPO), exemplified ...
 
 </details>
 
@@ -386,7 +388,18 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>22. LATTICE: Democratize High-Fidelity 3D Generation at Scale</b> ⭐ 153</summary>
+<summary><b>22. Generative Neural Video Compression via Video Diffusion Prior</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.05016) • [📄 arXiv](https://arxiv.org/abs/2512.05016) • [📥 PDF](https://arxiv.org/pdf/2512.05016)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>23. LATTICE: Democratize High-Fidelity 3D Generation at Scale</b> ⭐ 157</summary>
 
 <br/>
 
@@ -397,19 +410,6 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/Zeqiang-Lai/LATTICE)
 
 > 3D Shape foundation model
-
-</details>
-
-<details>
-<summary><b>23. Deep Forcing: Training-Free Long Video Generation with Deep Sink and Participative Compression</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Heeji Yoon, Jisu Nam, Paul Hyunbin Cho, Wooseok Jang, YJ-142150
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.05081) • [📄 arXiv](https://arxiv.org/abs/2512.05081) • [📥 PDF](https://arxiv.org/pdf/2512.05081)
-
-> Project Page: https://cvlab-kaist.github.io/DeepForcing/
 
 </details>
 
@@ -453,20 +453,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>27. BulletTime: Decoupled Control of Time and Camera Pose for Video Generation</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Jan Ackermann, Tong Wu, Shengqu Cai, Qihang Zhang, Yiming Wang
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.05076) • [📄 arXiv](https://arxiv.org/abs/2512.05076) • [📥 PDF](https://arxiv.org/pdf/2512.05076)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>28. FMA-Net++: Motion- and Exposure-Aware Real-World Joint Video Super-Resolution and Deblurring</b> ⭐ 17</summary>
+<summary><b>27. FMA-Net++: Motion- and Exposure-Aware Real-World Joint Video Super-Resolution and Deblurring</b> ⭐ 22</summary>
 
 <br/>
 
@@ -477,6 +464,19 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/KAIST-VICLab/FMA-Net-PlusPlus)
 
 > Project page: https://kaist-viclab.github.io/fmanetpp_site/
+
+</details>
+
+<details>
+<summary><b>28. BulletTime: Decoupled Control of Time and Camera Pose for Video Generation</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Jan Ackermann, Tong Wu, Shengqu Cai, Qihang Zhang, Yiming Wang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.05076) • [📄 arXiv](https://arxiv.org/abs/2512.05076) • [📥 PDF](https://arxiv.org/pdf/2512.05076)
+
+> No abstract available.
 
 </details>
 
@@ -494,7 +494,18 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>30. Mitigating Catastrophic Forgetting in Target Language Adaptation of LLMs via Source-Shielded Updates</b> ⭐ 0</summary>
+<summary><b>30. Generative Action Tell-Tales: Assessing Human Motion in Synthesized Videos</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.01803) • [📄 arXiv](https://arxiv.org/abs/2512.01803) • [📥 PDF](https://arxiv.org/pdf/2512.01803)
+
+> Project webpage: https://xthomasbu.github.io/video-gen-evals/ Dataset: https://huggingface.co/datasets/dghadiya/TAG-Bench-Video
+
+</details>
+
+<details>
+<summary><b>31. Mitigating Catastrophic Forgetting in Target Language Adaptation of LLMs via Source-Shielded Updates</b> ⭐ 0</summary>
 
 <br/>
 
@@ -509,18 +520,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>31. Generative Action Tell-Tales: Assessing Human Motion in Synthesized Videos</b> ⭐ 0</summary>
+<summary><b>32. GaussianBlender: Instant Stylization of 3D Gaussians with Disentangled Latent Spaces</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.01803) • [📄 arXiv](https://arxiv.org/abs/2512.01803) • [📥 PDF](https://arxiv.org/pdf/2512.01803)
+**👥 Authors:** Sezer Karaoglu, Ngo Anh Vien, Yue Li, Xiaoyan Xing, melisocal
 
-> Project webpage: https://xthomasbu.github.io/video-gen-evals/ Dataset: https://huggingface.co/datasets/dghadiya/TAG-Bench-Video
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.03683) • [📄 arXiv](https://arxiv.org/abs/2512.03683) • [📥 PDF](https://arxiv.org/pdf/2512.03683)
+
+> Project page: https://gaussianblender.github.io/
 
 </details>
 
 <details>
-<summary><b>32. ShadowDraw: From Any Object to Shadow-Drawing Compositional Art</b> ⭐ 0</summary>
+<summary><b>33. ShadowDraw: From Any Object to Shadow-Drawing Compositional Art</b> ⭐ 0</summary>
 
 <br/>
 
@@ -531,7 +544,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>33. QKAN-LSTM: Quantum-inspired Kolmogorov-Arnold Long Short-term Memory</b> ⭐ 0</summary>
+<summary><b>34. QKAN-LSTM: Quantum-inspired Kolmogorov-Arnold Long Short-term Memory</b> ⭐ 0</summary>
 
 <br/>
 
@@ -540,19 +553,6 @@ getTodaysPapers();
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.05049) • [📄 arXiv](https://arxiv.org/abs/2512.05049) • [📥 PDF](https://arxiv.org/pdf/2512.05049)
 
 > A follow-up to our earlier QKAN research, this work explores how quantum-inspired activations can enhance classical LSTM models. With single-qubit DARUAN modules and QKAN-based gating, QKAN-LSTM cuts parameters by up to 79% while improving perform...
-
-</details>
-
-<details>
-<summary><b>34. GaussianBlender: Instant Stylization of 3D Gaussians with Disentangled Latent Spaces</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Sezer Karaoglu, Ngo Anh Vien, Yue Li, Xiaoyan Xing, melisocal
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.03683) • [📄 arXiv](https://arxiv.org/abs/2512.03683) • [📥 PDF](https://arxiv.org/pdf/2512.03683)
-
-> Project page: https://gaussianblender.github.io/
 
 </details>
 
@@ -617,15 +617,16 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 38 |
-| 📅 Today | [`2025-12-07.json`](data/daily/2025-12-07.json) | 38 |
-| 📆 This Week | [`2025-W48.json`](data/weekly/2025-W48.json) | 187 |
-| 🗓️ This Month | [`2025-12.json`](data/monthly/2025-12.json) | 187 |
+| 📅 Today | [`2025-12-08.json`](data/daily/2025-12-08.json) | 38 |
+| 📆 This Week | [`2025-W49.json`](data/weekly/2025-W49.json) | 38 |
+| 🗓️ This Month | [`2025-12.json`](data/monthly/2025-12.json) | 225 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2025-12-07 | 38 | [View JSON](data/daily/2025-12-07.json) |
+| 📌 2025-12-08 | 38 | [View JSON](data/daily/2025-12-08.json) |
+| 📄 2025-12-07 | 38 | [View JSON](data/daily/2025-12-07.json) |
 | 📄 2025-12-06 | 38 | [View JSON](data/daily/2025-12-06.json) |
 | 📄 2025-12-05 | 38 | [View JSON](data/daily/2025-12-05.json) |
 | 📄 2025-12-04 | 24 | [View JSON](data/daily/2025-12-04.json) |
@@ -634,13 +635,14 @@ getTodaysPapers();
 
 | Week | Papers | Link |
 |------|--------|------|
+| 📅 2025-W49 | 38 | [View JSON](data/weekly/2025-W49.json) |
 | 📅 2025-W48 | 187 | [View JSON](data/weekly/2025-W48.json) |
 
 ### 🗂️ Monthly Archives
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2025-12 | 187 | [View JSON](data/monthly/2025-12.json) |
+| 🗓️ 2025-12 | 225 | [View JSON](data/monthly/2025-12.json) |
 
 ---
 
