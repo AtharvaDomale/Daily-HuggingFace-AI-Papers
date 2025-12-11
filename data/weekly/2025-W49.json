@@ -1900,5 +1900,517 @@
       "scraped_at": "2025-12-10T01:47:50.436796"
     },
     "scraped_date": "2025-12-10"
+  },
+  {
+    "title": "Wan-Move: Motion-controllable Video Generation via Latent Trajectory Guidance",
+    "paper_url": "https://huggingface.co/papers/2512.08765",
+    "authors": [],
+    "stars": "197",
+    "details": {
+      "title": "Wan-Move: Motion-controllable Video Generation via Latent Trajectory Guidance",
+      "abstract": "NeurIPS 2025: Wan-Move: Motion-controllable Video Generation viaLatent Trajectory Guidance",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.08765",
+      "pdf_url": "https://arxiv.org/pdf/2512.08765",
+      "github_links": [
+        "https://github.com/ali-vilab/Wan-Move"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.08765",
+      "scraped_at": "2025-12-11T01:47:36.940817"
+    },
+    "scraped_date": "2025-12-11"
+  },
+  {
+    "title": "Visionary: The World Model Carrier Built on WebGPU-Powered Gaussian Splatting Platform",
+    "paper_url": "https://huggingface.co/papers/2512.08478",
+    "authors": [
+      "Muyao Niu",
+      "Yifan Zhan",
+      "Yifei Liu",
+      "Yuning Gong",
+      "Zuica96"
+    ],
+    "stars": "162",
+    "details": {
+      "title": "Visionary: The World Model Carrier Built on WebGPU-Powered Gaussian Splatting Platform",
+      "abstract": "TL;DR: Visionary is an open, web-native platform built on WebGPU and ONNX Runtime. Enabling real-time rendering of diverse Gaussian Splatting variants (3DGS, MLP-based 3DGS, 4DGS, Neural Avatars and ✨any future algorithms✨), and traditional 3d Mesh, directly in the browser. It also supports post-processing using feed-forward networks. • 💻 GitHub: https://github.com/Visionary-Laboratory/visionary • 🌍 Project page： https://visionary-laboratory.github.io/visionary/ • 🎬 Video: https://www.youtube.com/watch?v=-K8EjMfk09c • 📝 Technical report: https://arxiv.org/abs/2512.08478",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.08478",
+      "pdf_url": "https://arxiv.org/pdf/2512.08478",
+      "github_links": [
+        "https://github.com/Visionary-Laboratory/visionary"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.08478",
+      "scraped_at": "2025-12-11T01:47:38.895910"
+    },
+    "scraped_date": "2025-12-11"
+  },
+  {
+    "title": "Preserving Source Video Realism: High-Fidelity Face Swapping for Cinematic Quality",
+    "paper_url": "https://huggingface.co/papers/2512.07951",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Preserving Source Video Realism: High-Fidelity Face Swapping for Cinematic Quality",
+      "abstract": "Project webpage: this https URL",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.07951",
+      "pdf_url": "https://arxiv.org/pdf/2512.07951",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.07951",
+      "scraped_at": "2025-12-11T01:47:40.786795"
+    },
+    "scraped_date": "2025-12-11"
+  },
+  {
+    "title": "OneStory: Coherent Multi-Shot Video Generation with Adaptive Memory",
+    "paper_url": "https://huggingface.co/papers/2512.07802",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "OneStory: Coherent Multi-Shot Video Generation with Adaptive Memory",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.07802",
+      "pdf_url": "https://arxiv.org/pdf/2512.07802",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.07802",
+      "scraped_at": "2025-12-11T01:47:42.750925"
+    },
+    "scraped_date": "2025-12-11"
+  },
+  {
+    "title": "ThreadWeaver: Adaptive Threading for Efficient Parallel Reasoning in Language Models",
+    "paper_url": "https://huggingface.co/papers/2512.07843",
+    "authors": [
+      "Xiuyu Li",
+      "Tsu-Jui Fu",
+      "Sida Wang",
+      "katanaxu",
+      "longlian"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ThreadWeaver: Adaptive Threading for Efficient Parallel Reasoning in Language Models",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.07843",
+      "pdf_url": "https://arxiv.org/pdf/2512.07843",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.07843",
+      "scraped_at": "2025-12-11T01:47:44.703963"
+    },
+    "scraped_date": "2025-12-11"
+  },
+  {
+    "title": "Boosting Unsupervised Video Instance Segmentation with Automatic Quality-Guided Self-Training",
+    "paper_url": "https://huggingface.co/papers/2512.06864",
+    "authors": [
+      "Dim P. Papadopoulos",
+      "Kaixuan Lu",
+      "monurcan"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "Boosting Unsupervised Video Instance Segmentation with Automatic Quality-Guided Self-Training",
+      "abstract": "Accepted at WACV'26! Keywords: Video Instance Segmentation; Unsupervised Learning; Segmentation Quality Assessment",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.06864",
+      "pdf_url": "https://arxiv.org/pdf/2512.06864",
+      "github_links": [
+        "https://github.com/wcbup/AutoQ-VIS/"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.06864",
+      "scraped_at": "2025-12-11T01:47:46.583510"
+    },
+    "scraped_date": "2025-12-11"
+  },
+  {
+    "title": "Arbitrage: Efficient Reasoning via Advantage-Aware Speculation",
+    "paper_url": "https://huggingface.co/papers/2512.05033",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Arbitrage: Efficient Reasoning via Advantage-Aware Speculation",
+      "abstract": "Modern large language models achieve impressive reasoning capabilities with long chains of thought, but they incur substantial computational cost at inference time. Speculative decoding improves efficiency by using a fast, less accurate draft model to propose tokens that are then verified in parallel by a stronger target model. However, on reasoning tasks, traditional token-level speculative decoding often rejects many semantically valid steps due to superficial token mismatches. Recent step-level semantic verification methods mitigate this by accepting or rejecting entire reasoning steps, but they still waste target compute by regenerating many rejected steps that yield little quality gain. We propose ARBITRAGE , a step-level speculative generation framework that dynamically routes generation based on the relative advantage of the target model over the draft model. Instead of relying on a fixed acceptance threshold, ARBITRAGE uses a lightweight router trained to predict when the target model is likely to produce a meaningfully better step. This routing approximates an ideal “arbitrage oracle” that always selects the higher-quality step, achieving near-optimal efficiency–accuracy trade-offs. Across multiple mathematical reasoning benchmarks, ARBITRAGE consistently outperforms prior step-level speculative decoding baselines, reducing inference latency by up to approximately 2× at matched accuracy.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.05033",
+      "pdf_url": "https://arxiv.org/pdf/2512.05033",
+      "github_links": [
+        "https://github.com/SqueezeAILab/Arbitrage"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.05033",
+      "scraped_at": "2025-12-11T01:47:48.469544"
+    },
+    "scraped_date": "2025-12-11"
+  },
+  {
+    "title": "MIND-V: Hierarchical Video Generation for Long-Horizon Robotic Manipulation with RL-based Physical Alignment",
+    "paper_url": "https://huggingface.co/papers/2512.06628",
+    "authors": [],
+    "stars": "13",
+    "details": {
+      "title": "MIND-V: Hierarchical Video Generation for Long-Horizon Robotic Manipulation with RL-based Physical Alignment",
+      "abstract": "We propose MIND-V, a hierarchical framework designed to synthesize physically plausible and logically coherent videos of long-horizon robotic manipulation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.06628",
+      "pdf_url": "https://arxiv.org/pdf/2512.06628",
+      "github_links": [
+        "https://github.com/Richard-Zhang-AI/MIND-V"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.06628",
+      "scraped_at": "2025-12-11T01:47:50.392850"
+    },
+    "scraped_date": "2025-12-11"
+  },
+  {
+    "title": "See, Hear, and Understand: Benchmarking Audiovisual Human Speech Understanding in Multimodal Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2512.02231",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "See, Hear, and Understand: Benchmarking Audiovisual Human Speech Understanding in Multimodal Large Language Models",
+      "abstract": "Multimodal large language models (MLLMs) are expected to jointly interpret vision, audio, and language, yet existing video benchmarks rarely assess fine-grained reasoning about human speech. Many tasks remain visually solvable or only coarsely evaluate speech, offering limited insight into whether models can align who speaks, what is said, and when it occurs. We introduce AV-SpeakerBench, a curated benchmark of 3,212 multiple-choice questions focused on speaker-centric audiovisual reasoning in real-world videos. It features: (1) a speaker-centered formulation that treats speakers-not scenes-as the core reasoning unit; (2) fusion-grounded question design embedding audiovisual dependencies into question semantics; and (3) expert-curated annotations ensuring temporal precision and cross-modal validity. Comprehensive evaluations show that the Gemini family consistently outperforms open-source systems, with Gemini 2.5 Pro achieving the best results. Among open models, Qwen3-Omni-30B approaches Gemini 2.0 Flash but remains far behind Gemini 2.5 Pro, primarily due to weaker audiovisual fusion rather than visual perception. We believe AV-SpeakerBench establishes a rigorous foundation for advancing fine-grained audiovisual reasoning in future multimodal systems.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.02231",
+      "pdf_url": "https://arxiv.org/pdf/2512.02231",
+      "github_links": [
+        "https://github.com/plnguyen2908/AV-SpeakerBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.02231",
+      "scraped_at": "2025-12-11T01:47:52.347320"
+    },
+    "scraped_date": "2025-12-11"
+  },
+  {
+    "title": "DeepCode: Open Agentic Coding",
+    "paper_url": "https://huggingface.co/papers/2512.07921",
+    "authors": [
+      "Chao Huang",
+      "Xubin Ren",
+      "Zirui Guo",
+      "Zhonghang Li",
+      "Zongwei Li"
+    ],
+    "stars": "11.8k",
+    "details": {
+      "title": "DeepCode: Open Agentic Coding",
+      "abstract": "Recent advances in large language models (LLMs) have given rise to powerful coding agents, making it possible for code assistants to evolve into code engineers. However, existing methods still face significant challenges in achieving high-fidelity document-to-codebase synthesis--such as scientific papers to code--primarily due to a fundamental conflict between information overload and the context bottlenecks of LLMs. In this work, we introduce DeepCode, a fully autonomous framework that fundamentally addresses this challenge through principled information-flow management. By treating repository synthesis as a channel optimization problem, DeepCode seamlessly orchestrates four information operations to maximize task-relevant signals under finite context budgets: source compression via blueprint distillation, structured indexing using stateful code memory, conditional knowledge injection via retrieval-augmented generation, and closed-loop error correction. Extensive evaluations on the PaperBench benchmark demonstrate that DeepCode achieves state-of-the-art performance, decisively outperforming leading commercial agents such as Cursor and Claude Code, and crucially, surpassing PhD-level human experts from top institutes on key reproduction metrics. By systematically transforming paper specifications into production-grade implementations comparable to human expert quality, this work establishes new foundations for autonomous scientific reproduction that can accelerate research evaluation and discovery.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.07921",
+      "pdf_url": "https://arxiv.org/pdf/2512.07921",
+      "github_links": [
+        "https://github.com/HKUDS/DeepCode"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.07921",
+      "scraped_at": "2025-12-11T01:47:54.229208"
+    },
+    "scraped_date": "2025-12-11"
+  },
+  {
+    "title": "TreeGRPO: Tree-Advantage GRPO for Online RL Post-Training of Diffusion Models",
+    "paper_url": "https://huggingface.co/papers/2512.08153",
+    "authors": [
+      "Weirui Ye",
+      "Zheng Ding"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "TreeGRPO: Tree-Advantage GRPO for Online RL Post-Training of Diffusion Models",
+      "abstract": "Reinforcement learning (RL) post-training is crucial for aligning generative models with human preferences, but its prohibitive computational cost remains a major barrier to widespread adoption. We introduce \\textbf{TreeGRPO}, a novel RL framework that dramatically improves training efficiency by recasting the denoising process as a search tree. From shared initial noise samples, TreeGRPO strategically branches to generate multiple candidate trajectories while efficiently reusing their common prefixes. This tree-structured approach delivers three key advantages: (1) \\emph{High sample efficiency}, achieving better performance under same training samples (2) \\emph{Fine-grained credit assignment} via reward backpropagation that computes step-specific advantages, overcoming the uniform credit assignment limitation of trajectory-based methods, and (3) \\emph{Amortized computation} where multi-child branching enables multiple policy updates per forward pass. Extensive experiments on both diffusion and flow-based models demonstrate that TreeGRPO achieves \\textbf{2.4× faster training} while establishing a superior Pareto frontier in the efficiency-reward trade-off space. Our method consistently outperforms GRPO baselines across multiple benchmarks and reward models, providing a scalable and effective pathway for RL-based visual generative model alignment.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.08153",
+      "pdf_url": "https://arxiv.org/pdf/2512.08153",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.08153",
+      "scraped_at": "2025-12-11T01:47:56.074458"
+    },
+    "scraped_date": "2025-12-11"
+  },
+  {
+    "title": "From Next-Token to Next-Block: A Principled Adaptation Path for Diffusion LLMs",
+    "paper_url": "https://huggingface.co/papers/2512.06776",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "From Next-Token to Next-Block: A Principled Adaptation Path for Diffusion LLMs",
+      "abstract": "NBDiff: A principled path from AR to Diffusion LLMs",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.06776",
+      "pdf_url": "https://arxiv.org/pdf/2512.06776",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.06776",
+      "scraped_at": "2025-12-11T01:47:57.970248"
+    },
+    "scraped_date": "2025-12-11"
+  },
+  {
+    "title": "Efficiently Reconstructing Dynamic Scenes One D4RT at a Time",
+    "paper_url": "https://huggingface.co/papers/2512.08924",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Efficiently Reconstructing Dynamic Scenes One D4RT at a Time",
+      "abstract": "📍 A simple, unified interface for 3D tracking, depth, and pose 🌟 SOTA results on 4D reconstruction & tracking 🚀 Up to 100x faster pose estimation than prior works",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.08924",
+      "pdf_url": "https://arxiv.org/pdf/2512.08924",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.08924",
+      "scraped_at": "2025-12-11T01:47:59.945687"
+    },
+    "scraped_date": "2025-12-11"
+  },
+  {
+    "title": "Modular Neural Image Signal Processing",
+    "paper_url": "https://huggingface.co/papers/2512.08564",
+    "authors": [
+      "Michael S. Brown",
+      "Ran Zhang",
+      "Zhongling Wang",
+      "mafifi"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Modular Neural Image Signal Processing",
+      "abstract": "Modular Neural Image Signal Processing 🎬 Click to watch the video We present a modular neural image signal processing (ISP) framework that produces high-quality display-referred images while providing a high degree of modularity with explicit control over multiple intermediate stages of the rendering pipeline. Our ISP is fully differentiable and requires no manual tuning, and its modular structure not only improves rendering accuracy but also enhances scalability, debuggability, generalization to unseen cameras, and flexibility to support different user-preference picture styles within a lightweight and efficient design. On top of this modular neural ISP, we developed a user-interactive photo-editing tool that supports diverse editing operations, different picture styles, and enables unlimited post-editable re-rendering and re-styling. The tool accepts DNG raw images from any camera as well as sRGB images from third-party sources. Across multiple test sets, our method consistently delivers competitive qualitative and quantitative performance. Links: paper - code",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.08564",
+      "pdf_url": "https://arxiv.org/pdf/2512.08564",
+      "github_links": [
+        "https://github.com/mahmoudnafifi/modular_neural_isp"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.08564",
+      "scraped_at": "2025-12-11T01:48:01.936587"
+    },
+    "scraped_date": "2025-12-11"
+  },
+  {
+    "title": "Ground Slow, Move Fast: A Dual-System Foundation Model for Generalizable Vision-and-Language Navigation",
+    "paper_url": "https://huggingface.co/papers/2512.08186",
+    "authors": [],
+    "stars": "455",
+    "details": {
+      "title": "Ground Slow, Move Fast: A Dual-System Foundation Model for Generalizable Vision-and-Language Navigation",
+      "abstract": "Ground Slow, Move Fast: A Dual-System Foundation Model for Generalizable Vision-Language Navigation",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.08186",
+      "pdf_url": "https://arxiv.org/pdf/2512.08186",
+      "github_links": [
+        "https://github.com/InternRobotics/InternNav"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.08186",
+      "scraped_at": "2025-12-11T01:48:03.889865"
+    },
+    "scraped_date": "2025-12-11"
+  },
+  {
+    "title": "EcomBench: Towards Holistic Evaluation of Foundation Agents in E-commerce",
+    "paper_url": "https://huggingface.co/papers/2512.08868",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "EcomBench: Towards Holistic Evaluation of Foundation Agents in E-commerce",
+      "abstract": "EcomBench introduces a holistic e-commerce benchmark to evaluate foundation agents on real-world tasks, emphasizing deep retrieval, multi-step reasoning, and cross-source knowledge integration.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.08868",
+      "pdf_url": "https://arxiv.org/pdf/2512.08868",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.08868",
+      "scraped_at": "2025-12-11T01:48:05.859496"
+    },
+    "scraped_date": "2025-12-11"
+  },
+  {
+    "title": "TrackingWorld: World-centric Monocular 3D Tracking of Almost All Pixels",
+    "paper_url": "https://huggingface.co/papers/2512.08358",
+    "authors": [
+      "Tianyu Huang",
+      "Peng Li",
+      "Jiacheng Deng",
+      "Jiahao Lu",
+      "xwt123"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "TrackingWorld: World-centric Monocular 3D Tracking of Almost All Pixels",
+      "abstract": "Monocular 3D tracking aims to capture the long-term motion of pixels in 3D space from a single monocular video and has witnessed rapid progress in recent years. However, we argue that the existing monocular 3D tracking methods still fall short in separating the camera motion from foreground dynamic motion and cannot densely track newly emerging dynamic subjects in the videos. To address these two limitations, we propose TrackingWorld, a novel pipeline for dense 3D tracking of almost all pixels within a world-centric 3D coordinate system. First, we introduce a tracking upsampler that efficiently lifts the arbitrary sparse 2D tracks into dense 2D tracks. Then, to generalize the current tracking methods to newly emerging objects, we apply the upsampler to all frames and reduce the redundancy of 2D tracks by eliminating the tracks in overlapped regions. Finally, we present an efficient optimization-based framework to back-project dense 2D tracks into world-centric 3D trajectories by estimating the camera poses and the 3D coordinates of these 2D tracks. Extensive evaluations on both synthetic and real-world datasets demonstrate that our system achieves accurate and dense 3D tracking in a world-centric coordinate frame.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.08358",
+      "pdf_url": "https://arxiv.org/pdf/2512.08358",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.08358",
+      "scraped_at": "2025-12-11T01:48:07.804365"
+    },
+    "scraped_date": "2025-12-11"
+  },
+  {
+    "title": "SUCCESS-GS: Survey of Compactness and Compression for Efficient Static and Dynamic Gaussian Splatting",
+    "paper_url": "https://huggingface.co/papers/2512.07197",
+    "authors": [
+      "Soohyun Lee",
+      "Seokhyun Youn",
+      "ozbro",
+      "shbae84",
+      "klavna"
+    ],
+    "stars": "6",
+    "details": {
+      "title": "SUCCESS-GS: Survey of Compactness and Compression for Efficient Static and Dynamic Gaussian Splatting",
+      "abstract": "project page: https://cmlab-korea.github.io/Awesome-Efficient-GS/",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.07197",
+      "pdf_url": "https://arxiv.org/pdf/2512.07197",
+      "github_links": [
+        "https://github.com/CMLab-Korea/Awesome-Efficient-GS"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.07197",
+      "scraped_at": "2025-12-11T01:48:09.673066"
+    },
+    "scraped_date": "2025-12-11"
+  },
+  {
+    "title": "Novel Deep Learning Architectures for Classification and Segmentation of Brain Tumors from MRI Images",
+    "paper_url": "https://huggingface.co/papers/2512.06531",
+    "authors": [
+      "arghadip2002",
+      "Necromancer0912"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Novel Deep Learning Architectures for Classification and Segmentation of Brain Tumors from MRI Images",
+      "abstract": "We are excited to share our new work tackling the critical challenge of brain tumor detection from MRI scans. Due to high data volume and generalization issues in existing systems, we developed two novel deep learning architectures: SAETCN (Self-Attention Enhancement Tumor Classification Network): A classification model achieving a state-of-the-art 99.38% validation accuracy in classifying four classes (glioma, meningioma, pituitary, and non-tumor). Its self-attention mechanism significantly improves generalization and robustness, overcoming common pitfalls in CAD systems. SAS-Net (Self-Attentive Segmentation Network): For precise tumor localization, achieving 99.23% overall pixel accuracy in segmentation. This paper proposes one of the most accurate and generalized DL architectures for early, automatic brain tumor detection. We hope this work can serve as a strong baseline for future Computer-Aided Diagnosis systems. Check out the paper, and we welcome your feedback and discussions! #MedicalImaging #DeepLearning #SelfAttention #CAD #BrainTumor",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.06531",
+      "pdf_url": "https://arxiv.org/pdf/2512.06531",
+      "github_links": [
+        "https://github.com/arghadip2002/SAETCN-and-SASNET-Architectures"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.06531",
+      "scraped_at": "2025-12-11T01:48:11.542854"
+    },
+    "scraped_date": "2025-12-11"
+  },
+  {
+    "title": "LYNX: Learning Dynamic Exits for Confidence-Controlled Reasoning",
+    "paper_url": "https://huggingface.co/papers/2512.05325",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "LYNX: Learning Dynamic Exits for Confidence-Controlled Reasoning",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API DiffAdapt: Difficulty-Adaptive Reasoning for Token-Efficient LLM Inference (2025) Logit-Entropy Adaptive Stopping Heuristic for Efficient Chain-of-Thought Reasoning (2025) Temporal Predictors of Outcome in Reasoning Language Models (2025) Think-at-Hard: Selective Latent Iterations to Improve Reasoning Language Models (2025) C3PO: Optimized Large Language Model Cascades with Probabilistic Cost Constraints for Reasoning (2025) Reasoning with Confidence: Efficient Verification of LLM Reasoning Steps via Uncertainty Heads (2025) Batch Prompting Suppresses Overthinking Reasoning Under Constraint: How Batch Prompting Suppresses Overthinking in Reasoning Models (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.05325",
+      "pdf_url": "https://arxiv.org/pdf/2512.05325",
+      "github_links": [
+        "https://github.com/farukakgul/LYNX"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.05325",
+      "scraped_at": "2025-12-11T01:48:13.451502"
+    },
+    "scraped_date": "2025-12-11"
+  },
+  {
+    "title": "SAM-Body4D: Training-Free 4D Human Body Mesh Recovery from Videos",
+    "paper_url": "https://huggingface.co/papers/2512.08406",
+    "authors": [
+      "Jungong Han",
+      "Yunqi Miao",
+      "gaomingqi"
+    ],
+    "stars": "15",
+    "details": {
+      "title": "SAM-Body4D: Training-Free 4D Human Body Mesh Recovery from Videos",
+      "abstract": "Code & Gradio Demo : https://github.com/gaomingqi/sam-body4d See our FULL demo and Gradio Demo video below:",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.08406",
+      "pdf_url": "https://arxiv.org/pdf/2512.08406",
+      "github_links": [
+        "https://github.com/gaomingqi/sam-body4d"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.08406",
+      "scraped_at": "2025-12-11T01:48:15.477654"
+    },
+    "scraped_date": "2025-12-11"
+  },
+  {
+    "title": "MemLoRA: Distilling Expert Adapters for On-Device Memory Systems",
+    "paper_url": "https://huggingface.co/papers/2512.04763",
+    "authors": [
+      "Mete Ozay",
+      "Zeynep Akata",
+      "Umberto Michieli",
+      "Ondrej Bohdal",
+      "mwbini"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "MemLoRA: Distilling Expert Adapters for On-Device Memory Systems",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API LightMem: Lightweight and Efficient Memory-Augmented Generation (2025) MemVerse: Multimodal Memory for Lifelong Learning Agents (2025) Goal-Directed Search Outperforms Goal-Agnostic Memory Compression in Long-Context Memory Tasks (2025) BudgetMem: Learning Selective Memory Policies for Cost-Efficient Long-Context Processing in Language Models (2025) HaluMem: Evaluating Hallucinations in Memory Systems of Agents (2025) ENGRAM: Effective, Lightweight Memory Orchestration for Conversational Agents (2025) LiCoMemory: Lightweight and Cognitive Agentic Memory for Efficient Long-Term Reasoning (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04763",
+      "pdf_url": "https://arxiv.org/pdf/2512.04763",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04763",
+      "scraped_at": "2025-12-11T01:48:17.833409"
+    },
+    "scraped_date": "2025-12-11"
+  },
+  {
+    "title": "Predicting Time-Dependent Flow Over Complex Geometries Using Operator Networks",
+    "paper_url": "https://huggingface.co/papers/2512.04434",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Predicting Time-Dependent Flow Over Complex Geometries Using Operator Networks",
+      "abstract": "This paper introduces a new deep learning algorithem to model transient flow around varied complex geometries using the deep operator network (DeepONet)",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04434",
+      "pdf_url": "https://arxiv.org/pdf/2512.04434",
+      "github_links": [
+        "https://github.com/baskargroup/TimeDependent-DeepONet"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04434",
+      "scraped_at": "2025-12-11T01:48:19.704175"
+    },
+    "scraped_date": "2025-12-11"
+  },
+  {
+    "title": "Same Content, Different Answers: Cross-Modal Inconsistency in MLLMs",
+    "paper_url": "https://huggingface.co/papers/2512.08923",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Same Content, Different Answers: Cross-Modal Inconsistency in MLLMs",
+      "abstract": "Paper that evaluates and analyses consistency of MLLMs when providing questions in text vs as rendered-text.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.08923",
+      "pdf_url": "https://arxiv.org/pdf/2512.08923",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.08923",
+      "scraped_at": "2025-12-11T01:48:21.599664"
+    },
+    "scraped_date": "2025-12-11"
+  },
+  {
+    "title": "Terrain Diffusion: A Diffusion-Based Successor to Perlin Noise in Infinite, Real-Time Terrain Generation",
+    "paper_url": "https://huggingface.co/papers/2512.08309",
+    "authors": [
+      "xandergos"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Terrain Diffusion: A Diffusion-Based Successor to Perlin Noise in Infinite, Real-Time Terrain Generation",
+      "abstract": "Terrain Diffusion introduces a procedural generation primitive built around InfiniteDiffusion, a sampling method that delivers seamless, seed-consistent, infinite-domain generation with constant-time random access. A multi-scale diffusion hierarchy models planetary structure through a stack of diffusion models that couples planetary context with local detail,. The framework can stream entire worlds and is demonstrated in real time through a full Minecraft integration.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.08309",
+      "pdf_url": "https://arxiv.org/pdf/2512.08309",
+      "github_links": [
+        "https://github.com/xandergos/terrain-diffusion"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.08309",
+      "scraped_at": "2025-12-11T01:48:23.507617"
+    },
+    "scraped_date": "2025-12-11"
   }
 ]
