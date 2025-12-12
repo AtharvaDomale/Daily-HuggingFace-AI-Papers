@@ -6304,5 +6304,433 @@
       "scraped_at": "2025-12-11T01:48:23.507617"
     },
     "scraped_date": "2025-12-11"
+  },
+  {
+    "title": "StereoWorld: Geometry-Aware Monocular-to-Stereo Video Generation",
+    "paper_url": "https://huggingface.co/papers/2512.09363",
+    "authors": [
+      "Guixun Luo",
+      "Hanwen Liang",
+      "Longfei Li",
+      "yuyangyin",
+      "KXingLab"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "StereoWorld: Geometry-Aware Monocular-to-Stereo Video Generation",
+      "abstract": "StereoWorld presents geometry-aware monocular-to-stereo video generation using a pretrained video generator with geometry regularization and tiling for high-resolution, consistent stereo videos.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.09363",
+      "pdf_url": "https://arxiv.org/pdf/2512.09363",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.09363",
+      "scraped_at": "2025-12-12T01:47:07.328052"
+    },
+    "scraped_date": "2025-12-12"
+  },
+  {
+    "title": "BrainExplore: Large-Scale Discovery of Interpretable Visual Representations in the Human Brain",
+    "paper_url": "https://huggingface.co/papers/2512.08560",
+    "authors": [
+      "tamarott",
+      "Antoniotorralbaborruel",
+      "yuvalgolbari",
+      "mcosarinsky",
+      "navvew"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "BrainExplore: Large-Scale Discovery of Interpretable Visual Representations in the Human Brain",
+      "abstract": "We present a large-scale, automated framework for discovering and explaining visual representations across the human cortex.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.08560",
+      "pdf_url": "https://arxiv.org/pdf/2512.08560",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.08560",
+      "scraped_at": "2025-12-12T01:47:09.440111"
+    },
+    "scraped_date": "2025-12-12"
+  },
+  {
+    "title": "OmniPSD: Layered PSD Generation with Diffusion Transformer",
+    "paper_url": "https://huggingface.co/papers/2512.09247",
+    "authors": [
+      "Cheng Liu",
+      "AnalMom",
+      "wanghaofan",
+      "yiren98"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "OmniPSD: Layered PSD Generation with Diffusion Transformer",
+      "abstract": "OmniPSD presents a diffusion-transformer framework for text-to-PSD generation and image-to-PSD decomposition, enabling layered, transparent PSDs with hierarchical, editable channels via in-context learning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.09247",
+      "pdf_url": "https://arxiv.org/pdf/2512.09247",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.09247",
+      "scraped_at": "2025-12-12T01:47:11.525771"
+    },
+    "scraped_date": "2025-12-12"
+  },
+  {
+    "title": "Composing Concepts from Images and Videos via Concept-prompt Binding",
+    "paper_url": "https://huggingface.co/papers/2512.09824",
+    "authors": [],
+    "stars": "45",
+    "details": {
+      "title": "Composing Concepts from Images and Videos via Concept-prompt Binding",
+      "abstract": "We introduce Bind & Compose (BiCo), a one-shot method that enables flexible visual concept composition by binding visual concepts with the corresponding prompt tokens and composing the target prompt with bound tokens from various sources. 🌍 Project page: https://refkxh.github.io/BiCo_Webpage/ 💻 GitHub: https://github.com/refkxh/bico",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.09824",
+      "pdf_url": "https://arxiv.org/pdf/2512.09824",
+      "github_links": [
+        "https://github.com/refkxh/bico"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.09824",
+      "scraped_at": "2025-12-12T01:47:13.560373"
+    },
+    "scraped_date": "2025-12-12"
+  },
+  {
+    "title": "InfiniteVL: Synergizing Linear and Sparse Attention for Highly-Efficient, Unlimited-Input Vision-Language Models",
+    "paper_url": "https://huggingface.co/papers/2512.08829",
+    "authors": [],
+    "stars": "30",
+    "details": {
+      "title": "InfiniteVL: Synergizing Linear and Sparse Attention for Highly-Efficient, Unlimited-Input Vision-Language Models",
+      "abstract": "Window attention and linear attention represent two principal strategies for mitigating the quadratic complexity and ever-growing KV cache in Vision-Language Models (VLMs). However, we observe that window-based VLMs suffer performance degradation when sequence length exceeds the window size, while linear attention underperforms on information-intensive tasks such as OCR and document understanding. To overcome these limitations, we propose InfiniteVL, a linear-complexity VLM architecture that synergizes sliding window attention (SWA) with Gated DeltaNet. For achieving competitive multimodal performance under constrained resources, we design a three-stage training strategy comprising distillation pretraining, instruction tuning, and long-sequence SFT. Remarkably, using less than 2% of the training data required by leading VLMs, InfiniteVL not only substantially outperforms previous linear-complexity VLMs but also matches the performance of leading Transformer-based VLMs, while demonstrating effective long-term memory retention. Compared to similar-sized Transformer-based VLMs accelerated by FlashAttention-2, InfiniteVL achieves over 3.6\\times inference speedup while maintaining constant latency and memory footprint. In streaming video understanding scenarios, it sustains a stable 24 FPS real-time prefill speed while preserving long-term memory cache.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.08829",
+      "pdf_url": "https://arxiv.org/pdf/2512.08829",
+      "github_links": [
+        "https://github.com/hustvl/InfiniteVL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.08829",
+      "scraped_at": "2025-12-12T01:47:15.739563"
+    },
+    "scraped_date": "2025-12-12"
+  },
+  {
+    "title": "HiF-VLA: Hindsight, Insight and Foresight through Motion Representation for Vision-Language-Action Models",
+    "paper_url": "https://huggingface.co/papers/2512.09928",
+    "authors": [],
+    "stars": "17",
+    "details": {
+      "title": "HiF-VLA: Hindsight, Insight and Foresight through Motion Representation for Vision-Language-Action Models",
+      "abstract": "Code and checkpoints are available! Github: https://github.com/OpenHelix-Team/HiF-VLA Project page: https://hifvla.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.09928",
+      "pdf_url": "https://arxiv.org/pdf/2512.09928",
+      "github_links": [
+        "https://github.com/OpenHelix-Team/HiF-VLA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.09928",
+      "scraped_at": "2025-12-12T01:47:17.792831"
+    },
+    "scraped_date": "2025-12-12"
+  },
+  {
+    "title": "Fast-Decoding Diffusion Language Models via Progress-Aware Confidence Schedules",
+    "paper_url": "https://huggingface.co/papers/2512.02892",
+    "authors": [
+      "Yang Zhang",
+      "guokan-shang",
+      "mvazirg",
+      "amr-mohamed"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Fast-Decoding Diffusion Language Models via Progress-Aware Confidence Schedules",
+      "abstract": "SchED introduces a training-free, early-exit decoding criterion for diffusion LLMs , halting sampling once a smooth, progress-adaptive confidence threshold is satisfied. SchED achieves up to ~4× decoding speedups on average with ≥99–100% performance retention across benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.02892",
+      "pdf_url": "https://arxiv.org/pdf/2512.02892",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.02892",
+      "scraped_at": "2025-12-12T01:47:19.828816"
+    },
+    "scraped_date": "2025-12-12"
+  },
+  {
+    "title": "Rethinking Chain-of-Thought Reasoning for Videos",
+    "paper_url": "https://huggingface.co/papers/2512.09616",
+    "authors": [
+      "Liwei Wang",
+      "Yin Li",
+      "Zi-Yuan Hu",
+      "Yiwu Zhong"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "Rethinking Chain-of-Thought Reasoning for Videos",
+      "abstract": "Rethinking Chain-of-Thought Reasoning for Videos",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.09616",
+      "pdf_url": "https://arxiv.org/pdf/2512.09616",
+      "github_links": [
+        "https://github.com/LaVi-Lab/Rethink_CoT_Video"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.09616",
+      "scraped_at": "2025-12-12T01:47:21.778327"
+    },
+    "scraped_date": "2025-12-12"
+  },
+  {
+    "title": "EtCon: Edit-then-Consolidate for Reliable Knowledge Editing",
+    "paper_url": "https://huggingface.co/papers/2512.04753",
+    "authors": [
+      "Chenglin Li",
+      "Wenhong Zhu",
+      "Ruilin Li",
+      "Rethinker",
+      "CodeGoat24"
+    ],
+    "stars": "5",
+    "details": {
+      "title": "EtCon: Edit-then-Consolidate for Reliable Knowledge Editing",
+      "abstract": "EtCon: Edit-then-Consolidate for Reliable Knowledge Editing",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04753",
+      "pdf_url": "https://arxiv.org/pdf/2512.04753",
+      "github_links": [
+        "https://github.com/RlinL/EtCon"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04753",
+      "scraped_at": "2025-12-12T01:47:23.795160"
+    },
+    "scraped_date": "2025-12-12"
+  },
+  {
+    "title": "UniUGP: Unifying Understanding, Generation, and Planing For End-to-end Autonomous Driving",
+    "paper_url": "https://huggingface.co/papers/2512.09864",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "UniUGP: Unifying Understanding, Generation, and Planing For End-to-end Autonomous Driving",
+      "abstract": "Proposes UniUGP, a unified framework integrating scene understanding, video generation, and trajectory planning for autonomous driving with visual reasoning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.09864",
+      "pdf_url": "https://arxiv.org/pdf/2512.09864",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.09864",
+      "scraped_at": "2025-12-12T01:47:25.792923"
+    },
+    "scraped_date": "2025-12-12"
+  },
+  {
+    "title": "WonderZoom: Multi-Scale 3D World Generation",
+    "paper_url": "https://huggingface.co/papers/2512.09164",
+    "authors": [
+      "Jiajun Wu",
+      "Hong-Xing Yu",
+      "Jin Cao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "WonderZoom: Multi-Scale 3D World Generation",
+      "abstract": "WonderZoom enables multi-scale 3D world generation from a single image via scale-adaptive Gaussian surfels and progressive detail synthesis for zoomed-in realism.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.09164",
+      "pdf_url": "https://arxiv.org/pdf/2512.09164",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.09164",
+      "scraped_at": "2025-12-12T01:47:27.809897"
+    },
+    "scraped_date": "2025-12-12"
+  },
+  {
+    "title": "Learning Unmasking Policies for Diffusion Language Models",
+    "paper_url": "https://huggingface.co/papers/2512.09106",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Learning Unmasking Policies for Diffusion Language Models",
+      "abstract": "Trains a lightweight RL-based policy to unmask tokens in masked diffusion LMs, achieving competitive performance with heuristics and generalizing to new models and longer sequences.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.09106",
+      "pdf_url": "https://arxiv.org/pdf/2512.09106",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.09106",
+      "scraped_at": "2025-12-12T01:47:29.698219"
+    },
+    "scraped_date": "2025-12-12"
+  },
+  {
+    "title": "Towards a Science of Scaling Agent Systems",
+    "paper_url": "https://huggingface.co/papers/2512.08296",
+    "authors": [
+      "Samuel Schmidgall",
+      "Chunjong Park",
+      "Chanwoo Park",
+      "Ken Gu",
+      "Yubin Kim"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Towards a Science of Scaling Agent Systems",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.08296",
+      "pdf_url": "https://arxiv.org/pdf/2512.08296",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.08296",
+      "scraped_at": "2025-12-12T01:47:31.808737"
+    },
+    "scraped_date": "2025-12-12"
+  },
+  {
+    "title": "IF-Bench: Benchmarking and Enhancing MLLMs for Infrared Images with Generative Visual Prompting",
+    "paper_url": "https://huggingface.co/papers/2512.09663",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "IF-Bench: Benchmarking and Enhancing MLLMs for Infrared Images with Generative Visual Prompting",
+      "abstract": "Recent advances in multimodal large language models (MLLMs) have led to impressive progress across various benchmarks. However, their capability in understanding infrared images remains unexplored. To address this gap, we introduce IF-Bench, the first high-quality benchmark designed for evaluating multimodal understanding of infrared images. IF-Bench consists of 499 images sourced from 23 infrared datasets and 680 carefully curated visual question-answer pairs, covering 10 essential dimensions of image understanding. Based on this benchmark, we systematically evaluate over 40 open-source and closed-source MLLMs, employing cyclic evaluation, bilingual assessment, and hybrid judgment strategies to enhance the reliability of the results. Our analysis reveals how model scale, architecture, and inference paradigms affect infrared image comprehension, providing valuable insights for this area. Furthermore, we propose a training-free generative visual prompting (GenViP) method, which leverages advanced image editing models to translate infrared images into semantically and spatially aligned RGB counterparts, thereby mitigating domain distribution shifts. Extensive experiments demonstrate that our method consistently yields significant performance improvements across a wide range of MLLMs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.09663",
+      "pdf_url": "https://arxiv.org/pdf/2512.09663",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.09663",
+      "scraped_at": "2025-12-12T01:47:33.812624"
+    },
+    "scraped_date": "2025-12-12"
+  },
+  {
+    "title": "TED-4DGS: Temporally Activated and Embedding-based Deformation for 4DGS Compression",
+    "paper_url": "https://huggingface.co/papers/2512.05446",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "TED-4DGS: Temporally Activated and Embedding-based Deformation for 4DGS Compression",
+      "abstract": "Building on the success of 3D Gaussian Splatting (3DGS) in static 3D scene representation, its extension to dynamic scenes, commonly referred to as 4DGS or dynamic 3DGS, has attracted increasing attention. However, designing more compact and efficient deformation schemes together with rate-distortion-optimized compression strategies for dynamic 3DGS representations remains an underexplored area. Prior methods either rely on space-time 4DGS with overspecified, short-lived Gaussian primitives or on canonical 3DGS with deformation that lacks explicit temporal control. To address this, we present TED-4DGS, a temporally activated and embedding-based deformation scheme for rate-distortion-optimized 4DGS compression that unifies the strengths of both families. TED-4DGS is built on a sparse anchor-based 3DGS representation. Each canonical anchor is assigned learnable temporal-activation parameters to specify its appearance and disappearance transitions over time, while a lightweight per-anchor temporal embedding queries a shared deformation bank to produce anchor-specific deformation. For rate-distortion compression, we incorporate an implicit neural representation (INR)-based hyperprior to model anchor attribute distributions, along with a channel-wise autoregressive model to capture intra-anchor correlations. With these novel elements, our scheme achieves state-of-the-art rate-distortion performance on several real-world datasets. To the best of our knowledge, this work represents one of the first attempts to pursue a rate-distortion-optimized compression framework for dynamic 3DGS representations.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.05446",
+      "pdf_url": "https://arxiv.org/pdf/2512.05446",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.05446",
+      "scraped_at": "2025-12-12T01:47:35.646412"
+    },
+    "scraped_date": "2025-12-12"
+  },
+  {
+    "title": "Beyond Unified Models: A Service-Oriented Approach to Low Latency, Context Aware Phonemization for Real Time TTS",
+    "paper_url": "https://huggingface.co/papers/2512.08006",
+    "authors": [
+      "Morteza Abolghasemi",
+      "hrrabiee",
+      "ZahraDehghanian97",
+      "dninvb",
+      "MahtaFetrat"
+    ],
+    "stars": "7",
+    "details": {
+      "title": "Beyond Unified Models: A Service-Oriented Approach to Low Latency, Context Aware Phonemization for Real Time TTS",
+      "abstract": "Lightweight, real-time text-to-speech systems are crucial for accessibility. However, the most efficient TTS models often rely on lightweight phonemizers that struggle with context-dependent challenges. In contrast, more advanced phonemizers with a deeper linguistic understanding typically incur high computational costs, which prevents real-time performance. This paper examines the trade-off between phonemization quality and inference speed in G2P-aided TTS systems, introducing a practical framework to bridge this gap. We propose lightweight strategies for context-aware phonemization and a service-oriented TTS architecture that executes these modules as independent services. This design decouples heavy context-aware components from the core TTS engine, effectively breaking the latency barrier and enabling real-time use of high-quality phonemization models. Experimental results confirm that the proposed system improves pronunciation soundness and linguistic accuracy while maintaining real-time responsiveness, making it well-suited for offline and end-device TTS applications.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.08006",
+      "pdf_url": "https://arxiv.org/pdf/2512.08006",
+      "github_links": [
+        "https://github.com/MahtaFetrat/Piper-with-LCA-Phonemizer"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.08006",
+      "scraped_at": "2025-12-12T01:47:37.543590"
+    },
+    "scraped_date": "2025-12-12"
+  },
+  {
+    "title": "VideoSSM: Autoregressive Long Video Generation with Hybrid State-Space Memory",
+    "paper_url": "https://huggingface.co/papers/2512.04519",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "VideoSSM: Autoregressive Long Video Generation with Hybrid State-Space Memory",
+      "abstract": "We introduce VideoSSM, an AR video diffusion model equipped with a novel hybrid memory architecture that combines a causal sliding-window local lossless cache with an SSM-based global compressed memory for long video generation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04519",
+      "pdf_url": "https://arxiv.org/pdf/2512.04519",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04519",
+      "scraped_at": "2025-12-12T01:47:39.448056"
+    },
+    "scraped_date": "2025-12-12"
+  },
+  {
+    "title": "GimbalDiffusion: Gravity-Aware Camera Control for Video Generation",
+    "paper_url": "https://huggingface.co/papers/2512.09112",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GimbalDiffusion: Gravity-Aware Camera Control for Video Generation",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.09112",
+      "pdf_url": "https://arxiv.org/pdf/2512.09112",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.09112",
+      "scraped_at": "2025-12-12T01:47:41.437688"
+    },
+    "scraped_date": "2025-12-12"
+  },
+  {
+    "title": "Pay Less Attention to Function Words for Free Robustness of Vision-Language Models",
+    "paper_url": "https://huggingface.co/papers/2512.07222",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Pay Less Attention to Function Words for Free Robustness of Vision-Language Models",
+      "abstract": "We had an interesting yet explorable observation that lowering the attention on function words of VLMs increaes robustness and zero-shot performance on several datasets/models/tasks, casuing little or no performance drops , surpasing SOTA adversarial training methods including TeCoA and FARE.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.07222",
+      "pdf_url": "https://arxiv.org/pdf/2512.07222",
+      "github_links": [
+        "https://github.com/michaeltian108/FDA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.07222",
+      "scraped_at": "2025-12-12T01:47:43.496736"
+    },
+    "scraped_date": "2025-12-12"
+  },
+  {
+    "title": "Smart Timing for Mining: A Deep Learning Framework for Bitcoin Hardware ROI Prediction",
+    "paper_url": "https://huggingface.co/papers/2512.05402",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Smart Timing for Mining: A Deep Learning Framework for Bitcoin Hardware ROI Prediction",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API A FEDformer-Based Hybrid Framework for Anomaly Detection and Risk Forecasting in Financial Time Series (2025) Partial multivariate transformer as a tool for cryptocurrencies time series prediction (2025) Technical Analysis Meets Machine Learning: Bitcoin Evidence (2025) Hybrid LSTM and PPO Networks for Dynamic Portfolio Optimization (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.05402",
+      "pdf_url": "https://arxiv.org/pdf/2512.05402",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.05402",
+      "scraped_at": "2025-12-12T01:47:45.402296"
+    },
+    "scraped_date": "2025-12-12"
+  },
+  {
+    "title": "Reinventing Clinical Dialogue: Agentic Paradigms for LLM Enabled Healthcare Communication",
+    "paper_url": "https://huggingface.co/papers/2512.01453",
+    "authors": [
+      "Hengshu Zhu",
+      "Hongke Zhao",
+      "ChuangZhao",
+      "likang03",
+      "zxq1942461723"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Reinventing Clinical Dialogue: Agentic Paradigms for LLM Enabled Healthcare Communication",
+      "abstract": "Fresh medical LLM survey",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.01453",
+      "pdf_url": "https://arxiv.org/pdf/2512.01453",
+      "github_links": [
+        "https://github.com/xqz614/Awesome-Agentic-Clinical-Dialogue"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.01453",
+      "scraped_at": "2025-12-12T01:47:47.356492"
+    },
+    "scraped_date": "2025-12-12"
   }
 ]
