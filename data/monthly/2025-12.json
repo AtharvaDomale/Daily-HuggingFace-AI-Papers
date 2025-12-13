@@ -6732,5 +6732,482 @@
       "scraped_at": "2025-12-12T01:47:47.356492"
     },
     "scraped_date": "2025-12-12"
+  },
+  {
+    "title": "T-pro 2.0: An Efficient Russian Hybrid-Reasoning Model and Playground",
+    "paper_url": "https://huggingface.co/papers/2512.10430",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "T-pro 2.0: An Efficient Russian Hybrid-Reasoning Model and Playground",
+      "abstract": "T-pro 2.0 is an open-weight Russian LLM with hybrid reasoning and fast inference, released with datasets, benchmarks, and an optimized decoding pipeline to support reproducible research and practical applications.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.10430",
+      "pdf_url": "https://arxiv.org/pdf/2512.10430",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.10430",
+      "scraped_at": "2025-12-13T01:41:43.039643"
+    },
+    "scraped_date": "2025-12-13"
+  },
+  {
+    "title": "Long-horizon Reasoning Agent for Olympiad-Level Mathematical Problem Solving",
+    "paper_url": "https://huggingface.co/papers/2512.10739",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Long-horizon Reasoning Agent for Olympiad-Level Mathematical Problem Solving",
+      "abstract": "Due to a user error, the abstract displayed in this paper contains some errors 😭 (the abstract in the PDF is correct). The correct and complete abstract is as follows: Large Reasoning Models (LRMs) have expanded the mathematical reasoning frontier through Chain-of-Thought (CoT) techniques and Reinforcement Learning with Verifiable Rewards (RLVR), capable of solving AIME-level problems. However, the performance of LRMs is heavily dependent on the extended reasoning context length. For solving ultra-hard problems like those in the International Mathematical Olympiad (IMO), the required reasoning complexity surpasses the space that an LRM can explore in a single round. Previous works attempt to extend the reasoning context of LRMs but remain prompt-based and built upon proprietary models, lacking systematic structures and training pipelines. Therefore, this paper introduces Intern-S1-MO, a long-horizon math agent that conducts multi-round hierarchical reasoning, composed of an LRM-based multi-agent system including reasoning, summary, and verification. By maintaining a compact memory in the form of lemmas, Intern-S1-MO can more freely explore the lemma-rich reasoning spaces in multiple reasoning stages, thereby breaking through the context constraints for IMO-level math problems. Furthermore, we propose OREAL-H, an RL framework for training the LRM using the online explored trajectories to simultaneously bootstrap the reasoning ability of LRM and elevate the overall performance of Intern-S1-MO.  Experiments show that Intern-S1-MO can obtain 26 out of 35 points on the non-geometry problems of IMO2025, matching the performance of silver medalists. It also surpasses the current advanced LRMs on inference benchmarks such as HMMT2025, AIME2025, and CNMO2025. In addition, our agent officially participates in CMO2025 and achieves a score of 102/126 under the judgment of human experts, reaching the gold medal level.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.10739",
+      "pdf_url": "https://arxiv.org/pdf/2512.10739",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.10739",
+      "scraped_at": "2025-12-13T01:41:45.098298"
+    },
+    "scraped_date": "2025-12-13"
+  },
+  {
+    "title": "Are We Ready for RL in Text-to-3D Generation? A Progressive Investigation",
+    "paper_url": "https://huggingface.co/papers/2512.10949",
+    "authors": [],
+    "stars": "40",
+    "details": {
+      "title": "Are We Ready for RL in Text-to-3D Generation? A Progressive Investigation",
+      "abstract": "Code is released at https://github.com/Ivan-Tang-3D/3DGen-R1 . Model is released at https://huggingface.co/IvanTang/3DGen-R1 .",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.10949",
+      "pdf_url": "https://arxiv.org/pdf/2512.10949",
+      "github_links": [
+        "https://github.com/Ivan-Tang-3D/3DGen-R1"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.10949",
+      "scraped_at": "2025-12-13T01:41:47.228267"
+    },
+    "scraped_date": "2025-12-13"
+  },
+  {
+    "title": "OPV: Outcome-based Process Verifier for Efficient Long Chain-of-Thought Verification",
+    "paper_url": "https://huggingface.co/papers/2512.10756",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "OPV: Outcome-based Process Verifier for Efficient Long Chain-of-Thought Verification",
+      "abstract": "We propose the Outcome-based Process Verifier (OPV), which verifies the rationale process of summarized outcomes from long CoTs to achieve both accurate and efficient verification and enable large-scale annotation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.10756",
+      "pdf_url": "https://arxiv.org/pdf/2512.10756",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.10756",
+      "scraped_at": "2025-12-13T01:41:49.258354"
+    },
+    "scraped_date": "2025-12-13"
+  },
+  {
+    "title": "Achieving Olympia-Level Geometry Large Language Model Agent via Complexity Boosting Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2512.10534",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Achieving Olympia-Level Geometry Large Language Model Agent via Complexity Boosting Reinforcement Learning",
+      "abstract": "InternGeometry overcomes the heuristic limitations in geometry by iteratively proposing propositions and auxiliary constructions, verifying them with a symbolic engine, and reflecting on the engine's feedback to guide subsequent proposals. Built on InternThinker-32B, InternGeometry solves 44 of 50 IMO geometry problems (2000-2024), exceeding the average gold medalist score (40.9), using only 13K training examples, just 0.004% of the data used by AlphaGeometry 2, demonstrating the potential of LLM agents on expert-level geometry tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.10534",
+      "pdf_url": "https://arxiv.org/pdf/2512.10534",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.10534",
+      "scraped_at": "2025-12-13T01:41:51.214627"
+    },
+    "scraped_date": "2025-12-13"
+  },
+  {
+    "title": "MoCapAnything: Unified 3D Motion Capture for Arbitrary Skeletons from Monocular Videos",
+    "paper_url": "https://huggingface.co/papers/2512.10881",
+    "authors": [
+      "Mingxi Xu",
+      "DonaldLian",
+      "weixia111111",
+      "wzy27",
+      "kehong"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "MoCapAnything: Unified 3D Motion Capture for Arbitrary Skeletons from Monocular Videos",
+      "abstract": "Motion capture now underpins content creation far beyond digital humans, yet most existing pipelines remain species- or template-specific. We formalize this gap as Category-Agnostic Motion Capture (CAMoCap): given a monocular video and an arbitrary rigged 3D asset as a prompt, the goal is to reconstruct a rotation-based animation such as BVH that directly drives the specific asset. We present MoCapAnything, a reference-guided, factorized framework that first predicts 3D joint trajectories and then recovers asset-specific rotations via constraint-aware inverse kinematics. The system contains three learnable modules and a lightweight IK stage: (1) a Reference Prompt Encoder that extracts per-joint queries from the asset's skeleton, mesh, and rendered images; (2) a Video Feature Extractor that computes dense visual descriptors and reconstructs a coarse 4D deforming mesh to bridge the gap between video and joint space; and (3) a Unified Motion Decoder that fuses these cues to produce temporally coherent trajectories. We also curate Truebones Zoo with 1038 motion clips, each providing a standardized skeleton-mesh-render triad. Experiments on both in-domain benchmarks and in-the-wild videos show that MoCapAnything delivers high-quality skeletal animations and exhibits meaningful cross-species retargeting across heterogeneous rigs, enabling scalable, prompt-driven 3D motion capture for arbitrary assets",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.10881",
+      "pdf_url": "https://arxiv.org/pdf/2512.10881",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.10881",
+      "scraped_at": "2025-12-13T01:41:53.206958"
+    },
+    "scraped_date": "2025-12-13"
+  },
+  {
+    "title": "BEAVER: An Efficient Deterministic LLM Verifier",
+    "paper_url": "https://huggingface.co/papers/2512.05439",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "BEAVER: An Efficient Deterministic LLM Verifier",
+      "abstract": "BEAVER is the first practical framework to formally verify an LLM’s output distribution. It enables rigorous assessment and comparison beyond traditional sampling-based evaluation. BEAVER computes deterministic, sound bounds on the total probability that a model’s responses satisfy given specifications. Across popular benchmarks, it yields tight certificates for correctness, security, and privacy and scales efficiently to large open-weight LLMs (e.g., 70B).",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.05439",
+      "pdf_url": "https://arxiv.org/pdf/2512.05439",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.05439",
+      "scraped_at": "2025-12-13T01:41:55.187789"
+    },
+    "scraped_date": "2025-12-13"
+  },
+  {
+    "title": "From Macro to Micro: Benchmarking Microscopic Spatial Intelligence on Molecules via Vision-Language Models",
+    "paper_url": "https://huggingface.co/papers/2512.10867",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "From Macro to Micro: Benchmarking Microscopic Spatial Intelligence on Molecules via Vision-Language Models",
+      "abstract": "This paper introduces the concept of Microscopic Spatial Intelligence (MiSI), the capability to perceive and reason about the spatial relationships of invisible microscopic entities, which is fundamental to scientific discovery. To assess the potential of Vision-Language Models (VLMs) in this domain, we propose a systematic benchmark frameworkMiSI-Bench. This framework features over 163,000 question-answer pairs and 587,000 images derived from approximately 4,000 molecular structures, covering nine complementary tasks that evaluate abilities ranging from elementary spatial transformations to complex relational identifications. Experimental results reveal that current state-of-the-art VLMs perform significantly below human level on this benchmark. However, a fine-tuned 7B model demonstrates substantial potential, even surpassing humans in spatial transformation tasks, while its poor performance in scientifically-grounded tasks like hydrogen bond recognition underscores the necessity of integrating explicit domain knowledge for progress toward scientific AGI. The datasets are available at https://huggingface.co/datasets/zongzhao/MiSI-bench .",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.10867",
+      "pdf_url": "https://arxiv.org/pdf/2512.10867",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.10867",
+      "scraped_at": "2025-12-13T01:41:57.166806"
+    },
+    "scraped_date": "2025-12-13"
+  },
+  {
+    "title": "VQRAE: Representation Quantization Autoencoders for Multimodal Understanding, Generation and Reconstruction",
+    "paper_url": "https://huggingface.co/papers/2511.23386",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "VQRAE: Representation Quantization Autoencoders for Multimodal Understanding, Generation and Reconstruction",
+      "abstract": "arXiv: https://arxiv.org/pdf/2511.23386 Overall Architecture",
+      "arxiv_page_url": "https://arxiv.org/abs/2511.23386",
+      "pdf_url": "https://arxiv.org/pdf/2511.23386",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2511.23386",
+      "scraped_at": "2025-12-13T01:41:59.104193"
+    },
+    "scraped_date": "2025-12-13"
+  },
+  {
+    "title": "Evaluating Gemini Robotics Policies in a Veo World Simulator",
+    "paper_url": "https://huggingface.co/papers/2512.10675",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Evaluating Gemini Robotics Policies in a Veo World Simulator",
+      "abstract": "Generative world models hold significant potential for simulating interactions with visuomotor policies in varied environments. Frontier video models can enable generation of realistic observations and environment interactions in a scalable and general manner. However, the use of video models in robotics has been limited primarily to in-distribution evaluations, i.e., scenarios that are similar to ones used to train the policy or fine-tune the base video model. In this report, we demonstrate that video models can be used for the entire spectrum of policy evaluation use cases in robotics: from assessing nominal performance to out-of-distribution (OOD) generalization, and probing physical and semantic safety. We introduce a generative evaluation system built upon a frontier video foundation model (Veo). The system is optimized to support robot action conditioning and multi-view consistency, while integrating generative image-editing and multi-view completion to synthesize realistic variations of real-world scenes along multiple axes of generalization. We demonstrate that the system preserves the base capabilities of the video model to enable accurate simulation of scenes that have been edited to include novel interaction objects, novel visual backgrounds, and novel distractor objects. This fidelity enables accurately predicting the relative performance of different policies in both nominal and OOD conditions, determining the relative impact of different axes of generalization on policy performance, and performing red teaming of policies to expose behaviors that violate physical or semantic safety constraints. We validate these capabilities through 1600+ real-world evaluations of eight Gemini Robotics policy checkpoints and five tasks for a bimanual manipulator.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.10675",
+      "pdf_url": "https://arxiv.org/pdf/2512.10675",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.10675",
+      "scraped_at": "2025-12-13T01:42:01.098563"
+    },
+    "scraped_date": "2025-12-13"
+  },
+  {
+    "title": "Thinking with Images via Self-Calling Agent",
+    "paper_url": "https://huggingface.co/papers/2512.08511",
+    "authors": [
+      "Qixiang Ye",
+      "Fang Wan",
+      "callsys",
+      "ywenxi"
+    ],
+    "stars": "11",
+    "details": {
+      "title": "Thinking with Images via Self-Calling Agent",
+      "abstract": "🧠🖼️ Vision-language models are getting smarter—but also harder to train. Many recent systems “think with images,” weaving visual information directly into their reasoning. While powerful, this approach can be hard to incentivize, as it usually requires LLMs to reason across modalites. ✨ This paper introduces thinking-with-images-through-self-calling (sCoT) -- a simpler idea: let the model think in language, break problems into atomic steps, and call itself to solve them . Instead of mixing text and images throughout its reasoning, a main agent splits a visual problem into small pieces—like reading text or spotting an object—and delegates them to lightweight subagents 🤖. These subagents are virtual copies of the same model that answer one focused visual question and return a short text response. The main agent then combines everything through pure language reasoning. 🚀 The result? Easier training and stronger performance. The sCoT-based model trained with end-to-end RL, named as SubagentVL , outperforms previous state-of-the-art methods on challenging high-resolution benchmarks (V* and HR-Bench) with less GPU hours. 👉 Bottom line: smarter visual reasoning doesn’t require more complex multimodal thinking— letting models reason in language and ask for help from its virtual replicas . Code is available at github repo . Paper is available at arxiv",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.08511",
+      "pdf_url": "https://arxiv.org/pdf/2512.08511",
+      "github_links": [
+        "https://github.com/YWenxi/think-with-images-through-self-calling"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.08511",
+      "scraped_at": "2025-12-13T01:42:02.982574"
+    },
+    "scraped_date": "2025-12-13"
+  },
+  {
+    "title": "StereoSpace: Depth-Free Synthesis of Stereo Geometry via End-to-End Diffusion in a Canonical Space",
+    "paper_url": "https://huggingface.co/papers/2512.10959",
+    "authors": [],
+    "stars": "12",
+    "details": {
+      "title": "StereoSpace: Depth-Free Synthesis of Stereo Geometry via End-to-End Diffusion in a Canonical Space",
+      "abstract": "Project page: https://huggingface.co/spaces/prs-eth/stereospace_web",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.10959",
+      "pdf_url": "https://arxiv.org/pdf/2512.10959",
+      "github_links": [
+        "https://github.com/prs-eth/stereospace"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.10959",
+      "scraped_at": "2025-12-13T01:42:04.966010"
+    },
+    "scraped_date": "2025-12-13"
+  },
+  {
+    "title": "Stronger Normalization-Free Transformers",
+    "paper_url": "https://huggingface.co/papers/2512.10938",
+    "authors": [
+      "Zhuang Liu",
+      "Mingjie Sun",
+      "Jiachen Zhu",
+      "TaiMingLu",
+      "Fishloong"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Stronger Normalization-Free Transformers",
+      "abstract": "Although normalization layers have long been viewed as indispensable components of deep learning architectures, the recent introduction of Dynamic Tanh (DyT) has demonstrated that alternatives are possible. The point-wise function DyT constrains extreme values for stable convergence and reaches normalization-level performance; this work seeks further for function designs that can surpass it. We first study how the intrinsic properties of point-wise functions influence training and performance. Building on these findings, we conduct a large-scale search for a more effective function design. Through this exploration, we introduce Derf(x)=erf(αx+s), where erf(x) is the rescaled Gaussian cumulative distribution function, and identify it as the most performant design. Derf outperforms LayerNorm, RMSNorm, and DyT across a wide range of domains, including vision (image recognition and generation), speech representation, and DNA sequence modeling. Our findings suggest that the performance gains of Derf largely stem from its improved generalization rather than stronger fitting capacity. Its simplicity and stronger performance make Derf a practical choice for normalization-free Transformer architectures.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.10938",
+      "pdf_url": "https://arxiv.org/pdf/2512.10938",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.10938",
+      "scraped_at": "2025-12-13T01:42:08.136184"
+    },
+    "scraped_date": "2025-12-13"
+  },
+  {
+    "title": "The FACTS Leaderboard: A Comprehensive Benchmark for Large Language Model Factuality",
+    "paper_url": "https://huggingface.co/papers/2512.10791",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "The FACTS Leaderboard: A Comprehensive Benchmark for Large Language Model Factuality",
+      "abstract": "We introduce The FACTS Leaderboard, an online leaderboard suite and associated set of benchmarks that comprehensively evaluates the ability of language models to generate factually accurate text across diverse scenarios. The suite provides a holistic measure of factuality by aggregating the performance of models on four distinct sub-leaderboards: (1) FACTS Multimodal, which measures the factuality of responses to image-based questions; (2) FACTS Parametric, which assesses models' world knowledge by answering closed-book factoid questions from internal parameters; (3) FACTS Search, which evaluates factuality in information-seeking scenarios, where the model must use a search API; and (4) FACTS Grounding (v2), which evaluates whether long-form responses are grounded in provided documents, featuring significantly improved judge models. Each sub-leaderboard employs automated judge models to score model responses, and the final suite score is an average of the four components, designed to provide a robust and balanced assessment of a model's overall factuality. The FACTS Leaderboard Suite will be actively maintained, containing both public and private splits to allow for external participation while guarding its integrity.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.10791",
+      "pdf_url": "https://arxiv.org/pdf/2512.10791",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.10791",
+      "scraped_at": "2025-12-13T01:42:10.130589"
+    },
+    "scraped_date": "2025-12-13"
+  },
+  {
+    "title": "Tool-Augmented Spatiotemporal Reasoning for Streamlining Video Question Answering Task",
+    "paper_url": "https://huggingface.co/papers/2512.10359",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Tool-Augmented Spatiotemporal Reasoning for Streamlining Video Question Answering Task",
+      "abstract": "Tool-augmented VideoQA system, accepted by NeurIPS'25 main track.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.10359",
+      "pdf_url": "https://arxiv.org/pdf/2512.10359",
+      "github_links": [
+        "https://github.com/fansunqi/VideoTool"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.10359",
+      "scraped_at": "2025-12-13T01:42:12.057289"
+    },
+    "scraped_date": "2025-12-13"
+  },
+  {
+    "title": "H2R-Grounder: A Paired-Data-Free Paradigm for Translating Human Interaction Videos into Physically Grounded Robot Videos",
+    "paper_url": "https://huggingface.co/papers/2512.09406",
+    "authors": [
+      "Pei Yang",
+      "Xiaokang Liu",
+      "AnalMom",
+      "yiren98",
+      "HaiCi"
+    ],
+    "stars": "13",
+    "details": {
+      "title": "H2R-Grounder: A Paired-Data-Free Paradigm for Translating Human Interaction Videos into Physically Grounded Robot Videos",
+      "abstract": "A framework to translate human object interaction (HOI) videos into grounded robot object interaction (ROI) videos.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.09406",
+      "pdf_url": "https://arxiv.org/pdf/2512.09406",
+      "github_links": [
+        "https://github.com/showlab/H2R-Grounder"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.09406",
+      "scraped_at": "2025-12-13T01:42:14.077733"
+    },
+    "scraped_date": "2025-12-13"
+  },
+  {
+    "title": "MoRel: Long-Range Flicker-Free 4D Motion Modeling via Anchor Relay-based Bidirectional Blending with Hierarchical Densification",
+    "paper_url": "https://huggingface.co/papers/2512.09270",
+    "authors": [
+      "Won-Sik Cheong",
+      "Geonho Kim",
+      "shurek20",
+      "klavna",
+      "sangwoonkwak"
+    ],
+    "stars": "5",
+    "details": {
+      "title": "MoRel: Long-Range Flicker-Free 4D Motion Modeling via Anchor Relay-based Bidirectional Blending with Hierarchical Densification",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Dynamic-eDiTor: Training-Free Text-Driven 4D Scene Editing with Multimodal Diffusion Transformer (2025) TED-4DGS: Temporally Activated and Embedding-based Deformation for 4DGS Compression (2025) SUCCESS-GS: Survey of Compactness and Compression for Efficient Static and Dynamic Gaussian Splatting (2025) MoE-GS: Mixture of Experts for Dynamic Gaussian Splatting (2025) UniSplat: Unified Spatio-Temporal Fusion via 3D Latent Scaffolds for Dynamic Driving Scene Reconstruction (2025) StreamSTGS: Streaming Spatial and Temporal Gaussian Grids for Real-Time Free-Viewpoint Video (2025) Motion4D: Learning 3D-Consistent Motion and Semantics for 4D Scene Understanding (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.09270",
+      "pdf_url": "https://arxiv.org/pdf/2512.09270",
+      "github_links": [
+        "https://github.com/CMLab-Korea/MoRel-arXiv"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.09270",
+      "scraped_at": "2025-12-13T01:42:15.992091"
+    },
+    "scraped_date": "2025-12-13"
+  },
+  {
+    "title": "Omni-Attribute: Open-vocabulary Attribute Encoder for Visual Concept Personalization",
+    "paper_url": "https://huggingface.co/papers/2512.10955",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Omni-Attribute: Open-vocabulary Attribute Encoder for Visual Concept Personalization",
+      "abstract": "This work can isolate a specific attribute from any image and merge those selected attributes from multiple images into a coherent generation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.10955",
+      "pdf_url": "https://arxiv.org/pdf/2512.10955",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.10955",
+      "scraped_at": "2025-12-13T01:42:17.913989"
+    },
+    "scraped_date": "2025-12-13"
+  },
+  {
+    "title": "Confucius Code Agent: An Open-sourced AI Software Engineer at Industrial Scale",
+    "paper_url": "https://huggingface.co/papers/2512.10398",
+    "authors": [],
+    "stars": "13",
+    "details": {
+      "title": "Confucius Code Agent: An Open-sourced AI Software Engineer at Industrial Scale",
+      "abstract": "Real-world AI software engineering demands coding agents that can reason over massive repositories, maintain durable memory across and within long sessions, and robustly coordinate complex toolchains at test time. Existing open-source coding agents provide transparency but frequently fall short when pushed to these industrial-scale workloads, while proprietary coding agents offer strong practical performance but limited extensibility, interpretability, and controllability. We present the Confucius Code Agent (CCA), an open-sourced AI software engineer that can operate at an industrial scale. CCA is built atop the Confucius SDK, an open-sourced agent development platform designed around three complementary perspectives: Agent Experience (AX), User Experience (UX), and Developer Experience (DX). The SDK introduces a unified orchestrator with hierarchical working memory for long-context reasoning, a persistent note-taking system for cross-session continual learning, and a modular extension module for robust tool use. Moreover, a meta-agent automates the synthesis, evaluation, and refinement of agent configurations through a build-test-improve loop, enabling rapid agent development on new tasks, environments, and tool stacks. Instantiated on Confucius SDK with these mechanisms, CCA delivers strong performance on real-world software engineering tasks. On SWE-Bench-Pro, CCA achieves a state-of-the-art Resolve@1 performance of 54.3%, substantially improving over prior coding agents. Together, the Confucius SDK and CCA provide a transparent, extensible, and reproducible foundation for AI agents, bridge gaps between research prototypes and production-grade systems, and support agent development and deployment at industrial scale.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.10398",
+      "pdf_url": "https://arxiv.org/pdf/2512.10398",
+      "github_links": [
+        "https://github.com/facebook/confucius"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.10398",
+      "scraped_at": "2025-12-13T01:42:19.859409"
+    },
+    "scraped_date": "2025-12-13"
+  },
+  {
+    "title": "ReViSE: Towards Reason-Informed Video Editing in Unified Models with Self-Reflective Learning",
+    "paper_url": "https://huggingface.co/papers/2512.09924",
+    "authors": [
+      "SuaLily",
+      "whluo",
+      "Yanbiao",
+      "LewisPan",
+      "JacobYuan"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "ReViSE: Towards Reason-Informed Video Editing in Unified Models with Self-Reflective Learning",
+      "abstract": "Code: https://github.com/Liuxinyv/ReViSE",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.09924",
+      "pdf_url": "https://arxiv.org/pdf/2512.09924",
+      "github_links": [
+        "https://github.com/Liuxinyv/ReViSE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.09924",
+      "scraped_at": "2025-12-13T01:42:21.819725"
+    },
+    "scraped_date": "2025-12-13"
+  },
+  {
+    "title": "Fed-SE: Federated Self-Evolution for Privacy-Constrained Multi-Environment LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2512.08870",
+    "authors": [
+      "Xiaodong Gu",
+      "Yuchao Qiu",
+      "Xiang Chen",
+      "lanqz7766",
+      "YerbaPage"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Fed-SE: Federated Self-Evolution for Privacy-Constrained Multi-Environment LLM Agents",
+      "abstract": "Check this out!",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.08870",
+      "pdf_url": "https://arxiv.org/pdf/2512.08870",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.08870",
+      "scraped_at": "2025-12-13T01:42:23.701246"
+    },
+    "scraped_date": "2025-12-13"
+  },
+  {
+    "title": "MOA: Multi-Objective Alignment for Role-Playing Agents",
+    "paper_url": "https://huggingface.co/papers/2512.09756",
+    "authors": [
+      "Fei Huang",
+      "Ke Wang",
+      "Yongbin-Li",
+      "yuchuan123",
+      "ChonghuaLiao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "MOA: Multi-Objective Alignment for Role-Playing Agents",
+      "abstract": "Role-playing agents (RPAs) must simultaneously master many conflicting skills -- following multi-turn instructions, exhibiting domain knowledge, and adopting a consistent linguistic style. Existing work either relies on supervised fine-tuning (SFT) that over-fits surface cues and yields low diversity, or applies reinforcement learning (RL) that fails to learn multiple dimensions for comprehensive RPA optimization. We present MOA (Multi-Objective Alignment), a reinforcement-learning framework that enables multi-dimensional, fine-grained rubric optimization for general RPAs. MOA introduces a novel multi-objective optimization strategy that trains simultaneously on multiple fine-grained rubrics to boost optimization performance. Besides, to address the issues of model output diversity and quality, we have also employed thought-augmented rollout with off-policy guidance. Extensive experiments on challenging benchmarks such as PersonaGym and RoleMRC show that MOA enables an 8B model to match or even outperform strong baselines such as GPT-4o and Claude across numerous dimensions. This demonstrates the great potential of MOA in building RPAs that can simultaneously meet the demands of role knowledge, persona style, diverse scenarios, and complex multi-turn conversations.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.09756",
+      "pdf_url": "https://arxiv.org/pdf/2512.09756",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.09756",
+      "scraped_at": "2025-12-13T01:42:25.570321"
+    },
+    "scraped_date": "2025-12-13"
+  },
+  {
+    "title": "X-Humanoid: Robotize Human Videos to Generate Humanoid Videos at Scale",
+    "paper_url": "https://huggingface.co/papers/2512.04537",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "X-Humanoid: Robotize Human Videos to Generate Humanoid Videos at Scale",
+      "abstract": "The advancement of embodied AI has unlocked significant potential for intelligent humanoid robots. However, progress in both Vision-Language-Action (VLA) models and world models is severely hampered by the scarcity of large-scale, diverse training data. A promising solution is to \"robotize\" web-scale human videos, which has been proven effective for policy training. However, these solutions mainly \"overlay\" robot arms to egocentric videos, which cannot handle complex full-body motions and scene occlusions in third-person videos, making them unsuitable for robotizing humans. To bridge this gap, we introduce X-Humanoid, a generative video editing approach that adapts the powerful Wan 2.2 model into a video-to-video structure and finetunes it for the human-to-humanoid translation task. This finetuning requires paired human-humanoid videos, so we designed a scalable data creation pipeline, turning community assets into 17+ hours of paired synthetic videos using Unreal Engine. We then apply our trained model to 60 hours of the Ego-Exo4D videos, generating and releasing a new large-scale dataset of over 3.6 million \"robotized\" humanoid video frames. Quantitative analysis and user studies confirm our method's superiority over existing baselines: 69% of users rated it best for motion consistency, and 62.1% for embodiment correctness.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.04537",
+      "pdf_url": "https://arxiv.org/pdf/2512.04537",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.04537",
+      "scraped_at": "2025-12-13T01:42:27.487497"
+    },
+    "scraped_date": "2025-12-13"
+  },
+  {
+    "title": "DuetSVG: Unified Multimodal SVG Generation with Internal Visual Guidance",
+    "paper_url": "https://huggingface.co/papers/2512.10894",
+    "authors": [
+      "Jing Liao",
+      "Yiran Xu",
+      "Matthew Fisher",
+      "Nanxuan Zhao",
+      "Peiying Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "DuetSVG: Unified Multimodal SVG Generation with Internal Visual Guidance",
+      "abstract": "We introduce DuetSVG, a unified multimodal model that jointly generates image tokens and corresponding SVG tokens in an end-to-end manner. DuetSVG is trained on both image and SVG datasets. At inference, we apply a novel test-time scaling strategy that leverages the model's native visual predictions as guidance to improve SVG decoding quality. Extensive experiments show that our method outperforms existing methods, producing visually faithful, semantically aligned, and syntactically clean SVGs across a wide range of applications.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.10894",
+      "pdf_url": "https://arxiv.org/pdf/2512.10894",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.10894",
+      "scraped_at": "2025-12-13T01:42:29.345987"
+    },
+    "scraped_date": "2025-12-13"
   }
 ]
