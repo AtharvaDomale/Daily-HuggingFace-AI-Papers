@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-24-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-299+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-25-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-324+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">24</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">161</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">348</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">299+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">25</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">186</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">373</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">324+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** December 13, 2025
+**Last Updated:** December 14, 2025
 
 ---
 
@@ -141,7 +141,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>3. Are We Ready for RL in Text-to-3D Generation? A Progressive Investigation</b> ⭐ 40</summary>
+<summary><b>3. Are We Ready for RL in Text-to-3D Generation? A Progressive Investigation</b> ⭐ 45</summary>
 
 <br/>
 
@@ -200,40 +200,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>8. From Macro to Micro: Benchmarking Microscopic Spatial Intelligence on Molecules via Vision-Language Models</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.10867) • [📄 arXiv](https://arxiv.org/abs/2512.10867) • [📥 PDF](https://arxiv.org/pdf/2512.10867)
-
-> This paper introduces the concept of Microscopic Spatial Intelligence (MiSI), the capability to perceive and reason about the spatial relationships of invisible microscopic entities, which is fundamental to scientific discovery. To assess the pote...
-
-</details>
-
-<details>
-<summary><b>9. VQRAE: Representation Quantization Autoencoders for Multimodal Understanding, Generation and Reconstruction</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2511.23386) • [📄 arXiv](https://arxiv.org/abs/2511.23386) • [📥 PDF](https://arxiv.org/pdf/2511.23386)
-
-> arXiv: https://arxiv.org/pdf/2511.23386 Overall Architecture
-
-</details>
-
-<details>
-<summary><b>10. Evaluating Gemini Robotics Policies in a Veo World Simulator</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.10675) • [📄 arXiv](https://arxiv.org/abs/2512.10675) • [📥 PDF](https://arxiv.org/pdf/2512.10675)
-
-> Generative world models hold significant potential for simulating interactions with visuomotor policies in varied environments. Frontier video models can enable generation of realistic observations and environment interactions in a scalable and ge...
-
-</details>
-
-<details>
-<summary><b>11. Thinking with Images via Self-Calling Agent</b> ⭐ 11</summary>
+<summary><b>8. Thinking with Images via Self-Calling Agent</b> ⭐ 11</summary>
 
 <br/>
 
@@ -248,7 +215,44 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>12. StereoSpace: Depth-Free Synthesis of Stereo Geometry via End-to-End Diffusion in a Canonical Space</b> ⭐ 12</summary>
+<summary><b>9. From Macro to Micro: Benchmarking Microscopic Spatial Intelligence on Molecules via Vision-Language Models</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.10867) • [📄 arXiv](https://arxiv.org/abs/2512.10867) • [📥 PDF](https://arxiv.org/pdf/2512.10867)
+
+> This paper introduces the concept of Microscopic Spatial Intelligence (MiSI), the capability to perceive and reason about the spatial relationships of invisible microscopic entities, which is fundamental to scientific discovery. To assess the pote...
+
+</details>
+
+<details>
+<summary><b>10. Stronger Normalization-Free Transformers</b> ⭐ 31</summary>
+
+<br/>
+
+**👥 Authors:** Zhuang Liu, Mingjie Sun, Jiachen Zhu, TaiMingLu, Fishloong
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.10938) • [📄 arXiv](https://arxiv.org/abs/2512.10938) • [📥 PDF](https://arxiv.org/pdf/2512.10938)
+
+**💻 Code:** [⭐ Code](https://github.com/zlab-princeton/Derf)
+
+> Although normalization layers have long been viewed as indispensable components of deep learning architectures, the recent introduction of Dynamic Tanh (DyT) has demonstrated that alternatives are possible. The point-wise function DyT constrains e...
+
+</details>
+
+<details>
+<summary><b>11. VQRAE: Representation Quantization Autoencoders for Multimodal Understanding, Generation and Reconstruction</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2511.23386) • [📄 arXiv](https://arxiv.org/abs/2511.23386) • [📥 PDF](https://arxiv.org/pdf/2511.23386)
+
+> arXiv: https://arxiv.org/pdf/2511.23386 Overall Architecture
+
+</details>
+
+<details>
+<summary><b>12. StereoSpace: Depth-Free Synthesis of Stereo Geometry via End-to-End Diffusion in a Canonical Space</b> ⭐ 15</summary>
 
 <br/>
 
@@ -261,59 +265,18 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>13. Stronger Normalization-Free Transformers</b> ⭐ 0</summary>
+<summary><b>13. Evaluating Gemini Robotics Policies in a Veo World Simulator</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Zhuang Liu, Mingjie Sun, Jiachen Zhu, TaiMingLu, Fishloong
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.10675) • [📄 arXiv](https://arxiv.org/abs/2512.10675) • [📥 PDF](https://arxiv.org/pdf/2512.10675)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.10938) • [📄 arXiv](https://arxiv.org/abs/2512.10938) • [📥 PDF](https://arxiv.org/pdf/2512.10938)
-
-> Although normalization layers have long been viewed as indispensable components of deep learning architectures, the recent introduction of Dynamic Tanh (DyT) has demonstrated that alternatives are possible. The point-wise function DyT constrains e...
+> Generative world models hold significant potential for simulating interactions with visuomotor policies in varied environments. Frontier video models can enable generation of realistic observations and environment interactions in a scalable and ge...
 
 </details>
 
 <details>
-<summary><b>14. The FACTS Leaderboard: A Comprehensive Benchmark for Large Language Model Factuality</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.10791) • [📄 arXiv](https://arxiv.org/abs/2512.10791) • [📥 PDF](https://arxiv.org/pdf/2512.10791)
-
-> We introduce The FACTS Leaderboard, an online leaderboard suite and associated set of benchmarks that comprehensively evaluates the ability of language models to generate factually accurate text across diverse scenarios. The suite provides a holis...
-
-</details>
-
-<details>
-<summary><b>15. Tool-Augmented Spatiotemporal Reasoning for Streamlining Video Question Answering Task</b> ⭐ 3</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.10359) • [📄 arXiv](https://arxiv.org/abs/2512.10359) • [📥 PDF](https://arxiv.org/pdf/2512.10359)
-
-**💻 Code:** [⭐ Code](https://github.com/fansunqi/VideoTool)
-
-> Tool-augmented VideoQA system, accepted by NeurIPS'25 main track.
-
-</details>
-
-<details>
-<summary><b>16. H2R-Grounder: A Paired-Data-Free Paradigm for Translating Human Interaction Videos into Physically Grounded Robot Videos</b> ⭐ 13</summary>
-
-<br/>
-
-**👥 Authors:** Pei Yang, Xiaokang Liu, AnalMom, yiren98, HaiCi
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.09406) • [📄 arXiv](https://arxiv.org/abs/2512.09406) • [📥 PDF](https://arxiv.org/pdf/2512.09406)
-
-**💻 Code:** [⭐ Code](https://github.com/showlab/H2R-Grounder)
-
-> A framework to translate human object interaction (HOI) videos into grounded robot object interaction (ROI) videos.
-
-</details>
-
-<details>
-<summary><b>17. MoRel: Long-Range Flicker-Free 4D Motion Modeling via Anchor Relay-based Bidirectional Blending with Hierarchical Densification</b> ⭐ 5</summary>
+<summary><b>14. MoRel: Long-Range Flicker-Free 4D Motion Modeling via Anchor Relay-based Bidirectional Blending with Hierarchical Densification</b> ⭐ 6</summary>
 
 <br/>
 
@@ -328,31 +291,31 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>18. Omni-Attribute: Open-vocabulary Attribute Encoder for Visual Concept Personalization</b> ⭐ 0</summary>
+<summary><b>15. The FACTS Leaderboard: A Comprehensive Benchmark for Large Language Model Factuality</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.10955) • [📄 arXiv](https://arxiv.org/abs/2512.10955) • [📥 PDF](https://arxiv.org/pdf/2512.10955)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.10791) • [📄 arXiv](https://arxiv.org/abs/2512.10791) • [📥 PDF](https://arxiv.org/pdf/2512.10791)
 
-> This work can isolate a specific attribute from any image and merge those selected attributes from multiple images into a coherent generation.
+> We introduce The FACTS Leaderboard, an online leaderboard suite and associated set of benchmarks that comprehensively evaluates the ability of language models to generate factually accurate text across diverse scenarios. The suite provides a holis...
 
 </details>
 
 <details>
-<summary><b>19. Confucius Code Agent: An Open-sourced AI Software Engineer at Industrial Scale</b> ⭐ 13</summary>
+<summary><b>16. Tool-Augmented Spatiotemporal Reasoning for Streamlining Video Question Answering Task</b> ⭐ 3</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.10398) • [📄 arXiv](https://arxiv.org/abs/2512.10398) • [📥 PDF](https://arxiv.org/pdf/2512.10398)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.10359) • [📄 arXiv](https://arxiv.org/abs/2512.10359) • [📥 PDF](https://arxiv.org/pdf/2512.10359)
 
-**💻 Code:** [⭐ Code](https://github.com/facebook/confucius)
+**💻 Code:** [⭐ Code](https://github.com/fansunqi/VideoTool)
 
-> Real-world AI software engineering demands coding agents that can reason over massive repositories, maintain durable memory across and within long sessions, and robustly coordinate complex toolchains at test time. Existing open-source coding agent...
+> Tool-augmented VideoQA system, accepted by NeurIPS'25 main track.
 
 </details>
 
 <details>
-<summary><b>20. ReViSE: Towards Reason-Informed Video Editing in Unified Models with Self-Reflective Learning</b> ⭐ 3</summary>
+<summary><b>17. ReViSE: Towards Reason-Informed Video Editing in Unified Models with Self-Reflective Learning</b> ⭐ 4</summary>
 
 <br/>
 
@@ -367,7 +330,22 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>21. Fed-SE: Federated Self-Evolution for Privacy-Constrained Multi-Environment LLM Agents</b> ⭐ 0</summary>
+<summary><b>18. H2R-Grounder: A Paired-Data-Free Paradigm for Translating Human Interaction Videos into Physically Grounded Robot Videos</b> ⭐ 13</summary>
+
+<br/>
+
+**👥 Authors:** Pei Yang, Xiaokang Liu, AnalMom, yiren98, HaiCi
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.09406) • [📄 arXiv](https://arxiv.org/abs/2512.09406) • [📥 PDF](https://arxiv.org/pdf/2512.09406)
+
+**💻 Code:** [⭐ Code](https://github.com/showlab/H2R-Grounder)
+
+> A framework to translate human object interaction (HOI) videos into grounded robot object interaction (ROI) videos.
+
+</details>
+
+<details>
+<summary><b>19. Fed-SE: Federated Self-Evolution for Privacy-Constrained Multi-Environment LLM Agents</b> ⭐ 0</summary>
 
 <br/>
 
@@ -380,15 +358,37 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>22. MOA: Multi-Objective Alignment for Role-Playing Agents</b> ⭐ 0</summary>
+<summary><b>20. Omni-Attribute: Open-vocabulary Attribute Encoder for Visual Concept Personalization</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Fei Huang, Ke Wang, Yongbin-Li, yuchuan123, ChonghuaLiao
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.10955) • [📄 arXiv](https://arxiv.org/abs/2512.10955) • [📥 PDF](https://arxiv.org/pdf/2512.10955)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.09756) • [📄 arXiv](https://arxiv.org/abs/2512.09756) • [📥 PDF](https://arxiv.org/pdf/2512.09756)
+> This work can isolate a specific attribute from any image and merge those selected attributes from multiple images into a coherent generation.
 
-> Role-playing agents (RPAs) must simultaneously master many conflicting skills -- following multi-turn instructions, exhibiting domain knowledge, and adopting a consistent linguistic style. Existing work either relies on supervised fine-tuning (SFT...
+</details>
+
+<details>
+<summary><b>21. DuetSVG: Unified Multimodal SVG Generation with Internal Visual Guidance</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Jing Liao, Yiran Xu, Matthew Fisher, Nanxuan Zhao, Peiying Zhang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.10894) • [📄 arXiv](https://arxiv.org/abs/2512.10894) • [📥 PDF](https://arxiv.org/pdf/2512.10894)
+
+> We introduce DuetSVG, a unified multimodal model that jointly generates image tokens and corresponding SVG tokens in an end-to-end manner. DuetSVG is trained on both image and SVG datasets. At inference, we apply a novel test-time scaling strategy...
+
+</details>
+
+<details>
+<summary><b>22. Confucius Code Agent: An Open-sourced AI Software Engineer at Industrial Scale</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.10398) • [📄 arXiv](https://arxiv.org/abs/2512.10398) • [📥 PDF](https://arxiv.org/pdf/2512.10398)
+
+> Real-world AI software engineering demands coding agents that can reason over massive repositories, maintain durable memory across and within long sessions, and robustly coordinate complex toolchains at test time. Existing open-source coding agent...
 
 </details>
 
@@ -404,15 +404,28 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>24. DuetSVG: Unified Multimodal SVG Generation with Internal Visual Guidance</b> ⭐ 0</summary>
+<summary><b>24. MOA: Multi-Objective Alignment for Role-Playing Agents</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Jing Liao, Yiran Xu, Matthew Fisher, Nanxuan Zhao, Peiying Zhang
+**👥 Authors:** Fei Huang, Ke Wang, Yongbin-Li, yuchuan123, ChonghuaLiao
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.10894) • [📄 arXiv](https://arxiv.org/abs/2512.10894) • [📥 PDF](https://arxiv.org/pdf/2512.10894)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.09756) • [📄 arXiv](https://arxiv.org/abs/2512.09756) • [📥 PDF](https://arxiv.org/pdf/2512.09756)
 
-> We introduce DuetSVG, a unified multimodal model that jointly generates image tokens and corresponding SVG tokens in an end-to-end manner. DuetSVG is trained on both image and SVG datasets. At inference, we apply a novel test-time scaling strategy...
+> Role-playing agents (RPAs) must simultaneously master many conflicting skills -- following multi-turn instructions, exhibiting domain knowledge, and adopting a consistent linguistic style. Existing work either relies on supervised fine-tuning (SFT...
+
+</details>
+
+<details>
+<summary><b>25. DragMesh: Interactive 3D Generation Made Easy</b> ⭐ 6</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.06424) • [📄 arXiv](https://arxiv.org/abs/2512.06424) • [📥 PDF](https://arxiv.org/pdf/2512.06424)
+
+**💻 Code:** [⭐ Code](https://github.com/AIGeeksGroup/DragMesh)
+
+> DragMesh enables real time, physically valid 3D object articulation by decoupling kinematic reasoning from motion generation and producing plausible motions via a dual quaternion based generative model.
 
 </details>
 
@@ -424,35 +437,35 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 24 |
-| 📅 Today | [`2025-12-13.json`](data/daily/2025-12-13.json) | 24 |
-| 📆 This Week | [`2025-W49.json`](data/weekly/2025-W49.json) | 161 |
-| 🗓️ This Month | [`2025-12.json`](data/monthly/2025-12.json) | 348 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 25 |
+| 📅 Today | [`2025-12-14.json`](data/daily/2025-12-14.json) | 25 |
+| 📆 This Week | [`2025-W49.json`](data/weekly/2025-W49.json) | 186 |
+| 🗓️ This Month | [`2025-12.json`](data/monthly/2025-12.json) | 373 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2025-12-13 | 24 | [View JSON](data/daily/2025-12-13.json) |
+| 📌 2025-12-14 | 25 | [View JSON](data/daily/2025-12-14.json) |
+| 📄 2025-12-13 | 24 | [View JSON](data/daily/2025-12-13.json) |
 | 📄 2025-12-12 | 21 | [View JSON](data/daily/2025-12-12.json) |
 | 📄 2025-12-11 | 25 | [View JSON](data/daily/2025-12-11.json) |
 | 📄 2025-12-10 | 29 | [View JSON](data/daily/2025-12-10.json) |
 | 📄 2025-12-09 | 24 | [View JSON](data/daily/2025-12-09.json) |
 | 📄 2025-12-08 | 38 | [View JSON](data/daily/2025-12-08.json) |
-| 📄 2025-12-07 | 38 | [View JSON](data/daily/2025-12-07.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2025-W49 | 161 | [View JSON](data/weekly/2025-W49.json) |
+| 📅 2025-W49 | 186 | [View JSON](data/weekly/2025-W49.json) |
 | 📅 2025-W48 | 187 | [View JSON](data/weekly/2025-W48.json) |
 
 ### 🗂️ Monthly Archives
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2025-12 | 348 | [View JSON](data/monthly/2025-12.json) |
+| 🗓️ 2025-12 | 373 | [View JSON](data/monthly/2025-12.json) |
 
 ---
 
