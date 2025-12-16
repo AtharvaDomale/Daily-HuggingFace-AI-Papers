@@ -494,5 +494,438 @@
       "scraped_at": "2025-12-15T01:51:57.292467"
     },
     "scraped_date": "2025-12-15"
+  },
+  {
+    "title": "EgoX: Egocentric Video Generation from a Single Exocentric Video",
+    "paper_url": "https://huggingface.co/papers/2512.08269",
+    "authors": [],
+    "stars": "17",
+    "details": {
+      "title": "EgoX: Egocentric Video Generation from a Single Exocentric Video",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.08269",
+      "pdf_url": "https://arxiv.org/pdf/2512.08269",
+      "github_links": [
+        "https://github.com/KEH0T0/EgoX"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.08269",
+      "scraped_at": "2025-12-16T01:48:10.403542"
+    },
+    "scraped_date": "2025-12-16"
+  },
+  {
+    "title": "DentalGPT: Incentivizing Multimodal Complex Reasoning in Dentistry",
+    "paper_url": "https://huggingface.co/papers/2512.11558",
+    "authors": [
+      "Yanchao Li",
+      "Junjie Zhao",
+      "Jiaming Zhang",
+      "Zhenyang Cai",
+      "CocoNutZENG"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "DentalGPT: Incentivizing Multimodal Complex Reasoning in Dentistry",
+      "abstract": "Reliable interpretation of multimodal data in dentistry is essential for automated oral healthcare, yet current multimodal large language models (MLLMs) struggle to capture fine-grained dental visual details and lack sufficient reasoning ability for precise diagnosis. To address these limitations, we present DentalGPT , a specialized dental MLLM developed through high-quality domain knowledge injection and reinforcement learning. Specifically, the largest annotated multimodal dataset for dentistry to date was constructed by aggregating over 120k dental images paired with detailed descriptions that highlight diagnostically relevant visual features, making it the multimodal dataset with the most extensive collection of dental images to date. Training on this dataset significantly enhances the MLLM's visual understanding of dental conditions, while the subsequent reinforcement learning stage further strengthens its capability for multimodal complex reasoning. Comprehensive evaluations on intraoral and panoramic benchmarks, along with dental subsets of medical VQA benchmarks, show that DentalGPT achieves superior performance in disease classification and dental VQA tasks, outperforming many state-of-the-art MLLMs despite having only 7B parameters. These results demonstrate that high-quality dental data combined with staged adaptation provides an effective pathway for building capable and domain-specialized dental MLLMs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.11558",
+      "pdf_url": "https://arxiv.org/pdf/2512.11558",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.11558",
+      "scraped_at": "2025-12-16T01:48:12.307882"
+    },
+    "scraped_date": "2025-12-16"
+  },
+  {
+    "title": "SVG-T2I: Scaling Up Text-to-Image Latent Diffusion Model Without Variational Autoencoder",
+    "paper_url": "https://huggingface.co/papers/2512.11749",
+    "authors": [],
+    "stars": "40",
+    "details": {
+      "title": "SVG-T2I: Scaling Up Text-to-Image Latent Diffusion Model Without Variational Autoencoder",
+      "abstract": "Visual generation grounded in Visual Foundation Model (VFM) representations offers a highly promising unified pathway for integrating visual understanding, perception, and generation. Despite this potential, training large-scale text-to-image diffusion models entirely within the VFM representation space remains largely unexplored. To bridge this gap, we scale the SVG (Self-supervised representations for Visual Generation) framework, proposing SVG-T2I to support high-quality text-to-image synthesis directly in the VFM feature domain. By leveraging a standard text-to-image diffusion pipeline, SVG-T2I achieves competitive performance, reaching 0.75 on GenEval and 85.78 on DPG-Bench. This performance validates the intrinsic representational power of VFMs for generative tasks. We fully open-source the project, including the autoencoder and generation model, together with their training, inference, evaluation pipelines, and pre-trained weights, to facilitate further research in representation-driven visual generation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.11749",
+      "pdf_url": "https://arxiv.org/pdf/2512.11749",
+      "github_links": [
+        "https://github.com/KlingTeam/SVG-T2I"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.11749",
+      "scraped_at": "2025-12-16T01:48:14.370200"
+    },
+    "scraped_date": "2025-12-16"
+  },
+  {
+    "title": "V-RGBX: Video Editing with Accurate Controls over Intrinsic Properties",
+    "paper_url": "https://huggingface.co/papers/2512.11799",
+    "authors": [],
+    "stars": "40",
+    "details": {
+      "title": "V-RGBX: Video Editing with Accurate Controls over Intrinsic Properties",
+      "abstract": "Large-scale video generation models have shown remarkable potential in modeling photorealistic appearance and lighting interactions in real-world scenes. However, a closed-loop framework that jointly understands intrinsic scene properties (e.g., albedo, normal, material, and irradiance), leverages them for video synthesis, and supports editable intrinsic representations remains unexplored. We present V-RGBX, the first end-to-end framework for intrinsic-aware video editing. V-RGBX unifies three key capabilities: (1) video inverse rendering into intrinsic channels, (2) photorealistic video synthesis from these intrinsic representations, and (3) keyframe-based video editing conditioned on intrinsic channels. At the core of V-RGBX is an interleaved conditioning mechanism that enables intuitive, physically grounded video editing through user-selected keyframes, supporting flexible manipulation of any intrinsic modality. Extensive qualitative and quantitative results show that V-RGBX produces temporally consistent, photorealistic videos while propagating keyframe edits across sequences in a physically plausible manner. We demonstrate its effectiveness in diverse applications, including object appearance editing and scene-level relighting, surpassing the performance of prior methods.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.11799",
+      "pdf_url": "https://arxiv.org/pdf/2512.11799",
+      "github_links": [
+        "https://github.com/Aleafy/V-RGBX"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.11799",
+      "scraped_at": "2025-12-16T01:48:16.319310"
+    },
+    "scraped_date": "2025-12-16"
+  },
+  {
+    "title": "Sliding Window Attention Adaptation",
+    "paper_url": "https://huggingface.co/papers/2512.10411",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Sliding Window Attention Adaptation",
+      "abstract": "We propose a set of practical recipes that can let a full-attention LLM use sliding window attention to improve efficiency. For example, some can achieve nearly 100% acceleration of LLM long-context inference speed with 90% accuracy retainment; some can only achieve about 30% acceleration but with nearly 100% accuracy retainment. Our code is available at https://github.com/yuyijiong/sliding-window-attention-adaptation",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.10411",
+      "pdf_url": "https://arxiv.org/pdf/2512.10411",
+      "github_links": [
+        "https://github.com/yuyijiong/sliding-window-attention-adaptation"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.10411",
+      "scraped_at": "2025-12-16T01:48:18.230209"
+    },
+    "scraped_date": "2025-12-16"
+  },
+  {
+    "title": "PersonaLive! Expressive Portrait Image Animation for Live Streaming",
+    "paper_url": "https://huggingface.co/papers/2512.11253",
+    "authors": [],
+    "stars": "206",
+    "details": {
+      "title": "PersonaLive! Expressive Portrait Image Animation for Live Streaming",
+      "abstract": "Current diffusion-based portrait animation models predominantly focus on enhancing visual quality and expression realism, while overlooking generation latency and real-time performance, which restricts their application range in the live streaming scenario. We propose PersonaLive, a novel diffusion-based framework towards streaming real-time portrait animation with multi-stage training recipes. Specifically, we first adopt hybrid implicit signals, namely implicit facial representations and 3D implicit keypoints, to achieve expressive image-level motion control. Then, a fewer-step appearance distillation strategy is proposed to eliminate appearance redundancy in the denoising process, greatly improving inference efficiency. Finally, we introduce an autoregressive micro-chunk streaming generation paradigm equipped with a sliding training strategy and a historical keyframe mechanism to enable low-latency and stable long-term video generation. Extensive experiments demonstrate that PersonaLive achieves state-of-the-art performance with up to 7-22x speedup over prior diffusion-based portrait animation models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.11253",
+      "pdf_url": "https://arxiv.org/pdf/2512.11253",
+      "github_links": [
+        "https://github.com/GVCLab/PersonaLive"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.11253",
+      "scraped_at": "2025-12-16T01:48:20.225617"
+    },
+    "scraped_date": "2025-12-16"
+  },
+  {
+    "title": "Exploring MLLM-Diffusion Information Transfer with MetaCanvas",
+    "paper_url": "https://huggingface.co/papers/2512.11464",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Exploring MLLM-Diffusion Information Transfer with MetaCanvas",
+      "abstract": "Multimodal learning has rapidly advanced visual understanding, largely via multimodal large language models (MLLMs) that use powerful LLMs as cognitive cores. In visual generation, however, these powerful core models are typically reduced to global text encoders for diffusion models, leaving most of their reasoning and planning ability unused. This creates a gap: current multimodal LLMs can parse complex layouts, attributes, and knowledge-intensive scenes, yet struggle to generate images or videos with equally precise and structured control. We propose MetaCanvas, a lightweight framework that lets MLLMs reason and plan directly in spatial and spatiotemporal latent spaces and interface tightly with diffusion generators. We empirically implement MetaCanvas on three different diffusion backbones and evaluate it across six tasks, including text-to-image generation, text/image-to-video generation, image/video editing, and in-context video generation, each requiring precise layouts, robust attribute binding, and reasoning-intensive control. MetaCanvas consistently outperforms global-conditioning baselines, suggesting that treating MLLMs as latent-space planners is a promising direction for narrowing the gap between multimodal understanding and generation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.11464",
+      "pdf_url": "https://arxiv.org/pdf/2512.11464",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.11464",
+      "scraped_at": "2025-12-16T01:48:22.165015"
+    },
+    "scraped_date": "2025-12-16"
+  },
+  {
+    "title": "Structure From Tracking: Distilling Structure-Preserving Motion for Video Generation",
+    "paper_url": "https://huggingface.co/papers/2512.11792",
+    "authors": [
+      "Qifeng Chen",
+      "Jingyuan Liu",
+      "George Stoica",
+      "Tim666",
+      "sunfly"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Structure From Tracking: Distilling Structure-Preserving Motion for Video Generation",
+      "abstract": "We introduce an algorithm to distill structure-preserving motion priors from an autoregressive video tracking model (SAM2) into a bidirectional video diffusion model (CogVideoX).",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.11792",
+      "pdf_url": "https://arxiv.org/pdf/2512.11792",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.11792",
+      "scraped_at": "2025-12-16T01:48:24.130045"
+    },
+    "scraped_date": "2025-12-16"
+  },
+  {
+    "title": "MeshSplatting: Differentiable Rendering with Opaque Meshes",
+    "paper_url": "https://huggingface.co/papers/2512.06818",
+    "authors": [
+      "Matheus Gadelha",
+      "Daniel Rebain",
+      "Renaud Vandeghen",
+      "Sanghyun Son",
+      "Jan Held"
+    ],
+    "stars": "273",
+    "details": {
+      "title": "MeshSplatting: Differentiable Rendering with Opaque Meshes",
+      "abstract": "MeshSplatting introduces a differentiable rendering approach that reconstructs connected, fully opaque triangle meshes for fast, memory efficient, high quality novel view synthesis.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.06818",
+      "pdf_url": "https://arxiv.org/pdf/2512.06818",
+      "github_links": [
+        "https://github.com/meshsplatting/mesh-splatting"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.06818",
+      "scraped_at": "2025-12-16T01:48:26.152847"
+    },
+    "scraped_date": "2025-12-16"
+  },
+  {
+    "title": "LEO-RobotAgent: A General-purpose Robotic Agent for Language-driven Embodied Operator",
+    "paper_url": "https://huggingface.co/papers/2512.10605",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "LEO-RobotAgent: A General-purpose Robotic Agent for Language-driven Embodied Operator",
+      "abstract": "A general-purpose robotic agent framework based on LLMs. The LLM can independently reason, plan, and execute actions to operate diverse robot types across various scenarios to complete unpredictable, complex tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.10605",
+      "pdf_url": "https://arxiv.org/pdf/2512.10605",
+      "github_links": [
+        "https://github.com/LegendLeoChen/LEO-RobotAgent"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.10605",
+      "scraped_at": "2025-12-16T01:48:28.199459"
+    },
+    "scraped_date": "2025-12-16"
+  },
+  {
+    "title": "Causal Judge Evaluation: Calibrated Surrogate Metrics for LLM Systems",
+    "paper_url": "https://huggingface.co/papers/2512.11150",
+    "authors": [
+      "elandy"
+    ],
+    "stars": "7",
+    "details": {
+      "title": "Causal Judge Evaluation: Calibrated Surrogate Metrics for LLM Systems",
+      "abstract": "LLM-as-judge evals are convenient, but meaningful (fixable) failure modes lurk beneath the surface. CJE treats LLM-judge evaluation as a statistics problem: • calibrate a cheap judge to a small oracle slice of high-quality labels • quantify uncertainty • flag when the method is breaking On Chatbot Arena prompts, we match oracle-quality pairwise policy ranking (99%) while cutting oracle labeling cost by ~14×. If you run an eval pipeline: what are the most important failure modes you’ve seen? I’d love to hear where this breaks first.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.11150",
+      "pdf_url": "https://arxiv.org/pdf/2512.11150",
+      "github_links": [
+        "https://github.com/cimo-labs/cje"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.11150",
+      "scraped_at": "2025-12-16T01:48:30.171508"
+    },
+    "scraped_date": "2025-12-16"
+  },
+  {
+    "title": "Fairy2i: Training Complex LLMs from Real LLMs with All Parameters in {pm 1, pm i}",
+    "paper_url": "https://huggingface.co/papers/2512.02901",
+    "authors": [],
+    "stars": "14",
+    "details": {
+      "title": "Fairy2i: Training Complex LLMs from Real LLMs with All Parameters in {pm 1, pm i}",
+      "abstract": "Is it possible to run LLMs at 2-bit with virtually NO loss in accuracy? 🤔 No with Real numbers, but Yes with Complex ones! 🚀 Meet Fairy2i-W2(2bit): QAT from LLaMA-2 7B with Complex Phase quant PPL: 7.85 (vs FP16's 6.63) Accuracy: 62.00% (vs FP16's 64.72%) But isn't LLaMA real-valued? Yes, but we built a bridge. 🌉 We prove a mathematical equivalence: Any real linear layer can be losslessly re-parameterized into a \"Widely-Linear Complex Form\". Which means no retraining needed! Another secret sauce: Recursive Residual Quantization. 🎯 Instead of just quantize once.We also quantize the remaining error to wipe out noise. Best part? These stages are Data-Independent, so they run in PARALLEL. You get high accuracy with virtually NO latency penalty. But isn't Complex arithmetic slow?\" 🤔Not with Fairy2i.Since weights are quantized to the unit circle ${ \\pm 1, \\pm i }$, we achieve Multiplication-Free Inference.Heavy Matrix Muls turn into simple Adds, Subs, and Swaps. This efficiency is key for running LLMs on edge devices We've only scratched the surface (QAT on just 30B tokens) We believe with more training data, surpassing the full-precision model is just around the corner Resources: arXiv: https://arxiv.org/pdf/2512.02901 huggingface: https://huggingface.co/PKU-DS-LAB/Fairy2i-W2 github: https://github.com/PKULab1806/Fairy2i-W2",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.02901",
+      "pdf_url": "https://arxiv.org/pdf/2512.02901",
+      "github_links": [
+        "https://github.com/PKULab1806/Fairy2i-W2"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.02901",
+      "scraped_at": "2025-12-16T01:48:32.083569"
+    },
+    "scraped_date": "2025-12-16"
+  },
+  {
+    "title": "CLINIC: Evaluating Multilingual Trustworthiness in Language Models for Healthcare",
+    "paper_url": "https://huggingface.co/papers/2512.11437",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CLINIC: Evaluating Multilingual Trustworthiness in Language Models for Healthcare",
+      "abstract": "First and largest multilingual trustworthiness benchmark for healthcare",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.11437",
+      "pdf_url": "https://arxiv.org/pdf/2512.11437",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.11437",
+      "scraped_at": "2025-12-16T01:48:33.973540"
+    },
+    "scraped_date": "2025-12-16"
+  },
+  {
+    "title": "Task adaptation of Vision-Language-Action model: 1st Place Solution for the 2025 BEHAVIOR Challenge",
+    "paper_url": "https://huggingface.co/papers/2512.06951",
+    "authors": [
+      "Akash Karnatak",
+      "Gleb Zarin",
+      "IliaLarchenko"
+    ],
+    "stars": "111",
+    "details": {
+      "title": "Task adaptation of Vision-Language-Action model: 1st Place Solution for the 2025 BEHAVIOR Challenge",
+      "abstract": "We present our 1st place solution to the 2025 NeurIPS BEHAVIOR Challenge, where a single Vision-Language-Action robotics policy is trained to perform 50 household manipulation tasks in a photorealistic simulator. The approach builds on Pi0.5 with several practical architecture, training, and inference modifications. We open-source the full solution, including code, model weights, and a detailed technical report, for anyone exploring or adapting VLAs to real tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.06951",
+      "pdf_url": "https://arxiv.org/pdf/2512.06951",
+      "github_links": [
+        "https://github.com/IliaLarchenko/behavior-1k-solution"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.06951",
+      "scraped_at": "2025-12-16T01:48:36.073880"
+    },
+    "scraped_date": "2025-12-16"
+  },
+  {
+    "title": "Fast-FoundationStereo: Real-Time Zero-Shot Stereo Matching",
+    "paper_url": "https://huggingface.co/papers/2512.11130",
+    "authors": [],
+    "stars": "45",
+    "details": {
+      "title": "Fast-FoundationStereo: Real-Time Zero-Shot Stereo Matching",
+      "abstract": "A real-time foundation model for stereo depth estimation, which is crucial for robotics/humanoid 3D spatial perception.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.11130",
+      "pdf_url": "https://arxiv.org/pdf/2512.11130",
+      "github_links": [
+        "https://github.com/NVlabs/Fast-FoundationStereo"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.11130",
+      "scraped_at": "2025-12-16T01:48:37.954375"
+    },
+    "scraped_date": "2025-12-16"
+  },
+  {
+    "title": "Scaling Behavior of Discrete Diffusion Language Models",
+    "paper_url": "https://huggingface.co/papers/2512.10858",
+    "authors": [],
+    "stars": "8",
+    "details": {
+      "title": "Scaling Behavior of Discrete Diffusion Language Models",
+      "abstract": "We scale diffusion language models up to 3B (masked and uniform diffusion) and 10B (uniform diffusion) parameters,  pre-trained on a pure diffusion objective (mixture of unconditional and conditional) via Nemotron-CC. 🤖 GitHub: https://github.com/dvruette/gidd-easydel 🤗 Huggingface: https://huggingface.co/collections/dvruette/scaling-behavior-of-discrete-diffusion-language-models",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.10858",
+      "pdf_url": "https://arxiv.org/pdf/2512.10858",
+      "github_links": [
+        "https://github.com/dvruette/gidd-easydel"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.10858",
+      "scraped_at": "2025-12-16T01:48:39.888994"
+    },
+    "scraped_date": "2025-12-16"
+  },
+  {
+    "title": "CheXmask-U: Quantifying uncertainty in landmark-based anatomical segmentation for X-ray images",
+    "paper_url": "https://huggingface.co/papers/2512.10715",
+    "authors": [
+      "Enzo Ferrante",
+      "Rodrigo Echeveste",
+      "Nicolas Gaggion",
+      "Matias Cosarinsky"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "CheXmask-U: Quantifying uncertainty in landmark-based anatomical segmentation for X-ray images",
+      "abstract": "We present CheXmask-U , a framework for quantifying uncertainty in landmark-based anatomical segmentation models on chest X-rays and release the CheXmask-U dataset providing per-node uncertainty estimates to support research in robust and safe medical imaging.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.10715",
+      "pdf_url": "https://arxiv.org/pdf/2512.10715",
+      "github_links": [
+        "https://github.com/mcosarinsky/CheXmask-U"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.10715",
+      "scraped_at": "2025-12-16T01:48:41.791510"
+    },
+    "scraped_date": "2025-12-16"
+  },
+  {
+    "title": "The N-Body Problem: Parallel Execution from Single-Person Egocentric Video",
+    "paper_url": "https://huggingface.co/papers/2512.11393",
+    "authors": [
+      "Dima Damen",
+      "Yoichi Sato",
+      "Yifei Huang",
+      "Zhifan Zhu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "The N-Body Problem: Parallel Execution from Single-Person Egocentric Video",
+      "abstract": "Humans can intuitively parallelise complex activities, but can a model learn this from observing a single person? Given one egocentric video, we introduce the N-Body Problem: how N individuals, can hypothetically perform the same set of tasks observed in this video. The goal is to maximise speed-up, but naive assignment of video segments to individuals often violates real-world constraints, leading to physically impossible scenarios like two people using the same object or occupying the same space. To address this, we formalise the N-Body Problem and propose a suite of metrics to evaluate both performance (speed-up, task coverage) and feasibility (spatial collisions, object conflicts and causal constraints). We then introduce a structured prompting strategy that guides a Vision-Language Model (VLM) to reason about the 3D environment, object usage, and temporal dependencies to produce a viable parallel execution. On 100 videos from EPIC-Kitchens and HD-EPIC, our method for N = 2 boosts action coverage by 45% over a baseline prompt for Gemini 2.5 Pro, while simultaneously slashing collision rates, object and causal conflicts by 55%, 45% and 55% respectively.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.11393",
+      "pdf_url": "https://arxiv.org/pdf/2512.11393",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.11393",
+      "scraped_at": "2025-12-16T01:48:43.710961"
+    },
+    "scraped_date": "2025-12-16"
+  },
+  {
+    "title": "Sharp Monocular View Synthesis in Less Than a Second",
+    "paper_url": "https://huggingface.co/papers/2512.10685",
+    "authors": [],
+    "stars": "139",
+    "details": {
+      "title": "Sharp Monocular View Synthesis in Less Than a Second",
+      "abstract": "Sharp Monocular View Synthesis in Less Than a Second https://huggingface.co/papers/2512.10685 Real-time photorealistic view synthesis from a single image. Given a single photograph, regresses the parameters of a 3D Gaussian representation of the depicted scene. Synthesis in less than a second on a standard GPU via a single feedforward pass through a neural network. The synthesized representation is then rendered in real time, yielding high-resolution photorealistic images for nearby views. The representation is metric, with absolute scale, supporting metric camera movements. Robust zero-shot generalization. SOTA on multiple datasets while lowering the synthesis time by three orders of magnitude. Learn mode at  and https://huggingface.co/apple/Sharp",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.10685",
+      "pdf_url": "https://arxiv.org/pdf/2512.10685",
+      "github_links": [
+        "https://github.com/apple/ml-sharp"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.10685",
+      "scraped_at": "2025-12-16T01:48:45.671499"
+    },
+    "scraped_date": "2025-12-16"
+  },
+  {
+    "title": "Interpretable Embeddings with Sparse Autoencoders: A Data Analysis Toolkit",
+    "paper_url": "https://huggingface.co/papers/2512.10092",
+    "authors": [
+      "Neel Nanda",
+      "Lewis Smith",
+      "Lisa Dunlap",
+      "Xiaoqing Sun",
+      "Nick Jiang"
+    ],
+    "stars": "9",
+    "details": {
+      "title": "Interpretable Embeddings with Sparse Autoencoders: A Data Analysis Toolkit",
+      "abstract": "Analyzing large-scale text corpora is a core challenge in machine learning, crucial for tasks like identifying undesirable model behaviors or biases in training data. Current methods often rely on costly LLM-based techniques (e.g. annotating dataset differences) or dense embedding models (e.g. for clustering), which lack control over the properties of interest. We propose using sparse autoencoders (SAEs) to create SAE embeddings: representations whose dimensions map to interpretable concepts. Through four data analysis tasks, we show that SAE embeddings are more cost-effective and reliable than LLMs and more controllable than dense embeddings. Using the large hypothesis space of SAEs, we can uncover insights such as (1) semantic differences between datasets and (2) unexpected concept correlations in documents. For instance, by comparing model responses, we find that Grok-4 clarifies ambiguities more often than nine other frontier models. Relative to LLMs, SAE embeddings uncover bigger differences at 2-8x lower cost and identify biases more reliably. Additionally, SAE embeddings are controllable: by filtering concepts, we can (3) cluster documents along axes of interest and (4) outperform dense embeddings on property-based retrieval. Using SAE embeddings, we study model behavior with two case studies: investigating how OpenAI model behavior has changed over time and finding \"trigger\" phrases learned by Tulu-3 (Lambert et al., 2024) from its training data. These results position SAEs as a versatile tool for unstructured data analysis and highlight the neglected importance of interpreting models through their data. Project page: https://www.interp-embed.com Code: https://github.com/nickjiang2378/interp_embed",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.10092",
+      "pdf_url": "https://arxiv.org/pdf/2512.10092",
+      "github_links": [
+        "https://github.com/nickjiang2378/interp_embed"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.10092",
+      "scraped_at": "2025-12-16T01:48:47.552453"
+    },
+    "scraped_date": "2025-12-16"
+  },
+  {
+    "title": "Particulate: Feed-Forward 3D Object Articulation",
+    "paper_url": "https://huggingface.co/papers/2512.11798",
+    "authors": [
+      "Joan Lasenby",
+      "Christian Rupprecht",
+      "Chuanxia Zheng",
+      "Yuxin Yao",
+      "Ruining Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Particulate: Feed-Forward 3D Object Articulation",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.11798",
+      "pdf_url": "https://arxiv.org/pdf/2512.11798",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.11798",
+      "scraped_at": "2025-12-16T01:48:49.433966"
+    },
+    "scraped_date": "2025-12-16"
   }
 ]
