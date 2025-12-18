@@ -9498,5 +9498,793 @@
       "scraped_at": "2025-12-17T01:44:57.863705"
     },
     "scraped_date": "2025-12-17"
+  },
+  {
+    "title": "MMGR: Multi-Modal Generative Reasoning",
+    "paper_url": "https://huggingface.co/papers/2512.14691",
+    "authors": [
+      "Haozhe Zhao",
+      "Haoyi Qiu",
+      "Zefan Cai",
+      "ZGZzz",
+      "SueMintony"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "MMGR: Multi-Modal Generative Reasoning",
+      "abstract": "MMGR proposes a principled, multi-domain benchmark for evaluating generative models' physical, logical, and spatial reasoning in video and image generation, diagnosing global consistency and causal correctness.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14691",
+      "pdf_url": "https://arxiv.org/pdf/2512.14691",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14691",
+      "scraped_at": "2025-12-18T01:44:00.300528"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "Video Reality Test: Can AI-Generated ASMR Videos fool VLMs and Humans?",
+    "paper_url": "https://huggingface.co/papers/2512.13281",
+    "authors": [
+      "Rui Zhao",
+      "Yi Zhan",
+      "Weijia Wu",
+      "Jiaqi Wang",
+      "KevinQHLin"
+    ],
+    "stars": "13",
+    "details": {
+      "title": "Video Reality Test: Can AI-Generated ASMR Videos fool VLMs and Humans?",
+      "abstract": "Recent advances in video generation have produced vivid content that are often indistinguishable from real videos, making AI-generated video detection an emerging societal challenge. Prior AIGC detection benchmarks mostly evaluate video without audio, target broad narrative domains, and focus on classification solely. Yet it remains unclear whether state-of-the-art video generation models can produce immersive, audio-paired videos that reliably deceive humans and VLMs. To this end, we introduce Video Reality Test, an ASMR-sourced video benchmark suite for testing perceptual realism under tight audio-visual coupling, featuring the following dimensions: \\textbf{(i) Immersive ASMR video-audio sources.} Built on carefully curated real ASMR videos, the benchmark targets fine-grained action-object interactions with diversity across objects, actions, and backgrounds. \\textbf{(ii) Peer-Review evaluation.} An adversarial creator-reviewer protocol where video generation models act as creators aiming to fool reviewers, while VLMs serve as reviewers seeking to identify fakeness. Our experimental findings show: The best creator Veo3.1-Fast even fools most VLMs: the strongest reviewer (Gemini 2.5-Pro) achieves only 56% accuracy (random 50%), far below that of human experts (81.25%). Adding audio improves real-fake discrimination, yet superficial cues such as watermarks can still significantly mislead models. These findings delineate the current boundary of video generation realism and expose limitations of VLMs in perceptual fidelity and audio-visual consistency.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.13281",
+      "pdf_url": "https://arxiv.org/pdf/2512.13281",
+      "github_links": [
+        "https://github.com/video-reality-test/video-reality-test"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.13281",
+      "scraped_at": "2025-12-18T01:44:02.511598"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "WorldPlay: Towards Long-Term Geometric Consistency for Real-Time Interactive World Modeling",
+    "paper_url": "https://huggingface.co/papers/2512.14614",
+    "authors": [
+      "Zehan Wang",
+      "Junta Wu",
+      "Haoyuan Wang",
+      "Haiyu Zhang",
+      "wenqsun"
+    ],
+    "stars": "302",
+    "details": {
+      "title": "WorldPlay: Towards Long-Term Geometric Consistency for Real-Time Interactive World Modeling",
+      "abstract": "This paper presents WorldPlay, a streaming video diffusion model that enables real-time, interactive world modeling with long-term geometric consistency, resolving the trade-off between speed and memory that limits current methods. WorldPlay draws power from three key innovations. 1) We use a Dual Action Representation to enable robust action control in response to the user's keyboard and mouse inputs. 2) To enforce long-term consistency, our Reconstituted Context Memory dynamically rebuilds context from past frames and uses temporal reframing to keep geometrically important but long-past frames accessible, effectively alleviating memory attenuation. 3) We also propose Context Forcing, a novel distillation method designed for memory-aware model. Aligning memory context between the teacher and student preserves the student's capacity to use long-range information, enabling real-time speeds while preventing error drift. Taken together, WorldPlay generates long-horizon streaming 720p video at 24 FPS with superior consistency, comparing favorably with existing techniques and showing strong generalization across diverse scenes.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14614",
+      "pdf_url": "https://arxiv.org/pdf/2512.14614",
+      "github_links": [
+        "https://github.com/Tencent-Hunyuan/HY-WorldPlay"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14614",
+      "scraped_at": "2025-12-18T01:44:04.445977"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "Scone: Bridging Composition and Distinction in Subject-Driven Image Generation via Unified Understanding-Generation Modeling",
+    "paper_url": "https://huggingface.co/papers/2512.12675",
+    "authors": [],
+    "stars": "19",
+    "details": {
+      "title": "Scone: Bridging Composition and Distinction in Subject-Driven Image Generation via Unified Understanding-Generation Modeling",
+      "abstract": "Code: https://github.com/Ryann-Ran/Scone",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.12675",
+      "pdf_url": "https://arxiv.org/pdf/2512.12675",
+      "github_links": [
+        "https://github.com/Ryann-Ran/Scone"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.12675",
+      "scraped_at": "2025-12-18T01:44:06.318404"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "RoboTracer: Mastering Spatial Trace with Reasoning in Vision-Language Models for Robotics",
+    "paper_url": "https://huggingface.co/papers/2512.13660",
+    "authors": [],
+    "stars": "14",
+    "details": {
+      "title": "RoboTracer: Mastering Spatial Trace with Reasoning in Vision-Language Models for Robotics",
+      "abstract": "Project Page: https://zhoues.github.io/RoboTracer/ We present RoboTracer, the first 3D-aware VLM for multi-step metric-grounded spatial tracing with explicit reasoning. Highlights: RoboTracer first acquires both 3D spatial referring and measuring via SFT, and further advances multi-step metric-grounded spatial tracing via RFT. To support SFT and RFT training, we introduce TraceSpatial, a large-scale dataset of 30M QA pairs, spanning outdoor/indoor/tabletop scenes, and containing complex reasoning processes (up to 9 steps). SFT-trained RoboTracer achieves SOTA spatial understanding/measuring/referring, and RFT-trained RoboTracer exhibits strong spatial tracing under novel cluttered and dynamic scenes with complex reasoning processes. Motivation: Model Framework: Dataset Construction:",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.13660",
+      "pdf_url": "https://arxiv.org/pdf/2512.13660",
+      "github_links": [
+        "https://github.com/Zhoues/RoboTracer"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.13660",
+      "scraped_at": "2025-12-18T01:44:08.268676"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "OpenDataArena: A Fair and Open Arena for Benchmarking Post-Training Dataset Value",
+    "paper_url": "https://huggingface.co/papers/2512.14051",
+    "authors": [
+      "Xin Gao",
+      "Mengzhang Cai",
+      "ChampionZhong",
+      "Xiaoyang318",
+      "Word2Li"
+    ],
+    "stars": "80",
+    "details": {
+      "title": "OpenDataArena: A Fair and Open Arena for Benchmarking Post-Training Dataset Value",
+      "abstract": "https://opendataarena.github.io/index.html",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14051",
+      "pdf_url": "https://arxiv.org/pdf/2512.14051",
+      "github_links": [
+        "https://github.com/OpenDataArena/OpenDataArena-Tool"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14051",
+      "scraped_at": "2025-12-18T01:44:10.190645"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "Reveal Hidden Pitfalls and Navigate Next Generation of Vector Similarity Search from Task-Centric Views",
+    "paper_url": "https://huggingface.co/papers/2512.12980",
+    "authors": [
+      "Hua Fan",
+      "Haotian Wu",
+      "Jiahua Wu",
+      "Cong Fu",
+      "Tingyang-Chen"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Reveal Hidden Pitfalls and Navigate Next Generation of Vector Similarity Search from Task-Centric Views",
+      "abstract": "Vector Similarity Search (VSS) in high-dimensional spaces is rapidly emerging as core functionality in next-generation database systems for numerous data-intensive services -- from embedding lookups in large language models (LLMs), to semantic information retrieval and recommendation engines. Current benchmarks, however, evaluate VSS primarily on the recall-latency trade-off against a ground truth defined solely by distance metrics, neglecting how retrieval quality ultimately impacts downstream tasks. This disconnect can mislead both academic research and industrial practice. We present Iceberg, a holistic benchmark suite for end-to-end evaluation of VSS methods in realistic application contexts. From a task-centric view, Iceberg uncovers the Information Loss Funnel, which identifies three principal sources of end-to-end performance degradation: (1) Embedding Loss during feature extraction; (2) Metric Misuse, where distances poorly reflect task relevance; (3) Data Distribution Sensitivity, highlighting index robustness across skews and modalities. For a more comprehensive assessment, Iceberg spans eight diverse datasets across key domains such as image classification, face recognition, text retrieval, and recommendation systems. Each dataset, ranging from 1M to 100M vectors, includes rich, task-specific labels and evaluation metrics, enabling assessment of retrieval algorithms within the full application pipeline rather than in isolation. Iceberg benchmarks 13 state-of-the-art VSS methods and re-ranks them based on application-level metrics, revealing substantial deviations from traditional rankings derived purely from recall-latency evaluations. Building on these insights, we define a set of task-centric meta-features and derive an interpretable decision tree to guide practitioners in selecting and tuning VSS methods for their specific workloads.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.12980",
+      "pdf_url": "https://arxiv.org/pdf/2512.12980",
+      "github_links": [
+        "https://github.com/ZJU-DAILY/Iceberg"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.12980",
+      "scraped_at": "2025-12-18T01:44:12.160681"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "Vector Prism: Animating Vector Graphics by Stratifying Semantic Structure",
+    "paper_url": "https://huggingface.co/papers/2512.14336",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Vector Prism: Animating Vector Graphics by Stratifying Semantic Structure",
+      "abstract": "Project page: https://yeolj00.github.io/personal-projects/vector-prism/",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14336",
+      "pdf_url": "https://arxiv.org/pdf/2512.14336",
+      "github_links": [
+        "https://github.com/YeolJ00/vector-prism"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14336",
+      "scraped_at": "2025-12-18T01:44:14.032624"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "MemFlow: Flowing Adaptive Memory for Consistent and Efficient Long Video Narratives",
+    "paper_url": "https://huggingface.co/papers/2512.14699",
+    "authors": [
+      "Xin Tao",
+      "Shuai Yang",
+      "Xi Chen",
+      "Sihui Ji",
+      "Hengshuang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "MemFlow: Flowing Adaptive Memory for Consistent and Efficient Long Video Narratives",
+      "abstract": "MemFlow uses a retrieval-driven adaptive memory and selective attention to maintain narrative coherence in long-streaming video generation with minimal overhead.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14699",
+      "pdf_url": "https://arxiv.org/pdf/2512.14699",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14699",
+      "scraped_at": "2025-12-18T01:44:15.916926"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "RecGPT-V2 Technical Report",
+    "paper_url": "https://huggingface.co/papers/2512.14503",
+    "authors": [
+      "Dian Chen",
+      "Chao Yi",
+      "zhjgao",
+      "TangJiakai5704",
+      "hairlatic"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "RecGPT-V2 Technical Report",
+      "abstract": "🌟 RecGPT-V2: A Major Leap in LLM-Powered Recommendation (RecGPT-V1’s Power Upgrade!) 🌟 Thrilled to unveil RecGPT-V2—the highly anticipated successor to RecGPT-V1! This agentic framework addresses V1’s core limitations, fusing cognitive reasoning with industrial scalability for next-gen intent-centric recommendations. 🔥 Core Innovations: Hierarchical Multi-Agent + Hybrid Representation: 60% less GPU usage, 9.39%→10.99% exclusive recall, and 32K→11K token compression (context intact). Meta-Prompting: +7.3% explanation diversity with adaptive, non-generic prompts. Constrained RL: Resolves multi-reward conflicts—+24.1% better tag prediction and +13.0% higher explanation acceptance vs. V1. Agent-as-a-Judge: Human-like multi-step evaluation, closer alignment with real-world standards. 🚀 Taobao A/B Test Results: +2.98% CTR | +3.71% IPV | +2.19% TV | +11.46% NER (Novelty Exposure Rate) Validated for large-scale deployment—bridging cognitive AI and practical utility, with room to evolve. 🎯 Why It Matters: Fixes V1’s pain points (computational bloat, rigid explanations, weak generalization, oversimplified evaluation) to deliver a scalable, efficient, human-aligned paradigm. Perfect for researchers and engineers—this is just a key milestone in refining intent-driven AI! 👉 Dive into the full technical report to unlock scalable intent-driven recommendations. Let’s shape personalized AI4Rec’s future!",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14503",
+      "pdf_url": "https://arxiv.org/pdf/2512.14503",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14503",
+      "scraped_at": "2025-12-18T01:44:18.114477"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "ShowTable: Unlocking Creative Table Visualization with Collaborative Reflection and Refinement",
+    "paper_url": "https://huggingface.co/papers/2512.13303",
+    "authors": [
+      "Zhaohe Liao",
+      "Junjie Zhou",
+      "Pandeng Li",
+      "Xiaoyi Bao",
+      "lntzm"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ShowTable: Unlocking Creative Table Visualization with Collaborative Reflection and Refinement",
+      "abstract": "Nano Banana Pro excels at this. We hope our methods and bench can draw more community's attention to this type of genenration ability.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.13303",
+      "pdf_url": "https://arxiv.org/pdf/2512.13303",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.13303",
+      "scraped_at": "2025-12-18T01:44:20.041763"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "Feedforward 3D Editing via Text-Steerable Image-to-3D",
+    "paper_url": "https://huggingface.co/papers/2512.13678",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Feedforward 3D Editing via Text-Steerable Image-to-3D",
+      "abstract": "Very cool model that lets you edit 3D digital objects into whatever way you like, using natural language instructions! Project Home: https://glab-caltech.github.io/steer3d/ Demo: https://glab-caltech.github.io/steer3d/#demo",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.13678",
+      "pdf_url": "https://arxiv.org/pdf/2512.13678",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.13678",
+      "scraped_at": "2025-12-18T01:44:21.943698"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "Nemotron-Cascade: Scaling Cascaded Reinforcement Learning for General-Purpose Reasoning Models",
+    "paper_url": "https://huggingface.co/papers/2512.13607",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Nemotron-Cascade: Scaling Cascaded Reinforcement Learning for General-Purpose Reasoning Models",
+      "abstract": "The Nemotron-Cascade models and the full collection of training data are released at: https://huggingface.co/collections/nvidia/nemotron-cascade",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.13607",
+      "pdf_url": "https://arxiv.org/pdf/2512.13607",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.13607",
+      "scraped_at": "2025-12-18T01:44:23.850652"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "Olmo 3",
+    "paper_url": "https://huggingface.co/papers/2512.13961",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Olmo 3",
+      "abstract": "We introduce Olmo 3, a family of state-of-the-art, fully-open language models at the 7B and 32B parameter scales. Olmo 3 model construction targets long-context reasoning, function calling, coding, instruction following, general chat, and knowledge recall. This release includes the entire model flow, i.e., the full lifecycle of the family of models, including every stage, checkpoint, data point, and dependency used to build it. Our flagship model, Olmo 3 Think 32B, is the strongest fully-open thinking model released to-date.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.13961",
+      "pdf_url": "https://arxiv.org/pdf/2512.13961",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.13961",
+      "scraped_at": "2025-12-18T01:44:25.721331"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "Differentiable Evolutionary Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2512.13399",
+    "authors": [
+      "Difan Zou",
+      "Xunjian Yin",
+      "Xuhan Huang",
+      "Tianle Li",
+      "sitao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Differentiable Evolutionary Reinforcement Learning",
+      "abstract": "Code: https://github.com/sitaocheng/DERL Models: https://huggingface.co/DifferentiableEvolutionaryRL",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.13399",
+      "pdf_url": "https://arxiv.org/pdf/2512.13399",
+      "github_links": [
+        "https://github.com/sitaocheng/DERL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.13399",
+      "scraped_at": "2025-12-18T01:44:27.512913"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "VersatileFFN: Achieving Parameter Efficiency in LLMs via Adaptive Wide-and-Deep Reuse",
+    "paper_url": "https://huggingface.co/papers/2512.14531",
+    "authors": [],
+    "stars": "924",
+    "details": {
+      "title": "VersatileFFN: Achieving Parameter Efficiency in LLMs via Adaptive Wide-and-Deep Reuse",
+      "abstract": "The rapid scaling of Large Language Models (LLMs) has achieved remarkable performance, but it also leads to prohibitive memory costs. Existing parameter-efficient approaches such as pruning and quantization mainly compress pretrained models without enhancing architectural capacity, thereby hitting the representational ceiling of the base model. In this work, we propose VersatileFFN, a novel feed-forward network (FFN) that enables flexible reuse of parameters in both width and depth dimensions within a fixed parameter budget. Inspired by the dual-process theory of cognition, VersatileFFN comprises two adaptive pathways: a width-versatile path that generates a mixture of sub-experts from a single shared FFN, mimicking sparse expert routing without increasing parameters, and a depth-versatile path that recursively applies the same FFN to emulate deeper processing for complex tokens. A difficulty-aware gating dynamically balances the two pathways, steering \"easy\" tokens through the efficient width-wise route and allocating deeper iterative refinement to \"hard\" tokens. Crucially, both pathways reuse the same parameters, so all additional capacity comes from computation rather than memory. Experiments across diverse benchmarks and model scales demonstrate the effectiveness of the method. The code will be available at this https URL.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14531",
+      "pdf_url": "https://arxiv.org/pdf/2512.14531",
+      "github_links": [
+        "https://github.com/huawei-noah/noah-research/tree/master/VersatileFFN"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14531",
+      "scraped_at": "2025-12-18T01:44:29.387073"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "A4-Agent: An Agentic Framework for Zero-Shot Affordance Reasoning",
+    "paper_url": "https://huggingface.co/papers/2512.14442",
+    "authors": [
+      "Hanqing Wang",
+      "Kanghao Chen",
+      "Chenfei-Liao",
+      "Harold328",
+      "zhangzixin02"
+    ],
+    "stars": "17",
+    "details": {
+      "title": "A4-Agent: An Agentic Framework for Zero-Shot Affordance Reasoning",
+      "abstract": "Project Page: https://zixinzhang02.github.io/A4-Agent-page/",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14442",
+      "pdf_url": "https://arxiv.org/pdf/2512.14442",
+      "github_links": [
+        "https://github.com/EnVision-Research/A4-Agent"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14442",
+      "scraped_at": "2025-12-18T01:44:31.201991"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "SS4D: Native 4D Generative Model via Structured Spacetime Latents",
+    "paper_url": "https://huggingface.co/papers/2512.14284",
+    "authors": [],
+    "stars": "12",
+    "details": {
+      "title": "SS4D: Native 4D Generative Model via Structured Spacetime Latents",
+      "abstract": "project page: https://lizb6626.github.io/SS4D/ code: https://github.com/Lizb6626/SS4D/",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14284",
+      "pdf_url": "https://arxiv.org/pdf/2512.14284",
+      "github_links": [
+        "https://github.com/Lizb6626/SS4D/"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14284",
+      "scraped_at": "2025-12-18T01:44:33.080941"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "Sparse-LaViDa: Sparse Multimodal Discrete Diffusion Language Models",
+    "paper_url": "https://huggingface.co/papers/2512.14008",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Sparse-LaViDa: Sparse Multimodal Discrete Diffusion Language Models",
+      "abstract": "Efficient Training and Inference for unified multi-modal diffusion language models",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14008",
+      "pdf_url": "https://arxiv.org/pdf/2512.14008",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14008",
+      "scraped_at": "2025-12-18T01:44:34.899723"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "Spherical Leech Quantization for Visual Tokenization and Generation",
+    "paper_url": "https://huggingface.co/papers/2512.14697",
+    "authors": [
+      "Chutong Yang",
+      "Zhenlin Xu",
+      "Hanwen Jiang",
+      "eadeli42",
+      "zhaoyue-zephyrus"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Spherical Leech Quantization for Visual Tokenization and Generation",
+      "abstract": "Blog: https://ai.stanford.edu/~yzz/blog/articles/npq.html Code for reconstruction and compression: https://github.com/zhaoyue-zephyrus/bsq-vit Code for generation with InfinityCC: https://github.com/zhaoyue-zephyrus/InfinityCC",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14697",
+      "pdf_url": "https://arxiv.org/pdf/2512.14697",
+      "github_links": [
+        "https://github.com/zhaoyue-zephyrus/InfinityCC",
+        "https://github.com/zhaoyue-zephyrus/bsq-vit"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14697",
+      "scraped_at": "2025-12-18T01:44:36.703348"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "CRISP: Contact-Guided Real2Sim from Monocular Video with Planar Scene Primitives",
+    "paper_url": "https://huggingface.co/papers/2512.14696",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "CRISP: Contact-Guided Real2Sim from Monocular Video with Planar Scene Primitives",
+      "abstract": "We introduce CRISP, a method that recovers simulatable human motion and scene geometry from monocular video. Prior work on joint human-scene reconstruction relies on data-driven priors and joint optimization with no physics in the loop, or recovers noisy geometry with artifacts that cause motion tracking policies with scene interactions to fail. In contrast, our key insight is to recover convex, clean, and simulation-ready geometry by fitting planar primitives to a point cloud reconstruction of the scene, via a simple clustering pipeline over depth, normals, and flow. To reconstruct scene geometry that might be occluded during interactions, we make use of human-scene contact modeling (e.g., we use human posture to reconstruct the occluded seat of a chair). Finally, we ensure that human and scene reconstructions are physically-plausible by using them to drive a humanoid controller via reinforcement learning. Our approach reduces motion tracking failure rates from 55.2% to 6.9% on human-centric video benchmarks (EMDB, PROX), while delivering a 43% faster RL simulation throughput. We further validate it on in-the-wild videos including casually-captured videos, Internet videos, and even Sora-generated videos. This demonstrates CRISP's ability to generate physically-valid human motion and interaction environments at scale, greatly advancing real-to-sim applications for robotics and AR/VR. Code and interactive demos are available at our project website: \\href{ https://crisp-real2sim.github.io/CRISP-Real2Sim/}{\\textcolor{cyan}{{crisp-real2sim.github.io/CRISP-Real2Sim}}} .",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14696",
+      "pdf_url": "https://arxiv.org/pdf/2512.14696",
+      "github_links": [
+        "https://github.com/Z1hanW/CRISP-Real2Sim"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14696",
+      "scraped_at": "2025-12-18T01:44:38.570918"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "EVOLVE-VLA: Test-Time Training from Environment Feedback for Vision-Language-Action Models",
+    "paper_url": "https://huggingface.co/papers/2512.14666",
+    "authors": [],
+    "stars": "12",
+    "details": {
+      "title": "EVOLVE-VLA: Test-Time Training from Environment Feedback for Vision-Language-Action Models",
+      "abstract": "EVOLVE-VLA is a test-time training framework that enables Vision-Language-Action models to continuously adapt through environment interaction with minimal or no task-specific demonstrations, overcoming the limitations of static supervised finetuning. By using a learned progress estimator with mechanisms to stabilize noisy feedback, it achieves significant performance gains, cross-task generalization, and emergent adaptive behaviors such as error recovery.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14666",
+      "pdf_url": "https://arxiv.org/pdf/2512.14666",
+      "github_links": [
+        "https://github.com/showlab/EVOLVE-VLA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14666",
+      "scraped_at": "2025-12-18T01:44:40.486862"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "TAT: Task-Adaptive Transformer for All-in-One Medical Image Restoration",
+    "paper_url": "https://huggingface.co/papers/2512.14550",
+    "authors": [
+      "Bingzheng Wei",
+      "Jian Liang",
+      "Yang Yi",
+      "Jiaju",
+      "upyzwup"
+    ],
+    "stars": "29",
+    "details": {
+      "title": "TAT: Task-Adaptive Transformer for All-in-One Medical Image Restoration",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14550",
+      "pdf_url": "https://arxiv.org/pdf/2512.14550",
+      "github_links": [
+        "https://github.com/Yaziwel/TAT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14550",
+      "scraped_at": "2025-12-18T01:44:42.387225"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "Zoom-Zero: Reinforced Coarse-to-Fine Video Understanding via Temporal Zoom-in",
+    "paper_url": "https://huggingface.co/papers/2512.14273",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Zoom-Zero: Reinforced Coarse-to-Fine Video Understanding via Temporal Zoom-in",
+      "abstract": "Project page: https://xiaoqian-shen.github.io/Zoom-Zero/",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14273",
+      "pdf_url": "https://arxiv.org/pdf/2512.14273",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14273",
+      "scraped_at": "2025-12-18T01:44:44.155664"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "Efficient-DLM: From Autoregressive to Diffusion Language Models, and Beyond in Speed",
+    "paper_url": "https://huggingface.co/papers/2512.14067",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Efficient-DLM: From Autoregressive to Diffusion Language Models, and Beyond in Speed",
+      "abstract": "Proposes Efficient-DLM: converting autoregressive LMs to fast diffusion LMs via block-wise continuous pretraining and token masking, achieving higher accuracy and throughput than AR and existing dLMs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14067",
+      "pdf_url": "https://arxiv.org/pdf/2512.14067",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14067",
+      "scraped_at": "2025-12-18T01:44:45.941113"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "Janus: Disaggregating Attention and Experts for Scalable MoE Inference",
+    "paper_url": "https://huggingface.co/papers/2512.13525",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Janus: Disaggregating Attention and Experts for Scalable MoE Inference",
+      "abstract": "Paper page: https://arxiv.org/pdf/2512.13525",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.13525",
+      "pdf_url": "https://arxiv.org/pdf/2512.13525",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.13525",
+      "scraped_at": "2025-12-18T01:44:47.917365"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "RePo: Language Models with Context Re-Positioning",
+    "paper_url": "https://huggingface.co/papers/2512.14391",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "RePo: Language Models with Context Re-Positioning",
+      "abstract": "TL;DR: We want to give LLMs the architectural ability to reorganize input context just like humans do. Our solution is to incorporate a lightweight RePo module to dynamically assign positions before position encoding functions.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14391",
+      "pdf_url": "https://arxiv.org/pdf/2512.14391",
+      "github_links": [
+        "https://github.com/SakanaAI/repo"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14391",
+      "scraped_at": "2025-12-18T01:44:49.821387"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "JMMMU-Pro: Image-based Japanese Multi-discipline Multimodal Understanding Benchmark via Vibe Benchmark Construction",
+    "paper_url": "https://huggingface.co/papers/2512.14620",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "JMMMU-Pro: Image-based Japanese Multi-discipline Multimodal Understanding Benchmark via Vibe Benchmark Construction",
+      "abstract": "“Bro, Benchmarks like MMMU-Pro are too expensive to build, right?” One month ago: Yes. Now: No 🚀 Proposing Vibe Benchmark Construction! NanoBanana Pro generates VQA itself, and humans only check or lightly edit prompts for regeneration. 🚀Building JMMMU-Pro incredibly quickly! JMMMU-Pro extends JMMMU by composing the question image and question text into a single image, requiring integrated visual-textual understanding through visual perception. 🧐 Most open-source LMMs seem to perform close to random guessing on JMMMU-Pro. Let's take on the challenge! Paper: https://arxiv.org/pdf/2512.14620 Project Page: https://mmmu-japanese-benchmark.github.io/JMMMU_Pro/",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14620",
+      "pdf_url": "https://arxiv.org/pdf/2512.14620",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14620",
+      "scraped_at": "2025-12-18T01:44:51.734895"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "MobileWorldBench: Towards Semantic World Modeling For Mobile Agents",
+    "paper_url": "https://huggingface.co/papers/2512.14014",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MobileWorldBench: Towards Semantic World Modeling For Mobile Agents",
+      "abstract": "A benchmark for world modeling of mobile GUI agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14014",
+      "pdf_url": "https://arxiv.org/pdf/2512.14014",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14014",
+      "scraped_at": "2025-12-18T01:44:53.520919"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "Comparative Analysis of LLM Abliteration Methods: A Cross-Architecture Evaluation",
+    "paper_url": "https://huggingface.co/papers/2512.13655",
+    "authors": [
+      "richardyoung"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Comparative Analysis of LLM Abliteration Methods: A Cross-Architecture Evaluation",
+      "abstract": "TL;DR We benchmark 4 open-source LLM abliteration implementations across 16 instruction-tuned models. Key results: • Coverage differs a lot (Heretic 16/16; DECCP 11/16; ErisForge 9/16; FailSpy 5/16).  ￼ • Single-pass methods preserved capabilities best on the benchmarked subset (avg GSM8K ∆: DECCP −0.13 pp, ErisForge −0.28 pp; Heretic −7.81 pp avg driven by Yi).  ￼ • Math reasoning is the most sensitive axis (GSM8K swings from +1.51 pp to −18.81 pp depending on tool/model).  ￼",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.13655",
+      "pdf_url": "https://arxiv.org/pdf/2512.13655",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.13655",
+      "scraped_at": "2025-12-18T01:44:55.267099"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "TraPO: A Semi-Supervised Reinforcement Learning Framework for Boosting LLM Reasoning",
+    "paper_url": "https://huggingface.co/papers/2512.13106",
+    "authors": [
+      "Zhongqi Chen",
+      "Yingfan MA",
+      "Xing Zheng",
+      "Guangcheng Zhu",
+      "Shenzhi"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "TraPO: A Semi-Supervised Reinforcement Learning Framework for Boosting LLM Reasoning",
+      "abstract": "We’ve come up with a semi-supervised RLVR training method that uses just a few labeled examples to help pick out trustworthy samples from the unlabeled ones. Feel free to jump in with thoughts or suggestions— all feedback is welcome! 🤗",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.13106",
+      "pdf_url": "https://arxiv.org/pdf/2512.13106",
+      "github_links": [
+        "https://github.com/ShenzhiYang2000/TRAPO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.13106",
+      "scraped_at": "2025-12-18T01:44:57.042085"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "UAGLNet: Uncertainty-Aggregated Global-Local Fusion Network with Cooperative CNN-Transformer for Building Extraction",
+    "paper_url": "https://huggingface.co/papers/2512.12941",
+    "authors": [
+      "Wenqi Ren",
+      "Shengjie Li",
+      "Taotao Li",
+      "Dongxiu Liu",
+      "Siyuan Yao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "UAGLNet: Uncertainty-Aggregated Global-Local Fusion Network with Cooperative CNN-Transformer for Building Extraction",
+      "abstract": "UAGLNet Repository: https://github.com/Dstate/UAGLNet Paper: “UAGLNet: Uncertainty-Aggregated Global-Local Fusion Network with Cooperative CNN-Transformer for Building Extraction” ( arXiv:2512.12941 )",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.12941",
+      "pdf_url": "https://arxiv.org/pdf/2512.12941",
+      "github_links": [
+        "https://github.com/Dstate/UAGLNet"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.12941",
+      "scraped_at": "2025-12-18T01:44:58.969163"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "S2D: Sparse-To-Dense Keymask Distillation for Unsupervised Video Instance Segmentation",
+    "paper_url": "https://huggingface.co/papers/2512.14440",
+    "authors": [
+      "Timo Ropinski",
+      "phermosilla",
+      "xeTaiz",
+      "lhoyer",
+      "leonsick"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "S2D: Sparse-To-Dense Keymask Distillation for Unsupervised Video Instance Segmentation",
+      "abstract": "Project page: https://leonsick.github.io/s2d Code: https://github.com/leonsick/s2d",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14440",
+      "pdf_url": "https://arxiv.org/pdf/2512.14440",
+      "github_links": [
+        "https://github.com/leonsick/s2d"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14440",
+      "scraped_at": "2025-12-18T01:45:00.811365"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "Unveiling User Perceptions in the Generative AI Era: A Sentiment-Driven Evaluation of AI Educational Apps' Role in Digital Transformation of e-Teaching",
+    "paper_url": "https://huggingface.co/papers/2512.11934",
+    "authors": [
+      "Erfan Nourbakhsh",
+      "Adeleh Mazaherian"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Unveiling User Perceptions in the Generative AI Era: A Sentiment-Driven Evaluation of AI Educational Apps' Role in Digital Transformation of e-Teaching",
+      "abstract": "Hello everyone, I hope you enjoy reading our paper! These are the helpful links: https://arxiv.org/abs/2512.11934 https://github.com/erfan-nourbakhsh/GenAI-EdSent",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.11934",
+      "pdf_url": "https://arxiv.org/pdf/2512.11934",
+      "github_links": [
+        "https://github.com/erfan-nourbakhsh/GenAI-EdSent"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.11934",
+      "scraped_at": "2025-12-18T01:45:02.577452"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "Hierarchical Dataset Selection for High-Quality Data Sharing",
+    "paper_url": "https://huggingface.co/papers/2512.10952",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Hierarchical Dataset Selection for High-Quality Data Sharing",
+      "abstract": "How do you decide which datasets to train on when data comes from many noisy, heterogeneous sources? In this work, we formalize dataset selection as its own problem and introduce DaSH (Dataset Selection via Hierarchies), a method that models dataset-level utility and group-level utility.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.10952",
+      "pdf_url": "https://arxiv.org/pdf/2512.10952",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.10952",
+      "scraped_at": "2025-12-18T01:45:04.337572"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "MeViS: A Multi-Modal Dataset for Referring Motion Expression Video Segmentation",
+    "paper_url": "https://huggingface.co/papers/2512.10945",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MeViS: A Multi-Modal Dataset for Referring Motion Expression Video Segmentation",
+      "abstract": "MeViSv2 Dataset, Project Page: https://henghuiding.com/MeViS/",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.10945",
+      "pdf_url": "https://arxiv.org/pdf/2512.10945",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.10945",
+      "scraped_at": "2025-12-18T01:45:06.099138"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "CoSPlan: Corrective Sequential Planning via Scene Graph Incremental Updates",
+    "paper_url": "https://huggingface.co/papers/2512.10342",
+    "authors": [
+      "Yogesh S Rawat",
+      "Vibhav Vineet",
+      "Akash Kumar",
+      "Shresth Grover",
+      "ppriyank"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "CoSPlan: Corrective Sequential Planning via Scene Graph Incremental Updates",
+      "abstract": "LLM benchmark on sequence completion (Spoiler: They can't)",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.10342",
+      "pdf_url": "https://arxiv.org/pdf/2512.10342",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.10342",
+      "scraped_at": "2025-12-18T01:45:08.978991"
+    },
+    "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "ContextAnyone: Context-Aware Diffusion for Character-Consistent Text-to-Video Generation",
+    "paper_url": "https://huggingface.co/papers/2512.07328",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ContextAnyone: Context-Aware Diffusion for Character-Consistent Text-to-Video Generation",
+      "abstract": "ContextAnyone: Context-Aware Diffusion for Character-Consistent Text-to-Video Generation",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.07328",
+      "pdf_url": "https://arxiv.org/pdf/2512.07328",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.07328",
+      "scraped_at": "2025-12-18T01:45:10.828372"
+    },
+    "scraped_date": "2025-12-18"
   }
 ]
