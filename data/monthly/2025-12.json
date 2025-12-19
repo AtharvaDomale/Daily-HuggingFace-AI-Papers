@@ -10286,5 +10286,628 @@
       "scraped_at": "2025-12-18T01:45:10.828372"
     },
     "scraped_date": "2025-12-18"
+  },
+  {
+    "title": "Step-GUI Technical Report",
+    "paper_url": "https://huggingface.co/papers/2512.15431",
+    "authors": [],
+    "stars": "1.44k",
+    "details": {
+      "title": "Step-GUI Technical Report",
+      "abstract": "Recent advances in multimodal large language models unlock unprecedented opportunities for GUI automation. However, a fundamental challenge remains: how to efficiently acquire high-quality training data while maintaining annotation reliability? We introduce a self-evolving training pipeline powered by the Calibrated Step Reward System, which converts model-generated trajectories into reliable training signals through trajectory-level calibration, achieving >90% annotation accuracy with 10-100x lower cost. Leveraging this pipeline, we introduce Step-GUI, a family of models (4B/8B) that achieves state-of-the-art GUI performance (8B: 80.2% AndroidWorld, 48.5% OSWorld, 62.6% ScreenShot-Pro) while maintaining robust general capabilities. As GUI agent capabilities improve, practical deployment demands standardized interfaces across heterogeneous devices while protecting user privacy. To this end, we propose GUI-MCP, the first Model Context Protocol for GUI automation with hierarchical architecture that combines low-level atomic operations and high-level task delegation to local specialist models, enabling high-privacy execution where sensitive data stays on-device. Finally, to assess whether agents can handle authentic everyday usage, we introduce AndroidDaily, a benchmark grounded in real-world mobile usage patterns with 3146 static actions and 235 end-to-end tasks across high-frequency daily scenarios (8B: static 89.91%, end-to-end 52.50%). Our work advances the development of practical GUI agents and demonstrates strong potential for real-world deployment in everyday digital interactions.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.15431",
+      "pdf_url": "https://arxiv.org/pdf/2512.15431",
+      "github_links": [
+        "https://github.com/stepfun-ai/gelab-zero"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.15431",
+      "scraped_at": "2025-12-19T01:47:15.248931"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "DEER: Draft with Diffusion, Verify with Autoregressive Models",
+    "paper_url": "https://huggingface.co/papers/2512.15176",
+    "authors": [
+      "Zhijie Deng",
+      "Jia Li",
+      "Guo-Wei Yang",
+      "Zicong Cheng",
+      "menghao22"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "DEER: Draft with Diffusion, Verify with Autoregressive Models",
+      "abstract": "Simultaneously leveraging the efficiency of dLLM and the performance of AR models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.15176",
+      "pdf_url": "https://arxiv.org/pdf/2512.15176",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.15176",
+      "scraped_at": "2025-12-19T01:47:17.221958"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "Fast and Accurate Causal Parallel Decoding using Jacobi Forcing",
+    "paper_url": "https://huggingface.co/papers/2512.14681",
+    "authors": [
+      "Tajana Rosing",
+      "Samyam Rajbhandari",
+      "Yichao Fu",
+      "Siqi Kou",
+      "Lanxiang Hu"
+    ],
+    "stars": "52",
+    "details": {
+      "title": "Fast and Accurate Causal Parallel Decoding using Jacobi Forcing",
+      "abstract": "Multi-token generation has emerged as a promising paradigm for accelerating transformer-based large model inference. Recent efforts primarily explore diffusion Large Language Models (dLLMs) for parallel decoding to reduce inference latency. To achieve AR-level generation quality, many techniques adapt AR models into dLLMs to enable parallel decoding. However, they suffer from either generation quality or limited wall-clock speedup compared to AR models due to a pretrain-to-posttrain mismatch. Specifically, the masked data distribution in post-training deviates significantly from the real-world data distribution seen during pretraining, and dLLMs rely on bidirectional attention, which conflicts with the causal prior learned during pretraining and hinders the integration of exact KV cache reuse. To address this, we introduce Jacobi Forcing, a progressive distillation paradigm where models are trained on their own generated parallel decoding trajectories, smoothly shifting AR models into efficient parallel decoders while preserving their pretrained causal inference property. The models trained under this paradigm, Jacobi Forcing Model, achieves 3.8x wall-clock speedup on coding benchmarks with minimal loss in performance. Based on Jacobi Forcing Model’s trajectory characteristics, we introduce multi-block decoding with rejection recycling, which enables up to 4.5x higher token acceptance count per iteration and nearly 4.0x wall-clock speedup, effectively trading additional compute for lower inference latency. Our code is available at https://github.com/hao-ai-lab/JacobiForcing .",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14681",
+      "pdf_url": "https://arxiv.org/pdf/2512.14681",
+      "github_links": [
+        "https://github.com/hao-ai-lab/JacobiForcing"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14681",
+      "scraped_at": "2025-12-19T01:47:19.119322"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "Puzzle Curriculum GRPO for Vision-Centric Reasoning",
+    "paper_url": "https://huggingface.co/papers/2512.14944",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Puzzle Curriculum GRPO for Vision-Centric Reasoning",
+      "abstract": "Recent reinforcement learning (RL) approaches like outcome-supervised GRPO have advanced chain-of-thought reasoning in Vision Language Models (VLMs), yet key issues linger: (i) reliance on costly and noisy hand-curated annotations or external verifiers; (ii) flat and sparse reward schemes in GRPO; and (iii) logical inconsistency between a chain's reasoning and its final answer. We present Puzzle Curriculum GRPO (PC-GRPO), a supervision-free recipe for RL with Verifiable Rewards (RLVR) that strengthens visual reasoning in VLMs without annotations or external verifiers. PC-GRPO replaces labels with three self-supervised puzzle environments: PatchFit, Rotation (with binary rewards) and Jigsaw (with graded partial credit mitigating reward sparsity). To counter flat rewards and vanishing group-relative advantages, we introduce a difficulty-aware curriculum that dynamically weights samples and peaks at medium difficulty. We further monitor Reasoning-Answer Consistency (RAC) during post-training: mirroring reports for vanilla GRPO in LLMs, RAC typically rises early then degrades; our curriculum delays this decline, and consistency-enforcing reward schemes further boost RAC. RAC correlates with downstream accuracy. Across diverse benchmarks and on Qwen-7B and Qwen-3B backbones, PC-GRPO improves reasoning quality, training stability, and end-task accuracy, offering a practical path to scalable, verifiable, and interpretable RL post-training for VLMs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14944",
+      "pdf_url": "https://arxiv.org/pdf/2512.14944",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14944",
+      "scraped_at": "2025-12-19T01:47:20.987926"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "HyperVL: An Efficient and Dynamic Multimodal Large Language Model for Edge Devices",
+    "paper_url": "https://huggingface.co/papers/2512.14052",
+    "authors": [
+      "Yuhang Dong",
+      "Zhiqiang Xia",
+      "Kaiyang Han",
+      "Yuchen Liu",
+      "HyperAI Team"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "HyperVL: An Efficient and Dynamic Multimodal Large Language Model for Edge Devices",
+      "abstract": "🚀 [New Paper] HyperVL: An Efficient and Dynamic Multimodal Large Language Model for Edge Devices Current multimodal large language models (MLLMs) possess strong perceptual and reasoning capabilities, but their high computational and memory requirements make them difficult to deploy directly on edge devices. HyperVL aims to tackle this challenge by introducing an efficient multimodal large language model tailored for on-device inference. ✨ The Core Intuition: HyperVL adopts an image-tiling strategy to cap peak memory usage and incorporates two novel techniques: 1️⃣ Visual Resolution Compressor (VRC): Adaptively predicts optimal encoding resolutions to eliminate redundant computation. 2️⃣ Dual Consistency Learning (DCL): Aligns multi-scale ViT encoders within a unified framework, enabling dynamic switching between visual branches under a shared LLM. 📈 Highlights: State-of-the-Art Performance: HyperVL achieves state-of-the-art performance among models of comparable size across multiple benchmarks. Resource Efficient: It significantly reduces latency and power consumption on real mobile devices, demonstrating a 6.8x reduction in peak memory overhead. Quantization Robustness: The model demonstrates exceptional robustness to low-bit precision under W4A16 quantization with negligible performance drops. Broad Applications: HyperVL shows strong generalization for on-device tasks such as UI understanding and parsing, intent recommendation, and image-text creation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14052",
+      "pdf_url": "https://arxiv.org/pdf/2512.14052",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14052",
+      "scraped_at": "2025-12-19T01:47:22.930324"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "Universal Reasoning Model",
+    "paper_url": "https://huggingface.co/papers/2512.14693",
+    "authors": [],
+    "stars": "23",
+    "details": {
+      "title": "Universal Reasoning Model",
+      "abstract": "Universal transformers (UTs) have been widely used for complex reasoning tasks such as ARC-AGI and Sudoku, yet the specific sources of their performance gains remain underexplored. In this work, we systematically analyze UTs variants and show that improvements on ARC-AGI primarily arise from the recurrent inductive bias and strong nonlinear components of Transformer, rather than from elaborate architectural designs. Motivated by this finding, we propose the Universal Reasoning Model (URM), which enhances the UT with short convolution and truncated backpropagation. Our approach substantially improves reasoning performance, achieving state-of-the-art∗ 53.8% pass@1 on ARC-AGI 1 and 16.0% pass@1 on ARC-AGI 2. Our code is avaliable at https://github.com/zitian-gao/URM .",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14693",
+      "pdf_url": "https://arxiv.org/pdf/2512.14693",
+      "github_links": [
+        "https://github.com/zitian-gao/URM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14693",
+      "scraped_at": "2025-12-19T01:47:24.889066"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "IC-Effect: Precise and Efficient Video Effects Editing via In-Context Learning",
+    "paper_url": "https://huggingface.co/papers/2512.15635",
+    "authors": [],
+    "stars": "25",
+    "details": {
+      "title": "IC-Effect: Precise and Efficient Video Effects Editing via In-Context Learning",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.15635",
+      "pdf_url": "https://arxiv.org/pdf/2512.15635",
+      "github_links": [
+        "https://github.com/CUC-MIPG/IC-Effect"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.15635",
+      "scraped_at": "2025-12-19T01:47:26.801519"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "Skyra: AI-Generated Video Detection via Grounded Artifact Reasoning",
+    "paper_url": "https://huggingface.co/papers/2512.15693",
+    "authors": [],
+    "stars": "19",
+    "details": {
+      "title": "Skyra: AI-Generated Video Detection via Grounded Artifact Reasoning",
+      "abstract": "Skyra: AI-Generated Video Detection via Grounded Artifact Reasoning https://huggingface.co/papers/2512.15693 Explainable AI-generated video detection with a specialized multimodal LLM. Given an input video, Skyra explicitly identifies human-perceivable spatio-temporal artifacts (e.g., texture/structure inconsistencies, motion irregularities) and uses them as grounded evidence to produce both a real/fake decision and a human-interpretable explanation with localized cues. To train this capability, we introduce ViF-CoT-4K, the first large-scale AI-generated video artifact dataset with fine-grained human annotations, enabling supervised fine-tuning (Skyra-SFT). We further apply a second-stage reinforcement learning procedure to encourage the model to actively mine discriminative artifacts, improving both detection and explanation quality (Skyra-RL). For rigorous evaluation, we release ViF-Bench (3K high-quality samples from 10+ state-of-the-art video generators) with aligned real/fake semantics and formats to reduce shortcut signals, and demonstrate consistent gains over prior binary detectors and MLLM-based baselines. Learn more at https://joeleelyf.github.io/Skyra and https://github.com/JoeLeelyf/Skyra .",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.15693",
+      "pdf_url": "https://arxiv.org/pdf/2512.15693",
+      "github_links": [
+        "https://github.com/JoeLeelyf/Skyra"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.15693",
+      "scraped_at": "2025-12-19T01:47:28.689499"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "Qwen-Image-Layered: Towards Inherent Editability via Layer Decomposition",
+    "paper_url": "https://huggingface.co/papers/2512.15603",
+    "authors": [
+      "Xiao Xu",
+      "Kaiyuan Gao",
+      "Zecheng Tang",
+      "Zekai Zhang",
+      "Shengming Yin"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Qwen-Image-Layered: Towards Inherent Editability via Layer Decomposition",
+      "abstract": "Recent visual generative models often struggle with consistency during image editing due to the entangled nature of raster images, where all visual content is fused into a single canvas. In contrast, professional design tools employ layered representations, allowing isolated edits while preserving consistency. Motivated by this, we propose \\textbf{Qwen-Image-Layered}, an end-to-end diffusion model that decomposes a single RGB image into multiple semantically disentangled RGBA layers, enabling \\textbf{inherent editability}, where each RGBA layer can be independently manipulated without affecting other content. To support variable-length decomposition, we introduce three key components: (1) an RGBA-VAE to unify the latent representations of RGB and RGBA images; (2) a VLD-MMDiT (Variable Layers Decomposition MMDiT) architecture capable of decomposing a variable number of image layers; and (3) a Multi-stage Training strategy to adapt a pretrained image generation model into a multilayer image decomposer. Furthermore, to address the scarcity of high-quality multilayer training images, we build a pipeline to extract and annotate multilayer images from Photoshop documents (PSD). Experiments demonstrate that our method significantly surpasses existing approaches in decomposition quality and establishes a new paradigm for consistent image editing.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.15603",
+      "pdf_url": "https://arxiv.org/pdf/2512.15603",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.15603",
+      "scraped_at": "2025-12-19T01:47:30.629216"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "Robust and Calibrated Detection of Authentic Multimedia Content",
+    "paper_url": "https://huggingface.co/papers/2512.15182",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Robust and Calibrated Detection of Authentic Multimedia Content",
+      "abstract": "The paper “Robust and Calibrated Detection of Authentic Multimedia Content” presents a new framework for identifying whether multimedia particularly deepfakes produced by generative models is genuinely authentic or can be plausibly denied as fake, addressing key shortcomings of current detection methods which suffer from unbounded false positive rates and are easily defeated by adaptive attackers; by introducing a calibrated resynthesis approach that focuses on high precision and adversarial robustness under realistic (compute-limited) threat models, the authors demonstrate that their method reliably verifies authentic samples with controllable false positive rates while resisting evasion by efficient adversaries, supports multiple modalities, and leverages cutting-edge inversion techniques to improve robustness and calibration compared to prior work.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.15182",
+      "pdf_url": "https://arxiv.org/pdf/2512.15182",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.15182",
+      "scraped_at": "2025-12-19T01:47:32.576517"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "SAGE: Training Smart Any-Horizon Agents for Long Video Reasoning with Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2512.13874",
+    "authors": [],
+    "stars": "22",
+    "details": {
+      "title": "SAGE: Training Smart Any-Horizon Agents for Long Video Reasoning with Reinforcement Learning",
+      "abstract": "📜 explainer thread: https://x.com/allen_ai/status/2001351082916630586 🔗 Project page: https://lnkd.in/eff-DjHx 💻 Code: github.com/allenai/SAGE 📦 Models & data: https://lnkd.in/eT9iVVRk 📝 Paper: arxiv.org/abs/2512.13874",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.13874",
+      "pdf_url": "https://arxiv.org/pdf/2512.13874",
+      "github_links": [
+        "https://github.com/allenai/SAGE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.13874",
+      "scraped_at": "2025-12-19T01:47:34.472068"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "Can LLMs Guide Their Own Exploration? Gradient-Guided Reinforcement Learning for LLM Reasoning",
+    "paper_url": "https://huggingface.co/papers/2512.15687",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Can LLMs Guide Their Own Exploration? Gradient-Guided Reinforcement Learning for LLM Reasoning",
+      "abstract": "Can LLMs Guide Their Own Exploration? Gradient-Guided Reinforcement Learning for LLM Reasoning",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.15687",
+      "pdf_url": "https://arxiv.org/pdf/2512.15687",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.15687",
+      "scraped_at": "2025-12-19T01:47:36.334475"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "FiNERweb: Datasets and Artifacts for Scalable Multilingual Named Entity Recognition",
+    "paper_url": "https://huggingface.co/papers/2512.13884",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "FiNERweb: Datasets and Artifacts for Scalable Multilingual Named Entity Recognition",
+      "abstract": "GitHub Repo: https://github.com/whoisjones/FiNERweb HF Collection: https://huggingface.co/collections/whoisjones/finerweb",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.13884",
+      "pdf_url": "https://arxiv.org/pdf/2512.13884",
+      "github_links": [
+        "https://github.com/whoisjones/FiNERweb"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.13884",
+      "scraped_at": "2025-12-19T01:47:38.197928"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "MMSI-Video-Bench: A Holistic Benchmark for Video-Based Spatial Intelligence",
+    "paper_url": "https://huggingface.co/papers/2512.10863",
+    "authors": [
+      "Peizhou Cao",
+      "Sihan Yang",
+      "Shaohao Zhu",
+      "Runsen Xu",
+      "rbler"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "MMSI-Video-Bench: A Holistic Benchmark for Video-Based Spatial Intelligence",
+      "abstract": "Our homepage: https://rbler1234.github.io/MMSI-VIdeo-Bench.github.io GitHub Page: https://github.com/InternRobotics/MMSI-Video-Bench HuggingFace: https://huggingface.co/datasets/rbler/MMSI-Video-Bench Arxiv: https://arxiv.org/abs/2512.10863",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.10863",
+      "pdf_url": "https://arxiv.org/pdf/2512.10863",
+      "github_links": [
+        "https://github.com/InternRobotics/MMSI-Video-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.10863",
+      "scraped_at": "2025-12-19T01:47:40.150604"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "DiffusionVL: Translating Any Autoregressive Models into Diffusion Vision Language Models",
+    "paper_url": "https://huggingface.co/papers/2512.15713",
+    "authors": [],
+    "stars": "30",
+    "details": {
+      "title": "DiffusionVL: Translating Any Autoregressive Models into Diffusion Vision Language Models",
+      "abstract": "In recent multimodal research, the diffusion paradigm has emerged as a promising alternative to the autoregressive paradigm (AR), owing to its unique decoding advantages. However, due to the capability limitations of the base diffusion language model, the performance of the diffusion vision language model (dVLM) still lags significantly behind that of mainstream models. This leads to a simple yet fundamental question: Is it possible to construct dVLMs based on existing powerful AR models? In response, we propose DiffusionVL, a dVLM family that could be translated from any powerful AR models. Through simple fine-tuning, we successfully adapt AR pre-trained models into the diffusion paradigm. This approach yields two key observations: (1) The paradigm shift from AR-based multimodal models to diffusion is remarkably effective. (2) Direct conversion of an AR language model to a dVLM is also feasible, achieving performance competitive with LLaVA-style visual-instruction-tuning. Further, we introduce a block-decoding design into dVLMs that supports arbitrary-length generation and KV cache reuse, achieving a significant inference speedup. We conduct a large number of experiments. Despite training with less than 5% of the data required by prior methods, DiffusionVL achieves a comprehensive performance improvement-a 34.4% gain on the MMMU-Pro (vision) bench and 37.5% gain on the MME (Cog.) bench-alongside a 2x inference speedup.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.15713",
+      "pdf_url": "https://arxiv.org/pdf/2512.15713",
+      "github_links": [
+        "https://github.com/hustvl/DiffusionVL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.15713",
+      "scraped_at": "2025-12-19T01:47:42.162776"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "VOYAGER: A Training Free Approach for Generating Diverse Datasets using LLMs",
+    "paper_url": "https://huggingface.co/papers/2512.12072",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "VOYAGER: A Training Free Approach for Generating Diverse Datasets using LLMs",
+      "abstract": "Diverse data is ALL you NEED",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.12072",
+      "pdf_url": "https://arxiv.org/pdf/2512.12072",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.12072",
+      "scraped_at": "2025-12-19T01:47:44.037410"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "End-to-End Training for Autoregressive Video Diffusion via Self-Resampling",
+    "paper_url": "https://huggingface.co/papers/2512.15702",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "End-to-End Training for Autoregressive Video Diffusion via Self-Resampling",
+      "abstract": "End-to-End Training for Autoregressive Video Diffusion via Self-Resampling",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.15702",
+      "pdf_url": "https://arxiv.org/pdf/2512.15702",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.15702",
+      "scraped_at": "2025-12-19T01:47:45.898986"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "VABench: A Comprehensive Benchmark for Audio-Video Generation",
+    "paper_url": "https://huggingface.co/papers/2512.09299",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "VABench: A Comprehensive Benchmark for Audio-Video Generation",
+      "abstract": "code link: https://github.com/tanABCC/VABench",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.09299",
+      "pdf_url": "https://arxiv.org/pdf/2512.09299",
+      "github_links": [
+        "https://github.com/tanABCC/VABench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.09299",
+      "scraped_at": "2025-12-19T01:47:47.763167"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "In Pursuit of Pixel Supervision for Visual Pre-training",
+    "paper_url": "https://huggingface.co/papers/2512.15715",
+    "authors": [
+      "Dong Wang",
+      "Xinjie Lei",
+      "Yang Li",
+      "Shang-Wen Li",
+      "Lihe Yang"
+    ],
+    "stars": "50",
+    "details": {
+      "title": "In Pursuit of Pixel Supervision for Visual Pre-training",
+      "abstract": "arXiv lens breakdown of this paper 👉 https://arxivlens.com/PaperView/Details/in-pursuit-of-pixel-supervision-for-visual-pre-training-8810-5e30657e Executive Summary Detailed Breakdown Practical Applications",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.15715",
+      "pdf_url": "https://arxiv.org/pdf/2512.15715",
+      "github_links": [
+        "https://github.com/facebookresearch/pixio"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.15715",
+      "scraped_at": "2025-12-19T01:47:49.666981"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "VTCBench: Can Vision-Language Models Understand Long Context with Vision-Text Compression?",
+    "paper_url": "https://huggingface.co/papers/2512.15649",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "VTCBench: Can Vision-Language Models Understand Long Context with Vision-Text Compression?",
+      "abstract": "A comprehensive benchmark to study VLM's visual text compression ability. Code: https://github.com/Moenupa/VTCBench Huggingface: https://huggingface.co/datasets/MLLM-CL/VTCBench",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.15649",
+      "pdf_url": "https://arxiv.org/pdf/2512.15649",
+      "github_links": [
+        "https://github.com/Moenupa/VTCBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.15649",
+      "scraped_at": "2025-12-19T01:47:51.545725"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "Is Nano Banana Pro a Low-Level Vision All-Rounder? A Comprehensive Evaluation on 14 Tasks and 40 Datasets",
+    "paper_url": "https://huggingface.co/papers/2512.15110",
+    "authors": [
+      "Yicheng Zhang",
+      "Jiaxin Zhu",
+      "Hanyu Zhou",
+      "Haoyou Deng",
+      "Jialong Zuo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Is Nano Banana Pro a Low-Level Vision All-Rounder? A Comprehensive Evaluation on 14 Tasks and 40 Datasets",
+      "abstract": "The rapid evolution of text-to-image generation models has revolutionized visual content creation. While commercial products like Nano Banana Pro have garnered significant attention, their potential as generalist solvers for traditional low-level vision challenges remains largely underexplored. In this study, we investigate the critical question: Is Nano Banana Pro a Low-Level Vision All-Rounder? We conducted a comprehensive zero-shot evaluation across 14 distinct low-level tasks spanning 40 diverse datasets. By utilizing simple textual prompts without fine-tuning, we benchmarked Nano Banana Pro against state-of-the-art specialist models. Our extensive analysis reveals a distinct performance dichotomy: while \\textbf{Nano Banana Pro demonstrates superior subjective visual quality}, often hallucinating plausible high-frequency details that surpass specialist models, it lags behind in traditional reference-based quantitative metrics. We attribute this discrepancy to the inherent stochasticity of generative models, which struggle to maintain the strict pixel-level consistency required by conventional metrics. This report identifies Nano Banana Pro as a capable zero-shot contender for low-level vision tasks, while highlighting that achieving the high fidelity of domain specialists remains a significant hurdle.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.15110",
+      "pdf_url": "https://arxiv.org/pdf/2512.15110",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.15110",
+      "scraped_at": "2025-12-19T01:47:53.384221"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "WAY: Estimation of Vessel Destination in Worldwide AIS Trajectory",
+    "paper_url": "https://huggingface.co/papers/2512.13190",
+    "authors": [
+      "Sung Won Han",
+      "Dongil Park",
+      "Wooseok Shin",
+      "Hyun Joon Park",
+      "sadPororo"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "WAY: Estimation of Vessel Destination in Worldwide AIS Trajectory",
+      "abstract": "A novel deep learning architecture, WAY, uses nested sequence structures and spatial grids for accurate long-term vessel destination estimation from AIS data.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.13190",
+      "pdf_url": "https://arxiv.org/pdf/2512.13190",
+      "github_links": [
+        "https://github.com/sadPororo/WAY"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.13190",
+      "scraped_at": "2025-12-19T01:47:55.228395"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "FrontierCS: Evolving Challenges for Evolving Intelligence",
+    "paper_url": "https://huggingface.co/papers/2512.15699",
+    "authors": [
+      "Shang Zhou",
+      "Huanzhi Mao",
+      "Zhifei Li",
+      "Wenhao Chai",
+      "Qiuyang Mang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "FrontierCS: Evolving Challenges for Evolving Intelligence",
+      "abstract": "https://github.com/FrontierCS/Frontier-CS Introducing FrontierCS. LiveCodeBench Pro is already a challenging competitive programming benchmark, so why do we still need to push one step further? The motivation behind FrontierCS is actually pretty simple: we love measuring intelligence with problems that have a \"single\", \"correct\",  \"optimal\" answer, but what really matters at the frontier in practice is often open-ended problems where the optimum is unknown, yet every step can be objectively scored and verified. In our experiments, we kept running into a sobering pattern: simply scaling up reasoning compute doesn’t close the gap. Models often settle for a locally feasible \"it runs\" solution, then stall on algorithmic and system choices that are still clearly bad. We still have a long way to go. Let’s build Evolving Challenges for Evolving Intelligence!",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.15699",
+      "pdf_url": "https://arxiv.org/pdf/2512.15699",
+      "github_links": [
+        "https://github.com/FrontierCS/Frontier-CS"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.15699",
+      "scraped_at": "2025-12-19T01:47:57.040151"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "SCOPE: Prompt Evolution for Enhancing Agent Effectiveness",
+    "paper_url": "https://huggingface.co/papers/2512.15374",
+    "authors": [
+      "Yunhe Wang",
+      "Sinno Jialin Pan",
+      "Shixiong Kai",
+      "Hui-Ling Zhen",
+      "Zehua Pei"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "SCOPE: Prompt Evolution for Enhancing Agent Effectiveness",
+      "abstract": "We introduce SCOPE (Self-evolving Context Optimization via Prompt Evolution), a framework that automatically evolves agent prompts by learning from execution traces. Try it now: pip install scope-optimizer 📄 Paper: https://arxiv.org/abs/2512.15374 💻 Code: https://github.com/JarvisPei/SCOPE",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.15374",
+      "pdf_url": "https://arxiv.org/pdf/2512.15374",
+      "github_links": [
+        "https://github.com/JarvisPei/SCOPE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.15374",
+      "scraped_at": "2025-12-19T01:47:58.898057"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "Understanding and Improving Hyperbolic Deep Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2512.14202",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Understanding and Improving Hyperbolic Deep Reinforcement Learning",
+      "abstract": "tl;dr : We analytically show that large-norm embeddings destabilize hyperbolic representations in deep RL. In PPO, this coincides with trust-region violations. Existing methods based on SpectralNorm mitigate these issues only partially. We propose a theoretically principled combination of stabilization techniques, Hyper++. Hyper++ substantially outperforms existing hyperbolic agents on ProcGen (PPO) and Atari (DDQN). Because we do not have the power iteration overhead from SpectralNorm, Hyper++ is also faster. Happy to answer any questions :)",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14202",
+      "pdf_url": "https://arxiv.org/pdf/2512.14202",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14202",
+      "scraped_at": "2025-12-19T01:48:00.784957"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "Hybrid Attribution Priors for Explainable and Robust Model Training",
+    "paper_url": "https://huggingface.co/papers/2512.14719",
+    "authors": [
+      "Yuanxing Zhang",
+      "Shangyuan Li",
+      "Feng Zhang",
+      "Zhuoran Zhang",
+      "DogNeverSleep"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Hybrid Attribution Priors for Explainable and Robust Model Training",
+      "abstract": "Small language models (SLMs) are widely used in tasks that require low latency and lightweight deployment, particularly classification. As interpretability and robustness gain increasing importance, explanation-guided learning has emerged as an effective framework by introducing attribution-based supervision during training; however, deriving general and reliable attribution priors remains a significant challenge. Through an analysis of representative attribution methods in classification settings, we find that although these methods can reliably highlight class-relevant tokens, they often focus on common keywords shared by semantically similar classes. Because such classes are already difficult to distinguish under standard training, these attributions provide insufficient discriminative cues, limiting their ability to improve model differentiation. To overcome this limitation, we propose Class-Aware Attribution Prior (CAP), a novel attribution prior extraction framework that guides language models toward capturing fine-grained class distinctions and producing more salient, discriminative attribution priors. Building on this idea, we further introduce CAP Hybrid, which combines priors from CAP with those from existing attribution techniques to form a more comprehensive and balanced supervisory signal. By aligning a model's self-attribution with these enriched priors, our approach encourages the learning of diverse, decision-relevant features. Extensive experiments in full-data, few-shot, and adversarial scenarios demonstrate that our method consistently enhances both interpretability and robustness.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14719",
+      "pdf_url": "https://arxiv.org/pdf/2512.14719",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14719",
+      "scraped_at": "2025-12-19T01:48:02.608177"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "LikeBench: Evaluating Subjective Likability in LLMs for Personalization",
+    "paper_url": "https://huggingface.co/papers/2512.13077",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LikeBench: Evaluating Subjective Likability in LLMs for Personalization",
+      "abstract": "Memory ≠ likability. LikeBench shows that models can remember more but still feel worse to talk to, and even SOTA models struggle to become likable over time despite having more information about a user.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.13077",
+      "pdf_url": "https://arxiv.org/pdf/2512.13077",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.13077",
+      "scraped_at": "2025-12-19T01:48:04.499671"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "Simultaneous Tactile-Visual Perception for Learning Multimodal Robot Manipulation",
+    "paper_url": "https://huggingface.co/papers/2512.09851",
+    "authors": [],
+    "stars": "19",
+    "details": {
+      "title": "Simultaneous Tactile-Visual Perception for Learning Multimodal Robot Manipulation",
+      "abstract": "Simultaneous Tactile-Visual Perception for Learning Multimodal Robot Manipulation",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.09851",
+      "pdf_url": "https://arxiv.org/pdf/2512.09851",
+      "github_links": [
+        "https://github.com/YuyangLee/TacThru"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.09851",
+      "scraped_at": "2025-12-19T01:48:06.352295"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "Towards Seamless Interaction: Causal Turn-Level Modeling of Interactive 3D Conversational Head Dynamics",
+    "paper_url": "https://huggingface.co/papers/2512.15340",
+    "authors": [
+      "Kun Li",
+      "Qing Zhou",
+      "Zhihao Huang",
+      "Fei Wang",
+      "Junjie Chen"
+    ],
+    "stars": "6",
+    "details": {
+      "title": "Towards Seamless Interaction: Causal Turn-Level Modeling of Interactive 3D Conversational Head Dynamics",
+      "abstract": "Human conversation is a continuous exchange of speech and nonverbal cues—including head nods, gaze shifts, and subtle expressions. Most existing approaches, however, treat talking-head and listening-head generation as separate problems, or rely on non-causal full-sequence modeling that is unsuitable for real-time interaction. We propose a causal, turn-level framework for interactive 3D conversational head generation. Our method models dialogue as a sequence of causally linked turns, where each turn accumulates multimodal context from both participants to produce coherent, responsive, and humanlike 3D head dynamics.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.15340",
+      "pdf_url": "https://arxiv.org/pdf/2512.15340",
+      "github_links": [
+        "https://github.com/CoderChen01/towards-seamleass-interaction/blob/main/README.md",
+        "https://github.com/CoderChen01/towards-seamleass-interaction"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.15340",
+      "scraped_at": "2025-12-19T01:48:08.178873"
+    },
+    "scraped_date": "2025-12-19"
+  },
+  {
+    "title": "SonicMoE: Accelerating MoE with IO and Tile-aware Optimizations",
+    "paper_url": "https://huggingface.co/papers/2512.14080",
+    "authors": [
+      "Tri Dao",
+      "Ion Stoica",
+      "Xinle Cheng",
+      "Mayank Mishra",
+      "Wentao Guo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SonicMoE: Accelerating MoE with IO and Tile-aware Optimizations",
+      "abstract": "We propose to co-design the MoE architecture with a GPU kernel tailored to NVIDIA Blackwell and Hopper generation GPUs and a novel routing method. (1) We derive an algorithm to compute the MoE backward pass more efficiently leading to a much smaller activation memory footprint that does not increase with increasing expert granularity. (2) We leverage new hardware features on Blackwell and Hopper GPUs to overlap memory IO with computation which can benefit all MoEs, and, in particular, fine-grained MoEs. (3) We propose a hardware-aware token rounding routing method where the routed number of tokens to an expert is always a multiple of the GEMM tile size. looks amazing!",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14080",
+      "pdf_url": "https://arxiv.org/pdf/2512.14080",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14080",
+      "scraped_at": "2025-12-19T01:48:10.046129"
+    },
+    "scraped_date": "2025-12-19"
   }
 ]
