@@ -48,57 +48,6 @@
 
 ---
 
-## ⚡ Quick Start
-
-### 1️⃣ Get Today's Papers (cURL)
-
-```bash
-curl https://raw.githubusercontent.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/main/data/latest.json
-```
-
-### 2️⃣ Python Integration
-
-```python
-import requests
-import pandas as pd
-
-# Load latest papers
-url = "https://raw.githubusercontent.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/main/data/latest.json"
-papers = requests.get(url).json()
-
-# Convert to DataFrame for analysis
-df = pd.DataFrame(papers)
-print(f"📚 Today's papers: {len(df)}")
-
-# Filter by stars
-trending = df[df['stars'].astype(int) > 10]
-print(f"🔥 Trending papers: {len(trending)}")
-```
-
-### 3️⃣ JavaScript/Node.js
-
-```javascript
-const fetch = require('node-fetch');
-
-async function getTodaysPapers() {
-  const response = await fetch(
-    'https://raw.githubusercontent.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/main/data/latest.json'
-  );
-  const papers = await response.json();
-  
-  console.log(`📚 Found ${papers.length} papers today!`);
-  papers.forEach(paper => {
-    console.log(`\n📄 ${paper.title}`);
-    console.log(`⭐ ${paper.stars} stars`);
-    console.log(`🔗 ${paper.details.arxiv_page_url}`);
-  });
-}
-
-getTodaysPapers();
-```
-
----
-
 ## 📈 Statistics
 
 <table>
