@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-37-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-516+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-38-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-554+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">37</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">192</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">565</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">516+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">38</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">230</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">603</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">554+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** December 20, 2025
+**Last Updated:** December 21, 2025
 
 ---
 
@@ -130,7 +130,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>2. Adaptation of Agentic AI</b> ⭐ 262</summary>
+<summary><b>2. Adaptation of Agentic AI</b> ⭐ 274</summary>
 
 <br/>
 
@@ -145,7 +145,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>3. LLaDA2.0: Scaling Up Diffusion Language Models to 100B</b> ⭐ 159</summary>
+<summary><b>3. LLaDA2.0: Scaling Up Diffusion Language Models to 100B</b> ⭐ 168</summary>
 
 <br/>
 
@@ -158,7 +158,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>4. Next-Embedding Prediction Makes Strong Vision Learners</b> ⭐ 43</summary>
+<summary><b>4. Next-Embedding Prediction Makes Strong Vision Learners</b> ⭐ 69</summary>
 
 <br/>
 
@@ -171,11 +171,13 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>5. StereoPilot: Learning Unified and Efficient Stereo Conversion via Generative Priors</b> ⭐ 0</summary>
+<summary><b>5. StereoPilot: Learning Unified and Efficient Stereo Conversion via Generative Priors</b> ⭐ 43</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.16915) • [📄 arXiv](https://arxiv.org/abs/2512.16915) • [📥 PDF](https://arxiv.org/pdf/2512.16915)
+
+**💻 Code:** [⭐ Code](https://github.com/KlingTeam/StereoPilot)
 
 > StereoPilot replaces the fragile "Depth-Warp-Inpaint" pipeline with a single-step feed-forward model that leverages video diffusion priors for efficient, high-fidelity monocular-to-stereo conversion. By training on the large-scale UniStereo datase...
 
@@ -193,20 +195,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>7. Depth Any Panoramas: A Foundation Model for Panoramic Depth Estimation</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Wenxuan Lu, Dizhe Zhang, Meixi Song, Xin Lin, haodongli
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.16913) • [📄 arXiv](https://arxiv.org/abs/2512.16913) • [📥 PDF](https://arxiv.org/pdf/2512.16913)
-
-> In this work, we present a panoramic metric depth foundation model that generalizes across diverse scene distances. We explore a data-in-the-loop paradigm from the view of both data construction and framework design. We collect a large-scale datas...
-
-</details>
-
-<details>
-<summary><b>8. Generative Refocusing: Flexible Defocus Control from a Single Image</b> ⭐ 27</summary>
+<summary><b>7. Generative Refocusing: Flexible Defocus Control from a Single Image</b> ⭐ 43</summary>
 
 <br/>
 
@@ -221,7 +210,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>9. DeContext as Defense: Safe Image Editing in Diffusion Transformers</b> ⭐ 7</summary>
+<summary><b>8. Depth Any Panoramas: A Foundation Model for Panoramic Depth Estimation</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Wenxuan Lu, Dizhe Zhang, Meixi Song, Xin Lin, haodongli
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.16913) • [📄 arXiv](https://arxiv.org/abs/2512.16913) • [📥 PDF](https://arxiv.org/pdf/2512.16913)
+
+> In this work, we present a panoramic metric depth foundation model that generalizes across diverse scene distances. We explore a data-in-the-loop paradigm from the view of both data construction and framework design. We collect a large-scale datas...
+
+</details>
+
+<details>
+<summary><b>9. DeContext as Defense: Safe Image Editing in Diffusion Transformers</b> ⭐ 9</summary>
 
 <br/>
 
@@ -234,7 +236,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>10. REGLUE Your Latents with Global and Local Semantics for Entangled Diffusion</b> ⭐ 0</summary>
+<summary><b>10. Alchemist: Unlocking Efficiency in Text-to-Image Model Training via Meta-Gradient Data Selection</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Jiarong Ou, Miao Yang, Xi Chen, Yang Zhou, Kaixin Ding
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.16905) • [📄 arXiv](https://arxiv.org/abs/2512.16905) • [📥 PDF](https://arxiv.org/pdf/2512.16905)
+
+> data selection
+
+</details>
+
+<details>
+<summary><b>11. REGLUE Your Latents with Global and Local Semantics for Entangled Diffusion</b> ⭐ 0</summary>
 
 <br/>
 
@@ -249,20 +264,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>11. Alchemist: Unlocking Efficiency in Text-to-Image Model Training via Meta-Gradient Data Selection</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Jiarong Ou, Miao Yang, Xi Chen, Yang Zhou, Kaixin Ding
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.16905) • [📄 arXiv](https://arxiv.org/abs/2512.16905) • [📥 PDF](https://arxiv.org/pdf/2512.16905)
-
-> data selection
-
-</details>
-
-<details>
-<summary><b>12. The World is Your Canvas: Painting Promptable Events with Reference Images, Trajectories, and Text</b> ⭐ 54</summary>
+<summary><b>12. The World is Your Canvas: Painting Promptable Events with Reference Images, Trajectories, and Text</b> ⭐ 67</summary>
 
 <br/>
 
@@ -275,7 +277,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>13. N3D-VLM: Native 3D Grounding Enables Accurate Spatial Reasoning in Vision-Language Models</b> ⭐ 19</summary>
+<summary><b>13. N3D-VLM: Native 3D Grounding Enables Accurate Spatial Reasoning in Vision-Language Models</b> ⭐ 24</summary>
 
 <br/>
 
@@ -288,7 +290,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>14. JustRL: Scaling a 1.5B LLM with a Simple RL Recipe</b> ⭐ 70</summary>
+<summary><b>14. JustRL: Scaling a 1.5B LLM with a Simple RL Recipe</b> ⭐ 73</summary>
 
 <br/>
 
@@ -301,7 +303,18 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>15. AdaTooler-V: Adaptive Tool-Use for Images and Videos</b> ⭐ 0</summary>
+<summary><b>15. EasyV2V: A High-quality Instruction-based Video Editing Framework</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.16920) • [📄 arXiv](https://arxiv.org/abs/2512.16920) • [📥 PDF](https://arxiv.org/pdf/2512.16920)
+
+> While image editing has advanced rapidly, video editing remains less explored, facing challenges in consistency, control, and generalization. We study the design space of data, architecture, and control, and introduce \emph{EasyV2V}, a simple and ...
+
+</details>
+
+<details>
+<summary><b>16. AdaTooler-V: Adaptive Tool-Use for Images and Videos</b> ⭐ 0</summary>
 
 <br/>
 
@@ -316,31 +329,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>16. Multimodal RewardBench 2: Evaluating Omni Reward Models for Interleaved Text and Image</b> ⭐ 13</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.16899) • [📄 arXiv](https://arxiv.org/abs/2512.16899) • [📥 PDF](https://arxiv.org/pdf/2512.16899)
-
-**💻 Code:** [⭐ Code](https://github.com/facebookresearch/MMRB2/tree/main)
-
-> Reward models are the most critical part of post-training for Omni models like nano banana, but it is barely studied in the open-source world. To build the foundation for future research on better post-training and RL for Omni models, FAIR at Meta...
-
-</details>
-
-<details>
-<summary><b>17. EasyV2V: A High-quality Instruction-based Video Editing Framework</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.16920) • [📄 arXiv](https://arxiv.org/abs/2512.16920) • [📥 PDF](https://arxiv.org/pdf/2512.16920)
-
-> While image editing has advanced rapidly, video editing remains less explored, facing challenges in consistency, control, and generalization. We study the design space of data, architecture, and control, and introduce \emph{EasyV2V}, a simple and ...
-
-</details>
-
-<details>
-<summary><b>18. Exploration v.s. Exploitation: Rethinking RLVR through Clipping, Entropy, and Spurious Reward</b> ⭐ 0</summary>
+<summary><b>17. Exploration v.s. Exploitation: Rethinking RLVR through Clipping, Entropy, and Spurious Reward</b> ⭐ 0</summary>
 
 <br/>
 
@@ -351,7 +340,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>19. FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction</b> ⭐ 51</summary>
+<summary><b>18. FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction</b> ⭐ 83</summary>
 
 <br/>
 
@@ -364,7 +353,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>20. RePlan: Reasoning-guided Region Planning for Complex Instruction-based Image Editing</b> ⭐ 8</summary>
+<summary><b>19. Multimodal RewardBench 2: Evaluating Omni Reward Models for Interleaved Text and Image</b> ⭐ 25</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.16899) • [📄 arXiv](https://arxiv.org/abs/2512.16899) • [📥 PDF](https://arxiv.org/pdf/2512.16899)
+
+**💻 Code:** [⭐ Code](https://github.com/facebookresearch/MMRB2/tree/main)
+
+> Reward models are the most critical part of post-training for Omni models like nano banana, but it is barely studied in the open-source world. To build the foundation for future research on better post-training and RL for Omni models, FAIR at Meta...
+
+</details>
+
+<details>
+<summary><b>20. RePlan: Reasoning-guided Region Planning for Complex Instruction-based Image Editing</b> ⭐ 15</summary>
 
 <br/>
 
@@ -390,7 +392,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>22. ModelTables: A Corpus of Tables about Models</b> ⭐ 10</summary>
+<summary><b>22. ModelTables: A Corpus of Tables about Models</b> ⭐ 12</summary>
 
 <br/>
 
@@ -429,26 +431,26 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>25. Insight Miner: A Time Series Analysis Dataset for Cross-Domain Alignment with Natural Language</b> ⭐ 0</summary>
+<summary><b>25. Trainable Log-linear Sparse Attention for Efficient Diffusion Transformers</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.16615) • [📄 arXiv](https://arxiv.org/abs/2512.16615) • [📥 PDF](https://arxiv.org/pdf/2512.16615)
+
+**💻 Code:** [⭐ Code](https://github.com/SingleZombie/LLSA)
+
+> Paper: https://arxiv.org/abs/2512.16615 GitHub: https://github.com/SingleZombie/LLSA
+
+</details>
+
+<details>
+<summary><b>26. Insight Miner: A Time Series Analysis Dataset for Cross-Domain Alignment with Natural Language</b> ⭐ 0</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.11251) • [📄 arXiv](https://arxiv.org/abs/2512.11251) • [📥 PDF](https://arxiv.org/pdf/2512.11251)
 
 > Can LLMs natively understand time series? We constructed TS-Insights, the first large-scale alignment dataset containing 100k time series and text pairs across 20 domains. We use a novel agentic workflow to synthesize high-quality trend descriptio...
-
-</details>
-
-<details>
-<summary><b>26. Make-It-Poseable: Feed-forward Latent Posing Model for 3D Humanoid Character Animation</b> ⭐ 8</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.16767) • [📄 arXiv](https://arxiv.org/abs/2512.16767) • [📥 PDF](https://arxiv.org/pdf/2512.16767)
-
-**💻 Code:** [⭐ Code](https://github.com/jasongzy/Make-It-Poseable)
-
-> No abstract available.
 
 </details>
 
@@ -466,15 +468,15 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>28. Trainable Log-linear Sparse Attention for Efficient Diffusion Transformers</b> ⭐ 0</summary>
+<summary><b>28. Make-It-Poseable: Feed-forward Latent Posing Model for 3D Humanoid Character Animation</b> ⭐ 8</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.16615) • [📄 arXiv](https://arxiv.org/abs/2512.16615) • [📥 PDF](https://arxiv.org/pdf/2512.16615)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.16767) • [📄 arXiv](https://arxiv.org/abs/2512.16767) • [📥 PDF](https://arxiv.org/pdf/2512.16767)
 
-**💻 Code:** [⭐ Code](https://github.com/SingleZombie/LLSA)
+**💻 Code:** [⭐ Code](https://github.com/jasongzy/Make-It-Poseable)
 
-> Paper: https://arxiv.org/abs/2512.16615 GitHub: https://github.com/SingleZombie/LLSA
+> No abstract available.
 
 </details>
 
@@ -492,7 +494,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>30. MomaGraph: State-Aware Unified Scene Graphs with Vision-Language Model for Embodied Task Planning</b> ⭐ 0</summary>
+<summary><b>30. Bidirectional Normalizing Flow: From Data to Noise and Back</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Hanhong Zhao, Zhicheng Jiang, Xianbang Wang, Qiao Sun, Yiyang Lu
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.10953) • [📄 arXiv](https://arxiv.org/abs/2512.10953) • [📥 PDF](https://arxiv.org/pdf/2512.10953)
+
+> Bidirectional Normalizing Flow: From Data to Noise and Back
+
+</details>
+
+<details>
+<summary><b>31. MomaGraph: State-Aware Unified Scene Graphs with Vision-Language Model for Embodied Task Planning</b> ⭐ 0</summary>
 
 <br/>
 
@@ -503,7 +518,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>31. TabReX : Tabular Referenceless eXplainable Evaluation</b> ⭐ 1</summary>
+<summary><b>32. TabReX : Tabular Referenceless eXplainable Evaluation</b> ⭐ 1</summary>
 
 <br/>
 
@@ -518,7 +533,18 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>32. Vibe Spaces for Creatively Connecting and Expressing Visual Concepts</b> ⭐ 0</summary>
+<summary><b>33. Nemotron-Math: Efficient Long-Context Distillation of Mathematical Reasoning from Multi-Mode Supervision</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.15489) • [📄 arXiv](https://arxiv.org/abs/2512.15489) • [📥 PDF](https://arxiv.org/pdf/2512.15489)
+
+> Nemotron-Math is a large-scale mathematical reasoning dataset with 7.5 million solution traces spanning high, medium, and low reasoning modes, each available with and without Python tool-integrated reasoning (TIR). It combines 85K curated AoPS com...
+
+</details>
+
+<details>
+<summary><b>34. Vibe Spaces for Creatively Connecting and Expressing Visual Concepts</b> ⭐ 0</summary>
 
 <br/>
 
@@ -533,20 +559,29 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>33. Bidirectional Normalizing Flow: From Data to Noise and Back</b> ⭐ 0</summary>
+<summary><b>35. Improving Recursive Transformers with Mixture of LoRAs</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Hanhong Zhao, Zhicheng Jiang, Xianbang Wang, Qiao Sun, Yiyang Lu
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.12880) • [📄 arXiv](https://arxiv.org/abs/2512.12880) • [📥 PDF](https://arxiv.org/pdf/2512.12880)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.10953) • [📄 arXiv](https://arxiv.org/abs/2512.10953) • [📥 PDF](https://arxiv.org/pdf/2512.10953)
-
-> Bidirectional Normalizing Flow: From Data to Noise and Back
+> Recursive transformers cut model size by sharing parameters across layers, but this sharing tends to collapse layer-wise expressivity and makes the model less flexible. We propose Mixture of LoRAs (MoL), a lightweight fix that replaces selected sh...
 
 </details>
 
 <details>
-<summary><b>34. EmoCaliber: Advancing Reliable Visual Emotion Comprehension via Confidence Verbalization and Calibration</b> ⭐ 1</summary>
+<summary><b>36. Reasoning Within the Mind: Dynamic Multimodal Interleaving in Latent Space</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.12623) • [📄 arXiv](https://arxiv.org/abs/2512.12623) • [📥 PDF](https://arxiv.org/pdf/2512.12623)
+
+> 🌐 Website: https://mllm-dmlr.github.io 📄 Paper: https://arxiv.org/abs/2512.12623
+
+</details>
+
+<details>
+<summary><b>37. EmoCaliber: Advancing Reliable Visual Emotion Comprehension via Confidence Verbalization and Calibration</b> ⭐ 1</summary>
 
 <br/>
 
@@ -561,18 +596,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>35. Nemotron-Math: Efficient Long-Context Distillation of Mathematical Reasoning from Multi-Mode Supervision</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.15489) • [📄 arXiv](https://arxiv.org/abs/2512.15489) • [📥 PDF](https://arxiv.org/pdf/2512.15489)
-
-> Nemotron-Math is a large-scale mathematical reasoning dataset with 7.5 million solution traces spanning high, medium, and low reasoning modes, each available with and without Python tool-integrated reasoning (TIR). It combines 85K curated AoPS com...
-
-</details>
-
-<details>
-<summary><b>36. Sharing State Between Prompts and Programs</b> ⭐ 3</summary>
+<summary><b>38. Sharing State Between Prompts and Programs</b> ⭐ 3</summary>
 
 <br/>
 
@@ -586,17 +610,6 @@ getTodaysPapers();
 
 </details>
 
-<details>
-<summary><b>37. Improving Recursive Transformers with Mixture of LoRAs</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.12880) • [📄 arXiv](https://arxiv.org/abs/2512.12880) • [📥 PDF](https://arxiv.org/pdf/2512.12880)
-
-> Recursive transformers cut model size by sharing parameters across layers, but this sharing tends to collapse layer-wise expressivity and makes the model less flexible. We propose Mixture of LoRAs (MoL), a lightweight fix that replaces selected sh...
-
-</details>
-
 ---
 
 ## 📅 Historical Archives
@@ -605,28 +618,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 37 |
-| 📅 Today | [`2025-12-20.json`](data/daily/2025-12-20.json) | 37 |
-| 📆 This Week | [`2025-W50.json`](data/weekly/2025-W50.json) | 192 |
-| 🗓️ This Month | [`2025-12.json`](data/monthly/2025-12.json) | 565 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 38 |
+| 📅 Today | [`2025-12-21.json`](data/daily/2025-12-21.json) | 38 |
+| 📆 This Week | [`2025-W50.json`](data/weekly/2025-W50.json) | 230 |
+| 🗓️ This Month | [`2025-12.json`](data/monthly/2025-12.json) | 603 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2025-12-20 | 37 | [View JSON](data/daily/2025-12-20.json) |
+| 📌 2025-12-21 | 38 | [View JSON](data/daily/2025-12-21.json) |
+| 📄 2025-12-20 | 37 | [View JSON](data/daily/2025-12-20.json) |
 | 📄 2025-12-19 | 30 | [View JSON](data/daily/2025-12-19.json) |
 | 📄 2025-12-18 | 38 | [View JSON](data/daily/2025-12-18.json) |
 | 📄 2025-12-17 | 41 | [View JSON](data/daily/2025-12-17.json) |
 | 📄 2025-12-16 | 21 | [View JSON](data/daily/2025-12-16.json) |
 | 📄 2025-12-15 | 25 | [View JSON](data/daily/2025-12-15.json) |
-| 📄 2025-12-14 | 25 | [View JSON](data/daily/2025-12-14.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2025-W50 | 192 | [View JSON](data/weekly/2025-W50.json) |
+| 📅 2025-W50 | 230 | [View JSON](data/weekly/2025-W50.json) |
 | 📅 2025-W49 | 186 | [View JSON](data/weekly/2025-W49.json) |
 | 📅 2025-W48 | 187 | [View JSON](data/weekly/2025-W48.json) |
 
@@ -634,7 +647,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2025-12 | 565 | [View JSON](data/monthly/2025-12.json) |
+| 🗓️ 2025-12 | 603 | [View JSON](data/monthly/2025-12.json) |
 
 ---
 
