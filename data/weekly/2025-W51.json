@@ -772,5 +772,450 @@
       "scraped_at": "2025-12-22T01:53:39.288175"
     },
     "scraped_date": "2025-12-22"
+  },
+  {
+    "title": "Probing Scientific General Intelligence of LLMs with Scientist-Aligned Workflows",
+    "paper_url": "https://huggingface.co/papers/2512.16969",
+    "authors": [
+      "Yuhao Zhou",
+      "SciYu",
+      "VitaCoco",
+      "BoKelvin",
+      "CoCoOne"
+    ],
+    "stars": "56",
+    "details": {
+      "title": "Probing Scientific General Intelligence of LLMs with Scientist-Aligned Workflows",
+      "abstract": "Despite advances in scientific AI, a coherent framework for Scientific General Intelligence (SGI)-the ability to autonomously conceive, investigate, and reason across scientific domains-remains lacking. We present an operational SGI definition grounded in the Practical Inquiry Model (PIM: Deliberation, Conception, Action, Perception) and operationalize it via four scientist-aligned tasks: deep research, idea generation, dry/wet experiments, and experimental reasoning. SGI-Bench comprises over 1,000 expert-curated, cross-disciplinary samples inspired by Science's 125 Big Questions, enabling systematic evaluation of state-of-the-art LLMs. Results reveal gaps: low exact match (10--20%) in deep research despite step-level alignment; ideas lacking feasibility and detail; high code executability but low execution result accuracy in dry experiments; low sequence fidelity in wet protocols; and persistent multimodal comparative-reasoning challenges. We further introduce Test-Time Reinforcement Learning (TTRL), which optimizes retrieval-augmented novelty rewards at inference, enhancing hypothesis novelty without reference answer. Together, our PIM-grounded definition, workflow-centric benchmark, and empirical insights establish a foundation for AI systems that genuinely participate in scientific discovery.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.16969",
+      "pdf_url": "https://arxiv.org/pdf/2512.16969",
+      "github_links": [
+        "https://github.com/InternScience/SGI-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.16969",
+      "scraped_at": "2025-12-23T01:48:12.405586"
+    },
+    "scraped_date": "2025-12-23"
+  },
+  {
+    "title": "PhysBrain: Human Egocentric Data as a Bridge from Vision Language Models to Physical Intelligence",
+    "paper_url": "https://huggingface.co/papers/2512.16793",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PhysBrain: Human Egocentric Data as a Bridge from Vision Language Models to Physical Intelligence",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.16793",
+      "pdf_url": "https://arxiv.org/pdf/2512.16793",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.16793",
+      "scraped_at": "2025-12-23T01:48:14.425346"
+    },
+    "scraped_date": "2025-12-23"
+  },
+  {
+    "title": "When Reasoning Meets Its Laws",
+    "paper_url": "https://huggingface.co/papers/2512.17901",
+    "authors": [
+      "Liu Ziyin",
+      "Jingyan Shen",
+      "Tianang Leng",
+      "Yifan Sun",
+      "jyzhang1208"
+    ],
+    "stars": "15",
+    "details": {
+      "title": "When Reasoning Meets Its Laws",
+      "abstract": "Despite the superior performance of Large Reasoning Models (LRMs), their reasoning behaviors are often counterintuitive, leading to suboptimal reasoning capabilities. To theoretically formalize the desired reasoning behaviors, this paper presents the Laws of Reasoning (LoRe), a unified framework that characterizes intrinsic reasoning patterns in LRMs. We first propose compute law with the hypothesis that the reasoning compute should scale linearly with question complexity. Beyond compute, we extend LoRe with a supplementary accuracy law. Since the question complexity is difficult to quantify in practice, we examine these hypotheses by two properties of the laws, monotonicity and compositionality. We therefore introduce LoRe-Bench, a benchmark that systematically measures these two tractable properties for large reasoning models. Evaluation shows that most reasoning models exhibit reasonable monotonicity but lack compositionality. In response, we develop an effective finetuning approach that enforces compute-law compositionality. Extensive empirical studies demonstrate that better compliance with compute laws yields consistently improved reasoning performance on multiple benchmarks, and uncovers synergistic effects across properties and laws.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.17901",
+      "pdf_url": "https://arxiv.org/pdf/2512.17901",
+      "github_links": [
+        "https://github.com/ASTRAL-Group/LoRe"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.17901",
+      "scraped_at": "2025-12-23T01:48:16.357933"
+    },
+    "scraped_date": "2025-12-23"
+  },
+  {
+    "title": "Seed-Prover 1.5: Mastering Undergraduate-Level Theorem Proving via Learning from Experience",
+    "paper_url": "https://huggingface.co/papers/2512.17260",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Seed-Prover 1.5: Mastering Undergraduate-Level Theorem Proving via Learning from Experience",
+      "abstract": "Github: https://github.com/ByteDance-Seed/Seed-Prover",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.17260",
+      "pdf_url": "https://arxiv.org/pdf/2512.17260",
+      "github_links": [
+        "https://github.com/ByteDance-Seed/Seed-Prover"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.17260",
+      "scraped_at": "2025-12-23T01:48:18.269306"
+    },
+    "scraped_date": "2025-12-23"
+  },
+  {
+    "title": "Both Semantics and Reconstruction Matter: Making Representation Encoders Ready for Text-to-Image Generation and Editing",
+    "paper_url": "https://huggingface.co/papers/2512.17909",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Both Semantics and Reconstruction Matter: Making Representation Encoders Ready for Text-to-Image Generation and Editing",
+      "abstract": "Modern Latent Diffusion Models (LDMs) typically operate in low-level Variational Autoencoder (VAE) latent spaces that are primarily optimized for pixel-level reconstruction. To unify vision generation and understanding, a burgeoning trend is to adopt high-dimensional features from representation encoders as generative latents. However, we empirically identify two fundamental obstacles in this paradigm: (1) the discriminative feature space lacks compact regularization, making diffusion models prone to off-manifold latents that lead to inaccurate object structures; and (2) the encoder's inherently weak pixel-level reconstruction hinders the generator from learning accurate fine-grained geometry and texture. In this paper, we propose a systematic framework to adapt understanding-oriented encoder features for generative tasks. We introduce a semantic-pixel reconstruction objective to regularize the latent space, enabling the compression of both semantic information and fine-grained details into a highly compact representation (96 channels with 16x16 spatial downsampling). This design ensures that the latent space remains semantically rich and achieves state-of-the-art image reconstruction, while remaining compact enough for accurate generation. Leveraging this representation, we design a unified Text-to-Image (T2I) and image editing model. Benchmarking against various feature spaces, we demonstrate that our approach achieves state-of-the-art reconstruction, faster convergence, and substantial performance gains in both T2I and editing tasks, validating that representation encoders can be effectively adapted into robust generative components. Project Page: https://jshilong.github.io/PS-VAE-PAGE/",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.17909",
+      "pdf_url": "https://arxiv.org/pdf/2512.17909",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.17909",
+      "scraped_at": "2025-12-23T01:48:20.166848"
+    },
+    "scraped_date": "2025-12-23"
+  },
+  {
+    "title": "4D-RGPT: Toward Region-level 4D Understanding via Perceptual Distillation",
+    "paper_url": "https://huggingface.co/papers/2512.17012",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "4D-RGPT: Toward Region-level 4D Understanding via Perceptual Distillation",
+      "abstract": "Project page: https://ca-joe-yang.github.io/resource/projects/4D_RGPT We propose 4D-RGPT , a specialized MLLM that perceives 4D information for enhanced video understanding. We propose the P erceptual 4 D D istillation ( P4D ) training framework to distill 4D perceptual knowledge into 4D-RGPT without introducing additional inference cost. We introduce R4D-Bench , a region-based 4D VQA benchmark that requires region-level 4D understanding. Our 4D-RGPT improves over the baseline on both non-region-based 3D/4D benchmarks ( +5.3% on average across 6 benchmarks ) and our region-based R4D-Bench benchmark ( +4.3% ), while effectively capturing explicit 4D signals.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.17012",
+      "pdf_url": "https://arxiv.org/pdf/2512.17012",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.17012",
+      "scraped_at": "2025-12-23T01:48:22.025726"
+    },
+    "scraped_date": "2025-12-23"
+  },
+  {
+    "title": "Are We on the Right Way to Assessing LLM-as-a-Judge?",
+    "paper_url": "https://huggingface.co/papers/2512.16041",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Are We on the Right Way to Assessing LLM-as-a-Judge?",
+      "abstract": "We argue that evaluating LLM-as-a-Judge is biased by human-annotated ground truth, rethink the evaluation of LLM-as-a-Judge, and design metrics that do not need human annotations.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.16041",
+      "pdf_url": "https://arxiv.org/pdf/2512.16041",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.16041",
+      "scraped_at": "2025-12-23T01:48:23.866902"
+    },
+    "scraped_date": "2025-12-23"
+  },
+  {
+    "title": "An Anatomy of Vision-Language-Action Models: From Modules to Milestones and Challenges",
+    "paper_url": "https://huggingface.co/papers/2512.11362",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "An Anatomy of Vision-Language-Action Models: From Modules to Milestones and Challenges",
+      "abstract": "Vision-Language-Action (VLA) models are driving a revolution in robotics, enabling machines to understand instructions and interact with the physical world. This field is exploding with new models and datasets, making it both exciting and challenging to keep pace with. This survey offers a clear and structured guide to the VLA landscape. We design it to follow the natural learning path of a researcher: we start with the basic Modules of any VLA model, trace the history through key Milestones, and then dive deep into the core Challenges that define recent research frontier. Our main contribution is a detailed breakdown of the five biggest challenges in: (1) Representation, (2) Execution, (3) Generalization, (4) Safety, and (5) Dataset and Evaluation. This structure mirrors the developmental roadmap of a generalist agent: establishing the fundamental perception-action loop, scaling capabilities across diverse embodiments and environments, and finally ensuring trustworthy deployment-all supported by the essential data infrastructure. For each of them, we review existing approaches and highlight future opportunities. We position this paper as both a foundational guide for newcomers and a strategic roadmap for experienced researchers, with the dual aim of accelerating learning and inspiring new ideas in embodied intelligence. A live version of this survey, with continuous updates, is maintained on our https://suyuz1.github.io/VLA-Survey-Anatomy/",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.11362",
+      "pdf_url": "https://arxiv.org/pdf/2512.11362",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.11362",
+      "scraped_at": "2025-12-23T01:48:25.863004"
+    },
+    "scraped_date": "2025-12-23"
+  },
+  {
+    "title": "RadarGen: Automotive Radar Point Cloud Generation from Cameras",
+    "paper_url": "https://huggingface.co/papers/2512.17897",
+    "authors": [
+      "Or Litany",
+      "Shengyu Huang",
+      "Sanja Fidler",
+      "Fangqiang Ding",
+      "TomerBo"
+    ],
+    "stars": "6",
+    "details": {
+      "title": "RadarGen: Automotive Radar Point Cloud Generation from Cameras",
+      "abstract": "Check out radargen.github.io",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.17897",
+      "pdf_url": "https://arxiv.org/pdf/2512.17897",
+      "github_links": [
+        "https://github.com/tomerborreda/RadarGen"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.17897",
+      "scraped_at": "2025-12-23T01:48:27.747323"
+    },
+    "scraped_date": "2025-12-23"
+  },
+  {
+    "title": "GroundingME: Exposing the Visual Grounding Gap in MLLMs through Multi-Dimensional Evaluation",
+    "paper_url": "https://huggingface.co/papers/2512.17495",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GroundingME: Exposing the Visual Grounding Gap in MLLMs through Multi-Dimensional Evaluation",
+      "abstract": "Our new benchmark for evaluating the grounding capabilities of frontier MLLMs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.17495",
+      "pdf_url": "https://arxiv.org/pdf/2512.17495",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.17495",
+      "scraped_at": "2025-12-23T01:48:29.641583"
+    },
+    "scraped_date": "2025-12-23"
+  },
+  {
+    "title": "Physics of Language Models: Part 4.1, Architecture Design and the Magic of Canon Layers",
+    "paper_url": "https://huggingface.co/papers/2512.17351",
+    "authors": [],
+    "stars": "278",
+    "details": {
+      "title": "Physics of Language Models: Part 4.1, Architecture Design and the Magic of Canon Layers",
+      "abstract": "https://x.com/ZeyuanAllenZhu/status/2000892470306152701 https://physics.allen-zhu.com/part-4-architecture-design/part-4-1",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.17351",
+      "pdf_url": "https://arxiv.org/pdf/2512.17351",
+      "github_links": [
+        "https://github.com/facebookresearch/PhysicsLM4"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.17351",
+      "scraped_at": "2025-12-23T01:48:31.515651"
+    },
+    "scraped_date": "2025-12-23"
+  },
+  {
+    "title": "Turn-PPO: Turn-Level Advantage Estimation with PPO for Improved Multi-Turn RL in Agentic LLMs",
+    "paper_url": "https://huggingface.co/papers/2512.17008",
+    "authors": [
+      "Lihong Li",
+      "Meet P. Vadera",
+      "Rui Meng",
+      "Peng Zhou",
+      "ljb121002"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Turn-PPO: Turn-Level Advantage Estimation with PPO for Improved Multi-Turn RL in Agentic LLMs",
+      "abstract": "Reinforcement learning (RL) has re-emerged as a natural approach for training interactive LLM agents in real-world environments. However, directly applying the widely used Group Relative Policy Optimization (GRPO) algorithm to multi-turn tasks exposes notable limitations, particularly in scenarios requiring long-horizon reasoning. To address these challenges, we investigate more stable and effective advantage estimation strategies, especially for multi-turn settings. We first explore Proximal Policy Optimization (PPO) as an alternative and find it to be more robust than GRPO. To further enhance PPO in multi-turn scenarios, we introduce turn-PPO, a variant that operates on a turn-level MDP formulation, as opposed to the commonly used token-level MDP. Our results on the WebShop and Sokoban datasets demonstrate the effectiveness of turn-PPO, both with and without long reasoning components.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.17008",
+      "pdf_url": "https://arxiv.org/pdf/2512.17008",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.17008",
+      "scraped_at": "2025-12-23T01:48:33.437469"
+    },
+    "scraped_date": "2025-12-23"
+  },
+  {
+    "title": "HERBench: A Benchmark for Multi-Evidence Integration in Video Question Answering",
+    "paper_url": "https://huggingface.co/papers/2512.14870",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "HERBench: A Benchmark for Multi-Evidence Integration in Video Question Answering",
+      "abstract": "🔗 Project page: https://herbench.github.io/ 📄  arXiv: https://arxiv.org/abs/2512.14870 🤗  HF dataset card: https://huggingface.co/datasets/DanBenAmi/HERBench 🖥  Code (GitHub): https://github.com/DanBenAmi/HERBench",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14870",
+      "pdf_url": "https://arxiv.org/pdf/2512.14870",
+      "github_links": [
+        "https://github.com/DanBenAmi/HERBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14870",
+      "scraped_at": "2025-12-23T01:48:35.301291"
+    },
+    "scraped_date": "2025-12-23"
+  },
+  {
+    "title": "Animate Any Character in Any World",
+    "paper_url": "https://huggingface.co/papers/2512.17796",
+    "authors": [
+      "Yan Lu",
+      "Bo Dai",
+      "Hongyang Zhang",
+      "Fangyun Wei",
+      "Yitong Wang"
+    ],
+    "stars": "28",
+    "details": {
+      "title": "Animate Any Character in Any World",
+      "abstract": "Introducing AniX, a system enables users to provide 3DGS scene along with a 3D or multi-view character, enabling interactive control of the character's behaviors and active exploration of the environment through natural language commands. The system features:",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.17796",
+      "pdf_url": "https://arxiv.org/pdf/2512.17796",
+      "github_links": [
+        "https://github.com/snowflakewang/AniX"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.17796",
+      "scraped_at": "2025-12-23T01:48:37.149428"
+    },
+    "scraped_date": "2025-12-23"
+  },
+  {
+    "title": "SWE-Bench++: A Framework for the Scalable Generation of Software Engineering Benchmarks from Open-Source Repositories",
+    "paper_url": "https://huggingface.co/papers/2512.17419",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SWE-Bench++: A Framework for the Scalable Generation of Software Engineering Benchmarks from Open-Source Repositories",
+      "abstract": "Benchmarks like SWE-bench have standardized the evaluation of Large Language Models (LLMs) on repository-level software engineering tasks. However, these efforts remain limited by manual curation, static datasets, and a focus on Python-based bug fixes. We introduce SWE-Bench++, an automated framework that generates repository-level coding tasks from open-source GitHub projects. Unlike synthetic approaches, our pipeline harvests live pull requests to cover both bug fixes and feature requests across 11 languages. SWE-Bench++ turns GitHub pull requests (PRs) into reproducible, execution-based tasks via four stages: programmatic sourcing, environment synthesis, test oracle extraction, and quality assurance. A final hint-guided trajectory synthesis step converts instances that strong models fail on into training trajectories. Our initial benchmark consists of 11,133 instances from 3,971 repositories across 11 languages. On a subset of 1,782 instances of this benchmark, today's strongest models perform as follows: claude-sonnet-4.5 achieves 36.20% pass@10, gpt-5-2025-08-07 34.57%, gemini/gemini-2.5-pro 24.92%, and gpt-4o 16.89%. We further demonstrate the utility of our dataset by showing that fine-tuning on SWE-Bench++ instances yields measurable improvements on the SWE-bench Multilingual benchmark. SWE-Bench++ provides a scalable, multilingual benchmark for evaluating and improving repository-level code generation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.17419",
+      "pdf_url": "https://arxiv.org/pdf/2512.17419",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.17419",
+      "scraped_at": "2025-12-23T01:48:38.957080"
+    },
+    "scraped_date": "2025-12-23"
+  },
+  {
+    "title": "StageVAR: Stage-Aware Acceleration for Visual Autoregressive Models",
+    "paper_url": "https://huggingface.co/papers/2512.16483",
+    "authors": [],
+    "stars": "9",
+    "details": {
+      "title": "StageVAR: Stage-Aware Acceleration for Visual Autoregressive Models",
+      "abstract": "github: https://github.com/sen-mao/StageVAR",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.16483",
+      "pdf_url": "https://arxiv.org/pdf/2512.16483",
+      "github_links": [
+        "https://github.com/sen-mao/StageVAR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.16483",
+      "scraped_at": "2025-12-23T01:48:40.740165"
+    },
+    "scraped_date": "2025-12-23"
+  },
+  {
+    "title": "Bolmo: Byteifying the Next Generation of Language Models",
+    "paper_url": "https://huggingface.co/papers/2512.15586",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Bolmo: Byteifying the Next Generation of Language Models",
+      "abstract": "So cool idea to make use of mLSTM and developing this byteifying approach 😍",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.15586",
+      "pdf_url": "https://arxiv.org/pdf/2512.15586",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.15586",
+      "scraped_at": "2025-12-23T01:48:42.629718"
+    },
+    "scraped_date": "2025-12-23"
+  },
+  {
+    "title": "Meta-RL Induces Exploration in Language Agents",
+    "paper_url": "https://huggingface.co/papers/2512.16848",
+    "authors": [
+      "Maria Brbic",
+      "Michael Moor",
+      "Damien Teney",
+      "Liangze Jiang",
+      "Yulun Jiang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Meta-RL Induces Exploration in Language Agents",
+      "abstract": "🌊LaMer, a general Meta-RL framework that enables LLM agents to explore and learn from the environment feedback at test time.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.16848",
+      "pdf_url": "https://arxiv.org/pdf/2512.16848",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.16848",
+      "scraped_at": "2025-12-23T01:48:44.450669"
+    },
+    "scraped_date": "2025-12-23"
+  },
+  {
+    "title": "Robust-R1: Degradation-Aware Reasoning for Robust Visual Understanding",
+    "paper_url": "https://huggingface.co/papers/2512.17532",
+    "authors": [
+      "Runtao Liu",
+      "Xiaogang Xu",
+      "Wei Wei",
+      "Jianmin Chen",
+      "Jiaqi-hkust"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Robust-R1: Degradation-Aware Reasoning for Robust Visual Understanding",
+      "abstract": "Multimodal Large Language Models struggle to maintain reliable performance under extreme real-world visual degradations, which impede their practical robustness. Existing robust MLLMs predominantly rely on implicit training/adaptation that focuses solely on visual encoder generalization, suffering from limited interpretability and isolated optimization. To overcome these limitations, we propose Robust-R1, a novel framework that explicitly models visual degradations through structured reasoning chains. Our approach integrates: (i) supervised fine-tuning for degradation-aware reasoning foundations, (ii) reward-driven alignment for accurately perceiving degradation parameters, and (iii) dynamic reasoning depth scaling adapted to degradation intensity. To facilitate this approach, we introduce a specialized 11K dataset featuring realistic degradations synthesized across four critical real-world visual processing stages, each annotated with structured chains connecting degradation parameters, perceptual influence, pristine semantic reasoning chain, and conclusion. Comprehensive evaluations demonstrate state-of-the-art robustness: Robust-R1 outperforms all general and robust baselines on the real-world degradation benchmark R-Bench, while maintaining superior anti-degradation performance under multi-intensity adversarial degradations on MMMB, MMStar, and RealWorldQA.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.17532",
+      "pdf_url": "https://arxiv.org/pdf/2512.17532",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.17532",
+      "scraped_at": "2025-12-23T01:48:46.210116"
+    },
+    "scraped_date": "2025-12-23"
+  },
+  {
+    "title": "3D-RE-GEN: 3D Reconstruction of Indoor Scenes with a Generative Framework",
+    "paper_url": "https://huggingface.co/papers/2512.17459",
+    "authors": [
+      "Hendrik P. A. Lensch",
+      "Tobias Sautter",
+      "JDihlmann"
+    ],
+    "stars": "33",
+    "details": {
+      "title": "3D-RE-GEN: 3D Reconstruction of Indoor Scenes with a Generative Framework",
+      "abstract": "🌐 https://3dregen.jdihlmann.com/ 📃 https://arxiv.org/abs/2512.17459 💾 https://github.com/cgtuebingen/3D-RE-GEN",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.17459",
+      "pdf_url": "https://arxiv.org/pdf/2512.17459",
+      "github_links": [
+        "https://github.com/cgtuebingen/3D-RE-GEN"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.17459",
+      "scraped_at": "2025-12-23T01:48:48.020152"
+    },
+    "scraped_date": "2025-12-23"
+  },
+  {
+    "title": "A Benchmark and Agentic Framework for Omni-Modal Reasoning and Tool Use in Long Videos",
+    "paper_url": "https://huggingface.co/papers/2512.16978",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "A Benchmark and Agentic Framework for Omni-Modal Reasoning and Tool Use in Long Videos",
+      "abstract": "🌐 Website: https://mbzuai-oryx.github.io/LongShOT/ 💻 Github: https://github.com/mbzuai-oryx/longshot 🤗 HuggingFace: https://huggingface.co/datasets/MBZUAI/longshot-bench",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.16978",
+      "pdf_url": "https://arxiv.org/pdf/2512.16978",
+      "github_links": [
+        "https://github.com/mbzuai-oryx/longshot"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.16978",
+      "scraped_at": "2025-12-23T01:48:49.866724"
+    },
+    "scraped_date": "2025-12-23"
+  },
+  {
+    "title": "MineTheGap: Automatic Mining of Biases in Text-to-Image Models",
+    "paper_url": "https://huggingface.co/papers/2512.13427",
+    "authors": [
+      "Tomer Michaeli",
+      "Inbar Huberman-Spiegelglas",
+      "Nurit Spingarn-Eliezer",
+      "Noa Cohen"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "MineTheGap: Automatic Mining of Biases in Text-to-Image Models",
+      "abstract": "Text-to-Image (TTI) models generate images based on text prompts, which often leave certain aspects of the desired image ambiguous. When faced with these ambiguities, TTI models have been shown to exhibit biases in their interpretations. These biases can have societal impacts, e.g., when showing only a certain race for a stated occupation. They can also affect user experience when creating redundancy within a set of generated images instead of spanning diverse possibilities. Here, we introduce MineTheGap - a method for automatically mining prompts that cause a TTI model to generate biased outputs. Our method goes beyond merely detecting bias for a given prompt. Rather, it leverages a genetic algorithm to iteratively refine a pool of prompts, seeking for those that expose biases. This optimization process is driven by a novel bias score, which ranks biases according to their severity, as we validate on a dataset with known biases. For a given prompt, this score is obtained by comparing the distribution of generated images to the distribution of LLM-generated texts that constitute variations on the prompt.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.13427",
+      "pdf_url": "https://arxiv.org/pdf/2512.13427",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.13427",
+      "scraped_at": "2025-12-23T01:48:51.620855"
+    },
+    "scraped_date": "2025-12-23"
   }
 ]
