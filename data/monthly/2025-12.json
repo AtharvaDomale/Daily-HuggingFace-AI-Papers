@@ -13653,5 +13653,481 @@
       "scraped_at": "2025-12-23T01:48:51.620855"
     },
     "scraped_date": "2025-12-23"
+  },
+  {
+    "title": "DataFlow: An LLM-Driven Framework for Unified Data Preparation and Workflow Automation in the Era of Data-Centric AI",
+    "paper_url": "https://huggingface.co/papers/2512.16676",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DataFlow: An LLM-Driven Framework for Unified Data Preparation and Workflow Automation in the Era of Data-Centric AI",
+      "abstract": "code link: https://github.com/OpenDCAI/DataFlow",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.16676",
+      "pdf_url": "https://arxiv.org/pdf/2512.16676",
+      "github_links": [
+        "https://github.com/OpenDCAI/DataFlow"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.16676",
+      "scraped_at": "2025-12-24T01:46:29.753237"
+    },
+    "scraped_date": "2025-12-24"
+  },
+  {
+    "title": "The Prism Hypothesis: Harmonizing Semantic and Pixel Representations via Unified Autoencoding",
+    "paper_url": "https://huggingface.co/papers/2512.19693",
+    "authors": [
+      "Ziwei Liu",
+      "Dahua Lin",
+      "Quan Wang",
+      "Haiwen Diao",
+      "Weichen Fan"
+    ],
+    "stars": "56",
+    "details": {
+      "title": "The Prism Hypothesis: Harmonizing Semantic and Pixel Representations via Unified Autoencoding",
+      "abstract": "Deep representations across modalities are inherently intertwined. In this paper, we systematically analyze the spectral characteristics of various semantic and pixel encoders. Interestingly, our study uncovers a highly inspiring and rarely explored correspondence between an encoder's feature spectrum and its functional role: semantic encoders primarily capture low-frequency components that encode abstract meaning, whereas pixel encoders additionally retain high-frequency information that conveys fine-grained detail. This heuristic finding offers a unifying perspective that ties encoder behavior to its underlying spectral structure. We define it as the Prism Hypothesis, where each data modality can be viewed as a projection of the natural world onto a shared feature spectrum, just like the prism. Building on this insight, we propose Unified Autoencoding (UAE), a model that harmonizes semantic structure and pixel details via an innovative frequency-band modulator, enabling their seamless coexistence. Extensive experiments on ImageNet and MS-COCO benchmarks validate that our UAE effectively unifies semantic abstraction and pixel-level fidelity into a single latent space with state-of-the-art performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.19693",
+      "pdf_url": "https://arxiv.org/pdf/2512.19693",
+      "github_links": [
+        "https://github.com/WeichenFan/UAE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.19693",
+      "scraped_at": "2025-12-24T01:46:31.698181"
+    },
+    "scraped_date": "2025-12-24"
+  },
+  {
+    "title": "Region-Constraint In-Context Generation for Instructional Video Editing",
+    "paper_url": "https://huggingface.co/papers/2512.17650",
+    "authors": [],
+    "stars": "32",
+    "details": {
+      "title": "Region-Constraint In-Context Generation for Instructional Video Editing",
+      "abstract": "Region-Constraint In-Context Generation for Instructional Video Editing Paper: https://arxiv.org/abs/2512.17650 Project Page: https://zhw-zhang.github.io/ReCo-page/ Github: https://github.com/HiDream-ai/ReCo ReCo-Data: https://huggingface.co/datasets/HiDream-ai/ReCo-Data ReCo-Bench: https://huggingface.co/datasets/HiDream-ai/ReCo-Bench",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.17650",
+      "pdf_url": "https://arxiv.org/pdf/2512.17650",
+      "github_links": [
+        "https://github.com/HiDream-ai/ReCo"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.17650",
+      "scraped_at": "2025-12-24T01:46:33.664644"
+    },
+    "scraped_date": "2025-12-24"
+  },
+  {
+    "title": "Infinite-Homography as Robust Conditioning for Camera-Controlled Video Generation",
+    "paper_url": "https://huggingface.co/papers/2512.17040",
+    "authors": [],
+    "stars": "21",
+    "details": {
+      "title": "Infinite-Homography as Robust Conditioning for Camera-Controlled Video Generation",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.17040",
+      "pdf_url": "https://arxiv.org/pdf/2512.17040",
+      "github_links": [
+        "https://github.com/emjay73/InfCam"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.17040",
+      "scraped_at": "2025-12-24T01:46:35.583698"
+    },
+    "scraped_date": "2025-12-24"
+  },
+  {
+    "title": "QuCo-RAG: Quantifying Uncertainty from the Pre-training Corpus for Dynamic Retrieval-Augmented Generation",
+    "paper_url": "https://huggingface.co/papers/2512.19134",
+    "authors": [
+      "Lu Cheng",
+      "Tongtong Wu",
+      "Kailin Zhang",
+      "Dehai Min"
+    ],
+    "stars": "8",
+    "details": {
+      "title": "QuCo-RAG: Quantifying Uncertainty from the Pre-training Corpus for Dynamic Retrieval-Augmented Generation",
+      "abstract": "A new framework for dynamic retrieval-augmented generation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.19134",
+      "pdf_url": "https://arxiv.org/pdf/2512.19134",
+      "github_links": [
+        "https://github.com/ZhishanQ/QuCo-RAG"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.19134",
+      "scraped_at": "2025-12-24T01:46:37.568351"
+    },
+    "scraped_date": "2025-12-24"
+  },
+  {
+    "title": "Can LLMs Estimate Student Struggles? Human-AI Difficulty Alignment with Proficiency Simulation for Item Difficulty Prediction",
+    "paper_url": "https://huggingface.co/papers/2512.18880",
+    "authors": [
+      "Hong Jiao",
+      "Jian Chen",
+      "Yunze Xiao",
+      "Han Chen",
+      "Ming Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Can LLMs Estimate Student Struggles? Human-AI Difficulty Alignment with Proficiency Simulation for Item Difficulty Prediction",
+      "abstract": "Key Findings of our Human-LLM difficulty alignment study: Systematic Misalignment : Contrary to standard capability metrics, scaling does not reliably translate into alignment. Increasing model scale does not improve difficulty predictions; instead, models form a cohesive Machine Consensus, aligning significantly stronger with each other than with human reality. Limits of Simulation : Neither extrinsic ensembling nor proficiency simulation serves as a reliable fix for the misalignment. Ensemble performance is strictly bounded by weaker models, while proficiency simulation proves highly inconsistent as models struggle to authentically mimic different proficiency levels. The Curse of Knowledge : Our IRT-based analysis reveals a fundamental mechanistic divergence: the difficulty derived from models' actual correctness correlates even worse with humans than their explicit perceptions. Items that are difficult for humans are frequently trivial for models, and this capability exhibits significant inertia even under weak student prompts. Metacognitive Blindness : We identify a critical lack of introspection. With AUROC scores hovering near random guessing, models fail to predict their own limitations, indicating that explicit difficulty estimates are effectively decoupled from the model's actual correctness, lacking the internal signal to ground their predictions.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.18880",
+      "pdf_url": "https://arxiv.org/pdf/2512.18880",
+      "github_links": [
+        "https://github.com/MingLiiii/Difficulty_Alignment"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.18880",
+      "scraped_at": "2025-12-24T01:46:39.452943"
+    },
+    "scraped_date": "2025-12-24"
+  },
+  {
+    "title": "WorldWarp: Propagating 3D Geometry with Asynchronous Video Diffusion",
+    "paper_url": "https://huggingface.co/papers/2512.19678",
+    "authors": [],
+    "stars": "31",
+    "details": {
+      "title": "WorldWarp: Propagating 3D Geometry with Asynchronous Video Diffusion",
+      "abstract": "Long-range camera-conditioned scene generation from a single image. Project page and code: https://hyokong.github.io/worldwarp-page/ .",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.19678",
+      "pdf_url": "https://arxiv.org/pdf/2512.19678",
+      "github_links": [
+        "https://github.com/HyoKong/WorldWarp"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.19678",
+      "scraped_at": "2025-12-24T01:46:41.458062"
+    },
+    "scraped_date": "2025-12-24"
+  },
+  {
+    "title": "LoGoPlanner: Localization Grounded Navigation Policy with Metric-aware Visual Geometry",
+    "paper_url": "https://huggingface.co/papers/2512.19629",
+    "authors": [
+      "Yuan Shen",
+      "Tai Wang",
+      "Yuqiang Yang",
+      "Wenzhe Cai",
+      "Jiaqi Peng"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "LoGoPlanner: Localization Grounded Navigation Policy with Metric-aware Visual Geometry",
+      "abstract": "LoGoPlanner: Localization Grounded Navigation Policy with Metric-aware Visual Geometry",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.19629",
+      "pdf_url": "https://arxiv.org/pdf/2512.19629",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.19629",
+      "scraped_at": "2025-12-24T01:46:43.484735"
+    },
+    "scraped_date": "2025-12-24"
+  },
+  {
+    "title": "UCoder: Unsupervised Code Generation by Internal Probing of Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2512.17385",
+    "authors": [
+      "Yuqing Ma",
+      "Lin Jing",
+      "Wei Zhang",
+      "Jian Yang",
+      "Jiajun Wu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "UCoder: Unsupervised Code Generation by Internal Probing of Large Language Models",
+      "abstract": "This paper introduces UCoder, an unsupervised framework for training code-generating large language models without requiring any external datasets, including unlabeled code snippets. The approach, called IPC (Internal Probing of LLMs for Code generation), leverages latent programming knowledge already present in pre-trained models through a six-stage self-bootstrapping process: (1-3) problem space probing that generates diverse algorithmic problems with specifications, (4) test understanding probing to create comprehensive test suites, (5) solution space probing using dense sampling (128 candidates per problem), and (6) knowledge consolidation through supervised fine-tuning on high-quality solutions. The key innovation is execution-driven consensus clustering, which identifies correct implementations by finding clusters of behaviorally identical solutions—correct code naturally clusters together while incorrect solutions fail heterogeneously. Experiments on UCoder models (7B, 14B, 32B parameters) demonstrate competitive performance with supervised baselines across multiple benchmarks (HumanEval, MBPP, BigCodeBench, LiveCodeBench, FullStackBench), with smaller models showing greater improvement gains (inverse scaling). The work proves that self-generated data maintains lexical, semantic, and structural diversity sufficient for effective learning, opening possibilities for resource-efficient LLM training without human annotation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.17385",
+      "pdf_url": "https://arxiv.org/pdf/2512.17385",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.17385",
+      "scraped_at": "2025-12-24T01:46:45.428926"
+    },
+    "scraped_date": "2025-12-24"
+  },
+  {
+    "title": "GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and Environment Simulators",
+    "paper_url": "https://huggingface.co/papers/2512.19682",
+    "authors": [],
+    "stars": "8",
+    "details": {
+      "title": "GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and Environment Simulators",
+      "abstract": "Training capable Large Language Model (LLM) agents is critically bottlenecked by the high cost and static nature of real-world interaction data. We address this by introducing GenEnv, a framework that establishes a difficulty-aligned co-evolutionary game between an agent and a scalable, generative environment simulator. Unlike traditional methods that evolve models on static datasets, GenEnv instantiates a dataevolving: the simulator acts as a dynamic curriculum policy, continuously generating tasks specifically tailored to the agent's ``zone of proximal development''. This process is guided by a simple but effective",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.19682",
+      "pdf_url": "https://arxiv.org/pdf/2512.19682",
+      "github_links": [
+        "https://github.com/Gen-Verse/GenEnv"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.19682",
+      "scraped_at": "2025-12-24T01:46:47.338413"
+    },
+    "scraped_date": "2025-12-24"
+  },
+  {
+    "title": "StoryMem: Multi-shot Long Video Storytelling with Memory",
+    "paper_url": "https://huggingface.co/papers/2512.19539",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "StoryMem: Multi-shot Long Video Storytelling with Memory",
+      "abstract": "Visual storytelling requires generating multi-shot videos with cinematic quality and long-range consistency. Inspired by human memory, we propose StoryMem, a paradigm that reformulates long-form video storytelling as iterative shot synthesis conditioned on explicit visual memory, transforming pre-trained single-shot video diffusion models into multi-shot storytellers. This is achieved by a novel Memory-to-Video (M2V) design, which maintains a compact and dynamically updated memory bank of keyframes from historical generated shots. The stored memory is then injected into single-shot video diffusion models via latent concatenation and negative RoPE shifts with only LoRA fine-tuning. A semantic keyframe selection strategy, together with aesthetic preference filtering, further ensures informative and stable memory throughout generation. Moreover, the proposed framework naturally accommodates smooth shot transitions and customized story generation applications. To facilitate evaluation, we introduce ST-Bench, a diverse benchmark for multi-shot video storytelling. Extensive experiments demonstrate that StoryMem achieves superior cross-shot consistency over previous methods while preserving high aesthetic quality and prompt adherence, marking a significant step toward coherent minute-long video storytelling.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.19539",
+      "pdf_url": "https://arxiv.org/pdf/2512.19539",
+      "github_links": [
+        "https://github.com/Kevin-thu/StoryMem"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.19539",
+      "scraped_at": "2025-12-24T01:46:49.226679"
+    },
+    "scraped_date": "2025-12-24"
+  },
+  {
+    "title": "LoPA: Scaling dLLM Inference via Lookahead Parallel Decoding",
+    "paper_url": "https://huggingface.co/papers/2512.16229",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LoPA: Scaling dLLM Inference via Lookahead Parallel Decoding",
+      "abstract": "🔗Paper： https://arxiv.org/abs/2512.16229 🔗GitHub： https://github.com/zhijie-group/LoPA 🔗blog: https://zhijie-group.github.io/blogs/lopa",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.16229",
+      "pdf_url": "https://arxiv.org/pdf/2512.16229",
+      "github_links": [
+        "https://github.com/zhijie-group/LoPA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.16229",
+      "scraped_at": "2025-12-24T01:46:51.047673"
+    },
+    "scraped_date": "2025-12-24"
+  },
+  {
+    "title": "Reasoning Palette: Modulating Reasoning via Latent Contextualization for Controllable Exploration for (V)LMs",
+    "paper_url": "https://huggingface.co/papers/2512.17206",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Reasoning Palette: Modulating Reasoning via Latent Contextualization for Controllable Exploration for (V)LMs",
+      "abstract": "Reasoning Palette addresses the challenge of controlling LLM generation style and enabling effective exploration in RL by introducing a stochastic latent variable that encodes diverse reasoning strategies. This latent, inferred via a VAE from question-answer pairs, is decoded into token prefixes that modulate the model's internal reasoning before generation. A brief SFT phase adapts the model to this conditioning, and during RL, it enables structured, on-demand exploration, boosting both efficiency and performance across reasoning benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.17206",
+      "pdf_url": "https://arxiv.org/pdf/2512.17206",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.17206",
+      "scraped_at": "2025-12-24T01:46:52.865009"
+    },
+    "scraped_date": "2025-12-24"
+  },
+  {
+    "title": "MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive, and MCP-Augmented Environments",
+    "paper_url": "https://huggingface.co/papers/2512.19432",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive, and MCP-Augmented Environments",
+      "abstract": "Among existing online mobile-use benchmarks, AndroidWorld has emerged as the dominant benchmark due to its reproducible environment and deterministic evaluation; however, recent agents achieving over 90% success rates indicate its saturation and motivate the need for a more challenging benchmark. In addition, its environment lacks key application categories, such as e-commerce and enterprise communication, and does not reflect realistic mobile-use scenarios characterized by vague user instructions and hybrid tool usage. To bridge this gap, we introduce MobileWorld, a substantially more challenging benchmark designed to better reflect real-world mobile usage, comprising 201 tasks across 20 applications, while maintaining the same level of reproducible evaluation as AndroidWorld. The difficulty of MobileWorld is twofold. First, it emphasizes long-horizon tasks with cross-application interactions: MobileWorld requires nearly twice as many task-completion steps on average (27.8 vs. 14.3) and includes far more multi-application tasks (62.2% vs. 9.5%) compared to AndroidWorld. Second, MobileWorld extends beyond standard GUI manipulation by introducing novel task categories, including agent-user interaction and MCP-augmented tasks. To ensure robust evaluation, we provide snapshot-based container environment and precise functional verifications, including backend database inspection and task callback APIs. We further develop a planner-executor agentic framework with extended action spaces to support user interactions and MCP calls. Our results reveal a sharp performance drop compared to AndroidWorld, with the best agentic framework and end-to-end model achieving 51.7% and 20.9% success rates, respectively. Our analysis shows that current models struggle significantly with user interaction and MCP calls, offering a strategic roadmap toward more robust, next-generation mobile intelligence.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.19432",
+      "pdf_url": "https://arxiv.org/pdf/2512.19432",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.19432",
+      "scraped_at": "2025-12-24T01:46:54.727159"
+    },
+    "scraped_date": "2025-12-24"
+  },
+  {
+    "title": "Does It Tie Out? Towards Autonomous Legal Agents in Venture Capital",
+    "paper_url": "https://huggingface.co/papers/2512.18658",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Does It Tie Out? Towards Autonomous Legal Agents in Venture Capital",
+      "abstract": "Most LLMs today are powerful at language but weak at worlds: they generate fluent outputs without maintaining a consistent, verifiable model of reality. As a result, many AI applications plateau at demos or copilots and fail in complex, high-stakes workflows. This paper shows that progress requires shifting from ad-hoc reasoning to explicit, evidence-grounded world models. Cap table tie-out exposes this gap—and demonstrates how closing it enables genuinely autonomous systems.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.18658",
+      "pdf_url": "https://arxiv.org/pdf/2512.18658",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.18658",
+      "scraped_at": "2025-12-24T01:46:56.999396"
+    },
+    "scraped_date": "2025-12-24"
+  },
+  {
+    "title": "Real2Edit2Real: Generating Robotic Demonstrations via a 3D Control Interface",
+    "paper_url": "https://huggingface.co/papers/2512.19402",
+    "authors": [
+      "Liliang Chen",
+      "Shengcong Chen",
+      "Di Chen",
+      "Hongwei Fan",
+      "Yujie Zhao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Real2Edit2Real: Generating Robotic Demonstrations via a 3D Control Interface",
+      "abstract": "Paper: https://arxiv.org/abs/2512.19402 Project Page: https://real2edit2real.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.19402",
+      "pdf_url": "https://arxiv.org/pdf/2512.19402",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.19402",
+      "scraped_at": "2025-12-24T01:46:59.224433"
+    },
+    "scraped_date": "2025-12-24"
+  },
+  {
+    "title": "CASA: Cross-Attention via Self-Attention for Efficient Vision-Language Fusion",
+    "paper_url": "https://huggingface.co/papers/2512.19535",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "CASA: Cross-Attention via Self-Attention for Efficient Vision-Language Fusion",
+      "abstract": "Code: https://github.com/kyutai-labs/casa",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.19535",
+      "pdf_url": "https://arxiv.org/pdf/2512.19535",
+      "github_links": [
+        "https://github.com/kyutai-labs/casa"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.19535",
+      "scraped_at": "2025-12-24T01:47:01.059156"
+    },
+    "scraped_date": "2025-12-24"
+  },
+  {
+    "title": "Name That Part: 3D Part Segmentation and Naming",
+    "paper_url": "https://huggingface.co/papers/2512.18003",
+    "authors": [
+      "Alan Yuille",
+      "Anand Bhattad",
+      "Ankit Vaidya",
+      "Prakhar Kaushik",
+      "Soumava Paul"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Name That Part: 3D Part Segmentation and Naming",
+      "abstract": "We address semantic 3D part segmentation: decomposing objects into parts with meaningful names. While datasets exist with part annotations, their definitions are inconsistent across datasets, limiting robust training. Previous methods produce unlabeled decompositions or retrieve single parts without complete shape annotations. We propose ALIGN-Parts, which formulates part naming as a direct set alignment task. Our method decomposes shapes into partlets - implicit 3D part representations - matched to part descriptions via bipartite assignment. We combine geometric cues from 3D part fields, appearance from multi-view vision features, and semantic knowledge from language-model-generated affordance descriptions. Text-alignment loss ensures partlets share embedding space with text, enabling a theoretically open-vocabulary matching setup, given sufficient data. Our efficient and novel, one-shot, 3D part segmentation and naming method finds applications in several downstream tasks, including serving as a scalable annotation engine. As our model supports zero-shot matching to arbitrary descriptions and confidence-calibrated predictions for known categories, with human verification, we create a unified ontology that aligns PartNet, 3DCoMPaT++, and Find3D, consisting of 1,794 unique 3D parts. We also show examples from our newly created Tex-Parts dataset. We also introduce 2 novel metrics appropriate for the named 3D part segmentation task.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.18003",
+      "pdf_url": "https://arxiv.org/pdf/2512.18003",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.18003",
+      "scraped_at": "2025-12-24T01:47:02.926590"
+    },
+    "scraped_date": "2025-12-24"
+  },
+  {
+    "title": "MatSpray: Fusing 2D Material World Knowledge on 3D Geometry",
+    "paper_url": "https://huggingface.co/papers/2512.18314",
+    "authors": [],
+    "stars": "15",
+    "details": {
+      "title": "MatSpray: Fusing 2D Material World Knowledge on 3D Geometry",
+      "abstract": "🌐 https://matspray.jdihlmann.com/ 📃 https://arxiv.org/abs/2512.18314 💾 https://github.com/cgtuebingen/MatSpray",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.18314",
+      "pdf_url": "https://arxiv.org/pdf/2512.18314",
+      "github_links": [
+        "https://github.com/cgtuebingen/MatSpray"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.18314",
+      "scraped_at": "2025-12-24T01:47:04.779920"
+    },
+    "scraped_date": "2025-12-24"
+  },
+  {
+    "title": "Understanding Syllogistic Reasoning in LLMs from Formal and Natural Language Perspectives",
+    "paper_url": "https://huggingface.co/papers/2512.12620",
+    "authors": [
+      "Sujata Ghosh",
+      "Saptarshi Sahoo",
+      "Aheli Poddar"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Understanding Syllogistic Reasoning in LLMs from Formal and Natural Language Perspectives",
+      "abstract": "arXiv lens breakdown of this paper 👉 https://arxivlens.com/PaperView/Details/understanding-syllogistic-reasoning-in-llms-from-formal-and-natural-language-perspectives-822-84433a31 Executive Summary Detailed Breakdown Practical Applications",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.12620",
+      "pdf_url": "https://arxiv.org/pdf/2512.12620",
+      "github_links": [
+        "https://github.com/XAheli/Logic-in-LLMs"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.12620",
+      "scraped_at": "2025-12-24T01:47:06.655524"
+    },
+    "scraped_date": "2025-12-24"
+  },
+  {
+    "title": "Over++: Generative Video Compositing for Layer Interaction Effects",
+    "paper_url": "https://huggingface.co/papers/2512.19661",
+    "authors": [
+      "Roni Sengupta",
+      "Cary Phillips",
+      "Jun Myeong Choi",
+      "Jiaye Wu",
+      "Luchao Qi"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Over++: Generative Video Compositing for Layer Interaction Effects",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.19661",
+      "pdf_url": "https://arxiv.org/pdf/2512.19661",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.19661",
+      "scraped_at": "2025-12-24T01:47:08.509366"
+    },
+    "scraped_date": "2025-12-24"
+  },
+  {
+    "title": "Brain-Grounded Axes for Reading and Steering LLM States",
+    "paper_url": "https://huggingface.co/papers/2512.19399",
+    "authors": [
+      "Sandro Andric"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Brain-Grounded Axes for Reading and Steering LLM States",
+      "abstract": "These research supports a new interface: neurophysiology-grounded axes provide interpretable and controllable handles for LLM behavior.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.19399",
+      "pdf_url": "https://arxiv.org/pdf/2512.19399",
+      "github_links": [
+        "https://github.com/sandroandric/Brain-Grounded-Axes-for-Reading-and-Steering-LLM-States"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.19399",
+      "scraped_at": "2025-12-24T01:47:10.322980"
+    },
+    "scraped_date": "2025-12-24"
+  },
+  {
+    "title": "SecureCode v2.0: A Production-Grade Dataset for Training Security-Aware Code Generation Models",
+    "paper_url": "https://huggingface.co/papers/2512.18542",
+    "authors": [
+      "Scott Thornton"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "SecureCode v2.0: A Production-Grade Dataset for Training Security-Aware Code Generation Models",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.18542",
+      "pdf_url": "https://arxiv.org/pdf/2512.18542",
+      "github_links": [
+        "https://github.com/scthornton/securecode-v2"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.18542",
+      "scraped_at": "2025-12-24T01:47:12.113503"
+    },
+    "scraped_date": "2025-12-24"
   }
 ]
