@@ -14500,5 +14500,343 @@
       "scraped_at": "2025-12-25T01:49:01.531230"
     },
     "scraped_date": "2025-12-25"
+  },
+  {
+    "title": "TurboDiffusion: Accelerating Video Diffusion Models by 100-200 Times",
+    "paper_url": "https://huggingface.co/papers/2512.16093",
+    "authors": [],
+    "stars": "1.96k",
+    "details": {
+      "title": "TurboDiffusion: Accelerating Video Diffusion Models by 100-200 Times",
+      "abstract": "TurboDiffusion : 100–200× acceleration in video generation on a single RTX 5090. A high-quality 5-second video can be generated in just 1.9 seconds . Efficient inference code, as well as model parameters (checkpoints) for TurboWan2.2/2.1 for Text-to-Video and Image-to-Video generation, have been open-sourced for one-click generation. The core techniques are: SageAttention + Sparse-Linear Attention (SLA) + rCM + W8A8. Github: https://github.com/thu-ml/TurboDiffusion Technical Report: https://jt-zhang.github.io/files/TurboDiffusion_Technical_Report.pdf",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.16093",
+      "pdf_url": "https://arxiv.org/pdf/2512.16093",
+      "github_links": [
+        "https://github.com/thu-ml/SageAttention",
+        "https://github.com/thu-ml/SLA",
+        "https://github.com/thu-ml/TurboDiffusion",
+        "https://github.com/NVlabs/rcm"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.16093",
+      "scraped_at": "2025-12-26T01:47:41.832482"
+    },
+    "scraped_date": "2025-12-26"
+  },
+  {
+    "title": "Learning to Reason in 4D: Dynamic Spatial Understanding for Vision Language Models",
+    "paper_url": "https://huggingface.co/papers/2512.20557",
+    "authors": [],
+    "stars": "28",
+    "details": {
+      "title": "Learning to Reason in 4D: Dynamic Spatial Understanding for Vision Language Models",
+      "abstract": "DSR Suite delivers scalable 4D training/evaluation from real-world videos and a lightweight GSM module that injects targeted geometric priors into VLMs, markedly boosting dynamic spatial reasoning while preserving general video understanding. Key Findings: Automated pipeline converts unconstrained real videos into DSR-focused multi-choice QA, leveraging camera poses, local point clouds, object masks/poses, and 3D trajectories to build DSR-Train and the human-refined DSR-Bench. GSM integrates geometry via two stacked Q-Formers: one compresses question semantics; the other selects relevant 4D priors to form compact geometric tokens, reducing noise to the LM. Strong benchmark gains: Qwen2.5-VL-7B + GSM trained on DSR-Train achieves 58.9% on DSR-Bench, outperforming open/closed-source baselines (23.5%–38.4%), while maintaining performance on general video benchmarks. Better downstream agency: the trained model improves success on dynamic-agent tasks (e.g., MineDojo), excelling at interactions, combat, and resource acquisition in Minecraft.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.20557",
+      "pdf_url": "https://arxiv.org/pdf/2512.20557",
+      "github_links": [
+        "https://github.com/TencentARC/DSR_Suite"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.20557",
+      "scraped_at": "2025-12-26T01:47:43.752792"
+    },
+    "scraped_date": "2025-12-26"
+  },
+  {
+    "title": "DreaMontage: Arbitrary Frame-Guided One-Shot Video Generation",
+    "paper_url": "https://huggingface.co/papers/2512.21252",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DreaMontage: Arbitrary Frame-Guided One-Shot Video Generation",
+      "abstract": "In this paper, we introduce DreaMontage, a comprehensive framework designed for arbitrary frame-guided generation, capable of synthesizing seamless, expressive, and long-duration one-shot videos from diverse user-provided inputs. To achieve this, we address the challenge through three primary dimensions. Project Page: https://dreamontage.github.io/DreaMontage/",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.21252",
+      "pdf_url": "https://arxiv.org/pdf/2512.21252",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.21252",
+      "scraped_at": "2025-12-26T01:47:45.692032"
+    },
+    "scraped_date": "2025-12-26"
+  },
+  {
+    "title": "T2AV-Compass: Towards Unified Evaluation for Text-to-Audio-Video Generation",
+    "paper_url": "https://huggingface.co/papers/2512.21094",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "T2AV-Compass: Towards Unified Evaluation for Text-to-Audio-Video Generation",
+      "abstract": "Text-to-Audio-Video (T2AV) generation aims to synthesize temporally coherent video and semantically synchronized audio from natural language, yet its evaluation remains fragmented, often relying on unimodal metrics or narrowly scoped benchmarks that fail to capture cross-modal alignment, instruction following, and perceptual realism under complex prompts. To address this limitation, we present T2AV-Compass, a unified benchmark for comprehensive evaluation of T2AV systems, consisting of 500 diverse and complex prompts constructed via a taxonomy-driven pipeline to ensure semantic richness and physical plausibility. Besides, T2AV-Compass introduces a dual-level evaluation framework that integrates objective signal-level metrics for video quality, audio quality, and cross-modal alignment with a subjective MLLM-as-a-Judge protocol for instruction following and realism assessment.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.21094",
+      "pdf_url": "https://arxiv.org/pdf/2512.21094",
+      "github_links": [
+        "https://github.com/NJU-LINK/T2AV-Compass/"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.21094",
+      "scraped_at": "2025-12-26T01:47:47.669091"
+    },
+    "scraped_date": "2025-12-26"
+  },
+  {
+    "title": "Beyond Memorization: A Multi-Modal Ordinal Regression Benchmark to Expose Popularity Bias in Vision-Language Models",
+    "paper_url": "https://huggingface.co/papers/2512.21337",
+    "authors": [
+      "Yu-Lun Liu",
+      "He Syu",
+      "Chia-Jui Chang",
+      "Ting-Lin Wu",
+      "Li-Zhong Szu-Tu"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "Beyond Memorization: A Multi-Modal Ordinal Regression Benchmark to Expose Popularity Bias in Vision-Language Models",
+      "abstract": "We expose a significant popularity bias in state-of-the-art vision-language models (VLMs), which achieve up to 34% higher accuracy on famous buildings compared to ordinary ones, indicating a reliance on memorization over generalizable understanding. To systematically investigate this, we introduce the largest open benchmark for this task: the YearGuessr dataset, a collection of 55,546 building images with multi-modal attributes from 157 countries, annotated with continuous ordinal labels of their construction year (1001-2024), GPS data, and page-view counts as a proxy for popularity. Using this dataset, we frame the construction year prediction task as ordinal regression and introduce popularity-aware interval accuracy metrics to quantify this bias. Our resulting benchmark of 30+ models, including our YearCLIP model, confirms that VLMs excel on popular, memorized items but struggle significantly with unrecognized subjects, exposing a critical flaw in their reasoning capabilities. Project page: https://sytwu.github.io/BeyondMemo/",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.21337",
+      "pdf_url": "https://arxiv.org/pdf/2512.21337",
+      "github_links": [
+        "https://github.com/Sytwu/BeyondMemo"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.21337",
+      "scraped_at": "2025-12-26T01:47:49.523545"
+    },
+    "scraped_date": "2025-12-26"
+  },
+  {
+    "title": "HiStream: Efficient High-Resolution Video Generation via Redundancy-Eliminated Streaming",
+    "paper_url": "https://huggingface.co/papers/2512.21338",
+    "authors": [],
+    "stars": "21",
+    "details": {
+      "title": "HiStream: Efficient High-Resolution Video Generation via Redundancy-Eliminated Streaming",
+      "abstract": "HiStream is an efficient autoregressive framework for high-resolution video generation that removes the quadratic inference bottleneck of diffusion models by reducing spatial, temporal, and timestep redundancy. It achieves state-of-the-art quality with up to 76× speedup at 1080p, and up to 107× acceleration with HiStream+, making high-resolution video generation practical and scalable. Project Page: http://haonanqiu.com/projects/HiStream.html",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.21338",
+      "pdf_url": "https://arxiv.org/pdf/2512.21338",
+      "github_links": [
+        "https://github.com/arthur-qiu/HiStream"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.21338",
+      "scraped_at": "2025-12-26T01:47:51.520745"
+    },
+    "scraped_date": "2025-12-26"
+  },
+  {
+    "title": "Nemotron 3 Nano: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning",
+    "paper_url": "https://huggingface.co/papers/2512.20848",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Nemotron 3 Nano: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning",
+      "abstract": "Nemotron 3 Nano is a 30B mixture-of-experts hybrid Mamba-Transformer enabling agentic reasoning with 1M context, outperforming models in throughput and accuracy while using only a fraction of parameters per pass.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.20848",
+      "pdf_url": "https://arxiv.org/pdf/2512.20848",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.20848",
+      "scraped_at": "2025-12-26T01:47:53.427639"
+    },
+    "scraped_date": "2025-12-26"
+  },
+  {
+    "title": "NVIDIA Nemotron 3: Efficient and Open Intelligence",
+    "paper_url": "https://huggingface.co/papers/2512.20856",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "NVIDIA Nemotron 3: Efficient and Open Intelligence",
+      "abstract": "Nemotron 3 introduces Mixture-of-Experts Mamba-Transformer with 1M context, LatentMoE, MTP layers, and multi-environment RL for agentic reasoning and tool use, with open weights.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.20856",
+      "pdf_url": "https://arxiv.org/pdf/2512.20856",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.20856",
+      "scraped_at": "2025-12-26T01:47:55.389540"
+    },
+    "scraped_date": "2025-12-26"
+  },
+  {
+    "title": "TokSuite: Measuring the Impact of Tokenizer Choice on Language Model Behavior",
+    "paper_url": "https://huggingface.co/papers/2512.20757",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "TokSuite: Measuring the Impact of Tokenizer Choice on Language Model Behavior",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.20757",
+      "pdf_url": "https://arxiv.org/pdf/2512.20757",
+      "github_links": [
+        "https://github.com/r-three/Tokenizers"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.20757",
+      "scraped_at": "2025-12-26T01:47:57.344257"
+    },
+    "scraped_date": "2025-12-26"
+  },
+  {
+    "title": "Learning from Next-Frame Prediction: Autoregressive Video Modeling Encodes Effective Representations",
+    "paper_url": "https://huggingface.co/papers/2512.21004",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "Learning from Next-Frame Prediction: Autoregressive Video Modeling Encodes Effective Representations",
+      "abstract": "Code: https://github.com/Singularity0104/NExT-Vid",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.21004",
+      "pdf_url": "https://arxiv.org/pdf/2512.21004",
+      "github_links": [
+        "https://github.com/Singularity0104/NExT-Vid"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.21004",
+      "scraped_at": "2025-12-26T01:47:59.240235"
+    },
+    "scraped_date": "2025-12-26"
+  },
+  {
+    "title": "From Word to World: Can Large Language Models be Implicit Text-based World Models?",
+    "paper_url": "https://huggingface.co/papers/2512.18832",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "From Word to World: Can Large Language Models be Implicit Text-based World Models?",
+      "abstract": "Explore the foundation of text-based world model",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.18832",
+      "pdf_url": "https://arxiv.org/pdf/2512.18832",
+      "github_links": [
+        "https://github.com/X1AOX1A/Word2World"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.18832",
+      "scraped_at": "2025-12-26T01:48:01.140842"
+    },
+    "scraped_date": "2025-12-26"
+  },
+  {
+    "title": "DramaBench: A Six-Dimensional Evaluation Framework for Drama Script Continuation",
+    "paper_url": "https://huggingface.co/papers/2512.19012",
+    "authors": [
+      "Yunqi Huang",
+      "jackylin2012",
+      "FutureMa"
+    ],
+    "stars": "44",
+    "details": {
+      "title": "DramaBench: A Six-Dimensional Evaluation Framework for Drama Script Continuation",
+      "abstract": "Hi everyone! I'm Shijian, the first author of DramaBench. We're excited to share our work on evaluating creative writing, specifically drama script continuation. 🎭 Why DramaBench? Traditional \"LLM-as-a-Judge\" metrics often suffer from subjectivity and bias. We introduce a Structured Labeling + Statistical Analysis framework that evaluates scripts across 6 independent dimensions: Format, Narrative Efficiency, Character Consistency, Emotional Depth, Logic Consistency, and Conflict Handling. 📊 Key Highlights: Scale: 1,103 professionally structured scripts with 8,824 evaluations across 8 SOTA models. Methodology: Instead of direct scoring, we use LLMs as structured data annotators to extract categorical labels (e.g., identifying \"driver beats\" vs \"static beats\"), which are then converted into objective metrics. This ensures high reproducibility and interpretability. 🚀 Key Findings: GPT-5.2 leads the pack: It demonstrates the strongest overall performance, ranking 1st in 3 out of 6 dimensions (Narrative, Character, and Logic), establishing itself as the most well-rounded model for creative continuation. Creative Specialization: While GPT-5.2 dominates in robustness, other models show unique strengths—Qwen3-Max specializes in Emotional Depth (92.8% arc rate), and Gemini-3-Pro excels in Conflict Handling. Actionable Feedback: Our framework identifies over 10,850 specific errors, providing a roadmap for future model fine-tuning in creative domains. We hope DramaBench establishes a more rigorous standard for evaluating AI’s creative storytelling capabilities. We’d love to hear your thoughts! 🔗 https://github.com/IIIIQIIII/DramaBench",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.19012",
+      "pdf_url": "https://arxiv.org/pdf/2512.19012",
+      "github_links": [
+        "https://github.com/IIIIQIIII/DramaBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.19012",
+      "scraped_at": "2025-12-26T01:48:03.037391"
+    },
+    "scraped_date": "2025-12-26"
+  },
+  {
+    "title": "Streaming Video Instruction Tuning",
+    "paper_url": "https://huggingface.co/papers/2512.21334",
+    "authors": [
+      "Kaiyang Zhou",
+      "Xing Sun",
+      "Mengdan Zhang",
+      "Peixian Chen",
+      "Jiaer Xia"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Streaming Video Instruction Tuning",
+      "abstract": "We present Streamo, a real-time streaming video LLM that serves as a general-purpose interactive assistant. Unlike existing online video models that focus narrowly on question answering or captioning, Streamo performs a broad spectrum of streaming video tasks, including real-time narration, action understanding, event captioning, temporal event grounding, and time-sensitive question answering. To develop such versatility, we construct Streamo-Instruct-465K, a large-scale instruction-following dataset tailored for streaming video understanding. The dataset covers diverse temporal contexts and multi-task supervision, enabling unified training across heterogeneous streaming tasks. After training end-to-end on the instruction-following dataset through a streamlined pipeline, Streamo exhibits strong temporal reasoning, responsive interaction, and broad generalization across a variety of streaming benchmarks. Extensive experiments show that Streamo bridges the gap between offline video perception models and real-time multimodal assistants, making a step toward unified, intelligent video understanding in continuous video streams.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.21334",
+      "pdf_url": "https://arxiv.org/pdf/2512.21334",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.21334",
+      "scraped_at": "2025-12-26T01:48:04.853670"
+    },
+    "scraped_date": "2025-12-26"
+  },
+  {
+    "title": "Multi-hop Reasoning via Early Knowledge Alignment",
+    "paper_url": "https://huggingface.co/papers/2512.20144",
+    "authors": [
+      "Xuanjing Huang",
+      "Qi Luo",
+      "Bo Wang",
+      "Shicheng Fang",
+      "Yuxin Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Multi-hop Reasoning via Early Knowledge Alignment",
+      "abstract": "Multi-hop Reasoning via Early Knowledge Alignment",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.20144",
+      "pdf_url": "https://arxiv.org/pdf/2512.20144",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.20144",
+      "scraped_at": "2025-12-26T01:48:06.714545"
+    },
+    "scraped_date": "2025-12-26"
+  },
+  {
+    "title": "SWE-EVO: Benchmarking Coding Agents in Long-Horizon Software Evolution Scenarios",
+    "paper_url": "https://huggingface.co/papers/2512.18470",
+    "authors": [
+      "Nghi D. Q. Bui",
+      "Huy Phan Nhat",
+      "Dung Nguyen Manh",
+      "Tue Le",
+      "Minh V. T. Thai"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SWE-EVO: Benchmarking Coding Agents in Long-Horizon Software Evolution Scenarios",
+      "abstract": "Existing benchmarks for AI coding agents focus on isolated, single-issue tasks such as fixing a bug or implementing a small feature. However, real-world software engineering is fundamentally a long-horizon endeavor: developers must interpret high-level requirements, plan coordinated changes across many files, and evolve codebases over multiple iterations while preserving existing functionality. We introduce SWE-EVO, a benchmark that evaluates agents on this long-horizon software evolution challenge. Constructed from release notes and version histories of seven mature open-source Python projects, Tool comprises 48 evolution tasks that require agents to implement multi-step modifications spanning an average of 21 files, validated against comprehensive test suites averaging 874 tests per instance. Experiments with state-of-the-art models reveal a striking capability gap: even GPT-5 with OpenHands achieves only a 21 percent resolution rate on Tool, compared to 65 percent on the single-issue SWE-Bench Verified. This demonstrates that current agents struggle with sustained, multi-file reasoning. We also propose Fix Rate, a fine-grained metric that captures partial progress toward solving these complex, long-horizon tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.18470",
+      "pdf_url": "https://arxiv.org/pdf/2512.18470",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.18470",
+      "scraped_at": "2025-12-26T01:48:08.676439"
+    },
+    "scraped_date": "2025-12-26"
+  },
+  {
+    "title": "PhononBench:A Large-Scale Phonon-Based Benchmark for Dynamical Stability in Crystal Generation",
+    "paper_url": "https://huggingface.co/papers/2512.21227",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PhononBench:A Large-Scale Phonon-Based Benchmark for Dynamical Stability in Crystal Generation",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.21227",
+      "pdf_url": "https://arxiv.org/pdf/2512.21227",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.21227",
+      "scraped_at": "2025-12-26T01:48:10.461752"
+    },
+    "scraped_date": "2025-12-26"
+  },
+  {
+    "title": "LLM Swiss Round: Aggregating Multi-Benchmark Performance via Competitive Swiss-System Dynamics",
+    "paper_url": "https://huggingface.co/papers/2512.21010",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LLM Swiss Round: Aggregating Multi-Benchmark Performance via Competitive Swiss-System Dynamics",
+      "abstract": "Proposes Competitive Swiss-System Dynamics to rank LLMs across multiple benchmarks using dynamic pairings, Monte Carlo Estimated Win Score, and failure sensitivity analysis for risk-aware evaluation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.21010",
+      "pdf_url": "https://arxiv.org/pdf/2512.21010",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.21010",
+      "scraped_at": "2025-12-26T01:48:12.301846"
+    },
+    "scraped_date": "2025-12-26"
   }
 ]

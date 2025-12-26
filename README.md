@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-18-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-655+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-17-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-672+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">18</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">101</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">704</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">655+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">17</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">118</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">721</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">672+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** December 25, 2025
+**Last Updated:** December 26, 2025
 
 ---
 
@@ -119,230 +119,217 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. SemanticGen: Video Generation in Semantic Space</b> ⭐ 0</summary>
+<summary><b>1. TurboDiffusion: Accelerating Video Diffusion Models by 100-200 Times</b> ⭐ 1.96k</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.20619) • [📄 arXiv](https://arxiv.org/abs/2512.20619) • [📥 PDF](https://arxiv.org/pdf/2512.20619)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.16093) • [📄 arXiv](https://arxiv.org/abs/2512.16093) • [📥 PDF](https://arxiv.org/pdf/2512.16093)
 
-> Project Page: https://jianhongbai.github.io/SemanticGen/
+**💻 Code:** [⭐ Code](https://github.com/thu-ml/SageAttention) • [⭐ Code](https://github.com/thu-ml/SLA) • [⭐ Code](https://github.com/thu-ml/TurboDiffusion)
+
+> TurboDiffusion : 100–200× acceleration in video generation on a single RTX 5090. A high-quality 5-second video can be generated in just 1.9 seconds . Efficient inference code, as well as model parameters (checkpoints) for TurboWan2.2/2.1 for Text-...
 
 </details>
 
 <details>
-<summary><b>2. Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies</b> ⭐ 22</summary>
+<summary><b>2. Learning to Reason in 4D: Dynamic Spatial Understanding for Vision Language Models</b> ⭐ 28</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.19673) • [📄 arXiv](https://arxiv.org/abs/2512.19673) • [📥 PDF](https://arxiv.org/pdf/2512.19673)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.20557) • [📄 arXiv](https://arxiv.org/abs/2512.20557) • [📥 PDF](https://arxiv.org/pdf/2512.20557)
 
-**💻 Code:** [⭐ Code](https://github.com/Trae1ounG/BuPO)
+**💻 Code:** [⭐ Code](https://github.com/TencentARC/DSR_Suite)
 
-> Bottom-up Policy Optimization (BuPO) provides a novel framework to decompose LLM policies into internal layer and modular policies, reveals distinct reasoning patterns across different model architectures, and introduces a bottom-up optimization a...
+> DSR Suite delivers scalable 4D training/evaluation from real-world videos and a lightweight GSM module that injects targeted geometric priors into VLMs, markedly boosting dynamic spatial reasoning while preserving general video understanding. Key ...
 
 </details>
 
 <details>
-<summary><b>3. LongVideoAgent: Multi-Agent Reasoning with Long Videos</b> ⭐ 0</summary>
+<summary><b>3. DreaMontage: Arbitrary Frame-Guided One-Shot Video Generation</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Renjie Pi, Yue Ma, Jiaqi Tang, Ziyi Liu, Runtao Liu
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.21252) • [📄 arXiv](https://arxiv.org/abs/2512.21252) • [📥 PDF](https://arxiv.org/pdf/2512.21252)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.20618) • [📄 arXiv](https://arxiv.org/abs/2512.20618) • [📥 PDF](https://arxiv.org/pdf/2512.20618)
-
-> Recent advances in multimodal LLMs and systems that use tools for long-video QA point to the promise of reasoning over hour-long episodes. However, many methods still compress content into lossy summaries or rely on limited toolsets, weakening tem...
+> In this paper, we introduce DreaMontage, a comprehensive framework designed for arbitrary frame-guided generation, capable of synthesizing seamless, expressive, and long-duration one-shot videos from diverse user-provided inputs. To achieve this, ...
 
 </details>
 
 <details>
-<summary><b>4. SpatialTree: How Spatial Abilities Branch Out in MLLMs</b> ⭐ 0</summary>
+<summary><b>4. T2AV-Compass: Towards Unified Evaluation for Text-to-Audio-Video Generation</b> ⭐ 5</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.20617) • [📄 arXiv](https://arxiv.org/abs/2512.20617) • [📥 PDF](https://arxiv.org/pdf/2512.20617)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.21094) • [📄 arXiv](https://arxiv.org/abs/2512.21094) • [📥 PDF](https://arxiv.org/pdf/2512.21094)
 
-> Introducing SpatialTree, a four-level hierarchy for spatial abilities in multimodal LLMs, benchmark 27 sub-abilities, reveal transfer patterns, and propose auto-think to improve reinforcement-learning performance.
+**💻 Code:** [⭐ Code](https://github.com/NJU-LINK/T2AV-Compass/)
+
+> Text-to-Audio-Video (T2AV) generation aims to synthesize temporally coherent video and semantically synchronized audio from natural language, yet its evaluation remains fragmented, often relying on unimodal metrics or narrowly scoped benchmarks th...
 
 </details>
 
 <details>
-<summary><b>5. MemEvolve: Meta-Evolution of Agent Memory Systems</b> ⭐ 0</summary>
+<summary><b>5. Beyond Memorization: A Multi-Modal Ordinal Regression Benchmark to Expose Popularity Bias in Vision-Language Models</b> ⭐ 3</summary>
 
 <br/>
 
-**👥 Authors:** Junhao Wang, Zhenhong Zhou, Chong Zhan, Haotian Ren, Guibin Zhang
+**👥 Authors:** Yu-Lun Liu, He Syu, Chia-Jui Chang, Ting-Lin Wu, Li-Zhong Szu-Tu
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.18746) • [📄 arXiv](https://arxiv.org/abs/2512.18746) • [📥 PDF](https://arxiv.org/pdf/2512.18746)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.21337) • [📄 arXiv](https://arxiv.org/abs/2512.21337) • [📥 PDF](https://arxiv.org/pdf/2512.21337)
 
-> Self-evolving memory systems are unprecedentedly reshaping the evolutionary paradigm of large language model (LLM)-based agents. Prior work has predominantly relied on manually engineered memory architectures to store trajectories, distill experie...
+**💻 Code:** [⭐ Code](https://github.com/Sytwu/BeyondMemo)
+
+> We expose a significant popularity bias in state-of-the-art vision-language models (VLMs), which achieve up to 34% higher accuracy on famous buildings compared to ordinary ones, indicating a reliance on memorization over generalizable understandin...
 
 </details>
 
 <details>
-<summary><b>6. Step-DeepResearch Technical Report</b> ⭐ 0</summary>
+<summary><b>6. HiStream: Efficient High-Resolution Video Generation via Redundancy-Eliminated Streaming</b> ⭐ 21</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.20491) • [📄 arXiv](https://arxiv.org/abs/2512.20491) • [📥 PDF](https://arxiv.org/pdf/2512.20491)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.21338) • [📄 arXiv](https://arxiv.org/abs/2512.21338) • [📥 PDF](https://arxiv.org/pdf/2512.21338)
 
-> As LLMs shift toward autonomous agents, Deep Research has emerged as a pivotal metric. However, existing academic benchmarks like BrowseComp often fail to meet real-world demands for open-ended research, which requires robust skills in intent reco...
+**💻 Code:** [⭐ Code](https://github.com/arthur-qiu/HiStream)
+
+> HiStream is an efficient autoregressive framework for high-resolution video generation that removes the quadratic inference bottleneck of diffusion models by reducing spatial, temporal, and timestep redundancy. It achieves state-of-the-art quality...
 
 </details>
 
 <details>
-<summary><b>7. Reinforcement Learning for Self-Improving Agent with Skill Library</b> ⭐ 0</summary>
+<summary><b>7. Nemotron 3 Nano: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Soumya Smruti Mishra, Yijun Tian, Yawei Wang, Qiaojing Yan, Jiongxiao Wang
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.20848) • [📄 arXiv](https://arxiv.org/abs/2512.20848) • [📥 PDF](https://arxiv.org/pdf/2512.20848)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.17102) • [📄 arXiv](https://arxiv.org/abs/2512.17102) • [📥 PDF](https://arxiv.org/pdf/2512.17102)
-
-> Apply RL to Skill Library Agent.
+> Nemotron 3 Nano is a 30B mixture-of-experts hybrid Mamba-Transformer enabling agentic reasoning with 1M context, outperforming models in throughput and accuracy while using only a fraction of parameters per pass.
 
 </details>
 
 <details>
-<summary><b>8. SAM Audio: Segment Anything in Audio</b> ⭐ 2.49k</summary>
+<summary><b>8. NVIDIA Nemotron 3: Efficient and Open Intelligence</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.18099) • [📄 arXiv](https://arxiv.org/abs/2512.18099) • [📥 PDF](https://arxiv.org/pdf/2512.18099)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.20856) • [📄 arXiv](https://arxiv.org/abs/2512.20856) • [📥 PDF](https://arxiv.org/pdf/2512.20856)
 
-**💻 Code:** [⭐ Code](https://github.com/facebookresearch/sam-audio)
+> Nemotron 3 introduces Mixture-of-Experts Mamba-Transformer with 1M context, LatentMoE, MTP layers, and multi-environment RL for agentic reasoning and tool use, with open weights.
+
+</details>
+
+<details>
+<summary><b>9. TokSuite: Measuring the Impact of Tokenizer Choice on Language Model Behavior</b> ⭐ 4</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.20757) • [📄 arXiv](https://arxiv.org/abs/2512.20757) • [📥 PDF](https://arxiv.org/pdf/2512.20757)
+
+**💻 Code:** [⭐ Code](https://github.com/r-three/Tokenizers)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>9. INTELLECT-3: Technical Report</b> ⭐ 0</summary>
+<summary><b>10. Learning from Next-Frame Prediction: Autoregressive Video Modeling Encodes Effective Representations</b> ⭐ 7</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.16144) • [📄 arXiv](https://arxiv.org/abs/2512.16144) • [📥 PDF](https://arxiv.org/pdf/2512.16144)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.21004) • [📄 arXiv](https://arxiv.org/abs/2512.21004) • [📥 PDF](https://arxiv.org/pdf/2512.21004)
 
-> INTELLECT-3: Technical Report
+**💻 Code:** [⭐ Code](https://github.com/Singularity0104/NExT-Vid)
+
+> Code: https://github.com/Singularity0104/NExT-Vid
 
 </details>
 
 <details>
-<summary><b>10. FaithLens: Detecting and Explaining Faithfulness Hallucination</b> ⭐ 11</summary>
+<summary><b>11. From Word to World: Can Large Language Models be Implicit Text-based World Models?</b> ⭐ 6</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.20182) • [📄 arXiv](https://arxiv.org/abs/2512.20182) • [📥 PDF](https://arxiv.org/pdf/2512.20182)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.18832) • [📄 arXiv](https://arxiv.org/abs/2512.18832) • [📥 PDF](https://arxiv.org/pdf/2512.18832)
 
-**💻 Code:** [⭐ Code](https://github.com/S1s-Z/FaithLens)
+**💻 Code:** [⭐ Code](https://github.com/X1AOX1A/Word2World)
 
-> In this paper, we introduce FaithLens, a cost-efficient and effective faithfulness hallucination detection model that can jointly provide binary predictions and corresponding explanations to improve trustworthiness.
+> Explore the foundation of text-based world model
 
 </details>
 
 <details>
-<summary><b>11. Scaling Laws for Code: Every Programming Language Matters</b> ⭐ 0</summary>
+<summary><b>12. DramaBench: A Six-Dimensional Evaluation Framework for Drama Script Continuation</b> ⭐ 44</summary>
 
 <br/>
 
-**👥 Authors:** Aishan Liu, Wei Zhang, Lin Jing, Shawn Guo, Jian Yang
+**👥 Authors:** Yunqi Huang, jackylin2012, FutureMa
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.13472) • [📄 arXiv](https://arxiv.org/abs/2512.13472) • [📥 PDF](https://arxiv.org/pdf/2512.13472)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.19012) • [📄 arXiv](https://arxiv.org/abs/2512.19012) • [📥 PDF](https://arxiv.org/pdf/2512.19012)
 
-> Code large language models (Code LLMs) are powerful but costly to train, with scaling laws predicting performance from model size, data, and compute. However, different programming languages (PLs) have varying impacts during pre-training that sign...
+**💻 Code:** [⭐ Code](https://github.com/IIIIQIIII/DramaBench)
+
+> Hi everyone! I'm Shijian, the first author of DramaBench. We're excited to share our work on evaluating creative writing, specifically drama script continuation. 🎭 Why DramaBench? Traditional "LLM-as-a-Judge" metrics often suffer from subjectivity...
 
 </details>
 
 <details>
-<summary><b>12. QuantiPhy: A Quantitative Benchmark Evaluating Physical Reasoning Abilities of Vision-Language Models</b> ⭐ 0</summary>
+<summary><b>13. Streaming Video Instruction Tuning</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.19526) • [📄 arXiv](https://arxiv.org/abs/2512.19526) • [📥 PDF](https://arxiv.org/pdf/2512.19526)
+**👥 Authors:** Kaiyang Zhou, Xing Sun, Mengdan Zhang, Peixian Chen, Jiaer Xia
 
-> QuantiPhy is the first benchmark that asks vision–language models to do physics with numerical accuracy. Across 3,300+ video–text instances, we show that today’s VLMs often sound plausible but fail quantitatively on physical reasoning tasks—they r...
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.21334) • [📄 arXiv](https://arxiv.org/abs/2512.21334) • [📥 PDF](https://arxiv.org/pdf/2512.21334)
+
+> We present Streamo, a real-time streaming video LLM that serves as a general-purpose interactive assistant. Unlike existing online video models that focus narrowly on question answering or captioning, Streamo performs a broad spectrum of streaming...
 
 </details>
 
 <details>
-<summary><b>13. Simulstream: Open-Source Toolkit for Evaluation and Demonstration of Streaming Speech-to-Text Translation Systems</b> ⭐ 0</summary>
+<summary><b>14. Multi-hop Reasoning via Early Knowledge Alignment</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Luisa Bentivogli, Matteo Negri, Mauro Cettolo, Marco Gaido, spapi
+**👥 Authors:** Xuanjing Huang, Qi Luo, Bo Wang, Shicheng Fang, Yuxin Wang
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.17648) • [📄 arXiv](https://arxiv.org/abs/2512.17648) • [📥 PDF](https://arxiv.org/pdf/2512.17648)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.20144) • [📄 arXiv](https://arxiv.org/abs/2512.20144) • [📥 PDF](https://arxiv.org/pdf/2512.20144)
 
-> Already available on PyPi at https://pypi.org/project/simulstream/
+> Multi-hop Reasoning via Early Knowledge Alignment
 
 </details>
 
 <details>
-<summary><b>14. Active Intelligence in Video Avatars via Closed-loop World Modeling</b> ⭐ 0</summary>
+<summary><b>15. SWE-EVO: Benchmarking Coding Agents in Long-Horizon Software Evolution Scenarios</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Cheng Meng, Ruiqi Wu, Ke Cao, Tianyu Yang, Xuanhua He
+**👥 Authors:** Nghi D. Q. Bui, Huy Phan Nhat, Dung Nguyen Manh, Tue Le, Minh V. T. Thai
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.20615) • [📄 arXiv](https://arxiv.org/abs/2512.20615) • [📥 PDF](https://arxiv.org/pdf/2512.20615)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.18470) • [📄 arXiv](https://arxiv.org/abs/2512.18470) • [📥 PDF](https://arxiv.org/pdf/2512.18470)
 
-> project page: https://xuanhuahe.github.io/ORCA/
+> Existing benchmarks for AI coding agents focus on isolated, single-issue tasks such as fixing a bug or implementing a small feature. However, real-world software engineering is fundamentally a long-horizon endeavor: developers must interpret high-...
 
 </details>
 
 <details>
-<summary><b>15. Multi-LLM Thematic Analysis with Dual Reliability Metrics: Combining Cohen's Kappa and Semantic Similarity for Qualitative Research Validation</b> ⭐ 0</summary>
+<summary><b>16. PhononBench:A Large-Scale Phonon-Based Benchmark for Dynamical Stability in Crystal Generation</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.20352) • [📄 arXiv](https://arxiv.org/abs/2512.20352) • [📥 PDF](https://arxiv.org/pdf/2512.20352)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.21227) • [📄 arXiv](https://arxiv.org/abs/2512.21227) • [📥 PDF](https://arxiv.org/pdf/2512.21227)
 
-**💻 Code:** [⭐ Code](https://github.com/NileshArnaiya/LLM-Thematic-Analysis-Tool)
-
-> Qualitative research faces a critical reliability challenge: traditional inter-rater agreement methods require multiple human coders, are time-intensive, and often yield moderate consistency. We present a multi-perspective validation framework for...
+> No abstract available.
 
 </details>
 
 <details>
-<summary><b>16. Memory-T1: Reinforcement Learning for Temporal Reasoning in Multi-session Agents</b> ⭐ 0</summary>
+<summary><b>17. LLM Swiss Round: Aggregating Multi-Benchmark Performance via Competitive Swiss-System Dynamics</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Wenyu Huang, Zhaowei Wang, Yifan Xiang, Baojun Wang, Yiming Du
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.21010) • [📄 arXiv](https://arxiv.org/abs/2512.21010) • [📥 PDF](https://arxiv.org/pdf/2512.21010)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.20092) • [📄 arXiv](https://arxiv.org/abs/2512.20092) • [📥 PDF](https://arxiv.org/pdf/2512.20092)
-
-**💻 Code:** [⭐ Code](https://github.com/Elvin-Yiming-Du/Memory-T1/)
-
-> Temporal reasoning over long, multi-session dialogues is a critical capability for conversational agents. However, existing works and our pilot study have shown that as dialogue histories grow in length and accumulate noise, current long-context m...
-
-</details>
-
-<details>
-<summary><b>17. Toxicity Ahead: Forecasting Conversational Derailment on GitHub</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Kostadin Damevski, Preetha Chatterjee, Rahat Rizvi Rahman, Robert Zita, imranraad
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.15031) • [📄 arXiv](https://arxiv.org/abs/2512.15031) • [📥 PDF](https://arxiv.org/pdf/2512.15031)
-
-> Toxic interactions in Open Source Software (OSS) communities reduce contributor engagement and threaten project sustainability. Preventing such toxicity before it emerges requires a clear understanding of how harmful conversations unfold. However,...
-
-</details>
-
-<details>
-<summary><b>18. Learning to Refocus with Video Diffusion Models</b> ⭐ 5</summary>
-
-<br/>
-
-**👥 Authors:** Shumian Xin, Xuaner Zhang, Zhoutong Zhang, SaiKiran Tedla
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.19823) • [📄 arXiv](https://arxiv.org/abs/2512.19823) • [📥 PDF](https://arxiv.org/pdf/2512.19823)
-
-**💻 Code:** [⭐ Code](https://github.com/tedlasai/learn2refocus)
-
-> Learning to Refocus with Video Diffusion Models, SIGGRAPH Asia 2025
+> Proposes Competitive Swiss-System Dynamics to rank LLMs across multiple benchmarks using dynamic pairings, Monte Carlo Estimated Win Score, and failure sensitivity analysis for risk-aware evaluation.
 
 </details>
 
@@ -354,28 +341,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 18 |
-| 📅 Today | [`2025-12-25.json`](data/daily/2025-12-25.json) | 18 |
-| 📆 This Week | [`2025-W51.json`](data/weekly/2025-W51.json) | 101 |
-| 🗓️ This Month | [`2025-12.json`](data/monthly/2025-12.json) | 704 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 17 |
+| 📅 Today | [`2025-12-26.json`](data/daily/2025-12-26.json) | 17 |
+| 📆 This Week | [`2025-W51.json`](data/weekly/2025-W51.json) | 118 |
+| 🗓️ This Month | [`2025-12.json`](data/monthly/2025-12.json) | 721 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2025-12-25 | 18 | [View JSON](data/daily/2025-12-25.json) |
+| 📌 2025-12-26 | 17 | [View JSON](data/daily/2025-12-26.json) |
+| 📄 2025-12-25 | 18 | [View JSON](data/daily/2025-12-25.json) |
 | 📄 2025-12-24 | 23 | [View JSON](data/daily/2025-12-24.json) |
 | 📄 2025-12-23 | 22 | [View JSON](data/daily/2025-12-23.json) |
 | 📄 2025-12-22 | 38 | [View JSON](data/daily/2025-12-22.json) |
 | 📄 2025-12-21 | 38 | [View JSON](data/daily/2025-12-21.json) |
 | 📄 2025-12-20 | 37 | [View JSON](data/daily/2025-12-20.json) |
-| 📄 2025-12-19 | 30 | [View JSON](data/daily/2025-12-19.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2025-W51 | 101 | [View JSON](data/weekly/2025-W51.json) |
+| 📅 2025-W51 | 118 | [View JSON](data/weekly/2025-W51.json) |
 | 📅 2025-W50 | 230 | [View JSON](data/weekly/2025-W50.json) |
 | 📅 2025-W49 | 186 | [View JSON](data/weekly/2025-W49.json) |
 | 📅 2025-W48 | 187 | [View JSON](data/weekly/2025-W48.json) |
@@ -384,7 +371,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2025-12 | 704 | [View JSON](data/monthly/2025-12.json) |
+| 🗓️ 2025-12 | 721 | [View JSON](data/monthly/2025-12.json) |
 
 ---
 
