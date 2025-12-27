@@ -14838,5 +14838,148 @@
       "scraped_at": "2025-12-26T01:48:12.301846"
     },
     "scraped_date": "2025-12-26"
+  },
+  {
+    "title": "Latent Implicit Visual Reasoning",
+    "paper_url": "https://huggingface.co/papers/2512.21218",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Latent Implicit Visual Reasoning",
+      "abstract": "TL;DR: We introduce a new method that improves visual reasoning by allowing models to implicitly learn latent visual representations, without requiring explicit supervision or additional data for these latents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.21218",
+      "pdf_url": "https://arxiv.org/pdf/2512.21218",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.21218",
+      "scraped_at": "2025-12-27T01:45:27.539516"
+    },
+    "scraped_date": "2025-12-27"
+  },
+  {
+    "title": "Emergent temporal abstractions in autoregressive models enable hierarchical reinforcement learning",
+    "paper_url": "https://huggingface.co/papers/2512.20605",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Emergent temporal abstractions in autoregressive models enable hierarchical reinforcement learning",
+      "abstract": "TLDR: This work reveals that autoregressive models inherently learn linearly controllable, temporally abstract action representations within their residual streams, which can be activated and composed to execute long-horizon behaviors. We leverage these emergent abstractions to introduce Internal RL, a method that reinforces semantically meaningful actions inside the residual stream of a sequence model. This enables solving sparse-reward hierarchical tasks that remain intractable for standard token-level approaches like GRPO.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.20605",
+      "pdf_url": "https://arxiv.org/pdf/2512.20605",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.20605",
+      "scraped_at": "2025-12-27T01:45:29.478209"
+    },
+    "scraped_date": "2025-12-27"
+  },
+  {
+    "title": "Spatia: Video Generation with Updatable Spatial Memory",
+    "paper_url": "https://huggingface.co/papers/2512.15716",
+    "authors": [],
+    "stars": "56",
+    "details": {
+      "title": "Spatia: Video Generation with Updatable Spatial Memory",
+      "abstract": "Existing video generation models struggle to maintain long-term spatial and temporal consistency due to the dense, high-dimensional nature of video signals. To overcome this limitation, we propose Spatia, a spatial memory-aware video generation framework that explicitly preserves a 3D scene point cloud as persistent spatial memory. Spatia iteratively generates video clips conditioned on this spatial memory and continuously updates it through visual SLAM. This dynamic-static disentanglement design enhances spatial consistency throughout the generation process while preserving the model's ability to produce realistic dynamic entities. Furthermore, Spatia enables applications such as: Explicit Camera Control 3D-Aware Interactive Editing Long-horizon Scene Exploration",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.15716",
+      "pdf_url": "https://arxiv.org/pdf/2512.15716",
+      "github_links": [
+        "https://github.com/ZhaoJingjing713/Spatia"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.15716",
+      "scraped_at": "2025-12-27T01:45:31.478406"
+    },
+    "scraped_date": "2025-12-27"
+  },
+  {
+    "title": "Schoenfeld's Anatomy of Mathematical Reasoning by Language Models",
+    "paper_url": "https://huggingface.co/papers/2512.19995",
+    "authors": [
+      "Tianyi Zhou",
+      "Soheil Feizi",
+      "Yize Cheng",
+      "Chenrui Fan",
+      "Ming Li"
+    ],
+    "stars": "6",
+    "details": {
+      "title": "Schoenfeld's Anatomy of Mathematical Reasoning by Language Models",
+      "abstract": "We extend a cognitive science-inspired episode annotation framework to an automatic, scalable, sentence-level representation that supports large-scale analysis of reasoning traces and conduct a systematic study of reasoning dynamics across a diverse set of LLMs. Moreover, we demonstrate the practical utility of episode-level representations through downstream case studies on correctness and efficiency, illustrating how reasoning dynamics can be analyzed beyond outcome-based metrics. Key Findings: When reasoning traces are analyzed at the episode level, a functional progression from abstract reasoning to concrete execution, and finally to evaluative control, consistently emerges. Episodes associated with analysis and exploration use more abstract, conceptual language and decrease steadily as reasoning progresses, while execution-oriented episodes dominate the middle of the trace through sustained concrete operations. In contrast, verification-related episodes are characterized by evaluative and meta-level language and increase toward the end of the reasoning process. Comparing reasoning and non-reasoning models, the difference is not merely how many tokens they generate, but how reasoning is structured. Non-reasoning models allocate most of their response trace to execution , with episode transitions largely following a feed-forward pattern toward implementation. In contrast, reasoning models distribute effort across analysis, exploration, execution, and verification, and exhibit frequent iterative Explore-Monitor/Verify loops. Through our correctness-oriented case study, we find that exploration reflects uncertainty and serves as a critical branching point : correct solutions more often route exploration into monitoring or re-analysis, whereas incorrect solutions tend to continue execution or terminate prematurely after exploration. Through our efficiency-oriented case study, we find that different efficient reasoning methods selectively suppress evaluation-oriented episodes and feedback loops, leading to varying degrees of divergence from the reasoning patterns of the base model. Episode-level analysis thus reveals which episodes can be removed to gain efficiency, beyond token-level pruning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.19995",
+      "pdf_url": "https://arxiv.org/pdf/2512.19995",
+      "github_links": [
+        "https://github.com/MingLiiii/ThinkARM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.19995",
+      "scraped_at": "2025-12-27T01:45:33.397360"
+    },
+    "scraped_date": "2025-12-27"
+  },
+  {
+    "title": "How Much 3D Do Video Foundation Models Encode?",
+    "paper_url": "https://huggingface.co/papers/2512.19949",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "How Much 3D Do Video Foundation Models Encode?",
+      "abstract": "After training on large 2D videos, will video foundation models naturally encode 3D structure and ego-motion? Our study reveals that state-of-the-art video generators develop strong, generalizable 3D understanding even compared to 3D experts, despite being trained only on 2D video data. Project page: https://vidfm-3d-probe.github.io",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.19949",
+      "pdf_url": "https://arxiv.org/pdf/2512.19949",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.19949",
+      "scraped_at": "2025-12-27T01:45:35.220043"
+    },
+    "scraped_date": "2025-12-27"
+  },
+  {
+    "title": "VA-π: Variational Policy Alignment for Pixel-Aware Autoregressive Generation",
+    "paper_url": "https://huggingface.co/papers/2512.19680",
+    "authors": [
+      "Yicong Li",
+      "Xiaoye Qu",
+      "Kai Xu",
+      "Qiyuan He",
+      "Xinyao Liao"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "VA-π: Variational Policy Alignment for Pixel-Aware Autoregressive Generation",
+      "abstract": "Autoregressive (AR) visual generation relies on tokenizers to map images to and from discrete sequences. However, tokenizers are trained to reconstruct clean images from ground-truth tokens, while AR generators are optimized only for token likelihood. This misalignment leads to generated token sequences that may decode into low-quality images, without direct supervision from the pixel space. We propose VA-, a lightweight post-training framework that directly optimizes AR models with a principled pixel-space objective. VA- formulates the generator-tokenizer alignment as a variational optimization, deriving an evidence lower bound (ELBO) that unifies pixel reconstruction and autoregressive modeling. To optimize under the discrete token space, VA- introduces a reinforcement-based alignment strategy that treats the AR generator as a policy, uses pixel-space reconstruction quality as its intrinsic reward. The reward is measured by how well the predicted token sequences can reconstruct the original image under teacher forcing, giving the model direct pixel-level guidance without expensive free-running sampling. The regularization term of the ELBO serves as a natural regularizer, maintaining distributional consistency of tokens. VA- enables rapid adaptation of existing AR generators, without neither tokenizer retraining nor external reward models. With only 1% ImageNet-1K data and 25 minutes of tuning, it reduces FID from 14.36 to 7.65 and improves IS from 86.55 to 116.70 on LlamaGen-XXL, while also yielding notable gains in the text-to-image task on GenEval for both visual generation model (LlamaGen: from 0.306 to 0.339) and unified multi-modal model (Janus-Pro: from 0.725 to 0.744)",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.19680",
+      "pdf_url": "https://arxiv.org/pdf/2512.19680",
+      "github_links": [
+        "https://github.com/Lil-Shake/VA-Pi"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.19680",
+      "scraped_at": "2025-12-27T01:45:37.023958"
+    },
+    "scraped_date": "2025-12-27"
+  },
+  {
+    "title": "GTR-Turbo: Merged Checkpoint is Secretly a Free Teacher for Agentic VLM Training",
+    "paper_url": "https://huggingface.co/papers/2512.13043",
+    "authors": [
+      "Yuanchun Shi",
+      "Junliang Xing",
+      "Changhao Zhang",
+      "Yijun Yang",
+      "Tong Wei"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "GTR-Turbo: Merged Checkpoint is Secretly a Free Teacher for Agentic VLM Training",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.13043",
+      "pdf_url": "https://arxiv.org/pdf/2512.13043",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.13043",
+      "scraped_at": "2025-12-27T01:45:38.858078"
+    },
+    "scraped_date": "2025-12-27"
   }
 ]

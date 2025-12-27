@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-17-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-672+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-7-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-679+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">17</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">118</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">721</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">672+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">7</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">125</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">728</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">679+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** December 26, 2025
+**Last Updated:** December 27, 2025
 
 ---
 
@@ -119,217 +119,91 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. TurboDiffusion: Accelerating Video Diffusion Models by 100-200 Times</b> ⭐ 1.96k</summary>
+<summary><b>1. Latent Implicit Visual Reasoning</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.16093) • [📄 arXiv](https://arxiv.org/abs/2512.16093) • [📥 PDF](https://arxiv.org/pdf/2512.16093)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.21218) • [📄 arXiv](https://arxiv.org/abs/2512.21218) • [📥 PDF](https://arxiv.org/pdf/2512.21218)
 
-**💻 Code:** [⭐ Code](https://github.com/thu-ml/SageAttention) • [⭐ Code](https://github.com/thu-ml/SLA) • [⭐ Code](https://github.com/thu-ml/TurboDiffusion)
-
-> TurboDiffusion : 100–200× acceleration in video generation on a single RTX 5090. A high-quality 5-second video can be generated in just 1.9 seconds . Efficient inference code, as well as model parameters (checkpoints) for TurboWan2.2/2.1 for Text-...
+> TL;DR: We introduce a new method that improves visual reasoning by allowing models to implicitly learn latent visual representations, without requiring explicit supervision or additional data for these latents.
 
 </details>
 
 <details>
-<summary><b>2. Learning to Reason in 4D: Dynamic Spatial Understanding for Vision Language Models</b> ⭐ 28</summary>
+<summary><b>2. Emergent temporal abstractions in autoregressive models enable hierarchical reinforcement learning</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.20557) • [📄 arXiv](https://arxiv.org/abs/2512.20557) • [📥 PDF](https://arxiv.org/pdf/2512.20557)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.20605) • [📄 arXiv](https://arxiv.org/abs/2512.20605) • [📥 PDF](https://arxiv.org/pdf/2512.20605)
 
-**💻 Code:** [⭐ Code](https://github.com/TencentARC/DSR_Suite)
-
-> DSR Suite delivers scalable 4D training/evaluation from real-world videos and a lightweight GSM module that injects targeted geometric priors into VLMs, markedly boosting dynamic spatial reasoning while preserving general video understanding. Key ...
+> TLDR: This work reveals that autoregressive models inherently learn linearly controllable, temporally abstract action representations within their residual streams, which can be activated and composed to execute long-horizon behaviors. We leverage...
 
 </details>
 
 <details>
-<summary><b>3. DreaMontage: Arbitrary Frame-Guided One-Shot Video Generation</b> ⭐ 0</summary>
+<summary><b>3. Spatia: Video Generation with Updatable Spatial Memory</b> ⭐ 56</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.21252) • [📄 arXiv](https://arxiv.org/abs/2512.21252) • [📥 PDF](https://arxiv.org/pdf/2512.21252)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.15716) • [📄 arXiv](https://arxiv.org/abs/2512.15716) • [📥 PDF](https://arxiv.org/pdf/2512.15716)
 
-> In this paper, we introduce DreaMontage, a comprehensive framework designed for arbitrary frame-guided generation, capable of synthesizing seamless, expressive, and long-duration one-shot videos from diverse user-provided inputs. To achieve this, ...
+**💻 Code:** [⭐ Code](https://github.com/ZhaoJingjing713/Spatia)
+
+> Existing video generation models struggle to maintain long-term spatial and temporal consistency due to the dense, high-dimensional nature of video signals. To overcome this limitation, we propose Spatia, a spatial memory-aware video generation fr...
 
 </details>
 
 <details>
-<summary><b>4. T2AV-Compass: Towards Unified Evaluation for Text-to-Audio-Video Generation</b> ⭐ 5</summary>
+<summary><b>4. Schoenfeld's Anatomy of Mathematical Reasoning by Language Models</b> ⭐ 6</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.21094) • [📄 arXiv](https://arxiv.org/abs/2512.21094) • [📥 PDF](https://arxiv.org/pdf/2512.21094)
+**👥 Authors:** Tianyi Zhou, Soheil Feizi, Yize Cheng, Chenrui Fan, Ming Li
 
-**💻 Code:** [⭐ Code](https://github.com/NJU-LINK/T2AV-Compass/)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.19995) • [📄 arXiv](https://arxiv.org/abs/2512.19995) • [📥 PDF](https://arxiv.org/pdf/2512.19995)
 
-> Text-to-Audio-Video (T2AV) generation aims to synthesize temporally coherent video and semantically synchronized audio from natural language, yet its evaluation remains fragmented, often relying on unimodal metrics or narrowly scoped benchmarks th...
+**💻 Code:** [⭐ Code](https://github.com/MingLiiii/ThinkARM)
+
+> We extend a cognitive science-inspired episode annotation framework to an automatic, scalable, sentence-level representation that supports large-scale analysis of reasoning traces and conduct a systematic study of reasoning dynamics across a diver...
 
 </details>
 
 <details>
-<summary><b>5. Beyond Memorization: A Multi-Modal Ordinal Regression Benchmark to Expose Popularity Bias in Vision-Language Models</b> ⭐ 3</summary>
+<summary><b>5. How Much 3D Do Video Foundation Models Encode?</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Yu-Lun Liu, He Syu, Chia-Jui Chang, Ting-Lin Wu, Li-Zhong Szu-Tu
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.19949) • [📄 arXiv](https://arxiv.org/abs/2512.19949) • [📥 PDF](https://arxiv.org/pdf/2512.19949)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.21337) • [📄 arXiv](https://arxiv.org/abs/2512.21337) • [📥 PDF](https://arxiv.org/pdf/2512.21337)
-
-**💻 Code:** [⭐ Code](https://github.com/Sytwu/BeyondMemo)
-
-> We expose a significant popularity bias in state-of-the-art vision-language models (VLMs), which achieve up to 34% higher accuracy on famous buildings compared to ordinary ones, indicating a reliance on memorization over generalizable understandin...
+> After training on large 2D videos, will video foundation models naturally encode 3D structure and ego-motion? Our study reveals that state-of-the-art video generators develop strong, generalizable 3D understanding even compared to 3D experts, desp...
 
 </details>
 
 <details>
-<summary><b>6. HiStream: Efficient High-Resolution Video Generation via Redundancy-Eliminated Streaming</b> ⭐ 21</summary>
+<summary><b>6. VA-π: Variational Policy Alignment for Pixel-Aware Autoregressive Generation</b> ⭐ 4</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.21338) • [📄 arXiv](https://arxiv.org/abs/2512.21338) • [📥 PDF](https://arxiv.org/pdf/2512.21338)
+**👥 Authors:** Yicong Li, Xiaoye Qu, Kai Xu, Qiyuan He, Xinyao Liao
 
-**💻 Code:** [⭐ Code](https://github.com/arthur-qiu/HiStream)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.19680) • [📄 arXiv](https://arxiv.org/abs/2512.19680) • [📥 PDF](https://arxiv.org/pdf/2512.19680)
 
-> HiStream is an efficient autoregressive framework for high-resolution video generation that removes the quadratic inference bottleneck of diffusion models by reducing spatial, temporal, and timestep redundancy. It achieves state-of-the-art quality...
+**💻 Code:** [⭐ Code](https://github.com/Lil-Shake/VA-Pi)
+
+> Autoregressive (AR) visual generation relies on tokenizers to map images to and from discrete sequences. However, tokenizers are trained to reconstruct clean images from ground-truth tokens, while AR generators are optimized only for token likelih...
 
 </details>
 
 <details>
-<summary><b>7. Nemotron 3 Nano: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning</b> ⭐ 0</summary>
+<summary><b>7. GTR-Turbo: Merged Checkpoint is Secretly a Free Teacher for Agentic VLM Training</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.20848) • [📄 arXiv](https://arxiv.org/abs/2512.20848) • [📥 PDF](https://arxiv.org/pdf/2512.20848)
+**👥 Authors:** Yuanchun Shi, Junliang Xing, Changhao Zhang, Yijun Yang, Tong Wei
 
-> Nemotron 3 Nano is a 30B mixture-of-experts hybrid Mamba-Transformer enabling agentic reasoning with 1M context, outperforming models in throughput and accuracy while using only a fraction of parameters per pass.
-
-</details>
-
-<details>
-<summary><b>8. NVIDIA Nemotron 3: Efficient and Open Intelligence</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.20856) • [📄 arXiv](https://arxiv.org/abs/2512.20856) • [📥 PDF](https://arxiv.org/pdf/2512.20856)
-
-> Nemotron 3 introduces Mixture-of-Experts Mamba-Transformer with 1M context, LatentMoE, MTP layers, and multi-environment RL for agentic reasoning and tool use, with open weights.
-
-</details>
-
-<details>
-<summary><b>9. TokSuite: Measuring the Impact of Tokenizer Choice on Language Model Behavior</b> ⭐ 4</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.20757) • [📄 arXiv](https://arxiv.org/abs/2512.20757) • [📥 PDF](https://arxiv.org/pdf/2512.20757)
-
-**💻 Code:** [⭐ Code](https://github.com/r-three/Tokenizers)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.13043) • [📄 arXiv](https://arxiv.org/abs/2512.13043) • [📥 PDF](https://arxiv.org/pdf/2512.13043)
 
 > No abstract available.
-
-</details>
-
-<details>
-<summary><b>10. Learning from Next-Frame Prediction: Autoregressive Video Modeling Encodes Effective Representations</b> ⭐ 7</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.21004) • [📄 arXiv](https://arxiv.org/abs/2512.21004) • [📥 PDF](https://arxiv.org/pdf/2512.21004)
-
-**💻 Code:** [⭐ Code](https://github.com/Singularity0104/NExT-Vid)
-
-> Code: https://github.com/Singularity0104/NExT-Vid
-
-</details>
-
-<details>
-<summary><b>11. From Word to World: Can Large Language Models be Implicit Text-based World Models?</b> ⭐ 6</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.18832) • [📄 arXiv](https://arxiv.org/abs/2512.18832) • [📥 PDF](https://arxiv.org/pdf/2512.18832)
-
-**💻 Code:** [⭐ Code](https://github.com/X1AOX1A/Word2World)
-
-> Explore the foundation of text-based world model
-
-</details>
-
-<details>
-<summary><b>12. DramaBench: A Six-Dimensional Evaluation Framework for Drama Script Continuation</b> ⭐ 44</summary>
-
-<br/>
-
-**👥 Authors:** Yunqi Huang, jackylin2012, FutureMa
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.19012) • [📄 arXiv](https://arxiv.org/abs/2512.19012) • [📥 PDF](https://arxiv.org/pdf/2512.19012)
-
-**💻 Code:** [⭐ Code](https://github.com/IIIIQIIII/DramaBench)
-
-> Hi everyone! I'm Shijian, the first author of DramaBench. We're excited to share our work on evaluating creative writing, specifically drama script continuation. 🎭 Why DramaBench? Traditional "LLM-as-a-Judge" metrics often suffer from subjectivity...
-
-</details>
-
-<details>
-<summary><b>13. Streaming Video Instruction Tuning</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Kaiyang Zhou, Xing Sun, Mengdan Zhang, Peixian Chen, Jiaer Xia
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.21334) • [📄 arXiv](https://arxiv.org/abs/2512.21334) • [📥 PDF](https://arxiv.org/pdf/2512.21334)
-
-> We present Streamo, a real-time streaming video LLM that serves as a general-purpose interactive assistant. Unlike existing online video models that focus narrowly on question answering or captioning, Streamo performs a broad spectrum of streaming...
-
-</details>
-
-<details>
-<summary><b>14. Multi-hop Reasoning via Early Knowledge Alignment</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Xuanjing Huang, Qi Luo, Bo Wang, Shicheng Fang, Yuxin Wang
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.20144) • [📄 arXiv](https://arxiv.org/abs/2512.20144) • [📥 PDF](https://arxiv.org/pdf/2512.20144)
-
-> Multi-hop Reasoning via Early Knowledge Alignment
-
-</details>
-
-<details>
-<summary><b>15. SWE-EVO: Benchmarking Coding Agents in Long-Horizon Software Evolution Scenarios</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Nghi D. Q. Bui, Huy Phan Nhat, Dung Nguyen Manh, Tue Le, Minh V. T. Thai
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.18470) • [📄 arXiv](https://arxiv.org/abs/2512.18470) • [📥 PDF](https://arxiv.org/pdf/2512.18470)
-
-> Existing benchmarks for AI coding agents focus on isolated, single-issue tasks such as fixing a bug or implementing a small feature. However, real-world software engineering is fundamentally a long-horizon endeavor: developers must interpret high-...
-
-</details>
-
-<details>
-<summary><b>16. PhononBench:A Large-Scale Phonon-Based Benchmark for Dynamical Stability in Crystal Generation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.21227) • [📄 arXiv](https://arxiv.org/abs/2512.21227) • [📥 PDF](https://arxiv.org/pdf/2512.21227)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>17. LLM Swiss Round: Aggregating Multi-Benchmark Performance via Competitive Swiss-System Dynamics</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.21010) • [📄 arXiv](https://arxiv.org/abs/2512.21010) • [📥 PDF](https://arxiv.org/pdf/2512.21010)
-
-> Proposes Competitive Swiss-System Dynamics to rank LLMs across multiple benchmarks using dynamic pairings, Monte Carlo Estimated Win Score, and failure sensitivity analysis for risk-aware evaluation.
 
 </details>
 
@@ -341,28 +215,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 17 |
-| 📅 Today | [`2025-12-26.json`](data/daily/2025-12-26.json) | 17 |
-| 📆 This Week | [`2025-W51.json`](data/weekly/2025-W51.json) | 118 |
-| 🗓️ This Month | [`2025-12.json`](data/monthly/2025-12.json) | 721 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 7 |
+| 📅 Today | [`2025-12-27.json`](data/daily/2025-12-27.json) | 7 |
+| 📆 This Week | [`2025-W51.json`](data/weekly/2025-W51.json) | 125 |
+| 🗓️ This Month | [`2025-12.json`](data/monthly/2025-12.json) | 728 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2025-12-26 | 17 | [View JSON](data/daily/2025-12-26.json) |
+| 📌 2025-12-27 | 7 | [View JSON](data/daily/2025-12-27.json) |
+| 📄 2025-12-26 | 17 | [View JSON](data/daily/2025-12-26.json) |
 | 📄 2025-12-25 | 18 | [View JSON](data/daily/2025-12-25.json) |
 | 📄 2025-12-24 | 23 | [View JSON](data/daily/2025-12-24.json) |
 | 📄 2025-12-23 | 22 | [View JSON](data/daily/2025-12-23.json) |
 | 📄 2025-12-22 | 38 | [View JSON](data/daily/2025-12-22.json) |
 | 📄 2025-12-21 | 38 | [View JSON](data/daily/2025-12-21.json) |
-| 📄 2025-12-20 | 37 | [View JSON](data/daily/2025-12-20.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2025-W51 | 118 | [View JSON](data/weekly/2025-W51.json) |
+| 📅 2025-W51 | 125 | [View JSON](data/weekly/2025-W51.json) |
 | 📅 2025-W50 | 230 | [View JSON](data/weekly/2025-W50.json) |
 | 📅 2025-W49 | 186 | [View JSON](data/weekly/2025-W49.json) |
 | 📅 2025-W48 | 187 | [View JSON](data/weekly/2025-W48.json) |
@@ -371,7 +245,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2025-12 | 721 | [View JSON](data/monthly/2025-12.json) |
+| 🗓️ 2025-12 | 728 | [View JSON](data/monthly/2025-12.json) |
 
 ---
 
