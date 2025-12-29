@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-7-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-686+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-693+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">7</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">132</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">735</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">686+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">7</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">742</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">693+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** December 28, 2025
+**Last Updated:** December 29, 2025
 
 ---
 
@@ -141,7 +141,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>3. Spatia: Video Generation with Updatable Spatial Memory</b> ⭐ 61</summary>
+<summary><b>3. Spatia: Video Generation with Updatable Spatial Memory</b> ⭐ 90</summary>
 
 <br/>
 
@@ -154,7 +154,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>4. Schoenfeld's Anatomy of Mathematical Reasoning by Language Models</b> ⭐ 9</summary>
+<summary><b>4. Schoenfeld's Anatomy of Mathematical Reasoning by Language Models</b> ⭐ 14</summary>
 
 <br/>
 
@@ -216,36 +216,36 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 7 |
-| 📅 Today | [`2025-12-28.json`](data/daily/2025-12-28.json) | 7 |
-| 📆 This Week | [`2025-W51.json`](data/weekly/2025-W51.json) | 132 |
-| 🗓️ This Month | [`2025-12.json`](data/monthly/2025-12.json) | 735 |
+| 📅 Today | [`2025-12-29.json`](data/daily/2025-12-29.json) | 7 |
+| 📆 This Week | [`2025-W52.json`](data/weekly/2025-W52.json) | 7 |
+| 🗓️ This Month | [`2025-12.json`](data/monthly/2025-12.json) | 742 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2025-12-28 | 7 | [View JSON](data/daily/2025-12-28.json) |
+| 📌 2025-12-29 | 7 | [View JSON](data/daily/2025-12-29.json) |
+| 📄 2025-12-28 | 7 | [View JSON](data/daily/2025-12-28.json) |
 | 📄 2025-12-27 | 7 | [View JSON](data/daily/2025-12-27.json) |
 | 📄 2025-12-26 | 17 | [View JSON](data/daily/2025-12-26.json) |
 | 📄 2025-12-25 | 18 | [View JSON](data/daily/2025-12-25.json) |
 | 📄 2025-12-24 | 23 | [View JSON](data/daily/2025-12-24.json) |
 | 📄 2025-12-23 | 22 | [View JSON](data/daily/2025-12-23.json) |
-| 📄 2025-12-22 | 38 | [View JSON](data/daily/2025-12-22.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
+| 📅 2025-W52 | 7 | [View JSON](data/weekly/2025-W52.json) |
 | 📅 2025-W51 | 132 | [View JSON](data/weekly/2025-W51.json) |
 | 📅 2025-W50 | 230 | [View JSON](data/weekly/2025-W50.json) |
 | 📅 2025-W49 | 186 | [View JSON](data/weekly/2025-W49.json) |
-| 📅 2025-W48 | 187 | [View JSON](data/weekly/2025-W48.json) |
 
 ### 🗂️ Monthly Archives
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2025-12 | 735 | [View JSON](data/monthly/2025-12.json) |
+| 🗓️ 2025-12 | 742 | [View JSON](data/monthly/2025-12.json) |
 
 ---
 
