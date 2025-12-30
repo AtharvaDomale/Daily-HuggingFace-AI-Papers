@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-7-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-693+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-14-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-707+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">7</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">7</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">742</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">693+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">14</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">21</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">756</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">707+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** December 29, 2025
+**Last Updated:** December 30, 2025
 
 ---
 
@@ -119,91 +119,190 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Latent Implicit Visual Reasoning</b> ⭐ 0</summary>
+<summary><b>1. InsertAnywhere: Bridging 4D Scene Geometry and Diffusion Models for Realistic Video Object Insertion</b> ⭐ 27</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.21218) • [📄 arXiv](https://arxiv.org/abs/2512.21218) • [📥 PDF](https://arxiv.org/pdf/2512.21218)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.17504) • [📄 arXiv](https://arxiv.org/abs/2512.17504) • [📥 PDF](https://arxiv.org/pdf/2512.17504)
 
-> TL;DR: We introduce a new method that improves visual reasoning by allowing models to implicitly learn latent visual representations, without requiring explicit supervision or additional data for these latents.
-
-</details>
-
-<details>
-<summary><b>2. Emergent temporal abstractions in autoregressive models enable hierarchical reinforcement learning</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.20605) • [📄 arXiv](https://arxiv.org/abs/2512.20605) • [📥 PDF](https://arxiv.org/pdf/2512.20605)
-
-> TLDR: This work reveals that autoregressive models inherently learn linearly controllable, temporally abstract action representations within their residual streams, which can be activated and composed to execute long-horizon behaviors. We leverage...
-
-</details>
-
-<details>
-<summary><b>3. Spatia: Video Generation with Updatable Spatial Memory</b> ⭐ 90</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.15716) • [📄 arXiv](https://arxiv.org/abs/2512.15716) • [📥 PDF](https://arxiv.org/pdf/2512.15716)
-
-**💻 Code:** [⭐ Code](https://github.com/ZhaoJingjing713/Spatia)
-
-> Existing video generation models struggle to maintain long-term spatial and temporal consistency due to the dense, high-dimensional nature of video signals. To overcome this limitation, we propose Spatia, a spatial memory-aware video generation fr...
-
-</details>
-
-<details>
-<summary><b>4. Schoenfeld's Anatomy of Mathematical Reasoning by Language Models</b> ⭐ 14</summary>
-
-<br/>
-
-**👥 Authors:** Tianyi Zhou, Soheil Feizi, Yize Cheng, Chenrui Fan, Ming Li
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.19995) • [📄 arXiv](https://arxiv.org/abs/2512.19995) • [📥 PDF](https://arxiv.org/pdf/2512.19995)
-
-**💻 Code:** [⭐ Code](https://github.com/MingLiiii/ThinkARM)
-
-> We extend a cognitive science-inspired episode annotation framework to an automatic, scalable, sentence-level representation that supports large-scale analysis of reasoning traces and conduct a systematic study of reasoning dynamics across a diver...
-
-</details>
-
-<details>
-<summary><b>5. How Much 3D Do Video Foundation Models Encode?</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.19949) • [📄 arXiv](https://arxiv.org/abs/2512.19949) • [📥 PDF](https://arxiv.org/pdf/2512.19949)
-
-> After training on large 2D videos, will video foundation models naturally encode 3D structure and ego-motion? Our study reveals that state-of-the-art video generators develop strong, generalizable 3D understanding even compared to 3D experts, desp...
-
-</details>
-
-<details>
-<summary><b>6. VA-π: Variational Policy Alignment for Pixel-Aware Autoregressive Generation</b> ⭐ 4</summary>
-
-<br/>
-
-**👥 Authors:** Yicong Li, Xiaoye Qu, Kai Xu, Qiyuan He, Xinyao Liao
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.19680) • [📄 arXiv](https://arxiv.org/abs/2512.19680) • [📥 PDF](https://arxiv.org/pdf/2512.19680)
-
-**💻 Code:** [⭐ Code](https://github.com/Lil-Shake/VA-Pi)
-
-> Autoregressive (AR) visual generation relies on tokenizers to map images to and from discrete sequences. However, tokenizers are trained to reconstruct clean images from ground-truth tokens, while AR generators are optimized only for token likelih...
-
-</details>
-
-<details>
-<summary><b>7. GTR-Turbo: Merged Checkpoint is Secretly a Free Teacher for Agentic VLM Training</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Yuanchun Shi, Junliang Xing, Changhao Zhang, Yijun Yang, Tong Wei
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.13043) • [📄 arXiv](https://arxiv.org/abs/2512.13043) • [📥 PDF](https://arxiv.org/pdf/2512.13043)
+**💻 Code:** [⭐ Code](https://github.com/myyzzzoooo/InsertAnywhere)
 
 > No abstract available.
+
+</details>
+
+<details>
+<summary><b>2. Mindscape-Aware Retrieval Augmented Generation for Improved Long Context Understanding</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.17220) • [📄 arXiv](https://arxiv.org/abs/2512.17220) • [📥 PDF](https://arxiv.org/pdf/2512.17220)
+
+> Our trained models can be downloaded from: https://huggingface.co/MindscapeRAG
+
+</details>
+
+<details>
+<summary><b>3. MAI-UI Technical Report: Real-World Centric Foundation GUI Agents</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.22047) • [📄 arXiv](https://arxiv.org/abs/2512.22047) • [📥 PDF](https://arxiv.org/pdf/2512.22047)
+
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Step-GUI Technical Report (2025) GUI-360\°: A Comprehensive Dataset and Ben...
+
+</details>
+
+<details>
+<summary><b>4. UniPercept: Towards Unified Perceptual-Level Image Understanding across Aesthetics, Quality, Structure, and Texture</b> ⭐ 27</summary>
+
+<br/>
+
+**👥 Authors:** Kaiwen Zhu, Xiaohui Li, Jiayang Li, Shuo Cao, Andrew613
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.21675) • [📄 arXiv](https://arxiv.org/abs/2512.21675) • [📥 PDF](https://arxiv.org/pdf/2512.21675)
+
+**💻 Code:** [⭐ Code](https://github.com/thunderbolt215/UniPercept)
+
+> Unipercept
+
+</details>
+
+<details>
+<summary><b>5. ProEdit: Inversion-based Editing From Prompts Done Right</b> ⭐ 24</summary>
+
+<br/>
+
+**👥 Authors:** Kun-Yu Lin, Jian-Jian Jiang, Xiao-Ming Wu, Zhi Ouyang, zhengli1013
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.22118) • [📄 arXiv](https://arxiv.org/abs/2512.22118) • [📥 PDF](https://arxiv.org/pdf/2512.22118)
+
+**💻 Code:** [⭐ Code](https://github.com/iSEE-Laboratory/ProEdit)
+
+> Project page: https://isee-laboratory.github.io/ProEdit
+
+</details>
+
+<details>
+<summary><b>6. TimeBill: Time-Budgeted Inference for Large Language Models</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Yehan Ma, An Zou, fanqiNO1
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.21859) • [📄 arXiv](https://arxiv.org/abs/2512.21859) • [📥 PDF](https://arxiv.org/pdf/2512.21859)
+
+> 🚀 Large language models can infer within strict time budgets! 📉 Fixed KV cache eviction or naive speed-up strategies hurt performance under real-time constraints. 🎯 TimeBill enables adaptive, time-aware LLM inference by predicting response length ...
+
+</details>
+
+<details>
+<summary><b>7. See Less, See Right: Bi-directional Perceptual Shaping For Multimodal Reasoning</b> ⭐ 5</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.22120) • [📄 arXiv](https://arxiv.org/abs/2512.22120) • [📥 PDF](https://arxiv.org/pdf/2512.22120)
+
+**💻 Code:** [⭐ Code](https://github.com/zss02/BiPS)
+
+> A framework that leverages programmatically generated paired views to train VLMs to focus on critical visual evidence while rejecting text-only shortcuts.
+
+</details>
+
+<details>
+<summary><b>8. Omni-Weather: Unified Multimodal Foundation Model for Weather Generation and Understanding</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Yixin Chen, Yidi Liu, Xuming He, Zhiwang Zhou, Andrew613
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.21643) • [📄 arXiv](https://arxiv.org/abs/2512.21643) • [📥 PDF](https://arxiv.org/pdf/2512.21643)
+
+> Submit Omni-Weather
+
+</details>
+
+<details>
+<summary><b>9. InSight-o3: Empowering Multimodal Foundation Models with Generalized Visual Search</b> ⭐ 3</summary>
+
+<br/>
+
+**👥 Authors:** Jierun Chen, Tiezheng Yu, Jiannan Wu, Lewei Yao, m-Just
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.18745) • [📄 arXiv](https://arxiv.org/abs/2512.18745) • [📥 PDF](https://arxiv.org/pdf/2512.18745)
+
+**💻 Code:** [⭐ Code](https://github.com/m-Just/InSight-o3)
+
+> Check out O3-Bench at https://huggingface.co/datasets/m-Just/O3-Bench !
+
+</details>
+
+<details>
+<summary><b>10. SWE-RM: Execution-free Feedback For Software Engineering Agents</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** X. W., Lei Zhang, Jiawei Chen, Binyuan Hui, KaShun Shum
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.21919) • [📄 arXiv](https://arxiv.org/abs/2512.21919) • [📥 PDF](https://arxiv.org/pdf/2512.21919)
+
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Training Versatile Coding Agents in Synthetic Environments (2025) Klear-Age...
+
+</details>
+
+<details>
+<summary><b>11. SVBench: Evaluation of Video Generation Models on Social Reasoning</b> ⭐ 4</summary>
+
+<br/>
+
+**👥 Authors:** Xiaojie Xu, Chuanhao Li, Tianmeng Yang, Gongxuan Wang, Wenshuo Peng
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.21507) • [📄 arXiv](https://arxiv.org/abs/2512.21507) • [📥 PDF](https://arxiv.org/pdf/2512.21507)
+
+**💻 Code:** [⭐ Code](https://github.com/Gloria2tt/SVBench-Evaluation)
+
+> Currently, most of the work focuses on discussing the physical plausibility of the videos; we need more research to examine whether the actions themselves are inherently reasonable. Our project page is available https://github.com/Gloria2tt/SVBenc...
+
+</details>
+
+<details>
+<summary><b>12. SlideTailor: Personalized Presentation Slide Generation for Scientific Papers</b> ⭐ 15</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.20292) • [📄 arXiv](https://arxiv.org/abs/2512.20292) • [📥 PDF](https://arxiv.org/pdf/2512.20292)
+
+**💻 Code:** [⭐ Code](https://github.com/nusnlp/SlideTailor)
+
+> 🔆 Overview We argue that presentation design is inherently subjective. Users have different preferences in terms of narrative structure, emphasis, conciseness, aesthetic choices, etc. So in this work, we ask: Can we better model such diverse user ...
+
+</details>
+
+<details>
+<summary><b>13. A 58-Addition, Rank-23 Scheme for General 3x3 Matrix Multiplication</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** dronperminov
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.21980) • [📄 arXiv](https://arxiv.org/abs/2512.21980) • [📥 PDF](https://arxiv.org/pdf/2512.21980)
+
+**💻 Code:** [⭐ Code](https://github.com/dronperminov/ternary_flip_graph)
+
+> A 58-addition, rank-23 scheme for exact 3×3 matrix multiplication sets a new SOTA. This improves the previous best of 60 additions without basis change. The scheme uses only ternary coefficients {-1,0,1} and was discovered via combinatorial flip-g...
+
+</details>
+
+<details>
+<summary><b>14. Rethinking Sample Polarity in Reinforcement Learning with Verifiable Rewards</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Zhenduo Zhang, Wayne Xin Zhao, Zhixun Li, Yuliang Zhan, Xinyu Tang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.21625) • [📄 arXiv](https://arxiv.org/abs/2512.21625) • [📥 PDF](https://arxiv.org/pdf/2512.21625)
+
+> Large reasoning models (LRMs) are typically trained using reinforcement learning with verifiable reward (RLVR) to enhance their reasoning abilities. In this paradigm, policies are updated using both positive and negative self-generated rollouts, w...
 
 </details>
 
@@ -215,28 +314,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 7 |
-| 📅 Today | [`2025-12-29.json`](data/daily/2025-12-29.json) | 7 |
-| 📆 This Week | [`2025-W52.json`](data/weekly/2025-W52.json) | 7 |
-| 🗓️ This Month | [`2025-12.json`](data/monthly/2025-12.json) | 742 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 14 |
+| 📅 Today | [`2025-12-30.json`](data/daily/2025-12-30.json) | 14 |
+| 📆 This Week | [`2025-W52.json`](data/weekly/2025-W52.json) | 21 |
+| 🗓️ This Month | [`2025-12.json`](data/monthly/2025-12.json) | 756 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2025-12-29 | 7 | [View JSON](data/daily/2025-12-29.json) |
+| 📌 2025-12-30 | 14 | [View JSON](data/daily/2025-12-30.json) |
+| 📄 2025-12-29 | 7 | [View JSON](data/daily/2025-12-29.json) |
 | 📄 2025-12-28 | 7 | [View JSON](data/daily/2025-12-28.json) |
 | 📄 2025-12-27 | 7 | [View JSON](data/daily/2025-12-27.json) |
 | 📄 2025-12-26 | 17 | [View JSON](data/daily/2025-12-26.json) |
 | 📄 2025-12-25 | 18 | [View JSON](data/daily/2025-12-25.json) |
 | 📄 2025-12-24 | 23 | [View JSON](data/daily/2025-12-24.json) |
-| 📄 2025-12-23 | 22 | [View JSON](data/daily/2025-12-23.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2025-W52 | 7 | [View JSON](data/weekly/2025-W52.json) |
+| 📅 2025-W52 | 21 | [View JSON](data/weekly/2025-W52.json) |
 | 📅 2025-W51 | 132 | [View JSON](data/weekly/2025-W51.json) |
 | 📅 2025-W50 | 230 | [View JSON](data/weekly/2025-W50.json) |
 | 📅 2025-W49 | 186 | [View JSON](data/weekly/2025-W49.json) |
@@ -245,7 +344,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2025-12 | 742 | [View JSON](data/monthly/2025-12.json) |
+| 🗓️ 2025-12 | 756 | [View JSON](data/monthly/2025-12.json) |
 
 ---
 

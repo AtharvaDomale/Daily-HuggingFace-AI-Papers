@@ -15267,5 +15267,307 @@
       "scraped_at": "2025-12-29T01:56:59.886231"
     },
     "scraped_date": "2025-12-29"
+  },
+  {
+    "title": "InsertAnywhere: Bridging 4D Scene Geometry and Diffusion Models for Realistic Video Object Insertion",
+    "paper_url": "https://huggingface.co/papers/2512.17504",
+    "authors": [],
+    "stars": "27",
+    "details": {
+      "title": "InsertAnywhere: Bridging 4D Scene Geometry and Diffusion Models for Realistic Video Object Insertion",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.17504",
+      "pdf_url": "https://arxiv.org/pdf/2512.17504",
+      "github_links": [
+        "https://github.com/myyzzzoooo/InsertAnywhere"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.17504",
+      "scraped_at": "2025-12-30T01:48:50.975028"
+    },
+    "scraped_date": "2025-12-30"
+  },
+  {
+    "title": "Mindscape-Aware Retrieval Augmented Generation for Improved Long Context Understanding",
+    "paper_url": "https://huggingface.co/papers/2512.17220",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Mindscape-Aware Retrieval Augmented Generation for Improved Long Context Understanding",
+      "abstract": "Our trained models can be downloaded from: https://huggingface.co/MindscapeRAG",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.17220",
+      "pdf_url": "https://arxiv.org/pdf/2512.17220",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.17220",
+      "scraped_at": "2025-12-30T01:48:53.048565"
+    },
+    "scraped_date": "2025-12-30"
+  },
+  {
+    "title": "MAI-UI Technical Report: Real-World Centric Foundation GUI Agents",
+    "paper_url": "https://huggingface.co/papers/2512.22047",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MAI-UI Technical Report: Real-World Centric Foundation GUI Agents",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Step-GUI Technical Report (2025) GUI-360\\°: A Comprehensive Dataset and Benchmark for Computer-Using Agents (2025) MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive and MCP-Augmented Environments (2025) OS-Oracle: A Comprehensive Framework for Cross-Platform GUI Critic Models (2025) WebVIA: A Web-based Vision-Language Agentic Framework for Interactive and Verifiable UI-to-Code Generation (2025) D-GARA: A Dynamic Benchmarking Framework for GUI Agent Robustness in Real-World Anomalies (2025) AndroidLens: Long-latency Evaluation with Nested Sub-targets for Android GUI Agents (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.22047",
+      "pdf_url": "https://arxiv.org/pdf/2512.22047",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.22047",
+      "scraped_at": "2025-12-30T01:48:55.067017"
+    },
+    "scraped_date": "2025-12-30"
+  },
+  {
+    "title": "UniPercept: Towards Unified Perceptual-Level Image Understanding across Aesthetics, Quality, Structure, and Texture",
+    "paper_url": "https://huggingface.co/papers/2512.21675",
+    "authors": [
+      "Kaiwen Zhu",
+      "Xiaohui Li",
+      "Jiayang Li",
+      "Shuo Cao",
+      "Andrew613"
+    ],
+    "stars": "27",
+    "details": {
+      "title": "UniPercept: Towards Unified Perceptual-Level Image Understanding across Aesthetics, Quality, Structure, and Texture",
+      "abstract": "Unipercept",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.21675",
+      "pdf_url": "https://arxiv.org/pdf/2512.21675",
+      "github_links": [
+        "https://github.com/thunderbolt215/UniPercept"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.21675",
+      "scraped_at": "2025-12-30T01:48:57.202905"
+    },
+    "scraped_date": "2025-12-30"
+  },
+  {
+    "title": "ProEdit: Inversion-based Editing From Prompts Done Right",
+    "paper_url": "https://huggingface.co/papers/2512.22118",
+    "authors": [
+      "Kun-Yu Lin",
+      "Jian-Jian Jiang",
+      "Xiao-Ming Wu",
+      "Zhi Ouyang",
+      "zhengli1013"
+    ],
+    "stars": "24",
+    "details": {
+      "title": "ProEdit: Inversion-based Editing From Prompts Done Right",
+      "abstract": "Project page: https://isee-laboratory.github.io/ProEdit",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.22118",
+      "pdf_url": "https://arxiv.org/pdf/2512.22118",
+      "github_links": [
+        "https://github.com/iSEE-Laboratory/ProEdit"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.22118",
+      "scraped_at": "2025-12-30T01:48:59.302587"
+    },
+    "scraped_date": "2025-12-30"
+  },
+  {
+    "title": "TimeBill: Time-Budgeted Inference for Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2512.21859",
+    "authors": [
+      "Yehan Ma",
+      "An Zou",
+      "fanqiNO1"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "TimeBill: Time-Budgeted Inference for Large Language Models",
+      "abstract": "🚀 Large language models can infer within strict time budgets! 📉 Fixed KV cache eviction or naive speed-up strategies hurt performance under real-time constraints. 🎯 TimeBill enables adaptive, time-aware LLM inference by predicting response length and execution time, then dynamically tuning KV cache eviction to meet deadlines without sacrificing quality. 🆕 We propose a fine-grained Response Length Predictor (RLP) + workload-guided Execution Time Estimator (ETE) for end-to-end time-budgeted inference with guaranteed completion and high response fidelity.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.21859",
+      "pdf_url": "https://arxiv.org/pdf/2512.21859",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.21859",
+      "scraped_at": "2025-12-30T01:49:01.499871"
+    },
+    "scraped_date": "2025-12-30"
+  },
+  {
+    "title": "See Less, See Right: Bi-directional Perceptual Shaping For Multimodal Reasoning",
+    "paper_url": "https://huggingface.co/papers/2512.22120",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "See Less, See Right: Bi-directional Perceptual Shaping For Multimodal Reasoning",
+      "abstract": "A framework that leverages programmatically generated paired views to train VLMs to focus on critical visual evidence while rejecting text-only shortcuts.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.22120",
+      "pdf_url": "https://arxiv.org/pdf/2512.22120",
+      "github_links": [
+        "https://github.com/zss02/BiPS"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.22120",
+      "scraped_at": "2025-12-30T01:49:03.550021"
+    },
+    "scraped_date": "2025-12-30"
+  },
+  {
+    "title": "Omni-Weather: Unified Multimodal Foundation Model for Weather Generation and Understanding",
+    "paper_url": "https://huggingface.co/papers/2512.21643",
+    "authors": [
+      "Yixin Chen",
+      "Yidi Liu",
+      "Xuming He",
+      "Zhiwang Zhou",
+      "Andrew613"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Omni-Weather: Unified Multimodal Foundation Model for Weather Generation and Understanding",
+      "abstract": "Submit Omni-Weather",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.21643",
+      "pdf_url": "https://arxiv.org/pdf/2512.21643",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.21643",
+      "scraped_at": "2025-12-30T01:49:05.565401"
+    },
+    "scraped_date": "2025-12-30"
+  },
+  {
+    "title": "InSight-o3: Empowering Multimodal Foundation Models with Generalized Visual Search",
+    "paper_url": "https://huggingface.co/papers/2512.18745",
+    "authors": [
+      "Jierun Chen",
+      "Tiezheng Yu",
+      "Jiannan Wu",
+      "Lewei Yao",
+      "m-Just"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "InSight-o3: Empowering Multimodal Foundation Models with Generalized Visual Search",
+      "abstract": "Check out O3-Bench at https://huggingface.co/datasets/m-Just/O3-Bench !",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.18745",
+      "pdf_url": "https://arxiv.org/pdf/2512.18745",
+      "github_links": [
+        "https://github.com/m-Just/InSight-o3"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.18745",
+      "scraped_at": "2025-12-30T01:49:07.649745"
+    },
+    "scraped_date": "2025-12-30"
+  },
+  {
+    "title": "SWE-RM: Execution-free Feedback For Software Engineering Agents",
+    "paper_url": "https://huggingface.co/papers/2512.21919",
+    "authors": [
+      "X. W.",
+      "Lei Zhang",
+      "Jiawei Chen",
+      "Binyuan Hui",
+      "KaShun Shum"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SWE-RM: Execution-free Feedback For Software Engineering Agents",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Training Versatile Coding Agents in Synthetic Environments (2025) Klear-AgentForge: Forging Agentic Intelligence through Posttraining Scaling (2025) Reward and Guidance through Rubrics: Promoting Exploration to Improve Multi-Domain Reasoning (2025) One Tool Is Enough: Reinforcement Learning for Repository-Level LLM Agents (2025) RLAC: Reinforcement Learning with Adversarial Critic for Free-Form Generation Tasks (2025) SPARK: Stepwise Process-Aware Rewards for Reference-Free Reinforcement Learning (2025) Beyond SFT: Reinforcement Learning for Safer Large Reasoning Models with Better Reasoning Ability (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.21919",
+      "pdf_url": "https://arxiv.org/pdf/2512.21919",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.21919",
+      "scraped_at": "2025-12-30T01:49:09.709108"
+    },
+    "scraped_date": "2025-12-30"
+  },
+  {
+    "title": "SVBench: Evaluation of Video Generation Models on Social Reasoning",
+    "paper_url": "https://huggingface.co/papers/2512.21507",
+    "authors": [
+      "Xiaojie Xu",
+      "Chuanhao Li",
+      "Tianmeng Yang",
+      "Gongxuan Wang",
+      "Wenshuo Peng"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "SVBench: Evaluation of Video Generation Models on Social Reasoning",
+      "abstract": "Currently, most of the work focuses on discussing the physical plausibility of the videos; we need more research to examine whether the actions themselves are inherently reasonable. Our project page is available https://github.com/Gloria2tt/SVBench-Evaluation",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.21507",
+      "pdf_url": "https://arxiv.org/pdf/2512.21507",
+      "github_links": [
+        "https://github.com/Gloria2tt/SVBench-Evaluation"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.21507",
+      "scraped_at": "2025-12-30T01:49:11.751315"
+    },
+    "scraped_date": "2025-12-30"
+  },
+  {
+    "title": "SlideTailor: Personalized Presentation Slide Generation for Scientific Papers",
+    "paper_url": "https://huggingface.co/papers/2512.20292",
+    "authors": [],
+    "stars": "15",
+    "details": {
+      "title": "SlideTailor: Personalized Presentation Slide Generation for Scientific Papers",
+      "abstract": "🔆 Overview We argue that presentation design is inherently subjective. Users have different preferences in terms of narrative structure, emphasis, conciseness, aesthetic choices, etc. So in this work, we ask: Can we better model such diverse user preferences for personalized paper-to-slides generation? We make the following contributions: Task: We introduce and properly define a new task that conditions paper-to-slide generation on user-specified preferences. System: We propose a human behavior-inspired agentic framework, SlideTailor, that progressively generates editable slides in a user-aligned manner. Evaluation: We construct a benchmark dataset that captures diverse user preferences, with meticulously designed interpretable metrics for robust evaluation. Open Source: We release the source code and data to the community. 💻 Github: https://github.com/nusnlp/SlideTailor 📜 ArXiv: https://arxiv.org/abs/2512.20292 🤗 HF datasets: https://huggingface.co/datasets/yyyang/SlideTailor-PSP-dataset",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.20292",
+      "pdf_url": "https://arxiv.org/pdf/2512.20292",
+      "github_links": [
+        "https://github.com/nusnlp/SlideTailor"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.20292",
+      "scraped_at": "2025-12-30T01:49:13.822291"
+    },
+    "scraped_date": "2025-12-30"
+  },
+  {
+    "title": "A 58-Addition, Rank-23 Scheme for General 3x3 Matrix Multiplication",
+    "paper_url": "https://huggingface.co/papers/2512.21980",
+    "authors": [
+      "dronperminov"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "A 58-Addition, Rank-23 Scheme for General 3x3 Matrix Multiplication",
+      "abstract": "A 58-addition, rank-23 scheme for exact 3×3 matrix multiplication sets a new SOTA. This improves the previous best of 60 additions without basis change. The scheme uses only ternary coefficients {-1,0,1} and was discovered via combinatorial flip-graph search + greedy CSE heuristics.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.21980",
+      "pdf_url": "https://arxiv.org/pdf/2512.21980",
+      "github_links": [
+        "https://github.com/dronperminov/ternary_flip_graph"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.21980",
+      "scraped_at": "2025-12-30T01:49:15.815354"
+    },
+    "scraped_date": "2025-12-30"
+  },
+  {
+    "title": "Rethinking Sample Polarity in Reinforcement Learning with Verifiable Rewards",
+    "paper_url": "https://huggingface.co/papers/2512.21625",
+    "authors": [
+      "Zhenduo Zhang",
+      "Wayne Xin Zhao",
+      "Zhixun Li",
+      "Yuliang Zhan",
+      "Xinyu Tang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Rethinking Sample Polarity in Reinforcement Learning with Verifiable Rewards",
+      "abstract": "Large reasoning models (LRMs) are typically trained using reinforcement learning with verifiable reward (RLVR) to enhance their reasoning abilities. In this paradigm, policies are updated using both positive and negative self-generated rollouts, which correspond to distinct sample polarities. In this paper, we provide a systematic investigation into how these sample polarities affect RLVR training dynamics and behaviors. We find that positive samples sharpen existing correct reasoning patterns, while negative samples encourage exploration of new reasoning paths. We further explore how adjusting the advantage values of positive and negative samples at both the sample level and the token level affects RLVR training. Based on these insights, we propose an Adaptive and Asymmetric token-level Advantage shaping method for Policy Optimization, namely A3PO, that more precisely allocates advantage signals to key tokens across different polarities. Experiments across five reasoning benchmarks demonstrate the effectiveness of our approach.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.21625",
+      "pdf_url": "https://arxiv.org/pdf/2512.21625",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.21625",
+      "scraped_at": "2025-12-30T01:49:18.233273"
+    },
+    "scraped_date": "2025-12-30"
   }
 ]
