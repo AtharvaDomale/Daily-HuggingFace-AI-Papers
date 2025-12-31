@@ -443,5 +443,606 @@
       "scraped_at": "2025-12-30T01:49:18.233273"
     },
     "scraped_date": "2025-12-30"
+  },
+  {
+    "title": "Coupling Experts and Routers in Mixture-of-Experts via an Auxiliary Loss",
+    "paper_url": "https://huggingface.co/papers/2512.23447",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Coupling Experts and Routers in Mixture-of-Experts via an Auxiliary Loss",
+      "abstract": "We propose the Expert-Router Coupling (ERC) loss, a lightweight auxiliary loss that tightly couples the router’s decisions with expert capabilities. Unlike prior coupling methods that scale with the number of tokens (often millions per batch), the ERC loss introduces a fixed cost that is independent of batch size. Through pre-training MoE-LLMs ranging from 3B to 15B parameters and extensive analysis on trillions of tokens, we demonstrate the effectiveness of the ERC loss. Moreover, it offers flexible control and quantitative tracking of expert specialization levels during training, providing valuable insights into MoE models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.23447",
+      "pdf_url": "https://arxiv.org/pdf/2512.23447",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.23447",
+      "scraped_at": "2025-12-31T01:49:28.397780"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "LiveTalk: Real-Time Multimodal Interactive Video Diffusion via Improved On-Policy Distillation",
+    "paper_url": "https://huggingface.co/papers/2512.23576",
+    "authors": [
+      "Steffi Chern",
+      "Jiadi Su",
+      "Bohao Tang",
+      "Zhulin Hu",
+      "Ethan Chern"
+    ],
+    "stars": "81",
+    "details": {
+      "title": "LiveTalk: Real-Time Multimodal Interactive Video Diffusion via Improved On-Policy Distillation",
+      "abstract": "Real-time video generation via diffusion is essential for building general-purpose multimodal interactive AI systems. However, the simultaneous denoising of all video frames with bidirectional attention via an iterative process in diffusion models prevents real-time interaction. While existing distillation methods can make the model autoregressive and reduce sampling steps to mitigate this, they focus primarily on text-to-video generation, leaving the human-AI interaction unnatural and less efficient. This paper targets real-time interactive video diffusion conditioned on a multimodal context, including text, image, and audio, to bridge the gap. Given the observation that the leading on-policy distillation approach Self Forcing encounters challenges (visual artifacts like flickering, black frames, and quality degradation) with multimodal conditioning, we investigate an improved distillation recipe with emphasis on the quality of condition inputs as well as the initialization and schedule for the on-policy optimization. On benchmarks for multimodal-conditioned (audio, image, and text) avatar video generation including HDTF, AVSpeech, and CelebV-HQ, our distilled model matches the visual quality of the full-step, bidirectional baselines of similar or larger size with 20x less inference cost and latency. Further, we integrate our model with audio language models and long-form video inference technique Anchor-Heavy Identity Sinks to build LiveTalk, a real-time multimodal interactive avatar system. System-level evaluation on our curated multi-turn interaction benchmark shows LiveTalk outperforms state-of-the-art models (Sora2, Veo3) in multi-turn video coherence and content quality, while reducing response latency from 1 to 2 minutes to real-time generation, enabling seamless human-AI multimodal interaction.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.23576",
+      "pdf_url": "https://arxiv.org/pdf/2512.23576",
+      "github_links": [
+        "https://github.com/GAIR-NLP/LiveTalk"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.23576",
+      "scraped_at": "2025-12-31T01:49:30.412534"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "Yume-1.5: A Text-Controlled Interactive World Generation Model",
+    "paper_url": "https://huggingface.co/papers/2512.22096",
+    "authors": [
+      "Kaining Ying",
+      "Xiaojie Xu",
+      "Chuanhao Li",
+      "Zhen Li",
+      "Xiaofeng Mao"
+    ],
+    "stars": "426",
+    "details": {
+      "title": "Yume-1.5: A Text-Controlled Interactive World Generation Model",
+      "abstract": "Recent approaches have demonstrated the promise of using diffusion models to generate interactive and explorable worlds. However, most of these methods face critical challenges such as excessively large parameter sizes, reliance on lengthy inference steps, and rapidly growing historical context, which severely limit real-time performance and lack text-controlled generation capabilities. To address these challenges, we propose \\method, a novel framework designed to generate realistic, interactive, and continuous worlds from a single image or text prompt. \\method achieves this through a carefully designed framework that supports keyboard-based exploration of the generated worlds. The framework comprises three core components: (1) a long-video generation framework integrating unified context compression with linear attention; (2) a real-time streaming acceleration strategy powered by bidirectional attention distillation and an enhanced text embedding scheme; (3) a text-controlled method for generating world events. We have provided the codebase in the supplementary material.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.22096",
+      "pdf_url": "https://arxiv.org/pdf/2512.22096",
+      "github_links": [
+        "https://github.com/stdstu12/YUME"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.22096",
+      "scraped_at": "2025-12-31T01:49:32.340108"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "SmartSnap: Proactive Evidence Seeking for Self-Verifying Agents",
+    "paper_url": "https://huggingface.co/papers/2512.22322",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SmartSnap: Proactive Evidence Seeking for Self-Verifying Agents",
+      "abstract": "We introduce SmartSnap , a paradigm shift that transforms GUI agents📱💻🤖 from passive task executors into proactive self-verifiers. By empowering agents to curate their own evidence of success through the 3C Principles (Completeness, Conciseness, Creativity), we eliminate the bottleneck of expensive post-hoc verification while boosting reliability and performance on complex mobile tasks. SmartSnap redefines the agent's role through a unified policy that handles both task execution and evidence curation . Instead of burdening verifiers with verbose, noisy interaction trajectories, agents learn to select minimal, decisive snapshot evidences from their tool interactions. The framework leverages: Augmented MDP : Agents operate in an extended action space ⊕ consisting of execution actions (click, type, etc.) and curation actions (submit evidence indices) Dual-objective training : GRPO-based RL optimizes for both task completion and evidence quality Dense reward shaping : Multi-component rewards $R_{format}$ + $R_{validity}$ + $R_{complete}$ + $R_{concise}$ guide agents toward becoming effective self-verifiers Creative evidence generation : Agents proactively execute additional actions post-task to capture robust proof when needed The approach achieves up to 26.08% absolute performance gains on AndroidLab across model scales, matching or exceeding much larger models like DeepSeek-V3.1 and Qwen3-235B-A22B.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.22322",
+      "pdf_url": "https://arxiv.org/pdf/2512.22322",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.22322",
+      "scraped_at": "2025-12-31T01:49:34.323280"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object Depth and Normal Estimation",
+    "paper_url": "https://huggingface.co/papers/2512.23705",
+    "authors": [],
+    "stars": "94",
+    "details": {
+      "title": "Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object Depth and Normal Estimation",
+      "abstract": "Abstract Transparent objects remain notoriously hard for perception systems: refraction, reflection and transmission break the assumptions behind stereo, ToF and purely discriminative monocular depth, causing holes and temporally unstable estimates. Our key observation is that modern video diffusion models already synthesize convincing transparent phenomena, suggesting they have internalized the optical rules. We build TransPhy3D, a synthetic video corpus of transparent/reflective scenes: 11k sequences (1.32M frames) rendered with Blender/Cycles. Scenes are assembled from a curated bank of category-rich static assets and shape-rich procedural assets paired with glass/plastic/metal materials. We render RGB + depth + normals with physically based ray tracing and OptiX denoising. Starting from a large video diffusion model, we learn a video-to-video translator for depth (and normals) via lightweight LoRA adapters. During training we concatenate RGB and (noisy) depth latents in the DiT backbone and co-train on TransPhy3D and existing frame-wise synthetic datasets, yielding temporally consistent predictions for arbitrary-length input videos. The resulting model, DKT, achieves zero-shot SOTA on real and synthetic video benchmarks involving transparency: ClearPose, DREDS (CatKnown/CatNovel), and TransPhy3D-Test. It improves accuracy and temporal consistency over strong image/video baselines (e.g., Depth-Anything-v2, DepthCrafter), and a normal variant (DKT-Normal) sets the best video normal estimation results on ClearPose. A compact 1.3B version runs at ~0.17 s/frame (832×480). Integrated into a grasping stack, DKT’s depth boosts success rates across translucent, reflective and diffuse surfaces, outperforming prior estimators. Together, these results support a broader claim: “Diffusion knows transparency.” Generative video priors can be repurposed, efficiently and label-free, into robust, temporally coherent perception for challenging real-world manipulation. Code and models are available at https://daniellli.github.io/projects/DKT/ .",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.23705",
+      "pdf_url": "https://arxiv.org/pdf/2512.23705",
+      "github_links": [
+        "https://github.com/Daniellli/DKT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.23705",
+      "scraped_at": "2025-12-31T01:49:36.316397"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "Stream-DiffVSR: Low-Latency Streamable Video Super-Resolution via Auto-Regressive Diffusion",
+    "paper_url": "https://huggingface.co/papers/2512.23709",
+    "authors": [
+      "Po-Fan Yu",
+      "Chi-Wei Hsiao",
+      "Zhixiang Wang",
+      "Chin-Yang Lin",
+      "Hau-Shiang Shiu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Stream-DiffVSR: Low-Latency Streamable Video Super-Resolution via Auto-Regressive Diffusion",
+      "abstract": "Diffusion-based video super-resolution (VSR) methods achieve strong perceptual quality but remain impractical for latency-sensitive settings due to reliance on future frames and expensive multi-step denoising. We propose Stream-DiffVSR, a causally conditioned diffusion framework for efficient online VSR. Operating strictly on past frames, it combines a four-step distilled denoiser for fast inference, an Auto-regressive Temporal Guidance (ARTG) module that injects motion-aligned cues during latent denoising, and a lightweight temporal-aware decoder with a Temporal Processor Module (TPM) that enhances detail and temporal coherence. Stream-DiffVSR processes 720p frames in 0.328 seconds on an RTX4090 GPU and significantly outperforms prior diffusion-based methods. Compared with the online SOTA TMP, it boosts perceptual quality (LPIPS +0.095) while reducing latency by over 130x. Stream-DiffVSR achieves the lowest latency reported for diffusion-based VSR, reducing initial delay from over 4600 seconds to 0.328 seconds, thereby making it the first diffusion VSR method suitable for low-latency online deployment. Project page: https://jamichss.github.io/stream-diffvsr-project-page/",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.23709",
+      "pdf_url": "https://arxiv.org/pdf/2512.23709",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.23709",
+      "scraped_at": "2025-12-31T01:49:38.583727"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "Dream-VL & Dream-VLA: Open Vision-Language and Vision-Language-Action Models with Diffusion Language Model Backbone",
+    "paper_url": "https://huggingface.co/papers/2512.22615",
+    "authors": [],
+    "stars": "41",
+    "details": {
+      "title": "Dream-VL & Dream-VLA: Open Vision-Language and Vision-Language-Action Models with Diffusion Language Model Backbone",
+      "abstract": "Building on the success of Dream 7B, we introduce Dream-VL and Dream-VLA, open VL and VLA models that fully unlock discrete diffusion’s advantages in long-horizon planning, bidirectional reasoning, and parallel action generation for multimodal tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.22615",
+      "pdf_url": "https://arxiv.org/pdf/2512.22615",
+      "github_links": [
+        "https://github.com/DreamLM/Dream-VLX"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.22615",
+      "scraped_at": "2025-12-31T01:49:40.576055"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "SpotEdit: Selective Region Editing in Diffusion Transformers",
+    "paper_url": "https://huggingface.co/papers/2512.22323",
+    "authors": [],
+    "stars": "48",
+    "details": {
+      "title": "SpotEdit: Selective Region Editing in Diffusion Transformers",
+      "abstract": "🎯 SpotEdit: Edit Only What Needs to Be Edited Why regenerate the entire background just to add a scarf to the dog in your photo? This is a frustrating limitation facing many current AI image editing models. Existing methods typically perform a full regeneration of the entire image even for small changes. This not only wastes a massive amount of computing time but often causes distortion or loss of detail in the background—areas that didn't need to be touched in the first place. SpotEdit is here to solve this problem. We refuse to \"overhaul\" the entire image, sticking instead to a simple yet powerful principle: Edit only what needs to be edited . 🚀 What is SpotEdit? SpotEdit is a training-free universal framework designed specifically for Diffusion Transformer (DiT) models. It automatically identifies which regions require editing and which should remain untouched, eliminating the need for you to manually paint complex masks. ✨ The Core \"Magic\" Automated Detection (SpotSelector) Acting like a pair of \"sharp eyes,\" this mechanism uses perceptual similarity to automatically distinguish between stable backgrounds and regions that need to change. It intelligently skips heavy computation for the background, concentrating processing power strictly on the \"cutting edge\" where changes are actually happening. Seamless Fusion (SpotFusion) For the background that doesn't need changing, SpotEdit does not regenerate it; instead, it directly reuses feature information from the original image. Simultaneously, through a dynamic fusion mechanism, it ensures that newly generated objects (like that added scarf) blend perfectly with the original background's lighting and texture, creating a result with no visual inconsistencies. 💡 Why Choose SpotEdit? ⚡️ Blazing Fast : By skipping massive amounts of unnecessary background computation, inference speed is boosted by nearly 2× . 🖼️ Zero Background Loss : It achieves true \"local editing,\" perfectly preserving every detail of the original background, so you no longer have to worry about the background \"collapsing\" or distorting. 🛠️ Training-Free : A plug-and-play solution that directly enhances the editing experience of existing models. SpotEdit returns image editing to its essence—precise, efficient, and respectful of the original image. HomePage: https://biangbiang0321.github.io/SpotEdit.github.io",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.22323",
+      "pdf_url": "https://arxiv.org/pdf/2512.22323",
+      "github_links": [
+        "https://github.com/Biangbiang0321/SpotEdit"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.22323",
+      "scraped_at": "2025-12-31T01:49:42.584794"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "GRAN-TED: Generating Robust, Aligned, and Nuanced Text Embedding for Diffusion Models",
+    "paper_url": "https://huggingface.co/papers/2512.15560",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GRAN-TED: Generating Robust, Aligned, and Nuanced Text Embedding for Diffusion Models",
+      "abstract": "The text encoder is a critical component of text-to-image and text-to-video diffusion models, fundamentally determining the semantic fidelity of the generated content. However, its development has been hindered by two major challenges: the lack of an efficient evaluation framework that reliably predicts downstream generation performance, and the difficulty of effectively adapting pretrained language models for visual synthesis. To address these issues, we introduce GRAN-TED, a paradigm to Generate Robust, Aligned, and Nuanced Text Embeddings for Diffusion models. Our contribution is twofold. First, we propose TED-6K, a novel text-only benchmark that enables efficient and robust assessment of an encoder's representational quality without requiring costly end-to-end model training. We demonstrate that performance on TED-6K, standardized via a lightweight, unified adapter, strongly correlates with an encoder's effectiveness in downstream generation tasks. Notably, under our experimental setup, compared with training a diffusion model from scratch, evaluating with TED-6K is about \\textbf{750$\\times$ faster}. Second, guided by this validated framework, we develop a superior text encoder using a novel two-stage training paradigm. This process involves an initial fine-tuning stage on a Multimodal Large Language Model for better visual representation, followed by a layer-wise weighting method to extract more nuanced and potent text features. Our experiments show that the resulting GRAN-TED encoder not only achieves state-of-the-art performance on TED-6K but also leads to demonstrable performance gains in text-to-image and text-to-video generation. Our TED-6K dataset and evaluation code are available at the following link: \\url{ https://anonymous.4open.science/r/GRAN-TED-4FCC/} .",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.15560",
+      "pdf_url": "https://arxiv.org/pdf/2512.15560",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.15560",
+      "scraped_at": "2025-12-31T01:49:44.443856"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "Act2Goal: From World Model To General Goal-conditioned Policy",
+    "paper_url": "https://huggingface.co/papers/2512.23541",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Act2Goal: From World Model To General Goal-conditioned Policy",
+      "abstract": "Project page: https://act2goal.github.io/ Abs: Specifying robotic manipulation tasks in a manner that is both expressive and precise remains a central challenge. While visual goals provide a compact and unambiguous task specification, existing goal-conditioned policies often struggle with long-horizon manipulation due to their reliance on single-step action prediction without explicit modeling of task progress. We propose Act2Goal, a general goal-conditioned manipulation policy that integrates a goal-conditioned visual world model with multi-scale temporal control. Given a current observation and a target visual goal, the world model generates a plausible sequence of intermediate visual states that captures long-horizon structure. To translate this visual plan into robust execution, we introduce Multi-Scale Temporal Hashing (MSTH), which decomposes the imagined trajectory into dense proximal frames for fine-grained closed-loop control and sparse distal frames that anchor global task consistency. The policy couples these representations with motor control through end-to-end cross-attention, enabling coherent long-horizon behavior while remaining reactive to local disturbances. Act2Goal achieves strong zero-shot generalization to novel objects, spatial layouts, and environments. We further enable reward-free online adaptation through hindsight goal relabeling with LoRA-based finetuning, allowing rapid autonomous improvement without external supervision. Real-robot experiments demonstrate that Act2Goal improves success rates from 30% to 90% on challenging out-of-distribution tasks within minutes of autonomous interaction, validating that goal-conditioned world models with multi-scale temporal control provide structured guidance necessary for robust long-horizon manipulation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.23541",
+      "pdf_url": "https://arxiv.org/pdf/2512.23541",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.23541",
+      "scraped_at": "2025-12-31T01:49:46.414965"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "Web World Models",
+    "paper_url": "https://huggingface.co/papers/2512.23676",
+    "authors": [],
+    "stars": "17",
+    "details": {
+      "title": "Web World Models",
+      "abstract": "In this work, we introduce the Web World Model (WWM), a middle ground where world state and physics are implemented in ordinary web code to ensure logical consistency, while large language models generate context, narratives, and high-level decisions on top of this structured latent state. We build a suite of WWMs on a realistic web stack, including an infinite travel atlas grounded in real geography, fictional galaxy explorers, web-scale encyclopedic and narrative worlds, and simulation- and game-like environments. Across these systems, we identify practical design principles for WWMs: separating code-defined rules from model-driven imagination, representing latent state as typed web interfaces, and utilizing deterministic generation to achieve unlimited but structured exploration. Our results suggest that web stacks themselves can serve as a scalable substrate for world models, enabling controllable yet open-ended environments. Project Page: https://github.com/Princeton-AI2-Lab/Web-World-Models",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.23676",
+      "pdf_url": "https://arxiv.org/pdf/2512.23676",
+      "github_links": [
+        "https://github.com/Princeton-AI2-Lab/Web-World-Models"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.23676",
+      "scraped_at": "2025-12-31T01:49:48.340250"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "DiRL: An Efficient Post-Training Framework for Diffusion Language Models",
+    "paper_url": "https://huggingface.co/papers/2512.22234",
+    "authors": [],
+    "stars": "113",
+    "details": {
+      "title": "DiRL: An Efficient Post-Training Framework for Diffusion Language Models",
+      "abstract": "Diffusion Language Models (dLLMs) have emerged as promising alternatives to Auto-Regressive (AR) models. While recent efforts have validated their pre-training potential and accelerated inference speeds, the post-training landscape for dLLMs remains underdeveloped. Existing methods suffer from computational inefficiency and objective mismatches between training and inference, severely limiting performance on complex reasoning tasks such as mathematics. To address this, we introduce DiRL, an efficient post-training framework that tightly integrates FlexAttention-accelerated blockwise training with LMDeploy-optimized inference. This architecture enables a streamlined online model update loop, facilitating efficient two-stage post-training (Supervised Fine-Tuning followed by Reinforcement Learning). Building on this framework, we propose DiPO, the first unbiased Group Relative Policy Optimization (GRPO) implementation tailored for dLLMs. We validate our approach by training DiRL-8B-Instruct on high-quality math data. Our model achieves state-of-the-art math performance among dLLMs and surpasses comparable models in the Qwen2.5 series on several benchmarks. Code: https://github.com/OpenMOSS/DiRL Model: https://huggingface.co/OpenMOSS-Team/DiRL-8B-Instruct",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.22234",
+      "pdf_url": "https://arxiv.org/pdf/2512.22234",
+      "github_links": [
+        "https://github.com/OpenMOSS/DiRL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.22234",
+      "scraped_at": "2025-12-31T01:49:50.346097"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "Training AI Co-Scientists Using Rubric Rewards",
+    "paper_url": "https://huggingface.co/papers/2512.23707",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Training AI Co-Scientists Using Rubric Rewards",
+      "abstract": "How to train language models at generating research plans given diverse open-ended research goals?",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.23707",
+      "pdf_url": "https://arxiv.org/pdf/2512.23707",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.23707",
+      "scraped_at": "2025-12-31T01:49:54.597787"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "Video-BrowseComp: Benchmarking Agentic Video Research on Open Web",
+    "paper_url": "https://huggingface.co/papers/2512.23044",
+    "authors": [
+      "Kaixin Liang",
+      "Minghao Qin",
+      "Xiangrui Liu",
+      "Yan Shu",
+      "Zhengyang Liang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Video-BrowseComp: Benchmarking Agentic Video Research on Open Web",
+      "abstract": "Introduces Video-BrowseComp, a benchmark of 210 open-web agentic video questions requiring temporal visual evidence to test proactive video reasoning in grounded retrieval.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.23044",
+      "pdf_url": "https://arxiv.org/pdf/2512.23044",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.23044",
+      "scraped_at": "2025-12-31T01:49:57.027962"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "OmniAgent: Audio-Guided Active Perception Agent for Omnimodal Audio-Video Understanding",
+    "paper_url": "https://huggingface.co/papers/2512.23646",
+    "authors": [
+      "Jian Liu",
+      "Weiqiang Wang",
+      "Bohan Yu",
+      "Wenjie Du",
+      "Keda Tao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "OmniAgent: Audio-Guided Active Perception Agent for Omnimodal Audio-Video Understanding",
+      "abstract": "Website: https://kd-tao.github.io/OmniAgent/",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.23646",
+      "pdf_url": "https://arxiv.org/pdf/2512.23646",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.23646",
+      "scraped_at": "2025-12-31T01:49:58.935239"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "YOLO-Master: MOE-Accelerated with Specialized Transformers for Enhanced Real-time Detection",
+    "paper_url": "https://huggingface.co/papers/2512.23273",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "YOLO-Master: MOE-Accelerated with Specialized Transformers for Enhanced Real-time Detection",
+      "abstract": "Existing Real-Time Object Detection (RTOD) methods commonly adopt YOLO-like architectures for their favorable trade-off between accuracy and speed. However, these models rely on static dense computation that applies uniform processing to all inputs, misallocating representational capacity and computational resources such as over-allocating on trivial scenes while under-serving complex ones. This mismatch results in both computational redundancy and suboptimal detection performance. To overcome this limitation, we propose YOLO-Master, a novel YOLO-like framework that introduces instance-conditional adaptive computation for RTOD. This is achieved through a Efficient Sparse Mixture-of-Experts (ES-MoE) block that dynamically allocates computational resources to each input according to its scene complexity. At its core, a lightweight dynamic routing network guides expert specialization during training through a diversity enhancing objective, encouraging complementary expertise among experts. Additionally, the routing network adaptively learns to activate only the most relevant experts, thereby improving detection performance while minimizing computational overhead during inference. Comprehensive experiments on five large-scale benchmarks demonstrate the superiority of YOLO-Master. On MS COCO, our model achieves 42.4% AP with 1.62ms latency, outperforming YOLOv13-N by +0.8% mAP and 17.8% faster inference. Notably, the gains are most pronounced on challenging dense scenes, while the model preserves efficiency on typical inputs and maintains real-time inference speed. Code will be available.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.23273",
+      "pdf_url": "https://arxiv.org/pdf/2512.23273",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.23273",
+      "scraped_at": "2025-12-31T01:50:00.886043"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "VL-LN Bench: Towards Long-horizon Goal-oriented Navigation with Active Dialogs",
+    "paper_url": "https://huggingface.co/papers/2512.22342",
+    "authors": [
+      "Xihui Liu",
+      "Jinming Xu",
+      "Meng Wei",
+      "Shaohao Zhu",
+      "Wensi Huang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "VL-LN Bench: Towards Long-horizon Goal-oriented Navigation with Active Dialogs",
+      "abstract": "VL-LN Bench: Towards Long-horizon Goal-oriented Navigation with Active Dialogs",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.22342",
+      "pdf_url": "https://arxiv.org/pdf/2512.22342",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.22342",
+      "scraped_at": "2025-12-31T01:50:02.766646"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "Nested Browser-Use Learning for Agentic Information Seeking",
+    "paper_url": "https://huggingface.co/papers/2512.23647",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Nested Browser-Use Learning for Agentic Information Seeking",
+      "abstract": "Information-seeking (IS) agents have achieved strong performance across a range of wide and deep search tasks, yet their tool use remains largely restricted to API-level snippet retrieval and URL-based page fetching, limiting access to the richer information available through real browsing. While full browser interaction could unlock deeper capabilities, its fine-grained control and verbose page content returns introduce substantial complexity for ReAct-style function-calling agents. To bridge this gap, we propose Nested Browser-Use Learning (NestBrowse), which introduces a minimal and complete browser-action framework that decouples interaction control from page exploration through a nested structure. This design simplifies agentic reasoning while enabling effective deep-web information acquisition. Empirical results on challenging deep IS benchmarks demonstrate that NestBrowse offers clear benefits in practice. Further in-depth analyses underscore its efficiency and flexibility.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.23647",
+      "pdf_url": "https://arxiv.org/pdf/2512.23647",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.23647",
+      "scraped_at": "2025-12-31T01:50:04.649126"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "SurgWorld: Learning Surgical Robot Policies from Videos via World Modeling",
+    "paper_url": "https://huggingface.co/papers/2512.23162",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SurgWorld: Learning Surgical Robot Policies from Videos via World Modeling",
+      "abstract": "Proposes SurgWorld world model to learn surgical robot policies from unlabeled videos via synthetic pseudokinematics, enabling data-efficient VLA policies from SATA data.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.23162",
+      "pdf_url": "https://arxiv.org/pdf/2512.23162",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.23162",
+      "scraped_at": "2025-12-31T01:50:07.252154"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "Monadic Context Engineering",
+    "paper_url": "https://huggingface.co/papers/2512.22431",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "Monadic Context Engineering",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API A Declarative Language for Building And Orchestrating LLM-Powered Agent Workflows (2025) A Layered Protocol Architecture for the Internet of Agents (2025) NormCode: A Semi-Formal Language for Context-Isolated AI Planning (2025) Synthesizing Procedural Memory: Challenges and Architectures in Automated Workflow Generation (2025) Agint: Agentic Graph Compilation for Software Engineering Agents (2025) Confucius Code Agent: Scalable Agent Scaffolding for Real-World Codebases (2025) CodeMem: Architecting Reproducible Agents via Dynamic MCP and Procedural Memory (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.22431",
+      "pdf_url": "https://arxiv.org/pdf/2512.22431",
+      "github_links": [
+        "https://github.com/yifanzhang-pro/monadic-context-engineering"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.22431",
+      "scraped_at": "2025-12-31T01:50:09.129976"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "An Information Theoretic Perspective on Agentic System Design",
+    "paper_url": "https://huggingface.co/papers/2512.21720",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "An Information Theoretic Perspective on Agentic System Design",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Design and Evaluation of Cost-Aware PoQ for Decentralized LLM Inference (2025) Towards Efficient Agents: A Co-Design of Inference Architecture and System (2025) Towards a Science of Scaling Agent Systems (2025) Scaling Unverifiable Rewards: A Case Study on Visual Insights (2025) Geometry of Decision Making in Language Models (2025) Q-KVComm: Efficient Multi-Agent Communication Via Adaptive KV Cache Compression (2025) FoldAct: Efficient and Stable Context Folding for Long-Horizon Search Agents (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.21720",
+      "pdf_url": "https://arxiv.org/pdf/2512.21720",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.21720",
+      "scraped_at": "2025-12-31T01:50:11.021662"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "Quantile Rendering: Efficiently Embedding High-dimensional Feature on 3D Gaussian Splatting",
+    "paper_url": "https://huggingface.co/papers/2512.20927",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Quantile Rendering: Efficiently Embedding High-dimensional Feature on 3D Gaussian Splatting",
+      "abstract": "project page: https://jaesung-choe.github.io/qrender/index.html",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.20927",
+      "pdf_url": "https://arxiv.org/pdf/2512.20927",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.20927",
+      "scraped_at": "2025-12-31T01:50:12.850707"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "Robo-Dopamine: General Process Reward Modeling for High-Precision Robotic Manipulation",
+    "paper_url": "https://huggingface.co/papers/2512.23703",
+    "authors": [
+      "Yuheng Ji",
+      "Zixiao Wang",
+      "Yijie Xu",
+      "Sixiang Chen",
+      "Huajie Tan"
+    ],
+    "stars": "21",
+    "details": {
+      "title": "Robo-Dopamine: General Process Reward Modeling for High-Precision Robotic Manipulation",
+      "abstract": "Upload Robo-Dopamine",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.23703",
+      "pdf_url": "https://arxiv.org/pdf/2512.23703",
+      "github_links": [
+        "https://github.com/FlagOpen/Robo-Dopamine"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.23703",
+      "scraped_at": "2025-12-31T01:50:14.748741"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "ProGuard: Towards Proactive Multimodal Safeguard",
+    "paper_url": "https://huggingface.co/papers/2512.23573",
+    "authors": [
+      "Jing Shao",
+      "Lu Sheng",
+      "Chenyang Si",
+      "Lijun Li",
+      "Shaohan Yu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ProGuard: Towards Proactive Multimodal Safeguard",
+      "abstract": "The rapid evolution of generative models has led to a continuous emergence of multimodal safety risks, exposing the limitations of existing defense methods. To address these challenges, we propose ProGuard, a vision-language proactive guard that identifies and describes out-of-distribution (OOD) safety risks without the need for model adjustments required by traditional reactive approaches. We first construct a modality-balanced dataset of 87K samples, each annotated with both binary safety labels and risk categories under a hierarchical multimodal safety taxonomy, effectively mitigating modality bias and ensuring consistent moderation across text, image, and text-image inputs. Based on this dataset, we train our vision-language base model purely through reinforcement learning (RL) to achieve efficient and concise reasoning. To approximate proactive safety scenarios in a controlled setting, we further introduce an OOD safety category inference task and augment the RL objective with a synonym-bank-based similarity reward that encourages the model to generate concise descriptions for unseen unsafe categories. Experimental results show that ProGuard achieves performance comparable to closed-source large models on binary safety classification, substantially outperforms existing open-source guard models on unsafe content categorization. Most notably, ProGuard delivers a strong proactive moderation ability, improving OOD risk detection by 52.6% and OOD risk description by 64.8%.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.23573",
+      "pdf_url": "https://arxiv.org/pdf/2512.23573",
+      "github_links": [
+        "https://github.com/yushaohan/ProGuard"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.23573",
+      "scraped_at": "2025-12-31T01:50:16.591149"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "Bridging Your Imagination with Audio-Video Generation via a Unified Director",
+    "paper_url": "https://huggingface.co/papers/2512.23222",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Bridging Your Imagination with Audio-Video Generation via a Unified Director",
+      "abstract": "UniMAGE unifies script writing and keyframe generation for long-context video creation using Mixture-of-Transformers and a two-stage interleaving/disentangling training paradigm.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.23222",
+      "pdf_url": "https://arxiv.org/pdf/2512.23222",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.23222",
+      "scraped_at": "2025-12-31T01:50:18.465743"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "Knot Forcing: Taming Autoregressive Video Diffusion Models for Real-time Infinite Interactive Portrait Animation",
+    "paper_url": "https://huggingface.co/papers/2512.21734",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Knot Forcing: Taming Autoregressive Video Diffusion Models for Real-time Infinite Interactive Portrait Animation",
+      "abstract": "We propose Knot Forcing , a streaming framework for real-time portrait animation that enables high-fidelity, temporally consistent, and interactive video generation from dynamic inputs such as reference images and driving signals. Unlike diffusion-based models that are non-causal and latency-heavy, or autoregressive methods that suffer from error accumulation and motion discontinuities, our approach supports efficient frame-by-frame synthesis while maintaining long-term visual and temporal coherence on consumer-grade hardware. Our method introduces three key innovations: Chunk-wise causal generation with hybrid memory : We preserve global identity by caching KV states of the reference image, while modeling local dynamics using sliding window attention for efficient temporal coherence. Temporal knot module : By overlapping adjacent video chunks and propagating spatio-temporal cues via image-to-video conditioning, we smooth transitions and reduce motion jitter at chunk boundaries. Global context running ahead : During inference, we dynamically update the temporal coordinate of the reference frame to keep its semantic context ahead of the current generation step, enabling stable long-term rollout. Together, these designs enable Knot Forcing to deliver real-time, high-quality portrait animation over infinite sequences with strong visual stability and responsiveness. Project page: this url",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.21734",
+      "pdf_url": "https://arxiv.org/pdf/2512.21734",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.21734",
+      "scraped_at": "2025-12-31T01:50:20.482675"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "KernelEvolve: Scaling Agentic Kernel Coding for Heterogeneous AI Accelerators at Meta",
+    "paper_url": "https://huggingface.co/papers/2512.23236",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "KernelEvolve: Scaling Agentic Kernel Coding for Heterogeneous AI Accelerators at Meta",
+      "abstract": "Excited to share our recent work on KernelEvolve: Scaling Agentic Kernel Coding for Heterogeneous AI Accelerators at Meta . We designed, implemented, and deployed KernelEvolve to optimize a wide variety of production recommendation models across generations of NVIDIA and AMD GPUs, as well as Meta’s latest-generation AI accelerators (MTIA v3) . Writing high-performance GPU kernels is a complex challenge that typically demands years of deep expertise and remains a major focus of industry and academic research. It’s truly impressive to see KernelEvolve not only achieve state-of-the-art results on open benchmarks, but also deliver 1.25–17x speedups across Meta production use cases . This milestone was made possible by outstanding collaboration across Meta—including teams from Monetization Infra and Ranking, FAIR, Compiler, MTIA, Serverless Compute, and more . Thank you to everyone for your dedication and teamwork in making this breakthrough happen! You can read the full paper here: 👉 https://lnkd.in/gdPb43EZ This is only ~1% of the journey. There is much more ahead in 2026 as we continue pushing the boundaries. If your background aligns (Agentic, LLM, RL, AI compiler, Kernels, Inference/training optimization etc.) and you’re interested in joining us on this journey, feel free to DM me. We’re hiring. ( gangliao@meta.com )",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.23236",
+      "pdf_url": "https://arxiv.org/pdf/2512.23236",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.23236",
+      "scraped_at": "2025-12-31T01:50:22.316723"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "Introducing TrGLUE and SentiTurca: A Comprehensive Benchmark for Turkish General Language Understanding and Sentiment Analysis",
+    "paper_url": "https://huggingface.co/papers/2512.22100",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Introducing TrGLUE and SentiTurca: A Comprehensive Benchmark for Turkish General Language Understanding and Sentiment Analysis",
+      "abstract": "We proudly present our brand new Turkish NLP benchmarking sets, TrGLUE. Unlike previous work, TrGLUE is not based on translation of original GLUE tasks but tailored for Turkish vocabulary, syntax, semantics and cultural heritage.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.22100",
+      "pdf_url": "https://arxiv.org/pdf/2512.22100",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.22100",
+      "scraped_at": "2025-12-31T01:50:24.192023"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "Self-Evaluation Unlocks Any-Step Text-to-Image Generation",
+    "paper_url": "https://huggingface.co/papers/2512.22374",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Self-Evaluation Unlocks Any-Step Text-to-Image Generation",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.22374",
+      "pdf_url": "https://arxiv.org/pdf/2512.22374",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.22374",
+      "scraped_at": "2025-12-31T01:50:26.081963"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "Shape of Thought: When Distribution Matters More than Correctness in Reasoning Tasks",
+    "paper_url": "https://huggingface.co/papers/2512.22255",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Shape of Thought: When Distribution Matters More than Correctness in Reasoning Tasks",
+      "abstract": "Training on synthetic CoT traces, even with wrong final answers, improves reasoning due to aligning with the model's distribution and leveraging partial reasoning steps, outperforming human-annotated data. In our paper we explore this interesting observation and provide detailed experimental results and ablation to study the effect of models learning reasoning from unverified noisy and wrong CoTs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.22255",
+      "pdf_url": "https://arxiv.org/pdf/2512.22255",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.22255",
+      "scraped_at": "2025-12-31T01:50:27.962488"
+    },
+    "scraped_date": "2025-12-31"
+  },
+  {
+    "title": "Reverse Personalization",
+    "paper_url": "https://huggingface.co/papers/2512.22984",
+    "authors": [
+      "Nicu Sebe",
+      "Tuomas Varanka",
+      "Han-Wei Kung"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Reverse Personalization",
+      "abstract": "https://github.com/hanweikung/reverse-personalization",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.22984",
+      "pdf_url": "https://arxiv.org/pdf/2512.22984",
+      "github_links": [
+        "https://github.com/hanweikung/reverse-personalization"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.22984",
+      "scraped_at": "2025-12-31T01:50:29.794891"
+    },
+    "scraped_date": "2025-12-31"
   }
 ]
