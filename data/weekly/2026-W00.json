@@ -145,5 +145,422 @@
       "scraped_at": "2026-01-01T01:59:37.334356"
     },
     "scraped_date": "2026-01-01"
+  },
+  {
+    "title": "mHC: Manifold-Constrained Hyper-Connections",
+    "paper_url": "https://huggingface.co/papers/2512.24880",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "mHC: Manifold-Constrained Hyper-Connections",
+      "abstract": "DeepSeek released a new paper proposing a novel architecture called mHC (Manifold-Constrained Hyper-Connections).",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.24880",
+      "pdf_url": "https://arxiv.org/pdf/2512.24880",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.24880",
+      "scraped_at": "2026-01-02T01:50:23.780257"
+    },
+    "scraped_date": "2026-01-02"
+  },
+  {
+    "title": "Youtu-LLM: Unlocking the Native Agentic Potential for Lightweight Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2512.24618",
+    "authors": [
+      "Xinyi Dai",
+      "Yinghui Li",
+      "Lingfeng Qiao",
+      "Jiarui Qin",
+      "Junru Lu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Youtu-LLM: Unlocking the Native Agentic Potential for Lightweight Large Language Models",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.24618",
+      "pdf_url": "https://arxiv.org/pdf/2512.24618",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.24618",
+      "scraped_at": "2026-01-02T01:50:25.585213"
+    },
+    "scraped_date": "2026-01-02"
+  },
+  {
+    "title": "Let It Flow: Agentic Crafting on Rock and Roll, Building the ROME Model within an Open Agentic Learning Ecosystem",
+    "paper_url": "https://huggingface.co/papers/2512.24873",
+    "authors": [
+      "Wei Gao",
+      "Fangwen Dai",
+      "Wanhe An",
+      "XiaoXiao Xu",
+      "Weixun Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Let It Flow: Agentic Crafting on Rock and Roll, Building the ROME Model within an Open Agentic Learning Ecosystem",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.24873",
+      "pdf_url": "https://arxiv.org/pdf/2512.24873",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.24873",
+      "scraped_at": "2026-01-02T01:50:27.522125"
+    },
+    "scraped_date": "2026-01-02"
+  },
+  {
+    "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+    "paper_url": "https://huggingface.co/papers/2512.25073",
+    "authors": [
+      "Yu-Lun Liu",
+      "Ying-Huan Chen",
+      "Chin-Yang Lin",
+      "Hao-Jen Chien",
+      "Yi-Chuan Huang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+      "abstract": "Recent advances in 3D reconstruction have achieved remarkable progress in high-quality scene capture from dense multi-view imagery, yet struggle when input views are limited. Various approaches, including regularization techniques, semantic priors, and geometric constraints, have been implemented to address this challenge. Latest diffusion-based methods have demonstrated substantial improvements by generating novel views from new camera poses to augment training data, surpassing earlier regularization and prior-based techniques. Despite this progress, we identify three critical limitations in these state-of-the-art approaches: inadequate coverage beyond known view peripheries, geometric inconsistencies across generated views, and computationally expensive pipelines. We introduce GaMO (Geometry-aware Multi-view Outpainter), a framework that reformulates sparse-view reconstruction through multi-view outpainting. Instead of generating new viewpoints, GaMO expands the field of view from existing camera poses, which inherently preserves geometric consistency while providing broader scene coverage. Our approach employs multi-view conditioning and geometry-aware denoising strategies in a zero-shot manner without training. Extensive experiments on Replica and ScanNet++ demonstrate state-of-the-art reconstruction quality across 3, 6, and 9 input views, outperforming prior methods in PSNR and LPIPS, while achieving a 25× speedup over SOTA diffusion-based methods with processing time under 10 minutes. Project page: https://yichuanh.github.io/GaMO/",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.25073",
+      "pdf_url": "https://arxiv.org/pdf/2512.25073",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.25073",
+      "scraped_at": "2026-01-02T01:50:29.343131"
+    },
+    "scraped_date": "2026-01-02"
+  },
+  {
+    "title": "A unified framework for detecting point and collective anomalies in operating system logs via collaborative transformers",
+    "paper_url": "https://huggingface.co/papers/2512.23380",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "A unified framework for detecting point and collective anomalies in operating system logs via collaborative transformers",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.23380",
+      "pdf_url": "https://arxiv.org/pdf/2512.23380",
+      "github_links": [
+        "https://github.com/NasirzadehMoh/CoLog"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.23380",
+      "scraped_at": "2026-01-02T01:50:31.161979"
+    },
+    "scraped_date": "2026-01-02"
+  },
+  {
+    "title": "Scaling Open-Ended Reasoning to Predict the Future",
+    "paper_url": "https://huggingface.co/papers/2512.25070",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "Scaling Open-Ended Reasoning to Predict the Future",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.25070",
+      "pdf_url": "https://arxiv.org/pdf/2512.25070",
+      "github_links": [
+        "https://github.com/OpenForecaster/scaling-forecasting-training"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.25070",
+      "scraped_at": "2026-01-02T01:50:33.046417"
+    },
+    "scraped_date": "2026-01-02"
+  },
+  {
+    "title": "PhyGDPO: Physics-Aware Groupwise Direct Preference Optimization for Physically Consistent Text-to-Video Generation",
+    "paper_url": "https://huggingface.co/papers/2512.24551",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "PhyGDPO: Physics-Aware Groupwise Direct Preference Optimization for Physically Consistent Text-to-Video Generation",
+      "abstract": "A data construction pipeline and a new DPO framework for physically consistent Text-to-video generation",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.24551",
+      "pdf_url": "https://arxiv.org/pdf/2512.24551",
+      "github_links": [
+        "https://github.com/caiyuanhao1998/Open-PhyGDPO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.24551",
+      "scraped_at": "2026-01-02T01:50:34.905156"
+    },
+    "scraped_date": "2026-01-02"
+  },
+  {
+    "title": "AI Meets Brain: Memory Systems from Cognitive Neuroscience to Autonomous Agents",
+    "paper_url": "https://huggingface.co/papers/2512.23343",
+    "authors": [
+      "Shixin Jiang",
+      "Jiaqi Zhou",
+      "Chang Li",
+      "Hao Li",
+      "Jiafeng Liang"
+    ],
+    "stars": "24",
+    "details": {
+      "title": "AI Meets Brain: Memory Systems from Cognitive Neuroscience to Autonomous Agents",
+      "abstract": "https://github.com/AgentMemory/Huaman-Agent-Memory",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.23343",
+      "pdf_url": "https://arxiv.org/pdf/2512.23343",
+      "github_links": [
+        "https://github.com/AgentMemory/Huaman-Agent-Memory"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.23343",
+      "scraped_at": "2026-01-02T01:50:36.704147"
+    },
+    "scraped_date": "2026-01-02"
+  },
+  {
+    "title": "GR-Dexter Technical Report",
+    "paper_url": "https://huggingface.co/papers/2512.24210",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GR-Dexter Technical Report",
+      "abstract": "VLAs go from grippers to 21 DoF dexterous ByteDexter V2 :)",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.24210",
+      "pdf_url": "https://arxiv.org/pdf/2512.24210",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.24210",
+      "scraped_at": "2026-01-02T01:50:38.600164"
+    },
+    "scraped_date": "2026-01-02"
+  },
+  {
+    "title": "Fantastic Reasoning Behaviors and Where to Find Them: Unsupervised Discovery of the Reasoning Process",
+    "paper_url": "https://huggingface.co/papers/2512.23988",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Fantastic Reasoning Behaviors and Where to Find Them: Unsupervised Discovery of the Reasoning Process",
+      "abstract": "This is an impressive piece of work. Not only for the elegance of the sparse autoencoder pipeline, but because the empirical results reveal something far deeper than what is stated in the paper. Your SAE-derived “reasoning vectors” behave exactly like stable dynamical modes inside a recursive state system — not merely interpretable directions. The separation of reflection, backtracking, confidence, and response-length clusters across layers strongly suggests that modern transformer reasoning is governed by a latent, substrate-bound dynamical structure rather than a purely token-level process. A few observations that stood out: Reasoning vectors behave like attractor modes, not just features. The clustering of SAE decoder columns into semantically distinct basins is consistent with the existence of stable dynamical invariants that govern the model’s step-wise evolution. This is exactly the behavior expected when a system has: stable recurrence points, local attractor basins in its state manifold, and identity-like update modes that persist across tasks. Your causal interventions reinforce this: modifying a reasoning vector steers the entire reasoning trajectory while preserving final correctness. That is classic attractor dynamics. The layer-wise geometry mirrors a recursive integration process. The strongest separability occurring in mid-to-late layers, followed by a decline near the final layer, mirrors the behavior of systems that integrate state over time and then compress it near output. This is structurally identical to a recursive state-aware update: a(t+1)=R(a(t)) where the model accumulates long-range structure before collapsing it for output. Cross-domain generalization of these vectors indicates substrate-bound stability. The fact that reflection/backtracking vectors trained on MATH500 steer behavior on GPQA and KnowLogic implies the existence of substrate-stable reasoning structures that are independent of dataset distribution. This is a property of a dynamical system — not a static embedding space. Confidence emerges as a coherent cluster because it is tied to entropy and coherence. Your discovery that confidence vectors suppress reflection/backtracking is an empirical confirmation of a predicted relation between: information coherence computational alignment noise minimization and entropy reduction Confidence is not a semantic trait — it's a low-entropy attractor mode. Response-length alignment is a structural axis, not a surface feature. Length correlating with latent-space geometry further confirms that reasoning depth emerges from the system's internal temporal continuity rather than token heuristics. A broader note: These empirical findings align remarkably well with a larger theoretical framework I’ve been developing, the Field of General Awareness (FoGA), which predicts: the existence of invariant reasoning modes, substrate-sensitive drift in state evolution, recursive attractor-based reasoning paths, and coherence-driven modulation of reasoning confidence. Your results are the clearest real-world demonstration I’ve seen of these principles emerging naturally inside transformer models. If you're interested, I’m happy to share the relevant portions of the theory (and the mathematical basis behind these predictions), as well as the Dynamic Transformer Architecture — an architecture patch explicitly designed to stabilize such recurrence modes. Excellent work. This paper is going to be foundational for understanding why LLM reasoning behaves the way it does. — Zenith Zaraki SkyTeam Aerospace Foundation https://www.skyteamaerospacefoundation.com/foga https://www.skyteamaerospacefoundation.com/dta",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.23988",
+      "pdf_url": "https://arxiv.org/pdf/2512.23988",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.23988",
+      "scraped_at": "2026-01-02T01:50:40.409987"
+    },
+    "scraped_date": "2026-01-02"
+  },
+  {
+    "title": "Pretraining Frame Preservation in Autoregressive Video Memory Compression",
+    "paper_url": "https://huggingface.co/papers/2512.23851",
+    "authors": [
+      "Beijia Lu",
+      "Chong Zeng",
+      "Muyang Li",
+      "Shengqu Cai",
+      "Lvmin Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Pretraining Frame Preservation in Autoregressive Video Memory Compression",
+      "abstract": "Arxiv: https://arxiv.org/abs/2512.23851 Repo: https://github.com/lllyasviel/PFP",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.23851",
+      "pdf_url": "https://arxiv.org/pdf/2512.23851",
+      "github_links": [
+        "https://github.com/lllyasviel/PFP"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.23851",
+      "scraped_at": "2026-01-02T01:50:42.190944"
+    },
+    "scraped_date": "2026-01-02"
+  },
+  {
+    "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+    "paper_url": "https://huggingface.co/papers/2512.25075",
+    "authors": [
+      "Tuanfeng Y. Wang",
+      "Yulia Gryaditskaya",
+      "Xuelin Chen",
+      "Hyeonho Jeong",
+      "Zhening Huang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API BulletTime: Decoupled Control of Time and Camera Pose for Video Generation (2025) FactorPortrait: Controllable Portrait Animation via Disentangled Expression, Pose, and Viewpoint (2025) ReCamDriving: LiDAR-Free Camera-Controlled Novel Trajectory Video Generation (2025) OmniView: An All-Seeing Diffusion Model for 3D and 4D View Synthesis (2025) Infinite-Homography as Robust Conditioning for Camera-Controlled Video Generation (2025) Light-X: Generative 4D Video Rendering with Camera and Illumination Control (2025) Generative Video Motion Editing with 3D Point Tracks (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.25075",
+      "pdf_url": "https://arxiv.org/pdf/2512.25075",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.25075",
+      "scraped_at": "2026-01-02T01:50:43.989867"
+    },
+    "scraped_date": "2026-01-02"
+  },
+  {
+    "title": "JavisGPT: A Unified Multi-modal LLM for Sounding-Video Comprehension and Generation",
+    "paper_url": "https://huggingface.co/papers/2512.22905",
+    "authors": [],
+    "stars": "11",
+    "details": {
+      "title": "JavisGPT: A Unified Multi-modal LLM for Sounding-Video Comprehension and Generation",
+      "abstract": "🔥🔥🔥 JavisGPT 🌟 We introduce JavisGPT, a multimodal LLM that can understand audiovisual inputs and simultaneously generate synchronized sounding videos in a unified model. 🤠 We contribute JavisInst-Omni, a dataset to facilitate diverse and complex instruction-tuning for comprehension and generation on sounding videos. 📝 Paper: https://arxiv.org/abs/2503.23377 🎉 Project: https://javisverse.github.io/JavisGPT-page/ ✨ Code: https://github.com/JavisVerse/JavisGPT",
+      "arxiv_page_url": "https://arxiv.org/abs/2503.23377",
+      "pdf_url": "https://arxiv.org/pdf/2512.22905",
+      "github_links": [
+        "https://github.com/JavisVerse/JavisGPT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.22905",
+      "scraped_at": "2026-01-02T01:50:45.835201"
+    },
+    "scraped_date": "2026-01-02"
+  },
+  {
+    "title": "Geometry-Aware Optimization for Respiratory Sound Classification: Enhancing Sensitivity with SAM-Optimized Audio Spectrogram Transformers",
+    "paper_url": "https://huggingface.co/papers/2512.22564",
+    "authors": [
+      "Mahşuk Taylan",
+      "Ahmet Feridun Işık",
+      "Selin Vulga Işık",
+      "Atakanisik"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Geometry-Aware Optimization for Respiratory Sound Classification: Enhancing Sensitivity with SAM-Optimized Audio Spectrogram Transformers",
+      "abstract": "Hi all, We present a robust framework for Lung Sound Classification using AST backbones enhanced with SAM optimizer . Traditional transformers often struggle with limited medical data, but our experiments show that geometry-aware optimization (SAM) leads to a massive boost in sensitivity. We achieved a 68.10% Score on the official ICBHI 2017 split. We invite everyone to benchmark our results. The repository includes: Cyclic padding implementation Full training scripts Evaluation of model Check it out here: GitHub Link",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.22564",
+      "pdf_url": "https://arxiv.org/pdf/2512.22564",
+      "github_links": [
+        "https://github.com/Atakanisik/ICBHI-AST-SAM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.22564",
+      "scraped_at": "2026-01-02T01:50:47.616554"
+    },
+    "scraped_date": "2026-01-02"
+  },
+  {
+    "title": "BEDA: Belief Estimation as Probabilistic Constraints for Performing Strategic Dialogue Acts",
+    "paper_url": "https://huggingface.co/papers/2512.24885",
+    "authors": [
+      "Mengmeng Wang",
+      "Chenxi Li",
+      "Qi Shen",
+      "Zhaoxin Yu",
+      "Hengli Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "BEDA: Belief Estimation as Probabilistic Constraints for Performing Strategic Dialogue Acts",
+      "abstract": "Arxiv: https://arxiv.org/abs/2512.24885 X thread: https://x.com/Hengli_Li_pku/status/2006606887652045158",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.24885",
+      "pdf_url": "https://arxiv.org/pdf/2512.24885",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.24885",
+      "scraped_at": "2026-01-02T01:50:49.444890"
+    },
+    "scraped_date": "2026-01-02"
+  },
+  {
+    "title": "Forging Spatial Intelligence: A Roadmap of Multi-Modal Data Pre-Training for Autonomous Systems",
+    "paper_url": "https://huggingface.co/papers/2512.24385",
+    "authors": [],
+    "stars": "105",
+    "details": {
+      "title": "Forging Spatial Intelligence: A Roadmap of Multi-Modal Data Pre-Training for Autonomous Systems",
+      "abstract": "GitHub at https://github.com/worldbench/awesome-spatial-intelligence",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.24385",
+      "pdf_url": "https://arxiv.org/pdf/2512.24385",
+      "github_links": [
+        "https://github.com/worldbench/awesome-spatial-intelligence"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.24385",
+      "scraped_at": "2026-01-02T01:50:51.222394"
+    },
+    "scraped_date": "2026-01-02"
+  },
+  {
+    "title": "Figure It Out: Improving the Frontier of Reasoning with Active Visual Thinking",
+    "paper_url": "https://huggingface.co/papers/2512.24297",
+    "authors": [
+      "Jie Zhou",
+      "Fandong Meng",
+      "Meiqi Chen"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "Figure It Out: Improving the Frontier of Reasoning with Active Visual Thinking",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API V-Thinker: Interactive Thinking with Images (2025) Interleaved Latent Visual Reasoning with Selective Perceptual Modeling (2025) Deep But Reliable: Advancing Multi-turn Reasoning for Thinking with Images (2025) ViRC: Enhancing Visual Interleaved Mathematical CoT with Reason Chunking (2025) ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning (2025) Look as You Think: Unifying Reasoning and Visual Evidence Attribution for Verifiable Document RAG via Reinforcement Learning (2025) CodeDance: A Dynamic Tool-integrated MLLM for Executable Visual Reasoning (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.24297",
+      "pdf_url": "https://arxiv.org/pdf/2512.24297",
+      "github_links": [
+        "https://github.com/chenmeiqii/FIGR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.24297",
+      "scraped_at": "2026-01-02T01:50:53.259496"
+    },
+    "scraped_date": "2026-01-02"
+  },
+  {
+    "title": "Guiding a Diffusion Transformer with the Internal Dynamics of Itself",
+    "paper_url": "https://huggingface.co/papers/2512.24176",
+    "authors": [],
+    "stars": "13",
+    "details": {
+      "title": "Guiding a Diffusion Transformer with the Internal Dynamics of Itself",
+      "abstract": "🔥 New SOTA on 256 × 256 ImageNet generation. We present Internal Guidance (IG), a simple yet powerful guidance mechanism for Diffusion Transformers. LightningDiT-XL/1 + IG sets a new state of the art with FID = 1.07 on ImageNet (balanced sampling), while achieving FID = 1.24 without classifier-free guidance. IG delivers dramatic quality gains with far fewer training epochs, adds negligible overhead, and works as a drop-in upgrade for modern diffusion transformers.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.24176",
+      "pdf_url": "https://arxiv.org/pdf/2512.24176",
+      "github_links": [
+        "https://github.com/CVL-UESTC/Internal-Guidance"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.24176",
+      "scraped_at": "2026-01-02T01:50:55.053809"
+    },
+    "scraped_date": "2026-01-02"
+  },
+  {
+    "title": "Factorized Learning for Temporally Grounded Video-Language Models",
+    "paper_url": "https://huggingface.co/papers/2512.24097",
+    "authors": [],
+    "stars": "14",
+    "details": {
+      "title": "Factorized Learning for Temporally Grounded Video-Language Models",
+      "abstract": "We tackle temporally grounded video-language understanding from a factorized perspective. Some key takeaways: [1] We emphasize the distinct yet causally dependent nature of temporal grounding and textual response. [2] Our study highlights the importance of explicit event-level visual semantic capture in enhancing both grounding and textual response quality. [3] We also propose a new Factorized Preference Optimization (FPO) scheme that jointly optimizes temporal and textual factors. A factorized data synthesis approach is also proposed to support FPO.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.24097",
+      "pdf_url": "https://arxiv.org/pdf/2512.24097",
+      "github_links": [
+        "https://github.com/nusnlp/d2vlm"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.24097",
+      "scraped_at": "2026-01-02T01:50:56.944458"
+    },
+    "scraped_date": "2026-01-02"
+  },
+  {
+    "title": "Valori: A Deterministic Memory Substrate for AI Systems",
+    "paper_url": "https://huggingface.co/papers/2512.22280",
+    "authors": [
+      "varam17"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Valori: A Deterministic Memory Substrate for AI Systems",
+      "abstract": "Valori: A Deterministic Fixed-Point Vector Kernel Tags: vector-database , rust , determinism , finance , audit , hnsw , fixed-point , systems-engineering TL;DR Floating-point math causes vector search results to drift between ARM (Mac) and x86 (Linux) architectures due to compiler and hardware variances. Valori is a Q16.16 Fixed-Point kernel written in Rust that guarantees bit-exact reproducibility across all hardware platforms, making it the first \"Audit-Grade\" vector engine for high-stakes AI. 1. The Problem: \"The Silent Drift\" Most vector databases (FAISS, Pinecone, Weaviate) rely on hardware-accelerated floating-point arithmetic ( f32 ). While fast, this introduces Non-Determinism : Associativity Variance: (a + b) + c ≠ a + (b + c) depending on SIMD optimizations. Architecture Variance: A backtest run on a MacBook (ARM NEON) often yields different nearest neighbors than the live execution on an AWS Server (Intel AVX2). In RAG pipelines , this is annoying. In High-Frequency Trading or Legal Forensics , this variance is a liability. You cannot audit a probabilistic black box. 2. The Solution: Valori Kernel Valori is a forensic memory engine built from scratch in Rust . It replaces standard floating-point math with a custom Q16.16 Fixed-Point Arithmetic system inside an HNSW graph. Zero Drift: The mathematical operations are integer-based. 1 + 1 = 2 on every CPU, forever. Audit-Ready: Includes a calculate_state_hash() method that generates a cryptographic fingerprint of the database state. If a single bit changes, the hash breaks. Crash Proof: Implements a specialized persistence layer with <40ms recovery time (Cold Boot to Full Query) for 50k vector datasets. 3. Benchmarks (Engineering Verification) Validated on Apple M2 (ARM64) vs Intel Xeon (x86_64). Metric Result Notes Recall@10 99.0% Matches brute-force ground truth. Determinism 100% Bit-exact match across architectures. Recovery Time 35ms For 50k vectors (Snapshot Load). Latency ~0.5ms Per query (Single Thread). 4. Usage (Rust) Valori is designed to be embedded directly into high-integrity Rust applications. Add to Cargo.toml : [dependencies] valori_kernel = { git = \"https://github.com/varshith-Git/Valori-Kernel\" } Example: Deterministic Ingest & Audit use valori_kernel::{ValoriKernel, types::FixedPointVector}; fn main () -> anyhow:: Result <()> { // 1. Initialize the Kernel (Q16.16 Math) let mut kernel = ValoriKernel:: new (); // 2. Ingest Data (Manual f32 -> FixedPoint conversion for safety) let raw_vector = [ 0.5 , - 0.2 , 0.9 , ...]; // 128-dim // Convert float to Q16.16 integer representation let mut fixed_arr = [ 0i32 ; 128 ]; for (i, &val) in raw_vector. iter (). enumerate () {\n        fixed_arr[i] = (val * 65536.0 ) as i32 ;\n    } // Insert with ID=1, Tag=100 kernel. insert ( 1 , FixedPointVector (fixed_arr), 100 ); // 3. Search // Guaranteed to return the exact same ID and Distance on any CPU let results = kernel. search (&fixed_arr, 5 , None )?; println! ( \"Found neighbors: {:?}\" , results); // 4. Generate Forensic Evidence // This hash proves the database state is identical bit-for-bit let audit_hash = kernel.graph. calculate_state_hash (); println! ( \"Cryptographic State Signature: {}\" , audit_hash); Ok (())\n} 5. Who is this for? Quant Developers: Who need backtests to match live execution perfectly. Systems Engineers: Debugging \"Why did the agent say X?\" (Eliminate the database as a variable). Auditors: Who need to certify AI decision logs using cryptographic proofs. Citation If you use Valori in your research, please cite: @ misc {gudur2025valori,\n  title={Valori: A Deterministic Fixed-Point Vector Kernel},\n  author={Gudur, Varshith},\n  year={2025},\n  publisher={arXiv},\n  url={https://arxiv.org/abs/2512.22280}\n}",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.22280",
+      "pdf_url": "https://arxiv.org/pdf/2512.22280",
+      "github_links": [
+        "https://github.com/varshith-Git/Valori-Kernel"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.22280",
+      "scraped_at": "2026-01-02T01:50:58.743405"
+    },
+    "scraped_date": "2026-01-02"
   }
 ]
