@@ -708,5 +708,151 @@
       "scraped_at": "2026-01-03T01:44:48.907162"
     },
     "scraped_date": "2026-01-03"
+  },
+  {
+    "title": "Improving Multi-step RAG with Hypergraph-based Memory for Long-Context Complex Relational Modeling",
+    "paper_url": "https://huggingface.co/papers/2512.23959",
+    "authors": [],
+    "stars": "22",
+    "details": {
+      "title": "Improving Multi-step RAG with Hypergraph-based Memory for Long-Context Complex Relational Modeling",
+      "abstract": "Code released at: https://github.com/Encyclomen/HGMem",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.23959",
+      "pdf_url": "https://arxiv.org/pdf/2512.23959",
+      "github_links": [
+        "https://github.com/Encyclomen/HGMem"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.23959",
+      "scraped_at": "2026-01-04T01:59:50.718806"
+    },
+    "scraped_date": "2026-01-04"
+  },
+  {
+    "title": "Dynamic Large Concept Models: Latent Reasoning in an Adaptive Semantic Space",
+    "paper_url": "https://huggingface.co/papers/2512.24617",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Dynamic Large Concept Models: Latent Reasoning in an Adaptive Semantic Space",
+      "abstract": "Dynamic Large Concept Models (DLCM) introduce an end-to-end trained concept-level language modeling architecture that breaks the token-uniform computation paradigm in modern LLMs. Inspired by hierarchical models such as H-Net, DLCM learns semantic boundaries directly from latent representations, dynamically compresses token sequences into variable-length concepts, performs deep reasoning in the concept space, and projects the results back to tokens via causal cross-attention. Compared to standard dense Transformers trained with next-token prediction, DLCM achieves ~34% inference FLOPs reduction under apple-to-apple settings, while consistently improving performance on reasoning-dominant benchmarks. Notably, the relative FLOPs savings increase with model scale, indicating favorable scaling behavior beyond parameter efficiency alone. At similar loss levels, DLCM reallocates computation toward boundary and planning tokens, yielding stronger downstream accuracy despite reduced redundant token processing. Technically, the paper contributes: (1) a FlashAttention-VarLen–based implementation for efficient concept-token cross-attention; (2) a decoupled μP formulation tailored to heterogeneous token- and concept-width modules, enabling zero-shot hyperparameter transfer across scales; (3) a Global Parser that enforces stable, content-adaptive compression at the batch level and delivers solid empirical gains. Overall, DLCM can be viewed as a principled special case of layer-wise local compression combined with sparse attention, offering a scalable path toward more compute-efficient and reasoning-centric language models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.24617",
+      "pdf_url": "https://arxiv.org/pdf/2512.24617",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.24617",
+      "scraped_at": "2026-01-04T01:59:52.693703"
+    },
+    "scraped_date": "2026-01-04"
+  },
+  {
+    "title": "DiffThinker: Towards Generative Multimodal Reasoning with Diffusion Models",
+    "paper_url": "https://huggingface.co/papers/2512.24165",
+    "authors": [
+      "Siyuan Huang",
+      "Yafu Li",
+      "Xiaoye Qu",
+      "Spico",
+      "yhx12"
+    ],
+    "stars": "24",
+    "details": {
+      "title": "DiffThinker: Towards Generative Multimodal Reasoning with Diffusion Models",
+      "abstract": "TLDR: A new paradigm for multi-modal reasoning with image-to-image generation. Diffusion could think too!",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.24165",
+      "pdf_url": "https://arxiv.org/pdf/2512.24165",
+      "github_links": [
+        "https://github.com/lcqysl/DiffThinker"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.24165",
+      "scraped_at": "2026-01-04T01:59:54.609230"
+    },
+    "scraped_date": "2026-01-04"
+  },
+  {
+    "title": "On the Role of Discreteness in Diffusion LLMs",
+    "paper_url": "https://huggingface.co/papers/2512.22630",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "On the Role of Discreteness in Diffusion LLMs",
+      "abstract": "TL;DR: We identify two core failure modes in current large diffusion LLMs: uniform corruption ignores where information lives in a sentence, and token-wise marginal training struggles with multi-token dependencies during parallel decoding.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.22630",
+      "pdf_url": "https://arxiv.org/pdf/2512.22630",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.22630",
+      "scraped_at": "2026-01-04T01:59:56.484887"
+    },
+    "scraped_date": "2026-01-04"
+  },
+  {
+    "title": "Dream2Flow: Bridging Video Generation and Open-World Manipulation with 3D Object Flow",
+    "paper_url": "https://huggingface.co/papers/2512.24766",
+    "authors": [
+      "Ruohan Zhang",
+      "Li Fei-Fei",
+      "Jiajun Wu",
+      "Wenlong Huang",
+      "Karthik Dharmarajan"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Dream2Flow: Bridging Video Generation and Open-World Manipulation with 3D Object Flow",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.24766",
+      "pdf_url": "https://arxiv.org/pdf/2512.24766",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.24766",
+      "scraped_at": "2026-01-04T01:59:58.371341"
+    },
+    "scraped_date": "2026-01-04"
+  },
+  {
+    "title": "FlowBlending: Stage-Aware Multi-Model Sampling for Fast and High-Fidelity Video Generation",
+    "paper_url": "https://huggingface.co/papers/2512.24724",
+    "authors": [
+      "Youngjung Uh",
+      "Jaeseok Jeong",
+      "Mingi Kwon",
+      "Jibin Song"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "FlowBlending: Stage-Aware Multi-Model Sampling for Fast and High-Fidelity Video Generation",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.24724",
+      "pdf_url": "https://arxiv.org/pdf/2512.24724",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.24724",
+      "scraped_at": "2026-01-04T02:00:00.212924"
+    },
+    "scraped_date": "2026-01-04"
+  },
+  {
+    "title": "TESO Tabu Enhanced Simulation Optimization for Noisy Black Box Problems",
+    "paper_url": "https://huggingface.co/papers/2512.24007",
+    "authors": [
+      "Ghaith Rabadi",
+      "Sean Mondesire",
+      "Bulent Soykan"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "TESO Tabu Enhanced Simulation Optimization for Noisy Black Box Problems",
+      "abstract": "Simulation optimization (SO) is frequently challenged by noisy evaluations, high computational costs, and complex, multimodal search landscapes. This paper introduces Tabu-Enhanced Simulation Optimization (TESO), a novel metaheuristic framework integrating adaptive search with memory-based strategies. TESO leverages a short-term Tabu List to prevent cycling and encourage diversification, and a long-term Elite Memory to guide intensification by perturbing high-performing solutions. An aspiration criterion allows overriding tabu restrictions for exceptional candidates. This combination facilitates a dynamic balance between exploration and exploitation in stochastic environments. We demonstrate TESO’s effectiveness and reliability using an queue optimization problem, showing improved performance compared to benchmarks and validating the contribution of its memory components. Source code and data are available at: github.com/bulentsoykan/TESO.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.24007",
+      "pdf_url": "https://arxiv.org/pdf/2512.24007",
+      "github_links": [
+        "https://github.com/bulentsoykan/TESO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.24007",
+      "scraped_at": "2026-01-04T02:00:02.005832"
+    },
+    "scraped_date": "2026-01-04"
   }
 ]

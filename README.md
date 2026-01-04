@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-7-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-772+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-779+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">7</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">34</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">34</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">772+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">41</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">41</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">779+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** January 03, 2026
+**Last Updated:** January 04, 2026
 
 ---
 
@@ -119,7 +119,7 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Improving Multi-step RAG with Hypergraph-based Memory for Long-Context Complex Relational Modeling</b> ⭐ 9</summary>
+<summary><b>1. Improving Multi-step RAG with Hypergraph-based Memory for Long-Context Complex Relational Modeling</b> ⭐ 22</summary>
 
 <br/>
 
@@ -143,7 +143,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>3. DiffThinker: Towards Generative Multimodal Reasoning with Diffusion Models</b> ⭐ 13</summary>
+<summary><b>3. DiffThinker: Towards Generative Multimodal Reasoning with Diffusion Models</b> ⭐ 24</summary>
 
 <br/>
 
@@ -169,20 +169,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>5. FlowBlending: Stage-Aware Multi-Model Sampling for Fast and High-Fidelity Video Generation</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Youngjung Uh, Jaeseok Jeong, Mingi Kwon, Jibin Song
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.24724) • [📄 arXiv](https://arxiv.org/abs/2512.24724) • [📥 PDF](https://arxiv.org/pdf/2512.24724)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>6. Dream2Flow: Bridging Video Generation and Open-World Manipulation with 3D Object Flow</b> ⭐ 0</summary>
+<summary><b>5. Dream2Flow: Bridging Video Generation and Open-World Manipulation with 3D Object Flow</b> ⭐ 0</summary>
 
 <br/>
 
@@ -195,7 +182,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>7. TESO Tabu Enhanced Simulation Optimization for Noisy Black Box Problems</b> ⭐ 3</summary>
+<summary><b>6. FlowBlending: Stage-Aware Multi-Model Sampling for Fast and High-Fidelity Video Generation</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Youngjung Uh, Jaeseok Jeong, Mingi Kwon, Jibin Song
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.24724) • [📄 arXiv](https://arxiv.org/abs/2512.24724) • [📥 PDF](https://arxiv.org/pdf/2512.24724)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>7. TESO Tabu Enhanced Simulation Optimization for Noisy Black Box Problems</b> ⭐ 4</summary>
 
 <br/>
 
@@ -218,27 +218,27 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 7 |
-| 📅 Today | [`2026-01-03.json`](data/daily/2026-01-03.json) | 7 |
-| 📆 This Week | [`2026-W00.json`](data/weekly/2026-W00.json) | 34 |
-| 🗓️ This Month | [`2026-01.json`](data/monthly/2026-01.json) | 34 |
+| 📅 Today | [`2026-01-04.json`](data/daily/2026-01-04.json) | 7 |
+| 📆 This Week | [`2026-W00.json`](data/weekly/2026-W00.json) | 41 |
+| 🗓️ This Month | [`2026-01.json`](data/monthly/2026-01.json) | 41 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-01-03 | 7 | [View JSON](data/daily/2026-01-03.json) |
+| 📌 2026-01-04 | 7 | [View JSON](data/daily/2026-01-04.json) |
+| 📄 2026-01-03 | 7 | [View JSON](data/daily/2026-01-03.json) |
 | 📄 2026-01-02 | 20 | [View JSON](data/daily/2026-01-02.json) |
 | 📄 2026-01-01 | 7 | [View JSON](data/daily/2026-01-01.json) |
 | 📄 2025-12-31 | 31 | [View JSON](data/daily/2025-12-31.json) |
 | 📄 2025-12-30 | 14 | [View JSON](data/daily/2025-12-30.json) |
 | 📄 2025-12-29 | 7 | [View JSON](data/daily/2025-12-29.json) |
-| 📄 2025-12-28 | 7 | [View JSON](data/daily/2025-12-28.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W00 | 34 | [View JSON](data/weekly/2026-W00.json) |
+| 📅 2026-W00 | 41 | [View JSON](data/weekly/2026-W00.json) |
 | 📅 2025-W52 | 52 | [View JSON](data/weekly/2025-W52.json) |
 | 📅 2025-W51 | 132 | [View JSON](data/weekly/2025-W51.json) |
 | 📅 2025-W50 | 230 | [View JSON](data/weekly/2025-W50.json) |
@@ -247,7 +247,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-01 | 34 | [View JSON](data/monthly/2026-01.json) |
+| 🗓️ 2026-01 | 41 | [View JSON](data/monthly/2026-01.json) |
 | 🗓️ 2025-12 | 787 | [View JSON](data/monthly/2025-12.json) |
 
 ---
