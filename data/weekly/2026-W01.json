@@ -144,5 +144,271 @@
       "scraped_at": "2026-01-05T02:00:11.922915"
     },
     "scraped_date": "2026-01-05"
+  },
+  {
+    "title": "Youtu-Agent: Scaling Agent Productivity with Automated Generation and Hybrid Policy Optimization",
+    "paper_url": "https://huggingface.co/papers/2512.24615",
+    "authors": [],
+    "stars": "4.1k",
+    "details": {
+      "title": "Youtu-Agent: Scaling Agent Productivity with Automated Generation and Hybrid Policy Optimization",
+      "abstract": "LONG wait. Youtu-Agent ( https://github.com/TencentCloudADP/Youtu-agent ) now releases its technical report with two major updates, i.e., Automated Generation and Hybrid Policy Optimization. Additionally, we've launched Youtu-Tip ( https://github.com/TencentCloudADP/youtu-tip ), a more user-friendly application that runs on macOS. Check them out and have fun!",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.24615",
+      "pdf_url": "https://arxiv.org/pdf/2512.24615",
+      "github_links": [
+        "https://github.com/TencentCloudADP/youtu-tip",
+        "https://github.com/TencentCloudADP/youtu-agent",
+        "https://github.com/TencentCloudADP/Youtu-agent"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.24615",
+      "scraped_at": "2026-01-06T01:50:51.163830"
+    },
+    "scraped_date": "2026-01-06"
+  },
+  {
+    "title": "NeoVerse: Enhancing 4D World Model with in-the-wild Monocular Videos",
+    "paper_url": "https://huggingface.co/papers/2601.00393",
+    "authors": [
+      "Feng Wang",
+      "Junran Peng",
+      "renshengjihe",
+      "Abyssaledge",
+      "Yuppie1204"
+    ],
+    "stars": "124",
+    "details": {
+      "title": "NeoVerse: Enhancing 4D World Model with in-the-wild Monocular Videos",
+      "abstract": "NeoVerse is a versatile 4D world model that is capable of 4D reconstruction, novel-trajectory video generation, and rich downstream applications. Project page: https://neoverse-4d.github.io",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.00393",
+      "pdf_url": "https://arxiv.org/pdf/2601.00393",
+      "github_links": [
+        "https://github.com/IamCreateAI/NeoVerse"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.00393",
+      "scraped_at": "2026-01-06T01:50:53.205658"
+    },
+    "scraped_date": "2026-01-06"
+  },
+  {
+    "title": "Avatar Forcing: Real-Time Interactive Head Avatar Generation for Natural Conversation",
+    "paper_url": "https://huggingface.co/papers/2601.00664",
+    "authors": [
+      "Sung Ju Hwang",
+      "Jaehyeong Jo",
+      "Sangwon Jang",
+      "jaehong31",
+      "taekyungki"
+    ],
+    "stars": "65",
+    "details": {
+      "title": "Avatar Forcing: Real-Time Interactive Head Avatar Generation for Natural Conversation",
+      "abstract": "arXiv explained breakdown of this paper 👉 https://arxivexplained.com/papers/avatar-forcing-real-time-interactive-head-avatar-generation-for-natural-conversation",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.00664",
+      "pdf_url": "https://arxiv.org/pdf/2601.00664",
+      "github_links": [
+        "https://github.com/TaekyungKi/AvatarForcing"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.00664",
+      "scraped_at": "2026-01-06T01:50:55.077779"
+    },
+    "scraped_date": "2026-01-06"
+  },
+  {
+    "title": "SenseNova-MARS: Empowering Multimodal Agentic Reasoning and Search via Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2512.24330",
+    "authors": [],
+    "stars": "24",
+    "details": {
+      "title": "SenseNova-MARS: Empowering Multimodal Agentic Reasoning and Search via Reinforcement Learning",
+      "abstract": "While Vision-Language Models (VLMs) can solve complex tasks through agentic reasoning, their capabilities remain largely constrained to text-oriented chain-of-thought or isolated tool invocation. They fail to exhibit the human-like proficiency required to seamlessly interleave dynamic tool manipulation with continuous reasoning, particularly in knowledge-intensive and visually complex scenarios that demand coordinated external tools such as search and image cropping. In this work, we introduce SenseNova-MARS, a novel Multimodal Agentic Reasoning and Search framework that empowers VLMs with interleaved visual reasoning and tool-use capabilities via reinforcement learning (RL). Specifically, SenseNova-MARS dynamically integrates the image search, text search, and image crop tools to tackle fine-grained and knowledge-intensive visual understanding challenges. In the RL stage, we propose the Batch-Normalized Group Sequence Policy Optimization (BN-GSPO) algorithm to improve the training stability and advance the model's ability to invoke tools and reason effectively. To comprehensively evaluate the agentic VLMs on complex visual tasks, we introduce the HR-MMSearch benchmark, the first search-oriented benchmark composed of high-resolution images with knowledge-intensive and search-driven questions. Experiments demonstrate that SenseNova-MARS achieves state-of-the-art performance on open-source search and fine-grained image understanding benchmarks. Specifically, on search-oriented benchmarks, SenseNova-MARS-8B scores 67.84 on MMSearch and 41.64 on HR-MMSearch, surpassing proprietary models such as Gemini-3-Flash and GPT-5. SenseNova-MARS represents a promising step toward agentic VLMs by providing effective and robust tool-use capabilities. To facilitate further research in this field, we will release all code, models, and datasets.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.24330",
+      "pdf_url": "https://arxiv.org/pdf/2512.24330",
+      "github_links": [
+        "https://github.com/OpenSenseNova/SenseNova-MARS"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.24330",
+      "scraped_at": "2026-01-06T01:50:56.907809"
+    },
+    "scraped_date": "2026-01-06"
+  },
+  {
+    "title": "Taming Hallucinations: Boosting MLLMs' Video Understanding via Counterfactual Video Generation",
+    "paper_url": "https://huggingface.co/papers/2512.24271",
+    "authors": [],
+    "stars": "29",
+    "details": {
+      "title": "Taming Hallucinations: Boosting MLLMs' Video Understanding via Counterfactual Video Generation",
+      "abstract": "An interesting work! github: https://github.com/AMAP-ML/Taming-Hallucinations",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.24271",
+      "pdf_url": "https://arxiv.org/pdf/2512.24271",
+      "github_links": [
+        "https://github.com/AMAP-ML/Taming-Hallucinations"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.24271",
+      "scraped_at": "2026-01-06T01:50:58.822184"
+    },
+    "scraped_date": "2026-01-06"
+  },
+  {
+    "title": "AdaGaR: Adaptive Gabor Representation for Dynamic Scene Reconstruction",
+    "paper_url": "https://huggingface.co/papers/2601.00796",
+    "authors": [
+      "Yu-Lun Liu",
+      "Zhenjun Zhao",
+      "Jiewen Chan"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AdaGaR: Adaptive Gabor Representation for Dynamic Scene Reconstruction",
+      "abstract": "Reconstructing dynamic 3D scenes from monocular videos requires simultaneously capturing high-frequency appearance details and temporally continuous motion. Existing methods using single Gaussian primitives are limited by their low-pass filtering nature, while standard Gabor functions introduce energy instability. Moreover, lack of temporal continuity constraints often leads to motion artifacts during interpolation. We propose AdaGaR, a unified framework addressing both frequency adaptivity and temporal continuity in explicit dynamic scene modeling. We introduce Adaptive Gabor Representation, extending Gaussians through learnable frequency weights and adaptive energy compensation to balance detail capture and stability. For temporal continuity, we employ Cubic Hermite Splines with Temporal Curvature Regularization to ensure smooth motion evolution. An Adaptive Initialization mechanism combining depth estimation, point tracking, and foreground masks establishes stable point cloud distributions in early training. Experiments on Tap-Vid DAVIS demonstrate state-of-the-art performance (PSNR 35.49, SSIM 0.9433, LPIPS 0.0723) and strong generalization across frame interpolation, depth consistency, video editing, and stereo view synthesis.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.00796",
+      "pdf_url": "https://arxiv.org/pdf/2601.00796",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.00796",
+      "scraped_at": "2026-01-06T01:51:00.710791"
+    },
+    "scraped_date": "2026-01-06"
+  },
+  {
+    "title": "Deep Delta Learning",
+    "paper_url": "https://huggingface.co/papers/2601.00417",
+    "authors": [],
+    "stars": "234",
+    "details": {
+      "title": "Deep Delta Learning",
+      "abstract": "The efficacy of deep residual networks is fundamentally predicated on the identity shortcut connection. While this mechanism effectively mitigates the vanishing gradient problem, it imposes a strictly additive inductive bias on feature transformations, thereby limiting the network's capacity to model complex state transitions. In this paper, we introduce Deep Delta Learning (DDL), a novel architecture that generalizes the standard residual connection by modulating the identity shortcut with a learnable, data-dependent geometric transformation. This transformation, termed the Delta Operator, constitutes a rank-1 perturbation of the identity matrix, parameterized by a reflection direction vector k(X) and a gating scalar β(X). We provide a spectral analysis of this operator, demonstrating that the gate β(X) enables dynamic interpolation between identity mapping, orthogonal projection, and geometric reflection. Furthermore, we restructure the residual update as a synchronous rank-1 injection, where the gate acts as a dynamic step size governing both the erasure of old information and the writing of new features. This unification empowers the network to explicitly control the spectrum of its layer-wise transition operator, enabling the modeling of complex, non-monotonic dynamics while preserving the stable training characteristics of gated residual architectures.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.00417",
+      "pdf_url": "https://arxiv.org/pdf/2601.00417",
+      "github_links": [
+        "https://github.com/yifanzhang-pro/deep-delta-learning"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.00417",
+      "scraped_at": "2026-01-06T01:51:02.670038"
+    },
+    "scraped_date": "2026-01-06"
+  },
+  {
+    "title": "Nested Learning: The Illusion of Deep Learning Architectures",
+    "paper_url": "https://huggingface.co/papers/2512.24695",
+    "authors": [
+      "Vahab Mirrokni",
+      "Peilin Zhong",
+      "Meisam Razaviyayn",
+      "AliBehrouz"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Nested Learning: The Illusion of Deep Learning Architectures",
+      "abstract": "Nested Learning (NL) is a new learning paradigm for continual learning and machine learning in general.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.24695",
+      "pdf_url": "https://arxiv.org/pdf/2512.24695",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.24695",
+      "scraped_at": "2026-01-06T01:51:04.593752"
+    },
+    "scraped_date": "2026-01-06"
+  },
+  {
+    "title": "The Reasoning-Creativity Trade-off: Toward Creativity-Driven Problem Solving",
+    "paper_url": "https://huggingface.co/papers/2601.00747",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "The Reasoning-Creativity Trade-off: Toward Creativity-Driven Problem Solving",
+      "abstract": "For those of you interested in RLVR, here is a paper that formally characterizes the mechanism behind \"diversity collapse\" in reasoning models trained with scalar rewards (such as STaR, GRPO, and DPO). The paper introduces a variational framework based on Shahshahani gradient flow to prove that optimizing solely for correctness inherently erodes the diversity of reasoning paths, leading to a \"reasoning monoculture.\" To address this, they propose Distributional Creative Reasoning (DCR), which incorporates a diversity energy functional (using entropy and kernel-based novelty) into the objective, mathematically guaranteeing the maintenance of a diverse portfolio of successful reasoning strategies while still optimizing for utility.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.00747",
+      "pdf_url": "https://arxiv.org/pdf/2601.00747",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.00747",
+      "scraped_at": "2026-01-06T01:51:06.385822"
+    },
+    "scraped_date": "2026-01-06"
+  },
+  {
+    "title": "Diversity or Precision? A Deep Dive into Next Token Prediction",
+    "paper_url": "https://huggingface.co/papers/2512.22955",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Diversity or Precision? A Deep Dive into Next Token Prediction",
+      "abstract": "Recent advancements have shown that reinforcement learning (RL) can substantially improve the reasoning abilities of large language models (LLMs).  The effectiveness of such RL training, however, depends critically on the exploration space defined by the pre-trained model's token-output distribution. In this paper, we revisit the standard cross-entropy loss, interpreting it as a specific instance of policy gradient optimization applied within a single-step episode.  To systematically study how the pre-trained distribution shapes the exploration potential for subsequent RL, we propose a generalized pre-training objective that adapts on-policy RL principles to supervised learning.  By framing next-token prediction as a stochastic decision process, we introduce a reward-shaping strategy that explicitly balances diversity and precision.  Our method employs a positive reward scaling factor to control probability concentration on ground-truth tokens and a rank-aware mechanism that treats high-ranking and low-ranking negative tokens asymmetrically. This allows us to reshape the pre-trained token-output distribution and investigate how to provide a more favorable exploration space for RL, ultimately enhancing end-to-end reasoning performance. Contrary to the intuition that higher distribution entropy facilitates effective exploration, we find that imposing a precision-oriented prior yields a superior exploration space for RL.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.22955",
+      "pdf_url": "https://arxiv.org/pdf/2512.22955",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.22955",
+      "scraped_at": "2026-01-06T01:51:08.307456"
+    },
+    "scraped_date": "2026-01-06"
+  },
+  {
+    "title": "Fast-weight Product Key Memory",
+    "paper_url": "https://huggingface.co/papers/2601.00671",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Fast-weight Product Key Memory",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Trellis: Learning to Compress Key-Value Memory in Attention Models (2025) TNT: Improving Chunkwise Training for Test-Time Memorization (2025) GatedFWA: Linear Flash Windowed Attention with Gated Associative Memory (2025) MIDUS: Memory-Infused Depth Up-Scaling (2025) Every Token Counts: Generalizing 16M Ultra-Long Context in Large Language Models (2025) InfiniteVL: Synergizing Linear and Sparse Attention for Highly-Efficient, Unlimited-Input Vision-Language Models (2025) BudgetMem: Learning Selective Memory Policies for Cost-Efficient Long-Context Processing in Language Models (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.00671",
+      "pdf_url": "https://arxiv.org/pdf/2601.00671",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.00671",
+      "scraped_at": "2026-01-06T01:51:10.101023"
+    },
+    "scraped_date": "2026-01-06"
+  },
+  {
+    "title": "InfoSynth: Information-Guided Benchmark Synthesis for LLMs",
+    "paper_url": "https://huggingface.co/papers/2601.00575",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "InfoSynth: Information-Guided Benchmark Synthesis for LLMs",
+      "abstract": "Project Page: https://ishirgarg.github.io/infosynth_web/ Code: https://github.com/ishirgarg/infosynth Dataset: https://huggingface.co/datasets/ishirgarg/InfoSynth",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.00575",
+      "pdf_url": "https://arxiv.org/pdf/2601.00575",
+      "github_links": [
+        "https://github.com/ishirgarg/infosynth"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.00575",
+      "scraped_at": "2026-01-06T01:51:12.005175"
+    },
+    "scraped_date": "2026-01-06"
+  },
+  {
+    "title": "MorphAny3D: Unleashing the Power of Structured Latent in 3D Morphing",
+    "paper_url": "https://huggingface.co/papers/2601.00204",
+    "authors": [
+      "Jian Yang",
+      "Ying Tai",
+      "Hao Tang",
+      "Zeyu Cai",
+      "XiaokunSun"
+    ],
+    "stars": "19",
+    "details": {
+      "title": "MorphAny3D: Unleashing the Power of Structured Latent in 3D Morphing",
+      "abstract": "3D morphing remains challenging due to the difficulty of generating semantically consistent and temporally smooth deformations, especially across categories. We present MorphAny3D, a training-free framework that leverages Structured Latent (SLAT) representations for high-quality 3D morphing. Our key insight is that intelligently blending source and target SLAT features within the attention mechanisms of 3D generators naturally produces plausible morphing sequences. To this end, we introduce Morphing Cross-Attention (MCA), which fuses source and target information for structural coherence, and Temporal-Fused Self-Attention (TFSA), which enhances temporal consistency by incorporating features from preceding frames. An orientation correction strategy further mitigates the pose ambiguity within the morphing steps. Extensive experiments show that our method generates state-of-the-art morphing sequences, even for challenging cross-category cases. MorphAny3D further supports advanced applications such as decoupled morphing and 3D style transfer, and can be generalized to other SLAT-based generative models. Project page: https://xiaokunsun.github.io/MorphAny3D.github.io Code: https://github.com/XiaokunSun/MorphAny3D",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.00204",
+      "pdf_url": "https://arxiv.org/pdf/2601.00204",
+      "github_links": [
+        "https://github.com/XiaokunSun/MorphAny3D"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.00204",
+      "scraped_at": "2026-01-06T01:51:13.858117"
+    },
+    "scraped_date": "2026-01-06"
   }
 ]

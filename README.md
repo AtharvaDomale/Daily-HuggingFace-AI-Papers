@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-7-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-786+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-13-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-799+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">7</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">7</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">48</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">786+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">13</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">20</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">61</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">799+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** January 05, 2026
+**Last Updated:** January 06, 2026
 
 ---
 
@@ -119,93 +119,171 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Improving Multi-step RAG with Hypergraph-based Memory for Long-Context Complex Relational Modeling</b> ⭐ 26</summary>
+<summary><b>1. Youtu-Agent: Scaling Agent Productivity with Automated Generation and Hybrid Policy Optimization</b> ⭐ 4.1k</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.23959) • [📄 arXiv](https://arxiv.org/abs/2512.23959) • [📥 PDF](https://arxiv.org/pdf/2512.23959)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.24615) • [📄 arXiv](https://arxiv.org/abs/2512.24615) • [📥 PDF](https://arxiv.org/pdf/2512.24615)
 
-**💻 Code:** [⭐ Code](https://github.com/Encyclomen/HGMem)
+**💻 Code:** [⭐ Code](https://github.com/TencentCloudADP/youtu-tip) • [⭐ Code](https://github.com/TencentCloudADP/youtu-agent) • [⭐ Code](https://github.com/TencentCloudADP/Youtu-agent)
 
-> Code released at: https://github.com/Encyclomen/HGMem
+> LONG wait. Youtu-Agent ( https://github.com/TencentCloudADP/Youtu-agent ) now releases its technical report with two major updates, i.e., Automated Generation and Hybrid Policy Optimization. Additionally, we've launched Youtu-Tip ( https://github....
 
 </details>
 
 <details>
-<summary><b>2. Dynamic Large Concept Models: Latent Reasoning in an Adaptive Semantic Space</b> ⭐ 0</summary>
+<summary><b>2. NeoVerse: Enhancing 4D World Model with in-the-wild Monocular Videos</b> ⭐ 124</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.24617) • [📄 arXiv](https://arxiv.org/abs/2512.24617) • [📥 PDF](https://arxiv.org/pdf/2512.24617)
+**👥 Authors:** Feng Wang, Junran Peng, renshengjihe, Abyssaledge, Yuppie1204
 
-> Dynamic Large Concept Models (DLCM) introduce an end-to-end trained concept-level language modeling architecture that breaks the token-uniform computation paradigm in modern LLMs. Inspired by hierarchical models such as H-Net, DLCM learns semantic...
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.00393) • [📄 arXiv](https://arxiv.org/abs/2601.00393) • [📥 PDF](https://arxiv.org/pdf/2601.00393)
+
+**💻 Code:** [⭐ Code](https://github.com/IamCreateAI/NeoVerse)
+
+> NeoVerse is a versatile 4D world model that is capable of 4D reconstruction, novel-trajectory video generation, and rich downstream applications. Project page: https://neoverse-4d.github.io
 
 </details>
 
 <details>
-<summary><b>3. DiffThinker: Towards Generative Multimodal Reasoning with Diffusion Models</b> ⭐ 61</summary>
+<summary><b>3. Avatar Forcing: Real-Time Interactive Head Avatar Generation for Natural Conversation</b> ⭐ 65</summary>
 
 <br/>
 
-**👥 Authors:** Siyuan Huang, Yafu Li, Xiaoye Qu, Spico, yhx12
+**👥 Authors:** Sung Ju Hwang, Jaehyeong Jo, Sangwon Jang, jaehong31, taekyungki
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.24165) • [📄 arXiv](https://arxiv.org/abs/2512.24165) • [📥 PDF](https://arxiv.org/pdf/2512.24165)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.00664) • [📄 arXiv](https://arxiv.org/abs/2601.00664) • [📥 PDF](https://arxiv.org/pdf/2601.00664)
 
-**💻 Code:** [⭐ Code](https://github.com/lcqysl/DiffThinker)
+**💻 Code:** [⭐ Code](https://github.com/TaekyungKi/AvatarForcing)
 
-> TLDR: A new paradigm for multi-modal reasoning with image-to-image generation. Diffusion could think too!
+> arXiv explained breakdown of this paper 👉 https://arxivexplained.com/papers/avatar-forcing-real-time-interactive-head-avatar-generation-for-natural-conversation
 
 </details>
 
 <details>
-<summary><b>4. On the Role of Discreteness in Diffusion LLMs</b> ⭐ 0</summary>
+<summary><b>4. SenseNova-MARS: Empowering Multimodal Agentic Reasoning and Search via Reinforcement Learning</b> ⭐ 24</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.22630) • [📄 arXiv](https://arxiv.org/abs/2512.22630) • [📥 PDF](https://arxiv.org/pdf/2512.22630)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.24330) • [📄 arXiv](https://arxiv.org/abs/2512.24330) • [📥 PDF](https://arxiv.org/pdf/2512.24330)
 
-> TL;DR: We identify two core failure modes in current large diffusion LLMs: uniform corruption ignores where information lives in a sentence, and token-wise marginal training struggles with multi-token dependencies during parallel decoding.
+**💻 Code:** [⭐ Code](https://github.com/OpenSenseNova/SenseNova-MARS)
+
+> While Vision-Language Models (VLMs) can solve complex tasks through agentic reasoning, their capabilities remain largely constrained to text-oriented chain-of-thought or isolated tool invocation. They fail to exhibit the human-like proficiency req...
 
 </details>
 
 <details>
-<summary><b>5. Dream2Flow: Bridging Video Generation and Open-World Manipulation with 3D Object Flow</b> ⭐ 0</summary>
+<summary><b>5. Taming Hallucinations: Boosting MLLMs' Video Understanding via Counterfactual Video Generation</b> ⭐ 29</summary>
 
 <br/>
 
-**👥 Authors:** Ruohan Zhang, Li Fei-Fei, Jiajun Wu, Wenlong Huang, Karthik Dharmarajan
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.24271) • [📄 arXiv](https://arxiv.org/abs/2512.24271) • [📥 PDF](https://arxiv.org/pdf/2512.24271)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.24766) • [📄 arXiv](https://arxiv.org/abs/2512.24766) • [📥 PDF](https://arxiv.org/pdf/2512.24766)
+**💻 Code:** [⭐ Code](https://github.com/AMAP-ML/Taming-Hallucinations)
 
-> No abstract available.
+> An interesting work! github: https://github.com/AMAP-ML/Taming-Hallucinations
 
 </details>
 
 <details>
-<summary><b>6. FlowBlending: Stage-Aware Multi-Model Sampling for Fast and High-Fidelity Video Generation</b> ⭐ 0</summary>
+<summary><b>6. AdaGaR: Adaptive Gabor Representation for Dynamic Scene Reconstruction</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Youngjung Uh, Jaeseok Jeong, Mingi Kwon, Jibin Song
+**👥 Authors:** Yu-Lun Liu, Zhenjun Zhao, Jiewen Chan
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.24724) • [📄 arXiv](https://arxiv.org/abs/2512.24724) • [📥 PDF](https://arxiv.org/pdf/2512.24724)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.00796) • [📄 arXiv](https://arxiv.org/abs/2601.00796) • [📥 PDF](https://arxiv.org/pdf/2601.00796)
 
-> No abstract available.
+> Reconstructing dynamic 3D scenes from monocular videos requires simultaneously capturing high-frequency appearance details and temporally continuous motion. Existing methods using single Gaussian primitives are limited by their low-pass filtering ...
 
 </details>
 
 <details>
-<summary><b>7. TESO Tabu Enhanced Simulation Optimization for Noisy Black Box Problems</b> ⭐ 4</summary>
+<summary><b>7. Deep Delta Learning</b> ⭐ 234</summary>
 
 <br/>
 
-**👥 Authors:** Ghaith Rabadi, Sean Mondesire, Bulent Soykan
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.00417) • [📄 arXiv](https://arxiv.org/abs/2601.00417) • [📥 PDF](https://arxiv.org/pdf/2601.00417)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.24007) • [📄 arXiv](https://arxiv.org/abs/2512.24007) • [📥 PDF](https://arxiv.org/pdf/2512.24007)
+**💻 Code:** [⭐ Code](https://github.com/yifanzhang-pro/deep-delta-learning)
 
-**💻 Code:** [⭐ Code](https://github.com/bulentsoykan/TESO)
+> The efficacy of deep residual networks is fundamentally predicated on the identity shortcut connection. While this mechanism effectively mitigates the vanishing gradient problem, it imposes a strictly additive inductive bias on feature transformat...
 
-> Simulation optimization (SO) is frequently challenged by noisy evaluations, high computational costs, and complex, multimodal search landscapes. This paper introduces Tabu-Enhanced Simulation Optimization (TESO), a novel metaheuristic framework in...
+</details>
+
+<details>
+<summary><b>8. Nested Learning: The Illusion of Deep Learning Architectures</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Vahab Mirrokni, Peilin Zhong, Meisam Razaviyayn, AliBehrouz
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.24695) • [📄 arXiv](https://arxiv.org/abs/2512.24695) • [📥 PDF](https://arxiv.org/pdf/2512.24695)
+
+> Nested Learning (NL) is a new learning paradigm for continual learning and machine learning in general.
+
+</details>
+
+<details>
+<summary><b>9. The Reasoning-Creativity Trade-off: Toward Creativity-Driven Problem Solving</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.00747) • [📄 arXiv](https://arxiv.org/abs/2601.00747) • [📥 PDF](https://arxiv.org/pdf/2601.00747)
+
+> For those of you interested in RLVR, here is a paper that formally characterizes the mechanism behind "diversity collapse" in reasoning models trained with scalar rewards (such as STaR, GRPO, and DPO). The paper introduces a variational framework ...
+
+</details>
+
+<details>
+<summary><b>10. Diversity or Precision? A Deep Dive into Next Token Prediction</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.22955) • [📄 arXiv](https://arxiv.org/abs/2512.22955) • [📥 PDF](https://arxiv.org/pdf/2512.22955)
+
+> Recent advancements have shown that reinforcement learning (RL) can substantially improve the reasoning abilities of large language models (LLMs).  The effectiveness of such RL training, however, depends critically on the exploration space defined...
+
+</details>
+
+<details>
+<summary><b>11. Fast-weight Product Key Memory</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.00671) • [📄 arXiv](https://arxiv.org/abs/2601.00671) • [📥 PDF](https://arxiv.org/pdf/2601.00671)
+
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Trellis: Learning to Compress Key-Value Memory in Attention Models (2025) T...
+
+</details>
+
+<details>
+<summary><b>12. InfoSynth: Information-Guided Benchmark Synthesis for LLMs</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.00575) • [📄 arXiv](https://arxiv.org/abs/2601.00575) • [📥 PDF](https://arxiv.org/pdf/2601.00575)
+
+**💻 Code:** [⭐ Code](https://github.com/ishirgarg/infosynth)
+
+> Project Page: https://ishirgarg.github.io/infosynth_web/ Code: https://github.com/ishirgarg/infosynth Dataset: https://huggingface.co/datasets/ishirgarg/InfoSynth
+
+</details>
+
+<details>
+<summary><b>13. MorphAny3D: Unleashing the Power of Structured Latent in 3D Morphing</b> ⭐ 19</summary>
+
+<br/>
+
+**👥 Authors:** Jian Yang, Ying Tai, Hao Tang, Zeyu Cai, XiaokunSun
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.00204) • [📄 arXiv](https://arxiv.org/abs/2601.00204) • [📥 PDF](https://arxiv.org/pdf/2601.00204)
+
+**💻 Code:** [⭐ Code](https://github.com/XiaokunSun/MorphAny3D)
+
+> 3D morphing remains challenging due to the difficulty of generating semantically consistent and temporally smooth deformations, especially across categories. We present MorphAny3D, a training-free framework that leverages Structured Latent (SLAT) ...
 
 </details>
 
@@ -217,28 +295,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 7 |
-| 📅 Today | [`2026-01-05.json`](data/daily/2026-01-05.json) | 7 |
-| 📆 This Week | [`2026-W01.json`](data/weekly/2026-W01.json) | 7 |
-| 🗓️ This Month | [`2026-01.json`](data/monthly/2026-01.json) | 48 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 13 |
+| 📅 Today | [`2026-01-06.json`](data/daily/2026-01-06.json) | 13 |
+| 📆 This Week | [`2026-W01.json`](data/weekly/2026-W01.json) | 20 |
+| 🗓️ This Month | [`2026-01.json`](data/monthly/2026-01.json) | 61 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-01-05 | 7 | [View JSON](data/daily/2026-01-05.json) |
+| 📌 2026-01-06 | 13 | [View JSON](data/daily/2026-01-06.json) |
+| 📄 2026-01-05 | 7 | [View JSON](data/daily/2026-01-05.json) |
 | 📄 2026-01-04 | 7 | [View JSON](data/daily/2026-01-04.json) |
 | 📄 2026-01-03 | 7 | [View JSON](data/daily/2026-01-03.json) |
 | 📄 2026-01-02 | 20 | [View JSON](data/daily/2026-01-02.json) |
 | 📄 2026-01-01 | 7 | [View JSON](data/daily/2026-01-01.json) |
 | 📄 2025-12-31 | 31 | [View JSON](data/daily/2025-12-31.json) |
-| 📄 2025-12-30 | 14 | [View JSON](data/daily/2025-12-30.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W01 | 7 | [View JSON](data/weekly/2026-W01.json) |
+| 📅 2026-W01 | 20 | [View JSON](data/weekly/2026-W01.json) |
 | 📅 2026-W00 | 41 | [View JSON](data/weekly/2026-W00.json) |
 | 📅 2025-W52 | 52 | [View JSON](data/weekly/2025-W52.json) |
 | 📅 2025-W51 | 132 | [View JSON](data/weekly/2025-W51.json) |
@@ -247,7 +325,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-01 | 48 | [View JSON](data/monthly/2026-01.json) |
+| 🗓️ 2026-01 | 61 | [View JSON](data/monthly/2026-01.json) |
 | 🗓️ 2025-12 | 787 | [View JSON](data/monthly/2025-12.json) |
 
 ---
