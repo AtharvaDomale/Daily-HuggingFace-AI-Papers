@@ -1266,5 +1266,503 @@
       "scraped_at": "2026-01-06T01:51:13.858117"
     },
     "scraped_date": "2026-01-06"
+  },
+  {
+    "title": "Can LLMs Predict Their Own Failures? Self-Awareness via Internal Circuits",
+    "paper_url": "https://huggingface.co/papers/2512.20578",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "Can LLMs Predict Their Own Failures? Self-Awareness via Internal Circuits",
+      "abstract": "Can Large Language Models predict their own failures? 🧠⚡ We all know the critical bottleneck in GenAI: LLMs are incredible, but they can confidently hallucinate and make mistakes. Until now, most fixes have been computationally massive — relying on expensive external judges, huge reward models, or costly training to make the LLM itself more robust. This brings us to two fundamental questions: ❓ Do LLMs recognize when they're making mistakes? ❓ Can we make them self-aware about their own failures? 🚀 Introducing Gnosis: A lightweight self-awareness mechanism for frozen LLMs. Named after the Greek word for knowledge/insight, Gnosis gives LLMs a form of introspection. We add only ~5M parameters to enable a frozen LLM to verify its own outputs by decoding internal hidden states + attention patterns during inference — with negligible overhead and no external judge . The results challenge the classic efficiency–accuracy trade-off: 🏆 Superior performance across domains Despite being orders of magnitude smaller, Gnosis can outperform strong 8B reward models and proprietary judges like Gemini 2.5 Pro on both multi-step reasoning and factual/parametric knowledge QA (e.g., TriviaQA), across multiple backbones. ⚡ Real-time early failure detection Gnosis doesn’t need to wait for the final token. By monitoring the generation trajectory in real time, it can predict an error before the model finishes — enabling early stopping, preventing bad outputs from reaching users, and saving significant compute. This suggests something important: the model often already contains signals of impending failure during generation — we just needed the right mechanism to read them. 👇 code + models: 💻 Code: https://github.com/Amirhosein-gh98/Gnosis",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.20578",
+      "pdf_url": "https://arxiv.org/pdf/2512.20578",
+      "github_links": [
+        "https://github.com/Amirhosein-gh98/Gnosis"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.20578",
+      "scraped_at": "2026-01-07T01:50:17.166637"
+    },
+    "scraped_date": "2026-01-07"
+  },
+  {
+    "title": "NextFlow: Unified Sequential Modeling Activates Multimodal Understanding and Generation",
+    "paper_url": "https://huggingface.co/papers/2601.02204",
+    "authors": [],
+    "stars": "60",
+    "details": {
+      "title": "NextFlow: Unified Sequential Modeling Activates Multimodal Understanding and Generation",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.02204",
+      "pdf_url": "https://arxiv.org/pdf/2601.02204",
+      "github_links": [
+        "https://github.com/ByteVisionLab/NextFlow"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.02204",
+      "scraped_at": "2026-01-07T01:50:19.105092"
+    },
+    "scraped_date": "2026-01-07"
+  },
+  {
+    "title": "K-EXAONE Technical Report",
+    "paper_url": "https://huggingface.co/papers/2601.01739",
+    "authors": [],
+    "stars": "39",
+    "details": {
+      "title": "K-EXAONE Technical Report",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Nanbeige4-3B Technical Report: Exploring the Frontier of Small Language Models (2025) T-pro 2.0: An Efficient Russian Hybrid-Reasoning Model and Playground (2025) MiniLingua: A Small Open-Source LLM for European Languages (2025) DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models (2025) Gamayun's Path to Multilingual Mastery: Cost-Efficient Training of a 1.5B-Parameter LLM (2025) Persian-Phi: Efficient Cross-Lingual Adaptation of Compact LLMs via Curriculum Learning (2025) Every Token Counts: Generalizing 16M Ultra-Long Context in Large Language Models (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.01739",
+      "pdf_url": "https://arxiv.org/pdf/2601.01739",
+      "github_links": [
+        "https://github.com/LG-AI-EXAONE/K-EXAONE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.01739",
+      "scraped_at": "2026-01-07T01:50:21.012374"
+    },
+    "scraped_date": "2026-01-07"
+  },
+  {
+    "title": "DreamID-V:Bridging the Image-to-Video Gap for High-Fidelity Face Swapping via Diffusion Transformer",
+    "paper_url": "https://huggingface.co/papers/2601.01425",
+    "authors": [],
+    "stars": "86",
+    "details": {
+      "title": "DreamID-V:Bridging the Image-to-Video Gap for High-Fidelity Face Swapping via Diffusion Transformer",
+      "abstract": "We introduce DreamID-V, the first Diffusion Transformer-based framework for high-fidelity video face swapping. DreamID-V bridges the gap between image and video domains, achieving exceptional identity similarity and temporal coherence even in challenging scenarios. Our code : https://github.com/bytedance/DreamID-V Our project : https://guoxu1233.github.io/DreamID-V/",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.01425",
+      "pdf_url": "https://arxiv.org/pdf/2601.01425",
+      "github_links": [
+        "https://github.com/bytedance/DreamID-V"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.01425",
+      "scraped_at": "2026-01-07T01:50:22.967886"
+    },
+    "scraped_date": "2026-01-07"
+  },
+  {
+    "title": "VAR RL Done Right: Tackling Asynchronous Policy Conflicts in Visual Autoregressive Generation",
+    "paper_url": "https://huggingface.co/papers/2601.02256",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "VAR RL Done Right: Tackling Asynchronous Policy Conflicts in Visual Autoregressive Generation",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.02256",
+      "pdf_url": "https://arxiv.org/pdf/2601.02256",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.02256",
+      "scraped_at": "2026-01-07T01:50:24.885134"
+    },
+    "scraped_date": "2026-01-07"
+  },
+  {
+    "title": "GARDO: Reinforcing Diffusion Models without Reward Hacking",
+    "paper_url": "https://huggingface.co/papers/2512.24138",
+    "authors": [
+      "Zhiyong Wang",
+      "Jiajun Liang",
+      "Jie Liu",
+      "Yuxiao Ye",
+      "Haoran He"
+    ],
+    "stars": "18",
+    "details": {
+      "title": "GARDO: Reinforcing Diffusion Models without Reward Hacking",
+      "abstract": "Introducing GARDO: Reinforcing Diffusion Models without Reward Hacking paper: https://arxiv.org/abs/2512.24138 code: https://github.com/tinnerhrhe/gardo project: https://tinnerhrhe.github.io/gardo_project/",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.24138",
+      "pdf_url": "https://arxiv.org/pdf/2512.24138",
+      "github_links": [
+        "https://github.com/tinnerhrhe/GARDO",
+        "https://github.com/tinnerhrhe/gardo"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.24138",
+      "scraped_at": "2026-01-07T01:50:26.781382"
+    },
+    "scraped_date": "2026-01-07"
+  },
+  {
+    "title": "VINO: A Unified Visual Generator with Interleaved OmniModal Context",
+    "paper_url": "https://huggingface.co/papers/2601.02358",
+    "authors": [
+      "Kun Gai",
+      "Pengfei Wan",
+      "Zhoujie Fu",
+      "Tong He",
+      "Junyi Chen"
+    ],
+    "stars": "42",
+    "details": {
+      "title": "VINO: A Unified Visual Generator with Interleaved OmniModal Context",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.02358",
+      "pdf_url": "https://arxiv.org/pdf/2601.02358",
+      "github_links": [
+        "https://github.com/SOTAMak1r/VINO-code"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.02358",
+      "scraped_at": "2026-01-07T01:50:28.658298"
+    },
+    "scraped_date": "2026-01-07"
+  },
+  {
+    "title": "InfiniteVGGT: Visual Geometry Grounded Transformer for Endless Streams",
+    "paper_url": "https://huggingface.co/papers/2601.02281",
+    "authors": [],
+    "stars": "76",
+    "details": {
+      "title": "InfiniteVGGT: Visual Geometry Grounded Transformer for Endless Streams",
+      "abstract": "The grand vision of enabling persistent, large-scale 3D visual geometry understanding is shackled by the irreconcilable demands of scalability and long-term stability. While offline models like VGGT achieve inspiring geometry capability, their batch-based nature renders them irrelevant for live systems. Streaming architectures, though the intended solution for live operation, have proven inadequate. Existing methods either fail to support truly infinite-horizon inputs or suffer from catastrophic drift over long sequences. We shatter this long-standing dilemma with InfiniteVGGT, a causal visual geometry transformer that operationalizes the concept of a rolling memory through a bounded yet adaptive and perpetually expressive KV cache. Capitalizing on this, we devise a training-free, attention-agnostic pruning strategy that intelligently discards obsolete information, effectively “rolling” the memory forward with each new frame. Fully compatible with FlashAttention, InfiniteVGGT finally alleviates the compromise, enabling infinite-horizon streaming while outperforming existing streaming methods in long-term stability. The ultimate test for such a system is its performance over a truly infinite horizon, a capability that has been impossible to rigorously validate due to the lack of extremely long-term, continuous benchmarks. To address this critical gap, we introduce the Long3D benchmark, which, for the first time, enables a rigorous evaluation of continuous 3D geometry estimation on sequences about 10,000 frames. This provides the definitive evaluation platform for future research in long-term 3D geometry understanding. Code is available at: https://github.com/AutoLab-SAI-SJTU/InfiniteVGGT",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.02281",
+      "pdf_url": "https://arxiv.org/pdf/2601.02281",
+      "github_links": [
+        "https://github.com/AutoLab-SAI-SJTU/InfiniteVGGT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.02281",
+      "scraped_at": "2026-01-07T01:50:30.519682"
+    },
+    "scraped_date": "2026-01-07"
+  },
+  {
+    "title": "Recursive Language Models",
+    "paper_url": "https://huggingface.co/papers/2512.24601",
+    "authors": [],
+    "stars": "675",
+    "details": {
+      "title": "Recursive Language Models",
+      "abstract": "Study allowing large language models (LLMs) to process arbitrarily long prompts through the lens of inference-time scaling. They propose Recursive Language Models (RLMs), a general inference strategy that treats long prompts as part of an external environment and allows the LLM to programmatically examine, decompose, and recursively call itself over snippets of the prompt. They find that RLMs successfully handle inputs up to two orders of magnitude beyond model context windows and, even for shorter prompts, dramatically outperform the quality of base LLMs and common long-context scaffolds across four diverse long-context tasks, while having comparable (or cheaper) cost per query. Some of the observations they found are :- -- LLMs interacting with their own prompts as objects. -- In their approach, a prompt isn’t “run” directly, instead it’s stored as a variable in an external Python REPL, and the language model writes code to inspect /slice/ decompose that long string, observes execution outputs, and then constructs sub-tasks where it recursively invokes an LLM on just the relevant snippets. Stitching the result together when the recursive process ends. So it can solve 10M+ token tasks with far less “context rot” and often lower cost than summarization/RAG, turning long-context scaling into an inference-time algorithm rather than just a bigger context window. -- The ability to search the Prompt is what enables handling long context inputs, sub calls help handle information dense inputs. -- Inference cost of RLMs remain comparable to a base model call but are high variance  because it can keep making sub-calls or iterate if it can't solve the problem initially. -- The key insight is that long prompts should not be fed into the LLM directly, but should instead be treated as part of the environment that the LLM can search, read and interact with as needed for the task.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.24601",
+      "pdf_url": "https://arxiv.org/pdf/2512.24601",
+      "github_links": [
+        "https://github.com/alexzhang13/rlm/tree/main"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.24601",
+      "scraped_at": "2026-01-07T01:50:32.438055"
+    },
+    "scraped_date": "2026-01-07"
+  },
+  {
+    "title": "Falcon-H1R: Pushing the Reasoning Frontiers with a Hybrid Model for Efficient Test-Time Scaling",
+    "paper_url": "https://huggingface.co/papers/2601.02346",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Falcon-H1R: Pushing the Reasoning Frontiers with a Hybrid Model for Efficient Test-Time Scaling",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Motif-2-12.7B-Reasoning: A Practitioner's Guide to RL Training Recipes (2025) AgentMath: Empowering Mathematical Reasoning for Large Language Models via Tool-Augmented Agent (2025) Native Parallel Reasoner: Reasoning in Parallelism via Self-Distilled Reinforcement Learning (2025) CoSineVerifier: Tool-Augmented Answer Verification for Computation-Oriented Scientific Questions (2025) Reassessing the Role of Supervised Fine-Tuning: An Empirical Study in VLM Reasoning (2025) Nanbeige4-3B Technical Report: Exploring the Frontier of Small Language Models (2025) Nemotron-Math: Efficient Long-Context Distillation of Mathematical Reasoning from Multi-Mode Supervision (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.02346",
+      "pdf_url": "https://arxiv.org/pdf/2601.02346",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.02346",
+      "scraped_at": "2026-01-07T01:50:34.314010"
+    },
+    "scraped_date": "2026-01-07"
+  },
+  {
+    "title": "Talk2Move: Reinforcement Learning for Text-Instructed Object-Level Geometric Transformation in Scenes",
+    "paper_url": "https://huggingface.co/papers/2601.02356",
+    "authors": [
+      "Shuo Yang",
+      "Jiarui Cai",
+      "Yantao Shen",
+      "ZyZcuhk",
+      "jingtan"
+    ],
+    "stars": "13",
+    "details": {
+      "title": "Talk2Move: Reinforcement Learning for Text-Instructed Object-Level Geometric Transformation in Scenes",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API VIVA: VLM-Guided Instruction-Based Video Editing with Reward Optimization (2025) LoVoRA: Text-guided and Mask-free Video Object Removal and Addition with Learnable Object-aware Localization (2025) CogniEdit: Dense Gradient Flow Optimization for Fine-Grained Image Editing (2025) PaCo-RL: Advancing Reinforcement Learning for Consistent Image Generation with Pairwise Reward Modeling (2025) ConsistCompose: Unified Multimodal Layout Control for Image Composition (2025) Loom: Diffusion-Transformer for Interleaved Generation (2025) What Happens Next? Next Scene Prediction with a Unified Video Model (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.02356",
+      "pdf_url": "https://arxiv.org/pdf/2601.02356",
+      "github_links": [
+        "https://github.com/sparkstj/Talk2Move"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.02356",
+      "scraped_at": "2026-01-07T01:50:36.191628"
+    },
+    "scraped_date": "2026-01-07"
+  },
+  {
+    "title": "Confidence Estimation for LLMs in Multi-turn Interactions",
+    "paper_url": "https://huggingface.co/papers/2601.02179",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Confidence Estimation for LLMs in Multi-turn Interactions",
+      "abstract": "In this paper, we explore the confidence estimation in a new paradigm: multi-turn interactions! Check it out!",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.02179",
+      "pdf_url": "https://arxiv.org/pdf/2601.02179",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.02179",
+      "scraped_at": "2026-01-07T01:50:38.040156"
+    },
+    "scraped_date": "2026-01-07"
+  },
+  {
+    "title": "KV-Embedding: Training-free Text Embedding via Internal KV Re-routing in Decoder-only LLMs",
+    "paper_url": "https://huggingface.co/papers/2601.01046",
+    "authors": [
+      "Yi Yang",
+      "Yixuan Tang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "KV-Embedding: Training-free Text Embedding via Internal KV Re-routing in Decoder-only LLMs",
+      "abstract": "✨ Turn any decoder-only LLM into a powerful embedding model—zero training needed! ✨ The Trick : Re-route the final token's key-value states as an internal prefix, giving all tokens access to global context in one forward pass. No input modification, no mask removal, just smart internal state manipulation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.01046",
+      "pdf_url": "https://arxiv.org/pdf/2601.01046",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.01046",
+      "scraped_at": "2026-01-07T01:50:39.891420"
+    },
+    "scraped_date": "2026-01-07"
+  },
+  {
+    "title": "CPPO: Contrastive Perception for Vision Language Policy Optimization",
+    "paper_url": "https://huggingface.co/papers/2601.00501",
+    "authors": [
+      "Mohammad Asiful Hossain",
+      "Kevin Cannons",
+      "Saeed Ranjbar Alvar",
+      "Mohsen Gholami",
+      "Ahmad Rezaei"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "CPPO: Contrastive Perception for Vision Language Policy Optimization",
+      "abstract": "CPPO: Contrastive Perception for Vision Language Policy Optimization introduces a new method (CPPO) for fine-tuning vision-language models (VLMs) using reinforcement learning. Instead of relying on explicit perception rewards or auxiliary models, the approach identifies perceptual tokens via entropy changes under perturbed images and augments the policy objective with a contrastive perception loss to improve multimodal reasoning performance and training efficiency.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.00501",
+      "pdf_url": "https://arxiv.org/pdf/2601.00501",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.00501",
+      "scraped_at": "2026-01-07T01:50:41.758090"
+    },
+    "scraped_date": "2026-01-07"
+  },
+  {
+    "title": "DiffProxy: Multi-View Human Mesh Recovery via Diffusion-Generated Dense Proxies",
+    "paper_url": "https://huggingface.co/papers/2601.02267",
+    "authors": [
+      "Jian Yang",
+      "Ying Tai",
+      "Zhenyu Zhang",
+      "wrk226"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "DiffProxy: Multi-View Human Mesh Recovery via Diffusion-Generated Dense Proxies",
+      "abstract": "Project page: https://wrk226.github.io/DiffProxy.html Code: https://github.com/wrk226/DiffProxy",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.02267",
+      "pdf_url": "https://arxiv.org/pdf/2601.02267",
+      "github_links": [
+        "https://github.com/wrk226/DiffProxy"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.02267",
+      "scraped_at": "2026-01-07T01:50:43.650977"
+    },
+    "scraped_date": "2026-01-07"
+  },
+  {
+    "title": "COMPASS: A Framework for Evaluating Organization-Specific Policy Alignment in LLMs",
+    "paper_url": "https://huggingface.co/papers/2601.01836",
+    "authors": [],
+    "stars": "8",
+    "details": {
+      "title": "COMPASS: A Framework for Evaluating Organization-Specific Policy Alignment in LLMs",
+      "abstract": "COMPASS is the first framework for evaluating LLM alignment with organization-specific policies rather than universal harms. While models handle legitimate requests well (>95% accuracy), they catastrophically fail at enforcing prohibitions, refusing only 13-40% of denylist violations. GitHub: https://github.com/AIM-Intelligence/COMPASS",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.01836",
+      "pdf_url": "https://arxiv.org/pdf/2601.01836",
+      "github_links": [
+        "https://github.com/AIM-Intelligence/COMPASS"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.01836",
+      "scraped_at": "2026-01-07T01:50:45.620954"
+    },
+    "scraped_date": "2026-01-07"
+  },
+  {
+    "title": "Toward Stable Semi-Supervised Remote Sensing Segmentation via Co-Guidance and Co-Fusion",
+    "paper_url": "https://huggingface.co/papers/2512.23035",
+    "authors": [
+      "Shiying Wang",
+      "Kai Li",
+      "Shun Zhang",
+      "Xuechao Zou",
+      "Yi Zhou"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "Toward Stable Semi-Supervised Remote Sensing Segmentation via Co-Guidance and Co-Fusion",
+      "abstract": "We are excited to introduce our latest work on semi-supervised semantic segmentation : 📄 Toward Stable Semi-Supervised Remote Sensing Segmentation via Co-Guidance and Co-Fusion This paper tackles one of the most challenging issues in semi-supervised segmentation: pseudo-label drift . When labeled data are extremely scarce, self-training methods are prone to deterministic bias, where early incorrect pseudo-labels accumulate over time, leading to unstable and degraded training. 🧠 Motivation Most existing consistency- or pseudo-label–based semi-supervised approaches rely heavily on self-generated supervision . Once early pseudo-labels become unreliable, error accumulation is inevitable. Our goal is to introduce stronger semantic priors to correct such drift and stabilize the training process. ✨ Key Contributions 1️⃣ Heterogeneous Dual-Student Framework We leverage two complementary vision foundation models— CLIP for global semantic priors and DINOv3 for fine-grained local structures—to enable stable mutual learning and suppress error accumulation. 2️⃣ Explicit–Implicit Semantic Co-Guidance By jointly utilizing text embeddings (explicit semantics) and learnable queries (implicit semantics), we provide class-level semantic anchors and enhance semantic consistency. 3️⃣ Global–Local Feature Co-Fusion We fuse CLIP’s global contextual understanding with DINOv3’s local structural details, yielding more accurate and stable segmentation results. 📊 Experimental Results Extensive evaluations on six mainstream remote sensing benchmarks demonstrate that Co2S consistently achieves strong and stable performance across different data splits and scenarios, especially under extremely low annotation budgets . 📦 Open-Source Resources arXiv Paper : https://arxiv.org/abs/2512.23035 Project Page : https://xavierjiezou.github.io/Co2S/ GitHub Code : https://github.com/XavierJiezou/Co2S HuggingFace Models : https://huggingface.co/XavierJiezou/co2s-models HuggingFace Datasets : https://huggingface.co/datasets/XavierJiezou/co2s-datasets #Remote Sensing #Semantic Segmentation #Semi-Supervised Learning #Vision Foundation Models #CLIP #DINOv3",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.23035",
+      "pdf_url": "https://arxiv.org/pdf/2512.23035",
+      "github_links": [
+        "https://github.com/XavierJiezou/Co2S"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.23035",
+      "scraped_at": "2026-01-07T01:50:47.571407"
+    },
+    "scraped_date": "2026-01-07"
+  },
+  {
+    "title": "SWE-Lego: Pushing the Limits of Supervised Fine-tuning for Software Issue Resolving",
+    "paper_url": "https://huggingface.co/papers/2601.01426",
+    "authors": [],
+    "stars": "8",
+    "details": {
+      "title": "SWE-Lego: Pushing the Limits of Supervised Fine-tuning for Software Issue Resolving",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.01426",
+      "pdf_url": "https://arxiv.org/pdf/2601.01426",
+      "github_links": [
+        "https://github.com/SWE-Lego/SWE-Lego"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.01426",
+      "scraped_at": "2026-01-07T01:50:49.438589"
+    },
+    "scraped_date": "2026-01-07"
+  },
+  {
+    "title": "OpenNovelty: An LLM-powered Agentic System for Verifiable Scholarly Novelty Assessment",
+    "paper_url": "https://huggingface.co/papers/2601.01576",
+    "authors": [
+      "Chunchun Ma",
+      "Yujiong Shen",
+      "Yueyuan Huang",
+      "Kexin Tan",
+      "Ming Zhang"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "OpenNovelty: An LLM-powered Agentic System for Verifiable Scholarly Novelty Assessment",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API ARISE: Agentic Rubric-Guided Iterative Survey Engine for Automated Scholarly Paper Generation (2025) SemanticCite: Citation Verification with AI-Powered Full-Text Analysis and Evidence-Based Reasoning (2025) WisPaper: Your AI Scholar Search Engine (2025) AI-Augmented Bibliometric Framework: A Paradigm Shift with Agentic AI for Dynamic, Snippet-Based Research Analysis (2025) OmniScientist: Toward a Co-evolving Ecosystem of Human and AI Scientists (2025) AstroReview: An LLM-driven Multi-Agent Framework for Telescope Proposal Peer Review and Refinement (2025) Resolving Evidence Sparsity: Agentic Context Engineering for Long-Document Understanding (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.01576",
+      "pdf_url": "https://arxiv.org/pdf/2601.01576",
+      "github_links": [
+        "https://github.com/january-blue/OpenNovelty"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.01576",
+      "scraped_at": "2026-01-07T01:50:51.251342"
+    },
+    "scraped_date": "2026-01-07"
+  },
+  {
+    "title": "Selective Imperfection as a Generative Framework for Analysis, Creativity and Discovery",
+    "paper_url": "https://huggingface.co/papers/2601.00863",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Selective Imperfection as a Generative Framework for Analysis, Creativity and Discovery",
+      "abstract": "Selective Imperfection as a Generative Framework for Analysis, Creativity and Discovery We introduce materiomusic as a generative framework linking the hierarchical structures of matter with the compositional logic of music. Across proteins, spider webs and flame dynamics, vibrational and architectural principles recur as tonal hierarchies, harmonic progressions, and long-range musical form. Using reversible mappings, from molecular spectra to musical tones and from three-dimensional networks to playable instruments, we show how sound functions as a scientific probe, an epistemic inversion where listening becomes a mode of seeing and musical composition becomes a blueprint for matter. These mappings excavate deep time: patterns originating in femtosecond molecular vibrations or billion-year evolutionary histories become audible. We posit that novelty in science and art emerges when constraints cannot be satisfied within existing degrees of freedom, forcing expansion of the space of viable configurations. Selective imperfection provides the mechanism restoring balance between coherence and adaptability. Quantitative support comes from exhaustive enumeration of all 2^12 musical scales, revealing that culturally significant systems cluster in a mid-entropy, mid-defect corridor, directly paralleling the Hall-Petch optimum where intermediate defect densities maximize material strength. Iterating these mappings creates productive collisions between human creativity and physics, generating new information as musical structures encounter evolutionary constraints. We show how swarm-based AI models compose music exhibiting human-like structural signatures such as small-world connectivity, modular integration, long-range coherence, suggesting a route beyond interpolation toward invention. We show that science and art are generative acts of world-building under constraint, with vibration as a shared grammar organizing structure across scales.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.00863",
+      "pdf_url": "https://arxiv.org/pdf/2601.00863",
+      "github_links": [
+        "https://github.com/lamm-mit/MusicAnalysis"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.00863",
+      "scraped_at": "2026-01-07T01:50:53.135282"
+    },
+    "scraped_date": "2026-01-07"
+  },
+  {
+    "title": "IMA++: ISIC Archive Multi-Annotator Dermoscopic Skin Lesion Segmentation Dataset",
+    "paper_url": "https://huggingface.co/papers/2512.21472",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "IMA++: ISIC Archive Multi-Annotator Dermoscopic Skin Lesion Segmentation Dataset",
+      "abstract": "✨ The largest publicly available dermoscopic skin lesion segmentation dataset with 17,684 segmentation masks spanning 14,967 dermoscopic images, where 2,394 dermoscopic images have 2-5 segmentations per image. ✨ 16 unique annotators , 3 different tools used, and 2 skill levels of the manual reviewer. ✨ Contains consensus masks for the 2,394 images that have multi-annotator segmentations (2-5 segmentations per image). ✨ Collected and curated from the ISIC Archive .",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.21472",
+      "pdf_url": "https://arxiv.org/pdf/2512.21472",
+      "github_links": [
+        "https://github.com/sfu-mial/IMAplusplus"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.21472",
+      "scraped_at": "2026-01-07T01:50:55.025985"
+    },
+    "scraped_date": "2026-01-07"
+  },
+  {
+    "title": "Prithvi-Complimentary Adaptive Fusion Encoder (CAFE): unlocking full-potential for flood inundation mapping",
+    "paper_url": "https://huggingface.co/papers/2601.02315",
+    "authors": [
+      "Beth Tellman",
+      "Lalit Maurya",
+      "Saurabh Kaushik"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "Prithvi-Complimentary Adaptive Fusion Encoder (CAFE): unlocking full-potential for flood inundation mapping",
+      "abstract": "Despite the recent success of large pretrained encoders (Geo‑Foundation Models), we consistently observe that U‑Net‑based models remain highly competitive—and in some cases outperform transformers, particularly due to their strength in capturing local spatial nuances. Motivated by this, we propose Prithvi‑CAFE (Prithvi‑Complementary Adaptive Fusion Encoder), which enhances local representations through complementary fusion with a CNN‑based encoder. We evaluate our approach on two major flood datasets—FloodPlanet and Sen1Floods11—and achieve state‑of‑the‑art performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.02315",
+      "pdf_url": "https://arxiv.org/pdf/2601.02315",
+      "github_links": [
+        "https://github.com/Sk-2103/Prithvi-CAFE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.02315",
+      "scraped_at": "2026-01-07T01:50:56.844097"
+    },
+    "scraped_date": "2026-01-07"
+  },
+  {
+    "title": "Project Ariadne: A Structural Causal Framework for Auditing Faithfulness in LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2601.02314",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Project Ariadne: A Structural Causal Framework for Auditing Faithfulness in LLM Agents",
+      "abstract": "Does COT in llms stay faithful to their thoughts?",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.02314",
+      "pdf_url": "https://arxiv.org/pdf/2601.02314",
+      "github_links": [
+        "https://github.com/skhanzad/AridadneXAI"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.02314",
+      "scraped_at": "2026-01-07T01:50:58.682941"
+    },
+    "scraped_date": "2026-01-07"
+  },
+  {
+    "title": "M-ErasureBench: A Comprehensive Multimodal Evaluation Benchmark for Concept Erasure in Diffusion Models",
+    "paper_url": "https://huggingface.co/papers/2512.22877",
+    "authors": [
+      "Jun-Cheng Chen",
+      "Cheng-Fu Chou",
+      "Ju-Hsuan Weng",
+      "jwliao1209"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "M-ErasureBench: A Comprehensive Multimodal Evaluation Benchmark for Concept Erasure in Diffusion Models",
+      "abstract": "Concept Erasure Benchmark",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.22877",
+      "pdf_url": "https://arxiv.org/pdf/2512.22877",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.22877",
+      "scraped_at": "2026-01-07T01:51:00.532894"
+    },
+    "scraped_date": "2026-01-07"
   }
 ]
