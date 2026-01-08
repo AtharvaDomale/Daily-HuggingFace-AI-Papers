@@ -908,5 +908,549 @@
       "scraped_at": "2026-01-07T01:51:00.532894"
     },
     "scraped_date": "2026-01-07"
+  },
+  {
+    "title": "InfiniDepth: Arbitrary-Resolution and Fine-Grained Depth Estimation with Neural Implicit Fields",
+    "paper_url": "https://huggingface.co/papers/2601.03252",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "InfiniDepth: Arbitrary-Resolution and Fine-Grained Depth Estimation with Neural Implicit Fields",
+      "abstract": "Depth Beyond Pixels 🚀 We Introduce InfiniDepth — casting monocular depth estimation as a neural implicit field. 🔍 Arbitrary-Resolution 📐 Accurate Metric Depth 📷 Single-View NVS under large viewpoints shifts Arxiv: https://arxiv.org/abs/2601.03252 page: https://zju3dv.github.io/InfiniDepth",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.03252",
+      "pdf_url": "https://arxiv.org/pdf/2601.03252",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.03252",
+      "scraped_at": "2026-01-08T01:50:45.247652"
+    },
+    "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "MOSS Transcribe Diarize: Accurate Transcription with Speaker Diarization",
+    "paper_url": "https://huggingface.co/papers/2601.01554",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MOSS Transcribe Diarize: Accurate Transcription with Speaker Diarization",
+      "abstract": "MOSS Transcribe Diarize 🎙️ We introduce MOSS Transcribe Diarize — a unified multimodal model for Speaker-Attributed, Time-Stamped Transcription (SATS) . 🔍 End-to-end SATS in a single pass (transcription + speaker attribution + timestamps) 🧠 128k context window for up to ~90-minute audio without chunking (strong long-range speaker memory) 🌍 Trained on extensive in-the-wild conversations + controllable simulated mixtures (robust to overlap/noise/domain shift) 📊 Strong results on AISHELL-4 / Podcast / Movies benchmarks (best cpCER / Δcp among evaluated systems) Paper: [2601.01554] MOSS Transcribe Diarize: Accurate Transcription with Speaker Diarization Homepage: https://mosi.cn/models/moss-transcribe-diarize Online Demo: https://moss-transcribe-diarize-demo.mosi.cn",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.01554",
+      "pdf_url": "https://arxiv.org/pdf/2601.01554",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.01554",
+      "scraped_at": "2026-01-08T01:50:47.162285"
+    },
+    "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "LTX-2: Efficient Joint Audio-Visual Foundation Model",
+    "paper_url": "https://huggingface.co/papers/2601.03233",
+    "authors": [
+      "kvochko",
+      "jacobitterman",
+      "nisan",
+      "benibraz",
+      "yoavhacohen"
+    ],
+    "stars": "922",
+    "details": {
+      "title": "LTX-2: Efficient Joint Audio-Visual Foundation Model",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API 3MDiT: Unified Tri-Modal Diffusion Transformer for Text-Driven Synchronized Audio-Video Generation (2025) ProAV-DiT: A Projected Latent Diffusion Transformer for Efficient Synchronized Audio-Video Generation (2025) MM-Sonate: Multimodal Controllable Audio-Video Generation with Zero-Shot Voice Cloning (2026) DreamFoley: Scalable VLMs for High-Fidelity Video-to-Audio Generation (2025) JoVA: Unified Multimodal Learning for Joint Video-Audio Generation (2025) In-Context Audio Control of Video Diffusion Transformers (2025) JavisGPT: A Unified Multi-modal LLM for Sounding-Video Comprehension and Generation (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.03233",
+      "pdf_url": "https://arxiv.org/pdf/2601.03233",
+      "github_links": [
+        "https://github.com/Lightricks/LTX-2"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.03233",
+      "scraped_at": "2026-01-08T01:50:49.139726"
+    },
+    "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "SciEvalKit: An Open-source Evaluation Toolkit for Scientific General Intelligence",
+    "paper_url": "https://huggingface.co/papers/2512.22334",
+    "authors": [],
+    "stars": "56",
+    "details": {
+      "title": "SciEvalKit: An Open-source Evaluation Toolkit for Scientific General Intelligence",
+      "abstract": "SciEvalKit is a unified benchmarking toolkit for evaluating AI models across scientific disciplines, focusing on core scientific intelligence competencies and supporting diverse domains from physics to materials science.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.22334",
+      "pdf_url": "https://arxiv.org/pdf/2512.22334",
+      "github_links": [
+        "https://github.com/InternScience/SciEvalKit"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.22334",
+      "scraped_at": "2026-01-08T01:50:51.230691"
+    },
+    "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "UniCorn: Towards Self-Improving Unified Multimodal Models through Self-Generated Supervision",
+    "paper_url": "https://huggingface.co/papers/2601.03193",
+    "authors": [
+      "Lin-Chen",
+      "lovesnowbest",
+      "YuZeng260",
+      "CostaliyA",
+      "Hungryyan"
+    ],
+    "stars": "25",
+    "details": {
+      "title": "UniCorn: Towards Self-Improving Unified Multimodal Models through Self-Generated Supervision",
+      "abstract": "UniCorn, a simple yet elegant self-improvement framework that eliminates the need for external data or teacher supervision.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.03193",
+      "pdf_url": "https://arxiv.org/pdf/2601.03193",
+      "github_links": [
+        "https://github.com/Hungryyan1/UniCorn"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.03193",
+      "scraped_at": "2026-01-08T01:50:53.221654"
+    },
+    "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "NitroGen: An Open Foundation Model for Generalist Gaming Agents",
+    "paper_url": "https://huggingface.co/papers/2601.02427",
+    "authors": [],
+    "stars": "1.44k",
+    "details": {
+      "title": "NitroGen: An Open Foundation Model for Generalist Gaming Agents",
+      "abstract": "NitroGen is a vision-action foundation model trained on 40k hours of gameplay across 1,000+ games, enabling cross-game generalization with behavior cloning and benchmarking, achieving strong unseen-game transfer.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.02427",
+      "pdf_url": "https://arxiv.org/pdf/2601.02427",
+      "github_links": [
+        "https://github.com/MineDojo/NitroGen"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.02427",
+      "scraped_at": "2026-01-08T01:50:55.235135"
+    },
+    "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "SOP: A Scalable Online Post-Training System for Vision-Language-Action Models",
+    "paper_url": "https://huggingface.co/papers/2601.03044",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SOP: A Scalable Online Post-Training System for Vision-Language-Action Models",
+      "abstract": "🚀 Website: https://www.agibot.com/research/sop We introduce SOP for online post-training of generalist VLAs in the real world — unlocking persistent, reliable deployment of generalist robots in physical environments. 🔁 36 hours of continuous cloth folding: video 📦 36 hours of continuous cardboard box assembly: video",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.03044",
+      "pdf_url": "https://arxiv.org/pdf/2601.03044",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.03044",
+      "scraped_at": "2026-01-08T01:50:57.176273"
+    },
+    "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "DreamStyle: A Unified Framework for Video Stylization",
+    "paper_url": "https://huggingface.co/papers/2601.02785",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DreamStyle: A Unified Framework for Video Stylization",
+      "abstract": "DreamStyle unifies text-, style-image-, and first-frame-guided video stylization on an I2V backbone, using LoRA with token-specific up matrices to improve style consistency and video quality.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.02785",
+      "pdf_url": "https://arxiv.org/pdf/2601.02785",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.02785",
+      "scraped_at": "2026-01-08T01:50:59.158844"
+    },
+    "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "MiMo-V2-Flash Technical Report",
+    "paper_url": "https://huggingface.co/papers/2601.02780",
+    "authors": [],
+    "stars": "957",
+    "details": {
+      "title": "MiMo-V2-Flash Technical Report",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Xiaomi MiMo-VL-Miloco Technical Report (2025) Seer: Online Context Learning for Fast Synchronous LLM Reinforcement Learning (2025) Tutorial on Large Language Model-Enhanced Reinforcement Learning for Wireless Networks (2025) AFA-LoRA: Enabling Non-Linear Adaptations in LoRA with Activation Function Annealing (2025) NEZHA: A Zero-sacrifice and Hyperspeed Decoding Architecture for Generative Recommendations (2025) Practical Policy Distillation for Reinforcement Learning in Radio Access Networks (2025) Agent-R1: Training Powerful LLM Agents with End-to-End Reinforcement Learning (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.02780",
+      "pdf_url": "https://arxiv.org/pdf/2601.02780",
+      "github_links": [
+        "https://github.com/XiaomiMiMo/MiMo-V2-Flash"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.02780",
+      "scraped_at": "2026-01-08T01:51:01.099679"
+    },
+    "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "CogFlow: Bridging Perception and Reasoning through Knowledge Internalization for Visual Mathematical Problem Solving",
+    "paper_url": "https://huggingface.co/papers/2601.01874",
+    "authors": [
+      "Aojun Lu",
+      "Junjie Xie",
+      "Shuhang Chen",
+      "JacobYuan",
+      "Yunqiu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "CogFlow: Bridging Perception and Reasoning through Knowledge Internalization for Visual Mathematical Problem Solving",
+      "abstract": "Project page: https://shchen233.github.io/cogflow/",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.01874",
+      "pdf_url": "https://arxiv.org/pdf/2601.01874",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.01874",
+      "scraped_at": "2026-01-08T01:51:03.012607"
+    },
+    "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "Digital Twin AI: Opportunities and Challenges from Large Language Models to World Models",
+    "paper_url": "https://huggingface.co/papers/2601.01321",
+    "authors": [
+      "Yao Su",
+      "vztu",
+      "ZihanJia",
+      "fjchendp",
+      "roz322"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Digital Twin AI: Opportunities and Challenges from Large Language Models to World Models",
+      "abstract": "This paper systematically analyzes AI integration in Digital Twins through a four-stage framework (modeling → mirroring → intervention → autonomous management), covering LLMs, foundation models, world models, and intelligent agents across 11 application domains.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.01321",
+      "pdf_url": "https://arxiv.org/pdf/2601.01321",
+      "github_links": [
+        "https://github.com/rongzhou7/Awesome-Digital-Twin-AI/tree/main"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.01321",
+      "scraped_at": "2026-01-08T01:51:04.924547"
+    },
+    "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "WebGym: Scaling Training Environments for Visual Web Agents with Realistic Tasks",
+    "paper_url": "https://huggingface.co/papers/2601.02439",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "WebGym: Scaling Training Environments for Visual Web Agents with Realistic Tasks",
+      "abstract": "WebGym creates a large, non-stationary visual web task suite and scalable RL pipeline, enabling fast trajectory rollout and improved vision-language agent performance on unseen websites.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.02439",
+      "pdf_url": "https://arxiv.org/pdf/2601.02439",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.02439",
+      "scraped_at": "2026-01-08T01:51:06.769414"
+    },
+    "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "Mechanistic Interpretability of Large-Scale Counting in LLMs through a System-2 Strategy",
+    "paper_url": "https://huggingface.co/papers/2601.02989",
+    "authors": [
+      "Fatemeh Askari",
+      "Sadegh Mohammadian",
+      "Mohammadali Banayeeanzade",
+      "Hosein Hasani",
+      "safinal"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Mechanistic Interpretability of Large-Scale Counting in LLMs through a System-2 Strategy",
+      "abstract": "🔢 Overcoming Transformer Depth Limits in Counting Tasks LLMs often fail at counting not because they aren't smart, but because of architectural depth constraints 🚧. We propose a simple, effective System-2 strategy 🧩 that decomposes counting tasks to bypass these limits. 🔬 We also provide a full mechanistic interpretation , identifying the specific attention heads and representations responsible for transferring \"latent counts\" across the network. 📈 This approach allows LLMs to achieve high accuracy on large-scale counting benchmarks where they typically fail.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.02989",
+      "pdf_url": "https://arxiv.org/pdf/2601.02989",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.02989",
+      "scraped_at": "2026-01-08T01:51:08.644226"
+    },
+    "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "Muses: Designing, Composing, Generating Nonexistent Fantasy 3D Creatures without Training",
+    "paper_url": "https://huggingface.co/papers/2601.03256",
+    "authors": [],
+    "stars": "12",
+    "details": {
+      "title": "Muses: Designing, Composing, Generating Nonexistent Fantasy 3D Creatures without Training",
+      "abstract": "Project page: https://luhexiao.github.io/Muses.github.io/ Code: https://github.com/luhexiao/Muses",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.03256",
+      "pdf_url": "https://arxiv.org/pdf/2601.03256",
+      "github_links": [
+        "https://github.com/luhexiao/Muses"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.03256",
+      "scraped_at": "2026-01-08T01:51:10.461072"
+    },
+    "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "FFP-300K: Scaling First-Frame Propagation for Generalizable Video Editing",
+    "paper_url": "https://huggingface.co/papers/2601.01720",
+    "authors": [
+      "Donghao Luo",
+      "yanweifuture",
+      "chengjie-wang",
+      "ChengmingX",
+      "ScarletAce"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "FFP-300K: Scaling First-Frame Propagation for Generalizable Video Editing",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API LoVoRA: Text-guided and Mask-free Video Object Removal and Addition with Learnable Object-aware Localization (2025) Unified Video Editing with Temporal Reasoner (2025) VIVA: VLM-Guided Instruction-Based Video Editing with Reward Optimization (2025) IC-Effect: Precise and Efficient Video Effects Editing via In-Context Learning (2025) EasyV2V: A High-quality Instruction-based Video Editing Framework (2025) ContextAnyone: Context-Aware Diffusion for Character-Consistent Text-to-Video Generation (2025) V-Warper: Appearance-Consistent Video Diffusion Personalization via Value Warping (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.01720",
+      "pdf_url": "https://arxiv.org/pdf/2601.01720",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.01720",
+      "scraped_at": "2026-01-08T01:51:12.354426"
+    },
+    "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "OpenRT: An Open-Source Red Teaming Framework for Multimodal LLMs",
+    "paper_url": "https://huggingface.co/papers/2601.01592",
+    "authors": [
+      "Yang Yao",
+      "Yixu Wang",
+      "Juncheng Li",
+      "Yunhao Chen",
+      "xinwang22"
+    ],
+    "stars": "112",
+    "details": {
+      "title": "OpenRT: An Open-Source Red Teaming Framework for Multimodal LLMs",
+      "abstract": "Even State-of-the-Art Models Fail to Hold Ground Against Sophisticated Adversaries. Our comprehensive evaluation highlights two key findings. (1) A clear stratification in defense capability: Top-tier models such as Claude Haiku 4.5, GPT-5.2, and Qwen3-Max exhibit strong baseline robustness, effectively neutralizing static, template-based attacks and complex logic traps, often keeping ASR below 20%.This suggests that leading labs have improved defenses against recognizable, repeatable jailbreak structures, while several models (e.g., Llama-4, Mistral Large 3) remain more susceptible to these simpler patterns. (2) A shift in the attack landscape: adaptive, multi-turn, and multi-agent strategies dominate, whereas static, single-turn, and template-based approaches are increasingly ineffective. Methods like EvoSynth and X-Teaming can achieve >90% ASR even against advanced models. This indicates current safety training overfits to static templates, failing to generalize against the broad attack surface exposed by automated red-teaming. Adversarial Robustness Exhibits Inconsistent and Polarized Vulnerability Patterns. We observe a polarization effect where models demonstrate high resistance to specific attack families (e.g., text-based cipher) yet remain completely defenseless against others (e.g., logic nesting). For instance, Grok 4.1 Fast shows 1.5% ASR against RedQueen but 90.5% against X-Teaming. This stark performance disparity (~90%) underscores that current defenses are often patch-based rather than holistic, necessitating the multi-faceted evaluation provided by OpenRT. Enhanced Reasoning and Multimodal Capabilities are New Vectors for Exploitation. Contrary to the common assumption that more capable models are inherently safer, we find that enhanced capabilities often introduce new vectors for exploitation. Reasoning-enhanced models (CoT) do not demonstrate superior robustness; instead, their verbose reasoning processes can be manipulated to bypass safety filters. Similarly, Multimodal LLMs exhibit a critical modality gap: visual inputs frequently bypass text-based safety mechanisms, allowing cross-modal attacks to compromise models that are otherwise robust to purely textual jailbreaks. These findings suggest that current safety alignment has not kept pace with the architectural expansion of model capabilities. Proprietary Models Can Be as Vulnerable as Open-Source Models Under Certain Attacks. Our analysis reveals that proprietary and open-source models exhibit comparable susceptibility to our attack suite. Across our 20 evaluated models, only GPT-5.2 and Claude Haiku 4.5 maintained an average ASR below 30%, while all other models consistently exceeded this threshold. This universality sharply contradicts the assumption that closed deployments offer superior protection, demonstrating that the safety through obscurity of proprietary strategies fails to provide any tangible mitigation against sophisticated adversarial attacks. Scaling MLLMs Robustness via Defense-in-Depth and Continuous Red Teaming. Challenges such as polarized robustness, weak generalization to unseen attacks, and cross-modal bypasses highlight the limits of single-layer defense. Effective mitigation requires a paradigm shift toward Defense-in-Depth: integrating intrinsic architectural safety with runtime risk estimation and adversarial training on multimodal and multi-turn interactions. Crucially, continuous Red Teaming via infrastructure like OpenRT provides systematic evaluation to verify empirical robustness and prevent benchmark overfitting.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.01592",
+      "pdf_url": "https://arxiv.org/pdf/2601.01592",
+      "github_links": [
+        "https://github.com/AI45Lab/OpenRT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.01592",
+      "scraped_at": "2026-01-08T01:51:14.181550"
+    },
+    "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "MindWatcher: Toward Smarter Multimodal Tool-Integrated Reasoning",
+    "paper_url": "https://huggingface.co/papers/2512.23412",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MindWatcher: Toward Smarter Multimodal Tool-Integrated Reasoning",
+      "abstract": "In this work, we introduce MindWatcher, a TIR agent integrating interleaved thinking and multimodal chain-of-thought (CoT) reasoning. MindWatcher can autonomously decide whether and how to invoke diverse tools and coordinate their use, without relying on human prompts or workflows. The interleaved thinking paradigm enables the model to switch between thinking and tool calling at any intermediate stage, while its multimodal CoT capability allows manipulation of images during reasoning to yield more precise search results. We implement automated data auditing and evaluation pipelines, complemented by manually curated high-quality datasets for training, and we construct a benchmark, called MindWatcher-Evaluate Bench (MWE-Bench), to evaluate its performance. MindWatcher is equipped with a comprehensive suite of auxiliary reasoning tools, enabling it to address broad-domain multimodal problems. A large-scale, high-quality local image retrieval database, covering eight categories including cars, animals, and plants, endows the model with robust object recognition despite its small size. Finally, we design a more efficient training infrastructure for MindWatcher, enhancing training speed and hardware utilization. Experiments not only demonstrate that MindWatcher matches or exceeds the performance of larger or more recent models through superior tool invocation, but also uncover critical insights for agent training, such as the genetic inheritance phenomenon in agentic RL. The agent reasoning framework, MWE-Bench, three smaller-scale agent models (2B, 3B, and 4B) distilled from MindWatcher 32B, and related resources will be open-sourced.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.23412",
+      "pdf_url": "https://arxiv.org/pdf/2512.23412",
+      "github_links": [
+        "https://github.com/TIMMY-CHAN/MindWatcher"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.23412",
+      "scraped_at": "2026-01-08T01:51:16.037424"
+    },
+    "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "The Sonar Moment: Benchmarking Audio-Language Models in Audio Geo-Localization",
+    "paper_url": "https://huggingface.co/papers/2601.03227",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "The Sonar Moment: Benchmarking Audio-Language Models in Audio Geo-Localization",
+      "abstract": "We found the sonar moment in audio language models. We propose the task of audio geo-localization. And amazingly, Gemini 3 Pro can reach the distance error of less than 55km for 25%  samples.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.03227",
+      "pdf_url": "https://arxiv.org/pdf/2601.03227",
+      "github_links": [
+        "https://github.com/Rising0321/AGL1K"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.03227",
+      "scraped_at": "2026-01-08T01:51:21.077717"
+    },
+    "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "X-MuTeST: A Multilingual Benchmark for Explainable Hate Speech Detection and A Novel LLM-consulted Explanation Framework",
+    "paper_url": "https://huggingface.co/papers/2601.03194",
+    "authors": [
+      "Sai Rithwik Reddy Chirra",
+      "Shashivardhan Reddy Koppula",
+      "Mohammad Zia Ur Rehman",
+      "shwetankssingh",
+      "UVSKKR"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "X-MuTeST: A Multilingual Benchmark for Explainable Hate Speech Detection and A Novel LLM-consulted Explanation Framework",
+      "abstract": "Hate speech detection on social media faces challenges in both accuracy and explainability, especially for underexplored Indic languages. We propose a novel explainability-guided training framework, X-MuTeST (explainable Multilingual haTe Speech deTection), for hate speech detection that combines high-level semantic reasoning from large language models (LLMs) with traditional attention-enhancing techniques. We extend this research to Hindi and Telugu alongside English by providing benchmark human-annotated rationales for each word to justify the assigned class label. The X-MuTeST explainability method computes the difference between the prediction probabilities of the original text and those of unigrams, bigrams, and trigrams. Final explanations are computed as the union between LLM explanations and X-MuTeST explanations. We show that leveraging human rationales during training enhances both classification performance and explainability. Moreover, combining human rationales with our explainability method to refine the model attention yields further improvements. We evaluate explainability using Plausibility metrics such as Token-F1 and IOU-F1 and Faithfulness metrics such as Comprehensiveness and Sufficiency. By focusing on under-resourced languages, our work advances hate speech detection across diverse linguistic contexts. Our dataset includes token-level rationale annotations for 6,004 Hindi, 4,492 Telugu, and 6,334 English samples.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.03194",
+      "pdf_url": "https://arxiv.org/pdf/2601.03194",
+      "github_links": [
+        "https://github.com/ziarehman30/X-MuTeST"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.03194",
+      "scraped_at": "2026-01-08T01:51:23.122431"
+    },
+    "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "Parallel Latent Reasoning for Sequential Recommendation",
+    "paper_url": "https://huggingface.co/papers/2601.03153",
+    "authors": [
+      "Yuning Jiang",
+      "Jian Wu",
+      "Wen Chen",
+      "Xu Chen",
+      "TangJiakai5704"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Parallel Latent Reasoning for Sequential Recommendation",
+      "abstract": "Parallel Latent Reasoning (PLR): Sequential Recommendation with Parallel Reasoning 🔥 📉 Depth-only reasoning often hits performance plateaus—PLR mitigates this with parallel latent reasoning. Core Innovation ✨ 🎯 Learnable trigger tokens: Build parallel streams in continuous latent space. 🔄 Global regularization: Preserve stream diversity to avoid redundancy. ⚖️ Adaptive aggregation: Smartly combine multi-stream insights for optimal results. Key Advantages 🚀 📊 Outperforms SOTA baselines (SASRec, BERT4Rec, ReaRec, LRESA) by 5.5%–14.9% on Recall@10/20 and NDCG@10/20 across three real-world datasets. ⚡ Real-time efficiency: Only 5.8% latency increase vs. base models, enabled by KV Caching and GPU parallelism. 🛡️ Strong robustness: Maintains top performance even with 30% missing user interactions.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.03153",
+      "pdf_url": "https://arxiv.org/pdf/2601.03153",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.03153",
+      "scraped_at": "2026-01-08T01:51:25.012089"
+    },
+    "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "Unified Thinker: A General Reasoning Modular Core for Image Generation",
+    "paper_url": "https://huggingface.co/papers/2601.03127",
+    "authors": [
+      "Yue Cao",
+      "Hanqing Yang",
+      "Jijin Hu",
+      "Qiang Zhou",
+      "Sashuai Zhou"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Unified Thinker: A General Reasoning Modular Core for Image Generation",
+      "abstract": "reasoning-based image generation and editing",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.03127",
+      "pdf_url": "https://arxiv.org/pdf/2601.03127",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.03127",
+      "scraped_at": "2026-01-08T01:51:26.836393"
+    },
+    "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "Large Reasoning Models Are (Not Yet) Multilingual Latent Reasoners",
+    "paper_url": "https://huggingface.co/papers/2601.02996",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Large Reasoning Models Are (Not Yet) Multilingual Latent Reasoners",
+      "abstract": "https://github.com/cisnlp/multilingual-latent-reasoner",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.02996",
+      "pdf_url": "https://arxiv.org/pdf/2601.02996",
+      "github_links": [
+        "https://github.com/cisnlp/multilingual-latent-reasoner"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.02996",
+      "scraped_at": "2026-01-08T01:51:28.643997"
+    },
+    "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "ExposeAnyone: Personalized Audio-to-Expression Diffusion Models Are Robust Zero-Shot Face Forgery Detectors",
+    "paper_url": "https://huggingface.co/papers/2601.02359",
+    "authors": [
+      "Vladislav Golyanik",
+      "Toshihiko Yamasaki",
+      "mapooon"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ExposeAnyone: Personalized Audio-to-Expression Diffusion Models Are Robust Zero-Shot Face Forgery Detectors",
+      "abstract": "Detecting deepfakes with generative AI. We introduce ExposeAnyone — a paradigm shift in face forgery detection! 🔍️ Fully self-supervised approach 🥇 Best average AUC on traditional deepfake benchmarks 💪 Best AUC even on Sora2 by OpenAI 💢 Strong Robustness to common corruptions such as JPEG/MPEG compression Arxiv: https://arxiv.org/abs/2601.02359 Project page: https://mapooon.github.io/ExposeAnyonePage/",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.02359",
+      "pdf_url": "https://arxiv.org/pdf/2601.02359",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.02359",
+      "scraped_at": "2026-01-08T01:51:30.555236"
+    },
+    "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "AceFF: A State-of-the-Art Machine Learning Potential for Small Molecules",
+    "paper_url": "https://huggingface.co/papers/2601.00581",
+    "authors": [],
+    "stars": "458",
+    "details": {
+      "title": "AceFF: A State-of-the-Art Machine Learning Potential for Small Molecules",
+      "abstract": "AceFF: A State-of-the-Art Machine Learning Potential for Small Molecules We introduce AceFF, a pre-trained machine learning interatomic potential (MLIP) optimized for small molecule drug discovery. While MLIPs have emerged as efficient alternatives to Density Functional Theory (DFT), generalizability across diverse chemical spaces remains difficult. AceFF addresses this via a refined TensorNet2 architecture trained on a comprehensive dataset of drug-like compounds. This approach yields a force field that balances high-throughput inference speed with DFT-level accuracy. AceFF fully supports the essential medicinal chemistry elements (H, B, C, N, O, F, Si, P, S, Cl, Br, I) and is explicitly trained to handle charged states. Validation against rigorous benchmarks, including complex torsional energy scans, molecular dynamics trajectories, batched minimizations, and forces and anergy accuracy demonstrates that AceFF establishes a new state-of-the-art for organic molecules. The AceFF-2 model weights and inference code are available at this https URL.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.00581",
+      "pdf_url": "https://arxiv.org/pdf/2601.00581",
+      "github_links": [
+        "https://github.com/torchmd/torchmd-net"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.00581",
+      "scraped_at": "2026-01-08T01:51:32.482242"
+    },
+    "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "U-Net-Like Spiking Neural Networks for Single Image Dehazing",
+    "paper_url": "https://huggingface.co/papers/2512.23950",
+    "authors": [
+      "Peng Li",
+      "Yulong Xiao",
+      "Mingzhe Liu",
+      "Huibin Li",
+      "FengShaner"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "U-Net-Like Spiking Neural Networks for Single Image Dehazing",
+      "abstract": "Title: DehazeSNN — U-Net-like Spiking Neural Networks for Single Image Dehazing Short summary: DehazeSNN integrates a U-Net architecture with Spiking Neural Networks to reduce compute while achieving competitive dehazing results. Code: github.com/HaoranLiu507/DehazeSNN. Highlights: U-Net + SNN design for lower MACs. OLIF block for improved cross-channel communication. Benchmarks show comparable or better dehazing with smaller model footprint.",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.23950",
+      "pdf_url": "https://arxiv.org/pdf/2512.23950",
+      "github_links": [
+        "https://github.com/HaoranLiu507/DehazeSNN"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.23950",
+      "scraped_at": "2026-01-08T01:51:34.324181"
+    },
+    "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "Steerability of Instrumental-Convergence Tendencies in LLMs",
+    "paper_url": "https://huggingface.co/papers/2601.01584",
+    "authors": [
+      "j-hoscilowic"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Steerability of Instrumental-Convergence Tendencies in LLMs",
+      "abstract": "This paper measures how easily “instrumental-convergence” behaviors (e.g., shutdown avoidance, self-replication) in LLMs can be amplified or suppressed by simple steering, and argues that the common claim “as AI capability (often glossed as ‘intelligence’) increases, systems inevitably become less controllable” should not be treated as a default assumption. Using InstrumentalEval on Qwen3 (4B/30B; Base/Instruct/Thinking) with a GPT-5.2 judge, a short anti-instrumental prompt suffix drops convergence sharply (e.g., Qwen3-30B Instruct: 81.69% to 2.82%), while a pro-instrumental suffix pushes it high. The key takeaway is a safety–security dilemma for open weights: the same high steerability that helps builders enforce safe behavior can also help attackers elicit disallowed behavior, so widening the gap between authorized vs. unauthorized steerability remains a central open problem.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.01584",
+      "pdf_url": "https://arxiv.org/pdf/2601.01584",
+      "github_links": [
+        "https://github.com/j-hoscilowicz/instrumental_steering/"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.01584",
+      "scraped_at": "2026-01-08T01:51:36.179871"
+    },
+    "scraped_date": "2026-01-08"
   }
 ]
