@@ -1452,5 +1452,404 @@
       "scraped_at": "2026-01-08T01:51:36.179871"
     },
     "scraped_date": "2026-01-08"
+  },
+  {
+    "title": "Entropy-Adaptive Fine-Tuning: Resolving Confident Conflicts to Mitigate Forgetting",
+    "paper_url": "https://huggingface.co/papers/2601.02151",
+    "authors": [],
+    "stars": "18",
+    "details": {
+      "title": "Entropy-Adaptive Fine-Tuning: Resolving Confident Conflicts to Mitigate Forgetting",
+      "abstract": "💻 Code: https://github.com/PRIS-CV/EAFT ✨ Project Page: https://ymxyll.github.io/EAFT/",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.02151",
+      "pdf_url": "https://arxiv.org/pdf/2601.02151",
+      "github_links": [
+        "https://github.com/hiyouga/LLaMA-Factory",
+        "https://github.com/PRIS-CV/EAFT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.02151",
+      "scraped_at": "2026-01-09T01:51:09.218763"
+    },
+    "scraped_date": "2026-01-09"
+  },
+  {
+    "title": "Evolving Programmatic Skill Networks",
+    "paper_url": "https://huggingface.co/papers/2601.03509",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Evolving Programmatic Skill Networks",
+      "abstract": "We study continual skill acquisition in openended embodied environments where an agent must construct, refine, and reuse an expanding library of executable skills. We introduce the Programmatic Skill Network (PSN), a framework in which skills are executable symbolic programs forming a compositional network that evolves through experience. PSN defines three core mechanisms instantiated via large language models: (1) REFLECT for structured fault localization over skill compositions, (2) progressive optimization with maturity-aware update gating that stabilizes reliable skills while maintaining plasticity for uncertain ones, and (3) canonical structural refactoring under rollback validation that maintains network compactness. We further show that PSN’s learning dynamics exhibit structural parallels to neural network training. Experiments on MineDojo and Crafter demonstrate robust skill reuse, rapid adaptation, and strong generalization across open-ended task distributions.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.03509",
+      "pdf_url": "https://arxiv.org/pdf/2601.03509",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.03509",
+      "scraped_at": "2026-01-09T01:51:11.028376"
+    },
+    "scraped_date": "2026-01-09"
+  },
+  {
+    "title": "Atlas: Orchestrating Heterogeneous Models and Tools for Multi-Domain Complex Reasoning",
+    "paper_url": "https://huggingface.co/papers/2601.03872",
+    "authors": [
+      "Yuhao Shen",
+      "Jiahao Yuan",
+      "Ruihan Jin",
+      "Guocheng Zhai",
+      "Jinyang23"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Atlas: Orchestrating Heterogeneous Models and Tools for Multi-Domain Complex Reasoning",
+      "abstract": "🚀 [New Paper] Atlas: Orchestrating Heterogeneous Models and Tools for Multi-Domain Complex Reasoning The growing diversity of LLMs and external tools presents a significant challenge: how to select the optimal model-tool combination for complex reasoning tasks. Existing methods often fall short by relying on single models or fixed tool-calling logic. ATLAS (Adaptive Tool-LLM Alignment and Synergistic Invocation) addresses this by introducing a dual-path framework for dynamic model-tool alignment and invocation across multiple domains. ✨ The Core Intuition: ATLAS employs a dual-path approach to achieve dynamic model-tool alignment and invocation: 1️⃣ Training-Free Cluster-Based Routing: This path leverages empirical priors for domain-specific alignment, efficiently guiding the model-tool selection process. 2️⃣ RL-Based Multi-Step Routing: This path explores autonomous trajectories to achieve strong generalization, particularly for out-of-distribution tasks. 📈 Highlights: Superior Performance: ATLAS significantly outperforms closed-source models like GPT-4o and existing routing methods, achieving +10.1% on in-distribution tasks and +13.1% on out-of-distribution tasks across 15 benchmarks. Enhanced Visual Reasoning: The framework demonstrates substantial improvements in visual reasoning by effectively orchestrating specialized multi-modal tools. Adaptive Orchestration: ATLAS learns to assess its internal state and dynamically invoke external resources, internalizing the alignment between domains and tool utilization. Robust and Generalizable: The design ensures that the routing policy effectively captures expertise distribution, making it robust and generalizable even as tools and models evolve.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.03872",
+      "pdf_url": "https://arxiv.org/pdf/2601.03872",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.03872",
+      "scraped_at": "2026-01-09T01:51:12.875928"
+    },
+    "scraped_date": "2026-01-09"
+  },
+  {
+    "title": "Benchmark^2: Systematic Evaluation of LLM Benchmarks",
+    "paper_url": "https://huggingface.co/papers/2601.03986",
+    "authors": [
+      "Muling Wu",
+      "Changze Lv",
+      "Jingwen Xu",
+      "Qi Qian",
+      "ChengsongHuang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Benchmark^2: Systematic Evaluation of LLM Benchmarks",
+      "abstract": "The rapid proliferation of benchmarks for evaluating large language models (LLMs) has created an urgent need for systematic methods to assess benchmark quality itself. We propose Benchmark^2, a comprehensive framework comprising three complementary metrics: (1) Cross-Benchmark Ranking Consistency, measuring whether a benchmark produces model rankings aligned with peer benchmarks; (2) Discriminability Score, quantifying a benchmark's ability to differentiate between models; and (3) Capability Alignment Deviation, identifying problematic instances where stronger models fail but weaker models succeed within the same model family. We conduct extensive experiments across 15 benchmarks spanning mathematics, reasoning, and knowledge domains, evaluating 11 LLMs across four model families. Our analysis reveals significant quality variations among existing benchmarks and demonstrates that selective benchmark construction based on our metrics can achieve comparable evaluation performance with substantially reduced test sets.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.03986",
+      "pdf_url": "https://arxiv.org/pdf/2601.03986",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.03986",
+      "scraped_at": "2026-01-09T01:51:14.732608"
+    },
+    "scraped_date": "2026-01-09"
+  },
+  {
+    "title": "ROI-Reasoning: Rational Optimization for Inference via Pre-Computation Meta-Cognition",
+    "paper_url": "https://huggingface.co/papers/2601.03822",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ROI-Reasoning: Rational Optimization for Inference via Pre-Computation Meta-Cognition",
+      "abstract": "ROI-Reasoning introduces a principled framework for budget-aware inference-time reasoning in large language models. Instead of blindly scaling computation, the authors formulate multi-task reasoning under a global token constraint as an Ordered Stochastic Multiple-Choice Knapsack Problem, explicitly modeling the trade-off between reasoning cost and expected utility. The proposed two-stage approach combines Meta-Cognitive Fine-Tuning, which enables models to anticipate difficulty and make solve-or-skip decisions before reasoning, with Rationality-Aware Reinforcement Learning, which optimizes long-horizon computation allocation under strict budgets. Across challenging mathematical reasoning benchmarks, ROI-Reasoning consistently improves total score and substantially reduces regret—demonstrating that meta-cognitive planning, not just stronger reasoning, is key to efficient test-time scaling of LLMs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.03822",
+      "pdf_url": "https://arxiv.org/pdf/2601.03822",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.03822",
+      "scraped_at": "2026-01-09T01:51:16.648836"
+    },
+    "scraped_date": "2026-01-09"
+  },
+  {
+    "title": "Klear: Unified Multi-Task Audio-Video Joint Generation",
+    "paper_url": "https://huggingface.co/papers/2601.04151",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Klear: Unified Multi-Task Audio-Video Joint Generation",
+      "abstract": "Klear: 26B model for joint audio-video generation Single-tower DiT with \"Omni-Full Attention\" across video, audio, and text Progressive multi-task training (T2V, T2A, T2AV, I2V all in one model) 81M sample dataset with dense captions Claims Veo 3-level performance on lip-sync & AV consistency",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.04151",
+      "pdf_url": "https://arxiv.org/pdf/2601.04151",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.04151",
+      "scraped_at": "2026-01-09T01:51:18.670540"
+    },
+    "scraped_date": "2026-01-09"
+  },
+  {
+    "title": "Choreographing a World of Dynamic Objects",
+    "paper_url": "https://huggingface.co/papers/2601.04194",
+    "authors": [
+      "Hadi Alzayer",
+      "Yunzhi Zhang",
+      "Karthik Dharmarajan",
+      "Chen Geng",
+      "Yanzhe Lyu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Choreographing a World of Dynamic Objects",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Animus3D: Text-driven 3D Animation via Motion Score Distillation (2025) AnimaMimic: Imitating 3D Animation from Video Priors (2025) Asset-Driven Sematic Reconstruction of Dynamic Scene with Multi-Human-Object Interactions (2025) DIMO: Diverse 3D Motion Generation for Arbitrary Objects (2025) Inferring Compositional 4D Scenes without Ever Seeing One (2025) SS4D: Native 4D Generative Model via Structured Spacetime Latents (2025) WorldReel: 4D Video Generation with Consistent Geometry and Motion Modeling (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.04194",
+      "pdf_url": "https://arxiv.org/pdf/2601.04194",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.04194",
+      "scraped_at": "2026-01-09T01:51:20.596669"
+    },
+    "scraped_date": "2026-01-09"
+  },
+  {
+    "title": "Agentic Rubrics as Contextual Verifiers for SWE Agents",
+    "paper_url": "https://huggingface.co/papers/2601.04171",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Agentic Rubrics as Contextual Verifiers for SWE Agents",
+      "abstract": "Agentic Rubrics for verifying SWE agent patches WITHOUT running tests! An agent explores the codebase to generate context-grounded checklists, then scores patches execution-free. Rubrics provide dense, interpretable reward signals that could scale RL training for coding agents",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.04171",
+      "pdf_url": "https://arxiv.org/pdf/2601.04171",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.04171",
+      "scraped_at": "2026-01-09T01:51:22.502781"
+    },
+    "scraped_date": "2026-01-09"
+  },
+  {
+    "title": "MDAgent2: Large Language Model for Code Generation and Knowledge Q&A in Molecular Dynamics",
+    "paper_url": "https://huggingface.co/papers/2601.02075",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MDAgent2: Large Language Model for Code Generation and Knowledge Q&A in Molecular Dynamics",
+      "abstract": "project: https://github.com/FredericVAN/PKU_MDAgent2",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.02075",
+      "pdf_url": "https://arxiv.org/pdf/2601.02075",
+      "github_links": [
+        "https://github.com/FredericVAN/PKU_MDAgent2"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.02075",
+      "scraped_at": "2026-01-09T01:51:24.349527"
+    },
+    "scraped_date": "2026-01-09"
+  },
+  {
+    "title": "E-GRPO: High Entropy Steps Drive Effective Reinforcement Learning for Flow Models",
+    "paper_url": "https://huggingface.co/papers/2601.00423",
+    "authors": [],
+    "stars": "15",
+    "details": {
+      "title": "E-GRPO: High Entropy Steps Drive Effective Reinforcement Learning for Flow Models",
+      "abstract": "We propose an entropy aware Group Relative Policy Optimization (E-GRPO) to increase the entropy of SDE sampling steps. We have integrated a variety of current GRPO-based reinforcement learning methods as well as different image reward models. Code: https://github.com/shengjun-zhang/VisualGRPO Model: https://huggingface.co/studyOverflow/E-GRPO",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.00423",
+      "pdf_url": "https://arxiv.org/pdf/2601.00423",
+      "github_links": [
+        "https://github.com/shengjun-zhang/VisualGRPO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.00423",
+      "scraped_at": "2026-01-09T01:51:26.319389"
+    },
+    "scraped_date": "2026-01-09"
+  },
+  {
+    "title": "EpiQAL: Benchmarking Large Language Models in Epidemiological Question Answering for Enhanced Alignment and Reasoning",
+    "paper_url": "https://huggingface.co/papers/2601.03471",
+    "authors": [
+      "Guanchen Wu",
+      "Yuzhang Xie",
+      "Zewen Liu",
+      "Dehai Min",
+      "Mingyang Wei"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "EpiQAL: Benchmarking Large Language Models in Epidemiological Question Answering for Enhanced Alignment and Reasoning",
+      "abstract": "EpiQAL, the first diagnostic benchmark for epidemiological question answering across diverse diseases, comprising three subsets built from open-access literature.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.03471",
+      "pdf_url": "https://arxiv.org/pdf/2601.03471",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.03471",
+      "scraped_at": "2026-01-09T01:51:28.218342"
+    },
+    "scraped_date": "2026-01-09"
+  },
+  {
+    "title": "RedBench: A Universal Dataset for Comprehensive Red Teaming of Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2601.03699",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "RedBench: A Universal Dataset for Comprehensive Red Teaming of Large Language Models",
+      "abstract": "RedBench presents a unified dataset with standardized risk categorization for evaluating LLM vulnerabilities across multiple domains and attack types.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.03699",
+      "pdf_url": "https://arxiv.org/pdf/2601.03699",
+      "github_links": [
+        "https://github.com/knoveleng/redeval"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.03699",
+      "scraped_at": "2026-01-09T01:51:30.046104"
+    },
+    "scraped_date": "2026-01-09"
+  },
+  {
+    "title": "Why LLMs Aren't Scientists Yet: Lessons from Four Autonomous Research Attempts",
+    "paper_url": "https://huggingface.co/papers/2601.03315",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Why LLMs Aren't Scientists Yet: Lessons from Four Autonomous Research Attempts",
+      "abstract": "We find that LLMs aren't scientists yet.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.03315",
+      "pdf_url": "https://arxiv.org/pdf/2601.03315",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.03315",
+      "scraped_at": "2026-01-09T01:51:31.842661"
+    },
+    "scraped_date": "2026-01-09"
+  },
+  {
+    "title": "ThinkRL-Edit: Thinking in Reinforcement Learning for Reasoning-Centric Image Editing",
+    "paper_url": "https://huggingface.co/papers/2601.03467",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ThinkRL-Edit: Thinking in Reinforcement Learning for Reasoning-Centric Image Editing",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API PaCo-RL: Advancing Reinforcement Learning for Consistent Image Generation with Pairwise Reward Modeling (2025) CogniEdit: Dense Gradient Flow Optimization for Fine-Grained Image Editing (2025) Unified Thinker: A General Reasoning Modular Core for Image Generation (2026) ReViSE: Towards Reason-Informed Video Editing in Unified Models with Self-Reflective Learning (2025) ThinkGen: Generalized Thinking for Visual Generation (2025) MIRA: Multimodal Iterative Reasoning Agent for Image Editing (2025) EditThinker: Unlocking Iterative Reasoning for Any Image Editor (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.03467",
+      "pdf_url": "https://arxiv.org/pdf/2601.03467",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.03467",
+      "scraped_at": "2026-01-09T01:51:33.683864"
+    },
+    "scraped_date": "2026-01-09"
+  },
+  {
+    "title": "Enhancing Linguistic Competence of Language Models through Pre-training with Language Learning Tasks",
+    "paper_url": "https://huggingface.co/papers/2601.03448",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Enhancing Linguistic Competence of Language Models through Pre-training with Language Learning Tasks",
+      "abstract": "We propose L2T, a pre-training framework integrating Language Learning Tasks alongside standard next-token prediction. L2T establishes the structural scaffolding required for linguistic competence, complementing world knowledge acquired through standard CLM. The code is available on GitHub: https://github.com/gucci-j/l2t",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.03448",
+      "pdf_url": "https://arxiv.org/pdf/2601.03448",
+      "github_links": [
+        "https://github.com/gucci-j/l2t"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.03448",
+      "scraped_at": "2026-01-09T01:51:35.563270"
+    },
+    "scraped_date": "2026-01-09"
+  },
+  {
+    "title": "Pearmut: Human Evaluation of Translation Made Trivial",
+    "paper_url": "https://huggingface.co/papers/2601.02933",
+    "authors": [
+      "Tom Kocmi",
+      "Vilém Zouhar"
+    ],
+    "stars": "7",
+    "details": {
+      "title": "Pearmut: Human Evaluation of Translation Made Trivial",
+      "abstract": "Happy to discuss how people human-evaluate multilingual tasks! 🙂",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.02933",
+      "pdf_url": "https://arxiv.org/pdf/2601.02933",
+      "github_links": [
+        "https://github.com/zouharvi/pearmut"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.02933",
+      "scraped_at": "2026-01-09T01:51:37.483381"
+    },
+    "scraped_date": "2026-01-09"
+  },
+  {
+    "title": "ResTok: Learning Hierarchical Residuals in 1D Visual Tokenizers for Autoregressive Image Generation",
+    "paper_url": "https://huggingface.co/papers/2601.03955",
+    "authors": [
+      "Ming Lu",
+      "Kun Gai",
+      "Huan Yang",
+      "Cheng Da",
+      "Xu Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ResTok: Learning Hierarchical Residuals in 1D Visual Tokenizers for Autoregressive Image Generation",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.03955",
+      "pdf_url": "https://arxiv.org/pdf/2601.03955",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.03955",
+      "scraped_at": "2026-01-09T01:51:39.413532"
+    },
+    "scraped_date": "2026-01-09"
+  },
+  {
+    "title": "MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents",
+    "paper_url": "https://huggingface.co/papers/2601.03236",
+    "authors": [
+      "Bingzhe Li",
+      "Guanpeng Li",
+      "Yi Li",
+      "Dongming Jiang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents",
+      "abstract": "This ia giid paper",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.03236",
+      "pdf_url": "https://arxiv.org/pdf/2601.03236",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.03236",
+      "scraped_at": "2026-01-09T01:51:41.306990"
+    },
+    "scraped_date": "2026-01-09"
+  },
+  {
+    "title": "Gen3R: 3D Scene Generation Meets Feed-Forward Reconstruction",
+    "paper_url": "https://huggingface.co/papers/2601.04090",
+    "authors": [
+      "Yuewen Ma",
+      "Lin Ma",
+      "Bangbang Yang",
+      "Yuanbo Yang",
+      "Jiaxin Huang"
+    ],
+    "stars": "34",
+    "details": {
+      "title": "Gen3R: 3D Scene Generation Meets Feed-Forward Reconstruction",
+      "abstract": "We Introduce Gen3R — create multi-quantity geometry with RGB from images. 📷 Photorealistic Video 🚀 Accurate 3D Scene Geometry Arxiv: https://arxiv.org/abs/2601.04090 Project page: https://xdimlab.github.io/Gen3R/",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.04090",
+      "pdf_url": "https://arxiv.org/pdf/2601.04090",
+      "github_links": [
+        "https://github.com/JaceyHuang/Gen3R"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.04090",
+      "scraped_at": "2026-01-09T01:51:43.101762"
+    },
+    "scraped_date": "2026-01-09"
+  },
+  {
+    "title": "RGS-SLAM: Robust Gaussian Splatting SLAM with One-Shot Dense Initialization",
+    "paper_url": "https://huggingface.co/papers/2601.00705",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "RGS-SLAM: Robust Gaussian Splatting SLAM with One-Shot Dense Initialization",
+      "abstract": "We introduce RGS-SLAM, a robust Gaussian-splatting SLAM framework that replaces the residual-driven densification stage of GS-SLAM with a training-free correspondence-to-Gaussian initialization. Instead of progressively adding Gaussians as residuals reveal missing geometry, RGS-SLAM performs a one-shot triangulation of dense multi-view correspondences derived from DINOv3 descriptors refined through a confidence-aware inlier classifier, generating a well-distributed and structure-aware Gaussian seed prior to optimization. This initialization stabilizes early mapping and accelerates convergence by roughly 20%, yielding higher rendering fidelity in texture-rich and cluttered scenes while remaining fully compatible with existing GS-SLAM pipelines. Evaluated on the TUM RGB-D and Replica datasets, RGS-SLAM achieves competitive or superior localization and reconstruction accuracy compared with state-of-the-art Gaussian and point-based SLAM systems, sustaining real-time mapping performance at up to 925 FPS.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.00705",
+      "pdf_url": "https://arxiv.org/pdf/2601.00705",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.00705",
+      "scraped_at": "2026-01-09T01:51:44.961750"
+    },
+    "scraped_date": "2026-01-09"
   }
 ]
