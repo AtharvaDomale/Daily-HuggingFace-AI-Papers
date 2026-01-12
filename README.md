@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-33-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-935+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-968+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">33</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">156</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">197</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">935+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">33</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">230</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">968+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** January 11, 2026
+**Last Updated:** January 12, 2026
 
 ---
 
@@ -119,7 +119,7 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization</b> ⭐ 101</summary>
+<summary><b>1. GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization</b> ⭐ 126</summary>
 
 <br/>
 
@@ -145,7 +145,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>3. RL-AWB: Deep Reinforcement Learning for Auto White Balance Correction in Low-Light Night-time Scenes</b> ⭐ 16</summary>
+<summary><b>3. RL-AWB: Deep Reinforcement Learning for Auto White Balance Correction in Low-Light Night-time Scenes</b> ⭐ 17</summary>
 
 <br/>
 
@@ -173,7 +173,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>5. RelayLLM: Efficient Reasoning via Collaborative Decoding</b> ⭐ 11</summary>
+<summary><b>5. VideoAuto-R1: Video Auto Reasoning via Thinking Once, Answering Twice</b> ⭐ 23</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.05175) • [📄 arXiv](https://arxiv.org/abs/2601.05175) • [📥 PDF](https://arxiv.org/pdf/2601.05175)
+
+**💻 Code:** [⭐ Code](https://github.com/IVUL-KAUST/VideoAuto-R1/)
+
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Rethinking Chain-of-Thought Reasoning for Videos (2025) LongVT: Incentivizi...
+
+</details>
+
+<details>
+<summary><b>6. RelayLLM: Efficient Reasoning via Collaborative Decoding</b> ⭐ 16</summary>
 
 <br/>
 
@@ -188,22 +201,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>6. RoboVIP: Multi-View Video Generation with Visual Identity Prompting Augments Robot Manipulation</b> ⭐ 11</summary>
-
-<br/>
-
-**👥 Authors:** Jia-Zeng, ZhaoyangLyu, matthewmao, wuzhi-hao, HikariDawn
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.05241) • [📄 arXiv](https://arxiv.org/abs/2601.05241) • [📥 PDF](https://arxiv.org/pdf/2601.05241)
-
-**💻 Code:** [⭐ Code](https://github.com/RoboVIP/RoboVIP_VDM)
-
-> The project webpage is at: https://robovip.github.io/RoboVIP/
-
-</details>
-
-<details>
-<summary><b>7. AT^2PO: Agentic Turn-based Policy Optimization via Tree Search</b> ⭐ 4</summary>
+<summary><b>7. AT^2PO: Agentic Turn-based Policy Optimization via Tree Search</b> ⭐ 6</summary>
 
 <br/>
 
@@ -216,15 +214,17 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>8. VideoAuto-R1: Video Auto Reasoning via Thinking Once, Answering Twice</b> ⭐ 17</summary>
+<summary><b>8. RoboVIP: Multi-View Video Generation with Visual Identity Prompting Augments Robot Manipulation</b> ⭐ 13</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.05175) • [📄 arXiv](https://arxiv.org/abs/2601.05175) • [📥 PDF](https://arxiv.org/pdf/2601.05175)
+**👥 Authors:** Jia-Zeng, ZhaoyangLyu, matthewmao, wuzhi-hao, HikariDawn
 
-**💻 Code:** [⭐ Code](https://github.com/IVUL-KAUST/VideoAuto-R1/)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.05241) • [📄 arXiv](https://arxiv.org/abs/2601.05241) • [📥 PDF](https://arxiv.org/pdf/2601.05241)
 
-> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Rethinking Chain-of-Thought Reasoning for Videos (2025) LongVT: Incentivizi...
+**💻 Code:** [⭐ Code](https://github.com/RoboVIP/RoboVIP_VDM)
+
+> The project webpage is at: https://robovip.github.io/RoboVIP/
 
 </details>
 
@@ -253,22 +253,9 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>11. The Illusion of Specialization: Unveiling the Domain-Invariant "Standing Committee" in Mixture-of-Experts Models</b> ⭐ 0</summary>
+<summary><b>11. Agent-as-a-Judge</b> ⭐ 21</summary>
 
 <br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.03425) • [📄 arXiv](https://arxiv.org/abs/2601.03425) • [📥 PDF](https://arxiv.org/pdf/2601.03425)
-
-> Mixture of Experts models are widely assumed to achieve domain specialization through sparse routing. In this work, we question this assumption by introducing COMMITTEEAUDIT, a post hoc framework that analyzes routing behavior at the level of expe...
-
-</details>
-
-<details>
-<summary><b>12. Agent-as-a-Judge</b> ⭐ 17</summary>
-
-<br/>
-
-**👥 Authors:** Meng Liu, Qiancheng Xu, Caiqi Zhang, HongruCai, dd101bb
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.05111) • [📄 arXiv](https://arxiv.org/abs/2601.05111) • [📥 PDF](https://arxiv.org/pdf/2601.05111)
 
@@ -279,7 +266,29 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>13. Plenoptic Video Generation</b> ⭐ 0</summary>
+<summary><b>12. The Illusion of Specialization: Unveiling the Domain-Invariant "Standing Committee" in Mixture-of-Experts Models</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.03425) • [📄 arXiv](https://arxiv.org/abs/2601.03425) • [📥 PDF](https://arxiv.org/pdf/2601.03425)
+
+> Mixture of Experts models are widely assumed to achieve domain specialization through sparse routing. In this work, we question this assumption by introducing COMMITTEEAUDIT, a post hoc framework that analyzes routing behavior at the level of expe...
+
+</details>
+
+<details>
+<summary><b>13. DiffCoT: Diffusion-styled Chain-of-Thought Reasoning in LLMs</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.03559) • [📄 arXiv](https://arxiv.org/abs/2601.03559) • [📥 PDF](https://arxiv.org/pdf/2601.03559)
+
+> DiffCoT improves multi-step LLM reasoning by applying diffusion-based iterative denoising to correct intermediate Chain-of-Thought steps.
+
+</details>
+
+<details>
+<summary><b>14. Plenoptic Video Generation</b> ⭐ 0</summary>
 
 <br/>
 
@@ -290,7 +299,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>14. CoV: Chain-of-View Prompting for Spatial Reasoning</b> ⭐ 6</summary>
+<summary><b>15. CoV: Chain-of-View Prompting for Spatial Reasoning</b> ⭐ 9</summary>
 
 <br/>
 
@@ -303,18 +312,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>15. DiffCoT: Diffusion-styled Chain-of-Thought Reasoning in LLMs</b> ⭐ 0</summary>
+<summary><b>16. One Sample to Rule Them All: Extreme Data Efficiency in RL Scaling</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.03559) • [📄 arXiv](https://arxiv.org/abs/2601.03559) • [📥 PDF](https://arxiv.org/pdf/2601.03559)
+**👥 Authors:** Xuefeng Li, Weixun Wang, Yanan Wu, Zhen Huang, Yiyuan Li
 
-> DiffCoT improves multi-step LLM reasoning by applying diffusion-based iterative denoising to correct intermediate Chain-of-Thought steps.
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.03111) • [📄 arXiv](https://arxiv.org/abs/2601.03111) • [📥 PDF](https://arxiv.org/pdf/2601.03111)
+
+> This work discusses the potential of lifting broader reasoning ability by learning from one high-quality sample. In polymath learning, the quality of samples can be selected through the lens of salient math skills and categories. The model learned...
 
 </details>
 
 <details>
-<summary><b>16. Re-Align: Structured Reasoning-guided Alignment for In-Context Image Generation and Editing</b> ⭐ 1</summary>
+<summary><b>17. Re-Align: Structured Reasoning-guided Alignment for In-Context Image Generation and Editing</b> ⭐ 1</summary>
 
 <br/>
 
@@ -329,7 +340,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>17. DocDancer: Towards Agentic Document-Grounded Information Seeking</b> ⭐ 0</summary>
+<summary><b>18. DocDancer: Towards Agentic Document-Grounded Information Seeking</b> ⭐ 0</summary>
 
 <br/>
 
@@ -340,20 +351,18 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>18. One Sample to Rule Them All: Extreme Data Efficiency in RL Scaling</b> ⭐ 0</summary>
+<summary><b>19. ReHyAt: Recurrent Hybrid Attention for Video Diffusion Transformers</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Xuefeng Li, Weixun Wang, Yanan Wu, Zhen Huang, Yiyuan Li
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.04342) • [📄 arXiv](https://arxiv.org/abs/2601.04342) • [📥 PDF](https://arxiv.org/pdf/2601.04342)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.03111) • [📄 arXiv](https://arxiv.org/abs/2601.03111) • [📥 PDF](https://arxiv.org/pdf/2601.03111)
-
-> This work discusses the potential of lifting broader reasoning ability by learning from one high-quality sample. In polymath learning, the quality of samples can be selected through the lens of salient math skills and categories. The model learned...
+> 🚀 Introducing PyramidalWan! Our paper presents a novel pipeline to convert pretrained video diffusion models (like Wan2.1-1.3B) into efficient pyramidal ones via low-cost finetuning. Key Innovations: Efficiency via Hierarchy: We restructure the di...
 
 </details>
 
 <details>
-<summary><b>19. Multi-Scale Local Speculative Decoding for Image Generation</b> ⭐ 0</summary>
+<summary><b>20. Multi-Scale Local Speculative Decoding for Image Generation</b> ⭐ 0</summary>
 
 <br/>
 
@@ -364,7 +373,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>20. PyramidalWan: On Making Pretrained Video Model Pyramidal for Efficient Inference</b> ⭐ 0</summary>
+<summary><b>21. PyramidalWan: On Making Pretrained Video Model Pyramidal for Efficient Inference</b> ⭐ 0</summary>
 
 <br/>
 
@@ -375,7 +384,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>21. ProFuse: Efficient Cross-View Context Fusion for Open-Vocabulary 3D Gaussian Splatting</b> ⭐ 0</summary>
+<summary><b>22. ProFuse: Efficient Cross-View Context Fusion for Open-Vocabulary 3D Gaussian Splatting</b> ⭐ 0</summary>
 
 <br/>
 
@@ -388,55 +397,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>22. ReHyAt: Recurrent Hybrid Attention for Video Diffusion Transformers</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.04342) • [📄 arXiv](https://arxiv.org/abs/2601.04342) • [📥 PDF](https://arxiv.org/pdf/2601.04342)
-
-> 🚀 Introducing PyramidalWan! Our paper presents a novel pipeline to convert pretrained video diffusion models (like Wan2.1-1.3B) into efficient pyramidal ones via low-cost finetuning. Key Innovations: Efficiency via Hierarchy: We restructure the di...
-
-</details>
-
-<details>
-<summary><b>23. Guardians of the Hair: Rescuing Soft Boundaries in Depth, Stereo, and Novel Views</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.03362) • [📄 arXiv](https://arxiv.org/abs/2601.03362) • [📥 PDF](https://arxiv.org/pdf/2601.03362)
-
-> Soft boundaries, like thin hairs, are commonly observed in natural and computer-generated imagery, but they remain challenging for 3D vision due to the ambiguous mixing of foreground and background cues. This paper introduces Guardians of the Hair...
-
-</details>
-
-<details>
-<summary><b>24. Memorization in 3D Shape Generation: An Empirical Study</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.23628) • [📄 arXiv](https://arxiv.org/abs/2512.23628) • [📥 PDF](https://arxiv.org/pdf/2512.23628)
-
-**💻 Code:** [⭐ Code](https://github.com/zlab-princeton/3d-gen-mem)
-
-> Our code is available at https://github.com/zlab-princeton/3d-gen-mem.
-
-</details>
-
-<details>
-<summary><b>25. AgentDevel: Reframing Self-Evolving LLM Agents as Release Engineering</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Di Zhang
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.04620) • [📄 arXiv](https://arxiv.org/abs/2601.04620) • [📥 PDF](https://arxiv.org/pdf/2601.04620)
-
-> Recent progress in large language model (LLM) agents has largely focused on embedding self-improvement mechanisms inside the agent or searching over many concurrent variants. While these approaches can raise aggregate scores, they often yield unst...
-
-</details>
-
-<details>
-<summary><b>26. Scaling Behavior Cloning Improves Causal Reasoning: An Open Model for Real-Time Video Game Playing</b> ⭐ 26</summary>
+<summary><b>23. Scaling Behavior Cloning Improves Causal Reasoning: An Open Model for Real-Time Video Game Playing</b> ⭐ 31</summary>
 
 <br/>
 
@@ -449,7 +410,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>27. Beyond Binary Preference: Aligning Diffusion Models to Fine-grained Criteria by Decoupling Attributes</b> ⭐ 0</summary>
+<summary><b>24. Beyond Binary Preference: Aligning Diffusion Models to Fine-grained Criteria by Decoupling Attributes</b> ⭐ 0</summary>
 
 <br/>
 
@@ -460,7 +421,59 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>28. Learning User Preferences Through Interaction for Long-Term Collaboration</b> ⭐ 0</summary>
+<summary><b>25. Guardians of the Hair: Rescuing Soft Boundaries in Depth, Stereo, and Novel Views</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.03362) • [📄 arXiv](https://arxiv.org/abs/2601.03362) • [📥 PDF](https://arxiv.org/pdf/2601.03362)
+
+> Soft boundaries, like thin hairs, are commonly observed in natural and computer-generated imagery, but they remain challenging for 3D vision due to the ambiguous mixing of foreground and background cues. This paper introduces Guardians of the Hair...
+
+</details>
+
+<details>
+<summary><b>26. Towards Open-Vocabulary Industrial Defect Understanding with a Large-Scale Multimodal Dataset</b> ⭐ 2</summary>
+
+<br/>
+
+**👥 Authors:** YuanFu Yang, ZhenQi Chen, water-fountain
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.24160) • [📄 arXiv](https://arxiv.org/abs/2512.24160) • [📥 PDF](https://arxiv.org/pdf/2512.24160)
+
+**💻 Code:** [⭐ Code](https://github.com/NinaNeon/IMDD-1M-Towards-Open-Vocabulary-Industrial-Defect-)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>27. Memorization in 3D Shape Generation: An Empirical Study</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.23628) • [📄 arXiv](https://arxiv.org/abs/2512.23628) • [📥 PDF](https://arxiv.org/pdf/2512.23628)
+
+**💻 Code:** [⭐ Code](https://github.com/zlab-princeton/3d-gen-mem)
+
+> Our code is available at https://github.com/zlab-princeton/3d-gen-mem.
+
+</details>
+
+<details>
+<summary><b>28. AgentDevel: Reframing Self-Evolving LLM Agents as Release Engineering</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Di Zhang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.04620) • [📄 arXiv](https://arxiv.org/abs/2601.04620) • [📥 PDF](https://arxiv.org/pdf/2601.04620)
+
+> Recent progress in large language model (LLM) agents has largely focused on embedding self-improvement mechanisms inside the agent or searching over many concurrent variants. While these approaches can raise aggregate scores, they often yield unst...
+
+</details>
+
+<details>
+<summary><b>29. Learning User Preferences Through Interaction for Long-Term Collaboration</b> ⭐ 0</summary>
 
 <br/>
 
@@ -473,7 +486,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>29. Enhancing Object Detection with Privileged Information: A Model-Agnostic Teacher-Student Approach</b> ⭐ 3</summary>
+<summary><b>30. Enhancing Object Detection with Privileged Information: A Model-Agnostic Teacher-Student Approach</b> ⭐ 4</summary>
 
 <br/>
 
@@ -488,28 +501,13 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>30. LEMAS: Large A 150K-Hour Large-scale Extensible Multilingual Audio Suite with Generative Speech Models</b> ⭐ 0</summary>
+<summary><b>31. LEMAS: Large A 150K-Hour Large-scale Extensible Multilingual Audio Suite with Generative Speech Models</b> ⭐ 0</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.04233) • [📄 arXiv](https://arxiv.org/abs/2601.04233) • [📥 PDF](https://arxiv.org/pdf/2601.04233)
 
 > LEMAS: A 150K-Hour Large-scale Extensible Multilingual Audio Suite with Generative Speech Models LEMAS is a large-scale extensible multilingual audio suite, providing multilingual speech corpus (LEMAS-Dataset) with word-level timestamps, covering ...
-
-</details>
-
-<details>
-<summary><b>31. Towards Open-Vocabulary Industrial Defect Understanding with a Large-Scale Multimodal Dataset</b> ⭐ 1</summary>
-
-<br/>
-
-**👥 Authors:** YuanFu Yang, ZhenQi Chen, water-fountain
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2512.24160) • [📄 arXiv](https://arxiv.org/abs/2512.24160) • [📥 PDF](https://arxiv.org/pdf/2512.24160)
-
-**💻 Code:** [⭐ Code](https://github.com/NinaNeon/IMDD-1M-Towards-Open-Vocabulary-Industrial-Defect-)
-
-> No abstract available.
 
 </details>
 
@@ -548,36 +546,36 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 33 |
-| 📅 Today | [`2026-01-11.json`](data/daily/2026-01-11.json) | 33 |
-| 📆 This Week | [`2026-W01.json`](data/weekly/2026-W01.json) | 156 |
-| 🗓️ This Month | [`2026-01.json`](data/monthly/2026-01.json) | 197 |
+| 📅 Today | [`2026-01-12.json`](data/daily/2026-01-12.json) | 33 |
+| 📆 This Week | [`2026-W02.json`](data/weekly/2026-W02.json) | 33 |
+| 🗓️ This Month | [`2026-01.json`](data/monthly/2026-01.json) | 230 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-01-11 | 33 | [View JSON](data/daily/2026-01-11.json) |
+| 📌 2026-01-12 | 33 | [View JSON](data/daily/2026-01-12.json) |
+| 📄 2026-01-11 | 33 | [View JSON](data/daily/2026-01-11.json) |
 | 📄 2026-01-10 | 33 | [View JSON](data/daily/2026-01-10.json) |
 | 📄 2026-01-09 | 20 | [View JSON](data/daily/2026-01-09.json) |
 | 📄 2026-01-08 | 26 | [View JSON](data/daily/2026-01-08.json) |
 | 📄 2026-01-07 | 24 | [View JSON](data/daily/2026-01-07.json) |
 | 📄 2026-01-06 | 13 | [View JSON](data/daily/2026-01-06.json) |
-| 📄 2026-01-05 | 7 | [View JSON](data/daily/2026-01-05.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
+| 📅 2026-W02 | 33 | [View JSON](data/weekly/2026-W02.json) |
 | 📅 2026-W01 | 156 | [View JSON](data/weekly/2026-W01.json) |
 | 📅 2026-W00 | 41 | [View JSON](data/weekly/2026-W00.json) |
 | 📅 2025-W52 | 52 | [View JSON](data/weekly/2025-W52.json) |
-| 📅 2025-W51 | 132 | [View JSON](data/weekly/2025-W51.json) |
 
 ### 🗂️ Monthly Archives
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-01 | 197 | [View JSON](data/monthly/2026-01.json) |
+| 🗓️ 2026-01 | 230 | [View JSON](data/monthly/2026-01.json) |
 | 🗓️ 2025-12 | 787 | [View JSON](data/monthly/2025-12.json) |
 
 ---
