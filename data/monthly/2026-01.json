@@ -4694,5 +4694,622 @@
       "scraped_at": "2026-01-12T01:57:17.088547"
     },
     "scraped_date": "2026-01-12"
+  },
+  {
+    "title": "Thinking with Map: Reinforced Parallel Map-Augmented Agent for Geolocalization",
+    "paper_url": "https://huggingface.co/papers/2601.05432",
+    "authors": [],
+    "stars": "107",
+    "details": {
+      "title": "Thinking with Map: Reinforced Parallel Map-Augmented Agent for Geolocalization",
+      "abstract": "Demo video",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.05432",
+      "pdf_url": "https://arxiv.org/pdf/2601.05432",
+      "github_links": [
+        "https://github.com/AMAP-ML/Thinking-with-Map"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.05432",
+      "scraped_at": "2026-01-13T01:48:04.298623"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "MMFormalizer: Multimodal Autoformalization in the Wild",
+    "paper_url": "https://huggingface.co/papers/2601.03017",
+    "authors": [
+      "Huajian Xin",
+      "Hui Shen",
+      "Yunta Hsieh",
+      "Qi Han",
+      "Jing Xiong"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "MMFormalizer: Multimodal Autoformalization in the Wild",
+      "abstract": "Autoformalization, which translates natural language mathematics into formal statements to enable machine reasoning, faces fundamental challenges in the wild due to the multimodal nature of the physical world, where physics requires inferring hidden constraints (e.g., mass or energy) from visual elements. To address this, we propose MMFormalizer, which extends autoformalization beyond text by integrating adaptive grounding with entities from real-world mathematical and physical domains. MMFormalizer recursively constructs formal propositions from perceptually grounded primitives through recursive grounding and axiom composition, with adaptive recursive termination ensuring that every abstraction is supported by visual evidence and anchored in dimensional or axiomatic grounding. We evaluate MMFormalizer on a new benchmark, PhyX-AF, comprising 115 curated samples from MathVerse, PhyX, Synthetic Geometry, and Analytic Geometry, covering diverse multimodal autoformalization tasks. Results show that frontier models such as GPT-5 and Gemini-3-Pro achieve the highest compile and semantic accuracy, with GPT-5 excelling in physical reasoning, while geometry remains the most challenging domain. Overall, MMFormalizer provides a scalable framework for unified multimodal autoformalization, bridging perception and formal reasoning. To the best of our knowledge, this is the first multimodal autoformalization method capable of handling classical mechanics (derived from the Hamiltonian), as well as relativity, quantum mechanics, and thermodynamics.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.03017",
+      "pdf_url": "https://arxiv.org/pdf/2601.03017",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.03017",
+      "scraped_at": "2026-01-13T01:48:06.184101"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "CaricatureGS: Exaggerating 3D Gaussian Splatting Faces With Gaussian Curvature",
+    "paper_url": "https://huggingface.co/papers/2601.03319",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CaricatureGS: Exaggerating 3D Gaussian Splatting Faces With Gaussian Curvature",
+      "abstract": "Project Page: https://c4ricaturegs.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.03319",
+      "pdf_url": "https://arxiv.org/pdf/2601.03319",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.03319",
+      "scraped_at": "2026-01-13T01:48:08.069844"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "The Molecular Structure of Thought: Mapping the Topology of Long Chain-of-Thought Reasoning",
+    "paper_url": "https://huggingface.co/papers/2601.06002",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "The Molecular Structure of Thought: Mapping the Topology of Long Chain-of-Thought Reasoning",
+      "abstract": "Glad to share our recent exploratory project: 🧪 Title: The Molecular Structure of Thought: Mapping the Topology of Long Chain-of-Thought Reasoning 🌐 arXiv: 2601.06002 ​ 🧐 Why revisit Long CoT? Recent work often focuses on “making CoT longer,” but longer traces are more likely to derail—e.g., drifting off-track, breaking logical continuity, or amplifying hallucinations—especially when attempting to cold-start genuine long-horizon reasoning from a standard instruction-tuned model. ​ A key observation is that many trajectories that merely look like long reasoning (e.g., distilling from randomly sampled ICL demonstrations, or using human-written long step-by-step solutions) are not behaviorally stable, and models frequently fail to learn robustly from them. ​ 😭  Why imitation often fails “Long” human CoT is not necessarily effective: Fine-tuning on human-written long CoT does not reliably reproduce the gains achieved by distilling from a strong reasoning model. Distill from Weak instruct model + random ICL demonstrations largely fails: Using randomly chosen 1-shot ICL examples to “fake” long reasoning for distillation leads to significant degradation, suggesting that superficial formatting is insufficient. ​- Keywords are not the driver: Replacing surface tokens (e.g., “wait”) while preserving the underlying reasoning trajectory and behavioral pattern yields similar performance, indicating that SFT primarily learns structure/behavior rather than prompt-specific keywords. ​ 🔍  Early evidence: Long CoT has stable “structural fingerprints” We observe a stable behavioral transfer graph: across different strong reasoning models and tasks, the induced distributional characteristics appear highly consistent. ​- In semantic space, we see “linking–folding” patterns: deep reasoning tends to form locally dense structures; self-reflection tends to create backward links for validation/correction; and exploration tends to form weaker cross-cluster connections. ​ 💡 Core hypothesis: effective Long CoT as a “molecular structure” High-quality Long CoT is not merely a linear chain; it is stabilized by three interaction types—analogous to chemical bonds—that organize and constrain reasoning trajectories: ​- Deep Reasoning (covalent-bond-like): forms the main reasoning backbone; if it breaks, the solution collapses. ​- Self-Reflection (hydrogen-bond-like): folds later steps back to earlier ones to verify assumptions, detect errors, and correct the path. ​- Self-Exploration (van der Waals-like): weak but important cross-domain probing that broadens coverage and discovers alternative routes. ​ An additional observation is that the Gibbs–Boltzmann energy formulation is closely aligned with the attention formulation; hence, the “energy distributions” of different bonds can be estimated directly from attention, exhibiting a stable ordering reminiscent of real chemical bond energies. ​ 🍎 “Semantic isomers” of Long CoT For the same problem, trajectories can be semantically close yet differ in the distribution and transitions of bonds, yielding distinct “isomers” with dramatically different trainability and downstream performance. ​- Two isomers that appear similar may still be incompatible: mixing them during training can trigger structural conflicts and degrade performance. ​- ICL is not inherently ineffective; it helps when demonstrations are selected such that their structural distribution aligns with the target high-quality isomer. ​ 🔧 Solution: MOLE-SYN We propose MOLE-SYN: first estimate a behavioral transfer graph from a strong reasoning model, then use it to guide a pure instruct LLM to synthesize Long CoT trajectories. ​- Empirically, distilling Qwen-2.5 with MOLE-SYN–generated trajectories can approach the effectiveness of distillation from QwQ. ​- This initialization also exhibits strong RL potential: it yields more stable RL training curves and sustained improvement headroom. Finally, different behaviors have distinct global effects: deep reasoning makes the core logic more compact, self-reflection increases overall “folding” tightness, and self-exploration expands the reachable search space. ​ 👀 A practical implication is that when CoT is heavily summarized or compressed, the “molecular structure” distribution can be destroyed, and distilled models may underperform even the original teacher. ​ If a prior viewpoint treated CoT behaviors as nodes, this work reframes them as edges that link logical states: the training target may not be “longer answers,” but a more stable reasoning skeleton controlled by structured reasoning behaviors. ​",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.06002",
+      "pdf_url": "https://arxiv.org/pdf/2601.06002",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.06002",
+      "scraped_at": "2026-01-13T01:48:09.969605"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "Chaining the Evidence: Robust Reinforcement Learning for Deep Search Agents with Citation-Aware Rubric Rewards",
+    "paper_url": "https://huggingface.co/papers/2601.06021",
+    "authors": [],
+    "stars": "15",
+    "details": {
+      "title": "Chaining the Evidence: Robust Reinforcement Learning for Deep Search Agents with Citation-Aware Rubric Rewards",
+      "abstract": "Code: https://github.com/THUDM/CaRR Data: https://huggingface.co/datasets/THU-KEG/CaRR-DeepDive",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.06021",
+      "pdf_url": "https://arxiv.org/pdf/2601.06021",
+      "github_links": [
+        "https://github.com/THUDM/CaRR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.06021",
+      "scraped_at": "2026-01-13T01:48:11.869324"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "EnvScaler: Scaling Tool-Interactive Environments for LLM Agent via Programmatic Synthesis",
+    "paper_url": "https://huggingface.co/papers/2601.05808",
+    "authors": [
+      "Zhicheng Dou",
+      "Yutao Zhu",
+      "Haofei Chang",
+      "Xiaoshuai Song",
+      "dongguanting"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "EnvScaler: Scaling Tool-Interactive Environments for LLM Agent via Programmatic Synthesis",
+      "abstract": "Code: https://github.com/RUC-NLPIR/EnvScaler Data & Model: https://huggingface.co/collections/XXHStudyHard/envscaler",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.05808",
+      "pdf_url": "https://arxiv.org/pdf/2601.05808",
+      "github_links": [
+        "https://github.com/RUC-NLPIR/EnvScaler"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.05808",
+      "scraped_at": "2026-01-13T01:48:13.888446"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "Qwen3-VL-Embedding and Qwen3-VL-Reranker: A Unified Framework for State-of-the-Art Multimodal Retrieval and Ranking",
+    "paper_url": "https://huggingface.co/papers/2601.04720",
+    "authors": [],
+    "stars": "620",
+    "details": {
+      "title": "Qwen3-VL-Embedding and Qwen3-VL-Reranker: A Unified Framework for State-of-the-Art Multimodal Retrieval and Ranking",
+      "abstract": "🚀 Introducing Qwen3-VL-Embedding and Qwen3-VL-Reranker – advancing the state of the art in multimodal retrieval and cross-modal understanding! ✨ Highlights: ✅ Built upon the robust Qwen3-VL foundation model ✅ Processes text, images, screenshots, videos, and mixed modality inputs ✅ Supports 30+ languages ✅ Achieves state-of-the-art performance on multimodal retrieval benchmarks ✅ Open source and available on Hugging Face, GitHub, and ModelScope ✅ API deployment on Alibaba Cloud coming soon! 🎯 Two-stage retrieval architecture: 📊 Embedding Model – generates semantically rich vector representations in a unified embedding space 🎯 Reranker Model – computes fine-grained relevance scores for enhanced retrieval accuracy 🔍 Key application scenarios: Image-text retrieval, video search, multimodal RAG, visual question answering, multimodal content clustering, multilingual visual search, and more! 🌟 Developer-friendly capabilities: • Configurable embedding dimensions • Task-specific instruction customization • Embedding quantization support for efficient and cost-effective downstream deployment Hugging Face： https://huggingface.co/collections/Qwen/qwen3-vl-embedding https://huggingface.co/collections/Qwen/qwen3-vl-reranker Github: https://github.com/QwenLM/Qwen3-VL-Embedding Blog: https://qwen.ai/blog?id=qwen3-vl-embedding Tech Report: https://www.arxiv.org/abs/2601.04720",
+      "arxiv_page_url": "https://www.arxiv.org/abs/2601.04720",
+      "pdf_url": "https://arxiv.org/pdf/2601.04720",
+      "github_links": [
+        "https://github.com/QwenLM/Qwen3-VL-Embedding"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.04720",
+      "scraped_at": "2026-01-13T01:48:15.778962"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "Can We Predict Before Executing Machine Learning Agents?",
+    "paper_url": "https://huggingface.co/papers/2601.05930",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "Can We Predict Before Executing Machine Learning Agents?",
+      "abstract": "We replace slow trial-and-error in scientific agents with learned execution prediction, enabling FOREAGENT to think before it runs and achieve 6× faster and better scientific discovery.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.05930",
+      "pdf_url": "https://arxiv.org/pdf/2601.05930",
+      "github_links": [
+        "https://github.com/zjunlp/predict-before-execute"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.05930",
+      "scraped_at": "2026-01-13T01:48:17.633216"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "An Empirical Study on Preference Tuning Generalization and Diversity Under Domain Shift",
+    "paper_url": "https://huggingface.co/papers/2601.05882",
+    "authors": [
+      "Nikolaos Aletras",
+      "Constantinos Karouzos",
+      "XingweiT"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "An Empirical Study on Preference Tuning Generalization and Diversity Under Domain Shift",
+      "abstract": "Our paper presents a systematic study of preference-optimization under domain shift. We compare five popular alignment objectives and various adaptation strategies from source to target, including target-domain supervised fine-tuning and pseudo-labeling, across summarization and question-answering helpfulness tasks. We found: The adaptation strategy is more influential than the alignment objective. We identify that synthetic supervision is a double-edged sword. While pseudo-labeling yields the highest target-domain win rates, it induces severe mode collapse. This diversity tax results in models that are highly reliable but linguistically monotonous, mirroring the latent templates of the teacher model. Our findings suggest a deployment recommendation: use pseudo-labeling for high-stakes and constrained tasks where reliability is paramount, but favor mixed-domain SFT and online RL for applications requiring creative or varied linguistic expression.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.05882",
+      "pdf_url": "https://arxiv.org/pdf/2601.05882",
+      "github_links": [
+        "https://github.com/ckarouzos/prefadap"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.05882",
+      "scraped_at": "2026-01-13T01:48:19.521997"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "AgentOCR: Reimagining Agent History via Optical Self-Compression",
+    "paper_url": "https://huggingface.co/papers/2601.04786",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AgentOCR: Reimagining Agent History via Optical Self-Compression",
+      "abstract": "We’re introducing AgentOCR, a new way to scale LLM agents by reimagining long interaction histories as compact rendered images, leveraging the higher information density of visual tokens to curb exploding context costs. To make long-horizon rollouts practical, we add segment optical caching, splitting history into hashable segments and caching the visuals, so agents avoid redundant re-rendering as trajectories grow.  We go beyond fixed compression with agentic self-compression: the agent actively emits a compression rate and is trained with a compression-aware reward to balance task success against token efficiency. Across ALFWorld and search-based QA, AgentOCR keeps >95% of text-agent performance while cutting token use by >50% average and ~80% in peak, and our analysis shows up to a 20× rendering speedup thanks to our segment optical caching",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.04786",
+      "pdf_url": "https://arxiv.org/pdf/2601.04786",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.04786",
+      "scraped_at": "2026-01-13T01:48:21.395496"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "VideoAR: Autoregressive Video Generation via Next-Frame & Scale Prediction",
+    "paper_url": "https://huggingface.co/papers/2601.05966",
+    "authors": [
+      "Yu Sun",
+      "Shuohuan Wang",
+      "Xiaoxiong Liu",
+      "Longbin Ji",
+      "sjy1203"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "VideoAR: Autoregressive Video Generation via Next-Frame & Scale Prediction",
+      "abstract": "VideoAR presents a scalable autoregressive video-generation framework that combines next-frame scale prediction with a 3D multi-scale tokenizer to improve temporal coherence and efficiency.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.05966",
+      "pdf_url": "https://arxiv.org/pdf/2601.05966",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.05966",
+      "scraped_at": "2026-01-13T01:48:23.249628"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "Illusions of Confidence? Diagnosing LLM Truthfulness via Neighborhood Consistency",
+    "paper_url": "https://huggingface.co/papers/2601.05905",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Illusions of Confidence? Diagnosing LLM Truthfulness via Neighborhood Consistency",
+      "abstract": "We show that many LLM “beliefs” that look confident collapse under small context changes, and propose Neighbor-Consistency Belief (NCB) and Structure-Aware Training to measure and train models to keep their knowledge stable and robust under such interference.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.05905",
+      "pdf_url": "https://arxiv.org/pdf/2601.05905",
+      "github_links": [
+        "https://github.com/zjunlp/belief"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.05905",
+      "scraped_at": "2026-01-13T01:48:25.096155"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "Goal Force: Teaching Video Models To Accomplish Physics-Conditioned Goals",
+    "paper_url": "https://huggingface.co/papers/2601.05848",
+    "authors": [
+      "Evan Luo",
+      "Zitian Tang",
+      "Yinghua Zhou",
+      "dakshces",
+      "nate-gillman"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Goal Force: Teaching Video Models To Accomplish Physics-Conditioned Goals",
+      "abstract": "Goal Force trains a physics-grounded video model to follow explicit force-directed goals, achieving zero-shot planning in real-world tasks by implicit neural physics simulation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.05848",
+      "pdf_url": "https://arxiv.org/pdf/2601.05848",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.05848",
+      "scraped_at": "2026-01-13T01:48:27.018745"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "Orient Anything V2: Unifying Orientation and Rotation Understanding",
+    "paper_url": "https://huggingface.co/papers/2601.05573",
+    "authors": [
+      "Tianyu Pang",
+      "Jialei Wang",
+      "Jiayang Xu",
+      "Zehan Wang",
+      "Viglong"
+    ],
+    "stars": "82",
+    "details": {
+      "title": "Orient Anything V2: Unifying Orientation and Rotation Understanding",
+      "abstract": "Code: https://github.com/SpatialVision/Orient-Anything-V2 Demo Space: https://huggingface.co/spaces/Viglong/Orient-Anything-V2",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.05573",
+      "pdf_url": "https://arxiv.org/pdf/2601.05573",
+      "github_links": [
+        "https://github.com/SpatialVision/Orient-Anything-V2"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.05573",
+      "scraped_at": "2026-01-13T01:48:28.874972"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "Same Claim, Different Judgment: Benchmarking Scenario-Induced Bias in Multilingual Financial Misinformation Detection",
+    "paper_url": "https://huggingface.co/papers/2601.05403",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Same Claim, Different Judgment: Benchmarking Scenario-Induced Bias in Multilingual Financial Misinformation Detection",
+      "abstract": "Large language models (LLMs) have been widely applied across various domains of finance. Since their training data are largely derived from human-authored corpora, LLMs may inherit a range of human biases. Behavioral biases can lead to instability and uncertainty in decision-making, particularly when processing financial information. However, existing research on LLM bias has mainly focused on direct questioning or simplified, general-purpose settings, with limited consideration of the complex real-world financial environments and high-risk, context-sensitive, multilingual financial misinformation detection tasks (MFMD). In this work, we propose MFMD-Scen, a comprehensive benchmark for evaluating behavioral biases of LLMs in MFMD across diverse economic scenarios. In collaboration with financial experts, we construct three types of complex financial scenarios: (i) role- and personality-based, (ii) role- and region-based, and (iii) role-based scenarios incorporating ethnicity and religious beliefs. We further develop a multilingual financial misinformation dataset covering English, Chinese, Greek, and Bengali. By integrating these scenarios with misinformation claims, MFMD-Scen enables a systematic evaluation of 22 mainstream LLMs. Our findings reveal that pronounced behavioral biases persist across both commercial and open-source models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.05403",
+      "pdf_url": "https://arxiv.org/pdf/2601.05403",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.05403",
+      "scraped_at": "2026-01-13T01:48:30.700256"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "AnyDepth: Depth Estimation Made Easy",
+    "paper_url": "https://huggingface.co/papers/2601.02760",
+    "authors": [],
+    "stars": "63",
+    "details": {
+      "title": "AnyDepth: Depth Estimation Made Easy",
+      "abstract": "https://aigeeksgroup.github.io/AnyDepth",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.02760",
+      "pdf_url": "https://arxiv.org/pdf/2601.02760",
+      "github_links": [
+        "https://github.com/AIGeeksGroup/AnyDepth"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.02760",
+      "scraped_at": "2026-01-13T01:48:32.573488"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "SmartSearch: Process Reward-Guided Query Refinement for Search Agents",
+    "paper_url": "https://huggingface.co/papers/2601.04888",
+    "authors": [
+      "Guanting Dong",
+      "douzc",
+      "vvv111222"
+    ],
+    "stars": "11",
+    "details": {
+      "title": "SmartSearch: Process Reward-Guided Query Refinement for Search Agents",
+      "abstract": "Some of the observations founded are :- i. Dual Level Credit Assessment This mechanism provides a comprehensive evaluation of query quality through both rule-based and model-based assessments. It allows for fine-grained supervision, helping to identify not just redundancy but also the usefulness of each query in the context of the search process. ii. Process Reward Mechanism The introduction of process rewards as a guiding signal for training search agents is a novel approach. It shifts the focus from solely final outcomes to the quality of intermediate queries, addressing a significant gap in existing methods that often overlook this aspect. iii. Query Refinement Strategy The framework employs a systematic query refinement process that identifies low quality queries and generates improved versions. This iterative refinement enhances the effectiveness of search trajectories, allowing agents to adaptively improve their queries based on feedback. iv. Three Stage Curriculum Learning Framework SmartSearch introduces a structured curriculum learning approach that progresses from imitation to alignment and finally to generalization. This staged learning process enables search agents to internalize query quality improvement progressively, enhancing their overall performance. v. Empirical Validation Across Diverse Benchmarks The paper presents extensive experimental results demonstrating SmartSearch's superior performance across multiple challenging knowledge-intensive tasks and web exploration scenarios. This empirical validation highlights the framework's robustness and effectiveness in real-world applications, showcasing its potential impact on future research in search agents and information retrieval.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.04888",
+      "pdf_url": "https://arxiv.org/pdf/2601.04888",
+      "github_links": [
+        "https://github.com/MYVAE/SmartSearch?tab=readme-ov-file"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.04888",
+      "scraped_at": "2026-01-13T01:48:34.423674"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "Over-Searching in Search-Augmented Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2601.05503",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "Over-Searching in Search-Augmented Large Language Models",
+      "abstract": "Systematically analyzes over-search in search-augmented LLMs, showing when retrieval helps or hurts, introducing Tokens Per Correctness and mitigation strategies.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.05503",
+      "pdf_url": "https://arxiv.org/pdf/2601.05503",
+      "github_links": [
+        "https://github.com/ruoyuxie/OversearchQA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.05503",
+      "scraped_at": "2026-01-13T01:48:36.245536"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "DR-LoRA: Dynamic Rank LoRA for Mixture-of-Experts Adaptation",
+    "paper_url": "https://huggingface.co/papers/2601.04823",
+    "authors": [
+      "Linqi Song",
+      "Huacan Wang",
+      "Ronghao Chen",
+      "Guanzhi Deng",
+      "liboaccn"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "DR-LoRA: Dynamic Rank LoRA for Mixture-of-Experts Adaptation",
+      "abstract": "Mixture-of-Experts (MoE) has become a prominent paradigm for scaling Large Language Models (LLMs). Parameter-efficient fine-tuning (PEFT), such as LoRA, is widely adopted to adapt pretrained MoE LLMs to downstream tasks. However, existing approaches assign identical LoRA ranks to all experts, overlooking the intrinsic functional specialization within MoE LLMs. This uniform allocation leads to resource mismatch, task-relevant experts are under-provisioned while less relevant ones receive redundant parameters. We propose a Dynamic Rank LoRA framework named DR-LoRA, which dynamically grows expert LoRA ranks during fine-tuning based on task-specific demands. DR-LoRA employs an Expert Saliency Scoring mechanism that integrates expert routing frequency and LoRA rank importance to quantify each expert's demand for additional capacity. Experts with higher saliency scores are prioritized for rank expansion, enabling the automatic formation of a heterogeneous rank distribution tailored to the target task. Experiments on multiple benchmarks demonstrate that DR-LoRA consistently outperforms standard LoRA and static allocation strategies under the same parameter budget, achieving superior task performance with more efficient parameter utilization.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.04823",
+      "pdf_url": "https://arxiv.org/pdf/2601.04823",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.04823",
+      "scraped_at": "2026-01-13T01:48:38.107896"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "Memory Matters More: Event-Centric Memory as a Logic Map for Agent Searching and Reasoning",
+    "paper_url": "https://huggingface.co/papers/2601.04726",
+    "authors": [
+      "Zhicheng Dou",
+      "Yutao Zhu",
+      "Jiejun Tan",
+      "Jiongnan Liu",
+      "namespace-ERI"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Memory Matters More: Event-Centric Memory as a Logic Map for Agent Searching and Reasoning",
+      "abstract": "Large language models (LLMs) are increasingly deployed as intelligent agents that reason, plan, and interact with their environments. To effectively scale to long-horizon scenarios, a key capability for such agents is a memory mechanism that can retain, organize, and retrieve past experiences to support downstream decision-making. However, most existing approaches organize and store memories in a flat manner and rely on simple similarity-based retrieval techniques. Even when structured memory is introduced, existing methods often struggle to explicitly capture the logical relationships among experiences or memory units. Moreover, memory access is largely detached from the constructed structure and still depends on shallow semantic retrieval, preventing agents from reasoning logically over long-horizon dependencies. In this work, we propose CompassMem, an event-centric memory framework inspired by Event Segmentation Theory. CompassMem organizes memory as an Event Graph by incrementally segmenting experiences into events and linking them through explicit logical relations. This graph serves as a logic map, enabling agents to perform structured and goal-directed navigation over memory beyond superficial retrieval, progressively gathering valuable memories to support long-horizon reasoning. Experiments on LoCoMo and NarrativeQA demonstrate that CompassMem consistently improves both retrieval and reasoning performance across multiple backbone models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.04726",
+      "pdf_url": "https://arxiv.org/pdf/2601.04726",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.04726",
+      "scraped_at": "2026-01-13T01:48:39.978598"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "GenCtrl -- A Formal Controllability Toolkit for Generative Models",
+    "paper_url": "https://huggingface.co/papers/2601.05637",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GenCtrl -- A Formal Controllability Toolkit for Generative Models",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API A Reason-then-Describe Instruction Interpreter for Controllable Video Generation (2025) EVE: A Generator-Verifier System for Generative Policies (2025) Eliciting Behaviors in Multi-Turn Conversations (2025) SkillWrapper: Generative Predicate Invention for Skill Abstraction (2025) From Word to World: Can Large Language Models be Implicit Text-based World Models? (2025) SAGE: An Agentic Explainer Framework for Interpreting SAE Features in Language Models (2025) Propose, Solve, Verify: Self-Play Through Formal Verification (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.05637",
+      "pdf_url": "https://arxiv.org/pdf/2601.05637",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.05637",
+      "scraped_at": "2026-01-13T01:48:41.784741"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "TCAndon-Router: Adaptive Reasoning Router for Multi-Agent Collaboration",
+    "paper_url": "https://huggingface.co/papers/2601.04544",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "TCAndon-Router: Adaptive Reasoning Router for Multi-Agent Collaboration",
+      "abstract": "Code: https://github.com/Tencent/TCAndon-Router",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.04544",
+      "pdf_url": "https://arxiv.org/pdf/2601.04544",
+      "github_links": [
+        "https://github.com/kyegomez/awesome-multi-agent-papers",
+        "https://github.com/Tencent/TCAndon-Router"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.04544",
+      "scraped_at": "2026-01-13T01:48:43.634411"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "Distilling Feedback into Memory-as-a-Tool",
+    "paper_url": "https://huggingface.co/papers/2601.05960",
+    "authors": [
+      "vicgalle"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Distilling Feedback into Memory-as-a-Tool",
+      "abstract": "Code: https://github.com/vicgalle/feedback-memory-as-a-tool Data: https://huggingface.co/datasets/vicgalle/rubric-feedback-bench",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.05960",
+      "pdf_url": "https://arxiv.org/pdf/2601.05960",
+      "github_links": [
+        "https://github.com/vicgalle/feedback-memory-as-a-tool"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.05960",
+      "scraped_at": "2026-01-13T01:48:45.433282"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "TowerMind: A Tower Defence Game Learning Environment and Benchmark for LLM as Agents",
+    "paper_url": "https://huggingface.co/papers/2601.05899",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "TowerMind: A Tower Defence Game Learning Environment and Benchmark for LLM as Agents",
+      "abstract": "Some of the observations are :- i. TowerMind is a lightweight RTS-style benchmark for LLM agents It introduces a tower defense based environment that preserves long term planning and decision making challenges of RTS games, while requiring very low computational resources compared to StarCraft II based benchmarks. ii. Multimodal observations enable broader LLM evaluation TowerMind supports pixel-based, textual (JSON), and structured state observations, making it suitable for evaluating language-only and vision-language models under the same environment. iii. Hallucination is explicitly measured via action validity Beyond performance score, the benchmark introduces valid action rate to quantify hallucinations. i.e. actions that violate game rules or state constraints allowing simultaneous evaluation of capability and reliability. iv. LLMs significantly underperform human experts Even the best-performing models (e.g. GPT-4.1, Claude 3.7 Sonnet) show a large gap from human experts, especially on harder levels, revealing weaknesses in planning validation, multifinality, and efficient action use. v. TowerMind is challenging for both LLMs and RL agents Classic RL algorithms (Ape-X DQN, PPO) also fail to reach human level performance, confirming TowerMind as a non-trivial benchmark that complements existing LLM and RL evaluation environments.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.05899",
+      "pdf_url": "https://arxiv.org/pdf/2601.05899",
+      "github_links": [
+        "https://github.com/tb6147877/TowerMind"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.05899",
+      "scraped_at": "2026-01-13T01:48:47.327914"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "Router-Suggest: Dynamic Routing for Multimodal Auto-Completion in Visually-Grounded Dialogs",
+    "paper_url": "https://huggingface.co/papers/2601.05851",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Router-Suggest: Dynamic Routing for Multimodal Auto-Completion in Visually-Grounded Dialogs",
+      "abstract": "Real-time multimodal auto-completion is essential for digital assistants, chatbots, design tools, and healthcare consultations, where user inputs rely on shared visual context. We introduce Multimodal Auto-Completion (MAC), a task that predicts upcoming characters in live chats using partially typed text and visual cues. Unlike traditional text-only auto-completion (TAC), MAC grounds predictions in multimodal context to better capture user intent. To enable this task, we adapt MMDialog and ImageChat to create benchmark datasets. We evaluate leading vision-language models (VLMs) against strong textual baselines, highlighting trade-offs in accuracy and efficiency. We present Router-Suggest, a router framework that dynamically selects between textual models and VLMs based on dialog context, along with a lightweight variant for resource-constrained environments. Router-Suggest achieves a 2.3x to 10x speedup over the best-performing VLM. A user study shows that VLMs significantly excel over textual models on user satisfaction, notably saving user typing effort and improving the quality of completions in multi-turn conversations. These findings underscore the need for multimodal context in auto-completions, leading to smarter, user-aware assistants.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.05851",
+      "pdf_url": "https://arxiv.org/pdf/2601.05851",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.05851",
+      "scraped_at": "2026-01-13T01:48:49.142532"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "ViTNT-FIQA: Training-Free Face Image Quality Assessment with Vision Transformers",
+    "paper_url": "https://huggingface.co/papers/2601.05741",
+    "authors": [
+      "Marco Huber",
+      "Jan Niklas Kolf",
+      "Tahar Chettaoui",
+      "Eduarda Caldeira",
+      "gurayozgur"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "ViTNT-FIQA: Training-Free Face Image Quality Assessment with Vision Transformers",
+      "abstract": "https://github.com/gurayozgur/ViTNT-FIQA",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.05741",
+      "pdf_url": "https://arxiv.org/pdf/2601.05741",
+      "github_links": [
+        "https://github.com/gurayozgur/ViTNT-FIQA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.05741",
+      "scraped_at": "2026-01-13T01:48:51.076876"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "IIB-LPO: Latent Policy Optimization via Iterative Information Bottleneck",
+    "paper_url": "https://huggingface.co/papers/2601.05870",
+    "authors": [
+      "Zhuoyue Chen",
+      "Long Li",
+      "Yue Zhu",
+      "Hongchen Luo",
+      "Huilin Deng"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "IIB-LPO: Latent Policy Optimization via Iterative Information Bottleneck",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API ReLaX: Reasoning with Latent Exploration for Large Reasoning Models (2025) Multi-Path Collaborative Reasoning via Reinforcement Learning (2025) Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies (2025) ESPO: Entropy Importance Sampling Policy Optimization (2025) Diversity or Precision? A Deep Dive into Next Token Prediction (2025) SPINE: Token-Selective Test-Time Reinforcement Learning with Entropy-Band Regularization (2025) Efficient Reinforcement Learning with Semantic and Token Entropy for LLM Reasoning (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.05870",
+      "pdf_url": "https://arxiv.org/pdf/2601.05870",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.05870",
+      "scraped_at": "2026-01-13T01:48:52.895587"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "Afri-MCQA: Multimodal Cultural Question Answering for African Languages",
+    "paper_url": "https://huggingface.co/papers/2601.05699",
+    "authors": [
+      "Jesujoba Oluwadara Alabi",
+      "Israel Abebe Azime",
+      "Emilio Villa-Cueva",
+      "Srija Anand",
+      "Atnafu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Afri-MCQA: Multimodal Cultural Question Answering for African Languages",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API M4-RAG: A Massive-Scale Multilingual Multi-Cultural Multimodal RAG (2025) Rice-VL: Evaluating Vision-Language Models for Cultural Understanding Across ASEAN Countries (2025) HinTel-AlignBench: A Framework and Benchmark for Hindi-Telugu with English-Aligned Samples (2025) Can LLMs Solve My Grandma's Riddle? Evaluating Multilingual Large Language Models on Reasoning Traditional Bangla Tricky Riddles (2025) IndicParam: Benchmark to evaluate LLMs on low-resource Indic Languages (2025) See, Hear, and Understand: Benchmarking Audiovisual Human Speech Understanding in Multimodal Large Language Models (2025) Multilingual VLM Training: Adapting an English-Trained VLM to French (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.05699",
+      "pdf_url": "https://arxiv.org/pdf/2601.05699",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.05699",
+      "scraped_at": "2026-01-13T01:48:54.752545"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "The Persona Paradox: Medical Personas as Behavioral Priors in Clinical Language Models",
+    "paper_url": "https://huggingface.co/papers/2601.05376",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "The Persona Paradox: Medical Personas as Behavioral Priors in Clinical Language Models",
+      "abstract": "This paper investigates how \"persona conditioning\" (e.g., instructing an LLM to act as a specific medical professional) impacts clinical decision-making. The authors challenge the assumption that assigning a medical persona consistently improves accuracy or safety, labeling this inconsistency the \"Persona Paradox.\" Key Insights: Non-Monotonic Effects: Assigning a medical persona (like an Emergency Department physician) does not always improve performance. It acts as a behavioral prior that can help in some contexts but hurt in others. The Context Gap: Medical personas improved accuracy and calibration by up to 20% in critical-care tasks (triage) but degraded performance by a similar margin in primary-care settings. Interaction Styles: Adding styles such as \"bold\" or \"cautious\" changes the model’s risk propensity, but these effects vary widely across base models. The Alignment Gap: While \"LLM judges\" preferred medical personas for safety-critical cases, human clinicians were much more skeptical. Human experts showed low confidence in the AI's reasoning quality in 95.9% of cases, despite moderate agreement on safety compliance. Conclusion The study concludes that personas are not \"expertise switches\" but rather priors that introduce context-dependent trade-offs. Relying on personas for clinical safety is risky because they do not provide a universal guarantee of better judgment. Personas should be used with caution in high-stakes medicine, as they can inadvertently trigger biases or performance drops depending on the specific clinical task.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.05376",
+      "pdf_url": "https://arxiv.org/pdf/2601.05376",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.05376",
+      "scraped_at": "2026-01-13T01:48:56.593118"
+    },
+    "scraped_date": "2026-01-13"
+  },
+  {
+    "title": "Legal Alignment for Safe and Ethical AI",
+    "paper_url": "https://huggingface.co/papers/2601.04175",
+    "authors": [
+      "Rishi Bommasani",
+      "Cullen O'Keefe",
+      "Jack Boeglin",
+      "Nicholas Caputo",
+      "Noam Kolt"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Legal Alignment for Safe and Ethical AI",
+      "abstract": "Field-defining paper by researchers from Stanford, MIT, Harvard, Oxford, Princeton, and other leading institutions. More details at: https://www.legal-alignment.ai/",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.04175",
+      "pdf_url": "https://arxiv.org/pdf/2601.04175",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.04175",
+      "scraped_at": "2026-01-13T01:48:58.401803"
+    },
+    "scraped_date": "2026-01-13"
   }
 ]
