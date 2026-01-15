@@ -6212,5 +6212,477 @@
       "scraped_at": "2026-01-14T01:56:24.053442"
     },
     "scraped_date": "2026-01-14"
+  },
+  {
+    "title": "MemGovern: Enhancing Code Agents through Learning from Governed Human Experiences",
+    "paper_url": "https://huggingface.co/papers/2601.06789",
+    "authors": [
+      "Yu2020",
+      "KunyiWang",
+      "shuozhang",
+      "cadche",
+      "jimson991"
+    ],
+    "stars": "19",
+    "details": {
+      "title": "MemGovern: Enhancing Code Agents through Learning from Governed Human Experiences",
+      "abstract": "code agent",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.06789",
+      "pdf_url": "https://arxiv.org/pdf/2601.06789",
+      "github_links": [
+        "https://github.com/QuantaAlpha/MemGovern"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.06789",
+      "scraped_at": "2026-01-15T01:50:09.498721"
+    },
+    "scraped_date": "2026-01-15"
+  },
+  {
+    "title": "Solar Open Technical Report",
+    "paper_url": "https://huggingface.co/papers/2601.07022",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Solar Open Technical Report",
+      "abstract": "huggingface model: https://huggingface.co/upstage/Solar-Open-100B",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.07022",
+      "pdf_url": "https://arxiv.org/pdf/2601.07022",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.07022",
+      "scraped_at": "2026-01-15T01:50:11.630863"
+    },
+    "scraped_date": "2026-01-15"
+  },
+  {
+    "title": "KnowMe-Bench: Benchmarking Person Understanding for Lifelong Digital Companions",
+    "paper_url": "https://huggingface.co/papers/2601.04745",
+    "authors": [
+      "lanqz7766",
+      "ChenglongLi",
+      "Super-shuhe-v2",
+      "Zhisheng888",
+      "realty2333"
+    ],
+    "stars": "83",
+    "details": {
+      "title": "KnowMe-Bench: Benchmarking Person Understanding for Lifelong Digital Companions",
+      "abstract": "know me",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.04745",
+      "pdf_url": "https://arxiv.org/pdf/2601.04745",
+      "github_links": [
+        "https://github.com/QuantaAlpha/KnowMeBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.04745",
+      "scraped_at": "2026-01-15T01:50:13.446669"
+    },
+    "scraped_date": "2026-01-15"
+  },
+  {
+    "title": "User-Oriented Multi-Turn Dialogue Generation with Tool Use at scale",
+    "paper_url": "https://huggingface.co/papers/2601.08225",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "User-Oriented Multi-Turn Dialogue Generation with Tool Use at scale",
+      "abstract": "While large language models have shown remarkable progress in tool use, maintaining high-quality, user-centric multi-turn conversations at scale remains a significant challenge. Our work focuses on: (1) Generating high-fidelity multi-turn dialogue datasets designed for practical tool-use scenarios. (2) Enhancing model performance in complex, user-oriented interactions. (3) Providing insights into scaling dialogue generation without compromising on user experience. Check out the full paper here: https://arxiv.org/abs/2601.08225",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.08225",
+      "pdf_url": "https://arxiv.org/pdf/2601.08225",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.08225",
+      "scraped_at": "2026-01-15T01:50:15.282705"
+    },
+    "scraped_date": "2026-01-15"
+  },
+  {
+    "title": "ShowUI-π: Flow-based Generative Models as GUI Dexterous Hands",
+    "paper_url": "https://huggingface.co/papers/2512.24965",
+    "authors": [],
+    "stars": "18",
+    "details": {
+      "title": "ShowUI-π: Flow-based Generative Models as GUI Dexterous Hands",
+      "abstract": "TL;DR: ShowUI-π is a 450M flow-based vision-language-action model that treats GUI actions as continuous trajectories, generating smooth clicks and drags directly from screen observations. It unifies discrete and continuous actions, enabling precise drawing, rotation, sorting, and captcha solving without tokenized coordinates. arXiv: https://arxiv.org/abs/2512.24965 Website: https://showlab.github.io/showui-pi/ Github: https://github.com/showlab/showui-pi",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.24965",
+      "pdf_url": "https://arxiv.org/pdf/2512.24965",
+      "github_links": [
+        "https://github.com/showlab/showui-pi"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.24965",
+      "scraped_at": "2026-01-15T01:50:17.137473"
+    },
+    "scraped_date": "2026-01-15"
+  },
+  {
+    "title": "MemoBrain: Executive Memory as an Agentic Brain for Reasoning",
+    "paper_url": "https://huggingface.co/papers/2601.08079",
+    "authors": [
+      "Zhao Cao",
+      "lz1001",
+      "TommyChien"
+    ],
+    "stars": "39",
+    "details": {
+      "title": "MemoBrain: Executive Memory as an Agentic Brain for Reasoning",
+      "abstract": "Project Repo: https://github.com/qhjqhj00/MemoBrain",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.08079",
+      "pdf_url": "https://arxiv.org/pdf/2601.08079",
+      "github_links": [
+        "https://github.com/qhjqhj00/MemoBrain"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.08079",
+      "scraped_at": "2026-01-15T01:50:18.963578"
+    },
+    "scraped_date": "2026-01-15"
+  },
+  {
+    "title": "ArenaRL: Scaling RL for Open-Ended Agents via Tournament-based Relative Ranking",
+    "paper_url": "https://huggingface.co/papers/2601.06487",
+    "authors": [],
+    "stars": "49",
+    "details": {
+      "title": "ArenaRL: Scaling RL for Open-Ended Agents via Tournament-based Relative Ranking",
+      "abstract": "As a key exploration of open-domain agents, our method has been validated within Amap's (Gaode Map) real-world business scenarios. Demonstrating significant practical value, we believe this paradigm represents one of the most important direction of AI agents in the future. Project Resources: Github: https://github.com/Alibaba-NLP/qqr Paper: https://arxiv.org/abs/2601.06487 Hugging Face: https://huggingface.co/collections/Alibaba-NLP/arenarl",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.06487",
+      "pdf_url": "https://arxiv.org/pdf/2601.06487",
+      "github_links": [
+        "https://github.com/Alibaba-NLP/qqr"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.06487",
+      "scraped_at": "2026-01-15T01:50:20.840380"
+    },
+    "scraped_date": "2026-01-15"
+  },
+  {
+    "title": "Ministral 3",
+    "paper_url": "https://huggingface.co/papers/2601.08584",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Ministral 3",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Nanbeige4-3B Technical Report: Exploring the Frontier of Small Language Models (2025) T5Gemma 2: Seeing, Reading, and Understanding Longer (2025) MiniLingua: A Small Open-Source LLM for European Languages (2025) Gamayun's Path to Multilingual Mastery: Cost-Efficient Training of a 1.5B-Parameter LLM (2025) ELO: Efficient Layer-Specific Optimization for Continual Pretraining of Multilingual LLMs (2026) SiamGPT: Quality-First Fine-Tuning for Stable Thai Text Generation (2025) Correct, Concise and Complete: Multi-stage Training For Adaptive Reasoning (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.08584",
+      "pdf_url": "https://arxiv.org/pdf/2601.08584",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.08584",
+      "scraped_at": "2026-01-15T01:50:22.698526"
+    },
+    "scraped_date": "2026-01-15"
+  },
+  {
+    "title": "3AM: Segment Anything with Geometric Consistency in Videos",
+    "paper_url": "https://huggingface.co/papers/2601.08831",
+    "authors": [
+      "Min-Hung Chen",
+      "Fu-En Yang",
+      "Chin-Yang Lin",
+      "Cheng Sun",
+      "Yang-Che Sun"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "3AM: Segment Anything with Geometric Consistency in Videos",
+      "abstract": "Video object segmentation methods like SAM2 achieve strong performance through memory-based architectures but struggle under large viewpoint changes due to reliance on appearance features. Traditional 3D instance segmentation methods address viewpoint consistency but require camera poses, depth maps, and expensive preprocessing. We introduce 3AM, a training-time enhancement that integrates 3D-aware features from MUSt3R into SAM2. Our lightweight Feature Merger fuses multi-level MUSt3R features that encode implicit geometric correspondence. Combined with SAM2's appearance features, the model achieves geometry-consistent recognition grounded in both spatial position and visual similarity. We propose a field-of-view aware sampling strategy ensuring frames observe spatially consistent object regions for reliable 3D correspondence learning. Critically, our method requires only RGB input at inference, with no camera poses or preprocessing. On challenging datasets with wide-baseline motion (ScanNet++, Replica), 3AM substantially outperforms SAM2 and extensions, achieving 90.6% IoU and 71.7% Positive IoU on ScanNet++'s Selected Subset, improving over state-of-the-art VOS methods by +15.9 and +30.4 points.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.08831",
+      "pdf_url": "https://arxiv.org/pdf/2601.08831",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.08831",
+      "scraped_at": "2026-01-15T01:50:24.602177"
+    },
+    "scraped_date": "2026-01-15"
+  },
+  {
+    "title": "The Confidence Dichotomy: Analyzing and Mitigating Miscalibration in Tool-Use Agents",
+    "paper_url": "https://huggingface.co/papers/2601.07264",
+    "authors": [
+      "Qingcheng Zeng",
+      "Naotoyokoyama",
+      "junjuewang",
+      "lrzneedresearch",
+      "weihao1115"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "The Confidence Dichotomy: Analyzing and Mitigating Miscalibration in Tool-Use Agents",
+      "abstract": "We reveal a \"confidence dichotomy\" in tool-use LLM agents, finding that evidence tools like web search systematically induce overconfidence due to noisy retrieval, while verification tools like code interpreters help ground reasoning and reduce miscalibration. To address this, we propose Calibration Agentic RL (CAR), a reinforcement learning framework that jointly optimizes task accuracy and calibration through a novel reward design, demonstrating significant reductions in calibration error while maintaining competitive performance across different domains and environments.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.07264",
+      "pdf_url": "https://arxiv.org/pdf/2601.07264",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.07264",
+      "scraped_at": "2026-01-15T01:50:26.533802"
+    },
+    "scraped_date": "2026-01-15"
+  },
+  {
+    "title": "Parallel Context-of-Experts Decoding for Retrieval Augmented Generation",
+    "paper_url": "https://huggingface.co/papers/2601.08670",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Parallel Context-of-Experts Decoding for Retrieval Augmented Generation",
+      "abstract": "Parallel Context-of-Experts Decoding (Pced) speeds up RAG by decoding in parallel from per-document KV-cache “experts” and selecting retrieval-supported tokens to recover cross-document reasoning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.08670",
+      "pdf_url": "https://arxiv.org/pdf/2601.08670",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.08670",
+      "scraped_at": "2026-01-15T01:50:28.367501"
+    },
+    "scraped_date": "2026-01-15"
+  },
+  {
+    "title": "Motion Attribution for Video Generation",
+    "paper_url": "https://huggingface.co/papers/2601.08828",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Motion Attribution for Video Generation",
+      "abstract": "TL;DR: We propose MOTIVE, a scalable, motion-centric data attribution framework for video generation to identify which training clips improve or degrade motion dynamics, enabling curation and more.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.08828",
+      "pdf_url": "https://arxiv.org/pdf/2601.08828",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.08828",
+      "scraped_at": "2026-01-15T01:50:30.225015"
+    },
+    "scraped_date": "2026-01-15"
+  },
+  {
+    "title": "ViDoRe V3: A Comprehensive Evaluation of Retrieval Augmented Generation in Complex Real-World Scenarios",
+    "paper_url": "https://huggingface.co/papers/2601.08620",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ViDoRe V3: A Comprehensive Evaluation of Retrieval Augmented Generation in Complex Real-World Scenarios",
+      "abstract": "Retrieval-Augmented Generation (RAG) pipelines must address challenges beyond simple single-document retrieval, such as interpreting visual elements (tables, charts, images), synthesizing information across documents, and providing accurate source grounding. Existing benchmarks fail to capture this complexity, often focusing on textual data, single-document comprehension, or evaluating retrieval and generation in isolation. We introduce ViDoRe v3, a comprehensive multimodal RAG benchmark featuring multi-type queries over visually rich document corpora. It covers 10 datasets across diverse professional domains, comprising ~26,000 document pages paired with 3,099 human-verified queries, each available in 6 languages. Through 12,000 hours of human annotation effort, we provide high-quality annotations for retrieval relevance, bounding box localization, and verified reference answers. Our evaluation of state-of-the-art RAG pipelines reveals that visual retrievers outperform textual ones, late-interaction models and textual reranking substantially improve performance, and hybrid or purely visual contexts enhance answer generation quality. However, current models still struggle with non-textual elements, open-ended queries, and fine-grained visual grounding. To encourage progress in addressing these challenges, the benchmark is released under a commercially permissive license at https://huggingface.co/vidore .",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.08620",
+      "pdf_url": "https://arxiv.org/pdf/2601.08620",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.08620",
+      "scraped_at": "2026-01-15T01:50:32.048862"
+    },
+    "scraped_date": "2026-01-15"
+  },
+  {
+    "title": "SnapGen++: Unleashing Diffusion Transformers for Efficient High-Fidelity Image Generation on Edge Devices",
+    "paper_url": "https://huggingface.co/papers/2601.08303",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SnapGen++: Unleashing Diffusion Transformers for Efficient High-Fidelity Image Generation on Edge Devices",
+      "abstract": "Proposes efficient diffusion transformers for edge devices via sparse attention, elastic training, and knowledge-guided distillation to achieve high-fidelity, fast on-device image generation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.08303",
+      "pdf_url": "https://arxiv.org/pdf/2601.08303",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.08303",
+      "scraped_at": "2026-01-15T01:50:33.857107"
+    },
+    "scraped_date": "2026-01-15"
+  },
+  {
+    "title": "VLingNav: Embodied Navigation with Adaptive Reasoning and Visual-Assisted Linguistic Memory",
+    "paper_url": "https://huggingface.co/papers/2601.08665",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "VLingNav: Embodied Navigation with Adaptive Reasoning and Visual-Assisted Linguistic Memory",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Unifying Perception and Action: A Hybrid-Modality Pipeline with Implicit Visual Chain-of-Thought for Robotic Action Generation (2025) MobileVLA-R1: Reinforcing Vision-Language-Action for Mobile Robots (2025) CoT4AD: A Vision-Language-Action Model with Explicit Chain-of-Thought Reasoning for Autonomous Driving (2025) NavForesee: A Unified Vision-Language World Model for Hierarchical Planning and Dual-Horizon Navigation Prediction (2025) ImagineNav++: Prompting Vision-Language Models as Embodied Navigator through Scene Imagination (2025) Progress-Think: Semantic Progress Reasoning for Vision-Language Navigation (2025) EchoVLA: Robotic Vision-Language-Action Model with Synergistic Declarative Memory for Mobile Manipulation (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.08665",
+      "pdf_url": "https://arxiv.org/pdf/2601.08665",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.08665",
+      "scraped_at": "2026-01-15T01:50:35.696313"
+    },
+    "scraped_date": "2026-01-15"
+  },
+  {
+    "title": "End-to-End Video Character Replacement without Structural Guidance",
+    "paper_url": "https://huggingface.co/papers/2601.08587",
+    "authors": [],
+    "stars": "550",
+    "details": {
+      "title": "End-to-End Video Character Replacement without Structural Guidance",
+      "abstract": "End-to-End Video Character Replacement without Structural Guidance",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.08587",
+      "pdf_url": "https://arxiv.org/pdf/2601.08587",
+      "github_links": [
+        "https://github.com/Orange-3DV-Team/MoCha"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.08587",
+      "scraped_at": "2026-01-15T01:50:37.523465"
+    },
+    "scraped_date": "2026-01-15"
+  },
+  {
+    "title": "JudgeRLVR: Judge First, Generate Second for Efficient Reasoning",
+    "paper_url": "https://huggingface.co/papers/2601.08468",
+    "authors": [
+      "Sujian Li",
+      "Yudong Wang",
+      "Hailin Zhang",
+      "Hanyu Li",
+      "Jiangshan Duo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "JudgeRLVR: Judge First, Generate Second for Efficient Reasoning",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Structured Reasoning for Large Language Models (2026) Correct, Concise and Complete: Multi-stage Training For Adaptive Reasoning (2026) Step Potential Advantage Estimation: Harnessing Intermediate Confidence and Correctness for Efficient Mathematical Reasoning (2026) Masked-and-Reordered Self-Supervision for Reinforcement Learning from Verifiable Rewards (2025) Dual-Phase LLM Reasoning: Self-Evolved Mathematical Frameworks (2026) ORION: Teaching Language Models to Reason Efficiently in the Language of Thought (2025) ConMax: Confidence-Maximizing Compression for Efficient Chain-of-Thought Reasoning (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.08468",
+      "pdf_url": "https://arxiv.org/pdf/2601.08468",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.08468",
+      "scraped_at": "2026-01-15T01:50:39.376659"
+    },
+    "scraped_date": "2026-01-15"
+  },
+  {
+    "title": "VideoLoom: A Video Large Language Model for Joint Spatial-Temporal Understanding",
+    "paper_url": "https://huggingface.co/papers/2601.07290",
+    "authors": [],
+    "stars": "12",
+    "details": {
+      "title": "VideoLoom: A Video Large Language Model for Joint Spatial-Temporal Understanding",
+      "abstract": "Joint temporal understanding and spatial perception within a single framework.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.07290",
+      "pdf_url": "https://arxiv.org/pdf/2601.07290",
+      "github_links": [
+        "https://github.com/JPShi12/VideoLoom"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.07290",
+      "scraped_at": "2026-01-15T01:50:41.246788"
+    },
+    "scraped_date": "2026-01-15"
+  },
+  {
+    "title": "EpiCaR: Knowing What You Don't Know Matters for Better Reasoning in LLMs",
+    "paper_url": "https://huggingface.co/papers/2601.06786",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "EpiCaR: Knowing What You Don't Know Matters for Better Reasoning in LLMs",
+      "abstract": "Improving the reasoning abilities of large language models (LLMs) has largely relied on iterative self-training with model-generated data. While effective at boosting accuracy, existing approaches primarily reinforce successful reasoning paths, incurring a substantial calibration cost: models become overconfident and lose the ability to represent uncertainty. This failure has been characterized as a form of model collapse in alignment, where predictive distributions degenerate toward low-variance point estimates. We address this issue by reframing reasoning training as an epistemic learning problem, in which models must learn not only how to reason, but also when their reasoning should be trusted. We propose epistemicallycalibrated reasoning (EPICAR) as a training objective that jointly optimizes reasoning performance and calibration, and instantiate it within an iterative supervised fine-tuning framework using explicit self-evaluation signals. Experiments on Llama-3 and Qwen-3 families demonstrate that our approach achieves Paretosuperiority over standard baselines in both accuracy and calibration, particularly in models with sufficient reasoning capacity (e.g., 3B+). This framework generalizes effectively to OOD mathematical reasoning (GSM8K) and code generation (MBPP). Ultimately, our approach enables a 3× reduction in inference compute, matching the K = 30 performance of STaR with only K = 10 samples in capable models",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.06786",
+      "pdf_url": "https://arxiv.org/pdf/2601.06786",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.06786",
+      "scraped_at": "2026-01-15T01:50:43.224423"
+    },
+    "scraped_date": "2026-01-15"
+  },
+  {
+    "title": "UM-Text: A Unified Multimodal Model for Image Understanding",
+    "paper_url": "https://huggingface.co/papers/2601.08321",
+    "authors": [
+      "Ting Zhu",
+      "Zipeng Guo",
+      "Gaojing Zhou",
+      "Xiaolong Fu",
+      "Lichen Ma"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "UM-Text: A Unified Multimodal Model for Image Understanding",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.08321",
+      "pdf_url": "https://arxiv.org/pdf/2601.08321",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.08321",
+      "scraped_at": "2026-01-15T01:50:45.007426"
+    },
+    "scraped_date": "2026-01-15"
+  },
+  {
+    "title": "Aligning Text, Code, and Vision: A Multi-Objective Reinforcement Learning Framework for Text-to-Visualization",
+    "paper_url": "https://huggingface.co/papers/2601.04582",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Aligning Text, Code, and Vision: A Multi-Objective Reinforcement Learning Framework for Text-to-Visualization",
+      "abstract": "Generating working visualization code is not enough. Charts must be semantically correct and visually meaningful. We introduce RL-Text2Vis, the first reinforcement-learning framework for Text-to-Visualization, using post-execution feedback to jointly optimize: ✔️ textual accuracy ✔️ code executability ✔️ visualization quality 📈 Results: • +22% relative improvement in chart quality over GPT-4o • Code execution success boosted from 78% → 97% • Strong generalization to out-of-domain benchmarks This work demonstrates the power of multi-objective RL for structured, multimodal reasoning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.04582",
+      "pdf_url": "https://arxiv.org/pdf/2601.04582",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.04582",
+      "scraped_at": "2026-01-15T01:50:46.788335"
+    },
+    "scraped_date": "2026-01-15"
+  },
+  {
+    "title": "Towards Comprehensive Stage-wise Benchmarking of Large Language Models in Fact-Checking",
+    "paper_url": "https://huggingface.co/papers/2601.02669",
+    "authors": [
+      "Zhen Ye",
+      "Ziyang Luo",
+      "Zhiqi Shen",
+      "Zixin Chen",
+      "Hongzhan Lin"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Towards Comprehensive Stage-wise Benchmarking of Large Language Models in Fact-Checking",
+      "abstract": "Current automatic LLM fact-checking tests are too narrow, they only check if a model can verify a claim, ignoring the hard parts like finding evidence and decomposing check-worthy claims. FactArena is built to evaluate the full fact-checking pipeline. Testing 16 state-of-the-art models reveals that the whole process ranking can disagree with simple accuracy. The system also revealed fragility in LLM fact-checking through subtle claim modifications (\"claim flipping\"), tanked average accuracy to 68%, proving that trustworthy auditing of every stage in the process matters.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.02669",
+      "pdf_url": "https://arxiv.org/pdf/2601.02669",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.02669",
+      "scraped_at": "2026-01-15T01:50:48.582670"
+    },
+    "scraped_date": "2026-01-15"
+  },
+  {
+    "title": "The Agent's First Day: Benchmarking Learning, Exploration, and Scheduling in the Workplace Scenarios",
+    "paper_url": "https://huggingface.co/papers/2601.08173",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "The Agent's First Day: Benchmarking Learning, Exploration, and Scheduling in the Workplace Scenarios",
+      "abstract": "The rapid evolution of Multi-modal Large Language Models (MLLMs) has advanced workflow automation; however, existing research mainly targets performance upper bounds in static environments, overlooking robustness for stochastic real-world deployment. We identify three key challenges: dynamic task scheduling, active exploration under uncertainty, and continuous learning from experience. To bridge this gap, we introduce \\method{}, a dynamic evaluation environment that simulates a \"trainee\" agent continuously exploring a novel setting. Unlike traditional benchmarks, \\method{} evaluates agents along three dimensions: (1) context-aware scheduling for streaming tasks with varying priorities; (2) prudent information acquisition to reduce hallucination via active exploration; and (3) continuous evolution by distilling generalized strategies from rule-based, dynamically generated tasks. Experiments show that cutting-edge agents have significant deficiencies in dynamic environments, especially in active exploration and continual learning. Our work establishes a framework for assessing agent reliability, shifting evaluation from static tests to realistic, production-oriented scenarios. Our codes are available at https://github.com/KnowledgeXLab/EvoEnv",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.08173",
+      "pdf_url": "https://arxiv.org/pdf/2601.08173",
+      "github_links": [
+        "https://github.com/KnowledgeXLab/EvoEnv"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.08173",
+      "scraped_at": "2026-01-15T01:50:50.375117"
+    },
+    "scraped_date": "2026-01-15"
+  },
+  {
+    "title": "GeoMotionGPT: Geometry-Aligned Motion Understanding with Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2601.07632",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "GeoMotionGPT: Geometry-Aligned Motion Understanding with Large Language Models",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.07632",
+      "pdf_url": "https://arxiv.org/pdf/2601.07632",
+      "github_links": [
+        "https://github.com/JYe16/GeoMotionGPT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.07632",
+      "scraped_at": "2026-01-15T01:50:52.181113"
+    },
+    "scraped_date": "2026-01-15"
   }
 ]
