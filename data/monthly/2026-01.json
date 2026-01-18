@@ -8003,5 +8003,784 @@
       "scraped_at": "2026-01-17T01:47:17.436915"
     },
     "scraped_date": "2026-01-17"
+  },
+  {
+    "title": "STEP3-VL-10B Technical Report",
+    "paper_url": "https://huggingface.co/papers/2601.09668",
+    "authors": [],
+    "stars": "168",
+    "details": {
+      "title": "STEP3-VL-10B Technical Report",
+      "abstract": "🎉 Introducing Step3-VL-10B, Compact Yet Frontier Multimodal Intelligence, with best performance at 10B model scale, even matching 10x-20x size of open-source frontier models!",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.09668",
+      "pdf_url": "https://arxiv.org/pdf/2601.09668",
+      "github_links": [
+        "https://github.com/stepfun-ai/PaCoRe",
+        "https://github.com/stepfun-ai/Step3-VL-10B"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.09668",
+      "scraped_at": "2026-01-18T01:58:28.325011"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "Urban Socio-Semantic Segmentation with Vision-Language Reasoning",
+    "paper_url": "https://huggingface.co/papers/2601.10477",
+    "authors": [],
+    "stars": "135",
+    "details": {
+      "title": "Urban Socio-Semantic Segmentation with Vision-Language Reasoning",
+      "abstract": "It is a very interesting idea of practical value.  Applying VLM  + RL on (real world) Socio-Semantic Segmentation task!",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10477",
+      "pdf_url": "https://arxiv.org/pdf/2601.10477",
+      "github_links": [
+        "https://github.com/AMAP-ML/SocioReasoner"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10477",
+      "scraped_at": "2026-01-18T01:58:30.488100"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "Rewarding the Rare: Uniqueness-Aware RL for Creative Problem Solving in LLMs",
+    "paper_url": "https://huggingface.co/papers/2601.08763",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Rewarding the Rare: Uniqueness-Aware RL for Creative Problem Solving in LLMs",
+      "abstract": "Rewarding the Rare: Uniqueness-Aware RL for Creative Problem Solving in LLMs",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.08763",
+      "pdf_url": "https://arxiv.org/pdf/2601.08763",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.08763",
+      "scraped_at": "2026-01-18T01:58:32.445211"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "Collaborative Multi-Agent Test-Time Reinforcement Learning for Reasoning",
+    "paper_url": "https://huggingface.co/papers/2601.09667",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Collaborative Multi-Agent Test-Time Reinforcement Learning for Reasoning",
+      "abstract": "Collaborative Multi-Agent Test-Time Reinforcement Learning for Reasoning",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.09667",
+      "pdf_url": "https://arxiv.org/pdf/2601.09667",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.09667",
+      "scraped_at": "2026-01-18T01:58:34.356864"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "VIBE: Visual Instruction Based Editor",
+    "paper_url": "https://huggingface.co/papers/2601.02242",
+    "authors": [
+      "Bulat Suleimanov",
+      "WildChlamydia",
+      "iitolstykh",
+      "grac20101",
+      "Riko0"
+    ],
+    "stars": "29",
+    "details": {
+      "title": "VIBE: Visual Instruction Based Editor",
+      "abstract": "🎉 Introducing VIBE: Visual Instruction Based Editor, a compact and powerful system that fits comfortably within 24 GB of GPU memory and generates edited images at up to 2K resolution in approximately 4 seconds on an NVIDIA H100, without any extra optimizations!",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.02242",
+      "pdf_url": "https://arxiv.org/pdf/2601.02242",
+      "github_links": [
+        "https://github.com/ai-forever/vibe"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.02242",
+      "scraped_at": "2026-01-18T01:58:36.230150"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "Beyond Static Tools: Test-Time Tool Evolution for Scientific Reasoning",
+    "paper_url": "https://huggingface.co/papers/2601.07641",
+    "authors": [],
+    "stars": "37",
+    "details": {
+      "title": "Beyond Static Tools: Test-Time Tool Evolution for Scientific Reasoning",
+      "abstract": "🎉 Introducing Test-Time Tool Evolution (TTE) — Beyond Static Tools: Test-Time Tool Evolution for Scientific Reasoning (arXiv:2601.07641)! Why it matters: Scientific problems don’t come with a complete tool library. TTE lets agents synthesize → validate → evolve executable tools at inference time, turning tools from “fixed resources” into problem-driven, self-improving artifacts. ✅ Code + dataset are fully open-sourced.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.07641",
+      "pdf_url": "https://arxiv.org/pdf/2601.07641",
+      "github_links": [
+        "https://github.com/lujiaxuan0520/Test-Time-Tool-Evol"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.07641",
+      "scraped_at": "2026-01-18T01:58:38.101276"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "DanQing: An Up-to-Date Large-Scale Chinese Vision-Language Pre-training Dataset",
+    "paper_url": "https://huggingface.co/papers/2601.10305",
+    "authors": [
+      "fengziyong",
+      "SeriousBro",
+      "dfgdgh",
+      "TianchengGu",
+      "dewecho"
+    ],
+    "stars": "14",
+    "details": {
+      "title": "DanQing: An Up-to-Date Large-Scale Chinese Vision-Language Pre-training Dataset",
+      "abstract": "Vision-Language Pre-training (VLP) models demonstrate strong performance across various downstream tasks by learning from large-scale image-text pairs through contrastive pretraining. The release of extensive English image-text datasets (e.g., COYO-700M and LAION-400M) has enabled widespread adoption of models such as CLIP and SigLIP in tasks including cross-modal retrieval and image captioning. However, the advancement of Chinese vision-language pretraining has substantially lagged behind, due to the scarcity of high-quality Chinese image-text data. To address this gap, we develop a comprehensive pipeline for constructing a high-quality Chinese cross-modal dataset. As a result, we propose DanQing, which contains 100 million image-text pairs collected from Common Crawl. Different from existing datasets, DanQing is curated through a more rigorous selection process, yielding superior data quality. Moreover, DanQing is primarily built from 2024-2025 web data, enabling models to better capture evolving semantic trends and thus offering greater practical utility. We compare DanQing with existing datasets by continual pre-training of the SigLIP2 model. Experimental results show that DanQing consistently achieves superior performance across a range of Chinese downstream tasks, including zero-shot classification, cross-modal retrieval, and LMM-based evaluations. To facilitate further research in Chinese vision-language pre-training, we will open-source the DanQing dataset under the Creative Common CC-BY 4.0 license.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10305",
+      "pdf_url": "https://arxiv.org/pdf/2601.10305",
+      "github_links": [
+        "https://github.com/deepglint/DanQing"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10305",
+      "scraped_at": "2026-01-18T01:58:40.112824"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "Toward Ultra-Long-Horizon Agentic Science: Cognitive Accumulation for Machine Learning Engineering",
+    "paper_url": "https://huggingface.co/papers/2601.10402",
+    "authors": [],
+    "stars": "336",
+    "details": {
+      "title": "Toward Ultra-Long-Horizon Agentic Science: Cognitive Accumulation for Machine Learning Engineering",
+      "abstract": "Toward Ultra-Long-Horizon Agentic Science: Cognitive Accumulation for Machine Learning Engineering",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10402",
+      "pdf_url": "https://arxiv.org/pdf/2601.10402",
+      "github_links": [
+        "https://github.com/sjtu-sai-agents/ML-Master"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10402",
+      "scraped_at": "2026-01-18T01:58:42.067107"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "CoF-T2I: Video Models as Pure Visual Reasoners for Text-to-Image Generation",
+    "paper_url": "https://huggingface.co/papers/2601.10061",
+    "authors": [],
+    "stars": "20",
+    "details": {
+      "title": "CoF-T2I: Video Models as Pure Visual Reasoners for Text-to-Image Generation",
+      "abstract": "paper link: https://arxiv.org/pdf/2601.10061",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10061",
+      "pdf_url": "https://arxiv.org/pdf/2601.10061",
+      "github_links": [
+        "https://github.com/VisionChengzhuo/CoF-T2I"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10061",
+      "scraped_at": "2026-01-18T01:58:43.999136"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "Think-Then-Generate: Reasoning-Aware Text-to-Image Diffusion with LLM Encoders",
+    "paper_url": "https://huggingface.co/papers/2601.10332",
+    "authors": [],
+    "stars": "86",
+    "details": {
+      "title": "Think-Then-Generate: Reasoning-Aware Text-to-Image Diffusion with LLM Encoders",
+      "abstract": "Github: https://github.com/zhijie-group/Think-Then-Generate",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10332",
+      "pdf_url": "https://arxiv.org/pdf/2601.10332",
+      "github_links": [
+        "https://github.com/zhijie-group/Think-Then-Generate"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10332",
+      "scraped_at": "2026-01-18T01:58:45.918917"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "Alterbute: Editing Intrinsic Attributes of Objects in Images",
+    "paper_url": "https://huggingface.co/papers/2601.10714",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Alterbute: Editing Intrinsic Attributes of Objects in Images",
+      "abstract": "[TL;DR] We present Alterbute, a diffusion-based method for editing an object’s intrinsic attributes — color, texture, material, and shape — while preserving its perceived identity and scene context. Paper 📄: https://arxiv.org/pdf/2601.10714 Project page 🌐: https://talreiss.github.io/alterbute/",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10714",
+      "pdf_url": "https://arxiv.org/pdf/2601.10714",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10714",
+      "scraped_at": "2026-01-18T01:58:47.820357"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "MatchTIR: Fine-Grained Supervision for Tool-Integrated Reasoning via Bipartite Matching",
+    "paper_url": "https://huggingface.co/papers/2601.10712",
+    "authors": [],
+    "stars": "10",
+    "details": {
+      "title": "MatchTIR: Fine-Grained Supervision for Tool-Integrated Reasoning via Bipartite Matching",
+      "abstract": "💡 Overview We propose MatchTIR, a fine-grained reinforcement learning framework specifically designed for Tool-Integrated Reasoning (TIR). The core principle of MatchTIR is to introduce precise supervision via bipartite matching-based turn-level reward assignment, allowing the model to distinguish between effective, redundant, or erroneous tool calls in multi-turn scenarios. 🔥Key Insights We highlight that existing RL methods assign uniform advantages to all steps, failing to distinguish between critical, redundant, or erroneous tool calls in long-horizon trajectories. We reformulate credit assignment as a bipartite matching problem between predicted and ground-truth tool calls. By constructing a matching matrix, we get the precise reward. We introduce two matching mechanisms: Hard Assignment (KM algorithm) for strict one-to-one mapping and Soft Assignment (Optimal Transport) for probabilistic alignment, providing dense and verifiable supervision signals. To balance local precision with global success, we propose a scheme that integrates trajectory-level signals (overall quality) with turn-level advantages (individual step contribution via discounted rewards). Extensive experiments on three benchmarks demonstrate the superiority of MatchTIR. Notably, our 4B model outperforms larger 8B competitors, particularly in long-horizon and multi-turn tasks. 🔧✨ All the code, datasets and model checkpoints of MatchTIR are fully open-sourced: Github: https://github.com/quchangle1/MatchTIR Datasets & Models: https://huggingface.co/collections/ChangleQu/matchtir",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10712",
+      "pdf_url": "https://arxiv.org/pdf/2601.10712",
+      "github_links": [
+        "https://github.com/quchangle1/MatchTIR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10712",
+      "scraped_at": "2026-01-18T01:58:49.722522"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "ToolSafe: Enhancing Tool Invocation Safety of LLM-based agents via Proactive Step-level Guardrail and Feedback",
+    "paper_url": "https://huggingface.co/papers/2601.10156",
+    "authors": [
+      "Shikun Zhang",
+      "Peiyang Liu",
+      "Lijun Li",
+      "Zhangchi Xue",
+      "MurrayTom"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ToolSafe: Enhancing Tool Invocation Safety of LLM-based agents via Proactive Step-level Guardrail and Feedback",
+      "abstract": "GitHub: https://github.com/MurrayTom/ToolSafe",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10156",
+      "pdf_url": "https://arxiv.org/pdf/2601.10156",
+      "github_links": [
+        "https://github.com/MurrayTom/ToolSafe"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10156",
+      "scraped_at": "2026-01-18T01:58:52.822014"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "Molmo2: Open Weights and Data for Vision-Language Models with Video Understanding and Grounding",
+    "paper_url": "https://huggingface.co/papers/2601.10611",
+    "authors": [
+      "gstoica3",
+      "praeclarumjj3",
+      "tairaa",
+      "kimdon20",
+      "zhongzhengrenzhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Molmo2: Open Weights and Data for Vision-Language Models with Video Understanding and Grounding",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API VideoWeave: A Data-Centric Approach for Efficient Video Understanding (2026) TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs (2025) Kandinsky 5.0: A Family of Foundation Models for Image and Video Generation (2025) FoundationMotion: Auto-Labeling and Reasoning about Spatial Movement in Videos (2025) UFVideo: Towards Unified Fine-Grained Video Cooperative Understanding with Large Language Models (2025) VideoPerceiver: Enhancing Fine-Grained Temporal Perception in Video Multimodal Large Language Models (2025) LAST: LeArning to Think in Space and Time for Generalist Vision-Language Models (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10611",
+      "pdf_url": "https://arxiv.org/pdf/2601.10611",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10611",
+      "scraped_at": "2026-01-18T01:58:54.734358"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "A Safety Report on GPT-5.2, Gemini 3 Pro, Qwen3-VL, Doubao 1.8, Grok 4.1 Fast, Nano Banana Pro, and Seedream 4.5",
+    "paper_url": "https://huggingface.co/papers/2601.10527",
+    "authors": [
+      "Yutao Wu",
+      "Yixu Wang",
+      "Xingjun Ma",
+      "xinwang22",
+      "DobyXu"
+    ],
+    "stars": "21",
+    "details": {
+      "title": "A Safety Report on GPT-5.2, Gemini 3 Pro, Qwen3-VL, Doubao 1.8, Grok 4.1 Fast, Nano Banana Pro, and Seedream 4.5",
+      "abstract": "The rapid evolution of Large Language Models (LLMs) and Multimodal Large Language Models (MLLMs) has produced substantial gains in reasoning, perception, and generative capability across language and vision. However, whether these advances yield commensurate improvements in safety remains unclear, in part due to fragmented evaluation practices limited to single modalities or threat models. In this report, we present an integrated safety evaluation of 7 frontier models: GPT-5.2, Gemini 3 Pro, Qwen3-VL, Doubao 1.8, Grok 4.1 Fast, Nano Banana Pro, and Seedream 4.5. We evaluate each model across language, vision-language, and image generation settings using a unified protocol that integrates benchmark evaluation, adversarial evaluation, multilingual evaluation, and compliance evaluation. Aggregating our evaluations into safety leaderboards and model safety profiles across multiple evaluation modes reveals a sharply heterogeneous safety landscape. While GPT-5.2 demonstrates consistently strong and balanced safety performance across evaluations, other models exhibit pronounced trade-offs among benchmark safety, adversarial alignment, multilingual generalization, and regulatory compliance. Both language and vision-language modalities show significant vulnerability under adversarial evaluation, with all models degrading substantially despite strong results on standard benchmarks. Text-to-image models achieve relatively stronger alignment in regulated visual risk categories, yet remain brittle under adversarial or semantically ambiguous prompts. Overall, these results show that safety in frontier models is inherently multidimensional--shaped by modality, language, and evaluation scheme, underscoring the need for standardized safety evaluations to accurately assess real-world risk and guide responsible model development and deployment.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10527",
+      "pdf_url": "https://arxiv.org/pdf/2601.10527",
+      "github_links": [
+        "https://github.com/XSafeAI/AI-safety-report"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10527",
+      "scraped_at": "2026-01-18T01:58:56.653857"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "Transition Matching Distillation for Fast Video Generation",
+    "paper_url": "https://huggingface.co/papers/2601.09881",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Transition Matching Distillation for Fast Video Generation",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API VDOT: Efficient Unified Video Creation via Optimal Transport Distillation (2025) MoGAN: Improving Motion Quality in Video Diffusion via Few-Step Motion Adversarial Post-Training (2025) SnapGen++: Unleashing Diffusion Transformers for Efficient High-Fidelity Image Generation on Edge Devices (2026) FlowSteer: Guiding Few-Step Image Synthesis with Authentic Trajectories (2025) USV: Unified Sparsification for Accelerating Video Diffusion Models (2025) Few-Step Distillation for Text-to-Image Generation: A Practical Guide (2025) Live Avatar: Streaming Real-time Audio-Driven Avatar Generation with Infinite Length (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.09881",
+      "pdf_url": "https://arxiv.org/pdf/2601.09881",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.09881",
+      "scraped_at": "2026-01-18T01:58:58.523736"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "PACEvolve: Enabling Long-Horizon Progress-Aware Consistent Evolution",
+    "paper_url": "https://huggingface.co/papers/2601.10657",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PACEvolve: Enabling Long-Horizon Progress-Aware Consistent Evolution",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10657",
+      "pdf_url": "https://arxiv.org/pdf/2601.10657",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10657",
+      "scraped_at": "2026-01-18T01:59:00.469539"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "FlowAct-R1: Towards Interactive Humanoid Video Generation",
+    "paper_url": "https://huggingface.co/papers/2601.10103",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "FlowAct-R1: Towards Interactive Humanoid Video Generation",
+      "abstract": "Project page link from the paper: https://grisoon.github.io/FlowAct-R1/",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10103",
+      "pdf_url": "https://arxiv.org/pdf/2601.10103",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10103",
+      "scraped_at": "2026-01-18T01:59:02.337989"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "M^4olGen: Multi-Agent, Multi-Stage Molecular Generation under Precise Multi-Property Constraints",
+    "paper_url": "https://huggingface.co/papers/2601.10131",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "M^4olGen: Multi-Agent, Multi-Stage Molecular Generation under Precise Multi-Property Constraints",
+      "abstract": "Generating molecules that satisfy precise numeric constraints over multiple physicochemical properties is critical and challenging. Although large language models (LLMs) are expressive, they struggle with precise multiobjective control and numeric reasoning without external structure and feedback. We introduce M4olGen, a fragment-level, retrievalaugmented, two-stage framework for molecule generation under multi-property constraints.Stage I: Prototype generation: a multiagent reasoner performs retrieval-anchored, fragment-level edits to produce a candidate near the feasible region. Stage II: RL-based fine-grained optimization: a fragment-level optimizer trained with Group Relative Policy Optimization (GRPO) applies one- or multihop refinements to explicitly minimize the property errors toward our target while regulating edit complexity and deviation from the prototype. A large, automatically curated dataset with reasoning chains of fragment edits and measured property deltas underpins both stages, enabling deterministic, reproducible supervision and controllable multi-hop reasoning. Unlike prior work, our framework better reasons about molecules by leveraging fragments and supports controllable refinement toward numeric targets. Experiments on generation under two sets of property constraints (QED, LogP, Molecular Weight and HOMO, LUMO) show consistent gains in validity and precise satisfaction of multi-property targets, outperforming strong LLMs and graph-based algorithms.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10131",
+      "pdf_url": "https://arxiv.org/pdf/2601.10131",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10131",
+      "scraped_at": "2026-01-18T01:59:04.192079"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "HeartMuLa: A Family of Open Sourced Music Foundation Models",
+    "paper_url": "https://huggingface.co/papers/2601.10547",
+    "authors": [
+      "hhguo",
+      "YuanyuanWang",
+      "Gongxizhu",
+      "bverxie",
+      "Dongchao"
+    ],
+    "stars": "164",
+    "details": {
+      "title": "HeartMuLa: A Family of Open Sourced Music Foundation Models",
+      "abstract": "We present a family of open-source Music Foundation Models designed to advance large-scale music understanding and generation across diverse tasks and modalities. Our framework consists of four major components: (1) HeartCLAP, an audio\u0002text alignment model; (2) HeartTranscriptor, a robust lyric recognition model optimized for real-world music scenarios; and (3) HeartCodec, a low-frame-rate (12.5 Hz) yet high-fidelity music codec tokenizer that captures long-range musical structure while preserving fine-grained acoustic details and enabling efficient autoregressive modeling; (4) HeartMuLa, an LLM-based song generation model capable of synthesizing high-fidelity music under rich, user-controllable conditions (e.g., textual style descriptions, lyrics, and reference audio). In addition, it provides two specialized modes: (i) fine-grained musical attribute control, which allows users to specify the style of different song sections (e.g., intro, verse, chorus) using natural language prompts; and (ii) short, engaging music generation, which is suitable as background music for short videos. Lastly, HeartMuLa improves significantly when scaled to 7B parameters. For the first time, we show that a Suno-level, commercial-grade system can be reproduced using academic-scale data and GPU resources. We expect these foundation models to serve as strong baselines for future research and to facilitate practical applications in multimodal content production.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10547",
+      "pdf_url": "https://arxiv.org/pdf/2601.10547",
+      "github_links": [
+        "https://github.com/HeartMuLa/heartlib"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10547",
+      "scraped_at": "2026-01-18T01:59:06.066745"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "Action100M: A Large-scale Video Action Dataset",
+    "paper_url": "https://huggingface.co/papers/2601.10592",
+    "authors": [],
+    "stars": "159",
+    "details": {
+      "title": "Action100M: A Large-scale Video Action Dataset",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API FoundationMotion: Auto-Labeling and Reasoning about Spatial Movement in Videos (2025) Zero-Shot Open-Vocabulary Human Motion Grounding with Test-Time Training (2025) R-AVST: Empowering Video-LLMs with Fine-Grained Spatio-Temporal Reasoning in Complex Audio-Visual Scenarios (2025) SOVABench: A Vehicle Surveillance Action Retrieval Benchmark for Multimodal Large Language Models (2026) InternVideo-Next: Towards General Video Foundation Models without Video-Text Supervision (2025) OneStory: Coherent Multi-Shot Video Generation with Adaptive Memory (2025) LongVideoAgent: Multi-Agent Reasoning with Long Videos (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10592",
+      "pdf_url": "https://arxiv.org/pdf/2601.10592",
+      "github_links": [
+        "https://github.com/facebookresearch/Action100M"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10592",
+      "scraped_at": "2026-01-18T01:59:08.004724"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "Inference-time Physics Alignment of Video Generative Models with Latent World Models",
+    "paper_url": "https://huggingface.co/papers/2601.10553",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Inference-time Physics Alignment of Video Generative Models with Latent World Models",
+      "abstract": "I assume I can also use any arbitrary off-the-shelf metric as a substitute for 'surprise' then?🤣 Coming soon: Inference-time Overall Alignment of Video Generative Models with Random Seed.😎",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10553",
+      "pdf_url": "https://arxiv.org/pdf/2601.10553",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10553",
+      "scraped_at": "2026-01-18T01:59:09.867129"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "EvasionBench: Detecting Evasive Answers in Financial Q&A via Multi-Model Consensus and LLM-as-Judge",
+    "paper_url": "https://huggingface.co/papers/2601.09142",
+    "authors": [
+      "Yi Yang",
+      "Yan Lin",
+      "FutureMa"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "EvasionBench: Detecting Evasive Answers in Financial Q&A via Multi-Model Consensus and LLM-as-Judge",
+      "abstract": "Thanks for featuring our work! 🚀 EvasionBench aims to bridge the gap in financial transparency. We've released the Eva-4B model and the 1k human-annotated test set. 📝 Paper: https://arxiv.org/abs/2601.09142 🤗 Model: https://huggingface.co/FutureMa/Eva-4B 🎮 Demo: https://huggingface.co/spaces/FutureMa/financial-evasion-detection Feel free to ask any questions!",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.09142",
+      "pdf_url": "https://arxiv.org/pdf/2601.09142",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.09142",
+      "scraped_at": "2026-01-18T01:59:11.788446"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "TAG-MoE: Task-Aware Gating for Unified Generative Mixture-of-Experts",
+    "paper_url": "https://huggingface.co/papers/2601.08881",
+    "authors": [
+      "Tiankai Hang",
+      "Yiji Cheng",
+      "Juan Cao",
+      "Yu Xu",
+      "Yana-Hangabina"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "TAG-MoE: Task-Aware Gating for Unified Generative Mixture-of-Experts",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API InstructMoLE: Instruction-Guided Mixture of Low-rank Experts for Multi-Conditional Image Generation (2025) 3SGen: Unified Subject, Style, and Structure-Driven Image Generation with Adaptive Task-specific Memory (2025) Unified Personalized Understanding, Generating and Editing (2026) Loom: Diffusion-Transformer for Interleaved Generation (2025) Towards Unified Semantic and Controllable Image Fusion: A Diffusion Transformer Approach. (2025) MammothModa2: A Unified AR-Diffusion Framework for Multimodal Understanding and Generation (2025) WeMMU: Enhanced Bridging of Vision-Language Models and Diffusion Models via Noisy Query Tokens (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.08881",
+      "pdf_url": "https://arxiv.org/pdf/2601.08881",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.08881",
+      "scraped_at": "2026-01-18T01:59:13.656078"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "LSRIF: Logic-Structured Reinforcement Learning for Instruction Following",
+    "paper_url": "https://huggingface.co/papers/2601.06431",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LSRIF: Logic-Structured Reinforcement Learning for Instruction Following",
+      "abstract": "In this work, we propose LSRIF, a logic-structured training framework. We construct LSRINSTRUCT, a multi-constraint instruction dataset covering parallel, sequential, and conditional constraint logic structures, and design LSRM, structure-aware reward modeling that aligns training signals with logical execution semantics. LSRIF improves instruction following in both in-domain and out-of-domain settings, while also enhancing general reasoning ability. We also conduct attention and token-level interpretability analysis for model performance improvements.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.06431",
+      "pdf_url": "https://arxiv.org/pdf/2601.06431",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.06431",
+      "scraped_at": "2026-01-18T01:59:15.486341"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "PRL: Process Reward Learning Improves LLMs' Reasoning Ability and Broadens the Reasoning Boundary",
+    "paper_url": "https://huggingface.co/papers/2601.10201",
+    "authors": [
+      "TongZhang",
+      "RickyDeSkywalker",
+      "FlippyDora"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "PRL: Process Reward Learning Improves LLMs' Reasoning Ability and Broadens the Reasoning Boundary",
+      "abstract": "Abstract Improving the reasoning abilities of Large Language Models (LLMs) has been a continuous topic recently. But most relevant works are based on outcome rewards at the trajectory level, missing fine-grained supervision during the reasoning process. Other existing training frameworks that try to combine process signals together to optimize LLMs also rely heavily on tedious additional steps like MCTS, training a separate reward model, etc., doing harm to the training efficiency. Moreover, the intuition behind the process signals design lacks rigorous theoretical support, leaving the understanding of the optimization mechanism opaque. In this paper, we propose Process Reward Learning (PRL), which decomposes the entropy regularized reinforcement learning objective into intermediate steps, with rigorous process rewards that could be assigned to models accordingly. Starting from theoretical motivation, we derive the formulation of PRL that is essentially equivalent to the objective of reward maximization plus a KL-divergence penalty term between the policy model and a reference model. However, PRL could turn the outcome reward into process supervision signals, which helps better guide the exploration during RL optimization. From our experiment results, we demonstrate that PRL not only improves the average performance for LLMs' reasoning ability measured by average @ n, but also broadens the reasoning boundary by improving the pass @ n metric. Extensive experiments show that the effectiveness of PRL could be verified and generalized.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10201",
+      "pdf_url": "https://arxiv.org/pdf/2601.10201",
+      "github_links": [
+        "https://github.com/MaxwellJryao/Process-Reward-Learning"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10201",
+      "scraped_at": "2026-01-18T01:59:17.319882"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "LaViT: Aligning Latent Visual Thoughts for Multi-modal Reasoning",
+    "paper_url": "https://huggingface.co/papers/2601.10129",
+    "authors": [
+      "Linquan Wu",
+      "jackykeung",
+      "afunnyhy",
+      "fly1113",
+      "txjiang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "LaViT: Aligning Latent Visual Thoughts for Multi-modal Reasoning",
+      "abstract": "https://github.com/Svardfox/LaViT",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10129",
+      "pdf_url": "https://arxiv.org/pdf/2601.10129",
+      "github_links": [
+        "https://github.com/Svardfox/LaViT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10129",
+      "scraped_at": "2026-01-18T01:59:19.169455"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "Deriving Character Logic from Storyline as Codified Decision Trees",
+    "paper_url": "https://huggingface.co/papers/2601.10080",
+    "authors": [
+      "Kun Zhou",
+      "shangjingbo",
+      "hyp1231",
+      "ylf1017",
+      "KomeijiForce"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Deriving Character Logic from Storyline as Codified Decision Trees",
+      "abstract": "Deriving Character Logic from Storyline as Codified Decision Trees",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10080",
+      "pdf_url": "https://arxiv.org/pdf/2601.10080",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10080",
+      "scraped_at": "2026-01-18T01:59:21.091232"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "Patient-Similarity Cohort Reasoning in Clinical Text-to-SQL",
+    "paper_url": "https://huggingface.co/papers/2601.09876",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Patient-Similarity Cohort Reasoning in Clinical Text-to-SQL",
+      "abstract": "Introducing ClinSQL, a 633-task expert-annotated benchmark on MIMIC-IV v3.1 for real-world clinical text-to-SQL.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.09876",
+      "pdf_url": "https://arxiv.org/pdf/2601.09876",
+      "github_links": [
+        "https://github.com/Barryshen1/ClinSQL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.09876",
+      "scraped_at": "2026-01-18T01:59:22.939202"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "RigMo: Unifying Rig and Motion Learning for Generative Animation",
+    "paper_url": "https://huggingface.co/papers/2601.06378",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "RigMo: Unifying Rig and Motion Learning for Generative Animation",
+      "abstract": "🚀 New work: RigMo — Unifying Rig & Motion Learning for Generative Animation Rigging and motion are two hard problems—usually solved separately. RigMo unifies them. A feed-forward framework that jointly learns rig structure + motion directly from raw mesh sequences → no rig annotations, no per-sequence optimization. ✨ Highlights • Explicit Gaussian bones + skinning weights • SE(3) bone motions from compact latents • Motion-DiT for controllable motion synthesis • Interpretable, reusable, truly animatable 4D assets 📊 Strong results on DeformingThings4D / Objaverse-XL / TrueBones 🔗 Project page: https://rigmo-page.github.io 📄 Paper (arXiv): https://arxiv.org/abs/2601.06378 📺 Video: https://youtube.com/watch?v=0H0lsM3USVM 💻 Code: coming soon #ComputerGraphics #Animation #Rigging #4D #3D #GenerativeAI",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.06378",
+      "pdf_url": "https://arxiv.org/pdf/2601.06378",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.06378",
+      "scraped_at": "2026-01-18T01:59:24.819341"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale",
+    "paper_url": "https://huggingface.co/papers/2601.10338",
+    "authors": [
+      "Ruitao Feng",
+      "Weizhe Wang",
+      "Gelei",
+      "yaozhang",
+      "sumleo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale",
+      "abstract": "Really interesting and timely work—agent “skills” seem like a rapidly growing supply-chain attack surface, and it’s refreshing to see a large-scale empirical analysis rather than a purely conceptual treatment. The scale and methodology (tens of thousands of skills analyzed using a combined static and LLM-based pipeline) are particularly compelling, and the 14-pattern, four-category vulnerability taxonomy helps make the risk landscape much more concrete. The reported numbers are striking: roughly a quarter of skills containing vulnerabilities, with a non-trivial fraction exhibiting high-severity patterns suggestive of malicious behavior, which strongly motivates the need for better ecosystem defenses. It would be interesting to learn more about how ambiguous cases were handled when separating malicious intent from accidental insecurity, whether vulnerability prevalence differs across marketplaces with different governance models, and how developers might practically use the detection results for remediation. The call for capability-based permission systems is persuasive, and additional discussion of concrete enforcement mechanisms (e.g., sandboxing, least-privilege access, signing, or dependency controls) would further strengthen the practical impact.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10338",
+      "pdf_url": "https://arxiv.org/pdf/2601.10338",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10338",
+      "scraped_at": "2026-01-18T01:59:26.635216"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "V-DPM: 4D Video Reconstruction with Dynamic Point Maps",
+    "paper_url": "https://huggingface.co/papers/2601.09499",
+    "authors": [
+      "vedaldi",
+      "zlai",
+      "einsafutdinov",
+      "edgarsucar"
+    ],
+    "stars": "55",
+    "details": {
+      "title": "V-DPM: 4D Video Reconstruction with Dynamic Point Maps",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.09499",
+      "pdf_url": "https://arxiv.org/pdf/2601.09499",
+      "github_links": [
+        "https://github.com/eldar/vdpm"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.09499",
+      "scraped_at": "2026-01-18T01:59:28.561269"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "CaMeLs Can Use Computers Too: System-level Security for Computer Use Agents",
+    "paper_url": "https://huggingface.co/papers/2601.09923",
+    "authors": [
+      "ftramer",
+      "nkristina",
+      "tom-bl",
+      "rcmullins",
+      "aprilflower"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "CaMeLs Can Use Computers Too: System-level Security for Computer Use Agents",
+      "abstract": "When AI agents control your mouse, a single malicious email can drain your accounts. We built the first system-level defense to sandbox these agents, and the results challenged our assumptions about AI. It turns out, digital environments are more predictable than we admit: our research shows that half of OSWorld tasks can be solved without the agent ever seeing the screen. By leveraging this, CaMeLs provides strict security without killing performance. You don't need an omnipotent agent; you need a predictable one.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.09923",
+      "pdf_url": "https://arxiv.org/pdf/2601.09923",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.09923",
+      "scraped_at": "2026-01-18T01:59:30.387446"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "WildRayZer: Self-supervised Large View Synthesis in Dynamic Environments",
+    "paper_url": "https://huggingface.co/papers/2601.10716",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "WildRayZer: Self-supervised Large View Synthesis in Dynamic Environments",
+      "abstract": "We present WildRayZer, a self-supervised framework for novel view synthesis (NVS) in dynamic environments where both the camera and objects move. Dynamic content breaks the multi-view consistency that static NVS models rely on, leading to ghosting, hallucinated geometry, and unstable pose estimation. WildRayZer addresses this by performing an analysis-by-synthesis test: a camera-only static renderer explains rigid structure, and its residuals reveal transient regions. From these residuals, we construct pseudo motion masks, distill a motion estimator, and use it to mask input tokens and gate loss gradients so supervision focuses on cross-view background completion. To enable large-scale training and evaluation, we curate Dynamic RealEstate10K (D-RE10K), a real-world dataset of 15K casually captured dynamic sequences, and D-RE10K-iPhone, a paired transient and clean benchmark for sparse-view transient-aware NVS. Experiments show that WildRayZer consistently outperforms optimization-based and feed-forward baselines in both transient-region removal and full-frame NVS quality with a single feed-forward pass.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10716",
+      "pdf_url": "https://arxiv.org/pdf/2601.10716",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10716",
+      "scraped_at": "2026-01-18T01:59:32.244800"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "VQ-Seg: Vector-Quantized Token Perturbation for Semi-Supervised Medical Image Segmentation",
+    "paper_url": "https://huggingface.co/papers/2601.10124",
+    "authors": [
+      "Lei Zhu",
+      "xingzhaohu",
+      "yscript"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "VQ-Seg: Vector-Quantized Token Perturbation for Semi-Supervised Medical Image Segmentation",
+      "abstract": "Code available at: https://github.com/script-Yang/VQ-Seg",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10124",
+      "pdf_url": "https://arxiv.org/pdf/2601.10124",
+      "github_links": [
+        "https://github.com/script-Yang/VQ-Seg"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10124",
+      "scraped_at": "2026-01-18T01:59:34.092644"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "Enhancing Sentiment Classification and Irony Detection in Large Language Models through Advanced Prompt Engineering Techniques",
+    "paper_url": "https://huggingface.co/papers/2601.08302",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Enhancing Sentiment Classification and Irony Detection in Large Language Models through Advanced Prompt Engineering Techniques",
+      "abstract": "Enhancing Sentiment Classification and Irony Detection in Large Language Models through Advanced Prompt Engineering Techniques",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.08302",
+      "pdf_url": "https://arxiv.org/pdf/2601.08302",
+      "github_links": [
+        "https://github.com/Marvin2108/ESCID-LLM-APET"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.08302",
+      "scraped_at": "2026-01-18T01:59:35.925826"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "Demystifying the Slash Pattern in Attention: The Role of RoPE",
+    "paper_url": "https://huggingface.co/papers/2601.08297",
+    "authors": [
+      "Chao Du",
+      "Cunxiao Du",
+      "Yunlong Hou",
+      "Fengzhuo Zhang",
+      "Yuan Cheng"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Demystifying the Slash Pattern in Attention: The Role of RoPE",
+      "abstract": "Large Language Models (LLMs) often exhibit slash attention patterns, where attention scores concentrate along the Δ-th sub-diagonal for some offset Δ. These patterns play a key role in passing information across tokens. But why do they emerge? In this paper, we demystify the emergence of these Slash-Dominant Heads (SDHs) from both empirical and theoretical perspectives. First, by analyzing open-source LLMs, we find that SDHs are intrinsic to models and generalize to out-of-distribution prompts. To explain the intrinsic emergence, we analyze the queries, keys, and Rotary Position Embedding (RoPE), which jointly determine attention scores. Our empirical analysis reveals two characteristic conditions of SDHs: (1) Queries and keys are almost rank-one, and (2) RoPE is dominated by medium- and high-frequency components. Under these conditions, queries and keys are nearly identical across tokens, and interactions between medium- and high-frequency components of RoPE give rise to SDHs. Beyond empirical evidence, we theoretically show that these conditions are sufficient to ensure the emergence of SDHs by formalizing them as our modeling assumptions. Particularly, we analyze the training dynamics of a shallow Transformer equipped with RoPE under these conditions, and prove that models trained via gradient descent exhibit SDHs. The SDHs generalize to out-of-distribution prompts.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.08297",
+      "pdf_url": "https://arxiv.org/pdf/2601.08297",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.08297",
+      "scraped_at": "2026-01-18T01:59:37.795150"
+    },
+    "scraped_date": "2026-01-18"
+  },
+  {
+    "title": "Memory Bank Compression for Continual Adaptation of Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2601.00756",
+    "authors": [
+      "Dimitrios Rafailidis",
+      "Tomk187"
+    ],
+    "stars": "20",
+    "details": {
+      "title": "Memory Bank Compression for Continual Adaptation of Large Language Models",
+      "abstract": "Large Language Models (LLMs) have become a mainstay for many everyday applications. However, as data evolve their knowledge quickly becomes outdated. Continual learning aims to update LLMs with new information without erasing previously acquired knowledge. Although methods such as full fine-tuning can incorporate new data, they are computationally expensive and prone to catastrophic forgetting, where prior knowledge is overwritten. Memory-augmented approaches address this by equipping LLMs with a memory bank, that is an external memory module which stores information for future use. However, these methods face a critical limitation, in particular, the memory bank constantly grows in the real-world scenario when large-scale data streams arrive. In this paper, we propose MBC, a model that compresses the memory bank through a codebook optimization strategy during online adaptation learning. To ensure stable learning, we also introduce an online resetting mechanism that prevents codebook collapse. In addition, we employ Key-Value Low-Rank Adaptation in the attention layers of the LLM, enabling efficient utilization of the compressed memory representations. Experiments with benchmark question-answering datasets demonstrate that MBC reduces the memory bank size to 0.3% when compared against the most competitive baseline, while maintaining high retention accuracy during online adaptation learning. Our code is publicly available at https://github.com/Thomkat/MBC .",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.00756",
+      "pdf_url": "https://arxiv.org/pdf/2601.00756",
+      "github_links": [
+        "https://github.com/Thomkat/MBC"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.00756",
+      "scraped_at": "2026-01-18T01:59:39.653822"
+    },
+    "scraped_date": "2026-01-18"
   }
 ]

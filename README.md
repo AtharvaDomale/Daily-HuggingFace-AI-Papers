@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-38-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-1129+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-1167+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">38</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">194</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">391</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">1129+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">232</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">429</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">1167+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** January 17, 2026
+**Last Updated:** January 18, 2026
 
 ---
 
@@ -119,20 +119,7 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Urban Socio-Semantic Segmentation with Vision-Language Reasoning</b> ⭐ 125</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.10477) • [📄 arXiv](https://arxiv.org/abs/2601.10477) • [📥 PDF](https://arxiv.org/pdf/2601.10477)
-
-**💻 Code:** [⭐ Code](https://github.com/AMAP-ML/SocioReasoner)
-
-> It is a very interesting idea of practical value.  Applying VLM  + RL on (real world) Socio-Semantic Segmentation task!
-
-</details>
-
-<details>
-<summary><b>2. STEP3-VL-10B Technical Report</b> ⭐ 152</summary>
+<summary><b>1. STEP3-VL-10B Technical Report</b> ⭐ 168</summary>
 
 <br/>
 
@@ -141,6 +128,19 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/stepfun-ai/PaCoRe) • [⭐ Code](https://github.com/stepfun-ai/Step3-VL-10B)
 
 > 🎉 Introducing Step3-VL-10B, Compact Yet Frontier Multimodal Intelligence, with best performance at 10B model scale, even matching 10x-20x size of open-source frontier models!
+
+</details>
+
+<details>
+<summary><b>2. Urban Socio-Semantic Segmentation with Vision-Language Reasoning</b> ⭐ 135</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.10477) • [📄 arXiv](https://arxiv.org/abs/2601.10477) • [📥 PDF](https://arxiv.org/pdf/2601.10477)
+
+**💻 Code:** [⭐ Code](https://github.com/AMAP-ML/SocioReasoner)
+
+> It is a very interesting idea of practical value.  Applying VLM  + RL on (real world) Socio-Semantic Segmentation task!
 
 </details>
 
@@ -167,7 +167,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>5. VIBE: Visual Instruction Based Editor</b> ⭐ 22</summary>
+<summary><b>5. VIBE: Visual Instruction Based Editor</b> ⭐ 29</summary>
 
 <br/>
 
@@ -182,7 +182,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>6. Beyond Static Tools: Test-Time Tool Evolution for Scientific Reasoning</b> ⭐ 34</summary>
+<summary><b>6. Beyond Static Tools: Test-Time Tool Evolution for Scientific Reasoning</b> ⭐ 37</summary>
 
 <br/>
 
@@ -195,7 +195,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>7. DanQing: An Up-to-Date Large-Scale Chinese Vision-Language Pre-training Dataset</b> ⭐ 12</summary>
+<summary><b>7. DanQing: An Up-to-Date Large-Scale Chinese Vision-Language Pre-training Dataset</b> ⭐ 14</summary>
 
 <br/>
 
@@ -210,7 +210,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>8. Toward Ultra-Long-Horizon Agentic Science: Cognitive Accumulation for Machine Learning Engineering</b> ⭐ 332</summary>
+<summary><b>8. Toward Ultra-Long-Horizon Agentic Science: Cognitive Accumulation for Machine Learning Engineering</b> ⭐ 336</summary>
 
 <br/>
 
@@ -223,7 +223,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>9. CoF-T2I: Video Models as Pure Visual Reasoners for Text-to-Image Generation</b> ⭐ 18</summary>
+<summary><b>9. CoF-T2I: Video Models as Pure Visual Reasoners for Text-to-Image Generation</b> ⭐ 20</summary>
 
 <br/>
 
@@ -236,7 +236,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>10. Think-Then-Generate: Reasoning-Aware Text-to-Image Diffusion with LLM Encoders</b> ⭐ 37</summary>
+<summary><b>10. Think-Then-Generate: Reasoning-Aware Text-to-Image Diffusion with LLM Encoders</b> ⭐ 86</summary>
 
 <br/>
 
@@ -260,7 +260,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>12. MatchTIR: Fine-Grained Supervision for Tool-Integrated Reasoning via Bipartite Matching</b> ⭐ 9</summary>
+<summary><b>12. MatchTIR: Fine-Grained Supervision for Tool-Integrated Reasoning via Bipartite Matching</b> ⭐ 10</summary>
 
 <br/>
 
@@ -288,7 +288,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>14. A Safety Report on GPT-5.2, Gemini 3 Pro, Qwen3-VL, Doubao 1.8, Grok 4.1 Fast, Nano Banana Pro, and Seedream 4.5</b> ⭐ 20</summary>
+<summary><b>14. Molmo2: Open Weights and Data for Vision-Language Models with Video Understanding and Grounding</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** gstoica3, praeclarumjj3, tairaa, kimdon20, zhongzhengrenzhang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.10611) • [📄 arXiv](https://arxiv.org/abs/2601.10611) • [📥 PDF](https://arxiv.org/pdf/2601.10611)
+
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API VideoWeave: A Data-Centric Approach for Efficient Video Understanding (2026...
+
+</details>
+
+<details>
+<summary><b>15. A Safety Report on GPT-5.2, Gemini 3 Pro, Qwen3-VL, Doubao 1.8, Grok 4.1 Fast, Nano Banana Pro, and Seedream 4.5</b> ⭐ 21</summary>
 
 <br/>
 
@@ -303,31 +316,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>15. Molmo2: Open Weights and Data for Vision-Language Models with Video Understanding and Grounding</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** gstoica3, praeclarumjj3, tairaa, kimdon20, zhongzhengrenzhang
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.10611) • [📄 arXiv](https://arxiv.org/abs/2601.10611) • [📥 PDF](https://arxiv.org/pdf/2601.10611)
-
-> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API VideoWeave: A Data-Centric Approach for Efficient Video Understanding (2026...
-
-</details>
-
-<details>
-<summary><b>16. FlowAct-R1: Towards Interactive Humanoid Video Generation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.10103) • [📄 arXiv](https://arxiv.org/abs/2601.10103) • [📥 PDF](https://arxiv.org/pdf/2601.10103)
-
-> Project page link from the paper: https://grisoon.github.io/FlowAct-R1/
-
-</details>
-
-<details>
-<summary><b>17. Transition Matching Distillation for Fast Video Generation</b> ⭐ 0</summary>
+<summary><b>16. Transition Matching Distillation for Fast Video Generation</b> ⭐ 0</summary>
 
 <br/>
 
@@ -338,7 +327,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>18. PACEvolve: Enabling Long-Horizon Progress-Aware Consistent Evolution</b> ⭐ 0</summary>
+<summary><b>17. PACEvolve: Enabling Long-Horizon Progress-Aware Consistent Evolution</b> ⭐ 0</summary>
 
 <br/>
 
@@ -349,20 +338,18 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>19. Action100M: A Large-scale Video Action Dataset</b> ⭐ 75</summary>
+<summary><b>18. FlowAct-R1: Towards Interactive Humanoid Video Generation</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.10592) • [📄 arXiv](https://arxiv.org/abs/2601.10592) • [📥 PDF](https://arxiv.org/pdf/2601.10592)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.10103) • [📄 arXiv](https://arxiv.org/abs/2601.10103) • [📥 PDF](https://arxiv.org/pdf/2601.10103)
 
-**💻 Code:** [⭐ Code](https://github.com/facebookresearch/Action100M)
-
-> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API FoundationMotion: Auto-Labeling and Reasoning about Spatial Movement in Vid...
+> Project page link from the paper: https://grisoon.github.io/FlowAct-R1/
 
 </details>
 
 <details>
-<summary><b>20. M^4olGen: Multi-Agent, Multi-Stage Molecular Generation under Precise Multi-Property Constraints</b> ⭐ 0</summary>
+<summary><b>19. M^4olGen: Multi-Agent, Multi-Stage Molecular Generation under Precise Multi-Property Constraints</b> ⭐ 0</summary>
 
 <br/>
 
@@ -373,7 +360,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>21. HeartMuLa: A Family of Open Sourced Music Foundation Models</b> ⭐ 0</summary>
+<summary><b>20. HeartMuLa: A Family of Open Sourced Music Foundation Models</b> ⭐ 164</summary>
 
 <br/>
 
@@ -381,7 +368,22 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.10547) • [📄 arXiv](https://arxiv.org/abs/2601.10547) • [📥 PDF](https://arxiv.org/pdf/2601.10547)
 
+**💻 Code:** [⭐ Code](https://github.com/HeartMuLa/heartlib)
+
 > We present a family of open-source Music Foundation Models designed to advance large-scale music understanding and generation across diverse tasks and modalities. Our framework consists of four major components: (1) HeartCLAP, an audiotext alignm...
+
+</details>
+
+<details>
+<summary><b>21. Action100M: A Large-scale Video Action Dataset</b> ⭐ 159</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.10592) • [📄 arXiv](https://arxiv.org/abs/2601.10592) • [📥 PDF](https://arxiv.org/pdf/2601.10592)
+
+**💻 Code:** [⭐ Code](https://github.com/facebookresearch/Action100M)
+
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API FoundationMotion: Auto-Labeling and Reasoning about Spatial Movement in Vid...
 
 </details>
 
@@ -423,7 +425,18 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>25. PRL: Process Reward Learning Improves LLMs' Reasoning Ability and Broadens the Reasoning Boundary</b> ⭐ 4</summary>
+<summary><b>25. LSRIF: Logic-Structured Reinforcement Learning for Instruction Following</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.06431) • [📄 arXiv](https://arxiv.org/abs/2601.06431) • [📥 PDF](https://arxiv.org/pdf/2601.06431)
+
+> In this work, we propose LSRIF, a logic-structured training framework. We construct LSRINSTRUCT, a multi-constraint instruction dataset covering parallel, sequential, and conditional constraint logic structures, and design LSRM, structure-aware re...
+
+</details>
+
+<details>
+<summary><b>26. PRL: Process Reward Learning Improves LLMs' Reasoning Ability and Broadens the Reasoning Boundary</b> ⭐ 4</summary>
 
 <br/>
 
@@ -434,17 +447,6 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/MaxwellJryao/Process-Reward-Learning)
 
 > Abstract Improving the reasoning abilities of Large Language Models (LLMs) has been a continuous topic recently. But most relevant works are based on outcome rewards at the trajectory level, missing fine-grained supervision during the reasoning pr...
-
-</details>
-
-<details>
-<summary><b>26. LSRIF: Logic-Structured Reinforcement Learning for Instruction Following</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.06431) • [📄 arXiv](https://arxiv.org/abs/2601.06431) • [📥 PDF](https://arxiv.org/pdf/2601.06431)
-
-> In this work, we propose LSRIF, a logic-structured training framework. We construct LSRINSTRUCT, a multi-constraint instruction dataset covering parallel, sequential, and conditional constraint logic structures, and design LSRM, structure-aware re...
 
 </details>
 
@@ -464,33 +466,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>28. Patient-Similarity Cohort Reasoning in Clinical Text-to-SQL</b> ⭐ 1</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.09876) • [📄 arXiv](https://arxiv.org/abs/2601.09876) • [📥 PDF](https://arxiv.org/pdf/2601.09876)
-
-**💻 Code:** [⭐ Code](https://github.com/Barryshen1/ClinSQL)
-
-> Introducing ClinSQL, a 633-task expert-annotated benchmark on MIMIC-IV v3.1 for real-world clinical text-to-SQL.
-
-</details>
-
-<details>
-<summary><b>29. Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Ruitao Feng, Weizhe Wang, Gelei, yaozhang, sumleo
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.10338) • [📄 arXiv](https://arxiv.org/abs/2601.10338) • [📥 PDF](https://arxiv.org/pdf/2601.10338)
-
-> Really interesting and timely work—agent “skills” seem like a rapidly growing supply-chain attack surface, and it’s refreshing to see a large-scale empirical analysis rather than a purely conceptual treatment. The scale and methodology (tens of th...
-
-</details>
-
-<details>
-<summary><b>30. Deriving Character Logic from Storyline as Codified Decision Trees</b> ⭐ 0</summary>
+<summary><b>28. Deriving Character Logic from Storyline as Codified Decision Trees</b> ⭐ 0</summary>
 
 <br/>
 
@@ -503,7 +479,44 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>31. V-DPM: 4D Video Reconstruction with Dynamic Point Maps</b> ⭐ 45</summary>
+<summary><b>29. Patient-Similarity Cohort Reasoning in Clinical Text-to-SQL</b> ⭐ 1</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.09876) • [📄 arXiv](https://arxiv.org/abs/2601.09876) • [📥 PDF](https://arxiv.org/pdf/2601.09876)
+
+**💻 Code:** [⭐ Code](https://github.com/Barryshen1/ClinSQL)
+
+> Introducing ClinSQL, a 633-task expert-annotated benchmark on MIMIC-IV v3.1 for real-world clinical text-to-SQL.
+
+</details>
+
+<details>
+<summary><b>30. RigMo: Unifying Rig and Motion Learning for Generative Animation</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.06378) • [📄 arXiv](https://arxiv.org/abs/2601.06378) • [📥 PDF](https://arxiv.org/pdf/2601.06378)
+
+> 🚀 New work: RigMo — Unifying Rig & Motion Learning for Generative Animation Rigging and motion are two hard problems—usually solved separately. RigMo unifies them. A feed-forward framework that jointly learns rig structure + motion directly from r...
+
+</details>
+
+<details>
+<summary><b>31. Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Ruitao Feng, Weizhe Wang, Gelei, yaozhang, sumleo
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.10338) • [📄 arXiv](https://arxiv.org/abs/2601.10338) • [📥 PDF](https://arxiv.org/pdf/2601.10338)
+
+> Really interesting and timely work—agent “skills” seem like a rapidly growing supply-chain attack surface, and it’s refreshing to see a large-scale empirical analysis rather than a purely conceptual treatment. The scale and methodology (tens of th...
+
+</details>
+
+<details>
+<summary><b>32. V-DPM: 4D Video Reconstruction with Dynamic Point Maps</b> ⭐ 55</summary>
 
 <br/>
 
@@ -518,7 +531,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>32. CaMeLs Can Use Computers Too: System-level Security for Computer Use Agents</b> ⭐ 0</summary>
+<summary><b>33. CaMeLs Can Use Computers Too: System-level Security for Computer Use Agents</b> ⭐ 0</summary>
 
 <br/>
 
@@ -527,17 +540,6 @@ getTodaysPapers();
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.09923) • [📄 arXiv](https://arxiv.org/abs/2601.09923) • [📥 PDF](https://arxiv.org/pdf/2601.09923)
 
 > When AI agents control your mouse, a single malicious email can drain your accounts. We built the first system-level defense to sandbox these agents, and the results challenged our assumptions about AI. It turns out, digital environments are more ...
-
-</details>
-
-<details>
-<summary><b>33. RigMo: Unifying Rig and Motion Learning for Generative Animation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.06378) • [📄 arXiv](https://arxiv.org/abs/2601.06378) • [📥 PDF](https://arxiv.org/pdf/2601.06378)
-
-> 🚀 New work: RigMo — Unifying Rig & Motion Learning for Generative Animation Rigging and motion are two hard problems—usually solved separately. RigMo unifies them. A feed-forward framework that jointly learns rig structure + motion directly from r...
 
 </details>
 
@@ -617,27 +619,27 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 38 |
-| 📅 Today | [`2026-01-17.json`](data/daily/2026-01-17.json) | 38 |
-| 📆 This Week | [`2026-W02.json`](data/weekly/2026-W02.json) | 194 |
-| 🗓️ This Month | [`2026-01.json`](data/monthly/2026-01.json) | 391 |
+| 📅 Today | [`2026-01-18.json`](data/daily/2026-01-18.json) | 38 |
+| 📆 This Week | [`2026-W02.json`](data/weekly/2026-W02.json) | 232 |
+| 🗓️ This Month | [`2026-01.json`](data/monthly/2026-01.json) | 429 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-01-17 | 38 | [View JSON](data/daily/2026-01-17.json) |
+| 📌 2026-01-18 | 38 | [View JSON](data/daily/2026-01-18.json) |
+| 📄 2026-01-17 | 38 | [View JSON](data/daily/2026-01-17.json) |
 | 📄 2026-01-16 | 27 | [View JSON](data/daily/2026-01-16.json) |
 | 📄 2026-01-15 | 24 | [View JSON](data/daily/2026-01-15.json) |
 | 📄 2026-01-14 | 42 | [View JSON](data/daily/2026-01-14.json) |
 | 📄 2026-01-13 | 30 | [View JSON](data/daily/2026-01-13.json) |
 | 📄 2026-01-12 | 33 | [View JSON](data/daily/2026-01-12.json) |
-| 📄 2026-01-11 | 33 | [View JSON](data/daily/2026-01-11.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W02 | 194 | [View JSON](data/weekly/2026-W02.json) |
+| 📅 2026-W02 | 232 | [View JSON](data/weekly/2026-W02.json) |
 | 📅 2026-W01 | 156 | [View JSON](data/weekly/2026-W01.json) |
 | 📅 2026-W00 | 41 | [View JSON](data/weekly/2026-W00.json) |
 | 📅 2025-W52 | 52 | [View JSON](data/weekly/2025-W52.json) |
@@ -646,7 +648,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-01 | 391 | [View JSON](data/monthly/2026-01.json) |
+| 🗓️ 2026-01 | 429 | [View JSON](data/monthly/2026-01.json) |
 | 🗓️ 2025-12 | 787 | [View JSON](data/monthly/2025-12.json) |
 
 ---
