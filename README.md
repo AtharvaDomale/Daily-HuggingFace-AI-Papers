@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-38-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-1167+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-1205+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">38</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">232</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">429</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">1167+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">38</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">467</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">1205+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** January 18, 2026
+**Last Updated:** January 19, 2026
 
 ---
 
@@ -119,7 +119,7 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. STEP3-VL-10B Technical Report</b> ⭐ 168</summary>
+<summary><b>1. STEP3-VL-10B Technical Report</b> ⭐ 172</summary>
 
 <br/>
 
@@ -132,7 +132,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>2. Urban Socio-Semantic Segmentation with Vision-Language Reasoning</b> ⭐ 135</summary>
+<summary><b>2. Urban Socio-Semantic Segmentation with Vision-Language Reasoning</b> ⭐ 139</summary>
 
 <br/>
 
@@ -167,7 +167,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>5. VIBE: Visual Instruction Based Editor</b> ⭐ 29</summary>
+<summary><b>5. VIBE: Visual Instruction Based Editor</b> ⭐ 33</summary>
 
 <br/>
 
@@ -195,7 +195,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>7. DanQing: An Up-to-Date Large-Scale Chinese Vision-Language Pre-training Dataset</b> ⭐ 14</summary>
+<summary><b>7. Toward Ultra-Long-Horizon Agentic Science: Cognitive Accumulation for Machine Learning Engineering</b> ⭐ 340</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.10402) • [📄 arXiv](https://arxiv.org/abs/2601.10402) • [📥 PDF](https://arxiv.org/pdf/2601.10402)
+
+**💻 Code:** [⭐ Code](https://github.com/sjtu-sai-agents/ML-Master)
+
+> Toward Ultra-Long-Horizon Agentic Science: Cognitive Accumulation for Machine Learning Engineering
+
+</details>
+
+<details>
+<summary><b>8. DanQing: An Up-to-Date Large-Scale Chinese Vision-Language Pre-training Dataset</b> ⭐ 16</summary>
 
 <br/>
 
@@ -206,19 +219,6 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/deepglint/DanQing)
 
 > Vision-Language Pre-training (VLP) models demonstrate strong performance across various downstream tasks by learning from large-scale image-text pairs through contrastive pretraining. The release of extensive English image-text datasets (e.g., COY...
-
-</details>
-
-<details>
-<summary><b>8. Toward Ultra-Long-Horizon Agentic Science: Cognitive Accumulation for Machine Learning Engineering</b> ⭐ 336</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.10402) • [📄 arXiv](https://arxiv.org/abs/2601.10402) • [📥 PDF](https://arxiv.org/pdf/2601.10402)
-
-**💻 Code:** [⭐ Code](https://github.com/sjtu-sai-agents/ML-Master)
-
-> Toward Ultra-Long-Horizon Agentic Science: Cognitive Accumulation for Machine Learning Engineering
 
 </details>
 
@@ -236,7 +236,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>10. Think-Then-Generate: Reasoning-Aware Text-to-Image Diffusion with LLM Encoders</b> ⭐ 86</summary>
+<summary><b>10. Think-Then-Generate: Reasoning-Aware Text-to-Image Diffusion with LLM Encoders</b> ⭐ 123</summary>
 
 <br/>
 
@@ -249,7 +249,18 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>11. Alterbute: Editing Intrinsic Attributes of Objects in Images</b> ⭐ 0</summary>
+<summary><b>11. Transition Matching Distillation for Fast Video Generation</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.09881) • [📄 arXiv](https://arxiv.org/abs/2601.09881) • [📥 PDF](https://arxiv.org/pdf/2601.09881)
+
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API VDOT: Efficient Unified Video Creation via Optimal Transport Distillation (...
+
+</details>
+
+<details>
+<summary><b>12. Alterbute: Editing Intrinsic Attributes of Objects in Images</b> ⭐ 0</summary>
 
 <br/>
 
@@ -260,20 +271,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>12. MatchTIR: Fine-Grained Supervision for Tool-Integrated Reasoning via Bipartite Matching</b> ⭐ 10</summary>
+<summary><b>13. Molmo2: Open Weights and Data for Vision-Language Models with Video Understanding and Grounding</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.10712) • [📄 arXiv](https://arxiv.org/abs/2601.10712) • [📥 PDF](https://arxiv.org/pdf/2601.10712)
+**👥 Authors:** gstoica3, praeclarumjj3, tairaa, kimdon20, zhongzhengrenzhang
 
-**💻 Code:** [⭐ Code](https://github.com/quchangle1/MatchTIR)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.10611) • [📄 arXiv](https://arxiv.org/abs/2601.10611) • [📥 PDF](https://arxiv.org/pdf/2601.10611)
 
-> 💡 Overview We propose MatchTIR, a fine-grained reinforcement learning framework specifically designed for Tool-Integrated Reasoning (TIR). The core principle of MatchTIR is to introduce precise supervision via bipartite matching-based turn-level r...
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API VideoWeave: A Data-Centric Approach for Efficient Video Understanding (2026...
 
 </details>
 
 <details>
-<summary><b>13. ToolSafe: Enhancing Tool Invocation Safety of LLM-based agents via Proactive Step-level Guardrail and Feedback</b> ⭐ 0</summary>
+<summary><b>14. ToolSafe: Enhancing Tool Invocation Safety of LLM-based agents via Proactive Step-level Guardrail and Feedback</b> ⭐ 0</summary>
 
 <br/>
 
@@ -288,20 +299,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>14. Molmo2: Open Weights and Data for Vision-Language Models with Video Understanding and Grounding</b> ⭐ 0</summary>
+<summary><b>15. MatchTIR: Fine-Grained Supervision for Tool-Integrated Reasoning via Bipartite Matching</b> ⭐ 11</summary>
 
 <br/>
 
-**👥 Authors:** gstoica3, praeclarumjj3, tairaa, kimdon20, zhongzhengrenzhang
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.10712) • [📄 arXiv](https://arxiv.org/abs/2601.10712) • [📥 PDF](https://arxiv.org/pdf/2601.10712)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.10611) • [📄 arXiv](https://arxiv.org/abs/2601.10611) • [📥 PDF](https://arxiv.org/pdf/2601.10611)
+**💻 Code:** [⭐ Code](https://github.com/quchangle1/MatchTIR)
 
-> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API VideoWeave: A Data-Centric Approach for Efficient Video Understanding (2026...
+> 💡 Overview We propose MatchTIR, a fine-grained reinforcement learning framework specifically designed for Tool-Integrated Reasoning (TIR). The core principle of MatchTIR is to introduce precise supervision via bipartite matching-based turn-level r...
 
 </details>
 
 <details>
-<summary><b>15. A Safety Report on GPT-5.2, Gemini 3 Pro, Qwen3-VL, Doubao 1.8, Grok 4.1 Fast, Nano Banana Pro, and Seedream 4.5</b> ⭐ 21</summary>
+<summary><b>16. A Safety Report on GPT-5.2, Gemini 3 Pro, Qwen3-VL, Doubao 1.8, Grok 4.1 Fast, Nano Banana Pro, and Seedream 4.5</b> ⭐ 22</summary>
 
 <br/>
 
@@ -312,17 +323,6 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/XSafeAI/AI-safety-report)
 
 > The rapid evolution of Large Language Models (LLMs) and Multimodal Large Language Models (MLLMs) has produced substantial gains in reasoning, perception, and generative capability across language and vision. However, whether these advances yield c...
-
-</details>
-
-<details>
-<summary><b>16. Transition Matching Distillation for Fast Video Generation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.09881) • [📄 arXiv](https://arxiv.org/abs/2601.09881) • [📥 PDF](https://arxiv.org/pdf/2601.09881)
-
-> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API VDOT: Efficient Unified Video Creation via Optimal Transport Distillation (...
 
 </details>
 
@@ -338,29 +338,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>18. FlowAct-R1: Towards Interactive Humanoid Video Generation</b> ⭐ 0</summary>
+<summary><b>18. Action100M: A Large-scale Video Action Dataset</b> ⭐ 198</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.10103) • [📄 arXiv](https://arxiv.org/abs/2601.10103) • [📥 PDF](https://arxiv.org/pdf/2601.10103)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.10592) • [📄 arXiv](https://arxiv.org/abs/2601.10592) • [📥 PDF](https://arxiv.org/pdf/2601.10592)
 
-> Project page link from the paper: https://grisoon.github.io/FlowAct-R1/
+**💻 Code:** [⭐ Code](https://github.com/facebookresearch/Action100M)
+
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API FoundationMotion: Auto-Labeling and Reasoning about Spatial Movement in Vid...
 
 </details>
 
 <details>
-<summary><b>19. M^4olGen: Multi-Agent, Multi-Stage Molecular Generation under Precise Multi-Property Constraints</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.10131) • [📄 arXiv](https://arxiv.org/abs/2601.10131) • [📥 PDF](https://arxiv.org/pdf/2601.10131)
-
-> Generating molecules that satisfy precise numeric constraints over multiple physicochemical properties is critical and challenging. Although large language models (LLMs) are expressive, they struggle with precise multiobjective control and numeric...
-
-</details>
-
-<details>
-<summary><b>20. HeartMuLa: A Family of Open Sourced Music Foundation Models</b> ⭐ 164</summary>
+<summary><b>19. HeartMuLa: A Family of Open Sourced Music Foundation Models</b> ⭐ 358</summary>
 
 <br/>
 
@@ -375,15 +366,24 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>21. Action100M: A Large-scale Video Action Dataset</b> ⭐ 159</summary>
+<summary><b>20. FlowAct-R1: Towards Interactive Humanoid Video Generation</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.10592) • [📄 arXiv](https://arxiv.org/abs/2601.10592) • [📥 PDF](https://arxiv.org/pdf/2601.10592)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.10103) • [📄 arXiv](https://arxiv.org/abs/2601.10103) • [📥 PDF](https://arxiv.org/pdf/2601.10103)
 
-**💻 Code:** [⭐ Code](https://github.com/facebookresearch/Action100M)
+> Project page link from the paper: https://grisoon.github.io/FlowAct-R1/
 
-> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API FoundationMotion: Auto-Labeling and Reasoning about Spatial Movement in Vid...
+</details>
+
+<details>
+<summary><b>21. M^4olGen: Multi-Agent, Multi-Stage Molecular Generation under Precise Multi-Property Constraints</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.10131) • [📄 arXiv](https://arxiv.org/abs/2601.10131) • [📥 PDF](https://arxiv.org/pdf/2601.10131)
+
+> Generating molecules that satisfy precise numeric constraints over multiple physicochemical properties is critical and challenging. Although large language models (LLMs) are expressive, they struggle with precise multiobjective control and numeric...
 
 </details>
 
@@ -399,20 +399,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>23. EvasionBench: Detecting Evasive Answers in Financial Q&A via Multi-Model Consensus and LLM-as-Judge</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Yi Yang, Yan Lin, FutureMa
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.09142) • [📄 arXiv](https://arxiv.org/abs/2601.09142) • [📥 PDF](https://arxiv.org/pdf/2601.09142)
-
-> Thanks for featuring our work! 🚀 EvasionBench aims to bridge the gap in financial transparency. We've released the Eva-4B model and the 1k human-annotated test set. 📝 Paper: https://arxiv.org/abs/2601.09142 🤗 Model: https://huggingface.co/FutureMa...
-
-</details>
-
-<details>
-<summary><b>24. TAG-MoE: Task-Aware Gating for Unified Generative Mixture-of-Experts</b> ⭐ 0</summary>
+<summary><b>23. TAG-MoE: Task-Aware Gating for Unified Generative Mixture-of-Experts</b> ⭐ 0</summary>
 
 <br/>
 
@@ -421,6 +408,19 @@ getTodaysPapers();
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.08881) • [📄 arXiv](https://arxiv.org/abs/2601.08881) • [📥 PDF](https://arxiv.org/pdf/2601.08881)
 
 > This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API InstructMoLE: Instruction-Guided Mixture of Low-rank Experts for Multi-Cond...
+
+</details>
+
+<details>
+<summary><b>24. EvasionBench: Detecting Evasive Answers in Financial Q&A via Multi-Model Consensus and LLM-as-Judge</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Yi Yang, Yan Lin, FutureMa
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.09142) • [📄 arXiv](https://arxiv.org/abs/2601.09142) • [📥 PDF](https://arxiv.org/pdf/2601.09142)
+
+> Thanks for featuring our work! 🚀 EvasionBench aims to bridge the gap in financial transparency. We've released the Eva-4B model and the 1k human-annotated test set. 📝 Paper: https://arxiv.org/abs/2601.09142 🤗 Model: https://huggingface.co/FutureMa...
 
 </details>
 
@@ -436,7 +436,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>26. PRL: Process Reward Learning Improves LLMs' Reasoning Ability and Broadens the Reasoning Boundary</b> ⭐ 4</summary>
+<summary><b>26. PRL: Process Reward Learning Improves LLMs' Reasoning Ability and Broadens the Reasoning Boundary</b> ⭐ 5</summary>
 
 <br/>
 
@@ -466,7 +466,33 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>28. Deriving Character Logic from Storyline as Codified Decision Trees</b> ⭐ 0</summary>
+<summary><b>28. V-DPM: 4D Video Reconstruction with Dynamic Point Maps</b> ⭐ 68</summary>
+
+<br/>
+
+**👥 Authors:** vedaldi, zlai, einsafutdinov, edgarsucar
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.09499) • [📄 arXiv](https://arxiv.org/abs/2601.09499) • [📥 PDF](https://arxiv.org/pdf/2601.09499)
+
+**💻 Code:** [⭐ Code](https://github.com/eldar/vdpm)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>29. RigMo: Unifying Rig and Motion Learning for Generative Animation</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.06378) • [📄 arXiv](https://arxiv.org/abs/2601.06378) • [📥 PDF](https://arxiv.org/pdf/2601.06378)
+
+> 🚀 New work: RigMo — Unifying Rig & Motion Learning for Generative Animation Rigging and motion are two hard problems—usually solved separately. RigMo unifies them. A feed-forward framework that jointly learns rig structure + motion directly from r...
+
+</details>
+
+<details>
+<summary><b>30. Deriving Character Logic from Storyline as Codified Decision Trees</b> ⭐ 0</summary>
 
 <br/>
 
@@ -475,30 +501,6 @@ getTodaysPapers();
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.10080) • [📄 arXiv](https://arxiv.org/abs/2601.10080) • [📥 PDF](https://arxiv.org/pdf/2601.10080)
 
 > Deriving Character Logic from Storyline as Codified Decision Trees
-
-</details>
-
-<details>
-<summary><b>29. Patient-Similarity Cohort Reasoning in Clinical Text-to-SQL</b> ⭐ 1</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.09876) • [📄 arXiv](https://arxiv.org/abs/2601.09876) • [📥 PDF](https://arxiv.org/pdf/2601.09876)
-
-**💻 Code:** [⭐ Code](https://github.com/Barryshen1/ClinSQL)
-
-> Introducing ClinSQL, a 633-task expert-annotated benchmark on MIMIC-IV v3.1 for real-world clinical text-to-SQL.
-
-</details>
-
-<details>
-<summary><b>30. RigMo: Unifying Rig and Motion Learning for Generative Animation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.06378) • [📄 arXiv](https://arxiv.org/abs/2601.06378) • [📥 PDF](https://arxiv.org/pdf/2601.06378)
-
-> 🚀 New work: RigMo — Unifying Rig & Motion Learning for Generative Animation Rigging and motion are two hard problems—usually solved separately. RigMo unifies them. A feed-forward framework that jointly learns rig structure + motion directly from r...
 
 </details>
 
@@ -516,30 +518,28 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>32. V-DPM: 4D Video Reconstruction with Dynamic Point Maps</b> ⭐ 55</summary>
+<summary><b>32. Patient-Similarity Cohort Reasoning in Clinical Text-to-SQL</b> ⭐ 1</summary>
 
 <br/>
 
-**👥 Authors:** vedaldi, zlai, einsafutdinov, edgarsucar
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.09876) • [📄 arXiv](https://arxiv.org/abs/2601.09876) • [📥 PDF](https://arxiv.org/pdf/2601.09876)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.09499) • [📄 arXiv](https://arxiv.org/abs/2601.09499) • [📥 PDF](https://arxiv.org/pdf/2601.09499)
+**💻 Code:** [⭐ Code](https://github.com/Barryshen1/ClinSQL)
 
-**💻 Code:** [⭐ Code](https://github.com/eldar/vdpm)
-
-> No abstract available.
+> Introducing ClinSQL, a 633-task expert-annotated benchmark on MIMIC-IV v3.1 for real-world clinical text-to-SQL.
 
 </details>
 
 <details>
-<summary><b>33. CaMeLs Can Use Computers Too: System-level Security for Computer Use Agents</b> ⭐ 0</summary>
+<summary><b>33. Enhancing Sentiment Classification and Irony Detection in Large Language Models through Advanced Prompt Engineering Techniques</b> ⭐ 1</summary>
 
 <br/>
 
-**👥 Authors:** ftramer, nkristina, tom-bl, rcmullins, aprilflower
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.08302) • [📄 arXiv](https://arxiv.org/abs/2601.08302) • [📥 PDF](https://arxiv.org/pdf/2601.08302)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.09923) • [📄 arXiv](https://arxiv.org/abs/2601.09923) • [📥 PDF](https://arxiv.org/pdf/2601.09923)
+**💻 Code:** [⭐ Code](https://github.com/Marvin2108/ESCID-LLM-APET)
 
-> When AI agents control your mouse, a single malicious email can drain your accounts. We built the first system-level defense to sandbox these agents, and the results challenged our assumptions about AI. It turns out, digital environments are more ...
+> Enhancing Sentiment Classification and Irony Detection in Large Language Models through Advanced Prompt Engineering Techniques
 
 </details>
 
@@ -570,15 +570,15 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>36. Enhancing Sentiment Classification and Irony Detection in Large Language Models through Advanced Prompt Engineering Techniques</b> ⭐ 0</summary>
+<summary><b>36. CaMeLs Can Use Computers Too: System-level Security for Computer Use Agents</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.08302) • [📄 arXiv](https://arxiv.org/abs/2601.08302) • [📥 PDF](https://arxiv.org/pdf/2601.08302)
+**👥 Authors:** ftramer, nkristina, tom-bl, rcmullins, aprilflower
 
-**💻 Code:** [⭐ Code](https://github.com/Marvin2108/ESCID-LLM-APET)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.09923) • [📄 arXiv](https://arxiv.org/abs/2601.09923) • [📥 PDF](https://arxiv.org/pdf/2601.09923)
 
-> Enhancing Sentiment Classification and Irony Detection in Large Language Models through Advanced Prompt Engineering Techniques
+> When AI agents control your mouse, a single malicious email can drain your accounts. We built the first system-level defense to sandbox these agents, and the results challenged our assumptions about AI. It turns out, digital environments are more ...
 
 </details>
 
@@ -596,7 +596,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>38. Memory Bank Compression for Continual Adaptation of Large Language Models</b> ⭐ 20</summary>
+<summary><b>38. Memory Bank Compression for Continual Adaptation of Large Language Models</b> ⭐ 21</summary>
 
 <br/>
 
@@ -619,36 +619,36 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 38 |
-| 📅 Today | [`2026-01-18.json`](data/daily/2026-01-18.json) | 38 |
-| 📆 This Week | [`2026-W02.json`](data/weekly/2026-W02.json) | 232 |
-| 🗓️ This Month | [`2026-01.json`](data/monthly/2026-01.json) | 429 |
+| 📅 Today | [`2026-01-19.json`](data/daily/2026-01-19.json) | 38 |
+| 📆 This Week | [`2026-W03.json`](data/weekly/2026-W03.json) | 38 |
+| 🗓️ This Month | [`2026-01.json`](data/monthly/2026-01.json) | 467 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-01-18 | 38 | [View JSON](data/daily/2026-01-18.json) |
+| 📌 2026-01-19 | 38 | [View JSON](data/daily/2026-01-19.json) |
+| 📄 2026-01-18 | 38 | [View JSON](data/daily/2026-01-18.json) |
 | 📄 2026-01-17 | 38 | [View JSON](data/daily/2026-01-17.json) |
 | 📄 2026-01-16 | 27 | [View JSON](data/daily/2026-01-16.json) |
 | 📄 2026-01-15 | 24 | [View JSON](data/daily/2026-01-15.json) |
 | 📄 2026-01-14 | 42 | [View JSON](data/daily/2026-01-14.json) |
 | 📄 2026-01-13 | 30 | [View JSON](data/daily/2026-01-13.json) |
-| 📄 2026-01-12 | 33 | [View JSON](data/daily/2026-01-12.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
+| 📅 2026-W03 | 38 | [View JSON](data/weekly/2026-W03.json) |
 | 📅 2026-W02 | 232 | [View JSON](data/weekly/2026-W02.json) |
 | 📅 2026-W01 | 156 | [View JSON](data/weekly/2026-W01.json) |
 | 📅 2026-W00 | 41 | [View JSON](data/weekly/2026-W00.json) |
-| 📅 2025-W52 | 52 | [View JSON](data/weekly/2025-W52.json) |
 
 ### 🗂️ Monthly Archives
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-01 | 429 | [View JSON](data/monthly/2026-01.json) |
+| 🗓️ 2026-01 | 467 | [View JSON](data/monthly/2026-01.json) |
 | 🗓️ 2025-12 | 787 | [View JSON](data/monthly/2025-12.json) |
 
 ---
