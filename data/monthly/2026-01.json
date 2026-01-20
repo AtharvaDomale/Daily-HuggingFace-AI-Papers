@@ -9561,5 +9561,464 @@
       "scraped_at": "2026-01-19T01:57:50.101478"
     },
     "scraped_date": "2026-01-19"
+  },
+  {
+    "title": "Your Group-Relative Advantage Is Biased",
+    "paper_url": "https://huggingface.co/papers/2601.08521",
+    "authors": [
+      "Xiaohan Wang",
+      "Yikunb",
+      "PandaChai",
+      "chenzherui007",
+      "ShortCatisLong"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Your Group-Relative Advantage Is Biased",
+      "abstract": "This paper fundamentally shows that: \"The commonly used group-relative advantage estimator is inherently biased except at p_t = 0.5: it systematically underestimates true advantage on hard prompts and overestimates true advantag on easy prompts\". This bias is not just random—it becomes deterministic in extreme difficulty regimes, meaning the estimator must underestimate for very hard prompts and must overestimate for very easy prompts. This analysis highlights this as a core limitation in group-relative methods and motivates corrections that better align estimated and true advantage.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.08521",
+      "pdf_url": "https://arxiv.org/pdf/2601.08521",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.08521",
+      "scraped_at": "2026-01-20T01:51:45.604021"
+    },
+    "scraped_date": "2026-01-20"
+  },
+  {
+    "title": "The Poisoned Apple Effect: Strategic Manipulation of Mediated Markets via Technology Expansion of AI Agents",
+    "paper_url": "https://huggingface.co/papers/2601.11496",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "The Poisoned Apple Effect: Strategic Manipulation of Mediated Markets via Technology Expansion of AI Agents",
+      "abstract": "Imagine a company introducing a shiny new technology 🍎. Not to use it, but to force a regulator to rewrite the rules. Once the rules change? The apple is discarded. The technology is never used. But the strategic shift is complete: the manipulator secures a higher payoff, while other players are left worse off. In our new paper, \"The Poisoned Apple Effect\", we identify a strategic vulnerability in AI-mediated markets. We show how agents can expand the technological space purely to manipulate the mediator's design. The result? The manipulator profits from the new rules, while competitors (and social welfare) pay the price.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.11496",
+      "pdf_url": "https://arxiv.org/pdf/2601.11496",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.11496",
+      "scraped_at": "2026-01-20T01:51:47.504722"
+    },
+    "scraped_date": "2026-01-20"
+  },
+  {
+    "title": "Unlocking Implicit Experience: Synthesizing Tool-Use Trajectories from Text",
+    "paper_url": "https://huggingface.co/papers/2601.10355",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Unlocking Implicit Experience: Synthesizing Tool-Use Trajectories from Text",
+      "abstract": "We propose a novel \"Text to Trajectory\" paradigm to address the scarcity of multi-turn tool usage trajectory data needed to train agents. Traditional methods rely on predefined API sets to synthesize data, but this approach is limited by the scope of tools and is costly. We observe that text corpora naturally contain rich multi-step problem-solving experiences, which can be extracted and transformed into realistic, scalable, and high-quality multi-turn tool usage data. Based on this insight, we develop a pipeline called GEM to enable automatic generation and extraction of multi-turn tool-use trajectory to validate this paradigm.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10355",
+      "pdf_url": "https://arxiv.org/pdf/2601.10355",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10355",
+      "scraped_at": "2026-01-20T01:51:49.467451"
+    },
+    "scraped_date": "2026-01-20"
+  },
+  {
+    "title": "RubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse-to-Fine Generation",
+    "paper_url": "https://huggingface.co/papers/2601.08430",
+    "authors": [
+      "Jiale Zhao",
+      "Sunzhu Li",
+      "kaikezhang",
+      "liushunyu",
+      "renhuimin"
+    ],
+    "stars": "25",
+    "details": {
+      "title": "RubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse-to-Fine Generation",
+      "abstract": "We introduce RubricHub, a large-scale (~110k) and multi-domain rubric dataset constructed via an automated Coarse-to-Fine Rubric Generation framework. By synergizing principle-guided synthesis, multi-model aggregation, and difficulty evolution, our approach produces highly discriminative criteria capable of capturing subtle nuances in model responses. dataset: https://huggingface.co/datasets/sojuL/RubricHub_v1 github: https://github.com/teqkilla/RubricHub arxiv: https://arxiv.org/abs/2601.08430 alphaXiv: https://www.alphaxiv.org/zh/overview/2601.08430v1 Training  code is coming soon!",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.08430",
+      "pdf_url": "https://arxiv.org/pdf/2601.08430",
+      "github_links": [
+        "https://github.com/teqkilla/RubricHub"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.08430",
+      "scraped_at": "2026-01-20T01:51:51.409998"
+    },
+    "scraped_date": "2026-01-20"
+  },
+  {
+    "title": "When Personalization Misleads: Understanding and Mitigating Hallucinations in Personalized LLMs",
+    "paper_url": "https://huggingface.co/papers/2601.11000",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "When Personalization Misleads: Understanding and Mitigating Hallucinations in Personalized LLMs",
+      "abstract": "💡 Overview Personalization is increasingly adopted in modern LLM systems, but we find it can systematically distort factual reasoning. We identify personalization-induced hallucinations, where models generate answers aligned with user history rather than objective truth. To mitigate this, we also propose Factuality-Preserving Personalized Steering (FPPS), a lightweight inference-time approach that detects harmful personalization and adaptively steers internal representations to recover factual correctness while keeping useful personalization. 🔥Key Insights Problem discovery: We provide the first systematic study of personalization-induced hallucinations and show risks to factual reliability, downstream knowledge acquisition, and long-term user trust. Mitigation method: We propose FPPS, a lightweight inference-time framework that selectively restores factuality under personalization. Evaluation dataset: We develop PFQABench to jointly evaluate factual QA and personalized QA under aligned user sessions, enabling controlled assessment of factuality failures and mitigation. Results: Extensive experiments across multiple LLM backbones and personalization methods show FPPS substantially improves factual accuracy without sacrificing personalization performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.11000",
+      "pdf_url": "https://arxiv.org/pdf/2601.11000",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.11000",
+      "scraped_at": "2026-01-20T01:51:53.340876"
+    },
+    "scraped_date": "2026-01-20"
+  },
+  {
+    "title": "ACoT-VLA: Action Chain-of-Thought for Vision-Language-Action Models",
+    "paper_url": "https://huggingface.co/papers/2601.11404",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ACoT-VLA: Action Chain-of-Thought for Vision-Language-Action Models",
+      "abstract": "abs: Vision-Language-Action (VLA) models have emerged as essential generalist robot policies for diverse manipulation tasks, conventionally relying on directly translating multimodal inputs into actions via Vision-Language Model (VLM) embeddings. Recent advancements have introduced explicit intermediary reasoning, such as sub-task prediction (language) or goal image synthesis (vision), to guide action generation. However, these intermediate reasoning are often indirect and inherently limited in their capacity to convey the full, granular information required for precise action execution. Instead, we posit that the most effective form of reasoning is one that deliberates directly in the action space. We introduce Action Chain-of-Thought (ACoT), a paradigm where the reasoning process itself is formulated as a structured sequence of coarse action intents that guide the final policy. In this paper, we propose ACoT-VLA, a novel architecture that materializes the ACoT paradigm. Specifically, we introduce two complementary components: an Explicit Action Reasoner (EAR) and Implicit Action Reasoner (IAR). The former proposes coarse reference trajectories as explicit action-level reasoning steps, while the latter extracts latent action priors from internal representations of multimodal input, co-forming an ACoT that conditions the downstream action head to enable grounded policy learning. Extensive experiments in real-world and simulation environments demonstrate the superiority of our proposed method, which achieves 98.5%, 84.1%, and 47.4% on LIBERO, LIBERO-Plus and VLABench, respectively.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.11404",
+      "pdf_url": "https://arxiv.org/pdf/2601.11404",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.11404",
+      "scraped_at": "2026-01-20T01:51:55.298099"
+    },
+    "scraped_date": "2026-01-20"
+  },
+  {
+    "title": "BAPO: Boundary-Aware Policy Optimization for Reliable Agentic Search",
+    "paper_url": "https://huggingface.co/papers/2601.11037",
+    "authors": [
+      "Yunbo Tang",
+      "bitwjg",
+      "Elliott",
+      "yongjing",
+      "ShiyuLiu"
+    ],
+    "stars": "16",
+    "details": {
+      "title": "BAPO: Boundary-Aware Policy Optimization for Reliable Agentic Search",
+      "abstract": "Boundary-Aware Policy Optimization（BAPO） is a novel reinforcement learning-based framework for training reliable agentic search models. Beyond correctness rewards, BAPO incorporates boundary-aware rewards to encourage appropriate \"I Don't Know\" (IDK) responses. To tackle the tradeoff between exploration and exploitation during RL training, we introduce an adaptive reward modulator to prevent the model from being over-encouraged to admit ignorance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.11037",
+      "pdf_url": "https://arxiv.org/pdf/2601.11037",
+      "github_links": [
+        "https://github.com/Liushiyu-0709/BAPO-Reliable-Search"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.11037",
+      "scraped_at": "2026-01-20T01:51:57.225931"
+    },
+    "scraped_date": "2026-01-20"
+  },
+  {
+    "title": "FrankenMotion: Part-level Human Motion Generation and Composition",
+    "paper_url": "https://huggingface.co/papers/2601.10909",
+    "authors": [
+      "Gerard Pons-Moll",
+      "andreas-geiger",
+      "Yongcao",
+      "xianghuix",
+      "coralli"
+    ],
+    "stars": "37",
+    "details": {
+      "title": "FrankenMotion: Part-level Human Motion Generation and Composition",
+      "abstract": "TL;DR: We introduce the first framework for atomic, part-level motion control, powered by our new hierarchical Frankenstein dataset (39h) constructed via LLMs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10909",
+      "pdf_url": "https://arxiv.org/pdf/2601.10909",
+      "github_links": [
+        "https://github.com/Coral79/FrankenMotion-Code"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10909",
+      "scraped_at": "2026-01-20T01:51:59.256617"
+    },
+    "scraped_date": "2026-01-20"
+  },
+  {
+    "title": "Entropy Sentinel: Continuous LLM Accuracy Monitoring from Decoding Entropy Traces in STEM",
+    "paper_url": "https://huggingface.co/papers/2601.09001",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Entropy Sentinel: Continuous LLM Accuracy Monitoring from Decoding Entropy Traces in STEM",
+      "abstract": "A first exploration of a lightweight, inference-time method for monitoring LLM accuracy under domain drift using output-entropy traces derived from next-token probabilities. This approach demonstrates promising results for slice-level accuracy estimation across STEM reasoning benchmarks, suggesting that entropy-based signals could serve as a practical tool for real-time model monitoring in production. It offers potential utility for both continuous performance tracking and prioritizing data acquisition in dynamic environments.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.09001",
+      "pdf_url": "https://arxiv.org/pdf/2601.09001",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.09001",
+      "scraped_at": "2026-01-20T01:52:01.228592"
+    },
+    "scraped_date": "2026-01-20"
+  },
+  {
+    "title": "ProFit: Leveraging High-Value Signals in SFT via Probability-Guided Token Selection",
+    "paper_url": "https://huggingface.co/papers/2601.09195",
+    "authors": [],
+    "stars": "18",
+    "details": {
+      "title": "ProFit: Leveraging High-Value Signals in SFT via Probability-Guided Token Selection",
+      "abstract": "Supervised fine-tuning (SFT) is a fundamental post-training strategy to align Large Language Models (LLMs) with human intent. However, traditional SFT often ignores the one-to-many nature of language by forcing alignment with a single reference answer, leading to the model overfitting to non-core expressions. Although our empirical analysis suggests that introducing multiple reference answers can mitigate this issue, the prohibitive data and computational costs necessitate a strategic shift: prioritizing the mitigation of single-reference overfitting over the costly pursuit of answer diversity. To achieve this, we reveal the intrinsic connection between token probability and semantic importance: high-probability tokens carry the core logical framework, while low-probability tokens are mostly replaceable expressions. Based on this insight, we propose ProFit, which selectively masks low-probability tokens to prevent surface-level overfitting. Extensive experiments confirm that ProFit consistently outperforms traditional SFT baselines on general reasoning and mathematical benchmarks. Codes are available at https://github.com/Utaotao/ProFit",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.09195",
+      "pdf_url": "https://arxiv.org/pdf/2601.09195",
+      "github_links": [
+        "https://github.com/Utaotao/ProFit"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.09195",
+      "scraped_at": "2026-01-20T01:52:03.229359"
+    },
+    "scraped_date": "2026-01-20"
+  },
+  {
+    "title": "Future Optical Flow Prediction Improves Robot Control & Video Generation",
+    "paper_url": "https://huggingface.co/papers/2601.10781",
+    "authors": [],
+    "stars": "12",
+    "details": {
+      "title": "Future Optical Flow Prediction Improves Robot Control & Video Generation",
+      "abstract": "We introduce FOFPred, a language-driven future optical flow prediction framework that enables improved robot control and video generation. Instead of reacting to motion, FOFPred predicts how motion will evolve, conditioned on natural language. 🌐 Project: fofpred.github.io 📄 Paper: arxiv.org/abs/2601.10781 💻 Code: github.com/SalesforceAIResearch/FOFPred 🤗 Model: huggingface.co/Salesforce/FOFPred 🕹️ Demo: fofpred.salesforceresearch.ai",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10781",
+      "pdf_url": "https://arxiv.org/pdf/2601.10781",
+      "github_links": [
+        "https://github.com/SalesforceAIResearch/FOFPred"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10781",
+      "scraped_at": "2026-01-20T01:52:05.129097"
+    },
+    "scraped_date": "2026-01-20"
+  },
+  {
+    "title": "ShapeR: Robust Conditional 3D Shape Generation from Casual Captures",
+    "paper_url": "https://huggingface.co/papers/2601.11514",
+    "authors": [],
+    "stars": "175",
+    "details": {
+      "title": "ShapeR: Robust Conditional 3D Shape Generation from Casual Captures",
+      "abstract": "Project Page | Paper | Video | HF-Model | HF Evaluation Dataset",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.11514",
+      "pdf_url": "https://arxiv.org/pdf/2601.11514",
+      "github_links": [
+        "https://github.com/facebookresearch/ShapeR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.11514",
+      "scraped_at": "2026-01-20T01:52:07.039726"
+    },
+    "scraped_date": "2026-01-20"
+  },
+  {
+    "title": "Reasoning Models Generate Societies of Thought",
+    "paper_url": "https://huggingface.co/papers/2601.10825",
+    "authors": [
+      "James Evans",
+      "Blaise Agüera y Arcas",
+      "ninoscherrer",
+      "ShiYangLAI",
+      "junsol"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Reasoning Models Generate Societies of Thought",
+      "abstract": "Reasoning models gain accuracy via internal multi-agent-like debates among diverse perspectives, enabling broader exploration of solutions and improved reasoning than single-agent baselines.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10825",
+      "pdf_url": "https://arxiv.org/pdf/2601.10825",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10825",
+      "scraped_at": "2026-01-20T01:52:08.924713"
+    },
+    "scraped_date": "2026-01-20"
+  },
+  {
+    "title": "PhysRVG: Physics-Aware Unified Reinforcement Learning for Video Generative Models",
+    "paper_url": "https://huggingface.co/papers/2601.11087",
+    "authors": [
+      "Zheng Zhang",
+      "Qiyuan Zhang",
+      "shen12313",
+      "Shuaishuai0219",
+      "BiaoGong"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "PhysRVG: Physics-Aware Unified Reinforcement Learning for Video Generative Models",
+      "abstract": "PhysRVG: Physics-Aware Unified Reinforcement Learning for Video Generative Models",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.11087",
+      "pdf_url": "https://arxiv.org/pdf/2601.11087",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.11087",
+      "scraped_at": "2026-01-20T01:52:10.837296"
+    },
+    "scraped_date": "2026-01-20"
+  },
+  {
+    "title": "PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records",
+    "paper_url": "https://huggingface.co/papers/2601.09636",
+    "authors": [
+      "Liqiang Nie",
+      "Weili Guan",
+      "Rui Shao",
+      "cgwfeel",
+      "user0102"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records",
+      "abstract": "good",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.09636",
+      "pdf_url": "https://arxiv.org/pdf/2601.09636",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.09636",
+      "scraped_at": "2026-01-20T01:52:12.769316"
+    },
+    "scraped_date": "2026-01-20"
+  },
+  {
+    "title": "Building Production-Ready Probes For Gemini",
+    "paper_url": "https://huggingface.co/papers/2601.11516",
+    "authors": [
+      "Rohin Shah",
+      "Zheng Wang",
+      "Joshua Engels",
+      "bilalchughtai",
+      "jkramar"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Building Production-Ready Probes For Gemini",
+      "abstract": "Proposes long-context robust probes for Gemini misuse mitigation, showing architecture and diverse-training distribution requirements for generalization, and demonstrates efficient pairing with prompted classifiers and automated probe architecture search.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.11516",
+      "pdf_url": "https://arxiv.org/pdf/2601.11516",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.11516",
+      "scraped_at": "2026-01-20T01:52:14.665843"
+    },
+    "scraped_date": "2026-01-20"
+  },
+  {
+    "title": "AgencyBench: Benchmarking the Frontiers of Autonomous Agents in 1M-Token Real-World Contexts",
+    "paper_url": "https://huggingface.co/papers/2601.11044",
+    "authors": [],
+    "stars": "19",
+    "details": {
+      "title": "AgencyBench: Benchmarking the Frontiers of Autonomous Agents in 1M-Token Real-World Contexts",
+      "abstract": "Some of the observations founded are :- i. Long-horizon tasks remain challenging : Even frontier models struggle with sustained reasoning over real world tasks that require 1M tokens and 90 tool calls, indicating limits in long context autonomy. ii. Proprietary models outperform open source models: Closed source models achieve a higher average score (48.4%) than open source counterparts (32.1%), revealing a persistent performance gap on complex agentic tasks. iii. Feedback driven self correction varies widely: Models like GPT 5.2 and Claude show strong gains from iterative feedback, while others (e.g., DeepSeek-V3.2) exhibit minimal or no improvement after feedback. iv. Efficiency trade offs are significant: High performing models often consume far more tokens and time, some models (e.g. Grok-4.1 Fast) are more token efficient despite lower absolute scores. v. Agentic scaffolds strongly influence performance: Models tend to perform best within their native or optimized ecosystems, highlighting that agent performance depends on tight coupling between the model and its scaffold not the model alone.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.11044",
+      "pdf_url": "https://arxiv.org/pdf/2601.11044",
+      "github_links": [
+        "https://github.com/GAIR-NLP/AgencyBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.11044",
+      "scraped_at": "2026-01-20T01:52:16.689123"
+    },
+    "scraped_date": "2026-01-20"
+  },
+  {
+    "title": "More Images, More Problems? A Controlled Analysis of VLM Failure Modes",
+    "paper_url": "https://huggingface.co/papers/2601.07812",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "More Images, More Problems? A Controlled Analysis of VLM Failure Modes",
+      "abstract": "Large Vision Language Models (LVLMs) have demonstrated remarkable capabilities, yet their proficiency in understanding and reasoning over multiple images remains largely unexplored. While existing benchmarks have initiated the evaluation of multi-image models, a comprehensive analysis of their core weaknesses and their causes is still lacking. In this work, we introduce MIMIC (Multi-Image Model Insights and Challenges), a new benchmark designed to rigorously evaluate the multi-image capabilities of LVLMs. Using MIMIC, we conduct a series of diagnostic experiments that reveal pervasive issues: LVLMs often fail to aggregate information across images and struggle to track or attend to multiple concepts simultaneously. To address these failures, we propose two novel complementary remedies. On the data side, we present a procedural data-generation strategy that composes single-image annotations into rich, targeted multi-image training examples. On the optimization side, we analyze layer-wise attention patterns and derive an attention-masking scheme tailored for multi-image inputs. Experiments substantially improved cross-image aggregation, while also enhancing performance on existing multi-image benchmarks, outperforming prior state of the art across tasks. Data and code will be made available at https://github.com/anurag-198/MIMIC .",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.07812",
+      "pdf_url": "https://arxiv.org/pdf/2601.07812",
+      "github_links": [
+        "https://github.com/anurag-198/MIMIC"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.07812",
+      "scraped_at": "2026-01-20T01:52:18.607248"
+    },
+    "scraped_date": "2026-01-20"
+  },
+  {
+    "title": "AstroReason-Bench: Evaluating Unified Agentic Planning across Heterogeneous Space Planning Problems",
+    "paper_url": "https://huggingface.co/papers/2601.11354",
+    "authors": [
+      "Jingjing Gong",
+      "Weiyi Wang",
+      "xpqiu",
+      "xjhuang",
+      "dalstonchen"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "AstroReason-Bench: Evaluating Unified Agentic Planning across Heterogeneous Space Planning Problems",
+      "abstract": "Introduces AstroReason-Bench, a benchmark for evaluating unified agentic planning in space planning problems with physics constraints, heterogeneous objectives, and long-horizon decisions.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.11354",
+      "pdf_url": "https://arxiv.org/pdf/2601.11354",
+      "github_links": [
+        "https://github.com/Mtrya/astro-reason"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.11354",
+      "scraped_at": "2026-01-20T01:52:20.488459"
+    },
+    "scraped_date": "2026-01-20"
+  },
+  {
+    "title": "Language of Thought Shapes Output Diversity in Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2601.11227",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Language of Thought Shapes Output Diversity in Large Language Models",
+      "abstract": "This paper reveals that controlling the language used during model thinking—the language of thought—provides a novel and structural source of output diversity.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.11227",
+      "pdf_url": "https://arxiv.org/pdf/2601.11227",
+      "github_links": [
+        "https://github.com/iNLP-Lab/Multilingual-LoT-Diversity"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.11227",
+      "scraped_at": "2026-01-20T01:52:22.355536"
+    },
+    "scraped_date": "2026-01-20"
+  },
+  {
+    "title": "What Matters in Data Curation for Multimodal Reasoning? Insights from the DCVLR Challenge",
+    "paper_url": "https://huggingface.co/papers/2601.10922",
+    "authors": [
+      "Vikas Kumar",
+      "Pavel Bushuyeu",
+      "Boris Sobolev",
+      "Michael Buriek",
+      "Yosub Shin"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "What Matters in Data Curation for Multimodal Reasoning? Insights from the DCVLR Challenge",
+      "abstract": "Some of the observations founded are : i. Difficulty based example selection is the dominant driver of performance: Selecting challenging but learnable examples yields the largest gains in multimodal reasoning accuracy, outperforming other curation strategies. ii. Increasing dataset size does not reliably improve mean accuracy: Once a well aligned base dataset is chosen, larger datasets mainly reduce run to run variance rather than boosting average performance. iii. Data curation operates in a saturation regime: Most performance improvements come from a relatively small number of carefully curated examples, with diminishing returns from adding more data. iv. Common diversity heuristics provide little or no benefit: Techniques such as clustering based diversity, category balancing, and synthetic augmentation often fail to improve performance and can even degrade accuracy. v. Alignment between dataset, benchmark, and base model is crucial: Strong alignment amplifies the effectiveness of difficulty filtering and explains why compact, well aligned datasets can outperform larger but less aligned ones.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10922",
+      "pdf_url": "https://arxiv.org/pdf/2601.10922",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10922",
+      "scraped_at": "2026-01-20T01:52:24.215009"
+    },
+    "scraped_date": "2026-01-20"
+  },
+  {
+    "title": "PhyRPR: Training-Free Physics-Constrained Video Generation",
+    "paper_url": "https://huggingface.co/papers/2601.09255",
+    "authors": [
+      "Boxi Wu",
+      "Xiaofei He",
+      "Hengjia Li",
+      "zjuyb"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "PhyRPR: Training-Free Physics-Constrained Video Generation",
+      "abstract": "Recent diffusion-based video generation models can synthesize visually plausible videos, yet they often struggle to satisfy physical constraints. A key reason is that most existing approaches remain single-stage: they entangle high-level physical understanding with low-level visual synthesis, making it hard to generate content that require explicit physical reasoning. To address this limitation, we propose a training-free three-stage pipeline, PhyRPR: PhyReason–PhyPlan–PhyRefine, which decouples physical understanding from visual synthesis. Specifically, PhyReason uses a large multimodal model for physical state reasoning and an image generator for keyframe synthesis; PhyPlan deterministically synthesizes a controllable coarse motion scaffold; and PhyRefine injects this scaffold into diffusion sampling via a latent fusion strategy to refine appearance while preserving the planned dynamics. This staged design enables explicit physical control during generation. Extensive experiments under physics constraints show that our method consistently improves physical plausibility and motion controllability.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.09255",
+      "pdf_url": "https://arxiv.org/pdf/2601.09255",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.09255",
+      "scraped_at": "2026-01-20T01:52:26.096444"
+    },
+    "scraped_date": "2026-01-20"
   }
 ]
