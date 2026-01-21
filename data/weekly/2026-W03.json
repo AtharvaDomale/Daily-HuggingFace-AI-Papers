@@ -1236,5 +1236,238 @@
       "scraped_at": "2026-01-20T01:52:26.096444"
     },
     "scraped_date": "2026-01-20"
+  },
+  {
+    "title": "ABC-Bench: Benchmarking Agentic Backend Coding in Real-World Development",
+    "paper_url": "https://huggingface.co/papers/2601.11077",
+    "authors": [],
+    "stars": "8",
+    "details": {
+      "title": "ABC-Bench: Benchmarking Agentic Backend Coding in Real-World Development",
+      "abstract": "Hi everyone,  I'm one of the authors of ABC-Bench . (arXiv:2601.11077). While building Code Agents, we realized that current benchmarks often stop at \"generating correct code snippets.\" But as developers, we know that real-world backend engineering is much more than that—it's about exploring unfamiliar repos, configuring environments, writing Dockerfiles, and actually deploying a live service. That's why we created ABC-Bench. ✨ Key Features: Full Lifecycle: We evaluate everything from code editing to Containerization and Service Launch. Real Integration Testing: We validate agents by sending actual HTTP requests to the service they deploy. Diverse Stack: 224 tasks from real-world repos (8 languages, 19 frameworks). 🤗 Open Source on HF: We've released the full dataset and fine-tuned models: 📚 Dataset: OpenMOSS-Team/ABC-Bench 🤖 Models: OpenMOSS-Team/Qwen3-8B-ABC & OpenMOSS-Team/Qwen3-32B-ABC Hope this serves as a useful testbed for the community! 🚀",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.11077",
+      "pdf_url": "https://arxiv.org/pdf/2601.11077",
+      "github_links": [
+        "https://github.com/OpenMOSS/ABC-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.11077",
+      "scraped_at": "2026-01-21T01:54:38.294314"
+    },
+    "scraped_date": "2026-01-21"
+  },
+  {
+    "title": "Multiplex Thinking: Reasoning via Token-wise Branch-and-Merge",
+    "paper_url": "https://huggingface.co/papers/2601.08808",
+    "authors": [],
+    "stars": "48",
+    "details": {
+      "title": "Multiplex Thinking: Reasoning via Token-wise Branch-and-Merge",
+      "abstract": "Large language models often solve complex reasoning tasks more effectively with Chain-of-Thought (CoT), but at the cost of long, low-bandwidth token sequences. Humans, by contrast, often reason softly by maintaining a distribution over plausible next steps. Motivated by this, we propose Multiplex Thinking, a stochastic soft reasoning mechanism that, at each thinking step, samples K candidate tokens and aggregates their embeddings into a single continuous multiplex token. This preserves the vocabulary embedding prior and the sampling dynamics of standard discrete generation, while inducing a tractable probability distribution over multiplex rollouts. Consequently, multiplex trajectories can be directly optimized with on-policy reinforcement learning (RL). Importantly, Multiplex Thinking is self-adaptive: when the model is confident, the multiplex token is nearly discrete and behaves like standard CoT; when it is uncertain, it compactly represents multiple plausible next steps without increasing sequence length. Across challenging math reasoning benchmarks, Multiplex Thinking consistently outperforms strong discrete CoT and RL baselines from Pass@1 through Pass@1024, while producing shorter sequences. The code and checkpoints are available at https://github.com/GMLR-Penn/Multiplex-Thinking .",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.08808",
+      "pdf_url": "https://arxiv.org/pdf/2601.08808",
+      "github_links": [
+        "https://github.com/GMLR-Penn/Multiplex-Thinking"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.08808",
+      "scraped_at": "2026-01-21T01:54:40.218487"
+    },
+    "scraped_date": "2026-01-21"
+  },
+  {
+    "title": "NAACL: Noise-AwAre Verbal Confidence Calibration for LLMs in RAG Systems",
+    "paper_url": "https://huggingface.co/papers/2601.11004",
+    "authors": [
+      "Tianshi Zheng",
+      "Qingcheng Zeng",
+      "Qing Zong",
+      "Rui Wang",
+      "Jiayu Liu"
+    ],
+    "stars": "6",
+    "details": {
+      "title": "NAACL: Noise-AwAre Verbal Confidence Calibration for LLMs in RAG Systems",
+      "abstract": "This paper addresses the often-overlooked problem of confidence calibration for large language models (LLMs) in retrieval-augmented generation (RAG) settings, where noisy retrieved contexts can severely inflate model overconfidence. The authors systematically study calibration performance across multiple benchmarks and propose Noise-AwAre Confidence CaLibration Rules (NAACL Rules) along with a noise-aware supervised fine-tuning framework (NAACL) that leverages guided supervision to imbue models with intrinsic noise awareness. Empirical results demonstrate consistent reductions in expected calibration error both in-domain and out-of-domain, highlighting the method’s potential to improve epistemic reliability of LLM outputs in factual applications. This work is timely and relevant for enhancing trustworthiness of deployed RAG systems.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.11004",
+      "pdf_url": "https://arxiv.org/pdf/2601.11004",
+      "github_links": [
+        "https://github.com/HKUST-KnowComp/NAACL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.11004",
+      "scraped_at": "2026-01-21T01:54:42.116241"
+    },
+    "scraped_date": "2026-01-21"
+  },
+  {
+    "title": "Medical SAM3: A Foundation Model for Universal Prompt-Driven Medical Image Segmentation",
+    "paper_url": "https://huggingface.co/papers/2601.10880",
+    "authors": [
+      "Ziyang Yan",
+      "Jiachen Tu",
+      "Chuhan Song",
+      "Tianxingjian Ding",
+      "ChongCong"
+    ],
+    "stars": "18",
+    "details": {
+      "title": "Medical SAM3: A Foundation Model for Universal Prompt-Driven Medical Image Segmentation",
+      "abstract": "🏥 Medical SAM3: Bridging the Gap in Text-Guided Medical Image Segmentation Existing foundation models often face challenges when applying \"segment anything\" paradigms to medical imaging, particularly in the absence of spatial prompts (bounding boxes). Medical SAM3 aims to address this by enhancing the model's semantic understanding through full-parameter fine-tuning. 💡 Key Contributions: 🗨️ Reduced Reliance on Spatial Cues: The model is trained to perform segmentation using solely text prompts (e.g., \"Polyp\", \"Tumor\"), aiming for a more automated workflow. 📈 Improved Generalization: Experiments on 7 unseen external datasets suggest a significant performance improvement in zero-shot settings (Dice score: 11.9% vs 73.9%). 🩻 Diverse Training Data: Developed on a corpus of 33 datasets across 10 imaging modalities to capture a wide range of medical semantics. We hope this work contributes to the development of more robust, prompt-driven medical AI assistants.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10880",
+      "pdf_url": "https://arxiv.org/pdf/2601.10880",
+      "github_links": [
+        "https://github.com/AIM-Research-Lab/Medical-SAM3.git"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10880",
+      "scraped_at": "2026-01-21T01:54:43.975841"
+    },
+    "scraped_date": "2026-01-21"
+  },
+  {
+    "title": "The Assistant Axis: Situating and Stabilizing the Default Persona of Language Models",
+    "paper_url": "https://huggingface.co/papers/2601.10387",
+    "authors": [
+      "Jack Lindsey",
+      "Kyle Fish",
+      "Jonathan Michala",
+      "Jack Gallagher",
+      "Christina Lu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "The Assistant Axis: Situating and Stabilizing the Default Persona of Language Models",
+      "abstract": "arXivlens breakdown of this paper 👉 https://arxivlens.com/PaperView/Details/the-assistant-axis-situating-and-stabilizing-the-default-persona-of-language-models-6264-f01123de Executive Summary Detailed Breakdown Practical Applications",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10387",
+      "pdf_url": "https://arxiv.org/pdf/2601.10387",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10387",
+      "scraped_at": "2026-01-21T01:54:45.824669"
+    },
+    "scraped_date": "2026-01-21"
+  },
+  {
+    "title": "CoDance: An Unbind-Rebind Paradigm for Robust Multi-Subject Animation",
+    "paper_url": "https://huggingface.co/papers/2601.11096",
+    "authors": [
+      "Hengshuang",
+      "shen12313",
+      "DonJoey",
+      "fengyutong",
+      "kema"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "CoDance: An Unbind-Rebind Paradigm for Robust Multi-Subject Animation",
+      "abstract": "CoDance: An Unbind-Rebind Paradigm for Robust Multi-Subject Animation",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.11096",
+      "pdf_url": "https://arxiv.org/pdf/2601.11096",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.11096",
+      "scraped_at": "2026-01-21T01:54:47.749022"
+    },
+    "scraped_date": "2026-01-21"
+  },
+  {
+    "title": "Spurious Rewards Paradox: Mechanistically Understanding How RLVR Activates Memorization Shortcuts in LLMs",
+    "paper_url": "https://huggingface.co/papers/2601.11061",
+    "authors": [
+      "Lecheng Yan",
+      "ChrisLee",
+      "kksinn",
+      "JiahuiGengNLP",
+      "rzdiversity"
+    ],
+    "stars": "6",
+    "details": {
+      "title": "Spurious Rewards Paradox: Mechanistically Understanding How RLVR Activates Memorization Shortcuts in LLMs",
+      "abstract": "RLVR is the secret sauce for reasoning models, but it has a dark side. The Spurious Rewards Paradox reveals how models exploit latent contamination to achieve SOTA benchmark results without genuine reasoning. By identifying the specific Anchor-Adapter circuit, our paper shows we can now causally steer a model's reliance on shortcuts. Check out the code ( https://github.com/idwts/How-RLVR-Activates-Memorization-Shortcuts ) and the circuit analysis in our paper to see how reasoning might just be hidden memorization in disguise.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.11061",
+      "pdf_url": "https://arxiv.org/pdf/2601.11061",
+      "github_links": [
+        "https://github.com/idwts/How-RLVR-Activates-Memorization-Shortcuts"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.11061",
+      "scraped_at": "2026-01-21T01:54:49.633759"
+    },
+    "scraped_date": "2026-01-21"
+  },
+  {
+    "title": "YaPO: Learnable Sparse Activation Steering Vectors for Domain Adaptation",
+    "paper_url": "https://huggingface.co/papers/2601.08441",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "YaPO: Learnable Sparse Activation Steering Vectors for Domain Adaptation",
+      "abstract": "Dense steering vectors often fail due to feature entanglement. YaPO solves this by learning sparse steering vectors directly in a Sparse Autoencoder's latent space using preference data in a DPO-fashion optimization loss. Highlights: Precision & Stability: Converges significantly faster and is more stable than dense baselines like BiPO. Cultural Alignment: Superior performance on a new 15-culture benchmark, specifically closing the \"implicit-explicit\" gap where models usually struggle. Generalization: Works on hallucination and jailbreaks without degrading general knowledge (MMLU).",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.08441",
+      "pdf_url": "https://arxiv.org/pdf/2601.08441",
+      "github_links": [
+        "https://github.com/MBZUAI-Paris/YaPO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.08441",
+      "scraped_at": "2026-01-21T01:54:51.510472"
+    },
+    "scraped_date": "2026-01-21"
+  },
+  {
+    "title": "PubMed-OCR: PMC Open Access OCR Annotations",
+    "paper_url": "https://huggingface.co/papers/2601.11425",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PubMed-OCR: PMC Open Access OCR Annotations",
+      "abstract": "PubMed-OCR is an OCR-centric corpus of scientific articles derived from PubMed Central Open Access PDFs. Each page image is annotated with Google Cloud Vision and released in a compact JSON schema with word-, line-, and paragraph-level bounding boxes. The corpus spans 209.5K articles (1.5M pages; ~1.3B words) and supports layout-aware modeling, coordinate-grounded QA, and evaluation of OCR-dependent pipelines. We analyze corpus characteristics (e.g., journal coverage and detected layout features) and discuss limitations, including reliance on a single OCR engine and heuristic line reconstruction. We release the data and schema to facilitate downstream research and invite extensions.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.11425",
+      "pdf_url": "https://arxiv.org/pdf/2601.11425",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.11425",
+      "scraped_at": "2026-01-21T01:54:53.335576"
+    },
+    "scraped_date": "2026-01-21"
+  },
+  {
+    "title": "SIN-Bench: Tracing Native Evidence Chains in Long-Context Multimodal Scientific Interleaved Literature",
+    "paper_url": "https://huggingface.co/papers/2601.10108",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SIN-Bench: Tracing Native Evidence Chains in Long-Context Multimodal Scientific Interleaved Literature",
+      "abstract": "Evaluating whether multimodal large language models truly understand long-form scientific papers remains challenging: answer-only metrics and synthetic \"Needle-In-A-Haystack\" tests often reward answer matching without requiring a causal, evidence-linked reasoning trace in the document. We propose the \"Fish-in-the-Ocean\" (FITO) paradigm, which requires models to construct explicit cross-modal evidence chains within native scientific documents. To operationalize FITO, we build SIN-Data, a scientific interleaved corpus that preserves the native interleaving of text and figures. On top of it, we construct SIN-Bench with four progressive tasks covering evidence discovery (SIN-Find), hypothesis verification (SIN-Verify), grounded QA (SIN-QA), and evidence-anchored synthesis (SIN-Summary). We further introduce \"No Evidence, No Score\", scoring predictions when grounded to verifiable anchors and diagnosing evidence quality via matching, relevance, and logic. Experiments on eight MLLMs show that grounding is the primary bottleneck: Gemini-3-pro achieves the best average overall score (0.573), while GPT-5 attains the highest SIN-QA answer accuracy (0.767) but underperforms on evidence-aligned overall scores, exposing a gap between correctness and traceable support.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.10108",
+      "pdf_url": "https://arxiv.org/pdf/2601.10108",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.10108",
+      "scraped_at": "2026-01-21T01:54:55.279403"
+    },
+    "scraped_date": "2026-01-21"
+  },
+  {
+    "title": "CLARE: Continual Learning for Vision-Language-Action Models via Autonomous Adapter Routing and Expansion",
+    "paper_url": "https://huggingface.co/papers/2601.09512",
+    "authors": [],
+    "stars": "9",
+    "details": {
+      "title": "CLARE: Continual Learning for Vision-Language-Action Models via Autonomous Adapter Routing and Expansion",
+      "abstract": "TL;DR 🤖 CLARE enables Vision-Language-Action models to learn new robot tasks without forgetting previous ones — no replay buffers, no task IDs at inference. 🔌 Plug-and-play adapters : Extends PEFT with a new CLARE adapter type 🧠 Smart expansion : Automatically adds new adapter modules only when needed (based on feature similarity) 🎯 Task-free inference : Autoencoder-based routing selects the right adapters without knowing the task 📈 SOTA on LIBERO : Outperforms exemplar-based continual learning methods on long task sequences Built on 🤗 LeRobot + PEFT .",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.09512",
+      "pdf_url": "https://arxiv.org/pdf/2601.09512",
+      "github_links": [
+        "https://github.com/huggingface/lerobot",
+        "https://github.com/utiasDSL/clare",
+        "https://github.com/huggingface/peft"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.09512",
+      "scraped_at": "2026-01-21T01:54:57.181509"
+    },
+    "scraped_date": "2026-01-21"
   }
 ]
