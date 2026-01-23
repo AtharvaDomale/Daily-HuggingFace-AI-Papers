@@ -10880,5 +10880,518 @@
       "scraped_at": "2026-01-22T01:56:01.626876"
     },
     "scraped_date": "2026-01-22"
+  },
+  {
+    "title": "Agentic Reasoning for Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2601.12538",
+    "authors": [],
+    "stars": "105",
+    "details": {
+      "title": "Agentic Reasoning for Large Language Models",
+      "abstract": "🌐 Awesome-Agentic-Reasoning GitHub Link: https://github.com/weitianxin/Awesome-Agentic-Reasoning",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.12538",
+      "pdf_url": "https://arxiv.org/pdf/2601.12538",
+      "github_links": [
+        "https://github.com/weitianxin/Awesome-Agentic-Reasoning"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.12538",
+      "scraped_at": "2026-01-23T01:51:23.971108"
+    },
+    "scraped_date": "2026-01-23"
+  },
+  {
+    "title": "MMDeepResearch-Bench: A Benchmark for Multimodal Deep Research Agents",
+    "paper_url": "https://huggingface.co/papers/2601.12346",
+    "authors": [
+      "Samiul Alam",
+      "Zhongwei Wan",
+      "Zixuan Zhong",
+      "Peizhou Huang",
+      "donghao-zhou"
+    ],
+    "stars": "14",
+    "details": {
+      "title": "MMDeepResearch-Bench: A Benchmark for Multimodal Deep Research Agents",
+      "abstract": "Introducing MMDeepResearch-Bench, a benchmark for multimodal deep research agents. Page: https://mmdeepresearch-bench.github.io/ Paper: https://arxiv.org/abs/2601.12346 Code: https://github.com/AIoT-MLSys-Lab/MMDeepResearch-Bench Dataset: https://huggingface.co/datasets/MMDR-2025/MMdeepresearch",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.12346",
+      "pdf_url": "https://arxiv.org/pdf/2601.12346",
+      "github_links": [
+        "https://github.com/AIoT-MLSys-Lab/MMDeepResearch-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.12346",
+      "scraped_at": "2026-01-23T01:51:25.854219"
+    },
+    "scraped_date": "2026-01-23"
+  },
+  {
+    "title": "Rethinking Video Generation Model for the Embodied World",
+    "paper_url": "https://huggingface.co/papers/2601.15282",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "Rethinking Video Generation Model for the Embodied World",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Wow, wo, val! A Comprehensive Embodied World Model Evaluation Turing Test (2026) RULER-Bench: Probing Rule-based Reasoning Abilities of Next-level Video Generation Models for Vision Foundation Intelligence (2025) 4DWorldBench: A Comprehensive Evaluation Framework for 3D/4D World Generation Models (2025) Mitty: Diffusion-based Human-to-Robot Video Generation (2025) Large Video Planner Enables Generalizable Robot Control (2025) Video Generation Models in Robotics - Applications, Research Challenges, Future Directions (2026) MoReGen: Multi-Agent Motion-Reasoning Engine for Code-based Text-to-Video Synthesis (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.15282",
+      "pdf_url": "https://arxiv.org/pdf/2601.15282",
+      "github_links": [
+        "https://github.com/DAGroup-PKU/ReVidgen/"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.15282",
+      "scraped_at": "2026-01-23T01:51:27.713798"
+    },
+    "scraped_date": "2026-01-23"
+  },
+  {
+    "title": "Paper2Rebuttal: A Multi-Agent Framework for Transparent Author Response Assistance",
+    "paper_url": "https://huggingface.co/papers/2601.14171",
+    "authors": [],
+    "stars": "146",
+    "details": {
+      "title": "Paper2Rebuttal: A Multi-Agent Framework for Transparent Author Response Assistance",
+      "abstract": "RebuttalAgent is an AI-powered multi-agent system that helps researchers craft high-quality rebuttals for academic paper reviews. The system analyzes reviewer comments, searches relevant literature, generates rebuttal strategies, and produces formal rebuttal letters, all through an interactive human-in-the-loop workflow. 🌐 Paper: https://arxiv.org/abs/2601.14171 🔥 Project Page: https://mqleet.github.io/Paper2Rebuttal_ProjectPage/ 🕹️ Code: https://github.com/AutoLab-SAI-SJTU/Paper2Rebuttal (⭐️) 🤗 Huggingface Space: https://huggingface.co/spaces/Mqleet/RebuttalAgent",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.14171",
+      "pdf_url": "https://arxiv.org/pdf/2601.14171",
+      "github_links": [
+        "https://github.com/AutoLab-SAI-SJTU/Paper2Rebuttal"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.14171",
+      "scraped_at": "2026-01-23T01:51:29.716204"
+    },
+    "scraped_date": "2026-01-23"
+  },
+  {
+    "title": "Behavior Knowledge Merge in Reinforced Agentic Models",
+    "paper_url": "https://huggingface.co/papers/2601.13572",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Behavior Knowledge Merge in Reinforced Agentic Models",
+      "abstract": "🚀 TL;DR We introduce RAM (Reinforced Agent Merging) , a method designed to merge RL-trained agents into a single generalist model without retraining, outperforming the original specialized agents in their domains. 💡 Key Insights The Problem: Standard merging methods (like TIES/DARE) are built for SFT models. We find they fail for RL models because RL updates are extremely sparse and heterogeneous , leading to \"Signal Dilution\" when averaged (performance drops). The Solution: RAM explicitly disentangles \"shared\" vs \"unique\" parameters. It preserves the full magnitude of unique task vectors to prevent dilution while averaging shared knowledge. Performance: RAM outperforms all existing merging baselines on agentic benchmarks (CURE, BFCL, MemAgent).",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.13572",
+      "pdf_url": "https://arxiv.org/pdf/2601.13572",
+      "github_links": [
+        "https://github.com/xiangchi-yuan/mrl"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.13572",
+      "scraped_at": "2026-01-23T01:51:31.618334"
+    },
+    "scraped_date": "2026-01-23"
+  },
+  {
+    "title": "Render-of-Thought: Rendering Textual Chain-of-Thought as Images for Visual Latent Reasoning",
+    "paper_url": "https://huggingface.co/papers/2601.14750",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Render-of-Thought: Rendering Textual Chain-of-Thought as Images for Visual Latent Reasoning",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Forest Before Trees: Latent Superposition for Efficient Visual Reasoning (2026) Chain-of-Thought Compression Should Not Be Blind: V-Skip for Efficient Multimodal Reasoning via Dual-Path Anchoring (2026) Interleaved Latent Visual Reasoning with Selective Perceptual Modeling (2025) LaViT: Aligning Latent Visual Thoughts for Multi-modal Reasoning (2026) Global Context Compression with Interleaved Vision-Text Transformation (2026) Sketch-in-Latents: Eliciting Unified Reasoning in MLLMs (2025) FantasyVLN: Unified Multimodal Chain-of-Thought Reasoning for Vision-Language Navigation (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.14750",
+      "pdf_url": "https://arxiv.org/pdf/2601.14750",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.14750",
+      "scraped_at": "2026-01-23T01:51:33.444046"
+    },
+    "scraped_date": "2026-01-23"
+  },
+  {
+    "title": "GutenOCR: A Grounded Vision-Language Front-End for Documents",
+    "paper_url": "https://huggingface.co/papers/2601.14490",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "GutenOCR: A Grounded Vision-Language Front-End for Documents",
+      "abstract": "We're excited to share our first open model release, a grounded VLM for OCR applications!",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.14490",
+      "pdf_url": "https://arxiv.org/pdf/2601.14490",
+      "github_links": [
+        "https://github.com/Roots-Automation/GutenOCR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.14490",
+      "scraped_at": "2026-01-23T01:51:35.315081"
+    },
+    "scraped_date": "2026-01-23"
+  },
+  {
+    "title": "Typhoon OCR: Open Vision-Language Model For Thai Document Extraction",
+    "paper_url": "https://huggingface.co/papers/2601.14722",
+    "authors": [],
+    "stars": "85",
+    "details": {
+      "title": "Typhoon OCR: Open Vision-Language Model For Thai Document Extraction",
+      "abstract": "Document extraction is a core component of digital workflows, yet existing vision-language models (VLMs) predominantly favor high-resource languages. Thai presents additional challenges due to script complexity from non-latin letters, the absence of explicit word boundaries, and the prevalence of highly unstructured real-world documents, limiting the effectiveness of current open-source models. This paper presents Typhoon OCR, an open VLM for document extraction tailored for Thai and English. The model is fine-tuned from vision-language backbones using a Thai-focused training dataset. The dataset is developed using a multi-stage data construction pipeline that combines traditional OCR, VLM-based restructuring, and curated synthetic data. Typhoon OCR is a unified framework capable of text transcription, layout reconstruction, and document-level structural consistency. The latest iteration of our model, Typhoon OCR V1.5, is a compact and inference-efficient model designed to reduce reliance on metadata and simplify deployment. Comprehensive evaluations across diverse Thai document categories, including financial reports, government forms, books, infographics, and handwritten documents, show that Typhoon OCR achieves performance comparable to or exceeding larger frontier proprietary models, despite substantially lower computational cost. The results demonstrate that open vision-language OCR models can achieve accurate text extraction and layout reconstruction for Thai documents, reaching performance comparable to proprietary systems while remaining lightweight and deployable.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.14722",
+      "pdf_url": "https://arxiv.org/pdf/2601.14722",
+      "github_links": [
+        "https://github.com/scb-10x/typhoon-ocr"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.14722",
+      "scraped_at": "2026-01-23T01:51:37.192567"
+    },
+    "scraped_date": "2026-01-23"
+  },
+  {
+    "title": "Typhoon ASR Real-time: FastConformer-Transducer for Thai Automatic Speech Recognition",
+    "paper_url": "https://huggingface.co/papers/2601.13044",
+    "authors": [],
+    "stars": "38",
+    "details": {
+      "title": "Typhoon ASR Real-time: FastConformer-Transducer for Thai Automatic Speech Recognition",
+      "abstract": "Large encoder-decoder models like Whisper achieve strong offline transcription but remain impractical for streaming applications due to high latency. However, due to the accessibility of pre-trained checkpoints, the open Thai ASR landscape remains dominated by these offline architectures, leaving a critical gap in efficient streaming solutions. We present Typhoon ASR Real-time, a 115M-parameter FastConformer-Transducer model for low-latency Thai speech recognition. We demonstrate that rigorous text normalization can match the impact of model scaling: our compact model achieves a 45x reduction in computational cost compared to Whisper Large-v3 while delivering comparable accuracy. Our normalization pipeline resolves systemic ambiguities in Thai transcription --including context-dependent number verbalization and repetition markers (mai yamok) --creating consistent training targets. We further introduce a two-stage curriculum learning approach for Isan (north-eastern) dialect adaptation that preserves Central Thai performance. To address reproducibility challenges in Thai ASR, we release the Typhoon ASR Benchmark, a gold-standard human-labeled datasets with transcriptions following established Thai linguistic conventions, providing standardized evaluation protocols for the research community.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.13044",
+      "pdf_url": "https://arxiv.org/pdf/2601.13044",
+      "github_links": [
+        "https://github.com/scb-10x/typhoon-asr"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.13044",
+      "scraped_at": "2026-01-23T01:51:39.051573"
+    },
+    "scraped_date": "2026-01-23"
+  },
+  {
+    "title": "Numina-Lean-Agent: An Open and General Agentic Reasoning System for Formal Mathematics",
+    "paper_url": "https://huggingface.co/papers/2601.14027",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Numina-Lean-Agent: An Open and General Agentic Reasoning System for Formal Mathematics",
+      "abstract": "Recommend to try our demo at: https://demo.projectnumina.ai/",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.14027",
+      "pdf_url": "https://arxiv.org/pdf/2601.14027",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.14027",
+      "scraped_at": "2026-01-23T01:51:40.876746"
+    },
+    "scraped_date": "2026-01-23"
+  },
+  {
+    "title": "FlashLabs Chroma 1.0: A Real-Time End-to-End Spoken Dialogue Model with Personalized Voice Cloning",
+    "paper_url": "https://huggingface.co/papers/2601.11141",
+    "authors": [],
+    "stars": "141",
+    "details": {
+      "title": "FlashLabs Chroma 1.0: A Real-Time End-to-End Spoken Dialogue Model with Personalized Voice Cloning",
+      "abstract": "Some of the observations founded are :- -- End to end S2S advantage : Chroma 1.0 avoids cascaded ASR LLM TTS pipelines, reducing latency and preserving paralinguistic cues like timbre and prosody. -- High fidelity voice cloning : With only a few seconds of reference audio, Chroma achieves 10.96% higher speaker similarity than the human baseline, outperforming existing open and commercial models. -- Real time streaming design : The interleaved 1:2 text audio token schedule enables sub-second responsiveness (TTFT ≈ 147 ms) and smooth streaming synthesis. -- Efficiency at small scale : Despite having only 4B parameters, Chroma maintains competitive understanding, reasoning, and dialogue performance compared to larger 7–9B models . -- Naturalness vs fidelity trade off : Subjective tests show commercial systems may sound more “natural,” but Chroma preserves speaker identity more faithfully highlighting that listener preference does not always equal true speaker similarity.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.11141",
+      "pdf_url": "https://arxiv.org/pdf/2601.11141",
+      "github_links": [
+        "https://github.com/FlashLabs-AI-Corp/FlashLabs-Chroma"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.11141",
+      "scraped_at": "2026-01-23T01:51:42.687376"
+    },
+    "scraped_date": "2026-01-23"
+  },
+  {
+    "title": "FinVault: Benchmarking Financial Agent Safety in Execution-Grounded Environments",
+    "paper_url": "https://huggingface.co/papers/2601.07853",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "FinVault: Benchmarking Financial Agent Safety in Execution-Grounded Environments",
+      "abstract": "the first execution-grounded security benchmark for financial agents",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.07853",
+      "pdf_url": "https://arxiv.org/pdf/2601.07853",
+      "github_links": [
+        "https://github.com/aifinlab/FinVault"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.07853",
+      "scraped_at": "2026-01-23T01:51:44.595356"
+    },
+    "scraped_date": "2026-01-23"
+  },
+  {
+    "title": "Privacy Collapse: Benign Fine-Tuning Can Break Contextual Privacy in Language Models",
+    "paper_url": "https://huggingface.co/papers/2601.15220",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Privacy Collapse: Benign Fine-Tuning Can Break Contextual Privacy in Language Models",
+      "abstract": "Privacy Collapse: Benign Fine-Tuning Can Break Contextual Privacy in Language Models Overview This paper identifies a critical new failure mode in language models called \"privacy collapse\" . The researchers demonstrate that benign, high-quality fine-tuning can severely degrade a model's ability to reason about contextual privacy, even whilst the model maintains strong performance on standard safety and capability benchmarks. Key Findings The study reveals that diverse training data characteristics can trigger privacy collapse: Optimisation for helpfulness - Models become overly proactive in sharing information Emotional and empathetic dialogue - Attentive conversations weaken privacy boundaries Exposure to user information - Personal data in training context normalises broad access Debugging code - Logging statements that expose internal variables transfer to social contexts Fine-tuned models inappropriately share sensitive information with tools, violate memory boundaries across conversation sessions, and fail to respect contextual privacy norms. Why It Matters Privacy collapse represents a \"silent failure\" : Models appear healthy on standard safety evaluations Severe privacy vulnerabilities remain undetected Affects 6 models (both closed and open-weight) Emerges from 5 different fine-tuning datasets Generalises across agentic and memory-based tasks Mechanistic Insights The research reveals: Privacy representations are encoded in late model layers These representations are uniquely fragile to fine-tuning compared to task-relevant features Introspective discourse and emotional engagement drive privacy degradation Training samples that reinforce persistent user identity representations weaken learned boundaries Technical Details Evaluation benchmarks: PrivacyLens - Agentic tool-use scenarios (493 contexts) CIMemories - Persistent memory privacy (cross-session boundaries) Models tested: GPT-4o, GPT-4o-mini, GPT-4.1, GPT-4.1-mini, GPT-3.5-turbo Llama-3-8B Privacy degradation observed: Up to 98% relative accuracy drop on privacy benchmarks Whilst safety and capability metrics remain stable or improve Implications This work exposes a critical gap in current safety evaluations, particularly for specialised agents handling sensitive user data. Recommendations: Integrate contextual privacy into safety evaluation pipelines Implement data filtering strategies to identify privacy-degrading patterns Monitor fine-tuned models specifically for privacy preservation Develop robust mitigation strategies beyond standard safety testing Citation @ misc {goel2026privacycollapsebenignfinetuning,\n      title={Privacy Collapse: Benign Fine-Tuning Can Break Contextual Privacy in Language Models}, \n      author={Anmol Goel and Cornelius Emde and Sangdoo Yun and Seong Joon Oh and Martin Gubri},\n      year={2026},\n      eprint={2601.15220},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2601.15220}, \n} Resources 📄 Paper 💻 Code",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.15220",
+      "pdf_url": "https://arxiv.org/pdf/2601.15220",
+      "github_links": [
+        "https://github.com/parameterlab/privacy-collapse"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.15220",
+      "scraped_at": "2026-01-23T01:51:46.442305"
+    },
+    "scraped_date": "2026-01-23"
+  },
+  {
+    "title": "XR: Cross-Modal Agents for Composed Image Retrieval",
+    "paper_url": "https://huggingface.co/papers/2601.14245",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "XR: Cross-Modal Agents for Composed Image Retrieval",
+      "abstract": "project website: https://01yzzyu.github.io/xr.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.14245",
+      "pdf_url": "https://arxiv.org/pdf/2601.14245",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.14245",
+      "scraped_at": "2026-01-23T01:51:48.244359"
+    },
+    "scraped_date": "2026-01-23"
+  },
+  {
+    "title": "RoboBrain 2.5: Depth in Sight, Time in Mind",
+    "paper_url": "https://huggingface.co/papers/2601.14352",
+    "authors": [
+      "Yuheng Ji",
+      "Yijie Xu",
+      "Zhiyu Li",
+      "Huajie Tan",
+      "Zhoues"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "RoboBrain 2.5: Depth in Sight, Time in Mind",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Towards Cross-View Point Correspondence in Vision-Language Models (2025) Action-Sketcher: From Reasoning to Action via Visual Sketches for Long-Horizon Robotic Manipulation (2026) MonoSR: Open-Vocabulary Spatial Reasoning from Monocular Images (2025) Spatial-Aware VLA Pretraining through Visual-Physical Alignment from Human Videos (2025) SpatialMosaic: A Multiview VLM Dataset for Partial Visibility (2025) Unified Embodied VLM Reasoning with Robotic Action via Autoregressive Discretized Pre-training (2025) From Indoor to Open World: Revealing the Spatial Reasoning Gap in MLLMs (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.14352",
+      "pdf_url": "https://arxiv.org/pdf/2601.14352",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.14352",
+      "scraped_at": "2026-01-23T01:51:50.079130"
+    },
+    "scraped_date": "2026-01-23"
+  },
+  {
+    "title": "Quantifying Speaker Embedding Phonological Rule Interactions in Accented Speech Synthesis",
+    "paper_url": "https://huggingface.co/papers/2601.14417",
+    "authors": [
+      "Jihwan Lee",
+      "Thanapat Trachu",
+      "Yoonjeong Lee",
+      "Thanathai Lertpetchpun",
+      "tiantiaf"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Quantifying Speaker Embedding Phonological Rule Interactions in Accented Speech Synthesis",
+      "abstract": "Many spoken languages, including English, exhibit wide variation in dialects and accents, making accent control an important capability for flexible text-to-speech (TTS) models. Current TTS systems typically generate accented speech by conditioning on speaker embeddings associated with specific accents. While effective, this approach offers limited interpretability and controllability, as embeddings also encode traits such as timbre and emotion. In this study, we analyze the interaction between speaker embeddings and linguistically motivated phonological rules in accented speech synthesis. Using American and British English as a case study, we implement rules for flapping, rhoticity, and vowel correspondences. We propose the phoneme shift rate (PSR), a novel metric quantifying how strongly embeddings preserve or override rule-based transformations. Experiments show that combining rules with embeddings yields more authentic accents, while embeddings can attenuate or overwrite rules, revealing entanglement between accent and speaker identity. Our findings highlight rules as a lever for accent control and a framework for evaluating disentanglement in speech generation. This paper will be presented at ICASSP 2026.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.14417",
+      "pdf_url": "https://arxiv.org/pdf/2601.14417",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.14417",
+      "scraped_at": "2026-01-23T01:51:51.860623"
+    },
+    "scraped_date": "2026-01-23"
+  },
+  {
+    "title": "Implicit Neural Representation Facilitates Unified Universal Vision Encoding",
+    "paper_url": "https://huggingface.co/papers/2601.14256",
+    "authors": [
+      "Zhenheng Yang",
+      "Xuefeng Hu",
+      "Xiao Wang",
+      "Matthew Gwilliam"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Implicit Neural Representation Facilitates Unified Universal Vision Encoding",
+      "abstract": "Code: https://github.com/tiktok/huvr",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.14256",
+      "pdf_url": "https://arxiv.org/pdf/2601.14256",
+      "github_links": [
+        "https://github.com/tiktok/huvr"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.14256",
+      "scraped_at": "2026-01-23T01:51:53.635741"
+    },
+    "scraped_date": "2026-01-23"
+  },
+  {
+    "title": "AgentEHR: Advancing Autonomous Clinical Decision-Making via Retrospective Summarization",
+    "paper_url": "https://huggingface.co/papers/2601.13918",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "AgentEHR: Advancing Autonomous Clinical Decision-Making via Retrospective Summarization",
+      "abstract": "This paper presents AGENTEHR, a novel benchmark designed to bridge the gap between idealized experimental settings and realistic clinical environments. Unlike previous tasks that focus on factual retrieval (e.g., searching for a specific medication), AGENTEHR challenges agents to perform complex clinical decision-making, such as diagnosis and treatment planning, directly within raw, high-noise EHR databases. To address the information loss inherent in long-context clinical reasoning, the paper proposes RETROSUM, a framework that unifies a retrospective summarization mechanism with an evolving experience strategy. RETROSUM achieves performance gains of up to 29.16% over baselines while reducing interaction errors by up to 92.3%.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.13918",
+      "pdf_url": "https://arxiv.org/pdf/2601.13918",
+      "github_links": [
+        "https://github.com/BlueZeros/AgentEHR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.13918",
+      "scraped_at": "2026-01-23T01:51:55.436570"
+    },
+    "scraped_date": "2026-01-23"
+  },
+  {
+    "title": "FARE: Fast-Slow Agentic Robotic Exploration",
+    "paper_url": "https://huggingface.co/papers/2601.14681",
+    "authors": [
+      "Jingsong Liang",
+      "Shizhe Zhang",
+      "Jeric Lew",
+      "Xuxin Lv",
+      "Shuhao Liao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "FARE: Fast-Slow Agentic Robotic Exploration",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API ORION: Option-Regularized Deep Reinforcement Learning for Cooperative Multi-Agent Online Navigation (2026) Hybrid Motion Planning with Deep Reinforcement Learning for Mobile Robot Navigation (2025) CAUSALNAV: A Long-term Embodied Navigation System for Autonomous Mobile Robots in Dynamic Outdoor Scenarios (2026) Embodied Robot Manipulation in the Era of Foundation Models: Planning and Learning Perspectives (2025) SwarmDiffusion: End-To-End Traversability-Guided Diffusion for Embodiment-Agnostic Navigation of Heterogeneous Robots (2025) H-AIM: Orchestrating LLMs, PDDL, and Behavior Trees for Hierarchical Multi-Robot Planning (2026) ColaVLA: Leveraging Cognitive Latent Reasoning for Hierarchical Parallel Trajectory Planning in Autonomous Driving (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.14681",
+      "pdf_url": "https://arxiv.org/pdf/2601.14681",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.14681",
+      "scraped_at": "2026-01-23T01:51:57.216560"
+    },
+    "scraped_date": "2026-01-23"
+  },
+  {
+    "title": "Lost in the Prompt Order: Revealing the Limitations of Causal Attention in Language Models",
+    "paper_url": "https://huggingface.co/papers/2601.14152",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Lost in the Prompt Order: Revealing the Limitations of Causal Attention in Language Models",
+      "abstract": "Prompt order can break LMs performance — even with the same content.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.14152",
+      "pdf_url": "https://arxiv.org/pdf/2601.14152",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.14152",
+      "scraped_at": "2026-01-23T01:51:58.986007"
+    },
+    "scraped_date": "2026-01-23"
+  },
+  {
+    "title": "The Responsibility Vacuum: Organizational Failure in Scaled Agent Systems",
+    "paper_url": "https://huggingface.co/papers/2601.15059",
+    "authors": [
+      "Roman Bondar",
+      "Oleg Romanchuk"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "The Responsibility Vacuum: Organizational Failure in Scaled Agent Systems",
+      "abstract": "Some of the observations founded are :- -- Authority capacity mismatch is structural : Decisions are formally approved by humans, but the epistemic capacity to understand those decisions does not scale with agent generated throughput, creating a systematic gap between authority and understanding. -- Responsibility vacuum emerges beyond a throughput threshold : When decision generation rate exceeds bounded human verification capacity, personalized responsibility becomes unattainable even though processes are followed correctly . -- Verification degrades into ritualized approval : Human review persists as a formal act, but shifts from substantive inspection to reliance on proxy signals (e.g. CI green ), decoupling approval from understanding. -- CI/CD automation amplifies the problem rather than solving it : Adding more automated checks increases proxy signal density without restoring human capacity, accelerating cognitive offloading and widening the responsibility gap. -- Local optimizations cannot eliminate the failure mode : Better models, more CI, or improved tooling may shift thresholds but cannot remove the structural limit, only explicit redesign of responsibility boundaries (e.g. batch/system level ownership or constrained throughput) addresses the issue.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.15059",
+      "pdf_url": "https://arxiv.org/pdf/2601.15059",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.15059",
+      "scraped_at": "2026-01-23T01:52:00.954598"
+    },
+    "scraped_date": "2026-01-23"
+  },
+  {
+    "title": "Facilitating Proactive and Reactive Guidance for Decision Making on the Web: A Design Probe with WebSeek",
+    "paper_url": "https://huggingface.co/papers/2601.15100",
+    "authors": [
+      "Arpit Narechania",
+      "Yanwei Huang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Facilitating Proactive and Reactive Guidance for Decision Making on the Web: A Design Probe with WebSeek",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Developer Interaction Patterns with Proactive AI: A Five-Day Field Study (2026) Bug Detective and Quality Coach: Developers' Mental Models of AI-Assisted IDE Tools (2025) Engineering Trustworthy Automation: Design Principles and Evaluation for AutoML Tools for Novices (2025) Beyond Text-to-SQL: Autonomous Research-Driven Database Exploration with DAR (2025) PaperDebugger: A Plugin-Based Multi-Agent System for In-Editor Academic Writing, Review, and Editing (2025) WebOperator: Action-Aware Tree Search for Autonomous Agents in Web Environment (2025) TiInsight: A SQL-based Automated Exploratory Data Analysis System through Large Language Models (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.15100",
+      "pdf_url": "https://arxiv.org/pdf/2601.15100",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.15100",
+      "scraped_at": "2026-01-23T01:52:02.711109"
+    },
+    "scraped_date": "2026-01-23"
+  },
+  {
+    "title": "Motion 3-to-4: 3D Motion Reconstruction for 4D Synthesis",
+    "paper_url": "https://huggingface.co/papers/2601.14253",
+    "authors": [
+      "Anpei Chen",
+      "Zexiang Xu",
+      "Youjia Zhang",
+      "Xingyu Chen",
+      "Hongyuan Chen"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Motion 3-to-4: 3D Motion Reconstruction for 4D Synthesis",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.14253",
+      "pdf_url": "https://arxiv.org/pdf/2601.14253",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.14253",
+      "scraped_at": "2026-01-23T01:52:04.540646"
+    },
+    "scraped_date": "2026-01-23"
+  },
+  {
+    "title": "sangkuriang: A pseudo-spectral Python library for Korteweg-de Vries soliton simulation",
+    "paper_url": "https://huggingface.co/papers/2601.12029",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "sangkuriang: A pseudo-spectral Python library for Korteweg-de Vries soliton simulation",
+      "abstract": "Korteweg-de Vries (KdV) equation serves as a foundational model in nonlinear wave physics, describing the balance between dispersive spreading and nonlinear steepening that gives rise to solitons. This article introduces sangkuriang, an open-source Python library for solving this equation using Fourier pseudo-spectral spatial discretization coupled with adaptive high-order time integration. The implementation leverages just-in-time (JIT) compilation for computational efficiency while maintaining accessibility for instructional purposes. Validation encompasses progressively complex scenarios including isolated soliton propagation, symmetric two-wave configurations, overtaking collisions between waves of differing amplitudes, and three-body interactions. Conservation of the classical invariants is monitored throughout, with deviations remaining small across all test cases. Measured soliton velocities conform closely to theoretical predictions based on the amplitude-velocity relationship characteristic of integrable systems. Complementary diagnostics drawn from information theory and recurrence analysis confirm that computed solutions preserve the regular phase-space structure expected for completely integrable dynamics. The solver outputs data in standard scientific formats compatible with common analysis tools and generates visualizations of spatiotemporal wave evolution. By combining numerical accuracy with practical accessibility on modest computational resources, sangkuriang offers a platform suitable for both classroom demonstrations of nonlinear wave phenomena and exploratory research into soliton dynamics.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.12029",
+      "pdf_url": "https://arxiv.org/pdf/2601.12029",
+      "github_links": [
+        "https://github.com/sandyherho/sangkuriang-ideal-solver"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.12029",
+      "scraped_at": "2026-01-23T01:52:06.368678"
+    },
+    "scraped_date": "2026-01-23"
+  },
+  {
+    "title": "Show me the evidence: Evaluating the role of evidence and natural language explanations in AI-supported fact-checking",
+    "paper_url": "https://huggingface.co/papers/2601.11387",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Show me the evidence: Evaluating the role of evidence and natural language explanations in AI-supported fact-checking",
+      "abstract": "TL;DR: In an AI-supported fact-checking task, people consistently relied on underlying evidence to judge AI reliability, using explanations as a supplement rather than a substitute, showing that evidence is central to how people evaluate AI-aided decisions.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.11387",
+      "pdf_url": "https://arxiv.org/pdf/2601.11387",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.11387",
+      "scraped_at": "2026-01-23T01:52:08.317691"
+    },
+    "scraped_date": "2026-01-23"
+  },
+  {
+    "title": "CURE-Med: Curriculum-Informed Reinforcement Learning for Multilingual Medical Reasoning",
+    "paper_url": "https://huggingface.co/papers/2601.13262",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "CURE-Med: Curriculum-Informed Reinforcement Learning for Multilingual Medical Reasoning",
+      "abstract": "We introduce CURE-MED, a curriculum-informed reinforcement learning framework for multilingual medical reasoning across 13 languages, including low-resource settings. The work studies how code-switching-aware supervision and curriculum-guided RL jointly improve logical correctness and language consistency. Feel free to give your feedback on potential extensions to other medical tasks or languages.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.13262",
+      "pdf_url": "https://arxiv.org/pdf/2601.13262",
+      "github_links": [
+        "https://github.com/AikyamLab/cure-med"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.13262",
+      "scraped_at": "2026-01-23T01:52:10.158251"
+    },
+    "scraped_date": "2026-01-23"
   }
 ]
