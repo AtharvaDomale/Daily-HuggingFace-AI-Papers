@@ -3142,5 +3142,532 @@
       "scraped_at": "2026-01-24T01:49:20.868988"
     },
     "scraped_date": "2026-01-24"
+  },
+  {
+    "title": "EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience",
+    "paper_url": "https://huggingface.co/papers/2601.15876",
+    "authors": [],
+    "stars": "147",
+    "details": {
+      "title": "EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience",
+      "abstract": "EvoCUA: Evolving Computer Use Agent 🥇 #1 Open-Source Model on OSWorld | A General-Purpose Multimodal Model Excelling at Computer Use 🔗 Paper: https://arxiv.org/abs/2601.14724 💻 Code: https://github.com/meituan/EvoCUA 🌟 Highlights 🥇 #1 Open-Source Model on OSWorld : Achieves 56.7% task completion rate, #1 among all open-source models 📈 Significant Improvements : +11.7% over OpenCUA-72B (45.0%→56.7%), +15.1% over Qwen3-VL thinking (41.6%→56.7%), with fewer parameters and half the steps 🖥️ End-to-End Multi-Turn Automation : Operates Chrome, Excel, PowerPoint, VSCode and more through screenshots and natural language instructions 🧠 Novel Training Method : Our data synthesis and training approach consistently improves Computer Use capability across multiple open-source VLMs without degrading general performance 📊 Performance Comparison Rank Model Open/Closed Type Max Steps Score 1 Claude-sonnet-4-5 🔒 Closed General 100 62.9% 2 Seed-1.8 🔒 Closed General 100 61.9% 3 Claude-sonnet-4-5 🔒 Closed General 50 58.1% 4 EvoCUA-20260105 (Ours) 🟢 Open General 50 56.7% 🥇 5 DeepMiner-Mano-72B 🔒 Closed Specialized 100 53.9% 6 UI-TARS-2-2509 🔒 Closed General 100 53.1% 7 EvoCUA (Previous Version) 🔒 Closed General 50 50.3% 8 EvoCUA-8B-20260105 (Ours) 🟢 Open General 50 46.1% 9 OpenCUA-72B 🟢 Open Specialized 100 45.0% ... ... ... ... ... ... 13 Qwen3-VL-Flash 🔒 Closed General 100 41.6% EvoCUA is #1 among all open-source models , achieving competitive results with only 50 steps . Human-level performance remains significantly higher, indicating substantial room for improvement. 📝 Citation If you find EvoCUA useful in your research, please consider citing: @ misc {evocua2026,\n  title={EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience},\n  author={Chong Peng* and Taofeng Xue*},\n  year={2026},\n  url={https://github.com/meituan/EvoCUA},\n  note={* Equal contribution}\n} 📜 License This project is licensed under the Apache 2.0 License - see the LICENSE file for details. Built with ❤️ by Meituan LongCat Team",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.15876",
+      "pdf_url": "https://arxiv.org/pdf/2601.15876",
+      "github_links": [
+        "https://github.com/meituan/EvoCUA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.15876",
+      "scraped_at": "2026-01-25T02:01:53.666276"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "The Flexibility Trap: Why Arbitrary Order Limits Reasoning Potential in Diffusion Language Models",
+    "paper_url": "https://huggingface.co/papers/2601.15165",
+    "authors": [],
+    "stars": "68",
+    "details": {
+      "title": "The Flexibility Trap: Why Arbitrary Order Limits Reasoning Potential in Diffusion Language Models",
+      "abstract": "Links 📄 paper: https://arxiv.org/abs/2601.15165 🏠 project page: https://nzl-thu.github.io/the-flexibility-trap 💻 code: https://github.com/LeapLabTHU/JustGRPO 🤗 model: https://huggingface.co/nzl-thu/LLaDA-Instruct-JustGRPO",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.15165",
+      "pdf_url": "https://arxiv.org/pdf/2601.15165",
+      "github_links": [
+        "https://github.com/LeapLabTHU/JustGRPO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.15165",
+      "scraped_at": "2026-01-25T02:01:55.563516"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding",
+    "paper_url": "https://huggingface.co/papers/2601.14724",
+    "authors": [],
+    "stars": "29",
+    "details": {
+      "title": "HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding",
+      "abstract": "🚀 Introducing HERMES: The Future of Real-Time Streaming Video Understanding! While today's Multimodal Large Language Models (MLLMs) perform impressively at offline video comprehension, they often face a \"painful trade-off\" when it comes to real-time streaming video - balancing real-time responses, low memory usage, and high accuracy. To solve this, we introduce the following innovations: 💡 The HERMES Breakthrough: 1️⃣ Novel memory architecture: By deeply analyzing attention mechanisms, we' ve introduced a \"Hierarchical Memory\" approach. The KV Cache is now reimagined as a multi-level memory framework: Shallow layers act as Sensory Memory (events that just happened). Deep layers focus on Long-term Memory (frame-level semantic anchors). Middle layers bridge the gap with Working Memory. 2️⃣ Plug-and-play architecture: HERMES achieves highly efficient KV Cache reuse and optimization strategies including cross-layer memory smoothing and position re-indexing , delivering instant responses without the need for additional training, or auxiliary computations when user queries arrive. 3️⃣ Incredible efficiency and performance: ⚡ Blazing speed: HERMES is 10x faster than previous SOTA in terms of response latency (TTFT)! 🚀 Compact efficiency: Even with 68% fewer video tokens, the model remains rock-solid, achieving up to 11.4% improvement in streaming comprehension tasks! 💾 Memory-friendly: No matter the video length, memory usage stays constant, leaving OOM errors in the past. 🔥 Join us in exploring this breakthrough: If you're passionate about streaming video understanding and efficient inference, we'd love to discuss and collaborate! 🔍 Explore the Details : 🔗 Paper: https://arxiv.org/abs/2601.14724 💻 Code: https://github.com/haowei-freesky/HERMES 🌐 Project: https://hermes-streaming.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.14724",
+      "pdf_url": "https://arxiv.org/pdf/2601.14724",
+      "github_links": [
+        "https://github.com/haowei-freesky/HERMES"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.14724",
+      "scraped_at": "2026-01-25T02:01:57.411173"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "LLM-in-Sandbox Elicits General Agentic Intelligence",
+    "paper_url": "https://huggingface.co/papers/2601.16206",
+    "authors": [],
+    "stars": "63",
+    "details": {
+      "title": "LLM-in-Sandbox Elicits General Agentic Intelligence",
+      "abstract": "Introducing LLM-in-Sandbox — put your LLM in a virtual computer to unlock general agentic intelligence for non-code tasks! Significant gains for chemistry, long-context QA, instruction following, and more. No extra training needed. 🌐 Demo: https://llm-in-sandbox.github.io 💻 Code: https://github.com/llm-in-sandbox/llm-in-sandbox pip install llm-in-sandbox Feel free to open issues or discussions  🤗",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.16206",
+      "pdf_url": "https://arxiv.org/pdf/2601.16206",
+      "github_links": [
+        "https://github.com/llm-in-sandbox/llm-in-sandbox"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.16206",
+      "scraped_at": "2026-01-25T02:01:59.299451"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "BayesianVLA: Bayesian Decomposition of Vision Language Action Models via Latent Action Queries",
+    "paper_url": "https://huggingface.co/papers/2601.15197",
+    "authors": [],
+    "stars": "14",
+    "details": {
+      "title": "BayesianVLA: Bayesian Decomposition of Vision Language Action Models via Latent Action Queries",
+      "abstract": "🏗️ Architecture BayesianVLA is a novel framework designed to solve the Vision Shortcut problem in Vision-Language-Action (VLA) models. In current VLA training, goal-driven datasets often make language instructions highly predictable from visual observations alone. This leads to Information Collapse, where the model ignores language and degenerates into a vision-only policy, failing miserably in out-of-distribution (OOD) scenarios. BayesianVLA addresses this by: Bayesian Decomposition : Explicitly modeling a vision-only prior $p(a|v)$ and a language-conditioned posterior $\\pi(a|v, \\ell)$. LLR Optimization : Maximizing the Log-Likelihood Ratio (LLR) to penalize actions that rely solely on visual cues and reward actions that are truly grounded in language instructions. ✨ Key Features Dual-Branch Architecture : Uses learnable Latent Action Queries to decouple vision-only and language-conditioned action distributions. Zero Extra Data : Achieves significant performance gains (e.g., +11.3% on SimplerEnv) using the exact same datasets as baselines. Preserves VLM Intelligence : Effectively regularizes the model to prevent the \"catastrophic forgetting\" of general multimodal reasoning capabilities common in standard VLA fine-tuning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.15197",
+      "pdf_url": "https://arxiv.org/pdf/2601.15197",
+      "github_links": [
+        "https://github.com/ZGC-EmbodyAI/BayesianVLA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.15197",
+      "scraped_at": "2026-01-25T02:02:01.183148"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "Scaling Text-to-Image Diffusion Transformers with Representation Autoencoders",
+    "paper_url": "https://huggingface.co/papers/2601.16208",
+    "authors": [],
+    "stars": "107",
+    "details": {
+      "title": "Scaling Text-to-Image Diffusion Transformers with Representation Autoencoders",
+      "abstract": "We scale RAE to text-to-image, and its advantage over VAEs still holds!",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.16208",
+      "pdf_url": "https://arxiv.org/pdf/2601.16208",
+      "github_links": [
+        "https://github.com/ZitengWangNYU/Scale-RAE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.16208",
+      "scraped_at": "2026-01-25T02:02:03.026447"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "Stable-DiffCoder: Pushing the Frontier of Code Diffusion Large Language Model",
+    "paper_url": "https://huggingface.co/papers/2601.15892",
+    "authors": [],
+    "stars": "21",
+    "details": {
+      "title": "Stable-DiffCoder: Pushing the Frontier of Code Diffusion Large Language Model",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API From Next-Token to Next-Block: A Principled Adaptation Path for Diffusion LLMs (2025) LLaDA2.0: Scaling Up Diffusion Language Models to 100B (2025) WeDLM: Reconciling Diffusion Language Models with Standard Causal Attention for Fast Inference (2025) CD4LM: Consistency Distillation and aDaptive Decoding for Diffusion Language Models (2026) SDAR-VL: Stable and Efficient Block-wise Diffusion for Vision-Language Understanding (2025) Fast and Accurate Causal Parallel Decoding using Jacobi Forcing (2025) Beyond Hard Masks: Progressive Token Evolution for Diffusion Language Models (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.15892",
+      "pdf_url": "https://arxiv.org/pdf/2601.15892",
+      "github_links": [
+        "https://github.com/ByteDance-Seed/Stable-DiffCoder"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.15892",
+      "scraped_at": "2026-01-25T02:02:04.826791"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "SAMTok: Representing Any Mask with Two Words",
+    "paper_url": "https://huggingface.co/papers/2601.16093",
+    "authors": [],
+    "stars": "1.51k",
+    "details": {
+      "title": "SAMTok: Representing Any Mask with Two Words",
+      "abstract": "Project page: https://zhouyiks.github.io/projects/SAMTok/ Training Code: https://github.com/bytedance/Sa2VA/tree/main/projects/samtok Short Bio:   We present SAMTok, a discrete mask tokenizer that converts any region mask into two special tokens and reconstructs the mask using these tokens with high fidelity. By treating masks as new language tokens, SAMTok enables base MLLMs (such as the QwenVL series) to learn pixel-wise capabilities through standard next-token prediction and simple reinforcement learning, without architectural modifications and specialized loss design. SAMTok builds on SAM2 and is trained on 209M diverse masks using a mask encoder and residual vector quantizer to produce discrete, compact, and information-rich tokens. With 5M SAMTok-formatted mask understanding and generation data samples, QwenVL-SAMTok attains state-of-the-art or comparable results on region captioning, region VQA, grounded conversation, referring segmentation, scene graph parsing, and multi-round interactive segmentation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.16093",
+      "pdf_url": "https://arxiv.org/pdf/2601.16093",
+      "github_links": [
+        "https://github.com/bytedance/Sa2VA/tree/main/projects/samtok"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.16093",
+      "scraped_at": "2026-01-25T02:02:06.714279"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "Learning to Discover at Test Time",
+    "paper_url": "https://huggingface.co/papers/2601.16175",
+    "authors": [],
+    "stars": "121",
+    "details": {
+      "title": "Learning to Discover at Test Time",
+      "abstract": "New paper on scientific discovery with test time training. New discoveries on several open scientific problems.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.16175",
+      "pdf_url": "https://arxiv.org/pdf/2601.16175",
+      "github_links": [
+        "https://github.com/test-time-training/discover"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.16175",
+      "scraped_at": "2026-01-25T02:02:08.536010"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "Qwen3-TTS Technical Report",
+    "paper_url": "https://huggingface.co/papers/2601.15621",
+    "authors": [],
+    "stars": "3.29k",
+    "details": {
+      "title": "Qwen3-TTS Technical Report",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API IndexTTS 2.5 Technical Report (2026) FlashLabs Chroma 1.0: A Real-Time End-to-End Spoken Dialogue Model with Personalized Voice Cloning (2026) DisCo-Speech: Controllable Zero-Shot Speech Generation with A Disentangled Speech Codec (2025) VoiceSculptor: Your Voice, Designed By You (2026) GLM-TTS Technical Report (2025) MiMo-Audio: Audio Language Models are Few-Shot Learners (2025) JoyVoice: Long-Context Conditioning for Anthropomorphic Multi-Speaker Conversational Synthesis (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.15621",
+      "pdf_url": "https://arxiv.org/pdf/2601.15621",
+      "github_links": [
+        "https://github.com/QwenLM/Qwen3-TTS"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.15621",
+      "scraped_at": "2026-01-25T02:02:10.378788"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces",
+    "paper_url": "https://huggingface.co/papers/2601.11868",
+    "authors": [
+      "Boxuan Li",
+      "Nicholas Carlini",
+      "Alexander G. Shaw",
+      "Mike A. Merrill",
+      "menorf"
+    ],
+    "stars": "1.41k",
+    "details": {
+      "title": "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API AgencyBench: Benchmarking the Frontiers of Autonomous Agents in 1M-Token Real-World Contexts (2026) Real-Time Procedural Learning From Experience for AI Agents (2025) Benchmarking LLM Agents for Wealth-Management Workflows (2025) ABC-Bench: Benchmarking Agentic Backend Coding in Real-World Development (2026) Dr.Mi-Bench: A Modular-integrated Benchmark for Scientific Deep Research Agent (2025) SWE-EVO: Benchmarking Coding Agents in Long-Horizon Software Evolution Scenarios (2025) The Hierarchy of Agentic Capabilities: Evaluating Frontier Models on Realistic RL Environments (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.11868",
+      "pdf_url": "https://arxiv.org/pdf/2601.11868",
+      "github_links": [
+        "https://github.com/laude-institute/terminal-bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.11868",
+      "scraped_at": "2026-01-25T02:02:12.180505"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "OpenVision 3: A Family of Unified Visual Encoder for Both Understanding and Generation",
+    "paper_url": "https://huggingface.co/papers/2601.15369",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "OpenVision 3: A Family of Unified Visual Encoder for Both Understanding and Generation",
+      "abstract": "Project Page: https://ucsc-vlaa.github.io/OpenVision3/",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.15369",
+      "pdf_url": "https://arxiv.org/pdf/2601.15369",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.15369",
+      "scraped_at": "2026-01-25T02:02:14.104309"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "Rethinking Composed Image Retrieval Evaluation: A Fine-Grained Benchmark from Image Editing",
+    "paper_url": "https://huggingface.co/papers/2601.16125",
+    "authors": [
+      "Dingkun Long",
+      "Zhuoning Guo",
+      "Mingxin Li",
+      "Yanzhao Zhang",
+      "songtingyu"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Rethinking Composed Image Retrieval Evaluation: A Fine-Grained Benchmark from Image Editing",
+      "abstract": "A new benchmark for Composed Image Retrieval.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.16125",
+      "pdf_url": "https://arxiv.org/pdf/2601.16125",
+      "github_links": [
+        "https://github.com/SighingSnow/edir"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.16125",
+      "scraped_at": "2026-01-25T02:02:15.924213"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "Towards Automated Kernel Generation in the Era of LLMs",
+    "paper_url": "https://huggingface.co/papers/2601.15727",
+    "authors": [
+      "Yixin Shen",
+      "Haiming Wu",
+      "Chi Hsu Tsai",
+      "Peiyu Zang",
+      "Yang Yu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Towards Automated Kernel Generation in the Era of LLMs",
+      "abstract": "Summary of Key Points Kernel quality is a fundamental bottleneck for modern AI system performance, yet high-quality kernel engineering is expert-intensive, time-consuming, and difficult to scale. Recent advances in large language models (LLMs) and LLM-based agents enable automated kernel generation and optimization by capturing expert knowledge and supporting iterative, feedback-driven optimization loops. Despite rapid progress, existing work is fragmented and lacks a unified, systematic perspective. This survey provides a structured overview of LLM-based kernel generation methods and agentic optimization workflows, and compiles the key datasets and benchmarks used for training and evaluation. The paper further identifies open challenges and outlines future research directions, aiming to serve as a comprehensive reference for next-generation automated kernel optimization. Resources Open-source repository tracking this field: https://github.com/flagos-ai/awesome-LLM-driven-kernel-generation",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.15727",
+      "pdf_url": "https://arxiv.org/pdf/2601.15727",
+      "github_links": [
+        "https://github.com/flagos-ai/awesome-LLM-driven-kernel-generation"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.15727",
+      "scraped_at": "2026-01-25T02:02:17.722592"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "PROGRESSLM: Towards Progress Reasoning in Vision-Language Models",
+    "paper_url": "https://huggingface.co/papers/2601.15224",
+    "authors": [
+      "Dingcheng Wang",
+      "Haoran Lu",
+      "Haosen Sun",
+      "Jianshu Zhang",
+      "Raymond-Qiancx"
+    ],
+    "stars": "68",
+    "details": {
+      "title": "PROGRESSLM: Towards Progress Reasoning in Vision-Language Models",
+      "abstract": "Towards General Progress Understanding for Embodied Agents",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.15224",
+      "pdf_url": "https://arxiv.org/pdf/2601.15224",
+      "github_links": [
+        "https://github.com/ProgressLM/ProgressLM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.15224",
+      "scraped_at": "2026-01-25T02:02:19.571613"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning",
+    "paper_url": "https://huggingface.co/papers/2601.16163",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning",
+      "abstract": "Cosmos Policy fine-tunes a pretrained video model in one stage for visuomotor control, enabling action latent frames, future state prediction, and planning, achieving state-of-the-art robotic benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.16163",
+      "pdf_url": "https://arxiv.org/pdf/2601.16163",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.16163",
+      "scraped_at": "2026-01-25T02:02:21.442201"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "VideoMaMa: Mask-Guided Video Matting via Generative Prior",
+    "paper_url": "https://huggingface.co/papers/2601.14255",
+    "authors": [],
+    "stars": "59",
+    "details": {
+      "title": "VideoMaMa: Mask-Guided Video Matting via Generative Prior",
+      "abstract": "Demo: https://huggingface.co/spaces/SammyLim/VideoMaMa Git: https://github.com/cvlab-kaist/VideoMaMa Project Page: https://cvlab-kaist.github.io/VideoMaMa/",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.14255",
+      "pdf_url": "https://arxiv.org/pdf/2601.14255",
+      "github_links": [
+        "https://github.com/cvlab-kaist/VideoMaMa"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.14255",
+      "scraped_at": "2026-01-25T02:02:23.333545"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "ActionMesh: Animated 3D Mesh Generation with Temporal 3D Diffusion",
+    "paper_url": "https://huggingface.co/papers/2601.16148",
+    "authors": [],
+    "stars": "79",
+    "details": {
+      "title": "ActionMesh: Animated 3D Mesh Generation with Temporal 3D Diffusion",
+      "abstract": "🤗Try it out: https://huggingface.co/spaces/facebook/ActionMesh 🌐Project Page: https://remysabathier.github.io/actionmesh/ 📄Paper: https://remysabathier.github.io/actionmesh/actionmesh_2026.pdf 💻Code: https://github.com/facebookresearch/actionmesh",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.16148",
+      "pdf_url": "https://arxiv.org/pdf/2601.16148",
+      "github_links": [
+        "https://github.com/facebookresearch/actionmesh"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.16148",
+      "scraped_at": "2026-01-25T02:02:25.268638"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "360Anything: Geometry-Free Lifting of Images and Videos to 360°",
+    "paper_url": "https://huggingface.co/papers/2601.16192",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "360Anything: Geometry-Free Lifting of Images and Videos to 360°",
+      "abstract": "360Anything lifts arbitrary perspective images and videos to seamless, gravity-aligned 360° panoramas, without using any camera or 3D information. Project page: https://360anything.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.16192",
+      "pdf_url": "https://arxiv.org/pdf/2601.16192",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.16192",
+      "scraped_at": "2026-01-25T02:02:27.152555"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "Agentic Uncertainty Quantification",
+    "paper_url": "https://huggingface.co/papers/2601.15703",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Agentic Uncertainty Quantification",
+      "abstract": "🛑 Stop the \"Spiral of Hallucination\" in Autonomous Agents! Long-horizon agents often fail because minor early errors snowball into irreversible failures. We introduce Agentic Uncertainty Quantification (AUQ) , a training-free Dual-Process framework inspired by System 1/System 2 thinking: 🧠 System 1 (Fast): Uncertainty-Aware Memory propagates doubt to prevent blind commitment. 🤔 System 2 (Slow): Triggers active reflection only when confidence drops below a specific threshold. Key Wins: ✅ SOTA Performance: Outperforms ReAct & Reflexion on ALFWorld, WebShop, and the new DeepResearch Bench . ✅ Efficiency: Prevents long, futile failure loops, making it more token-efficient than standard methods. ✅ Plug-and-Play: No fine-tuning required. From \"Passive Diagnosis\" to \"Active Control\" — make your agents reliable! 🚀",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.15703",
+      "pdf_url": "https://arxiv.org/pdf/2601.15703",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.15703",
+      "scraped_at": "2026-01-25T02:02:28.938062"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "Agentic Confidence Calibration",
+    "paper_url": "https://huggingface.co/papers/2601.15778",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Agentic Confidence Calibration",
+      "abstract": "🎯 Don't let your Agents be \"Confidently Wrong\"! Traditional calibration works for static text, but Autonomous Agents fail differently—errors compound over long trajectories. We introduce Holistic Trajectory Calibration (HTC) , a new paradigm to diagnose the entire execution process. Why it matters: 🔍 Process-Centric: Extracts rich features (Dynamics, Stability) from the agent's thinking process, not just the final output. 📈 SOTA Calibration: Consistently outperforms baselines across 8 benchmarks (SimpleQA, Math500, etc.). 🌍 Generalization: We release the General Agent Calibrator (GAC) , which achieves the best zero-shot calibration on the challenging GAIA benchmark. Achieve Interpretability, Transferability, and Trust in your AI Agents. 🛡️",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.15778",
+      "pdf_url": "https://arxiv.org/pdf/2601.15778",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.15778",
+      "scraped_at": "2026-01-25T02:02:30.735636"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "From Passive Metric to Active Signal: The Evolving Role of Uncertainty Quantification in Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2601.15690",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "From Passive Metric to Active Signal: The Evolving Role of Uncertainty Quantification in Large Language Models",
+      "abstract": "🗺️ The 2026 Roadmap for Reliable AI: Making Uncertainty Actionable We are witnessing a paradigm shift in LLMs: Uncertainty is no longer just a passive score for diagnosis—it is evolving into an Active Control Signal for real-time decision-making. Our comprehensive survey covers this transformation across three frontiers: 🧠 Reasoning: Triggering self-correction & optimizing \"thinking budget\" (System 2). 🤖 Agents: Determining when to use tools, ask for help, or stop generation. 🎯 Alignment: Using uncertainty as an intrinsic reward to mitigate reward hacking in RLHF. If you are building Agents or Reasoning Models, this is the functional evolution you need to know. 🚀",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.15690",
+      "pdf_url": "https://arxiv.org/pdf/2601.15690",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.15690",
+      "scraped_at": "2026-01-25T02:02:32.541555"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "VIOLA: Towards Video In-Context Learning with Minimal Annotations",
+    "paper_url": "https://huggingface.co/papers/2601.15549",
+    "authors": [
+      "Ryo Hachiuma",
+      "Hideo Saito",
+      "Ryo Fujii"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "VIOLA: Towards Video In-Context Learning with Minimal Annotations",
+      "abstract": "Abstract: Generalizing Multimodal Large Language Models (MLLMs) to novel video domains is essential for real-world deployment but remains challenging due to the scarcity of labeled data. While In-Context Learning (ICL) offers a training-free adaptation path, standard methods rely on large annotated pools, which are often impractical in specialized environments like industrial or surgical settings since they require the experts' annotations. To bridge this gap, we introduce VIOLA (Video In-cOntext Learning with minimal Annotation), a label-efficient framework that synergizes minimal expert supervision with abundant unlabeled data. First, to maximize the efficiency of a strict annotation budget, we propose density-uncertainty-weighted sampling. Unlike standard diversity or uncertainty strategies that risk selecting visual outliers, our method leverages density estimation to identify samples that are simultaneously diverse, representative, and informative. Second, to utilize the remaining unlabeled data without noise propagation, we construct a hybrid pool and introduce confidence-aware retrieval and confidence-aware prompting. These mechanisms explicitly model label reliability, retrieving demonstrations based on a composite score of similarity and confidence while enabling the MLLM to adaptively distinguish between verified ground truths and noisy pseudo-labels. Extensive experiments across nine diverse benchmarks using four MLLMs demonstrate that our framework significantly outperforms various baselines in low-resource settings, achieving robust adaptation with minimal annotation costs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.15549",
+      "pdf_url": "https://arxiv.org/pdf/2601.15549",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.15549",
+      "scraped_at": "2026-01-25T02:02:34.330106"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "LLM Prompt Evaluation for Educational Applications",
+    "paper_url": "https://huggingface.co/papers/2601.16134",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LLM Prompt Evaluation for Educational Applications",
+      "abstract": "Some of the observations founded are :- -- Prompt design matters as much as the model : The study shows that different prompt templates using the same LLM produce significantly different educational outcomes, proving prompt engineering is a critical lever in AI supported learning. -- Persona + Context Manager is the strongest combination : The Strategic Reading Coach prompt combining Persona and Context Manager patterns outperformed all others with 81–100% win probability, making it the most effective for follow up educational questions. -- Systematic prompt evaluation beats ad-hoc refinement : The tournament style evaluation using comparative judgment + Glicko2 ranking provides a reproducible, evidence based alternative to informal trial and error prompt tuning. -- Learning theory grounded prompts perform better : Prompts explicitly grounded in adult learning theory, self directed learning, and metacognition consistently generated higher quality educational dialogue than theory light designs -- Theoretical alignment alone is not enough : Some prompts rooted in strong learning theories (e.g. constructivism) still underperformed, highlighting that empirical evaluation is essential good theory must be paired with effective prompt patterns.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.16134",
+      "pdf_url": "https://arxiv.org/pdf/2601.16134",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.16134",
+      "scraped_at": "2026-01-25T02:02:36.149629"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "Numba-Accelerated 2D Diffusion-Limited Aggregation: Implementation and Fractal Characterization",
+    "paper_url": "https://huggingface.co/papers/2601.15440",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Numba-Accelerated 2D Diffusion-Limited Aggregation: Implementation and Fractal Characterization",
+      "abstract": "In this work, we address the performance limitations often encountered in Python-based DLA simulations. By utilizing Numba for just-in-time compilation, we developed an implementation that achieves computational speeds comparable to legacy Fortran codes, offering a speedup over pure Python. We also validated the solver by analyzing the fractal dimension of the generated clusters (D≈1.71). We have released the code as a PyPI package named dla-ideal-solver to facilitate easier use and reproducibility. We hope this tool proves useful to those working in computational physics and complex systems, and we welcome any feedback from the community.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.15440",
+      "pdf_url": "https://arxiv.org/pdf/2601.15440",
+      "github_links": [
+        "https://github.com/sandyherho/dla-ideal-solver"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.15440",
+      "scraped_at": "2026-01-25T02:02:37.957383"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "MirrorBench: An Extensible Framework to Evaluate User-Proxy Agents for Human-Likeness",
+    "paper_url": "https://huggingface.co/papers/2601.08118",
+    "authors": [],
+    "stars": "10",
+    "details": {
+      "title": "MirrorBench: An Extensible Framework to Evaluate User-Proxy Agents for Human-Likeness",
+      "abstract": "The framework is open-sourced at https://github.com/SAP/mirrorbench",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.08118",
+      "pdf_url": "https://arxiv.org/pdf/2601.08118",
+      "github_links": [
+        "https://github.com/SAP/mirrorbench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.08118",
+      "scraped_at": "2026-01-25T02:02:39.821072"
+    },
+    "scraped_date": "2026-01-25"
+  },
+  {
+    "title": "Wigner's Friend as a Circuit: Inter-Branch Communication Witness Benchmarks on Superconducting Quantum Hardware",
+    "paper_url": "https://huggingface.co/papers/2601.16004",
+    "authors": [
+      "Cohaerence"
+    ],
+    "stars": "5",
+    "details": {
+      "title": "Wigner's Friend as a Circuit: Inter-Branch Communication Witness Benchmarks on Superconducting Quantum Hardware",
+      "abstract": "We implement and benchmark on IBM Quantum hardware the circuit family proposed by Violaris for estimating operational inter-branch communication witnesses, defined as correlations in classical measurement records produced by compiled Wigner's-friend-style circuits. We realize a five-qubit instance of the protocol as an inter-register message-transfer pattern within a single circuit, rather than physical signaling, and evaluate its behavior under realistic device noise and compilation constraints. The circuit encodes branch-conditioned evolution of an observer subsystem whose dynamics depend on a control qubit, followed by a controlled transfer operation that probes correlations between conditional measurement contexts. Executing on the ibm_fez backend with 20000 shots, we observe population-based visibility of 0.877, coherence witnesses of 0.840 and -0.811 along orthogonal axes, and a phase-sensitive magnitude of approximately 1.17. While the visibility metric is insensitive to some classes of dephasing, the coherence witnesses provide complementary sensitivity to off-diagonal noise.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.16004",
+      "pdf_url": "https://arxiv.org/pdf/2601.16004",
+      "github_links": [
+        "https://github.com/christopher-altman/ibm-qml-kernel"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.16004",
+      "scraped_at": "2026-01-25T02:02:41.624215"
+    },
+    "scraped_date": "2026-01-25"
   }
 ]

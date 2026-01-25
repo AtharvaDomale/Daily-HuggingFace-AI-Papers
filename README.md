@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-27-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-1323+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-1350+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">27</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">156</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">585</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">1323+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">183</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">612</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">1350+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** January 24, 2026
+**Last Updated:** January 25, 2026
 
 ---
 
@@ -119,11 +119,9 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience</b> ⭐ 0</summary>
+<summary><b>1. EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience</b> ⭐ 147</summary>
 
 <br/>
-
-**👥 Authors:** Linsen Guo, Mianqiu Huang, Taofeng Xue, GenSouKai, KleinChong
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.15876) • [📄 arXiv](https://arxiv.org/abs/2601.15876) • [📥 PDF](https://arxiv.org/pdf/2601.15876)
 
@@ -134,7 +132,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>2. The Flexibility Trap: Why Arbitrary Order Limits Reasoning Potential in Diffusion Language Models</b> ⭐ 66</summary>
+<summary><b>2. The Flexibility Trap: Why Arbitrary Order Limits Reasoning Potential in Diffusion Language Models</b> ⭐ 68</summary>
 
 <br/>
 
@@ -147,7 +145,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>3. HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding</b> ⭐ 24</summary>
+<summary><b>3. HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding</b> ⭐ 29</summary>
 
 <br/>
 
@@ -160,20 +158,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>4. BayesianVLA: Bayesian Decomposition of Vision Language Action Models via Latent Action Queries</b> ⭐ 11</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.15197) • [📄 arXiv](https://arxiv.org/abs/2601.15197) • [📥 PDF](https://arxiv.org/pdf/2601.15197)
-
-**💻 Code:** [⭐ Code](https://github.com/ZGC-EmbodyAI/BayesianVLA)
-
-> 🏗️ Architecture BayesianVLA is a novel framework designed to solve the Vision Shortcut problem in Vision-Language-Action (VLA) models. In current VLA training, goal-driven datasets often make language instructions highly predictable from visual ob...
-
-</details>
-
-<details>
-<summary><b>5. LLM-in-Sandbox Elicits General Agentic Intelligence</b> ⭐ 38</summary>
+<summary><b>4. LLM-in-Sandbox Elicits General Agentic Intelligence</b> ⭐ 63</summary>
 
 <br/>
 
@@ -186,7 +171,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>6. Scaling Text-to-Image Diffusion Transformers with Representation Autoencoders</b> ⭐ 58</summary>
+<summary><b>5. BayesianVLA: Bayesian Decomposition of Vision Language Action Models via Latent Action Queries</b> ⭐ 14</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.15197) • [📄 arXiv](https://arxiv.org/abs/2601.15197) • [📥 PDF](https://arxiv.org/pdf/2601.15197)
+
+**💻 Code:** [⭐ Code](https://github.com/ZGC-EmbodyAI/BayesianVLA)
+
+> 🏗️ Architecture BayesianVLA is a novel framework designed to solve the Vision Shortcut problem in Vision-Language-Action (VLA) models. In current VLA training, goal-driven datasets often make language instructions highly predictable from visual ob...
+
+</details>
+
+<details>
+<summary><b>6. Scaling Text-to-Image Diffusion Transformers with Representation Autoencoders</b> ⭐ 107</summary>
 
 <br/>
 
@@ -199,7 +197,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>7. Stable-DiffCoder: Pushing the Frontier of Code Diffusion Large Language Model</b> ⭐ 16</summary>
+<summary><b>7. Stable-DiffCoder: Pushing the Frontier of Code Diffusion Large Language Model</b> ⭐ 21</summary>
 
 <br/>
 
@@ -212,7 +210,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>8. SAMTok: Representing Any Mask with Two Words</b> ⭐ 1.5k</summary>
+<summary><b>8. SAMTok: Representing Any Mask with Two Words</b> ⭐ 1.51k</summary>
 
 <br/>
 
@@ -225,7 +223,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>9. Learning to Discover at Test Time</b> ⭐ 88</summary>
+<summary><b>9. Learning to Discover at Test Time</b> ⭐ 121</summary>
 
 <br/>
 
@@ -238,7 +236,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>10. Qwen3-TTS Technical Report</b> ⭐ 2.19k</summary>
+<summary><b>10. Qwen3-TTS Technical Report</b> ⭐ 3.29k</summary>
 
 <br/>
 
@@ -266,7 +264,18 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>12. Rethinking Composed Image Retrieval Evaluation: A Fine-Grained Benchmark from Image Editing</b> ⭐ 0</summary>
+<summary><b>12. OpenVision 3: A Family of Unified Visual Encoder for Both Understanding and Generation</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.15369) • [📄 arXiv](https://arxiv.org/abs/2601.15369) • [📥 PDF](https://arxiv.org/pdf/2601.15369)
+
+> Project Page: https://ucsc-vlaa.github.io/OpenVision3/
+
+</details>
+
+<details>
+<summary><b>13. Rethinking Composed Image Retrieval Evaluation: A Fine-Grained Benchmark from Image Editing</b> ⭐ 1</summary>
 
 <br/>
 
@@ -277,17 +286,6 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/SighingSnow/edir)
 
 > A new benchmark for Composed Image Retrieval.
-
-</details>
-
-<details>
-<summary><b>13. OpenVision 3: A Family of Unified Visual Encoder for Both Understanding and Generation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.15369) • [📄 arXiv](https://arxiv.org/abs/2601.15369) • [📥 PDF](https://arxiv.org/pdf/2601.15369)
-
-> Project Page: https://ucsc-vlaa.github.io/OpenVision3/
 
 </details>
 
@@ -307,7 +305,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>15. PROGRESSLM: Towards Progress Reasoning in Vision-Language Models</b> ⭐ 54</summary>
+<summary><b>15. PROGRESSLM: Towards Progress Reasoning in Vision-Language Models</b> ⭐ 68</summary>
 
 <br/>
 
@@ -322,7 +320,18 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>16. VideoMaMa: Mask-Guided Video Matting via Generative Prior</b> ⭐ 0</summary>
+<summary><b>16. Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.16163) • [📄 arXiv](https://arxiv.org/abs/2601.16163) • [📥 PDF](https://arxiv.org/pdf/2601.16163)
+
+> Cosmos Policy fine-tunes a pretrained video model in one stage for visuomotor control, enabling action latent frames, future state prediction, and planning, achieving state-of-the-art robotic benchmarks.
+
+</details>
+
+<details>
+<summary><b>17. VideoMaMa: Mask-Guided Video Matting via Generative Prior</b> ⭐ 59</summary>
 
 <br/>
 
@@ -335,29 +344,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>17. 360Anything: Geometry-Free Lifting of Images and Videos to 360°</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.16192) • [📄 arXiv](https://arxiv.org/abs/2601.16192) • [📥 PDF](https://arxiv.org/pdf/2601.16192)
-
-> 360Anything lifts arbitrary perspective images and videos to seamless, gravity-aligned 360° panoramas, without using any camera or 3D information. Project page: https://360anything.github.io/
-
-</details>
-
-<details>
-<summary><b>18. Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.16163) • [📄 arXiv](https://arxiv.org/abs/2601.16163) • [📥 PDF](https://arxiv.org/pdf/2601.16163)
-
-> Cosmos Policy fine-tunes a pretrained video model in one stage for visuomotor control, enabling action latent frames, future state prediction, and planning, achieving state-of-the-art robotic benchmarks.
-
-</details>
-
-<details>
-<summary><b>19. ActionMesh: Animated 3D Mesh Generation with Temporal 3D Diffusion</b> ⭐ 57</summary>
+<summary><b>18. ActionMesh: Animated 3D Mesh Generation with Temporal 3D Diffusion</b> ⭐ 79</summary>
 
 <br/>
 
@@ -370,7 +357,51 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>20. VIOLA: Towards Video In-Context Learning with Minimal Annotations</b> ⭐ 0</summary>
+<summary><b>19. 360Anything: Geometry-Free Lifting of Images and Videos to 360°</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.16192) • [📄 arXiv](https://arxiv.org/abs/2601.16192) • [📥 PDF](https://arxiv.org/pdf/2601.16192)
+
+> 360Anything lifts arbitrary perspective images and videos to seamless, gravity-aligned 360° panoramas, without using any camera or 3D information. Project page: https://360anything.github.io/
+
+</details>
+
+<details>
+<summary><b>20. Agentic Uncertainty Quantification</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.15703) • [📄 arXiv](https://arxiv.org/abs/2601.15703) • [📥 PDF](https://arxiv.org/pdf/2601.15703)
+
+> 🛑 Stop the "Spiral of Hallucination" in Autonomous Agents! Long-horizon agents often fail because minor early errors snowball into irreversible failures. We introduce Agentic Uncertainty Quantification (AUQ) , a training-free Dual-Process framewor...
+
+</details>
+
+<details>
+<summary><b>21. Agentic Confidence Calibration</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.15778) • [📄 arXiv](https://arxiv.org/abs/2601.15778) • [📥 PDF](https://arxiv.org/pdf/2601.15778)
+
+> 🎯 Don't let your Agents be "Confidently Wrong"! Traditional calibration works for static text, but Autonomous Agents fail differently—errors compound over long trajectories. We introduce Holistic Trajectory Calibration (HTC) , a new paradigm to di...
+
+</details>
+
+<details>
+<summary><b>22. From Passive Metric to Active Signal: The Evolving Role of Uncertainty Quantification in Large Language Models</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.15690) • [📄 arXiv](https://arxiv.org/abs/2601.15690) • [📥 PDF](https://arxiv.org/pdf/2601.15690)
+
+> 🗺️ The 2026 Roadmap for Reliable AI: Making Uncertainty Actionable We are witnessing a paradigm shift in LLMs: Uncertainty is no longer just a passive score for diagnosis—it is evolving into an Active Control Signal for real-time decision-making. ...
+
+</details>
+
+<details>
+<summary><b>23. VIOLA: Towards Video In-Context Learning with Minimal Annotations</b> ⭐ 0</summary>
 
 <br/>
 
@@ -383,46 +414,13 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>21. LLM Prompt Evaluation for Educational Applications</b> ⭐ 0</summary>
+<summary><b>24. LLM Prompt Evaluation for Educational Applications</b> ⭐ 0</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.16134) • [📄 arXiv](https://arxiv.org/abs/2601.16134) • [📥 PDF](https://arxiv.org/pdf/2601.16134)
 
 > Some of the observations founded are :- -- Prompt design matters as much as the model : The study shows that different prompt templates using the same LLM produce significantly different educational outcomes, proving prompt engineering is a critic...
-
-</details>
-
-<details>
-<summary><b>22. Agentic Confidence Calibration</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.15778) • [📄 arXiv](https://arxiv.org/abs/2601.15778) • [📥 PDF](https://arxiv.org/pdf/2601.15778)
-
-> 🎯 Don't let your Agents be "Confidently Wrong"! Traditional calibration works for static text, but Autonomous Agents fail differently—errors compound over long trajectories. We introduce Holistic Trajectory Calibration (HTC) , a new paradigm to di...
-
-</details>
-
-<details>
-<summary><b>23. Agentic Uncertainty Quantification</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.15703) • [📄 arXiv](https://arxiv.org/abs/2601.15703) • [📥 PDF](https://arxiv.org/pdf/2601.15703)
-
-> 🛑 Stop the "Spiral of Hallucination" in Autonomous Agents! Long-horizon agents often fail because minor early errors snowball into irreversible failures. We introduce Agentic Uncertainty Quantification (AUQ) , a training-free Dual-Process framewor...
-
-</details>
-
-<details>
-<summary><b>24. From Passive Metric to Active Signal: The Evolving Role of Uncertainty Quantification in Large Language Models</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.15690) • [📄 arXiv](https://arxiv.org/abs/2601.15690) • [📥 PDF](https://arxiv.org/pdf/2601.15690)
-
-> 🗺️ The 2026 Roadmap for Reliable AI: Making Uncertainty Actionable We are witnessing a paradigm shift in LLMs: Uncertainty is no longer just a passive score for diagnosis—it is evolving into an Active Control Signal for real-time decision-making. ...
 
 </details>
 
@@ -440,7 +438,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>26. MirrorBench: An Extensible Framework to Evaluate User-Proxy Agents for Human-Likeness</b> ⭐ 6</summary>
+<summary><b>26. MirrorBench: An Extensible Framework to Evaluate User-Proxy Agents for Human-Likeness</b> ⭐ 10</summary>
 
 <br/>
 
@@ -453,7 +451,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>27. Wigner's Friend as a Circuit: Inter-Branch Communication Witness Benchmarks on Superconducting Quantum Hardware</b> ⭐ 4</summary>
+<summary><b>27. Wigner's Friend as a Circuit: Inter-Branch Communication Witness Benchmarks on Superconducting Quantum Hardware</b> ⭐ 5</summary>
 
 <br/>
 
@@ -476,27 +474,27 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 27 |
-| 📅 Today | [`2026-01-24.json`](data/daily/2026-01-24.json) | 27 |
-| 📆 This Week | [`2026-W03.json`](data/weekly/2026-W03.json) | 156 |
-| 🗓️ This Month | [`2026-01.json`](data/monthly/2026-01.json) | 585 |
+| 📅 Today | [`2026-01-25.json`](data/daily/2026-01-25.json) | 27 |
+| 📆 This Week | [`2026-W03.json`](data/weekly/2026-W03.json) | 183 |
+| 🗓️ This Month | [`2026-01.json`](data/monthly/2026-01.json) | 612 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-01-24 | 27 | [View JSON](data/daily/2026-01-24.json) |
+| 📌 2026-01-25 | 27 | [View JSON](data/daily/2026-01-25.json) |
+| 📄 2026-01-24 | 27 | [View JSON](data/daily/2026-01-24.json) |
 | 📄 2026-01-23 | 26 | [View JSON](data/daily/2026-01-23.json) |
 | 📄 2026-01-22 | 32 | [View JSON](data/daily/2026-01-22.json) |
 | 📄 2026-01-21 | 11 | [View JSON](data/daily/2026-01-21.json) |
 | 📄 2026-01-20 | 22 | [View JSON](data/daily/2026-01-20.json) |
 | 📄 2026-01-19 | 38 | [View JSON](data/daily/2026-01-19.json) |
-| 📄 2026-01-18 | 38 | [View JSON](data/daily/2026-01-18.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W03 | 156 | [View JSON](data/weekly/2026-W03.json) |
+| 📅 2026-W03 | 183 | [View JSON](data/weekly/2026-W03.json) |
 | 📅 2026-W02 | 232 | [View JSON](data/weekly/2026-W02.json) |
 | 📅 2026-W01 | 156 | [View JSON](data/weekly/2026-W01.json) |
 | 📅 2026-W00 | 41 | [View JSON](data/weekly/2026-W00.json) |
@@ -505,7 +503,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-01 | 585 | [View JSON](data/monthly/2026-01.json) |
+| 🗓️ 2026-01 | 612 | [View JSON](data/monthly/2026-01.json) |
 | 🗓️ 2025-12 | 787 | [View JSON](data/monthly/2025-12.json) |
 
 ---
