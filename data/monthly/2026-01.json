@@ -12980,5 +12980,348 @@
       "scraped_at": "2026-01-26T02:02:07.168371"
     },
     "scraped_date": "2026-01-26"
+  },
+  {
+    "title": "LongCat-Flash-Thinking-2601 Technical Report",
+    "paper_url": "https://huggingface.co/papers/2601.16725",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LongCat-Flash-Thinking-2601 Technical Report",
+      "abstract": "this is informative.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.16725",
+      "pdf_url": "https://arxiv.org/pdf/2601.16725",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.16725",
+      "scraped_at": "2026-01-27T01:57:53.550979"
+    },
+    "scraped_date": "2026-01-27"
+  },
+  {
+    "title": "SWE-Pruner: Self-Adaptive Context Pruning for Coding Agents",
+    "paper_url": "https://huggingface.co/papers/2601.16746",
+    "authors": [],
+    "stars": "35",
+    "details": {
+      "title": "SWE-Pruner: Self-Adaptive Context Pruning for Coding Agents",
+      "abstract": "wc，nb",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.16746",
+      "pdf_url": "https://arxiv.org/pdf/2601.16746",
+      "github_links": [
+        "https://github.com/Ayanami1314/swe-pruner"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.16746",
+      "scraped_at": "2026-01-27T01:57:55.428156"
+    },
+    "scraped_date": "2026-01-27"
+  },
+  {
+    "title": "TwinBrainVLA: Unleashing the Potential of Generalist VLMs for Embodied Tasks via Asymmetric Mixture-of-Transformers",
+    "paper_url": "https://huggingface.co/papers/2601.14133",
+    "authors": [],
+    "stars": "9",
+    "details": {
+      "title": "TwinBrainVLA: Unleashing the Potential of Generalist VLMs for Embodied Tasks via Asymmetric Mixture-of-Transformers",
+      "abstract": "TwinBrainVLA , a novel architecture that coordinates a generalist VLM retaining universal semantic understanding and a specialist VLM dedicated to embodied proprioception for joint robotic control.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.14133",
+      "pdf_url": "https://arxiv.org/pdf/2601.14133",
+      "github_links": [
+        "https://github.com/ZGC-EmbodyAI/TwinBrainVLA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.14133",
+      "scraped_at": "2026-01-27T01:57:57.312958"
+    },
+    "scraped_date": "2026-01-27"
+  },
+  {
+    "title": "VisGym: Diverse, Customizable, Scalable Environments for Multimodal Agents",
+    "paper_url": "https://huggingface.co/papers/2601.16973",
+    "authors": [],
+    "stars": "22",
+    "details": {
+      "title": "VisGym: Diverse, Customizable, Scalable Environments for Multimodal Agents",
+      "abstract": "We released VisGym: Diverse, Customizable, Scalable Environments for Multimodal Agents. We systematically study the brittleness of vision-language models in multi-step visual interaction, analyze how training choices shape behavior, and open-source the full benchmark, models, and trajectories. X: https://x.com/zwcolin/status/2015812327338287227 Project: https://visgym.github.io/ Paper: https://arxiv.org/abs/2601.16973 Code: https://github.com/visgym/VisGym Data & models: https://huggingface.co/VisGym",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.16973",
+      "pdf_url": "https://arxiv.org/pdf/2601.16973",
+      "github_links": [
+        "https://github.com/visgym/VIsGym",
+        "https://github.com/visgym/VisGym"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.16973",
+      "scraped_at": "2026-01-27T01:57:59.237093"
+    },
+    "scraped_date": "2026-01-27"
+  },
+  {
+    "title": "Memory-V2V: Augmenting Video-to-Video Diffusion Models with Memory",
+    "paper_url": "https://huggingface.co/papers/2601.16296",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Memory-V2V: Augmenting Video-to-Video Diffusion Models with Memory",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Plenoptic Video Generation (2026) Spatia: Video Generation with Updatable Spatial Memory (2025) StoryMem: Multi-shot Long Video Storytelling with Memory (2025) Dynamic-eDiTor: Training-Free Text-Driven 4D Scene Editing with Multimodal Diffusion Transformer (2025) ContextAnyone: Context-Aware Diffusion for Character-Consistent Text-to-Video Generation (2025) V-Warper: Appearance-Consistent Video Diffusion Personalization via Value Warping (2025) BulletTime: Decoupled Control of Time and Camera Pose for Video Generation (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.16296",
+      "pdf_url": "https://arxiv.org/pdf/2601.16296",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.16296",
+      "scraped_at": "2026-01-27T01:58:01.102913"
+    },
+    "scraped_date": "2026-01-27"
+  },
+  {
+    "title": "Inference-Time Scaling of Verification: Self-Evolving Deep Research Agents via Test-Time Rubric-Guided Verification",
+    "paper_url": "https://huggingface.co/papers/2601.15808",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Inference-Time Scaling of Verification: Self-Evolving Deep Research Agents via Test-Time Rubric-Guided Verification",
+      "abstract": "The scaling law of verification in deep research agent",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.15808",
+      "pdf_url": "https://arxiv.org/pdf/2601.15808",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.15808",
+      "scraped_at": "2026-01-27T01:58:02.949107"
+    },
+    "scraped_date": "2026-01-27"
+  },
+  {
+    "title": "Jet-RL: Enabling On-Policy FP8 Reinforcement Learning with Unified Training and Rollout Precision Flow",
+    "paper_url": "https://huggingface.co/papers/2601.14243",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Jet-RL: Enabling On-Policy FP8 Reinforcement Learning with Unified Training and Rollout Precision Flow",
+      "abstract": "This paper analyzes why existing FP8 reinforcement learning methods fail. It proposes Jet-RL, an FP8 RL training framework that enables robust and stable RL optimization by eliminating training-inference mismatch.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.14243",
+      "pdf_url": "https://arxiv.org/pdf/2601.14243",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.14243",
+      "scraped_at": "2026-01-27T01:58:04.828615"
+    },
+    "scraped_date": "2026-01-27"
+  },
+  {
+    "title": "SALAD: Achieve High-Sparsity Attention via Efficient Linear Attention Tuning for Video Diffusion Transformer",
+    "paper_url": "https://huggingface.co/papers/2601.16515",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SALAD: Achieve High-Sparsity Attention via Efficient Linear Attention Tuning for Video Diffusion Transformer",
+      "abstract": "In this work, we propose SALAD, introducing a lightweight linear attention branch in parallel with the sparse attention. By incorporating an input-dependent gating mechanism to finely balance the two branches, our method attains 90% sparsity and 1.72× inference speedup, while maintaining generation quality comparable to the full attention baseline. Moreover, our finetuning process is highly efficient, requiring only 2,000 video samples and 1,600 training steps with a batch size of 8.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.16515",
+      "pdf_url": "https://arxiv.org/pdf/2601.16515",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.16515",
+      "scraped_at": "2026-01-27T01:58:06.714348"
+    },
+    "scraped_date": "2026-01-27"
+  },
+  {
+    "title": "GameTalk: Training LLMs for Strategic Conversation",
+    "paper_url": "https://huggingface.co/papers/2601.16276",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GameTalk: Training LLMs for Strategic Conversation",
+      "abstract": "Strategic decision-making in multi-agent settings is a key challenge for large language models (LLMs), particularly when coordination and negotiation must unfold over extended conversations. While recent work has explored the use of LLMs in isolated decision tasks, little attention has been given to optimizing long-term objectives through dialogue. We introduce GameTalk, a framework for training LLMs to make strategic decisions via multi-turn interactions. Unlike prior work that focuses on single-turn objectives or static action prediction, we train LLMs to optimize a global objective across full conversations. We achieve this by adapting fine-tuning methods like GRPO, DPO, and STaR to incorporate reward signals that depend on the entire interaction. We evaluate this approach on a suite of increasingly complex games, designed to stress different aspects of reasoning, coordination, and opponent modeling. Our results show that GameTalk significantly outperforms untrained models, especially under reward shaping, with DPO consistently yielding the strongest gains. These findings position conversational fine-tuning as a promising path for LLMs to reason, negotiate, and act in interactive environments.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.16276",
+      "pdf_url": "https://arxiv.org/pdf/2601.16276",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.16276",
+      "scraped_at": "2026-01-27T01:58:08.550432"
+    },
+    "scraped_date": "2026-01-27"
+  },
+  {
+    "title": "MeepleLM: A Virtual Playtester Simulating Diverse Subjective Experiences",
+    "paper_url": "https://huggingface.co/papers/2601.07251",
+    "authors": [
+      "Jianwen Sun",
+      "Yukang Feng",
+      "Yibin Wang",
+      "Chuanhao Li",
+      "Zizhen Li"
+    ],
+    "stars": "18",
+    "details": {
+      "title": "MeepleLM: A Virtual Playtester Simulating Diverse Subjective Experiences",
+      "abstract": "https://github.com/leroy9472/MeepleLM",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.07251",
+      "pdf_url": "https://arxiv.org/pdf/2601.07251",
+      "github_links": [
+        "https://github.com/leroy9472/MeepleLM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.07251",
+      "scraped_at": "2026-01-27T01:58:10.584314"
+    },
+    "scraped_date": "2026-01-27"
+  },
+  {
+    "title": "DSGym: A Holistic Framework for Evaluating and Training Data Science Agents",
+    "paper_url": "https://huggingface.co/papers/2601.16344",
+    "authors": [
+      "Yongchan Kwon",
+      "Federico Bianchi",
+      "Harper Hua",
+      "Junlin Wang",
+      "Fan Nie"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "DSGym: A Holistic Framework for Evaluating and Training Data Science Agents",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API DSAEval: Evaluating Data Science Agents on a Wide Range of Real-World Data Science Problems (2026) SciEvalKit: An Open-source Evaluation Toolkit for Scientific General Intelligence (2025) AInsteinBench: Benchmarking Coding Agents on Scientific Repositories (2025) DataGovBench: Benchmarking LLM Agents for Real-World Data Governance Workflows (2025) HeurekaBench: A Benchmarking Framework for AI Co-scientist (2026) LongDA: Benchmarking LLM Agents for Long-Document Data Analysis (2026) ABC-Bench: Benchmarking Agentic Backend Coding in Real-World Development (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.16344",
+      "pdf_url": "https://arxiv.org/pdf/2601.16344",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.16344",
+      "scraped_at": "2026-01-27T01:58:12.422648"
+    },
+    "scraped_date": "2026-01-27"
+  },
+  {
+    "title": "Mecellem Models: Turkish Models Trained from Scratch and Continually Pre-trained for the Legal Domain",
+    "paper_url": "https://huggingface.co/papers/2601.16018",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Mecellem Models: Turkish Models Trained from Scratch and Continually Pre-trained for the Legal Domain",
+      "abstract": "Mecellem Models propose Turkish legal-domain encoders and decoders trained from scratch and via continual pre-training. ModernBERT-based encoders (112.7B tokens) achieve top-3 Turkish retrieval results with high production efficiency, while Qwen3-based decoders show 36.2% perplexity reduction on legal text. Models and datasets are released via Hugging Face to support reproducible and cost-effective legal NLP for Turkish and other low-resource languages.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.16018",
+      "pdf_url": "https://arxiv.org/pdf/2601.16018",
+      "github_links": [
+        "https://github.com/newmindai/mecellem-models"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.16018",
+      "scraped_at": "2026-01-27T01:58:14.317360"
+    },
+    "scraped_date": "2026-01-27"
+  },
+  {
+    "title": "Endless Terminals: Scaling RL Environments for Terminal Agents",
+    "paper_url": "https://huggingface.co/papers/2601.16443",
+    "authors": [],
+    "stars": "9",
+    "details": {
+      "title": "Endless Terminals: Scaling RL Environments for Terminal Agents",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API From Failure to Mastery: Generating Hard Samples for Tool-use Agents (2026) Training Versatile Coding Agents in Synthetic Environments (2025) One Tool Is Enough: Reinforcement Learning for Repository-Level LLM Agents (2025) Dr. Zero: Self-Evolving Search Agents without Training Data (2026) NL2Repo-Bench: Towards Long-Horizon Repository Generation Evaluation of Coding Agents (2025) SPARK: Stepwise Process-Aware Rewards for Reference-Free Reinforcement Learning (2025) AutoForge: Automated Environment Synthesis for Agentic Reinforcement Learning (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.16443",
+      "pdf_url": "https://arxiv.org/pdf/2601.16443",
+      "github_links": [
+        "https://github.com/kanishkg/endless-terminals"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.16443",
+      "scraped_at": "2026-01-27T01:58:16.138892"
+    },
+    "scraped_date": "2026-01-27"
+  },
+  {
+    "title": "ChartVerse: Scaling Chart Reasoning via Reliable Programmatic Synthesis from Scratch",
+    "paper_url": "https://huggingface.co/papers/2601.13606",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "ChartVerse: Scaling Chart Reasoning via Reliable Programmatic Synthesis from Scratch",
+      "abstract": "High-quality synthetic Chart data and strong Chart reasoning model.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.13606",
+      "pdf_url": "https://arxiv.org/pdf/2601.13606",
+      "github_links": [
+        "https://github.com/starriver030515/ChartVerse"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.13606",
+      "scraped_at": "2026-01-27T01:58:18.182354"
+    },
+    "scraped_date": "2026-01-27"
+  },
+  {
+    "title": "Knowledge is Not Enough: Injecting RL Skills for Continual Adaptation",
+    "paper_url": "https://huggingface.co/papers/2601.11258",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Knowledge is Not Enough: Injecting RL Skills for Continual Adaptation",
+      "abstract": "Let Your LLMs Use New Knowledge with “PaST” Skills Paper: https://arxiv.org/abs/2601.11258 Blog: https://past-blog.notion.site",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.11258",
+      "pdf_url": "https://arxiv.org/pdf/2601.11258",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.11258",
+      "scraped_at": "2026-01-27T01:58:20.042830"
+    },
+    "scraped_date": "2026-01-27"
+  },
+  {
+    "title": "Dancing in Chains: Strategic Persuasion in Academic Rebuttal via Theory of Mind",
+    "paper_url": "https://huggingface.co/papers/2601.15715",
+    "authors": [
+      "Yi R Fung",
+      "Zongwei Lyu",
+      "Zhitao He"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Dancing in Chains: Strategic Persuasion in Academic Rebuttal via Theory of Mind",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Paper2Rebuttal: A Multi-Agent Framework for Transparent Author Response Assistance (2026) Dual-Phase LLM Reasoning: Self-Evolved Mathematical Frameworks (2026) CogDoc: Towards Unified thinking in Documents (2025) Think-Reflect-Revise: A Policy-Guided Reflective Framework for Safety Alignment in Large Vision Language Models (2025) Character-R1: Enhancing Role-Aware Reasoning in Role-Playing Agents via RLVR (2026) REVEALER: Reinforcement-Guided Visual Reasoning for Element-Level Text-Image Alignment Evaluation (2025) R-Debater: Retrieval-Augmented Debate Generation through Argumentative Memory (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.15715",
+      "pdf_url": "https://arxiv.org/pdf/2601.15715",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.15715",
+      "scraped_at": "2026-01-27T01:58:21.862502"
+    },
+    "scraped_date": "2026-01-27"
+  },
+  {
+    "title": "Guidelines to Prompt Large Language Models for Code Generation: An Empirical Characterization",
+    "paper_url": "https://huggingface.co/papers/2601.13118",
+    "authors": [
+      "Gabriele Bavota",
+      "Rosalia Tufano",
+      "Fiorella Zampetti",
+      "Alessandro Midolo",
+      "Devy1"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Guidelines to Prompt Large Language Models for Code Generation: An Empirical Characterization",
+      "abstract": ".",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.13118",
+      "pdf_url": "https://arxiv.org/pdf/2601.13118",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.13118",
+      "scraped_at": "2026-01-27T01:58:23.760413"
+    },
+    "scraped_date": "2026-01-27"
+  },
+  {
+    "title": "VISTA-PATH: An interactive foundation model for pathology image segmentation and quantitative analysis in computational pathology",
+    "paper_url": "https://huggingface.co/papers/2601.16451",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "VISTA-PATH: An interactive foundation model for pathology image segmentation and quantitative analysis in computational pathology",
+      "abstract": "🚀 VISTA-PATH is introduced as the first interactive segmentation foundation model for pathology. It advances computational pathology workflows by enabling more accurate, interpretable, and human-guided quantitative measurements. Key highlights include: 1️⃣ Large-scale training: Trained on over 1.6M image-mask-text pairs 2️⃣ State-of-the-art performance: Accurate segmentation across both in-distribution and out-of-distribution tissues 3️⃣ Interactive refinement: Outputs can be efficiently refined using bounding-box prompts with only a few active-learning steps 4️⃣ Deployment-ready: Fully integrated into https://tissuelab.org and available for immediate use 📄 Read the arXiv preprint: https://arxiv.org/abs/2601.16451",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.16451",
+      "pdf_url": "https://arxiv.org/pdf/2601.16451",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.16451",
+      "scraped_at": "2026-01-27T01:58:25.717710"
+    },
+    "scraped_date": "2026-01-27"
   }
 ]
