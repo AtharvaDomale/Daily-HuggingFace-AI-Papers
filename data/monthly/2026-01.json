@@ -14045,5 +14045,397 @@
       "scraped_at": "2026-01-28T01:54:59.782980"
     },
     "scraped_date": "2026-01-28"
+  },
+  {
+    "title": "AgentDoG: A Diagnostic Guardrail Framework for AI Agent Safety and Security",
+    "paper_url": "https://huggingface.co/papers/2601.18491",
+    "authors": [],
+    "stars": "178",
+    "details": {
+      "title": "AgentDoG: A Diagnostic Guardrail Framework for AI Agent Safety and Security",
+      "abstract": "AgentDoG: A Diagnostic Guardrail Framework for AI Agent Safety and Security",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.18491",
+      "pdf_url": "https://arxiv.org/pdf/2601.18491",
+      "github_links": [
+        "https://github.com/AI45Lab/AgentDoG"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.18491",
+      "scraped_at": "2026-01-29T02:08:04.394750"
+    },
+    "scraped_date": "2026-01-29"
+  },
+  {
+    "title": "AdaReasoner: Dynamic Tool Orchestration for Iterative Visual Reasoning",
+    "paper_url": "https://huggingface.co/papers/2601.18631",
+    "authors": [],
+    "stars": "44",
+    "details": {
+      "title": "AdaReasoner: Dynamic Tool Orchestration for Iterative Visual Reasoning",
+      "abstract": "For more information, please visit our homepage: https://adareasoner.github.io",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.18631",
+      "pdf_url": "https://arxiv.org/pdf/2601.18631",
+      "github_links": [
+        "https://github.com/ssmisya/AdaReasoner"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.18631",
+      "scraped_at": "2026-01-29T02:08:06.400581"
+    },
+    "scraped_date": "2026-01-29"
+  },
+  {
+    "title": "A Pragmatic VLA Foundation Model",
+    "paper_url": "https://huggingface.co/papers/2601.18692",
+    "authors": [],
+    "stars": "245",
+    "details": {
+      "title": "A Pragmatic VLA Foundation Model",
+      "abstract": "A Pragmatic VLA Foundation Model",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.18692",
+      "pdf_url": "https://arxiv.org/pdf/2601.18692",
+      "github_links": [
+        "https://github.com/robbyant/lingbot-vla"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.18692",
+      "scraped_at": "2026-01-29T02:08:08.410068"
+    },
+    "scraped_date": "2026-01-29"
+  },
+  {
+    "title": "Visual Generation Unlocks Human-Like Reasoning through Multimodal World Models",
+    "paper_url": "https://huggingface.co/papers/2601.19834",
+    "authors": [],
+    "stars": "36",
+    "details": {
+      "title": "Visual Generation Unlocks Human-Like Reasoning through Multimodal World Models",
+      "abstract": "TL;DR : From a world-model perspective, we study when and how visual generation enabled by unified multimodal models (UMMs) benefits reasoning. Humans construct mental models of the world, representing information and knowledge through two complementary channels—verbal and visual—to support reasoning, planning, and decision-making. In contrast, recent advances in large language models (LLMs) and vision–language models (VLMs) largely rely on verbal chain-of-thought reasoning, leveraging primarily symbolic and linguistic world knowledge. Unified multimodal models (UMMs) open a new paradigm by using visual generation for visual world modeling, advancing more human-like reasoning on tasks grounded in the physical world. In this work: We formalize the atomic capabilities of world models and world model-based chain-of-thought reasoning. We highlight the richer informativeness and complementary prior knowledge afforded by visual world modeling, leading to our visual superiority hypothesis for tasks grounded in the physical world. We identify and design tasks that necessitate interleaved visual-verbal CoT reasoning, constructing a new evaluation suite, VisWorld-Eval . Through controlled experiments on BAGEL, we show that interleaved CoT significantly outperforms purely verbal CoT on tasks that favor visual world modeling, strongly supporting our insights. For more details, check our project page or paper .",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.19834",
+      "pdf_url": "https://arxiv.org/pdf/2601.19834",
+      "github_links": [
+        "https://github.com/thuml/Reasoning-Visual-World"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.19834",
+      "scraped_at": "2026-01-29T02:08:10.368411"
+    },
+    "scraped_date": "2026-01-29"
+  },
+  {
+    "title": "Youtu-VL: Unleashing Visual Potential via Unified Vision-Language Supervision",
+    "paper_url": "https://huggingface.co/papers/2601.19798",
+    "authors": [],
+    "stars": "35",
+    "details": {
+      "title": "Youtu-VL: Unleashing Visual Potential via Unified Vision-Language Supervision",
+      "abstract": "Performs on par with Qwen3-VL-8B-Instruct on visual based tasks despite being half the size.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.19798",
+      "pdf_url": "https://arxiv.org/pdf/2601.19798",
+      "github_links": [
+        "https://github.com/TencentCloudADP/youtu-vl"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.19798",
+      "scraped_at": "2026-01-29T02:08:12.467514"
+    },
+    "scraped_date": "2026-01-29"
+  },
+  {
+    "title": "AVMeme Exam: A Multimodal Multilingual Multicultural Benchmark for LLMs' Contextual and Cultural Knowledge and Thinking",
+    "paper_url": "https://huggingface.co/papers/2601.17645",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AVMeme Exam: A Multimodal Multilingual Multicultural Benchmark for LLMs' Contextual and Cultural Knowledge and Thinking",
+      "abstract": "Demo: https://avmemeexam.github.io/public Dataset: https://huggingface.co/datasets/naplab/AVMeme-Exam",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.17645",
+      "pdf_url": "https://arxiv.org/pdf/2601.17645",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.17645",
+      "scraped_at": "2026-01-29T02:08:14.655068"
+    },
+    "scraped_date": "2026-01-29"
+  },
+  {
+    "title": "World Craft: Agentic Framework to Create Visualizable Worlds via Text",
+    "paper_url": "https://huggingface.co/papers/2601.09150",
+    "authors": [],
+    "stars": "40",
+    "details": {
+      "title": "World Craft: Agentic Framework to Create Visualizable Worlds via Text",
+      "abstract": "https://github.com/HerzogFL/World-Craft Large Language Models (LLMs) motivate generative agent simulation (e.g., AI Town) to create a \"dynamic world'', holding immense value across entertainment and research. However, for non-experts, especially those without programming skills, it isn't easy to customize a visualizable environment by themselves. In this paper, we introduce World Craft, an agentic world creation framework to create an executable and visualizable AI Town via user textual descriptions. It consists of two main modules, World Scaffold and World Guild. World Scaffold is a structured and concise standardization to develop interactive game scenes, serving as an efficient scaffolding for LLMs to customize an executable AI Town-like environment. World Guild is a multi-agent framework to progressively analyze users' intents from rough descriptions, and synthesizes required structured contents (e.g., environment layout and assets) for World Scaffold . Moreover, we construct a high-quality error-correction dataset via reverse engineering to enhance spatial knowledge and improve the stability and controllability of layout generation, while reporting multi-dimensional evaluation metrics for further analysis. Extensive experiments demonstrate that our framework significantly outperforms existing commercial code agents (Cursor and Antigravity) and LLMs (Qwen3 and Gemini-3-Pro). in scene construction and narrative intent conveyance, providing a scalable solution for the democratization of environment creation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.09150",
+      "pdf_url": "https://arxiv.org/pdf/2601.09150",
+      "github_links": [
+        "https://github.com/HerzogFL/World-Craft"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.09150",
+      "scraped_at": "2026-01-29T02:08:16.735410"
+    },
+    "scraped_date": "2026-01-29"
+  },
+  {
+    "title": "Post-LayerNorm Is Back: Stable, ExpressivE, and Deep",
+    "paper_url": "https://huggingface.co/papers/2601.19895",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Post-LayerNorm Is Back: Stable, ExpressivE, and Deep",
+      "abstract": "🚀 Only a few lines of code changed, and we pushed deep LLMs to the next level. 📈 With Keel, we scaled LLM to 1000 layers. And the deeper we go, the more Keel pulls ahead of standard Pre-LN Transformers.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.19895",
+      "pdf_url": "https://arxiv.org/pdf/2601.19895",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.19895",
+      "scraped_at": "2026-01-29T02:08:18.763802"
+    },
+    "scraped_date": "2026-01-29"
+  },
+  {
+    "title": "TriPlay-RL: Tri-Role Self-Play Reinforcement Learning for LLM Safety Alignment",
+    "paper_url": "https://huggingface.co/papers/2601.18292",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "TriPlay-RL: Tri-Role Self-Play Reinforcement Learning for LLM Safety Alignment",
+      "abstract": "TriPlay-RL: Solving the Safety vs. Reasoning Trade-off with 3-Way Self-Play Really interesting take on automated safety alignment. We've seen plenty of \"Red Team vs. Blue Team\" setups, but they often suffer from two issues: the Red Team eventually finds one exploit and spams it (mode collapse), or the Blue Team becomes \"safe\" but loses its general reasoning abilities (the alignment tax). This paper introduces TriPlay-RL, which adds a third active player: an Evolving Evaluator. Instead of using a fixed reward model or human labels, all three roles (Attacker, Defender, Evaluator) co-evolve in a closed loop. Why this stands out: No Alignment Tax: The Defender improved safety performance by 10-30% without degrading general reasoning benchmarks. This is usually the hardest part of safety training. Diverse Attacks: They use diversity penalties to stop the Attacker from collapsing into a single pattern, keeping the pressure on the Defender high. Near-Zero Data: It works with minimal manual annotation, making it scalable. It feels like a step closer to an \"AlphaZero\" moment for safety alignment. Highly recommend checking the ablation studies on entropy collapse!",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.18292",
+      "pdf_url": "https://arxiv.org/pdf/2601.18292",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.18292",
+      "scraped_at": "2026-01-29T02:08:20.927968"
+    },
+    "scraped_date": "2026-01-29"
+  },
+  {
+    "title": "FABLE: Forest-Based Adaptive Bi-Path LLM-Enhanced Retrieval for Multi-Document Reasoning",
+    "paper_url": "https://huggingface.co/papers/2601.18116",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "FABLE: Forest-Based Adaptive Bi-Path LLM-Enhanced Retrieval for Multi-Document Reasoning",
+      "abstract": "With the rise of 1M+ context windows in Gemini and Claude, the biggest debate in AI right now is: \"Do we still need RAG, or should we just dump everything into the prompt?\" Today's pick, FABLE: Forest-Based Adaptive Bi-Path LLM-Enhanced Retrieval for Multi-Document Reasoning, provides a compelling answer: Long context is great, but structured navigation is better (and much cheaper). What makes FABLE stand out from the sea of RAG papers is that it reimagines the LLM's role. It stops treating the LLM as just a \"reader\" and turns it into a \"librarian\": Forests > Flat Chunks: Instead of the traditional \"chunk + vector search\" which loses global context, FABLE uses LLMs to pre-build Hierarchical Knowledge Forests. This allows the system to actively \"zoom in\" for granular details or \"zoom out\" for high-level synthesis depending on the query. The Bi-Path Innovation: It doesn't rely on just one retrieval method. It runs a Bi-Path Strategy: one path uses LLM reasoning to navigate the document structure (symbolic/logic), and the other uses vector propagation (semantic similarity). This hybrid approach captures subtle connections that vector databases often miss. Insane Efficiency: The results are the real hook here. FABLE achieves the same reasoning accuracy as full-context inference (517k tokens) while using only ~31k tokens. That is a 94% reduction in compute/cost without sacrificing quality. Why read this? If you are working on Agents or Multi-Document QA, you know that \"Lost-in-the-middle\" is a real pain. FABLE proves that giving LLMs a map (the semantic forest) is more effective than just giving them a bigger backpack (context window). It beats graph-based baselines like HippoRAG and is a refreshing take on how to scale reasoning without scaling costs. A must-read for anyone trying to optimize RAG pipelines for complex tasks!",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.18116",
+      "pdf_url": "https://arxiv.org/pdf/2601.18116",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.18116",
+      "scraped_at": "2026-01-29T02:08:22.808809"
+    },
+    "scraped_date": "2026-01-29"
+  },
+  {
+    "title": "Towards Pixel-Level VLM Perception via Simple Points Prediction",
+    "paper_url": "https://huggingface.co/papers/2601.19228",
+    "authors": [],
+    "stars": "17",
+    "details": {
+      "title": "Towards Pixel-Level VLM Perception via Simple Points Prediction",
+      "abstract": "Project Page: https://simpleseg.github.io/ Github: https://github.com/songtianhui/SimpleSeg HuggingFace: https://huggingface.co/collections/sthui/simpleseg",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.19228",
+      "pdf_url": "https://arxiv.org/pdf/2601.19228",
+      "github_links": [
+        "https://github.com/songtianhui/SimpleSeg"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.19228",
+      "scraped_at": "2026-01-29T02:08:24.705429"
+    },
+    "scraped_date": "2026-01-29"
+  },
+  {
+    "title": "Selective Steering: Norm-Preserving Control Through Discriminative Layer Selection",
+    "paper_url": "https://huggingface.co/papers/2601.19375",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Selective Steering: Norm-Preserving Control Through Discriminative Layer Selection",
+      "abstract": "We introduce Selective Steering, a principled norm-preserving activation steering method that enables stable, continuous control of LLM behavior while significantly improving adversarial attack effectiveness without sacrificing model capabilities. Page: https://knoveleng.github.io/steering/ Code: https://github.com/knoveleng/steering",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.19375",
+      "pdf_url": "https://arxiv.org/pdf/2601.19375",
+      "github_links": [
+        "https://github.com/knoveleng/steering"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.19375",
+      "scraped_at": "2026-01-29T02:08:26.607468"
+    },
+    "scraped_date": "2026-01-29"
+  },
+  {
+    "title": "Revisiting Parameter Server in LLM Post-Training",
+    "paper_url": "https://huggingface.co/papers/2601.19362",
+    "authors": [],
+    "stars": "8",
+    "details": {
+      "title": "Revisiting Parameter Server in LLM Post-Training",
+      "abstract": "Modern data parallel (DP) training favors collective communication over parameter servers (PS) for its simplicity and efficiency under balanced workloads. However, the balanced workload assumption no longer holds in large language model (LLM) post-training due to the high variance in sequence lengths. Under imbalanced workloads, collective communication creates synchronization barriers, leading to under-utilization of devices with smaller workloads. This change in training dynamics calls for a revisit of the PS paradigm for its robustness to such imbalance. We propose On-Demand Communication (ODC) , which adapts PS into Fully Sharded Data Parallel (FSDP) by replacing collective all-gather and reduce-scatter with direct point-to-point communication. Compared to FSDP, ODC reduces the synchronization barrier from once per layer to once per minibatch and decouples the workload on each device so that faster workers are not stalled. It also enables simpler and more effective load balancing at the minibatch level. Across diverse LLM post-training tasks, ODC consistently improves device utilization and training throughput, achieving up to a 36% speedup over standard FSDP. These results demonstrate that ODC is a superior fit for the prevalent imbalanced workloads in LLM post-training. Our implementation of ODC and integration with FSDP is open-sourced at github .",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.19362",
+      "pdf_url": "https://arxiv.org/pdf/2601.19362",
+      "github_links": [
+        "https://github.com/sail-sg/odc"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.19362",
+      "scraped_at": "2026-01-29T02:08:28.752540"
+    },
+    "scraped_date": "2026-01-29"
+  },
+  {
+    "title": "HalluCitation Matters: Revealing the Impact of Hallucinated References with 300 Hallucinated Papers in ACL Conferences",
+    "paper_url": "https://huggingface.co/papers/2601.18724",
+    "authors": [
+      "Taro Watanabe",
+      "Hidetaka Kamigaito",
+      "Yusuke Sakai"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "HalluCitation Matters: Revealing the Impact of Hallucinated References with 300 Hallucinated Papers in ACL Conferences",
+      "abstract": "arXivlens breakdown of this paper 👉 https://arxivlens.com/PaperView/Details/hallucitation-matters-revealing-the-impact-of-hallucinated-references-with-300-hallucinated-papers-in-acl-conferences-2856-e431efdf Executive Summary Detailed Breakdown Practical Applications",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.18724",
+      "pdf_url": "https://arxiv.org/pdf/2601.18724",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.18724",
+      "scraped_at": "2026-01-29T02:08:30.853885"
+    },
+    "scraped_date": "2026-01-29"
+  },
+  {
+    "title": "HyperAlign: Hypernetwork for Efficient Test-Time Alignment of Diffusion Models",
+    "paper_url": "https://huggingface.co/papers/2601.15968",
+    "authors": [
+      "Jiaxian Guo",
+      "Xin Xie",
+      "dginf"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "HyperAlign: Hypernetwork for Efficient Test-Time Alignment of Diffusion Models",
+      "abstract": "HyperAlign: Hypernetwork for Efficient Test-Time Alignment of Diffusion Models",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.15968",
+      "pdf_url": "https://arxiv.org/pdf/2601.15968",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.15968",
+      "scraped_at": "2026-01-29T02:08:32.912590"
+    },
+    "scraped_date": "2026-01-29"
+  },
+  {
+    "title": "Self-Distillation Enables Continual Learning",
+    "paper_url": "https://huggingface.co/papers/2601.19897",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Self-Distillation Enables Continual Learning",
+      "abstract": "Check out our website and code: www.idanshenfeld.com/SDFT",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.19897",
+      "pdf_url": "https://arxiv.org/pdf/2601.19897",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.19897",
+      "scraped_at": "2026-01-29T02:08:35.100990"
+    },
+    "scraped_date": "2026-01-29"
+  },
+  {
+    "title": "Benchmarks Saturate When The Model Gets Smarter Than The Judge",
+    "paper_url": "https://huggingface.co/papers/2601.19532",
+    "authors": [
+      "Vincent Ginis",
+      "Brecht Verbeken",
+      "Andres Algaba",
+      "martheballon"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Benchmarks Saturate When The Model Gets Smarter Than The Judge",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.19532",
+      "pdf_url": "https://arxiv.org/pdf/2601.19532",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.19532",
+      "scraped_at": "2026-01-29T02:08:37.064494"
+    },
+    "scraped_date": "2026-01-29"
+  },
+  {
+    "title": "GPCR-Filter: a deep learning framework for efficient and precise GPCR modulator discovery",
+    "paper_url": "https://huggingface.co/papers/2601.19149",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GPCR-Filter: a deep learning framework for efficient and precise GPCR modulator discovery",
+      "abstract": "GPCR-Filter is a compound–protein interaction model that couples ESM-3 GPCR sequence embeddings with ligand graph representations through attention-based feature interaction, trained on 90k+ curated GPCR–ligand pairs. It shows stronger OOD generalization to unseen receptors and ligands than prior baselines and recovers micromolar 5-HT₁A agonists with diverse scaffolds.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.19149",
+      "pdf_url": "https://arxiv.org/pdf/2601.19149",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.19149",
+      "scraped_at": "2026-01-29T02:08:38.949971"
+    },
+    "scraped_date": "2026-01-29"
+  },
+  {
+    "title": "DeFM: Learning Foundation Representations from Depth for Robotics",
+    "paper_url": "https://huggingface.co/papers/2601.18923",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DeFM: Learning Foundation Representations from Depth for Robotics",
+      "abstract": "DeFM (Depth Foundation Model) is a vision backbone trained on 60M depth images via self-distillation. It is engineered for robotic perception, providing metric-aware representations that excel in sim-to-real transfer and cross-sensor generalization. TL;DR - A DINO-style encoder, but for depth image inputs. Works zero-shot on diverse robotics and computer vision tasks! webpage: https://de-fm.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.18923",
+      "pdf_url": "https://arxiv.org/pdf/2601.18923",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.18923",
+      "scraped_at": "2026-01-29T02:08:40.980016"
+    },
+    "scraped_date": "2026-01-29"
+  },
+  {
+    "title": "EvolVE: Evolutionary Search for LLM-based Verilog Generation and Optimization",
+    "paper_url": "https://huggingface.co/papers/2601.18067",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "EvolVE: Evolutionary Search for LLM-based Verilog Generation and Optimization",
+      "abstract": "Verilog’s design cycle is inherently labor-intensive and necessitates extensive domain expertise. Although Large Language Models (LLMs) offer a promising pathway toward automation, their limited training data and intrinsic sequential reasoning fail to capture the strict formal logic and concurrency inherent in hardware systems. To overcome these barriers, we present EvolVE, the first framework to analyze multiple evolution strategies on chip design tasks, revealing that Monte Carlo Tree Search (MCTS) excels at maximizing functional correctness, while Idea-Guided Refinement (IGR) proves superior for optimization. We further leverage Structured Testbench Generation (STG) to accelerate the evolutionary process. To address the lack of complex optimization benchmarks, we introduce IC-RTL, targeting industry-scale problems derived from the National Integrated Circuit Contest. Evaluations establish EvolVE as the new state-of-the-art, achieving 98.1% on VerilogEval v2 and 92% on RTLLM v2. Furthermore, on the industry-scale IC-RTL suite, our framework surpasses reference implementations authored by contest participants, reducing the Power, Performance, Area (PPA) product by up to 66% in Huffman Coding and 17% in the geometric mean across all problems. The source code of the IC-RTL benchmark is available at https://github.com/weiber2002/ICRTL .",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.18067",
+      "pdf_url": "https://arxiv.org/pdf/2601.18067",
+      "github_links": [
+        "https://github.com/weiber2002/ICRTL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.18067",
+      "scraped_at": "2026-01-29T02:08:42.879305"
+    },
+    "scraped_date": "2026-01-29"
+  },
+  {
+    "title": "CooperBench: Why Coding Agents Cannot be Your Teammates Yet",
+    "paper_url": "https://huggingface.co/papers/2601.13295",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "CooperBench: Why Coding Agents Cannot be Your Teammates Yet",
+      "abstract": "Resolving team conflicts requires not only task-specific competence, but also social intelligence to find common ground and build consensus. As AI agents increasingly collaborate on complex work, they must develop coordination capabilities to function as effective teammates. Yet we hypothesize that current agents lack these capabilities. To test this, we introduce CooperBench, a benchmark of over 600 collaborative coding tasks across 12 libraries in 4 programming languages. Each task assigns two agents different features that can be implemented independently but may conflict without proper coordination. Tasks are grounded in real open-source repositories with expert-written tests. Evaluating state-of-the-art coding agents, we observe the curse of coordination: agents achieve on average 30% lower success rates when working together compared to performing both tasks individually. This contrasts sharply with human teams, where adding teammates typically improves productivity. Our analysis reveals three key issues: (1) communication channels become jammed with vague, ill-timed, and inaccurate messages; (2) even with effective communication, agents deviate from their commitments; and (3) agents often hold incorrect expectations about others' plans and communication. Through large-scale simulation, we also observe rare but interesting emergent coordination behavior including role division, resource division, and negotiation. Our research presents a novel benchmark for collaborative coding and calls for a shift from pursuing individual agent capability to developing social intelligence.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.13295",
+      "pdf_url": "https://arxiv.org/pdf/2601.13295",
+      "github_links": [
+        "https://github.com/cooperbench/CooperBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.13295",
+      "scraped_at": "2026-01-29T02:08:44.800527"
+    },
+    "scraped_date": "2026-01-29"
   }
 ]
