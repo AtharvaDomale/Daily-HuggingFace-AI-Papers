@@ -1982,5 +1982,403 @@
       "scraped_at": "2026-01-29T02:08:44.800527"
     },
     "scraped_date": "2026-01-29"
+  },
+  {
+    "title": "Harder Is Better: Boosting Mathematical Reasoning via Difficulty-Aware GRPO and Multi-Aspect Question Reformulation",
+    "paper_url": "https://huggingface.co/papers/2601.20614",
+    "authors": [],
+    "stars": "84",
+    "details": {
+      "title": "Harder Is Better: Boosting Mathematical Reasoning via Difficulty-Aware GRPO and Multi-Aspect Question Reformulation",
+      "abstract": "Accepted for ICLR 2026",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.20614",
+      "pdf_url": "https://arxiv.org/pdf/2601.20614",
+      "github_links": [
+        "https://github.com/AMAP-ML/MathForge"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.20614",
+      "scraped_at": "2026-01-30T02:08:03.359880"
+    },
+    "scraped_date": "2026-01-30"
+  },
+  {
+    "title": "Advancing Open-source World Models",
+    "paper_url": "https://huggingface.co/papers/2601.20540",
+    "authors": [],
+    "stars": "756",
+    "details": {
+      "title": "Advancing Open-source World Models",
+      "abstract": "LingBot-World: Advancing Open-source World Models",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.20540",
+      "pdf_url": "https://arxiv.org/pdf/2601.20540",
+      "github_links": [
+        "https://github.com/Robbyant/lingbot-world/"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.20540",
+      "scraped_at": "2026-01-30T02:08:05.280511"
+    },
+    "scraped_date": "2026-01-30"
+  },
+  {
+    "title": "Innovator-VL: A Multimodal Large Language Model for Scientific Discovery",
+    "paper_url": "https://huggingface.co/papers/2601.19325",
+    "authors": [],
+    "stars": "70",
+    "details": {
+      "title": "Innovator-VL: A Multimodal Large Language Model for Scientific Discovery",
+      "abstract": "Homepage: https://innovatorlm.github.io/Innovator-VL Github: https://github.com/InnovatorLM/Innovator-VL",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.19325",
+      "pdf_url": "https://arxiv.org/pdf/2601.19325",
+      "github_links": [
+        "https://github.com/InnovatorLM/Innovator-VL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.19325",
+      "scraped_at": "2026-01-30T02:08:07.171795"
+    },
+    "scraped_date": "2026-01-30"
+  },
+  {
+    "title": "DeepSeek-OCR 2: Visual Causal Flow",
+    "paper_url": "https://huggingface.co/papers/2601.20552",
+    "authors": [],
+    "stars": "1.56k",
+    "details": {
+      "title": "DeepSeek-OCR 2: Visual Causal Flow",
+      "abstract": "Proposes DeepSeek-OCR 2 with a causal, reordering encoder (DeepEncoder V2) to dynamically rearrange visual tokens for LLMs, enabling 2D reasoning via two cascaded 1D causal structures.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.20552",
+      "pdf_url": "https://arxiv.org/pdf/2601.20552",
+      "github_links": [
+        "https://github.com/deepseek-ai/DeepSeek-OCR-2"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.20552",
+      "scraped_at": "2026-01-30T02:08:09.078301"
+    },
+    "scraped_date": "2026-01-30"
+  },
+  {
+    "title": "Spark: Strategic Policy-Aware Exploration via Dynamic Branching for Long-Horizon Agentic Learning",
+    "paper_url": "https://huggingface.co/papers/2601.20209",
+    "authors": [
+      "Shuai Zhang",
+      "Yuhao Shen",
+      "Changpeng Yang",
+      "Shuo Yang",
+      "Jinyang23"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Spark: Strategic Policy-Aware Exploration via Dynamic Branching for Long-Horizon Agentic Learning",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.20209",
+      "pdf_url": "https://arxiv.org/pdf/2601.20209",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.20209",
+      "scraped_at": "2026-01-30T02:08:10.927956"
+    },
+    "scraped_date": "2026-01-30"
+  },
+  {
+    "title": "Linear representations in language models can change dramatically over a conversation",
+    "paper_url": "https://huggingface.co/papers/2601.20834",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Linear representations in language models can change dramatically over a conversation",
+      "abstract": "LM representations along linear directions evolve during conversations, with factual content shifting over time; changes depend on context, robust across models, and challenge static interpretability and steering.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.20834",
+      "pdf_url": "https://arxiv.org/pdf/2601.20834",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.20834",
+      "scraped_at": "2026-01-30T02:08:12.800498"
+    },
+    "scraped_date": "2026-01-30"
+  },
+  {
+    "title": "Reinforcement Learning via Self-Distillation",
+    "paper_url": "https://huggingface.co/papers/2601.20802",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Reinforcement Learning via Self-Distillation",
+      "abstract": "We introduce Self-Distillation Policy Optimization (SDPO), a method for online RL that leverages the model's own ability to interpret rich feedback to drastically speed up training and boost reasoning capabilities on hard tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.20802",
+      "pdf_url": "https://arxiv.org/pdf/2601.20802",
+      "github_links": [
+        "https://github.com/lasgroup/SDPO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.20802",
+      "scraped_at": "2026-01-30T02:08:14.741122"
+    },
+    "scraped_date": "2026-01-30"
+  },
+  {
+    "title": "SERA: Soft-Verified Efficient Repository Agents",
+    "paper_url": "https://huggingface.co/papers/2601.20789",
+    "authors": [],
+    "stars": "75",
+    "details": {
+      "title": "SERA: Soft-Verified Efficient Repository Agents",
+      "abstract": "Introduces SERA for efficient open-weight coding agents trained via supervised finetuning; SVG generates synthetic trajectories to cheaply specialize agents to private codebases with strong open-model performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.20789",
+      "pdf_url": "https://arxiv.org/pdf/2601.20789",
+      "github_links": [
+        "https://github.com/allenai/SERA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.20789",
+      "scraped_at": "2026-01-30T02:08:16.570295"
+    },
+    "scraped_date": "2026-01-30"
+  },
+  {
+    "title": "VERGE: Formal Refinement and Guidance Engine for Verifiable LLM Reasoning",
+    "paper_url": "https://huggingface.co/papers/2601.20055",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "VERGE: Formal Refinement and Guidance Engine for Verifiable LLM Reasoning",
+      "abstract": "In this paper, we introduce VERGE, a neuro-symbolic framework designed to bridge the semantic gap between LLM fluency and formal correctness by addressing the \"all-or-nothing\" limitation of traditional solvers. A key innovation is Semantic Routing, which dynamically classifies atomic claims to handle non-formalizable natural language; verifiable logic is sent to SMT solvers (Z3) for proof, while ambiguous or commonsense claims are routed to a consensus-based \"soft verifier,\" preventing the system from breaking on vague predicates. Furthermore, we replace generic error signals with actionable feedback via Minimal Correction Subsets (MCS), which pinpoint the precise subset of conflicting claims to revise, enabling the model to iteratively refine its reasoning from \"probabilistic\" to \"provable\" with an 18.7% performance uplift",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.20055",
+      "pdf_url": "https://arxiv.org/pdf/2601.20055",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.20055",
+      "scraped_at": "2026-01-30T02:08:18.452732"
+    },
+    "scraped_date": "2026-01-30"
+  },
+  {
+    "title": "OmegaUse: Building a General-Purpose GUI Agent for Autonomous Task Execution",
+    "paper_url": "https://huggingface.co/papers/2601.20380",
+    "authors": [
+      "Yusai Zhao",
+      "Jingjia Cao",
+      "Xinjiang Lu",
+      "Yixiong Xiao",
+      "Le Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "OmegaUse: Building a General-Purpose GUI Agent for Autonomous Task Execution",
+      "abstract": "OmegaUse is a general GUI agent enabling autonomous desktop and mobile task execution, trained with curated data, SFT and GRPO, MoE backbone, and evaluated on OS-Nav benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.20380",
+      "pdf_url": "https://arxiv.org/pdf/2601.20380",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.20380",
+      "scraped_at": "2026-01-30T02:08:20.311133"
+    },
+    "scraped_date": "2026-01-30"
+  },
+  {
+    "title": "Group Distributionally Robust Optimization-Driven Reinforcement Learning for LLM Reasoning",
+    "paper_url": "https://huggingface.co/papers/2601.19280",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Group Distributionally Robust Optimization-Driven Reinforcement Learning for LLM Reasoning",
+      "abstract": "Beyond Uniform-data LLM Reasoning: We propose an optimization-first framework, based on Group Distributionally Robust Optimization (GDRO), that moves beyond uniform reasoning models by dynamically adapting the training distribution.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.19280",
+      "pdf_url": "https://arxiv.org/pdf/2601.19280",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.19280",
+      "scraped_at": "2026-01-30T02:08:22.188842"
+    },
+    "scraped_date": "2026-01-30"
+  },
+  {
+    "title": "RIR-Mega-Speech: A Reverberant Speech Corpus with Comprehensive Acoustic Metadata and Reproducible Evaluation",
+    "paper_url": "https://huggingface.co/papers/2601.19949",
+    "authors": [
+      "mandipgoswami"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "RIR-Mega-Speech: A Reverberant Speech Corpus with Comprehensive Acoustic Metadata and Reproducible Evaluation",
+      "abstract": "Despite decades of research on reverberant speech, comparing methods remains difficult because most corpora lack per-file acoustic annotations or provide limited documentation for reproduction. We present RIR-Mega-Speech, a corpus of approximately 117.5 hours created by convolving LibriSpeech utterances with roughly 5,000 simulated room impulse responses from the RIR-Mega collection. Every file includes RT60, direct-to-reverberant ratio (DRR), and clarity index (C_{50}) computed from the source RIR using clearly defined, reproducible procedures. We also provide scripts to rebuild the dataset and reproduce all evaluation results. Using Whisper small on 1,500 paired utterances, we measure 5.20% WER (95% CI: 4.69--5.78) on clean speech and 7.70% (7.04--8.35) on reverberant versions, corresponding to a paired increase of 2.50 percentage points (2.06--2.98). This represents a 48% relative degradation. WER increases monotonically with RT60 and decreases with DRR, consistent with prior perceptual studies. While the core finding that reverberation harms recognition is well established, we aim to provide the community with a standardized resource where acoustic conditions are transparent and results can be verified independently. The repository includes one-command rebuild instructions for both Windows and Linux environments.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.19949",
+      "pdf_url": "https://arxiv.org/pdf/2601.19949",
+      "github_links": [
+        "https://github.com/mandip42/rir-mega-speech"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.19949",
+      "scraped_at": "2026-01-30T02:08:24.021390"
+    },
+    "scraped_date": "2026-01-30"
+  },
+  {
+    "title": "UPLiFT: Efficient Pixel-Dense Feature Upsampling with Local Attenders",
+    "paper_url": "https://huggingface.co/papers/2601.17950",
+    "authors": [],
+    "stars": "20",
+    "details": {
+      "title": "UPLiFT: Efficient Pixel-Dense Feature Upsampling with Local Attenders",
+      "abstract": "Code: https://github.com/mwalmer-umd/UPLiFT/",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.17950",
+      "pdf_url": "https://arxiv.org/pdf/2601.17950",
+      "github_links": [
+        "https://github.com/mwalmer-umd/UPLiFT/"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.17950",
+      "scraped_at": "2026-01-30T02:08:25.865529"
+    },
+    "scraped_date": "2026-01-30"
+  },
+  {
+    "title": "Training Reasoning Models on Saturated Problems via Failure-Prefix Conditioning",
+    "paper_url": "https://huggingface.co/papers/2601.20829",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Training Reasoning Models on Saturated Problems via Failure-Prefix Conditioning",
+      "abstract": "TL;DR: We enable continued RL training on saturated reasoning tasks by conditioning on rare failure prefixes.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.20829",
+      "pdf_url": "https://arxiv.org/pdf/2601.20829",
+      "github_links": [
+        "https://github.com/minwukim/training-on-saturated-problems"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.20829",
+      "scraped_at": "2026-01-30T02:08:27.676752"
+    },
+    "scraped_date": "2026-01-30"
+  },
+  {
+    "title": "GDCNet: Generative Discrepancy Comparison Network for Multimodal Sarcasm Detection",
+    "paper_url": "https://huggingface.co/papers/2601.20618",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GDCNet: Generative Discrepancy Comparison Network for Multimodal Sarcasm Detection",
+      "abstract": "Existing multimodal sarcasm detection methods struggle with loosely related image-text pairs and noisy LLM-generated cues. GDCNet addresses this by using MLLM-generated factual captions as semantic anchors to compute semantic and sentiment discrepancies against the original text, fused via a gated module. The approach achieves state-of-the-art performance on the MMSD2.0 benchmark, demonstrating superior robustness in capturing cross-modal incongruities.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.20618",
+      "pdf_url": "https://arxiv.org/pdf/2601.20618",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.20618",
+      "scraped_at": "2026-01-30T02:08:29.510352"
+    },
+    "scraped_date": "2026-01-30"
+  },
+  {
+    "title": "How AI Impacts Skill Formation",
+    "paper_url": "https://huggingface.co/papers/2601.20245",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "How AI Impacts Skill Formation",
+      "abstract": "https://www.anthropic.com/research/AI-assistance-coding-skills",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.20245",
+      "pdf_url": "https://arxiv.org/pdf/2601.20245",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.20245",
+      "scraped_at": "2026-01-30T02:08:31.313413"
+    },
+    "scraped_date": "2026-01-30"
+  },
+  {
+    "title": "SE-DiCoW: Self-Enrolled Diarization-Conditioned Whisper",
+    "paper_url": "https://huggingface.co/papers/2601.19194",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SE-DiCoW: Self-Enrolled Diarization-Conditioned Whisper",
+      "abstract": "Accepted at ICASSP 2026",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.19194",
+      "pdf_url": "https://arxiv.org/pdf/2601.19194",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.19194",
+      "scraped_at": "2026-01-30T02:08:33.154397"
+    },
+    "scraped_date": "2026-01-30"
+  },
+  {
+    "title": "FP8-RL: A Practical and Stable Low-Precision Stack for LLM Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2601.18150",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "FP8-RL: A Practical and Stable Low-Precision Stack for LLM Reinforcement Learning",
+      "abstract": "We have developed FP8 rollout features for the two frameworks, verl and NeMo-RL. In this report, we introduce the implementation solutions and a series of validation experiments conducted (covering both Dense and MoE models), with analyses performed from the perspectives of precision alignment and performance. In the coming period, we will continue to explore and practice stable FP8 end-to-end training recipes for MoE models. Welcome to use these features and provide feedback.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.18150",
+      "pdf_url": "https://arxiv.org/pdf/2601.18150",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.18150",
+      "scraped_at": "2026-01-30T02:08:34.979980"
+    },
+    "scraped_date": "2026-01-30"
+  },
+  {
+    "title": "Persona Prompting as a Lens on LLM Social Reasoning",
+    "paper_url": "https://huggingface.co/papers/2601.20757",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Persona Prompting as a Lens on LLM Social Reasoning",
+      "abstract": "Persona prompting can improve classification in socially-sensitive tasks, but it often comes at the cost of rationale quality and fails to mitigate underlying biases, urging caution in its application.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.20757",
+      "pdf_url": "https://arxiv.org/pdf/2601.20757",
+      "github_links": [
+        "https://github.com/jingyng/PP-social-reasoning"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.20757",
+      "scraped_at": "2026-01-30T02:08:36.781949"
+    },
+    "scraped_date": "2026-01-30"
+  },
+  {
+    "title": "SketchDynamics: Exploring Free-Form Sketches for Dynamic Intent Expression in Animation Generation",
+    "paper_url": "https://huggingface.co/papers/2601.20622",
+    "authors": [
+      "Hongbo Fu",
+      "Zeyu Wang",
+      "Lin-Ping Yuan",
+      "Boyu Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SketchDynamics: Exploring Free-Form Sketches for Dynamic Intent Expression in Animation Generation",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API SketchPlay: Intuitive Creation of Physically Realistic VR Content with Gesture-Driven Sketching (2025) Rewriting Video: Text-Driven Reauthoring of Video Footage (2026) Protosampling: Enabling Free-Form Convergence of Sampling and Prototyping through Canvas-Driven Visual AI Generation (2026) DepthScape: Authoring 2.5D Designs via Depth Estimation, Semantic Understanding, and Geometry Extraction (2025) SketchAssist: A Practical Assistant for Semantic Edits and Precise Local Redrawing (2025) LAMP: Language-Assisted Motion Planning for Controllable Video Generation (2025) ShadowDraw: From Any Object to Shadow-Drawing Compositional Art (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.20622",
+      "pdf_url": "https://arxiv.org/pdf/2601.20622",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.20622",
+      "scraped_at": "2026-01-30T02:08:38.570627"
+    },
+    "scraped_date": "2026-01-30"
+  },
+  {
+    "title": "Shallow-π: Knowledge Distillation for Flow-based VLAs",
+    "paper_url": "https://huggingface.co/papers/2601.20262",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Shallow-π: Knowledge Distillation for Flow-based VLAs",
+      "abstract": "https://icsl-jeon.github.io/shallow-pi/",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.20262",
+      "pdf_url": "https://arxiv.org/pdf/2601.20262",
+      "github_links": [
+        "https://github.com/icsl-Jeon/openpi"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.20262",
+      "scraped_at": "2026-01-30T02:08:40.401454"
+    },
+    "scraped_date": "2026-01-30"
   }
 ]
