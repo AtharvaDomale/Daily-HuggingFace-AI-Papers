@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-45-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-1519+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-1564+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">45</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">169</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">781</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">1519+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">214</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">45</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">1564+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** January 31, 2026
+**Last Updated:** February 01, 2026
 
 ---
 
@@ -119,7 +119,7 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Idea2Story: An Automated Pipeline for Transforming Research Concepts into Complete Scientific Narratives</b> ⭐ 54</summary>
+<summary><b>1. Idea2Story: An Automated Pipeline for Transforming Research Concepts into Complete Scientific Narratives</b> ⭐ 226</summary>
 
 <br/>
 
@@ -132,7 +132,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>2. Everything in Its Place: Benchmarking Spatial Intelligence of Text-to-Image Models</b> ⭐ 93</summary>
+<summary><b>2. Everything in Its Place: Benchmarking Spatial Intelligence of Text-to-Image Models</b> ⭐ 97</summary>
 
 <br/>
 
@@ -156,7 +156,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>4. DynamicVLA: A Vision-Language-Action Model for Dynamic Object Manipulation</b> ⭐ 48</summary>
+<summary><b>4. DynamicVLA: A Vision-Language-Action Model for Dynamic Object Manipulation</b> ⭐ 68</summary>
 
 <br/>
 
@@ -169,7 +169,18 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>5. OCRVerse: Towards Holistic OCR in End-to-End Vision-Language Models</b> ⭐ 13</summary>
+<summary><b>5. MMFineReason: Closing the Multimodal Reasoning Gap via Open Data-Centric Methods</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.21821) • [📄 arXiv](https://arxiv.org/abs/2601.21821) • [📥 PDF](https://arxiv.org/pdf/2601.21821)
+
+> Recent advances in Vision Language Models (VLMs) have driven significant progress in visual reasoning. However, open-source VLMs still lag behind proprietary systems, largely due to the lack of high-quality reasoning data. Existing datasets offer ...
+
+</details>
+
+<details>
+<summary><b>6. OCRVerse: Towards Holistic OCR in End-to-End Vision-Language Models</b> ⭐ 19</summary>
 
 <br/>
 
@@ -184,18 +195,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>6. MMFineReason: Closing the Multimodal Reasoning Gap via Open Data-Centric Methods</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.21821) • [📄 arXiv](https://arxiv.org/abs/2601.21821) • [📥 PDF](https://arxiv.org/pdf/2601.21821)
-
-> Recent advances in Vision Language Models (VLMs) have driven significant progress in visual reasoning. However, open-source VLMs still lag behind proprietary systems, largely due to the lack of high-quality reasoning data. Existing datasets offer ...
-
-</details>
-
-<details>
-<summary><b>7. ConceptMoE: Adaptive Token-to-Concept Compression for Implicit Compute Allocation</b> ⭐ 6</summary>
+<summary><b>7. ConceptMoE: Adaptive Token-to-Concept Compression for Implicit Compute Allocation</b> ⭐ 9</summary>
 
 <br/>
 
@@ -230,20 +230,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>10. AgentLongBench: A Controllable Long Benchmark For Long-Contexts Agents via Environment Rollouts</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.20730) • [📄 arXiv](https://arxiv.org/abs/2601.20730) • [📥 PDF](https://arxiv.org/pdf/2601.20730)
-
-**💻 Code:** [⭐ Code](https://github.com/euReKa025/AgentLongBench)
-
-> The evolution of Large Language Models (LLMs) into autonomous agents necessitates the management of extensive, dynamic contexts. Current benchmarks, however, remain largely static, relying on passive retrieval tasks that fail to simulate the compl...
-
-</details>
-
-<details>
-<summary><b>11. Exploring Reasoning Reward Model for Agents</b> ⭐ 14</summary>
+<summary><b>10. Exploring Reasoning Reward Model for Agents</b> ⭐ 20</summary>
 
 <br/>
 
@@ -258,7 +245,33 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>12. LoL: Longer than Longer, Scaling Video Generation to Hour</b> ⭐ 0</summary>
+<summary><b>11. AgentLongBench: A Controllable Long Benchmark For Long-Contexts Agents via Environment Rollouts</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.20730) • [📄 arXiv](https://arxiv.org/abs/2601.20730) • [📥 PDF](https://arxiv.org/pdf/2601.20730)
+
+**💻 Code:** [⭐ Code](https://github.com/euReKa025/AgentLongBench)
+
+> The evolution of Large Language Models (LLMs) into autonomous agents necessitates the management of extensive, dynamic contexts. Current benchmarks, however, remain largely static, relying on passive retrieval tasks that fail to simulate the compl...
+
+</details>
+
+<details>
+<summary><b>12. EEG Foundation Models: Progresses, Benchmarking, and Open Problems</b> ⭐ 47</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.17883) • [📄 arXiv](https://arxiv.org/abs/2601.17883) • [📥 PDF](https://arxiv.org/pdf/2601.17883)
+
+**💻 Code:** [⭐ Code](https://github.com/Dingkun0817/EEG-FM-Benchmark)
+
+> We propose fair and comprehensive benchmarking for open source EEG foundation models.
+
+</details>
+
+<details>
+<summary><b>13. LoL: Longer than Longer, Scaling Video Generation to Hour</b> ⭐ 0</summary>
 
 <br/>
 
@@ -269,19 +282,6 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/justincui03/LoL)
 
 > Scaling up video generation to hour long, please checkout our paper at: https://arxiv.org/abs/2601.16914 Project Page and code will released at: https://github.com/justincui03/LoL
-
-</details>
-
-<details>
-<summary><b>13. Language-based Trial and Error Falls Behind in the Era of Experience</b> ⭐ 7</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.21754) • [📄 arXiv](https://arxiv.org/abs/2601.21754) • [📥 PDF](https://arxiv.org/pdf/2601.21754)
-
-**💻 Code:** [⭐ Code](https://github.com/Harry-mic/SCOUT)
-
-> While Large Language Models (LLMs) excel in language-based agentic tasks, their applicability to unseen, nonlinguistic environments (e.g., symbolic or spatial tasks) remains limited. Previous work attributes this performance gap to the mismatch be...
 
 </details>
 
@@ -299,33 +299,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>15. Latent Adversarial Regularization for Offline Preference Optimization</b> ⭐ 0</summary>
+<summary><b>15. Language-based Trial and Error Falls Behind in the Era of Experience</b> ⭐ 8</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.22083) • [📄 arXiv](https://arxiv.org/abs/2601.22083) • [📥 PDF](https://arxiv.org/pdf/2601.22083)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.21754) • [📄 arXiv](https://arxiv.org/abs/2601.21754) • [📥 PDF](https://arxiv.org/pdf/2601.21754)
 
-**💻 Code:** [⭐ Code](https://github.com/enyijiang/GANPO)
+**💻 Code:** [⭐ Code](https://github.com/Harry-mic/SCOUT)
 
-> Most offline preference optimization methods (e.g., DPO) constrain policy updates using token-level divergences. However, token-space similarity is often a weak proxy for semantic or structural behavior. We propose GANPO, a plug-and-play regulariz...
+> While Large Language Models (LLMs) excel in language-based agentic tasks, their applicability to unseen, nonlinguistic environments (e.g., symbolic or spatial tasks) remains limited. Previous work attributes this performance gap to the mismatch be...
 
 </details>
 
 <details>
-<summary><b>16. Scalable Power Sampling: Unlocking Efficient, Training-Free Reasoning for LLMs via Distribution Sharpening</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Haitham Bou Ammar, Matthieu Zimmer, Rasul Tutunov, xtongji
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.21590) • [📄 arXiv](https://arxiv.org/abs/2601.21590) • [📥 PDF](https://arxiv.org/pdf/2601.21590)
-
-> What if RL isn’t teaching LLMs how to reason, but just sharpening what’s already there? Most recent progress in LLM reasoning comes from RL post-training (GRPO, verifiers, rewards). But there’s growing evidence that these gains may come less from ...
-
-</details>
-
-<details>
-<summary><b>17. Shaping capabilities with token-level data filtering</b> ⭐ 10</summary>
+<summary><b>16. Shaping capabilities with token-level data filtering</b> ⭐ 42</summary>
 
 <br/>
 
@@ -338,7 +325,33 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>18. Llama-3.1-FoundationAI-SecurityLLM-Reasoning-8B Technical Report</b> ⭐ 0</summary>
+<summary><b>17. Scalable Power Sampling: Unlocking Efficient, Training-Free Reasoning for LLMs via Distribution Sharpening</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Haitham Bou Ammar, Matthieu Zimmer, Rasul Tutunov, xtongji
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.21590) • [📄 arXiv](https://arxiv.org/abs/2601.21590) • [📥 PDF](https://arxiv.org/pdf/2601.21590)
+
+> What if RL isn’t teaching LLMs how to reason, but just sharpening what’s already there? Most recent progress in LLM reasoning comes from RL post-training (GRPO, verifiers, rewards). But there’s growing evidence that these gains may come less from ...
+
+</details>
+
+<details>
+<summary><b>18. Latent Adversarial Regularization for Offline Preference Optimization</b> ⭐ 1</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.22083) • [📄 arXiv](https://arxiv.org/abs/2601.22083) • [📥 PDF](https://arxiv.org/pdf/2601.22083)
+
+**💻 Code:** [⭐ Code](https://github.com/enyijiang/GANPO)
+
+> Most offline preference optimization methods (e.g., DPO) constrain policy updates using token-level divergences. However, token-space similarity is often a weak proxy for semantic or structural behavior. We propose GANPO, a plug-and-play regulariz...
+
+</details>
+
+<details>
+<summary><b>19. Llama-3.1-FoundationAI-SecurityLLM-Reasoning-8B Technical Report</b> ⭐ 0</summary>
 
 <br/>
 
@@ -349,7 +362,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>19. Typhoon-S: Minimal Open Post-Training for Sovereign Large Language Models</b> ⭐ 5</summary>
+<summary><b>20. Typhoon-S: Minimal Open Post-Training for Sovereign Large Language Models</b> ⭐ 7</summary>
 
 <br/>
 
@@ -362,7 +375,18 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>20. VTC-R1: Vision-Text Compression for Efficient Long-Context Reasoning</b> ⭐ 12</summary>
+<summary><b>21. Self-Improving Pretraining: using post-trained models to pretrain better models</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.21343) • [📄 arXiv](https://arxiv.org/abs/2601.21343) • [📥 PDF](https://arxiv.org/pdf/2601.21343)
+
+> Streaming pretraining uses a strong post-trained model to judge next-token generations with RL, improving quality, safety, and factuality earlier in training.
+
+</details>
+
+<details>
+<summary><b>22. VTC-R1: Vision-Text Compression for Efficient Long-Context Reasoning</b> ⭐ 14</summary>
 
 <br/>
 
@@ -375,7 +399,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>21. MAD: Modality-Adaptive Decoding for Mitigating Cross-Modal Hallucinations in Multimodal Large Language Models</b> ⭐ 0</summary>
+<summary><b>23. MAD: Modality-Adaptive Decoding for Mitigating Cross-Modal Hallucinations in Multimodal Large Language Models</b> ⭐ 0</summary>
 
 <br/>
 
@@ -388,44 +412,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>22. DeepSearchQA: Bridging the Comprehensiveness Gap for Deep Research Agents</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.20975) • [📄 arXiv](https://arxiv.org/abs/2601.20975) • [📥 PDF](https://arxiv.org/pdf/2601.20975)
-
-> Proposes DeepSearchQA, a 900-prompt benchmark across 17 fields to test long-horizon search, info synthesis, deduplication, and stopping criteria for open-web research agents.
-
-</details>
-
-<details>
-<summary><b>23. EEG Foundation Models: Progresses, Benchmarking, and Open Problems</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.17883) • [📄 arXiv](https://arxiv.org/abs/2601.17883) • [📥 PDF](https://arxiv.org/pdf/2601.17883)
-
-**💻 Code:** [⭐ Code](https://github.com/Dingkun0817/EEG-FM-Benchmark)
-
-> We propose fair and comprehensive benchmarking for open source EEG foundation models.
-
-</details>
-
-<details>
-<summary><b>24. Beyond Imitation: Reinforcement Learning for Active Latent Planning</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Wee Sun Lee, zz1358m
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.21598) • [📄 arXiv](https://arxiv.org/abs/2601.21598) • [📥 PDF](https://arxiv.org/pdf/2601.21598)
-
-> Our recent work on Latent Reasoning
-
-</details>
-
-<details>
-<summary><b>25. One-step Latent-free Image Generation with Pixel Mean Flows</b> ⭐ 0</summary>
+<summary><b>24. One-step Latent-free Image Generation with Pixel Mean Flows</b> ⭐ 0</summary>
 
 <br/>
 
@@ -438,7 +425,31 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>26. Hybrid Linear Attention Done Right: Efficient Distillation and Effective Architectures for Extremely Long Contexts</b> ⭐ 3</summary>
+<summary><b>25. Beyond Imitation: Reinforcement Learning for Active Latent Planning</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Wee Sun Lee, zz1358m
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.21598) • [📄 arXiv](https://arxiv.org/abs/2601.21598) • [📥 PDF](https://arxiv.org/pdf/2601.21598)
+
+> Our recent work on Latent Reasoning
+
+</details>
+
+<details>
+<summary><b>26. DeepSearchQA: Bridging the Comprehensiveness Gap for Deep Research Agents</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.20975) • [📄 arXiv](https://arxiv.org/abs/2601.20975) • [📥 PDF](https://arxiv.org/pdf/2601.20975)
+
+> Proposes DeepSearchQA, a 900-prompt benchmark across 17 fields to test long-horizon search, info synthesis, deduplication, and stopping criteria for open-web research agents.
+
+</details>
+
+<details>
+<summary><b>27. Hybrid Linear Attention Done Right: Efficient Distillation and Effective Architectures for Extremely Long Contexts</b> ⭐ 5</summary>
 
 <br/>
 
@@ -451,7 +462,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>27. FineInstructions: Scaling Synthetic Instructions to Pre-Training Scale</b> ⭐ 0</summary>
+<summary><b>28. FineInstructions: Scaling Synthetic Instructions to Pre-Training Scale</b> ⭐ 0</summary>
 
 <br/>
 
@@ -462,7 +473,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>28. KromHC: Manifold-Constrained Hyper-Connections with Kronecker-Product Residual Matrices</b> ⭐ 1</summary>
+<summary><b>29. KromHC: Manifold-Constrained Hyper-Connections with Kronecker-Product Residual Matrices</b> ⭐ 3</summary>
 
 <br/>
 
@@ -473,17 +484,6 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/wz1119/KromHC)
 
 > KromHC: Manifold-Constrained Hyper-Connections with Kronecker-Product Residual Matrices
-
-</details>
-
-<details>
-<summary><b>29. Self-Improving Pretraining: using post-trained models to pretrain better models</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.21343) • [📄 arXiv](https://arxiv.org/abs/2601.21343) • [📥 PDF](https://arxiv.org/pdf/2601.21343)
-
-> Streaming pretraining uses a strong post-trained model to judge next-token generations with RL, improving quality, safety, and factuality earlier in training.
 
 </details>
 
@@ -499,7 +499,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>31. MetricAnything: Scaling Metric Depth Pretraining with Noisy Heterogeneous Sources</b> ⭐ 41</summary>
+<summary><b>31. MetricAnything: Scaling Metric Depth Pretraining with Noisy Heterogeneous Sources</b> ⭐ 62</summary>
 
 <br/>
 
@@ -514,7 +514,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>32. Mechanistic Data Attribution: Tracing the Training Origins of Interpretable LLM Units</b> ⭐ 1</summary>
+<summary><b>32. Mechanistic Data Attribution: Tracing the Training Origins of Interpretable LLM Units</b> ⭐ 2</summary>
 
 <br/>
 
@@ -527,7 +527,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>33. Generation Enhances Understanding in Unified Multimodal Models via Multi-Representation Generation</b> ⭐ 6</summary>
+<summary><b>33. Generation Enhances Understanding in Unified Multimodal Models via Multi-Representation Generation</b> ⭐ 8</summary>
 
 <br/>
 
@@ -542,7 +542,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>34. BMAM: Brain-inspired Multi-Agent Memory Framework</b> ⭐ 0</summary>
+<summary><b>34. BMAM: Brain-inspired Multi-Agent Memory Framework</b> ⭐ 2</summary>
 
 <br/>
 
@@ -605,7 +605,18 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>39. Segment Length Matters: A Study of Segment Lengths on Audio Fingerprinting Performance</b> ⭐ 0</summary>
+<summary><b>39. Flow-based Extremal Mathematical Structure Discovery</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.18005) • [📄 arXiv](https://arxiv.org/abs/2601.18005) • [📥 PDF](https://arxiv.org/pdf/2601.18005)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>40. Segment Length Matters: A Study of Segment Lengths on Audio Fingerprinting Performance</b> ⭐ 0</summary>
 
 <br/>
 
@@ -618,7 +629,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>40. PRISM: Learning Design Knowledge from Data for Stylistic Design Improvement</b> ⭐ 0</summary>
+<summary><b>41. PRISM: Learning Design Knowledge from Data for Stylistic Design Improvement</b> ⭐ 0</summary>
 
 <br/>
 
@@ -631,7 +642,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>41. WebArbiter: A Principle-Guided Reasoning Process Reward Model for Web Agents</b> ⭐ 0</summary>
+<summary><b>42. WebArbiter: A Principle-Guided Reasoning Process Reward Model for Web Agents</b> ⭐ 0</summary>
 
 <br/>
 
@@ -642,7 +653,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>42. Spotlighting Task-Relevant Features: Object-Centric Representations for Better Generalization in Robotic Manipulation</b> ⭐ 0</summary>
+<summary><b>43. Spotlighting Task-Relevant Features: Object-Centric Representations for Better Generalization in Robotic Manipulation</b> ⭐ 0</summary>
 
 <br/>
 
@@ -655,7 +666,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>43. WorldBench: Disambiguating Physics for Diagnostic Evaluation of World Models</b> ⭐ 0</summary>
+<summary><b>44. WorldBench: Disambiguating Physics for Diagnostic Evaluation of World Models</b> ⭐ 0</summary>
 
 <br/>
 
@@ -668,7 +679,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>44. STORM: Slot-based Task-aware Object-centric Representation for robotic Manipulation</b> ⭐ 0</summary>
+<summary><b>45. STORM: Slot-based Task-aware Object-centric Representation for robotic Manipulation</b> ⭐ 0</summary>
 
 <br/>
 
@@ -677,17 +688,6 @@ getTodaysPapers();
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.20381) • [📄 arXiv](https://arxiv.org/abs/2601.20381) • [📥 PDF](https://arxiv.org/pdf/2601.20381)
 
 > We introduce a slot-based object-centric method with a "task-awareness" alignment in order to learn robotic manipulation. Our method obtains strong generalization improvements over existing VFM by simply adding a few layers of structure and keepin...
-
-</details>
-
-<details>
-<summary><b>45. Flow-based Extremal Mathematical Structure Discovery</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.18005) • [📄 arXiv](https://arxiv.org/abs/2601.18005) • [📥 PDF](https://arxiv.org/pdf/2601.18005)
-
-> No abstract available.
 
 </details>
 
@@ -700,27 +700,27 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 45 |
-| 📅 Today | [`2026-01-31.json`](data/daily/2026-01-31.json) | 45 |
-| 📆 This Week | [`2026-W04.json`](data/weekly/2026-W04.json) | 169 |
-| 🗓️ This Month | [`2026-01.json`](data/monthly/2026-01.json) | 781 |
+| 📅 Today | [`2026-02-01.json`](data/daily/2026-02-01.json) | 45 |
+| 📆 This Week | [`2026-W04.json`](data/weekly/2026-W04.json) | 214 |
+| 🗓️ This Month | [`2026-02.json`](data/monthly/2026-02.json) | 45 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-01-31 | 45 | [View JSON](data/daily/2026-01-31.json) |
+| 📌 2026-02-01 | 45 | [View JSON](data/daily/2026-02-01.json) |
+| 📄 2026-01-31 | 45 | [View JSON](data/daily/2026-01-31.json) |
 | 📄 2026-01-30 | 21 | [View JSON](data/daily/2026-01-30.json) |
 | 📄 2026-01-29 | 21 | [View JSON](data/daily/2026-01-29.json) |
 | 📄 2026-01-28 | 37 | [View JSON](data/daily/2026-01-28.json) |
 | 📄 2026-01-27 | 18 | [View JSON](data/daily/2026-01-27.json) |
 | 📄 2026-01-26 | 27 | [View JSON](data/daily/2026-01-26.json) |
-| 📄 2026-01-25 | 27 | [View JSON](data/daily/2026-01-25.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W04 | 169 | [View JSON](data/weekly/2026-W04.json) |
+| 📅 2026-W04 | 214 | [View JSON](data/weekly/2026-W04.json) |
 | 📅 2026-W03 | 183 | [View JSON](data/weekly/2026-W03.json) |
 | 📅 2026-W02 | 232 | [View JSON](data/weekly/2026-W02.json) |
 | 📅 2026-W01 | 156 | [View JSON](data/weekly/2026-W01.json) |
@@ -729,6 +729,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
+| 🗓️ 2026-02 | 45 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
 | 🗓️ 2025-12 | 787 | [View JSON](data/monthly/2025-12.json) |
 
