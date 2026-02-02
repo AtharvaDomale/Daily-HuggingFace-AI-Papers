@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-45-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-1564+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-1609+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">45</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">214</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">45</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">1564+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">45</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">90</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">1609+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** February 01, 2026
+**Last Updated:** February 02, 2026
 
 ---
 
@@ -119,7 +119,7 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Idea2Story: An Automated Pipeline for Transforming Research Concepts into Complete Scientific Narratives</b> ⭐ 226</summary>
+<summary><b>1. Idea2Story: An Automated Pipeline for Transforming Research Concepts into Complete Scientific Narratives</b> ⭐ 322</summary>
 
 <br/>
 
@@ -132,7 +132,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>2. Everything in Its Place: Benchmarking Spatial Intelligence of Text-to-Image Models</b> ⭐ 97</summary>
+<summary><b>2. Everything in Its Place: Benchmarking Spatial Intelligence of Text-to-Image Models</b> ⭐ 98</summary>
 
 <br/>
 
@@ -156,7 +156,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>4. DynamicVLA: A Vision-Language-Action Model for Dynamic Object Manipulation</b> ⭐ 68</summary>
+<summary><b>4. DynamicVLA: A Vision-Language-Action Model for Dynamic Object Manipulation</b> ⭐ 79</summary>
 
 <br/>
 
@@ -180,7 +180,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>6. OCRVerse: Towards Holistic OCR in End-to-End Vision-Language Models</b> ⭐ 19</summary>
+<summary><b>6. OCRVerse: Towards Holistic OCR in End-to-End Vision-Language Models</b> ⭐ 20</summary>
 
 <br/>
 
@@ -195,7 +195,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>7. ConceptMoE: Adaptive Token-to-Concept Compression for Implicit Compute Allocation</b> ⭐ 9</summary>
+<summary><b>7. ConceptMoE: Adaptive Token-to-Concept Compression for Implicit Compute Allocation</b> ⭐ 17</summary>
 
 <br/>
 
@@ -208,18 +208,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>8. PLANING: A Loosely Coupled Triangle-Gaussian Framework for Streaming 3D Reconstruction</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.22046) • [📄 arXiv](https://arxiv.org/abs/2601.22046) • [📥 PDF](https://arxiv.org/pdf/2601.22046)
-
-> PLANING introduces a loosely coupled triangle-Gaussian representation and a monocular streaming framework that jointly achieves accurate geometry, high-fidelity rendering, and efficient planar abstraction for embodied AI applications.
-
-</details>
-
-<details>
-<summary><b>9. Qwen3-ASR Technical Report</b> ⭐ 0</summary>
+<summary><b>8. Qwen3-ASR Technical Report</b> ⭐ 0</summary>
 
 <br/>
 
@@ -230,7 +219,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>10. Exploring Reasoning Reward Model for Agents</b> ⭐ 20</summary>
+<summary><b>9. Exploring Reasoning Reward Model for Agents</b> ⭐ 22</summary>
 
 <br/>
 
@@ -241,6 +230,17 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/kxfan2002/Reagent)
 
 > Github: https://github.com/kxfan2002/Reagent Paper: https://arxiv.org/pdf/2601.22154
+
+</details>
+
+<details>
+<summary><b>10. PLANING: A Loosely Coupled Triangle-Gaussian Framework for Streaming 3D Reconstruction</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.22046) • [📄 arXiv](https://arxiv.org/abs/2601.22046) • [📥 PDF](https://arxiv.org/pdf/2601.22046)
+
+> PLANING introduces a loosely coupled triangle-Gaussian representation and a monocular streaming framework that jointly achieves accurate geometry, high-fidelity rendering, and efficient planar abstraction for embodied AI applications.
 
 </details>
 
@@ -258,7 +258,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>12. EEG Foundation Models: Progresses, Benchmarking, and Open Problems</b> ⭐ 47</summary>
+<summary><b>12. Shaping capabilities with token-level data filtering</b> ⭐ 49</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.21571) • [📄 arXiv](https://arxiv.org/abs/2601.21571) • [📥 PDF](https://arxiv.org/pdf/2601.21571)
+
+**💻 Code:** [⭐ Code](https://github.com/neilrathi/token-filtering)
+
+> Key Findings: 1. Token-level Filtering vs Document-level Filtering (Figure 3) Token filtering Pareto-dominates document filtering : Can achieve equal reduction in undesired capabilities (equal medical loss) at lower cost to desired capabilities (l...
+
+</details>
+
+<details>
+<summary><b>13. EEG Foundation Models: Progresses, Benchmarking, and Open Problems</b> ⭐ 48</summary>
 
 <br/>
 
@@ -267,21 +280,6 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/Dingkun0817/EEG-FM-Benchmark)
 
 > We propose fair and comprehensive benchmarking for open source EEG foundation models.
-
-</details>
-
-<details>
-<summary><b>13. LoL: Longer than Longer, Scaling Video Generation to Hour</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Xiaojie Li, Tao Yang, Ming Li, Jie Wu, Justin Cui
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.16914) • [📄 arXiv](https://arxiv.org/abs/2601.16914) • [📥 PDF](https://arxiv.org/pdf/2601.16914)
-
-**💻 Code:** [⭐ Code](https://github.com/justincui03/LoL)
-
-> Scaling up video generation to hour long, please checkout our paper at: https://arxiv.org/abs/2601.16914 Project Page and code will released at: https://github.com/justincui03/LoL
 
 </details>
 
@@ -312,33 +310,22 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>16. Shaping capabilities with token-level data filtering</b> ⭐ 42</summary>
+<summary><b>16. LoL: Longer than Longer, Scaling Video Generation to Hour</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.21571) • [📄 arXiv](https://arxiv.org/abs/2601.21571) • [📥 PDF](https://arxiv.org/pdf/2601.21571)
+**👥 Authors:** Xiaojie Li, Tao Yang, Ming Li, Jie Wu, Justin Cui
 
-**💻 Code:** [⭐ Code](https://github.com/neilrathi/token-filtering)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.16914) • [📄 arXiv](https://arxiv.org/abs/2601.16914) • [📥 PDF](https://arxiv.org/pdf/2601.16914)
 
-> Key Findings: 1. Token-level Filtering vs Document-level Filtering (Figure 3) Token filtering Pareto-dominates document filtering : Can achieve equal reduction in undesired capabilities (equal medical loss) at lower cost to desired capabilities (l...
+**💻 Code:** [⭐ Code](https://github.com/justincui03/LoL)
+
+> Scaling up video generation to hour long, please checkout our paper at: https://arxiv.org/abs/2601.16914 Project Page and code will released at: https://github.com/justincui03/LoL
 
 </details>
 
 <details>
-<summary><b>17. Scalable Power Sampling: Unlocking Efficient, Training-Free Reasoning for LLMs via Distribution Sharpening</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Haitham Bou Ammar, Matthieu Zimmer, Rasul Tutunov, xtongji
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.21590) • [📄 arXiv](https://arxiv.org/abs/2601.21590) • [📥 PDF](https://arxiv.org/pdf/2601.21590)
-
-> What if RL isn’t teaching LLMs how to reason, but just sharpening what’s already there? Most recent progress in LLM reasoning comes from RL post-training (GRPO, verifiers, rewards). But there’s growing evidence that these gains may come less from ...
-
-</details>
-
-<details>
-<summary><b>18. Latent Adversarial Regularization for Offline Preference Optimization</b> ⭐ 1</summary>
+<summary><b>17. Latent Adversarial Regularization for Offline Preference Optimization</b> ⭐ 1</summary>
 
 <br/>
 
@@ -347,6 +334,19 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/enyijiang/GANPO)
 
 > Most offline preference optimization methods (e.g., DPO) constrain policy updates using token-level divergences. However, token-space similarity is often a weak proxy for semantic or structural behavior. We propose GANPO, a plug-and-play regulariz...
+
+</details>
+
+<details>
+<summary><b>18. Scalable Power Sampling: Unlocking Efficient, Training-Free Reasoning for LLMs via Distribution Sharpening</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Haitham Bou Ammar, Matthieu Zimmer, Rasul Tutunov, xtongji
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.21590) • [📄 arXiv](https://arxiv.org/abs/2601.21590) • [📥 PDF](https://arxiv.org/pdf/2601.21590)
+
+> What if RL isn’t teaching LLMs how to reason, but just sharpening what’s already there? Most recent progress in LLM reasoning comes from RL post-training (GRPO, verifiers, rewards). But there’s growing evidence that these gains may come less from ...
 
 </details>
 
@@ -362,7 +362,18 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>20. Typhoon-S: Minimal Open Post-Training for Sovereign Large Language Models</b> ⭐ 7</summary>
+<summary><b>20. Self-Improving Pretraining: using post-trained models to pretrain better models</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.21343) • [📄 arXiv](https://arxiv.org/abs/2601.21343) • [📥 PDF](https://arxiv.org/pdf/2601.21343)
+
+> Streaming pretraining uses a strong post-trained model to judge next-token generations with RL, improving quality, safety, and factuality earlier in training.
+
+</details>
+
+<details>
+<summary><b>21. Typhoon-S: Minimal Open Post-Training for Sovereign Large Language Models</b> ⭐ 7</summary>
 
 <br/>
 
@@ -375,44 +386,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>21. Self-Improving Pretraining: using post-trained models to pretrain better models</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.21343) • [📄 arXiv](https://arxiv.org/abs/2601.21343) • [📥 PDF](https://arxiv.org/pdf/2601.21343)
-
-> Streaming pretraining uses a strong post-trained model to judge next-token generations with RL, improving quality, safety, and factuality earlier in training.
-
-</details>
-
-<details>
-<summary><b>22. VTC-R1: Vision-Text Compression for Efficient Long-Context Reasoning</b> ⭐ 14</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.22069) • [📄 arXiv](https://arxiv.org/abs/2601.22069) • [📥 PDF](https://arxiv.org/pdf/2601.22069)
-
-**💻 Code:** [⭐ Code](https://github.com/w-yibo/VTC-R1)
-
-> We propose VTC-R1, an efficient long-context reasoning paradigm that integrates vision-text compression into iterative reasoning. By rendering previous reasoning segments into compact visual representations, VTC-R1 replaces long textual contexts w...
-
-</details>
-
-<details>
-<summary><b>23. MAD: Modality-Adaptive Decoding for Mitigating Cross-Modal Hallucinations in Multimodal Large Language Models</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Yong Man Ro, Youngchae Chee, Se Yeon Kim, topyun
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.21181) • [📄 arXiv](https://arxiv.org/abs/2601.21181) • [📥 PDF](https://arxiv.org/pdf/2601.21181)
-
-> Multimodal Large Language Models (MLLMs) suffer from cross-modal hallucinations, where one modality inappropriately influences generation about another, leading to fabricated output. This exposes a more fundamental deficiency in modality-interacti...
-
-</details>
-
-<details>
-<summary><b>24. One-step Latent-free Image Generation with Pixel Mean Flows</b> ⭐ 0</summary>
+<summary><b>22. One-step Latent-free Image Generation with Pixel Mean Flows</b> ⭐ 0</summary>
 
 <br/>
 
@@ -425,15 +399,41 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>25. Beyond Imitation: Reinforcement Learning for Active Latent Planning</b> ⭐ 0</summary>
+<summary><b>23. Hybrid Linear Attention Done Right: Efficient Distillation and Effective Architectures for Extremely Long Contexts</b> ⭐ 7</summary>
 
 <br/>
 
-**👥 Authors:** Wee Sun Lee, zz1358m
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.22156) • [📄 arXiv](https://arxiv.org/abs/2601.22156) • [📥 PDF](https://arxiv.org/pdf/2601.22156)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.21598) • [📄 arXiv](https://arxiv.org/abs/2601.21598) • [📥 PDF](https://arxiv.org/pdf/2601.21598)
+**💻 Code:** [⭐ Code](https://www.github.com/THUNLP/hybrid-linear-attention) • [⭐ Code](https://github.com/thunlp/hybrid-linear-attention)
 
-> Our recent work on Latent Reasoning
+> Code: https://www.github.com/THUNLP/hybrid-linear-attention
+
+</details>
+
+<details>
+<summary><b>24. VTC-R1: Vision-Text Compression for Efficient Long-Context Reasoning</b> ⭐ 16</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.22069) • [📄 arXiv](https://arxiv.org/abs/2601.22069) • [📥 PDF](https://arxiv.org/pdf/2601.22069)
+
+**💻 Code:** [⭐ Code](https://github.com/w-yibo/VTC-R1)
+
+> We propose VTC-R1, an efficient long-context reasoning paradigm that integrates vision-text compression into iterative reasoning. By rendering previous reasoning segments into compact visual representations, VTC-R1 replaces long textual contexts w...
+
+</details>
+
+<details>
+<summary><b>25. MAD: Modality-Adaptive Decoding for Mitigating Cross-Modal Hallucinations in Multimodal Large Language Models</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Yong Man Ro, Youngchae Chee, Se Yeon Kim, topyun
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.21181) • [📄 arXiv](https://arxiv.org/abs/2601.21181) • [📥 PDF](https://arxiv.org/pdf/2601.21181)
+
+> Multimodal Large Language Models (MLLMs) suffer from cross-modal hallucinations, where one modality inappropriately influences generation about another, leading to fabricated output. This exposes a more fundamental deficiency in modality-interacti...
 
 </details>
 
@@ -449,31 +449,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>27. Hybrid Linear Attention Done Right: Efficient Distillation and Effective Architectures for Extremely Long Contexts</b> ⭐ 5</summary>
+<summary><b>27. Beyond Imitation: Reinforcement Learning for Active Latent Planning</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.22156) • [📄 arXiv](https://arxiv.org/abs/2601.22156) • [📥 PDF](https://arxiv.org/pdf/2601.22156)
+**👥 Authors:** Wee Sun Lee, zz1358m
 
-**💻 Code:** [⭐ Code](https://github.com/thunlp/hybrid-linear-attention) • [⭐ Code](https://www.github.com/THUNLP/hybrid-linear-attention)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.21598) • [📄 arXiv](https://arxiv.org/abs/2601.21598) • [📥 PDF](https://arxiv.org/pdf/2601.21598)
 
-> Code: https://www.github.com/THUNLP/hybrid-linear-attention
+> Our recent work on Latent Reasoning
 
 </details>
 
 <details>
-<summary><b>28. FineInstructions: Scaling Synthetic Instructions to Pre-Training Scale</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.22146) • [📄 arXiv](https://arxiv.org/abs/2601.22146) • [📥 PDF](https://arxiv.org/pdf/2601.22146)
-
-> @ AjayP13 and @ craffel really interesting work and approach, do you plan to add support for multilingual instructions 🤔
-
-</details>
-
-<details>
-<summary><b>29. KromHC: Manifold-Constrained Hyper-Connections with Kronecker-Product Residual Matrices</b> ⭐ 3</summary>
+<summary><b>28. KromHC: Manifold-Constrained Hyper-Connections with Kronecker-Product Residual Matrices</b> ⭐ 3</summary>
 
 <br/>
 
@@ -484,6 +473,17 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/wz1119/KromHC)
 
 > KromHC: Manifold-Constrained Hyper-Connections with Kronecker-Product Residual Matrices
+
+</details>
+
+<details>
+<summary><b>29. FineInstructions: Scaling Synthetic Instructions to Pre-Training Scale</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.22146) • [📄 arXiv](https://arxiv.org/abs/2601.22146) • [📥 PDF](https://arxiv.org/pdf/2601.22146)
+
+> @ AjayP13 and @ craffel really interesting work and approach, do you plan to add support for multilingual instructions 🤔
 
 </details>
 
@@ -499,7 +499,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>31. MetricAnything: Scaling Metric Depth Pretraining with Noisy Heterogeneous Sources</b> ⭐ 62</summary>
+<summary><b>31. JUST-DUB-IT: Video Dubbing via Joint Audio-Visual Diffusion</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Urska Jelercic, Matan Ben Yosef, Tavi Halperin, Naomi Ken Korem, Anthony Chen
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.22143) • [📄 arXiv](https://arxiv.org/abs/2601.22143) • [📥 PDF](https://arxiv.org/pdf/2601.22143)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>32. MetricAnything: Scaling Metric Depth Pretraining with Noisy Heterogeneous Sources</b> ⭐ 67</summary>
 
 <br/>
 
@@ -514,7 +527,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>32. Mechanistic Data Attribution: Tracing the Training Origins of Interpretable LLM Units</b> ⭐ 2</summary>
+<summary><b>33. Mechanistic Data Attribution: Tracing the Training Origins of Interpretable LLM Units</b> ⭐ 2</summary>
 
 <br/>
 
@@ -527,7 +540,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>33. Generation Enhances Understanding in Unified Multimodal Models via Multi-Representation Generation</b> ⭐ 8</summary>
+<summary><b>34. Generation Enhances Understanding in Unified Multimodal Models via Multi-Representation Generation</b> ⭐ 10</summary>
 
 <br/>
 
@@ -542,7 +555,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>34. BMAM: Brain-inspired Multi-Agent Memory Framework</b> ⭐ 2</summary>
+<summary><b>35. BMAM: Brain-inspired Multi-Agent Memory Framework</b> ⭐ 2</summary>
 
 <br/>
 
@@ -553,19 +566,6 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/innovation64/BMAM)
 
 > We introduce BMAM (Brain-inspired Multi-Agent Memory), a general-purpose memory architecture designed to solve "soul erosion"—the loss of temporal grounding and consistency in long-term agent interactions. 🧠 Key Innovations: Cognitive-inspired Arc...
-
-</details>
-
-<details>
-<summary><b>35. JUST-DUB-IT: Video Dubbing via Joint Audio-Visual Diffusion</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Urska Jelercic, Matan Ben Yosef, Tavi Halperin, Naomi Ken Korem, Anthony Chen
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.22143) • [📄 arXiv](https://arxiv.org/abs/2601.22143) • [📥 PDF](https://arxiv.org/pdf/2601.22143)
-
-> No abstract available.
 
 </details>
 
@@ -700,36 +700,36 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 45 |
-| 📅 Today | [`2026-02-01.json`](data/daily/2026-02-01.json) | 45 |
-| 📆 This Week | [`2026-W04.json`](data/weekly/2026-W04.json) | 214 |
-| 🗓️ This Month | [`2026-02.json`](data/monthly/2026-02.json) | 45 |
+| 📅 Today | [`2026-02-02.json`](data/daily/2026-02-02.json) | 45 |
+| 📆 This Week | [`2026-W05.json`](data/weekly/2026-W05.json) | 45 |
+| 🗓️ This Month | [`2026-02.json`](data/monthly/2026-02.json) | 90 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-02-01 | 45 | [View JSON](data/daily/2026-02-01.json) |
+| 📌 2026-02-02 | 45 | [View JSON](data/daily/2026-02-02.json) |
+| 📄 2026-02-01 | 45 | [View JSON](data/daily/2026-02-01.json) |
 | 📄 2026-01-31 | 45 | [View JSON](data/daily/2026-01-31.json) |
 | 📄 2026-01-30 | 21 | [View JSON](data/daily/2026-01-30.json) |
 | 📄 2026-01-29 | 21 | [View JSON](data/daily/2026-01-29.json) |
 | 📄 2026-01-28 | 37 | [View JSON](data/daily/2026-01-28.json) |
 | 📄 2026-01-27 | 18 | [View JSON](data/daily/2026-01-27.json) |
-| 📄 2026-01-26 | 27 | [View JSON](data/daily/2026-01-26.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
+| 📅 2026-W05 | 45 | [View JSON](data/weekly/2026-W05.json) |
 | 📅 2026-W04 | 214 | [View JSON](data/weekly/2026-W04.json) |
 | 📅 2026-W03 | 183 | [View JSON](data/weekly/2026-W03.json) |
 | 📅 2026-W02 | 232 | [View JSON](data/weekly/2026-W02.json) |
-| 📅 2026-W01 | 156 | [View JSON](data/weekly/2026-W01.json) |
 
 ### 🗂️ Monthly Archives
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-02 | 45 | [View JSON](data/monthly/2026-02.json) |
+| 🗓️ 2026-02 | 90 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
 | 🗓️ 2025-12 | 787 | [View JSON](data/monthly/2025-12.json) |
 
