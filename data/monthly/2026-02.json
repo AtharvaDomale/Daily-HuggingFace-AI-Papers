@@ -4103,5 +4103,1075 @@
       "scraped_at": "2026-02-04T02:11:47.726406"
     },
     "scraped_date": "2026-02-04"
+  },
+  {
+    "title": "CodeOCR: On the Effectiveness of Vision Language Models in Code Understanding",
+    "paper_url": "https://huggingface.co/papers/2602.01785",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CodeOCR: On the Effectiveness of Vision Language Models in Code Understanding",
+      "abstract": "Try compressing your code input to LLMs with CodeOCR with up to 8x compression ratio!",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.01785",
+      "pdf_url": "https://arxiv.org/pdf/2602.01785",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.01785",
+      "scraped_at": "2026-02-05T02:10:39.597773"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "AOrchestra: Automating Sub-Agent Creation for Agentic Orchestration",
+    "paper_url": "https://huggingface.co/papers/2602.03786",
+    "authors": [
+      "Fashen Ren",
+      "Yiran Peng",
+      "Zhihao Xu",
+      "didiforhugface",
+      "Aurorra1123"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AOrchestra: Automating Sub-Agent Creation for Agentic Orchestration",
+      "abstract": "AORCHESTRA: Automating Sub-Agent Creation for Agentic Orchestration We introduce AORCHESTRA, a framework-agnostic orchestration paradigm for agentic systems that models any agent as a compositional four-tuple ⟨Instruction, Context, Tools, Model⟩. Instead of relying on static roles or isolated context threads, AORCHESTRA enables dynamic, on-demand creation of specialized sub-agents with explicit context control and cost awareness. This abstraction decouples orchestration from execution, making the system plug-and-play across heterogeneous agent backends. The framework is evaluated on realistic long-horizon benchmarks including GAIA, SWE-Bench, and Terminal-Bench, achieving a 16.28% relative improvement over the strongest baseline when paired with Gemini-3-Flash.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03786",
+      "pdf_url": "https://arxiv.org/pdf/2602.03786",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03786",
+      "scraped_at": "2026-02-05T02:10:41.479974"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "No Global Plan in Chain-of-Thought: Uncover the Latent Planning Horizon of LLMs",
+    "paper_url": "https://huggingface.co/papers/2602.02103",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "No Global Plan in Chain-of-Thought: Uncover the Latent Planning Horizon of LLMs",
+      "abstract": "Our data and models are available at: https://github.com/lxucs/tele-lens",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.02103",
+      "pdf_url": "https://arxiv.org/pdf/2602.02103",
+      "github_links": [
+        "https://github.com/lxucs/tele-lens"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.02103",
+      "scraped_at": "2026-02-05T02:10:43.519926"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "MARS: Modular Agent with Reflective Search for Automated AI Research",
+    "paper_url": "https://huggingface.co/papers/2602.02660",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MARS: Modular Agent with Reflective Search for Automated AI Research",
+      "abstract": "MARS uses budget-aware planning, modular design, and reflective memory to automate AI research, achieving strong performance and cross-branch knowledge transfer.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.02660",
+      "pdf_url": "https://arxiv.org/pdf/2602.02660",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.02660",
+      "scraped_at": "2026-02-05T02:10:45.422989"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "3D-Aware Implicit Motion Control for View-Adaptive Human Video Generation",
+    "paper_url": "https://huggingface.co/papers/2602.03796",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "3D-Aware Implicit Motion Control for View-Adaptive Human Video Generation",
+      "abstract": "TL;DR : 3DiMo can faithfully transfer genuine 3D motion from a given driving video to a reference character, while enabling flexible free-view camera control.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03796",
+      "pdf_url": "https://arxiv.org/pdf/2602.03796",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03796",
+      "scraped_at": "2026-02-05T02:10:47.454765"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "daVinci-Agency: Unlocking Long-Horizon Agency Data-Efficiently",
+    "paper_url": "https://huggingface.co/papers/2602.02619",
+    "authors": [],
+    "stars": "25",
+    "details": {
+      "title": "daVinci-Agency: Unlocking Long-Horizon Agency Data-Efficiently",
+      "abstract": "While Large Language Models (LLMs) excel at short-term tasks, scaling them to long-horizon agentic workflows remains challenging. The core bottleneck lies in the scarcity of training data that captures authentic long-dependency structures and cross-stage evolutionary dynamics—existing synthesis methods either confine to single-feature scenarios constrained by model distribution, or incur prohibitive human annotation costs, failing to provide scalable, high-quality supervision. We address this by reconceptualizing data synthesis through the lens of real-world software evolution. Our key insight: Pull Request (PR) sequences naturally embody the supervision signals for long-horizon learning. They decompose complex objectives into verifiable submission units, maintain functional coherence across iterations, and encode authentic refinement patterns through bug-fix histories. Building on this, we propose daVinci-Agency , which systematically mines structured supervision from chain-of-PRs through three interlocking mechanisms: (1) progressive task decomposition via continuous commits, (2) long-term consistency enforcement through unified functional objectives, and (3) verifiable refinement from authentic bug-fix trajectories. Unlike synthetic trajectories that treat each step independently, daVinci-Agency's PR-grounded structure inherently preserves the causal dependencies and iterative refinements essential for teaching persistent goal-directed behavior and enables natural alignment with project-level, full-cycle task modeling. The resulting trajectories are substantial—averaging 85k tokens and 116 tool calls—yet remarkably data-efficient: fine-tuning GLM-4.6 on 239 daVinci-Agency samples yields broad improvements across benchmarks, notably achieving a 47% relative gain on Toolathlon. Beyond benchmark performance, our analysis confirms the model's effective internalization of long-horizon behaviors and unveils training and inference scaling laws specific to extended planning tasks. Our work establishes daVinci-Agency as a scalable paradigm that overcomes the limitations of single-feature synthesis, demonstrating that modeling real-world evolutionary trajectories offers a principled path to unlock the intrinsic long-horizon potential of agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.02619",
+      "pdf_url": "https://arxiv.org/pdf/2602.02619",
+      "github_links": [
+        "https://github.com/GAIR-NLP/daVinci-Agency"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.02619",
+      "scraped_at": "2026-02-05T02:10:49.386190"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "Research on World Models Is Not Merely Injecting World Knowledge into Specific Tasks",
+    "paper_url": "https://huggingface.co/papers/2602.01630",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Research on World Models Is Not Merely Injecting World Knowledge into Specific Tasks",
+      "abstract": "In this paper, we discuss what the canonical format of world models should be. We welcome everyone to join the discussion.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.01630",
+      "pdf_url": "https://arxiv.org/pdf/2602.01630",
+      "github_links": [
+        "https://github.com/OpenDCAI/DataFlow-MM",
+        "https://github.com/OpenDCAI/DataFlow"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.01630",
+      "scraped_at": "2026-02-05T02:10:51.279703"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "CoBA-RL: Capability-Oriented Budget Allocation for Reinforcement Learning in LLMs",
+    "paper_url": "https://huggingface.co/papers/2602.03048",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CoBA-RL: Capability-Oriented Budget Allocation for Reinforcement Learning in LLMs",
+      "abstract": "CoBA-RL adaptively allocates RL rollout budgets for LLMs using a capability-valued metric and a heap-based greedy strategy to focus training on high-value samples, improving generalization efficiently.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03048",
+      "pdf_url": "https://arxiv.org/pdf/2602.03048",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03048",
+      "scraped_at": "2026-02-05T02:10:53.206366"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "Diversity-Preserved Distribution Matching Distillation for Fast Visual Synthesis",
+    "paper_url": "https://huggingface.co/papers/2602.03139",
+    "authors": [],
+    "stars": "43",
+    "details": {
+      "title": "Diversity-Preserved Distribution Matching Distillation for Fast Visual Synthesis",
+      "abstract": "A simple yet effective approach to preserving sample diversity under DMD, with no perceptual backbone, no discriminator, no auxiliary networks, and no additional ground-truth images.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03139",
+      "pdf_url": "https://arxiv.org/pdf/2602.03139",
+      "github_links": [
+        "https://github.com/Multimedia-Analytics-Laboratory/dpdmd"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03139",
+      "scraped_at": "2026-02-05T02:10:57.233388"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "SWE-World: Building Software Engineering Agents in Docker-Free Environments",
+    "paper_url": "https://huggingface.co/papers/2602.03419",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SWE-World: Building Software Engineering Agents in Docker-Free Environments",
+      "abstract": "Propose a Docker-free SWE RL, alleviating the strong dependence on Docker infrastructure during the SWE training process.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03419",
+      "pdf_url": "https://arxiv.org/pdf/2602.03419",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03419",
+      "scraped_at": "2026-02-05T02:10:59.153642"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "SWE-Master: Unleashing the Potential of Software Engineering Agents via Post-Training",
+    "paper_url": "https://huggingface.co/papers/2602.03411",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SWE-Master: Unleashing the Potential of Software Engineering Agents via Post-Training",
+      "abstract": "Unleash the SWE capabilities of the 32B model and provide available infrastructure for academic research on RL",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03411",
+      "pdf_url": "https://arxiv.org/pdf/2602.03411",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03411",
+      "scraped_at": "2026-02-05T02:11:01.149059"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "Parallel-Probe: Towards Efficient Parallel Thinking via 2D Probing",
+    "paper_url": "https://huggingface.co/papers/2602.03845",
+    "authors": [],
+    "stars": "10",
+    "details": {
+      "title": "Parallel-Probe: Towards Efficient Parallel Thinking via 2D Probing",
+      "abstract": "Parallel thinking has emerged as a promising paradigm for reasoning, yet it imposes significant computational burdens. Existing efficiency methods primarily rely on local, per-trajectory signals and lack principled mechanisms to exploit global dynamics across parallel branches. We introduce 2D probing, an interface that exposes the width-depth dynamics of parallel thinking by periodically eliciting intermediate answers from all branches. Our analysis reveals three key insights: non-monotonic scaling across width-depth allocations, heterogeneous reasoning branch lengths, and early stabilization of global consensus. Guided by these insights, we introduce Parallel-Probe, a training-free controller designed to optimize online parallel thinking. Parallel-Probe employs consensus-based early stopping to regulate reasoning depth and deviation-based branch pruning to dynamically adjust width. Extensive experiments across three benchmarks and multiple models demonstrate that Parallel-Probe establishes a superior Pareto frontier for test-time scaling. Compared to standard majority voting, it reduces sequential tokens by up to 35.8% and total token cost by over 25.8% while maintaining competitive accuracy.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03845",
+      "pdf_url": "https://arxiv.org/pdf/2602.03845",
+      "github_links": [
+        "https://github.com/zhengkid/Parallel-Probe"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03845",
+      "scraped_at": "2026-02-05T02:11:03.044174"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "Learning Query-Specific Rubrics from Human Preferences for DeepResearch Report Generation",
+    "paper_url": "https://huggingface.co/papers/2602.03619",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Learning Query-Specific Rubrics from Human Preferences for DeepResearch Report Generation",
+      "abstract": "Nowadays, training and evaluating DeepResearch-generated reports remain challenging due to the lack of verifiable reward signals. Accordingly, rubric-based evaluation has become a common practice. However, existing approaches either rely on coarse, pre-defined rubrics that lack sufficient granularity, or depend on manually constructed query-specific rubrics that are costly and difficult to scale. In this paper, we propose a pipeline to train human-preference-aligned query-specific rubric generators tailored for DeepResearch report generation. We first construct a dataset of DeepResearch-style queries annotated with human preferences over paired reports, and train rubric generators via reinforcement learning with a hybrid reward combining human preference supervision and LLM-based rubric evaluation. To better handle long-horizon reasoning, we further introduce a Multi-agent Markov-state (MaMs) workflow for report generation. We empirically show that our proposed rubric generators deliver more discriminative and better human-aligned supervision than existing rubric design strategies. Moreover, when integrated into the MaMs training framework, DeepResearch systems equipped with our rubric generators consistently outperform all open-source baselines on the DeepResearch Bench and achieve performance comparable to that of leading closed-source models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03619",
+      "pdf_url": "https://arxiv.org/pdf/2602.03619",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03619",
+      "scraped_at": "2026-02-05T02:11:04.981749"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "RANKVIDEO: Reasoning Reranking for Text-to-Video Retrieval",
+    "paper_url": "https://huggingface.co/papers/2602.02444",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "RANKVIDEO: Reasoning Reranking for Text-to-Video Retrieval",
+      "abstract": "Reasoning Reranking for text-to-video retrieval",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.02444",
+      "pdf_url": "https://arxiv.org/pdf/2602.02444",
+      "github_links": [
+        "https://github.com/tskow99/RANKVIDEO-Reasoning-Reranker"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.02444",
+      "scraped_at": "2026-02-05T02:11:07.043870"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "Unified Personalized Reward Model for Vision Generation",
+    "paper_url": "https://huggingface.co/papers/2602.02380",
+    "authors": [],
+    "stars": "691",
+    "details": {
+      "title": "Unified Personalized Reward Model for Vision Generation",
+      "abstract": "🪐 Project Page: https://codegoat24.github.io/UnifiedReward/flex 🤗 Model Collections: https://huggingface.co/collections/CodeGoat24/unifiedreward-flex 🤗 Dataset: https://huggingface.co/datasets/CodeGoat24/UnifiedReward-Flex-SFT-90K 👋 Point of Contact: Yibin Wang",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.02380",
+      "pdf_url": "https://arxiv.org/pdf/2602.02380",
+      "github_links": [
+        "https://github.com/CodeGoat24/UnifiedReward"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.02380",
+      "scraped_at": "2026-02-05T02:11:09.471899"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "Neural Predictor-Corrector: Solving Homotopy Problems with Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2602.03086",
+    "authors": [
+      "Haoang Li",
+      "Yingping Zeng",
+      "Zhenjun Zhao",
+      "Bangyan Liao",
+      "Jiayao Mai"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Neural Predictor-Corrector: Solving Homotopy Problems with Reinforcement Learning",
+      "abstract": "The Homotopy paradigm, a general principle for solving challenging problems, appears across diverse domains such as robust optimization, global optimization, polynomial root-finding, and sampling. Practical solvers for these problems typically follow a predictor-corrector (PC) structure, but rely on hand-crafted heuristics for step sizes and iteration termination, which are often suboptimal and task-specific. To address this, we unify these problems under a single framework, which enables the design of a general neural solver. Building on this unified view, we propose Neural Predictor-Corrector (NPC), which replaces hand-crafted heuristics with automatically learned policies. NPC formulates policy selection as a sequential decision-making problem and leverages reinforcement learning to automatically discover efficient strategies. To further enhance generalization, we introduce an amortized training mechanism, enabling one-time offline training for a class of problems and efficient online inference on new instances. Experiments on four representative homotopy problems demonstrate that our method generalizes effectively to unseen instances. It consistently outperforms classical and specialized baselines in efficiency while demonstrating superior stability across tasks, highlighting the value of unifying homotopy methods into a single neural framework.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03086",
+      "pdf_url": "https://arxiv.org/pdf/2602.03086",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03086",
+      "scraped_at": "2026-02-05T02:11:11.452955"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "WideSeek: Advancing Wide Research via Multi-Agent Scaling",
+    "paper_url": "https://huggingface.co/papers/2602.02636",
+    "authors": [
+      "Zhongtao Jiang",
+      "Xiaowei Yuan",
+      "Haolin Ren",
+      "Jarvis1111",
+      "hzy"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "WideSeek: Advancing Wide Research via Multi-Agent Scaling",
+      "abstract": "Search intelligence is evolving from Deep Research to Wide Research, a paradigm essential for retrieving and synthesizing comprehensive information sets under complex constraints in parallel. However, advancements in this field are impeded by the lack of dedicated benchmarks and optimization methodologies for search breadth. To address these challenges, we give a deep dive into Wide Research from two perspectives: Data Pipeline and Agent Optimization. First, we produce WideSeekBench, a General Broad Information Seeking (GBIS) benchmark constructed via a rigorous multi-phase data pipeline to ensure diversity across the volume of target information, logical constraints, and domains. Second, we introduce WideSeek, a dynamic hierarchical multi-agent architecture that could autonomously fork parallel sub-agents based on task requirements. Furthermore, we design a unified training framework that linearizes multi-agent trajectories and optimizes the system using end-to-end RL. Experimental results demonstrate the effectiveness of WideSeek and multi-agent RL, highlighting that scaling the number of agents is a promising direction for advancing Wide Research paradigm.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.02636",
+      "pdf_url": "https://arxiv.org/pdf/2602.02636",
+      "github_links": [
+        "https://github.com/hzy312/WideSeek"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.02636",
+      "scraped_at": "2026-02-05T02:11:13.350324"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "Balancing Understanding and Generation in Discrete Diffusion Models",
+    "paper_url": "https://huggingface.co/papers/2602.01362",
+    "authors": [
+      "Jianbin Jiao",
+      "Qixiang Ye",
+      "Zheyong Xie",
+      "callsys",
+      "Mzero17"
+    ],
+    "stars": "8",
+    "details": {
+      "title": "Balancing Understanding and Generation in Discrete Diffusion Models",
+      "abstract": "We introduce XDLM, a discrete diffusion model that unifies MDLM and UDLM via a stationary noise kernel. XDLM theoretically bridges the two paradigms, recovers each as a special case, and reduces memory costs through an algebraic simplification of the posterior. Experiments show that XDLM achieves a better trade-off between semantic understanding and few-step generation quality, outperforming UDLM on zero-shot text tasks and MDLM on few-step image generation. Scaled to an 8B language model, XDLM attains 15.0 MBPP in 32 steps, nearly doubling baseline performance, with strong potential for long-term scaling. Code is available in https://github.com/MzeroMiko/XDLM .",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.01362",
+      "pdf_url": "https://arxiv.org/pdf/2602.01362",
+      "github_links": [
+        "https://github.com/MzeroMiko/XDLM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.01362",
+      "scraped_at": "2026-02-05T02:11:15.238549"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "Less Noise, More Voice: Reinforcement Learning for Reasoning via Instruction Purification",
+    "paper_url": "https://huggingface.co/papers/2601.21244",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Less Noise, More Voice: Reinforcement Learning for Reasoning via Instruction Purification",
+      "abstract": "Reinforcement Learning with Verifiable Rewards (RLVR) has shown strong promise for improving LLM reasoning, but in practice it often fails silently: for many hard prompts, all rollouts receive zero reward, causing training to stall or collapse. 🔍 Key observation Through token-level analysis, we find that many failed rollouts are not due to problem difficulty. Instead, failures are often caused by a very small number of “interference tokens” (<5%) that derail the entire reasoning trajectory. ✂️ Interference Token Purification Simply removing these high-interference tokens can: turn failed rollouts into successful ones improve rollout accuracy by 20%+ on previously zero-reward prompts 🚀 Method: Less Noise Sampling (LENS) We introduce LENS, an online selective rollout framework for RLVR: Identify & remove interference tokens in low-success prompts to unlock successful rollouts Transfer learning back to the original noisy prompts, using denoised rollouts as high-reward supervision → the model learns to ignore noise, not just solve cleaner prompts 📊 Results Pareto improvement over GRPO in performance–efficiency trade-offs +3.88% average accuracy gain across 7 math reasoning benchmarks 1.6× faster convergence with less compute Outperforms both rollout scaling and prompt filtering baselines 💡 Takeaway Low-success prompts are not useless—they contain valuable signals hidden behind a few noisy tokens. Pruning interference tokens offers a new perspective on improving exploration efficiency in RLVR. 🔗 Links Paper: Less Noise Sampling Framework for RLVR Keywords: RLVR, GRPO, reasoning, rollout efficiency, token-level analysis",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.21244",
+      "pdf_url": "https://arxiv.org/pdf/2601.21244",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.21244",
+      "scraped_at": "2026-02-05T02:11:17.174384"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "Token Sparse Attention: Efficient Long-Context Inference with Interleaved Token Selection",
+    "paper_url": "https://huggingface.co/papers/2602.03216",
+    "authors": [
+      "Jae-Joon Kim",
+      "Jiwon Song",
+      "Beomseok Kang",
+      "dongwonjo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Token Sparse Attention: Efficient Long-Context Inference with Interleaved Token Selection",
+      "abstract": "Token Sparse Attention is a complementary approach to efficient sparse attention that dynamically performs token-level compression during attention and reversibly decompresses the representations afterward. Code release is in progress; a cleaned and documented implementation will be released soon.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03216",
+      "pdf_url": "https://arxiv.org/pdf/2602.03216",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03216",
+      "scraped_at": "2026-02-05T02:11:19.072010"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "FullStack-Agent: Enhancing Agentic Full-Stack Web Coding via Development-Oriented Testing and Repository Back-Translation",
+    "paper_url": "https://huggingface.co/papers/2602.03798",
+    "authors": [
+      "Zhuofan Zong",
+      "Yunqiao Yang",
+      "Houxing Ren",
+      "Zimu Lu",
+      "scikkk"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "FullStack-Agent: Enhancing Agentic Full-Stack Web Coding via Development-Oriented Testing and Repository Back-Translation",
+      "abstract": "In this paper, we introduce FullStack-Agent, a unified system that combines a multi-agent full-stack development framework equipped with efficient coding and debugging tools (FullStack-Dev), an iterative self-improvement method that improves the abilities of LLMs through repository augmentation and back-translation (FullStack-Learn), and a full-stack development benchmark that comprehensively evaluates frontend, backend, and database functionalities (FullStack-Bench). Extensive experiments demonstrate the effectiveness of our method. Testing FullStack-Dev with Qwen3-Coder-480B-A35B-Instruct as the backbone LLM on FullStack-Bench results in accuracies of 64.7%, 77.8%, and 77.9% in frontend, backend, and database test cases respectively, outperforming the previous state-of-the-art method by 8.7%, 38.2%, and 15.9%, respectively. Training Qwen3-Coder-30B-Instruct with FullStack-Learn improves its accuracies by 9.7%, 9.5%, and 2.8% in the three sets of test cases, respectively.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03798",
+      "pdf_url": "https://arxiv.org/pdf/2602.03798",
+      "github_links": [
+        "https://github.com/mnluzimu/FullStack-Agent"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03798",
+      "scraped_at": "2026-02-05T02:11:21.034758"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "LIVE: Long-horizon Interactive Video World Modeling",
+    "paper_url": "https://huggingface.co/papers/2602.03747",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "LIVE: Long-horizon Interactive Video World Modeling",
+      "abstract": "Project Page: https://junchao-cs.github.io/LIVE-demo/ Technical Paper: https://arxiv.org/pdf/2602.03747",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03747",
+      "pdf_url": "https://arxiv.org/pdf/2602.03747",
+      "github_links": [
+        "https://github.com/Junchao-cs/LIVE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03747",
+      "scraped_at": "2026-02-05T02:11:22.880136"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "No Shortcuts to Culture: Indonesian Multi-hop Question Answering for Complex Cultural Understanding",
+    "paper_url": "https://huggingface.co/papers/2602.03709",
+    "authors": [
+      "Nikos Aletras",
+      "Nafise Sadat Moosavi",
+      "Vynska Amalia Permadi",
+      "XingweiT"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "No Shortcuts to Culture: Indonesian Multi-hop Question Answering for Complex Cultural Understanding",
+      "abstract": "To move beyond simple fact-recalling, researchers have introduced ID-MoCQA, the first large-scale multi-hop reasoning dataset focused on Indonesian culture. The Problem: Most AI benchmarks use \"single-hop\" questions that models can answer using surface-level patterns rather than true cultural understanding. The Solution: ID-MoCQA uses a framework to turn simple facts into complex reasoning chains across six categories (like geography and tradition) in both English and Indonesian. The Finding: Current LLMs struggle significantly with these complex cultural inferences, highlighting a major gap in their \"cultural intelligence.\"",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03709",
+      "pdf_url": "https://arxiv.org/pdf/2602.03709",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03709",
+      "scraped_at": "2026-02-05T02:11:24.799549"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "AdaptMMBench: Benchmarking Adaptive Multimodal Reasoning for Mode Selection and Reasoning Process",
+    "paper_url": "https://huggingface.co/papers/2602.02676",
+    "authors": [
+      "Shilin Yan",
+      "Zhi Gao",
+      "Jongrong Wu",
+      "Xiaowen Zhang",
+      "xintongzhang"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "AdaptMMBench: Benchmarking Adaptive Multimodal Reasoning for Mode Selection and Reasoning Process",
+      "abstract": "AdaptMMBench is designed to evaluate adaptive multimodal reasoning beyond final accuracy. It focuses on whether vision-language models make correct reasoning mode selections and execute high-quality, efficient reasoning processes.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.02676",
+      "pdf_url": "https://arxiv.org/pdf/2602.02676",
+      "github_links": [
+        "https://github.com/xtong-zhang/AdaptMMBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.02676",
+      "scraped_at": "2026-02-05T02:11:26.673076"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "Decouple Searching from Training: Scaling Data Mixing via Model Merging for Large Language Model Pre-training",
+    "paper_url": "https://huggingface.co/papers/2602.00747",
+    "authors": [
+      "Haifeng Liu",
+      "Jieying Ye",
+      "Kaiyan Zhao",
+      "Shengrui Li",
+      "Hiiamein"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Decouple Searching from Training: Scaling Data Mixing via Model Merging for Large Language Model Pre-training",
+      "abstract": "Decouple Searching from Training: Scaling Data Mixing via Model Merging for Large Language Model Pre-training",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.00747",
+      "pdf_url": "https://arxiv.org/pdf/2602.00747",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.00747",
+      "scraped_at": "2026-02-05T02:11:28.542422"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "Instruction Anchors: Dissecting the Causal Dynamics of Modality Arbitration",
+    "paper_url": "https://huggingface.co/papers/2602.03677",
+    "authors": [
+      "Pengfei Zhang",
+      "Kehai chen",
+      "Xuefeng Bai",
+      "Mufan Xu",
+      "Yu Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Instruction Anchors: Dissecting the Causal Dynamics of Modality Arbitration",
+      "abstract": "In this paper, we investigate the working mechanism of modality following through an information flow lens and find that instruction tokens function as structural anchors for modality arbitration.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03677",
+      "pdf_url": "https://arxiv.org/pdf/2602.03677",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03677",
+      "scraped_at": "2026-02-05T02:11:30.411754"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "Search-R2: Enhancing Search-Integrated Reasoning via Actor-Refiner Collaboration",
+    "paper_url": "https://huggingface.co/papers/2602.03647",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Search-R2: Enhancing Search-Integrated Reasoning via Actor-Refiner Collaboration",
+      "abstract": "Search-R2 trains an Actor and a Meta-Refiner to intervene and repair reasoning with a dense process reward, improving search-based reasoning over RAG/RL baselines.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03647",
+      "pdf_url": "https://arxiv.org/pdf/2602.03647",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03647",
+      "scraped_at": "2026-02-05T02:11:32.285222"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "LRAgent: Efficient KV Cache Sharing for Multi-LoRA LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2602.01053",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "LRAgent: Efficient KV Cache Sharing for Multi-LoRA LLM Agents",
+      "abstract": "We propose LRAgent, an efficient KV-cache sharing framework for multi-LoRA LLM agents that shares highly similar base caches induced by the pretrained weights, while keeping lightweight low-rank caches induced by the LoRA adapters.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.01053",
+      "pdf_url": "https://arxiv.org/pdf/2602.01053",
+      "github_links": [
+        "https://github.com/hjeon2k/LRAgent"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.01053",
+      "scraped_at": "2026-02-05T02:11:34.175487"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "Position: Agentic Evolution is the Path to Evolving LLMs",
+    "paper_url": "https://huggingface.co/papers/2602.00359",
+    "authors": [
+      "Rui Mao",
+      "Bing He",
+      "Zhan Shi",
+      "Hanqing Lu",
+      "ventr1c"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Position: Agentic Evolution is the Path to Evolving LLMs",
+      "abstract": "Code repository: https://github.com/ventr1c/agentic-evoluiton",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.00359",
+      "pdf_url": "https://arxiv.org/pdf/2602.00359",
+      "github_links": [
+        "https://github.com/ventr1c/agentic-evoluiton"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.00359",
+      "scraped_at": "2026-02-05T02:11:36.128396"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "WorldVQA: Measuring Atomic World Knowledge in Multimodal Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2602.02537",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "WorldVQA: Measuring Atomic World Knowledge in Multimodal Large Language Models",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Vision-DeepResearch Benchmark: Rethinking Visual and Textual Search for Multimodal Large Language Models (2026) MMErroR: A Benchmark for Erroneous Reasoning in Vision-Language Models (2026) Beyond Accuracy: Evaluating Grounded Visual Evidence in Thinking with Images (2026) Seeing Is Believing? A Benchmark for Multimodal Large Language Models on Visual Illusions and Anomalies (2026) MM-THEBench: Do Reasoning MLLMs Think Reasonably? (2026) VLN-MME: Diagnosing MLLMs as Language-guided Visual Navigation agents (2025) BabyVision: Visual Reasoning Beyond Language (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.02537",
+      "pdf_url": "https://arxiv.org/pdf/2602.02537",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.02537",
+      "scraped_at": "2026-02-05T02:11:38.158173"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "Bridging Online and Offline RL: Contextual Bandit Learning for Multi-Turn Code Generation",
+    "paper_url": "https://huggingface.co/papers/2602.03806",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Bridging Online and Offline RL: Contextual Bandit Learning for Multi-Turn Code Generation",
+      "abstract": "Recently, there have been significant research interests in training large language models (LLMs) with reinforcement learning (RL) on real-world tasks, such as multi-turn code generation. While online RL tends to perform better than offline RL, its higher training cost and instability hinders wide adoption. In this paper, we build on the observation that multi-turn code generation can be formulated as a one-step recoverable Markov decision process and propose contextual bandit learning with offline trajectories (Cobalt), a new method that combines the benefits of online and offline RL. Cobalt first collects code generation trajectories using a reference LLM and divides them into partial trajectories as contextual prompts. Then, during online bandit learning, the LLM is trained to complete each partial trajectory prompt through single-step code generation. Cobalt outperforms two multi-turn online RL baselines based on GRPO and VeRPO, and substantially improves R1-Distill 8B and Qwen3 8B by up to 9.0 and 6.2 absolute Pass@1 scores on LiveCodeBench. Also, we analyze LLMs' in-context reward hacking behaviors and augment Cobalt training with perturbed trajectories to mitigate this issue. Overall, our results demonstrate Cobalt as a promising solution for iterative decision-making tasks like multi-turn code generation. Our code and data are available at https://github.com/OSU-NLP-Group/cobalt .",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03806",
+      "pdf_url": "https://arxiv.org/pdf/2602.03806",
+      "github_links": [
+        "https://github.com/OSU-NLP-Group/cobalt"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03806",
+      "scraped_at": "2026-02-05T02:11:40.045980"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "FIRE-Bench: Evaluating Agents on the Rediscovery of Scientific Insights",
+    "paper_url": "https://huggingface.co/papers/2602.02905",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "FIRE-Bench: Evaluating Agents on the Rediscovery of Scientific Insights",
+      "abstract": "FIRE-Bench is a human-grounded benchmark designed to test whether AI can actually do science end-to-end, from ideation, planning, to implementation, execution, and conclusions. It converts recent, expert-validated scientific insights from top ML conferences into masked discovery challenges, forcing agents to rediscover human-verified insights rather than reproduce methods. By anchoring open-ended exploration to human-grounded ground truth and evaluating discovery at the claim level, FIRE-Bench reveals a clear “science gap”: today’s best agents are less capable (<50 F1), unreliable, and fail mainly at planning and reasoning, not coding. The benchmark offers a scalable, structured way to convert a paper into a constrained discovery problem to measure progress toward reliable, creative, full-cycle scientific discovery, and targets a path toward live, continuously updated evaluation of research-capable AI.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.02905",
+      "pdf_url": "https://arxiv.org/pdf/2602.02905",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.02905",
+      "scraped_at": "2026-02-05T02:11:41.895291"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "ObjEmbed: Towards Universal Multimodal Object Embeddings",
+    "paper_url": "https://huggingface.co/papers/2602.01753",
+    "authors": [
+      "Xiaohua Xie",
+      "Jing Lyu",
+      "Fengyun Rao",
+      "Yukun Su",
+      "fushh7"
+    ],
+    "stars": "13",
+    "details": {
+      "title": "ObjEmbed: Towards Universal Multimodal Object Embeddings",
+      "abstract": "Code is available at https://github.com/WeChatCV/ObjEmbed",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.01753",
+      "pdf_url": "https://arxiv.org/pdf/2602.01753",
+      "github_links": [
+        "https://github.com/WeChatCV/ObjEmbed"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.01753",
+      "scraped_at": "2026-02-05T02:11:43.794373"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "Glance and Focus Reinforcement for Pan-cancer Screening",
+    "paper_url": "https://huggingface.co/papers/2601.19103",
+    "authors": [],
+    "stars": "26",
+    "details": {
+      "title": "Glance and Focus Reinforcement for Pan-cancer Screening",
+      "abstract": "Code is available at https://github.com/Luffy03/GF-Screen",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.19103",
+      "pdf_url": "https://arxiv.org/pdf/2601.19103",
+      "github_links": [
+        "https://github.com/Luffy03/GF-Screen"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.19103",
+      "scraped_at": "2026-02-05T02:11:45.897279"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "Contextualized Visual Personalization in Vision-Language Models",
+    "paper_url": "https://huggingface.co/papers/2602.03454",
+    "authors": [
+      "Jisoo Mok",
+      "Han Cheol Moon",
+      "Junsung Park",
+      "Sangwon Yu",
+      "Yeongtak"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Contextualized Visual Personalization in Vision-Language Models",
+      "abstract": "We introduce CoViP, a unified framework for contextualized visual personalization in VLMs, featuring a novel personalized image captioning benchmark, an RL-based post-training scheme, and diagnostic downstream personalization tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03454",
+      "pdf_url": "https://arxiv.org/pdf/2602.03454",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03454",
+      "scraped_at": "2026-02-05T02:11:47.677895"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "POP: Prefill-Only Pruning for Efficient Large Model Inference",
+    "paper_url": "https://huggingface.co/papers/2602.03295",
+    "authors": [
+      "Qingan Li",
+      "Jun Wang",
+      "Zhihui Fu",
+      "Junhuihe"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "POP: Prefill-Only Pruning for Efficient Large Model Inference",
+      "abstract": "This paper proposes Prefill-Only Pruning (POP), a stage-aware strategy that accelerates inference by pruning redundant deep layers exclusively during the prefill stage while retaining the full model capacity for decoding to preserve high generative accuracy.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03295",
+      "pdf_url": "https://arxiv.org/pdf/2602.03295",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03295",
+      "scraped_at": "2026-02-05T02:11:49.496210"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "SafeGround: Know When to Trust GUI Grounding Models via Uncertainty Calibration",
+    "paper_url": "https://huggingface.co/papers/2602.02419",
+    "authors": [
+      "Xin Eric Wang",
+      "Yue Fan",
+      "Qingni Wang"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "SafeGround: Know When to Trust GUI Grounding Models via Uncertainty Calibration",
+      "abstract": "Code: https://github.com/Cece1031/SAFEGROUND",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.02419",
+      "pdf_url": "https://arxiv.org/pdf/2602.02419",
+      "github_links": [
+        "https://github.com/Cece1031/SAFEGROUND"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.02419",
+      "scraped_at": "2026-02-05T02:11:51.442936"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "LycheeDecode: Accelerating Long-Context LLM Inference via Hybrid-Head Sparse Decoding",
+    "paper_url": "https://huggingface.co/papers/2602.04541",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LycheeDecode: Accelerating Long-Context LLM Inference via Hybrid-Head Sparse Decoding",
+      "abstract": "ICLR 2026",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.04541",
+      "pdf_url": "https://arxiv.org/pdf/2602.04541",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.04541",
+      "scraped_at": "2026-02-05T02:11:54.529576"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "Accelerating Scientific Research with Gemini: Case Studies and Common Techniques",
+    "paper_url": "https://huggingface.co/papers/2602.03837",
+    "authors": [
+      "Song Zuo",
+      "Jieming Mao",
+      "Lalit Jain",
+      "Vincent Cohen-Addad",
+      "David P. Woodruff"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Accelerating Scientific Research with Gemini: Case Studies and Common Techniques",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Evaluating Frontier LLMs on PhD-Level Mathematical Reasoning: A Benchmark on a Textbook in Theoretical Computer Science about Randomized Algorithms (2025) Evaluating Large Language Models in Scientific Discovery (2025) Probing Scientific General Intelligence of LLMs with Scientist-Aligned Workflows (2025) Evaluating Novelty in AI-Generated Research Plans Using Multi-Workflow LLM Pipelines (2025) Enhancing Large Language Models for End-to-End Circuit Analysis Problem Solving (2025) FrontierScience: Evaluating AI's Ability to Perform Expert-Level Scientific Tasks (2026) Towards AI-Supported Research: a Vision of the TIB AIssistant (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03837",
+      "pdf_url": "https://arxiv.org/pdf/2602.03837",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03837",
+      "scraped_at": "2026-02-05T02:11:56.358233"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "Privasis: Synthesizing the Largest \"Public\" Private Dataset from Scratch",
+    "paper_url": "https://huggingface.co/papers/2602.03183",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Privasis: Synthesizing the Largest \"Public\" Private Dataset from Scratch",
+      "abstract": "Project page: https://privasis.github.io Code: https://github.com/skywalker023/privasis",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03183",
+      "pdf_url": "https://arxiv.org/pdf/2602.03183",
+      "github_links": [
+        "https://github.com/skywalker023/privasis"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03183",
+      "scraped_at": "2026-02-05T02:11:58.202215"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "FaceLinkGen: Rethinking Identity Leakage in Privacy-Preserving Face Recognition with Identity Extraction",
+    "paper_url": "https://huggingface.co/papers/2602.02914",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "FaceLinkGen: Rethinking Identity Leakage in Privacy-Preserving Face Recognition with Identity Extraction",
+      "abstract": "A new red-teaming paper on PPFR systems",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.02914",
+      "pdf_url": "https://arxiv.org/pdf/2602.02914",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.02914",
+      "scraped_at": "2026-02-05T02:12:00.031797"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "Scaling Small Agents Through Strategy Auctions",
+    "paper_url": "https://huggingface.co/papers/2602.02751",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Scaling Small Agents Through Strategy Auctions",
+      "abstract": "Small language models are cheap but don’t scale to long-horizon tasks. Strategy auctions help them punch above their weight. 🚀",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.02751",
+      "pdf_url": "https://arxiv.org/pdf/2602.02751",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.02751",
+      "scraped_at": "2026-02-05T02:12:01.973854"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "SimpleGPT: Improving GPT via A Simple Normalization Strategy",
+    "paper_url": "https://huggingface.co/papers/2602.01212",
+    "authors": [
+      "Rong Xiao",
+      "Jiaquan Ye",
+      "Yelin He",
+      "Xianbiao Qi",
+      "Marco Chen"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SimpleGPT: Improving GPT via A Simple Normalization Strategy",
+      "abstract": "This paper revisits Transformer optimization through the lens of second-order geometry and establish a direct connection between architectural design, activation scale, the Hessian matrix, and the maximum tolerable learning rate.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.01212",
+      "pdf_url": "https://arxiv.org/pdf/2602.01212",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.01212",
+      "scraped_at": "2026-02-05T02:12:03.808039"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "MedSAM-Agent: Empowering Interactive Medical Image Segmentation with Multi-turn Agentic Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2602.03320",
+    "authors": [
+      "Boyun Zheng",
+      "Wanting Geng",
+      "Qi Yang",
+      "Liuxin Bao",
+      "Saint-lsy"
+    ],
+    "stars": "8",
+    "details": {
+      "title": "MedSAM-Agent: Empowering Interactive Medical Image Segmentation with Multi-turn Agentic Reinforcement Learning",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03320",
+      "pdf_url": "https://arxiv.org/pdf/2602.03320",
+      "github_links": [
+        "https://github.com/CUHK-AIM-Group/MedSAM-Agent"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03320",
+      "scraped_at": "2026-02-05T02:12:06.214864"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "The Necessity of a Unified Framework for LLM-Based Agent Evaluation",
+    "paper_url": "https://huggingface.co/papers/2602.03238",
+    "authors": [
+      "Sen Su",
+      "Philip S. Yu",
+      "Li Sun",
+      "Pengyu Zhu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "The Necessity of a Unified Framework for LLM-Based Agent Evaluation",
+      "abstract": "With the advent of Large Language Models (LLMs), general-purpose agents have seen fundamental advancements. However, evaluating these agents presents unique challenges that distinguish them from static QA benchmarks. We observe that current agent benchmarks are heavily confounded by extraneous factors, including system prompts, toolset configurations, and environmental dynamics. Existing evaluations often rely on fragmented, researcher-specific frameworks where the prompt engineering for reasoning and tool usage varies significantly, making it difficult to attribute performance gains to the model itself. Additionally, the lack of standardized environmental data leads to untraceable errors and non-reproducible results. This lack of standardization introduces substantial unfairness and opacity into the field. We propose that a unified evaluation framework is essential for the rigorous advancement of agent evaluation. To this end, we introduce a proposal aimed at standardizing agent evaluation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03238",
+      "pdf_url": "https://arxiv.org/pdf/2602.03238",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03238",
+      "scraped_at": "2026-02-05T02:12:08.043813"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "MEG-XL: Data-Efficient Brain-to-Text via Long-Context Pre-Training",
+    "paper_url": "https://huggingface.co/papers/2602.02494",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "MEG-XL: Data-Efficient Brain-to-Text via Long-Context Pre-Training",
+      "abstract": "MEG-XL is a brain-to-text foundation model pre-trained with 2.5 minutes of MEG context per sample. It is designed to capture extended neural context, enabling high data efficiency for decoding words from brain activity.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.02494",
+      "pdf_url": "https://arxiv.org/pdf/2602.02494",
+      "github_links": [
+        "https://github.com/neural-processing-lab/MEG-XL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.02494",
+      "scraped_at": "2026-02-05T02:12:09.906071"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "Didactic to Constructive: Turning Expert Solutions into Learnable Reasoning",
+    "paper_url": "https://huggingface.co/papers/2602.02405",
+    "authors": [
+      "Alan Ritter",
+      "Jungsoo Park",
+      "Ethan Mendes"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Didactic to Constructive: Turning Expert Solutions into Learnable Reasoning",
+      "abstract": "Improving the reasoning capabilities of large language models (LLMs) typically relies either on the model's ability to sample a correct solution to be reinforced or on the existence of a stronger model able to solve the problem. However, many difficult problems remain intractable for even current frontier models, preventing the extraction of valid training signals. A promising alternative is to leverage high-quality expert human solutions, yet naive imitation of this data fails because it is fundamentally out of distribution: expert solutions are typically didactic, containing implicit reasoning gaps intended for human readers rather than computational models. Furthermore, high-quality expert solutions are expensive, necessitating generalizable sample-efficient training methods. We propose Distribution Aligned Imitation Learning (DAIL), a two-step method that bridges the distributional gap by first transforming expert solutions into detailed, in-distribution reasoning traces and then applying a contrastive objective to focus learning on expert insights and methodologies. We find that DAIL can leverage fewer than 1000 high-quality expert solutions to achieve 10-25% pass@k gains on Qwen2.5-Instruct and Qwen3 models, improve reasoning efficiency by 2x to 4x, and enable out-of-domain generalization.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.02405",
+      "pdf_url": "https://arxiv.org/pdf/2602.02405",
+      "github_links": [
+        "https://github.com/ethanm88/DAIL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.02405",
+      "scraped_at": "2026-02-05T02:12:11.754096"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "LangMap: A Hierarchical Benchmark for Open-Vocabulary Goal Navigation",
+    "paper_url": "https://huggingface.co/papers/2602.02220",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "LangMap: A Hierarchical Benchmark for Open-Vocabulary Goal Navigation",
+      "abstract": "The paper introduces HieraNav, a hierarchical object-oriented navigation task spanning scene, room, region, and instance levels, and presents the first large-scale benchmark LangMap to advance language-driven goal navigation research.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.02220",
+      "pdf_url": "https://arxiv.org/pdf/2602.02220",
+      "github_links": [
+        "https://github.com/bo-miao/LangMap"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.02220",
+      "scraped_at": "2026-02-05T02:12:13.783832"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "Feedback by Design: Understanding and Overcoming User Feedback Barriers in Conversational Agents",
+    "paper_url": "https://huggingface.co/papers/2602.01405",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Feedback by Design: Understanding and Overcoming User Feedback Barriers in Conversational Agents",
+      "abstract": "AI is designed to learn and adapt from human feedback. But humans give systematically worse feedback to AI than to other humans. Why? What feedback barriers exist and how can we fix them? Find out in our paper, accepted at CHI 2026.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.01405",
+      "pdf_url": "https://arxiv.org/pdf/2602.01405",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.01405",
+      "scraped_at": "2026-02-05T02:12:15.589387"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "RecGOAT: Graph Optimal Adaptive Transport for LLM-Enhanced Multimodal Recommendation with Dual Semantic Alignment",
+    "paper_url": "https://huggingface.co/papers/2602.00682",
+    "authors": [
+      "Chi Lu",
+      "Wei Yang",
+      "Zeyu Song",
+      "Hengwei Ju",
+      "Yuecheng Li"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "RecGOAT: Graph Optimal Adaptive Transport for LLM-Enhanced Multimodal Recommendation with Dual Semantic Alignment",
+      "abstract": "RecGOAT presents a novel yet simple dual-granularity semantic alignment framework for LLM-enhanced multimodal recommendation, which offers theoretically guaranteed alignment capability.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.00682",
+      "pdf_url": "https://arxiv.org/pdf/2602.00682",
+      "github_links": [
+        "https://github.com/6lyc/RecGOAT-LLM4Rec"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.00682",
+      "scraped_at": "2026-02-05T02:12:17.546485"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "MemoryLLM: Plug-n-Play Interpretable Feed-Forward Memory for Transformers",
+    "paper_url": "https://huggingface.co/papers/2602.00398",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MemoryLLM: Plug-n-Play Interpretable Feed-Forward Memory for Transformers",
+      "abstract": "Key Question: What if FFNs were actually human-interpretable, token-indexed memory?",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.00398",
+      "pdf_url": "https://arxiv.org/pdf/2602.00398",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.00398",
+      "scraped_at": "2026-02-05T02:12:19.433070"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "Adaptive Evidence Weighting for Audio-Spatiotemporal Fusion",
+    "paper_url": "https://huggingface.co/papers/2602.03817",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Adaptive Evidence Weighting for Audio-Spatiotemporal Fusion",
+      "abstract": "Authors introduce a family of adaptive evidence weighting models for audio spatial-temporal fusion; SoTA results on CBI audio-acoustic classification.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03817",
+      "pdf_url": "https://arxiv.org/pdf/2602.03817",
+      "github_links": [
+        "https://github.com/leharris3/birdnoise"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03817",
+      "scraped_at": "2026-02-05T02:12:21.297199"
+    },
+    "scraped_date": "2026-02-05"
+  },
+  {
+    "title": "You Need an Encoder for Native Position-Independent Caching",
+    "paper_url": "https://huggingface.co/papers/2602.01519",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "You Need an Encoder for Native Position-Independent Caching",
+      "abstract": "Welcome back, Encoder.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.01519",
+      "pdf_url": "https://arxiv.org/pdf/2602.01519",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.01519",
+      "scraped_at": "2026-02-05T02:12:23.237544"
+    },
+    "scraped_date": "2026-02-05"
   }
 ]
