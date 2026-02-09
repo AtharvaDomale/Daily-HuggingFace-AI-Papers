@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-47-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-1921+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-1968+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">47</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">357</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">402</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">1921+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">47</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">449</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">1968+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** February 08, 2026
+**Last Updated:** February 09, 2026
 
 ---
 
@@ -119,7 +119,7 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. CAR-bench: Evaluating the Consistency and Limit-Awareness of LLM Agents under Real-World Uncertainty</b> ⭐ 14</summary>
+<summary><b>1. CAR-bench: Evaluating the Consistency and Limit-Awareness of LLM Agents under Real-World Uncertainty</b> ⭐ 15</summary>
 
 <br/>
 
@@ -160,7 +160,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>4. MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents</b> ⭐ 24</summary>
+<summary><b>4. MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents</b> ⭐ 30</summary>
 
 <br/>
 
@@ -173,20 +173,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>5. Context Forcing: Consistent Autoregressive Video Generation with Long Context</b> ⭐ 31</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.06028) • [📄 arXiv](https://arxiv.org/abs/2602.06028) • [📥 PDF](https://arxiv.org/pdf/2602.06028)
-
-**💻 Code:** [⭐ Code](https://github.com/TIGER-AI-Lab/Context-Forcing)
-
-> project page: https://chenshuo20.github.io/Context_Forcing/ code: https://github.com/TIGER-AI-Lab/Context-Forcing
-
-</details>
-
-<details>
-<summary><b>6. DFlash: Block Diffusion for Flash Speculative Decoding</b> ⭐ 489</summary>
+<summary><b>5. DFlash: Block Diffusion for Flash Speculative Decoding</b> ⭐ 504</summary>
 
 <br/>
 
@@ -195,6 +182,19 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/z-lab/dflash)
 
 > This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API DART: Diffusion-Inspired Speculative Decoding for Fast LLM Inference (2026)...
+
+</details>
+
+<details>
+<summary><b>6. Context Forcing: Consistent Autoregressive Video Generation with Long Context</b> ⭐ 43</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.06028) • [📄 arXiv](https://arxiv.org/abs/2602.06028) • [📥 PDF](https://arxiv.org/pdf/2602.06028)
+
+**💻 Code:** [⭐ Code](https://github.com/TIGER-AI-Lab/Context-Forcing)
+
+> project page: https://chenshuo20.github.io/Context_Forcing/ code: https://github.com/TIGER-AI-Lab/Context-Forcing
 
 </details>
 
@@ -225,31 +225,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>9. ProAct: Agentic Lookahead in Interactive Environments</b> ⭐ 10</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.05327) • [📄 arXiv](https://arxiv.org/abs/2602.05327) • [📥 PDF](https://arxiv.org/pdf/2602.05327)
-
-**💻 Code:** [⭐ Code](https://github.com/GreatX3/ProAct)
-
-> ProAct trains LLM-based agents to perform accurate lookahead planning in interactive environments via Grounded LookAhead Distillation and a Monte-Carlo Critic, improving long-horizon decision accuracy.
-
-</details>
-
-<details>
-<summary><b>10. Privileged Information Distillation for Language Models</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.04942) • [📄 arXiv](https://arxiv.org/abs/2602.04942) • [📥 PDF](https://arxiv.org/pdf/2602.04942)
-
-> Training-time privileged information (PI) can enable language models to succeed on tasks they would otherwise fail, making it a powerful tool for reinforcement learning in hard, long-horizon settings. However, transferring capabilities learned wit...
-
-</details>
-
-<details>
-<summary><b>11. Dr. Kernel: Reinforcement Learning Done Right for Triton Kernel Generations</b> ⭐ 0</summary>
+<summary><b>9. Dr. Kernel: Reinforcement Learning Done Right for Triton Kernel Generations</b> ⭐ 0</summary>
 
 <br/>
 
@@ -262,7 +238,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>12. InterPrior: Scaling Generative Control for Physics-Based Human-Object Interactions</b> ⭐ 0</summary>
+<summary><b>10. ProAct: Agentic Lookahead in Interactive Environments</b> ⭐ 10</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.05327) • [📄 arXiv](https://arxiv.org/abs/2602.05327) • [📥 PDF](https://arxiv.org/pdf/2602.05327)
+
+**💻 Code:** [⭐ Code](https://github.com/GreatX3/ProAct)
+
+> ProAct trains LLM-based agents to perform accurate lookahead planning in interactive environments via Grounded LookAhead Distillation and a Monte-Carlo Critic, improving long-horizon decision accuracy.
+
+</details>
+
+<details>
+<summary><b>11. InterPrior: Scaling Generative Control for Physics-Based Human-Object Interactions</b> ⭐ 0</summary>
 
 <br/>
 
@@ -271,6 +260,17 @@ getTodaysPapers();
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.06035) • [📄 arXiv](https://arxiv.org/abs/2602.06035) • [📥 PDF](https://arxiv.org/pdf/2602.06035)
 
 > Distillation reconstructs motor skills, while RL fine-tuning interpolates and consolidates the latent space into a coherent skill manifold for versatile whole-body loco-manipulation.
+
+</details>
+
+<details>
+<summary><b>12. Privileged Information Distillation for Language Models</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.04942) • [📄 arXiv](https://arxiv.org/abs/2602.04942) • [📥 PDF](https://arxiv.org/pdf/2602.04942)
+
+> Training-time privileged information (PI) can enable language models to succeed on tasks they would otherwise fail, making it a powerful tool for reinforcement learning in hard, long-horizon settings. However, transferring capabilities learned wit...
 
 </details>
 
@@ -297,7 +297,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>15. Retrieval-Infused Reasoning Sandbox: A Benchmark for Decoupling Retrieval and Reasoning Capabilities</b> ⭐ 1</summary>
+<summary><b>15. Retrieval-Infused Reasoning Sandbox: A Benchmark for Decoupling Retrieval and Reasoning Capabilities</b> ⭐ 2</summary>
 
 <br/>
 
@@ -310,7 +310,18 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>16. SocialVeil: Probing Social Intelligence of Language Agents under Communication Barriers</b> ⭐ 0</summary>
+<summary><b>16. Grounding and Enhancing Informativeness and Utility in Dataset Distillation</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.21296) • [📄 arXiv](https://arxiv.org/abs/2601.21296) • [📥 PDF](https://arxiv.org/pdf/2601.21296)
+
+> Dataset Distillation (DD) seeks to create a compact dataset from a large, real-world dataset. While recent methods often rely on heuristic approaches to balance efficiency and quality, the fundamental relationship between original and synthetic da...
+
+</details>
+
+<details>
+<summary><b>17. SocialVeil: Probing Social Intelligence of Language Agents under Communication Barriers</b> ⭐ 0</summary>
 
 <br/>
 
@@ -323,24 +334,13 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>17. Steering LLMs via Scalable Interactive Oversight</b> ⭐ 0</summary>
+<summary><b>18. Steering LLMs via Scalable Interactive Oversight</b> ⭐ 0</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.04210) • [📄 arXiv](https://arxiv.org/abs/2602.04210) • [📥 PDF](https://arxiv.org/pdf/2602.04210)
 
 > As Large Language Models increasingly automate complex, long-horizon tasks such as \emph{vibe coding}, a supervision gap has emerged. While models excel at execution, users often struggle to guide them effectively due to insufficient domain expert...
-
-</details>
-
-<details>
-<summary><b>18. Grounding and Enhancing Informativeness and Utility in Dataset Distillation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.21296) • [📄 arXiv](https://arxiv.org/abs/2601.21296) • [📥 PDF](https://arxiv.org/pdf/2601.21296)
-
-> Dataset Distillation (DD) seeks to create a compact dataset from a large, real-world dataset. While recent methods often rely on heuristic approaches to balance efficiency and quality, the fundamental relationship between original and synthetic da...
 
 </details>
 
@@ -367,7 +367,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>21. LatentMem: Customizing Latent Memory for Multi-Agent Systems</b> ⭐ 17</summary>
+<summary><b>21. LatentMem: Customizing Latent Memory for Multi-Agent Systems</b> ⭐ 21</summary>
 
 <br/>
 
@@ -382,20 +382,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>22. SwimBird: Eliciting Switchable Reasoning Mode in Hybrid Autoregressive MLLMs</b> ⭐ 9</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.06040) • [📄 arXiv](https://arxiv.org/abs/2602.06040) • [📥 PDF](https://arxiv.org/pdf/2602.06040)
-
-**💻 Code:** [⭐ Code](https://github.com/Accio-Lab/SwimBird)
-
-> Project Page: https://accio-lab.github.io/SwimBird Github Repo: https://github.com/Accio-Lab/SwimBird HuggingFace: https://huggingface.co/datasets/Accio-Lab/SwimBird-SFT-92K
-
-</details>
-
-<details>
-<summary><b>23. SAGE: Benchmarking and Improving Retrieval for Deep Research Agents</b> ⭐ 0</summary>
+<summary><b>22. SAGE: Benchmarking and Improving Retrieval for Deep Research Agents</b> ⭐ 0</summary>
 
 <br/>
 
@@ -404,6 +391,19 @@ getTodaysPapers();
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.05975) • [📄 arXiv](https://arxiv.org/abs/2602.05975) • [📥 PDF](https://arxiv.org/pdf/2602.05975)
 
 > Deep research agents have emerged as powerful systems for addressing complex queries. Meanwhile, LLM-based retrievers have demonstrated strong capability in following instructions or reasoning. This raises a critical question: can LLM-based retrie...
+
+</details>
+
+<details>
+<summary><b>23. SwimBird: Eliciting Switchable Reasoning Mode in Hybrid Autoregressive MLLMs</b> ⭐ 10</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.06040) • [📄 arXiv](https://arxiv.org/abs/2602.06040) • [📥 PDF](https://arxiv.org/pdf/2602.06040)
+
+**💻 Code:** [⭐ Code](https://github.com/Accio-Lab/SwimBird)
+
+> Project Page: https://accio-lab.github.io/SwimBird Github Repo: https://github.com/Accio-Lab/SwimBird HuggingFace: https://huggingface.co/datasets/Accio-Lab/SwimBird-SFT-92K
 
 </details>
 
@@ -419,7 +419,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>25. BABE: Biology Arena BEnchmark</b> ⭐ 0</summary>
+<summary><b>25. DASH: Faster Shampoo via Batched Block Preconditioning and Efficient Inverse-Root Solvers</b> ⭐ 1</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.02016) • [📄 arXiv](https://arxiv.org/abs/2602.02016) • [📥 PDF](https://arxiv.org/pdf/2602.02016)
+
+**💻 Code:** [⭐ Code](https://github.com/IST-DASLab/DASH)
+
+> We propose DASH ( D istributed A ccelerated SH ampoo), a faster and more accurate version of Distributed Shampoo. To make it faster, we stack the blocks extracted from the preconditioners to obtain a 3D tensor, which are inverted efficiently using...
+
+</details>
+
+<details>
+<summary><b>26. BABE: Biology Arena BEnchmark</b> ⭐ 0</summary>
 
 <br/>
 
@@ -430,7 +443,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>26. V-Retrver: Evidence-Driven Agentic Reasoning for Universal Multimodal Retrieval</b> ⭐ 19</summary>
+<summary><b>27. V-Retrver: Evidence-Driven Agentic Reasoning for Universal Multimodal Retrieval</b> ⭐ 19</summary>
 
 <br/>
 
@@ -445,7 +458,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>27. Multi-Task GRPO: Reliable LLM Reasoning Across Tasks</b> ⭐ 0</summary>
+<summary><b>28. Multi-Task GRPO: Reliable LLM Reasoning Across Tasks</b> ⭐ 0</summary>
 
 <br/>
 
@@ -458,20 +471,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>28. DASH: Faster Shampoo via Batched Block Preconditioning and Efficient Inverse-Root Solvers</b> ⭐ 1</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.02016) • [📄 arXiv](https://arxiv.org/abs/2602.02016) • [📥 PDF](https://arxiv.org/pdf/2602.02016)
-
-**💻 Code:** [⭐ Code](https://github.com/IST-DASLab/DASH)
-
-> We propose DASH ( D istributed A ccelerated SH ampoo), a faster and more accurate version of Distributed Shampoo. To make it faster, we stack the blocks extracted from the preconditioners to obtain a 3D tensor, which are inverted efficiently using...
-
-</details>
-
-<details>
-<summary><b>29. Approximation of Log-Partition Function in Policy Mirror Descent Induces Implicit Regularization for LLM Post-Training</b> ⭐ 9</summary>
+<summary><b>29. Approximation of Log-Partition Function in Policy Mirror Descent Induces Implicit Regularization for LLM Post-Training</b> ⭐ 10</summary>
 
 <br/>
 
@@ -484,7 +484,18 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>30. CoPE: Clipped RoPE as A Scalable Free Lunch for Long Context LLMs</b> ⭐ 5</summary>
+<summary><b>30. Late-to-Early Training: LET LLMs Learn Earlier, So Faster and Better</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.05393) • [📄 arXiv](https://arxiv.org/abs/2602.05393) • [📥 PDF](https://arxiv.org/pdf/2602.05393)
+
+> arXivLens breakdown of this paper 👉 https://arxivlens.com/PaperView/Details/late-to-early-training-let-llms-learn-earlier-so-faster-and-better-8353-cc1b8d02 Executive Summary Detailed Breakdown Practical Applications
+
+</details>
+
+<details>
+<summary><b>31. CoPE: Clipped RoPE as A Scalable Free Lunch for Long Context LLMs</b> ⭐ 5</summary>
 
 <br/>
 
@@ -497,18 +508,18 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>31. Late-to-Early Training: LET LLMs Learn Earlier, So Faster and Better</b> ⭐ 0</summary>
+<summary><b>32. Infinite-World: Scaling Interactive World Models to 1000-Frame Horizons via Pose-Free Hierarchical Memory</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.05393) • [📄 arXiv](https://arxiv.org/abs/2602.05393) • [📥 PDF](https://arxiv.org/pdf/2602.05393)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.02393) • [📄 arXiv](https://arxiv.org/abs/2602.02393) • [📥 PDF](https://arxiv.org/pdf/2602.02393)
 
-> arXivLens breakdown of this paper 👉 https://arxivlens.com/PaperView/Details/late-to-early-training-let-llms-learn-earlier-so-faster-and-better-8353-cc1b8d02 Executive Summary Detailed Breakdown Practical Applications
+> Project Page: https://rq-wu.github.io/projects/infinite-world/index.html
 
 </details>
 
 <details>
-<summary><b>32. Breaking the Static Graph: Context-Aware Traversal for Robust Retrieval-Augmented Generation</b> ⭐ 0</summary>
+<summary><b>33. Breaking the Static Graph: Context-Aware Traversal for Robust Retrieval-Augmented Generation</b> ⭐ 0</summary>
 
 <br/>
 
@@ -521,7 +532,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>33. Pathwise Test-Time Correction for Autoregressive Long Video Generation</b> ⭐ 0</summary>
+<summary><b>34. Pathwise Test-Time Correction for Autoregressive Long Video Generation</b> ⭐ 0</summary>
 
 <br/>
 
@@ -534,98 +545,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>34. Learning Rate Matters: Vanilla LoRA May Suffice for LLM Fine-tuning</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Mi-Yen Yeh, Pin-Yu Chen, Ching-Yun Ko, Yu-Ang Lee
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.04998) • [📄 arXiv](https://arxiv.org/abs/2602.04998) • [📥 PDF](https://arxiv.org/pdf/2602.04998)
-
-> Motivated by the increasing number of LoRA variants and the insufficient hyperparameter tuning in many studies, in this work, we conduct a systematic re-evaluation of five LoRA PEFT methods under a unified evaluation protocol. Based on the compreh...
-
-</details>
-
-<details>
-<summary><b>35. Infinite-World: Scaling Interactive World Models to 1000-Frame Horizons via Pose-Free Hierarchical Memory</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.02393) • [📄 arXiv](https://arxiv.org/abs/2602.02393) • [📥 PDF](https://arxiv.org/pdf/2602.02393)
-
-> Project Page: https://rq-wu.github.io/projects/infinite-world/index.html
-
-</details>
-
-<details>
-<summary><b>36. A Unified Framework for Rethinking Policy Divergence Measures in GRPO</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Yanning Dai, Simon Sinong Zhan, Yuhui Wang, Qingyuan Wu, zczlsde
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.05494) • [📄 arXiv](https://arxiv.org/abs/2602.05494) • [📥 PDF](https://arxiv.org/pdf/2602.05494)
-
-> A Unified Framework for Rethinking Policy Divergence Measures in GRPO
-
-</details>
-
-<details>
-<summary><b>37. Do Vision-Language Models Respect Contextual Integrity in Location Disclosure?</b> ⭐ 3</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.05023) • [📄 arXiv](https://arxiv.org/abs/2602.05023) • [📥 PDF](https://arxiv.org/pdf/2602.05023)
-
-**💻 Code:** [⭐ Code](https://github.com/99starman/VLM-GeoPrivacyBench)
-
-> Our data and code are available at https://github.com/99starman/VLM-GeoPrivacyBench .
-
-</details>
-
-<details>
-<summary><b>38. Light Forcing: Accelerating Autoregressive Video Diffusion via Sparse Attention</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Shen Ren, Ruihao Gong, Yumeng Shi, Harahan, mack-williams
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.04789) • [📄 arXiv](https://arxiv.org/abs/2602.04789) • [📥 PDF](https://arxiv.org/pdf/2602.04789)
-
-> Light Forcing introduces a novel sparse attention mechanism for autoregressive video generation that improves efficiency while maintaining quality through chunk-aware growth and hierarchical sparse attention strategies.
-
-</details>
-
-<details>
-<summary><b>39. Beyond Fixed Frames: Dynamic Character-Aligned Speech Tokenization</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.23174) • [📄 arXiv](https://arxiv.org/abs/2601.23174) • [📥 PDF](https://arxiv.org/pdf/2601.23174)
-
-**💻 Code:** [⭐ Code](https://github.com/lucadellalib/dycast)
-
-> Variable-frame-rate speech tokenization
-
-</details>
-
-<details>
-<summary><b>40. Failing to Explore: Language Models on Interactive Tasks</b> ⭐ 9</summary>
-
-<br/>
-
-**👥 Authors:** Zahra Sodagar, Keivan Rezaei, yizecheng, ckodser, AghaTizi
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.22345) • [📄 arXiv](https://arxiv.org/abs/2601.22345) • [📥 PDF](https://arxiv.org/pdf/2601.22345)
-
-**💻 Code:** [⭐ Code](https://github.com/mahdi-jfri/explore-exploit-bench)
-
-> LLMs fail to explore.
-
-</details>
-
-<details>
-<summary><b>41. FastVMT: Eliminating Redundancy in Video Motion Transfer</b> ⭐ 0</summary>
+<summary><b>35. FastVMT: Eliminating Redundancy in Video Motion Transfer</b> ⭐ 0</summary>
 
 <br/>
 
@@ -638,7 +558,33 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>42. Fast-SAM3D: 3Dfy Anything in Images but Faster</b> ⭐ 34</summary>
+<summary><b>36. Learning Rate Matters: Vanilla LoRA May Suffice for LLM Fine-tuning</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Mi-Yen Yeh, Pin-Yu Chen, Ching-Yun Ko, Yu-Ang Lee
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.04998) • [📄 arXiv](https://arxiv.org/abs/2602.04998) • [📥 PDF](https://arxiv.org/pdf/2602.04998)
+
+> Motivated by the increasing number of LoRA variants and the insufficient hyperparameter tuning in many studies, in this work, we conduct a systematic re-evaluation of five LoRA PEFT methods under a unified evaluation protocol. Based on the compreh...
+
+</details>
+
+<details>
+<summary><b>37. A Unified Framework for Rethinking Policy Divergence Measures in GRPO</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Yanning Dai, Simon Sinong Zhan, Yuhui Wang, Qingyuan Wu, zczlsde
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.05494) • [📄 arXiv](https://arxiv.org/abs/2602.05494) • [📥 PDF](https://arxiv.org/pdf/2602.05494)
+
+> A Unified Framework for Rethinking Policy Divergence Measures in GRPO
+
+</details>
+
+<details>
+<summary><b>38. Fast-SAM3D: 3Dfy Anything in Images but Faster</b> ⭐ 39</summary>
 
 <br/>
 
@@ -653,7 +599,61 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>43. UniAudio 2.0: A Unified Audio Language Model with Text-Aligned Factorized Audio Tokenization</b> ⭐ 111</summary>
+<summary><b>39. Do Vision-Language Models Respect Contextual Integrity in Location Disclosure?</b> ⭐ 3</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.05023) • [📄 arXiv](https://arxiv.org/abs/2602.05023) • [📥 PDF](https://arxiv.org/pdf/2602.05023)
+
+**💻 Code:** [⭐ Code](https://github.com/99starman/VLM-GeoPrivacyBench)
+
+> Our data and code are available at https://github.com/99starman/VLM-GeoPrivacyBench .
+
+</details>
+
+<details>
+<summary><b>40. Light Forcing: Accelerating Autoregressive Video Diffusion via Sparse Attention</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Shen Ren, Ruihao Gong, Yumeng Shi, Harahan, mack-williams
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.04789) • [📄 arXiv](https://arxiv.org/abs/2602.04789) • [📥 PDF](https://arxiv.org/pdf/2602.04789)
+
+> Light Forcing introduces a novel sparse attention mechanism for autoregressive video generation that improves efficiency while maintaining quality through chunk-aware growth and hierarchical sparse attention strategies.
+
+</details>
+
+<details>
+<summary><b>41. Beyond Fixed Frames: Dynamic Character-Aligned Speech Tokenization</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.23174) • [📄 arXiv](https://arxiv.org/abs/2601.23174) • [📥 PDF](https://arxiv.org/pdf/2601.23174)
+
+**💻 Code:** [⭐ Code](https://github.com/lucadellalib/dycast)
+
+> Variable-frame-rate speech tokenization
+
+</details>
+
+<details>
+<summary><b>42. Failing to Explore: Language Models on Interactive Tasks</b> ⭐ 9</summary>
+
+<br/>
+
+**👥 Authors:** Zahra Sodagar, Keivan Rezaei, yizecheng, ckodser, AghaTizi
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.22345) • [📄 arXiv](https://arxiv.org/abs/2601.22345) • [📥 PDF](https://arxiv.org/pdf/2601.22345)
+
+**💻 Code:** [⭐ Code](https://github.com/mahdi-jfri/explore-exploit-bench)
+
+> LLMs fail to explore.
+
+</details>
+
+<details>
+<summary><b>43. UniAudio 2.0: A Unified Audio Language Model with Text-Aligned Factorized Audio Tokenization</b> ⭐ 165</summary>
 
 <br/>
 
@@ -681,33 +681,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>45. PhysicsAgentABM: Physics-Guided Generative Agent-Based Modeling</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.06030) • [📄 arXiv](https://arxiv.org/abs/2602.06030) • [📥 PDF](https://arxiv.org/pdf/2602.06030)
-
-> Large language model (LLM)-based multi-agent systems enable expressive agent reasoning but are expensive to scale and poorly calibrated for timestep-aligned state-transition simulation, while classical agent-based models (ABMs) offer interpretabil...
-
-</details>
-
-<details>
-<summary><b>46. Focus-dLLM: Accelerating Long-Context Diffusion LLM Inference via Confidence-Guided Context Focusing</b> ⭐ 7</summary>
-
-<br/>
-
-**👥 Authors:** Jun Zhang, Ruihao Gong, Shihao Bai, Lingkun Long, Harahan
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.02159) • [📄 arXiv](https://arxiv.org/abs/2602.02159) • [📥 PDF](https://arxiv.org/pdf/2602.02159)
-
-**💻 Code:** [⭐ Code](https://github.com/Longxmas/Focus-dLLM)
-
-> Diffusion Large Language Models (dLLMs) deliver strong long-context processing capability in a non-autoregressive decoding paradigm. However, the considerable computational cost of bidirectional full attention limits the inference efficiency. Alth...
-
-</details>
-
-<details>
-<summary><b>47. Assessing Domain-Level Susceptibility to Emergent Misalignment from Narrow Finetuning</b> ⭐ 0</summary>
+<summary><b>45. Assessing Domain-Level Susceptibility to Emergent Misalignment from Narrow Finetuning</b> ⭐ 0</summary>
 
 <br/>
 
@@ -721,6 +695,32 @@ getTodaysPapers();
 
 </details>
 
+<details>
+<summary><b>46. PhysicsAgentABM: Physics-Guided Generative Agent-Based Modeling</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.06030) • [📄 arXiv](https://arxiv.org/abs/2602.06030) • [📥 PDF](https://arxiv.org/pdf/2602.06030)
+
+> Large language model (LLM)-based multi-agent systems enable expressive agent reasoning but are expensive to scale and poorly calibrated for timestep-aligned state-transition simulation, while classical agent-based models (ABMs) offer interpretabil...
+
+</details>
+
+<details>
+<summary><b>47. Focus-dLLM: Accelerating Long-Context Diffusion LLM Inference via Confidence-Guided Context Focusing</b> ⭐ 7</summary>
+
+<br/>
+
+**👥 Authors:** Jun Zhang, Ruihao Gong, Shihao Bai, Lingkun Long, Harahan
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.02159) • [📄 arXiv](https://arxiv.org/abs/2602.02159) • [📥 PDF](https://arxiv.org/pdf/2602.02159)
+
+**💻 Code:** [⭐ Code](https://github.com/Longxmas/Focus-dLLM)
+
+> Diffusion Large Language Models (dLLMs) deliver strong long-context processing capability in a non-autoregressive decoding paradigm. However, the considerable computational cost of bidirectional full attention limits the inference efficiency. Alth...
+
+</details>
+
 ---
 
 ## 📅 Historical Archives
@@ -730,36 +730,36 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 47 |
-| 📅 Today | [`2026-02-08.json`](data/daily/2026-02-08.json) | 47 |
-| 📆 This Week | [`2026-W05.json`](data/weekly/2026-W05.json) | 357 |
-| 🗓️ This Month | [`2026-02.json`](data/monthly/2026-02.json) | 402 |
+| 📅 Today | [`2026-02-09.json`](data/daily/2026-02-09.json) | 47 |
+| 📆 This Week | [`2026-W06.json`](data/weekly/2026-W06.json) | 47 |
+| 🗓️ This Month | [`2026-02.json`](data/monthly/2026-02.json) | 449 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-02-08 | 47 | [View JSON](data/daily/2026-02-08.json) |
+| 📌 2026-02-09 | 47 | [View JSON](data/daily/2026-02-09.json) |
+| 📄 2026-02-08 | 47 | [View JSON](data/daily/2026-02-08.json) |
 | 📄 2026-02-07 | 47 | [View JSON](data/daily/2026-02-07.json) |
 | 📄 2026-02-06 | 52 | [View JSON](data/daily/2026-02-06.json) |
 | 📄 2026-02-05 | 53 | [View JSON](data/daily/2026-02-05.json) |
 | 📄 2026-02-04 | 73 | [View JSON](data/daily/2026-02-04.json) |
 | 📄 2026-02-03 | 40 | [View JSON](data/daily/2026-02-03.json) |
-| 📄 2026-02-02 | 45 | [View JSON](data/daily/2026-02-02.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
+| 📅 2026-W06 | 47 | [View JSON](data/weekly/2026-W06.json) |
 | 📅 2026-W05 | 357 | [View JSON](data/weekly/2026-W05.json) |
 | 📅 2026-W04 | 214 | [View JSON](data/weekly/2026-W04.json) |
 | 📅 2026-W03 | 183 | [View JSON](data/weekly/2026-W03.json) |
-| 📅 2026-W02 | 232 | [View JSON](data/weekly/2026-W02.json) |
 
 ### 🗂️ Monthly Archives
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-02 | 402 | [View JSON](data/monthly/2026-02.json) |
+| 🗓️ 2026-02 | 449 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
 | 🗓️ 2025-12 | 787 | [View JSON](data/monthly/2025-12.json) |
 
