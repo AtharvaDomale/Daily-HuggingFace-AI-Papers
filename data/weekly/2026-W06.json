@@ -963,5 +963,45 @@
       "scraped_at": "2026-02-09T02:27:29.706036"
     },
     "scraped_date": "2026-02-09"
+  },
+  {
+    "title": "NanoQuant: Efficient Sub-1-Bit Quantization of Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2602.06694",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "NanoQuant: Efficient Sub-1-Bit Quantization of Large Language Models",
+      "abstract": "Blog-style summary: https://www.alphaxiv.org/overview/2602.06694v1",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.06694",
+      "pdf_url": "https://arxiv.org/pdf/2602.06694",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.06694",
+      "scraped_at": "2026-02-10T02:33:47.172458"
+    },
+    "scraped_date": "2026-02-10"
+  },
+  {
+    "title": "Modality Gap-Driven Subspace Alignment Training Paradigm For Multimodal Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2602.07026",
+    "authors": [
+      "Hanzhen Zhao",
+      "Chonghan Liu",
+      "Wenjie Zhang",
+      "Yi Xin",
+      "Xiaomin Yu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Modality Gap-Driven Subspace Alignment Training Paradigm For Multimodal Large Language Models",
+      "abstract": "Modality Gap-Driven Subspace Alignment Training Paradigm For Multimodal Large Language Models",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.07026",
+      "pdf_url": "https://arxiv.org/pdf/2602.07026",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.07026",
+      "scraped_at": "2026-02-10T02:33:48.981287"
+    },
+    "scraped_date": "2026-02-10"
   }
 ]
