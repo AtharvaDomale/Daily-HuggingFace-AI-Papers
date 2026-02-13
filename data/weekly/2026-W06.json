@@ -3311,5 +3311,957 @@
       "scraped_at": "2026-02-12T02:27:23.766521"
     },
     "scraped_date": "2026-02-12"
+  },
+  {
+    "title": "Step 3.5 Flash: Open Frontier-Level Intelligence with 11B Active Parameters",
+    "paper_url": "https://huggingface.co/papers/2602.10604",
+    "authors": [],
+    "stars": "1.25k",
+    "details": {
+      "title": "Step 3.5 Flash: Open Frontier-Level Intelligence with 11B Active Parameters",
+      "abstract": "Step-3.5-Flash is #1 on MathArena , an uncheatable math competition benchmark",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.10604",
+      "pdf_url": "https://arxiv.org/pdf/2602.10604",
+      "github_links": [
+        "https://github.com/stepfun-ai/Step-3.5-Flash"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.10604",
+      "scraped_at": "2026-02-13T02:27:05.561491"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "PhyCritic: Multimodal Critic Models for Physical AI",
+    "paper_url": "https://huggingface.co/papers/2602.11124",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PhyCritic: Multimodal Critic Models for Physical AI",
+      "abstract": "A multimodal critic model that unifies physical judging and reasoning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.11124",
+      "pdf_url": "https://arxiv.org/pdf/2602.11124",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.11124",
+      "scraped_at": "2026-02-13T02:27:07.463920"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "GENIUS: Generative Fluid Intelligence Evaluation Suite",
+    "paper_url": "https://huggingface.co/papers/2602.11144",
+    "authors": [
+      "Zijun Shen",
+      "Wei Dai",
+      "Ziyu Guo",
+      "Sihan Yang",
+      "Ruichuan An"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "GENIUS: Generative Fluid Intelligence Evaluation Suite",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.11144",
+      "pdf_url": "https://arxiv.org/pdf/2602.11144",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.11144",
+      "scraped_at": "2026-02-13T02:27:09.368749"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "ASA: Training-Free Representation Engineering for Tool-Calling Agents",
+    "paper_url": "https://huggingface.co/papers/2602.04935",
+    "authors": [
+      "Hongwei Zeng",
+      "Shuaishuai Cao",
+      "Rong Fu",
+      "Run Zhou",
+      "wangyoujin"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ASA: Training-Free Representation Engineering for Tool-Calling Agents",
+      "abstract": "Adapting LLM agents to domain-specific tool calling remains notably brittle under evolving interfaces. Prompt and schema engineering is easy to deploy but often fragile under distribution shift and strict parsers, while continual parameter-efficient fine-tuning improves reliability at the cost of training, maintenance, and potential forgetting. We identify a critical Lazy Agent failure mode where tool necessity is nearly perfectly decodable from mid-layer activations, yet the model remains conservative in entering tool mode, revealing a representation-behavior gap. We propose Activation Steering Adapter (ASA), a training-free, inference-time controller that performs a single-shot mid-layer intervention and targets tool domains via a router-conditioned mixture of steering vectors with a probe-guided signed gate to amplify true intent while suppressing spurious triggers. On MTU-Bench with Qwen2.5-1.5B, ASA improves strict tool-use F1 from 0.18 to 0.50 while reducing the false positive rate from 0.15 to 0.05, using only about 20KB of portable assets and no weight updates.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.04935",
+      "pdf_url": "https://arxiv.org/pdf/2602.04935",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.04935",
+      "scraped_at": "2026-02-13T02:27:12.641230"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "Towards Autonomous Mathematics Research",
+    "paper_url": "https://huggingface.co/papers/2602.10177",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Towards Autonomous Mathematics Research",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Semi-Autonomous Mathematics Discovery with Gemini: A Case Study on the Erd\\H{o}s Problems (2026) AI for Mathematics: Progress, Challenges, and Prospects (2026) Seed-Prover 1.5: Mastering Undergraduate-Level Theorem Proving via Learning from Experience (2025) AgentMath: Empowering Mathematical Reasoning for Large Language Models via Tool-Augmented Agent (2025) Vibe Reasoning: Eliciting Frontier AI Mathematical Capabilities - A Case Study on IMO 2025 Problem 6 (2025) EternalMath: A Living Benchmark of Frontier Mathematics that Evolves with Human Discovery (2026) PhysProver: Advancing Automatic Theorem Proving for Physics (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.10177",
+      "pdf_url": "https://arxiv.org/pdf/2602.10177",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.10177",
+      "scraped_at": "2026-02-13T02:27:15.953082"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "G-LNS: Generative Large Neighborhood Search for LLM-Based Automatic Heuristic Design",
+    "paper_url": "https://huggingface.co/papers/2602.08253",
+    "authors": [
+      "Liang Zeng",
+      "iphysresearch",
+      "ZBoyn"
+    ],
+    "stars": "12",
+    "details": {
+      "title": "G-LNS: Generative Large Neighborhood Search for LLM-Based Automatic Heuristic Design",
+      "abstract": "We’re moving from constructive rules to recursive destruction & repair 🔄. G-LNS introduces Synergy-Aware Co-evolution, allowing LLMs to generate coupled Destroy/Repair operators that break local optima. Reshaping > Constructing. 💡 It beats OR-Tools and SOTA AHD methods (EoH-S/MCTS_AHD) on TSP & CVRP benchmarks 🚀.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.08253",
+      "pdf_url": "https://arxiv.org/pdf/2602.08253",
+      "github_links": [
+        "https://github.com/ZBoyn/G-LNS"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.08253",
+      "scraped_at": "2026-02-13T02:27:17.936493"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "How Do Decoder-Only LLMs Perceive Users? Rethinking Attention Masking for User Representation Learning",
+    "paper_url": "https://huggingface.co/papers/2602.10622",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "How Do Decoder-Only LLMs Perceive Users? Rethinking Attention Masking for User Representation Learning",
+      "abstract": "🎉 How Do Decoder-Only LLMs Perceive Users? Rethinking Attention Masking for User Representation Learning Decoder-only LLMs have demonstrated remarkable generative capabilities, but how well do they understand users when repurposed for representation learning? In our latest work, we revisit attention masking in decoder-only architectures and uncover a critical yet overlooked challenge: the instability that arises when transitioning from causal to bidirectional attention. By systematically studying masking strategies and proposing a gradient-guided soft masking approach, we aim to bridge the gap between autoregressive pretraining and high-quality user representation learning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.10622",
+      "pdf_url": "https://arxiv.org/pdf/2602.10622",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.10622",
+      "scraped_at": "2026-02-13T02:27:19.941599"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "When to Memorize and When to Stop: Gated Recurrent Memory for Long-Context Reasoning",
+    "paper_url": "https://huggingface.co/papers/2602.10560",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "When to Memorize and When to Stop: Gated Recurrent Memory for Long-Context Reasoning",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API InfMem: Learning System-2 Memory Control for Long-Context Agent (2026) Dynamic Long Context Reasoning over Compressed Memory via End-to-End Reinforcement Learning (2026) Fine-Mem: Fine-Grained Feedback Alignment for Long-Horizon Memory Management (2026) MemOCR: Layout-Aware Visual Memory for Efficient Long-Horizon Reasoning (2026) AtomMem : Learnable Dynamic Agentic Memory with Atomic Memory Operation (2026) Document Reconstruction Unlocks Scalable Long-Context RLVR (2026) Context-Picker: Dynamic context selection using multi-stage reinforcement learning (2025) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.10560",
+      "pdf_url": "https://arxiv.org/pdf/2602.10560",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.10560",
+      "scraped_at": "2026-02-13T02:27:21.970300"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "TimeChat-Captioner: Scripting Multi-Scene Videos with Time-Aware and Structural Audio-Visual Captions",
+    "paper_url": "https://huggingface.co/papers/2602.08711",
+    "authors": [],
+    "stars": "16",
+    "details": {
+      "title": "TimeChat-Captioner: Scripting Multi-Scene Videos with Time-Aware and Structural Audio-Visual Captions",
+      "abstract": "TimeChat-Captioner is a multimodal model designed to generate detailed, time-aware, and structurally coherent captions for multi-scene videos. It effectively coordinates visual and audio information to provide comprehensive video descriptions.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.08711",
+      "pdf_url": "https://arxiv.org/pdf/2602.08711",
+      "github_links": [
+        "https://github.com/yaolinli/TimeChat-Captioner"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.08711",
+      "scraped_at": "2026-02-13T02:27:23.918975"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "FeatureBench: Benchmarking Agentic Coding for Complex Feature Development",
+    "paper_url": "https://huggingface.co/papers/2602.10975",
+    "authors": [
+      "Jiahe Wang",
+      "Rui Hao",
+      "Qixing Zhou",
+      "Haiyang-W",
+      "jiachengzhg"
+    ],
+    "stars": "17",
+    "details": {
+      "title": "FeatureBench: Benchmarking Agentic Coding for Complex Feature Development",
+      "abstract": "FeatureBench focuses on evaluating the end-to-end development capability of coding agents for complex features. On our benchmark, even the strongest commercial models can solve only about 12% of the tasks. The full Docker environment and the scalable task construction pipeline have been open-sourced. The evaluation is highly user-friendly and easy to reproduce. Beyond bug fixing, ship real features!",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.10975",
+      "pdf_url": "https://arxiv.org/pdf/2602.10975",
+      "github_links": [
+        "https://github.com/LiberCoders/FeatureBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.10975",
+      "scraped_at": "2026-02-13T02:27:25.877597"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "ROCKET: Rapid Optimization via Calibration-guided Knapsack Enhanced Truncation for Efficient Model Compression",
+    "paper_url": "https://huggingface.co/papers/2602.11008",
+    "authors": [],
+    "stars": "20",
+    "details": {
+      "title": "ROCKET: Rapid Optimization via Calibration-guided Knapsack Enhanced Truncation for Efficient Model Compression",
+      "abstract": "ROCKET isn’t just another compression method. It is one of the first methods to shrink massive AI models down to compact sizes without sacrificing performance, often matching or even outperforming vanilla models of the same size trained from scratch 🚀",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.11008",
+      "pdf_url": "https://arxiv.org/pdf/2602.11008",
+      "github_links": [
+        "https://github.com/mts-ai/ROCKET"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.11008",
+      "scraped_at": "2026-02-13T02:27:27.890871"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "Internalizing Meta-Experience into Memory for Guided Reinforcement Learning in Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2602.10224",
+    "authors": [
+      "Zhen Fang",
+      "Qingnan Ren",
+      "Zecheng Li",
+      "YuZeng260",
+      "chocckaka"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Internalizing Meta-Experience into Memory for Guided Reinforcement Learning in Large Language Models",
+      "abstract": "We propose Meta-Experience Learning (MEL), which breaks the meta-learning and credit-assignment bottleneck of standard RLVR by explicitly modeling and internalizing reusable error-based knowledge. MEL exploits an LLM's self-verification ability to perform contrastive analysis over correct and incorrect trajectories, pinpointing bifurcation points where reasoning goes wrong and abstracting them into generalizable meta-experiences. These meta-experiences are then distilled into the model's parametric memory via NLL minimization, inducing a language-modeled reward signal that bridges correct and incorrect reasoning paths and enables effective knowledge reuse.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.10224",
+      "pdf_url": "https://arxiv.org/pdf/2602.10224",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.10224",
+      "scraped_at": "2026-02-13T02:27:29.884815"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "DataChef: Cooking Up Optimal Data Recipes for LLM Adaptation via Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2602.11089",
+    "authors": [
+      "Kai Chen",
+      "Yining Li",
+      "Xinchen Xie",
+      "Zerun Ma",
+      "Yicheng Chen"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "DataChef: Cooking Up Optimal Data Recipes for LLM Adaptation via Reinforcement Learning",
+      "abstract": "demo: https://huggingface.co/spaces/yichengchen24/DataChef",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.11089",
+      "pdf_url": "https://arxiv.org/pdf/2602.11089",
+      "github_links": [
+        "https://github.com/yichengchen24/DataChef"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.11089",
+      "scraped_at": "2026-02-13T02:27:31.828592"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "GameDevBench: Evaluating Agentic Capabilities Through Game Development",
+    "paper_url": "https://huggingface.co/papers/2602.11103",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GameDevBench: Evaluating Agentic Capabilities Through Game Development",
+      "abstract": "Can agents develop video games? GameDevBench is the first benchmark to evaluate an agent's ability to solve game development tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.11103",
+      "pdf_url": "https://arxiv.org/pdf/2602.11103",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.11103",
+      "scraped_at": "2026-02-13T02:27:33.842375"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "Online Causal Kalman Filtering for Stable and Effective Policy Optimization",
+    "paper_url": "https://huggingface.co/papers/2602.10609",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Online Causal Kalman Filtering for Stable and Effective Policy Optimization",
+      "abstract": "(Work in progress) We are adding more comparison methods and models for KPO and will soon open-source KPO.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.10609",
+      "pdf_url": "https://arxiv.org/pdf/2602.10609",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.10609",
+      "scraped_at": "2026-02-13T02:27:35.800723"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "Data Repetition Beats Data Scaling in Long-CoT Supervised Fine-Tuning",
+    "paper_url": "https://huggingface.co/papers/2602.11149",
+    "authors": [
+      "Yuki M. Asano",
+      "Tijmen Blankevoort",
+      "Sagar Vaze",
+      "dakopi"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Data Repetition Beats Data Scaling in Long-CoT Supervised Fine-Tuning",
+      "abstract": "Pretty interesting findings!",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.11149",
+      "pdf_url": "https://arxiv.org/pdf/2602.11149",
+      "github_links": [
+        "https://github.com/dkopi/data-repetition"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.11149",
+      "scraped_at": "2026-02-13T02:27:37.747669"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "Ex-Omni: Enabling 3D Facial Animation Generation for Omni-modal Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2602.07106",
+    "authors": [
+      "Tianshu Yu",
+      "Yiwen Guo",
+      "Zhipeng Li",
+      "lemonade666"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Ex-Omni: Enabling 3D Facial Animation Generation for Omni-modal Large Language Models",
+      "abstract": "Omni-modal large language models (OLLMs) aim to unify multimodal understanding and generation, yet incorporating speech with 3D facial animation remains largely unexplored despite its importance for natural interaction. A key challenge arises from the representation mismatch between discrete, token-level semantic reasoning in LLMs and the dense, fine-grained temporal dynamics required for 3D facial motion, which makes direct modeling difficult to optimize under limited data. We propose Expressive Omni (Ex-Omni), an open-source omni-modal framework that augments OLLMs with speech-accompanied 3D facial animation. Ex-Omni reduces learning difficulty by decoupling semantic reasoning from temporal generation, leveraging speech units as temporal scaffolding and a unified token-as-query gated fusion (TQGF) mechanism for controlled semantic injection. We further introduce InstructEx, a dataset aims to facilitate augment OLLMs with speech-accompanied 3D facial animation. Extensive experiments demonstrate that Ex-Omni performs competitively against existing open-source OLLMs while enabling stable aligned speech and facial animation generation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.07106",
+      "pdf_url": "https://arxiv.org/pdf/2602.07106",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.07106",
+      "scraped_at": "2026-02-13T02:27:39.755698"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "CLI-Gym: Scalable CLI Task Generation via Agentic Environment Inversion",
+    "paper_url": "https://huggingface.co/papers/2602.10999",
+    "authors": [
+      "Feiyang Pan",
+      "Lue Fan",
+      "Shuzhe Wu",
+      "Yusong Lin",
+      "Haiyang-W"
+    ],
+    "stars": "9",
+    "details": {
+      "title": "CLI-Gym: Scalable CLI Task Generation via Agentic Environment Inversion",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API TermiGen: High-Fidelity Environment and Robust Trajectory Synthesis for Terminal Agents (2026) SWE-World: Building Software Engineering Agents in Docker-Free Environments (2026) daVinci-Dev: Agent-native Mid-training for Software Engineering (2026) MEnvAgent: Scalable Polyglot Environment Construction for Verifiable Software Engineering (2026) AOrchestra: Automating Sub-Agent Creation for Agentic Orchestration (2026) ABC-Bench: Benchmarking Agentic Backend Coding in Real-World Development (2026) EvoConfig: Self-Evolving Multi-Agent Systems for Efficient Autonomous Environment Configuration (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.10999",
+      "pdf_url": "https://arxiv.org/pdf/2602.10999",
+      "github_links": [
+        "https://github.com/LiberCoders/CLI-Gym"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.10999",
+      "scraped_at": "2026-02-13T02:27:43.458285"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "LiveMedBench: A Contamination-Free Medical Benchmark for LLMs with Automated Rubric Evaluation",
+    "paper_url": "https://huggingface.co/papers/2602.10367",
+    "authors": [
+      "Xiang Li",
+      "Yisheng Ji",
+      "Zhe Fang",
+      "Dingjie Song",
+      "Zhiling Yan"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "LiveMedBench: A Contamination-Free Medical Benchmark for LLMs with Automated Rubric Evaluation",
+      "abstract": "LiveMedBench is a continuously updated, contamination-free, and rubric-based benchmark for evaluating LLMs on real-world medical cases. It is designed to measure not only overall medical quality, but also robustness over time and alignment with physician judgment.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.10367",
+      "pdf_url": "https://arxiv.org/pdf/2602.10367",
+      "github_links": [
+        "https://github.com/ZhilingYan/LiveMedBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.10367",
+      "scraped_at": "2026-02-13T02:27:47.649975"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "Blockwise Advantage Estimation for Multi-Objective RL with Verifiable Rewards",
+    "paper_url": "https://huggingface.co/papers/2602.10231",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Blockwise Advantage Estimation for Multi-Objective RL with Verifiable Rewards",
+      "abstract": "Blockwise Advantage Estimation makes GRPO work for segmented, multi-objective generations by routing each objective’s learning signal to the tokens that control it, using an outcome-conditioned baseline for later segments.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.10231",
+      "pdf_url": "https://arxiv.org/pdf/2602.10231",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.10231",
+      "scraped_at": "2026-02-13T02:27:49.726010"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "EcoGym: Evaluating LLMs for Long-Horizon Plan-and-Execute in Interactive Economies",
+    "paper_url": "https://huggingface.co/papers/2602.09514",
+    "authors": [
+      "Yishuo Yuan",
+      "Kangqi Song",
+      "Shengze Xu",
+      "Jinxiang Xia",
+      "Xavier Hu"
+    ],
+    "stars": "6",
+    "details": {
+      "title": "EcoGym: Evaluating LLMs for Long-Horizon Plan-and-Execute in Interactive Economies",
+      "abstract": "Long-horizon planning is widely recognized as a core capability of autonomous LLM-based agents; however, current evaluation frameworks suffer from being largely episodic, domain-specific, or insufficiently grounded in persistent economic dynamics. We introduce EcoGym, a generalizable benchmark for continuous plan-and-execute decision making in interactive economies. EcoGym comprises three diverse environments: Vending, Freelance, and Operation, implemented in a unified decision-making process with standardized interfaces, and budgeted actions over an effectively unbounded horizon (1000+ steps if 365 day-loops for evaluation). The evaluation of EcoGym is based on business-relevant outcomes (e.g., net worth, income, and DAU), targeting long-term strategic coherence and robustness under partial observability and stochasticity. Experiments across eleven leading LLMs expose a systematic tension: no single model dominates across all three scenarios. Critically, we find that models exhibit significant suboptimality in either high-level strategies or efficient actions executions. EcoGym is released as an open, extensible testbed for transparent long-horizon agent evaluation and for studying controllability-utility trade-offs in realistic economic settings.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.09514",
+      "pdf_url": "https://arxiv.org/pdf/2602.09514",
+      "github_links": [
+        "https://github.com/OPPO-PersonalAI/EcoGym"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.09514",
+      "scraped_at": "2026-02-13T02:27:54.253779"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "VidVec: Unlocking Video MLLM Embeddings for Video-Text Retrieval",
+    "paper_url": "https://huggingface.co/papers/2602.08099",
+    "authors": [
+      "Rami Ben-Ari",
+      "Dvir Samuel",
+      "issart12345"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "VidVec: Unlocking Video MLLM Embeddings for Video-Text Retrieval",
+      "abstract": "What if your multimodal LLM already contains strong video representations—strong enough to beat Video Foundation Models? 🤔 VidVec 🎥 : Unlocking Video MLLM Embeddings for Video-Text Retrieval Key contributions (short): ✅ Layer-wise insight: intermediate MLLM layers already encode strong video–text representations ✅ Zero-shot 2-stage retrieval (no training) : intermediate-layer embeddings + calibrated MLLM head for reranking 📈 Recall gains vs trained MLLM Embedders : +3.2% (MSR-VTT) · +7.7% (VATEX) · +9.4% (DiDeMo) 📝 Text-only “in-context” optimization : ~60K dense caption → short summary pairs (no visual supervision) 🏆 SoTA video–text retrieval performance across MSR-VTT / MSVD / VATEX / DiDeMo Project page: https://iyttor.github.io/VidVec arXiv: https://www.arxiv.org/abs/2602.08099 code and weights are coming soon...",
+      "arxiv_page_url": "https://www.arxiv.org/abs/2602.08099",
+      "pdf_url": "https://arxiv.org/pdf/2602.08099",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.08099",
+      "scraped_at": "2026-02-13T02:27:56.193609"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "Stroke3D: Lifting 2D strokes into rigged 3D model via latent diffusion models",
+    "paper_url": "https://huggingface.co/papers/2602.09713",
+    "authors": [],
+    "stars": "19",
+    "details": {
+      "title": "Stroke3D: Lifting 2D strokes into rigged 3D model via latent diffusion models",
+      "abstract": "Project Page: https://whalesong-zrs.github.io/Stroke3D_project_page/ Github Repo: https://github.com/Whalesong-zrs/Stroke3D",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.09713",
+      "pdf_url": "https://arxiv.org/pdf/2602.09713",
+      "github_links": [
+        "https://github.com/Whalesong-zrs/Stroke3D",
+        "https://github.com/Whalesong-zrs/Stroke3D_project_page"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.09713",
+      "scraped_at": "2026-02-13T02:27:58.136088"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "ECHO-2: A Large-Scale Distributed Rollout Framework for Cost-Efficient Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2602.02192",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ECHO-2: A Large-Scale Distributed Rollout Framework for Cost-Efficient Reinforcement Learning",
+      "abstract": "Current RLHF/RLAIF is bottlenecked by rollouts and wasteful GPU idling. ECHO-2 changes the cost structure: we decouple RL into three planes—rollout (global inference swarm), learning (staleness-aware multi-step updates), and data/reward (fully modular)—and coordinate them with lightweight versioning and pipelined broadcast. The result is near-continuous learner utilization even under heterogeneous, unreliable WAN workers, enabling RL to scale out across a global fleet rather than up inside datacenters. We validate on GRPO-based reasoning/code tasks and a poker sandbox integration.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.02192",
+      "pdf_url": "https://arxiv.org/pdf/2602.02192",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.02192",
+      "scraped_at": "2026-02-13T02:28:00.140800"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "When the Prompt Becomes Visual: Vision-Centric Jailbreak Attacks for Large Image Editing Models",
+    "paper_url": "https://huggingface.co/papers/2602.10179",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "When the Prompt Becomes Visual: Vision-Centric Jailbreak Attacks for Large Image Editing Models",
+      "abstract": "Website: https://csu-jpg.github.io/vja.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.10179",
+      "pdf_url": "https://arxiv.org/pdf/2602.10179",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.10179",
+      "scraped_at": "2026-02-13T02:28:02.112423"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "QP-OneModel: A Unified Generative LLM for Multi-Task Query Understanding in Xiaohongshu Search",
+    "paper_url": "https://huggingface.co/papers/2602.09901",
+    "authors": [
+      "Hui Zhang",
+      "Yunpeng Liu",
+      "Xiaorui Huang",
+      "Jianzhao Huang",
+      "Hiiamein"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "QP-OneModel: A Unified Generative LLM for Multi-Task Query Understanding in Xiaohongshu Search",
+      "abstract": "QP-OneModel: A Unified Generative LLM for Multi-Task Query Understanding in Xiaohongshu Search",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.09901",
+      "pdf_url": "https://arxiv.org/pdf/2602.09901",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.09901",
+      "scraped_at": "2026-02-13T02:28:04.042953"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "Latent Thoughts Tuning: Bridging Context and Reasoning with Fused Information in Latent Tokens",
+    "paper_url": "https://huggingface.co/papers/2602.10229",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Latent Thoughts Tuning: Bridging Context and Reasoning with Fused Information in Latent Tokens",
+      "abstract": "a new framework for LLM reasoning in continuous latent space",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.10229",
+      "pdf_url": "https://arxiv.org/pdf/2602.10229",
+      "github_links": [
+        "https://github.com/NeosKnight233/Latent-Thoughts-Tuning"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.10229",
+      "scraped_at": "2026-02-13T02:28:06.107038"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "Beyond Correctness: Learning Robust Reasoning via Transfer",
+    "paper_url": "https://huggingface.co/papers/2602.08489",
+    "authors": [
+      "Jinwoo Shin",
+      "Jihoon Tack",
+      "Soheil Abbasloo",
+      "hyunseoki"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Beyond Correctness: Learning Robust Reasoning via Transfer",
+      "abstract": "Reinforcement Learning with Verifiable Rewards (RLVR) has recently strengthened LLM reasoning, but its focus on final answer correctness leaves a critical gap: it does not ensure the robustness of the reasoning process itself. We adopt a simple philosophical view, robust reasoning should remain useful beyond the mind that produced it, and treat reasoning as a form of meaning transfer that must survive truncation, reinterpretation, and continuation. Building on this principle, we introduce Reinforcement Learning with Transferable Reward (RLTR), which operationalizes robustness via transfer reward that tests whether a partial reasoning prefix from one model can guide a separate model to the correct answer. This encourages LLMs to produce reasoning that is stable, interpretable, and genuinely generalizable. Our approach improves sampling consistency while improving final answer accuracy, and it reaches comparable performance in substantially fewer training steps. For example, on MATH500, RLTR achieves a +3.6%p gain in Maj@64 compared to RLVR and matches RLVR's average accuracy with roughly 2.5x fewer training steps, providing both more reliable reasoning and significantly more sample efficient.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.08489",
+      "pdf_url": "https://arxiv.org/pdf/2602.08489",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.08489",
+      "scraped_at": "2026-02-13T02:28:08.014631"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "Free(): Learning to Forget in Malloc-Only Reasoning Models",
+    "paper_url": "https://huggingface.co/papers/2602.08030",
+    "authors": [],
+    "stars": "9",
+    "details": {
+      "title": "Free(): Learning to Forget in Malloc-Only Reasoning Models",
+      "abstract": "The Magic of Forgetting! Reasoning models enhance problem-solving by scaling test-time compute, yet they face a critical paradox: excessive thinking tokens often degrade performance rather than improve it. We attribute this to a fundamental architectural flaw: standard LLMs operate as \"malloc-only\" engines, continuously accumulating valid and redundant steps alike without a mechanism to prune obsolete information. To break this cycle, we propose Free()LM, a model that introduces an intrinsic self-forgetting capability via the Free-Module, a plug-and-play LoRA adapter. By iteratively switching between reasoning and cleaning modes, Free()LM dynamically identifies and prunes useless context chunks, maintaining a compact and noise-free state. Extensive experiments show that Free()LM provides consistent improvements across all model scales (8B to 685B). It achieves a 3.3% average improvement over top-tier reasoning baselines, even establishing a new SOTA on IMOanswerBench using DeepSeek V3.2-Speciale. Most notably, in long-horizon tasks where the standard Qwen3-235B-A22B model suffers a total collapse (0% accuracy), Free()LM restores performance to 50%. Our findings suggest that sustainable intelligence requires the freedom to forget as much as the power to think.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.08030",
+      "pdf_url": "https://arxiv.org/pdf/2602.08030",
+      "github_links": [
+        "https://github.com/TemporaryLoRA/FreeLM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.08030",
+      "scraped_at": "2026-02-13T02:28:09.964255"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "Benchmarking Large Language Models for Knowledge Graph Validation",
+    "paper_url": "https://huggingface.co/papers/2602.10748",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Benchmarking Large Language Models for Knowledge Graph Validation",
+      "abstract": "In this work, we introduce FactCheck, a benchmark to systematically evaluate LLMs for fact validation over Knowledge Graphs, covering internal model knowledge, Retrieval-Augmented Generation (RAG), and multi-model consensus strategies across three real-world KGs (FactBench, YAGO, DBpedia). 🤖🔎 Our results show that while LLMs can reach strong performances, they still lack the stability and reliability needed for real-world KG validation, and that external evidence via RAG and ensemble consensus help, but at non-trivial computational and operational costs. 📊⚙️ You can already explore the web platform and artifacts here: 🌐 Web app: https://factcheck.dei.unipd.it/ 💻 Code and datasets: https://github.com/FactCheck-AI Looking forward to discussing this work with the community in Tampere! 🇫🇮",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.10748",
+      "pdf_url": "https://arxiv.org/pdf/2602.10748",
+      "github_links": [
+        "https://github.com/FactCheck-AI",
+        "https://github.com/FactCheck-AI/FactCheck"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.10748",
+      "scraped_at": "2026-02-13T02:28:14.092997"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "Bielik Guard: Efficient Polish Language Safety Classifiers for LLM Content Moderation",
+    "paper_url": "https://huggingface.co/papers/2602.07954",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Bielik Guard: Efficient Polish Language Safety Classifiers for LLM Content Moderation",
+      "abstract": "Bielik Guard is a family of compact Polish-language safety classifiers (0.1B and 0.5B parameters) that accurately detect harmful content across five categories, achieving strong benchmark performance—with the 0.5B model offering the best overall F1 scores and the 0.1B model delivering high precision and low false positives—while enabling nuanced responses rather than simple content blocking. Smaller model: https://huggingface.co/speakleash/Bielik-Guard-0.1B-v1.1 Larger model: https://huggingface.co/speakleash/Bielik-Guard-0.5B-v1.1",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.07954",
+      "pdf_url": "https://arxiv.org/pdf/2602.07954",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.07954",
+      "scraped_at": "2026-02-13T02:28:16.526379"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "AgenticPay: A Multi-Agent LLM Negotiation System for Buyer-Seller Transactions",
+    "paper_url": "https://huggingface.co/papers/2602.06008",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "AgenticPay: A Multi-Agent LLM Negotiation System for Buyer-Seller Transactions",
+      "abstract": "Paper: https://arxiv.org/abs/2602.06008 Code: https://github.com/SafeRL-Lab/AgenticPay Tutorial: https://agenticpay-tutorial.readthedocs.io/en/latest/",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.06008",
+      "pdf_url": "https://arxiv.org/pdf/2602.06008",
+      "github_links": [
+        "https://github.com/SafeRL-Lab/AgenticPay"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.06008",
+      "scraped_at": "2026-02-13T02:28:18.513659"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "Reasoning Cache: Continual Improvement Over Long Horizons via Short-Horizon RL",
+    "paper_url": "https://huggingface.co/papers/2602.03773",
+    "authors": [
+      "Aviral Kumar",
+      "Amrith Setlur",
+      "Yuxiao Qu",
+      "Ian Wu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Reasoning Cache: Continual Improvement Over Long Horizons via Short-Horizon RL",
+      "abstract": "Reasoning Cache: Continual Improvement Over Long Horizons via Short-Horizon RL Large Language Models (LLMs) that can continually improve beyond their training budgets are able to solve increasingly difficult problems by adapting at test time, a property we refer to as extrapolation. However, standard reinforcement learning (RL) operates over fixed problem distributions and training budgets, which limits extrapolation amidst distribution shift at test time. To address this, we introduce RC, an iterative decoding algorithm that replaces standard autoregressive decoding during both training and inference. RC exploits an asymmetry between the response generation and summarization capabilities of LLMs to construct reasoning chains that consistently improve across iterations. Models trained to use RC can extrapolate and continually improve over reasoning horizons more than an order of magnitude longer than those seen during training. Empirically, training a 4B model with RC using a 16k-token training budget improves performance on HMMT 2025 from 40% to nearly 70% with 0.5m tokens at test time, outperforming both comparably sized models and many larger reasoning LLMs. Finally, we also show that models trained with RC can more effectively leverage existing scaffolds to further scale test-time performance, due to the improved summary-conditioned generation abilities learned through training.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03773",
+      "pdf_url": "https://arxiv.org/pdf/2602.03773",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03773",
+      "scraped_at": "2026-02-13T02:28:20.391536"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "ArcFlow: Unleashing 2-Step Text-to-Image Generation via High-Precision Non-Linear Flow Distillation",
+    "paper_url": "https://huggingface.co/papers/2602.09014",
+    "authors": [],
+    "stars": "50",
+    "details": {
+      "title": "ArcFlow: Unleashing 2-Step Text-to-Image Generation via High-Precision Non-Linear Flow Distillation",
+      "abstract": "In this work, we revisit few-step distillation from a geometric perspective. Based on the observation that teacher trajectories exhibit inherently non-linear dynamics, ArcFlow introduces a momentum-based velocity parameterization with an analytic solver to enable more faithful alignment under very few NFEs. Across Qwen-Image-20B and FLUX.1-dev, we find that this formulation results in stable 2-step generation with lightweight LoRA tuning, while maintaining strong alignment with the teacher distribution. We hope this perspective may provide a useful direction for improving efficiency without sacrificing trajectory fidelity.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.09014",
+      "pdf_url": "https://arxiv.org/pdf/2602.09014",
+      "github_links": [
+        "https://github.com/pnotp/ArcFlow"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.09014",
+      "scraped_at": "2026-02-13T02:28:23.425629"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "Rethinking the Value of Agent-Generated Tests for LLM-Based Software Engineering Agents",
+    "paper_url": "https://huggingface.co/papers/2602.07900",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Rethinking the Value of Agent-Generated Tests for LLM-Based Software Engineering Agents",
+      "abstract": "In autonomous issue resolution, agent-written tests often increase interaction cost without meaningfully increasing task success.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.07900",
+      "pdf_url": "https://arxiv.org/pdf/2602.07900",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.07900",
+      "scraped_at": "2026-02-13T02:28:25.429036"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "LoopFormer: Elastic-Depth Looped Transformers for Latent Reasoning via Shortcut Modulation",
+    "paper_url": "https://huggingface.co/papers/2602.11451",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LoopFormer: Elastic-Depth Looped Transformers for Latent Reasoning via Shortcut Modulation",
+      "abstract": "The LoopFormer Paper accepted to ICLR 2026",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.11451",
+      "pdf_url": "https://arxiv.org/pdf/2602.11451",
+      "github_links": [
+        "https://github.com/armenjeddi/loopformer"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.11451",
+      "scraped_at": "2026-02-13T02:28:27.395325"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "Weight Decay Improves Language Model Plasticity",
+    "paper_url": "https://huggingface.co/papers/2602.11137",
+    "authors": [
+      "Sham Kakade",
+      "Hanlin Zhang",
+      "Sebastian Bordt",
+      "Tessa Han"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Weight Decay Improves Language Model Plasticity",
+      "abstract": "Increasing weight decay during language model pretraining enhances model plasticity, enabling greater performance gains after fine-tuning even when base validation loss is worse, and highlights the need to optimize hyperparameters with downstream adaptability in mind.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.11137",
+      "pdf_url": "https://arxiv.org/pdf/2602.11137",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.11137",
+      "scraped_at": "2026-02-13T02:28:29.313239"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "UMEM: Unified Memory Extraction and Management Framework for Generalizable Memory",
+    "paper_url": "https://huggingface.co/papers/2602.10652",
+    "authors": [],
+    "stars": "247",
+    "details": {
+      "title": "UMEM: Unified Memory Extraction and Management Framework for Generalizable Memory",
+      "abstract": "UMEM: Unified Memory Extraction and Management Framework for Generalizable Memory This paper presents a systematic solution to a core bottleneck in self-evolving agents, offering the following notable contributions: Core Problem Insight The authors accurately identify a fundamental limitation in existing approaches: the decoupled treatment of memory extraction and memory management . Current state-of-the-art methods (e.g., ReMem, Memp) focus solely on optimizing management strategies while treating extraction as a static prompting process. This design leads to two critical pitfalls: Instance-level noise accumulation : Blindly memorizing concrete details rather than generalizable principles results in a \"rote memorization\" trap. Strategy misalignment : Low-quality extracted memories render even optimal management strategies ineffective, creating a \"garbage in, garbage out\" vicious cycle. Methodological Innovations UMEM's key innovation lies in the end-to-end joint optimization of extraction and management , with three pivotal designs ensuring generalizability: Semantic Neighborhood Modeling : Queries are clustered based on cosine similarity, transforming cross-task generalization into an intra-neighborhood consistency optimization problem. Theoretical guarantees for retrieval stability are provided via formal lemmas. Marginal Utility Reward : Memory value is evaluated at the neighborhood level through a novel reward combining success gain and efficiency regularization, compelling the agent to discard instance-specific noise. Online Memory Evolution : The memory bank is dynamically updated during training, enabling co-evolution of policy learning and memory states, thereby overcoming limitations imposed by static memory assumptions. Comprehensive Experimental Validation UMEM achieves significant performance gains over baselines across five heterogeneous benchmarks (AIME, GPQA, ALFWorld, etc.), with improvements up to 10.67% on multi-turn interactive tasks. Ablation studies compellingly demonstrate that optimizing extraction alone is more critical than optimizing management alone (performance drop of 4.70 points vs. 0.73 points), challenging the prevailing \"management-first\" paradigm. Continual evolution experiments reveal that UMEM exhibits a monotonically improving trajectory , whereas baselines such as ReMem rapidly degrade due to noise accumulation—validating the long-term value of the generalization-oriented design. Cross-model transfer experiments (Qwen3 → GPT-5.1 → Gemini) confirm that extracted memories possess architecture-agnostic utility. Broader Impact and Implications This work redefines the optimization paradigm for self-evolving agents: memory quality hinges on the synergy between extraction and management, rather than maximal optimization of either component in isolation . The \"neighborhood generalization\" principle offers valuable insights for continual learning and experience transfer. Notably, the paper draws an analogy between agent evolution and neural network training (forward inference + backward optimization), providing a fresh perspective on understanding learning mechanisms in LLM-based agents. Directions for Further Discussion The reliance on pretrained encoders for semantic neighborhood construction warrants deeper investigation into generalization boundaries under out-of-distribution tasks. Trade-offs between computational overhead (evaluating N neighborhood queries) and real-time deployment requirements merit further exploration. Potential complementarity with parameter-based continual learning approaches remains an open avenue for integration. In summary, through rigorous problem deconstruction and an innovative joint optimization framework, UMEM establishes a vital pathway toward building truly sustainable self-evolving agents. It represents a substantive and well-grounded contribution to the field of memory-augmented agent research.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.10652",
+      "pdf_url": "https://arxiv.org/pdf/2602.10652",
+      "github_links": [
+        "https://github.com/AIDC-AI/Marco-DeepResearch"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.10652",
+      "scraped_at": "2026-02-13T02:28:31.626780"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "When Actions Go Off-Task: Detecting and Correcting Misaligned Actions in Computer-Use Agents",
+    "paper_url": "https://huggingface.co/papers/2602.08995",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "When Actions Go Off-Task: Detecting and Correcting Misaligned Actions in Computer-Use Agents",
+      "abstract": "Project Homepage: https://osu-nlp-group.github.io/Misaligned-Action-Detection/ Github Repo: https://github.com/OSU-NLP-Group/Misaligned-Action-Detection Benchmark: https://huggingface.co/datasets/osunlp/MisActBench",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.08995",
+      "pdf_url": "https://arxiv.org/pdf/2602.08995",
+      "github_links": [
+        "https://github.com/OSU-NLP-Group/Misaligned-Action-Detection"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.08995",
+      "scraped_at": "2026-02-13T02:28:33.566309"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "TIC-VLA: A Think-in-Control Vision-Language-Action Model for Robot Navigation in Dynamic Environments",
+    "paper_url": "https://huggingface.co/papers/2602.02459",
+    "authors": [],
+    "stars": "15",
+    "details": {
+      "title": "TIC-VLA: A Think-in-Control Vision-Language-Action Model for Robot Navigation in Dynamic Environments",
+      "abstract": "Robots in dynamic, human-centric environments must follow language instructions while maintaining real-time reactive control. Vision-language-action (VLA) models offer a promising framework, but they assume temporally aligned reasoning and control, despite semantic inference being inherently delayed relative to real-time action. We introduce Think-in-Control (TIC)-VLA, a latency-aware framework that explicitly models delayed semantic reasoning during action generation. TIC-VLA defines a delayed semantic-control interface that conditions action generation on delayed vision-language semantic states and explicit latency metadata, in addition to current observations, enabling policies to compensate for asynchronous reasoning. We further propose a latency-consistent training pipeline that injects reasoning inference delays during imitation learning and online reinforcement learning, aligning training with asynchronous deployment. To support realistic evaluation, we present DynaNav, a physics-accurate, photo-realistic simulation suite for language-guided navigation in dynamic environments. Extensive experiments in simulation and on a real robot show that TIC-VLA consistently outperforms prior VLA models while maintaining robust real-time control under multi-second reasoning latency.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.02459",
+      "pdf_url": "https://arxiv.org/pdf/2602.02459",
+      "github_links": [
+        "https://github.com/ucla-mobility/TIC-VLA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.02459",
+      "scraped_at": "2026-02-13T02:28:35.669272"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "FedPS: Federated data Preprocessing via aggregated Statistics",
+    "paper_url": "https://huggingface.co/papers/2602.10870",
+    "authors": [
+      "Graham Cormode",
+      "xuefeng-xu"
+    ],
+    "stars": "5",
+    "details": {
+      "title": "FedPS: Federated data Preprocessing via aggregated Statistics",
+      "abstract": "TL;DR: A unified framework for tabular data preprocessing in federated learning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.10870",
+      "pdf_url": "https://arxiv.org/pdf/2602.10870",
+      "github_links": [
+        "https://github.com/xuefeng-xu/fedps"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.10870",
+      "scraped_at": "2026-02-13T02:28:37.607206"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "GoodVibe: Security-by-Vibe for LLM-Based Code Generation",
+    "paper_url": "https://huggingface.co/papers/2602.10778",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GoodVibe: Security-by-Vibe for LLM-Based Code Generation",
+      "abstract": "Large language models (LLMs) are increasingly used for code generation in fast, informal development workflows, often referred to as vibe coding, where speed and convenience are prioritized, and security requirements are rarely made explicit. In this setting, models frequently produce functionally correct but insecure code, creating a growing security risk. Existing approaches to improving code security rely on full-parameter fine-tuning or parameter-efficient adaptations, which are either costly and prone to catastrophic forgetting or operate at coarse granularity with limited interpretability and control. We present GoodVibe, a neuron-level framework for improving the security of code language models by default. GoodVibe is based on the key insight that security-relevant reasoning is localized to a small subset of neurons. We identify these neurons using gradient-based attribution from a supervised security task and perform neuron-selective fine-tuning that updates only this security-critical subspace. To further reduce training cost, we introduce activation-driven neuron clustering, enabling structured updates with minimal overhead. We evaluate GoodVibe on six LLMs across security-critical programming languages, including C++, Java, Swift, and Go. GoodVibe substantially improves the security of generated code while preserving general model utility, achieving up to a 2.5x improvement over base models, matching or exceeding full fine-tuning with over 4,700x fewer trainable parameters, and reducing training computation by more than 3.6x compared to the parameter-efficient baseline (LoRA). Our results demonstrate that neuron-level optimization offers an effective and scalable approach to securing code generation without sacrificing efficiency or generality.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.10778",
+      "pdf_url": "https://arxiv.org/pdf/2602.10778",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.10778",
+      "scraped_at": "2026-02-13T02:28:39.553886"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "Spend Search Where It Pays: Value-Guided Structured Sampling and Optimization for Generative Recommendation",
+    "paper_url": "https://huggingface.co/papers/2602.10699",
+    "authors": [
+      "Yuling Xiong",
+      "Changping Wang",
+      "Zeyu Wang",
+      "Yangru Huang",
+      "Jie Jiang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Spend Search Where It Pays: Value-Guided Structured Sampling and Optimization for Generative Recommendation",
+      "abstract": "V-STAR introduces value-guided decoding and tree-structured advantage reinforcement learning for generative recommendations, boosting exploration, diversity, and latency-constrained accuracy.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.10699",
+      "pdf_url": "https://arxiv.org/pdf/2602.10699",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.10699",
+      "scraped_at": "2026-02-13T02:28:41.450922"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "Large Language Lobotomy: Jailbreaking Mixture-of-Experts via Expert Silencing",
+    "paper_url": "https://huggingface.co/papers/2602.08741",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Large Language Lobotomy: Jailbreaking Mixture-of-Experts via Expert Silencing",
+      "abstract": "The rapid adoption of Mixture-of-Experts (MoE) architectures marks a major shift in the deployment of Large Language Models (LLMs). MoE LLMs improve scaling efficiency by activating only a small subset of parameters per token, but their routing structure introduces new safety attack surfaces. We find that safety-critical behaviors in MoE LLMs (e.g., refusal) are concentrated in a small set of experts rather than being uniformly distributed. Building on this, we propose Large Language Lobotomy (L), a training-free, architecture-agnostic attack that compromises safety alignment by exploiting expert routing dynamics. L learns routing patterns that correlate with refusal, attributes safety behavior to specific experts, and adaptively silences the most safety-relevant experts until harmful outputs are produced. We evaluate L on eight state-of-the-art open-source MoE LLMs and show that our adaptive expert silencing increases average attack success from 7.3% to 70.4%, reaching up to 86.3%, outperforming prior training-free MoE jailbreak methods. Moreover, bypassing guardrails typically requires silencing fewer than 20% of layer-wise experts while largely preserving general language utility. These results reveal a fundamental tension between efficiency-driven MoE design and robust safety alignment and motivate distributing safety mechanisms more robustly in future MoE LLMs with architecture- and routing-aware methods.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.08741",
+      "pdf_url": "https://arxiv.org/pdf/2602.08741",
+      "github_links": [
+        "https://github.com/jonatelintelo/LargeLanguageLobotomy"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.08741",
+      "scraped_at": "2026-02-13T02:28:45.220548"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "Graph-Enhanced Deep Reinforcement Learning for Multi-Objective Unrelated Parallel Machine Scheduling",
+    "paper_url": "https://huggingface.co/papers/2602.08052",
+    "authors": [
+      "Grace Bochenek",
+      "Ghaith Rabadi",
+      "Sean Mondesire",
+      "Bulent Soykan"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Graph-Enhanced Deep Reinforcement Learning for Multi-Objective Unrelated Parallel Machine Scheduling",
+      "abstract": "The Unrelated Parallel Machine Scheduling Problem (UPMSP) with release dates, setups, and eligibility constraints presents a significant multi-objective challenge. Traditional methods struggle to balance minimizing Total Weighted Tardiness (TWT) and Total Setup Time (TST). This paper proposes a Deep Reinforcement Learning framework using Proximal Policy Optimization (PPO) and a Graph Neural Network (GNN). The GNN effectively represents the complex state of jobs, machines, and setups, allowing the PPO agent to learn a direct scheduling policy. Guided by a multi-objective reward function, the agent simultaneously minimizes TWT and TST. Experimental results on benchmark instances demonstrate that our PPO-GNN agent significantly outperforms a standard dispatching rule and a metaheuristic, achieving a superior trade-off between both objectives. This provides a robust and scalable solution for complex manufacturing scheduling.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.08052",
+      "pdf_url": "https://arxiv.org/pdf/2602.08052",
+      "github_links": [
+        "https://github.com/bulentsoykan/GNN-DRL4UPMSP"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.08052",
+      "scraped_at": "2026-02-13T02:28:47.153052"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "StealthRL: Reinforcement Learning Paraphrase Attacks for Multi-Detector Evasion of AI-Text Detectors",
+    "paper_url": "https://huggingface.co/papers/2602.08934",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "StealthRL: Reinforcement Learning Paraphrase Attacks for Multi-Detector Evasion of AI-Text Detectors",
+      "abstract": "StealthRL: Reinforcement Learning Paraphrase Attacks for Multi-Detector Evasion of AI-Text Detectors. Happy to discuss and get feedback!",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.08934",
+      "pdf_url": "https://arxiv.org/pdf/2602.08934",
+      "github_links": [
+        "https://github.com/suraj-ranganath/StealthRL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.08934",
+      "scraped_at": "2026-02-13T02:28:49.094469"
+    },
+    "scraped_date": "2026-02-13"
+  },
+  {
+    "title": "From Features to Actions: Explainability in Traditional and Agentic AI Systems",
+    "paper_url": "https://huggingface.co/papers/2602.06841",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "From Features to Actions: Explainability in Traditional and Agentic AI Systems",
+      "abstract": "As AI systems move from single predictions to autonomous, multi-step agents, our notion of explainability must evolve. In this paper, we show why traditional feature-attribution methods (e.g., SHAP, LIME) are insufficient for diagnosing failures in tool-using LLM agents. Through experiments on TAU-bench Airline and AssistantBench, we demonstrate that trajectory-level, trace-grounded rubric analysis reliably localizes execution failures such as state inconsistency and incorrect tool selection—where attribution methods cannot. We introduce a unified static vs. agentic explainability taxonomy and propose the Minimal Explanation Packet (MEP) framework for structured, verifiable agent auditing. Code and full evaluation framework are open-sourced.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.06841",
+      "pdf_url": "https://arxiv.org/pdf/2602.06841",
+      "github_links": [
+        "https://github.com/VectorInstitute/unified-xai-evaluation-framework"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.06841",
+      "scraped_at": "2026-02-13T02:28:51.035530"
+    },
+    "scraped_date": "2026-02-13"
   }
 ]
