@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-41-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-2214+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-2255+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">41</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">293</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">695</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">2214+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">41</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">736</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">2255+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** February 15, 2026
+**Last Updated:** February 16, 2026
 
 ---
 
@@ -132,7 +132,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>2. Composition-RL: Compose Your Verifiable Prompts for Reinforcement Learning of Large Language Models</b> ⭐ 14</summary>
+<summary><b>2. Composition-RL: Compose Your Verifiable Prompts for Reinforcement Learning of Large Language Models</b> ⭐ 18</summary>
 
 <br/>
 
@@ -145,7 +145,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>3. DeepGen 1.0: A Lightweight Unified Multimodal Model for Advancing Image Generation and Editing</b> ⭐ 71</summary>
+<summary><b>3. DeepGen 1.0: A Lightweight Unified Multimodal Model for Advancing Image Generation and Editing</b> ⭐ 86</summary>
 
 <br/>
 
@@ -158,7 +158,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>4. Learning beyond Teacher: Generalized On-Policy Distillation with Reward Extrapolation</b> ⭐ 13</summary>
+<summary><b>4. Learning beyond Teacher: Generalized On-Policy Distillation with Reward Extrapolation</b> ⭐ 17</summary>
 
 <br/>
 
@@ -171,20 +171,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>5. MOSS-Audio-Tokenizer: Scaling Audio Tokenizers for Future Audio Foundation Models</b> ⭐ 84</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.10934) • [📄 arXiv](https://arxiv.org/abs/2602.10934) • [📥 PDF](https://arxiv.org/pdf/2602.10934)
-
-**💻 Code:** [⭐ Code](https://github.com/OpenMOSS/MOSS-Audio-Tokenizer)
-
-> Start discussion in this paper
-
-</details>
-
-<details>
-<summary><b>6. GigaBrain-0.5M*: a VLA That Learns From World Model-Based Reinforcement Learning</b> ⭐ 2.3k</summary>
+<summary><b>5. GigaBrain-0.5M*: a VLA That Learns From World Model-Based Reinforcement Learning</b> ⭐ 2.31k</summary>
 
 <br/>
 
@@ -193,6 +180,19 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/open-gigaai/giga-brain-0)
 
 > GigaBrain-0.5M* is a VLA That Learns From World Model-Based Reinforcement Learning. GigaBrain-0.5M* exhibits reliable long-horizon execution, consistently accomplishing complex manipulation tasks without failure.
+
+</details>
+
+<details>
+<summary><b>6. MOSS-Audio-Tokenizer: Scaling Audio Tokenizers for Future Audio Foundation Models</b> ⭐ 99</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.10934) • [📄 arXiv](https://arxiv.org/abs/2602.10934) • [📥 PDF](https://arxiv.org/pdf/2602.10934)
+
+**💻 Code:** [⭐ Code](https://github.com/OpenMOSS/MOSS-Audio-Tokenizer)
+
+> Start discussion in this paper
 
 </details>
 
@@ -208,7 +208,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>8. LawThinker: A Deep Research Legal Agent in Dynamic Environments</b> ⭐ 23</summary>
+<summary><b>8. LawThinker: A Deep Research Legal Agent in Dynamic Environments</b> ⭐ 25</summary>
 
 <br/>
 
@@ -232,7 +232,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>10. Stroke of Surprise: Progressive Semantic Illusions in Vector Sketching</b> ⭐ 26</summary>
+<summary><b>10. Stroke of Surprise: Progressive Semantic Illusions in Vector Sketching</b> ⭐ 27</summary>
 
 <br/>
 
@@ -245,7 +245,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>11. Think Longer to Explore Deeper: Learn to Explore In-Context via Length-Incentivized Reinforcement Learning</b> ⭐ 11</summary>
+<summary><b>11. Think Longer to Explore Deeper: Learn to Explore In-Context via Length-Incentivized Reinforcement Learning</b> ⭐ 14</summary>
 
 <br/>
 
@@ -269,7 +269,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>13. χ_{0}: Resource-Aware Robust Manipulation via Taming Distributional Inconsistencies</b> ⭐ 182</summary>
+<summary><b>13. χ_{0}: Resource-Aware Robust Manipulation via Taming Distributional Inconsistencies</b> ⭐ 187</summary>
 
 <br/>
 
@@ -282,20 +282,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>14. dVoting: Fast Voting for dLLMs</b> ⭐ 22</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.12153) • [📄 arXiv](https://arxiv.org/abs/2602.12153) • [📥 PDF](https://arxiv.org/pdf/2602.12153)
-
-**💻 Code:** [⭐ Code](https://github.com/fscdc/dVoting)
-
-> The first efficient test-time scaling strategy for dLLMs. Welcome any discussion!
-
-</details>
-
-<details>
-<summary><b>15. EgoHumanoid: Unlocking In-the-Wild Loco-Manipulation with Robot-Free Egocentric Demonstration</b> ⭐ 0</summary>
+<summary><b>14. EgoHumanoid: Unlocking In-the-Wild Loco-Manipulation with Robot-Free Egocentric Demonstration</b> ⭐ 0</summary>
 
 <br/>
 
@@ -304,6 +291,19 @@ getTodaysPapers();
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.10106) • [📄 arXiv](https://arxiv.org/abs/2602.10106) • [📥 PDF](https://arxiv.org/pdf/2602.10106)
 
 > Project page: https://opendrivelab.com/EgoHumanoid
+
+</details>
+
+<details>
+<summary><b>15. dVoting: Fast Voting for dLLMs</b> ⭐ 22</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.12153) • [📄 arXiv](https://arxiv.org/abs/2602.12153) • [📥 PDF](https://arxiv.org/pdf/2602.12153)
+
+**💻 Code:** [⭐ Code](https://github.com/fscdc/dVoting)
+
+> The first efficient test-time scaling strategy for dLLMs. Welcome any discussion!
 
 </details>
 
@@ -323,7 +323,18 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>17. DeepSight: An All-in-One LM Safety Toolkit</b> ⭐ 34</summary>
+<summary><b>17. Voxtral Realtime</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.11298) • [📄 arXiv](https://arxiv.org/abs/2602.11298) • [📥 PDF](https://arxiv.org/pdf/2602.11298)
+
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Streaming Speech Recognition with Decoder-Only Large Language Models and La...
+
+</details>
+
+<details>
+<summary><b>18. DeepSight: An All-in-One LM Safety Toolkit</b> ⭐ 35</summary>
 
 <br/>
 
@@ -336,7 +347,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>18. Unveiling Implicit Advantage Symmetry: Why GRPO Struggles with Exploration and Difficulty Adaptation</b> ⭐ 9</summary>
+<summary><b>19. Unveiling Implicit Advantage Symmetry: Why GRPO Struggles with Exploration and Difficulty Adaptation</b> ⭐ 10</summary>
 
 <br/>
 
@@ -349,7 +360,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>19. Adapting Vision-Language Models for E-commerce Understanding at Scale</b> ⭐ 0</summary>
+<summary><b>20. Adapting Vision-Language Models for E-commerce Understanding at Scale</b> ⭐ 0</summary>
 
 <br/>
 
@@ -360,18 +371,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>20. Voxtral Realtime</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.11298) • [📄 arXiv](https://arxiv.org/abs/2602.11298) • [📥 PDF](https://arxiv.org/pdf/2602.11298)
-
-> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Streaming Speech Recognition with Decoder-Only Large Language Models and La...
-
-</details>
-
-<details>
-<summary><b>21. PISCO: Precise Video Instance Insertion with Sparse Control</b> ⭐ 27</summary>
+<summary><b>21. PISCO: Precise Video Instance Insertion with Sparse Control</b> ⭐ 32</summary>
 
 <br/>
 
@@ -384,7 +384,18 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>22. T3D: Few-Step Diffusion Language Models via Trajectory Self-Distillation with Direct Discriminative Optimization</b> ⭐ 13</summary>
+<summary><b>22. Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.11964) • [📄 arXiv](https://arxiv.org/abs/2602.11964) • [📥 PDF](https://arxiv.org/pdf/2602.11964)
+
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API IDRBench: Interactive Deep Research Benchmark (2026) Agent World Model: Inf...
+
+</details>
+
+<details>
+<summary><b>23. T3D: Few-Step Diffusion Language Models via Trajectory Self-Distillation with Direct Discriminative Optimization</b> ⭐ 14</summary>
 
 <br/>
 
@@ -395,17 +406,6 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/Tyrion58/T3D)
 
 > Diffusion large language models (DLLMs) have the potential to enable fast text generation by decoding multiple tokens in parallel. However, in practice, their inference efficiency is constrained by the need for many refinement steps, while aggress...
-
-</details>
-
-<details>
-<summary><b>23. Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.11964) • [📄 arXiv](https://arxiv.org/abs/2602.11964) • [📥 PDF](https://arxiv.org/pdf/2602.11964)
-
-> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API IDRBench: Interactive Deep Research Benchmark (2026) Agent World Model: Inf...
 
 </details>
 
@@ -471,7 +471,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>29. MolmoSpaces: A Large-Scale Open Ecosystem for Robot Navigation and Manipulation</b> ⭐ 92</summary>
+<summary><b>29. MolmoSpaces: A Large-Scale Open Ecosystem for Robot Navigation and Manipulation</b> ⭐ 102</summary>
 
 <br/>
 
@@ -536,7 +536,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>34. P-GenRM: Personalized Generative Reward Model with Test-time User-based Scaling</b> ⭐ 12</summary>
+<summary><b>34. P-GenRM: Personalized Generative Reward Model with Test-time User-based Scaling</b> ⭐ 13</summary>
 
 <br/>
 
@@ -575,7 +575,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>37. ScalSelect: Scalable Training-Free Multimodal Data Selection for Efficient Visual Instruction Tuning</b> ⭐ 2</summary>
+<summary><b>37. ScalSelect: Scalable Training-Free Multimodal Data Selection for Efficient Visual Instruction Tuning</b> ⭐ 3</summary>
 
 <br/>
 
@@ -588,7 +588,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>38. ABot-N0: Technical Report on the VLA Foundation Model for Versatile Embodied Navigation</b> ⭐ 37</summary>
+<summary><b>38. ABot-N0: Technical Report on the VLA Foundation Model for Versatile Embodied Navigation</b> ⭐ 40</summary>
 
 <br/>
 
@@ -650,36 +650,36 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 41 |
-| 📅 Today | [`2026-02-15.json`](data/daily/2026-02-15.json) | 41 |
-| 📆 This Week | [`2026-W06.json`](data/weekly/2026-W06.json) | 293 |
-| 🗓️ This Month | [`2026-02.json`](data/monthly/2026-02.json) | 695 |
+| 📅 Today | [`2026-02-16.json`](data/daily/2026-02-16.json) | 41 |
+| 📆 This Week | [`2026-W07.json`](data/weekly/2026-W07.json) | 41 |
+| 🗓️ This Month | [`2026-02.json`](data/monthly/2026-02.json) | 736 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-02-15 | 41 | [View JSON](data/daily/2026-02-15.json) |
+| 📌 2026-02-16 | 41 | [View JSON](data/daily/2026-02-16.json) |
+| 📄 2026-02-15 | 41 | [View JSON](data/daily/2026-02-15.json) |
 | 📄 2026-02-14 | 41 | [View JSON](data/daily/2026-02-14.json) |
 | 📄 2026-02-13 | 47 | [View JSON](data/daily/2026-02-13.json) |
 | 📄 2026-02-12 | 57 | [View JSON](data/daily/2026-02-12.json) |
 | 📄 2026-02-11 | 58 | [View JSON](data/daily/2026-02-11.json) |
 | 📄 2026-02-10 | 2 | [View JSON](data/daily/2026-02-10.json) |
-| 📄 2026-02-09 | 47 | [View JSON](data/daily/2026-02-09.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
+| 📅 2026-W07 | 41 | [View JSON](data/weekly/2026-W07.json) |
 | 📅 2026-W06 | 293 | [View JSON](data/weekly/2026-W06.json) |
 | 📅 2026-W05 | 357 | [View JSON](data/weekly/2026-W05.json) |
 | 📅 2026-W04 | 214 | [View JSON](data/weekly/2026-W04.json) |
-| 📅 2026-W03 | 183 | [View JSON](data/weekly/2026-W03.json) |
 
 ### 🗂️ Monthly Archives
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-02 | 695 | [View JSON](data/monthly/2026-02.json) |
+| 🗓️ 2026-02 | 736 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
 | 🗓️ 2025-12 | 787 | [View JSON](data/monthly/2025-12.json) |
 
