@@ -17486,5 +17486,450 @@
       "scraped_at": "2026-02-21T02:06:12.529077"
     },
     "scraped_date": "2026-02-21"
+  },
+  {
+    "title": "SpargeAttention2: Trainable Sparse Attention via Hybrid Top-k+Top-p Masking and Distillation Fine-Tuning",
+    "paper_url": "https://huggingface.co/papers/2602.13515",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SpargeAttention2: Trainable Sparse Attention via Hybrid Top-k+Top-p Masking and Distillation Fine-Tuning",
+      "abstract": "SpargeAttention2 reaches 95% attention sparsity and a 16.2× attention speedup while maintaining generation quality, consistently outperforming prior sparse attention methods.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.13515",
+      "pdf_url": "https://arxiv.org/pdf/2602.13515",
+      "github_links": [
+        "https://github.com/thu-ml/SpargeAttn"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.13515",
+      "scraped_at": "2026-02-22T02:22:54.246253"
+    },
+    "scraped_date": "2026-02-22"
+  },
+  {
+    "title": "Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents",
+    "paper_url": "https://huggingface.co/papers/2602.16855",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents",
+      "abstract": "The paper introduces GUI-Owl-1.5, the latest native GUI agent model that features instruct/thinking variants in multiple sizes (2B/4B/8B/32B/235B) and supports a range of platforms (desktop, mobile, browser, and more) to enable cloud-edge collaboration and real-time interaction. GUI-Owl-1.5 achieves state-of-the-art results on more than 20+ GUI benchmarks on open-source models: (1) on GUI automation tasks, it obtains 56.5 on OSWorld, 71.6 on AndroidWorld, and 48.4 on WebArena; (2) on grounding tasks, it obtains 80.3 on ScreenSpotPro; (3) on tool-calling tasks, it obtains 47.6 on OSWorld-MCP, and 46.8 on MobileWorld; (4) on memory and knowledge tasks, it obtains 75.5 on GUI-Knowledge Bench. GUI-Owl-1.5 incorporates several key innovations: (1) \\textbf{Hybird Data Flywheel}: we construct the data pipeline for UI understanding and trajectory generation based on a combination of simulated environments and cloud-based sandbox environments, in order to improve the efficiency and quality of data collection. (2) \\textbf{Unified Enhancement of Agent Capabilities}: we use a unified thought-synthesis pipeline to enhance the model's reasoning capabilities, while placing particular emphasis on improving key agent abilities, including Tool/MCP use, memory and multi-agent adaptation; (3) \\textbf{Multi-platform Environment RL Scaling}: We propose a new environment RL algorithm, MRPO, to address the challenges of multi-platform conflicts and the low training efficiency of long-horizon tasks. The GUI-Owl-1.5 models are open-sourced, and an online cloud-sandbox demo is available at https://github.com/X-PLUG/MobileAgent .",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16855",
+      "pdf_url": "https://arxiv.org/pdf/2602.16855",
+      "github_links": [
+        "https://github.com/X-PLUG/MobileAgent",
+        "https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3.5"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16855",
+      "scraped_at": "2026-02-22T02:22:56.190307"
+    },
+    "scraped_date": "2026-02-22"
+  },
+  {
+    "title": "Unified Latents (UL): How to train your latents",
+    "paper_url": "https://huggingface.co/papers/2602.17270",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Unified Latents (UL): How to train your latents",
+      "abstract": "Unified Latents (UL) jointly regularizes encoders with a diffusion prior and decodes with a diffusion model, giving a tight latent bitrate bound and strong ImageNet/Kinetics performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.17270",
+      "pdf_url": "https://arxiv.org/pdf/2602.17270",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.17270",
+      "scraped_at": "2026-02-22T02:22:58.089800"
+    },
+    "scraped_date": "2026-02-22"
+  },
+  {
+    "title": "Frontier AI Risk Management Framework in Practice: A Risk Analysis Technical Report v1.5",
+    "paper_url": "https://huggingface.co/papers/2602.14457",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Frontier AI Risk Management Framework in Practice: A Risk Analysis Technical Report v1.5",
+      "abstract": "Frontier AI Risk Management Framework in Practice: A Risk Analysis Technical Report v1.5",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14457",
+      "pdf_url": "https://arxiv.org/pdf/2602.14457",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14457",
+      "scraped_at": "2026-02-22T02:23:00.048921"
+    },
+    "scraped_date": "2026-02-22"
+  },
+  {
+    "title": "Arcee Trinity Large Technical Report",
+    "paper_url": "https://huggingface.co/papers/2602.17004",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Arcee Trinity Large Technical Report",
+      "abstract": "arXivLens breakdown of this paper 👉 https://arxivlens.com/PaperView/Details/arcee-trinity-large-technical-report-2819-97270046 Executive Summary Detailed Breakdown Practical Applications",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.17004",
+      "pdf_url": "https://arxiv.org/pdf/2602.17004",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.17004",
+      "scraped_at": "2026-02-22T02:23:01.957430"
+    },
+    "scraped_date": "2026-02-22"
+  },
+  {
+    "title": "Calibrate-Then-Act: Cost-Aware Exploration in LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2602.16699",
+    "authors": [
+      "Greg Durrett",
+      "Nicholas Tomlin",
+      "Wenxuan Ding"
+    ],
+    "stars": "5",
+    "details": {
+      "title": "Calibrate-Then-Act: Cost-Aware Exploration in LLM Agents",
+      "abstract": "We introduce Calibrate-Then-Act, a framework that induces an LLM to reason about the cost-uncertainty tradeoff when exploring the environments.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16699",
+      "pdf_url": "https://arxiv.org/pdf/2602.16699",
+      "github_links": [
+        "https://github.com/Wenwen-D/env-explorer"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16699",
+      "scraped_at": "2026-02-22T02:23:03.775404"
+    },
+    "scraped_date": "2026-02-22"
+  },
+  {
+    "title": "\"What Are You Doing?\": Effects of Intermediate Feedback from Agentic LLM In-Car Assistants During Multi-Step Processing",
+    "paper_url": "https://huggingface.co/papers/2602.15569",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "\"What Are You Doing?\": Effects of Intermediate Feedback from Agentic LLM In-Car Assistants During Multi-Step Processing",
+      "abstract": "As LLM agents move into real products, feedback timing and verbosity become critical UX decisions, yet there's little empirical work on this, especially in attention-critical contexts. How are you handling progress communication in your own agentic systems? And is \"adaptive verbosity\" something that should be user-controlled, system-inferred, or both?",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.15569",
+      "pdf_url": "https://arxiv.org/pdf/2602.15569",
+      "github_links": [
+        "https://github.com/johanneskirmayr/agentic_llm_feedback"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.15569",
+      "scraped_at": "2026-02-22T02:23:05.702214"
+    },
+    "scraped_date": "2026-02-22"
+  },
+  {
+    "title": "DDiT: Dynamic Patch Scheduling for Efficient Diffusion Transformers",
+    "paper_url": "https://huggingface.co/papers/2602.16968",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DDiT: Dynamic Patch Scheduling for Efficient Diffusion Transformers",
+      "abstract": "Dynamic tokenization adapts patch sizes across diffusion denoising steps to accelerate DiTs for image and video generation while preserving quality.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16968",
+      "pdf_url": "https://arxiv.org/pdf/2602.16968",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16968",
+      "scraped_at": "2026-02-22T02:23:07.619661"
+    },
+    "scraped_date": "2026-02-22"
+  },
+  {
+    "title": "TactAlign: Human-to-Robot Policy Transfer via Tactile Alignment",
+    "paper_url": "https://huggingface.co/papers/2602.13579",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "TactAlign: Human-to-Robot Policy Transfer via Tactile Alignment",
+      "abstract": "Human demonstrations collected by wearable devices (e.g., tactile gloves) provide fast and dexterous supervision for policy learning, and are guided by rich, natural tactile feedback. However, a key challenge is how to transfer human-collected tactile signals to robots despite the differences in sensing modalities and embodiment. Existing human-to-robot (H2R) approaches that incorporate touch often assume identical tactile sensors, require paired data, and involve little to no embodiment gap between human demonstrator and the robots, limiting scalability and generality. We propose TactAlign, a cross-embodiment tactile alignment method that transfers human-collected tactile signals to a robot with different embodiment. TactAlign transforms human and robot tactile observations into a shared latent representation using a rectified flow, without paired datasets, manual labels, or privileged information. Our method enables low-cost latent transport guided by hand-object interaction-derived pseudo-pairs. We demonstrate that TactAlign improves H2R policy transfer across multiple contact-rich tasks (pivoting, insertion, lid closing), generalizes to unseen objects and tasks with human data (less than 5 minutes), and enables zero-shot H2R transfer on a highly dexterous tasks (light bulb screwing).",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.13579",
+      "pdf_url": "https://arxiv.org/pdf/2602.13579",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.13579",
+      "scraped_at": "2026-02-22T02:23:09.504371"
+    },
+    "scraped_date": "2026-02-22"
+  },
+  {
+    "title": "Computer-Using World Model",
+    "paper_url": "https://huggingface.co/papers/2602.17365",
+    "authors": [
+      "John Zhang",
+      "Yiming Guan",
+      "wulu",
+      "vyokky",
+      "ruiyu0"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Computer-Using World Model",
+      "abstract": "CUWM learns a two-stage desktop UI world model that predicts textual state changes and renders next screenshots, enabling action search to improve decision quality in office software.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.17365",
+      "pdf_url": "https://arxiv.org/pdf/2602.17365",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.17365",
+      "scraped_at": "2026-02-22T02:23:11.468158"
+    },
+    "scraped_date": "2026-02-22"
+  },
+  {
+    "title": "On the Mechanism and Dynamics of Modular Addition: Fourier Features, Lottery Ticket, and Grokking",
+    "paper_url": "https://huggingface.co/papers/2602.16849",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "On the Mechanism and Dynamics of Modular Addition: Fourier Features, Lottery Ticket, and Grokking",
+      "abstract": "A mechanistic interpretation and dynamical analysis of modular addition in two-layer networks, supported by empirical and theoretical evidence.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16849",
+      "pdf_url": "https://arxiv.org/pdf/2602.16849",
+      "github_links": [
+        "https://github.com/Y-Agent/modular-addition-feature-learning"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16849",
+      "scraped_at": "2026-02-22T02:23:13.355571"
+    },
+    "scraped_date": "2026-02-22"
+  },
+  {
+    "title": "2Mamba2Furious: Linear in Complexity, Competitive in Accuracy",
+    "paper_url": "https://huggingface.co/papers/2602.17363",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "2Mamba2Furious: Linear in Complexity, Competitive in Accuracy",
+      "abstract": "Linear attention transformers have become a strong alternative to softmax attention due to their efficiency. However, linear attention tends to be less expressive and results in reduced accuracy compared to softmax attention. To bridge the accuracy gap between softmax attention and linear attention, we manipulate Mamba-2, a very strong linear attention variant. We first simplify Mamba-2 down to its most fundamental and important components, evaluating which specific choices make it most accurate. From this simplified Mamba variant (Mamba-2S), we improve the A-mask and increase the order of the hidden state, resulting in a method, which we call 2Mamba, that is nearly as accurate as softmax attention, yet much more memory efficient for long context lengths. We also investigate elements to Mamba-2 that help surpass softmax attention accuracy. Code is provided for all our experiments",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.17363",
+      "pdf_url": "https://arxiv.org/pdf/2602.17363",
+      "github_links": [
+        "https://github.com/gmongaras/2Mamba2Furious"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.17363",
+      "scraped_at": "2026-02-22T02:23:15.289980"
+    },
+    "scraped_date": "2026-02-22"
+  },
+  {
+    "title": "ArXiv-to-Model: A Practical Study of Scientific LM Training",
+    "paper_url": "https://huggingface.co/papers/2602.17288",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "ArXiv-to-Model: A Practical Study of Scientific LM Training",
+      "abstract": "💻 Github: https://github.com/kitefishai/KiteFish-A1-1.5B-Math",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.17288",
+      "pdf_url": "https://arxiv.org/pdf/2602.17288",
+      "github_links": [
+        "https://github.com/kitefishai/KiteFish-A1-1.5B-Math"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.17288",
+      "scraped_at": "2026-02-22T02:23:17.178684"
+    },
+    "scraped_date": "2026-02-22"
+  },
+  {
+    "title": "Discovering Multiagent Learning Algorithms with Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2602.16928",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Discovering Multiagent Learning Algorithms with Large Language Models",
+      "abstract": "We present AlphaEvolve, an LLM-powered evolutionary agent that discovers novel MARL algorithms, including VAD-CFR and SHOR-PSRO, improving regret-based methods and PSRO meta-solver performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16928",
+      "pdf_url": "https://arxiv.org/pdf/2602.16928",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16928",
+      "scraped_at": "2026-02-22T02:23:19.034880"
+    },
+    "scraped_date": "2026-02-22"
+  },
+  {
+    "title": "FRAPPE: Infusing World Modeling into Generalist Policies via Multiple Future Representation Alignment",
+    "paper_url": "https://huggingface.co/papers/2602.17259",
+    "authors": [
+      "Shuai Chen",
+      "Wenxuan Song",
+      "wangdonglin130",
+      "hhhJB",
+      "han1997"
+    ],
+    "stars": "14",
+    "details": {
+      "title": "FRAPPE: Infusing World Modeling into Generalist Policies via Multiple Future Representation Alignment",
+      "abstract": "models: https://huggingface.co/collections/hhhJB/frappe",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.17259",
+      "pdf_url": "https://arxiv.org/pdf/2602.17259",
+      "github_links": [
+        "https://github.com/OpenHelix-Team/frappe"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.17259",
+      "scraped_at": "2026-02-22T02:23:20.908118"
+    },
+    "scraped_date": "2026-02-22"
+  },
+  {
+    "title": "NESSiE: The Necessary Safety Benchmark -- Identifying Errors that should not Exist",
+    "paper_url": "https://huggingface.co/papers/2602.16756",
+    "authors": [
+      "Jonas Geiping",
+      "Johannes Bertram"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "NESSiE: The Necessary Safety Benchmark -- Identifying Errors that should not Exist",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16756",
+      "pdf_url": "https://arxiv.org/pdf/2602.16756",
+      "github_links": [
+        "https://github.com/JohannesBertram/NESSiE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16756",
+      "scraped_at": "2026-02-22T02:23:22.799408"
+    },
+    "scraped_date": "2026-02-22"
+  },
+  {
+    "title": "CrispEdit: Low-Curvature Projections for Scalable Non-Destructive LLM Editing",
+    "paper_url": "https://huggingface.co/papers/2602.15823",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "CrispEdit: Low-Curvature Projections for Scalable Non-Destructive LLM Editing",
+      "abstract": "CrispEdit enables continual LLM updates by projecting edits into low-curvature directions of capability loss, so you can apply thousands of knowledge edits without catastrophic forgetting. It achieves strong performance on targeted edits in autoregressive (WILD) evaluation, keeps existing capabilities nearly intact, and achieves over 100x speedups compared to popular editors like AlphaEdit and MEMIT.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.15823",
+      "pdf_url": "https://arxiv.org/pdf/2602.15823",
+      "github_links": [
+        "https://github.com/zarifikram/CrispEdit"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.15823",
+      "scraped_at": "2026-02-22T02:23:24.651558"
+    },
+    "scraped_date": "2026-02-22"
+  },
+  {
+    "title": "World Models for Policy Refinement in StarCraft II",
+    "paper_url": "https://huggingface.co/papers/2602.14857",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "World Models for Policy Refinement in StarCraft II",
+      "abstract": "TLDR: This work proposes StarWM, the first world model for SC2 that predicts future observations under partial observability, and proposes StarWM-Agent, a world-model-augmented decision system that integrates StarWM into a Generate--Simulate--Refine decision loop for foresight-driven policy refinement.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14857",
+      "pdf_url": "https://arxiv.org/pdf/2602.14857",
+      "github_links": [
+        "https://github.com/yxzzhang/StarWM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14857",
+      "scraped_at": "2026-02-22T02:23:26.532403"
+    },
+    "scraped_date": "2026-02-22"
+  },
+  {
+    "title": "Modeling Distinct Human Interaction in Web Agents",
+    "paper_url": "https://huggingface.co/papers/2602.17588",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Modeling Distinct Human Interaction in Web Agents",
+      "abstract": "We introduce the task of modeling human intervention to support collaborative web task execution. We collect CowCorpus, a dataset of 400 real-user web navigation trajectories containing over 4,200 interleaved human and agent actions. We identify four distinct patterns of user interaction with agents and train language models (LMs) to anticipate when users are likely to intervene based on their interaction styles, yielding a 61.4–63.4% improvement in intervention prediction accuracy over base LMs. Finally, we deploy these intervention-aware models in live web navigation agents and evaluate them in a user study, finding a 26.5% increase in user-rated agent usefulness.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.17588",
+      "pdf_url": "https://arxiv.org/pdf/2602.17588",
+      "github_links": [
+        "https://github.com/oaishi/PlowPilot"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.17588",
+      "scraped_at": "2026-02-22T02:23:28.504312"
+    },
+    "scraped_date": "2026-02-22"
+  },
+  {
+    "title": "References Improve LLM Alignment in Non-Verifiable Domains",
+    "paper_url": "https://huggingface.co/papers/2602.16802",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "References Improve LLM Alignment in Non-Verifiable Domains",
+      "abstract": "While Reinforcement Learning with Verifiable Rewards (RLVR) has shown strong effectiveness in reasoning tasks, it cannot be directly applied to non-verifiable domains lacking ground-truth verifiers, such as LLM alignment. In this work, we investigate whether reference-guided LLM-evaluators can bridge this gap by serving as soft \"verifiers\". First, we design evaluation protocols that enhance LLM-based evaluators for LLM alignment using reference outputs. Through comprehensive experiments, we show that a reference-guided approach substantially improves the accuracy of less capable LLM-judges using references from frontier models; stronger LLM-judges can also be enhanced by high-quality (i.e., human-written) references. Building on these improved judges, we demonstrate the utility of high-quality references in alignment tuning, where LLMs guided with references are used as judges to self-improve. We show that reference-guided self-improvement yields clear gains over both direct SFT on reference outputs and self-improvement with reference-free judges, achieving performance comparable to training with ArmoRM, a strong finetuned reward model. Specifically, our method achieves 73.1% and 58.7% on AlpacaEval and Arena-Hard with Llama-3-8B-Instruct, and 70.0% and 74.1% with Qwen2.5-7B, corresponding to average absolute gains of +20.2 / +17.1 points over SFT distillation and +5.3 / +3.6 points over reference-free self-improvement on AlpacaEval / Arena-Hard. These results highlight the potential of using reference-guided LLM-evaluators to enable effective LLM post-training in non-verifiable domains.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16802",
+      "pdf_url": "https://arxiv.org/pdf/2602.16802",
+      "github_links": [
+        "https://github.com/yale-nlp/RLRR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16802",
+      "scraped_at": "2026-02-22T02:23:30.424367"
+    },
+    "scraped_date": "2026-02-22"
+  },
+  {
+    "title": "Hardware Co-Design Scaling Laws via Roofline Modelling for On-Device LLMs",
+    "paper_url": "https://huggingface.co/papers/2602.10377",
+    "authors": [
+      "Yan Song",
+      "Fengfa Li",
+      "Yifeng Ding",
+      "Jiwen Jiang",
+      "Luoyang Sun"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Hardware Co-Design Scaling Laws via Roofline Modelling for On-Device LLMs",
+      "abstract": "🚩 Hardware is like a box — different sizes of boxes can accommodate different sizes of objects. The same holds for large language models: different hardware platforms impose different architectural constraints and opportunities. This paper introduces Hardware Co-Design Scaling Law — a principled framework for designing large language models under strict edge-device constraints. Instead of treating model accuracy and system latency as separate problems, the paper connects: 1️⃣ Architecture -> Training Loss 2️⃣ Architecture -> Inference Latency (via roofline modelling) 3️⃣ And ultimately derive the accuracy-latency Pareto frontier. This transforms architecture selection from heuristic trial-and-error into a hardware-aware optimisation problem, reducing design cycles from months to days. As on-device AI becomes increasingly important for autonomous systems, embodied intelligence, and smart environments, modelling–system co-design is no longer optional, which is foundational.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.10377",
+      "pdf_url": "https://arxiv.org/pdf/2602.10377",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.10377",
+      "scraped_at": "2026-02-22T02:23:32.309132"
+    },
+    "scraped_date": "2026-02-22"
+  },
+  {
+    "title": "StereoAdapter-2: Globally Structure-Consistent Underwater Stereo Depth Estimation",
+    "paper_url": "https://huggingface.co/papers/2602.16915",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "StereoAdapter-2: Globally Structure-Consistent Underwater Stereo Depth Estimation",
+      "abstract": "https://aigeeksgroup.github.io/StereoAdapter-2",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16915",
+      "pdf_url": "https://arxiv.org/pdf/2602.16915",
+      "github_links": [
+        "https://github.com/AIGeeksGroup/StereoAdapter-2"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16915",
+      "scraped_at": "2026-02-22T02:23:34.267539"
+    },
+    "scraped_date": "2026-02-22"
+  },
+  {
+    "title": "NeST: Neuron Selective Tuning for LLM Safety",
+    "paper_url": "https://huggingface.co/papers/2602.16835",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "NeST: Neuron Selective Tuning for LLM Safety",
+      "abstract": "We introduce NeST, a lightweight and structure-aware safety alignment framework that selectively adapts clustered safety-relevant neurons to deliver stable, efficient, and model-agnostic refusal strengthening—achieving a 90.2% reduction in unsafe generations while updating only 0.44M parameters across 10 open-weight LLMs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16835",
+      "pdf_url": "https://arxiv.org/pdf/2602.16835",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16835",
+      "scraped_at": "2026-02-22T02:23:36.089943"
+    },
+    "scraped_date": "2026-02-22"
   }
 ]
