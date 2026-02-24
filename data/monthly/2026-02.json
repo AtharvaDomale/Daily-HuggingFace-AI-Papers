@@ -18376,5 +18376,366 @@
       "scraped_at": "2026-02-23T02:24:34.728873"
     },
     "scraped_date": "2026-02-23"
+  },
+  {
+    "title": "VESPO: Variational Sequence-Level Soft Policy Optimization for Stable Off-Policy LLM Training",
+    "paper_url": "https://huggingface.co/papers/2602.10693",
+    "authors": [],
+    "stars": "14",
+    "details": {
+      "title": "VESPO: Variational Sequence-Level Soft Policy Optimization for Stable Off-Policy LLM Training",
+      "abstract": "Training stability under off-policy conditions is a critical bottleneck for scaling RL-based LLM training — policy staleness from mini-batch splitting, asynchronous pipelines, and training-inference mismatches all cause importance weights to explode. Existing fixes like token-level clipping or length normalization are either lossy approximations or introduce bias. We propose VESPO, which takes a fundamentally different approach: instead of designing heuristic weight transformations, we formulate variance reduction as a variational optimization problem over proposal distributions, yielding a closed-form reshaping kernel that operates directly on sequence-level importance weights — no length normalization, no token-level decomposition. VESPO maintains stable training under staleness ratios up to 64× and fully asynchronous execution, with consistent gains across both dense and MoE architectures on mathematical reasoning benchmarks. Code: https://github.com/FloyedShen/VESPO",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.10693",
+      "pdf_url": "https://arxiv.org/pdf/2602.10693",
+      "github_links": [
+        "https://github.com/FloyedShen/VESPO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.10693",
+      "scraped_at": "2026-02-24T02:13:22.182246"
+    },
+    "scraped_date": "2026-02-24"
+  },
+  {
+    "title": "Does Your Reasoning Model Implicitly Know When to Stop Thinking?",
+    "paper_url": "https://huggingface.co/papers/2602.08354",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Does Your Reasoning Model Implicitly Know When to Stop Thinking?",
+      "abstract": "Large reasoning models already implicitly know when they have reached the correct answer. We just don’t let them stop. Project Page: https://hzx122.github.io/sage-rl/",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.08354",
+      "pdf_url": "https://arxiv.org/pdf/2602.08354",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.08354",
+      "scraped_at": "2026-02-24T02:13:24.070914"
+    },
+    "scraped_date": "2026-02-24"
+  },
+  {
+    "title": "Generated Reality: Human-centric World Simulation using Interactive Video Generation with Hand and Camera Control",
+    "paper_url": "https://huggingface.co/papers/2602.18422",
+    "authors": [
+      "Shengqu Cai",
+      "Tong Wu",
+      "Ashley Neall",
+      "Lisong C. Sun",
+      "Linxi Xie"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Generated Reality: Human-centric World Simulation using Interactive Video Generation with Hand and Camera Control",
+      "abstract": "We introduce a human-centric video world model conditioned on head and hand poses, enabling interactive egocentric environments through bidirectional diffusion training and improved user control.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.18422",
+      "pdf_url": "https://arxiv.org/pdf/2602.18422",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.18422",
+      "scraped_at": "2026-02-24T02:13:25.934792"
+    },
+    "scraped_date": "2026-02-24"
+  },
+  {
+    "title": "Spanning the Visual Analogy Space with a Weight Basis of LoRAs",
+    "paper_url": "https://huggingface.co/papers/2602.15727",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "Spanning the Visual Analogy Space with a Weight Basis of LoRAs",
+      "abstract": "TLDR: We propose a novel modular framework that learns to dynamically mix low-rank adapters (LoRAs) to improve visual analogy learning, enabling flexible and generalizable image edits based on example transformations. We present LoRWeB ( LoR A We ight B asis), a novel modular framework for dynamically mixing low-rank adapters (LoRAs). We use LoRWeB for visual analogy learning: Given an input pair of example \"before\" and \"after\" images ( a and a' ), we want to edit a new image ( b ) in a similar manner, and apply the same visual transformation (to produce b' ). Rather than using a single fixed adapter, we learn a basis of LoRAs and a lightweight encoder that selects and weighs these basis LoRAs and constructs an edit LoRA. This enables better generalization to unseen visual transformations, achieving state-of-the-art performance on visual analogy tasks without requiring test-time optimization.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.15727",
+      "pdf_url": "https://arxiv.org/pdf/2602.15727",
+      "github_links": [
+        "https://github.com/NVlabs/LoRWeB"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.15727",
+      "scraped_at": "2026-02-24T02:13:27.769434"
+    },
+    "scraped_date": "2026-02-24"
+  },
+  {
+    "title": "Decoding as Optimisation on the Probability Simplex: From Top-K to Top-P (Nucleus) to Best-of-K Samplers",
+    "paper_url": "https://huggingface.co/papers/2602.18292",
+    "authors": [
+      "Haitham Bou-Ammar",
+      "Matthieu Zimmer",
+      "Rasul Tutunov",
+      "Xiaotong Ji"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Decoding as Optimisation on the Probability Simplex: From Top-K to Top-P (Nucleus) to Best-of-K Samplers",
+      "abstract": "We show that many sampling strategies for LLMs are a special case of a more general formulation. We then use this to design a new sampler.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.18292",
+      "pdf_url": "https://arxiv.org/pdf/2602.18292",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.18292",
+      "scraped_at": "2026-02-24T02:13:29.656376"
+    },
+    "scraped_date": "2026-02-24"
+  },
+  {
+    "title": "EgoPush: Learning End-to-End Egocentric Multi-Object Rearrangement for Mobile Robots",
+    "paper_url": "https://huggingface.co/papers/2602.18071",
+    "authors": [
+      "Sihang Li",
+      "Jiaqi Li",
+      "Yipeng Wang",
+      "Zhexiong Wang",
+      "Boyuan An"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "EgoPush: Learning End-to-End Egocentric Multi-Object Rearrangement for Mobile Robots",
+      "abstract": "EgoPush trains an object-centric, egocentric RL framework for long-horizon multi-object rearrangement with latent relational states, achieving effective sim-to-real transfer without explicit global state estimation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.18071",
+      "pdf_url": "https://arxiv.org/pdf/2602.18071",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.18071",
+      "scraped_at": "2026-02-24T02:13:31.484535"
+    },
+    "scraped_date": "2026-02-24"
+  },
+  {
+    "title": "SARAH: Spatially Aware Real-time Agentic Humans",
+    "paper_url": "https://huggingface.co/papers/2602.18432",
+    "authors": [
+      "Alexander Richard",
+      "Michael Zollhoefer",
+      "Zhang Chen",
+      "Siwei Zhang",
+      "Evonne Ng"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SARAH: Spatially Aware Real-time Agentic Humans",
+      "abstract": "A real-time, fully causal system producing spatially aware, gaze-controlled full-body motion for embodied agents from user position and audio, achieving 300 FPS on streaming VR hardware.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.18432",
+      "pdf_url": "https://arxiv.org/pdf/2602.18432",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.18432",
+      "scraped_at": "2026-02-24T02:13:33.301214"
+    },
+    "scraped_date": "2026-02-24"
+  },
+  {
+    "title": "VidEoMT: Your ViT is Secretly Also a Video Segmentation Model",
+    "paper_url": "https://huggingface.co/papers/2602.17807",
+    "authors": [],
+    "stars": "13",
+    "details": {
+      "title": "VidEoMT: Your ViT is Secretly Also a Video Segmentation Model",
+      "abstract": "Summary: Video Encoder-only Mask Transformer (VidEoMT), a lightweight encoder-only model for online video segmentation built on a plain Vision Transformer (ViT). It performs both spatial and temporal reasoning within the ViT encoder, without relying on dedicated tracking modules or heavy task-specific heads.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.17807",
+      "pdf_url": "https://arxiv.org/pdf/2602.17807",
+      "github_links": [
+        "https://github.com/tue-mps/videomt"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.17807",
+      "scraped_at": "2026-02-24T02:13:35.093297"
+    },
+    "scraped_date": "2026-02-24"
+  },
+  {
+    "title": "DeepVision-103K: A Visually Diverse, Broad-Coverage, and Verifiable Mathematical Dataset for Multimodal Reasoning",
+    "paper_url": "https://huggingface.co/papers/2602.16742",
+    "authors": [
+      "Wei Wang",
+      "Wotao Yin",
+      "Bing Zhao",
+      "Lizhen Xu",
+      "Haoxiang Sun"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "DeepVision-103K: A Visually Diverse, Broad-Coverage, and Verifiable Mathematical Dataset for Multimodal Reasoning",
+      "abstract": "Reinforcement Learning with Verifiable Rewards (RLVR) has been shown effective in enhancing the visual reflection and reasoning capabilities of Large Multimodal Models (LMMs). However, existing datasets are predominantly derived from either small-scale manual construction or recombination of prior resources, which limits data diversity and coverage, thereby constraining further gains in model performance. To this end, we introduce \\textbf{DeepVision-103K}, a comprehensive dataset for RLVR training that covers diverse K12 mathematical topics, extensive knowledge points, and rich visual elements. Models trained on DeepVision achieve strong performance on multimodal mathematical benchmarks, and generalize effectively to general multimodal reasoning tasks. Further analysis reveals enhanced visual perception, reflection and reasoning capabilities in trained models, validating DeepVision's effectiveness for advancing multimodal reasoning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16742",
+      "pdf_url": "https://arxiv.org/pdf/2602.16742",
+      "github_links": [
+        "https://github.com/SKYLENAGE-AI/DeepVision-103K"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16742",
+      "scraped_at": "2026-02-24T02:13:36.915278"
+    },
+    "scraped_date": "2026-02-24"
+  },
+  {
+    "title": "Avey-B",
+    "paper_url": "https://huggingface.co/papers/2602.15814",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "Avey-B",
+      "abstract": "Hi @dacharya-avey is there any open implementation available for pretraining these models 🤔",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.15814",
+      "pdf_url": "https://arxiv.org/pdf/2602.15814",
+      "github_links": [
+        "https://github.com/rimads/avey-b"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.15814",
+      "scraped_at": "2026-02-24T02:13:38.793485"
+    },
+    "scraped_date": "2026-02-24"
+  },
+  {
+    "title": "Learning Smooth Time-Varying Linear Policies with an Action Jacobian Penalty",
+    "paper_url": "https://huggingface.co/papers/2602.18312",
+    "authors": [
+      "Jessica Hodgins",
+      "Kevin Karol",
+      "Zhaoming Xie"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Learning Smooth Time-Varying Linear Policies with an Action Jacobian Penalty",
+      "abstract": "Introduces an action Jacobian penalty with a Linear Policy Net to train smooth, motion-imitation policies and quadruped-arm control, reducing tuning and computational overhead.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.18312",
+      "pdf_url": "https://arxiv.org/pdf/2602.18312",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.18312",
+      "scraped_at": "2026-02-24T02:13:40.595087"
+    },
+    "scraped_date": "2026-02-24"
+  },
+  {
+    "title": "Sink-Aware Pruning for Diffusion Language Models",
+    "paper_url": "https://huggingface.co/papers/2602.17664",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "Sink-Aware Pruning for Diffusion Language Models",
+      "abstract": "Sink-Aware Pruning for Diffusion Language Models identifies and addresses a fundamental blind spot in current pruning recipes for large language models. Most pruning methods are inherited from autoregressive LLMs and assume that attention sink tokens are stable global anchors. We show this assumption does not hold for diffusion language models (DLMs) : attention sinks in DLMs shift significantly across denoising steps, making traditional sink-preserving heuristics suboptimal for this generation paradigm. We propose Sink-Aware Pruning , a diffusion-native pruning strategy that automatically detects and suppresses unstable attention sinks based on their variance over the full denoising trajectory. Without any retraining, our method achieves a better quality–efficiency trade-off and outperforms strong prior pruning baselines under matched compute across multiple DLM families (e.g., LLaDA and Dream). Our code and implementation will be publicly available on GitHub: https://github.com/VILA-Lab/Sink-Aware-Pruning .",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.17664",
+      "pdf_url": "https://arxiv.org/pdf/2602.17664",
+      "github_links": [
+        "https://github.com/VILA-Lab/Sink-Aware-Pruning"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.17664",
+      "scraped_at": "2026-02-24T02:13:42.466968"
+    },
+    "scraped_date": "2026-02-24"
+  },
+  {
+    "title": "Selective Training for Large Vision Language Models via Visual Information Gain",
+    "paper_url": "https://huggingface.co/papers/2602.17186",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Selective Training for Large Vision Language Models via Visual Information Gain",
+      "abstract": "This paper introduces Visual Information Gain (VIG), a perplexity-based metric that quantifies how much visual input reduces prediction uncertainty at both sample and token levels, enabling fine-grained measurement of visual grounding and language bias in LVLMs. Leveraging VIG, it proposes a selective training scheme that prioritizes high-VIG samples and tokens, improving visual grounding and mitigating language bias with substantially reduced supervision.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.17186",
+      "pdf_url": "https://arxiv.org/pdf/2602.17186",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.17186",
+      "scraped_at": "2026-02-24T02:13:44.276083"
+    },
+    "scraped_date": "2026-02-24"
+  },
+  {
+    "title": "Adam Improves Muon: Adaptive Moment Estimation with Orthogonalized Momentum",
+    "paper_url": "https://huggingface.co/papers/2602.17080",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Adam Improves Muon: Adaptive Moment Estimation with Orthogonalized Momentum",
+      "abstract": "We propose a new optimizer and its diagonal extension, NAMO and NAMO-D, providing the first theoretically principled integration of orthogonalized momentum with norm-based Adam-type noise adaptation, accompanied by rigorous convergence guarantees. NAMO scales orthogonalized momentum using a single adaptive stepsize, preserving orthogonality while improving upon Muon at negligible additional cost. NAMO-D instead right-multiplies orthogonalized momentum by a diagonal matrix with clamped entries. This design enables neuron-wise noise adaptation and aligns with the common near block-diagonal Hessian structure. Experiments on pretraining GPT-2 models demonstrate accelerated convergence and improved tuning robustness of both NAMO and NAMO-D compared to the AdamW and Muon baselines.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.17080",
+      "pdf_url": "https://arxiv.org/pdf/2602.17080",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.17080",
+      "scraped_at": "2026-02-24T02:13:46.100028"
+    },
+    "scraped_date": "2026-02-24"
+  },
+  {
+    "title": "ReIn: Conversational Error Recovery with Reasoning Inception",
+    "paper_url": "https://huggingface.co/papers/2602.17022",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ReIn: Conversational Error Recovery with Reasoning Inception",
+      "abstract": "Here is a brief summary: Constraint: \"You can't touch the agent.\" We explicitly assume deployment settings where changing model parameters or the system prompt is not allowed (policy, safety validation, product constraints, etc.). So the question becomes: how do you improve reliability without retraining or prompt surgery? ReIn's surprising lever: tool definition can override instruction hierarchy. ReIn is a lightweight test-time recovery layer: an external module identifies the failure type and injects a \"reasoning inception\" plan through tool definition. Empirically, we observe that this can override conventional instruction hierarchy , letting the agent recover even when the original system instructions would have locked it into a bad trajectory. If you're building tool-using agents in production and need a knob that's compatible with \"frozen prompts + frozen weights,\" ReIn is designed for exactly that.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.17022",
+      "pdf_url": "https://arxiv.org/pdf/2602.17022",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.17022",
+      "scraped_at": "2026-02-24T02:13:47.925049"
+    },
+    "scraped_date": "2026-02-24"
+  },
+  {
+    "title": "Whom to Query for What: Adaptive Group Elicitation via Multi-Turn LLM Interactions",
+    "paper_url": "https://huggingface.co/papers/2602.14279",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Whom to Query for What: Adaptive Group Elicitation via Multi-Turn LLM Interactions",
+      "abstract": "🧠 When we try to understand a group’s true preferences, the challenge is not only what to ask, but whom to query for what. We study a new problem setting: Adaptive Group Elicitation Under real costs and missing data, the system must dynamically decide: 👉 ❓ Which question to ask 👉 👥 Which individuals to query 👉 🌐 How to leverage population structure to infer unobserved responses Most prior work optimizes only question selection, assuming a fixed respondent pool. But in practice: • 📊 Individuals differ in their contribution to uncertainty reduction • 🔗 Population structure induces correlated responses • 🧩 Observations are sparse and incomplete We propose a framework that combines: 🧠 LLM-based expected information gain for scoring candidate questions 🌐 Heterogeneous GNN propagation to aggregate responses and attributes 🎯 Per-round adaptive respondent selection under explicit budgets By querying a small, informative subset of individuals, the model infers population-level responses through structured similarity. Core insight: Group-level elicitation is a budget-constrained, structure-aware uncertainty reduction problem — not merely a survey design task. 📄 Paper: https://arxiv.org/pdf/2602.14279 💻 Code: https://github.com/ZDCSlab/Group-Adaptive-Elicitation",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14279",
+      "pdf_url": "https://arxiv.org/pdf/2602.14279",
+      "github_links": [
+        "https://github.com/ZDCSlab/Group-Adaptive-Elicitation"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14279",
+      "scraped_at": "2026-02-24T02:13:49.731173"
+    },
+    "scraped_date": "2026-02-24"
+  },
+  {
+    "title": "Rubrics as an Attack Surface: Stealthy Preference Drift in LLM Judges",
+    "paper_url": "https://huggingface.co/papers/2602.13576",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Rubrics as an Attack Surface: Stealthy Preference Drift in LLM Judges",
+      "abstract": "🔥 Evaluation rubrics can silently alter alignment. We identify a new failure mode in LLM-as-a-judge pipelines: Rubric-Induced Preference Drift (RIPD) Under RIPD: 👉 Benchmark scores remain stable 👉 Judge preferences shift on unseen domains 👉 Misalignment propagates downstream No model updates. No data manipulation. Only rubric refinement. Empirically, benchmark-compliant rubric edits reduce target accuracy by up to 📉 9.5% (helpfulness) 📉 27.9% (harmlessness) while benchmark validation remains intact. We further show that when such judges generate preference labels for downstream post-training (e.g., DPO / RLAIF), the induced bias is internalized in trained policies, leading to persistent behavior drift. These results expose a structural gap between benchmark validation and cross-domain preference stability: rubric design is not merely a specification artifact, but a control variable in alignment dynamics. 📄 arXiv: https://arxiv.org/pdf/2602.13576 💻 Code: https://github.com/ZDCSlab/Rubrics-as-an-Attack-Surface",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.13576",
+      "pdf_url": "https://arxiv.org/pdf/2602.13576",
+      "github_links": [
+        "https://github.com/ZDCSlab/Rubrics-as-an-Attack-Surface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.13576",
+      "scraped_at": "2026-02-24T02:13:51.571444"
+    },
+    "scraped_date": "2026-02-24"
+  },
+  {
+    "title": "4RC: 4D Reconstruction via Conditional Querying Anytime and Anywhere",
+    "paper_url": "https://huggingface.co/papers/2602.10094",
+    "authors": [
+      "Chen Change Loy",
+      "Xingang Pan",
+      "Yushi Lan",
+      "Shangchen Zhou",
+      "Yihang Luo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "4RC: 4D Reconstruction via Conditional Querying Anytime and Anywhere",
+      "abstract": "Project Page: https://yihangluo.com/projects/4RC/",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.10094",
+      "pdf_url": "https://arxiv.org/pdf/2602.10094",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.10094",
+      "scraped_at": "2026-02-24T02:13:53.399104"
+    },
+    "scraped_date": "2026-02-24"
   }
 ]
