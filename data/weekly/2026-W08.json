@@ -1959,5 +1959,604 @@
       "scraped_at": "2026-02-26T02:11:18.240877"
     },
     "scraped_date": "2026-02-26"
+  },
+  {
+    "title": "HyTRec: A Hybrid Temporal-Aware Attention Architecture for Long Behavior Sequential Recommendation",
+    "paper_url": "https://huggingface.co/papers/2602.18283",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "HyTRec: A Hybrid Temporal-Aware Attention Architecture for Long Behavior Sequential Recommendation",
+      "abstract": "HyTRec: The first hybrid attention framework for efficient long behavior sequence modeling",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.18283",
+      "pdf_url": "https://arxiv.org/pdf/2602.18283",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.18283",
+      "scraped_at": "2026-02-27T02:09:19.713179"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "MolHIT: Advancing Molecular-Graph Generation with Hierarchical Discrete Diffusion Models",
+    "paper_url": "https://huggingface.co/papers/2602.17602",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MolHIT: Advancing Molecular-Graph Generation with Hierarchical Discrete Diffusion Models",
+      "abstract": "We introduce a hierarchical discrete diffusion framework for molecular graph generation that overcomes long-standing performance limitations in existing methods. We generalize discrete diffusion to additional categories that encode chemical priors and decouple atom encoding that splits the atom types according to their chemical roles. MolHIT achieves new state-of-the-art performance on the MOSES dataset with near-perfect validity for the first time in graph diffusion, surpassing strong 1D baselines across multiple metrics. We further demonstrate strong performance in downstream tasks, including multi-property guided generation and scaffold extension.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.17602",
+      "pdf_url": "https://arxiv.org/pdf/2602.17602",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.17602",
+      "scraped_at": "2026-02-27T02:09:21.560880"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "DreamID-Omni: Unified Framework for Controllable Human-Centric Audio-Video Generation",
+    "paper_url": "https://huggingface.co/papers/2602.12160",
+    "authors": [],
+    "stars": "54",
+    "details": {
+      "title": "DreamID-Omni: Unified Framework for Controllable Human-Centric Audio-Video Generation",
+      "abstract": "We introduce DreamID-Omni, a unified framework for controllable human-centric audio-video generation. Project page: https://guoxu1233.github.io/DreamID-Omni/ Code: https://github.com/Guoxu1233/DreamID-Omni",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.12160",
+      "pdf_url": "https://arxiv.org/pdf/2602.12160",
+      "github_links": [
+        "https://github.com/Guoxu1233/DreamID-Omni"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.12160",
+      "scraped_at": "2026-02-27T02:09:23.456225"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "SkyReels-V4: Multi-modal Video-Audio Generation, Inpainting and Editing model",
+    "paper_url": "https://huggingface.co/papers/2602.21818",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SkyReels-V4: Multi-modal Video-Audio Generation, Inpainting and Editing model",
+      "abstract": "SkyReels-V4 is a unified multi-modal video-audio generation model with dual-stream diffusion transformers performing video generation, audio synthesis, inpainting, and editing at cinematic resolutions with efficiency via low-res sequences and keyframes.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.21818",
+      "pdf_url": "https://arxiv.org/pdf/2602.21818",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.21818",
+      "scraped_at": "2026-02-27T02:09:25.391386"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "ARLArena: A Unified Framework for Stable Agentic Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2602.21534",
+    "authors": [],
+    "stars": "17",
+    "details": {
+      "title": "ARLArena: A Unified Framework for Stable Agentic Reinforcement Learning",
+      "abstract": "Agentic Reinforcement Learning",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.21534",
+      "pdf_url": "https://arxiv.org/pdf/2602.21534",
+      "github_links": [
+        "https://github.com/WillDreamer/ARL-Arena"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.21534",
+      "scraped_at": "2026-02-27T02:09:27.262240"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partially Verifiable RL",
+    "paper_url": "https://huggingface.co/papers/2602.22190",
+    "authors": [],
+    "stars": "11",
+    "details": {
+      "title": "GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partially Verifiable RL",
+      "abstract": "This paper addresses two core bottlenecks in post-training native GUI agents: (1) the lack of high-quality, action-aligned reasoning data, and (2) generic post-training pipelines that overlook the unique constraints of GUI interaction. GUI-Libra mitigates these issues with a GUI-specific recipe: an 81K curated reasoning dataset, action-aware SFT that balances reasoning and direct-action supervision via token reweighting, and conservative RL combining KL regularization with success-adaptive negative gradient scaling. Across both offline and online benchmarks (including AndroidWorld, Online-Mind2Web, and WebArena-Lite-v2), GUI-Libra-4B and GUI-Libra-8B consistently outperform strong native GUI agents, and in several settings even surpass proprietary systems.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.22190",
+      "pdf_url": "https://arxiv.org/pdf/2602.22190",
+      "github_links": [
+        "https://github.com/GUI-Libra/GUI-Libra"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.22190",
+      "scraped_at": "2026-02-27T02:09:29.112459"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "Solaris: Building a Multiplayer Video World Model in Minecraft",
+    "paper_url": "https://huggingface.co/papers/2602.22208",
+    "authors": [
+      "Timothy Meehan",
+      "Suppakit Waiwitlikhit",
+      "Daohan Lu",
+      "Oscar Michel",
+      "Georgy Savva"
+    ],
+    "stars": "56",
+    "details": {
+      "title": "Solaris: Building a Multiplayer Video World Model in Minecraft",
+      "abstract": "Solaris develops a multiplayer video world model for Minecraft, enabling coordinated multi-agent observations, scalable data collection, and a staged training pipeline with memory-efficient Checkpointed Self Forcing to beat baselines.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.22208",
+      "pdf_url": "https://arxiv.org/pdf/2602.22208",
+      "github_links": [
+        "https://github.com/solaris-wm/solaris"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.22208",
+      "scraped_at": "2026-02-27T02:09:30.968694"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "DualPath: Breaking the Storage Bandwidth Bottleneck in Agentic LLM Inference",
+    "paper_url": "https://huggingface.co/papers/2602.21548",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DualPath: Breaking the Storage Bandwidth Bottleneck in Agentic LLM Inference",
+      "abstract": "We present DualPath, an inference system that breaks this bottleneck by introducing dual-path KV-Cache loading. Beyond the traditional storage-to-prefill path, DualPath enables a novel storage-to-decode path, in which the KV-Cache is loaded into decoding engines and then efficiently transferred to prefill engines via RDMA over the compute network",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.21548",
+      "pdf_url": "https://arxiv.org/pdf/2602.21548",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.21548",
+      "scraped_at": "2026-02-27T02:09:32.837017"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "VecGlypher: Unified Vector Glyph Generation with Language Models",
+    "paper_url": "https://huggingface.co/papers/2602.21461",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "VecGlypher: Unified Vector Glyph Generation with Language Models",
+      "abstract": "Project page: https://xk-huang.github.io/VecGlypher/ Code: https://github.com/xk-huang/VecGlypher Data: https://huggingface.co/VecGlypher",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.21461",
+      "pdf_url": "https://arxiv.org/pdf/2602.21461",
+      "github_links": [
+        "https://github.com/xk-huang/VecGlypher"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.21461",
+      "scraped_at": "2026-02-27T02:09:34.718592"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "JavisDiT++: Unified Modeling and Optimization for Joint Audio-Video Generation",
+    "paper_url": "https://huggingface.co/papers/2602.19163",
+    "authors": [],
+    "stars": "322",
+    "details": {
+      "title": "JavisDiT++: Unified Modeling and Optimization for Joint Audio-Video Generation",
+      "abstract": "JavisDiT++ is a concise yet powerful DiT model to generate high-quality and synchronized sounding videos with textual conditions. Built upon the lightweight Wan2.1-1.3B-T2V backbone, JavisDiT++ addresses the key bottleneck of joint audio-video generation (JAVG) with a unified perspective of modeling and optimization: (1) We model JAVG via joint self-attention to enable dense inter-modal interaction, with modality-specific MoE (MS-MoE) design to refine intra-modal representation. (2) We propose a temporally aligned rotary position encoding (TA-RoPE) scheme to ensure explicit and fine-grained audio-video token synchronization. (3) We devise the AV-DPO technique to consistently improve audio-video quality and synchronization by aligning generation with human preferences. Project Page: https://javisverse.github.io/JavisDiT2-page/",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.19163",
+      "pdf_url": "https://arxiv.org/pdf/2602.19163",
+      "github_links": [
+        "https://github.com/JavisVerse/JavisDiT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.19163",
+      "scraped_at": "2026-02-27T02:09:36.620373"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "Image Generation with a Sphere Encoder",
+    "paper_url": "https://huggingface.co/papers/2602.15030",
+    "authors": [
+      "Tom Goldstein",
+      "Ji Hou",
+      "Menglin Jia",
+      "Kaiyu Yue"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Image Generation with a Sphere Encoder",
+      "abstract": "Technical report",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.15030",
+      "pdf_url": "https://arxiv.org/pdf/2602.15030",
+      "github_links": [
+        "https://github.com/facebookresearch/sphere-encoder"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.15030",
+      "scraped_at": "2026-02-27T02:09:38.690433"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "World Guidance: World Modeling in Condition Space for Action Generation",
+    "paper_url": "https://huggingface.co/papers/2602.22010",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "World Guidance: World Modeling in Condition Space for Action Generation",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API CLAP: Contrastive Latent Action Pretraining for Learning Vision-Language-Action Models from Human Videos (2026) VLA-JEPA: Enhancing Vision-Language-Action Model with Latent World Model (2026) UniLACT: Depth-Aware RGB Latent Action Learning for Vision-Language-Action Models (2026) BagelVLA: Enhancing Long-Horizon Manipulation via Interleaved Vision-Language-Action Generation (2026) Universal Pose Pretraining for Generalizable Vision-Language-Action Policies (2026) MOTIF: Learning Action Motifs for Few-shot Cross-Embodiment Transfer (2026) LDA-1B: Scaling Latent Dynamics Action Model via Universal Embodied Data Ingestion (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.22010",
+      "pdf_url": "https://arxiv.org/pdf/2602.22010",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.22010",
+      "scraped_at": "2026-02-27T02:09:40.834944"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "From Statics to Dynamics: Physics-Aware Image Editing with Latent Transition Priors",
+    "paper_url": "https://huggingface.co/papers/2602.21778",
+    "authors": [
+      "Mohamed Elhoseiny",
+      "Hongsheng Li",
+      "Sayak Paul",
+      "Le Zhuo",
+      "Liangbing Zhao"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "From Statics to Dynamics: Physics-Aware Image Editing with Latent Transition Priors",
+      "abstract": "Instruction-based image editing has achieved remarkable success in semantic alignment, yet state-of-the-art models frequently fail to render physically plausible results when editing involves complex causal dynamics, such as refraction or material deformation. We attribute this limitation to the dominant paradigm that treats editing as a discrete mapping between image pairs, which provides only boundary conditions and leaves transition dynamics underspecified. To address this, we reformulate physics-aware editing as predictive physical state transitions and introduce PhysicTran38K, a large-scale video-based dataset comprising 38K transition trajectories across five physical domains, constructed via a two-stage filtering and constraint-aware annotation pipeline. Building on this supervision, we propose PhysicEdit, an end-to-end framework equipped with a textual-visual dual-thinking mechanism. It combines a frozen Qwen2.5-VL for physically grounded reasoning with learnable transition queries that provide timestep-adaptive visual guidance to a diffusion backbone. Experiments show that PhysicEdit improves over Qwen-Image-Edit by 5.9% in physical realism and 10.1% in knowledge-grounded editing, setting a new state-of-the-art for open-source methods, while remaining competitive with leading proprietary models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.21778",
+      "pdf_url": "https://arxiv.org/pdf/2602.21778",
+      "github_links": [
+        "https://github.com/liangbingzhao/PhysicEdit"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.21778",
+      "scraped_at": "2026-02-27T02:09:42.650947"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "NanoKnow: How to Know What Your Language Model Knows",
+    "paper_url": "https://huggingface.co/papers/2602.20122",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "NanoKnow: How to Know What Your Language Model Knows",
+      "abstract": "We release NanoKnow, a benchmark dataset that partitions questions from Natural Questions and SQuAD into \"supported\" and \"unsupported\" splits based on whether their answers are present in nanochat's  — a family of small LLMs  — pre-training data. This benchmark enables researchers to confidently disentangle and evaluate the contributions of different knowledge sources underlying an LLM’s outputs. Code: https://github.com/castorini/NanoKnow/tree/main",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.20122",
+      "pdf_url": "https://arxiv.org/pdf/2602.20122",
+      "github_links": [
+        "https://github.com/castorini/NanoKnow/tree/main",
+        "https://github.com/castorini/NanoKnow"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.20122",
+      "scraped_at": "2026-02-27T02:09:44.469109"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "The Design Space of Tri-Modal Masked Diffusion Models",
+    "paper_url": "https://huggingface.co/papers/2602.21472",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "The Design Space of Tri-Modal Masked Diffusion Models",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Scaling Beyond Masked Diffusion Language Models (2026) DiMo: Discrete Diffusion Modeling for Motion Generation and Understanding (2026) Auto-Regressive Masked Diffusion Models (2026) Autoregressive Models Rival Diffusion Models at ANY-ORDER Generation (2026) Bridging the Discrete-Continuous Gap: Unified Multimodal Generation via Coupled Manifold Discrete Absorbing Diffusion (2026) DIFFA-2: A Practical Diffusion Large Language Model for General Audio Understanding (2026) Unifying Masked Diffusion Models with Various Generation Orders and Beyond (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.21472",
+      "pdf_url": "https://arxiv.org/pdf/2602.21472",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.21472",
+      "scraped_at": "2026-02-27T02:09:46.266185"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "SeaCache: Spectral-Evolution-Aware Cache for Accelerating Diffusion Models",
+    "paper_url": "https://huggingface.co/papers/2602.18993",
+    "authors": [
+      "Geonho Cha",
+      "Byeongju Han",
+      "MinKyu Lee",
+      "Sangeek Hyun",
+      "wldn0202"
+    ],
+    "stars": "9",
+    "details": {
+      "title": "SeaCache: Spectral-Evolution-Aware Cache for Accelerating Diffusion Models",
+      "abstract": "SeaCache is a training-free acceleration method that utilizes Spectral Evolution to decouple low-frequency content from high-frequency noise. It consistently outperforms existing baselines without requiring additional hyperparameter tuning, showing better trade-offs between inference speed and generation fidelity.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.18993",
+      "pdf_url": "https://arxiv.org/pdf/2602.18993",
+      "github_links": [
+        "https://github.com/jiwoogit/SeaCache"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.18993",
+      "scraped_at": "2026-02-27T02:09:48.198266"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "UniVBench: Towards Unified Evaluation for Video Foundation Models",
+    "paper_url": "https://huggingface.co/papers/2602.21835",
+    "authors": [
+      "Yan Zhang",
+      "Yuan Wang",
+      "Yichen Li",
+      "Xiaotian Zhang",
+      "Jianhui Wei"
+    ],
+    "stars": "6",
+    "details": {
+      "title": "UniVBench: Towards Unified Evaluation for Video Foundation Models",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API VINO: A Unified Visual Generator with Interleaved OmniModal Context (2026) Tele-Omni: a Unified Multimodal Framework for Video Generation and Editing (2026) VC-Bench: Pioneering the Video Connecting Benchmark with a Dataset and Evaluation Metrics (2026) VideoLoom: A Video Large Language Model for Joint Spatial-Temporal Understanding (2026) Omni-Video 2: Scaling MLLM-Conditioned Diffusion for Unified Video Generation and Editing (2026) SkyReels-V3 Technique Report (2026) VideoWeave: A Data-Centric Approach for Efficient Video Understanding (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.21835",
+      "pdf_url": "https://arxiv.org/pdf/2602.21835",
+      "github_links": [
+        "https://github.com/JianhuiWei7/UniVBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.21835",
+      "scraped_at": "2026-02-27T02:09:49.981036"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "Revisiting Text Ranking in Deep Research",
+    "paper_url": "https://huggingface.co/papers/2602.21456",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Revisiting Text Ranking in Deep Research",
+      "abstract": "Deep research has emerged as an important task that aims to address hard queries through extensive open-web exploration. To tackle it, most prior work equips large language model (LLM)-based agents with opaque web search APIs, enabling agents to iteratively issue search queries, retrieve external evidence, and reason over it. Despite search's essential role in deep research, black-box web search APIs hinder systematic analysis of search components, leaving the behaviour of established text ranking methods in deep research largely unclear. To fill this gap, we reproduce a selection of key findings and best practices for IR text ranking methods in the deep research setting. In particular, we examine their effectiveness from three perspectives: (i) retrieval units (documents vs. passages), (ii) pipeline configurations (different retrievers, re-rankers, and re-ranking depths), and (iii) query characteristics (the mismatch between agent-issued queries and the training queries of text rankers). We perform experiments on BrowseComp-Plus, a deep research dataset with a fixed corpus, evaluating 2 open-source agents, 5 retrievers, and 3 re-rankers across diverse setups. We find that agent-issued queries typically follow web-search-style syntax (e.g., quoted exact matches), favouring lexical, learned sparse, and multi-vector retrievers; passage-level units are more efficient under limited context windows, and avoid the difficulties of document length normalisation in lexical retrieval; re-ranking is highly effective; translating agent-issued queries into natural-language questions significantly bridges the query mismatch.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.21456",
+      "pdf_url": "https://arxiv.org/pdf/2602.21456",
+      "github_links": [
+        "https://github.com/ChuanMeng/text-ranking-in-deep-research"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.21456",
+      "scraped_at": "2026-02-27T02:09:51.782120"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "Model Context Protocol (MCP) Tool Descriptions Are Smelly! Towards Improving AI Agent Efficiency with Augmented MCP Tool Descriptions",
+    "paper_url": "https://huggingface.co/papers/2602.14878",
+    "authors": [
+      "Ahmed E. Hassan",
+      "Bram Adams",
+      "Gopi Krishnan Rajbahadur",
+      "Mohammed Mehedi Hasan",
+      "hao-li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Model Context Protocol (MCP) Tool Descriptions Are Smelly! Towards Improving AI Agent Efficiency with Augmented MCP Tool Descriptions",
+      "abstract": "The Model Context Protocol (MCP) is rapidly becoming the \"USB-C for AI,\" but the natural-language descriptions powering it are riddled with traditional software \"smells.\"",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.14878",
+      "pdf_url": "https://arxiv.org/pdf/2602.14878",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.14878",
+      "scraped_at": "2026-02-27T02:09:53.570592"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "NoLan: Mitigating Object Hallucinations in Large Vision-Language Models via Dynamic Suppression of Language Priors",
+    "paper_url": "https://huggingface.co/papers/2602.22144",
+    "authors": [
+      "Xinchao Wang",
+      "Runpeng Yu",
+      "Weihao Yu",
+      "Lingfeng Ren"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "NoLan: Mitigating Object Hallucinations in Large Vision-Language Models via Dynamic Suppression of Language Priors",
+      "abstract": "Code: https://github.com/lingfengren/NoLan",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.22144",
+      "pdf_url": "https://arxiv.org/pdf/2602.22144",
+      "github_links": [
+        "https://github.com/lingfengren/NoLan"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.22144",
+      "scraped_at": "2026-02-27T02:09:55.437752"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "Small Language Models for Privacy-Preserving Clinical Information Extraction in Low-Resource Languages",
+    "paper_url": "https://huggingface.co/papers/2602.21374",
+    "authors": [
+      "Sepehr Ghahraei",
+      "Ali Akbar Omidvarian",
+      "Ebrahim Heidari-Farsani",
+      "Nahid Yousefian",
+      "Mohammadreza Ghaffarzadeh-Esfahani"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Small Language Models for Privacy-Preserving Clinical Information Extraction in Low-Resource Languages",
+      "abstract": "We benchmark five open-source small language models (SLMs, 1B–8B parameters) on a two-step pipeline for extracting 13 binary clinical features from 1,221 anonymized Persian palliative care transcripts — no fine-tuning required. Qwen2.5-7B-Instruct achieves the best overall balance (macro-F1: 0.899, MCC: 0.797). Translating Persian to English with Aya-expanse-8B improves sensitivity and completeness at a slight cost to specificity.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.21374",
+      "pdf_url": "https://arxiv.org/pdf/2602.21374",
+      "github_links": [
+        "https://github.com/mohammad-gh009/Small-language-models-on-clinical-data-extraction"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.21374",
+      "scraped_at": "2026-02-27T02:09:57.217565"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "Dropping Anchor and Spherical Harmonics for Sparse-view Gaussian Splatting",
+    "paper_url": "https://huggingface.co/papers/2602.20933",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Dropping Anchor and Spherical Harmonics for Sparse-view Gaussian Splatting",
+      "abstract": "Accepted by CVPR 2026",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.20933",
+      "pdf_url": "https://arxiv.org/pdf/2602.20933",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.20933",
+      "scraped_at": "2026-02-27T02:09:59.002217"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "Functional Continuous Decomposition",
+    "paper_url": "https://huggingface.co/papers/2602.20857",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Functional Continuous Decomposition",
+      "abstract": "I am excited to announce my latest research: Functional Continuous Decomposition (FCD) - a JAX-accelerated framework designed for parametric, continuous signal decomposition. Traditional signal processing algorithms like Empirical Mode Decomposition (EMD) often lack continuity, while smoothing techniques, such as B-splines cannot provide analytical formulation. FCD addresses limitations of current signal processing algorithms by decomposing a signal on a wide range of mathematical functions with guaranteed continuous modes. Applications of FCD include physics, medicine, financial analysis, and machine learning, where it is commonly used for the analysis of signal temporal patterns, optimized parameters, derivatives, and integrals of decomposition. Key achievements: ✅ 16.8% faster CNN convergence by using FCD-derived features over a standard CNN. ✅ Guaranteed value and derivative continuity of each mode, and default presets for commonly used functions and initial guesses. ✅  Full JAX implementation for efficient fitting and massive datasets. Check out the full paper on arXiv: http://arxiv.org/abs/2602.20857 If you are interested, please leave a comment or feedback #MachineLearning #SignalProcessing #JAX #AI #Research #Optimization #VGTU #DeepLearning",
+      "arxiv_page_url": "http://arxiv.org/abs/2602.20857",
+      "pdf_url": "https://arxiv.org/pdf/2602.20857",
+      "github_links": [
+        "https://github.com/Tima-a/fcd"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.20857",
+      "scraped_at": "2026-02-27T02:10:00.847313"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "The Truthfulness Spectrum Hypothesis",
+    "paper_url": "https://huggingface.co/papers/2602.20273",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "The Truthfulness Spectrum Hypothesis",
+      "abstract": "We propose the Truthfulness Spectrum Hypothesis: truth directions of varying generality coexist! Probe geometry predicts generalization, and post-training reshapes it! We create  FLEED datasets (definitional, empirical, logical, fictional, ethical truth) + new sycophantic lying + expectation-inverted datasets. Prior and our probes are orthogonal to sycophantic lying , and are even anti-correlated with expectation-inverted lying Yet training one probe on all domains works everywhere ! Takeaway: train on more diverse data Probe geometry predicts generalization performance! Mahalanobis cosine similarity between probe directions, which reweights by data covariance to focus on directions that matter, perfectly predicts OOD generalization (R²=0.98). Standard cossim? Only R² =0.56. Post-training reorganizes truth geometry! In base models, sycophantic lying is more aligned with other types of lying than chat models, until post-training pushes them apart! This gives a representational account of why chat models are more sycophantic than base models. We propose Stratified INLP : an iterative erasure procedure that first extracts highly domain-general directions, then removes them to reveal highly domain-specific directions. This lets us constructively identify both ends of the spectrum Surprising causal exps: domain-specific directions steer better than domain-general ones! Takeaway: Domain-general probes may be great for monitoring, but might not be great for intervention.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.20273",
+      "pdf_url": "https://arxiv.org/pdf/2602.20273",
+      "github_links": [
+        "https://github.com/zfying/truth_spec"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.20273",
+      "scraped_at": "2026-02-27T02:10:02.691662"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "ISO-Bench: Can Coding Agents Optimize Real-World Inference Workloads?",
+    "paper_url": "https://huggingface.co/papers/2602.19594",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ISO-Bench: Can Coding Agents Optimize Real-World Inference Workloads?",
+      "abstract": "We built ISO-Bench: 54 real optimization tasks from vLLM and SGLang and found that agents often understand the problem but can't execute the fix.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.19594",
+      "pdf_url": "https://arxiv.org/pdf/2602.19594",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.19594",
+      "scraped_at": "2026-02-27T02:10:04.481236"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "MoBind: Motion Binding for Fine-Grained IMU-Video Pose Alignment",
+    "paper_url": "https://huggingface.co/papers/2602.19004",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "MoBind: Motion Binding for Fine-Grained IMU-Video Pose Alignment",
+      "abstract": "Accepted to CVPR26",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.19004",
+      "pdf_url": "https://arxiv.org/pdf/2602.19004",
+      "github_links": [
+        "https://github.com/bbvisual/MoBind"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.19004",
+      "scraped_at": "2026-02-27T02:10:06.332109"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "DM4CT: Benchmarking Diffusion Models for Computed Tomography Reconstruction",
+    "paper_url": "https://huggingface.co/papers/2602.18589",
+    "authors": [
+      "K. Joost Batenburg",
+      "Daniel M. Pelt",
+      "jiayangshi"
+    ],
+    "stars": "13",
+    "details": {
+      "title": "DM4CT: Benchmarking Diffusion Models for Computed Tomography Reconstruction",
+      "abstract": "Benchmark on diffusion models for CT reconstruction",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.18589",
+      "pdf_url": "https://arxiv.org/pdf/2602.18589",
+      "github_links": [
+        "https://github.com/DM4CT/DM4CT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.18589",
+      "scraped_at": "2026-02-27T02:10:08.195975"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "JAEGER: Joint 3D Audio-Visual Grounding and Reasoning in Simulated Physical Environments",
+    "paper_url": "https://huggingface.co/papers/2602.18527",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "JAEGER: Joint 3D Audio-Visual Grounding and Reasoning in Simulated Physical Environments",
+      "abstract": "3D AV-LLM leveraging RGB-D and First-Order Ambisonics for end-to-end grounding and spatial reasoning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.18527",
+      "pdf_url": "https://arxiv.org/pdf/2602.18527",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.18527",
+      "scraped_at": "2026-02-27T02:10:10.077169"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "Intent Laundering: AI Safety Datasets Are Not What They Seem",
+    "paper_url": "https://huggingface.co/papers/2602.16729",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Intent Laundering: AI Safety Datasets Are Not What They Seem",
+      "abstract": "We systematically evaluate the quality of widely used AI safety datasets from two perspectives: in isolation and in practice. In isolation, we examine how faithfully these datasets represent real-world adversarial behavior and find that they fall short due to their overreliance on unrealistic, overt triggering language. In practice, we show that when this triggering language is abstracted away, none of the models previously taught to be \"reasonably safe\" remain safe, including Gemini 3 Pro and Claude Sonnet 3.7, which are known for strong safety. The significance of the results is that all observations are based on publicly available safety datasets, while the effect generalizes broadly across all models. This suggests that both internal safety evaluations and safety alignment techniques rely on similar contrived language patterns present in public datasets. Overall, our paper exposes a critical gap between how safety datasets evaluate model safety and how real-world adversarial behavior manifests.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.16729",
+      "pdf_url": "https://arxiv.org/pdf/2602.16729",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.16729",
+      "scraped_at": "2026-02-27T02:10:11.873075"
+    },
+    "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "Yor-Sarc: A gold-standard dataset for sarcasm detection in a low-resource African language",
+    "paper_url": "https://huggingface.co/papers/2602.18964",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Yor-Sarc: A gold-standard dataset for sarcasm detection in a low-resource African language",
+      "abstract": "Yor-Sarc: the first gold-standard Yorùbá sarcasm dataset (436 instances), annotated by three native speakers with substantial agreement (Fleiss’ κ=0.77). A culturally grounded benchmark to accelerate the growth of fine-grained figurative language understanding in low-resource African NLP.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.18964",
+      "pdf_url": "https://arxiv.org/pdf/2602.18964",
+      "github_links": [
+        "https://github.com/toheebadura/yor-sarc"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.18964",
+      "scraped_at": "2026-02-27T02:10:13.618537"
+    },
+    "scraped_date": "2026-02-27"
   }
 ]
