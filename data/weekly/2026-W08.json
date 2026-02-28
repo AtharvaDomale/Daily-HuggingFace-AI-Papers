@@ -2558,5 +2558,582 @@
       "scraped_at": "2026-02-27T02:10:13.618537"
     },
     "scraped_date": "2026-02-27"
+  },
+  {
+    "title": "The Trinity of Consistency as a Defining Principle for General World Models",
+    "paper_url": "https://huggingface.co/papers/2602.23152",
+    "authors": [],
+    "stars": "15",
+    "details": {
+      "title": "The Trinity of Consistency as a Defining Principle for General World Models",
+      "abstract": "The construction of World Models capable of learning, simulating, and reasoning about objective physical laws constitutes a foundational challenge in the pursuit of Artificial General Intelligence. Recent advancements represented by video generation models like Sora have demonstrated the potential of data-driven scaling laws to approximate physical dynamics, while the emerging Unified Multimodal Model (UMM) offers a promising architectural paradigm for integrating perception, language, and reasoning. Despite these advances, the field still lacks a principled theoretical framework that defines the essential properties requisite for a General World Model. In this paper, we propose that a World Model must be grounded in the Trinity of Consistency: Modal Consistency as the semantic interface, Spatial Consistency as the geometric basis, and Temporal Consistency as the causal engine. Through this tripartite lens, we systematically review the evolution of multimodal learning, revealing a trajectory from loosely coupled specialized modules toward unified architectures that enable the synergistic emergence of internal world simulators. To complement this conceptual framework, we introduce CoW-Bench, a benchmark centered on multi-frame reasoning and generation scenarios. CoW-Bench evaluates both video generation models and UMMs under a unified evaluation protocol. Our work establishes a principled pathway toward general world models, clarifying both the limitations of current systems and the architectural requirements for future progress.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.23152",
+      "pdf_url": "https://arxiv.org/pdf/2602.23152",
+      "github_links": [
+        "https://github.com/openraiser/awesome-world-model-evolution"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.23152",
+      "scraped_at": "2026-02-28T01:59:29.631556"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "From Blind Spots to Gains: Diagnostic-Driven Iterative Training for Large Multimodal Models",
+    "paper_url": "https://huggingface.co/papers/2602.22859",
+    "authors": [
+      "Wei Ye",
+      "Shikun Zhang",
+      "Chaoya Jiang",
+      "hongruijia"
+    ],
+    "stars": "27",
+    "details": {
+      "title": "From Blind Spots to Gains: Diagnostic-Driven Iterative Training for Large Multimodal Models",
+      "abstract": "DPE (Diagnostic-driven Progressive Evolution) is a self-evolving training framework for Large Multimodal Models (LMMs). Inspired by the \"diagnose-and-correct\" mechanism in educational psychology, DPE moves beyond indiscriminate data expansion. It prioritizes the diagnosis of capability gaps to steer targeted data generation and mixture optimization, effectively breaking the multimodal long-tail bottleneck. 🌟 Key Features Adaptive Diagnosis Mechanism : Before each evolution cycle, a diagnostic agent analyzes the model's failure patterns to identify specific weaknesses and capability blind spots. This insight dynamically optimizes the training data mixture. Tool-Use Data Evolution : Instead of relying on static datasets or simple text rewriting, DPE employs a multi-agent system equipped with image search and editing tools to source and annotate diverse visual content from external pools. High Efficiency : Broad improvements in multimodal reasoning can be achieved with only ~1,000 targeted training examples. Enhanced Stability : The closed-loop of diagnosis, generation, and reinforcement significantly improves training stability and mitigates capability regression on long-tail tasks like Mathematics and OCR.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.22859",
+      "pdf_url": "https://arxiv.org/pdf/2602.22859",
+      "github_links": [
+        "https://github.com/hongruijia/DPE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.22859",
+      "scraped_at": "2026-02-28T01:59:31.566610"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "MobilityBench: A Benchmark for Evaluating Route-Planning Agents in Real-World Mobility Scenarios",
+    "paper_url": "https://huggingface.co/papers/2602.22638",
+    "authors": [],
+    "stars": "94",
+    "details": {
+      "title": "MobilityBench: A Benchmark for Evaluating Route-Planning Agents in Real-World Mobility Scenarios",
+      "abstract": "A Benchmark for Evaluating Route-Planning Agents in Real-World Mobility Scenarios MobilityBench is a scalable benchmark for evaluating LLM-based route-planning agents in real-world mobility scenarios. It is built from large-scale, anonymized user queries collected from Amap, covering a wide range of route-planning intents across multiple cities worldwide.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.22638",
+      "pdf_url": "https://arxiv.org/pdf/2602.22638",
+      "github_links": [
+        "https://github.com/AMAP-ML/MobilityBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.22638",
+      "scraped_at": "2026-02-28T01:59:33.465572"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "OmniGAIA: Towards Native Omni-Modal AI Agents",
+    "paper_url": "https://huggingface.co/papers/2602.22897",
+    "authors": [
+      "Shijian Wang",
+      "Jiarui Jin",
+      "Xiaoxi Li",
+      "dongguanting",
+      "wxjiao"
+    ],
+    "stars": "34",
+    "details": {
+      "title": "OmniGAIA: Towards Native Omni-Modal AI Agents",
+      "abstract": "💡 Overview OmniGAIA is a comprehensive benchmark designed to evaluate the capabilities of omni-modal general AI assistants. Unlike existing benchmarks that focus on a single modality, OmniGAIA requires agents to jointly reason over video , audio , and image inputs while leveraging external tools such as web search and code execution. We also introduce OmniAtlas , an agentic reasoning system that extends a base LLM with active perception tools, enabling the model to request and examine additional media segments during multi-step reasoning. 🎬 Demo 1. Agentic Reasoning on \"Image + Audio\" Scenario 2. Agentic Reasoning on \"Video w/ Audio\" Scenario",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.22897",
+      "pdf_url": "https://arxiv.org/pdf/2602.22897",
+      "github_links": [
+        "https://github.com/RUC-NLPIR/OmniGAIA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.22897",
+      "scraped_at": "2026-02-28T01:59:35.388292"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "Imagination Helps Visual Reasoning, But Not Yet in Latent Space",
+    "paper_url": "https://huggingface.co/papers/2602.22766",
+    "authors": [],
+    "stars": "10",
+    "details": {
+      "title": "Imagination Helps Visual Reasoning, But Not Yet in Latent Space",
+      "abstract": "Rethinking the role of \"latent\" in latent visual reasoning",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.22766",
+      "pdf_url": "https://arxiv.org/pdf/2602.22766",
+      "github_links": [
+        "https://github.com/AI9Stars/CapImagine"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.22766",
+      "scraped_at": "2026-02-28T01:59:37.321507"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "Exploratory Memory-Augmented LLM Agent via Hybrid On- and Off-Policy Optimization",
+    "paper_url": "https://huggingface.co/papers/2602.23008",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Exploratory Memory-Augmented LLM Agent via Hybrid On- and Off-Policy Optimization",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.23008",
+      "pdf_url": "https://arxiv.org/pdf/2602.23008",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.23008",
+      "scraped_at": "2026-02-28T01:59:39.320093"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "AgentDropoutV2: Optimizing Information Flow in Multi-Agent Systems via Test-Time Rectify-or-Reject Pruning",
+    "paper_url": "https://huggingface.co/papers/2602.23258",
+    "authors": [],
+    "stars": "14",
+    "details": {
+      "title": "AgentDropoutV2: Optimizing Information Flow in Multi-Agent Systems via Test-Time Rectify-or-Reject Pruning",
+      "abstract": "We introduce AgentDropoutV2, a test-time pruning framework for multi-agent systems based on a rectify-or-reject strategy to actively intercept and iteratively correct erroneous outputs, achieving performance gain on the math and code domains.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.23258",
+      "pdf_url": "https://arxiv.org/pdf/2602.23258",
+      "github_links": [
+        "https://github.com/TonySY2/AgentDropoutV2"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.23258",
+      "scraped_at": "2026-02-28T01:59:41.250859"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "MediX-R1: Open Ended Medical Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2602.23363",
+    "authors": [],
+    "stars": "13",
+    "details": {
+      "title": "MediX-R1: Open Ended Medical Reinforcement Learning",
+      "abstract": "MediX-R1 is an open-ended Reinforcement Learning (RL) framework for medical multimodal large language models (MLLMs) that enables clinically grounded, free-form answers beyond multiple-choice formats. MediX-R1 fine-tunes vision-language backbones with Group-Based RL and a composite reward tailored for medical reasoning: an LLM-based accuracy reward, a medical embedding-based semantic reward, and lightweight format and modality rewards that enforce interpretable reasoning. Despite using only ~51K instruction examples, MediX-R1 achieves excellent results across standard medical LLM and VLM benchmarks, outperforming strong open-source baselines. Highlights: Our 8B model achieves an overall average of 68.8%, outperforming the much larger 27B MedGemma (68.4%). Our 30B model achieves the best overall score of 73.6%, demonstrating the effectiveness of our composite reward design.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.23363",
+      "pdf_url": "https://arxiv.org/pdf/2602.23363",
+      "github_links": [
+        "https://github.com/mbzuai-oryx/MediX-R1"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.23363",
+      "scraped_at": "2026-02-28T01:59:43.409083"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "Search More, Think Less: Rethinking Long-Horizon Agentic Search for Efficiency and Generalization",
+    "paper_url": "https://huggingface.co/papers/2602.22675",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Search More, Think Less: Rethinking Long-Horizon Agentic Search for Efficiency and Generalization",
+      "abstract": "Recent deep research agents often improve performance by scaling reasoning depth. While effective, this approach significantly increases inference cost and latency in search-intensive settings, and often struggles to generalize across heterogeneous research scenarios. In this paper, we introduce Search More, Think Less (SMTL), a long-horizon agentic search framework designed to improve both efficiency and generalization. Instead of relying on sequential deep reasoning, SMTL adopts parallel evidence acquisition, allowing the agent to gather information more efficiently and manage context under constrained budgets. To enhance cross-task generalization, we further propose a unified graph-driven data synthesis pipeline that generates training tasks spanning both: deterministic multi-hop QA (Deep Search), and open-ended research scenarios (Deep Research), with task-appropriate evaluation metrics. We train an end-to-end agent using supervised fine-tuning and reinforcement learning. SMTL achieves strong and often state-of-the-art performance across multiple benchmarks: BrowseComp: 48.6% GAIA: 75.7% Xbench: 82.0% DeepResearch Bench: 45.9% Importantly, under a maximum 100-step interaction budget, SMTL reduces the average number of reasoning steps on BrowseComp by 70.7% compared to Mirothinker-v1.0, while simultaneously improving accuracy — demonstrating a significantly better accuracy-efficiency Pareto frontier. SMTL suggests that, for long-horizon search agents, efficient evidence acquisition may be more impactful than simply scaling reasoning depth.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.22675",
+      "pdf_url": "https://arxiv.org/pdf/2602.22675",
+      "github_links": [
+        "https://github.com/OPPO-PersonalAI/SMTL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.22675",
+      "scraped_at": "2026-02-28T01:59:45.524683"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "VGG-T^3: Offline Feed-Forward 3D Reconstruction at Scale",
+    "paper_url": "https://huggingface.co/papers/2602.23361",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "VGG-T^3: Offline Feed-Forward 3D Reconstruction at Scale",
+      "abstract": "Traditional offline 3D reconstruction methods scale quadratically, making large scenes a massive computational burden. VGG-T³ (Visual Geometry Grounded Test-Time Training) achieves linear scaling by replacing standard global attention with a TTT-based MLP distillation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.23361",
+      "pdf_url": "https://arxiv.org/pdf/2602.23361",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.23361",
+      "scraped_at": "2026-02-28T01:59:47.563396"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "Accelerating Diffusion via Hybrid Data-Pipeline Parallelism Based on Conditional Guidance Scheduling",
+    "paper_url": "https://huggingface.co/papers/2602.21760",
+    "authors": [
+      "Jae-Gil Lee",
+      "Seonghye Cho",
+      "Hyunjin Kim",
+      "Byunghyun Kim",
+      "jyssys"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "Accelerating Diffusion via Hybrid Data-Pipeline Parallelism Based on Conditional Guidance Scheduling",
+      "abstract": "Accepted to CVPR'26",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.21760",
+      "pdf_url": "https://arxiv.org/pdf/2602.21760",
+      "github_links": [
+        "https://github.com/kaist-dmlab/Hybridiff"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.21760",
+      "scraped_at": "2026-02-28T01:59:49.616730"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "EmbodMocap: In-the-Wild 4D Human-Scene Reconstruction for Embodied Agents",
+    "paper_url": "https://huggingface.co/papers/2602.23205",
+    "authors": [
+      "Xuqian Ren",
+      "Yuke Lou",
+      "Huaijin Pi",
+      "Liang Pan",
+      "WenjiaWang"
+    ],
+    "stars": "45",
+    "details": {
+      "title": "EmbodMocap: In-the-Wild 4D Human-Scene Reconstruction for Embodied Agents",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.23205",
+      "pdf_url": "https://arxiv.org/pdf/2602.23205",
+      "github_links": [
+        "https://github.com/WenjiaWang0312/EmbodMocap"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.23205",
+      "scraped_at": "2026-02-28T01:59:51.557387"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "AI Gamestore: Scalable, Open-Ended Evaluation of Machine General Intelligence with Human Games",
+    "paper_url": "https://huggingface.co/papers/2602.17594",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AI Gamestore: Scalable, Open-Ended Evaluation of Machine General Intelligence with Human Games",
+      "abstract": "Rigorously evaluating machine intelligence against the broad spectrum of human general intelligence has become increasingly important and challenging in this era of rapid technological advance. Conventional AI benchmarks typically assess only narrow capabilities in a limited range of human activity. We propose that a more promising way to evaluate human-like general intelligence in AI systems is through a particularly strong form of general game playing: studying how and how well they play and learn to play all conceivable human games, in comparison to human players with the same level of experience, time, or other resources. We define a \"human game\" to be a game designed by humans for humans, and argue for the evaluative suitability of this space of all such games people can imagine and enjoy -- the \"Multiverse of Human Games\". Taking a first step towards this vision, we introduce the AI GameStore, a scalable and open-ended platform that uses LLMs with humans-in-the-loop to synthesize new representative human games, by automatically sourcing and adapting standardized and containerized variants of game environments from popular human digital gaming platforms. As a proof of concept, we generated 100 such games based on the top charts of Apple App Store and Steam, and evaluated seven frontier vision-language models (VLMs) on short episodes of play. The best models achieved less than 10% of the human average score on the majority of the games, and especially struggled with games that challenge world-model learning, memory and planning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.17594",
+      "pdf_url": "https://arxiv.org/pdf/2602.17594",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.17594",
+      "scraped_at": "2026-02-28T01:59:53.557284"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "Causal Motion Diffusion Models for Autoregressive Motion Generation",
+    "paper_url": "https://huggingface.co/papers/2602.22594",
+    "authors": [
+      "Kent Fujiwara",
+      "Akihisa Watanabe",
+      "Qing Yu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Causal Motion Diffusion Models for Autoregressive Motion Generation",
+      "abstract": "Proposes Causal Motion Diffusion Models (CMDM) using a causal diffusion transformer and MAC-VAE latent space for autoregressive, streaming, long-horizon text-to-motion with improved fidelity and reduced latency.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.22594",
+      "pdf_url": "https://arxiv.org/pdf/2602.22594",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.22594",
+      "scraped_at": "2026-02-28T01:59:55.558701"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "Retrieve and Segment: Are a Few Examples Enough to Bridge the Supervision Gap in Open-Vocabulary Segmentation?",
+    "paper_url": "https://huggingface.co/papers/2602.23339",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Retrieve and Segment: Are a Few Examples Enough to Bridge the Supervision Gap in Open-Vocabulary Segmentation?",
+      "abstract": "Open-vocabulary segmentation (OVS) extends the zero-shot recognition capabilities of vision–language models (VLMs) to pixel-level prediction, enabling segmentation of arbitrary categories specified by text prompts. Despite recent progress, OVS lags behind fully supervised approaches due to two challenges: the coarse image-level supervision used to train VLMs and the semantic ambiguity of natural language. We address these limitations by introducing a few-shot setting that augments textual prompts with a support set of pixel-annotated images. Building on this, we propose a retrieval-augmented test-time adapter that learns a lightweight, per-image classifier by fusing textual and visual support features. Unlike prior methods relying on late, hand-crafted fusion, our approach performs learned, per-query fusion, achieving stronger synergy between modalities. The method supports continually expanding support sets, and applies to fine-grained tasks such as personalized segmentation. Experiments show that we significantly narrow the gap between zero-shot and supervised segmentation while preserving open-vocabulary ability.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.23339",
+      "pdf_url": "https://arxiv.org/pdf/2602.23339",
+      "github_links": [
+        "https://github.com/TilemahosAravanis/Retrieve-and-Segment"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.23339",
+      "scraped_at": "2026-02-28T01:59:57.695554"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "GeoWorld: Geometric World Models",
+    "paper_url": "https://huggingface.co/papers/2602.23058",
+    "authors": [
+      "Richard Hartley",
+      "Ian Reid",
+      "Danning Li",
+      "SteveZeyuZhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "GeoWorld: Geometric World Models",
+      "abstract": "Accepted to CVPR 2026.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.23058",
+      "pdf_url": "https://arxiv.org/pdf/2602.23058",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.23058",
+      "scraped_at": "2026-02-28T01:59:59.611854"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "General Agent Evaluation",
+    "paper_url": "https://huggingface.co/papers/2602.22953",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "General Agent Evaluation",
+      "abstract": "🚀 Welcome to the Open General Agent Era! 🤖🌍 What if we could finally measure how general our “general-purpose agents” really are? This paper takes on that challenge head-first 💥 Instead of evaluating agents in carefully engineered, domain-specific setups (where they often get hidden hints 👀), the authors treat general-agent evaluation as a first-class research problem. Here’s what’s inside: ✨ Conceptual principles for fairly evaluating general-purpose agents 🔌 A Unified Protocol that lets agents plug into benchmarks without special treatment 🧪 Exgentic, a practical framework for running these evaluations 🏆 The first Open General Agent Leaderboard, benchmarking 5 major agent implementations across 6 diverse environments And the big takeaway? 🎉 General agents can perform competitively across very different environments — without environment-specific tuning. That’s a huge step toward truly adaptable AI systems. By releasing the protocol, framework, and leaderboard, this work lays the groundwork for a more transparent and systematic future of agent research 🌱📊 If you care about building agents that actually generalize (not just specialize), this is an exciting milestone. Let the leaderboard battles begin! 🥊📈",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.22953",
+      "pdf_url": "https://arxiv.org/pdf/2602.22953",
+      "github_links": [
+        "https://github.com/Exgentic/exgentic"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.22953",
+      "scraped_at": "2026-02-28T02:00:01.520784"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "veScale-FSDP: Flexible and High-Performance FSDP at Scale",
+    "paper_url": "https://huggingface.co/papers/2602.22437",
+    "authors": [
+      "Cong Xie",
+      "Jiacheng Yang",
+      "Zhiqi Lin",
+      "Youjie Li",
+      "Zezhou Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "veScale-FSDP: Flexible and High-Performance FSDP at Scale",
+      "abstract": "Github: https://github.com/volcengine/veScale",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.22437",
+      "pdf_url": "https://arxiv.org/pdf/2602.22437",
+      "github_links": [
+        "https://github.com/volcengine/veScale"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.22437",
+      "scraped_at": "2026-02-28T02:00:03.386273"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "DLT-Corpus: A Large-Scale Text Collection for the Distributed Ledger Technology Domain",
+    "paper_url": "https://huggingface.co/papers/2602.22045",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DLT-Corpus: A Large-Scale Text Collection for the Distributed Ledger Technology Domain",
+      "abstract": "We introduce DLT-Corpus , the largest domain-specific text collection for Distributed Ledger Technology (DLT) research to date: 2.98 billion tokens from 22.12 million documents spanning scientific literature (37,440 publications), United States Patent and Trademark Office (USPTO) patents (49,023 filings), and social media (22 million posts). Existing Natural Language Processing (NLP) resources for DLT focus narrowly on cryptocurrencies price prediction and smart contracts, leaving domain-specific language under explored despite the sector's ~$3 trillion market capitalization and rapid technological evolution. In summary, our contributions are: DLT-Corpus : 2.98 billion tokens from 22.12 million documents ( 37,440 scientific publications , 49,023 patents , 22M social media posts ) with rich metadata enabling cross-disciplinary research. Innovation diffusion analysis : Evidence that Distributed Ledger Technologies (DLTs) follow traditional technology transfer patterns, with research preceding market expansion and creating a virtuous funding cycle. Sentiment analysis dataset : 23,301 cryptocurrency news headlines and brief descriptions with crowdsourced annotations from active community members, addressing the need for domain-specific labeled data. LedgerBERT : A domain-adapted language model achieving 23% improvement over BERT-base on DLT-specific NER task, developed through continued pre-training of SciBERT. DLT-Corpus , sentiment analysis dataset, models, and code are publicly available to support reproducibility and future research.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.22045",
+      "pdf_url": "https://arxiv.org/pdf/2602.22045",
+      "github_links": [
+        "https://github.com/dlt-science/DLT-Corpus"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.22045",
+      "scraped_at": "2026-02-28T02:00:05.398988"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "MedCLIPSeg: Probabilistic Vision-Language Adaptation for Data-Efficient and Generalizable Medical Image Segmentation",
+    "paper_url": "https://huggingface.co/papers/2602.20423",
+    "authors": [
+      "Yiming Xiao",
+      "Berardino Barile",
+      "Omid Nejati Manzari",
+      "Hojat Asgariandehkordi",
+      "TahaKoleilat"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "MedCLIPSeg: Probabilistic Vision-Language Adaptation for Data-Efficient and Generalizable Medical Image Segmentation",
+      "abstract": "MedCLIPSeg introduces a probabilistic adaptation of CLIP for medical image segmentation, addressing key challenges such as limited annotations, ambiguous anatomical boundaries, and domain shift across imaging devices and institutions. The method proposes a Probabilistic Vision–Language (PVL) Adapter that enables bidirectional interaction between visual patch tokens and textual prompts while modeling uncertainty in attention through probabilistic keys and values. This design allows the model to down-weight uncertain features and produce calibrated predictions alongside uncertainty maps.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.20423",
+      "pdf_url": "https://arxiv.org/pdf/2602.20423",
+      "github_links": [
+        "https://github.com/HealthX-Lab/MedCLIPSeg"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.20423",
+      "scraped_at": "2026-02-28T02:00:07.290050"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "No One Size Fits All: QueryBandits for Hallucination Mitigation",
+    "paper_url": "https://huggingface.co/papers/2602.20332",
+    "authors": [
+      "Manuela Veloso",
+      "Sumitra Ganesh",
+      "Alec Koppel",
+      "William Watson",
+      "Nicole Cho"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "No One Size Fits All: QueryBandits for Hallucination Mitigation",
+      "abstract": "Advanced reasoning capabilities in Large Language Models (LLMs) have led to more frequent hallucinations; yet most mitigation work focuses on open-source models for post-hoc detection and parameter editing. The dearth of studies focusing on hallucinations in closed-source models is especially concerning, as they constitute the vast majority of models in institutional deployments. We introduce QueryBandits, a model-agnostic contextual bandit framework that adaptively learns online to select the optimal query-rewrite strategy by leveraging an empirically validated and calibrated reward function. Across 16 QA scenarios, our top QueryBandit (Thompson Sampling) achieves an 87.5% win rate over a No-Rewrite baseline and outperforms zero-shot static policies (e.g., Paraphrase or Expand) by 42.6% and 60.3%, respectively. Moreover, all contextual bandits outperform vanilla bandits across all datasets, with higher feature variance coinciding with greater variance in arm selection. This substantiates our finding that there is no single rewrite policy optimal for all queries. We also discover that certain static policies incur higher cumulative regret than No-Rewrite, indicating that an inflexible query-rewriting policy can worsen hallucinations. Thus, learning an online policy over semantic features with QueryBandits can shift model behavior purely through forward-pass mechanisms, enabling its use with closed-source models and bypassing the need for retraining or gradient-based adaptation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.20332",
+      "pdf_url": "https://arxiv.org/pdf/2602.20332",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.20332",
+      "scraped_at": "2026-02-28T02:00:09.195140"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "What Makes a Good Query? Measuring the Impact of Human-Confusing Linguistic Features on LLM Performance",
+    "paper_url": "https://huggingface.co/papers/2602.20300",
+    "authors": [
+      "Manuela Veloso",
+      "Sumitra Ganesh",
+      "Nicole Cho",
+      "William Watson"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "What Makes a Good Query? Measuring the Impact of Human-Confusing Linguistic Features on LLM Performance",
+      "abstract": "Large Language Model (LLM) hallucinations are usually treated as defects of the model or its decoding strategy. Drawing on classical linguistics, we argue that a query's form can also shape a listener's (and model's) response. We operationalize this insight by constructing a 22-dimension query feature vector covering clause complexity, lexical rarity, and anaphora, negation, answerability, and intention grounding, all known to affect human comprehension. Using 369,837 real-world queries, we ask: Are there certain types of queries that make hallucination more likely? A large-scale analysis reveals a consistent \"risk landscape\": certain features such as deep clause nesting and underspecification align with higher hallucination propensity. In contrast, clear intention grounding and answerability align with lower hallucination rates. Others, including domain specificity, show mixed, dataset- and model-dependent effects. Thus, these findings establish an empirically observable query-feature representation correlated with hallucination risk, paving the way for guided query rewriting and future intervention studies.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.20300",
+      "pdf_url": "https://arxiv.org/pdf/2602.20300",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.20300",
+      "scraped_at": "2026-02-28T02:00:11.047569"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "Risk-Aware World Model Predictive Control for Generalizable End-to-End Autonomous Driving",
+    "paper_url": "https://huggingface.co/papers/2602.23259",
+    "authors": [
+      "Jian-Fang Hu",
+      "Chang Liu",
+      "Teng Long",
+      "Feng Xue",
+      "Jiangxin Sun"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Risk-Aware World Model Predictive Control for Generalizable End-to-End Autonomous Driving",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Generative Scenario Rollouts for End-to-End Autonomous Driving (2026) Drive-JEPA: Video JEPA Meets Multimodal Trajectory Distillation for End-to-End Driving (2026) LatentVLA: Efficient Vision-Language Models for Autonomous Driving via Latent Action Prediction (2026) SafeDrive: Fine-Grained Safety Reasoning for End-to-End Driving in a Sparse World (2026) DriveWorld-VLA: Unified Latent-Space World Modeling with Vision-Language-Action for Autonomous Driving (2026) Found-RL: foundation model-enhanced reinforcement learning for autonomous driving (2026) SGDrive: Scene-to-Goal Hierarchical World Cognition for Autonomous Driving (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.23259",
+      "pdf_url": "https://arxiv.org/pdf/2602.23259",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.23259",
+      "scraped_at": "2026-02-28T02:00:12.880128"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "DyaDiT: A Multi-Modal Diffusion Transformer for Socially Favorable Dyadic Gesture Generation",
+    "paper_url": "https://huggingface.co/papers/2602.23165",
+    "authors": [
+      "Haiyang Liu",
+      "Ruofan Liu",
+      "Siyeol Jung",
+      "Jyun-Ting Song",
+      "Yichen Peng"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "DyaDiT: A Multi-Modal Diffusion Transformer for Socially Favorable Dyadic Gesture Generation",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API RSATalker: Realistic Socially-Aware Talking Head Generation for Multi-Turn Conversation (2026) 3DGesPolicy: Phoneme-Aware Holistic Co-Speech Gesture Generation Based on Action Control (2026) SARAH: Spatially Aware Real-time Agentic Humans (2026) SmoothSync: Dual-Stream Diffusion Transformers for Jitter-Robust Beat-Synchronized Gesture Generation from Quantized Audio (2026) Avatar Forcing: Real-Time Interactive Head Avatar Generation for Natural Conversation (2026) Listen to Rhythm, Choose Movements: Autoregressive Multimodal Dance Generation via Diffusion and Mamba with Decoupled Dance Dataset (2026) A$^2$-LLM: An End-to-end Conversational Audio Avatar Large Language Model (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.23165",
+      "pdf_url": "https://arxiv.org/pdf/2602.23165",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.23165",
+      "scraped_at": "2026-02-28T02:00:14.781049"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "Overconfident Errors Need Stronger Correction: Asymmetric Confidence Penalties for Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2602.21420",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Overconfident Errors Need Stronger Correction: Asymmetric Confidence Penalties for Reinforcement Learning",
+      "abstract": "The paper identifies overconfident wrong reasoning paths as a hidden failure mode in RL training of LLMs and proposes ACE, a simple penalty that suppresses these errors while preserving exploration—improving reasoning diversity and Pass@k performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.21420",
+      "pdf_url": "https://arxiv.org/pdf/2602.21420",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.21420",
+      "scraped_at": "2026-02-28T02:00:16.681650"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "MEG-to-MEG Transfer Learning and Cross-Task Speech/Silence Detection with Limited Data",
+    "paper_url": "https://huggingface.co/papers/2602.18253",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "MEG-to-MEG Transfer Learning and Cross-Task Speech/Silence Detection with Limited Data",
+      "abstract": "We show that large-scale pretraining on a single-subject MEG dataset (50h) can improve speech decoding performance when fine-tuned on only ~5 minutes of data per new subject. Beyond in-task gains, transfer learning enables robust cross-task decoding between speech perception and production, revealing asymmetric generalization patterns. Interestingly, models trained on production can decode passive listening above chance, suggesting shared neural representations of speech. These results support transfer learning as a practical strategy for data-efficient MEG-based BCIs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.18253",
+      "pdf_url": "https://arxiv.org/pdf/2602.18253",
+      "github_links": [
+        "https://github.com/hitz-zentroa/meg-phone-decoding"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.18253",
+      "scraped_at": "2026-02-28T02:00:18.508296"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "Efficient Continual Learning in Language Models via Thalamically Routed Cortical Columns",
+    "paper_url": "https://huggingface.co/papers/2602.22479",
+    "authors": [
+      "akhadangi"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Efficient Continual Learning in Language Models via Thalamically Routed Cortical Columns",
+      "abstract": "Continual learning is a core requirement for deployed language models, yet standard training and fine tuning pipelines remain brittle under non-stationary data. Online updates often induce catastrophic forgetting, while methods that improve stability frequently increase latency, memory footprint, or dense computation in ways that do not scale well to long contexts. We introduce TRC2 (Thalamically Routed Cortical Columns), a decoder-only backbone that addresses continual learning at the architectural level. TRC2 combines sparse thalamic routing over cortical columns with mechanisms for modulation, prediction, memory, and feedback, together with a fast corrective pathway that supports rapid adaptation without destabilizing slower parameters. The resulting block is sparse and chunk-parallel, enabling efficient training and inference while preserving clean ablations of each subsystem. We instantiate a reproducible training and evaluation stack and a continual-learning harness that measures proxy forgetting under streaming domain shifts. Across language modeling and continual learning benchmarks, TRC2 improves the stability-plasticity tradeoff at comparable compute, enabling rapid on-stream adaptation while preserving previously acquired behavior.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.22479",
+      "pdf_url": "https://arxiv.org/pdf/2602.22479",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.22479",
+      "scraped_at": "2026-02-28T02:00:20.349685"
+    },
+    "scraped_date": "2026-02-28"
+  },
+  {
+    "title": "Echoes Over Time: Unlocking Length Generalization in Video-to-Audio Generation Models",
+    "paper_url": "https://huggingface.co/papers/2602.20981",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Echoes Over Time: Unlocking Length Generalization in Video-to-Audio Generation Models",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.20981",
+      "pdf_url": "https://arxiv.org/pdf/2602.20981",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.20981",
+      "scraped_at": "2026-02-28T02:00:22.185945"
+    },
+    "scraped_date": "2026-02-28"
   }
 ]
