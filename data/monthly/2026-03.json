@@ -3239,5 +3239,453 @@
       "scraped_at": "2026-03-05T02:12:36.466793"
     },
     "scraped_date": "2026-03-05"
+  },
+  {
+    "title": "Helios: Real Real-Time Long Video Generation Model",
+    "paper_url": "https://huggingface.co/papers/2603.04379",
+    "authors": [],
+    "stars": "462",
+    "details": {
+      "title": "Helios: Real Real-Time Long Video Generation Model",
+      "abstract": "Code: https://github.com/PKU-YuanGroup/Helios Page: https://pku-yuangroup.github.io/Helios-Page/ Inference Speed:",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.04379",
+      "pdf_url": "https://arxiv.org/pdf/2603.04379",
+      "github_links": [
+        "https://github.com/sgl-project/sglang/pull/19782",
+        "https://github.com/PKU-YuanGroup/Helios",
+        "https://github.com/vllm-project/vllm-omni/pull/1604",
+        "https://github.com/huggingface/diffusers/pull/13208"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.04379",
+      "scraped_at": "2026-03-06T02:09:59.270585"
+    },
+    "scraped_date": "2026-03-06"
+  },
+  {
+    "title": "T2S-Bench & Structure-of-Thought: Benchmarking and Prompting Comprehensive Text-to-Structure Reasoning",
+    "paper_url": "https://huggingface.co/papers/2603.03790",
+    "authors": [
+      "linyueqian",
+      "Zishan-Shao",
+      "MartinKu",
+      "JinghanKe",
+      "Qinsi1"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "T2S-Bench & Structure-of-Thought: Benchmarking and Prompting Comprehensive Text-to-Structure Reasoning",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.03790",
+      "pdf_url": "https://arxiv.org/pdf/2603.03790",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.03790",
+      "scraped_at": "2026-03-06T02:10:01.245369"
+    },
+    "scraped_date": "2026-03-06"
+  },
+  {
+    "title": "Heterogeneous Agent Collaborative Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2603.02604",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Heterogeneous Agent Collaborative Reinforcement Learning",
+      "abstract": "We formalize a new reinforcement learning paradigm HACRL to allow rollout share among heterogeneous agents, further we propose a new algorithm HACPO based on GSPO. Project Page: https://zzx-peter.github.io/hacrl/ We are glad to share our code. Please feel free to contact 22376220@buaa.edu.cn",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.02604",
+      "pdf_url": "https://arxiv.org/pdf/2603.02604",
+      "github_links": [
+        "https://github.com/Fred990807/HACRL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.02604",
+      "scraped_at": "2026-03-06T02:10:03.164810"
+    },
+    "scraped_date": "2026-03-06"
+  },
+  {
+    "title": "Proact-VL: A Proactive VideoLLM for Real-Time AI Companions",
+    "paper_url": "https://huggingface.co/papers/2603.03447",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Proact-VL: A Proactive VideoLLM for Real-Time AI Companions",
+      "abstract": "Proact-VL presents a proactive, real-time VideoLLM framework enabling low-latency multimodal agents with autonomous response control, evaluated on Live Gaming Benchmark across commentary and user-guidance scenarios.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.03447",
+      "pdf_url": "https://arxiv.org/pdf/2603.03447",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.03447",
+      "scraped_at": "2026-03-06T02:10:05.138611"
+    },
+    "scraped_date": "2026-03-06"
+  },
+  {
+    "title": "MemSifter: Offloading LLM Memory Retrieval via Outcome-Driven Proxy Reasoning",
+    "paper_url": "https://huggingface.co/papers/2603.03379",
+    "authors": [
+      "Liancheng Zhang",
+      "jrwen",
+      "ariya2357",
+      "douzc",
+      "zstanjj"
+    ],
+    "stars": "21",
+    "details": {
+      "title": "MemSifter: Offloading LLM Memory Retrieval via Outcome-Driven Proxy Reasoning",
+      "abstract": "As Large Language Models (LLMs) are increasingly used for long-duration tasks, maintaining effective long-term memory has become a critical challenge. Current methods often face a trade-off between cost and accuracy. Simple storage methods often fail to retrieve relevant information, while complex indexing methods (such as memory graphs) require heavy computation and can cause information loss. Furthermore, relying on the working LLM to process all memories is computationally expensive and slow. To address these limitations, we propose MemSifter, a novel framework that offloads the memory retrieval process to a small-scale proxy model. Instead of increasing the burden on the primary working LLM, MemSifter uses a smaller model to reason about the task before retrieving the necessary information. This approach requires no heavy computation during the indexing phase and adds minimal overhead during inference. To optimize the proxy model, we introduce a memory-specific Reinforcement Learning (RL) training paradigm. We design a task-outcome-oriented reward based on the working LLM's actual performance in completing the task. The reward measures the actual contribution of retrieved memories by mutiple interactions with the working LLM, and discriminates retrieved rankings by stepped decreasing contributions. Additionally, we employ training techniques such as Curriculum Learning and Model Merging to improve performance. We evaluated MemSifter on eight LLM memory benchmarks, including Deep Research tasks. The results demonstrate that our method meets or exceeds the performance of existing state-of-the-art approaches in both retrieval accuracy and final task completion. MemSifter offers an efficient and scalable solution for long-term LLM memory. We have open-sourced the model weights, code, and training data to support further research.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.03379",
+      "pdf_url": "https://arxiv.org/pdf/2603.03379",
+      "github_links": [
+        "https://github.com/plageon/MemSifter"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.03379",
+      "scraped_at": "2026-03-06T02:10:07.035890"
+    },
+    "scraped_date": "2026-03-06"
+  },
+  {
+    "title": "ArtHOI: Articulated Human-Object Interaction Synthesis by 4D Reconstruction from Video Priors",
+    "paper_url": "https://huggingface.co/papers/2603.04338",
+    "authors": [
+      "liuziwei7",
+      "lxxiao",
+      "simon123905",
+      "FrozenBurning",
+      "tqliu"
+    ],
+    "stars": "14",
+    "details": {
+      "title": "ArtHOI: Articulated Human-Object Interaction Synthesis by 4D Reconstruction from Video Priors",
+      "abstract": "Synthesizing physically plausible articulated human-object interactions (HOI) without 3D/4D supervision remains a fundamental challenge. While recent zero-shot approaches leverage video diffusion models to synthesize human-object interactions, they are largely confined to rigid-object manipulation and lack explicit 4D geometric reasoning. To bridge this gap, we formulate articulated HOI synthesis as a 4D reconstruction problem from monocular video priors: given only a video generated by a diffusion model, we reconstruct a full 4D articulated scene without any 3D supervision. This reconstruction-based approach treats the generated 2D video as supervision for an inverse rendering problem, recovering geometrically consistent and physically plausible 4D scenes that naturally respect contact, articulation, and temporal coherence. We introduce ArtHOI, the first zero-shot framework for articulated human-object interaction synthesis via 4D reconstruction from video priors. Our key designs are: 1) Flow-based part segmentation: leveraging optical flow as a geometric cue to disentangle dynamic from static regions in monocular video; 2) Decoupled reconstruction pipeline: joint optimization of human motion and object articulation is unstable under monocular ambiguity, so we first recover object articulation, then synthesize human motion conditioned on the reconstructed object states. ArtHOI bridges video-based generation and geometry-aware reconstruction, producing interactions that are both semantically aligned and physically grounded. Across diverse articulated scenes (e.g., opening fridges, cabinets, microwaves), ArtHOI significantly outperforms prior methods in contact accuracy, penetration reduction, and articulation fidelity, extending zero-shot interaction synthesis beyond rigid manipulation through reconstruction-informed synthesis.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.04338",
+      "pdf_url": "https://arxiv.org/pdf/2603.04338",
+      "github_links": [
+        "https://github.com/Inso-13/ArtHOI"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.04338",
+      "scraped_at": "2026-03-06T02:10:08.977909"
+    },
+    "scraped_date": "2026-03-06"
+  },
+  {
+    "title": "Phi-4-reasoning-vision-15B Technical Report",
+    "paper_url": "https://huggingface.co/papers/2603.03975",
+    "authors": [],
+    "stars": "21",
+    "details": {
+      "title": "Phi-4-reasoning-vision-15B Technical Report",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API MMFineReason: Closing the Multimodal Reasoning Gap via Open Data-Centric Methods (2026) VideoAuto-R1: Video Auto Reasoning via Thinking Once, Answering Twice (2026) CoReTab: Improving Multimodal Table Understanding with Code-driven Reasoning (2026) VisTIRA: Closing the Image-Text Modality Gap in Visual Math Reasoning via Structured Tool Integration (2026) On Robustness and Chain-of-Thought Consistency of RL-Finetuned VLMs (2026) DeepVision-103K: A Visually Diverse, Broad-Coverage, and Verifiable Mathematical Dataset for Multimodal Reasoning (2026) Vision-aligned Latent Reasoning for Multi-modal Large Language Model (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.03975",
+      "pdf_url": "https://arxiv.org/pdf/2603.03975",
+      "github_links": [
+        "https://github.com/microsoft/Phi-4-reasoning-vision-15B"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.03975",
+      "scraped_at": "2026-03-06T02:10:11.104147"
+    },
+    "scraped_date": "2026-03-06"
+  },
+  {
+    "title": "CubeComposer: Spatio-Temporal Autoregressive 4K 360° Video Generation from Perspective Video",
+    "paper_url": "https://huggingface.co/papers/2603.04291",
+    "authors": [],
+    "stars": "39",
+    "details": {
+      "title": "CubeComposer: Spatio-Temporal Autoregressive 4K 360° Video Generation from Perspective Video",
+      "abstract": "TL;DR: CubeComposer generates 360° video from perspective videos in a cubemap face‑wise spatio‑temporal autoregressive manner. Each step generates one face over a temporal window, which greatly reduces peak memory and enables native 2K/3K/4K 360° video generation. Project page: https://lg-li.github.io/project/cubecomposer GitHub repo: https://github.com/TencentARC/CubeComposer Model repo: https://huggingface.co/TencentARC/CubeComposer",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.04291",
+      "pdf_url": "https://arxiv.org/pdf/2603.04291",
+      "github_links": [
+        "https://github.com/TencentARC/CubeComposer"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.04291",
+      "scraped_at": "2026-03-06T02:10:12.977629"
+    },
+    "scraped_date": "2026-03-06"
+  },
+  {
+    "title": "Memex(RL): Scaling Long-Horizon LLM Agents via Indexed Experience Memory",
+    "paper_url": "https://huggingface.co/papers/2603.04257",
+    "authors": [
+      "Wei Wei",
+      "Jiayun Wang",
+      "Huancheng Chen",
+      "ztwang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Memex(RL): Scaling Long-Horizon LLM Agents via Indexed Experience Memory",
+      "abstract": "Large language model (LLM) agents are fundamentally bottlenecked by finite context windows on longhorizon tasks. As trajectories grow, retaining tool outputs and intermediate reasoning in-context quickly becomes infeasible: the working context becomes prohibitively long, eventually exceeds the context budget, and makes distant evidence harder to use even when it is still present. Existing solutions typically shorten context through truncation or running summaries, but these methods are fundamentally lossy because they compress or discard past evidence itself. We introduce Memex, an indexed experience memory mechanism that instead compresses context without discarding evidence. Memex maintains a compact working context consisting of concise structured summaries and stable indices, while storing full-fidelity underlying interactions in an external experience database under those indices. The agent can then decide when to dereference an index and recover the exact past evidence needed for the current subgoal. We optimize both write and read behaviors with our reinforcement learning framework MemexRL, using reward shaping tailored to indexed memory usage under a context budget, so the agent learns what to summarize, what to archive, how to index it, and when to retrieve it. This yields a substantially less lossy form of long-horizon memory than summary-only approaches. We further provide a theoretical analysis showing the potential of the Memex loop to preserve decision quality with bounded dereferencing while keeping effective in-context computation bounded as history grows. Empirically, on challenging long-horizon tasks, Memex agent trained with MemexRL improves task success while using a significantly smaller working context.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.04257",
+      "pdf_url": "https://arxiv.org/pdf/2603.04257",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.04257",
+      "scraped_at": "2026-03-06T02:10:14.888046"
+    },
+    "scraped_date": "2026-03-06"
+  },
+  {
+    "title": "V_1: Unifying Generation and Self-Verification for Parallel Reasoners",
+    "paper_url": "https://huggingface.co/papers/2603.04304",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "V_1: Unifying Generation and Self-Verification for Parallel Reasoners",
+      "abstract": "Can LLMs self-verify their own solutions? Modern LLMs are increasingly used as parallel reasoners, where multiple candidate solutions are sampled and then filtered or aggregated. In this setting, the key bottleneck is often not generation but verification —identifying which candidate is actually correct. In this work, we show that pairwise self-verification is a surprisingly strong primitive. Instead of scoring candidates independently, models compare solutions against each other, which provides a much stronger verification signal. We introduce V1 , a framework that unifies generation and self-verification: • V1-Infer : an efficient Swiss-system style tournament that ranks candidate solutions through pairwise comparisons while focusing comparisons on uncertain pairs. • V1-PairRL : a reinforcement learning framework that co-trains a single model as both a generator and a pairwise self-verifier, allowing generation and verification to improve together. Across code and math benchmarks we observe substantial improvements in test-time scaling (up to +19.6% Pass@1 on code and +17.9% on math ). We also show that pairwise verification integrates well and improves aggregation-based methods such as Recursive Self-Aggregation, improving convergence and latency.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.04304",
+      "pdf_url": "https://arxiv.org/pdf/2603.04304",
+      "github_links": [
+        "https://github.com/HarmanDotpy/pairwise-self-verification"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.04304",
+      "scraped_at": "2026-03-06T02:10:16.874797"
+    },
+    "scraped_date": "2026-03-06"
+  },
+  {
+    "title": "AgilePruner: An Empirical Study of Attention and Diversity for Adaptive Visual Token Pruning in Large Vision-Language Models",
+    "paper_url": "https://huggingface.co/papers/2603.01236",
+    "authors": [
+      "Kyeongbo Kong",
+      "Sohyeon Kim",
+      "Jouwon Song",
+      "higokri"
+    ],
+    "stars": "14",
+    "details": {
+      "title": "AgilePruner: An Empirical Study of Attention and Diversity for Adaptive Visual Token Pruning in Large Vision-Language Models",
+      "abstract": "Accept to ICLR 2026",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.01236",
+      "pdf_url": "https://arxiv.org/pdf/2603.01236",
+      "github_links": [
+        "https://github.com/cvsp-lab/AgilePruner"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.01236",
+      "scraped_at": "2026-03-06T02:10:18.897010"
+    },
+    "scraped_date": "2026-03-06"
+  },
+  {
+    "title": "RIVER: A Real-Time Interaction Benchmark for Video LLMs",
+    "paper_url": "https://huggingface.co/papers/2603.03985",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "RIVER: A Real-Time Interaction Benchmark for Video LLMs",
+      "abstract": "The rapid advancement of multimodal large language models has demonstrated impressive capabilities, yet nearly all operate in an offline paradigm, hindering real-time interactivity. Addressing this gap, we introduce the Real-tIme Video intERaction Bench (RIVER Bench), designed for evaluating online video comprehension. RIVER Bench introduces a novel framework comprising Retrospective Memory, Live-Perception, and Proactive Response tasks, closely mimicking interactive dialogues rather than responding to entire videos at once. We conducted detailed annotations using videos from diverse sources and varying lengths, and precisely defined the real-time interactive format. Evaluations across various model categories reveal that while offline models perform well in single question-answering tasks, they struggle with real-time processing. Addressing the limitations of existing models in online video interaction, especially their deficiencies in long-term memory and future perception, we proposed a general improvement method that enables models to interact with users more flexibly in real time. We believe this work will significantly advance the development of real-time interactive video understanding models and inspire future research in this emerging field.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.03985",
+      "pdf_url": "https://arxiv.org/pdf/2603.03985",
+      "github_links": [
+        "https://github.com/OpenGVLab/RIVER"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.03985",
+      "scraped_at": "2026-03-06T02:10:20.769483"
+    },
+    "scraped_date": "2026-03-06"
+  },
+  {
+    "title": "InfinityStory: Unlimited Video Generation with World Consistency and Character-Aware Shot Transitions",
+    "paper_url": "https://huggingface.co/papers/2603.03646",
+    "authors": [
+      "Subhojyoti Mukherjee",
+      "Xiaoqian Shen",
+      "Liangbing Zhao",
+      "Mohamed Elmoghany",
+      "Franck-Dernoncourt"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "InfinityStory: Unlimited Video Generation with World Consistency and Character-Aware Shot Transitions",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API VideoMemory: Toward Consistent Video Generation via Memory Integration (2026) MSVBench: Towards Human-Level Evaluation of Multi-Shot Video Generation (2026) MUSE: A Multi-agent Framework for Unconstrained Story Envisioning via Closed-Loop Cognitive Orchestration (2026) ConsID-Gen: View-Consistent and Identity-Preserving Image-to-Video Generation (2026) SwitchCraft: Training-Free Multi-Event Video Generation with Attention Controls (2026) Tuning-free Visual Effect Transfer across Videos (2026) The Script is All You Need: An Agentic Framework for Long-Horizon Dialogue-to-Cinematic Video Generation (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.03646",
+      "pdf_url": "https://arxiv.org/pdf/2603.03646",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.03646",
+      "scraped_at": "2026-03-06T02:10:22.625702"
+    },
+    "scraped_date": "2026-03-06"
+  },
+  {
+    "title": "SWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via Continuous Integration",
+    "paper_url": "https://huggingface.co/papers/2603.03823",
+    "authors": [
+      "Bing Zhao",
+      "Chuan Chen",
+      "Hu Wei",
+      "Xander Xu",
+      "Jialong Chen"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via Continuous Integration",
+      "abstract": "Proposes SWE-CI, a repository-level benchmark using CI loops to evaluate LLM-powered agents on long-term maintainability across evolving codebases.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.03823",
+      "pdf_url": "https://arxiv.org/pdf/2603.03823",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.03823",
+      "scraped_at": "2026-03-06T02:10:24.471035"
+    },
+    "scraped_date": "2026-03-06"
+  },
+  {
+    "title": "MUSE: A Run-Centric Platform for Multimodal Unified Safety Evaluation of Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2603.02482",
+    "authors": [
+      "Yiran Chen",
+      "Hai Helen Li",
+      "Jingyang Zhang",
+      "Zhongxi Wang",
+      "linyueqian"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "MUSE: A Run-Centric Platform for Multimodal Unified Safety Evaluation of Large Language Models",
+      "abstract": "MUSE: Multimodal Unified Safety Evaluation of LLMs",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.02482",
+      "pdf_url": "https://arxiv.org/pdf/2603.02482",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.02482",
+      "scraped_at": "2026-03-06T02:10:26.334853"
+    },
+    "scraped_date": "2026-03-06"
+  },
+  {
+    "title": "EmbodiedSplat: Online Feed-Forward Semantic 3DGS for Open-Vocabulary 3D Scene Understanding",
+    "paper_url": "https://huggingface.co/papers/2603.04254",
+    "authors": [
+      "Gim Hee Lee",
+      "Yunsong Wang",
+      "Zihan Wang",
+      "onandon"
+    ],
+    "stars": "17",
+    "details": {
+      "title": "EmbodiedSplat: Online Feed-Forward Semantic 3DGS for Open-Vocabulary 3D Scene Understanding",
+      "abstract": "Accepted to CVPR 2026!",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.04254",
+      "pdf_url": "https://arxiv.org/pdf/2603.04254",
+      "github_links": [
+        "https://github.com/0nandon/EmbodiedSplat"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.04254",
+      "scraped_at": "2026-03-06T02:10:28.200446"
+    },
+    "scraped_date": "2026-03-06"
+  },
+  {
+    "title": "BeamPERL: Parameter-Efficient RL with Verifiable Rewards Specializes Compact LLMs for Structured Beam Mechanics Reasoning",
+    "paper_url": "https://huggingface.co/papers/2603.04124",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "BeamPERL: Parameter-Efficient RL with Verifiable Rewards Specializes Compact LLMs for Structured Beam Mechanics Reasoning",
+      "abstract": "Does pure RL with verifiable rewards teach models physics, or just clever pattern-matching? We explored this question in our new paper by training a compact 1.5B reasoning model on beam statics (a classic structural engineering problem). We used parameter-efficient RLVR with strict, binary correctness rewards from symbolic solvers—meaning zero teacher-generated reasoning traces were used. Here is what we found: The good: The best BeamPERL checkpoint achieved a massive 66.7% improvement in Pass@1 over the base model. The catch: The learned reasoning is highly anisotropic. The model generalizes beautifully to compositional changes (like adding more loads to the beam), but completely breaks down under topological shifts (like moving the locations of the supports) - even though the underlying equilibrium equations remain exactly the same. Insights into training dynamics: Intermediate checkpoints actually yielded the strongest reasoning. Continued optimization degraded robustness while maintaining the reward, leaning into reward-hacking. Key takeaway: Outcome-level alignment with exact physics rewards seems to induce procedural solution templates, not a true internalization of the governing equations. The precision of a reward signal - even when analytically perfect - does not by itself guarantee transferable physical reasoning. To move beyond template-matching toward robust scientific comprehension, verifiable rewards likely need to be paired with structured reasoning scaffolding. We are looking forward to discussing with the community.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.04124",
+      "pdf_url": "https://arxiv.org/pdf/2603.04124",
+      "github_links": [
+        "https://github.com/lamm-mit/BeamPERL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.04124",
+      "scraped_at": "2026-03-06T02:10:30.222635"
+    },
+    "scraped_date": "2026-03-06"
+  },
+  {
+    "title": "MIBURI: Towards Expressive Interactive Gesture Synthesis",
+    "paper_url": "https://huggingface.co/papers/2603.03282",
+    "authors": [
+      "Christian Theobalt",
+      "Vera Demberg",
+      "Rishabh Dabral",
+      "m-hamza-mughal"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "MIBURI: Towards Expressive Interactive Gesture Synthesis",
+      "abstract": "CVPR 2026 Project Page: https://vcai.mpi-inf.mpg.de/projects/MIBURI/",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.03282",
+      "pdf_url": "https://arxiv.org/pdf/2603.03282",
+      "github_links": [
+        "https://github.com/m-hamza-mughal/miburi"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.03282",
+      "scraped_at": "2026-03-06T02:10:32.091379"
+    },
+    "scraped_date": "2026-03-06"
+  },
+  {
+    "title": "Specificity-aware reinforcement learning for fine-grained open-world classification",
+    "paper_url": "https://huggingface.co/papers/2603.03197",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Specificity-aware reinforcement learning for fine-grained open-world classification",
+      "abstract": "Classifying fine-grained visual concepts under open-world settings, i.e., without a predefined label set, demands models to be both accurate and specific. Recent reasoning Large Multimodal Models (LMMs) exhibit strong visual understanding capability but tend to produce overly generic predictions when performing fine-grained image classification. Our preliminary analysis reveals that models do possess the intrinsic fine-grained domain knowledge. However, promoting more specific predictions (specificity) without compromising correct ones (correctness) remains a non-trivial and understudied challenge. In this work, we investigate how to steer reasoning LMMs toward predictions that are both correct and specific. We propose a novel specificity-aware reinforcement learning framework, SpeciaRL, to fine-tune reasoning LMMs on fine-grained image classification under the open-world setting. SpeciaRL introduces a dynamic, verifier-based reward signal anchored to the best predictions within online rollouts, promoting specificity while respecting the model's capabilities to prevent incorrect predictions. Our out-of-domain experiments show that SpeciaRL delivers the best trade-off between correctness and specificity across extensive fine-grained benchmarks, surpassing existing methods and advancing open-world fine-grained image classification.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.03197",
+      "pdf_url": "https://arxiv.org/pdf/2603.03197",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.03197",
+      "scraped_at": "2026-03-06T02:10:34.007027"
+    },
+    "scraped_date": "2026-03-06"
+  },
+  {
+    "title": "GroupEnsemble: Efficient Uncertainty Estimation for DETR-based Object Detection",
+    "paper_url": "https://huggingface.co/papers/2603.01847",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GroupEnsemble: Efficient Uncertainty Estimation for DETR-based Object Detection",
+      "abstract": "GroupEnsemble enables efficient uncertainty estimation for DETR-like models by using independent query groups in a single forward pass, addressing limitations of Deep Ensembles and MC Dropout.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.01847",
+      "pdf_url": "https://arxiv.org/pdf/2603.01847",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.01847",
+      "scraped_at": "2026-03-06T02:10:35.936237"
+    },
+    "scraped_date": "2026-03-06"
+  },
+  {
+    "title": "HDINO: A Concise and Efficient Open-Vocabulary Detector",
+    "paper_url": "https://huggingface.co/papers/2603.02924",
+    "authors": [
+      "Yong Li",
+      "Runze Fan",
+      "Qinran Lin",
+      "Yiqun Wang",
+      "HaoZ416"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "HDINO: A Concise and Efficient Open-Vocabulary Detector",
+      "abstract": "A Concise and Efficient Open-Vocabulary Detector",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.02924",
+      "pdf_url": "https://arxiv.org/pdf/2603.02924",
+      "github_links": [
+        "https://github.com/HaoZ416/HDINO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.02924",
+      "scraped_at": "2026-03-06T02:10:37.825381"
+    },
+    "scraped_date": "2026-03-06"
   }
 ]
