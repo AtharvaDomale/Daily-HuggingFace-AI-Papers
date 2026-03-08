@@ -3586,5 +3586,483 @@
       "scraped_at": "2026-03-07T02:04:10.479783"
     },
     "scraped_date": "2026-03-07"
+  },
+  {
+    "title": "MOOSE-Star: Unlocking Tractable Training for Scientific Discovery by Breaking the Complexity Barrier",
+    "paper_url": "https://huggingface.co/papers/2603.03756",
+    "authors": [],
+    "stars": "10",
+    "details": {
+      "title": "MOOSE-Star: Unlocking Tractable Training for Scientific Discovery by Breaking the Complexity Barrier",
+      "abstract": "Most current LLMs for scientific discovery rely on inference-time prompting or external feedback for training. But how can we directly train an LLM to generate scientific hypotheses from a research background , i.e., P(h|b)? In this work, we theoretically demonstrate that directly training this generative process is computationally intractable due to the O(N^k) combinatorial complexity of retrieving and composing scientific inspirations. To break this barrier, we introduce MOOSE-Star , a unified framework that reduces this complexity to O(log N) via Motivation-Guided Hierarchical Search and Bounded Composition. 🔥 Key Highlights & Open-Source Contributions: Tractable & Scalable Training : The first framework to enable scalable training for the direct generation of scientific discoveries. Superior Test-Time Scaling : While brute-force unguided sampling hits a \"complexity wall\" on multi-step problems, MOOSE-Star exhibits continuous test-time scaling for discovery. TOMATO-Star Dataset 🍅: We are fully open-sourcing our data engine! It contains 108,717 open-access papers rigorously decomposed into (Background, Hypothesis, Inspirations) tuples, which cost ~38,400 A800 GPU hours to build. Models & Code : We have released our fine-tuned R1-Distilled-7B models (IR and HC modules) and the complete training/inference pipeline. We hope this opens up new tractable pathways for the AI4Science community!",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.03756",
+      "pdf_url": "https://arxiv.org/pdf/2603.03756",
+      "github_links": [
+        "https://github.com/ZonglinY/MOOSE-Star"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.03756",
+      "scraped_at": "2026-03-08T02:13:05.622885"
+    },
+    "scraped_date": "2026-03-08"
+  },
+  {
+    "title": "SkillNet: Create, Evaluate, and Connect AI Skills",
+    "paper_url": "https://huggingface.co/papers/2603.04448",
+    "authors": [],
+    "stars": "147",
+    "details": {
+      "title": "SkillNet: Create, Evaluate, and Connect AI Skills",
+      "abstract": "From reinventing solutions to accumulating skills—SkillNet builds the infrastructure for lifelong learning agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.04448",
+      "pdf_url": "https://arxiv.org/pdf/2603.04448",
+      "github_links": [
+        "https://github.com/zjunlp/SkillNet"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.04448",
+      "scraped_at": "2026-03-08T02:13:07.677708"
+    },
+    "scraped_date": "2026-03-08"
+  },
+  {
+    "title": "DARE: Aligning LLM Agents with the R Statistical Ecosystem via Distribution-Aware Retrieval",
+    "paper_url": "https://huggingface.co/papers/2603.04743",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "DARE: Aligning LLM Agents with the R Statistical Ecosystem via Distribution-Aware Retrieval",
+      "abstract": "We introduce DARE, an embedding model for improving LLM Agents on R package retrieval and downstream statistical analysis tasks. DARE outperforms open-sourced embedding models on R retrieval with higher efficiency and accuracy. Paper: https://arxiv.org/abs/2603.04743 Website: https://ama-cmfai.github.io/DARE_webpage/ Model: https://huggingface.co/Stephen-SMJ/DARE-R-Retriever Database: https://huggingface.co/datasets/Stephen-SMJ/RPKB",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.04743",
+      "pdf_url": "https://arxiv.org/pdf/2603.04743",
+      "github_links": [
+        "https://github.com/AMA-CMFAI/DARE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.04743",
+      "scraped_at": "2026-03-08T02:13:09.640680"
+    },
+    "scraped_date": "2026-03-08"
+  },
+  {
+    "title": "AgentVista: Evaluating Multimodal Agents in Ultra-Challenging Realistic Visual Scenarios",
+    "paper_url": "https://huggingface.co/papers/2602.23166",
+    "authors": [],
+    "stars": "31",
+    "details": {
+      "title": "AgentVista: Evaluating Multimodal Agents in Ultra-Challenging Realistic Visual Scenarios",
+      "abstract": "Benchmarking multimodal agents on realistic, ultra-challenging visual scenarios requiring long-horizon hybrid tool use.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.23166",
+      "pdf_url": "https://arxiv.org/pdf/2602.23166",
+      "github_links": [
+        "https://github.com/hkust-nlp/AgentVista"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.23166",
+      "scraped_at": "2026-03-08T02:13:11.603128"
+    },
+    "scraped_date": "2026-03-08"
+  },
+  {
+    "title": "RoboPocket: Improve Robot Policies Instantly with Your Phone",
+    "paper_url": "https://huggingface.co/papers/2603.05504",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "RoboPocket: Improve Robot Policies Instantly with Your Phone",
+      "abstract": "RoboPocket enables interactive online policy finetuning through smartphone AR: users see what the robot intends to do, provide corrections on-the-fly, and watch the policy improve in minutes, all without deploying to real hardware.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.05504",
+      "pdf_url": "https://arxiv.org/pdf/2603.05504",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.05504",
+      "scraped_at": "2026-03-08T02:13:13.626202"
+    },
+    "scraped_date": "2026-03-08"
+  },
+  {
+    "title": "HiFi-Inpaint: Towards High-Fidelity Reference-Based Inpainting for Generating Detail-Preserving Human-Product Images",
+    "paper_url": "https://huggingface.co/papers/2603.02210",
+    "authors": [],
+    "stars": "23",
+    "details": {
+      "title": "HiFi-Inpaint: Towards High-Fidelity Reference-Based Inpainting for Generating Detail-Preserving Human-Product Images",
+      "abstract": "[🔥CVPR 2026] HiFi-Inpaint enables high-fidelity reference-based inpainting. HiFi-Inpaint can seamlessly integrate product reference images into masked human images, generating high-quality human-product images with high-fidelity detail preservation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.02210",
+      "pdf_url": "https://arxiv.org/pdf/2603.02210",
+      "github_links": [
+        "https://github.com/Correr-Zhou/HiFi-Inpaint"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.02210",
+      "scraped_at": "2026-03-08T02:13:15.649411"
+    },
+    "scraped_date": "2026-03-08"
+  },
+  {
+    "title": "Large Multimodal Models as General In-Context Classifiers",
+    "paper_url": "https://huggingface.co/papers/2602.23229",
+    "authors": [],
+    "stars": "19",
+    "details": {
+      "title": "Large Multimodal Models as General In-Context Classifiers",
+      "abstract": "Everyone says CLIP-like models are the gold standard for classification, while Large Multimodal Models (LMMs) should be saved strictly for complex reasoning. But what if we are drastically underestimating LMMs? 🤔 The current consensus overlooks one of their biggest superpowers: in-context learning. In this new paper, we challenge this assumption, and we systematically put LMMs to the test across both closed and open-world settings. Here is what we found: 📊 The closed-world surprise While LMM zero-shot performance does lag behind CLIP, adding just a few in-context examples completely changes the game. Few-shot LMMs can match — and even surpass — contrastive VLMs equipped with cache-based adapters. 🌍 The open-world bottleneck The generative nature of LMMs makes them naturally suited for open-world classification. The catch? They struggle significantly when fed imperfect context information. To solve this bottleneck, we introduce CIRCLE: a simple, training-free method that automatically builds a context from unannotated images and iteratively refines their labels using the context itself. This enables effective ICL, improving LMMs’ open-world capabilities.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.23229",
+      "pdf_url": "https://arxiv.org/pdf/2602.23229",
+      "github_links": [
+        "https://github.com/marco-garosi/CIRCLE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.23229",
+      "scraped_at": "2026-03-08T02:13:17.653011"
+    },
+    "scraped_date": "2026-03-08"
+  },
+  {
+    "title": "Interactive Benchmarks",
+    "paper_url": "https://huggingface.co/papers/2603.04737",
+    "authors": [],
+    "stars": "16",
+    "details": {
+      "title": "Interactive Benchmarks",
+      "abstract": "Standard benchmarks have become increasingly unreliable due to saturation, subjectivity, and poor generalization. We argue that evaluating model's ability to acquire information actively is important to assess model's intelligence. We propose Interactive Benchmarks, a unified evaluation paradigm that assesses model's reasoning ability in an interactive process under budget constraints. We instantiate this framework across two settings: Interactive Proofs, where models interact with a judge to deduce objective truths or answers in logic and mathematics; and Interactive Games, where models reason strategically to maximize long-horizon utilities. Our results show that interactive benchmarks provide a robust and faithful assessment of model intelligence, revealing that there is still substantial room to improve in interactive scenarios.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.04737",
+      "pdf_url": "https://arxiv.org/pdf/2603.04737",
+      "github_links": [
+        "https://github.com/interactivebench/interactivebench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.04737",
+      "scraped_at": "2026-03-08T02:13:21.213828"
+    },
+    "scraped_date": "2026-03-08"
+  },
+  {
+    "title": "DreamWorld: Unified World Modeling in Video Generation",
+    "paper_url": "https://huggingface.co/papers/2603.00466",
+    "authors": [
+      "Shaofeng Zhang",
+      "Yuqing Zhang",
+      "Ning Liao",
+      "Xiangdong Zhang",
+      "Boming Tan"
+    ],
+    "stars": "16",
+    "details": {
+      "title": "DreamWorld: Unified World Modeling in Video Generation",
+      "abstract": "Despite impressive progress in video generation, existing models remain limited to surface-level plausibility, lacking a coherent and unified understanding of the world. Prior approaches typically incorporate only a single form of world-related knowledge or rely on rigid alignment strategies to introduce additional knowledge. However, aligning the single world knowledge is insufficient to constitute a world model that requires jointly modeling multiple heterogeneous dimensions (e.g., physical commonsense, 3D and temporal consistency). To address this limitation, we introduce DreamWorld , a unified framework that integrates complementary world knowledge into video generators via a Joint World Modeling Paradigm , jointly predicting video pixels and features from foundation models to capture temporal dynamics, spatial geometry, and semantic consistency. However, naively optimizing these heterogeneous objectives can lead to visual instability and temporal flickering. To mitigate this issue, we propose Consistent Constraint Annealing (CCA) to progressively regulate world-level constraints during training, and Multi-Source Inner-Guidance to enforce learned world priors at inference. Extensive evaluations show that DreamWorld improves world consistency, outperforming Wan2.1 by 2.26 points on VBench. Code will be made publicly available at https://github.com/ABU121111/DreamWorld .",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.00466",
+      "pdf_url": "https://arxiv.org/pdf/2603.00466",
+      "github_links": [
+        "https://github.com/ABU121111/DreamWorld"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.00466",
+      "scraped_at": "2026-03-08T02:13:23.244563"
+    },
+    "scraped_date": "2026-03-08"
+  },
+  {
+    "title": "SageBwd: A Trainable Low-bit Attention",
+    "paper_url": "https://huggingface.co/papers/2603.02170",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SageBwd: A Trainable Low-bit Attention",
+      "abstract": "SageBwd: A Trainable Low-bit Attention",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.02170",
+      "pdf_url": "https://arxiv.org/pdf/2603.02170",
+      "github_links": [
+        "https://github.com/thu-ml/SageAttention"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.02170",
+      "scraped_at": "2026-03-08T02:13:25.189693"
+    },
+    "scraped_date": "2026-03-08"
+  },
+  {
+    "title": "Timer-S1: A Billion-Scale Time Series Foundation Model with Serial Scaling",
+    "paper_url": "https://huggingface.co/papers/2603.04791",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Timer-S1: A Billion-Scale Time Series Foundation Model with Serial Scaling",
+      "abstract": "Timer-S1 introduces a billion-parameter MoE time-series foundation model with serial scaling, long-context capabilities, TimeMoE/TimeSTP blocks, TimeBench data, and post-training for enhanced forecasting.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.04791",
+      "pdf_url": "https://arxiv.org/pdf/2603.04791",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.04791",
+      "scraped_at": "2026-03-08T02:13:27.166716"
+    },
+    "scraped_date": "2026-03-08"
+  },
+  {
+    "title": "MASQuant: Modality-Aware Smoothing Quantization for Multimodal Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2603.04800",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MASQuant: Modality-Aware Smoothing Quantization for Multimodal Large Language Models",
+      "abstract": "Up",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.04800",
+      "pdf_url": "https://arxiv.org/pdf/2603.04800",
+      "github_links": [
+        "https://github.com/alibaba/EfficientAI/tree/main/masquant"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.04800",
+      "scraped_at": "2026-03-08T02:13:30.719305"
+    },
+    "scraped_date": "2026-03-08"
+  },
+  {
+    "title": "RealWonder: Real-Time Physical Action-Conditioned Video Generation",
+    "paper_url": "https://huggingface.co/papers/2603.05449",
+    "authors": [
+      "Hong-Xing Yu",
+      "Yue Wang",
+      "Zizhang Li",
+      "Ziyu Chen",
+      "Wei Liu"
+    ],
+    "stars": "76",
+    "details": {
+      "title": "RealWonder: Real-Time Physical Action-Conditioned Video Generation",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API PerpetualWonder: Long-Horizon Action-Conditioned 4D Scene Generation (2026) Video Generation Models in Robotics - Applications, Research Challenges, Future Directions (2026) ArtHOI: Articulated Human-Object Interaction Synthesis by 4D Reconstruction from Video Priors (2026) Generated Reality: Human-centric World Simulation using Interactive Video Generation with Hand and Camera Control (2026) VerseCrafter: Dynamic Realistic Video World Model with 4D Geometric Control (2026) Efficient Camera-Controlled Video Generation of Static Scenes via Sparse Diffusion and 3D Rendering (2026) Hand2World: Autoregressive Egocentric Interaction Generation via Free-Space Hand Gestures (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.05449",
+      "pdf_url": "https://arxiv.org/pdf/2603.05449",
+      "github_links": [
+        "https://github.com/liuwei283/RealWonder"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.05449",
+      "scraped_at": "2026-03-08T02:13:32.774262"
+    },
+    "scraped_date": "2026-03-08"
+  },
+  {
+    "title": "Locality-Attending Vision Transformer",
+    "paper_url": "https://huggingface.co/papers/2603.04892",
+    "authors": [],
+    "stars": "11",
+    "details": {
+      "title": "Locality-Attending Vision Transformer",
+      "abstract": "LocAtViT is a method to pretrain vision transformers so that their patch representations transfer better to dense prediction (e.g., segmentation), without changing the pretraining objective.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.04892",
+      "pdf_url": "https://arxiv.org/pdf/2603.04892",
+      "github_links": [
+        "https://github.com/sinahmr/LocAtViT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.04892",
+      "scraped_at": "2026-03-08T02:13:34.726911"
+    },
+    "scraped_date": "2026-03-08"
+  },
+  {
+    "title": "On-Policy Self-Distillation for Reasoning Compression",
+    "paper_url": "https://huggingface.co/papers/2603.05433",
+    "authors": [
+      "Zhipeng Wang",
+      "Ran He",
+      "Zhengze Zhou",
+      "Yuanda Xu",
+      "Hejian Sang"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "On-Policy Self-Distillation for Reasoning Compression",
+      "abstract": "Reasoning models think out loud, but much of what they say is noise. We introduce OPSDC (On-Policy Self-Distillation for Reasoning Compression), a method that teaches models to reason more concisely by distilling their own concise behavior back into themselves. The entire approach reduces to one idea: condition the same model on a \"be concise\" instruction to obtain teacher logits, and minimize per-token reverse KL on the student's own rollouts. No ground-truth answers, no token budgets, no difficulty estimators. Just self-distillation. Yet this simplicity belies surprising sophistication: OPSDC automatically compresses easy problems aggressively while preserving the deliberation needed for hard ones. On Qwen3-8B and Qwen3-14B, we achieve 57-59% token reduction on MATH-500 while improving accuracy by 9-16 points absolute. On AIME 2024, the 14B model gains 10 points with 41% compression. The secret? Much of what reasoning models produce is not just redundant-it is actively harmful, compounding errors with every unnecessary token.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.05433",
+      "pdf_url": "https://arxiv.org/pdf/2603.05433",
+      "github_links": [
+        "https://github.com/HJSang/OPSD_Reasoning_Compression"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.05433",
+      "scraped_at": "2026-03-08T02:13:36.630934"
+    },
+    "scraped_date": "2026-03-08"
+  },
+  {
+    "title": "UltraDexGrasp: Learning Universal Dexterous Grasping for Bimanual Robots with Synthetic Data",
+    "paper_url": "https://huggingface.co/papers/2603.05312",
+    "authors": [
+      "Jia Zeng",
+      "Yang Tian",
+      "Zhixuan Liang",
+      "Yiman Xie",
+      "Sizhe Yang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "UltraDexGrasp: Learning Universal Dexterous Grasping for Bimanual Robots with Synthetic Data",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API DexImit: Learning Bimanual Dexterous Manipulation from Monocular Human Videos (2026) Generate, Transfer, Adapt: Learning Functional Dexterous Grasping from a Single Human Demonstration (2026) Dexterous Manipulation Policies from RGB Human Videos via 3D Hand-Object Trajectory Reconstruction (2026) DexRepNet++: Learning Dexterous Robotic Manipulation With Geometric and Spatial Hand-Object Representations (2026) UniMorphGrasp: Diffusion Model with Morphology-Awareness for Cross-Embodiment Dexterous Grasp Generation (2026) CADGrasp: Learning Contact and Collision Aware General Dexterous Grasping in Cluttered Scenes (2026) CEI: A Unified Interface for Cross-Embodiment Visuomotor Policy Learning in 3D Space (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.05312",
+      "pdf_url": "https://arxiv.org/pdf/2603.05312",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.05312",
+      "scraped_at": "2026-03-08T02:13:38.519822"
+    },
+    "scraped_date": "2026-03-08"
+  },
+  {
+    "title": "KARL: Knowledge Agents via Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2603.05218",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "KARL: Knowledge Agents via Reinforcement Learning",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API InftyThink+: Effective and Efficient Infinite-Horizon Reasoning via Reinforcement Learning (2026) SearchGym: Bootstrapping Real-World Search Agents via Cost-Effective and High-Fidelity Environment Simulation (2026) Agentic Reasoning for Large Language Models (2026) Search More, Think Less: Rethinking Long-Horizon Agentic Search for Efficiency and Generalization (2026) RLAR: An Agentic Reward System for Multi-task Reinforcement Learning on Large Language Models (2026) Mock Worlds, Real Skills: Building Small Agentic Language Models with Synthetic Tasks, Simulated Environments, and Rubric-Based Rewards (2026) EnterpriseBench Corecraft: Training Generalizable Agents on High-Fidelity RL Environments (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.05218",
+      "pdf_url": "https://arxiv.org/pdf/2603.05218",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.05218",
+      "scraped_at": "2026-03-08T02:13:40.455596"
+    },
+    "scraped_date": "2026-03-08"
+  },
+  {
+    "title": "STMI: Segmentation-Guided Token Modulation with Cross-Modal Hypergraph Interaction for Multi-Modal Object Re-Identification",
+    "paper_url": "https://huggingface.co/papers/2603.00695",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "STMI: Segmentation-Guided Token Modulation with Cross-Modal Hypergraph Interaction for Multi-Modal Object Re-Identification",
+      "abstract": "STMI tackles RGB/NIR/TIR ReID by injecting SAM masks into attention (SFM), replacing hard token filtering with learnable query-based redistribution (STR), and modeling higher-order cross-modal relations via a unified hypergraph (CHI), achieving strong gains on RGBNT201/100 and MSVR310.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.00695",
+      "pdf_url": "https://arxiv.org/pdf/2603.00695",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.00695",
+      "scraped_at": "2026-03-08T02:13:42.399581"
+    },
+    "scraped_date": "2026-03-08"
+  },
+  {
+    "title": "Truncated Step-Level Sampling with Process Rewards for Retrieval-Augmented Reasoning",
+    "paper_url": "https://huggingface.co/papers/2602.23440",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Truncated Step-Level Sampling with Process Rewards for Retrieval-Augmented Reasoning",
+      "abstract": "SLATE trains LLMs to reason with search engines via RL by (1) sampling multiple continuations from a shared trajectory prefix at each step instead of full trajectories, provably reducing gradient variance up to T-fold, and (2) using an LLM judge to score each reasoning step, query, and answer on a {-1, 0, +1} scale for dense supervision. This outperforms sparse-reward (Search-R1) and process-reward (StepSearch) baselines across 7 QA benchmarks, with the largest gains on multi-hop tasks and smaller models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.23440",
+      "pdf_url": "https://arxiv.org/pdf/2602.23440",
+      "github_links": [
+        "https://github.com/algoprog/SLATE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.23440",
+      "scraped_at": "2026-03-08T02:13:52.855295"
+    },
+    "scraped_date": "2026-03-08"
+  },
+  {
+    "title": "Towards Multimodal Lifelong Understanding: A Dataset and Agentic Baseline",
+    "paper_url": "https://huggingface.co/papers/2603.05484",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "Towards Multimodal Lifelong Understanding: A Dataset and Agentic Baseline",
+      "abstract": "While datasets for video understanding have scaled to hour-long durations, they typically consist of densely concatenated clips that differ from natural, unscripted daily life. To bridge this gap, we introduce MM-Lifelong, a dataset designed for Multimodal Lifelong Understanding. Comprising 181.1 hours of footage, it is structured across Day, Week, and Month scales to capture varying temporal densities. Extensive evaluations reveal two critical failure modes in current paradigms: end-to-end MLLMs suffer from a Working Memory Bottleneck due to context saturation, while representative agentic baselines experience Global Localization Collapse when navigating sparse, month-long timelines. To address this, we propose the Recursive Multimodal Agent (ReMA), which employs dynamic memory management to iteratively update a recursive belief state, significantly outperforming existing methods. Finally, we establish dataset splits designed to isolate temporal and domain biases, providing a rigorous foundation for future research in supervised learning and out-of-distribution generalization.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.05484",
+      "pdf_url": "https://arxiv.org/pdf/2603.05484",
+      "github_links": [
+        "https://github.com/cg1177/Recursive-Multimodal-Agent"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.05484",
+      "scraped_at": "2026-03-08T02:13:54.773549"
+    },
+    "scraped_date": "2026-03-08"
+  },
+  {
+    "title": "Mozi: Governed Autonomy for Drug Discovery LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2603.03655",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Mozi: Governed Autonomy for Drug Discovery LLM Agents",
+      "abstract": "This paper made an interesting exploration on how to implement controllable automated intelligent agent systems for the entire drug discovery process research.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.03655",
+      "pdf_url": "https://arxiv.org/pdf/2603.03655",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.03655",
+      "scraped_at": "2026-03-08T02:13:56.766068"
+    },
+    "scraped_date": "2026-03-08"
+  },
+  {
+    "title": "Distribution-Conditioned Transport",
+    "paper_url": "https://huggingface.co/papers/2603.04736",
+    "authors": [
+      "Omar Abudayyeh",
+      "Marinka Zitnik",
+      "Paolo L. B. Fischer",
+      "Gokul Gowri",
+      "Nic Fishman"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Distribution-Conditioned Transport",
+      "abstract": "Introducing distribution-conditioned transport (DCT): generalizes transport maps to unseen distribution pairs via distribution embeddings, enabling semi-supervised forecasting and compatibility with diverse transport models such as flow matching and Wasserstein.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.04736",
+      "pdf_url": "https://arxiv.org/pdf/2603.04736",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.04736",
+      "scraped_at": "2026-03-08T02:13:58.664166"
+    },
+    "scraped_date": "2026-03-08"
+  },
+  {
+    "title": "Latent Particle World Models: Self-supervised Object-centric Stochastic Dynamics Modeling",
+    "paper_url": "https://huggingface.co/papers/2603.04553",
+    "authors": [
+      "Chuan Li",
+      "Amir Zadeh",
+      "Dan Haramati",
+      "Carl Qi",
+      "taldatech"
+    ],
+    "stars": "17",
+    "details": {
+      "title": "Latent Particle World Models: Self-supervised Object-centric Stochastic Dynamics Modeling",
+      "abstract": "Latent Particle World Model (LPWM) - a self-supervised object-centric world model scaled to real-world multi-object datasets and applicable in decision-making. LPWM autonomously discovers keypoints, bounding boxes, and object masks directly from video data, enabling it to learn rich scene decompositions without supervision. Our architecture is trained end-to-end purely from videos and supports flexible conditioning on actions, language, and image goals. LPWM models stochastic particle dynamics via a novel latent action module and achieves state-of-the-art results on diverse real-world and synthetic datasets. Beyond stochastic video modeling, LPWM is readily applicable to decision-making, including goal-conditioned imitation learning, as we demonstrate in the paper.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.04553",
+      "pdf_url": "https://arxiv.org/pdf/2603.04553",
+      "github_links": [
+        "https://github.com/taldatech/lpwm"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.04553",
+      "scraped_at": "2026-03-08T02:14:00.644167"
+    },
+    "scraped_date": "2026-03-08"
+  },
+  {
+    "title": "Lightweight Visual Reasoning for Socially-Aware Robots",
+    "paper_url": "https://huggingface.co/papers/2603.03942",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Lightweight Visual Reasoning for Socially-Aware Robots",
+      "abstract": "🤖 What if your VLM could look twice before answering? Most VLMs encode an image once, then reason purely in text. We think that's leaving performance on the table. We built a tiny feedback module (< 3% extra parameters) that lets the language model send a \"reasoning hint\" back to the vision encoder, which then re-encodes the image with that context in mind. Two passes. Much richer understanding. The gains on tasks requiring subtle visual understanding are striking — up to +10.81% on human intention recognition, with consistent improvements on scene description too. It works across Qwen 2.5, Gemma 3, and LLaVA OV. Trained on a general-purpose dataset.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.03942",
+      "pdf_url": "https://arxiv.org/pdf/2603.03942",
+      "github_links": [
+        "https://github.com/alessioGalatolo/VLM-Reasoning-for-Robotics"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.03942",
+      "scraped_at": "2026-03-08T02:14:02.554630"
+    },
+    "scraped_date": "2026-03-08"
   }
 ]

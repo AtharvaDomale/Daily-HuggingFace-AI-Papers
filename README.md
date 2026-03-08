@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-24-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-2772+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-2796+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">24</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">177</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">205</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">2772+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">201</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">229</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">2796+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** March 07, 2026
+**Last Updated:** March 08, 2026
 
 ---
 
@@ -119,7 +119,7 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. MOOSE-Star: Unlocking Tractable Training for Scientific Discovery by Breaking the Complexity Barrier</b> ⭐ 9</summary>
+<summary><b>1. MOOSE-Star: Unlocking Tractable Training for Scientific Discovery by Breaking the Complexity Barrier</b> ⭐ 10</summary>
 
 <br/>
 
@@ -132,7 +132,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>2. SkillNet: Create, Evaluate, and Connect AI Skills</b> ⭐ 100</summary>
+<summary><b>2. SkillNet: Create, Evaluate, and Connect AI Skills</b> ⭐ 147</summary>
 
 <br/>
 
@@ -145,7 +145,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>3. DARE: Aligning LLM Agents with the R Statistical Ecosystem via Distribution-Aware Retrieval</b> ⭐ 6</summary>
+<summary><b>3. DARE: Aligning LLM Agents with the R Statistical Ecosystem via Distribution-Aware Retrieval</b> ⭐ 7</summary>
 
 <br/>
 
@@ -158,7 +158,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>4. AgentVista: Evaluating Multimodal Agents in Ultra-Challenging Realistic Visual Scenarios</b> ⭐ 30</summary>
+<summary><b>4. AgentVista: Evaluating Multimodal Agents in Ultra-Challenging Realistic Visual Scenarios</b> ⭐ 31</summary>
 
 <br/>
 
@@ -182,7 +182,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>6. HiFi-Inpaint: Towards High-Fidelity Reference-Based Inpainting for Generating Detail-Preserving Human-Product Images</b> ⭐ 22</summary>
+<summary><b>6. HiFi-Inpaint: Towards High-Fidelity Reference-Based Inpainting for Generating Detail-Preserving Human-Product Images</b> ⭐ 23</summary>
 
 <br/>
 
@@ -195,20 +195,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>7. SageBwd: A Trainable Low-bit Attention</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.02170) • [📄 arXiv](https://arxiv.org/abs/2603.02170) • [📥 PDF](https://arxiv.org/pdf/2603.02170)
-
-**💻 Code:** [⭐ Code](https://github.com/thu-ml/SageAttention)
-
-> SageBwd: A Trainable Low-bit Attention
-
-</details>
-
-<details>
-<summary><b>8. Large Multimodal Models as General In-Context Classifiers</b> ⭐ 16</summary>
+<summary><b>7. Large Multimodal Models as General In-Context Classifiers</b> ⭐ 19</summary>
 
 <br/>
 
@@ -221,7 +208,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>9. Interactive Benchmarks</b> ⭐ 15</summary>
+<summary><b>8. Interactive Benchmarks</b> ⭐ 16</summary>
 
 <br/>
 
@@ -234,7 +221,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>10. DreamWorld: Unified World Modeling in Video Generation</b> ⭐ 15</summary>
+<summary><b>9. DreamWorld: Unified World Modeling in Video Generation</b> ⭐ 16</summary>
 
 <br/>
 
@@ -249,7 +236,31 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>11. MASQuant: Modality-Aware Smoothing Quantization for Multimodal Large Language Models</b> ⭐ 0</summary>
+<summary><b>10. SageBwd: A Trainable Low-bit Attention</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.02170) • [📄 arXiv](https://arxiv.org/abs/2603.02170) • [📥 PDF](https://arxiv.org/pdf/2603.02170)
+
+**💻 Code:** [⭐ Code](https://github.com/thu-ml/SageAttention)
+
+> SageBwd: A Trainable Low-bit Attention
+
+</details>
+
+<details>
+<summary><b>11. Timer-S1: A Billion-Scale Time Series Foundation Model with Serial Scaling</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.04791) • [📄 arXiv](https://arxiv.org/abs/2603.04791) • [📥 PDF](https://arxiv.org/pdf/2603.04791)
+
+> Timer-S1 introduces a billion-parameter MoE time-series foundation model with serial scaling, long-context capabilities, TimeMoE/TimeSTP blocks, TimeBench data, and post-training for enhanced forecasting.
+
+</details>
+
+<details>
+<summary><b>12. MASQuant: Modality-Aware Smoothing Quantization for Multimodal Large Language Models</b> ⭐ 0</summary>
 
 <br/>
 
@@ -262,18 +273,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>12. Timer-S1: A Billion-Scale Time Series Foundation Model with Serial Scaling</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.04791) • [📄 arXiv](https://arxiv.org/abs/2603.04791) • [📥 PDF](https://arxiv.org/pdf/2603.04791)
-
-> Timer-S1 introduces a billion-parameter MoE time-series foundation model with serial scaling, long-context capabilities, TimeMoE/TimeSTP blocks, TimeBench data, and post-training for enhanced forecasting.
-
-</details>
-
-<details>
-<summary><b>13. RealWonder: Real-Time Physical Action-Conditioned Video Generation</b> ⭐ 60</summary>
+<summary><b>13. RealWonder: Real-Time Physical Action-Conditioned Video Generation</b> ⭐ 76</summary>
 
 <br/>
 
@@ -288,7 +288,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>14. Locality-Attending Vision Transformer</b> ⭐ 10</summary>
+<summary><b>14. Locality-Attending Vision Transformer</b> ⭐ 11</summary>
 
 <br/>
 
@@ -301,7 +301,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>15. On-Policy Self-Distillation for Reasoning Compression</b> ⭐ 0</summary>
+<summary><b>15. On-Policy Self-Distillation for Reasoning Compression</b> ⭐ 1</summary>
 
 <br/>
 
@@ -309,47 +309,14 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.05433) • [📄 arXiv](https://arxiv.org/abs/2603.05433) • [📥 PDF](https://arxiv.org/pdf/2603.05433)
 
+**💻 Code:** [⭐ Code](https://github.com/HJSang/OPSD_Reasoning_Compression)
+
 > Reasoning models think out loud, but much of what they say is noise. We introduce OPSDC (On-Policy Self-Distillation for Reasoning Compression), a method that teaches models to reason more concisely by distilling their own concise behavior back in...
 
 </details>
 
 <details>
-<summary><b>16. KARL: Knowledge Agents via Reinforcement Learning</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.05218) • [📄 arXiv](https://arxiv.org/abs/2603.05218) • [📥 PDF](https://arxiv.org/pdf/2603.05218)
-
-> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API InftyThink+: Effective and Efficient Infinite-Horizon Reasoning via Reinfor...
-
-</details>
-
-<details>
-<summary><b>17. STMI: Segmentation-Guided Token Modulation with Cross-Modal Hypergraph Interaction for Multi-Modal Object Re-Identification</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.00695) • [📄 arXiv](https://arxiv.org/abs/2603.00695) • [📥 PDF](https://arxiv.org/pdf/2603.00695)
-
-> STMI tackles RGB/NIR/TIR ReID by injecting SAM masks into attention (SFM), replacing hard token filtering with learnable query-based redistribution (STR), and modeling higher-order cross-modal relations via a unified hypergraph (CHI), achieving st...
-
-</details>
-
-<details>
-<summary><b>18. Towards Multimodal Lifelong Understanding: A Dataset and Agentic Baseline</b> ⭐ 5</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.05484) • [📄 arXiv](https://arxiv.org/abs/2603.05484) • [📥 PDF](https://arxiv.org/pdf/2603.05484)
-
-**💻 Code:** [⭐ Code](https://github.com/cg1177/Recursive-Multimodal-Agent)
-
-> While datasets for video understanding have scaled to hour-long durations, they typically consist of densely concatenated clips that differ from natural, unscripted daily life. To bridge this gap, we introduce MM-Lifelong, a dataset designed for M...
-
-</details>
-
-<details>
-<summary><b>19. UltraDexGrasp: Learning Universal Dexterous Grasping for Bimanual Robots with Synthetic Data</b> ⭐ 0</summary>
+<summary><b>16. UltraDexGrasp: Learning Universal Dexterous Grasping for Bimanual Robots with Synthetic Data</b> ⭐ 0</summary>
 
 <br/>
 
@@ -362,28 +329,61 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>20. Mozi: Governed Autonomy for Drug Discovery LLM Agents</b> ⭐ 0</summary>
+<summary><b>17. KARL: Knowledge Agents via Reinforcement Learning</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.05218) • [📄 arXiv](https://arxiv.org/abs/2603.05218) • [📥 PDF](https://arxiv.org/pdf/2603.05218)
+
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API InftyThink+: Effective and Efficient Infinite-Horizon Reasoning via Reinfor...
+
+</details>
+
+<details>
+<summary><b>18. STMI: Segmentation-Guided Token Modulation with Cross-Modal Hypergraph Interaction for Multi-Modal Object Re-Identification</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.00695) • [📄 arXiv](https://arxiv.org/abs/2603.00695) • [📥 PDF](https://arxiv.org/pdf/2603.00695)
+
+> STMI tackles RGB/NIR/TIR ReID by injecting SAM masks into attention (SFM), replacing hard token filtering with learnable query-based redistribution (STR), and modeling higher-order cross-modal relations via a unified hypergraph (CHI), achieving st...
+
+</details>
+
+<details>
+<summary><b>19. Truncated Step-Level Sampling with Process Rewards for Retrieval-Augmented Reasoning</b> ⭐ 1</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.23440) • [📄 arXiv](https://arxiv.org/abs/2602.23440) • [📥 PDF](https://arxiv.org/pdf/2602.23440)
+
+**💻 Code:** [⭐ Code](https://github.com/algoprog/SLATE)
+
+> SLATE trains LLMs to reason with search engines via RL by (1) sampling multiple continuations from a shared trajectory prefix at each step instead of full trajectories, provably reducing gradient variance up to T-fold, and (2) using an LLM judge t...
+
+</details>
+
+<details>
+<summary><b>20. Towards Multimodal Lifelong Understanding: A Dataset and Agentic Baseline</b> ⭐ 6</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.05484) • [📄 arXiv](https://arxiv.org/abs/2603.05484) • [📥 PDF](https://arxiv.org/pdf/2603.05484)
+
+**💻 Code:** [⭐ Code](https://github.com/cg1177/Recursive-Multimodal-Agent)
+
+> While datasets for video understanding have scaled to hour-long durations, they typically consist of densely concatenated clips that differ from natural, unscripted daily life. To bridge this gap, we introduce MM-Lifelong, a dataset designed for M...
+
+</details>
+
+<details>
+<summary><b>21. Mozi: Governed Autonomy for Drug Discovery LLM Agents</b> ⭐ 0</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.03655) • [📄 arXiv](https://arxiv.org/abs/2603.03655) • [📥 PDF](https://arxiv.org/pdf/2603.03655)
 
 > This paper made an interesting exploration on how to implement controllable automated intelligent agent systems for the entire drug discovery process research.
-
-</details>
-
-<details>
-<summary><b>21. Latent Particle World Models: Self-supervised Object-centric Stochastic Dynamics Modeling</b> ⭐ 7</summary>
-
-<br/>
-
-**👥 Authors:** Chuan Li, Amir Zadeh, Dan Haramati, Carl Qi, taldatech
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.04553) • [📄 arXiv](https://arxiv.org/abs/2603.04553) • [📥 PDF](https://arxiv.org/pdf/2603.04553)
-
-**💻 Code:** [⭐ Code](https://github.com/taldatech/lpwm)
-
-> Latent Particle World Model (LPWM) - a self-supervised object-centric world model scaled to real-world multi-object datasets and applicable in decision-making. LPWM autonomously discovers keypoints, bounding boxes, and object masks directly from v...
 
 </details>
 
@@ -401,7 +401,22 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>23. Lightweight Visual Reasoning for Socially-Aware Robots</b> ⭐ 0</summary>
+<summary><b>23. Latent Particle World Models: Self-supervised Object-centric Stochastic Dynamics Modeling</b> ⭐ 17</summary>
+
+<br/>
+
+**👥 Authors:** Chuan Li, Amir Zadeh, Dan Haramati, Carl Qi, taldatech
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.04553) • [📄 arXiv](https://arxiv.org/abs/2603.04553) • [📥 PDF](https://arxiv.org/pdf/2603.04553)
+
+**💻 Code:** [⭐ Code](https://github.com/taldatech/lpwm)
+
+> Latent Particle World Model (LPWM) - a self-supervised object-centric world model scaled to real-world multi-object datasets and applicable in decision-making. LPWM autonomously discovers keypoints, bounding boxes, and object masks directly from v...
+
+</details>
+
+<details>
+<summary><b>24. Lightweight Visual Reasoning for Socially-Aware Robots</b> ⭐ 1</summary>
 
 <br/>
 
@@ -410,19 +425,6 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/alessioGalatolo/VLM-Reasoning-for-Robotics)
 
 > 🤖 What if your VLM could look twice before answering? Most VLMs encode an image once, then reason purely in text. We think that's leaving performance on the table. We built a tiny feedback module (< 3% extra parameters) that lets the language mode...
-
-</details>
-
-<details>
-<summary><b>24. Truncated Step-Level Sampling with Process Rewards for Retrieval-Augmented Reasoning</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2602.23440) • [📄 arXiv](https://arxiv.org/abs/2602.23440) • [📥 PDF](https://arxiv.org/pdf/2602.23440)
-
-**💻 Code:** [⭐ Code](https://github.com/algoprog/SLATE)
-
-> SLATE trains LLMs to reason with search engines via RL by (1) sampling multiple continuations from a shared trajectory prefix at each step instead of full trajectories, provably reducing gradient variance up to T-fold, and (2) using an LLM judge t...
 
 </details>
 
@@ -435,27 +437,27 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 24 |
-| 📅 Today | [`2026-03-07.json`](data/daily/2026-03-07.json) | 24 |
-| 📆 This Week | [`2026-W09.json`](data/weekly/2026-W09.json) | 177 |
-| 🗓️ This Month | [`2026-03.json`](data/monthly/2026-03.json) | 205 |
+| 📅 Today | [`2026-03-08.json`](data/daily/2026-03-08.json) | 24 |
+| 📆 This Week | [`2026-W09.json`](data/weekly/2026-W09.json) | 201 |
+| 🗓️ This Month | [`2026-03.json`](data/monthly/2026-03.json) | 229 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-03-07 | 24 | [View JSON](data/daily/2026-03-07.json) |
+| 📌 2026-03-08 | 24 | [View JSON](data/daily/2026-03-08.json) |
+| 📄 2026-03-07 | 24 | [View JSON](data/daily/2026-03-07.json) |
 | 📄 2026-03-06 | 21 | [View JSON](data/daily/2026-03-06.json) |
 | 📄 2026-03-05 | 41 | [View JSON](data/daily/2026-03-05.json) |
 | 📄 2026-03-04 | 41 | [View JSON](data/daily/2026-03-04.json) |
 | 📄 2026-03-03 | 22 | [View JSON](data/daily/2026-03-03.json) |
 | 📄 2026-03-02 | 28 | [View JSON](data/daily/2026-03-02.json) |
-| 📄 2026-03-01 | 28 | [View JSON](data/daily/2026-03-01.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W09 | 177 | [View JSON](data/weekly/2026-W09.json) |
+| 📅 2026-W09 | 201 | [View JSON](data/weekly/2026-W09.json) |
 | 📅 2026-W08 | 184 | [View JSON](data/weekly/2026-W08.json) |
 | 📅 2026-W07 | 197 | [View JSON](data/weekly/2026-W07.json) |
 | 📅 2026-W06 | 293 | [View JSON](data/weekly/2026-W06.json) |
@@ -464,7 +466,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-03 | 205 | [View JSON](data/monthly/2026-03.json) |
+| 🗓️ 2026-03 | 229 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
 | 🗓️ 2025-12 | 787 | [View JSON](data/monthly/2025-12.json) |
