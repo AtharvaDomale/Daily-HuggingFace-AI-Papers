@@ -4767,5 +4767,30 @@
       "scraped_at": "2026-03-09T02:22:19.111896"
     },
     "scraped_date": "2026-03-09"
+  },
+  {
+    "title": "Generalizable Knowledge Distillation from Vision Foundation Models for Semantic Segmentation",
+    "paper_url": "https://huggingface.co/papers/2603.02554",
+    "authors": [
+      "Ning Huyan",
+      "Dou Quan",
+      "Shuang Wang",
+      "Dong Zhao",
+      "yongers"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Generalizable Knowledge Distillation from Vision Foundation Models for Semantic Segmentation",
+      "abstract": "Knowledge distillation (KD) has been widely applied in semantic segmentation to compress large models, but conventional approaches primarily preserve in-domain accuracy while neglecting out-of-domain generalization, which is essential under distribution shifts. This limitation becomes more severe with the emergence of vision foundation models (VFMs): although VFMs exhibit strong robustness on unseen data, distilling them with conventional KD often compromises this ability. We propose Generalizable Knowledge Distillation (GKD), a multi-stage framework that explicitly enhances generalization. GKD decouples representation learning from task learning. In the first stage, the student acquires domain-agnostic representations through selective feature distillation, and in the second stage, these representations are frozen for task adaptation, thereby mitigating overfitting to visible domains. To further support transfer, we introduce a query-based soft distillation mechanism, where student features act as queries to teacher representations to selectively retrieve transferable spatial knowledge from VFMs. Extensive experiments on five domain generalization benchmarks demonstrate that GKD consistently outperforms existing KD methods, achieving average gains of +1.9% in foundation-to-foundation (F2F) and +10.6% in foundation-to-local (F2L) distillation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.02554",
+      "pdf_url": "https://arxiv.org/pdf/2603.02554",
+      "github_links": [
+        "https://github.com/Younger-hua/GKD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.02554",
+      "scraped_at": "2026-03-10T02:07:11.597804"
+    },
+    "scraped_date": "2026-03-10"
   }
 ]

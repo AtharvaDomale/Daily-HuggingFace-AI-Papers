@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-6-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-2802+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-1-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-2803+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">6</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">6</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">235</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">2802+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">1</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">7</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">236</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">2803+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** March 09, 2026
+**Last Updated:** March 10, 2026
 
 ---
 
@@ -119,80 +119,17 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. RoboMME: Benchmarking and Understanding Memory for Robotic Generalist Policies</b> ⭐ 3</summary>
+<summary><b>1. Generalizable Knowledge Distillation from Vision Foundation Models for Semantic Segmentation</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Haoran Zhang, Yuejiang Liu, Jayjun Lee, Hongze Fu, Yinpei Dai
+**👥 Authors:** Ning Huyan, Dou Quan, Shuang Wang, Dong Zhao, yongers
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.04639) • [📄 arXiv](https://arxiv.org/abs/2603.04639) • [📥 PDF](https://arxiv.org/pdf/2603.04639)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.02554) • [📄 arXiv](https://arxiv.org/abs/2603.02554) • [📥 PDF](https://arxiv.org/pdf/2603.02554)
 
-**💻 Code:** [⭐ Code](https://github.com/RoboMME/robomme_benchmark)
+**💻 Code:** [⭐ Code](https://github.com/Younger-hua/GKD)
 
-> TL;DR: RoboMME is a new benchmark for memory-augmented robotic manipulation, evaluating how well models remember, reason, and act across temporal, spatial, object, and procedural memory.
-
-</details>
-
-<details>
-<summary><b>2. Physical Simulator In-the-Loop Video Generation</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Thabo Beeler, Stylianos Moschoglou, Alexandros Lattas, Mark He Huang, Lin Geng Foo
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.06408) • [📄 arXiv](https://arxiv.org/abs/2603.06408) • [📥 PDF](https://arxiv.org/pdf/2603.06408)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>3. Dynamic Chunking Diffusion Transformer</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.06351) • [📄 arXiv](https://arxiv.org/abs/2603.06351) • [📥 PDF](https://arxiv.org/pdf/2603.06351)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>4. FlashPrefill: Instantaneous Pattern Discovery and Thresholding for Ultra-Fast Long-Context Prefilling</b> ⭐ 3</summary>
-
-<br/>
-
-**👥 Authors:** Bingning Wang, Juqiu Wang, Zhiying Wu, Huaibo Huang, Qihang Fan
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.06199) • [📄 arXiv](https://arxiv.org/abs/2603.06199) • [📥 PDF](https://arxiv.org/pdf/2603.06199)
-
-**💻 Code:** [⭐ Code](https://github.com/qhfan/FlashPrefill)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>5. PixARMesh: Autoregressive Mesh-Native Single-View Scene Reconstruction</b> ⭐ 1</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.05888) • [📄 arXiv](https://arxiv.org/abs/2603.05888) • [📥 PDF](https://arxiv.org/pdf/2603.05888)
-
-**💻 Code:** [⭐ Code](https://github.com/mlpc-ucsd/PixARMesh)
-
-> PixARMesh is a mesh-native autoregressive framework for single-view 3D scene reconstruction. Instead of reconstructing via intermediate volumetric or implicit representations, PixARMesh directly models instances with native mesh representation. Ob...
-
-</details>
-
-<details>
-<summary><b>6. Reasoning Models Struggle to Control their Chains of Thought</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.05706) • [📄 arXiv](https://arxiv.org/abs/2603.05706) • [📥 PDF](https://arxiv.org/pdf/2603.05706)
-
-> This work introduces CoT-Control to measure whether reasoning models can suppress or manipulate their chain-of-thought, finding limited controllability, modestly improving with size and inhibited by RL, prompts, and compute.
+> Knowledge distillation (KD) has been widely applied in semantic segmentation to compress large models, but conventional approaches primarily preserve in-domain accuracy while neglecting out-of-domain generalization, which is essential under distri...
 
 </details>
 
@@ -204,28 +141,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 6 |
-| 📅 Today | [`2026-03-09.json`](data/daily/2026-03-09.json) | 6 |
-| 📆 This Week | [`2026-W10.json`](data/weekly/2026-W10.json) | 6 |
-| 🗓️ This Month | [`2026-03.json`](data/monthly/2026-03.json) | 235 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 1 |
+| 📅 Today | [`2026-03-10.json`](data/daily/2026-03-10.json) | 1 |
+| 📆 This Week | [`2026-W10.json`](data/weekly/2026-W10.json) | 7 |
+| 🗓️ This Month | [`2026-03.json`](data/monthly/2026-03.json) | 236 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-03-09 | 6 | [View JSON](data/daily/2026-03-09.json) |
+| 📌 2026-03-10 | 1 | [View JSON](data/daily/2026-03-10.json) |
+| 📄 2026-03-09 | 6 | [View JSON](data/daily/2026-03-09.json) |
 | 📄 2026-03-08 | 24 | [View JSON](data/daily/2026-03-08.json) |
 | 📄 2026-03-07 | 24 | [View JSON](data/daily/2026-03-07.json) |
 | 📄 2026-03-06 | 21 | [View JSON](data/daily/2026-03-06.json) |
 | 📄 2026-03-05 | 41 | [View JSON](data/daily/2026-03-05.json) |
 | 📄 2026-03-04 | 41 | [View JSON](data/daily/2026-03-04.json) |
-| 📄 2026-03-03 | 22 | [View JSON](data/daily/2026-03-03.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W10 | 6 | [View JSON](data/weekly/2026-W10.json) |
+| 📅 2026-W10 | 7 | [View JSON](data/weekly/2026-W10.json) |
 | 📅 2026-W09 | 201 | [View JSON](data/weekly/2026-W09.json) |
 | 📅 2026-W08 | 184 | [View JSON](data/weekly/2026-W08.json) |
 | 📅 2026-W07 | 197 | [View JSON](data/weekly/2026-W07.json) |
@@ -234,7 +171,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-03 | 235 | [View JSON](data/monthly/2026-03.json) |
+| 🗓️ 2026-03 | 236 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
 | 🗓️ 2025-12 | 787 | [View JSON](data/monthly/2025-12.json) |
