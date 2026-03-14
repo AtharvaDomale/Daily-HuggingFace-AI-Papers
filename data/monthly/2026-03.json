@@ -5116,5 +5116,960 @@
       "scraped_at": "2026-03-13T02:10:36.678732"
     },
     "scraped_date": "2026-03-13"
+  },
+  {
+    "title": "Spatial-TTT: Streaming Visual-based Spatial Intelligence with Test-Time Training",
+    "paper_url": "https://huggingface.co/papers/2603.12255",
+    "authors": [],
+    "stars": "71",
+    "details": {
+      "title": "Spatial-TTT: Streaming Visual-based Spatial Intelligence with Test-Time Training",
+      "abstract": "code: https://github.com/THU-SI/Spatial-TTT",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.12255",
+      "pdf_url": "https://arxiv.org/pdf/2603.12255",
+      "github_links": [
+        "https://github.com/THU-SI/Spatial-TTT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.12255",
+      "scraped_at": "2026-03-14T02:08:32.095249"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "Strategic Navigation or Stochastic Search? How Agents and Humans Reason Over Document Collections",
+    "paper_url": "https://huggingface.co/papers/2603.12180",
+    "authors": [],
+    "stars": "12",
+    "details": {
+      "title": "Strategic Navigation or Stochastic Search? How Agents and Humans Reason Over Document Collections",
+      "abstract": "Dataset: https://huggingface.co/datasets/OxRML/MADQA Baseline code: https://github.com/OxRML/MADQA Leaderboard: https://huggingface.co/spaces/Snowflake/MADQA-Leaderboard",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.12180",
+      "pdf_url": "https://arxiv.org/pdf/2603.12180",
+      "github_links": [
+        "https://github.com/OxRML/MADQA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.12180",
+      "scraped_at": "2026-03-14T02:08:34.104337"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "IndexCache: Accelerating Sparse Attention via Cross-Layer Index Reuse",
+    "paper_url": "https://huggingface.co/papers/2603.12201",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "IndexCache: Accelerating Sparse Attention via Cross-Layer Index Reuse",
+      "abstract": "We introduce IndexCache, a method to accelerate DeepSeek Sparse Attention (DSA) by exploiting cross-layer redundancy in token selection. In DSA, a lightweight indexer at each layer selects top-k tokens for sparse attention, but adjacent layers produce nearly identical selections (70-100% overlap). IndexCache removes up to 75% of these redundant indexers by letting most layers reuse indices from a small set of retained layers. We propose a training-free greedy search to find which layers to keep, and a training-aware multi-layer distillation loss that adapts the model to aggressive sharing. On a 30B model, IndexCache achieves 1.82× prefill and 1.48× decode speedup at 200K context with negligible quality loss. Results on GLM-5 (744B) confirm scalability to production.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.12201",
+      "pdf_url": "https://arxiv.org/pdf/2603.12201",
+      "github_links": [
+        "https://github.com/THUDM/IndexCache"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.12201",
+      "scraped_at": "2026-03-14T02:08:36.332227"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "Video-Based Reward Modeling for Computer-Use Agents",
+    "paper_url": "https://huggingface.co/papers/2603.10178",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "Video-Based Reward Modeling for Computer-Use Agents",
+      "abstract": "Computer-using agents (CUAs) are becoming increasingly capable; however, it remains difficult to scale evaluation of whether a trajectory truly fulfills a user instruction. In this work, we study reward modeling from execution video: a sequence of keyframes from an agent trajectory that is independent of the agent's internal reasoning or actions. Although video-execution modeling is method-agnostic, it presents key challenges, including highly redundant layouts and subtle, localized cues that determine success. We introduce Execution Video Reward 53k (ExeVR-53k), a dataset of 53k high-quality video--task--reward triplets. We further propose adversarial instruction translation to synthesize negative samples with step-level annotations. To enable learning from long, high-resolution execution videos, we design spatiotemporal token pruning, which removes homogeneous regions and persistent tokens while preserving decisive UI changes. Building on these components, we fine-tune an Execution Video Reward Model (ExeVRM) that takes only a user instruction and a video-execution sequence to predict task success. Our ExeVRM 8B achieves 84.7% accuracy and 87.7% recall on video-execution assessment, outperforming strong proprietary models such as GPT-5.2 and Gemini-3 Pro across Ubuntu, macOS, Windows, and Android, while providing more precise temporal attribution. These results show that video-execution reward modeling can serve as a scalable, model-agnostic evaluator for CUAs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.10178",
+      "pdf_url": "https://arxiv.org/pdf/2603.10178",
+      "github_links": [
+        "https://github.com/limenlp/ExeVRM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.10178",
+      "scraped_at": "2026-03-14T02:08:38.361453"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "DreamVideo-Omni: Omni-Motion Controlled Multi-Subject Video Customization with Latent Identity Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2603.12257",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DreamVideo-Omni: Omni-Motion Controlled Multi-Subject Video Customization with Latent Identity Reinforcement Learning",
+      "abstract": "Project Page: https://dreamvideo-omni.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.12257",
+      "pdf_url": "https://arxiv.org/pdf/2603.12257",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.12257",
+      "scraped_at": "2026-03-14T02:08:40.341492"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "Trust Your Critic: Robust Reward Modeling and Reinforcement Learning for Faithful Image Editing and Generation",
+    "paper_url": "https://huggingface.co/papers/2603.12247",
+    "authors": [],
+    "stars": "23",
+    "details": {
+      "title": "Trust Your Critic: Robust Reward Modeling and Reinforcement Learning for Faithful Image Editing and Generation",
+      "abstract": "Project Page: https://firm-reward.github.io/ Code: https://github.com/VisionXLab/FIRM-Reward Hugging Face: https://huggingface.co/collections/VisionXLab/firm-reward",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.12247",
+      "pdf_url": "https://arxiv.org/pdf/2603.12247",
+      "github_links": [
+        "https://github.com/VisionXLab/FIRM-Reward"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.12247",
+      "scraped_at": "2026-03-14T02:08:42.316955"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "DVD: Deterministic Video Depth Estimation with Generative Priors",
+    "paper_url": "https://huggingface.co/papers/2603.12250",
+    "authors": [
+      "Jing He",
+      "Chenfei Liao",
+      "Hongfei Zhang",
+      "haodongli",
+      "Harold328"
+    ],
+    "stars": "72",
+    "details": {
+      "title": "DVD: Deterministic Video Depth Estimation with Generative Priors",
+      "abstract": "New SOTA of video depth estimation",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.12250",
+      "pdf_url": "https://arxiv.org/pdf/2603.12250",
+      "github_links": [
+        "https://github.com/EnVision-Research/DVD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.12250",
+      "scraped_at": "2026-03-14T02:08:44.327756"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "WeEdit: A Dataset, Benchmark and Glyph-Guided Framework for Text-centric Image Editing",
+    "paper_url": "https://huggingface.co/papers/2603.11593",
+    "authors": [
+      "Zongkai Liu",
+      "Juntao Liu",
+      "Hui Zhang",
+      "fandong",
+      "lqniu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "WeEdit: A Dataset, Benchmark and Glyph-Guided Framework for Text-centric Image Editing",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API PosterOmni: Generalized Artistic Poster Creation via Task Distillation and Unified Reward Feedback (2026) Kiwi-Edit: Versatile Video Editing via Instruction and Reference Guidance (2026) DeepGen 1.0: A Lightweight Unified Multimodal Model for Advancing Image Generation and Editing (2026) Generative Visual Chain-of-Thought for Image Editing (2026) VDE Bench: Evaluating The Capability of Image Editing Models to Modify Visual Documents (2026) CoEditor++: Instruction-based Visual Editing via Cognitive Reasoning (2026) Think-Then-Generate: Reasoning-Aware Text-to-Image Diffusion with LLM Encoders (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.11593",
+      "pdf_url": "https://arxiv.org/pdf/2603.11593",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.11593",
+      "scraped_at": "2026-03-14T02:08:46.239779"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "ShotVerse: Advancing Cinematic Camera Control for Text-Driven Multi-Shot Video Creation",
+    "paper_url": "https://huggingface.co/papers/2603.11421",
+    "authors": [],
+    "stars": "26",
+    "details": {
+      "title": "ShotVerse: Advancing Cinematic Camera Control for Text-Driven Multi-Shot Video Creation",
+      "abstract": "Text-driven video generation has democratized film creation, but camera control in cinematic multi-shot scenarios remains a significant block. Implicit textual prompts lack precision, while explicit trajectory conditioning imposes prohibitive manual overhead and often triggers execution failures in current models. To overcome this bottleneck, we propose a data-centric paradigm shift, positing that aligned (Caption, Trajectory, Video) triplets form an inherent joint distribution that can connect automated plotting and precise execution. Guided by this insight, we present ShotVerse, a \"Plan-then-Control\" framework that decouples generation into two collaborative agents: a VLM (Vision-Language Model)-based Planner that leverages spatial priors to obtain cinematic, globally aligned trajectories from text, and a Controller that renders these trajectories into multi-shot video content via a camera adapter. Central to our approach is the construction of a data foundation: we design an automated multi-shot camera calibration pipeline aligns disjoint single-shot trajectories into a unified global coordinate system. This facilitates the curation of ShotVerse-Bench, a high-fidelity cinematic dataset with a three-track evaluation protocol that serves as the bedrock for our framework. Extensive experiments demonstrate that ShotVerse effectively bridges the gap between unreliable textual control and labor-intensive manual plotting, achieving superior cinematic aesthetics and generating multi-shot videos that are both camera-accurate and cross-shot consistent.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.11421",
+      "pdf_url": "https://arxiv.org/pdf/2603.11421",
+      "github_links": [
+        "https://github.com/Songlin1998/ShotVerse"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.11421",
+      "scraped_at": "2026-03-14T02:08:48.238059"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "GRADE: Benchmarking Discipline-Informed Reasoning in Image Editing",
+    "paper_url": "https://huggingface.co/papers/2603.12264",
+    "authors": [
+      "Zuica96",
+      "NingLiao",
+      "Changyao",
+      "Glllllly",
+      "wzk1015"
+    ],
+    "stars": "23",
+    "details": {
+      "title": "GRADE: Benchmarking Discipline-Informed Reasoning in Image Editing",
+      "abstract": "Unified multimodal models target joint understanding, reasoning, and generation, but current image editing benchmarks are largely confined to natural images and shallow commonsense reasoning, offering limited assessment of this capability under structured, domain-specific constraints. In this work, we introduce GRADE, the first benchmark to assess discipline-informed knowledge and reasoning in image editing. GRADE comprises 520 carefully curated samples across 10 academic domains, spanning from natural science to social science. To support rigorous evaluation, we propose a multi-dimensional evaluation protocol that jointly assesses Discipline Reasoning, Visual Consistency, and Logical Readability. Extensive experiments on 20 state-of-the-art open-source and closed-source models reveal substantial limitations in current models under implicit, knowledge-intensive editing settings, leading to large performance gaps. Beyond quantitative scores, we conduct rigorous analyses and ablations to expose model shortcomings and identify the constraints within disciplinary editing. Together, GRADE pinpoints key directions for the future development of unified multimodal models, advancing the research on discipline-informed image editing and reasoning. Our benchmark and evaluation code are publicly released.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.12264",
+      "pdf_url": "https://arxiv.org/pdf/2603.12264",
+      "github_links": [
+        "https://github.com/VisionXLab/GRADE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.12264",
+      "scraped_at": "2026-03-14T02:08:50.252072"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "One Model, Many Budgets: Elastic Latent Interfaces for Diffusion Transformers",
+    "paper_url": "https://huggingface.co/papers/2603.12245",
+    "authors": [],
+    "stars": "11",
+    "details": {
+      "title": "One Model, Many Budgets: Elastic Latent Interfaces for Diffusion Transformers",
+      "abstract": "We found that DiTs waste substantial compute by allocating it uniformly across pixels, despite large variation in regional difficulty. ELIT addresses this by introducing a variable-length set of latent tokens and two lightweight cross-attention layers (Read & Write) that concentrate computation on the most important input regions, delivering up to 53% FID and 58% FDD improvements on ImageNet-1K at 512px. At inference time, the number of latent tokens becomes a user-controlled knob, providing a smooth quality–FLOPs trade-off while enabling ~33% cheaper guidance out of the box.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.12245",
+      "pdf_url": "https://arxiv.org/pdf/2603.12245",
+      "github_links": [
+        "https://github.com/snap-research/elit"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.12245",
+      "scraped_at": "2026-03-14T02:08:52.286576"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "CREATE: Testing LLMs for Associative Creativity",
+    "paper_url": "https://huggingface.co/papers/2603.09970",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "CREATE: Testing LLMs for Associative Creativity",
+      "abstract": "we introduce a benchmark for evaluating associative reasoning capabilities in LLMs. We introduce a creative utility metric that measures the diversity and quality of responses.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.09970",
+      "pdf_url": "https://arxiv.org/pdf/2603.09970",
+      "github_links": [
+        "https://github.com/ManyaWadhwa/CREATE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.09970",
+      "scraped_at": "2026-03-14T02:08:54.181753"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "EVATok: Adaptive Length Video Tokenization for Efficient Visual Autoregressive Generation",
+    "paper_url": "https://huggingface.co/papers/2603.12267",
+    "authors": [],
+    "stars": "20",
+    "details": {
+      "title": "EVATok: Adaptive Length Video Tokenization for Efficient Visual Autoregressive Generation",
+      "abstract": "Accepted by CVPR 2026 Project page: https://silentview.github.io/EVATok/ Github Code: https://github.com/HKU-MMLab/EVATok",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.12267",
+      "pdf_url": "https://arxiv.org/pdf/2603.12267",
+      "github_links": [
+        "https://github.com/HKU-MMLab/EVATok"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.12267",
+      "scraped_at": "2026-03-14T02:08:56.171231"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "EndoCoT: Scaling Endogenous Chain-of-Thought Reasoning in Diffusion Models",
+    "paper_url": "https://huggingface.co/papers/2603.12252",
+    "authors": [],
+    "stars": "21",
+    "details": {
+      "title": "EndoCoT: Scaling Endogenous Chain-of-Thought Reasoning in Diffusion Models",
+      "abstract": "Recently, Multimodal Large Language Models (MLLMs) have been widely integrated into diffusion frameworks primarily as text encoders to tackle complex tasks such as spatial reasoning. However, this paradigm suffers from two critical limitations: (i) MLLMs text encoder exhibits insufficient reasoning depth. Single-step encoding fails to activate the Chain-of-Thought process, which is essential for MLLMs to provide accurate guidance for complex tasks. (ii) The guidance remains invariant during the decoding process. Invariant guidance during decoding prevents DiT from progressively decomposing complex instructions into actionable denoising steps, even with correct MLLM encodings. To this end, we propose Endogenous Chain-of-Thought (EndoCoT), a novel framework that first activates MLLMs' reasoning potential by iteratively refining latent thought states through an iterative thought guidance module, and then bridges these states to the DiT's denoising process. Second, a terminal thought grounding module is applied to ensure the reasoning trajectory remains grounded in textual supervision by aligning the final state with ground-truth answers. With these two components, the MLLM text encoder delivers meticulously reasoned guidance, enabling the DiT to execute it progressively and ultimately solve complex tasks in a step-by-step manner. Extensive evaluations across diverse benchmarks (e.g., Maze, TSP, VSP, and Sudoku) achieve an average accuracy of 92.1%, outperforming the strongest baseline by 8.3 percentage points.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.12252",
+      "pdf_url": "https://arxiv.org/pdf/2603.12252",
+      "github_links": [
+        "https://github.com/InternLM/EndoCoT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.12252",
+      "scraped_at": "2026-03-14T02:08:58.073982"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "RubiCap: Rubric-Guided Reinforcement Learning for Dense Image Captioning",
+    "paper_url": "https://huggingface.co/papers/2603.09160",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "RubiCap: Rubric-Guided Reinforcement Learning for Dense Image Captioning",
+      "abstract": "Scaling expert-annotated image captions is expensive. Supervised distillation from VLMs helps but has a diversity ceiling: models memorize the teacher's style and generalize poorly. Can RL fix this without a verifiable \"ground truth\"?",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.09160",
+      "pdf_url": "https://arxiv.org/pdf/2603.09160",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.09160",
+      "scraped_at": "2026-03-14T02:09:00.001980"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "OmniStream: Mastering Perception, Reconstruction and Action in Continuous Streams",
+    "paper_url": "https://huggingface.co/papers/2603.12265",
+    "authors": [
+      "Weidi Xie",
+      "Shangzhe Di",
+      "haoningwu",
+      "Jazzcharles",
+      "Go2Heart"
+    ],
+    "stars": "25",
+    "details": {
+      "title": "OmniStream: Mastering Perception, Reconstruction and Action in Continuous Streams",
+      "abstract": "Project Page: https://go2heart.github.io/omnistream/ Paper: https://arxiv.org/abs/2603.12265 Code: https://github.com/Go2Heart/OmniStream",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.12265",
+      "pdf_url": "https://arxiv.org/pdf/2603.12265",
+      "github_links": [
+        "https://github.com/Go2Heart/OmniStream"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.12265",
+      "scraped_at": "2026-03-14T02:09:01.900743"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "XSkill: Continual Learning from Experience and Skills in Multimodal Agents",
+    "paper_url": "https://huggingface.co/papers/2603.12056",
+    "authors": [
+      "Fung",
+      "Yi R.",
+      "Xiaoye Qu",
+      "Zhaochen Su",
+      "Guanyu Jiang"
+    ],
+    "stars": "14",
+    "details": {
+      "title": "XSkill: Continual Learning from Experience and Skills in Multimodal Agents",
+      "abstract": "We welcome feedback and discussion from the community 😄.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.12056",
+      "pdf_url": "https://arxiv.org/pdf/2603.12056",
+      "github_links": [
+        "https://github.com/XSkill-Agent/XSkill"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.12056",
+      "scraped_at": "2026-03-14T02:09:03.787231"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "Mobile-GS: Real-time Gaussian Splatting for Mobile Devices",
+    "paper_url": "https://huggingface.co/papers/2603.11531",
+    "authors": [
+      "Xin Yu",
+      "Kun Zhan",
+      "Yida Wang",
+      "Xiaobiao Du"
+    ],
+    "stars": "32",
+    "details": {
+      "title": "Mobile-GS: Real-time Gaussian Splatting for Mobile Devices",
+      "abstract": "3D Gaussian Splatting (3DGS) has emerged as a powerful representation for high-quality rendering across a wide range of this http URL, its high computational demands and large storage costs pose significant challenges for deployment on mobile devices. In this work, we propose a mobile-tailored real-time Gaussian Splatting method, dubbed Mobile-GS, enabling efficient inference of Gaussian Splatting on edge devices. Specifically, we first identify alpha blending as the primary computational bottleneck, since it relies on the time-consuming Gaussian depth sorting process. To solve this issue, we propose a depth-aware order-independent rendering scheme that eliminates the need for sorting, thereby substantially accelerating rendering. Although this order-independent rendering improves rendering speed, it may introduce transparency artifacts in regions with overlapping geometry due to the scarcity of rendering order. To address this problem, we propose a neural view-dependent enhancement strategy, enabling more accurate modeling of view-dependent effects conditioned on viewing direction, 3D Gaussian geometry, and appearance attributes. In this way, Mobile-GS can achieve both high-quality and real-time rendering. Furthermore, to facilitate deployment on memory-constrained mobile platforms, we also introduce first-order spherical harmonics distillation, a neural vector quantization technique, and a contribution-based pruning strategy to reduce the number of Gaussian primitives and compress the 3D Gaussian representation with the assistance of neural networks. Extensive experiments demonstrate that our proposed Mobile-GS achieves real-time rendering and compact model size while preserving high visual quality, making it well-suited for mobile applications.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.11531",
+      "pdf_url": "https://arxiv.org/pdf/2603.11531",
+      "github_links": [
+        "https://github.com/xiaobiaodu/mobile-gs"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.11531",
+      "scraped_at": "2026-03-14T02:09:05.894287"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "Are Video Reasoning Models Ready to Go Outside?",
+    "paper_url": "https://huggingface.co/papers/2603.10652",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "Are Video Reasoning Models Ready to Go Outside?",
+      "abstract": "Project Page: https://robust-video-reason.github.io arXiv: https://arxiv.org/abs/2603.10652 Github: https://github.com/codepassionor/ROVA",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.10652",
+      "pdf_url": "https://arxiv.org/pdf/2603.10652",
+      "github_links": [
+        "https://github.com/codepassionor/ROVA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.10652",
+      "scraped_at": "2026-03-14T02:09:07.819377"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "Understanding by Reconstruction: Reversing the Software Development Process for LLM Pretraining",
+    "paper_url": "https://huggingface.co/papers/2603.11103",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Understanding by Reconstruction: Reversing the Software Development Process for LLM Pretraining",
+      "abstract": "good paper!, any plan releasing the workflow?",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.11103",
+      "pdf_url": "https://arxiv.org/pdf/2603.11103",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.11103",
+      "scraped_at": "2026-03-14T02:09:09.752553"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "Examining Reasoning LLMs-as-Judges in Non-Verifiable LLM Post-Training",
+    "paper_url": "https://huggingface.co/papers/2603.12246",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Examining Reasoning LLMs-as-Judges in Non-Verifiable LLM Post-Training",
+      "abstract": "Reasoning LLMs-as-Judges, which can benefit from inference-time scaling, provide a promising path for extending the success of reasoning models to non-verifiable domains where the output correctness/quality cannot be directly checked. However, while reasoning judges have shown better performance on static evaluation benchmarks, their effectiveness in actual policy training has not been systematically examined. Therefore, we conduct a rigorous study to investigate the actual impact of non-reasoning and reasoning judges in reinforcement-learning-based LLM alignment. Our controlled synthetic setting, where a \"gold-standard\" judge (gpt-oss-120b) provides preference annotations to train smaller judges, reveals key differences between non-reasoning and reasoning judges: non-reasoning judges lead to reward hacking easily, while reasoning judges can lead to policies that achieve strong performance when evaluated by the gold-standard judge. Interestingly, we find that the reasoning-judge-trained policies achieve such strong performance by learning to generate highly effective adversarial outputs that can also score well on popular benchmarks such as Arena-Hard by deceiving other LLM-judges. Combined with our further analysis, our study highlights both important findings and room for improvements for applying (reasoning) LLM-judges in non-verifiable LLM post-training.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.12246",
+      "pdf_url": "https://arxiv.org/pdf/2603.12246",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.12246",
+      "scraped_at": "2026-03-14T02:09:11.711316"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "Coarse-Guided Visual Generation via Weighted h-Transform Sampling",
+    "paper_url": "https://huggingface.co/papers/2603.12057",
+    "authors": [],
+    "stars": "16",
+    "details": {
+      "title": "Coarse-Guided Visual Generation via Weighted h-Transform Sampling",
+      "abstract": "Achieve various conditional visual generation guided by a coarse sample with 1 line of code.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.12057",
+      "pdf_url": "https://arxiv.org/pdf/2603.12057",
+      "github_links": [
+        "https://github.com/HKUST-LongGroup/Coarse-guided-Gen"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.12057",
+      "scraped_at": "2026-03-14T02:09:13.592980"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "DIVE: Scaling Diversity in Agentic Task Synthesis for Generalizable Tool Use",
+    "paper_url": "https://huggingface.co/papers/2603.11076",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "DIVE: Scaling Diversity in Agentic Task Synthesis for Generalizable Tool Use",
+      "abstract": "We introduce DIVE, an iterative evidence-driven recipe that scales diversity in agentic task synthesis for generalizable tool use. Unlike prior approaches that synthesize tasks first, DIVE inverts the order — executing diverse, real-world tools first and reverse-deriving tasks from the resulting traces. We build a pool of 373 real-world tools across 5 domains, ensuring every synthesized task is grounded in verifiable tool executions. Key results: Training Qwen3-8B on DIVE data yields +22 avg points across 9 OOD benchmarks, outperforming the strongest 8B baseline by +68% Without any task-specific training, DIVE surpasses specialist agents on their home benchmarks (e.g., GAIA 61.2 vs 50.0, text-only validation set), while specialists suffer negative transfer on unseen domains Scaling analysis reveals: diversity scaling yields stronger OOD gains than quantity scaling even with 4× less data; RL further amplifies the diversity advantage; scaling homogeneous tasks alone hits a ceiling regardless of data volume Despite being 8B, DIVE is competitive with 10–100× larger frontier models (e.g., outperforming Claude-4-Sonnet on BrowseComp and FinSearchComp; on the zero-shot Toolathlon benchmark, improving from near-zero (0.9) to 8.3, approaching GPT-OSS-120B (9.8) and Gemini-2.5-Pro (10.5)) We release code, model, and data: SFT data (20K subset), RL data (3.2K), evaluation benchmark, and trained model.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.11076",
+      "pdf_url": "https://arxiv.org/pdf/2603.11076",
+      "github_links": [
+        "https://github.com/sheep333c/DIVE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.11076",
+      "scraped_at": "2026-03-14T02:09:15.518282"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "Automatic Generation of High-Performance RL Environments",
+    "paper_url": "https://huggingface.co/papers/2603.12145",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Automatic Generation of High-Performance RL Environments",
+      "abstract": "Automatic Generation of High-Performance RL Environments https://arxiv.org/abs/2603.12145",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.12145",
+      "pdf_url": "https://arxiv.org/pdf/2603.12145",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.12145",
+      "scraped_at": "2026-03-14T02:09:17.508939"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "Meta-Reinforcement Learning with Self-Reflection for Agentic Search",
+    "paper_url": "https://huggingface.co/papers/2603.11327",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Meta-Reinforcement Learning with Self-Reflection for Agentic Search",
+      "abstract": "This work introduces MR-Search, an in-context meta reinforcement learning (RL) formulation for agentic search with self-reflection. Instead of optimizing a policy within a single independent episode with sparse rewards, MR-Search trains a policy that conditions on past episodes and adapts its search strategy across episodes. MR-Search learns to learn a search strategy with self-reflection, allowing search agents to improve in-context exploration at test-time.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.11327",
+      "pdf_url": "https://arxiv.org/pdf/2603.11327",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.11327",
+      "scraped_at": "2026-03-14T02:09:19.395949"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "PACED: Distillation at the Frontier of Student Competence",
+    "paper_url": "https://huggingface.co/papers/2603.11178",
+    "authors": [
+      "Zhipeng Wang",
+      "Ran He",
+      "Zhengze Zhou",
+      "Hejian Sang",
+      "xuyd16"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "PACED: Distillation at the Frontier of Student Competence",
+      "abstract": "We welcome feedback and discussion from the community！",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.11178",
+      "pdf_url": "https://arxiv.org/pdf/2603.11178",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.11178",
+      "scraped_at": "2026-03-14T02:09:21.316407"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "Geometric Autoencoder for Diffusion Models",
+    "paper_url": "https://huggingface.co/papers/2603.10365",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "Geometric Autoencoder for Diffusion Models",
+      "abstract": "Latent diffusion models have established a new state-of-the-art in high-resolution visual generation. Integrating Vision Foundation Model priors improves generative efficiency, yet existing latent designs remain largely heuristic. These approaches often struggle to unify semantic discriminability, reconstruction fidelity, and latent compactness. In this paper, we propose Geometric Autoencoder (GAE), a principled framework that systematically addresses these challenges. By analyzing various alignment paradigms, GAE constructs an optimized low-dimensional semantic supervision target from VFMs to provide guidance for the autoencoder. Furthermore, we leverage latent normalization that replaces the restrictive KL-divergence of standard VAEs, enabling a more stable latent manifold specifically optimized for diffusion learning. To ensure robust reconstruction under high-intensity noise, GAE incorporates a dynamic noise sampling mechanism. Empirically, GAE achieves compelling performance on the ImageNet-1K $256 \\times 256$ benchmark, reaching a gFID of 1.82 at only 80 epochs and 1.31 at 800 epochs without Classifier-Free Guidance, significantly surpassing existing state-of-the-art methods. Beyond generative quality, GAE establishes a superior equilibrium between compression, semantic depth and robust reconstruction stability. These results validate our design considerations, offering a promising paradigm for latent diffusion modeling. Code and models are publicly available at https://github.com/sii-research/GAE .",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.10365",
+      "pdf_url": "https://arxiv.org/pdf/2603.10365",
+      "github_links": [
+        "https://github.com/sii-research/GAE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.10365",
+      "scraped_at": "2026-03-14T02:09:23.674480"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "Training Language Models via Neural Cellular Automata",
+    "paper_url": "https://huggingface.co/papers/2603.10055",
+    "authors": [
+      "Pulkit Agrawal",
+      "Akarsh Kumar",
+      "Dan Lee",
+      "hanseungwook"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Training Language Models via Neural Cellular Automata",
+      "abstract": "Neural cellular automata generate synthetic spatiotemporal data for pre-pre-training large language models, achieving better performance and faster convergence than traditional natural language pre-training.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.10055",
+      "pdf_url": "https://arxiv.org/pdf/2603.10055",
+      "github_links": [
+        "https://github.com/danihyunlee/nca-pre-pretraining"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.10055",
+      "scraped_at": "2026-03-14T02:09:25.531586"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "Multi-Task Reinforcement Learning for Enhanced Multimodal LLM-as-a-Judge",
+    "paper_url": "https://huggingface.co/papers/2603.11665",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Multi-Task Reinforcement Learning for Enhanced Multimodal LLM-as-a-Judge",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Bi-Level Prompt Optimization for Multimodal LLM-as-a-Judge (2026) Omni-RRM: Advancing Omni Reward Modeling via Automatic Rubric-Grounded Preference Synthesis (2026) Endogenous Reprompting: Self-Evolving Cognitive Alignment for Unified Multimodal Models (2026) TPRU: Advancing Temporal and Procedural Understanding in Large Multimodal Models (2026) EMO-R3: Reflective Reinforcement Learning for Emotional Reasoning in Multimodal Large Language Models (2026) V-Retrver: Evidence-Driven Agentic Reasoning for Universal Multimodal Retrieval (2026) PaLMR: Towards Faithful Visual Reasoning via Multimodal Process Alignment (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.11665",
+      "pdf_url": "https://arxiv.org/pdf/2603.11665",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.11665",
+      "scraped_at": "2026-03-14T02:09:27.431590"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "Tiny Aya: Bridging Scale and Multilingual Depth",
+    "paper_url": "https://huggingface.co/papers/2603.11510",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Tiny Aya: Bridging Scale and Multilingual Depth",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API BYOL: Bring Your Own Language Into LLMs (2026) EstLLM: Enhancing Estonian Capabilities in Multilingual LLMs via Continued Pretraining and Post-Training (2026) Kakugo: Distillation of Low-Resource Languages into Small Language Models (2026) Raising Bars, Not Parameters: LilMoo Compact Language Model for Hindi (2026) EuroLLM-22B: Technical Report (2026) TildeOpen LLM: Leveraging Curriculum Learning to Achieve Equitable Language Representation (2026) Translation as a Scalable Proxy for Multilingual Evaluation (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.11510",
+      "pdf_url": "https://arxiv.org/pdf/2603.11510",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.11510",
+      "scraped_at": "2026-03-14T02:09:29.548355"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "FireRedASR2S: A State-of-the-Art Industrial-Grade All-in-One Automatic Speech Recognition System",
+    "paper_url": "https://huggingface.co/papers/2603.10420",
+    "authors": [
+      "Wenpeng Li",
+      "Junjie Chen",
+      "Kai Huang",
+      "Yan Jia",
+      "Kaituo Xu"
+    ],
+    "stars": "368",
+    "details": {
+      "title": "FireRedASR2S: A State-of-the-Art Industrial-Grade All-in-One Automatic Speech Recognition System",
+      "abstract": "We present FireRedASR2S , a state-of-the-art industrial-grade all-in-one automatic speech recognition (ASR) system. It integrates four modules in a unified pipeline: ASR, Voice Activity Detection (VAD), Spoken Language Identification (LID), and Punctuation Prediction (Punc). All modules achieve SOTA performance on the evaluated benchmarks: FireRedASR2 : An ASR module with two variants, FireRedASR2-LLM (8B+ parameters) and FireRedASR2-AED (1B+ parameters), supporting speech and singing transcription for Mandarin, Chinese dialects and accents, English, and code-switching. Compared to FireRedASR, FireRedASR2 delivers improved recognition accuracy and broader dialect and accent coverage. FireRedASR2-LLM achieves 2.89% average CER on 4 public Mandarin benchmarks and 11.55% on 19 public Chinese dialects and accents benchmarks, outperforming competitive baselines including Doubao-ASR, Qwen3-ASR, and Fun-ASR. FireRedVAD : An ultra-lightweight module (0.6M parameters) based on the Deep Feedforward Sequential Memory Network (DFSMN), supporting streaming VAD, non-streaming VAD, and multi-label VAD (mVAD). On the FLEURS-VAD-102 benchmark, it achieves 97.57% frame-level F1 and 99.60% AUC-ROC, outperforming Silero-VAD, TEN-VAD, FunASR-VAD, and WebRTC-VAD. FireRedLID : An Encoder-Decoder LID module supporting 100+ languages and 20+ Chinese dialects and accents. On FLEURS (82 languages), it achieves 97.18% utterance-level accuracy, outperforming Whisper and SpeechBrain. FireRedPunc : A BERT-style punctuation prediction module for Chinese and English. On multi-domain benchmarks, it achieves 78.90% average F1, outperforming FunASR-Punc (62.77%). To advance research in speech processing, we release model weights and code at https://github.com/FireRedTeam/FireRedASR2S .",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.10420",
+      "pdf_url": "https://arxiv.org/pdf/2603.10420",
+      "github_links": [
+        "https://github.com/FireRedTeam/FireRedASR2S"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.10420",
+      "scraped_at": "2026-03-14T02:09:31.532000"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "TeamHOI: Learning a Unified Policy for Cooperative Human-Object Interactions with Any Team Size",
+    "paper_url": "https://huggingface.co/papers/2603.07988",
+    "authors": [],
+    "stars": "19",
+    "details": {
+      "title": "TeamHOI: Learning a Unified Policy for Cooperative Human-Object Interactions with Any Team Size",
+      "abstract": "TeamHOI is a novel framework for learning a unified decentralized policy for cooperative human-object interactions (HOI) that works seamlessly across varying team sizes and object configurations. We evaluate our framework on a cooperative table transport task, where multiple agents must coordinate to form stable lifting formation and subsequently carry the object. Project Page: https://splionar.github.io/TeamHOI/ Paper: https://arxiv.org/abs/2603.07988 Code: https://github.com/sail-sg/TeamHOI",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.07988",
+      "pdf_url": "https://arxiv.org/pdf/2603.07988",
+      "github_links": [
+        "https://github.com/sail-sg/TeamHOI"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.07988",
+      "scraped_at": "2026-03-14T02:09:33.432804"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "SoundWeaver: Semantic Warm-Starting for Text-to-Audio Diffusion Serving",
+    "paper_url": "https://huggingface.co/papers/2603.07865",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SoundWeaver: Semantic Warm-Starting for Text-to-Audio Diffusion Serving",
+      "abstract": "Tired of multi-second waits for stunning AI audio? We introduce SoundWeaver, the first training-free, model-agnostic serving system that revolutionizes text-to-audio diffusion by semantically warm-starting from a tiny cache of similar audio clips! With just ~1K cached entries , it delivers massive 1.8–3.0× latency reduction while actually improving perceptual quality ! Additionally, the first Text-To-Audio paper to supplement quality analysis with a fine-crafted LLM-as-judge evaluation scheme (prompt available in paper)!",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.07865",
+      "pdf_url": "https://arxiv.org/pdf/2603.07865",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.07865",
+      "scraped_at": "2026-03-14T02:09:35.316300"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "Accent Vector: Controllable Accent Manipulation for Multilingual TTS Without Accented Data",
+    "paper_url": "https://huggingface.co/papers/2603.07534",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Accent Vector: Controllable Accent Manipulation for Multilingual TTS Without Accented Data",
+      "abstract": "Accent is an integral part of society, reflecting multiculturalism and shaping how individuals express identity. The majority of English speakers are non-native (L2) speakers, yet current Text-To-Speech (TTS) systems primarily model American-accented English due limited accented data. We propose Accent Vector, a controllable representation that enables accent manipulation in multilingual TTS without requiring accented training data. Accent Vector is derived by fine-tuning a TTS system on native speech of a different language (i.e. non-English) and computing task vectors capturing accent characteristics (i.e. in English).  By scaling and interpolating the vector, we achieve fine-grained control over accent strength and generate mixed-accent speech. In addition, it generalizes beyond English, enabling accent control across multiple languages. Objective and human evaluations confirm the effectiveness of Accent Vector for fine-grained and compositional accent control.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.07534",
+      "pdf_url": "https://arxiv.org/pdf/2603.07534",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.07534",
+      "scraped_at": "2026-03-14T02:09:37.205474"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "NerVE: Nonlinear Eigenspectrum Dynamics in LLM Feed-Forward Networks",
+    "paper_url": "https://huggingface.co/papers/2603.06922",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "NerVE: Nonlinear Eigenspectrum Dynamics in LLM Feed-Forward Networks",
+      "abstract": "Hi everyone! I am excited to share our ICLR 2026 paper, NerVE: Nonlinear Eigenspectrum Dynamics in LLM Feed-Forward Networks. These are some interesting findings about the role of FFN (nonlinearity) in transformer architecture  (we also verified them on non-transformer architecture: MLP-Mixer) : FFN nonlinearities are secretly fighting a war inside your transformer. Self-attention collapses rank doubly exponentially with depth (Dong et al., ICML 2021). We find that, FFN nonlinearities fight back by reinjecting variance into under-utilized dimensions--a process we call nonlinearity-induced rank inflation , which makes the transformer network alive. AdamW makes your nonlinearities work harder but achieve less, compared to Muon .  Under AdamW, FFN nonlinearities spend their capacity repairing spectral damage (ill-conditioned pre-activation eigenspectrum ).  Muon, on the other hand,  preserves healthy spectra (well-conditioned per-activation eigenspectrum) , so nonlinearities only need to refine. You can predict generalization with a single forward pass, no eval set needed. Our spectral metrics (spectral entropy and participation ratio) correlate with validation loss at |r| > 0.97 throughout training.  Short runs can even rank architectural configurations before training to convergence.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.06922",
+      "pdf_url": "https://arxiv.org/pdf/2603.06922",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.06922",
+      "scraped_at": "2026-03-14T02:09:39.137844"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "SurvHTE-Bench: A Benchmark for Heterogeneous Treatment Effect Estimation in Survival Analysis",
+    "paper_url": "https://huggingface.co/papers/2603.05483",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "SurvHTE-Bench: A Benchmark for Heterogeneous Treatment Effect Estimation in Survival Analysis",
+      "abstract": "We present SurvHTE-Bench, a comprehensive causal inference benchmark to evaluate methods that estimate heterogeneous treatment effects from censored survival data, enabling rigorous, fair, and reproducible comparison across diverse causal scenarios.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.05483",
+      "pdf_url": "https://arxiv.org/pdf/2603.05483",
+      "github_links": [
+        "https://github.com/Shahriarnz14/SurvHTE-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.05483",
+      "scraped_at": "2026-03-14T02:09:41.064084"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "EmbTracker: Traceable Black-box Watermarking for Federated Language Models",
+    "paper_url": "https://huggingface.co/papers/2603.12089",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "EmbTracker: Traceable Black-box Watermarking for Federated Language Models",
+      "abstract": "Federated Language Model (FedLM) allows a collaborative learning without sharing raw data, yet it introduces a critical vulnerability, as every untrustworthy client may leak the received functional model instance. Current watermarking schemes for FedLM often require white-box access and client-side cooperation, providing only group-level proof of ownership rather than individual traceability. We propose EmbTracker, a server-side, traceable black-box watermarking framework specifically designed for FedLMs. EmbTracker achieves black-box verifiability by embedding a backdoor-based watermark detectable through simple API queries. Client-level traceability is realized by injecting unique identity-specific watermarks into the model distributed to each client. In this way, a leaked model can be attributed to a specific culprit, ensuring robustness even against non-cooperative participants. Extensive experiments on various language and vision-language models demonstrate that EmbTracker achieves robust traceability with verification rates near 100%, high resilience against removal attacks (fine-tuning, pruning, quantization), and negligible impact on primary task performance (typically within 1-2%).",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.12089",
+      "pdf_url": "https://arxiv.org/pdf/2603.12089",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.12089",
+      "scraped_at": "2026-03-14T02:09:42.932227"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "Dr. SHAP-AV: Decoding Relative Modality Contributions via Shapley Attribution in Audio-Visual Speech Recognition",
+    "paper_url": "https://huggingface.co/papers/2603.12046",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Dr. SHAP-AV: Decoding Relative Modality Contributions via Shapley Attribution in Audio-Visual Speech Recognition",
+      "abstract": "A Shapley-based framework revealing how audio-visual speech recognition models balance what they hear and what they see across architectures, decoding stages, and acoustic conditions.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.12046",
+      "pdf_url": "https://arxiv.org/pdf/2603.12046",
+      "github_links": [
+        "https://github.com/umbertocappellazzo/Dr-SHAP-AV"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.12046",
+      "scraped_at": "2026-03-14T02:09:45.048494"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "Simple Recipe Works: Vision-Language-Action Models are Natural Continual Learners with Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2603.11653",
+    "authors": [
+      "Bo Liu",
+      "Yoonchang Sung",
+      "Chen Tang",
+      "Jay Shim",
+      "Jiaheng Hu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Simple Recipe Works: Vision-Language-Action Models are Natural Continual Learners with Reinforcement Learning",
+      "abstract": "CRL for VLAs",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.11653",
+      "pdf_url": "https://arxiv.org/pdf/2603.11653",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.11653",
+      "scraped_at": "2026-03-14T02:09:47.015431"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "Attention Sinks Are Provably Necessary in Softmax Transformers: Evidence from Trigger-Conditional Tasks",
+    "paper_url": "https://huggingface.co/papers/2603.11487",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Attention Sinks Are Provably Necessary in Softmax Transformers: Evidence from Trigger-Conditional Tasks",
+      "abstract": "Why do transformers attend so strongly to the first token? This paper proves that for certain trigger-conditional behaviors, attention sinks are necessary in softmax transformers. The author shows that any softmax model solving the task must develop a BOS sink, while ReLU attention avoids this entirely, suggesting the phenomenon comes from the geometry of softmax normalization rather than training dynamics.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.11487",
+      "pdf_url": "https://arxiv.org/pdf/2603.11487",
+      "github_links": [
+        "https://github.com/YuvMilo/sinks-are-provably-necessary"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.11487",
+      "scraped_at": "2026-03-14T02:09:48.952572"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "Neural Field Thermal Tomography: A Differentiable Physics Framework for Non-Destructive Evaluation",
+    "paper_url": "https://huggingface.co/papers/2603.11045",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Neural Field Thermal Tomography: A Differentiable Physics Framework for Non-Destructive Evaluation",
+      "abstract": "Project Page: https://cab-lab-princeton.github.io/nefty/",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.11045",
+      "pdf_url": "https://arxiv.org/pdf/2603.11045",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.11045",
+      "scraped_at": "2026-03-14T02:09:50.962105"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "A Mixed Diet Makes DINO An Omnivorous Vision Encoder",
+    "paper_url": "https://huggingface.co/papers/2602.24181",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "A Mixed Diet Makes DINO An Omnivorous Vision Encoder",
+      "abstract": "We adapt DINOv2 into an \"omnivorous\" encoder that produces consistent embeddings for different input modalities like RGB, depth, and segmentation maps. By aligning paired modalities while anchoring to a frozen DINOv2 teacher, we unlock better cross-modal retrieval and transfer to novel visual modalities, all while preserving DINOv2's pretrained semantics.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.24181",
+      "pdf_url": "https://arxiv.org/pdf/2602.24181",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.24181",
+      "scraped_at": "2026-03-14T02:09:52.926071"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights",
+    "paper_url": "https://huggingface.co/papers/2603.12228",
+    "authors": [],
+    "stars": "18",
+    "details": {
+      "title": "Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights",
+      "abstract": "Pretraining produces a learned parameter vector that is typically treated as a starting point for further iterative adaptation. In this work, we instead view the outcome of pretraining as a distribution over parameter vectors, whose support already contains task-specific experts. We show that in small models such expert solutions occupy a negligible fraction of the volume of this distribution, making their discovery reliant on structured optimization methods such as gradient descent. In contrast, in large, well-pretrained models the density of task-experts increases dramatically, so that diverse, task-improving specialists populate a substantial fraction of the neighborhood around the pretrained weights. Motivated by this perspective, we explore a simple, fully parallel post-training method that samples N parameter perturbations at random, selects the top K, and ensembles predictions via majority vote. Despite its simplicity, this approach is competitive with standard post-training methods such as PPO, GRPO, and ES for contemporary large-scale models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.12228",
+      "pdf_url": "https://arxiv.org/pdf/2603.12228",
+      "github_links": [
+        "https://github.com/sunrainyg/RandOpt"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.12228",
+      "scraped_at": "2026-03-14T02:09:54.778627"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "HyPER-GAN: Hybrid Patch-Based Image-to-Image Translation for Real-Time Photorealism Enhancement",
+    "paper_url": "https://huggingface.co/papers/2603.10604",
+    "authors": [
+      "Nikos Nikolaidis",
+      "Stefanos Pasios"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "HyPER-GAN: Hybrid Patch-Based Image-to-Image Translation for Real-Time Photorealism Enhancement",
+      "abstract": "Generative models are widely employed to enhance the photorealism of synthetic data for training computer vision algorithms. However, they often introduce visual artifacts that degrade the accuracy of these algorithms and require high computational resources, limiting their applicability in real-time training or evaluation scenarios. In this paper, we propose Hybrid Patch Enhanced Realism Generative Adversarial Network (HyPER-GAN), a lightweight image-to-image translation method based on a U-Net-style generator designed for real-time inference. The model is trained using paired synthetic and photorealism-enhanced images, complemented by a hybrid training strategy that incorporates matched patches from real-world data to improve visual realism and semantic consistency. Experimental results demonstrate that HyPER-GAN outperforms state-of-the-art paired image-to-image translation methods in terms of inference latency, visual realism, and semantic robustness. Moreover, it is illustrated that the proposed hybrid training strategy indeed improves visual quality and semantic consistency compared to training the model solely with paired synthetic and photorealism-enhanced images.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.10604",
+      "pdf_url": "https://arxiv.org/pdf/2603.10604",
+      "github_links": [
+        "https://github.com/stefanos50/HyPER-GAN"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.10604",
+      "scraped_at": "2026-03-14T02:09:56.651039"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "The Curse and Blessing of Mean Bias in FP4-Quantized LLM Training",
+    "paper_url": "https://huggingface.co/papers/2603.10444",
+    "authors": [
+      "Fanqi Yu",
+      "Yifeng Yang",
+      "Mengyi Chen",
+      "Zhendong Huang",
+      "Hengjie Cao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "The Curse and Blessing of Mean Bias in FP4-Quantized LLM Training",
+      "abstract": "Very insightful low bit training paper",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.10444",
+      "pdf_url": "https://arxiv.org/pdf/2603.10444",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.10444",
+      "scraped_at": "2026-03-14T02:09:58.558836"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "4DEquine: Disentangling Motion and Appearance for 4D Equine Reconstruction from Monocular Video",
+    "paper_url": "https://huggingface.co/papers/2603.10125",
+    "authors": [
+      "Xiaoying Tang",
+      "Yebin Liu",
+      "Pujin Cheng",
+      "Liang An",
+      "luoxue-star"
+    ],
+    "stars": "6",
+    "details": {
+      "title": "4DEquine: Disentangling Motion and Appearance for 4D Equine Reconstruction from Monocular Video",
+      "abstract": "Accepted to CVPR 2026",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.10125",
+      "pdf_url": "https://arxiv.org/pdf/2603.10125",
+      "github_links": [
+        "https://github.com/luoxue-star/4DEquine"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.10125",
+      "scraped_at": "2026-03-14T02:10:00.491104"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "WaDi: Weight Direction-aware Distillation for One-step Image Synthesis",
+    "paper_url": "https://huggingface.co/papers/2603.08258",
+    "authors": [
+      "Yaxing Wang",
+      "Ge Wu",
+      "Senmao Li",
+      "Yang Cheng",
+      "Lei Wang"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "WaDi: Weight Direction-aware Distillation for One-step Image Synthesis",
+      "abstract": "Despite the impressive performance of diffusion models such as Stable Diffusion (SD) in image generation, their slow inference limits practical deployment. Recent works accelerate inference by distilling multi-step diffusion into one-step generators. To better understand the distillation mechanism, we analyze U-Net/DiT weight changes between one-step students and their multi-step teacher counterparts. Our analysis reveals that changes in weight direction significantly exceed those in weight norm, highlighting it as the key factor during distillation. Motivated by this insight, we propose the Low-rank Rotation of weight Direction (LoRaD), a parameter-efficient adapter tailored to one-step diffusion distillation. LoRaD is designed to model these structured directional changes using learnable low-rank rotation matrices. We further integrate LoRaD into Variational Score Distillation (VSD), resulting in Weight Direction-aware Distillation (WaDi)-a novel one-step distillation framework. WaDi achieves state-of-the-art FID scores on COCO 2014 and COCO 2017 while using only approximately 10% of the trainable parameters of the U-Net/DiT. Furthermore, the distilled one-step model demonstrates strong versatility and scalability, generalizing well to various downstream tasks such as controllable generation, relation inversion, and high-resolution synthesis.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.08258",
+      "pdf_url": "https://arxiv.org/pdf/2603.08258",
+      "github_links": [
+        "https://github.com/gudaochangsheng/WaDi"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.08258",
+      "scraped_at": "2026-03-14T02:10:02.395797"
+    },
+    "scraped_date": "2026-03-14"
+  },
+  {
+    "title": "Causal Attribution of Coastal Water Clarity Degradation to Nickel Processing Expansion at the Indonesia Morowali Industrial Park, Sulawesi",
+    "paper_url": "https://huggingface.co/papers/2603.07331",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Causal Attribution of Coastal Water Clarity Degradation to Nickel Processing Expansion at the Indonesia Morowali Industrial Park, Sulawesi",
+      "abstract": "The global push for electric vehicles carries a hidden environmental cost, and a compelling new study leverages satellite data to finally quantify its impact on vulnerable marine ecosystems. Researchers investigated the coastal waters adjacent to the Indonesia Morowali Industrial Park, the world's largest integrated nickel processing complex. By applying Bayesian structural time-series causal inference to a multi-decadal record of ocean color satellite data, they detected a statistically significant degradation in nearshore water clarity. The study pinpoints a structural breakpoint in May 2019, aligning precisely with the site's aggressive expansion of high-pressure acid leaching facilities designed to produce battery-grade nickel. This localized industrialization caused the photic zone to shoal by 12.3 meters in the highly biodiverse Coral Triangle , providing a crucial, quasi-experimental framework to expose the unmeasured marine externalities of the green energy transition.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.07331",
+      "pdf_url": "https://arxiv.org/pdf/2603.07331",
+      "github_links": [
+        "https://github.com/sandyherho/supplMorowaliOcean"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.07331",
+      "scraped_at": "2026-03-14T02:10:04.316766"
+    },
+    "scraped_date": "2026-03-14"
   }
 ]
