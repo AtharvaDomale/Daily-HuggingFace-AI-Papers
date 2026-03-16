@@ -7026,5 +7026,128 @@
       "scraped_at": "2026-03-15T02:35:23.905859"
     },
     "scraped_date": "2026-03-15"
+  },
+  {
+    "title": "LMEB: Long-horizon Memory Embedding Benchmark",
+    "paper_url": "https://huggingface.co/papers/2603.12572",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LMEB: Long-horizon Memory Embedding Benchmark",
+      "abstract": "Welcome to the Long-horizon Memory Embedding Benchmark (LMEB)! Unlike existing text embedding benchmarks that narrowly focus on passage retrieval, LLMEB is designed to evaluate embedding models' ability to handle complex, long-horizon memory retrieval tasks, focusing on fragmented, context-dependent, and temporally distant information. LMEB spans 22 diverse datasets and 193 retrieval tasks across 4 memory types. By evaluating the memory retrieval capabilities of embedding models, a crucial ability for memory-augmented systems like OpenClaw, LMEB helps OpenClaw identify the most suitable embedding models, enhancing its ability to adapt, remember, and make personalized, user-aware decisions.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.12572",
+      "pdf_url": "https://arxiv.org/pdf/2603.12572",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.12572",
+      "scraped_at": "2026-03-16T02:34:24.778371"
+    },
+    "scraped_date": "2026-03-16"
+  },
+  {
+    "title": "VQQA: An Agentic Approach for Video Evaluation and Quality Improvement",
+    "paper_url": "https://huggingface.co/papers/2603.12310",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "VQQA: An Agentic Approach for Video Evaluation and Quality Improvement",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2603.12310",
+      "pdf_url": "https://arxiv.org/pdf/2603.12310",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.12310",
+      "scraped_at": "2026-03-16T02:34:27.163566"
+    },
+    "scraped_date": "2026-03-16"
+  },
+  {
+    "title": "daVinci-Env: Open SWE Environment Synthesis at Scale",
+    "paper_url": "https://huggingface.co/papers/2603.13023",
+    "authors": [
+      "Yaxing Huang",
+      "Zerui Peng",
+      "Yunze Wu",
+      "Shenyu Wu",
+      "Dayuan Fu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "daVinci-Env: Open SWE Environment Synthesis at Scale",
+      "abstract": "Github: https://github.com/GAIR-NLP/OpenSWE",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.13023",
+      "pdf_url": "https://arxiv.org/pdf/2603.13023",
+      "github_links": [
+        "https://github.com/GAIR-NLP/OpenSWE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.13023",
+      "scraped_at": "2026-03-16T02:34:29.139809"
+    },
+    "scraped_date": "2026-03-16"
+  },
+  {
+    "title": "From Sparse to Dense: Multi-View GRPO for Flow Models via Augmented Condition Space",
+    "paper_url": "https://huggingface.co/papers/2603.12648",
+    "authors": [
+      "Yuhang Zang",
+      "Yibin Wang",
+      "Yujie Zhou",
+      "Pengyang Ling",
+      "Jiazi Bu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "From Sparse to Dense: Multi-View GRPO for Flow Models via Augmented Condition Space",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2603.12648",
+      "pdf_url": "https://arxiv.org/pdf/2603.12648",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.12648",
+      "scraped_at": "2026-03-16T02:34:31.445786"
+    },
+    "scraped_date": "2026-03-16"
+  },
+  {
+    "title": "Spend Less, Reason Better: Budget-Aware Value Tree Search for LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2603.12634",
+    "authors": [
+      "Xiaoxiao Li",
+      "Jiajin Li",
+      "Wenlong Deng",
+      "Yushu Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Spend Less, Reason Better: Budget-Aware Value Tree Search for LLM Agents",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2603.12634",
+      "pdf_url": "https://arxiv.org/pdf/2603.12634",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.12634",
+      "scraped_at": "2026-03-16T02:34:33.419904"
+    },
+    "scraped_date": "2026-03-16"
+  },
+  {
+    "title": "LookaheadKV: Fast and Accurate KV Cache Eviction by Glimpsing into the Future without Generation",
+    "paper_url": "https://huggingface.co/papers/2603.10899",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "LookaheadKV: Fast and Accurate KV Cache Eviction by Glimpsing into the Future without Generation",
+      "abstract": "Fast and Accurate KV Cache Eviction : LookaheadKV is a novel method employing lookahead modules to predict future token importance. LookaheadKV shows a performance drop less than 0.7% with 1K cache budget (~81% compression). LookaheadKV reduces eviction cost by up to 14.5×, leading to significantly faster TTFT.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.10899",
+      "pdf_url": "https://arxiv.org/pdf/2603.10899",
+      "github_links": [
+        "https://github.com/SamsungLabs/LookaheadKV"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.10899",
+      "scraped_at": "2026-03-16T02:34:35.759539"
+    },
+    "scraped_date": "2026-03-16"
   }
 ]
