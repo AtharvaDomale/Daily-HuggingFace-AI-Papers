@@ -145,5 +145,157 @@
       "scraped_at": "2026-03-17T02:12:54.604251"
     },
     "scraped_date": "2026-03-17"
+  },
+  {
+    "title": "AgentProcessBench: Diagnosing Step-Level Process Quality in Tool-Using Agents",
+    "paper_url": "https://huggingface.co/papers/2603.14465",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "AgentProcessBench: Diagnosing Step-Level Process Quality in Tool-Using Agents",
+      "abstract": "😏 𝑨𝒈𝒆𝒏𝒕𝑷𝒓𝒐𝒄𝒆𝒔𝒔𝑩𝒆𝒏𝒄𝒉 𝑨𝒗𝒂𝒊𝒍𝒂𝒃𝒍𝒆 𝑵𝒐𝒘 When utilizing Process Reward Models (PRMs) to guide Reinforcement Learning (RL) training, accurately identifying the impact or contribution of each step within a trajectory is essential for providing precise reward signals. To achieve a more rigorous and comprehensive evaluation of models' capabilities as PRMs, we have developed a PRM evaluation benchmark specifically designed for tool-using agents. This benchmark comprises 1,000 trajectories totaling 8,509 steps, all featuring 100% human-annotated labels. Our goal is to provide a more fine-grained testing platform for PRM research within agent-based scenarios. 🌍 𝑯𝒐𝒎𝒆𝒑𝒂𝒈𝒆 rucbm.github.io/AgentProcessBench-Homepage/ 🤗 𝑯𝑭 huggingface.co/datasets/LulaCola/AgentProcessBench 💻 𝑮𝒊𝒕𝒉𝒖𝒃 github.com/RUCBM/AgentProcessBench 📑 𝒂𝒓𝑿𝒊𝒗 arxiv.org/abs/2603.14465",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.14465",
+      "pdf_url": "https://arxiv.org/pdf/2603.14465",
+      "github_links": [
+        "https://github.com/RUCBM/AgentProcessBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.14465",
+      "scraped_at": "2026-03-18T02:25:09.607059"
+    },
+    "scraped_date": "2026-03-18"
+  },
+  {
+    "title": "Online Experiential Learning for Language Models",
+    "paper_url": "https://huggingface.co/papers/2603.16856",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Online Experiential Learning for Language Models",
+      "abstract": "The prevailing paradigm for improving large language models relies on offline training with human annotations or simulated environments, leaving the rich experience accumulated during real-world deployment entirely unexploited. We propose Online Experiential Learning (OEL), a framework that enables language models to continuously improve from their own deployment experience. OEL operates in two stages: first, transferable experiential knowledge is extracted and accumulated from interaction trajectories collected on the user side; second, this knowledge is consolidated into model parameters via on-policy context distillation, requiring no access to the user-side environment. The two stages are iterated to form an online learning loop, where the improved model collects higher-quality trajectories that yield richer experiential knowledge for subsequent rounds. We evaluate OEL on text-based game environments across multiple model scales and both thinking and non-thinking variants. OEL achieves consistent improvements over successive iterations, enhancing both task accuracy and token efficiency while preserving out-of-distribution performance. Our analysis further shows that extracted experiential knowledge is significantly more effective than raw trajectories, and that on-policy consistency between the knowledge source and the policy model is critical for effective learning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.16856",
+      "pdf_url": "https://arxiv.org/pdf/2603.16856",
+      "github_links": [
+        "https://github.com/microsoft/LMOps/tree/main/oel"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.16856",
+      "scraped_at": "2026-03-18T02:25:11.649970"
+    },
+    "scraped_date": "2026-03-18"
+  },
+  {
+    "title": "Demystifing Video Reasoning",
+    "paper_url": "https://huggingface.co/papers/2603.16870",
+    "authors": [
+      "Wanqi Yin",
+      "Junxiang Xu",
+      "Fanyi Pu",
+      "Zhongang Cai",
+      "Ruisi Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Demystifing Video Reasoning",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2603.16870",
+      "pdf_url": "https://arxiv.org/pdf/2603.16870",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.16870",
+      "scraped_at": "2026-03-18T02:25:13.986233"
+    },
+    "scraped_date": "2026-03-18"
+  },
+  {
+    "title": "FlashSampling: Fast and Memory-Efficient Exact Sampling",
+    "paper_url": "https://huggingface.co/papers/2603.15854",
+    "authors": [],
+    "stars": "31",
+    "details": {
+      "title": "FlashSampling: Fast and Memory-Efficient Exact Sampling",
+      "abstract": "Sampling from a categorical distribution is mathematically simple, but in large-vocabulary decoding, it often triggers extra memory traffic and extra kernels after the LM head. We present FlashSampling, an exact sampling primitive that fuses sampling into the LM-head matmul and never materializes the logits tensor in HBM. The method is simple: compute logits tile-by-tile on chip, add Gumbel noise, keep only one maximizer per row and per vocabulary tile, and finish with a small reduction over tiles. The fused tiled kernel is exact because $\\argmax$ decomposes over a partition; grouped variants for online and tensor-parallel settings are exact by hierarchical factorization of the categorical distribution. Across H100, H200, B200, and B300 GPUs, FlashSampling speeds up kernel-level decode workloads, and in end-to-end vLLM experiments, it reduces time per output token by up to 19 on the models we test. These results show that exact sampling, with no approximation, can be integrated into the matmul itself, turning a bandwidth-bound postprocessing step into a lightweight epilogue.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.15854",
+      "pdf_url": "https://arxiv.org/pdf/2603.15854",
+      "github_links": [
+        "https://github.com/FlashSampling/FlashSampling"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.15854",
+      "scraped_at": "2026-03-18T02:25:16.329481"
+    },
+    "scraped_date": "2026-03-18"
+  },
+  {
+    "title": "MiroThinker-1.7 & H1: Towards Heavy-Duty Research Agents via Verification",
+    "paper_url": "https://huggingface.co/papers/2603.15726",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MiroThinker-1.7 & H1: Towards Heavy-Duty Research Agents via Verification",
+      "abstract": "We present MiroThinker-1.7, a new research agent designed for complex long-horizon reasoning tasks. Building on this foundation, we further introduce MiroThinker-H1, which extends the agent with heavy-duty reasoning capabilities for more reliable multi-step problem solving. In particular, MiroThinker-1.7 improves the reliability of each interaction step through an agentic mid-training stage that emphasizes structured planning, contextual reasoning, and tool interaction. This enables more effective multi-step interaction and sustained reasoning across complex tasks. MiroThinker-H1 further incorporates verification directly into the reasoning process at both local and global levels. Intermediate reasoning decisions can be evaluated and refined during inference, while the overall reasoning trajectory is audited to ensure that final answers are supported by coherent chains of evidence. Across benchmarks covering open-web research, scientific reasoning, and financial analysis, MiroThinker-H1 achieves state-of-the-art performance on deep research tasks while maintaining strong results on specialized domains. We also release MiroThinker-1.7 and MiroThinker-1.7-mini as open-source models, providing competitive research-agent capabilities with significantly improved efficiency.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.15726",
+      "pdf_url": "https://arxiv.org/pdf/2603.15726",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.15726",
+      "scraped_at": "2026-03-18T02:25:18.337192"
+    },
+    "scraped_date": "2026-03-18"
+  },
+  {
+    "title": "CCTU: A Benchmark for Tool Use under Complex Constraints",
+    "paper_url": "https://huggingface.co/papers/2603.15309",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "CCTU: A Benchmark for Tool Use under Complex Constraints",
+      "abstract": "https://github.com/Junjie-Ye/CCTU",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.15309",
+      "pdf_url": "https://arxiv.org/pdf/2603.15309",
+      "github_links": [
+        "https://github.com/Junjie-Ye/CCTU"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.15309",
+      "scraped_at": "2026-03-18T02:25:20.285794"
+    },
+    "scraped_date": "2026-03-18"
+  },
+  {
+    "title": "Measuring Primitive Accumulation: An Information-Theoretic Approach to Capitalist Enclosure in PIK2, Indonesia",
+    "paper_url": "https://huggingface.co/papers/2603.13715",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Measuring Primitive Accumulation: An Information-Theoretic Approach to Capitalist Enclosure in PIK2, Indonesia",
+      "abstract": "This study introduces a novel statistical-mechanical framework to quantify the kinematics and topology of capitalist land enclosure in the PIK2 coastal mega-development of Indonesia using eight years of 10-meter resolution Sentinel-2 data. By projecting the landscape onto a Marxian probability simplex, we employ Fisher-Rao geodesic distances to identify a peak transformation velocity of 0.405 rad/yr during major construction phases, while absorbing Markov chain analysis predicts a 46.0-year expected absorption time for agricultural cropland into the built environment. Furthermore, percolation analysis reveals a giant connected component containing over 89% of built pixels at occupation probabilities far below the random threshold, providing a mathematical signature of top-down planned development rather than organic growth. Complemented by an increasing fractal dimension from 1.316 to 1.397 that reflects irregular, \"tentacular\" frontier expansion, this work demonstrates how information-geometric and statistical-mechanical tools can effectively characterize the non-equilibrium dynamics of planetary urbanization.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.13715",
+      "pdf_url": "https://arxiv.org/pdf/2603.13715",
+      "github_links": [
+        "https://github.com/sandyherho/supplPIK2LULC"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.13715",
+      "scraped_at": "2026-03-18T02:25:22.672487"
+    },
+    "scraped_date": "2026-03-18"
+  },
+  {
+    "title": "Recursive Language Models Meet Uncertainty: The Surprising Effectiveness of Self-Reflective Program Search for Long Context",
+    "paper_url": "https://huggingface.co/papers/2603.15653",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Recursive Language Models Meet Uncertainty: The Surprising Effectiveness of Self-Reflective Program Search for Long Context",
+      "abstract": "Long-context handling remains a core challenge for language models: even with extended context windows, models often fail to reliably extract, reason over, and use the information across long contexts. Recent works like Recursive Language Models (RLM) have approached this challenge by agentic way of decomposing long contexts into recursive sub-calls through programmatic interaction at inference. While promising, the success of RLM critically depends on how these context-interaction programs are selected, which has remained largely unexplored. In this paper, we study this problem and introduce SRLM, a framework that augments programmatic context interaction with uncertainty-aware Self-Reflection. SRLM leverages three intrinsic signals: self consistency, reasoning length, and verbalized confidence. These serve as complementary indicators of a model's internal uncertainty, and the model uses them to evaluate and compare candidate context-interaction programs. Extensive experiments across diverse benchmark datasets, context lengths, and backbone models, show that SRLM consistently outperforms state-of-the-art baselines, yielding up to 22% improvement over RLM under the same time budget. Our findings show that recursion itself is not the primary driver of performance in RLM, and a simple self-reflective program search can match or surpass RLM without requiring self-query or explicit recursion mechanisms. We find that for context lengths within the model's window, RLMs with recursion often degrade performance relative to the base model, whereas SRLM yields consistent gains across both short and long contexts. We also find that RLM is less effective in tasks with semantically intensive nature, where heuristic program search is insufficient and broader contextual understanding is required, while self-reflection in SRLM provides a semantic signal that better steers reasoning in these scenarios.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.15653",
+      "pdf_url": "https://arxiv.org/pdf/2603.15653",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.15653",
+      "scraped_at": "2026-03-18T02:25:24.928394"
+    },
+    "scraped_date": "2026-03-18"
   }
 ]

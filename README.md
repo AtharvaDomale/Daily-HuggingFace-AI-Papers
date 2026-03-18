@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-1-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-2922+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-8-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-2930+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">1</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">7</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">355</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">2922+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">8</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">15</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">363</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">2930+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** March 17, 2026
+**Last Updated:** March 18, 2026
 
 ---
 
@@ -119,17 +119,102 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. FineRMoE: Dimension Expansion for Finer-Grained Expert with Its Upcycling Approach</b> ⭐ 0</summary>
+<summary><b>1. AgentProcessBench: Diagnosing Step-Level Process Quality in Tool-Using Agents</b> ⭐ 4</summary>
 
 <br/>
 
-**👥 Authors:** Junchi Yan, Xiaohan Qin, Xiaoxing Wang, Ning Liao
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.14465) • [📄 arXiv](https://arxiv.org/abs/2603.14465) • [📥 PDF](https://arxiv.org/pdf/2603.14465)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.13364) • [📄 arXiv](https://arxiv.org/abs/2603.13364) • [📥 PDF](https://arxiv.org/pdf/2603.13364)
+**💻 Code:** [⭐ Code](https://github.com/RUCBM/AgentProcessBench)
 
-**💻 Code:** [⭐ Code](https://github.com/liaoning97/FineRMoE)
+> 😏 𝑨𝒈𝒆𝒏𝒕𝑷𝒓𝒐𝒄𝒆𝒔𝒔𝑩𝒆𝒏𝒄𝒉 𝑨𝒗𝒂𝒊𝒍𝒂𝒃𝒍𝒆 𝑵𝒐𝒘 When utilizing Process Reward Models (PRMs) to guide Reinforcement Learning (RL) training, accurately identifying the impact or contribution of each step within a trajectory is essential for providing precise rewa...
 
-> To break the performance ceiling of fine-grained MoE designs that are solely confined to the intermediate dimension, which has been revealed by the scaling law of MoE, we introduce the FineRMoE (FineR-grained MoE) architecture. It pioneers the exp...
+</details>
+
+<details>
+<summary><b>2. Online Experiential Learning for Language Models</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.16856) • [📄 arXiv](https://arxiv.org/abs/2603.16856) • [📥 PDF](https://arxiv.org/pdf/2603.16856)
+
+**💻 Code:** [⭐ Code](https://github.com/microsoft/LMOps/tree/main/oel)
+
+> The prevailing paradigm for improving large language models relies on offline training with human annotations or simulated environments, leaving the rich experience accumulated during real-world deployment entirely unexploited. We propose Online E...
+
+</details>
+
+<details>
+<summary><b>3. Demystifing Video Reasoning</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Wanqi Yin, Junxiang Xu, Fanyi Pu, Zhongang Cai, Ruisi Wang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.16870) • [📄 arXiv](https://arxiv.org/abs/2603.16870) • [📥 PDF](https://arxiv.org/pdf/2603.16870)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>4. FlashSampling: Fast and Memory-Efficient Exact Sampling</b> ⭐ 31</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.15854) • [📄 arXiv](https://arxiv.org/abs/2603.15854) • [📥 PDF](https://arxiv.org/pdf/2603.15854)
+
+**💻 Code:** [⭐ Code](https://github.com/FlashSampling/FlashSampling)
+
+> Sampling from a categorical distribution is mathematically simple, but in large-vocabulary decoding, it often triggers extra memory traffic and extra kernels after the LM head. We present FlashSampling, an exact sampling primitive that fuses sampl...
+
+</details>
+
+<details>
+<summary><b>5. MiroThinker-1.7 & H1: Towards Heavy-Duty Research Agents via Verification</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.15726) • [📄 arXiv](https://arxiv.org/abs/2603.15726) • [📥 PDF](https://arxiv.org/pdf/2603.15726)
+
+> We present MiroThinker-1.7, a new research agent designed for complex long-horizon reasoning tasks. Building on this foundation, we further introduce MiroThinker-H1, which extends the agent with heavy-duty reasoning capabilities for more reliable ...
+
+</details>
+
+<details>
+<summary><b>6. CCTU: A Benchmark for Tool Use under Complex Constraints</b> ⭐ 1</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.15309) • [📄 arXiv](https://arxiv.org/abs/2603.15309) • [📥 PDF](https://arxiv.org/pdf/2603.15309)
+
+**💻 Code:** [⭐ Code](https://github.com/Junjie-Ye/CCTU)
+
+> https://github.com/Junjie-Ye/CCTU
+
+</details>
+
+<details>
+<summary><b>7. Measuring Primitive Accumulation: An Information-Theoretic Approach to Capitalist Enclosure in PIK2, Indonesia</b> ⭐ 1</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.13715) • [📄 arXiv](https://arxiv.org/abs/2603.13715) • [📥 PDF](https://arxiv.org/pdf/2603.13715)
+
+**💻 Code:** [⭐ Code](https://github.com/sandyherho/supplPIK2LULC)
+
+> This study introduces a novel statistical-mechanical framework to quantify the kinematics and topology of capitalist land enclosure in the PIK2 coastal mega-development of Indonesia using eight years of 10-meter resolution Sentinel-2 data. By proj...
+
+</details>
+
+<details>
+<summary><b>8. Recursive Language Models Meet Uncertainty: The Surprising Effectiveness of Self-Reflective Program Search for Long Context</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.15653) • [📄 arXiv](https://arxiv.org/abs/2603.15653) • [📥 PDF](https://arxiv.org/pdf/2603.15653)
+
+> Long-context handling remains a core challenge for language models: even with extended context windows, models often fail to reliably extract, reason over, and use the information across long contexts. Recent works like Recursive Language Models (...
 
 </details>
 
@@ -141,28 +226,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 1 |
-| 📅 Today | [`2026-03-17.json`](data/daily/2026-03-17.json) | 1 |
-| 📆 This Week | [`2026-W11.json`](data/weekly/2026-W11.json) | 7 |
-| 🗓️ This Month | [`2026-03.json`](data/monthly/2026-03.json) | 355 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 8 |
+| 📅 Today | [`2026-03-18.json`](data/daily/2026-03-18.json) | 8 |
+| 📆 This Week | [`2026-W11.json`](data/weekly/2026-W11.json) | 15 |
+| 🗓️ This Month | [`2026-03.json`](data/monthly/2026-03.json) | 363 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-03-17 | 1 | [View JSON](data/daily/2026-03-17.json) |
+| 📌 2026-03-18 | 8 | [View JSON](data/daily/2026-03-18.json) |
+| 📄 2026-03-17 | 1 | [View JSON](data/daily/2026-03-17.json) |
 | 📄 2026-03-16 | 6 | [View JSON](data/daily/2026-03-16.json) |
 | 📄 2026-03-15 | 48 | [View JSON](data/daily/2026-03-15.json) |
 | 📄 2026-03-14 | 48 | [View JSON](data/daily/2026-03-14.json) |
 | 📄 2026-03-13 | 4 | [View JSON](data/daily/2026-03-13.json) |
 | 📄 2026-03-12 | 7 | [View JSON](data/daily/2026-03-12.json) |
-| 📄 2026-03-11 | 5 | [View JSON](data/daily/2026-03-11.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W11 | 7 | [View JSON](data/weekly/2026-W11.json) |
+| 📅 2026-W11 | 15 | [View JSON](data/weekly/2026-W11.json) |
 | 📅 2026-W10 | 119 | [View JSON](data/weekly/2026-W10.json) |
 | 📅 2026-W09 | 201 | [View JSON](data/weekly/2026-W09.json) |
 | 📅 2026-W08 | 184 | [View JSON](data/weekly/2026-W08.json) |
@@ -171,7 +256,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-03 | 355 | [View JSON](data/monthly/2026-03.json) |
+| 🗓️ 2026-03 | 363 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
 | 🗓️ 2025-12 | 787 | [View JSON](data/monthly/2025-12.json) |
