@@ -9715,5 +9715,91 @@
       "scraped_at": "2026-03-22T02:27:18.119292"
     },
     "scraped_date": "2026-03-22"
+  },
+  {
+    "title": "WorldAgents: Can Foundation Image Models be Agents for 3D World Models?",
+    "paper_url": "https://huggingface.co/papers/2603.19708",
+    "authors": [
+      "Matthias Nießner",
+      "Angela Dai",
+      "Ziya Erkoç"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "WorldAgents: Can Foundation Image Models be Agents for 3D World Models?",
+      "abstract": "Shows that 2D foundation image models encode 3D world understanding, enabling a multi-agent Director-Generator-Verifier system to synthesize coherent, 3D-consistent scenes and novel-view reconstructions.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.19708",
+      "pdf_url": "https://arxiv.org/pdf/2603.19708",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.19708",
+      "scraped_at": "2026-03-23T02:27:10.327615"
+    },
+    "scraped_date": "2026-03-23"
+  },
+  {
+    "title": "Hyperagents",
+    "paper_url": "https://huggingface.co/papers/2603.19461",
+    "authors": [
+      "Jeff Clune",
+      "Jakob Foerster",
+      "Wannan Yang",
+      "Bingchen Zhao",
+      "Jenny Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Hyperagents",
+      "abstract": "Introduces hyperagents, self-referential systems where task and meta agents co-modify themselves, enabling metacognitive self-improvement and cross-domain performance gains beyond coding tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.19461",
+      "pdf_url": "https://arxiv.org/pdf/2603.19461",
+      "github_links": [
+        "https://github.com/facebookresearch/Hyperagents"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.19461",
+      "scraped_at": "2026-03-23T02:27:12.049979"
+    },
+    "scraped_date": "2026-03-23"
+  },
+  {
+    "title": "A Subgoal-driven Framework for Improving Long-Horizon LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2603.19685",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "A Subgoal-driven Framework for Improving Long-Horizon LLM Agents",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2603.19685",
+      "pdf_url": "https://arxiv.org/pdf/2603.19685",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.19685",
+      "scraped_at": "2026-03-23T02:27:13.737054"
+    },
+    "scraped_date": "2026-03-23"
+  },
+  {
+    "title": "Teaching an Agent to Sketch One Part at a Time",
+    "paper_url": "https://huggingface.co/papers/2603.19500",
+    "authors": [
+      "Greg Shakhnarovich",
+      "Yael Vinker",
+      "David Yunis",
+      "Ruize Xu",
+      "Xiaodan Du"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Teaching an Agent to Sketch One Part at a Time",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2603.19500",
+      "pdf_url": "https://arxiv.org/pdf/2603.19500",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.19500",
+      "scraped_at": "2026-03-23T02:27:15.464460"
+    },
+    "scraped_date": "2026-03-23"
   }
 ]
