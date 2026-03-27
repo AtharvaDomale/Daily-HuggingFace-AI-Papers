@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-4-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3104+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-6-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3110+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">4</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">56</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">537</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3104+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">6</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">62</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">543</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3110+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** March 26, 2026
+**Last Updated:** March 27, 2026
 
 ---
 
@@ -119,52 +119,76 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. GameplayQA: A Benchmarking Framework for Decision-Dense POV-Synced Multi-Video Understanding of 3D Virtual Agents</b> ⭐ 0</summary>
+<summary><b>1. MACRO: Advancing Multi-Reference Image Generation with Structured Long-Context Data</b> ⭐ 3</summary>
 
 <br/>
 
-**👥 Authors:** Jayavibhav Niranjan Kogundi, Tianyi Zhang, Kexin Zheng, Runhui Xu, Yunzhe Wang
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.25319) • [📄 arXiv](https://arxiv.org/abs/2603.25319) • [📥 PDF](https://arxiv.org/pdf/2603.25319)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.24329) • [📄 arXiv](https://arxiv.org/abs/2603.24329) • [📥 PDF](https://arxiv.org/pdf/2603.24329)
+**💻 Code:** [⭐ Code](https://github.com/HKU-MMLab/Macro)
 
-> GameplayQA benchmarks dense, first-person multi-video understanding of 3D agents with triadic Self Other World annotations and diagnostic QA to assess perception and reasoning.
+> We present MACRO, a large-scale multi-reference image generation dataset MacroData with 400K samples and the corresponding multi-image generation metric MacroBench. Our dataset supports the input of up to 10 reference maps, covering the four long-...
 
 </details>
 
 <details>
-<summary><b>2. Can LLM Agents Be CFOs? A Benchmark for Resource Allocation in Dynamic Enterprise Environments</b> ⭐ 0</summary>
+<summary><b>2. SlopCodeBench: Benchmarking How Coding Agents Degrade Over Long-Horizon Iterative Tasks</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.23638) • [📄 arXiv](https://arxiv.org/abs/2603.23638) • [📥 PDF](https://arxiv.org/pdf/2603.23638)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.24755) • [📄 arXiv](https://arxiv.org/abs/2603.24755) • [📥 PDF](https://arxiv.org/pdf/2603.24755)
 
-> Large language models (LLMs) have enabled agentic systems that can reason, plan, and act across complex tasks, but it remains unclear whether they can allocate resources effectively under uncertainty. Unlike short-horizon reactive decisions, alloc...
+**💻 Code:** [⭐ Code](https://github.com/SprocketLab/slop-code-bench)
+
+> Coding benchmarks tell you if an agent passed the tests. They don't tell you if the code is any good, or if it's going to be workable three features from now. SlopCodeBench makes agents extend their own solutions across multiple steps without pres...
 
 </details>
 
 <details>
-<summary><b>3. When Models Judge Themselves: Unsupervised Self-Evolution for Multimodal Reasoning</b> ⭐ 0</summary>
+<summary><b>3. MSA: Memory Sparse Attention for Efficient End-to-End Memory Model Scaling to 100M Tokens</b> ⭐ 2.21k</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.21289) • [📄 arXiv](https://arxiv.org/abs/2603.21289) • [📥 PDF](https://arxiv.org/pdf/2603.21289)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.23516) • [📄 arXiv](https://arxiv.org/abs/2603.23516) • [📥 PDF](https://arxiv.org/pdf/2603.23516)
 
-**💻 Code:** [⭐ Code](https://github.com/OPPO-Mente-Lab/LLM-Self-Judge)
+**💻 Code:** [⭐ Code](https://github.com/EverMind-AI/MSA)
 
-> Recent multimodal models achieve strong reasoning performance but rely heavily on costly annotated data or teacher-based distillation, limiting scalability. We propose an unsupervised self-evolution framework that samples multiple reasoning trajec...
+> 📝 Abstract Long-term memory is essential for general intelligence, yet the full attention bottleneck constrains most LLMs’ effective context length to 128K–1M . Existing attempts，hybrid linear attention, fixed-size state memory (e.g., RNNs), and e...
 
 </details>
 
 <details>
-<summary><b>4. CarePilot: A Multi-Agent Framework for Long-Horizon Computer Task Automation in Healthcare</b> ⭐ 2</summary>
+<summary><b>4. Less Gaussians, Texture More: 4K Feed-Forward Textured Splatting</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.24157) • [📄 arXiv](https://arxiv.org/abs/2603.24157) • [📥 PDF](https://arxiv.org/pdf/2603.24157)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.25745) • [📄 arXiv](https://arxiv.org/abs/2603.25745) • [📥 PDF](https://arxiv.org/pdf/2603.25745)
 
-**💻 Code:** [⭐ Code](https://github.com/AkashGhosh/CarePilot)
+> No abstract available.
 
-> First work on Long Horizon Computer Tasks for Healthcare based Softwares (Accepted in CVPR 2026 Findings)
+</details>
+
+<details>
+<summary><b>5. Vega: Learning to Drive with Natural Language Instructions</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Jie Zhou, Zheng Zhu, Wenzhao Zheng, Yuxuan Li, Sicheng Zuo
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.25741) • [📄 arXiv](https://arxiv.org/abs/2603.25741) • [📥 PDF](https://arxiv.org/pdf/2603.25741)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>6. Voxtral TTS</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.25551) • [📄 arXiv](https://arxiv.org/abs/2603.25551) • [📥 PDF](https://arxiv.org/pdf/2603.25551)
+
+> Voxtral TTS is a multilingual expressive TTS with a hybrid autoregressive semantic token generator and flow-matching acoustic tokens, using Voxtral Codec for high-quality voice cloning from 3 seconds of audio.
 
 </details>
 
@@ -176,28 +200,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 4 |
-| 📅 Today | [`2026-03-26.json`](data/daily/2026-03-26.json) | 4 |
-| 📆 This Week | [`2026-W12.json`](data/weekly/2026-W12.json) | 56 |
-| 🗓️ This Month | [`2026-03.json`](data/monthly/2026-03.json) | 537 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 6 |
+| 📅 Today | [`2026-03-27.json`](data/daily/2026-03-27.json) | 6 |
+| 📆 This Week | [`2026-W12.json`](data/weekly/2026-W12.json) | 62 |
+| 🗓️ This Month | [`2026-03.json`](data/monthly/2026-03.json) | 543 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-03-26 | 4 | [View JSON](data/daily/2026-03-26.json) |
+| 📌 2026-03-27 | 6 | [View JSON](data/daily/2026-03-27.json) |
+| 📄 2026-03-26 | 4 | [View JSON](data/daily/2026-03-26.json) |
 | 📄 2026-03-25 | 11 | [View JSON](data/daily/2026-03-25.json) |
 | 📄 2026-03-24 | 37 | [View JSON](data/daily/2026-03-24.json) |
 | 📄 2026-03-23 | 4 | [View JSON](data/daily/2026-03-23.json) |
 | 📄 2026-03-22 | 32 | [View JSON](data/daily/2026-03-22.json) |
 | 📄 2026-03-21 | 32 | [View JSON](data/daily/2026-03-21.json) |
-| 📄 2026-03-20 | 2 | [View JSON](data/daily/2026-03-20.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W12 | 56 | [View JSON](data/weekly/2026-W12.json) |
+| 📅 2026-W12 | 62 | [View JSON](data/weekly/2026-W12.json) |
 | 📅 2026-W11 | 133 | [View JSON](data/weekly/2026-W11.json) |
 | 📅 2026-W10 | 119 | [View JSON](data/weekly/2026-W10.json) |
 | 📅 2026-W09 | 201 | [View JSON](data/weekly/2026-W09.json) |
@@ -206,7 +230,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-03 | 537 | [View JSON](data/monthly/2026-03.json) |
+| 🗓️ 2026-03 | 543 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
 | 🗓️ 2025-12 | 787 | [View JSON](data/monthly/2025-12.json) |

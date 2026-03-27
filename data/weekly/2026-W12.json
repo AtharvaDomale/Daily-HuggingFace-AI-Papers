@@ -1161,5 +1161,119 @@
       "scraped_at": "2026-03-26T02:30:45.869102"
     },
     "scraped_date": "2026-03-26"
+  },
+  {
+    "title": "MACRO: Advancing Multi-Reference Image Generation with Structured Long-Context Data",
+    "paper_url": "https://huggingface.co/papers/2603.25319",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "MACRO: Advancing Multi-Reference Image Generation with Structured Long-Context Data",
+      "abstract": "We present MACRO, a large-scale multi-reference image generation dataset MacroData with 400K samples and the corresponding multi-image generation metric MacroBench. Our dataset supports the input of up to 10 reference maps, covering the four long-context task dimensions of customization, illustration, spatial and temporal. It can effectively solve the performance degradation problem faced by the current model when dealing with multi-reference inputs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.25319",
+      "pdf_url": "https://arxiv.org/pdf/2603.25319",
+      "github_links": [
+        "https://github.com/HKU-MMLab/Macro"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.25319",
+      "scraped_at": "2026-03-27T02:32:19.151659"
+    },
+    "scraped_date": "2026-03-27"
+  },
+  {
+    "title": "SlopCodeBench: Benchmarking How Coding Agents Degrade Over Long-Horizon Iterative Tasks",
+    "paper_url": "https://huggingface.co/papers/2603.24755",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SlopCodeBench: Benchmarking How Coding Agents Degrade Over Long-Horizon Iterative Tasks",
+      "abstract": "Coding benchmarks tell you if an agent passed the tests. They don't tell you if the code is any good, or if it's going to be workable three features from now. SlopCodeBench makes agents extend their own solutions across multiple steps without prescribing structure. They all fall apart. No model finishes any problem end-to-end. Duplication and complexity blow up nearly every time. Agent code is 2.2x more verbose than comparable open-source projects and degrades way faster than human code does over time. The benchmark ships with 20 problems but we want more. If you write multi-step coding problems or have ideas for ones, we want them.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.24755",
+      "pdf_url": "https://arxiv.org/pdf/2603.24755",
+      "github_links": [
+        "https://github.com/SprocketLab/slop-code-bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.24755",
+      "scraped_at": "2026-03-27T02:32:21.000510"
+    },
+    "scraped_date": "2026-03-27"
+  },
+  {
+    "title": "MSA: Memory Sparse Attention for Efficient End-to-End Memory Model Scaling to 100M Tokens",
+    "paper_url": "https://huggingface.co/papers/2603.23516",
+    "authors": [],
+    "stars": "2.21k",
+    "details": {
+      "title": "MSA: Memory Sparse Attention for Efficient End-to-End Memory Model Scaling to 100M Tokens",
+      "abstract": "📝 Abstract Long-term memory is essential for general intelligence, yet the full attention bottleneck constrains most LLMs’ effective context length to 128K–1M . Existing attempts，hybrid linear attention, fixed-size state memory (e.g., RNNs), and external storage like RAG/agents ，either suffer rapid precision decay and latency growth at extreme scales, lack end-to-end differentiability or dynamic memory maintenance, or require complex pipelines. We present Memory Sparse Attention (MSA) : an end-to-end trainable, scalable sparse latent-state memory framework. Core ideas include: Scalable sparse attention + document-wise RoPE (parallel/global) achieving near-linear complexity in both training and inference; KV cache compression with a Memory Parallel inference engine to deliver 100M token throughput on 2×A800 GPUs; Memory Interleave for multi-round, multi-hop reasoning across scattered memory segments. On long-context QA and NIAH (Needle-in-a-Haystack) benchmarks, MSA surpasses same-backbone RAG, best-of-breed RAG stacks, and leading long-context models. Across an unprecedented 16K→100M token range, MSA shows < 9% degradation, suggesting a practical path to decouple memory capacity from reasoning . Scaling from 16K→100M tokens : MSA fuses top-k selection with sparse attention to remain end-to-end differentiable while allowing document decoupling at inference. On MS MARCO, MSA sustains <9% degradation and exhibits strong extrapolation. Some baseline curves end early due to their context limits.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.23516",
+      "pdf_url": "https://arxiv.org/pdf/2603.23516",
+      "github_links": [
+        "https://github.com/EverMind-AI/MSA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.23516",
+      "scraped_at": "2026-03-27T02:32:22.928736"
+    },
+    "scraped_date": "2026-03-27"
+  },
+  {
+    "title": "Less Gaussians, Texture More: 4K Feed-Forward Textured Splatting",
+    "paper_url": "https://huggingface.co/papers/2603.25745",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Less Gaussians, Texture More: 4K Feed-Forward Textured Splatting",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2603.25745",
+      "pdf_url": "https://arxiv.org/pdf/2603.25745",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.25745",
+      "scraped_at": "2026-03-27T02:32:24.782401"
+    },
+    "scraped_date": "2026-03-27"
+  },
+  {
+    "title": "Vega: Learning to Drive with Natural Language Instructions",
+    "paper_url": "https://huggingface.co/papers/2603.25741",
+    "authors": [
+      "Jie Zhou",
+      "Zheng Zhu",
+      "Wenzhao Zheng",
+      "Yuxuan Li",
+      "Sicheng Zuo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Vega: Learning to Drive with Natural Language Instructions",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2603.25741",
+      "pdf_url": "https://arxiv.org/pdf/2603.25741",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.25741",
+      "scraped_at": "2026-03-27T02:32:26.535455"
+    },
+    "scraped_date": "2026-03-27"
+  },
+  {
+    "title": "Voxtral TTS",
+    "paper_url": "https://huggingface.co/papers/2603.25551",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Voxtral TTS",
+      "abstract": "Voxtral TTS is a multilingual expressive TTS with a hybrid autoregressive semantic token generator and flow-matching acoustic tokens, using Voxtral Codec for high-quality voice cloning from 3 seconds of audio.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.25551",
+      "pdf_url": "https://arxiv.org/pdf/2603.25551",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.25551",
+      "scraped_at": "2026-03-27T02:32:28.424272"
+    },
+    "scraped_date": "2026-03-27"
   }
 ]
