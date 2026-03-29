@@ -11577,5 +11577,590 @@
       "scraped_at": "2026-03-28T02:24:25.468754"
     },
     "scraped_date": "2026-03-28"
+  },
+  {
+    "title": "PixelSmile: Toward Fine-Grained Facial Expression Editing",
+    "paper_url": "https://huggingface.co/papers/2603.25728",
+    "authors": [],
+    "stars": "68",
+    "details": {
+      "title": "PixelSmile: Toward Fine-Grained Facial Expression Editing",
+      "abstract": "from [@Wildminder](https://x.com/wildmindai) 🌐 Project Page 👉 https://ammmob.github.io/PixelSmile/ 💻 GitHub Repo 👉 https://github.com/Ammmob/PixelSmile 🤖 Model (Hugging Face) 👉 https://huggingface.co/PixelSmile/PixelSmile 📊 Benchmark (FFE-Bench) 👉 https://huggingface.co/datasets/PixelSmile/FFE-Bench 🎮 Online Demo (Spaces) 👉 https://huggingface.co/spaces/PixelSmile/PixelSmile-Demo",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.25728",
+      "pdf_url": "https://arxiv.org/pdf/2603.25728",
+      "github_links": [
+        "https://github.com/Ammmob/PixelSmile"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.25728",
+      "scraped_at": "2026-03-29T02:34:57.667960"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "Intern-S1-Pro: Scientific Multimodal Foundation Model at Trillion Scale",
+    "paper_url": "https://huggingface.co/papers/2603.25040",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Intern-S1-Pro: Scientific Multimodal Foundation Model at Trillion Scale",
+      "abstract": "Thanks for submitting our paper to the daily paper. Please add 'Intern Large Models' as the organization. Our github is https://github.com/InternLM/Intern-S1 , and the model is available at https://huggingface.co/internlm/Intern-S1-Pro .",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.25040",
+      "pdf_url": "https://arxiv.org/pdf/2603.25040",
+      "github_links": [
+        "https://github.com/InternLM/Intern-S1"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.25040",
+      "scraped_at": "2026-03-29T02:34:59.689343"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "Calibri: Enhancing Diffusion Transformers via Parameter-Efficient Calibration",
+    "paper_url": "https://huggingface.co/papers/2603.24800",
+    "authors": [],
+    "stars": "30",
+    "details": {
+      "title": "Calibri: Enhancing Diffusion Transformers via Parameter-Efficient Calibration",
+      "abstract": "Introducing Calibri – a parameter-efficient method for diffusion transformer alignment. By optimizing only ∼ 102 parameters, Calibri substantially improves generation quality while reducing inference time.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.24800",
+      "pdf_url": "https://arxiv.org/pdf/2603.24800",
+      "github_links": [
+        "https://github.com/v-gen-ai/Calibri"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.24800",
+      "scraped_at": "2026-03-29T02:35:01.564370"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "RealRestorer: Towards Generalizable Real-World Image Restoration with Large-Scale Image Editing Models",
+    "paper_url": "https://huggingface.co/papers/2603.25502",
+    "authors": [],
+    "stars": "66",
+    "details": {
+      "title": "RealRestorer: Towards Generalizable Real-World Image Restoration with Large-Scale Image Editing Models",
+      "abstract": "RealRestorer: Towards Generalizable Real-World Image Restoration with Large-Scale Image Editing Models RealRestorer explores how large-scale image editing models can be used for generalizable real-world image restoration . Instead of focusing on a single degradation type, it aims to handle diverse real-world corruptions within a unified framework while preserving image fidelity and natural visual details. Highlights A unified framework for generalizable real-world image restoration Built upon large-scale image editing models to improve restoration robustness Designed for diverse degradation types rather than a single specialized setting Public model release available on Hugging Face Links Paper : https://arxiv.org/pdf/2603.25502 Model : https://huggingface.co/RealRestorer/RealRestorer Benchmark : https://huggingface.co/datasets/RealRestorer/RealIR-Bench Citation @ misc {yang2026realrestorergeneralizablerealworldimage,\n      title={RealRestorer: Towards Generalizable Real-World Image Restoration with Large-Scale Image Editing Models},\n      author={Yufeng Yang and Xianfang Zeng and Zhangqi Jiang and Fukun Yin and Jianzhuang Liu and Wei Cheng and jinghong lan and Shiyu Liu and Yuqi Peng and Gang YU and Shifeng Chen},\n      year={2026},\n      eprint={2603.25502},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2603.25502},\n}",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.25502",
+      "pdf_url": "https://arxiv.org/pdf/2603.25502",
+      "github_links": [
+        "https://github.com/yfyang007/RealRestorer"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.25502",
+      "scraped_at": "2026-03-29T02:35:03.618013"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "Voxtral TTS",
+    "paper_url": "https://huggingface.co/papers/2603.25551",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Voxtral TTS",
+      "abstract": "Voxtral TTS is a multilingual expressive TTS with a hybrid autoregressive semantic token generator and flow-matching acoustic tokens, using Voxtral Codec for high-quality voice cloning from 3 seconds of audio.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.25551",
+      "pdf_url": "https://arxiv.org/pdf/2603.25551",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.25551",
+      "scraped_at": "2026-03-29T02:35:05.666192"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "MSA: Memory Sparse Attention for Efficient End-to-End Memory Model Scaling to 100M Tokens",
+    "paper_url": "https://huggingface.co/papers/2603.23516",
+    "authors": [],
+    "stars": "2.3k",
+    "details": {
+      "title": "MSA: Memory Sparse Attention for Efficient End-to-End Memory Model Scaling to 100M Tokens",
+      "abstract": "📝 Abstract Long-term memory is essential for general intelligence, yet the full attention bottleneck constrains most LLMs’ effective context length to 128K–1M . Existing attempts，hybrid linear attention, fixed-size state memory (e.g., RNNs), and external storage like RAG/agents ，either suffer rapid precision decay and latency growth at extreme scales, lack end-to-end differentiability or dynamic memory maintenance, or require complex pipelines. We present Memory Sparse Attention (MSA) : an end-to-end trainable, scalable sparse latent-state memory framework. Core ideas include: Scalable sparse attention + document-wise RoPE (parallel/global) achieving near-linear complexity in both training and inference; KV cache compression with a Memory Parallel inference engine to deliver 100M token throughput on 2×A800 GPUs; Memory Interleave for multi-round, multi-hop reasoning across scattered memory segments. On long-context QA and NIAH (Needle-in-a-Haystack) benchmarks, MSA surpasses same-backbone RAG, best-of-breed RAG stacks, and leading long-context models. Across an unprecedented 16K→100M token range, MSA shows < 9% degradation, suggesting a practical path to decouple memory capacity from reasoning . Scaling from 16K→100M tokens : MSA fuses top-k selection with sparse attention to remain end-to-end differentiable while allowing document decoupling at inference. On MS MARCO, MSA sustains <9% degradation and exhibits strong extrapolation. Some baseline curves end early due to their context limits.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.23516",
+      "pdf_url": "https://arxiv.org/pdf/2603.23516",
+      "github_links": [
+        "https://github.com/EverMind-AI/MSA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.23516",
+      "scraped_at": "2026-03-29T02:35:07.626594"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "MACRO: Advancing Multi-Reference Image Generation with Structured Long-Context Data",
+    "paper_url": "https://huggingface.co/papers/2603.25319",
+    "authors": [],
+    "stars": "38",
+    "details": {
+      "title": "MACRO: Advancing Multi-Reference Image Generation with Structured Long-Context Data",
+      "abstract": "We present MACRO, a large-scale multi-reference image generation dataset MacroData with 400K samples and the corresponding multi-image generation metric MacroBench. Our dataset supports the input of up to 10 reference maps, covering the four long-context task dimensions of customization, illustration, spatial and temporal. It can effectively solve the performance degradation problem faced by the current model when dealing with multi-reference inputs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.25319",
+      "pdf_url": "https://arxiv.org/pdf/2603.25319",
+      "github_links": [
+        "https://github.com/HKU-MMLab/Macro"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.25319",
+      "scraped_at": "2026-03-29T02:35:09.544993"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "SlopCodeBench: Benchmarking How Coding Agents Degrade Over Long-Horizon Iterative Tasks",
+    "paper_url": "https://huggingface.co/papers/2603.24755",
+    "authors": [],
+    "stars": "28",
+    "details": {
+      "title": "SlopCodeBench: Benchmarking How Coding Agents Degrade Over Long-Horizon Iterative Tasks",
+      "abstract": "Coding benchmarks tell you if an agent passed the tests. They don't tell you if the code is any good, or if it's going to be workable three features from now. SlopCodeBench makes agents extend their own solutions across multiple steps without prescribing structure. They all fall apart. No model finishes any problem end-to-end. Duplication and complexity blow up nearly every time. Agent code is 2.2x more verbose than comparable open-source projects and degrades way faster than human code does over time. The benchmark ships with 20 problems but we want more. If you write multi-step coding problems or have ideas for ones, we want them.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.24755",
+      "pdf_url": "https://arxiv.org/pdf/2603.24755",
+      "github_links": [
+        "https://github.com/SprocketLab/slop-code-bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.24755",
+      "scraped_at": "2026-03-29T02:35:11.389359"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "AVControl: Efficient Framework for Training Audio-Visual Controls",
+    "paper_url": "https://huggingface.co/papers/2603.24793",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AVControl: Efficient Framework for Training Audio-Visual Controls",
+      "abstract": "AVControl: Efficient Framework for Training Audio-Visual Controls A lightweight, extendable framework built on LTX-2 for training diverse audio-visual controls using LoRA adapters on a parallel canvas. Each control modality is trained independently as a separate LoRA using a small dataset and a short training run. The framework supports 13+ modalities : Spatially-aligned controls — depth, pose, edges Camera trajectory control — from image or video, including intrinsics Sparse motion tracking Video editing — inpainting, outpainting, local edit, detailing Audio-visual applications — audio intensity, speech-to-ambient, who-is-talking",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.24793",
+      "pdf_url": "https://arxiv.org/pdf/2603.24793",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.24793",
+      "scraped_at": "2026-03-29T02:35:13.287517"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "VFIG: Vectorizing Complex Figures in SVG with Vision-Language Models",
+    "paper_url": "https://huggingface.co/papers/2603.24575",
+    "authors": [],
+    "stars": "10",
+    "details": {
+      "title": "VFIG: Vectorizing Complex Figures in SVG with Vision-Language Models",
+      "abstract": "Ever come across a beautiful Figure 1 in a paper, only to wish you could easily edit and adapt it for your own use? Check out our new work VFig: Vectorizing Complex Figures in SVG with Vision-Language Models! It is a specialized VLM that converts any diagram – from simple to complex – into clean, editable SVG code. Built on Qwen3-VL 4B with SFT & RL, it matches GPT5.2’s performance on converting complex diagrams into SVG code, judged by GPT & Gemini. And it outperforms open-source generalists and specialists in vectorizing diagrams from simple to complex. Website: https://vfig-proj.github.io/ Demo: https://huggingface.co/spaces/allenai/VFig-Image2SVG-Demo Paper: https://arxiv.org/pdf/2603.24575 Model: https://huggingface.co/collections/QijiaHe/vfig Code: https://github.com/RAIVNLab/VFig",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.24575",
+      "pdf_url": "https://arxiv.org/pdf/2603.24575",
+      "github_links": [
+        "https://github.com/RAIVNLab/VFig"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.24575",
+      "scraped_at": "2026-03-29T02:35:16.137548"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "Less Gaussians, Texture More: 4K Feed-Forward Textured Splatting",
+    "paper_url": "https://huggingface.co/papers/2603.25745",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Less Gaussians, Texture More: 4K Feed-Forward Textured Splatting",
+      "abstract": "The decoupling of geometric complexity from rendering resolution is a smart approach — similar to what we've seen work in neural radiance fields with feature grids. The per-primitive textures remind me of UV atlas techniques from traditional graphics, but applied to feed-forward networks. One question: does the texture prediction add significant memory overhead during inference? 4K synthesis is impressive, but I'm curious about the VRAM footprint compared to pixel-aligned approaches at the same output resolution.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.25745",
+      "pdf_url": "https://arxiv.org/pdf/2603.25745",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.25745",
+      "scraped_at": "2026-03-29T02:35:17.954914"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "MuRF: Unlocking the Multi-Scale Potential of Vision Foundation Models",
+    "paper_url": "https://huggingface.co/papers/2603.25744",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "MuRF: Unlocking the Multi-Scale Potential of Vision Foundation Models",
+      "abstract": "MuRF: Unlocking the Multi-Scale Potential of Vision Foundation Models Bocheng Zou†, Mu Cai†, Mark Stanley∗, Dingfu Lu∗, and Yong Jae Lee 1 University of Wisconsin-Madison Projects: https://MuRF-VFM.github.io Code Repository: https://github.com/orgs/MuRF-VFM Contact: bochengz@cs.wisc.edu Date: March 26, 2026 Abstract: Vision Foundation Models (VFMs) have become the cornerstone of modern computer vision, offering robust representations across a wide array of tasks. While recent advances allow these models to handle varying input sizes during training, inference typically remains restricted to a single, fixed scale. This prevalent single-scale paradigm overlooks a fundamental property of visual perception: varying resolutions offer complementary inductive biases, where low-resolution views excel at global semantic recognition and high-resolution views are essential for fine-grained refinement. In this work, we propose Multi-Resolution Fusion (MuRF), a simple yet universally effective strategy to harness this synergy at inference time. Instead of relying on a single view, MuRF constructs a unified representation by processing an image at multiple resolutions through a frozen VFM and fusing the resulting features. The universality of MuRF is its most compelling attribute. It is not tied to a specific architecture, serving instead as a fundamental, training-free enhancement to visual representation. We empirically validate this by applying MuRF to a broad spectrum of critical computer vision tasks across multiple distinct VFM families - primarily DINOv2, but also demonstrating successful generalization to contrastive models like SigLIP2.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.25744",
+      "pdf_url": "https://arxiv.org/pdf/2603.25744",
+      "github_links": [
+        "https://github.com/orgs/MuRF-VFM",
+        "https://github.com/MuRF-VFM/MuRF-VFM.github.io"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.25744",
+      "scraped_at": "2026-03-29T02:35:19.866005"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution",
+    "paper_url": "https://huggingface.co/papers/2603.18718",
+    "authors": [
+      "Xianfeng Tang",
+      "Hui Liu",
+      "Hanqing Lu",
+      "Zhiwei Zhang",
+      "Minhua Lin"
+    ],
+    "stars": "7",
+    "details": {
+      "title": "MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution",
+      "abstract": "Code is publicly available at https://github.com/ventr1c/memma",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.18718",
+      "pdf_url": "https://arxiv.org/pdf/2603.18718",
+      "github_links": [
+        "https://github.com/ventr1c/memma"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.18718",
+      "scraped_at": "2026-03-29T02:35:21.698264"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "Representation Alignment for Just Image Transformers is not Easier than You Think",
+    "paper_url": "https://huggingface.co/papers/2603.14366",
+    "authors": [],
+    "stars": "25",
+    "details": {
+      "title": "Representation Alignment for Just Image Transformers is not Easier than You Think",
+      "abstract": "REPA for JiTs. Github: https://github.com/kaist-cvml/PixelREPA",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.14366",
+      "pdf_url": "https://arxiv.org/pdf/2603.14366",
+      "github_links": [
+        "https://github.com/kaist-cvml/PixelREPA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.14366",
+      "scraped_at": "2026-03-29T02:35:23.467199"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "FinMCP-Bench: Benchmarking LLM Agents for Real-World Financial Tool Use under the Model Context Protocol",
+    "paper_url": "https://huggingface.co/papers/2603.24943",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "FinMCP-Bench: Benchmarking LLM Agents for Real-World Financial Tool Use under the Model Context Protocol",
+      "abstract": "FinMCP-Bench: Benchmarking LLM Agents for Real-World Financial Tool Use under the Model Context Protocol",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.24943",
+      "pdf_url": "https://arxiv.org/pdf/2603.24943",
+      "github_links": [
+        "https://github.com/aliyun/qwen-dianjin"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.24943",
+      "scraped_at": "2026-03-29T02:35:25.253566"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "AVO: Agentic Variation Operators for Autonomous Evolutionary Search",
+    "paper_url": "https://huggingface.co/papers/2603.24517",
+    "authors": [
+      "Timmy Liu",
+      "Zihao Ye",
+      "Bing Xu",
+      "Zhifan Ye",
+      "Terry Chen"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AVO: Agentic Variation Operators for Autonomous Evolutionary Search",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.24517",
+      "pdf_url": "https://arxiv.org/pdf/2603.24517",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.24517",
+      "scraped_at": "2026-03-29T02:35:27.134670"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "Vega: Learning to Drive with Natural Language Instructions",
+    "paper_url": "https://huggingface.co/papers/2603.25741",
+    "authors": [
+      "Jie Zhou",
+      "Zheng Zhu",
+      "Wenzhao Zheng",
+      "Yuxuan Li",
+      "Sicheng Zuo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Vega: Learning to Drive with Natural Language Instructions",
+      "abstract": "The shift from scene descriptions to instruction-following is a key evolution for embodied agents. Most VL-AM papers treat language as a static conditioning signal, but personal driving requires dynamic instruction interpretation. Curious if the InstructScene dataset includes multi-turn instruction sequences — e.g., \"turn left at the light, then park near the cafe\" — or if it's primarily single-step commands. For agentic workflows, the ability to chain instructions over time is critical, and I wonder if the trajectory prediction handles temporal instruction dependencies.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.25741",
+      "pdf_url": "https://arxiv.org/pdf/2603.25741",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.25741",
+      "scraped_at": "2026-03-29T02:35:28.940385"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "S2D2: Fast Decoding for Diffusion LLMs via Training-Free Self-Speculation",
+    "paper_url": "https://huggingface.co/papers/2603.25702",
+    "authors": [],
+    "stars": "11",
+    "details": {
+      "title": "S2D2: Fast Decoding for Diffusion LLMs via Training-Free Self-Speculation",
+      "abstract": "S2D2 is a training-free self-speculative decoding method for block-diffusion LLMs: the same pretrained model drafts in diffusion mode and verifies in block-size-1 autoregressive mode, improving the accuracy-speed tradeoff over strong confidence-thresholding baselines.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.25702",
+      "pdf_url": "https://arxiv.org/pdf/2603.25702",
+      "github_links": [
+        "https://github.com/phymhan/S2D2"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.25702",
+      "scraped_at": "2026-03-29T02:35:30.732412"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "Revisiting On-Policy Distillation: Empirical Failure Modes and Simple Fixes",
+    "paper_url": "https://huggingface.co/papers/2603.25562",
+    "authors": [],
+    "stars": "9",
+    "details": {
+      "title": "Revisiting On-Policy Distillation: Empirical Failure Modes and Simple Fixes",
+      "abstract": "On-policy distillation (OPD) trains a student on its own rollouts using teacher feedback[1][2][3]. In long-horizon LLM post-training, the common sampled-token implementation can be brittle. From a bias-variance perspective, token-level OPD is biased relative to sequence-level reverse-KL, but it admits a much tighter worst-case variance bound . Our toy study shows that stronger future-reward coupling substantially increases gradient variance and destabilizes optimization. In practice, brittleness comes from three sources : an imbalanced one-token learning signal, unreliable teacher guidance on student-generated prefixes, and tokenizer/special-token mismatch. We replace the one-sample comparison with a teacher top-K truncated reverse-KL over local support, together with top-p rollouts and special-token masking . This yields more stable training and better results on both reasoning and agentic multi-task benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.25562",
+      "pdf_url": "https://arxiv.org/pdf/2603.25562",
+      "github_links": [
+        "https://github.com/hhh675597/revisiting_opd"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.25562",
+      "scraped_at": "2026-03-29T02:35:32.612315"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "BioVITA: Biological Dataset, Model, and Benchmark for Visual-Textual-Acoustic Alignment",
+    "paper_url": "https://huggingface.co/papers/2603.23883",
+    "authors": [
+      "Hiroaki Santo",
+      "Kuniaki Saito",
+      "Nakamasa Inoue",
+      "Kaede Shiohara",
+      "Risa Shinoda"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "BioVITA: Biological Dataset, Model, and Benchmark for Visual-Textual-Acoustic Alignment",
+      "abstract": "Understanding animal species from multimodal data poses an emerging challenge at the intersection of computer vision and ecology. While recent biological models, such as BioCLIP, have demonstrated strong alignment between images and textual taxonomic information for species identification, the integration of the audio modality remains an open problem. We propose BioVITA, a novel visual-textual-acoustic alignment framework for biological applications. BioVITA involves (i) a training dataset, (ii) a representation model, and (iii) a retrieval benchmark. First, we construct a large-scale training dataset comprising 1.3 million audio clips and 2.3 million images, covering 14,133 species annotated with 34 ecological trait labels. Second, building upon BioCLIP2, we introduce a two-stage training framework to effectively align audio representations with visual and textual representations. Third, we develop a cross-modal retrieval benchmark that covers all possible directional retrieval across the three modalities (i.e., image-to-audio, audio-to-text, text-to-image, and their reverse directions), with three taxonomic levels: Family, Genus, and Species. Extensive experiments demonstrate that our model learns a unified representation space that captures species-level semantics beyond taxonomy, advancing multimodal biodiversity understanding.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.23883",
+      "pdf_url": "https://arxiv.org/pdf/2603.23883",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.23883",
+      "scraped_at": "2026-03-29T02:35:34.390610"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "Pixel-level Scene Understanding in One Token: Visual States Need What-is-Where Composition",
+    "paper_url": "https://huggingface.co/papers/2603.13904",
+    "authors": [
+      "Byeongju Woo",
+      "Byeonghyun Pak",
+      "Yunghee Lee",
+      "SeokminLee-Chris"
+    ],
+    "stars": "5",
+    "details": {
+      "title": "Pixel-level Scene Understanding in One Token: Visual States Need What-is-Where Composition",
+      "abstract": "We propose CroBo, a self-supervised visual representation framework for robotics that encodes both what is in the scene and where it is, all in a single compact token. By reconstructing masked local crops from a global bottleneck token, CroBo learns pixel-level scene composition and achieves state-of-the-art results on robot policy learning benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.13904",
+      "pdf_url": "https://arxiv.org/pdf/2603.13904",
+      "github_links": [
+        "https://github.com/SeokminLee-Chris/CroBo"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.13904",
+      "scraped_at": "2026-03-29T02:35:36.181029"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "Electrostatic Photoluminescence Tuning in All-Solid-State Perovskite Transistors",
+    "paper_url": "https://huggingface.co/papers/2603.25718",
+    "authors": [
+      "Vitaly Podzorov",
+      "Artem A. Bakulin",
+      "Beier Hu",
+      "Dmitry Maslennikov",
+      "Vladimir Bruevich"
+    ],
+    "stars": "37",
+    "details": {
+      "title": "Electrostatic Photoluminescence Tuning in All-Solid-State Perovskite Transistors",
+      "abstract": "Video world models have shown immense potential in simulating the physical world, yet existing memory mechanisms primarily treat environments as static canvases. When dynamic subjects hide out of sight and later re-emerge, current methods often struggle, leading to frozen, distorted, or vanishing subjects. To address this, we introduce Hybrid Memory, a novel paradigm requiring models to simultaneously act as precise archivists for static backgrounds and vigilant trackers for dynamic subjects, ensuring motion continuity during out-of-view intervals. To facilitate research in this direction, we construct HM-World, the first large-scale video dataset dedicated to hybrid memory. It features 59K high-fidelity clips with decoupled camera and subject trajectories, encompassing 17 diverse scenes, 49 distinct subjects, and meticulously designed exit-entry events to rigorously evaluate hybrid coherence. Furthermore, we propose HyDRA, a specialized memory architecture that compresses memory into tokens and utilizes a spatiotemporal relevance-driven retrieval mechanism. By selectively attending to relevant motion cues, HyDRA effectively preserves the identity and motion of hidden subjects. Extensive experiments on HM-World demonstrate that our method significantly outperforms state-of-the-art approaches in both dynamic subject consistency and overall generation quality.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.25718",
+      "pdf_url": "https://arxiv.org/pdf/2603.25718",
+      "github_links": [
+        "https://github.com/H-EmbodVis/HyDRA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.25718",
+      "scraped_at": "2026-03-29T02:35:37.959507"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "PMT: Plain Mask Transformer for Image and Video Segmentation with Frozen Vision Encoders",
+    "paper_url": "https://huggingface.co/papers/2603.25398",
+    "authors": [],
+    "stars": "15",
+    "details": {
+      "title": "PMT: Plain Mask Transformer for Image and Video Segmentation with Frozen Vision Encoders",
+      "abstract": "We present the Plain Mask Transformer (PMT), a fast Transformer-based segmentation model that operates on top of frozen Vision Foundation Model (VFM) features. Encoder-only models like EoMT and VidEoMT achieve competitive accuracy with low latency but require finetuning the full encoder, preventing the VFM from being reused for other downstream tasks. PMT addresses this by introducing the Plain Mask Decoder (PMD): a lightweight Transformer decoder that mimics the last encoder layers of EoMT, processing queries and frozen patch tokens jointly — without touching the encoder weights. The result: a model that keeps the encoder frozen and shareable across tasks while matching the accuracy and speed of task-specific alternatives.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.25398",
+      "pdf_url": "https://arxiv.org/pdf/2603.25398",
+      "github_links": [
+        "https://github.com/tue-mps/pmt"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.25398",
+      "scraped_at": "2026-03-29T02:35:39.750325"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "Can MLLMs Read Students' Minds? Unpacking Multimodal Error Analysis in Handwritten Math",
+    "paper_url": "https://huggingface.co/papers/2603.24961",
+    "authors": [
+      "Zhiling Yan",
+      "Hang Li",
+      "Yi-Fan Zhang",
+      "Tianlong Xu",
+      "Dingjie Song"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "Can MLLMs Read Students' Minds? Unpacking Multimodal Error Analysis in Handwritten Math",
+      "abstract": "Assessing student handwritten scratchwork is crucial for personalized educational feedback but presents unique challenges due to diverse handwriting, complex layouts, and varied problem-solving approaches. Existing educational NLP primarily focuses on textual responses and neglects the complexity and multimodality inherent in authentic handwritten scratchwork. Current multimodal large language models (MLLMs) excel at visual reasoning but typically adopt an \"examinee perspective\", prioritizing generating correct answers rather than diagnosing student errors. To bridge these gaps, we introduce ScratchMath, a novel benchmark specifically designed for explaining and classifying errors in authentic handwritten mathematics scratchwork. Our dataset comprises 1,720 mathematics samples from Chinese primary and middle school students, supporting two key tasks: Error Cause Explanation (ECE) and Error Cause Classification (ECC), with seven defined error types. We systematically evaluate 16 leading MLLMs, revealing significant performance gaps relative to human experts (83.9% avg.) — the best model (o4-mini) achieves only 57.2%.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.24961",
+      "pdf_url": "https://arxiv.org/pdf/2603.24961",
+      "github_links": [
+        "https://github.com/ai-for-edu/ScratchMath"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.24961",
+      "scraped_at": "2026-03-29T02:35:41.627748"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "Reaching Beyond the Mode: RL for Distributional Reasoning in Language Models",
+    "paper_url": "https://huggingface.co/papers/2603.24844",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Reaching Beyond the Mode: RL for Distributional Reasoning in Language Models",
+      "abstract": "Current post-training methods for language models implicitly collapse a rich distribution of possible answers into a single dominant output. While this works for benchmark-style tasks, many real-world settings—like medical diagnosis, coding, and ambiguous QA—require reasoning over multiple plausible answers under uncertainty. This work introduces Multi-Answer Reinforcement Learning, a framework that trains models to generate diverse candidate answers in a single forward pass, along with calibrated confidence estimates. By shifting from single-output optimization to set-level reasoning, the approach improves diversity, coverage (e.g., pass@k), and calibration—while reducing the need for expensive repeated sampling.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.24844",
+      "pdf_url": "https://arxiv.org/pdf/2603.24844",
+      "github_links": [
+        "https://github.com/ishapuri/multi_answer_rl"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.24844",
+      "scraped_at": "2026-03-29T02:35:43.399723"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "WAFT-Stereo: Warping-Alone Field Transforms for Stereo Matching",
+    "paper_url": "https://huggingface.co/papers/2603.24836",
+    "authors": [],
+    "stars": "17",
+    "details": {
+      "title": "WAFT-Stereo: Warping-Alone Field Transforms for Stereo Matching",
+      "abstract": "New efficient state-of-the-art algorithm for rectified stereo: Best-performing model: #1 on ETH3D, Middlebury, and KITTI, 1.8-6.7x faster than competitive methods, 81% zero-shot error reduction. Fastest model: 21FPS on qHD input, up to 80% zero-shot error reduction.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.24836",
+      "pdf_url": "https://arxiv.org/pdf/2603.24836",
+      "github_links": [
+        "https://github.com/princeton-vl/WAFT-Stereo"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.24836",
+      "scraped_at": "2026-03-29T02:35:45.203116"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "Nudging Hidden States: Training-Free Model Steering for Chain-of-Thought Reasoning in Large Audio-Language Models",
+    "paper_url": "https://huggingface.co/papers/2603.14636",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Nudging Hidden States: Training-Free Model Steering for Chain-of-Thought Reasoning in Large Audio-Language Models",
+      "abstract": "Steering LALMs for better CoT Reasoning",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.14636",
+      "pdf_url": "https://arxiv.org/pdf/2603.14636",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.14636",
+      "scraped_at": "2026-03-29T02:35:46.991935"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "Extending Precipitation Nowcasting Horizons via Spectral Fusion of Radar Observations and Foundation Model Priors",
+    "paper_url": "https://huggingface.co/papers/2603.21768",
+    "authors": [
+      "Yan Liu",
+      "Wen Wang",
+      "Zhiqing Guo",
+      "Qingyong Li",
+      "Onemiss"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Extending Precipitation Nowcasting Horizons via Spectral Fusion of Radar Observations and Foundation Model Priors",
+      "abstract": "We introduce PW-FouCast, a frequency-domain fusion framework designed to extend precipitation nowcasting horizons. By leveraging Pangu-Weather forecasts as spectral priors within a Fourier-based backbone, we align spectral magnitudes and phases to bridge the gap between radar imagery and meteorological data. Our architecture achieves SOTA performance on SEVIR and MeteoNet benchmarks. Code is available here: https://github.com/Onemissed/PW-FouCast",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.21768",
+      "pdf_url": "https://arxiv.org/pdf/2603.21768",
+      "github_links": [
+        "https://github.com/Onemissed/PW-FouCast"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.21768",
+      "scraped_at": "2026-03-29T02:35:48.754872"
+    },
+    "scraped_date": "2026-03-29"
+  },
+  {
+    "title": "IQuest-Coder-V1 Technical Report",
+    "paper_url": "https://huggingface.co/papers/2603.16733",
+    "authors": [],
+    "stars": "1.36k",
+    "details": {
+      "title": "IQuest-Coder-V1 Technical Report",
+      "abstract": "IQuest-Coder-V1 Technical Report",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.16733",
+      "pdf_url": "https://arxiv.org/pdf/2603.16733",
+      "github_links": [
+        "https://github.com/IQuestLab/IQuest-Coder-V1"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.16733",
+      "scraped_at": "2026-03-29T02:35:50.656522"
+    },
+    "scraped_date": "2026-03-29"
   }
 ]
