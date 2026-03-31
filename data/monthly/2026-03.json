@@ -12206,5 +12206,24 @@
       "scraped_at": "2026-03-30T02:37:55.830307"
     },
     "scraped_date": "2026-03-30"
+  },
+  {
+    "title": "ImagenWorld: Stress-Testing Image Generation Models with Explainable Human Evaluation on Open-ended Real-World Tasks",
+    "paper_url": "https://huggingface.co/papers/2603.27862",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ImagenWorld: Stress-Testing Image Generation Models with Explainable Human Evaluation on Open-ended Real-World Tasks",
+      "abstract": "https://blog.comfy.org/p/introducing-imagenworld",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.27862",
+      "pdf_url": "https://arxiv.org/pdf/2603.27862",
+      "github_links": [
+        "https://github.com/TIGER-AI-Lab/ImagenWorld"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.27862",
+      "scraped_at": "2026-03-31T02:32:19.243125"
+    },
+    "scraped_date": "2026-03-31"
   }
 ]

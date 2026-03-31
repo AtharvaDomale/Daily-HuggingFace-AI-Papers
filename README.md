@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-2-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3170+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-1-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3171+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">2</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">2</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">603</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3170+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">1</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">3</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">604</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3171+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** March 30, 2026
+**Last Updated:** March 31, 2026
 
 ---
 
@@ -119,30 +119,15 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. ShotStream: Streaming Multi-Shot Video Generation for Interactive Storytelling</b> ⭐ 57</summary>
+<summary><b>1. ImagenWorld: Stress-Testing Image Generation Models with Explainable Human Evaluation on Open-ended Real-World Tasks</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Quande Liu, Yutian Chen, Junhao Zhuang, Xiaoyu Shi, Yawen Luo
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.27862) • [📄 arXiv](https://arxiv.org/abs/2603.27862) • [📥 PDF](https://arxiv.org/pdf/2603.27862)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.25746) • [📄 arXiv](https://arxiv.org/abs/2603.25746) • [📥 PDF](https://arxiv.org/pdf/2603.25746)
+**💻 Code:** [⭐ Code](https://github.com/TIGER-AI-Lab/ImagenWorld)
 
-**💻 Code:** [⭐ Code](https://github.com/KlingAIResearch/ShotStream)
-
-> The dual-cache memory mechanism here maps interestingly to agentic workflows — global context for cross-turn coherence, local context for intra-turn generation. We've hit similar error accumulation issues with long-running LangGraph agents. The tw...
-
-</details>
-
-<details>
-<summary><b>2. Out of Sight but Not Out of Mind: Hybrid Memory for Dynamic Video World Models</b> ⭐ 41</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.25716) • [📄 arXiv](https://arxiv.org/abs/2603.25716) • [📥 PDF](https://arxiv.org/pdf/2603.25716)
-
-**💻 Code:** [⭐ Code](https://github.com/H-EmbodVis/HyDRA)
-
-> Video world models have shown immense potential in simulating the physical world, yet existing memory mechanisms primarily treat environments as static canvases. When dynamic subjects hide out of sight and later re-emerge, current methods often st...
+> https://blog.comfy.org/p/introducing-imagenworld
 
 </details>
 
@@ -154,28 +139,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 2 |
-| 📅 Today | [`2026-03-30.json`](data/daily/2026-03-30.json) | 2 |
-| 📆 This Week | [`2026-W13.json`](data/weekly/2026-W13.json) | 2 |
-| 🗓️ This Month | [`2026-03.json`](data/monthly/2026-03.json) | 603 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 1 |
+| 📅 Today | [`2026-03-31.json`](data/daily/2026-03-31.json) | 1 |
+| 📆 This Week | [`2026-W13.json`](data/weekly/2026-W13.json) | 3 |
+| 🗓️ This Month | [`2026-03.json`](data/monthly/2026-03.json) | 604 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-03-30 | 2 | [View JSON](data/daily/2026-03-30.json) |
+| 📌 2026-03-31 | 1 | [View JSON](data/daily/2026-03-31.json) |
+| 📄 2026-03-30 | 2 | [View JSON](data/daily/2026-03-30.json) |
 | 📄 2026-03-29 | 29 | [View JSON](data/daily/2026-03-29.json) |
 | 📄 2026-03-28 | 29 | [View JSON](data/daily/2026-03-28.json) |
 | 📄 2026-03-27 | 6 | [View JSON](data/daily/2026-03-27.json) |
 | 📄 2026-03-26 | 4 | [View JSON](data/daily/2026-03-26.json) |
 | 📄 2026-03-25 | 11 | [View JSON](data/daily/2026-03-25.json) |
-| 📄 2026-03-24 | 37 | [View JSON](data/daily/2026-03-24.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W13 | 2 | [View JSON](data/weekly/2026-W13.json) |
+| 📅 2026-W13 | 3 | [View JSON](data/weekly/2026-W13.json) |
 | 📅 2026-W12 | 120 | [View JSON](data/weekly/2026-W12.json) |
 | 📅 2026-W11 | 133 | [View JSON](data/weekly/2026-W11.json) |
 | 📅 2026-W10 | 119 | [View JSON](data/weekly/2026-W10.json) |
@@ -184,7 +169,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-03 | 603 | [View JSON](data/monthly/2026-03.json) |
+| 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
 | 🗓️ 2025-12 | 787 | [View JSON](data/monthly/2025-12.json) |
