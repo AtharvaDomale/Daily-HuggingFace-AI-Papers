@@ -61,5 +61,210 @@
       "scraped_at": "2026-03-31T02:32:19.243125"
     },
     "scraped_date": "2026-03-31"
+  },
+  {
+    "title": "LongCat-Next: Lexicalizing Modalities as Discrete Tokens",
+    "paper_url": "https://huggingface.co/papers/2603.27538",
+    "authors": [],
+    "stars": "278",
+    "details": {
+      "title": "LongCat-Next: Lexicalizing Modalities as Discrete Tokens",
+      "abstract": "An open-source native multimodal model built with a pure discrete autoregressive architecture, supporting unified modeling for visual understanding, generation, audio, and language tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.27538",
+      "pdf_url": "https://arxiv.org/pdf/2603.27538",
+      "github_links": [
+        "https://github.com/meituan-longcat/LongCat-Next"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.27538",
+      "scraped_at": "2026-04-01T02:44:00.653761"
+    },
+    "scraped_date": "2026-04-01"
+  },
+  {
+    "title": "Lingshu-Cell: A generative cellular world model for transcriptome modeling toward virtual cells",
+    "paper_url": "https://huggingface.co/papers/2603.25240",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Lingshu-Cell: A generative cellular world model for transcriptome modeling toward virtual cells",
+      "abstract": "✨ Highlights Lingshu-Cell introduces a generative cellular world model for single-cell transcriptomics based on a masked discrete diffusion framework. Lingshu-Cell performs transcriptome-wide modeling over ~18,000 genes directly in a discrete token space that is compatible with the sparse, non-sequential nature of scRNA-seq data, without prior gene selection. Lingshu-Cell reproduces realistic cell populations across diverse tissues and species, capturing marker-gene expression patterns, cell-subtype proportions, and transcriptomic distributions. Lingshu-Cell achieves strong performance in response prediction under both genetic and cytokine perturbations.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.25240",
+      "pdf_url": "https://arxiv.org/pdf/2603.25240",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.25240",
+      "scraped_at": "2026-04-01T02:44:02.550468"
+    },
+    "scraped_date": "2026-04-01"
+  },
+  {
+    "title": "CARLA-Air: Fly Drones Inside a CARLA World -- A Unified Infrastructure for Air-Ground Embodied Intelligence",
+    "paper_url": "https://huggingface.co/papers/2603.28032",
+    "authors": [
+      "Hong Zhang",
+      "Yanci Wen",
+      "Hanxuan Chen",
+      "tianlezeng"
+    ],
+    "stars": "214",
+    "details": {
+      "title": "CARLA-Air: Fly Drones Inside a CARLA World -- A Unified Infrastructure for Air-Ground Embodied Intelligence",
+      "abstract": "CARLA-Air is an open-source infrastructure that unifies high-fidelity urban driving and physics-accurate multirotor flight within a single Unreal Engine process, providing a practical simulation foundation for air-ground embodied intelligence research.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.28032",
+      "pdf_url": "https://arxiv.org/pdf/2603.28032",
+      "github_links": [
+        "https://github.com/louiszengCN/CarlaAir"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.28032",
+      "scraped_at": "2026-04-01T02:44:04.335447"
+    },
+    "scraped_date": "2026-04-01"
+  },
+  {
+    "title": "OptiMer: Optimal Distribution Vector Merging Is Better than Data Mixing for Continual Pre-Training",
+    "paper_url": "https://huggingface.co/papers/2603.28858",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "OptiMer: Optimal Distribution Vector Merging Is Better than Data Mixing for Continual Pre-Training",
+      "abstract": "🤯 Struggling with dataset mixing ratios in LLM continual training? 🧩 We propose OptiMer: train one model per dataset, then merge them optimally. No more costly ratio tuning! 📄OptiMer: Optimal Distribution Vector Merging Is Better than Data Mixing for Continual Pre-Training 🔗 https://arxiv.org/abs/2603.28858 My last work at @ NICT also related to our collaboration with @AISingapore",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.28858",
+      "pdf_url": "https://arxiv.org/pdf/2603.28858",
+      "github_links": [
+        "https://github.com/shyyhs/optimer"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.28858",
+      "scraped_at": "2026-04-01T02:44:06.091404"
+    },
+    "scraped_date": "2026-04-01"
+  },
+  {
+    "title": "VGGRPO: Towards World-Consistent Video Generation with 4D Latent Reward",
+    "paper_url": "https://huggingface.co/papers/2603.26599",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "VGGRPO: Towards World-Consistent Video Generation with 4D Latent Reward",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.26599",
+      "pdf_url": "https://arxiv.org/pdf/2603.26599",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.26599",
+      "scraped_at": "2026-04-01T02:44:07.918809"
+    },
+    "scraped_date": "2026-04-01"
+  },
+  {
+    "title": "AutoWeather4D: Autonomous Driving Video Weather Conversion via G-Buffer Dual-Pass Editing",
+    "paper_url": "https://huggingface.co/papers/2603.26546",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AutoWeather4D: Autonomous Driving Video Weather Conversion via G-Buffer Dual-Pass Editing",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2603.26546",
+      "pdf_url": "https://arxiv.org/pdf/2603.26546",
+      "github_links": [
+        "https://github.com/lty2226262/AutoWeather4D"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.26546",
+      "scraped_at": "2026-04-01T02:44:09.715481"
+    },
+    "scraped_date": "2026-04-01"
+  },
+  {
+    "title": "Think Anywhere in Code Generation",
+    "paper_url": "https://huggingface.co/papers/2603.29957",
+    "authors": [
+      "Taozhi Chen",
+      "Mengyang Liu",
+      "Ge Li",
+      "Tianyu Zhang",
+      "Xue Jiang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Think Anywhere in Code Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2603.29957",
+      "pdf_url": "https://arxiv.org/pdf/2603.29957",
+      "github_links": [
+        "https://github.com/jiangxxxue/Think-Anywhere"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.29957",
+      "scraped_at": "2026-04-01T02:44:11.469350"
+    },
+    "scraped_date": "2026-04-01"
+  },
+  {
+    "title": "SeGPruner: Semantic-Geometric Visual Token Pruner for 3D Question Answering",
+    "paper_url": "https://huggingface.co/papers/2603.29437",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SeGPruner: Semantic-Geometric Visual Token Pruner for 3D Question Answering",
+      "abstract": "SeGPruner is a token pruning framework for 3D visual question answering that combines attention-based saliency selection with geometry-guided spatial diversification to reduce visual token count by 91% and inference latency by 86%, while preserving competitive reasoning performance across multi-view 3D scenes.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.29437",
+      "pdf_url": "https://arxiv.org/pdf/2603.29437",
+      "github_links": [
+        "https://github.com/intcomp/SegPruner"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.29437",
+      "scraped_at": "2026-04-01T02:44:13.269357"
+    },
+    "scraped_date": "2026-04-01"
+  },
+  {
+    "title": "VectorGym: A Multitask Benchmark for SVG Code Generation, Sketching, and Editing",
+    "paper_url": "https://huggingface.co/papers/2603.29852",
+    "authors": [
+      "Rishav Pramanik",
+      "Tianyang Zhang",
+      "Abhay Puri",
+      "Haotian Zhang",
+      "Juan Rodriguez"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "VectorGym: A Multitask Benchmark for SVG Code Generation, Sketching, and Editing",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2603.29852",
+      "pdf_url": "https://arxiv.org/pdf/2603.29852",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.29852",
+      "scraped_at": "2026-04-01T02:44:15.004799"
+    },
+    "scraped_date": "2026-04-01"
+  },
+  {
+    "title": "Learn2Fold: Structured Origami Generation with World Model Planning",
+    "paper_url": "https://huggingface.co/papers/2603.29585",
+    "authors": [
+      "Zhengzhong Tu",
+      "Jinru Han",
+      "Ying Jiang",
+      "Yunuo Chen",
+      "Yanjia Huang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Learn2Fold: Structured Origami Generation with World Model Planning",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2603.29585",
+      "pdf_url": "https://arxiv.org/pdf/2603.29585",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.29585",
+      "scraped_at": "2026-04-01T02:44:16.712219"
+    },
+    "scraped_date": "2026-04-01"
   }
 ]

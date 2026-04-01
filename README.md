@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-1-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3171+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-10-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3181+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">1</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">3</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">604</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3171+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">10</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">13</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">10</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3181+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** March 31, 2026
+**Last Updated:** April 01, 2026
 
 ---
 
@@ -119,15 +119,132 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. ImagenWorld: Stress-Testing Image Generation Models with Explainable Human Evaluation on Open-ended Real-World Tasks</b> ⭐ 0</summary>
+<summary><b>1. LongCat-Next: Lexicalizing Modalities as Discrete Tokens</b> ⭐ 278</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.27862) • [📄 arXiv](https://arxiv.org/abs/2603.27862) • [📥 PDF](https://arxiv.org/pdf/2603.27862)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.27538) • [📄 arXiv](https://arxiv.org/abs/2603.27538) • [📥 PDF](https://arxiv.org/pdf/2603.27538)
 
-**💻 Code:** [⭐ Code](https://github.com/TIGER-AI-Lab/ImagenWorld)
+**💻 Code:** [⭐ Code](https://github.com/meituan-longcat/LongCat-Next)
 
-> https://blog.comfy.org/p/introducing-imagenworld
+> An open-source native multimodal model built with a pure discrete autoregressive architecture, supporting unified modeling for visual understanding, generation, audio, and language tasks.
+
+</details>
+
+<details>
+<summary><b>2. Lingshu-Cell: A generative cellular world model for transcriptome modeling toward virtual cells</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.25240) • [📄 arXiv](https://arxiv.org/abs/2603.25240) • [📥 PDF](https://arxiv.org/pdf/2603.25240)
+
+> ✨ Highlights Lingshu-Cell introduces a generative cellular world model for single-cell transcriptomics based on a masked discrete diffusion framework. Lingshu-Cell performs transcriptome-wide modeling over ~18,000 genes directly in a discrete toke...
+
+</details>
+
+<details>
+<summary><b>3. CARLA-Air: Fly Drones Inside a CARLA World -- A Unified Infrastructure for Air-Ground Embodied Intelligence</b> ⭐ 214</summary>
+
+<br/>
+
+**👥 Authors:** Hong Zhang, Yanci Wen, Hanxuan Chen, tianlezeng
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.28032) • [📄 arXiv](https://arxiv.org/abs/2603.28032) • [📥 PDF](https://arxiv.org/pdf/2603.28032)
+
+**💻 Code:** [⭐ Code](https://github.com/louiszengCN/CarlaAir)
+
+> CARLA-Air is an open-source infrastructure that unifies high-fidelity urban driving and physics-accurate multirotor flight within a single Unreal Engine process, providing a practical simulation foundation for air-ground embodied intelligence rese...
+
+</details>
+
+<details>
+<summary><b>4. OptiMer: Optimal Distribution Vector Merging Is Better than Data Mixing for Continual Pre-Training</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.28858) • [📄 arXiv](https://arxiv.org/abs/2603.28858) • [📥 PDF](https://arxiv.org/pdf/2603.28858)
+
+**💻 Code:** [⭐ Code](https://github.com/shyyhs/optimer)
+
+> 🤯 Struggling with dataset mixing ratios in LLM continual training? 🧩 We propose OptiMer: train one model per dataset, then merge them optimally. No more costly ratio tuning! 📄OptiMer: Optimal Distribution Vector Merging Is Better than Data Mixing ...
+
+</details>
+
+<details>
+<summary><b>5. VGGRPO: Towards World-Consistent Video Generation with 4D Latent Reward</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.26599) • [📄 arXiv](https://arxiv.org/abs/2603.26599) • [📥 PDF](https://arxiv.org/pdf/2603.26599)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>6. AutoWeather4D: Autonomous Driving Video Weather Conversion via G-Buffer Dual-Pass Editing</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.26546) • [📄 arXiv](https://arxiv.org/abs/2603.26546) • [📥 PDF](https://arxiv.org/pdf/2603.26546)
+
+**💻 Code:** [⭐ Code](https://github.com/lty2226262/AutoWeather4D)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>7. Think Anywhere in Code Generation</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Taozhi Chen, Mengyang Liu, Ge Li, Tianyu Zhang, Xue Jiang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.29957) • [📄 arXiv](https://arxiv.org/abs/2603.29957) • [📥 PDF](https://arxiv.org/pdf/2603.29957)
+
+**💻 Code:** [⭐ Code](https://github.com/jiangxxxue/Think-Anywhere)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>8. SeGPruner: Semantic-Geometric Visual Token Pruner for 3D Question Answering</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.29437) • [📄 arXiv](https://arxiv.org/abs/2603.29437) • [📥 PDF](https://arxiv.org/pdf/2603.29437)
+
+**💻 Code:** [⭐ Code](https://github.com/intcomp/SegPruner)
+
+> SeGPruner is a token pruning framework for 3D visual question answering that combines attention-based saliency selection with geometry-guided spatial diversification to reduce visual token count by 91% and inference latency by 86%, while preservin...
+
+</details>
+
+<details>
+<summary><b>9. VectorGym: A Multitask Benchmark for SVG Code Generation, Sketching, and Editing</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Rishav Pramanik, Tianyang Zhang, Abhay Puri, Haotian Zhang, Juan Rodriguez
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.29852) • [📄 arXiv](https://arxiv.org/abs/2603.29852) • [📥 PDF](https://arxiv.org/pdf/2603.29852)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>10. Learn2Fold: Structured Origami Generation with World Model Planning</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Zhengzhong Tu, Jinru Han, Ying Jiang, Yunuo Chen, Yanjia Huang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.29585) • [📄 arXiv](https://arxiv.org/abs/2603.29585) • [📥 PDF](https://arxiv.org/pdf/2603.29585)
+
+> No abstract available.
 
 </details>
 
@@ -139,28 +256,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 1 |
-| 📅 Today | [`2026-03-31.json`](data/daily/2026-03-31.json) | 1 |
-| 📆 This Week | [`2026-W13.json`](data/weekly/2026-W13.json) | 3 |
-| 🗓️ This Month | [`2026-03.json`](data/monthly/2026-03.json) | 604 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 10 |
+| 📅 Today | [`2026-04-01.json`](data/daily/2026-04-01.json) | 10 |
+| 📆 This Week | [`2026-W13.json`](data/weekly/2026-W13.json) | 13 |
+| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 10 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-03-31 | 1 | [View JSON](data/daily/2026-03-31.json) |
+| 📌 2026-04-01 | 10 | [View JSON](data/daily/2026-04-01.json) |
+| 📄 2026-03-31 | 1 | [View JSON](data/daily/2026-03-31.json) |
 | 📄 2026-03-30 | 2 | [View JSON](data/daily/2026-03-30.json) |
 | 📄 2026-03-29 | 29 | [View JSON](data/daily/2026-03-29.json) |
 | 📄 2026-03-28 | 29 | [View JSON](data/daily/2026-03-28.json) |
 | 📄 2026-03-27 | 6 | [View JSON](data/daily/2026-03-27.json) |
 | 📄 2026-03-26 | 4 | [View JSON](data/daily/2026-03-26.json) |
-| 📄 2026-03-25 | 11 | [View JSON](data/daily/2026-03-25.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W13 | 3 | [View JSON](data/weekly/2026-W13.json) |
+| 📅 2026-W13 | 13 | [View JSON](data/weekly/2026-W13.json) |
 | 📅 2026-W12 | 120 | [View JSON](data/weekly/2026-W12.json) |
 | 📅 2026-W11 | 133 | [View JSON](data/weekly/2026-W11.json) |
 | 📅 2026-W10 | 119 | [View JSON](data/weekly/2026-W10.json) |
@@ -169,6 +286,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
+| 🗓️ 2026-04 | 10 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
