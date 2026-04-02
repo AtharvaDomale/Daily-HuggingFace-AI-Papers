@@ -203,5 +203,112 @@
       "scraped_at": "2026-04-01T02:44:16.712219"
     },
     "scraped_date": "2026-04-01"
+  },
+  {
+    "title": "Terminal Agents Suffice for Enterprise Automation",
+    "paper_url": "https://huggingface.co/papers/2604.00073",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Terminal Agents Suffice for Enterprise Automation",
+      "abstract": "Terminal-based coding agents using direct API access can match or outperform GUI and tool-augmented agents for enterprise automation, suggesting strong foundation models with simple programmatic interfaces are often sufficient.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.00073",
+      "pdf_url": "https://arxiv.org/pdf/2604.00073",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.00073",
+      "scraped_at": "2026-04-02T02:28:53.531909"
+    },
+    "scraped_date": "2026-04-02"
+  },
+  {
+    "title": "GaussianGPT: Towards Autoregressive 3D Gaussian Scene Generation",
+    "paper_url": "https://huggingface.co/papers/2603.26661",
+    "authors": [
+      "Matthias Nießner",
+      "Katharina Schmid",
+      "Barbara Rössle",
+      "Nicolas von Lützow"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "GaussianGPT: Towards Autoregressive 3D Gaussian Scene Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2603.26661",
+      "pdf_url": "https://arxiv.org/pdf/2603.26661",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.26661",
+      "scraped_at": "2026-04-02T02:28:55.220003"
+    },
+    "scraped_date": "2026-04-02"
+  },
+  {
+    "title": "Think, Act, Build: An Agentic Framework with Vision Language Models for Zero-Shot 3D Visual Grounding",
+    "paper_url": "https://huggingface.co/papers/2604.00528",
+    "authors": [
+      "Lifu Huang",
+      "Zhiyang Xu",
+      "Zihao Lin",
+      "Haibo Wang"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Think, Act, Build: An Agentic Framework with Vision Language Models for Zero-Shot 3D Visual Grounding",
+      "abstract": "We introduce TAB (Think, Act, Build), a dynamic agentic framework designed for zero-shot 3D Visual Grounding (3D-VG). By operating directly on raw RGB-D streams, TAB reformulates 3D grounding from a static proposal matching task into an active semantic reasoning and geometric reconstruction process.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.00528",
+      "pdf_url": "https://arxiv.org/pdf/2604.00528",
+      "github_links": [
+        "https://github.com/WHB139426/TAB-Agent"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.00528",
+      "scraped_at": "2026-04-02T02:28:56.930191"
+    },
+    "scraped_date": "2026-04-02"
+  },
+  {
+    "title": "MMaDA-VLA: Large Diffusion Vision-Language-Action Model with Unified Multi-Modal Instruction and Generation",
+    "paper_url": "https://huggingface.co/papers/2603.25406",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MMaDA-VLA: Large Diffusion Vision-Language-Action Model with Unified Multi-Modal Instruction and Generation",
+      "abstract": "We present MMaDA-VLA, a fully native pre-trained large diffusion VLA model that unifies multi-modal understanding and generation in a single framework.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.25406",
+      "pdf_url": "https://arxiv.org/pdf/2603.25406",
+      "github_links": [
+        "https://github.com/yliu-cs/MMaDA-VLA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.25406",
+      "scraped_at": "2026-04-02T02:28:58.610643"
+    },
+    "scraped_date": "2026-04-02"
+  },
+  {
+    "title": "HippoCamp: Benchmarking Contextual Agents on Personal Computers",
+    "paper_url": "https://huggingface.co/papers/2604.01221",
+    "authors": [
+      "Hoang-Nhat Nguyen",
+      "Shuai Liu",
+      "Kairui Hu",
+      "Shulin Tian",
+      "Zhe Yang"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "HippoCamp: Benchmarking Contextual Agents on Personal Computers",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.01221",
+      "pdf_url": "https://arxiv.org/pdf/2604.01221",
+      "github_links": [
+        "https://github.com/Savannah-yz/HippoCamp"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.01221",
+      "scraped_at": "2026-04-02T02:29:00.287814"
+    },
+    "scraped_date": "2026-04-02"
   }
 ]
