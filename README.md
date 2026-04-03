@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-5-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3186+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-7-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3193+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">5</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">18</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">15</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3186+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">7</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">25</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">22</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3193+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** April 02, 2026
+**Last Updated:** April 03, 2026
 
 ---
 
@@ -119,69 +119,97 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Terminal Agents Suffice for Enterprise Automation</b> ⭐ 0</summary>
+<summary><b>1. SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization</b> ⭐ 4</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.00073) • [📄 arXiv](https://arxiv.org/abs/2604.00073) • [📥 PDF](https://arxiv.org/pdf/2604.00073)
+**👥 Authors:** Qi Gu, Chengcheng Han, Jinyang Wu, Zhiyuan Yao, Zhengxi Lu
 
-> Terminal-based coding agents using direct API access can match or outperform GUI and tool-augmented agents for enterprise automation, suggesting strong foundation models with simple programmatic interfaces are often sufficient.
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.02268) • [📄 arXiv](https://arxiv.org/abs/2604.02268) • [📥 PDF](https://arxiv.org/pdf/2604.02268)
+
+**💻 Code:** [⭐ Code](https://github.com/ZJU-REAL/SkillZero)
+
+> We propose SKILL0, the first RL framework that formulates skill internalization as an explicit training objective, moving agents from inference-time skill dependence to fully autonomous zero-shot behavior. We introduce in-context reinforcement lea...
 
 </details>
 
 <details>
-<summary><b>2. GaussianGPT: Towards Autoregressive 3D Gaussian Scene Generation</b> ⭐ 0</summary>
+<summary><b>2. Generative World Renderer</b> ⭐ 2</summary>
 
 <br/>
 
-**👥 Authors:** Matthias Nießner, Katharina Schmid, Barbara Rössle, Nicolas von Lützow
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.02329) • [📄 arXiv](https://arxiv.org/abs/2604.02329) • [📥 PDF](https://arxiv.org/pdf/2604.02329)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.26661) • [📄 arXiv](https://arxiv.org/abs/2603.26661) • [📥 PDF](https://arxiv.org/pdf/2603.26661)
+**💻 Code:** [⭐ Code](https://github.com/ShandaAI/AlayaRenderer)
 
-> No abstract available.
+> Scaling generative inverse and forward rendering to real-world scenarios is bottlenecked by the limited realism and temporal coherence of existing synthetic datasets. To bridge this persistent domain gap, we introduce a large-scale , dynamic datas...
 
 </details>
 
 <details>
-<summary><b>3. Think, Act, Build: An Agentic Framework with Vision Language Models for Zero-Shot 3D Visual Grounding</b> ⭐ 1</summary>
+<summary><b>3. The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook</b> ⭐ 415</summary>
 
 <br/>
 
-**👥 Authors:** Lifu Huang, Zhiyang Xu, Zihao Lin, Haibo Wang
+**👥 Authors:** Cheng Yang, Tianyu Fu, Yongbo He, Zhangquan Chen, Xinlei Yu
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.00528) • [📄 arXiv](https://arxiv.org/abs/2604.00528) • [📥 PDF](https://arxiv.org/pdf/2604.00528)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.02029) • [📄 arXiv](https://arxiv.org/abs/2604.02029) • [📥 PDF](https://arxiv.org/pdf/2604.02029)
 
-**💻 Code:** [⭐ Code](https://github.com/WHB139426/TAB-Agent)
+**💻 Code:** [⭐ Code](https://github.com/YU-deep/Awesome-Latent-Space)
 
-> We introduce TAB (Think, Act, Build), a dynamic agentic framework designed for zero-shot 3D Visual Grounding (3D-VG). By operating directly on raw RGB-D streams, TAB reformulates 3D grounding from a static proposal matching task into an active sem...
+> The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook
 
 </details>
 
 <details>
-<summary><b>4. MMaDA-VLA: Large Diffusion Vision-Language-Action Model with Unified Multi-Modal Instruction and Generation</b> ⭐ 0</summary>
+<summary><b>4. FlowSlider: Training-Free Continuous Image Editing via Fidelity-Steering Decomposition</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.25406) • [📄 arXiv](https://arxiv.org/abs/2603.25406) • [📥 PDF](https://arxiv.org/pdf/2603.25406)
+**👥 Authors:** Kazuhiko Sumi, Guoqing Hao, Taichi Endo
 
-**💻 Code:** [⭐ Code](https://github.com/yliu-cs/MMaDA-VLA)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.02088) • [📄 arXiv](https://arxiv.org/abs/2604.02088) • [📥 PDF](https://arxiv.org/pdf/2604.02088)
 
-> We present MMaDA-VLA, a fully native pre-trained large diffusion VLA model that unifies multi-modal understanding and generation in a single framework.
+> Training-free continuous image editing
 
 </details>
 
 <details>
-<summary><b>5. HippoCamp: Benchmarking Contextual Agents on Personal Computers</b> ⭐ 1</summary>
+<summary><b>5. GPA: Learning GUI Process Automation from Demonstrations</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Hoang-Nhat Nguyen, Shuai Liu, Kairui Hu, Shulin Tian, Zhe Yang
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.01676) • [📄 arXiv](https://arxiv.org/abs/2604.01676) • [📥 PDF](https://arxiv.org/pdf/2604.01676)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.01221) • [📄 arXiv](https://arxiv.org/abs/2604.01221) • [📥 PDF](https://arxiv.org/pdf/2604.01221)
+> GUI Process Automation (GPA) - from Salesforce AI Research For product or enterprise use cases, please contact zirui.zhao@salesforce.com or junnan.li@salesforce.com . What is GPA? GPA is a demo-based RPA (Robotic Process Automation) framework for ...
 
-**💻 Code:** [⭐ Code](https://github.com/Savannah-yz/HippoCamp)
+</details>
 
-> No abstract available.
+<details>
+<summary><b>6. VideoZeroBench: Probing the Limits of Video MLLMs with Spatio-Temporal Evidence Verification</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.01569) • [📄 arXiv](https://arxiv.org/abs/2604.01569) • [📥 PDF](https://arxiv.org/pdf/2604.01569)
+
+**💻 Code:** [⭐ Code](https://github.com/marinero4972/VideoZeroBench)
+
+> VideoZeroBench is a hierarchical benchmark designed for extremely challenging long-video question answering that rigorously verifies spatio-temporal evidence.
+
+</details>
+
+<details>
+<summary><b>7. EgoSim: Egocentric World Simulator for Embodied Interaction Generation</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Ran Yi, Xihui Liu, Ruiyan Wang, Mingda Jia, Jinkun Hao
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.01001) • [📄 arXiv](https://arxiv.org/abs/2604.01001) • [📥 PDF](https://arxiv.org/pdf/2604.01001)
+
+**💻 Code:** [⭐ Code](https://github.com/jinkun-hao/EgoSim)
+
+> Project page: https://egosimulator.github.io/
 
 </details>
 
@@ -193,28 +221,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 5 |
-| 📅 Today | [`2026-04-02.json`](data/daily/2026-04-02.json) | 5 |
-| 📆 This Week | [`2026-W13.json`](data/weekly/2026-W13.json) | 18 |
-| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 15 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 7 |
+| 📅 Today | [`2026-04-03.json`](data/daily/2026-04-03.json) | 7 |
+| 📆 This Week | [`2026-W13.json`](data/weekly/2026-W13.json) | 25 |
+| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 22 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-04-02 | 5 | [View JSON](data/daily/2026-04-02.json) |
+| 📌 2026-04-03 | 7 | [View JSON](data/daily/2026-04-03.json) |
+| 📄 2026-04-02 | 5 | [View JSON](data/daily/2026-04-02.json) |
 | 📄 2026-04-01 | 10 | [View JSON](data/daily/2026-04-01.json) |
 | 📄 2026-03-31 | 1 | [View JSON](data/daily/2026-03-31.json) |
 | 📄 2026-03-30 | 2 | [View JSON](data/daily/2026-03-30.json) |
 | 📄 2026-03-29 | 29 | [View JSON](data/daily/2026-03-29.json) |
 | 📄 2026-03-28 | 29 | [View JSON](data/daily/2026-03-28.json) |
-| 📄 2026-03-27 | 6 | [View JSON](data/daily/2026-03-27.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W13 | 18 | [View JSON](data/weekly/2026-W13.json) |
+| 📅 2026-W13 | 25 | [View JSON](data/weekly/2026-W13.json) |
 | 📅 2026-W12 | 120 | [View JSON](data/weekly/2026-W12.json) |
 | 📅 2026-W11 | 133 | [View JSON](data/weekly/2026-W11.json) |
 | 📅 2026-W10 | 119 | [View JSON](data/weekly/2026-W10.json) |
@@ -223,7 +251,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-04 | 15 | [View JSON](data/monthly/2026-04.json) |
+| 🗓️ 2026-04 | 22 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |

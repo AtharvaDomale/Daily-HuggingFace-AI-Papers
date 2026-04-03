@@ -310,5 +310,156 @@
       "scraped_at": "2026-04-02T02:29:00.287814"
     },
     "scraped_date": "2026-04-02"
+  },
+  {
+    "title": "SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization",
+    "paper_url": "https://huggingface.co/papers/2604.02268",
+    "authors": [
+      "Qi Gu",
+      "Chengcheng Han",
+      "Jinyang Wu",
+      "Zhiyuan Yao",
+      "Zhengxi Lu"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization",
+      "abstract": "We propose SKILL0, the first RL framework that formulates skill internalization as an explicit training objective, moving agents from inference-time skill dependence to fully autonomous zero-shot behavior. We introduce in-context reinforcement learning, which provides structured skill guidance during training rollouts and removes it entirely at inference, directly optimizing the transition from context-dependent execution to intrinsic competence. We propose Dynamic Curriculum, a helpfulness-driven annealing mechanism that withdraws each skill only when the current policy no longer benefits from it, replacing rigid schedules with adaptive internalization.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.02268",
+      "pdf_url": "https://arxiv.org/pdf/2604.02268",
+      "github_links": [
+        "https://github.com/ZJU-REAL/SkillZero"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.02268",
+      "scraped_at": "2026-04-03T02:29:57.614637"
+    },
+    "scraped_date": "2026-04-03"
+  },
+  {
+    "title": "Generative World Renderer",
+    "paper_url": "https://huggingface.co/papers/2604.02329",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Generative World Renderer",
+      "abstract": "Scaling generative inverse and forward rendering to real-world scenarios is bottlenecked by the limited realism and temporal coherence of existing synthetic datasets. To bridge this persistent domain gap, we introduce a large-scale , dynamic dataset curated from visually complex AAA games. Using a novel dual-screen stitched capture method, we extracted 4M continuous frames ( 720p/30 FPS ) of synchronized RGB and five G-buffer channels across diverse scenes, visual effects, and environments, including adverse weather and motion-blur variants. This dataset uniquely advances bidirectional rendering: enabling robust in-the-wild geometry and material decomposition, and facilitating high-fidelity G-buffer-guided video generation. Furthermore, to evaluate the real-world performance of inverse rendering without ground truth, we propose a novel VLM-based assessment protocol measuring semantic, spatial, and temporal consistency. Experiments demonstrate that inverse renderers fine-tuned on our data achieve superior cross-dataset generalization and controllable generation, while our VLM evaluation strongly correlates with human judgment. Combined with our toolkit, our forward renderer enables users to edit styles of AAA games from G-buffers using text prompts.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.02329",
+      "pdf_url": "https://arxiv.org/pdf/2604.02329",
+      "github_links": [
+        "https://github.com/ShandaAI/AlayaRenderer"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.02329",
+      "scraped_at": "2026-04-03T02:29:59.507586"
+    },
+    "scraped_date": "2026-04-03"
+  },
+  {
+    "title": "The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook",
+    "paper_url": "https://huggingface.co/papers/2604.02029",
+    "authors": [
+      "Cheng Yang",
+      "Tianyu Fu",
+      "Yongbo He",
+      "Zhangquan Chen",
+      "Xinlei Yu"
+    ],
+    "stars": "415",
+    "details": {
+      "title": "The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook",
+      "abstract": "The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.02029",
+      "pdf_url": "https://arxiv.org/pdf/2604.02029",
+      "github_links": [
+        "https://github.com/YU-deep/Awesome-Latent-Space"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.02029",
+      "scraped_at": "2026-04-03T02:30:01.459493"
+    },
+    "scraped_date": "2026-04-03"
+  },
+  {
+    "title": "FlowSlider: Training-Free Continuous Image Editing via Fidelity-Steering Decomposition",
+    "paper_url": "https://huggingface.co/papers/2604.02088",
+    "authors": [
+      "Kazuhiko Sumi",
+      "Guoqing Hao",
+      "Taichi Endo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "FlowSlider: Training-Free Continuous Image Editing via Fidelity-Steering Decomposition",
+      "abstract": "Training-free continuous image editing",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.02088",
+      "pdf_url": "https://arxiv.org/pdf/2604.02088",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.02088",
+      "scraped_at": "2026-04-03T02:30:03.397065"
+    },
+    "scraped_date": "2026-04-03"
+  },
+  {
+    "title": "GPA: Learning GUI Process Automation from Demonstrations",
+    "paper_url": "https://huggingface.co/papers/2604.01676",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GPA: Learning GUI Process Automation from Demonstrations",
+      "abstract": "GUI Process Automation (GPA) - from Salesforce AI Research For product or enterprise use cases, please contact zirui.zhao@salesforce.com or junnan.li@salesforce.com . What is GPA? GPA is a demo-based RPA (Robotic Process Automation) framework for automating desktop GUI tasks on macOS. The core idea: record a workflow once, replay it reliably — even when the UI changes slightly. Unlike traditional RPA tools that rely on pixel coordinates or brittle selectors, GPA uses lightweight local models to understand UI structure and locate elements robustly at replay time. Key capabilities: Record : Capture a GUI workflow as a sequence of user actions and screenshots Build : LLM-powered analysis (done once at build time) converts the recording into a parameterized workflow template with named variables Run : Action execution uses small-scale, locally-running visual detectors and feature extractors — no large vision-language model required at runtime. UI elements are matched via efficient embedding-based retrieval, keeping replay fast and privacy-preserving Variables : Workflows accept runtime variable overrides (e.g. filenames, text content, search terms) Loops : Run partial step ranges to support batched or iterative workflows",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.01676",
+      "pdf_url": "https://arxiv.org/pdf/2604.01676",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.01676",
+      "scraped_at": "2026-04-03T02:30:05.357027"
+    },
+    "scraped_date": "2026-04-03"
+  },
+  {
+    "title": "VideoZeroBench: Probing the Limits of Video MLLMs with Spatio-Temporal Evidence Verification",
+    "paper_url": "https://huggingface.co/papers/2604.01569",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "VideoZeroBench: Probing the Limits of Video MLLMs with Spatio-Temporal Evidence Verification",
+      "abstract": "VideoZeroBench is a hierarchical benchmark designed for extremely challenging long-video question answering that rigorously verifies spatio-temporal evidence.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.01569",
+      "pdf_url": "https://arxiv.org/pdf/2604.01569",
+      "github_links": [
+        "https://github.com/marinero4972/VideoZeroBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.01569",
+      "scraped_at": "2026-04-03T02:30:07.298758"
+    },
+    "scraped_date": "2026-04-03"
+  },
+  {
+    "title": "EgoSim: Egocentric World Simulator for Embodied Interaction Generation",
+    "paper_url": "https://huggingface.co/papers/2604.01001",
+    "authors": [
+      "Ran Yi",
+      "Xihui Liu",
+      "Ruiyan Wang",
+      "Mingda Jia",
+      "Jinkun Hao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "EgoSim: Egocentric World Simulator for Embodied Interaction Generation",
+      "abstract": "Project page: https://egosimulator.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.01001",
+      "pdf_url": "https://arxiv.org/pdf/2604.01001",
+      "github_links": [
+        "https://github.com/jinkun-hao/EgoSim"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.01001",
+      "scraped_at": "2026-04-03T02:30:09.274878"
+    },
+    "scraped_date": "2026-04-03"
   }
 ]
