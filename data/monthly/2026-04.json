@@ -2250,5 +2250,122 @@
       "scraped_at": "2026-04-05T02:38:59.201827"
     },
     "scraped_date": "2026-04-05"
+  },
+  {
+    "title": "Agentic-MME: What Agentic Capability Really Brings to Multimodal Intelligence?",
+    "paper_url": "https://huggingface.co/papers/2604.03016",
+    "authors": [
+      "Binyu Wang",
+      "Jinglin Chen",
+      "Siyi Wang",
+      "Yishan Yang",
+      "Qianshan Wei"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Agentic-MME: What Agentic Capability Really Brings to Multimodal Intelligence?",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.03016",
+      "pdf_url": "https://arxiv.org/pdf/2604.03016",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.03016",
+      "scraped_at": "2026-04-06T02:38:48.482515"
+    },
+    "scraped_date": "2026-04-06"
+  },
+  {
+    "title": "AgentHazard: A Benchmark for Evaluating Harmful Behavior in Computer-Use Agents",
+    "paper_url": "https://huggingface.co/papers/2604.02947",
+    "authors": [
+      "Yige Li",
+      "Xingjun Ma",
+      "Yingshui Tan",
+      "Yifan Ding",
+      "Yunhao Feng"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AgentHazard: A Benchmark for Evaluating Harmful Behavior in Computer-Use Agents",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.02947",
+      "pdf_url": "https://arxiv.org/pdf/2604.02947",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.02947",
+      "scraped_at": "2026-04-06T02:38:50.214403"
+    },
+    "scraped_date": "2026-04-06"
+  },
+  {
+    "title": "CoME-VL: Scaling Complementary Multi-Encoder Vision-Language Learning",
+    "paper_url": "https://huggingface.co/papers/2604.03231",
+    "authors": [
+      "Hisham Cholakkal",
+      "Imran Razzak",
+      "Xilin He",
+      "Komal Kumar",
+      "Ankan Deria"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "CoME-VL: Scaling Complementary Multi-Encoder Vision-Language Learning",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.03231",
+      "pdf_url": "https://arxiv.org/pdf/2604.03231",
+      "github_links": [
+        "https://github.com/mbzuai-oryx/CoME-VL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.03231",
+      "scraped_at": "2026-04-06T02:38:52.007716"
+    },
+    "scraped_date": "2026-04-06"
+  },
+  {
+    "title": "InCoder-32B-Thinking: Industrial Code World Model for Thinking",
+    "paper_url": "https://huggingface.co/papers/2604.03144",
+    "authors": [
+      "Tuney Zheng",
+      "Junhang Cheng",
+      "Jiajun Wu",
+      "Wei Zhang",
+      "Jian Yang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "InCoder-32B-Thinking: Industrial Code World Model for Thinking",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.03144",
+      "pdf_url": "https://arxiv.org/pdf/2604.03144",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.03144",
+      "scraped_at": "2026-04-06T02:38:53.752272"
+    },
+    "scraped_date": "2026-04-06"
+  },
+  {
+    "title": "Xpertbench: Expert Level Tasks with Rubrics-Based Evaluation",
+    "paper_url": "https://huggingface.co/papers/2604.02368",
+    "authors": [
+      "Duo Wang",
+      "Yongchang Peng",
+      "Yuxin Ma",
+      "Xin Ma",
+      "Xue Liu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Xpertbench: Expert Level Tasks with Rubrics-Based Evaluation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.02368",
+      "pdf_url": "https://arxiv.org/pdf/2604.02368",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.02368",
+      "scraped_at": "2026-04-06T02:38:55.490448"
+    },
+    "scraped_date": "2026-04-06"
   }
 ]
