@@ -2367,5 +2367,370 @@
       "scraped_at": "2026-04-06T02:38:55.490448"
     },
     "scraped_date": "2026-04-06"
+  },
+  {
+    "title": "Self-Distilled RLVR",
+    "paper_url": "https://huggingface.co/papers/2604.03128",
+    "authors": [
+      "Naibin Gu",
+      "Minghui Chen",
+      "Qingyi Si",
+      "Chuanyu Qin",
+      "Chenxu Yang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Self-Distilled RLVR",
+      "abstract": "nice breakdown of this one here if anyone wants the tldr https://arxivexplained.com/papers/self-distilled-rlvr the part about rlvr is what got me",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.03128",
+      "pdf_url": "https://arxiv.org/pdf/2604.03128",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.03128",
+      "scraped_at": "2026-04-07T02:33:26.657197"
+    },
+    "scraped_date": "2026-04-07"
+  },
+  {
+    "title": "A Simple Baseline for Streaming Video Understanding",
+    "paper_url": "https://huggingface.co/papers/2604.02317",
+    "authors": [],
+    "stars": "49",
+    "details": {
+      "title": "A Simple Baseline for Streaming Video Understanding",
+      "abstract": "🚀 SimpleStream: Rethinking Memory in Streaming Video Understanding Recent streaming video understanding methods increasingly rely on complex memory mechanisms. We revisit a simple question: do we really need them? 🔑 Key finding A simple sliding-window baseline using only the most recent N frames can match or outperform existing memory-based approaches. 📊 Highlights Uses only recent frames (e.g., N=4) , without explicit memory modules Achieves 67.7% on OVO-Bench and 80.6% on StreamingBench under real-time evaluation Reveals a consistent perception–memory trade-off : adding more historical context can improve recall, but often weakens real-time perception 💡 Takeaway Performance gains from memory are not guaranteed . We argue that future streaming benchmarks should separate present-scene perception from long-range memory , so improvements from added complexity can be evaluated more clearly. 📄 Paper: https://arxiv.org/abs/2604.02317 💻 Code: https://github.com/EvolvingLMMs-Lab/SimpleStream 🌐 Project: https://simple-stream.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2511.16655",
+      "pdf_url": "https://arxiv.org/pdf/2604.02317",
+      "github_links": [
+        "https://github.com/EvolvingLMMs-Lab/SimpleStream"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.02317",
+      "scraped_at": "2026-04-07T02:33:28.784696"
+    },
+    "scraped_date": "2026-04-07"
+  },
+  {
+    "title": "Token Warping Helps MLLMs Look from Nearby Viewpoints",
+    "paper_url": "https://huggingface.co/papers/2604.02870",
+    "authors": [
+      "Juil Koo",
+      "Seungwoo Yoo",
+      "Mingue Park",
+      "Chanho Park",
+      "Phillip Y. Lee"
+    ],
+    "stars": "10",
+    "details": {
+      "title": "Token Warping Helps MLLMs Look from Nearby Viewpoints",
+      "abstract": "CVPR 2026 Paper: https://arxiv.org/abs/2604.02870 Project Page: https://token-warping-mllm.github.io/ Code: https://github.com/KAIST-Visual-AI-Group/Token-Warping-MLLM",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.02870",
+      "pdf_url": "https://arxiv.org/pdf/2604.02870",
+      "github_links": [
+        "https://github.com/KAIST-Visual-AI-Group/Token-Warping-MLLM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.02870",
+      "scraped_at": "2026-04-07T02:33:30.620319"
+    },
+    "scraped_date": "2026-04-07"
+  },
+  {
+    "title": "Agentic-MME: What Agentic Capability Really Brings to Multimodal Intelligence?",
+    "paper_url": "https://huggingface.co/papers/2604.03016",
+    "authors": [
+      "Binyu Wang",
+      "Jinglin Chen",
+      "Siyi Wang",
+      "Yishan Yang",
+      "Qianshan Wei"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Agentic-MME: What Agentic Capability Really Brings to Multimodal Intelligence?",
+      "abstract": "Insightful Work!",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.03016",
+      "pdf_url": "https://arxiv.org/pdf/2604.03016",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.03016",
+      "scraped_at": "2026-04-07T02:33:32.462067"
+    },
+    "scraped_date": "2026-04-07"
+  },
+  {
+    "title": "Test-Time Scaling Makes Overtraining Compute-Optimal",
+    "paper_url": "https://huggingface.co/papers/2604.01411",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Test-Time Scaling Makes Overtraining Compute-Optimal",
+      "abstract": "That new LFM2.5-350M is super overtrained — and everyone was shocked by how far they pushed it. As it turns out, we have a scaling law for that. T² (Train-to-Test) scaling combines Chinchilla pretraining scaling with test-time scaling via repeated sampling, and finds that when you account for inference compute, radical overtraining becomes compute optimal.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.01411",
+      "pdf_url": "https://arxiv.org/pdf/2604.01411",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.01411",
+      "scraped_at": "2026-04-07T02:33:34.286924"
+    },
+    "scraped_date": "2026-04-07"
+  },
+  {
+    "title": "Communicating about Space: Language-Mediated Spatial Integration Across Partial Views",
+    "paper_url": "https://huggingface.co/papers/2603.27183",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Communicating about Space: Language-Mediated Spatial Integration Across Partial Views",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.27183",
+      "pdf_url": "https://arxiv.org/pdf/2603.27183",
+      "github_links": [
+        "https://github.com/ankursikarwar/Cosmic"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.27183",
+      "scraped_at": "2026-04-07T02:33:36.167897"
+    },
+    "scraped_date": "2026-04-07"
+  },
+  {
+    "title": "GrandCode: Achieving Grandmaster Level in Competitive Programming via Agentic Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2604.02721",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "GrandCode: Achieving Grandmaster Level in Competitive Programming via Agentic Reinforcement Learning",
+      "abstract": "In the most recent three Codeforces live competitions, i.e., Round 1087, Round 1088, and Round 1089, GrandCode, GrandCode, ranked first in all of them, beating all human participants, including legendary grandmasters. GrandCode is a multi-agent reinforcement learning system designed for competitive programming. It orchestrates a variety of agentic modules (hypothesis proposal, solver, test generator, summarization, etc) and jointly improves them through post-training and online test-time RL. GrandCode is developed based on Qwen.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.02721",
+      "pdf_url": "https://arxiv.org/pdf/2604.02721",
+      "github_links": [
+        "https://github.com/deepreinforce-ai/codeforces"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.02721",
+      "scraped_at": "2026-04-07T02:33:37.951596"
+    },
+    "scraped_date": "2026-04-07"
+  },
+  {
+    "title": "InCoder-32B-Thinking: Industrial Code World Model for Thinking",
+    "paper_url": "https://huggingface.co/papers/2604.03144",
+    "authors": [
+      "Tuney Zheng",
+      "Junhang Cheng",
+      "Jiajun Wu",
+      "Wei Zhang",
+      "Jian Yang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "InCoder-32B-Thinking: Industrial Code World Model for Thinking",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API InCoder-32B: Code Foundation Model for Industrial Scenarios (2026) SiliconMind-V1: Multi-Agent Distillation and Debug-Reasoning Workflows for Verilog Code Generation (2026) ACE-RTL: When Agentic Context Evolution Meets RTL-Specialized LLMs (2026) IQuest-Coder-V1 Technical Report (2026) KernelCraft: Benchmarking for Agentic Close-to-Metal Kernel Generation on Emerging Hardware (2026) AutoVeriFix+: High-Correctness RTL Generation via Trace-Aware Causal Fix and Semantic Redundancy Pruning (2026) Think Anywhere in Code Generation (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.03144",
+      "pdf_url": "https://arxiv.org/pdf/2604.03144",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.03144",
+      "scraped_at": "2026-04-07T02:33:39.710582"
+    },
+    "scraped_date": "2026-04-07"
+  },
+  {
+    "title": "AgentSocialBench: Evaluating Privacy Risks in Human-Centered Agentic Social Networks",
+    "paper_url": "https://huggingface.co/papers/2604.01487",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "AgentSocialBench: Evaluating Privacy Risks in Human-Centered Agentic Social Networks",
+      "abstract": "With the rise of personalized, persistent LLM agent frameworks such as OpenClaw, human-centered agentic social networks in which teams of collaborative AI agents serve individual users in a social network across multiple domains are becoming a reality. This setting creates novel privacy challenges: agents must coordinate across domain boundaries, mediate between humans, and interact with other users' agents, all while protecting sensitive personal information. While prior work has evaluated multi-agent coordination and privacy preservation, the dynamics and privacy risks of human-centered agentic social networks remain unexplored. To this end, we introduce AgentSocialBench, the first benchmark to systematically evaluate privacy risk in this setting, comprising scenarios across seven categories spanning dyadic and multi-party interactions, grounded in realistic user profiles with hierarchical sensitivity labels and directed social graphs. Our experiments reveal that privacy in agentic social networks is fundamentally harder than in single-agent settings: (1) cross-domain and cross-user coordination creates persistent leakage pressure even when agents are explicitly instructed to protect information, (2) privacy instructions that teach agents how to abstract sensitive information paradoxically cause them to discuss it more (we call it abstraction paradox). These findings underscore that current LLM agents lack robust mechanisms for privacy preservation in human-centered agentic social networks, and that new approaches beyond prompt engineering are needed to make agent-mediated social coordination safe for real-world deployment.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.01487",
+      "pdf_url": "https://arxiv.org/pdf/2604.01487",
+      "github_links": [
+        "https://github.com/kingofspace0wzz/agentsocialbench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.01487",
+      "scraped_at": "2026-04-07T02:33:41.512094"
+    },
+    "scraped_date": "2026-04-07"
+  },
+  {
+    "title": "Swift-SVD: Theoretical Optimality Meets Practical Efficiency in Low-Rank LLM Compression",
+    "paper_url": "https://huggingface.co/papers/2604.01609",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Swift-SVD: Theoretical Optimality Meets Practical Efficiency in Low-Rank LLM Compression",
+      "abstract": "Instead of repeated SVD or indirect constructions, Swift-SVD computes the optimal activation-aware solution via a single eigendecomposition, making it practical at LLM scale.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.01609",
+      "pdf_url": "https://arxiv.org/pdf/2604.01609",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.01609",
+      "scraped_at": "2026-04-07T02:33:43.282551"
+    },
+    "scraped_date": "2026-04-07"
+  },
+  {
+    "title": "AgentHazard: A Benchmark for Evaluating Harmful Behavior in Computer-Use Agents",
+    "paper_url": "https://huggingface.co/papers/2604.02947",
+    "authors": [
+      "Yige Li",
+      "Xingjun Ma",
+      "Yingshui Tan",
+      "Yifan Ding",
+      "Yunhao Feng"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AgentHazard: A Benchmark for Evaluating Harmful Behavior in Computer-Use Agents",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API From Assistant to Double Agent: Formalizing and Benchmarking Attacks on OpenClaw for Personalized Local AI Agent (2026) SkillJect: Automating Stealthy Skill-Based Prompt Injection for Coding Agents with Trace-Driven Closed-Loop Refinement (2026) AgentLAB: Benchmarking LLM Agents against Long-Horizon Attacks (2026) ClawSafety:\"Safe\"LLMs, Unsafe Agents (2026) MUZZLE: Adaptive Agentic Red-Teaming of Web Agents Against Indirect Prompt Injection Attacks (2026) Unsafer in Many Turns: Benchmarking and Defending Multi-Turn Safety Risks in Tool-Using Agents (2026) When Actions Go Off-Task: Detecting and Correcting Misaligned Actions in Computer-Use Agents (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.02947",
+      "pdf_url": "https://arxiv.org/pdf/2604.02947",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.02947",
+      "scraped_at": "2026-04-07T02:33:45.059566"
+    },
+    "scraped_date": "2026-04-07"
+  },
+  {
+    "title": "VLMs Need Words: Vision Language Models Ignore Visual Detail In Favor of Semantic Anchors",
+    "paper_url": "https://huggingface.co/papers/2604.02486",
+    "authors": [
+      "Nael Abu-Ghazaleh",
+      "Erfan Shayegani",
+      "Yu Fu",
+      "Xiaofu Chen",
+      "Haz Sameen Shahgir"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "VLMs Need Words: Vision Language Models Ignore Visual Detail In Favor of Semantic Anchors",
+      "abstract": "🤔 The VLM community has long had the intuition that vision-focused tasks resisting transcription into text are harder for VLMs. What makes this especially puzzling: prior work has shown the visual information IS there inside the LM's representations. VLMs just don't use it. 🔬Our new work explains why. Across correspondence tasks on natural images, abstract shapes, and faces, VLMs perform dramatically better when the target entity has a name. Inspecting the internal representations, we find that VLMs explicitly convert visual entities into their text labels and solve the task linguistically. Teaching arbitrary names for novel shapes confirms this: once a shape has a label, performance jumps. 🚨 But this is not an architectural limitation. Task-specific finetuning teaches a genuinely different mechanism that bypasses language entirely, and generalizes broadly. The problem is the training pipeline, not the transformer.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.02486",
+      "pdf_url": "https://arxiv.org/pdf/2604.02486",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.02486",
+      "scraped_at": "2026-04-07T02:33:46.922928"
+    },
+    "scraped_date": "2026-04-07"
+  },
+  {
+    "title": "Xpertbench: Expert Level Tasks with Rubrics-Based Evaluation",
+    "paper_url": "https://huggingface.co/papers/2604.02368",
+    "authors": [
+      "Duo Wang",
+      "Yongchang Peng",
+      "Yuxin Ma",
+      "Xin Ma",
+      "Xue Liu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Xpertbench: Expert Level Tasks with Rubrics-Based Evaluation",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API $OneMillion-Bench: How Far are Language Agents from Human Experts? (2026) RubricBench: Aligning Model-Generated Rubrics with Human Standards (2026) QuarkMedBench: A Real-World Scenario Driven Benchmark for Evaluating Large Language Models (2026) LiveMedBench: A Contamination-Free Medical Benchmark for LLMs with Automated Rubric Evaluation (2026) Super Research: Answering Highly Complex Questions with Large Language Models through Super Deep and Super Wide Research (2026) FIRE: A Comprehensive Benchmark for Financial Intelligence and Reasoning Evaluation (2026) VTC-Bench: Evaluating Agentic Multimodal Models via Compositional Visual Tool Chaining (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.02368",
+      "pdf_url": "https://arxiv.org/pdf/2604.02368",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.02368",
+      "scraped_at": "2026-04-07T02:33:48.694510"
+    },
+    "scraped_date": "2026-04-07"
+  },
+  {
+    "title": "Salt: Self-Consistent Distribution Matching with Cache-Aware Training for Fast Video Generation",
+    "paper_url": "https://huggingface.co/papers/2604.03118",
+    "authors": [
+      "Xiahong Wang",
+      "Dailan He",
+      "Yushi Huang",
+      "Yi Zhang",
+      "Xingtong Ge"
+    ],
+    "stars": "5",
+    "details": {
+      "title": "Salt: Self-Consistent Distribution Matching with Cache-Aware Training for Fast Video Generation",
+      "abstract": "Distilling video generation models to extremely low inference budgets (e.g., 2--4 NFEs) is crucial for real-time deployment, yet remains challenging. Trajectory-style consistency distillation often becomes conservative under complex video dynamics, yielding an over-smoothed appearance and weak motion. Distribution matching distillation (DMD) can recover sharp, mode-seeking samples, but its local training signals do not explicitly regularize how denoising updates compose across timesteps, making composed rollouts prone to drift. To overcome this challenge, we propose Self-Consistent Distribution Matching Distillation (SC-DMD), which explicitly regularizes the endpoint-consistent composition of consecutive denoising updates. For real-time autoregressive video generation, we further treat the KV cache as a quality parameterized condition and propose Cache-Distribution-Aware training. This training scheme applies SC-DMD over multi-step rollouts and introduces a cache-conditioned feature alignment objective that steers low-quality outputs toward high-quality references. Across extensive experiments on both non-autoregressive backbones (e.g., Wan~2.1) and autoregressive real-time paradigms (e.g., Self Forcing), our method, dubbed Salt , consistently improves low-NFE video generation quality while remaining compatible with diverse KV-cache memory mechanisms. Source code will be released at https://github.com/XingtongGe/Salt",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.03118",
+      "pdf_url": "https://arxiv.org/pdf/2604.03118",
+      "github_links": [
+        "https://github.com/XingtongGe/Salt"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.03118",
+      "scraped_at": "2026-04-07T02:33:50.478452"
+    },
+    "scraped_date": "2026-04-07"
+  },
+  {
+    "title": "CoME-VL: Scaling Complementary Multi-Encoder Vision-Language Learning",
+    "paper_url": "https://huggingface.co/papers/2604.03231",
+    "authors": [
+      "Hisham Cholakkal",
+      "Imran Razzak",
+      "Xilin He",
+      "Komal Kumar",
+      "Ankan Deria"
+    ],
+    "stars": "7",
+    "details": {
+      "title": "CoME-VL: Scaling Complementary Multi-Encoder Vision-Language Learning",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Stateful Cross-layer Vision Modulation (2026) Hierarchical Pre-Training of Vision Encoders with Large Language Models (2026) iGVLM: Dynamic Instruction-Guided Vision Encoding for Question-Aware Multimodal Understanding (2026) VisionPangu: A Compact and Fine-Grained Multimodal Assistant with 1.7B Parameters (2026) Do VLMs Need Vision Transformers? Evaluating State Space Models as Vision Encoders (2026) ReDiPrune: Relevance-Diversity Pre-Projection Token Pruning for Efficient Multimodal LLMs (2026) CoVFT: Context-aware Visual Fine-tuning for Multimodal Large Language Models (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.03231",
+      "pdf_url": "https://arxiv.org/pdf/2604.03231",
+      "github_links": [
+        "https://github.com/mbzuai-oryx/CoME-VL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.03231",
+      "scraped_at": "2026-04-07T02:33:52.357149"
+    },
+    "scraped_date": "2026-04-07"
+  },
+  {
+    "title": "DriveDreamer-Policy: A Geometry-Grounded World-Action Model for Unified Generation and Planning",
+    "paper_url": "https://huggingface.co/papers/2604.01765",
+    "authors": [],
+    "stars": "12",
+    "details": {
+      "title": "DriveDreamer-Policy: A Geometry-Grounded World-Action Model for Unified Generation and Planning",
+      "abstract": "Recently, world-action models (WAM) have emerged to bridge vision-language-action (VLA) models and world models, unifying their reasoning and instruction-following capabilities and spatio-temporal world modeling. However, existing WAM approaches often focus on modeling 2D appearance or latent representations, with limited geometric grounding-an essential element for embodied systems operating in the physical world. We present DriveDreamer-Policy, a unified driving world-action model that integrates depth generation, future video generation, and motion planning within a single modular architecture. The model employs a large language model to process language instructions, multi-view images, and actions, followed by three lightweight generators that produce depth, future video, and actions. By learning a geometry-aware world representation and using it to guide both future prediction and planning within a unified framework, the proposed model produces more coherent imagined futures and more informed driving actions, while maintaining modularity and controllable latency. Experiments on the Navsim v1 and v2 benchmarks demonstrate that DriveDreamer-Policy achieves strong performance on both closed-loop planning and world generation tasks. In particular, our model reaches 89.2 PDMS on Navsim v1 and 88.7 EPDMS on Navsim v2, outperforming existing world-model-based approaches while producing higher-quality future video and depth predictions. Ablation studies further show that explicit depth learning provides complementary benefits to video imagination and improves planning robustness.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.01765",
+      "pdf_url": "https://arxiv.org/pdf/2604.01765",
+      "github_links": [
+        "https://github.com/youngzhou1999/DriveDreamer-Policy"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.01765",
+      "scraped_at": "2026-04-07T02:33:54.124284"
+    },
+    "scraped_date": "2026-04-07"
+  },
+  {
+    "title": "Do World Action Models Generalize Better than VLAs? A Robustness Study",
+    "paper_url": "https://huggingface.co/papers/2603.22078",
+    "authors": [
+      "Yintao Ma",
+      "Rui Heng Yang",
+      "Behnam Rahmati",
+      "Zhiyuan Li",
+      "Zhanguang Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Do World Action Models Generalize Better than VLAs? A Robustness Study",
+      "abstract": "Robot action planning in the real world is challenging as it requires not only understanding the current state of the environment but also predicting how it will evolve in response to actions. Vision-language-action (VLA), which repurpose large-scale vision-language models for robot action generation using action experts, have achieved notable success across a variety of robotic tasks. Nevertheless, their performance remains constrained by the scope of their training data, exhibiting limited generalization to unseen scenarios and vulnerability to diverse contextual perturbations. More recently, world models have been revisited as an alternative to VLAs. These models, referred to as world action models (WAMs), are built upon world models that are trained on large corpora of video data to predict future states. With minor adaptations, their latent representation can be decoded into robot actions. It has been suggested that their explicit dynamic prediction capacity, combined with spatiotemporal priors acquired from web-scale video pretraining, enables WAMs to generalize more effectively than VLAs. In this paper, we conduct a comparative study of prominent state-of-the-art VLA policies and recently released WAMs. We evaluate their performance on the LIBERO-Plus and RoboTwin 2.0-Plus benchmarks under various visual and language perturbations. Our results show that WAMs achieve strong robustness, with LingBot-VA reaching 74.2% success rate on RoboTwin 2.0-Plus and Cosmos-Policy achieving 82.2% on LIBERO-Plus. While VLAs such as  can achieve comparable robustness on certain tasks, they typically require extensive training with diverse robotic datasets and varied learning objectives. Hybrid approaches that partially incorporate video-based dynamic learning exhibit intermediate robustness, highlighting the importance of how video priors are integrated.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.22078",
+      "pdf_url": "https://arxiv.org/pdf/2603.22078",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.22078",
+      "scraped_at": "2026-04-07T02:33:55.906779"
+    },
+    "scraped_date": "2026-04-07"
   }
 ]
