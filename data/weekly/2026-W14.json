@@ -480,5 +480,169 @@
       "scraped_at": "2026-04-07T02:33:55.906779"
     },
     "scraped_date": "2026-04-07"
+  },
+  {
+    "title": "Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding",
+    "paper_url": "https://huggingface.co/papers/2604.05015",
+    "authors": [],
+    "stars": "145",
+    "details": {
+      "title": "Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding",
+      "abstract": "Video-MME-v2: Towards the Next Stage in Video Understanding Evaluation Technical Report : https://arxiv.org/pdf/2604.05015 Project Page : https://video-mme-v2.netlify.app/ Leaderboard : https://video-mme-v2.netlify.app/#leaderboard GitHub: https : https://github.com/MME-Benchmarks/Video-MME-v2 Dataset : https://huggingface.co/datasets/MME-Benchmarks/Video-MME-v2",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.05015",
+      "pdf_url": "https://arxiv.org/pdf/2604.05015",
+      "github_links": [
+        "https://github.com/MME-Benchmarks/Video-MME-v2"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.05015",
+      "scraped_at": "2026-04-08T02:34:09.148836"
+    },
+    "scraped_date": "2026-04-08"
+  },
+  {
+    "title": "Beyond Accuracy: Unveiling Inefficiency Patterns in Tool-Integrated Reasoning",
+    "paper_url": "https://huggingface.co/papers/2604.05404",
+    "authors": [
+      "Zehui Chen",
+      "Ziyan Chen",
+      "Zhen Fang",
+      "Shiting Huang",
+      "Qisheng Su"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "Beyond Accuracy: Unveiling Inefficiency Patterns in Tool-Integrated Reasoning",
+      "abstract": "In real-world Tool-Integrated Reasoning (TIR) scenarios, a major source of inefficiency is that the toolcalls create pauses between LLM requests and cause KV-cache eviction. Also, the long, unfiltered response returned by external tools inflates the KV-cache, so each decode step spends more time loading the growing cache and thus becomes steadily slower as context length increases. However, existing efficiency metrics like token counts and toolcall counts fail to capture this real computational cost. To address this, we introduce PTE (Prefill Token Equivalents), a hardware-aware TIR-efficiency metric that unifies internal reasoning and external tool-use costs while explicitly accounting for non-reusable KV-Cache and long-tool-response scenarios, thus better reflects real-world scenarios. We conduct extensive experiments across five TIR benchmarks, quantify their PTE costs, and identify four inefficiency patterns that appear in TIR. In a simulated high-concurrency industrial setting, PTE explains wall-clock latency significantly better than token-count metric. We also discover that trajectories with higher PTE costs tend to have lower reasoning correctness, indicating that simply using more tools does not improve the quality of the answer. PTE offers a new perspective on the efficiency of Tool-Integrated Reasoning. The code is available.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.05404",
+      "pdf_url": "https://arxiv.org/pdf/2604.05404",
+      "github_links": [
+        "https://github.com/sqs-ustc/tool-reasoning-framework-PTE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.05404",
+      "scraped_at": "2026-04-08T02:34:10.929679"
+    },
+    "scraped_date": "2026-04-08"
+  },
+  {
+    "title": "Learning to Retrieve from Agent Trajectories",
+    "paper_url": "https://huggingface.co/papers/2604.04949",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Learning to Retrieve from Agent Trajectories",
+      "abstract": "Key insights: We identify a fundamental misalignment between human-centric retrieval training and agentic search, and formulate learning to retrieve from agent trajectories as a new retrieval paradigm. In this setting, supervision is derived from multi-step agent interactions, reflecting how search tool is actually used by search agents. Guided by insights from empirical analysis, we propose LRAT, a simple yet effective framework that mines high-quality retrieval supervision from agent trajectories, providing a practical step toward agent-aligned retriever training. Experiments on both in-domain and out-of-domain deep research benchmarks show that LRAT consistently improves evidence retrieval and end-to-end agent performance across diverse agent architectures and scales. We further demonstrate that LRAT can support a self-improving data flywheel, highlighting the scalability value of LRAT in real-world scenarios.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.04949",
+      "pdf_url": "https://arxiv.org/pdf/2604.04949",
+      "github_links": [
+        "https://github.com/Yuqi-Zhou/LRAT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.04949",
+      "scraped_at": "2026-04-08T02:34:12.672294"
+    },
+    "scraped_date": "2026-04-08"
+  },
+  {
+    "title": "Claw-Eval: Toward Trustworthy Evaluation of Autonomous Agents",
+    "paper_url": "https://huggingface.co/papers/2604.06132",
+    "authors": [
+      "Linli Yao",
+      "Yuanxin Liu",
+      "Qibin Yang",
+      "Rang Li",
+      "Bowen Ye"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Claw-Eval: Toward Trustworthy Evaluation of Autonomous Agents",
+      "abstract": "Claw-Eval",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.06132",
+      "pdf_url": "https://arxiv.org/pdf/2604.06132",
+      "github_links": [
+        "https://github.com/claw-eval/claw-eval"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.06132",
+      "scraped_at": "2026-04-08T02:34:14.529076"
+    },
+    "scraped_date": "2026-04-08"
+  },
+  {
+    "title": "FactReview: Evidence-Grounded Reviews with Literature Positioning and Execution-Based Claim Verification",
+    "paper_url": "https://huggingface.co/papers/2604.04074",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "FactReview: Evidence-Grounded Reviews with Literature Positioning and Execution-Based Claim Verification",
+      "abstract": "Peer review in ML is under real pressure — submission volumes keep growing, but reviewer bandwidth doesn't scale with it. This paper tackles a critical piece of the problem: grounding automated reviews in actual evidence rather than just reading the manuscript narrative. FactReview decomposes reviewing into claim extraction, literature positioning, and execution-based verification, which mirrors what a thorough human reviewer would do given enough time. The CompGCN case study makes this concrete — the system reproduces results that largely hold for link prediction and node classification, but correctly narrows the broad performance claim when graph classification tells a different story. That kind of nuanced, evidence-backed assessment is exactly what's missing from current LLM-based reviewing approaches. The backend sensitivity analysis is a valuable addition: showing that verification quality varies substantially across models (from 41.7% to 83.3%) reinforces that this is not just a scripting problem but requires genuine reasoning about the connection between code outputs and paper claims. The failure taxonomy further clarifies where the real bottlenecks lie. The framing here is worth highlighting — positioning AI as an evidence-gathering tool for reviewers rather than a replacement for human judgment is both pragmatic and well-supported by the results.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.04074",
+      "pdf_url": "https://arxiv.org/pdf/2604.04074",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.04074",
+      "scraped_at": "2026-04-08T02:34:16.310311"
+    },
+    "scraped_date": "2026-04-08"
+  },
+  {
+    "title": "MMEmb-R1: Reasoning-Enhanced Multimodal Embedding with Pair-Aware Selection and Adaptive Control",
+    "paper_url": "https://huggingface.co/papers/2604.06156",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MMEmb-R1: Reasoning-Enhanced Multimodal Embedding with Pair-Aware Selection and Adaptive Control",
+      "abstract": "MLLMs have been successfully applied to multimodal embedding tasks, yet their generative reasoning capabilities remain underutilized. Directly incorporating chain-of-thought reasoning into embedding learning introduces two fundamental challenges. First, structural misalignment between instance-level reasoning and pairwise contrastive supervision may lead to shortcut behavior, where the model merely learns the superficial format of reasoning. Second, reasoning is not universally beneficial for embedding tasks. Enforcing reasoning for all inputs may introduce unnecessary computation and latency, and can even obscure salient semantic signals for simple cases. To address these issues, we propose MMEmb-R1, an adaptive reasoning-based multimodal embedding framework. We formulate reasoning as a latent variable and introduce pair-aware reasoning selection that employs counterfactual intervention to identify reasoning paths beneficial for query-target alignment. Furthermore, we adopt reinforcement learning to selectively invoke reasoning only when necessary. Experiments on the MMEB-V2 benchmark demonstrate that our model achieves a score of 71.2 with only 4B parameters, establishing a new state-of-the-art while significantly reducing reasoning overhead and inference latency.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.06156",
+      "pdf_url": "https://arxiv.org/pdf/2604.06156",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.06156",
+      "scraped_at": "2026-04-08T02:34:18.042593"
+    },
+    "scraped_date": "2026-04-08"
+  },
+  {
+    "title": "Demystifying When Pruning Works via Representation Hierarchies",
+    "paper_url": "https://huggingface.co/papers/2603.24652",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "Demystifying When Pruning Works via Representation Hierarchies",
+      "abstract": "Network pruning, which removes less important parameters or architectures, is often expected to improve efficiency while preserving performance. However, this expectation does not consistently hold across language tasks: pruned models can perform well on non-generative tasks but frequently fail in generative settings. To understand this discrepancy, we analyze network pruning from a representation-hierarchy perspective, decomposing the internal computation of language models into three sequential spaces: embedding (hidden representations), logit (pre-softmax outputs), and probability (post-softmax distributions). We find that representations in the embedding and logit spaces are largely robust to pruning-induced perturbations. However, the nonlinear transformation from logits to probabilities amplifies these deviations, which accumulate across time steps and lead to substantial degradation during generation. In contrast, the stability of the categorical-token probability subspace, together with the robustness of the embedding space, supports the effectiveness of pruning for non-generative tasks such as retrieval and multiple-choice selection. Our analysis disentangles the effects of pruning across tasks and provides practical guidance for its application. Code is available at https://github.com/CASE-Lab-UMD/Pruning-on-Representations .",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.24652",
+      "pdf_url": "https://arxiv.org/pdf/2603.24652",
+      "github_links": [
+        "https://github.com/CASE-Lab-UMD/Pruning-on-Representations"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.24652",
+      "scraped_at": "2026-04-08T02:34:19.732560"
+    },
+    "scraped_date": "2026-04-08"
+  },
+  {
+    "title": "ACES: Who Tests the Tests? Leave-One-Out AUC Consistency for Code Generation",
+    "paper_url": "https://huggingface.co/papers/2604.03922",
+    "authors": [
+      "Yali Du",
+      "Ren-Biao Liu",
+      "Zheng Xie",
+      "Yun-Ji Zhang",
+      "sun0o0"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ACES: Who Tests the Tests? Leave-One-Out AUC Consistency for Code Generation",
+      "abstract": "Selecting LLM-generated code candidates using LLM-generated tests is challenging because the tests themselves may be incorrect. Existing methods either treat all tests equally or rely on ad-hoc heuristics to filter unreliable tests. Yet determining test correctness requires knowing which codes are correct, creating a circular dependency. Our key insight is that we need not determine test correctness at all: test votes should rank, not merely count. What matters is not how many codes pass a test, but whether the test can distinguish correct from incorrect code. We break the circular dependency via leave-one-out evaluation: hold out one test, rank codes by their aggregate scores on all remaining tests, and measure whether the held-out test's pass/fail pattern agrees with this ranking. We formalize this agreement as the leave-one-out AUC (LOO-AUC) and prove that the expected LOO-AUC is proportional to each test's ability to separate correct code from incorrect code. Building on this, we propose ACES (AUC ConsistEncy Scoring) with two complementary variants: ACES-C provides closed-form weights that provably approximate the oracle in expectation under a mild assumption on average test quality; ACES-O drops this assumption and iteratively optimizes a differentiable LOO-AUC objective. Both operate solely on the binary pass matrix with negligible overhead, and achieve state-of-the-art Pass@$$k$$ on multiple code generation benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.03922",
+      "pdf_url": "https://arxiv.org/pdf/2604.03922",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.03922",
+      "scraped_at": "2026-04-08T02:34:21.495958"
+    },
+    "scraped_date": "2026-04-08"
   }
 ]
