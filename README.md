@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-8-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3313+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3321+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">8</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">30</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">142</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3313+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">38</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">150</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3321+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** April 08, 2026
+**Last Updated:** April 09, 2026
 
 ---
 
@@ -119,106 +119,106 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding</b> ⭐ 145</summary>
+<summary><b>1. Personalized RewardBench: Evaluating Reward Models with Human Aligned Personalization</b> ⭐ 9</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.05015) • [📄 arXiv](https://arxiv.org/abs/2604.05015) • [📥 PDF](https://arxiv.org/pdf/2604.05015)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.07343) • [📄 arXiv](https://arxiv.org/abs/2604.07343) • [📥 PDF](https://arxiv.org/pdf/2604.07343)
 
-**💻 Code:** [⭐ Code](https://github.com/MME-Benchmarks/Video-MME-v2)
+**💻 Code:** [⭐ Code](https://github.com/Martin-qyma/Personalized-RewardBench)
 
-> Video-MME-v2: Towards the Next Stage in Video Understanding Evaluation Technical Report : https://arxiv.org/pdf/2604.05015 Project Page : https://video-mme-v2.netlify.app/ Leaderboard : https://video-mme-v2.netlify.app/#leaderboard GitHub: https :...
+> One thing we found surprising is how poorly current reward models handle personalization even when general response quality is high. In our benchmark, both chosen/rejected responses are equally good in terms of correctness and helpfulness — the on...
 
 </details>
 
 <details>
-<summary><b>2. Beyond Accuracy: Unveiling Inefficiency Patterns in Tool-Integrated Reasoning</b> ⭐ 3</summary>
+<summary><b>2. MARS: Enabling Autoregressive Models Multi-Token Generation</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Zehui Chen, Ziyan Chen, Zhen Fang, Shiting Huang, Qisheng Su
+**👥 Authors:** Aixin Sun, Ziwei Luo, Lei Wang, Ziqi Jin
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.05404) • [📄 arXiv](https://arxiv.org/abs/2604.05404) • [📥 PDF](https://arxiv.org/pdf/2604.05404)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.07023) • [📄 arXiv](https://arxiv.org/abs/2604.07023) • [📥 PDF](https://arxiv.org/pdf/2604.07023)
 
-**💻 Code:** [⭐ Code](https://github.com/sqs-ustc/tool-reasoning-framework-PTE)
-
-> In real-world Tool-Integrated Reasoning (TIR) scenarios, a major source of inefficiency is that the toolcalls create pauses between LLM requests and cause KV-cache eviction. Also, the long, unfiltered response returned by external tools inflates t...
+> We release MARS (Mask AutoRegression) -- teaching AR models to generate multiple tokens per forward pass. Zero arch changes, zero extra params, single checkpoint One-token mode: matches or beats AR baseline on 6 benchmarks Multi-token mode: 1.5-1....
 
 </details>
 
 <details>
-<summary><b>3. Learning to Retrieve from Agent Trajectories</b> ⭐ 0</summary>
+<summary><b>3. RAGEN-2: Reasoning Collapse in Agentic RL</b> ⭐ 2.59k</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.04949) • [📄 arXiv](https://arxiv.org/abs/2604.04949) • [📥 PDF](https://arxiv.org/pdf/2604.04949)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.06268) • [📄 arXiv](https://arxiv.org/abs/2604.06268) • [📥 PDF](https://arxiv.org/pdf/2604.06268)
 
-**💻 Code:** [⭐ Code](https://github.com/Yuqi-Zhou/LRAT)
+**💻 Code:** [⭐ Code](https://github.com/mll-lab-nu/RAGEN)
 
-> Key insights: We identify a fundamental misalignment between human-centric retrieval training and agentic search, and formulate learning to retrieve from agent trajectories as a new retrieval paradigm. In this setting, supervision is derived from ...
+> Preprint.
 
 </details>
 
 <details>
-<summary><b>4. Claw-Eval: Toward Trustworthy Evaluation of Autonomous Agents</b> ⭐ 0</summary>
+<summary><b>4. Neural Computers</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Linli Yao, Yuanxin Liu, Qibin Yang, Rang Li, Bowen Ye
+**👥 Authors:** Shuming Liu, Zijian Zhou, Haozhe Liu, Changsheng Zhao, Mingchen Zhuge
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.06132) • [📄 arXiv](https://arxiv.org/abs/2604.06132) • [📥 PDF](https://arxiv.org/pdf/2604.06132)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.06425) • [📄 arXiv](https://arxiv.org/abs/2604.06425) • [📥 PDF](https://arxiv.org/pdf/2604.06425)
 
-**💻 Code:** [⭐ Code](https://github.com/claw-eval/claw-eval)
-
-> Claw-Eval
+> No abstract available.
 
 </details>
 
 <details>
-<summary><b>5. FactReview: Evidence-Grounded Reviews with Literature Positioning and Execution-Based Claim Verification</b> ⭐ 0</summary>
+<summary><b>5. INSPATIO-WORLD: A Real-Time 4D World Simulator via Spatiotemporal Autoregressive Modeling</b> ⭐ 659</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.04074) • [📄 arXiv](https://arxiv.org/abs/2604.04074) • [📥 PDF](https://arxiv.org/pdf/2604.04074)
+**👥 Authors:** Haoyu Ji, Haomin Liu, Guofeng Zhang, Donghui Shen, InSpatio Team
 
-> Peer review in ML is under real pressure — submission volumes keep growing, but reviewer bandwidth doesn't scale with it. This paper tackles a critical piece of the problem: grounding automated reviews in actual evidence rather than just reading t...
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.07209) • [📄 arXiv](https://arxiv.org/abs/2604.07209) • [📥 PDF](https://arxiv.org/pdf/2604.07209)
+
+**💻 Code:** [⭐ Code](https://github.com/inspatio/inspatio-world)
+
+> No abstract available.
 
 </details>
 
 <details>
-<summary><b>6. MMEmb-R1: Reasoning-Enhanced Multimodal Embedding with Pair-Aware Selection and Adaptive Control</b> ⭐ 0</summary>
+<summary><b>6. FP4 Explore, BF16 Train: Diffusion Reinforcement Learning via Efficient Rollout Scaling</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.06156) • [📄 arXiv](https://arxiv.org/abs/2604.06156) • [📥 PDF](https://arxiv.org/pdf/2604.06156)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.06916) • [📄 arXiv](https://arxiv.org/abs/2604.06916) • [📥 PDF](https://arxiv.org/pdf/2604.06916)
 
-> MLLMs have been successfully applied to multimodal embedding tasks, yet their generative reasoning capabilities remain underutilized. Directly incorporating chain-of-thought reasoning into embedding learning introduces two fundamental challenges. ...
+> No abstract available.
 
 </details>
 
 <details>
-<summary><b>7. Demystifying When Pruning Works via Representation Hierarchies</b> ⭐ 5</summary>
+<summary><b>7. MoRight: Motion Control Done Right</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.24652) • [📄 arXiv](https://arxiv.org/abs/2603.24652) • [📥 PDF](https://arxiv.org/pdf/2603.24652)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.07348) • [📄 arXiv](https://arxiv.org/abs/2604.07348) • [📥 PDF](https://arxiv.org/pdf/2604.07348)
 
-**💻 Code:** [⭐ Code](https://github.com/CASE-Lab-UMD/Pruning-on-Representations)
-
-> Network pruning, which removes less important parameters or architectures, is often expected to improve efficiency while preserving performance. However, this expectation does not consistently hold across language tasks: pruned models can perform ...
+> No abstract available.
 
 </details>
 
 <details>
-<summary><b>8. ACES: Who Tests the Tests? Leave-One-Out AUC Consistency for Code Generation</b> ⭐ 0</summary>
+<summary><b>8. VenusBench-Mobile: A Challenging and User-Centric Benchmark for Mobile GUI Agents with Capability Diagnostics</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Yali Du, Ren-Biao Liu, Zheng Xie, Yun-Ji Zhang, sun0o0
+**👥 Authors:** Zhangxuan Gu, Yuqi Zhou, Sunhao Dai, Zhuohan Cai, Yichen Gong
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.03922) • [📄 arXiv](https://arxiv.org/abs/2604.03922) • [📥 PDF](https://arxiv.org/pdf/2604.03922)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.06182) • [📄 arXiv](https://arxiv.org/abs/2604.06182) • [📥 PDF](https://arxiv.org/pdf/2604.06182)
 
-> Selecting LLM-generated code candidates using LLM-generated tests is challenging because the tests themselves may be incorrect. Existing methods either treat all tests equally or rely on ad-hoc heuristics to filter unreliable tests. Yet determinin...
+**💻 Code:** [⭐ Code](https://github.com/inclusionAI/UI-Venus/tree/VenusBench-Mobile)
+
+> Github: https://github.com/inclusionAI/UI-Venus/tree/VenusBench-Mobile
 
 </details>
 
@@ -231,27 +231,27 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 8 |
-| 📅 Today | [`2026-04-08.json`](data/daily/2026-04-08.json) | 8 |
-| 📆 This Week | [`2026-W14.json`](data/weekly/2026-W14.json) | 30 |
-| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 142 |
+| 📅 Today | [`2026-04-09.json`](data/daily/2026-04-09.json) | 8 |
+| 📆 This Week | [`2026-W14.json`](data/weekly/2026-W14.json) | 38 |
+| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 150 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-04-08 | 8 | [View JSON](data/daily/2026-04-08.json) |
+| 📌 2026-04-09 | 8 | [View JSON](data/daily/2026-04-09.json) |
+| 📄 2026-04-08 | 8 | [View JSON](data/daily/2026-04-08.json) |
 | 📄 2026-04-07 | 17 | [View JSON](data/daily/2026-04-07.json) |
 | 📄 2026-04-06 | 5 | [View JSON](data/daily/2026-04-06.json) |
 | 📄 2026-04-05 | 45 | [View JSON](data/daily/2026-04-05.json) |
 | 📄 2026-04-04 | 45 | [View JSON](data/daily/2026-04-04.json) |
 | 📄 2026-04-03 | 7 | [View JSON](data/daily/2026-04-03.json) |
-| 📄 2026-04-02 | 5 | [View JSON](data/daily/2026-04-02.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W14 | 30 | [View JSON](data/weekly/2026-W14.json) |
+| 📅 2026-W14 | 38 | [View JSON](data/weekly/2026-W14.json) |
 | 📅 2026-W13 | 115 | [View JSON](data/weekly/2026-W13.json) |
 | 📅 2026-W12 | 120 | [View JSON](data/weekly/2026-W12.json) |
 | 📅 2026-W11 | 133 | [View JSON](data/weekly/2026-W11.json) |
@@ -260,7 +260,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-04 | 142 | [View JSON](data/monthly/2026-04.json) |
+| 🗓️ 2026-04 | 150 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |

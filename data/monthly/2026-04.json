@@ -2896,5 +2896,172 @@
       "scraped_at": "2026-04-08T02:34:21.495958"
     },
     "scraped_date": "2026-04-08"
+  },
+  {
+    "title": "Personalized RewardBench: Evaluating Reward Models with Human Aligned Personalization",
+    "paper_url": "https://huggingface.co/papers/2604.07343",
+    "authors": [],
+    "stars": "9",
+    "details": {
+      "title": "Personalized RewardBench: Evaluating Reward Models with Human Aligned Personalization",
+      "abstract": "One thing we found surprising is how poorly current reward models handle personalization even when general response quality is high. In our benchmark, both chosen/rejected responses are equally good in terms of correctness and helpfulness — the only difference is user-specific preference. Yet SOTA RMs still struggle significantly. Curious how others think about this: •\tAre current RMs fundamentally biased toward “average user” preferences? •\tDo we need a different training paradigm for truly personalized alignment?",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.07343",
+      "pdf_url": "https://arxiv.org/pdf/2604.07343",
+      "github_links": [
+        "https://github.com/Martin-qyma/Personalized-RewardBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.07343",
+      "scraped_at": "2026-04-09T02:29:26.114952"
+    },
+    "scraped_date": "2026-04-09"
+  },
+  {
+    "title": "MARS: Enabling Autoregressive Models Multi-Token Generation",
+    "paper_url": "https://huggingface.co/papers/2604.07023",
+    "authors": [
+      "Aixin Sun",
+      "Ziwei Luo",
+      "Lei Wang",
+      "Ziqi Jin"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "MARS: Enabling Autoregressive Models Multi-Token Generation",
+      "abstract": "We release MARS (Mask AutoRegression) -- teaching AR models to generate multiple tokens per forward pass. Zero arch changes, zero extra params, single checkpoint One-token mode: matches or beats AR baseline on 6 benchmarks Multi-token mode: 1.5-1.7x throughput, baseline-level accuracy Real-time speed control via confidence threshold at serving time The key insight: of the 4 gaps between AR and block diffusion, only 1 is inherent. Close the other 3, and you get multi-token prediction for free. We release all our code and checkpoints.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.07023",
+      "pdf_url": "https://arxiv.org/pdf/2604.07023",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.07023",
+      "scraped_at": "2026-04-09T02:29:28.107811"
+    },
+    "scraped_date": "2026-04-09"
+  },
+  {
+    "title": "RAGEN-2: Reasoning Collapse in Agentic RL",
+    "paper_url": "https://huggingface.co/papers/2604.06268",
+    "authors": [],
+    "stars": "2.59k",
+    "details": {
+      "title": "RAGEN-2: Reasoning Collapse in Agentic RL",
+      "abstract": "Preprint.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.06268",
+      "pdf_url": "https://arxiv.org/pdf/2604.06268",
+      "github_links": [
+        "https://github.com/mll-lab-nu/RAGEN"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.06268",
+      "scraped_at": "2026-04-09T02:29:29.873582"
+    },
+    "scraped_date": "2026-04-09"
+  },
+  {
+    "title": "Neural Computers",
+    "paper_url": "https://huggingface.co/papers/2604.06425",
+    "authors": [
+      "Shuming Liu",
+      "Zijian Zhou",
+      "Haozhe Liu",
+      "Changsheng Zhao",
+      "Mingchen Zhuge"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Neural Computers",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.06425",
+      "pdf_url": "https://arxiv.org/pdf/2604.06425",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.06425",
+      "scraped_at": "2026-04-09T02:29:31.662655"
+    },
+    "scraped_date": "2026-04-09"
+  },
+  {
+    "title": "INSPATIO-WORLD: A Real-Time 4D World Simulator via Spatiotemporal Autoregressive Modeling",
+    "paper_url": "https://huggingface.co/papers/2604.07209",
+    "authors": [
+      "Haoyu Ji",
+      "Haomin Liu",
+      "Guofeng Zhang",
+      "Donghui Shen",
+      "InSpatio Team"
+    ],
+    "stars": "659",
+    "details": {
+      "title": "INSPATIO-WORLD: A Real-Time 4D World Simulator via Spatiotemporal Autoregressive Modeling",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.07209",
+      "pdf_url": "https://arxiv.org/pdf/2604.07209",
+      "github_links": [
+        "https://github.com/inspatio/inspatio-world"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.07209",
+      "scraped_at": "2026-04-09T02:29:33.460044"
+    },
+    "scraped_date": "2026-04-09"
+  },
+  {
+    "title": "FP4 Explore, BF16 Train: Diffusion Reinforcement Learning via Efficient Rollout Scaling",
+    "paper_url": "https://huggingface.co/papers/2604.06916",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "FP4 Explore, BF16 Train: Diffusion Reinforcement Learning via Efficient Rollout Scaling",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.06916",
+      "pdf_url": "https://arxiv.org/pdf/2604.06916",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.06916",
+      "scraped_at": "2026-04-09T02:29:35.215902"
+    },
+    "scraped_date": "2026-04-09"
+  },
+  {
+    "title": "MoRight: Motion Control Done Right",
+    "paper_url": "https://huggingface.co/papers/2604.07348",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MoRight: Motion Control Done Right",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.07348",
+      "pdf_url": "https://arxiv.org/pdf/2604.07348",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.07348",
+      "scraped_at": "2026-04-09T02:29:36.965338"
+    },
+    "scraped_date": "2026-04-09"
+  },
+  {
+    "title": "VenusBench-Mobile: A Challenging and User-Centric Benchmark for Mobile GUI Agents with Capability Diagnostics",
+    "paper_url": "https://huggingface.co/papers/2604.06182",
+    "authors": [
+      "Zhangxuan Gu",
+      "Yuqi Zhou",
+      "Sunhao Dai",
+      "Zhuohan Cai",
+      "Yichen Gong"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "VenusBench-Mobile: A Challenging and User-Centric Benchmark for Mobile GUI Agents with Capability Diagnostics",
+      "abstract": "Github: https://github.com/inclusionAI/UI-Venus/tree/VenusBench-Mobile",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.06182",
+      "pdf_url": "https://arxiv.org/pdf/2604.06182",
+      "github_links": [
+        "https://github.com/inclusionAI/UI-Venus/tree/VenusBench-Mobile"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.06182",
+      "scraped_at": "2026-04-09T02:29:38.736769"
+    },
+    "scraped_date": "2026-04-09"
   }
 ]
