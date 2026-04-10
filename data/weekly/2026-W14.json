@@ -811,5 +811,381 @@
       "scraped_at": "2026-04-09T02:29:38.736769"
     },
     "scraped_date": "2026-04-09"
+  },
+  {
+    "title": "Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering",
+    "paper_url": "https://huggingface.co/papers/2604.08224",
+    "authors": [
+      "Rong Shan",
+      "Zihan Guo",
+      "Wenteng Chen",
+      "Huacan Chai",
+      "Chenyu Zhou"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering",
+      "abstract": "Large language model (LLM) agents are increasingly built less by changing model weights than by reorganizing the runtime around them. Capabilities that earlier systems expected the model to recover internally are now externalized into memory stores, reusable skills, interaction protocols, and the surrounding harness that makes these modules reliable in practice. This paper reviews that shift through the lens of externalization. Drawing on the idea of cognitive artifacts, we argue that agent infrastructure matters not merely because it adds auxiliary components, but because it transforms hard cognitive burdens into forms that the model can solve more reliably. Under this view, memory externalizes state across time, skills externalize procedural expertise, protocols externalize interaction structure, and harness engineering serves as the unification layer that coordinates them into governed execution. We trace a historical progression from weights to context to harness, analyze memory, skills, and protocols as three distinct but coupled forms of externalization, and examine how they interact inside a larger agent system. We further discuss the trade-off between parametric and externalized capability, identify emerging directions such as self-evolving harnesses and shared agent infrastructure, and discuss open challenges in evaluation, governance, and the long-term co-evolution of models and external infrastructure. The result is a systems-level framework for explaining why practical agent progress increasingly depends not only on stronger models, but on better external cognitive infrastructure.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.08224",
+      "pdf_url": "https://arxiv.org/pdf/2604.08224",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.08224",
+      "scraped_at": "2026-04-10T02:40:51.403822"
+    },
+    "scraped_date": "2026-04-10"
+  },
+  {
+    "title": "KnowU-Bench: Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation",
+    "paper_url": "https://huggingface.co/papers/2604.08455",
+    "authors": [
+      "Shaohan Zhao",
+      "Guocheng Shao",
+      "Zhan Xu",
+      "Zhengxi Lu",
+      "Tongbo Chen"
+    ],
+    "stars": "8",
+    "details": {
+      "title": "KnowU-Bench: Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation",
+      "abstract": "We introduce KnowU-Bench, an online, interactive personalization benchmark for mobile agents built on a reproducible Android emulation environment. We find that even frontier models like Claude Sonnet 4.6 struggle with our personalized and proactive tasks under vague instructions: the core bottlenecks are not GUI navigation but preference acquisition and intervention calibration, exposing a large gap between GUI operation and trustworthy personal assistance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.08455",
+      "pdf_url": "https://arxiv.org/pdf/2604.08455",
+      "github_links": [
+        "https://github.com/ZJU-REAL/KnowU-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.08455",
+      "scraped_at": "2026-04-10T02:40:53.309091"
+    },
+    "scraped_date": "2026-04-10"
+  },
+  {
+    "title": "Graph of Skills: Dependency-Aware Structural Retrieval for Massive Agent Skills",
+    "paper_url": "https://huggingface.co/papers/2604.05333",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "Graph of Skills: Dependency-Aware Structural Retrieval for Massive Agent Skills",
+      "abstract": "Skill usage has become a core component of modern agent systems and can substantially improve agents' ability to complete complex tasks. In real-world settings, where agents must monitor and interact with numerous personal applications, web browsers, and other environment interfaces, skill libraries can scale to thousands of reusable skills. Scaling to larger skill sets introduces two key challenges. First, loading the full skill set saturates the context window, driving up token costs, hallucination, and latency. In this paper, we present Graph of Skills (GoS), an inference-time structural retrieval layer for large skill libraries. GoS constructs an executable skill graph offline from skill packages, then at inference time retrieves a bounded, dependency-aware skill bundle through hybrid semantic-lexical seeding, reverse-weighted Personalized PageRank, and context-budgeted hydration. On SkillsBench and ALFWorld, GoS improves average reward by 43.6% over the vanilla full skill-loading baseline while reducing input tokens by 37.8%, and generalizes across three model families: Claude Sonnet, GPT-5.2 Codex, and MiniMax. Additional ablation studies across skill libraries ranging from 200 to 2,000 skills further demonstrate that GoS consistently outperforms both vanilla skills loading and simple vector retrieval in balancing reward, token efficiency, and runtime.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.05333",
+      "pdf_url": "https://arxiv.org/pdf/2604.05333",
+      "github_links": [
+        "https://github.com/davidliuk/graph-of-skills"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.05333",
+      "scraped_at": "2026-04-10T02:40:55.116668"
+    },
+    "scraped_date": "2026-04-10"
+  },
+  {
+    "title": "DMax: Aggressive Parallel Decoding for dLLMs",
+    "paper_url": "https://huggingface.co/papers/2604.08302",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "DMax: Aggressive Parallel Decoding for dLLMs",
+      "abstract": "DMax is a new dLLM paradigm achieving aggressive parallel decoding while preserving generation quality. Paper: https://arxiv.org/pdf/2604.08302 Code: https://github.com/czg1225/DMax Models: https://huggingface.co/collections/Zigeng/dmax-models Datasets: https://huggingface.co/collections/Zigeng/dmax-training-data",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.08302",
+      "pdf_url": "https://arxiv.org/pdf/2604.08302",
+      "github_links": [
+        "https://github.com/czg1225/DMax"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.08302",
+      "scraped_at": "2026-04-10T02:40:56.991049"
+    },
+    "scraped_date": "2026-04-10"
+  },
+  {
+    "title": "HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents",
+    "paper_url": "https://huggingface.co/papers/2604.07430",
+    "authors": [],
+    "stars": "81",
+    "details": {
+      "title": "HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents",
+      "abstract": "GitHub: https://github.com/Tencent-Hunyuan/HY-Embodied HuggingFace: https://huggingface.co/tencent/HY-Embodied-0.5",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.07430",
+      "pdf_url": "https://arxiv.org/pdf/2604.07430",
+      "github_links": [
+        "https://github.com/Tencent-Hunyuan/HY-Embodied"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.07430",
+      "scraped_at": "2026-04-10T02:40:58.854110"
+    },
+    "scraped_date": "2026-04-10"
+  },
+  {
+    "title": "When Numbers Speak: Aligning Textual Numerals and Visual Instances in Text-to-Video Diffusion Models",
+    "paper_url": "https://huggingface.co/papers/2604.08546",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "When Numbers Speak: Aligning Textual Numerals and Visual Instances in Text-to-Video Diffusion Models",
+      "abstract": "NUMINA is a training-free framework that tackles numerical misalignment in text-to-video diffusion models — the persistent failure of T2V models to generate the correct count of objects specified in prompts (e.g., producing 2 or 4 cats when \"three cats\" is requested). Unlike seed search or prompt enhancement approaches that treat the generation pipeline as a black box and rely on brute-force resampling or LLM-based prompt rewriting, NUMINA directly identifies where and why counting errors occur inside the model by analyzing cross-attention and self-attention maps at selected DiT layers. It constructs a countable spatial layout via a two-stage clustering pipeline, then performs layout-guided attention modulation during regeneration to enforce the correct object count — all without retraining or fine-tuning. On our introduced CountBench, this attention-level intervention provides principled, interpretable control over numerical semantics that seed search and prompt enhancement fundamentally cannot achieve, improves counting accuracy by up to 7.4% on Wan2.1-1.3B. Furthermore, because NUMINA operates partly orthogonally to inference acceleration techniques, it is compatible with training-free caching methods such as EasyCache, which accelerates diffusion inference via runtime-adaptive transformer output reuse.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.08546",
+      "pdf_url": "https://arxiv.org/pdf/2604.08546",
+      "github_links": [
+        "https://github.com/H-EmbodVis/NUMINA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.08546",
+      "scraped_at": "2026-04-10T02:41:00.685341"
+    },
+    "scraped_date": "2026-04-10"
+  },
+  {
+    "title": "FIT: A Large-Scale Dataset for Fit-Aware Virtual Try-On",
+    "paper_url": "https://huggingface.co/papers/2604.08526",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "FIT: A Large-Scale Dataset for Fit-Aware Virtual Try-On",
+      "abstract": "We introduce FIT (Fit-Inclusive Try-on), a virtual try-on dataset of 1.13M samples covering diverse garment fits, each annotated with precise body/garment measurements. Our novel data generation pipeline leverages synthetic garment simulation and photorealistic retexturing. Then, we leverage FIT to train a state-of-the-art fit-aware virtual try-on model.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.08526",
+      "pdf_url": "https://arxiv.org/pdf/2604.08526",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.08526",
+      "scraped_at": "2026-04-10T02:41:02.511503"
+    },
+    "scraped_date": "2026-04-10"
+  },
+  {
+    "title": "Beyond Stochastic Exploration: What Makes Training Data Valuable for Agentic Search",
+    "paper_url": "https://huggingface.co/papers/2604.08124",
+    "authors": [
+      "Guohua Liu",
+      "Guofeng Quan",
+      "Guochao Jiang",
+      "Wenfeng Feng",
+      "Chuzhan Hao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Beyond Stochastic Exploration: What Makes Training Data Valuable for Agentic Search",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.08124",
+      "pdf_url": "https://arxiv.org/pdf/2604.08124",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.08124",
+      "scraped_at": "2026-04-10T02:41:04.345205"
+    },
+    "scraped_date": "2026-04-10"
+  },
+  {
+    "title": "MolmoWeb: Open Visual Web Agent and Open Data for the Open Web",
+    "paper_url": "https://huggingface.co/papers/2604.08516",
+    "authors": [
+      "Rock Yuren Pang",
+      "Peter Sushko",
+      "Zixian Ma",
+      "Piper Wolters",
+      "Tanmay Gupta"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "MolmoWeb: Open Visual Web Agent and Open Data for the Open Web",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.08516",
+      "pdf_url": "https://arxiv.org/pdf/2604.08516",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.08516",
+      "scraped_at": "2026-04-10T02:41:06.104734"
+    },
+    "scraped_date": "2026-04-10"
+  },
+  {
+    "title": "Towards Real-world Human Behavior Simulation: Benchmarking Large Language Models on Long-horizon, Cross-scenario, Heterogeneous Behavior Traces",
+    "paper_url": "https://huggingface.co/papers/2604.08362",
+    "authors": [
+      "Yunfei Zhang",
+      "Ruotong Pan",
+      "Boxi Cao",
+      "Ruoxi Xu",
+      "Jiawei Chen"
+    ],
+    "stars": "6",
+    "details": {
+      "title": "Towards Real-world Human Behavior Simulation: Benchmarking Large Language Models on Long-horizon, Cross-scenario, Heterogeneous Behavior Traces",
+      "abstract": "We introduce OmniBehavior, to our knowledge, the first user simulation benchmark constructed entirely from authentic user interaction logs, integrating long-horizon, cross-scenario and heterogeneous behavior traces into a unified framework. We provide the systematic analysis of real-world user behavior at scale, demonstrating that cross-scenario dependencies, long-horizon structures and heterogeneous signals are fundamental to accurate preference modeling. We conduct a comprehensive evaluation of SOTA LLMs, revealing substantial capability gaps in modeling realistic user behavior, even with extended context lengths, and establishing strong baselines for future research. We reveal a structural bias in LLM-based simulators, termed positivity-and-average bias, where models overestimate engagement, homogenize user behaviors, and suppress negative and long-tail interactions, fundamentally limiting their applicability in real-world settings.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.08362",
+      "pdf_url": "https://arxiv.org/pdf/2604.08362",
+      "github_links": [
+        "https://github.com/icip-cas/OmniBehavior"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.08362",
+      "scraped_at": "2026-04-10T02:41:07.900637"
+    },
+    "scraped_date": "2026-04-10"
+  },
+  {
+    "title": "OmniJigsaw: Enhancing Omni-Modal Reasoning via Modality-Orchestrated Reordering",
+    "paper_url": "https://huggingface.co/papers/2604.08209",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "OmniJigsaw: Enhancing Omni-Modal Reasoning via Modality-Orchestrated Reordering",
+      "abstract": "We introduce OmniJigsaw, a self-supervised RL post-training framework for omni-modal models. The core idea is a temporal jigsaw proxy task: reconstruct chronology from shuffled audio–visual clips, with three modality-orchestration strategies (JMI / SMS / CMM) to encourage real cross-modal integration. We also analyze a bi-modal shortcut under full multimodal cues and show that clip-level modality masking (CMM) helps mitigate it. Strong gains across 15 video / audio / omni-modal reasoning benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.08209",
+      "pdf_url": "https://arxiv.org/pdf/2604.08209",
+      "github_links": [
+        "https://github.com/aim-uofa/OmniJigsaw"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.08209",
+      "scraped_at": "2026-04-10T02:41:09.701265"
+    },
+    "scraped_date": "2026-04-10"
+  },
+  {
+    "title": "SkillClaw: Let Skills Evolve Collectively with Agentic Evolver",
+    "paper_url": "https://huggingface.co/papers/2604.08377",
+    "authors": [
+      "Yong Wang",
+      "Xucong Wang",
+      "Yuxiang Ji",
+      "Shidong Yang",
+      "Ziyu Ma"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SkillClaw: Let Skills Evolve Collectively with Agentic Evolver",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.08377",
+      "pdf_url": "https://arxiv.org/pdf/2604.08377",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.08377",
+      "scraped_at": "2026-04-10T02:41:11.497473"
+    },
+    "scraped_date": "2026-04-10"
+  },
+  {
+    "title": "Flux Attention: Context-Aware Hybrid Attention for Efficient LLMs Inference",
+    "paper_url": "https://huggingface.co/papers/2604.07394",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Flux Attention: Context-Aware Hybrid Attention for Efficient LLMs Inference",
+      "abstract": "Paper Title: Flux Attention: Context-Aware Hybrid Attention for Efficient LLMs Inference Link: arXiv:2604.07394 (Preprint) 【TL;DR / One-Sentence Summary】 ⭐⭐⭐⭐⭐ (Highly Recommended). A brilliant hardware-aware co-design that optimizes Long-Context LLM inference by shifting sparse attention scheduling from the \"Head-level\" to the \"Layer-level,\" effectively eliminating synchronization bottlenecks and achieving significant wall-clock speedups. 【Core Highlights】 Hardware-Friendly Layer-level Routing : Unlike previous hybrid attention methods (e.g., Elastic Attention) that operate at a fine-grained head level—causing GPU thread divergence and idle time—Flux Attention introduces a lightweight Layer Router . It decides whether an entire layer uses Full Attention (FA) or Sparse Attention (SA). This coarse-grained approach ensures contiguous memory access, translating theoretical FLOPs reduction into actual speedups (up to 2.8x in Prefill and 2.0x in Decode). Efficient & Non-Invasive Training : The framework keeps the backbone LLM (e.g., Qwen-3, Llama-3.1) frozen and only trains the routing modules. By using Gumbel-Softmax for differentiable routing and a Lagrangian-based sparsity penalty, the model converges in just 12 hours on a single 8x A800 node, making it highly practical for industrial deployment. Context-Aware Adaptability : The router dynamically adjusts the sparsity ratio based on the input context (e.g., higher density for complex retrieval, higher sparsity for simple semantics), maintaining high fidelity while reducing costs. 【Limitations & Critiques】 Coarse-grained Trade-off : By forcing an entire layer to be either FA or SA, the model might sacrifice the functional heterogeneity of individual heads within a layer. There may be a slight performance ceiling compared to an \"ideal\" fine-grained routing strategy. Requirement for Preliminary Tuning on OOD Tasks : For Out-of-Distribution (OOD) tasks not covered in the training set, the framework requires re-running preliminary experiments to identify the task type and calibrate appropriate budget targets, which may limit its immediate \"plug-and-play\" adaptability to entirely new domains.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.07394",
+      "pdf_url": "https://arxiv.org/pdf/2604.07394",
+      "github_links": [
+        "https://github.com/qqtang-code/FluxAttention"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.07394",
+      "scraped_at": "2026-04-10T02:41:13.368413"
+    },
+    "scraped_date": "2026-04-10"
+  },
+  {
+    "title": "RewardFlow: Generate Images by Optimizing What You Reward",
+    "paper_url": "https://huggingface.co/papers/2604.08536",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "RewardFlow: Generate Images by Optimizing What You Reward",
+      "abstract": "We introduce RewardFlow, an inversion-free framework that steers pretrained diffusion and flow-matching models at inference time through multi-reward Langevin dynamics.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.08536",
+      "pdf_url": "https://arxiv.org/pdf/2604.08536",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.08536",
+      "scraped_at": "2026-04-10T02:41:15.142505"
+    },
+    "scraped_date": "2026-04-10"
+  },
+  {
+    "title": "Phantom: Physics-Infused Video Generation via Joint Modeling of Visual and Latent Physical Dynamics",
+    "paper_url": "https://huggingface.co/papers/2604.08503",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Phantom: Physics-Infused Video Generation via Joint Modeling of Visual and Latent Physical Dynamics",
+      "abstract": "Phantom is a Physics-Infused Video Generation model that jointly models visual content and latent physical dynamics. Conditioned on observed video frames and inferred physical states, Phantom jointly predicts latent physical dynamics and generates future video frames without requiring explicit specification of complex physical properties.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.08503",
+      "pdf_url": "https://arxiv.org/pdf/2604.08503",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.08503",
+      "scraped_at": "2026-04-10T02:41:16.934453"
+    },
+    "scraped_date": "2026-04-10"
+  },
+  {
+    "title": "PokeGym: A Visually-Driven Long-Horizon Benchmark for Vision-Language Models",
+    "paper_url": "https://huggingface.co/papers/2604.08340",
+    "authors": [
+      "Zhilin Liu",
+      "Chuanfu Shen",
+      "Yuangang Pan",
+      "Ye Huang",
+      "Ruizhi Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "PokeGym: A Visually-Driven Long-Horizon Benchmark for Vision-Language Models",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.08340",
+      "pdf_url": "https://arxiv.org/pdf/2604.08340",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.08340",
+      "scraped_at": "2026-04-10T02:41:18.731044"
+    },
+    "scraped_date": "2026-04-10"
+  },
+  {
+    "title": "OpenVLThinkerV2: A Generalist Multimodal Reasoning Model for Multi-domain Visual Tasks",
+    "paper_url": "https://huggingface.co/papers/2604.08539",
+    "authors": [
+      "Nanyun Peng",
+      "Yihe Deng",
+      "Yan Gao-Tian",
+      "Xin Chen",
+      "Wenbo Hu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "OpenVLThinkerV2: A Generalist Multimodal Reasoning Model for Multi-domain Visual Tasks",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.08539",
+      "pdf_url": "https://arxiv.org/pdf/2604.08539",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.08539",
+      "scraped_at": "2026-04-10T02:41:20.513126"
+    },
+    "scraped_date": "2026-04-10"
+  },
+  {
+    "title": "GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents",
+    "paper_url": "https://huggingface.co/papers/2604.07429",
+    "authors": [
+      "Mike Zheng Shou",
+      "Hwee Tou Ng",
+      "Kevin Qinghong Lin",
+      "Siyuan Hu",
+      "Mingyu Ouyang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents",
+      "abstract": "Proposes GameWorld, a standardized, verifiable benchmark for evaluating multimodal game agents across 34 browser games and 170 tasks using semantic actions and keyboard/mouse interfaces.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.07429",
+      "pdf_url": "https://arxiv.org/pdf/2604.07429",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.07429",
+      "scraped_at": "2026-04-10T02:41:22.326024"
+    },
+    "scraped_date": "2026-04-10"
   }
 ]

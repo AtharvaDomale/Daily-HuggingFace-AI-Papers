@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-8-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3321+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-18-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3339+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">8</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">38</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">150</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3321+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">18</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">56</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">168</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3339+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** April 09, 2026
+**Last Updated:** April 10, 2026
 
 ---
 
@@ -119,106 +119,234 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Personalized RewardBench: Evaluating Reward Models with Human Aligned Personalization</b> ⭐ 9</summary>
+<summary><b>1. Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.07343) • [📄 arXiv](https://arxiv.org/abs/2604.07343) • [📥 PDF](https://arxiv.org/pdf/2604.07343)
+**👥 Authors:** Rong Shan, Zihan Guo, Wenteng Chen, Huacan Chai, Chenyu Zhou
 
-**💻 Code:** [⭐ Code](https://github.com/Martin-qyma/Personalized-RewardBench)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08224) • [📄 arXiv](https://arxiv.org/abs/2604.08224) • [📥 PDF](https://arxiv.org/pdf/2604.08224)
 
-> One thing we found surprising is how poorly current reward models handle personalization even when general response quality is high. In our benchmark, both chosen/rejected responses are equally good in terms of correctness and helpfulness — the on...
+> Large language model (LLM) agents are increasingly built less by changing model weights than by reorganizing the runtime around them. Capabilities that earlier systems expected the model to recover internally are now externalized into memory store...
 
 </details>
 
 <details>
-<summary><b>2. MARS: Enabling Autoregressive Models Multi-Token Generation</b> ⭐ 0</summary>
+<summary><b>2. KnowU-Bench: Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation</b> ⭐ 8</summary>
 
 <br/>
 
-**👥 Authors:** Aixin Sun, Ziwei Luo, Lei Wang, Ziqi Jin
+**👥 Authors:** Shaohan Zhao, Guocheng Shao, Zhan Xu, Zhengxi Lu, Tongbo Chen
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.07023) • [📄 arXiv](https://arxiv.org/abs/2604.07023) • [📥 PDF](https://arxiv.org/pdf/2604.07023)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08455) • [📄 arXiv](https://arxiv.org/abs/2604.08455) • [📥 PDF](https://arxiv.org/pdf/2604.08455)
 
-> We release MARS (Mask AutoRegression) -- teaching AR models to generate multiple tokens per forward pass. Zero arch changes, zero extra params, single checkpoint One-token mode: matches or beats AR baseline on 6 benchmarks Multi-token mode: 1.5-1....
+**💻 Code:** [⭐ Code](https://github.com/ZJU-REAL/KnowU-Bench)
+
+> We introduce KnowU-Bench, an online, interactive personalization benchmark for mobile agents built on a reproducible Android emulation environment. We find that even frontier models like Claude Sonnet 4.6 struggle with our personalized and proacti...
 
 </details>
 
 <details>
-<summary><b>3. RAGEN-2: Reasoning Collapse in Agentic RL</b> ⭐ 2.59k</summary>
+<summary><b>3. Graph of Skills: Dependency-Aware Structural Retrieval for Massive Agent Skills</b> ⭐ 5</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.06268) • [📄 arXiv](https://arxiv.org/abs/2604.06268) • [📥 PDF](https://arxiv.org/pdf/2604.06268)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.05333) • [📄 arXiv](https://arxiv.org/abs/2604.05333) • [📥 PDF](https://arxiv.org/pdf/2604.05333)
 
-**💻 Code:** [⭐ Code](https://github.com/mll-lab-nu/RAGEN)
+**💻 Code:** [⭐ Code](https://github.com/davidliuk/graph-of-skills)
 
-> Preprint.
+> Skill usage has become a core component of modern agent systems and can substantially improve agents' ability to complete complex tasks. In real-world settings, where agents must monitor and interact with numerous personal applications, web browse...
 
 </details>
 
 <details>
-<summary><b>4. Neural Computers</b> ⭐ 0</summary>
+<summary><b>4. DMax: Aggressive Parallel Decoding for dLLMs</b> ⭐ 5</summary>
 
 <br/>
 
-**👥 Authors:** Shuming Liu, Zijian Zhou, Haozhe Liu, Changsheng Zhao, Mingchen Zhuge
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08302) • [📄 arXiv](https://arxiv.org/abs/2604.08302) • [📥 PDF](https://arxiv.org/pdf/2604.08302)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.06425) • [📄 arXiv](https://arxiv.org/abs/2604.06425) • [📥 PDF](https://arxiv.org/pdf/2604.06425)
+**💻 Code:** [⭐ Code](https://github.com/czg1225/DMax)
+
+> DMax is a new dLLM paradigm achieving aggressive parallel decoding while preserving generation quality. Paper: https://arxiv.org/pdf/2604.08302 Code: https://github.com/czg1225/DMax Models: https://huggingface.co/collections/Zigeng/dmax-models Dat...
+
+</details>
+
+<details>
+<summary><b>5. HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents</b> ⭐ 81</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.07430) • [📄 arXiv](https://arxiv.org/abs/2604.07430) • [📥 PDF](https://arxiv.org/pdf/2604.07430)
+
+**💻 Code:** [⭐ Code](https://github.com/Tencent-Hunyuan/HY-Embodied)
+
+> GitHub: https://github.com/Tencent-Hunyuan/HY-Embodied HuggingFace: https://huggingface.co/tencent/HY-Embodied-0.5
+
+</details>
+
+<details>
+<summary><b>6. When Numbers Speak: Aligning Textual Numerals and Visual Instances in Text-to-Video Diffusion Models</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08546) • [📄 arXiv](https://arxiv.org/abs/2604.08546) • [📥 PDF](https://arxiv.org/pdf/2604.08546)
+
+**💻 Code:** [⭐ Code](https://github.com/H-EmbodVis/NUMINA)
+
+> NUMINA is a training-free framework that tackles numerical misalignment in text-to-video diffusion models — the persistent failure of T2V models to generate the correct count of objects specified in prompts (e.g., producing 2 or 4 cats when "three...
+
+</details>
+
+<details>
+<summary><b>7. FIT: A Large-Scale Dataset for Fit-Aware Virtual Try-On</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08526) • [📄 arXiv](https://arxiv.org/abs/2604.08526) • [📥 PDF](https://arxiv.org/pdf/2604.08526)
+
+> We introduce FIT (Fit-Inclusive Try-on), a virtual try-on dataset of 1.13M samples covering diverse garment fits, each annotated with precise body/garment measurements. Our novel data generation pipeline leverages synthetic garment simulation and ...
+
+</details>
+
+<details>
+<summary><b>8. Beyond Stochastic Exploration: What Makes Training Data Valuable for Agentic Search</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Guohua Liu, Guofeng Quan, Guochao Jiang, Wenfeng Feng, Chuzhan Hao
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08124) • [📄 arXiv](https://arxiv.org/abs/2604.08124) • [📥 PDF](https://arxiv.org/pdf/2604.08124)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>5. INSPATIO-WORLD: A Real-Time 4D World Simulator via Spatiotemporal Autoregressive Modeling</b> ⭐ 659</summary>
+<summary><b>9. MolmoWeb: Open Visual Web Agent and Open Data for the Open Web</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Haoyu Ji, Haomin Liu, Guofeng Zhang, Donghui Shen, InSpatio Team
+**👥 Authors:** Rock Yuren Pang, Peter Sushko, Zixian Ma, Piper Wolters, Tanmay Gupta
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.07209) • [📄 arXiv](https://arxiv.org/abs/2604.07209) • [📥 PDF](https://arxiv.org/pdf/2604.07209)
-
-**💻 Code:** [⭐ Code](https://github.com/inspatio/inspatio-world)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08516) • [📄 arXiv](https://arxiv.org/abs/2604.08516) • [📥 PDF](https://arxiv.org/pdf/2604.08516)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>6. FP4 Explore, BF16 Train: Diffusion Reinforcement Learning via Efficient Rollout Scaling</b> ⭐ 0</summary>
+<summary><b>10. Towards Real-world Human Behavior Simulation: Benchmarking Large Language Models on Long-horizon, Cross-scenario, Heterogeneous Behavior Traces</b> ⭐ 6</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.06916) • [📄 arXiv](https://arxiv.org/abs/2604.06916) • [📥 PDF](https://arxiv.org/pdf/2604.06916)
+**👥 Authors:** Yunfei Zhang, Ruotong Pan, Boxi Cao, Ruoxi Xu, Jiawei Chen
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08362) • [📄 arXiv](https://arxiv.org/abs/2604.08362) • [📥 PDF](https://arxiv.org/pdf/2604.08362)
+
+**💻 Code:** [⭐ Code](https://github.com/icip-cas/OmniBehavior)
+
+> We introduce OmniBehavior, to our knowledge, the first user simulation benchmark constructed entirely from authentic user interaction logs, integrating long-horizon, cross-scenario and heterogeneous behavior traces into a unified framework. We pro...
+
+</details>
+
+<details>
+<summary><b>11. OmniJigsaw: Enhancing Omni-Modal Reasoning via Modality-Orchestrated Reordering</b> ⭐ 1</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08209) • [📄 arXiv](https://arxiv.org/abs/2604.08209) • [📥 PDF](https://arxiv.org/pdf/2604.08209)
+
+**💻 Code:** [⭐ Code](https://github.com/aim-uofa/OmniJigsaw)
+
+> We introduce OmniJigsaw, a self-supervised RL post-training framework for omni-modal models. The core idea is a temporal jigsaw proxy task: reconstruct chronology from shuffled audio–visual clips, with three modality-orchestration strategies (JMI ...
+
+</details>
+
+<details>
+<summary><b>12. SkillClaw: Let Skills Evolve Collectively with Agentic Evolver</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Yong Wang, Xucong Wang, Yuxiang Ji, Shidong Yang, Ziyu Ma
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08377) • [📄 arXiv](https://arxiv.org/abs/2604.08377) • [📥 PDF](https://arxiv.org/pdf/2604.08377)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>7. MoRight: Motion Control Done Right</b> ⭐ 0</summary>
+<summary><b>13. Flux Attention: Context-Aware Hybrid Attention for Efficient LLMs Inference</b> ⭐ 3</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.07348) • [📄 arXiv](https://arxiv.org/abs/2604.07348) • [📥 PDF](https://arxiv.org/pdf/2604.07348)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.07394) • [📄 arXiv](https://arxiv.org/abs/2604.07394) • [📥 PDF](https://arxiv.org/pdf/2604.07394)
+
+**💻 Code:** [⭐ Code](https://github.com/qqtang-code/FluxAttention)
+
+> Paper Title: Flux Attention: Context-Aware Hybrid Attention for Efficient LLMs Inference Link: arXiv:2604.07394 (Preprint) 【TL;DR / One-Sentence Summary】 ⭐⭐⭐⭐⭐ (Highly Recommended). A brilliant hardware-aware co-design that optimizes Long-Context ...
+
+</details>
+
+<details>
+<summary><b>14. RewardFlow: Generate Images by Optimizing What You Reward</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08536) • [📄 arXiv](https://arxiv.org/abs/2604.08536) • [📥 PDF](https://arxiv.org/pdf/2604.08536)
+
+> We introduce RewardFlow, an inversion-free framework that steers pretrained diffusion and flow-matching models at inference time through multi-reward Langevin dynamics.
+
+</details>
+
+<details>
+<summary><b>15. Phantom: Physics-Infused Video Generation via Joint Modeling of Visual and Latent Physical Dynamics</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08503) • [📄 arXiv](https://arxiv.org/abs/2604.08503) • [📥 PDF](https://arxiv.org/pdf/2604.08503)
+
+> Phantom is a Physics-Infused Video Generation model that jointly models visual content and latent physical dynamics. Conditioned on observed video frames and inferred physical states, Phantom jointly predicts latent physical dynamics and generates...
+
+</details>
+
+<details>
+<summary><b>16. PokeGym: A Visually-Driven Long-Horizon Benchmark for Vision-Language Models</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Zhilin Liu, Chuanfu Shen, Yuangang Pan, Ye Huang, Ruizhi Zhang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08340) • [📄 arXiv](https://arxiv.org/abs/2604.08340) • [📥 PDF](https://arxiv.org/pdf/2604.08340)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>8. VenusBench-Mobile: A Challenging and User-Centric Benchmark for Mobile GUI Agents with Capability Diagnostics</b> ⭐ 0</summary>
+<summary><b>17. OpenVLThinkerV2: A Generalist Multimodal Reasoning Model for Multi-domain Visual Tasks</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Zhangxuan Gu, Yuqi Zhou, Sunhao Dai, Zhuohan Cai, Yichen Gong
+**👥 Authors:** Nanyun Peng, Yihe Deng, Yan Gao-Tian, Xin Chen, Wenbo Hu
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.06182) • [📄 arXiv](https://arxiv.org/abs/2604.06182) • [📥 PDF](https://arxiv.org/pdf/2604.06182)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08539) • [📄 arXiv](https://arxiv.org/abs/2604.08539) • [📥 PDF](https://arxiv.org/pdf/2604.08539)
 
-**💻 Code:** [⭐ Code](https://github.com/inclusionAI/UI-Venus/tree/VenusBench-Mobile)
+> No abstract available.
 
-> Github: https://github.com/inclusionAI/UI-Venus/tree/VenusBench-Mobile
+</details>
+
+<details>
+<summary><b>18. GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Mike Zheng Shou, Hwee Tou Ng, Kevin Qinghong Lin, Siyuan Hu, Mingyu Ouyang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.07429) • [📄 arXiv](https://arxiv.org/abs/2604.07429) • [📥 PDF](https://arxiv.org/pdf/2604.07429)
+
+> Proposes GameWorld, a standardized, verifiable benchmark for evaluating multimodal game agents across 34 browser games and 170 tasks using semantic actions and keyboard/mouse interfaces.
 
 </details>
 
@@ -230,28 +358,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 8 |
-| 📅 Today | [`2026-04-09.json`](data/daily/2026-04-09.json) | 8 |
-| 📆 This Week | [`2026-W14.json`](data/weekly/2026-W14.json) | 38 |
-| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 150 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 18 |
+| 📅 Today | [`2026-04-10.json`](data/daily/2026-04-10.json) | 18 |
+| 📆 This Week | [`2026-W14.json`](data/weekly/2026-W14.json) | 56 |
+| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 168 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-04-09 | 8 | [View JSON](data/daily/2026-04-09.json) |
+| 📌 2026-04-10 | 18 | [View JSON](data/daily/2026-04-10.json) |
+| 📄 2026-04-09 | 8 | [View JSON](data/daily/2026-04-09.json) |
 | 📄 2026-04-08 | 8 | [View JSON](data/daily/2026-04-08.json) |
 | 📄 2026-04-07 | 17 | [View JSON](data/daily/2026-04-07.json) |
 | 📄 2026-04-06 | 5 | [View JSON](data/daily/2026-04-06.json) |
 | 📄 2026-04-05 | 45 | [View JSON](data/daily/2026-04-05.json) |
 | 📄 2026-04-04 | 45 | [View JSON](data/daily/2026-04-04.json) |
-| 📄 2026-04-03 | 7 | [View JSON](data/daily/2026-04-03.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W14 | 38 | [View JSON](data/weekly/2026-W14.json) |
+| 📅 2026-W14 | 56 | [View JSON](data/weekly/2026-W14.json) |
 | 📅 2026-W13 | 115 | [View JSON](data/weekly/2026-W13.json) |
 | 📅 2026-W12 | 120 | [View JSON](data/weekly/2026-W12.json) |
 | 📅 2026-W11 | 133 | [View JSON](data/weekly/2026-W11.json) |
@@ -260,7 +388,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-04 | 150 | [View JSON](data/monthly/2026-04.json) |
+| 🗓️ 2026-04 | 168 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
