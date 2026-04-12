@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-42-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3381+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3423+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">42</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">98</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">210</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3381+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">140</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">252</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3423+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** April 11, 2026
+**Last Updated:** April 12, 2026
 
 ---
 
@@ -119,20 +119,7 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Rethinking Generalization in Reasoning SFT: A Conditional Analysis on Optimization, Data, and Model Capability</b> ⭐ 65</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.06628) • [📄 arXiv](https://arxiv.org/abs/2604.06628) • [📥 PDF](https://arxiv.org/pdf/2604.06628)
-
-**💻 Code:** [⭐ Code](https://github.com/Nebularaid2000/rethink_sft_generalization)
-
-> Rethinking Generalization in Reasoning SFT: A Conditional Analysis on Optimization, Data, and Model Capability We have open-sourced all our models and datasets: https://huggingface.co/collections/jasonrqh/rethink-sft-generalization Also find them ...
-
-</details>
-
-<details>
-<summary><b>2. SkillClaw: Let Skills Evolve Collectively with Agentic Evolver</b> ⭐ 0</summary>
+<summary><b>1. SkillClaw: Let Skills Evolve Collectively with Agentic Evolver</b> ⭐ 357</summary>
 
 <br/>
 
@@ -147,7 +134,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>3. HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents</b> ⭐ 223</summary>
+<summary><b>2. Rethinking Generalization in Reasoning SFT: A Conditional Analysis on Optimization, Data, and Model Capability</b> ⭐ 76</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.06628) • [📄 arXiv](https://arxiv.org/abs/2604.06628) • [📥 PDF](https://arxiv.org/pdf/2604.06628)
+
+**💻 Code:** [⭐ Code](https://github.com/Nebularaid2000/rethink_sft_generalization)
+
+> Rethinking Generalization in Reasoning SFT: A Conditional Analysis on Optimization, Data, and Model Capability We have open-sourced all our models and datasets: https://huggingface.co/collections/jasonrqh/rethink-sft-generalization Also find them ...
+
+</details>
+
+<details>
+<summary><b>3. HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents</b> ⭐ 391</summary>
 
 <br/>
 
@@ -160,20 +160,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>4. When Numbers Speak: Aligning Textual Numerals and Visual Instances in Text-to-Video Diffusion Models</b> ⭐ 27</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08546) • [📄 arXiv](https://arxiv.org/abs/2604.08546) • [📥 PDF](https://arxiv.org/pdf/2604.08546)
-
-**💻 Code:** [⭐ Code](https://github.com/H-EmbodVis/NUMINA)
-
-> NUMINA is a training-free framework that tackles numerical misalignment in text-to-video diffusion models — the persistent failure of T2V models to generate the correct count of objects specified in prompts (e.g., producing 2 or 4 cats when "three...
-
-</details>
-
-<details>
-<summary><b>5. ClawBench: Can AI Agents Complete Everyday Online Tasks?</b> ⭐ 10</summary>
+<summary><b>4. ClawBench: Can AI Agents Complete Everyday Online Tasks?</b> ⭐ 16</summary>
 
 <br/>
 
@@ -182,6 +169,19 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/reacher-z/ClawBench)
 
 > TL;DR: ClawBench evaluates AI agents on 153 everyday tasks (such as booking flights, ordering groceries, submitting job applications) across 144 live websites. We capture 5 layers of behavioral data (session replay, screenshots, HTTP traffic, agen...
+
+</details>
+
+<details>
+<summary><b>5. When Numbers Speak: Aligning Textual Numerals and Visual Instances in Text-to-Video Diffusion Models</b> ⭐ 31</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08546) • [📄 arXiv](https://arxiv.org/abs/2604.08546) • [📥 PDF](https://arxiv.org/pdf/2604.08546)
+
+**💻 Code:** [⭐ Code](https://github.com/H-EmbodVis/NUMINA)
+
+> NUMINA is a training-free framework that tackles numerical misalignment in text-to-video diffusion models — the persistent failure of T2V models to generate the correct count of objects specified in prompts (e.g., producing 2 or 4 cats when "three...
 
 </details>
 
@@ -197,7 +197,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>7. LPM 1.0: Video-based Character Performance Model</b> ⭐ 121</summary>
+<summary><b>7. OpenVLThinkerV2: A Generalist Multimodal Reasoning Model for Multi-domain Visual Tasks</b> ⭐ 139</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08539) • [📄 arXiv](https://arxiv.org/abs/2604.08539) • [📥 PDF](https://arxiv.org/pdf/2604.08539)
+
+**💻 Code:** [⭐ Code](https://github.com/uclanlp/OpenVLThinker) • [⭐ Code](https://github.com/uclanlp/openvlthinker)
+
+> We introduce OpenVLThinkerV2! Our code are available at: https://github.com/uclanlp/openvlthinker
+
+</details>
+
+<details>
+<summary><b>8. LPM 1.0: Video-based Character Performance Model</b> ⭐ 176</summary>
 
 <br/>
 
@@ -212,7 +225,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>8. KnowU-Bench: Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation</b> ⭐ 46</summary>
+<summary><b>9. DMax: Aggressive Parallel Decoding for dLLMs</b> ⭐ 75</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08302) • [📄 arXiv](https://arxiv.org/abs/2604.08302) • [📥 PDF](https://arxiv.org/pdf/2604.08302)
+
+**💻 Code:** [⭐ Code](https://github.com/czg1225/DMax)
+
+> DMax is a new dLLM paradigm achieving aggressive parallel decoding while preserving generation quality. Paper: https://arxiv.org/pdf/2604.08302 Code: https://github.com/czg1225/DMax Models: https://huggingface.co/collections/Zigeng/dmax-models Dat...
+
+</details>
+
+<details>
+<summary><b>10. KnowU-Bench: Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation</b> ⭐ 50</summary>
 
 <br/>
 
@@ -227,7 +253,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>9. Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering</b> ⭐ 0</summary>
+<summary><b>11. Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering</b> ⭐ 0</summary>
 
 <br/>
 
@@ -240,20 +266,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>10. OpenVLThinkerV2: A Generalist Multimodal Reasoning Model for Multi-domain Visual Tasks</b> ⭐ 138</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08539) • [📄 arXiv](https://arxiv.org/abs/2604.08539) • [📥 PDF](https://arxiv.org/pdf/2604.08539)
-
-**💻 Code:** [⭐ Code](https://github.com/uclanlp/openvlthinker) • [⭐ Code](https://github.com/uclanlp/OpenVLThinker)
-
-> We introduce OpenVLThinkerV2! Our code are available at: https://github.com/uclanlp/openvlthinker
-
-</details>
-
-<details>
-<summary><b>11. Act Wisely: Cultivating Meta-Cognitive Tool Use in Agentic Multimodal Models</b> ⭐ 5</summary>
+<summary><b>12. Act Wisely: Cultivating Meta-Cognitive Tool Use in Agentic Multimodal Models</b> ⭐ 5</summary>
 
 <br/>
 
@@ -262,19 +275,6 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/Accio-Lab/Metis)
 
 > 🔗 Project Page： https://Accio-Lab.github.io/Metis 💻 GitHub： https://github.com/Accio-Lab/Metis 🤗 HuggingFace： https://huggingface.co/Accio-Lab/Metis-8B-RL
-
-</details>
-
-<details>
-<summary><b>12. DMax: Aggressive Parallel Decoding for dLLMs</b> ⭐ 53</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08302) • [📄 arXiv](https://arxiv.org/abs/2604.08302) • [📥 PDF](https://arxiv.org/pdf/2604.08302)
-
-**💻 Code:** [⭐ Code](https://github.com/czg1225/DMax)
-
-> DMax is a new dLLM paradigm achieving aggressive parallel decoding while preserving generation quality. Paper: https://arxiv.org/pdf/2604.08302 Code: https://github.com/czg1225/DMax Models: https://huggingface.co/collections/Zigeng/dmax-models Dat...
 
 </details>
 
@@ -292,7 +292,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>14. OpenSpatial: A Principled Data Engine for Empowering Spatial Intelligence</b> ⭐ 51</summary>
+<summary><b>14. OpenSpatial: A Principled Data Engine for Empowering Spatial Intelligence</b> ⭐ 54</summary>
 
 <br/>
 
@@ -305,20 +305,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>15. Graph of Skills: Dependency-Aware Structural Retrieval for Massive Agent Skills</b> ⭐ 9</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.05333) • [📄 arXiv](https://arxiv.org/abs/2604.05333) • [📥 PDF](https://arxiv.org/pdf/2604.05333)
-
-**💻 Code:** [⭐ Code](https://github.com/davidliuk/graph-of-skills)
-
-> Skill usage has become a core component of modern agent systems and can substantially improve agents' ability to complete complex tasks. In real-world settings, where agents must monitor and interact with numerous personal applications, web browse...
-
-</details>
-
-<details>
-<summary><b>16. OmniJigsaw: Enhancing Omni-Modal Reasoning via Modality-Orchestrated Reordering</b> ⭐ 18</summary>
+<summary><b>15. OmniJigsaw: Enhancing Omni-Modal Reasoning via Modality-Orchestrated Reordering</b> ⭐ 20</summary>
 
 <br/>
 
@@ -331,7 +318,31 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>17. Structured Distillation of Web Agent Capabilities Enables Generalization</b> ⭐ 0</summary>
+<summary><b>16. Graph of Skills: Dependency-Aware Structural Retrieval for Massive Agent Skills</b> ⭐ 9</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.05333) • [📄 arXiv](https://arxiv.org/abs/2604.05333) • [📥 PDF](https://arxiv.org/pdf/2604.05333)
+
+**💻 Code:** [⭐ Code](https://github.com/davidliuk/graph-of-skills)
+
+> Skill usage has become a core component of modern agent systems and can substantially improve agents' ability to complete complex tasks. In real-world settings, where agents must monitor and interact with numerous personal applications, web browse...
+
+</details>
+
+<details>
+<summary><b>17. FIT: A Large-Scale Dataset for Fit-Aware Virtual Try-On</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08526) • [📄 arXiv](https://arxiv.org/abs/2604.08526) • [📥 PDF](https://arxiv.org/pdf/2604.08526)
+
+> We introduce FIT (Fit-Inclusive Try-on), a virtual try-on dataset of 1.13M samples covering diverse garment fits, each annotated with precise body/garment measurements. Our novel data generation pipeline leverages synthetic garment simulation and ...
+
+</details>
+
+<details>
+<summary><b>18. Structured Distillation of Web Agent Capabilities Enables Generalization</b> ⭐ 0</summary>
 
 <br/>
 
@@ -344,18 +355,22 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>18. FIT: A Large-Scale Dataset for Fit-Aware Virtual Try-On</b> ⭐ 0</summary>
+<summary><b>19. Small Vision-Language Models are Smart Compressors for Long Video Understanding</b> ⭐ 16</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08526) • [📄 arXiv](https://arxiv.org/abs/2604.08526) • [📥 PDF](https://arxiv.org/pdf/2604.08526)
+**👥 Authors:** Chong Zhou, Yunyang Xiong, Zechun Liu, Jun Chen, FeiElysia
 
-> We introduce FIT (Fit-Inclusive Try-on), a virtual try-on dataset of 1.13M samples covering diverse garment fits, each annotated with precise body/garment measurements. Our novel data generation pipeline leverages synthetic garment simulation and ...
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08120) • [📄 arXiv](https://arxiv.org/abs/2604.08120) • [📥 PDF](https://arxiv.org/pdf/2604.08120)
+
+**💻 Code:** [⭐ Code](https://github.com/FeiElysia/Tempo)
+
+> 🔥 Tempo: Small Vision-Language Models are Smart Compressors for Long Video Understanding How do we make MLLMs understand hour-long videos without saturating context windows? Tempo uses an SVLM to actively filter and compress videos via query-aware...
 
 </details>
 
 <details>
-<summary><b>19. ViVa: A Video-Generative Value Model for Robot Reinforcement Learning</b> ⭐ 18</summary>
+<summary><b>20. ViVa: A Video-Generative Value Model for Robot Reinforcement Learning</b> ⭐ 22</summary>
 
 <br/>
 
@@ -368,33 +383,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>20. SIM1: Physics-Aligned Simulator as Zero-Shot Data Scaler in Deformable Worlds</b> ⭐ 55</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08544) • [📄 arXiv](https://arxiv.org/abs/2604.08544) • [📥 PDF](https://arxiv.org/pdf/2604.08544)
-
-**💻 Code:** [⭐ Code](https://github.com/InternRobotics/SIM1)
-
-> SIM1: Physics-Aligned Simulator as Zero-Shot Data Scaler in Deformable Worlds SIM1: a world where simulation is the same one as reality, making simulated experience directly executable in the physical world, at scale, without loss. A new scaling l...
-
-</details>
-
-<details>
-<summary><b>21. Flux Attention: Context-Aware Hybrid Attention for Efficient LLMs Inference</b> ⭐ 6</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.07394) • [📄 arXiv](https://arxiv.org/abs/2604.07394) • [📥 PDF](https://arxiv.org/pdf/2604.07394)
-
-**💻 Code:** [⭐ Code](https://github.com/qqtang-code/FluxAttention)
-
-> Paper Title: Flux Attention: Context-Aware Hybrid Attention for Efficient LLMs Inference Link: arXiv:2604.07394 (Preprint) 【TL;DR / One-Sentence Summary】 ⭐⭐⭐⭐⭐ (Highly Recommended). A brilliant hardware-aware co-design that optimizes Long-Context ...
-
-</details>
-
-<details>
-<summary><b>22. Automating Database-Native Function Code Synthesis with LLMs</b> ⭐ 5</summary>
+<summary><b>21. Automating Database-Native Function Code Synthesis with LLMs</b> ⭐ 7</summary>
 
 <br/>
 
@@ -407,7 +396,33 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>23. Towards Real-world Human Behavior Simulation: Benchmarking Large Language Models on Long-horizon, Cross-scenario, Heterogeneous Behavior Traces</b> ⭐ 26</summary>
+<summary><b>22. SIM1: Physics-Aligned Simulator as Zero-Shot Data Scaler in Deformable Worlds</b> ⭐ 75</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08544) • [📄 arXiv](https://arxiv.org/abs/2604.08544) • [📥 PDF](https://arxiv.org/pdf/2604.08544)
+
+**💻 Code:** [⭐ Code](https://github.com/InternRobotics/SIM1)
+
+> SIM1: Physics-Aligned Simulator as Zero-Shot Data Scaler in Deformable Worlds SIM1: a world where simulation is the same one as reality, making simulated experience directly executable in the physical world, at scale, without loss. A new scaling l...
+
+</details>
+
+<details>
+<summary><b>23. Flux Attention: Context-Aware Hybrid Attention for Efficient LLMs Inference</b> ⭐ 6</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.07394) • [📄 arXiv](https://arxiv.org/abs/2604.07394) • [📥 PDF](https://arxiv.org/pdf/2604.07394)
+
+**💻 Code:** [⭐ Code](https://github.com/qqtang-code/FluxAttention)
+
+> Paper Title: Flux Attention: Context-Aware Hybrid Attention for Efficient LLMs Inference Link: arXiv:2604.07394 (Preprint) 【TL;DR / One-Sentence Summary】 ⭐⭐⭐⭐⭐ (Highly Recommended). A brilliant hardware-aware co-design that optimizes Long-Context ...
+
+</details>
+
+<details>
+<summary><b>24. Towards Real-world Human Behavior Simulation: Benchmarking Large Language Models on Long-horizon, Cross-scenario, Heterogeneous Behavior Traces</b> ⭐ 28</summary>
 
 <br/>
 
@@ -418,19 +433,6 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/icip-cas/OmniBehavior)
 
 > We introduce OmniBehavior, to our knowledge, the first user simulation benchmark constructed entirely from authentic user interaction logs, integrating long-horizon, cross-scenario and heterogeneous behavior traces into a unified framework. We pro...
-
-</details>
-
-<details>
-<summary><b>24. Lighting-grounded Video Generation with Renderer-based Agent Reasoning</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Han Jiang, Si Li, Zheng Chang, Taoyu Yang, Ziqi Cai
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.07966) • [📄 arXiv](https://arxiv.org/abs/2604.07966) • [📥 PDF](https://arxiv.org/pdf/2604.07966)
-
-> Accepted to CVPR 2026 TL;DR: LiVER is a controllable video diffusion framework that generates videos from explicit 3D scene conditions such as layout, lighting, and camera motion. It combines a densely annotated dataset, a lightweight conditioning...
 
 </details>
 
@@ -448,17 +450,15 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>26. Small Vision-Language Models are Smart Compressors for Long Video Understanding</b> ⭐ 8</summary>
+<summary><b>26. Lighting-grounded Video Generation with Renderer-based Agent Reasoning</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Chong Zhou, Yunyang Xiong, Zechun Liu, Jun Chen, FeiElysia
+**👥 Authors:** Han Jiang, Si Li, Zheng Chang, Taoyu Yang, Ziqi Cai
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08120) • [📄 arXiv](https://arxiv.org/abs/2604.08120) • [📥 PDF](https://arxiv.org/pdf/2604.08120)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.07966) • [📄 arXiv](https://arxiv.org/abs/2604.07966) • [📥 PDF](https://arxiv.org/pdf/2604.07966)
 
-**💻 Code:** [⭐ Code](https://github.com/FeiElysia/Tempo)
-
-> 🔥 Tempo: Small Vision-Language Models are Smart Compressors for Long Video Understanding How do we make MLLMs understand hour-long videos without saturating context windows? Tempo uses an SVLM to actively filter and compress videos via query-aware...
+> Accepted to CVPR 2026 TL;DR: LiVER is a controllable video diffusion framework that generates videos from explicit 3D scene conditions such as layout, lighting, and camera motion. It combines a densely annotated dataset, a lightweight conditioning...
 
 </details>
 
@@ -474,81 +474,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>28. The Master Key Hypothesis: Unlocking Cross-Model Capability Transfer via Linear Subspace Alignment</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Fardin Abdi, Anjie Fang, Rituraj Sharma, Pin-Jie Lin, Rishab Balasubramanian
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.06377) • [📄 arXiv](https://arxiv.org/abs/2604.06377) • [📥 PDF](https://arxiv.org/pdf/2604.06377)
-
-> Sharing our new work on The Master Key Hypothesis: Unlocking Cross-Model Capability Transfer via Linear Subspace Alignment
-
-</details>
-
-<details>
-<summary><b>29. AnomalyVFM -- Transforming Vision Foundation Models into Zero-Shot Anomaly Detectors</b> ⭐ 4</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.20524) • [📄 arXiv](https://arxiv.org/abs/2601.20524) • [📥 PDF](https://arxiv.org/pdf/2601.20524)
-
-**💻 Code:** [⭐ Code](https://github.com/MaticFuc/AnomalyVFM)
-
-> Added to Daily papers
-
-</details>
-
-<details>
-<summary><b>30. On the Global Photometric Alignment for Low-Level Vision</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Xiaojie Guo, Qiming Hu, Hainuo Wang, Tianle Du, Mingjia Li
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08172) • [📄 arXiv](https://arxiv.org/abs/2604.08172) • [📥 PDF](https://arxiv.org/pdf/2604.08172)
-
-> Supervised low-level vision models rely on pixel-wise losses against paired references, yet paired training sets exhibit per-pair photometric inconsistency, say, different image pairs demand different global brightness, color, or white-balance map...
-
-</details>
-
-<details>
-<summary><b>31. ImplicitMemBench: Measuring Unconscious Behavioral Adaptation in Large Language Models</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08064) • [📄 arXiv](https://arxiv.org/abs/2604.08064) • [📥 PDF](https://arxiv.org/pdf/2604.08064)
-
-> Beyond explicit recall: we benchmark whether LLMs can learn from experience and adapt behavior without conscious retrieval.
-
-</details>
-
-<details>
-<summary><b>32. Beyond Stochastic Exploration: What Makes Training Data Valuable for Agentic Search</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Guohua Liu, Guofeng Quan, Wenfeng Feng, Nothing2Say, Chuzhan
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08124) • [📄 arXiv](https://arxiv.org/abs/2604.08124) • [📥 PDF](https://arxiv.org/pdf/2604.08124)
-
-> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API SIGHT: Reinforcement Learning with Self-Evidence and Information-Gain Diver...
-
-</details>
-
-<details>
-<summary><b>33. Phantom: Physics-Infused Video Generation via Joint Modeling of Visual and Latent Physical Dynamics</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08503) • [📄 arXiv](https://arxiv.org/abs/2604.08503) • [📥 PDF](https://arxiv.org/pdf/2604.08503)
-
-> Phantom is a Physics-Infused Video Generation model that jointly models visual content and latent physical dynamics. Conditioned on observed video frames and inferred physical states, Phantom jointly predicts latent physical dynamics and generates...
-
-</details>
-
-<details>
-<summary><b>34. PokeGym: A Visually-Driven Long-Horizon Benchmark for Vision-Language Models</b> ⭐ 0</summary>
+<summary><b>28. PokeGym: A Visually-Driven Long-Horizon Benchmark for Vision-Language Models</b> ⭐ 0</summary>
 
 <br/>
 
@@ -561,7 +487,92 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>35. POS-ISP: Pipeline Optimization at the Sequence Level for Task-aware ISP</b> ⭐ 1</summary>
+<summary><b>29. The Master Key Hypothesis: Unlocking Cross-Model Capability Transfer via Linear Subspace Alignment</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Fardin Abdi, Anjie Fang, Rituraj Sharma, Pin-Jie Lin, Rishab Balasubramanian
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.06377) • [📄 arXiv](https://arxiv.org/abs/2604.06377) • [📥 PDF](https://arxiv.org/pdf/2604.06377)
+
+> Sharing our new work on The Master Key Hypothesis: Unlocking Cross-Model Capability Transfer via Linear Subspace Alignment
+
+</details>
+
+<details>
+<summary><b>30. AnomalyVFM -- Transforming Vision Foundation Models into Zero-Shot Anomaly Detectors</b> ⭐ 6</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.20524) • [📄 arXiv](https://arxiv.org/abs/2601.20524) • [📥 PDF](https://arxiv.org/pdf/2601.20524)
+
+**💻 Code:** [⭐ Code](https://github.com/MaticFuc/AnomalyVFM)
+
+> Added to Daily papers
+
+</details>
+
+<details>
+<summary><b>31. On the Global Photometric Alignment for Low-Level Vision</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Xiaojie Guo, Qiming Hu, Hainuo Wang, Tianle Du, Mingjia Li
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08172) • [📄 arXiv](https://arxiv.org/abs/2604.08172) • [📥 PDF](https://arxiv.org/pdf/2604.08172)
+
+> Supervised low-level vision models rely on pixel-wise losses against paired references, yet paired training sets exhibit per-pair photometric inconsistency, say, different image pairs demand different global brightness, color, or white-balance map...
+
+</details>
+
+<details>
+<summary><b>32. ImplicitMemBench: Measuring Unconscious Behavioral Adaptation in Large Language Models</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08064) • [📄 arXiv](https://arxiv.org/abs/2604.08064) • [📥 PDF](https://arxiv.org/pdf/2604.08064)
+
+> Beyond explicit recall: we benchmark whether LLMs can learn from experience and adapt behavior without conscious retrieval.
+
+</details>
+
+<details>
+<summary><b>33. Beyond Stochastic Exploration: What Makes Training Data Valuable for Agentic Search</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Guohua Liu, Guofeng Quan, Wenfeng Feng, Nothing2Say, Chuzhan
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08124) • [📄 arXiv](https://arxiv.org/abs/2604.08124) • [📥 PDF](https://arxiv.org/pdf/2604.08124)
+
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API SIGHT: Reinforcement Learning with Self-Evidence and Information-Gain Diver...
+
+</details>
+
+<details>
+<summary><b>34. Phantom: Physics-Infused Video Generation via Joint Modeling of Visual and Latent Physical Dynamics</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08503) • [📄 arXiv](https://arxiv.org/abs/2604.08503) • [📥 PDF](https://arxiv.org/pdf/2604.08503)
+
+> Phantom is a Physics-Infused Video Generation model that jointly models visual content and latent physical dynamics. Conditioned on observed video frames and inferred physical states, Phantom jointly predicts latent physical dynamics and generates...
+
+</details>
+
+<details>
+<summary><b>35. Appear2Meaning: A Cross-Cultural Benchmark for Structured Cultural Metadata Inference from Images</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.07338) • [📄 arXiv](https://arxiv.org/abs/2604.07338) • [📥 PDF](https://arxiv.org/pdf/2604.07338)
+
+> We introduce Appear2Meaning , a cross-cultural benchmark for structured cultural metadata inference from images. Unlike standard image captioning, this task requires models to predict non-observable attributes such as culture, period, origin, and ...
+
+</details>
+
+<details>
+<summary><b>36. POS-ISP: Pipeline Optimization at the Sequence Level for Task-aware ISP</b> ⭐ 1</summary>
 
 <br/>
 
@@ -576,7 +587,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>36. QEIL v2: Heterogeneous Computing for Edge Intelligence via Roofline-Derived Pareto-Optimal Energy Modeling and Multi-Objective Orchestration</b> ⭐ 0</summary>
+<summary><b>37. QEIL v2: Heterogeneous Computing for Edge Intelligence via Roofline-Derived Pareto-Optimal Energy Modeling and Multi-Objective Orchestration</b> ⭐ 0</summary>
 
 <br/>
 
@@ -589,29 +600,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>37. RewardFlow: Generate Images by Optimizing What You Reward</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08536) • [📄 arXiv](https://arxiv.org/abs/2604.08536) • [📥 PDF](https://arxiv.org/pdf/2604.08536)
-
-> We introduce RewardFlow, an inversion-free framework that steers pretrained diffusion and flow-matching models at inference time through multi-reward Langevin dynamics.
-
-</details>
-
-<details>
-<summary><b>38. Appear2Meaning: A Cross-Cultural Benchmark for Structured Cultural Metadata Inference from Images</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.07338) • [📄 arXiv](https://arxiv.org/abs/2604.07338) • [📥 PDF](https://arxiv.org/pdf/2604.07338)
-
-> We introduce Appear2Meaning , a cross-cultural benchmark for structured cultural metadata inference from images. Unlike standard image captioning, this task requires models to predict non-observable attributes such as culture, period, origin, and ...
-
-</details>
-
-<details>
-<summary><b>39. Training a Student Expert via Semi-Supervised Foundation Model Distillation</b> ⭐ 0</summary>
+<summary><b>38. Training a Student Expert via Semi-Supervised Foundation Model Distillation</b> ⭐ 0</summary>
 
 <br/>
 
@@ -622,7 +611,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>40. Structural Graph Probing of Vision-Language Models</b> ⭐ 1</summary>
+<summary><b>39. Structural Graph Probing of Vision-Language Models</b> ⭐ 1</summary>
 
 <br/>
 
@@ -631,6 +620,17 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/he-h/vlm-graphprobing) • [⭐ Code](https://github.com/he-h/vlm-graph-probing)
 
 > Vision-language models (VLMs) achieve strong multimodal performance, yet how computation is organized across populations of neurons remains poorly understood. In this work, we study VLMs through the lens of neural topology, representing each layer...
+
+</details>
+
+<details>
+<summary><b>40. RewardFlow: Generate Images by Optimizing What You Reward</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08536) • [📄 arXiv](https://arxiv.org/abs/2604.08536) • [📥 PDF](https://arxiv.org/pdf/2604.08536)
+
+> We introduce RewardFlow, an inversion-free framework that steers pretrained diffusion and flow-matching models at inference time through multi-reward Langevin dynamics.
 
 </details>
 
@@ -667,27 +667,27 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 42 |
-| 📅 Today | [`2026-04-11.json`](data/daily/2026-04-11.json) | 42 |
-| 📆 This Week | [`2026-W14.json`](data/weekly/2026-W14.json) | 98 |
-| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 210 |
+| 📅 Today | [`2026-04-12.json`](data/daily/2026-04-12.json) | 42 |
+| 📆 This Week | [`2026-W14.json`](data/weekly/2026-W14.json) | 140 |
+| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 252 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-04-11 | 42 | [View JSON](data/daily/2026-04-11.json) |
+| 📌 2026-04-12 | 42 | [View JSON](data/daily/2026-04-12.json) |
+| 📄 2026-04-11 | 42 | [View JSON](data/daily/2026-04-11.json) |
 | 📄 2026-04-10 | 18 | [View JSON](data/daily/2026-04-10.json) |
 | 📄 2026-04-09 | 8 | [View JSON](data/daily/2026-04-09.json) |
 | 📄 2026-04-08 | 8 | [View JSON](data/daily/2026-04-08.json) |
 | 📄 2026-04-07 | 17 | [View JSON](data/daily/2026-04-07.json) |
 | 📄 2026-04-06 | 5 | [View JSON](data/daily/2026-04-06.json) |
-| 📄 2026-04-05 | 45 | [View JSON](data/daily/2026-04-05.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W14 | 98 | [View JSON](data/weekly/2026-W14.json) |
+| 📅 2026-W14 | 140 | [View JSON](data/weekly/2026-W14.json) |
 | 📅 2026-W13 | 115 | [View JSON](data/weekly/2026-W13.json) |
 | 📅 2026-W12 | 120 | [View JSON](data/weekly/2026-W12.json) |
 | 📅 2026-W11 | 133 | [View JSON](data/weekly/2026-W11.json) |
@@ -696,7 +696,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-04 | 210 | [View JSON](data/monthly/2026-04.json) |
+| 🗓️ 2026-04 | 252 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
