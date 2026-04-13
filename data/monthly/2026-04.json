@@ -5141,5 +5141,194 @@
       "scraped_at": "2026-04-12T02:44:54.583292"
     },
     "scraped_date": "2026-04-12"
+  },
+  {
+    "title": "Matrix-Game 3.0: Real-Time and Streaming Interactive World Model with Long-Horizon Memory",
+    "paper_url": "https://huggingface.co/papers/2604.08995",
+    "authors": [
+      "Baixin Xu",
+      "Kaichen Huang",
+      "Jaixing Li",
+      "Zexiang Liu",
+      "Zile Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Matrix-Game 3.0: Real-Time and Streaming Interactive World Model with Long-Horizon Memory",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.08995",
+      "pdf_url": "https://arxiv.org/pdf/2604.08995",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.08995",
+      "scraped_at": "2026-04-13T02:48:51.340049"
+    },
+    "scraped_date": "2026-04-13"
+  },
+  {
+    "title": "FORGE:Fine-grained Multimodal Evaluation for Manufacturing Scenarios",
+    "paper_url": "https://huggingface.co/papers/2604.07413",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "FORGE:Fine-grained Multimodal Evaluation for Manufacturing Scenarios",
+      "abstract": "🏭 Releasing FORGE — a fine-grained multimodal benchmark for manufacturing scenarios 📊 ~12,000 samples across 14 workpiece categories and 90 model numbers 🔍 Built to test whether MLLMs can handle industrial precision, not just general perception General multimodal models are getting good at broad visual understanding. But manufacturing is a different standard: the FORGE is a manufacturing benchmark for evaluating whether MLLMs can move from coarse perception to fine-grained industrial reasoning. It includes: 🧩 ~12K samples 🏗️ 14 workpiece categories and 90 model numbers 🖼️ Dual modality: 2D images + 3D point clouds  (rendered) ✅ Three core tasks: Workpiece Verification, Structural Surface Inspection, and Assembly Verification The main takeaway is clear: macro perception is increasingly solved, but micro reasoning is still the bottleneck . Across experiments, models are much better at workpiece-level recognition than model-number-level decisions. Visual grounding is near-perfect, but decision accuracy still lags, suggesting the real problem is not simply “seeing” the right part but understanding manufacturing semantics, tolerances, and rules. We also find that: 📌 Surface inspection remains difficult even for strong models 📌 Reference-conditioned prompting does not reliably help in 3D settings 📌 Raw point-cloud-as-text reasoning is still extremely weak 📌 Domain-specific fine-tuning can significantly improve smaller open models FORGE is intended to serve both as a diagnostic benchmark and as a practical resource for industrial multimodal AI. 📄 Paper: https://arxiv.org/abs/2604.07413 🌐 Website: https://ai4manufacturing.github.io/forge-web/ 🤗 Dataset: https://huggingface.co/datasets/AI4Manufacturing/forge 💻 Code: https://github.com/AI4Manufacturing/FORGE",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.07413",
+      "pdf_url": "https://arxiv.org/pdf/2604.07413",
+      "github_links": [
+        "https://github.com/AI4Manufacturing/FORGE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.07413",
+      "scraped_at": "2026-04-13T02:48:53.299924"
+    },
+    "scraped_date": "2026-04-13"
+  },
+  {
+    "title": "RefineAnything: Multimodal Region-Specific Refinement for Perfect Local Details",
+    "paper_url": "https://huggingface.co/papers/2604.06870",
+    "authors": [],
+    "stars": "13",
+    "details": {
+      "title": "RefineAnything: Multimodal Region-Specific Refinement for Perfect Local Details",
+      "abstract": "demo: https://huggingface.co/spaces/limuloo1999/RefineAnything checkpoint: https://huggingface.co/limuloo1999/RefineAnything",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.06870",
+      "pdf_url": "https://arxiv.org/pdf/2604.06870",
+      "github_links": [
+        "https://github.com/limuloo/RefineAnything"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.06870",
+      "scraped_at": "2026-04-13T02:48:55.189610"
+    },
+    "scraped_date": "2026-04-13"
+  },
+  {
+    "title": "WildDet3D: Scaling Promptable 3D Detection in the Wild",
+    "paper_url": "https://huggingface.co/papers/2604.08626",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "WildDet3D: Scaling Promptable 3D Detection in the Wild",
+      "abstract": "Today we're releasing WildDet3D, an open model that can look at a single photo and understand objects in three dimensions—how far away they are, how big they are, and how they're oriented in space. Type a category name, click on an object, or pass in a 2D detection from another model—WildDet3D returns a full 3D bounding box. When a depth sensor is available, it folds that data in automatically for improved accuracy, no architecture changes needed. This means any vision system that already identifies objects in 2D can gain enhanced spatial awareness—a pair of smart glasses or a robotic arm can get back position, size, and orientation in 3D without being retrained. On standard benchmarks, WildDet3D sets a new state of the art while training on a fraction of the compute used by prior methods. And on scenes it was never trained on – autonomous driving environments, indoor spaces, and object categories it has never encountered – it nearly doubles the best prior scores. We're also releasing WildDet3D-Data, the largest open 3D detection dataset available: 📊 1M+ images 📐 3.7M verified 3D annotations 🏷️ 13K+ object categories ✋ 100K+ human-annotated images And there's a smartphone app📱—point your camera at a scene, select a category or draw a 2D box, and get 3D bounding boxes in real time → https://apps.apple.com/us/app/wilddet3d/id6760861157 Spatial intelligence is core to where AI is heading—the same model that helps an AR app place directions over a street can help a robot estimate the size of a package on a shelf. We think the most interesting applications are ones no one has built yet, and we're releasing everything openly for the benefit of the community. 📝 Blog: https://allenai.org/blog/wilddet3d (more demo videos) 🤖 Models: https://huggingface.co/collections/allenai/wilddet3d 📊 Code: https://github.com/allenai/WildDet3D 🗂️ Data: https://huggingface.co/datasets/allenai/WildDet3D-Data 🎮 Demo: https://huggingface.co/spaces/allenai/WildDet3D 📄 Tech report: https://allenai.org/papers/wilddet3d",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.08626",
+      "pdf_url": "https://arxiv.org/pdf/2604.08626",
+      "github_links": [
+        "https://github.com/allenai/WildDet3D"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.08626",
+      "scraped_at": "2026-04-13T02:48:57.163534"
+    },
+    "scraped_date": "2026-04-13"
+  },
+  {
+    "title": "EXAONE 4.5 Technical Report",
+    "paper_url": "https://huggingface.co/papers/2604.08644",
+    "authors": [
+      "Junwon Hwang",
+      "Seokhee Hong",
+      "Sehyun Chun",
+      "Kibong Choi",
+      "Eunbi Choi"
+    ],
+    "stars": "25",
+    "details": {
+      "title": "EXAONE 4.5 Technical Report",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.08644",
+      "pdf_url": "https://arxiv.org/pdf/2604.08644",
+      "github_links": [
+        "https://github.com/LG-AI-EXAONE/EXAONE-4.5"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.08644",
+      "scraped_at": "2026-04-13T02:48:58.977908"
+    },
+    "scraped_date": "2026-04-13"
+  },
+  {
+    "title": "ELT: Elastic Looped Transformers for Visual Generation",
+    "paper_url": "https://huggingface.co/papers/2604.09168",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ELT: Elastic Looped Transformers for Visual Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.09168",
+      "pdf_url": "https://arxiv.org/pdf/2604.09168",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.09168",
+      "scraped_at": "2026-04-13T02:49:00.794071"
+    },
+    "scraped_date": "2026-04-13"
+  },
+  {
+    "title": "VisionFoundry: Teaching VLMs Visual Perception with Synthetic Images",
+    "paper_url": "https://huggingface.co/papers/2604.09531",
+    "authors": [
+      "Xingyu Fu",
+      "Shengbang Tong",
+      "Wenhao Chai",
+      "Yida Yin",
+      "Guanyu Zhou"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "VisionFoundry: Teaching VLMs Visual Perception with Synthetic Images",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.09531",
+      "pdf_url": "https://arxiv.org/pdf/2604.09531",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.09531",
+      "scraped_at": "2026-04-13T02:49:02.657867"
+    },
+    "scraped_date": "2026-04-13"
+  },
+  {
+    "title": "CT-1: Vision-Language-Camera Models Transfer Spatial Reasoning Knowledge to Camera-Controllable Video Generation",
+    "paper_url": "https://huggingface.co/papers/2604.09201",
+    "authors": [
+      "Qingping Zheng",
+      "Haoran Chen",
+      "Jiaxi Gu",
+      "Zihao Zhang",
+      "Haoyu Zhao"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "CT-1: Vision-Language-Camera Models Transfer Spatial Reasoning Knowledge to Camera-Controllable Video Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.09201",
+      "pdf_url": "https://arxiv.org/pdf/2604.09201",
+      "github_links": [
+        "https://github.com/gulucaptain/Camera-Transformer-1"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.09201",
+      "scraped_at": "2026-04-13T02:49:04.513355"
+    },
+    "scraped_date": "2026-04-13"
+  },
+  {
+    "title": "Cross-Modal Emotion Transfer for Emotion Editing in Talking Face Video",
+    "paper_url": "https://huggingface.co/papers/2604.07786",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Cross-Modal Emotion Transfer for Emotion Editing in Talking Face Video",
+      "abstract": "Talking face generation is impressive — but making the face express the desired emotion is still an open problem. Label-based methods are too coarse, audio-based methods tangle emotion with speech content, and image-based methods need hard-to-get reference photos. C-MET solves this by learning cross-modal emotion semantic vectors that bridge speech and visual feature spaces — so the model can transfer emotions from speech to face without needing any reference image, even for extended emotions like sarcasm that does not appear in training data. On MEAD and CREMA-D benchmarks, C-MET improves emotion accuracy by 14% over state-of-the-art methods.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.07786",
+      "pdf_url": "https://arxiv.org/pdf/2604.07786",
+      "github_links": [
+        "https://github.com/ChanHyeok-Choi/C-MET"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.07786",
+      "scraped_at": "2026-04-13T02:49:06.358599"
+    },
+    "scraped_date": "2026-04-13"
   }
 ]
