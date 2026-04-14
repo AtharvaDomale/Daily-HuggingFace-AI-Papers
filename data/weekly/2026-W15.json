@@ -187,5 +187,99 @@
       "scraped_at": "2026-04-13T02:49:06.358599"
     },
     "scraped_date": "2026-04-13"
+  },
+  {
+    "title": "Strips as Tokens: Artist Mesh Generation with Native UV Segmentation",
+    "paper_url": "https://huggingface.co/papers/2604.09132",
+    "authors": [],
+    "stars": "37",
+    "details": {
+      "title": "Strips as Tokens: Artist Mesh Generation with Native UV Segmentation",
+      "abstract": "Today we're releasing Strips as Tokens (SATO) , a new autoregressive framework for artist mesh generation with native UV segmentation . Most existing mesh generators use token orderings that do not match how artists actually build meshes. Coordinate based sequences are often too long, while patch based heuristics can break edge flow, topology regularity, and UV structure. SATO takes a different path. Inspired by triangle strips, it represents a mesh as a connected chain of faces that also encodes UV boundaries directly in the token sequence . This gives the model a much more natural way to capture organized edge flow, semantic structure, and clean UV layouts during generation. A key feature of SATO is that the same token sequence can be decoded into either a triangle mesh or a quad mesh . This provides one unified representation for both mesh types , making it possible to jointly learn from large scale triangle data and high quality quad data in a single framework. Given an input point cloud, SATO autoregressively generates artist style meshes together with native UV segmentation . In other words, the model does not only produce geometry. It also generates UV charts with clean and meaningful island boundaries , making the outputs much more practical for downstream texturing and real content creation workflows. Across extensive experiments, SATO achieves strong results on triangle mesh generation , quad mesh generation , and UV aware mesh generation within one unified framework. We believe high quality mesh generation should move closer to real artist workflows, where geometry and UV layout are designed together rather than treated separately . Geometry matters. Topology matters. UVs matter too. SATO is a step toward generative models that understand all three. 🎥 Video (Youtube): https://youtu.be/Mc9skirm8cg 🎥 Video (Bilibili): https://www.bilibili.com/video/BV13eQ8BAEiA/ 🌐 Project Page: https://ruixu.me/html/SATO/index.html 📄 Paper: https://arxiv.org/abs/2604.09132 💻 Code: https://github.com/Xrvitd/SATO 🤗 Models / Demo: COMING SOON",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.09132",
+      "pdf_url": "https://arxiv.org/pdf/2604.09132",
+      "github_links": [
+        "https://github.com/Xrvitd/SATO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.09132",
+      "scraped_at": "2026-04-14T02:40:51.077197"
+    },
+    "scraped_date": "2026-04-14"
+  },
+  {
+    "title": "Pseudo-Unification: Entropy Probing Reveals Divergent Information Patterns in Unified Multimodal Models",
+    "paper_url": "https://huggingface.co/papers/2604.10949",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Pseudo-Unification: Entropy Probing Reveals Divergent Information Patterns in Unified Multimodal Models",
+      "abstract": "Unified multimodal models (UMMs) were designed to combine the reasoning ability of large language models (LLMs) with the generation capability of vision models. In practice, however, this synergy remains elusive: UMMs fail to transfer LLM-like reasoning to image synthesis and exhibit divergent response behaviors. We term this phenomenon pseudo-unification. Diagnosing its internal causes is important, but existing probing methods either lack model-internal insight or ignore prompt-response dependencies. To address these limitations, we propose an information-theoretic probing framework that jointly analyzes how UMMs encode inputs and generate outputs. Applied to ten representative UMMs, our framework reveals that pseudo-unification stems from a dual divergence: (i) Modality-Asymmetric Encoding, where vision and language follow different entropy trajectories, and (ii) Pattern-Split Response, where text generation exhibits high-entropy creativity while image synthesis enforces low-entropy fidelity. Only models that unify both sides (e.g., via contextual prediction) achieve more genuine unification, enabling stronger reasoning-based text-to-image generation even with fewer parameters. Our work provides the first model-internal probing of unification, demonstrating that real multimodal synergy requires consistency in information flow, not just shared parameters.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.10949",
+      "pdf_url": "https://arxiv.org/pdf/2604.10949",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.10949",
+      "scraped_at": "2026-04-14T02:40:52.810461"
+    },
+    "scraped_date": "2026-04-14"
+  },
+  {
+    "title": "OmniShow: Unifying Multimodal Conditions for Human-Object Interaction Video Generation",
+    "paper_url": "https://huggingface.co/papers/2604.11804",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "OmniShow: Unifying Multimodal Conditions for Human-Object Interaction Video Generation",
+      "abstract": "🔥 Introducing OmniShow , an all-in-one model for Human-Object Interaction Video Generation. Project page: https://correr-zhou.github.io/OmniShow Paper: https://arxiv.org/pdf/2604.11804 GitHub repo: https://github.com/Correr-Zhou/OmniShow HOIVG-Bench: https://huggingface.co/datasets/donghao-zhou/HOIVG-Bench",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.11804",
+      "pdf_url": "https://arxiv.org/pdf/2604.11804",
+      "github_links": [
+        "https://github.com/Correr-Zhou/OmniShow"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.11804",
+      "scraped_at": "2026-04-14T02:40:54.655532"
+    },
+    "scraped_date": "2026-04-14"
+  },
+  {
+    "title": "ADD for Multi-Bit Image Watermarking",
+    "paper_url": "https://huggingface.co/papers/2604.11491",
+    "authors": [
+      "Jie Ding",
+      "An Luo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ADD for Multi-Bit Image Watermarking",
+      "abstract": "Watermarking",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.11491",
+      "pdf_url": "https://arxiv.org/pdf/2604.11491",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.11491",
+      "scraped_at": "2026-04-14T02:40:56.345385"
+    },
+    "scraped_date": "2026-04-14"
+  },
+  {
+    "title": "TAIHRI: Task-Aware 3D Human Keypoints Localization for Close-Range Human-Robot Interaction",
+    "paper_url": "https://huggingface.co/papers/2604.08921",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "TAIHRI: Task-Aware 3D Human Keypoints Localization for Close-Range Human-Robot Interaction",
+      "abstract": "The project page is https://github.com/Tencent/TAIHRI",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.08921",
+      "pdf_url": "https://arxiv.org/pdf/2604.08921",
+      "github_links": [
+        "https://github.com/Tencent/TAIHRI"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.08921",
+      "scraped_at": "2026-04-14T02:40:58.032073"
+    },
+    "scraped_date": "2026-04-14"
   }
 ]
