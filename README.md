@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-5-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3437+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3442+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">5</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">14</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">266</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3437+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">19</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">271</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3442+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** April 14, 2026
+**Last Updated:** April 15, 2026
 
 ---
 
@@ -119,65 +119,71 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Strips as Tokens: Artist Mesh Generation with Native UV Segmentation</b> ⭐ 37</summary>
+<summary><b>1. ClawGUI: A Unified Framework for Training, Evaluating, and Deploying GUI Agents</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.09132) • [📄 arXiv](https://arxiv.org/abs/2604.09132) • [📥 PDF](https://arxiv.org/pdf/2604.09132)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.11784) • [📄 arXiv](https://arxiv.org/abs/2604.11784) • [📥 PDF](https://arxiv.org/pdf/2604.11784)
 
-**💻 Code:** [⭐ Code](https://github.com/Xrvitd/SATO)
+**💻 Code:** [⭐ Code](https://github.com/ZJU-REAL/ClawGUI)
 
-> Today we're releasing Strips as Tokens (SATO) , a new autoregressive framework for artist mesh generation with native UV segmentation . Most existing mesh generators use token orderings that do not match how artists actually build meshes. Coordina...
+> No abstract available.
 
 </details>
 
 <details>
-<summary><b>2. Pseudo-Unification: Entropy Probing Reveals Divergent Information Patterns in Unified Multimodal Models</b> ⭐ 0</summary>
+<summary><b>2. Toward Autonomous Long-Horizon Engineering for ML Research</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.10949) • [📄 arXiv](https://arxiv.org/abs/2604.10949) • [📥 PDF](https://arxiv.org/pdf/2604.10949)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.13018) • [📄 arXiv](https://arxiv.org/abs/2604.13018) • [📥 PDF](https://arxiv.org/pdf/2604.13018)
 
-> Unified multimodal models (UMMs) were designed to combine the reasoning ability of large language models (LLMs) with the generation capability of vision models. In practice, however, this synergy remains elusive: UMMs fail to transfer LLM-like rea...
+**💻 Code:** [⭐ Code](https://github.com/AweAI-Team/AiScientist)
+
+> AiScientist is an autonomous system for long-horizon ML research engineering.  It shows that long-horizon ML research engineering is not just a local reasoning problem, but a systems problem of state continuity.  By combining hierarchical orchestr...
 
 </details>
 
 <details>
-<summary><b>3. OmniShow: Unifying Multimodal Conditions for Human-Object Interaction Video Generation</b> ⭐ 0</summary>
+<summary><b>3. Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.11804) • [📄 arXiv](https://arxiv.org/abs/2604.11804) • [📥 PDF](https://arxiv.org/pdf/2604.11804)
+**👥 Authors:** Chaojun Xiao, Jinqian Zhang, Bingxiang He, Yuxin Zuo, Yaxuan Li
 
-**💻 Code:** [⭐ Code](https://github.com/Correr-Zhou/OmniShow)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.13016) • [📄 arXiv](https://arxiv.org/abs/2604.13016) • [📥 PDF](https://arxiv.org/pdf/2604.13016)
 
-> 🔥 Introducing OmniShow , an all-in-one model for Human-Object Interaction Video Generation. Project page: https://correr-zhou.github.io/OmniShow Paper: https://arxiv.org/pdf/2604.11804 GitHub repo: https://github.com/Correr-Zhou/OmniShow HOIVG-Ben...
+**💻 Code:** [⭐ Code](https://github.com/thunlp/OPD)
+
+> We investigate the dynamics and mechanisms of on-policy distillation (OPD) of LLMs, and propose practical strategies to recover failing OPD.
 
 </details>
 
 <details>
-<summary><b>4. ADD for Multi-Bit Image Watermarking</b> ⭐ 0</summary>
+<summary><b>4. Habitat-GS: A High-Fidelity Navigation Simulator with Dynamic Gaussian Splatting</b> ⭐ 3</summary>
 
 <br/>
 
-**👥 Authors:** Jie Ding, An Luo
+**👥 Authors:** Jiazhao Zhang, Yuanhong Yu, Chong Cui, Jingyi Xu, Ziyuan Xia
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.11491) • [📄 arXiv](https://arxiv.org/abs/2604.11491) • [📥 PDF](https://arxiv.org/pdf/2604.11491)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.12626) • [📄 arXiv](https://arxiv.org/abs/2604.12626) • [📥 PDF](https://arxiv.org/pdf/2604.12626)
 
-> Watermarking
+**💻 Code:** [⭐ Code](https://github.com/zju3dv/habitat-gs)
+
+> photorealistic 3DGS navigation simulator
 
 </details>
 
 <details>
-<summary><b>5. TAIHRI: Task-Aware 3D Human Keypoints Localization for Close-Range Human-Robot Interaction</b> ⭐ 0</summary>
+<summary><b>5. SPPO: Sequence-Level PPO for Long-Horizon Reasoning Tasks</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08921) • [📄 arXiv](https://arxiv.org/abs/2604.08921) • [📥 PDF](https://arxiv.org/pdf/2604.08921)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08865) • [📄 arXiv](https://arxiv.org/abs/2604.08865) • [📥 PDF](https://arxiv.org/pdf/2604.08865)
 
-**💻 Code:** [⭐ Code](https://github.com/Tencent/TAIHRI)
+**💻 Code:** [⭐ Code](https://github.com/sustech-nlp/SPPO)
 
-> The project page is https://github.com/Tencent/TAIHRI
+> We introduce SPPO (Sequence-Level PPO), a scalable RL algorithm for aligning reasoning LLMs that resolves the fundamental tension between PPO's unstable credit assignment and GRPO's costly multi-sampling. Standard token-level PPO struggles in long...
 
 </details>
 
@@ -190,27 +196,27 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 5 |
-| 📅 Today | [`2026-04-14.json`](data/daily/2026-04-14.json) | 5 |
-| 📆 This Week | [`2026-W15.json`](data/weekly/2026-W15.json) | 14 |
-| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 266 |
+| 📅 Today | [`2026-04-15.json`](data/daily/2026-04-15.json) | 5 |
+| 📆 This Week | [`2026-W15.json`](data/weekly/2026-W15.json) | 19 |
+| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 271 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-04-14 | 5 | [View JSON](data/daily/2026-04-14.json) |
+| 📌 2026-04-15 | 5 | [View JSON](data/daily/2026-04-15.json) |
+| 📄 2026-04-14 | 5 | [View JSON](data/daily/2026-04-14.json) |
 | 📄 2026-04-13 | 9 | [View JSON](data/daily/2026-04-13.json) |
 | 📄 2026-04-12 | 42 | [View JSON](data/daily/2026-04-12.json) |
 | 📄 2026-04-11 | 42 | [View JSON](data/daily/2026-04-11.json) |
 | 📄 2026-04-10 | 18 | [View JSON](data/daily/2026-04-10.json) |
 | 📄 2026-04-09 | 8 | [View JSON](data/daily/2026-04-09.json) |
-| 📄 2026-04-08 | 8 | [View JSON](data/daily/2026-04-08.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W15 | 14 | [View JSON](data/weekly/2026-W15.json) |
+| 📅 2026-W15 | 19 | [View JSON](data/weekly/2026-W15.json) |
 | 📅 2026-W14 | 140 | [View JSON](data/weekly/2026-W14.json) |
 | 📅 2026-W13 | 115 | [View JSON](data/weekly/2026-W13.json) |
 | 📅 2026-W12 | 120 | [View JSON](data/weekly/2026-W12.json) |
@@ -219,7 +225,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-04 | 266 | [View JSON](data/monthly/2026-04.json) |
+| 🗓️ 2026-04 | 271 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |

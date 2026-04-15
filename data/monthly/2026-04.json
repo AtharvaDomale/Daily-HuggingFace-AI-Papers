@@ -5424,5 +5424,112 @@
       "scraped_at": "2026-04-14T02:40:58.032073"
     },
     "scraped_date": "2026-04-14"
+  },
+  {
+    "title": "ClawGUI: A Unified Framework for Training, Evaluating, and Deploying GUI Agents",
+    "paper_url": "https://huggingface.co/papers/2604.11784",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ClawGUI: A Unified Framework for Training, Evaluating, and Deploying GUI Agents",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.11784",
+      "pdf_url": "https://arxiv.org/pdf/2604.11784",
+      "github_links": [
+        "https://github.com/ZJU-REAL/ClawGUI"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.11784",
+      "scraped_at": "2026-04-15T02:38:43.643855"
+    },
+    "scraped_date": "2026-04-15"
+  },
+  {
+    "title": "Toward Autonomous Long-Horizon Engineering for ML Research",
+    "paper_url": "https://huggingface.co/papers/2604.13018",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Toward Autonomous Long-Horizon Engineering for ML Research",
+      "abstract": "AiScientist is an autonomous system for long-horizon ML research engineering.  It shows that long-horizon ML research engineering is not just a local reasoning problem, but a systems problem of state continuity.  By combining hierarchical orchestration with a File-as-Bus workspace that preserves durable project state, it can carry work across paper understanding, environment setup, implementation, experimentation, and debugging, improving PaperBench by 10.54 points over the best matched baseline and reaching 81.82 Any Medal% on MLE-Bench Lite.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.13018",
+      "pdf_url": "https://arxiv.org/pdf/2604.13018",
+      "github_links": [
+        "https://github.com/AweAI-Team/AiScientist"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.13018",
+      "scraped_at": "2026-04-15T02:38:45.402842"
+    },
+    "scraped_date": "2026-04-15"
+  },
+  {
+    "title": "Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe",
+    "paper_url": "https://huggingface.co/papers/2604.13016",
+    "authors": [
+      "Chaojun Xiao",
+      "Jinqian Zhang",
+      "Bingxiang He",
+      "Yuxin Zuo",
+      "Yaxuan Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe",
+      "abstract": "We investigate the dynamics and mechanisms of on-policy distillation (OPD) of LLMs, and propose practical strategies to recover failing OPD.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.13016",
+      "pdf_url": "https://arxiv.org/pdf/2604.13016",
+      "github_links": [
+        "https://github.com/thunlp/OPD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.13016",
+      "scraped_at": "2026-04-15T02:38:47.160554"
+    },
+    "scraped_date": "2026-04-15"
+  },
+  {
+    "title": "Habitat-GS: A High-Fidelity Navigation Simulator with Dynamic Gaussian Splatting",
+    "paper_url": "https://huggingface.co/papers/2604.12626",
+    "authors": [
+      "Jiazhao Zhang",
+      "Yuanhong Yu",
+      "Chong Cui",
+      "Jingyi Xu",
+      "Ziyuan Xia"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "Habitat-GS: A High-Fidelity Navigation Simulator with Dynamic Gaussian Splatting",
+      "abstract": "photorealistic 3DGS navigation simulator",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.12626",
+      "pdf_url": "https://arxiv.org/pdf/2604.12626",
+      "github_links": [
+        "https://github.com/zju3dv/habitat-gs"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.12626",
+      "scraped_at": "2026-04-15T02:38:48.929656"
+    },
+    "scraped_date": "2026-04-15"
+  },
+  {
+    "title": "SPPO: Sequence-Level PPO for Long-Horizon Reasoning Tasks",
+    "paper_url": "https://huggingface.co/papers/2604.08865",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SPPO: Sequence-Level PPO for Long-Horizon Reasoning Tasks",
+      "abstract": "We introduce SPPO (Sequence-Level PPO), a scalable RL algorithm for aligning reasoning LLMs that resolves the fundamental tension between PPO's unstable credit assignment and GRPO's costly multi-sampling. Standard token-level PPO struggles in long Chain-of-Thought (CoT) reasoning due to the \"Tail Effect\" — the critic overfits positional cues and fails to propagate sparse rewards across thousands of tokens. While GRPO sidesteps this with group-based baselines, it demands N>1 samples per prompt, severely bottlenecking training throughput. Our key insight: GRPO's success stems from implicitly treating reasoning as a Sequence-Level Contextual Bandit. SPPO makes this explicit — collapsing the entire reasoning chain into a single atomic action and employing a learned scalar value function V(s_p) to estimate prompt solvability, enabling stable single-sample (N=1) updates. Highlights: 🏆 Outperforms standard PPO and matches GRPO (N=8) on AIME24/25, AMC23, MATH500, and Minerva Math at both 1.5B and 7B scales ⚡ 5.9× training speedup over GRPO with single-sample efficiency 🧠 Decoupled Critic: a lightweight 1.5B critic successfully aligns a 7B policy, reducing VRAM by 12.8% while achieving the highest average score (58.56) 🔬 Validated beyond LLMs on classic control tasks (CartPole, Hopper, MountainCar, LunarLander, Pendulum) under the RLVR framework 📄 Paper (ACL 2026 Main): https://arxiv.org/abs/2604.08865 💻 Code: https://github.com/sustech-nlp/SPPO",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.08865",
+      "pdf_url": "https://arxiv.org/pdf/2604.08865",
+      "github_links": [
+        "https://github.com/sustech-nlp/SPPO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.08865",
+      "scraped_at": "2026-04-15T02:38:50.674744"
+    },
+    "scraped_date": "2026-04-15"
   }
 ]
