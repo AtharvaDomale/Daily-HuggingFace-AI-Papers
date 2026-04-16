@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-5-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3442+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-10-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3452+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">5</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">19</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">271</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3442+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">10</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">29</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">281</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3452+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** April 15, 2026
+**Last Updated:** April 16, 2026
 
 ---
 
@@ -119,71 +119,136 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. ClawGUI: A Unified Framework for Training, Evaluating, and Deploying GUI Agents</b> ⭐ 0</summary>
+<summary><b>1. GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents</b> ⭐ 2</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.11784) • [📄 arXiv](https://arxiv.org/abs/2604.11784) • [📥 PDF](https://arxiv.org/pdf/2604.11784)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.07429) • [📄 arXiv](https://arxiv.org/abs/2604.07429) • [📥 PDF](https://arxiv.org/pdf/2604.07429)
 
-**💻 Code:** [⭐ Code](https://github.com/ZJU-REAL/ClawGUI)
+**💻 Code:** [⭐ Code](https://github.com/gameworld-project/gameworld)
+
+> Proposes GameWorld, a standardized, verifiable benchmark for evaluating multimodal game agents across 34 browser games and 170 tasks using semantic actions and keyboard/mouse interfaces.
+
+</details>
+
+<details>
+<summary><b>2. OccuBench: Evaluating AI Agents on Real-World Professional Tasks via Language World Models</b> ⭐ 1</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.10866) • [📄 arXiv](https://arxiv.org/abs/2604.10866) • [📥 PDF](https://arxiv.org/pdf/2604.10866)
+
+**💻 Code:** [⭐ Code](https://github.com/GregxmHu/OccuBench)
+
+> AI agents excel at coding and web tasks, but most real-world professional scenarios lack executable environments. OccuBench uses LLM-based Language World Models to simulate 100 professional task environments (emergency triage, customs processing, ...
+
+</details>
+
+<details>
+<summary><b>3. Seedance 2.0: Advancing Video Generation for World Complexity</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14148) • [📄 arXiv](https://arxiv.org/abs/2604.14148) • [📥 PDF](https://arxiv.org/pdf/2604.14148)
+
+> Seedance 2.0 Model Card, Official Page: https://seed.bytedance.com/seedance2_0
+
+</details>
+
+<details>
+<summary><b>4. TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14116) • [📄 arXiv](https://arxiv.org/abs/2604.14116) • [📥 PDF](https://arxiv.org/pdf/2604.14116)
+
+**💻 Code:** [⭐ Code](https://github.com/trex-project)
+
+> While Large Language Models (LLMs) have empowered AI research agents to perform isolated scientific tasks, automating complex, real-world workflows, such as LLM training, remains a significant challenge. In this paper, we introduce TREX, a multi-a...
+
+</details>
+
+<details>
+<summary><b>5. TIP: Token Importance in On-Policy Distillation</b> ⭐ 7</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14084) • [📄 arXiv](https://arxiv.org/abs/2604.14084) • [📥 PDF](https://arxiv.org/pdf/2604.14084)
+
+**💻 Code:** [⭐ Code](https://github.com/HJSang/OPSD_OnPolicyDistillation)
+
+> Useful learning signal in OPD concentrates in uncertain tokens and overconfident mistakes, and selecting tokens based on entropy + divergence enables more efficient training with far fewer tokens.
+
+</details>
+
+<details>
+<summary><b>6. SpatialEvo: Self-Evolving Spatial Intelligence via Deterministic Geometric Environments</b> ⭐ 3</summary>
+
+<br/>
+
+**👥 Authors:** Hongbo Peng, Kangheng Lin, Xinrui Cheng, Yingxiu Zhao, Dinging Li
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14144) • [📄 arXiv](https://arxiv.org/abs/2604.14144) • [📥 PDF](https://arxiv.org/pdf/2604.14144)
+
+**💻 Code:** [⭐ Code](https://github.com/ZJU-REAL/SpatialEvo)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>2. Toward Autonomous Long-Horizon Engineering for ML Research</b> ⭐ 0</summary>
+<summary><b>7. UI-Copilot: Advancing Long-Horizon GUI Automation via Tool-Integrated Policy Optimization</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.13018) • [📄 arXiv](https://arxiv.org/abs/2604.13018) • [📥 PDF](https://arxiv.org/pdf/2604.13018)
+**👥 Authors:** Xu Tan, Kaitao Song, Guangyi Liu, Fei Tang, Zhengxi Lu
 
-**💻 Code:** [⭐ Code](https://github.com/AweAI-Team/AiScientist)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.13822) • [📄 arXiv](https://arxiv.org/abs/2604.13822) • [📥 PDF](https://arxiv.org/pdf/2604.13822)
 
-> AiScientist is an autonomous system for long-horizon ML research engineering.  It shows that long-horizon ML research engineering is not just a local reasoning problem, but a systems problem of state continuity.  By combining hierarchical orchestr...
+**💻 Code:** [⭐ Code](https://github.com/ZJU-REAL/UI-Copilot)
+
+> We propose UI-Copilot, a collaborative framework where the GUI agent selectively invokes a lightweight copilot for memory retrieval and numerical computation, enabling efficient long-horizon GUI navigation.
 
 </details>
 
 <details>
-<summary><b>3. Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe</b> ⭐ 0</summary>
+<summary><b>8. UI-Zoomer: Uncertainty-Driven Adaptive Zoom-In for GUI Grounding</b> ⭐ 8</summary>
 
 <br/>
 
-**👥 Authors:** Chaojun Xiao, Jinqian Zhang, Bingxiang He, Yuxin Zuo, Yaxuan Li
+**👥 Authors:** Songqin Nong, Tongbo Chen, Zhengxi Lu, Bofan Chen, Fei Tang
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.13016) • [📄 arXiv](https://arxiv.org/abs/2604.13016) • [📥 PDF](https://arxiv.org/pdf/2604.13016)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14113) • [📄 arXiv](https://arxiv.org/abs/2604.14113) • [📥 PDF](https://arxiv.org/pdf/2604.14113)
 
-**💻 Code:** [⭐ Code](https://github.com/thunlp/OPD)
+**💻 Code:** [⭐ Code](https://github.com/ZJU-REAL/UI-Zoomer)
 
-> We investigate the dynamics and mechanisms of on-policy distillation (OPD) of LLMs, and propose practical strategies to recover failing OPD.
+> No abstract available.
 
 </details>
 
 <details>
-<summary><b>4. Habitat-GS: A High-Fidelity Navigation Simulator with Dynamic Gaussian Splatting</b> ⭐ 3</summary>
+<summary><b>9. ROSE: Retrieval-Oriented Segmentation Enhancement</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Jiazhao Zhang, Yuanhong Yu, Chong Cui, Jingyi Xu, Ziyuan Xia
+**👥 Authors:** Yu-Gang Jiang, Henghui Ding, Guangquan Jie, Song Tang
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.12626) • [📄 arXiv](https://arxiv.org/abs/2604.12626) • [📥 PDF](https://arxiv.org/pdf/2604.12626)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14147) • [📄 arXiv](https://arxiv.org/abs/2604.14147) • [📥 PDF](https://arxiv.org/pdf/2604.14147)
 
-**💻 Code:** [⭐ Code](https://github.com/zju3dv/habitat-gs)
-
-> photorealistic 3DGS navigation simulator
+> No abstract available.
 
 </details>
 
 <details>
-<summary><b>5. SPPO: Sequence-Level PPO for Long-Horizon Reasoning Tasks</b> ⭐ 0</summary>
+<summary><b>10. InfiniteScienceGym: An Unbounded, Procedurally-Generated Benchmark for Scientific Analysis</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.08865) • [📄 arXiv](https://arxiv.org/abs/2604.08865) • [📥 PDF](https://arxiv.org/pdf/2604.08865)
+**👥 Authors:** Vivek Srikumar, Oliver Bentham
 
-**💻 Code:** [⭐ Code](https://github.com/sustech-nlp/SPPO)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.13201) • [📄 arXiv](https://arxiv.org/abs/2604.13201) • [📥 PDF](https://arxiv.org/pdf/2604.13201)
 
-> We introduce SPPO (Sequence-Level PPO), a scalable RL algorithm for aligning reasoning LLMs that resolves the fundamental tension between PPO's unstable credit assignment and GRPO's costly multi-sampling. Standard token-level PPO struggles in long...
+> No abstract available.
 
 </details>
 
@@ -195,28 +260,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 5 |
-| 📅 Today | [`2026-04-15.json`](data/daily/2026-04-15.json) | 5 |
-| 📆 This Week | [`2026-W15.json`](data/weekly/2026-W15.json) | 19 |
-| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 271 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 10 |
+| 📅 Today | [`2026-04-16.json`](data/daily/2026-04-16.json) | 10 |
+| 📆 This Week | [`2026-W15.json`](data/weekly/2026-W15.json) | 29 |
+| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 281 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-04-15 | 5 | [View JSON](data/daily/2026-04-15.json) |
+| 📌 2026-04-16 | 10 | [View JSON](data/daily/2026-04-16.json) |
+| 📄 2026-04-15 | 5 | [View JSON](data/daily/2026-04-15.json) |
 | 📄 2026-04-14 | 5 | [View JSON](data/daily/2026-04-14.json) |
 | 📄 2026-04-13 | 9 | [View JSON](data/daily/2026-04-13.json) |
 | 📄 2026-04-12 | 42 | [View JSON](data/daily/2026-04-12.json) |
 | 📄 2026-04-11 | 42 | [View JSON](data/daily/2026-04-11.json) |
 | 📄 2026-04-10 | 18 | [View JSON](data/daily/2026-04-10.json) |
-| 📄 2026-04-09 | 8 | [View JSON](data/daily/2026-04-09.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W15 | 19 | [View JSON](data/weekly/2026-W15.json) |
+| 📅 2026-W15 | 29 | [View JSON](data/weekly/2026-W15.json) |
 | 📅 2026-W14 | 140 | [View JSON](data/weekly/2026-W14.json) |
 | 📅 2026-W13 | 115 | [View JSON](data/weekly/2026-W13.json) |
 | 📅 2026-W12 | 120 | [View JSON](data/weekly/2026-W12.json) |
@@ -225,7 +290,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-04 | 271 | [View JSON](data/monthly/2026-04.json) |
+| 🗓️ 2026-04 | 281 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |

@@ -5531,5 +5531,215 @@
       "scraped_at": "2026-04-15T02:38:50.674744"
     },
     "scraped_date": "2026-04-15"
+  },
+  {
+    "title": "GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents",
+    "paper_url": "https://huggingface.co/papers/2604.07429",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents",
+      "abstract": "Proposes GameWorld, a standardized, verifiable benchmark for evaluating multimodal game agents across 34 browser games and 170 tasks using semantic actions and keyboard/mouse interfaces.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.07429",
+      "pdf_url": "https://arxiv.org/pdf/2604.07429",
+      "github_links": [
+        "https://github.com/gameworld-project/gameworld"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.07429",
+      "scraped_at": "2026-04-16T02:46:51.129497"
+    },
+    "scraped_date": "2026-04-16"
+  },
+  {
+    "title": "OccuBench: Evaluating AI Agents on Real-World Professional Tasks via Language World Models",
+    "paper_url": "https://huggingface.co/papers/2604.10866",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "OccuBench: Evaluating AI Agents on Real-World Professional Tasks via Language World Models",
+      "abstract": "AI agents excel at coding and web tasks, but most real-world professional scenarios lack executable environments. OccuBench uses LLM-based Language World Models to simulate 100 professional task environments (emergency triage, customs processing, etc.) and evaluates 15 frontier models on both task completion and robustness under environmental faults. Key findings: (1) no single model dominates all industries; (2) implicit faults are harder than explicit ones; (3) scaling and stronger reasoning still help; (4) strong agents aren't necessarily strong simulators.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.10866",
+      "pdf_url": "https://arxiv.org/pdf/2604.10866",
+      "github_links": [
+        "https://github.com/GregxmHu/OccuBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.10866",
+      "scraped_at": "2026-04-16T02:46:52.903382"
+    },
+    "scraped_date": "2026-04-16"
+  },
+  {
+    "title": "Seedance 2.0: Advancing Video Generation for World Complexity",
+    "paper_url": "https://huggingface.co/papers/2604.14148",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Seedance 2.0: Advancing Video Generation for World Complexity",
+      "abstract": "Seedance 2.0 Model Card, Official Page: https://seed.bytedance.com/seedance2_0",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.14148",
+      "pdf_url": "https://arxiv.org/pdf/2604.14148",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.14148",
+      "scraped_at": "2026-04-16T02:46:54.723263"
+    },
+    "scraped_date": "2026-04-16"
+  },
+  {
+    "title": "TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration",
+    "paper_url": "https://huggingface.co/papers/2604.14116",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration",
+      "abstract": "While Large Language Models (LLMs) have empowered AI research agents to perform isolated scientific tasks, automating complex, real-world workflows, such as LLM training, remains a significant challenge. In this paper, we introduce TREX, a multi-agent system that automates the entire LLM training life-cycle. By orchestrating collaboration between two core modules-the Researcher and the Executor-the system seamlessly performs requirement analysis, open-domain literature and data research, formulation of training strategies, preparation of data recipes, and model training and evaluation. The multi-round experimental process is modeled as a search tree, enabling the system to efficiently plan exploration paths, reuse historical results, and distill high-level insights from iterative trials. To evaluate the capability of automated LLM training, we construct FT-Bench, a benchmark comprising 10 tasks derived from real-world scenarios, ranging from optimizing fundamental model capabilities to enhancing performance on domain-specific tasks. Experimental results demonstrate that the TREX agent consistently optimizes model performance on target tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.14116",
+      "pdf_url": "https://arxiv.org/pdf/2604.14116",
+      "github_links": [
+        "https://github.com/trex-project"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.14116",
+      "scraped_at": "2026-04-16T02:46:56.460757"
+    },
+    "scraped_date": "2026-04-16"
+  },
+  {
+    "title": "TIP: Token Importance in On-Policy Distillation",
+    "paper_url": "https://huggingface.co/papers/2604.14084",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "TIP: Token Importance in On-Policy Distillation",
+      "abstract": "Useful learning signal in OPD concentrates in uncertain tokens and overconfident mistakes, and selecting tokens based on entropy + divergence enables more efficient training with far fewer tokens.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.14084",
+      "pdf_url": "https://arxiv.org/pdf/2604.14084",
+      "github_links": [
+        "https://github.com/HJSang/OPSD_OnPolicyDistillation"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.14084",
+      "scraped_at": "2026-04-16T02:46:58.339563"
+    },
+    "scraped_date": "2026-04-16"
+  },
+  {
+    "title": "SpatialEvo: Self-Evolving Spatial Intelligence via Deterministic Geometric Environments",
+    "paper_url": "https://huggingface.co/papers/2604.14144",
+    "authors": [
+      "Hongbo Peng",
+      "Kangheng Lin",
+      "Xinrui Cheng",
+      "Yingxiu Zhao",
+      "Dinging Li"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "SpatialEvo: Self-Evolving Spatial Intelligence via Deterministic Geometric Environments",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.14144",
+      "pdf_url": "https://arxiv.org/pdf/2604.14144",
+      "github_links": [
+        "https://github.com/ZJU-REAL/SpatialEvo"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.14144",
+      "scraped_at": "2026-04-16T02:47:00.059459"
+    },
+    "scraped_date": "2026-04-16"
+  },
+  {
+    "title": "UI-Copilot: Advancing Long-Horizon GUI Automation via Tool-Integrated Policy Optimization",
+    "paper_url": "https://huggingface.co/papers/2604.13822",
+    "authors": [
+      "Xu Tan",
+      "Kaitao Song",
+      "Guangyi Liu",
+      "Fei Tang",
+      "Zhengxi Lu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "UI-Copilot: Advancing Long-Horizon GUI Automation via Tool-Integrated Policy Optimization",
+      "abstract": "We propose UI-Copilot, a collaborative framework where the GUI agent selectively invokes a lightweight copilot for memory retrieval and numerical computation, enabling efficient long-horizon GUI navigation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.13822",
+      "pdf_url": "https://arxiv.org/pdf/2604.13822",
+      "github_links": [
+        "https://github.com/ZJU-REAL/UI-Copilot"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.13822",
+      "scraped_at": "2026-04-16T02:47:01.762196"
+    },
+    "scraped_date": "2026-04-16"
+  },
+  {
+    "title": "UI-Zoomer: Uncertainty-Driven Adaptive Zoom-In for GUI Grounding",
+    "paper_url": "https://huggingface.co/papers/2604.14113",
+    "authors": [
+      "Songqin Nong",
+      "Tongbo Chen",
+      "Zhengxi Lu",
+      "Bofan Chen",
+      "Fei Tang"
+    ],
+    "stars": "8",
+    "details": {
+      "title": "UI-Zoomer: Uncertainty-Driven Adaptive Zoom-In for GUI Grounding",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.14113",
+      "pdf_url": "https://arxiv.org/pdf/2604.14113",
+      "github_links": [
+        "https://github.com/ZJU-REAL/UI-Zoomer"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.14113",
+      "scraped_at": "2026-04-16T02:47:03.527975"
+    },
+    "scraped_date": "2026-04-16"
+  },
+  {
+    "title": "ROSE: Retrieval-Oriented Segmentation Enhancement",
+    "paper_url": "https://huggingface.co/papers/2604.14147",
+    "authors": [
+      "Yu-Gang Jiang",
+      "Henghui Ding",
+      "Guangquan Jie",
+      "Song Tang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ROSE: Retrieval-Oriented Segmentation Enhancement",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.14147",
+      "pdf_url": "https://arxiv.org/pdf/2604.14147",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.14147",
+      "scraped_at": "2026-04-16T02:47:05.216660"
+    },
+    "scraped_date": "2026-04-16"
+  },
+  {
+    "title": "InfiniteScienceGym: An Unbounded, Procedurally-Generated Benchmark for Scientific Analysis",
+    "paper_url": "https://huggingface.co/papers/2604.13201",
+    "authors": [
+      "Vivek Srikumar",
+      "Oliver Bentham"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "InfiniteScienceGym: An Unbounded, Procedurally-Generated Benchmark for Scientific Analysis",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.13201",
+      "pdf_url": "https://arxiv.org/pdf/2604.13201",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.13201",
+      "scraped_at": "2026-04-16T02:47:06.902503"
+    },
+    "scraped_date": "2026-04-16"
   }
 ]
