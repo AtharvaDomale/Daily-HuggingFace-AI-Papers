@@ -5741,5 +5741,269 @@
       "scraped_at": "2026-04-16T02:47:06.902503"
     },
     "scraped_date": "2026-04-16"
+  },
+  {
+    "title": "ASGuard: Activation-Scaling Guard to Mitigate Targeted Jailbreaking Attack",
+    "paper_url": "https://huggingface.co/papers/2509.25843",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ASGuard: Activation-Scaling Guard to Mitigate Targeted Jailbreaking Attack",
+      "abstract": "Asguard is a novel mechanistic safety framework that mitigates targeted jailbreak vulnerabilities in LLMs by directly intervening in internal activation dynamics rather than relying solely on data-level alignment. (1) Background: Large language models exhibit brittle refusal behavior, where simple linguistic transformations (e.g., tense changes) can bypass safety alignment, revealing a generalization gap in existing alignment methods. (2) Motivation: Prior safety approaches lack mechanistic understanding of why jailbreaks succeed, making them ineffective against targeted attacks such as tense-based jailbreaks; this calls for interpretable, circuit-level interventions that preserve utility while improving robustness. (3) Method: ASGuard identifies attention heads causally responsible for jailbreak behavior via circuit analysis, learns channel-wise activation scaling to recalibrate these vulnerable components, and integrates this into preventative fine-tuning to enforce robust refusal while maintaining overall model performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2509.25843",
+      "pdf_url": "https://arxiv.org/pdf/2509.25843",
+      "github_links": [
+        "https://github.com/dmis-lab/ASGuard"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2509.25843",
+      "scraped_at": "2026-04-17T02:41:30.001455"
+    },
+    "scraped_date": "2026-04-17"
+  },
+  {
+    "title": "RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework",
+    "paper_url": "https://huggingface.co/papers/2604.15308",
+    "authors": [
+      "Wenyu Liu",
+      "Yuehao Song",
+      "Yifan Zhu",
+      "Shaoyu Chen",
+      "Hao Gao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework",
+      "abstract": "RAD-2 synergizes a Diffusion-based generator 𝒢 and a Transformer-based discriminator 𝒟 within a multi-stage optimization loop: (a) Pre-training Stage: 𝒢 is initialized via imitation learning to capture multi-modal trajectory priors from expert demonstrations. (b) Closed-loop Rollout: The joint policy, integrating 𝒢 for generation and 𝒟 for selection, interacts with the high-throughput BEV-Warp environment to generate diverse rollout data. (c) Discriminator Optimization: 𝒟 is optimized via Temporally Consistent Group Relative Policy Optimization, leveraging closed-loop feedback to enhance its scoring precision. (d) Generator Optimization: Through On-policy Generator Optimization, 𝒢 is optimized via structured longitudinal optimizations derived from low-reward rollouts, effectively shifting its distribution toward safer and more efficient driving behaviors.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.15308",
+      "pdf_url": "https://arxiv.org/pdf/2604.15308",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.15308",
+      "scraped_at": "2026-04-17T02:41:31.829216"
+    },
+    "scraped_date": "2026-04-17"
+  },
+  {
+    "title": "HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds",
+    "paper_url": "https://huggingface.co/papers/2604.14268",
+    "authors": [
+      "Yisu Zhang",
+      "Zhenwei Wang",
+      "Xuhui Zuo",
+      "Chenjie Cao",
+      "Team HY-World"
+    ],
+    "stars": "791",
+    "details": {
+      "title": "HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds",
+      "abstract": "Here is the English PV of HY-World 2.0.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.14268",
+      "pdf_url": "https://arxiv.org/pdf/2604.14268",
+      "github_links": [
+        "https://github.com/Tencent-Hunyuan/HY-World-2.0"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.14268",
+      "scraped_at": "2026-04-17T02:41:33.719314"
+    },
+    "scraped_date": "2026-04-17"
+  },
+  {
+    "title": "LongAct: Harnessing Intrinsic Activation Patterns for Long-Context Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2604.14922",
+    "authors": [
+      "Chenxuan Li",
+      "Qize Yu",
+      "Tingfeng Hui",
+      "Zijun Chen",
+      "Bowen Ping"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "LongAct: Harnessing Intrinsic Activation Patterns for Long-Context Reinforcement Learning",
+      "abstract": "ACL 2026",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.14922",
+      "pdf_url": "https://arxiv.org/pdf/2604.14922",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.14922",
+      "scraped_at": "2026-04-17T02:41:35.476272"
+    },
+    "scraped_date": "2026-04-17"
+  },
+  {
+    "title": "UniDoc-RL: Coarse-to-Fine Visual RAG with Hierarchical Actions and Dense Rewards",
+    "paper_url": "https://huggingface.co/papers/2604.14967",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "UniDoc-RL: Coarse-to-Fine Visual RAG with Hierarchical Actions and Dense Rewards",
+      "abstract": "Retrieval-Augmented Generation (RAG) extends Large Vision-Language Models (LVLMs) with external visual knowledge. However, existing visual RAG systems typically rely on generic retrieval signals that overlook the fine-grained visual semantics essential for complex reasoning. To address this limitation, we propose UniDoc-RL, a unified reinforcement learning framework in which an LVLM agent jointly performs retrieval, reranking, active visual perception, and reasoning. UniDoc-RL formulates visual information acquisition as a sequential decision-making problem with a hierarchical action space. Specifically, it progressively refines visual evidence from coarse-grained document retrieval to fine-grained image selection and active region cropping, allowing the model to suppress irrelevant content and attend to information-dense regions. For effective end-to-end training, we introduce a dense multi-reward scheme that provides task-aware supervision for each action. Based on Group Relative Policy Optimization (GRPO), UniDoc-RL aligns agent behavior with multiple objectives without relying on a separate value network. To support this training paradigm, we curate a comprehensive dataset of high-quality reasoning trajectories with fine-grained action annotations. Experiments on three benchmarks demonstrate that UniDoc-RL consistently surpasses state-of-the-art baselines, yielding up to 17.7% gains over prior RL-based methods.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.14967",
+      "pdf_url": "https://arxiv.org/pdf/2604.14967",
+      "github_links": [
+        "https://github.com/deepglint/UniDoc-RL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.14967",
+      "scraped_at": "2026-04-17T02:41:37.244475"
+    },
+    "scraped_date": "2026-04-17"
+  },
+  {
+    "title": "Cross-Tokenizer LLM Distillation through a Byte-Level Interface",
+    "paper_url": "https://huggingface.co/papers/2604.07466",
+    "authors": [
+      "Davide Buffelli",
+      "Alberto Bernacchia",
+      "Alexandru Cioba",
+      "Yen-Chen Wu",
+      "Avyav Kumar Singh"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Cross-Tokenizer LLM Distillation through a Byte-Level Interface",
+      "abstract": "Cross-tokenizer distillation (CTD), the transfer of knowledge from a teacher to a student language model when the two use different tokenizers, remains a largely unsolved problem. Existing approaches rely on heuristic strategies to align mismatched vocabularies, introducing considerable complexity. In this paper, we propose a simple but effective baseline called Byte-Level Distillation (BLD) which enables CTD by operating at a common interface across tokenizers: the byte level. In more detail, we convert the teacher's output distribution to byte-level probabilities, attach a lightweight byte-level decoder head to the student, and distill through this shared byte-level interface. Despite its simplicity, BLD performs competitively with--and on several benchmarks surpasses--significantly more sophisticated CTD methods, across a range of distillation tasks with models from 1B to 8B parameters. Our results suggest that the byte level is a natural common ground for cross-tokenizer knowledge transfer, while also highlighting that consistent improvements across all tasks and benchmarks remain elusive, underscoring that CTD is still an open problem.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.07466",
+      "pdf_url": "https://arxiv.org/pdf/2604.07466",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.07466",
+      "scraped_at": "2026-04-17T02:41:39.007030"
+    },
+    "scraped_date": "2026-04-17"
+  },
+  {
+    "title": "LeapAlign: Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories",
+    "paper_url": "https://huggingface.co/papers/2604.15311",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LeapAlign: Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.15311",
+      "pdf_url": "https://arxiv.org/pdf/2604.15311",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.15311",
+      "scraped_at": "2026-04-17T02:41:40.730390"
+    },
+    "scraped_date": "2026-04-17"
+  },
+  {
+    "title": "DR^{3}-Eval: Towards Realistic and Reproducible Deep Research Evaluation",
+    "paper_url": "https://huggingface.co/papers/2604.14683",
+    "authors": [
+      "Xueming Han",
+      "Tiantian Xia",
+      "He Zhu",
+      "Qingheng Xiong",
+      "Qianqian Xie"
+    ],
+    "stars": "7",
+    "details": {
+      "title": "DR^{3}-Eval: Towards Realistic and Reproducible Deep Research Evaluation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.14683",
+      "pdf_url": "https://arxiv.org/pdf/2604.14683",
+      "github_links": [
+        "https://github.com/NJU-LINK/DR3-Eval"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.14683",
+      "scraped_at": "2026-04-17T02:41:42.534935"
+    },
+    "scraped_date": "2026-04-17"
+  },
+  {
+    "title": "MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation",
+    "paper_url": "https://huggingface.co/papers/2604.15309",
+    "authors": [
+      "Ning Liao",
+      "Yuqing Yang",
+      "Yifan Yang",
+      "Zezi Zeng",
+      "Yan Li"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.15309",
+      "pdf_url": "https://arxiv.org/pdf/2604.15309",
+      "github_links": [
+        "https://github.com/microsoft/MM-webagent"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.15309",
+      "scraped_at": "2026-04-17T02:41:44.272314"
+    },
+    "scraped_date": "2026-04-17"
+  },
+  {
+    "title": "C2: Scalable Rubric-Augmented Reward Modeling from Binary Preferences",
+    "paper_url": "https://huggingface.co/papers/2604.13618",
+    "authors": [
+      "Saku Sugawara",
+      "Akira-k"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "C2: Scalable Rubric-Augmented Reward Modeling from Binary Preferences",
+      "abstract": "Rubrics are a powerful harness for aligning reward models with human judgment, but they come with two problems. Human-annotated rubrics are costly. Auto-generated rubrics are often vague or misleading, and can hurt the RM more than help. We introduce C2, a reward modeling framework that builds robust rubric-based verification from binary preferences alone. The generator learns which rubrics help the verifier reach the correct judgment, and the verifier learns which rubrics to trust.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.13618",
+      "pdf_url": "https://arxiv.org/pdf/2604.13618",
+      "github_links": [
+        "https://github.com/asahi-research/C2"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.13618",
+      "scraped_at": "2026-04-17T02:41:46.132897"
+    },
+    "scraped_date": "2026-04-17"
+  },
+  {
+    "title": "Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems",
+    "paper_url": "https://huggingface.co/papers/2604.14228",
+    "authors": [
+      "Zhiqiang Shen",
+      "Xinyi Shang",
+      "Xiaohan Zhao",
+      "Jiacheng Liu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.14228",
+      "pdf_url": "https://arxiv.org/pdf/2604.14228",
+      "github_links": [
+        "https://github.com/VILA-Lab/Dive-into-Claude-Code"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.14228",
+      "scraped_at": "2026-04-17T02:41:47.884685"
+    },
+    "scraped_date": "2026-04-17"
+  },
+  {
+    "title": "KV Packet: Recomputation-Free Context-Independent KV Caching for LLMs",
+    "paper_url": "https://huggingface.co/papers/2604.13226",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "KV Packet: Recomputation-Free Context-Independent KV Caching for LLMs",
+      "abstract": "KV Packet is a framework for reusing precomputed KV caches across documents without recomputation. Code available at https://github.com/ChuangtaoChen-TUM/KVPacket .",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.13226",
+      "pdf_url": "https://arxiv.org/pdf/2604.13226",
+      "github_links": [
+        "https://github.com/ChuangtaoChen-TUM/KVPacket"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.13226",
+      "scraped_at": "2026-04-17T02:41:49.816542"
+    },
+    "scraped_date": "2026-04-17"
   }
 ]
