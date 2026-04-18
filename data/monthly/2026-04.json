@@ -6005,5 +6005,610 @@
       "scraped_at": "2026-04-17T02:41:49.816542"
     },
     "scraped_date": "2026-04-17"
+  },
+  {
+    "title": "HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds",
+    "paper_url": "https://huggingface.co/papers/2604.14268",
+    "authors": [
+      "Yisu Zhang",
+      "Zhenwei Wang",
+      "Xuhui Zuo",
+      "Chenjie Cao",
+      "Team HY-World"
+    ],
+    "stars": "1.02k",
+    "details": {
+      "title": "HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds",
+      "abstract": "Here is the English PV of HY-World 2.0.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.14268",
+      "pdf_url": "https://arxiv.org/pdf/2604.14268",
+      "github_links": [
+        "https://github.com/Tencent-Hunyuan/HY-World-2.0"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.14268",
+      "scraped_at": "2026-04-18T02:32:41.509679"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework",
+    "paper_url": "https://huggingface.co/papers/2604.15308",
+    "authors": [],
+    "stars": "205",
+    "details": {
+      "title": "RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework",
+      "abstract": "RAD-2 synergizes a Diffusion-based generator 𝒢 and a Transformer-based discriminator 𝒟 within a multi-stage optimization loop: (a) Pre-training Stage: 𝒢 is initialized via imitation learning to capture multi-modal trajectory priors from expert demonstrations. (b) Closed-loop Rollout: The joint policy, integrating 𝒢 for generation and 𝒟 for selection, interacts with the high-throughput BEV-Warp environment to generate diverse rollout data. (c) Discriminator Optimization: 𝒟 is optimized via Temporally Consistent Group Relative Policy Optimization, leveraging closed-loop feedback to enhance its scoring precision. (d) Generator Optimization: Through On-policy Generator Optimization, 𝒢 is optimized via structured longitudinal optimizations derived from low-reward rollouts, effectively shifting its distribution toward safer and more efficient driving behaviors.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.15308",
+      "pdf_url": "https://arxiv.org/pdf/2604.15308",
+      "github_links": [
+        "https://github.com/hustvl/RAD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.15308",
+      "scraped_at": "2026-04-18T02:32:43.360407"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "DR^{3}-Eval: Towards Realistic and Reproducible Deep Research Evaluation",
+    "paper_url": "https://huggingface.co/papers/2604.14683",
+    "authors": [
+      "Tiantian Xia",
+      "He Zhu",
+      "Qingheng Xiong",
+      "Qianqian Xie",
+      "Nucleon-17th"
+    ],
+    "stars": "18",
+    "details": {
+      "title": "DR^{3}-Eval: Towards Realistic and Reproducible Deep Research Evaluation",
+      "abstract": "Interesting breakdown of this paper on arXivLens: https://arxivlens.com/PaperView/Details/dr-3-eval-towards-realistic-and-reproducible-deep-research-evaluation-74-0eb2f238 Covers the executive summary, detailed methodology, and practical applications.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.14683",
+      "pdf_url": "https://arxiv.org/pdf/2604.14683",
+      "github_links": [
+        "https://github.com/NJU-LINK/DR3-Eval"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.14683",
+      "scraped_at": "2026-04-18T02:32:45.345267"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "How to Fine-Tune a Reasoning Model? A Teacher-Student Cooperation Framework to Synthesize Student-Consistent SFT Data",
+    "paper_url": "https://huggingface.co/papers/2604.14164",
+    "authors": [
+      "Qiming Ge",
+      "Feiyang Hao",
+      "Xu Huang",
+      "Kaichen Yang",
+      "njuhzx"
+    ],
+    "stars": "8",
+    "details": {
+      "title": "How to Fine-Tune a Reasoning Model? A Teacher-Student Cooperation Framework to Synthesize Student-Consistent SFT Data",
+      "abstract": "🚀 Motivation Training reasoning models (e.g., Qwen3) is highly sensitive to the data distribution. We observe that: ❗ Using off-policy data (e.g., directly from a strong teacher model) for SFT can lead to severe catastrophic forgetting , especially for complex reasoning tasks. 💡 Key Idea To address this critical issue, we propose TESSY , a novel Teacher–Student Cooperative Data Synthesis framework designed to generate on-policy training data. Instead of relying on a teacher model to fully generate training samples, TESSY decouples the generation process into two distinct parts : 🧠 Teacher model → specializes in generating capability tokens . ✍️ Student model → focuses on generating style tokens (e.g., Hmm, Wait...). This cooperative approach ensures: Alignment with student distribution (on-policy) : The synthesized data is tailored to the student model's own generation patterns. Preservation of teacher reasoning quality : The teacher's advanced reasoning capabilities are effectively leveraged and maintained.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.14164",
+      "pdf_url": "https://arxiv.org/pdf/2604.14164",
+      "github_links": [
+        "https://github.com/CoopReason/TESSY"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.14164",
+      "scraped_at": "2026-04-18T02:32:47.268064"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "ASGuard: Activation-Scaling Guard to Mitigate Targeted Jailbreaking Attack",
+    "paper_url": "https://huggingface.co/papers/2509.25843",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "ASGuard: Activation-Scaling Guard to Mitigate Targeted Jailbreaking Attack",
+      "abstract": "Asguard is a novel mechanistic safety framework that mitigates targeted jailbreak vulnerabilities in LLMs by directly intervening in internal activation dynamics rather than relying solely on data-level alignment. (1) Background: Large language models exhibit brittle refusal behavior, where simple linguistic transformations (e.g., tense changes) can bypass safety alignment, revealing a generalization gap in existing alignment methods. (2) Motivation: Prior safety approaches lack mechanistic understanding of why jailbreaks succeed, making them ineffective against targeted attacks such as tense-based jailbreaks; this calls for interpretable, circuit-level interventions that preserve utility while improving robustness. (3) Method: ASGuard identifies attention heads causally responsible for jailbreak behavior via circuit analysis, learns channel-wise activation scaling to recalibrate these vulnerable components, and integrates this into preventative fine-tuning to enforce robust refusal while maintaining overall model performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2509.25843",
+      "pdf_url": "https://arxiv.org/pdf/2509.25843",
+      "github_links": [
+        "https://github.com/dmis-lab/ASGuard"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2509.25843",
+      "scraped_at": "2026-04-18T02:32:49.257189"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "HiVLA: A Visual-Grounded-Centric Hierarchical Embodied Manipulation System",
+    "paper_url": "https://huggingface.co/papers/2604.14125",
+    "authors": [
+      "Yitian Liu",
+      "Zhixuan Liang",
+      "Yutian Chen",
+      "Guanyu Chen",
+      "Tianshuo Yang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "HiVLA: A Visual-Grounded-Centric Hierarchical Embodied Manipulation System",
+      "abstract": "✨ HiVLA is a hierarchical embodied manipulation agent system that combines visual grounding, semantic planning, and robust action execution for long-horizon and fine-grained robotic manipulation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.14125",
+      "pdf_url": "https://arxiv.org/pdf/2604.14125",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.14125",
+      "scraped_at": "2026-04-18T02:32:51.181426"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "GlobalSplat: Efficient Feed-Forward 3D Gaussian Splatting via Global Scene Tokens",
+    "paper_url": "https://huggingface.co/papers/2604.15284",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GlobalSplat: Efficient Feed-Forward 3D Gaussian Splatting via Global Scene Tokens",
+      "abstract": "GlobalSplat is a feed-forward 3D Gaussian Splatting method that learns a compact set of global scene tokens instead of allocating primitives per pixel. By aligning first and decoding later, it produces globally consistent reconstructions with as few as 2K-32K Gaussians, a tiny disk footprint, and fast single-pass inference, while matching or surpassing the quality of dense baselines.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.15284",
+      "pdf_url": "https://arxiv.org/pdf/2604.15284",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.15284",
+      "scraped_at": "2026-04-18T02:32:53.096960"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "Switch-KD: Visual-Switch Knowledge Distillation for Vision-Language Models",
+    "paper_url": "https://huggingface.co/papers/2604.14629",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "Switch-KD: Visual-Switch Knowledge Distillation for Vision-Language Models",
+      "abstract": "✨ Switch-KD is the open-source academic release of Li Auto's MindKD technology, published as Switch-KD at CVPR Findings 2026, enabling efficient vision-language model distillation through visual-switch supervision and unified multimodal knowledge transfer.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.14629",
+      "pdf_url": "https://arxiv.org/pdf/2604.14629",
+      "github_links": [
+        "https://github.com/haoyi199815/Switch-KD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.14629",
+      "scraped_at": "2026-04-18T02:32:55.032444"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "UniDoc-RL: Coarse-to-Fine Visual RAG with Hierarchical Actions and Dense Rewards",
+    "paper_url": "https://huggingface.co/papers/2604.14967",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "UniDoc-RL: Coarse-to-Fine Visual RAG with Hierarchical Actions and Dense Rewards",
+      "abstract": "Retrieval-Augmented Generation (RAG) extends Large Vision-Language Models (LVLMs) with external visual knowledge. However, existing visual RAG systems typically rely on generic retrieval signals that overlook the fine-grained visual semantics essential for complex reasoning. To address this limitation, we propose UniDoc-RL, a unified reinforcement learning framework in which an LVLM agent jointly performs retrieval, reranking, active visual perception, and reasoning. UniDoc-RL formulates visual information acquisition as a sequential decision-making problem with a hierarchical action space. Specifically, it progressively refines visual evidence from coarse-grained document retrieval to fine-grained image selection and active region cropping, allowing the model to suppress irrelevant content and attend to information-dense regions. For effective end-to-end training, we introduce a dense multi-reward scheme that provides task-aware supervision for each action. Based on Group Relative Policy Optimization (GRPO), UniDoc-RL aligns agent behavior with multiple objectives without relying on a separate value network. To support this training paradigm, we curate a comprehensive dataset of high-quality reasoning trajectories with fine-grained action annotations. Experiments on three benchmarks demonstrate that UniDoc-RL consistently surpasses state-of-the-art baselines, yielding up to 17.7% gains over prior RL-based methods.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.14967",
+      "pdf_url": "https://arxiv.org/pdf/2604.14967",
+      "github_links": [
+        "https://github.com/deepglint/UniDoc-RL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.14967",
+      "scraped_at": "2026-04-18T02:32:56.793642"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "TRACER: Trace-Based Adaptive Cost-Efficient Routing for LLM Classification",
+    "paper_url": "https://huggingface.co/papers/2604.14531",
+    "authors": [],
+    "stars": "120",
+    "details": {
+      "title": "TRACER: Trace-Based Adaptive Cost-Efficient Routing for LLM Classification",
+      "abstract": "TRACER is an open-source system that replaces LLM calls with a smaller model when they closely agree, reducing cost while keeping control and interpretability.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.14531",
+      "pdf_url": "https://arxiv.org/pdf/2604.14531",
+      "github_links": [
+        "https://github.com/adrida/tracer"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.14531",
+      "scraped_at": "2026-04-18T02:32:58.588115"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems",
+    "paper_url": "https://huggingface.co/papers/2604.14228",
+    "authors": [
+      "Zhiqiang Shen",
+      "Xinyi Shang",
+      "Xiaohan Zhao",
+      "Jiacheng Liu"
+    ],
+    "stars": "100",
+    "details": {
+      "title": "Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Inside the Scaffold: A Source-Code Taxonomy of Coding Agent Architectures (2026) IronEngine: Towards General AI Assistant (2026) Defensible Design for OpenClaw: Securing Autonomous Tool-Invoking Agents (2026) Architecture Without Architects: How AI Coding Agents Shape Software Architecture (2026) Sema Code: Decoupling AI Coding Agents into Programmable, Embeddable Infrastructure (2026) SemaClaw: A Step Towards General-Purpose Personal AI Agents through Harness Engineering (2026) A Systematic Taxonomy of Security Vulnerabilities in the OpenClaw AI Agent Framework (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.14228",
+      "pdf_url": "https://arxiv.org/pdf/2604.14228",
+      "github_links": [
+        "https://github.com/VILA-Lab/Dive-into-Claude-Code"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.14228",
+      "scraped_at": "2026-04-18T02:33:00.367162"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "Representations Before Pixels: Semantics-Guided Hierarchical Video Prediction",
+    "paper_url": "https://huggingface.co/papers/2604.11707",
+    "authors": [
+      "Nikos Komodakis",
+      "Spyros Gidaris",
+      "Efstathios Karypidis"
+    ],
+    "stars": "5",
+    "details": {
+      "title": "Representations Before Pixels: Semantics-Guided Hierarchical Video Prediction",
+      "abstract": "Pixel or latent world models? Video world models fall into two camps: • generate photorealistic frames • predict semantic features of the future (e.g., DINOv2) Why choose one? We introduce Re2Pix, a hierarchical approach that combines both.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.11707",
+      "pdf_url": "https://arxiv.org/pdf/2604.11707",
+      "github_links": [
+        "https://github.com/Sta8is/Re2Pix"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.11707",
+      "scraped_at": "2026-04-18T02:33:02.145710"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "Boosting Visual Instruction Tuning with Self-Supervised Guidance",
+    "paper_url": "https://huggingface.co/papers/2604.12966",
+    "authors": [],
+    "stars": "9",
+    "details": {
+      "title": "Boosting Visual Instruction Tuning with Self-Supervised Guidance",
+      "abstract": "Multimodal large language models (MLLMs) perform well on many vision-language tasks but often struggle with vision-centric problems that require fine-grained visual reasoning. Recent evidence suggests that this limitation arises not from weak visual representations, but from under-utilization of visual information during instruction tuning, where many tasks can be partially solved using language priors alone. We propose a simple and lightweight approach that augments visual instruction tuning with a small number of visually grounded self-supervised tasks expressed as natural language instructions. By reformulating classical self-supervised pretext tasks, such as rotation prediction, color matching, and cross-view correspondence, as image-instruction-response triplets, we introduce supervision that cannot be solved without relying on visual evidence. Our approach requires no human annotations, no architectural modifications, and no additional training stages. Across multiple models, training regimes, and benchmarks, injecting only a small fraction (3-10%) of such visually grounded instructions consistently improves performance on vision-centric evaluations. Our findings highlight instruction tuning with visually grounded SSL tasks as a powerful lever for improving visual reasoning in MLLMs through simple adjustments to the training data distribution.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.12966",
+      "pdf_url": "https://arxiv.org/pdf/2604.12966",
+      "github_links": [
+        "https://github.com/sirkosophia/V-GIFT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.12966",
+      "scraped_at": "2026-04-18T02:33:03.924863"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "Beyond Prompts: Unconditional 3D Inversion for Out-of-Distribution Shapes",
+    "paper_url": "https://huggingface.co/papers/2604.14914",
+    "authors": [
+      "Maks Ovsjanikov",
+      "Léopold Maillard",
+      "Emery Pierson",
+      "Victoria Yue Chen"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Beyond Prompts: Unconditional 3D Inversion for Out-of-Distribution Shapes",
+      "abstract": "The paper studies text-driven inversion of 3D generative models. It establishes the existence of sink traps : the model can become insensitive to prompts during generation, effectively collapsing to a single shape. Despite this property, the models retain strong geometric expressiveness in the unconditional distribution. The paper demonstrates this finding by proposing a novel pose-retargeting editing pipeline using an unconditional 3D inversion on out-of-distribution shapes.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.14914",
+      "pdf_url": "https://arxiv.org/pdf/2604.14914",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.14914",
+      "scraped_at": "2026-04-18T02:33:05.640211"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "RadAgent: A tool-using AI agent for stepwise interpretation of chest computed tomography",
+    "paper_url": "https://huggingface.co/papers/2604.15231",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "RadAgent: A tool-using AI agent for stepwise interpretation of chest computed tomography",
+      "abstract": "New agent for CT report generation that unlocks step-by-step, tool-based reasoning for more accurate and transparent reports. \"Anthropic's Faithfulness\" (37%) compared to 0% in 3D VLM baseline.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.15231",
+      "pdf_url": "https://arxiv.org/pdf/2604.15231",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.15231",
+      "scraped_at": "2026-04-18T02:33:07.489062"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "Don't Retrieve, Navigate: Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG",
+    "paper_url": "https://huggingface.co/papers/2604.14572",
+    "authors": [
+      "Lawrence B. Hsieh",
+      "Pengfei Wei",
+      "dukesun99"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Don't Retrieve, Navigate: Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG",
+      "abstract": "We built and released Corpus2Skill (C2S), an agentic RAG system that replaces the traditional vector/BM25 retrieval stack with a navigable skill hierarchy the LLM browses directly at query time. On enterprise-style QA benchmarks, C2S matches or beats strong retrieval baselines with no retrieval system at serve time. C2S compiles any corpus offline into a tree of Anthropic Skills — SKILL.md summaries at each level and document IDs at the leaves. At query time the LLM walks the tree (ls/cat via code execution) and pulls full documents via a get_document tool. No vector DB, no BM25 index, no embedding model at serve time.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.14572",
+      "pdf_url": "https://arxiv.org/pdf/2604.14572",
+      "github_links": [
+        "https://github.com/dukesun99/Corpus2Skill"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.14572",
+      "scraped_at": "2026-04-18T02:33:09.211178"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "LongAct: Harnessing Intrinsic Activation Patterns for Long-Context Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2604.14922",
+    "authors": [
+      "Chenxuan Li",
+      "Qize Yu",
+      "Tingfeng Hui",
+      "Zijun Chen",
+      "Bowen Ping"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "LongAct: Harnessing Intrinsic Activation Patterns for Long-Context Reinforcement Learning",
+      "abstract": "ACL 2026",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.14922",
+      "pdf_url": "https://arxiv.org/pdf/2604.14922",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.14922",
+      "scraped_at": "2026-04-18T02:33:10.985360"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "LeapAlign: Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories",
+    "paper_url": "https://huggingface.co/papers/2604.15311",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LeapAlign: Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Stepwise Credit Assignment for GRPO on Flow-Matching Models (2026) MotionRFT: Unified Reinforcement Fine-Tuning for Text-to-Motion Generation (2026) TDM-R1: Reinforcing Few-Step Diffusion Models with Non-Differentiable Reward (2026) Finite Difference Flow Optimization for RL Post-Training of Text-to-Image Models (2026) Diffusion Reinforcement Learning via Centered Reward Distillation (2026) OP-GRPO: Efficient Off-Policy GRPO for Flow-Matching Models (2026) AR-CoPO: Align Autoregressive Video Generation with Contrastive Policy Optimization (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.15311",
+      "pdf_url": "https://arxiv.org/pdf/2604.15311",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.15311",
+      "scraped_at": "2026-04-18T02:33:12.802506"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "OneHOI: Unifying Human-Object Interaction Generation and Editing",
+    "paper_url": "https://huggingface.co/papers/2604.14062",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "OneHOI: Unifying Human-Object Interaction Generation and Editing",
+      "abstract": "[CVPR2026] OneHOI unifies Human-Object Interaction (HOI) generation and editing in a single, versatile model. It excels at challenging HOI editing, from text-guided changes to novel layout-guided control and novel multi-HOI edits. For generation, OneHOI synthesises scenes from text, layouts, arbitrary shapes, or mixed conditions, offering unprecedented control over relational understanding in images.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.14062",
+      "pdf_url": "https://arxiv.org/pdf/2604.14062",
+      "github_links": [
+        "https://github.com/jiuntian/OneHOI"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.14062",
+      "scraped_at": "2026-04-18T02:33:14.584764"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "KV Packet: Recomputation-Free Context-Independent KV Caching for LLMs",
+    "paper_url": "https://huggingface.co/papers/2604.13226",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "KV Packet: Recomputation-Free Context-Independent KV Caching for LLMs",
+      "abstract": "KV Packet is a framework for reusing precomputed KV caches across documents without recomputation. Code available at https://github.com/ChuangtaoChen-TUM/KVPacket .",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.13226",
+      "pdf_url": "https://arxiv.org/pdf/2604.13226",
+      "github_links": [
+        "https://github.com/ChuangtaoChen-TUM/KVPacket"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.13226",
+      "scraped_at": "2026-04-18T02:33:16.346361"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "Cross-Tokenizer LLM Distillation through a Byte-Level Interface",
+    "paper_url": "https://huggingface.co/papers/2604.07466",
+    "authors": [
+      "Davide Buffelli",
+      "Alberto Bernacchia",
+      "Alexandru Cioba",
+      "Yen-Chen Wu",
+      "Avyav Kumar Singh"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Cross-Tokenizer LLM Distillation through a Byte-Level Interface",
+      "abstract": "Cross-tokenizer distillation (CTD), the transfer of knowledge from a teacher to a student language model when the two use different tokenizers, remains a largely unsolved problem. Existing approaches rely on heuristic strategies to align mismatched vocabularies, introducing considerable complexity. In this paper, we propose a simple but effective baseline called Byte-Level Distillation (BLD) which enables CTD by operating at a common interface across tokenizers: the byte level. In more detail, we convert the teacher's output distribution to byte-level probabilities, attach a lightweight byte-level decoder head to the student, and distill through this shared byte-level interface. Despite its simplicity, BLD performs competitively with--and on several benchmarks surpasses--significantly more sophisticated CTD methods, across a range of distillation tasks with models from 1B to 8B parameters. Our results suggest that the byte level is a natural common ground for cross-tokenizer knowledge transfer, while also highlighting that consistent improvements across all tasks and benchmarks remain elusive, underscoring that CTD is still an open problem.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.07466",
+      "pdf_url": "https://arxiv.org/pdf/2604.07466",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.07466",
+      "scraped_at": "2026-04-18T02:33:18.093682"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "SuperLocalMemory V3.3: The Living Brain -- Biologically-Inspired Forgetting, Cognitive Quantization, and Multi-Channel Retrieval for Zero-LLM Agent Memory Systems",
+    "paper_url": "https://huggingface.co/papers/2604.04514",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SuperLocalMemory V3.3: The Living Brain -- Biologically-Inspired Forgetting, Cognitive Quantization, and Multi-Channel Retrieval for Zero-LLM Agent Memory Systems",
+      "abstract": "SuperLocalMemory V3.3 \"The Living Brain\" — the first unified memory + learning system for AI agents. Zero-cloud. EU AI Act compliant. And it KEEPS learning. This is the sequel to our V3 paper (arXiv:2603.14588) — now with learning, mesh coordination, and lifecycle management built in. 🧠 RETRIEVAL (the brain's eyes) • 6-channel fusion: semantic + BM25 + temporal + Hopfield + spreading activation + entity graph • Fisher-Rao information geometry for distance computation • Sheaf cohomology for contradiction detection across sessions • ONNX-quantized reranker (local, <80MB, no API calls) 📚 LEARNING (the brain that grows) • Triple-stream learning: tool events (statistical) + LLM observer (Haiku-driven) + recall learning (PageRank + community detection) • Behavioral pattern mining across sessions • Cross-project assertion promotion: facts with 0.8+ confidence in 2+ projects auto-globalize • Skill evolution via blind verification (+30pp from OpenSpace paper baseline) 🕸️ MESH (the brain that talks) • SLM Mesh — P2P coordination across AI agent sessions via MCP • Broadcast + project-scoped messaging, offline queue with 48h TTL • Shared state, distributed locks, peer discovery • Works with Claude Code, Cursor, VS Code, Windsurf, Antigravity ♾️ LIFECYCLE (the brain that manages itself) • Riemannian Langevin lifecycle: active → warm → archive → forget • Tiered storage with automatic promotion on access • Entity graph with visual explorer + Leiden community clustering • Fact consolidation + graph pruning (396K edges managed) BENCHMARKS • LoCoMo: 74.8% (beats Mem0's 64.2%, Zep, Letta, Supermemory) • 8,329 npm downloads/month, 5,950 PyPI downloads/month • 3,750+ atomic facts ingested per active user • 1,730+ tests, 90%+ coverage INSTALL: npx superlocalmemory pip install superlocalmemory LINKS: • Paper: https://arxiv.org/abs/2604.04514 • Repo: https://github.com/qualixar/superlocalmemory • Docs: https://superlocalmemory.com • Current version: v3.4.13 (we've shipped 10+ releases since the paper — Neural Glass dashboard, skill evolution engine, cloud backup, and 3 novel IPs per release) This is agent memory that actually REMEMBERS, LEARNS, and COORDINATES. Would love discussion on: (1) how you're solving cross-session memory today, (2) whether behavioral pattern mining is on anyone's roadmap, (3) P2P mesh vs centralized state — what's winning for you?",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.04514",
+      "pdf_url": "https://arxiv.org/pdf/2604.04514",
+      "github_links": [
+        "https://github.com/qualixar/superlocalmemory"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.04514",
+      "scraped_at": "2026-04-18T02:33:19.875945"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation",
+    "paper_url": "https://huggingface.co/papers/2604.15309",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.15309",
+      "pdf_url": "https://arxiv.org/pdf/2604.15309",
+      "github_links": [
+        "https://github.com/microsoft/MM-webagent"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.15309",
+      "scraped_at": "2026-04-18T02:33:21.630974"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "Reinforcement Learning via Value Gradient Flow",
+    "paper_url": "https://huggingface.co/papers/2604.14265",
+    "authors": [
+      "Amy Zhang",
+      "Somayeh Sojoudi",
+      "Kaiwen Hu",
+      "Haoran Xu"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "Reinforcement Learning via Value Gradient Flow",
+      "abstract": "ICLR 2026",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.14265",
+      "pdf_url": "https://arxiv.org/pdf/2604.14265",
+      "github_links": [
+        "https://github.com/ryanxhr/vgf"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.14265",
+      "scraped_at": "2026-04-18T02:33:23.371040"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "Towards Autonomous Mechanistic Reasoning in Virtual Cells",
+    "paper_url": "https://huggingface.co/papers/2604.11661",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Towards Autonomous Mechanistic Reasoning in Virtual Cells",
+      "abstract": "VCR-Agent is a multi-agent system that can explain why a perturbation drives a particular cellular response, as opposed to simply describing the cellular response of a perturbation. This work falls under the “Explain” pillar of our Virtual Cell framework, a pillar that can unlock significant value in the drug discovery pipeline despite being underexplored in the research community. Explainability strengthens our ability to predict which compounds work, moving toward autonomous, interpretable virtual cell experimentation. Training with structured mechanistic traces improves differential expression prediction over both standard baselines and STATE, a recent SOTA perturbation response model. We are also releasing VC-TRACES, an initial collection of mechanistic traces on the Tahoe public dataset to encourage others to collaborate in this action space.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.11661",
+      "pdf_url": "https://arxiv.org/pdf/2604.11661",
+      "github_links": [
+        "https://github.com/valence-labs/VCR-Agent"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.11661",
+      "scraped_at": "2026-04-18T02:33:25.126933"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "An Optimal Transport-driven Approach for Cultivating Latent Space in Online Incremental Learning",
+    "paper_url": "https://huggingface.co/papers/2211.16780",
+    "authors": [
+      "Linh Ngo",
+      "Quan Dao",
+      "Hoang Phan",
+      "Hai Nguyen",
+      "Quyen Tran"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "An Optimal Transport-driven Approach for Cultivating Latent Space in Online Incremental Learning",
+      "abstract": "test",
+      "arxiv_page_url": "https://arxiv.org/abs/2211.16780",
+      "pdf_url": "https://arxiv.org/pdf/2211.16780",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2211.16780",
+      "scraped_at": "2026-04-18T02:33:26.976396"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "Model Capability Dominates: Inference-Time Optimization Lessons from AIMO 3",
+    "paper_url": "https://huggingface.co/papers/2603.27844",
+    "authors": [
+      "natnitaract"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Model Capability Dominates: Inference-Time Optimization Lessons from AIMO 3",
+      "abstract": "Model Capability Dominates: Inference-Time Optimization Lessons from AIMO 3 Diverse Prompt Mixer assigns different reasoning strategies to majority-voting members to decorrelate errors. Tested on 50 IMO-level problems (1×H100, 5-hour limit, 3 models, 23+ experiments). It does not work. Why it fails: High-temperature sampling already pushes pairwise error correlation to zero or below (mean ρ̂ = −0.348 across 19 computable points). There is no correlation headroom left. Diverse prompts reduce per-attempt accuracy more than they reduce correlation. What dominates: At equal N=8, the 8-point model capability gap (gpt-oss-120b at 39.3 vs. gpt-oss-20b at 31.0) is 4× larger than any prompt optimization (±2 points). Scaling N past the compute budget backfires. Where the real gap is: The model's pass@20 ≈ 45.5, but majority voting peaks at 42. Six points of selection loss. A verifier-based selector could close it. Prompt engineering cannot.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.27844",
+      "pdf_url": "https://arxiv.org/pdf/2603.27844",
+      "github_links": [
+        "https://github.com/nat-nischw/model-capability-dominates-lessons-aimo3"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.27844",
+      "scraped_at": "2026-04-18T02:33:28.828061"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "Three-Phase Transformer",
+    "paper_url": "https://huggingface.co/papers/2604.14430",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Three-Phase Transformer",
+      "abstract": "In 1888, Nikola Tesla presented the world with three phase motor.. i did the same but for transformers. 😊 I just published \"Three-Phase Transformer (3PT)\" A research paper that takes Tesla's polyphase geometry and drops it into a Transformer's residual stream. Tesla's three currents sum to zero at every instant. Three is the unique small integer where you get the zero-sum identity and no anti-correlated pair. Three is the sweet spot - it's why every electric grid on Earth runs on three phases. 😎 Here's the thing. Networks already arrive at this geometry on their own. Anthropic's Toy Models of Superposition (2022) shows networks naturally organize features into 120° triangles. Neural collapse theory proves three vectors at 120° mutual separation is the globally optimal representation geometry. The networks are stumbling into three-phase structure by accident, paying for it in convergence time. So instead of letting them stumble into the house, I built the house first. 🤗 Split the hidden vector into three equal stripes at 120° offsets. Add four phase-respecting ops per block: per-phase RMSNorm, a 2D rotation between attention and FFN using Tesla's 120° offsets, phase-aligned GQA heads, and a fixed signal in the 1D subspace orthogonal to the three phases. The stripes spin like motor windings. Attention and FFN scramble across boundaries. The phase ops pull it back. Equilibrium, not a bolted-on module. But the architecture isn't the headline. What it revealed is. 🤖 The three-phase balance leaves one direction in channel space empty by construction - the DC direction, orthogonal to all three phases. I filled it with Gabriel's horn from 1641. The cross-phase residual measures at exactly the analytic horn value to floating-point precision. Every seed, every run. RoPE handles relative position; the horn handles absolute position. They never collide. Mathematics, not optimization. The geometry self-stabilizes. No auxiliary loss, no constraint, no enforcement. The phases settle into balance within 1,000 steps and hold for 29,000 more. The same principle Tesla relied on - balanced loads maintain themselves without active correction. A novel instance of the conservation-law framework for neural networks. The result at 123M on WikiText-103: −7.20% perplexity. Parameters added: 1,536. That's 0.00124% of the model. 1.93× convergence speedup!. A 17th-century painter's paradox riding through the 1D tunnel that a 19th-century motor geometry carves out, dropped into a 2017 Transformer. None of it should compose. All of it does in 2026. 👽 Tesla might never imagined his polyphase system would run anything other than rotating machinery. 138 years later, it's running the Transformer geometry. 😇 Code: https://arxiv.org/abs/2604.14430 Paper: https://github.com/achelousace/three-phase-transformer Mohammad R. Abu Ayyash Brains Build Research Ramallah, Palestine.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.14430",
+      "pdf_url": "https://arxiv.org/pdf/2604.14430",
+      "github_links": [
+        "https://github.com/achelousace/three-phase-transformer"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.14430",
+      "scraped_at": "2026-04-18T02:33:30.656111"
+    },
+    "scraped_date": "2026-04-18"
+  },
+  {
+    "title": "C2: Scalable Rubric-Augmented Reward Modeling from Binary Preferences",
+    "paper_url": "https://huggingface.co/papers/2604.13618",
+    "authors": [
+      "Saku Sugawara",
+      "Akira-k"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "C2: Scalable Rubric-Augmented Reward Modeling from Binary Preferences",
+      "abstract": "Rubrics are a powerful harness for aligning reward models with human judgment, but they come with two problems. Human-annotated rubrics are costly. Auto-generated rubrics are often vague or misleading, and can hurt the RM more than help. We introduce C2, a reward modeling framework that builds robust rubric-based verification from binary preferences alone. The generator learns which rubrics help the verifier reach the correct judgment, and the verifier learns which rubrics to trust.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.13618",
+      "pdf_url": "https://arxiv.org/pdf/2604.13618",
+      "github_links": [
+        "https://github.com/asahi-research/C2"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.13618",
+      "scraped_at": "2026-04-18T02:33:32.385250"
+    },
+    "scraped_date": "2026-04-18"
   }
 ]
