@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-29-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3493+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3522+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">29</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">70</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">322</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3493+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">99</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">351</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3522+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** April 18, 2026
+**Last Updated:** April 19, 2026
 
 ---
 
@@ -119,7 +119,7 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds</b> ⭐ 1.02k</summary>
+<summary><b>1. HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds</b> ⭐ 1.13k</summary>
 
 <br/>
 
@@ -134,20 +134,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>2. RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework</b> ⭐ 205</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.15308) • [📄 arXiv](https://arxiv.org/abs/2604.15308) • [📥 PDF](https://arxiv.org/pdf/2604.15308)
-
-**💻 Code:** [⭐ Code](https://github.com/hustvl/RAD)
-
-> RAD-2 synergizes a Diffusion-based generator 𝒢 and a Transformer-based discriminator 𝒟 within a multi-stage optimization loop: (a) Pre-training Stage: 𝒢 is initialized via imitation learning to capture multi-modal trajectory priors from expert dem...
-
-</details>
-
-<details>
-<summary><b>3. DR^{3}-Eval: Towards Realistic and Reproducible Deep Research Evaluation</b> ⭐ 18</summary>
+<summary><b>2. DR^{3}-Eval: Towards Realistic and Reproducible Deep Research Evaluation</b> ⭐ 22</summary>
 
 <br/>
 
@@ -162,7 +149,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>4. How to Fine-Tune a Reasoning Model? A Teacher-Student Cooperation Framework to Synthesize Student-Consistent SFT Data</b> ⭐ 8</summary>
+<summary><b>3. RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework</b> ⭐ 207</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.15308) • [📄 arXiv](https://arxiv.org/abs/2604.15308) • [📥 PDF](https://arxiv.org/pdf/2604.15308)
+
+**💻 Code:** [⭐ Code](https://github.com/hustvl/RAD)
+
+> RAD-2 synergizes a Diffusion-based generator 𝒢 and a Transformer-based discriminator 𝒟 within a multi-stage optimization loop: (a) Pre-training Stage: 𝒢 is initialized via imitation learning to capture multi-modal trajectory priors from expert dem...
+
+</details>
+
+<details>
+<summary><b>4. How to Fine-Tune a Reasoning Model? A Teacher-Student Cooperation Framework to Synthesize Student-Consistent SFT Data</b> ⭐ 17</summary>
 
 <br/>
 
@@ -177,7 +177,18 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>5. ASGuard: Activation-Scaling Guard to Mitigate Targeted Jailbreaking Attack</b> ⭐ 4</summary>
+<summary><b>5. GlobalSplat: Efficient Feed-Forward 3D Gaussian Splatting via Global Scene Tokens</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.15284) • [📄 arXiv](https://arxiv.org/abs/2604.15284) • [📥 PDF](https://arxiv.org/pdf/2604.15284)
+
+> GlobalSplat is a feed-forward 3D Gaussian Splatting method that learns a compact set of global scene tokens instead of allocating primitives per pixel. By aligning first and decoding later, it produces globally consistent reconstructions with as f...
+
+</details>
+
+<details>
+<summary><b>6. ASGuard: Activation-Scaling Guard to Mitigate Targeted Jailbreaking Attack</b> ⭐ 5</summary>
 
 <br/>
 
@@ -190,7 +201,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>6. HiVLA: A Visual-Grounded-Centric Hierarchical Embodied Manipulation System</b> ⭐ 0</summary>
+<summary><b>7. HiVLA: A Visual-Grounded-Centric Hierarchical Embodied Manipulation System</b> ⭐ 0</summary>
 
 <br/>
 
@@ -203,57 +214,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>7. GlobalSplat: Efficient Feed-Forward 3D Gaussian Splatting via Global Scene Tokens</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.15284) • [📄 arXiv](https://arxiv.org/abs/2604.15284) • [📥 PDF](https://arxiv.org/pdf/2604.15284)
-
-> GlobalSplat is a feed-forward 3D Gaussian Splatting method that learns a compact set of global scene tokens instead of allocating primitives per pixel. By aligning first and decoding later, it produces globally consistent reconstructions with as f...
-
-</details>
-
-<details>
-<summary><b>8. Switch-KD: Visual-Switch Knowledge Distillation for Vision-Language Models</b> ⭐ 5</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14629) • [📄 arXiv](https://arxiv.org/abs/2604.14629) • [📥 PDF](https://arxiv.org/pdf/2604.14629)
-
-**💻 Code:** [⭐ Code](https://github.com/haoyi199815/Switch-KD)
-
-> ✨ Switch-KD is the open-source academic release of Li Auto's MindKD technology, published as Switch-KD at CVPR Findings 2026, enabling efficient vision-language model distillation through visual-switch supervision and unified multimodal knowledge ...
-
-</details>
-
-<details>
-<summary><b>9. UniDoc-RL: Coarse-to-Fine Visual RAG with Hierarchical Actions and Dense Rewards</b> ⭐ 3</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14967) • [📄 arXiv](https://arxiv.org/abs/2604.14967) • [📥 PDF](https://arxiv.org/pdf/2604.14967)
-
-**💻 Code:** [⭐ Code](https://github.com/deepglint/UniDoc-RL)
-
-> Retrieval-Augmented Generation (RAG) extends Large Vision-Language Models (LVLMs) with external visual knowledge. However, existing visual RAG systems typically rely on generic retrieval signals that overlook the fine-grained visual semantics esse...
-
-</details>
-
-<details>
-<summary><b>10. TRACER: Trace-Based Adaptive Cost-Efficient Routing for LLM Classification</b> ⭐ 120</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14531) • [📄 arXiv](https://arxiv.org/abs/2604.14531) • [📥 PDF](https://arxiv.org/pdf/2604.14531)
-
-**💻 Code:** [⭐ Code](https://github.com/adrida/tracer)
-
-> TRACER is an open-source system that replaces LLM calls with a smaller model when they closely agree, reducing cost while keeping control and interpretability.
-
-</details>
-
-<details>
-<summary><b>11. Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems</b> ⭐ 100</summary>
+<summary><b>8. Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems</b> ⭐ 177</summary>
 
 <br/>
 
@@ -268,7 +229,44 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>12. Representations Before Pixels: Semantics-Guided Hierarchical Video Prediction</b> ⭐ 5</summary>
+<summary><b>9. UniDoc-RL: Coarse-to-Fine Visual RAG with Hierarchical Actions and Dense Rewards</b> ⭐ 7</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14967) • [📄 arXiv](https://arxiv.org/abs/2604.14967) • [📥 PDF](https://arxiv.org/pdf/2604.14967)
+
+**💻 Code:** [⭐ Code](https://github.com/deepglint/UniDoc-RL)
+
+> Retrieval-Augmented Generation (RAG) extends Large Vision-Language Models (LVLMs) with external visual knowledge. However, existing visual RAG systems typically rely on generic retrieval signals that overlook the fine-grained visual semantics esse...
+
+</details>
+
+<details>
+<summary><b>10. Switch-KD: Visual-Switch Knowledge Distillation for Vision-Language Models</b> ⭐ 6</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14629) • [📄 arXiv](https://arxiv.org/abs/2604.14629) • [📥 PDF](https://arxiv.org/pdf/2604.14629)
+
+**💻 Code:** [⭐ Code](https://github.com/haoyi199815/Switch-KD)
+
+> ✨ Switch-KD is the open-source academic release of Li Auto's MindKD technology, published as Switch-KD at CVPR Findings 2026, enabling efficient vision-language model distillation through visual-switch supervision and unified multimodal knowledge ...
+
+</details>
+
+<details>
+<summary><b>11. LeapAlign: Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.15311) • [📄 arXiv](https://arxiv.org/abs/2604.15311) • [📥 PDF](https://arxiv.org/pdf/2604.15311)
+
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Stepwise Credit Assignment for GRPO on Flow-Matching Models (2026) MotionRF...
+
+</details>
+
+<details>
+<summary><b>12. Representations Before Pixels: Semantics-Guided Hierarchical Video Prediction</b> ⭐ 7</summary>
 
 <br/>
 
@@ -283,28 +281,28 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>13. Boosting Visual Instruction Tuning with Self-Supervised Guidance</b> ⭐ 9</summary>
+<summary><b>13. TRACER: Trace-Based Adaptive Cost-Efficient Routing for LLM Classification</b> ⭐ 123</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.12966) • [📄 arXiv](https://arxiv.org/abs/2604.12966) • [📥 PDF](https://arxiv.org/pdf/2604.12966)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14531) • [📄 arXiv](https://arxiv.org/abs/2604.14531) • [📥 PDF](https://arxiv.org/pdf/2604.14531)
 
-**💻 Code:** [⭐ Code](https://github.com/sirkosophia/V-GIFT)
+**💻 Code:** [⭐ Code](https://github.com/adrida/tracer)
 
-> Multimodal large language models (MLLMs) perform well on many vision-language tasks but often struggle with vision-centric problems that require fine-grained visual reasoning. Recent evidence suggests that this limitation arises not from weak visu...
+> TRACER is an open-source system that replaces LLM calls with a smaller model when they closely agree, reducing cost while keeping control and interpretability.
 
 </details>
 
 <details>
-<summary><b>14. Beyond Prompts: Unconditional 3D Inversion for Out-of-Distribution Shapes</b> ⭐ 0</summary>
+<summary><b>14. OneHOI: Unifying Human-Object Interaction Generation and Editing</b> ⭐ 5</summary>
 
 <br/>
 
-**👥 Authors:** Maks Ovsjanikov, Léopold Maillard, Emery Pierson, Victoria Yue Chen
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14062) • [📄 arXiv](https://arxiv.org/abs/2604.14062) • [📥 PDF](https://arxiv.org/pdf/2604.14062)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14914) • [📄 arXiv](https://arxiv.org/abs/2604.14914) • [📥 PDF](https://arxiv.org/pdf/2604.14914)
+**💻 Code:** [⭐ Code](https://github.com/jiuntian/OneHOI)
 
-> The paper studies text-driven inversion of 3D generative models. It establishes the existence of sink traps : the model can become insensitive to prompts during generation, effectively collapsing to a single shape. Despite this property, the model...
+> [CVPR2026] OneHOI unifies Human-Object Interaction (HOI) generation and editing in a single, versatile model. It excels at challenging HOI editing, from text-guided changes to novel layout-guided control and novel multi-HOI edits. For generation, ...
 
 </details>
 
@@ -320,22 +318,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>16. Don't Retrieve, Navigate: Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG</b> ⭐ 1</summary>
-
-<br/>
-
-**👥 Authors:** Lawrence B. Hsieh, Pengfei Wei, dukesun99
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14572) • [📄 arXiv](https://arxiv.org/abs/2604.14572) • [📥 PDF](https://arxiv.org/pdf/2604.14572)
-
-**💻 Code:** [⭐ Code](https://github.com/dukesun99/Corpus2Skill)
-
-> We built and released Corpus2Skill (C2S), an agentic RAG system that replaces the traditional vector/BM25 retrieval stack with a navigable skill hierarchy the LLM browses directly at query time. On enterprise-style QA benchmarks, C2S matches or be...
-
-</details>
-
-<details>
-<summary><b>17. LongAct: Harnessing Intrinsic Activation Patterns for Long-Context Reinforcement Learning</b> ⭐ 0</summary>
+<summary><b>16. LongAct: Harnessing Intrinsic Activation Patterns for Long-Context Reinforcement Learning</b> ⭐ 0</summary>
 
 <br/>
 
@@ -348,70 +331,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>18. LeapAlign: Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.15311) • [📄 arXiv](https://arxiv.org/abs/2604.15311) • [📥 PDF](https://arxiv.org/pdf/2604.15311)
-
-> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Stepwise Credit Assignment for GRPO on Flow-Matching Models (2026) MotionRF...
-
-</details>
-
-<details>
-<summary><b>19. OneHOI: Unifying Human-Object Interaction Generation and Editing</b> ⭐ 4</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14062) • [📄 arXiv](https://arxiv.org/abs/2604.14062) • [📥 PDF](https://arxiv.org/pdf/2604.14062)
-
-**💻 Code:** [⭐ Code](https://github.com/jiuntian/OneHOI)
-
-> [CVPR2026] OneHOI unifies Human-Object Interaction (HOI) generation and editing in a single, versatile model. It excels at challenging HOI editing, from text-guided changes to novel layout-guided control and novel multi-HOI edits. For generation, ...
-
-</details>
-
-<details>
-<summary><b>20. KV Packet: Recomputation-Free Context-Independent KV Caching for LLMs</b> ⭐ 4</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.13226) • [📄 arXiv](https://arxiv.org/abs/2604.13226) • [📥 PDF](https://arxiv.org/pdf/2604.13226)
-
-**💻 Code:** [⭐ Code](https://github.com/ChuangtaoChen-TUM/KVPacket)
-
-> KV Packet is a framework for reusing precomputed KV caches across documents without recomputation. Code available at https://github.com/ChuangtaoChen-TUM/KVPacket .
-
-</details>
-
-<details>
-<summary><b>21. Cross-Tokenizer LLM Distillation through a Byte-Level Interface</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Davide Buffelli, Alberto Bernacchia, Alexandru Cioba, Yen-Chen Wu, Avyav Kumar Singh
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.07466) • [📄 arXiv](https://arxiv.org/abs/2604.07466) • [📥 PDF](https://arxiv.org/pdf/2604.07466)
-
-> Cross-tokenizer distillation (CTD), the transfer of knowledge from a teacher to a student language model when the two use different tokenizers, remains a largely unsolved problem. Existing approaches rely on heuristic strategies to align mismatche...
-
-</details>
-
-<details>
-<summary><b>22. SuperLocalMemory V3.3: The Living Brain -- Biologically-Inspired Forgetting, Cognitive Quantization, and Multi-Channel Retrieval for Zero-LLM Agent Memory Systems</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.04514) • [📄 arXiv](https://arxiv.org/abs/2604.04514) • [📥 PDF](https://arxiv.org/pdf/2604.04514)
-
-**💻 Code:** [⭐ Code](https://github.com/qualixar/superlocalmemory)
-
-> SuperLocalMemory V3.3 "The Living Brain" — the first unified memory + learning system for AI agents. Zero-cloud. EU AI Act compliant. And it KEEPS learning. This is the sequel to our V3 paper (arXiv:2603.14588) — now with learning, mesh coordinati...
-
-</details>
-
-<details>
-<summary><b>23. MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation</b> ⭐ 4</summary>
+<summary><b>17. MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation</b> ⭐ 5</summary>
 
 <br/>
 
@@ -424,7 +344,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>24. Reinforcement Learning via Value Gradient Flow</b> ⭐ 3</summary>
+<summary><b>18. Reinforcement Learning via Value Gradient Flow</b> ⭐ 4</summary>
 
 <br/>
 
@@ -439,7 +359,74 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>25. Towards Autonomous Mechanistic Reasoning in Virtual Cells</b> ⭐ 2</summary>
+<summary><b>19. Boosting Visual Instruction Tuning with Self-Supervised Guidance</b> ⭐ 12</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.12966) • [📄 arXiv](https://arxiv.org/abs/2604.12966) • [📥 PDF](https://arxiv.org/pdf/2604.12966)
+
+**💻 Code:** [⭐ Code](https://github.com/sirkosophia/V-GIFT)
+
+> Multimodal large language models (MLLMs) perform well on many vision-language tasks but often struggle with vision-centric problems that require fine-grained visual reasoning. Recent evidence suggests that this limitation arises not from weak visu...
+
+</details>
+
+<details>
+<summary><b>20. KV Packet: Recomputation-Free Context-Independent KV Caching for LLMs</b> ⭐ 8</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.13226) • [📄 arXiv](https://arxiv.org/abs/2604.13226) • [📥 PDF](https://arxiv.org/pdf/2604.13226)
+
+**💻 Code:** [⭐ Code](https://github.com/ChuangtaoChen-TUM/KVPacket)
+
+> KV Packet is a framework for reusing precomputed KV caches across documents without recomputation. Code available at https://github.com/ChuangtaoChen-TUM/KVPacket .
+
+</details>
+
+<details>
+<summary><b>21. SuperLocalMemory V3.3: The Living Brain -- Biologically-Inspired Forgetting, Cognitive Quantization, and Multi-Channel Retrieval for Zero-LLM Agent Memory Systems</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.04514) • [📄 arXiv](https://arxiv.org/abs/2604.04514) • [📥 PDF](https://arxiv.org/pdf/2604.04514)
+
+**💻 Code:** [⭐ Code](https://github.com/qualixar/superlocalmemory)
+
+> SuperLocalMemory V3.3 "The Living Brain" — the first unified memory + learning system for AI agents. Zero-cloud. EU AI Act compliant. And it KEEPS learning. This is the sequel to our V3 paper (arXiv:2603.14588) — now with learning, mesh coordinati...
+
+</details>
+
+<details>
+<summary><b>22. Beyond Prompts: Unconditional 3D Inversion for Out-of-Distribution Shapes</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Maks Ovsjanikov, Léopold Maillard, Emery Pierson, Victoria Yue Chen
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14914) • [📄 arXiv](https://arxiv.org/abs/2604.14914) • [📥 PDF](https://arxiv.org/pdf/2604.14914)
+
+> The paper studies text-driven inversion of 3D generative models. It establishes the existence of sink traps : the model can become insensitive to prompts during generation, effectively collapsing to a single shape. Despite this property, the model...
+
+</details>
+
+<details>
+<summary><b>23. Don't Retrieve, Navigate: Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG</b> ⭐ 3</summary>
+
+<br/>
+
+**👥 Authors:** Lawrence B. Hsieh, Pengfei Wei, dukesun99
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14572) • [📄 arXiv](https://arxiv.org/abs/2604.14572) • [📥 PDF](https://arxiv.org/pdf/2604.14572)
+
+**💻 Code:** [⭐ Code](https://github.com/dukesun99/Corpus2Skill)
+
+> We built and released Corpus2Skill (C2S), an agentic RAG system that replaces the traditional vector/BM25 retrieval stack with a navigable skill hierarchy the LLM browses directly at query time. On enterprise-style QA benchmarks, C2S matches or be...
+
+</details>
+
+<details>
+<summary><b>24. Towards Autonomous Mechanistic Reasoning in Virtual Cells</b> ⭐ 3</summary>
 
 <br/>
 
@@ -452,35 +439,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>26. An Optimal Transport-driven Approach for Cultivating Latent Space in Online Incremental Learning</b> ⭐ 0</summary>
+<summary><b>25. Cross-Tokenizer LLM Distillation through a Byte-Level Interface</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Linh Ngo, Quan Dao, Hoang Phan, Hai Nguyen, Quyen Tran
+**👥 Authors:** Davide Buffelli, Alberto Bernacchia, Alexandru Cioba, Yen-Chen Wu, Avyav Kumar Singh
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2211.16780) • [📄 arXiv](https://arxiv.org/abs/2211.16780) • [📥 PDF](https://arxiv.org/pdf/2211.16780)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.07466) • [📄 arXiv](https://arxiv.org/abs/2604.07466) • [📥 PDF](https://arxiv.org/pdf/2604.07466)
 
-> test
+> Cross-tokenizer distillation (CTD), the transfer of knowledge from a teacher to a student language model when the two use different tokenizers, remains a largely unsolved problem. Existing approaches rely on heuristic strategies to align mismatche...
 
 </details>
 
 <details>
-<summary><b>27. Model Capability Dominates: Inference-Time Optimization Lessons from AIMO 3</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** natnitaract
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.27844) • [📄 arXiv](https://arxiv.org/abs/2603.27844) • [📥 PDF](https://arxiv.org/pdf/2603.27844)
-
-**💻 Code:** [⭐ Code](https://github.com/nat-nischw/model-capability-dominates-lessons-aimo3)
-
-> Model Capability Dominates: Inference-Time Optimization Lessons from AIMO 3 Diverse Prompt Mixer assigns different reasoning strategies to majority-voting members to decorrelate errors. Tested on 50 IMO-level problems (1×H100, 5-hour limit, 3 mode...
-
-</details>
-
-<details>
-<summary><b>28. Three-Phase Transformer</b> ⭐ 3</summary>
+<summary><b>26. Three-Phase Transformer</b> ⭐ 5</summary>
 
 <br/>
 
@@ -493,7 +465,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>29. C2: Scalable Rubric-Augmented Reward Modeling from Binary Preferences</b> ⭐ 1</summary>
+<summary><b>27. C2: Scalable Rubric-Augmented Reward Modeling from Binary Preferences</b> ⭐ 1</summary>
 
 <br/>
 
@@ -507,6 +479,34 @@ getTodaysPapers();
 
 </details>
 
+<details>
+<summary><b>28. An Optimal Transport-driven Approach for Cultivating Latent Space in Online Incremental Learning</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Linh Ngo, Quan Dao, Hoang Phan, Hai Nguyen, Quyen Tran
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2211.16780) • [📄 arXiv](https://arxiv.org/abs/2211.16780) • [📥 PDF](https://arxiv.org/pdf/2211.16780)
+
+> test
+
+</details>
+
+<details>
+<summary><b>29. Model Capability Dominates: Inference-Time Optimization Lessons from AIMO 3</b> ⭐ 1</summary>
+
+<br/>
+
+**👥 Authors:** natnitaract
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.27844) • [📄 arXiv](https://arxiv.org/abs/2603.27844) • [📥 PDF](https://arxiv.org/pdf/2603.27844)
+
+**💻 Code:** [⭐ Code](https://github.com/nat-nischw/model-capability-dominates-lessons-aimo3)
+
+> Model Capability Dominates: Inference-Time Optimization Lessons from AIMO 3 Diverse Prompt Mixer assigns different reasoning strategies to majority-voting members to decorrelate errors. Tested on 50 IMO-level problems (1×H100, 5-hour limit, 3 mode...
+
+</details>
+
 ---
 
 ## 📅 Historical Archives
@@ -516,27 +516,27 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 29 |
-| 📅 Today | [`2026-04-18.json`](data/daily/2026-04-18.json) | 29 |
-| 📆 This Week | [`2026-W15.json`](data/weekly/2026-W15.json) | 70 |
-| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 322 |
+| 📅 Today | [`2026-04-19.json`](data/daily/2026-04-19.json) | 29 |
+| 📆 This Week | [`2026-W15.json`](data/weekly/2026-W15.json) | 99 |
+| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 351 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-04-18 | 29 | [View JSON](data/daily/2026-04-18.json) |
+| 📌 2026-04-19 | 29 | [View JSON](data/daily/2026-04-19.json) |
+| 📄 2026-04-18 | 29 | [View JSON](data/daily/2026-04-18.json) |
 | 📄 2026-04-17 | 12 | [View JSON](data/daily/2026-04-17.json) |
 | 📄 2026-04-16 | 10 | [View JSON](data/daily/2026-04-16.json) |
 | 📄 2026-04-15 | 5 | [View JSON](data/daily/2026-04-15.json) |
 | 📄 2026-04-14 | 5 | [View JSON](data/daily/2026-04-14.json) |
 | 📄 2026-04-13 | 9 | [View JSON](data/daily/2026-04-13.json) |
-| 📄 2026-04-12 | 42 | [View JSON](data/daily/2026-04-12.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W15 | 70 | [View JSON](data/weekly/2026-W15.json) |
+| 📅 2026-W15 | 99 | [View JSON](data/weekly/2026-W15.json) |
 | 📅 2026-W14 | 140 | [View JSON](data/weekly/2026-W14.json) |
 | 📅 2026-W13 | 115 | [View JSON](data/weekly/2026-W13.json) |
 | 📅 2026-W12 | 120 | [View JSON](data/weekly/2026-W12.json) |
@@ -545,7 +545,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-04 | 322 | [View JSON](data/monthly/2026-04.json) |
+| 🗓️ 2026-04 | 351 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
