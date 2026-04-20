@@ -7215,5 +7215,108 @@
       "scraped_at": "2026-04-19T02:49:34.030065"
     },
     "scraped_date": "2026-04-19"
+  },
+  {
+    "title": "PersonaVLM: Long-Term Personalized Multimodal LLMs",
+    "paper_url": "https://huggingface.co/papers/2604.13074",
+    "authors": [],
+    "stars": "26",
+    "details": {
+      "title": "PersonaVLM: Long-Term Personalized Multimodal LLMs",
+      "abstract": "CVPR 2026 Hight PersonaVLM: Long-Term Personalized Multimodal LLMs",
+      "arxiv_page_url": "http://arxiv.org/abs/2604.13074",
+      "pdf_url": "https://arxiv.org/pdf/2604.13074",
+      "github_links": [
+        "https://github.com/MiG-NJU/PersonaVLM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.13074",
+      "scraped_at": "2026-04-20T02:49:51.517547"
+    },
+    "scraped_date": "2026-04-20"
+  },
+  {
+    "title": "Qwen3.5-Omni Technical Report",
+    "paper_url": "https://huggingface.co/papers/2604.15804",
+    "authors": [
+      "Qwen Team"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Qwen3.5-Omni Technical Report",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.15804",
+      "pdf_url": "https://arxiv.org/pdf/2604.15804",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.15804",
+      "scraped_at": "2026-04-20T02:49:53.260911"
+    },
+    "scraped_date": "2026-04-20"
+  },
+  {
+    "title": "ArtifactNet: Detecting AI-Generated Music via Forensic Residual Physics",
+    "paper_url": "https://huggingface.co/papers/2604.16254",
+    "authors": [
+      "Heewon Oh"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ArtifactNet: Detecting AI-Generated Music via Forensic Residual Physics",
+      "abstract": "ArtifactNet detects AI-generated music by extracting irreversible RVQ codec artifacts via a bounded-mask UNet + HPSS forensic features — outperforming 194M-param CLAM (F1=0.758) with only 4M parameters (F1=0.983, FPR=1.5%) on a 22-generator zero-shot benchmark.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.16254",
+      "pdf_url": "https://arxiv.org/pdf/2604.16254",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.16254",
+      "scraped_at": "2026-04-20T02:49:55.052656"
+    },
+    "scraped_date": "2026-04-20"
+  },
+  {
+    "title": "VEFX-Bench: A Holistic Benchmark for Generic Video Editing and Visual Effects",
+    "paper_url": "https://huggingface.co/papers/2604.16272",
+    "authors": [
+      "Minglai Yang",
+      "Xinghao Chen",
+      "Bangya Liu",
+      "Sicong Jiang",
+      "Xiangbo Gao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "VEFX-Bench: A Holistic Benchmark for Generic Video Editing and Visual Effects",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.16272",
+      "pdf_url": "https://arxiv.org/pdf/2604.16272",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.16272",
+      "scraped_at": "2026-04-20T02:49:56.825544"
+    },
+    "scraped_date": "2026-04-20"
+  },
+  {
+    "title": "PRL-Bench: A Comprehensive Benchmark Evaluating LLMs' Capabilities in Frontier Physics Research",
+    "paper_url": "https://huggingface.co/papers/2604.15411",
+    "authors": [
+      "Yuelin Hu",
+      "Jinxin Tan",
+      "Muhua Zhang",
+      "Wenkai Jin",
+      "Tingjia Miao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "PRL-Bench: A Comprehensive Benchmark Evaluating LLMs' Capabilities in Frontier Physics Research",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.15411",
+      "pdf_url": "https://arxiv.org/pdf/2604.15411",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.15411",
+      "scraped_at": "2026-04-20T02:49:58.644260"
+    },
+    "scraped_date": "2026-04-20"
   }
 ]
