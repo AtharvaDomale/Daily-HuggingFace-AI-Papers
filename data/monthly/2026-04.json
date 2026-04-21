@@ -7318,5 +7318,66 @@
       "scraped_at": "2026-04-20T02:49:58.644260"
     },
     "scraped_date": "2026-04-20"
+  },
+  {
+    "title": "Stratagem: Learning Transferable Reasoning via Trajectory-Modulated Game Self-Play",
+    "paper_url": "https://huggingface.co/papers/2604.17696",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Stratagem: Learning Transferable Reasoning via Trajectory-Modulated Game Self-Play",
+      "abstract": "Happy to share our latest paper: STRATAGEM. Our key idea is that not all successful game trajectories are equally useful for building general reasoning ability, so we explicitly reinforce those with higher transferability and stronger reasoning evolution. The resulting model shows strong gains across mathematical reasoning, general reasoning, and code generation benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.17696",
+      "pdf_url": "https://arxiv.org/pdf/2604.17696",
+      "github_links": [
+        "https://github.com/ydyyyy/Stratagem"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.17696",
+      "scraped_at": "2026-04-21T02:43:00.528717"
+    },
+    "scraped_date": "2026-04-21"
+  },
+  {
+    "title": "The Geometric Canary: Predicting Steerability and Detecting Drift via Representational Stability",
+    "paper_url": "https://huggingface.co/papers/2604.17698",
+    "authors": [
+      "Prashant C. Raju"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "The Geometric Canary: Predicting Steerability and Detecting Drift via Representational Stability",
+      "abstract": "The Geometric Canary introduces geometric stability as a dual diagnostic for LLM deployment. Supervised Shesha predicts which embedding models will accept linear steering with near-perfect accuracy (rho = 0.89-0.96 across 35-69 models and three NLP tasks), capturing unique variance beyond class separability. A critical dissociation: unsupervised stability fails entirely for steering (rho ~ 0.10) but excels at detecting post-training drift, measuring up to 5.23x more geometric change than CKA in Llama-family models while maintaining a 6x lower false alarm rate than Procrustes. Together, the two variants form complementary diagnostics for the deployment lifecycle: supervised stability for pre-deployment controllability assessment, unsupervised stability for post-deployment monitoring. Code available via shesha-geometry on PyPI.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.17698",
+      "pdf_url": "https://arxiv.org/pdf/2604.17698",
+      "github_links": [
+        "https://github.com/prashantcraju/geometric-canary"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.17698",
+      "scraped_at": "2026-04-21T02:43:02.336161"
+    },
+    "scraped_date": "2026-04-21"
+  },
+  {
+    "title": "Geometric coherence of single-cell CRISPR perturbations reveals regulatory architecture and predicts cellular stress",
+    "paper_url": "https://huggingface.co/papers/2604.16642",
+    "authors": [
+      "Prashant C. Raju"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Geometric coherence of single-cell CRISPR perturbations reveals regulatory architecture and predicts cellular stress",
+      "abstract": "We introduce Shesha perturbation stability, a geometric metric that measures whether cells respond to a CRISPR perturbation by moving together or scattering across expression space. Across 5 datasets and 2,200+ perturbations, we find that pleiotropic regulators like CEBPA pay a 'geometric tax': large effects but incoherent responses. After controlling for effect size, geometric instability independently predicts chaperone stress activation (HSPA5/BiP). The relationship holds in scGPT foundation model embeddings, confirming it reflects biological geometry rather than projection artifact. Open-source implementation: shesha-geometry on PyPI.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.16642",
+      "pdf_url": "https://arxiv.org/pdf/2604.16642",
+      "github_links": [
+        "https://github.com/prashantcraju/geometric-stability-crispr"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.16642",
+      "scraped_at": "2026-04-21T02:43:04.183602"
+    },
+    "scraped_date": "2026-04-21"
   }
 ]
