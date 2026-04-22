@@ -162,5 +162,196 @@
       "scraped_at": "2026-04-21T02:43:04.183602"
     },
     "scraped_date": "2026-04-21"
+  },
+  {
+    "title": "AgentSPEX: An Agent SPecification and EXecution Language",
+    "paper_url": "https://huggingface.co/papers/2604.13346",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AgentSPEX: An Agent SPecification and EXecution Language",
+      "abstract": "Right now, many agent workflows fall into two categories, either 1) they are primarily built with Python code—flexible, but increasingly hard to read, modify, and reproduce, or 2) they rely heavily on natural language (e.g., Markdown-based “skills”)—lightweight, but with less stable execution paths and weaker controllability. So we built AgentSPEX: a system that SPecifies agent workflows as declarative YAML, EXecuted inside an isolated sandbox. ✅ Core capabilities of AgentSPEX 1️⃣ YAML-based workflows Supports steps such as task / for_each / while / if / parallel / call. Compared to code-centric workflows, it is easier to quickly understand the full pipeline; compared to purely natural-language workflows, the control flow is much more explicit. 2️⃣ Sandbox execution + tool integration Capabilities like browser access, terminal, code execution, and file systems all run in an isolated environment. This makes it safer by default and more practical for real-world tasks. 3️⃣ Recoverable, replayable, and verifiable The AgentSPEX harness supports Checkpoint / Resume / Trace Replay. If a task is interrupted, it can resume from where it left off; if you want to reproduce a process, you can directly replay it. We are also translating key execution properties into Lean4 propositions, using formal verification to provide correctness guarantees for agents. Additionally, we built a visual YAML editor, where the workflow diagram and YAML stay synchronized in both directions—making it much more intuitive to modify workflows. The AgentSPEX website already includes several ready-to-use agents: 📚 Deep Research: ~15 minutes, <$1 for in-depth research on any topic 🧪 AI Scientists: ~25 minutes, <$3 to generate a research proposal 📝 AI Advisor: ~80% coverage of human reviewer feedback",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.13346",
+      "pdf_url": "https://arxiv.org/pdf/2604.13346",
+      "github_links": [
+        "https://github.com/ScaleML/AgentSPEX"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.13346",
+      "scraped_at": "2026-04-22T02:41:01.222553"
+    },
+    "scraped_date": "2026-04-22"
+  },
+  {
+    "title": "PlayCoder: Making LLM-Generated GUI Code Playable",
+    "paper_url": "https://huggingface.co/papers/2604.19742",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "PlayCoder: Making LLM-Generated GUI Code Playable",
+      "abstract": "🤖 Current code LLMs can generate GUI code that compiles, but rarely playable and interactively functional . This work builds a complete pipeline from evaluation to refinement for LLM-generated GUI programs. 🎮 PlayEval: a new multi-language benchmark for playable GUI applications 📏 Play@k: a dedicated metric focusing on real interaction logic quality 🛠️ PlayCoder: a multi-agent framework that iteratively repairs and improves code The work provides valuable insights for researchers interested in code generation and LLM agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.19742",
+      "pdf_url": "https://arxiv.org/pdf/2604.19742",
+      "github_links": [
+        "https://github.com/Tencent/PlayCoder"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.19742",
+      "scraped_at": "2026-04-22T02:41:02.953426"
+    },
+    "scraped_date": "2026-04-22"
+  },
+  {
+    "title": "CoInteract: Physically-Consistent Human-Object Interaction Video Synthesis via Spatially-Structured Co-Generation",
+    "paper_url": "https://huggingface.co/papers/2604.19636",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CoInteract: Physically-Consistent Human-Object Interaction Video Synthesis via Spatially-Structured Co-Generation",
+      "abstract": "We introduce CoInteract, a spatially-structured co-generation framework for speech-driven human-object interaction video synthesis. Project Page: https://xinxiaozhe12345.github.io/CoInteract_Project/ Code: https://github.com/luoxyhappy/CoInteract",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.19636",
+      "pdf_url": "https://arxiv.org/pdf/2604.19636",
+      "github_links": [
+        "https://github.com/luoxyhappy/CoInteract"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.19636",
+      "scraped_at": "2026-04-22T02:41:04.782965"
+    },
+    "scraped_date": "2026-04-22"
+  },
+  {
+    "title": "LoopCTR: Unlocking the Loop Scaling Power for Click-Through Rate Prediction",
+    "paper_url": "https://huggingface.co/papers/2604.19550",
+    "authors": [
+      "Chuan Wang",
+      "Yifei Liu",
+      "Weiqiu Wang",
+      "Runfeng Zhang",
+      "Jiakai Tang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "LoopCTR: Unlocking the Loop Scaling Power for Click-Through Rate Prediction",
+      "abstract": "🔥 Recently, OpenMythos has been making waves in the AI community with its Recurrent-Depth Transformer , showing that scaling does not have to rely solely on stacking more layers or adding more parameters. Instead, recursive computation with shared parameters can also effectively enhance a model’s reasoning capability. Interestingly, we have just completed a new study in the recommender systems domain: LoopCTR . To the best of our knowledge, this is the first work to systematically explore loop scaling 🔁 in recommendation models. However, loops in recommendation scenarios cannot simply reuse “the same layer over and over” ♻️. Naively sharing parameters may lead to limited expressiveness, while a fixed computation flow struggles to adapt to different samples and different loop depths. To address this, we introduce two key designs in the Loop Block: 🧩 MoE-based expert mixing : expands the expressive capacity of the shared layer, allowing a single layer to carry richer parameter capacity. 🕸️ Hyper-connected residual structure : enables input-aware dynamic computation allocation, breaking the limitations of fixed residual information flow. On top of this, LoopCTR incorporates intermediate supervision 🔍, which implicitly strengthens self-distillation while significantly reducing online inference latency. 🚀 Train deep, infer shallow : the model can be trained with multiple loops but deployed with fewer loops, or even zero-loop inference, making it highly suitable for the strict latency constraints of industrial recommendation systems. 🔭 Train shallow, infer deep : somewhat counterintuitively, our oracle analysis shows that models trained with shallow loops can achieve even higher performance ceilings under deeper inference settings. This also suggests that different samples may require different computation depths. Adaptive implicit loop inference remains a highly promising direction, although our attempts with various strategies have not yet led to a fully effective solution 😢. The experimental results are strong 💥. Even under the zero-loop inference setting, LoopCTR consistently outperforms baseline models, achieving significant performance gains with extremely low online serving overhead ⚡. This makes it highly practical for industrial deployment 🏭. In short, LoopCTR moves beyond the traditional “ just add more parameters ” scaling paradigm in recommendation systems. It opens up a new dimension of loop scaling , leveraging shared-parameter architectures with better inductive biases to enable deeper, more flexible implicit reasoning. Our oracle experiments further show that there is still substantial untapped potential in existing approaches. How to achieve adaptive and efficient latent reasoning, and fully unlock the upper bound of loop scaling, remains an exciting open problem worth exploring. 🤔",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.19550",
+      "pdf_url": "https://arxiv.org/pdf/2604.19550",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.19550",
+      "scraped_at": "2026-04-22T02:41:06.537621"
+    },
+    "scraped_date": "2026-04-22"
+  },
+  {
+    "title": "UniMesh: Unifying 3D Mesh Understanding and Generation",
+    "paper_url": "https://huggingface.co/papers/2604.17472",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "UniMesh: Unifying 3D Mesh Understanding and Generation",
+      "abstract": "Code coming soon. (Should be available these days.)",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.17472",
+      "pdf_url": "https://arxiv.org/pdf/2604.17472",
+      "github_links": [
+        "https://github.com/AIGeeksGroup/UniMesh"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.17472",
+      "scraped_at": "2026-04-22T02:41:08.305860"
+    },
+    "scraped_date": "2026-04-22"
+  },
+  {
+    "title": "ClawNet: Human-Symbiotic Agent Network for Cross-User Autonomous Cooperation",
+    "paper_url": "https://huggingface.co/papers/2604.19211",
+    "authors": [
+      "Wei Xue",
+      "Jun Song",
+      "Xianzhang Jia",
+      "Zhenyuan Zhang",
+      "Zhiqin Yang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ClawNet: Human-Symbiotic Agent Network for Cross-User Autonomous Cooperation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.19211",
+      "pdf_url": "https://arxiv.org/pdf/2604.19211",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.19211",
+      "scraped_at": "2026-04-22T02:41:10.031687"
+    },
+    "scraped_date": "2026-04-22"
+  },
+  {
+    "title": "Tstars-Tryon 1.0: Robust and Realistic Virtual Try-On for Diverse Fashion Items",
+    "paper_url": "https://huggingface.co/papers/2604.19748",
+    "authors": [
+      "Taihang Hu",
+      "Zuan Gao",
+      "Yongchao Du",
+      "Zhengrui Chen",
+      "Mengting Chen"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Tstars-Tryon 1.0: Robust and Realistic Virtual Try-On for Diverse Fashion Items",
+      "abstract": "GPT-Image 2.0 attempt to make a poster for this paper:",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.19748",
+      "pdf_url": "https://arxiv.org/pdf/2604.19748",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.19748",
+      "scraped_at": "2026-04-22T02:41:11.766135"
+    },
+    "scraped_date": "2026-04-22"
+  },
+  {
+    "title": "Evaluation-driven Scaling for Scientific Discovery",
+    "paper_url": "https://huggingface.co/papers/2604.19341",
+    "authors": [
+      "Caiyin Yang",
+      "Yizhen Luo",
+      "Jingyi Tang",
+      "Haowei Lin",
+      "Haotian Ye"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Evaluation-driven Scaling for Scientific Discovery",
+      "abstract": "GPT-Image 2.0 attempt to make a poster for this paper:",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.19341",
+      "pdf_url": "https://arxiv.org/pdf/2604.19341",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.19341",
+      "scraped_at": "2026-04-22T02:41:13.564713"
+    },
+    "scraped_date": "2026-04-22"
+  },
+  {
+    "title": "SPRITE: From Static Mockups to Engine-Ready Game UI",
+    "paper_url": "https://huggingface.co/papers/2604.18591",
+    "authors": [
+      "Ming Yan",
+      "Chien Her Lim",
+      "Hao Zhang",
+      "RuiHao Li",
+      "Yunshu Bai"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SPRITE: From Static Mockups to Engine-Ready Game UI",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.18591",
+      "pdf_url": "https://arxiv.org/pdf/2604.18591",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.18591",
+      "scraped_at": "2026-04-22T02:41:15.385514"
+    },
+    "scraped_date": "2026-04-22"
   }
 ]
