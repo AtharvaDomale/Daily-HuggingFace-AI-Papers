@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-9-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3539+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-8-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3547+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">9</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">17</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">368</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3539+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">8</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">25</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">376</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3547+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** April 22, 2026
+**Last Updated:** April 23, 2026
 
 ---
 
@@ -119,119 +119,108 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. AgentSPEX: An Agent SPecification and EXecution Language</b> ⭐ 0</summary>
+<summary><b>1. LLaDA2.0-Uni: Unifying Multimodal Understanding and Generation with Diffusion Large Language Model</b> ⭐ 3</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.13346) • [📄 arXiv](https://arxiv.org/abs/2604.13346) • [📥 PDF](https://arxiv.org/pdf/2604.13346)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.20796) • [📄 arXiv](https://arxiv.org/abs/2604.20796) • [📥 PDF](https://arxiv.org/pdf/2604.20796)
 
-**💻 Code:** [⭐ Code](https://github.com/ScaleML/AgentSPEX)
-
-> Right now, many agent workflows fall into two categories, either 1) they are primarily built with Python code—flexible, but increasingly hard to read, modify, and reproduce, or 2) they rely heavily on natural language (e.g., Markdown-based “skills...
-
-</details>
-
-<details>
-<summary><b>2. PlayCoder: Making LLM-Generated GUI Code Playable</b> ⭐ 2</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.19742) • [📄 arXiv](https://arxiv.org/abs/2604.19742) • [📥 PDF](https://arxiv.org/pdf/2604.19742)
-
-**💻 Code:** [⭐ Code](https://github.com/Tencent/PlayCoder)
-
-> 🤖 Current code LLMs can generate GUI code that compiles, but rarely playable and interactively functional . This work builds a complete pipeline from evaluation to refinement for LLM-generated GUI programs. 🎮 PlayEval: a new multi-language benchma...
-
-</details>
-
-<details>
-<summary><b>3. CoInteract: Physically-Consistent Human-Object Interaction Video Synthesis via Spatially-Structured Co-Generation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.19636) • [📄 arXiv](https://arxiv.org/abs/2604.19636) • [📥 PDF](https://arxiv.org/pdf/2604.19636)
-
-**💻 Code:** [⭐ Code](https://github.com/luoxyhappy/CoInteract)
-
-> We introduce CoInteract, a spatially-structured co-generation framework for speech-driven human-object interaction video synthesis. Project Page: https://xinxiaozhe12345.github.io/CoInteract_Project/ Code: https://github.com/luoxyhappy/CoInteract
-
-</details>
-
-<details>
-<summary><b>4. LoopCTR: Unlocking the Loop Scaling Power for Click-Through Rate Prediction</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Chuan Wang, Yifei Liu, Weiqiu Wang, Runfeng Zhang, Jiakai Tang
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.19550) • [📄 arXiv](https://arxiv.org/abs/2604.19550) • [📥 PDF](https://arxiv.org/pdf/2604.19550)
-
-> 🔥 Recently, OpenMythos has been making waves in the AI community with its Recurrent-Depth Transformer , showing that scaling does not have to rely solely on stacking more layers or adding more parameters. Instead, recursive computation with shared...
-
-</details>
-
-<details>
-<summary><b>5. UniMesh: Unifying 3D Mesh Understanding and Generation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.17472) • [📄 arXiv](https://arxiv.org/abs/2604.17472) • [📥 PDF](https://arxiv.org/pdf/2604.17472)
-
-**💻 Code:** [⭐ Code](https://github.com/AIGeeksGroup/UniMesh)
-
-> Code coming soon. (Should be available these days.)
-
-</details>
-
-<details>
-<summary><b>6. ClawNet: Human-Symbiotic Agent Network for Cross-User Autonomous Cooperation</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Wei Xue, Jun Song, Xianzhang Jia, Zhenyuan Zhang, Zhiqin Yang
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.19211) • [📄 arXiv](https://arxiv.org/abs/2604.19211) • [📥 PDF](https://arxiv.org/pdf/2604.19211)
+**💻 Code:** [⭐ Code](https://github.com/inclusionAI/LLaDA2.0-Uni)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>7. Tstars-Tryon 1.0: Robust and Realistic Virtual Try-On for Diverse Fashion Items</b> ⭐ 0</summary>
+<summary><b>2. DR-Venus: Towards Frontier Edge-Scale Deep Research Agents with Only 10K Open Data</b> ⭐ 10</summary>
 
 <br/>
 
-**👥 Authors:** Taihang Hu, Zuan Gao, Yongchao Du, Zhengrui Chen, Mengting Chen
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.19859) • [📄 arXiv](https://arxiv.org/abs/2604.19859) • [📥 PDF](https://arxiv.org/pdf/2604.19859)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.19748) • [📄 arXiv](https://arxiv.org/abs/2604.19748) • [📥 PDF](https://arxiv.org/pdf/2604.19748)
+**💻 Code:** [⭐ Code](https://github.com/inclusionAI/DR-Venus) • [⭐ Code](https://github.com/inclusionAI/DR-Venus/tree/master/Inference) • [⭐ Code](https://github.com/inclusionAI/DR-Venus/tree/master/RL)
 
-> GPT-Image 2.0 attempt to make a poster for this paper:
+> Key insights: We explore how to build strong edge-scale deep research agents with small language models under limited open-data settings, focusing on both data quality and data utilization. We introduce DR-Venus, a 4B deep research agent trained e...
 
 </details>
 
 <details>
-<summary><b>8. Evaluation-driven Scaling for Scientific Discovery</b> ⭐ 0</summary>
+<summary><b>3. WavAlign: Enhancing Intelligence and Expressiveness in Spoken Dialogue Models via Adaptive Hybrid Post-Training</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Caiyin Yang, Yizhen Luo, Jingyi Tang, Haowei Lin, Haotian Ye
+**👥 Authors:** Yangzhuo Li, Qian Chen, Shengpeng Ji, leungtianle, 1f
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.19341) • [📄 arXiv](https://arxiv.org/abs/2604.19341) • [📥 PDF](https://arxiv.org/pdf/2604.19341)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.14932) • [📄 arXiv](https://arxiv.org/abs/2604.14932) • [📥 PDF](https://arxiv.org/pdf/2604.14932)
 
-> GPT-Image 2.0 attempt to make a poster for this paper:
+> An effective post-train framework for SDM
 
 </details>
 
 <details>
-<summary><b>9. SPRITE: From Static Mockups to Engine-Ready Game UI</b> ⭐ 0</summary>
+<summary><b>4. SWE-chat: Coding Agent Interactions From Real Users in the Wild</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Ming Yan, Chien Her Lim, Hao Zhang, RuiHao Li, Yunshu Bai
+**👥 Authors:** Diyi Yang, John Yang, Xiang Li, Vishakh Padmakumar, Joachim Baumann
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.18591) • [📄 arXiv](https://arxiv.org/abs/2604.18591) • [📥 PDF](https://arxiv.org/pdf/2604.18591)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.20779) • [📄 arXiv](https://arxiv.org/abs/2604.20779) • [📥 PDF](https://arxiv.org/pdf/2604.20779)
 
 > No abstract available.
+
+</details>
+
+<details>
+<summary><b>5. Cortex 2.0: Grounding World Models in Real-World Industrial Deployment</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Fabian Busch, Dhruv Behl, Katarina Bankovic, Walida Amer, Adriana Aida
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.20246) • [📄 arXiv](https://arxiv.org/abs/2604.20246) • [📥 PDF](https://arxiv.org/pdf/2604.20246)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>6. MMCORE: MultiModal COnnection with Representation Aligned Latent Embeddings</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Yixuan Huang, Ye Wang, Jingxiang Sun, Yichun Shi, Zijie Li
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.19902) • [📄 arXiv](https://arxiv.org/abs/2604.19902) • [📥 PDF](https://arxiv.org/pdf/2604.19902)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>7. CreativeGame:Toward Mechanic-Aware Creative Game Generation</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Yiwei Shi, Tieyue Yin, Shenglin Wang, Han Wang, Hongnan Ma
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.19926) • [📄 arXiv](https://arxiv.org/abs/2604.19926) • [📥 PDF](https://arxiv.org/pdf/2604.19926)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>8. Self-Evolving LLM Memory Extraction Across Heterogeneous Tasks</b> ⭐ 1</summary>
+
+<br/>
+
+**👥 Authors:** Linxin Song, Taiwei Shi, Wang Bill Zhu, Tengxiao Liu, Yuqing Yang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.11610) • [📄 arXiv](https://arxiv.org/abs/2604.11610) • [📥 PDF](https://arxiv.org/pdf/2604.11610)
+
+**💻 Code:** [⭐ Code](https://github.com/ayyyq/heterogeneous-memory-extraction)
+
+> We propose BEHEMOTH, an 18-dataset benchmark for heterogeneous memory extraction, and CluE, a cluster-based self-evolving method that consistently outperforms compared baselines.
 
 </details>
 
@@ -243,28 +232,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 9 |
-| 📅 Today | [`2026-04-22.json`](data/daily/2026-04-22.json) | 9 |
-| 📆 This Week | [`2026-W16.json`](data/weekly/2026-W16.json) | 17 |
-| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 368 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 8 |
+| 📅 Today | [`2026-04-23.json`](data/daily/2026-04-23.json) | 8 |
+| 📆 This Week | [`2026-W16.json`](data/weekly/2026-W16.json) | 25 |
+| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 376 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-04-22 | 9 | [View JSON](data/daily/2026-04-22.json) |
+| 📌 2026-04-23 | 8 | [View JSON](data/daily/2026-04-23.json) |
+| 📄 2026-04-22 | 9 | [View JSON](data/daily/2026-04-22.json) |
 | 📄 2026-04-21 | 3 | [View JSON](data/daily/2026-04-21.json) |
 | 📄 2026-04-20 | 5 | [View JSON](data/daily/2026-04-20.json) |
 | 📄 2026-04-19 | 29 | [View JSON](data/daily/2026-04-19.json) |
 | 📄 2026-04-18 | 29 | [View JSON](data/daily/2026-04-18.json) |
 | 📄 2026-04-17 | 12 | [View JSON](data/daily/2026-04-17.json) |
-| 📄 2026-04-16 | 10 | [View JSON](data/daily/2026-04-16.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W16 | 17 | [View JSON](data/weekly/2026-W16.json) |
+| 📅 2026-W16 | 25 | [View JSON](data/weekly/2026-W16.json) |
 | 📅 2026-W15 | 99 | [View JSON](data/weekly/2026-W15.json) |
 | 📅 2026-W14 | 140 | [View JSON](data/weekly/2026-W14.json) |
 | 📅 2026-W13 | 115 | [View JSON](data/weekly/2026-W13.json) |
@@ -273,7 +262,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-04 | 368 | [View JSON](data/monthly/2026-04.json) |
+| 🗓️ 2026-04 | 376 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
