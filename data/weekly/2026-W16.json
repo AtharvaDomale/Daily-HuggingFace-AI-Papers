@@ -534,5 +534,114 @@
       "scraped_at": "2026-04-23T02:45:17.909562"
     },
     "scraped_date": "2026-04-23"
+  },
+  {
+    "title": "UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling",
+    "paper_url": "https://huggingface.co/papers/2604.19734",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.19734",
+      "pdf_url": "https://arxiv.org/pdf/2604.19734",
+      "github_links": [
+        "https://github.com/xpeng-robotics/UniT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.19734",
+      "scraped_at": "2026-04-24T02:45:22.185267"
+    },
+    "scraped_date": "2026-04-24"
+  },
+  {
+    "title": "Seeing Fast and Slow: Learning the Flow of Time in Videos",
+    "paper_url": "https://huggingface.co/papers/2604.21931",
+    "authors": [
+      "Ali Farhadi",
+      "Tao Tu",
+      "Jingsen Zhu",
+      "Rundong Luo",
+      "Yen-Siang Wu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Seeing Fast and Slow: Learning the Flow of Time in Videos",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.21931",
+      "pdf_url": "https://arxiv.org/pdf/2604.21931",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.21931",
+      "scraped_at": "2026-04-24T02:45:23.882701"
+    },
+    "scraped_date": "2026-04-24"
+  },
+  {
+    "title": "WorldMark: A Unified Benchmark Suite for Interactive Video World Models",
+    "paper_url": "https://huggingface.co/papers/2604.21686",
+    "authors": [
+      "Xiaofeng Mao",
+      "Yukang Feng",
+      "Kang He",
+      "Zhengyuan Lin",
+      "Xiaojie Xu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "WorldMark: A Unified Benchmark Suite for Interactive Video World Models",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.21686",
+      "pdf_url": "https://arxiv.org/pdf/2604.21686",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.21686",
+      "scraped_at": "2026-04-24T02:45:25.598045"
+    },
+    "scraped_date": "2026-04-24"
+  },
+  {
+    "title": "Context Unrolling in Omni Models",
+    "paper_url": "https://huggingface.co/papers/2604.21921",
+    "authors": [
+      "Hao He",
+      "Fei Xiao",
+      "Yang Zhao",
+      "Zhijie Lin",
+      "Ceyuan Yang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Context Unrolling in Omni Models",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.21921",
+      "pdf_url": "https://arxiv.org/pdf/2604.21921",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.21921",
+      "scraped_at": "2026-04-24T02:45:27.303768"
+    },
+    "scraped_date": "2026-04-24"
+  },
+  {
+    "title": "Test-Time Adaptation for EEG Foundation Models: A Systematic Study under Real-World Distribution Shifts",
+    "paper_url": "https://huggingface.co/papers/2604.16926",
+    "authors": [
+      "Jimeng Sun",
+      "Jathurshan Pradeepkumar",
+      "Gabriel Jason Lee"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Test-Time Adaptation for EEG Foundation Models: A Systematic Study under Real-World Distribution Shifts",
+      "abstract": "We present NeuroAdapt-Bench, a systematic benchmark for evaluating test-time adaptation methods on EEG foundation models under realistic distribution shifts.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.16926",
+      "pdf_url": "https://arxiv.org/pdf/2604.16926",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.16926",
+      "scraped_at": "2026-04-24T02:45:29.081376"
+    },
+    "scraped_date": "2026-04-24"
   }
 ]
