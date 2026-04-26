@@ -8326,5 +8326,471 @@
       "scraped_at": "2026-04-25T02:34:39.558734"
     },
     "scraped_date": "2026-04-25"
+  },
+  {
+    "title": "LLaTiSA: Towards Difficulty-Stratified Time Series Reasoning from Visual Perception to Semantics",
+    "paper_url": "https://huggingface.co/papers/2604.17295",
+    "authors": [],
+    "stars": "72",
+    "details": {
+      "title": "LLaTiSA: Towards Difficulty-Stratified Time Series Reasoning from Visual Perception to Semantics",
+      "abstract": "HITSR - a hierarchical time series reasoning dataset comprising 83k samples with diverse task combinations and verified Chain-of-Thought (CoT) trajectories. LLATISA - a strong Time Series Reasoning Model (TSRM) that integrates visualized patterns with precision-calibrated numerical tables to enhance the temporal perception of Vision-Language Models (VLMs).",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.17295",
+      "pdf_url": "https://arxiv.org/pdf/2604.17295",
+      "github_links": [
+        "https://github.com/RainingNovember/LLaTiSA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.17295",
+      "scraped_at": "2026-04-26T02:51:13.406213"
+    },
+    "scraped_date": "2026-04-26"
+  },
+  {
+    "title": "WorldMark: A Unified Benchmark Suite for Interactive Video World Models",
+    "paper_url": "https://huggingface.co/papers/2604.21686",
+    "authors": [
+      "Yukang Feng",
+      "Kang He",
+      "Zhengyuan Lin",
+      "Xiaojie Xu",
+      "kpzhang996"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "WorldMark: A Unified Benchmark Suite for Interactive Video World Models",
+      "abstract": "one burning question for me: how well does the unified WASD+L/R action layer generalize to models whose native controls are continuous, nonuniform, or otherwise non-discretizable? an ablation i'd love to see is removing the adapter and feeding each model directly with its own controls to isolate how much the apples-to-apples comparison actually hinges on the interface versus the model's intrinsic dynamics. the arXivLens breakdown helped me parse the method details and clarified how the VLM-based action filter and the 3D coherence checks interact across scenes. overall this looks like a solid step toward reproducible cross model benchmarking, and i’m curious to see how it handles edge cases in future releases.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.21686",
+      "pdf_url": "https://arxiv.org/pdf/2604.21686",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.21686",
+      "scraped_at": "2026-04-26T02:51:15.459215"
+    },
+    "scraped_date": "2026-04-26"
+  },
+  {
+    "title": "UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling",
+    "paper_url": "https://huggingface.co/papers/2604.19734",
+    "authors": [],
+    "stars": "37",
+    "details": {
+      "title": "UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling",
+      "abstract": "the tri-branch cross-reconstruction and the shared discrete token space are slick, but i keep wondering how they scale when human and humanoid morphologies diverge a lot. the core assumption of universal visual consequences across embodiments is appealing, but the robustness of that alignment under large kinematic gaps or actuation delays isn’t clearly stress-tested. an ablation removing one branch would reveal which part of the cross-reconstruction actually drives the gains. btw the arxivlens breakdown helped me parse the method details, a nice quick map of the token flows here: https://arxivlens.com/PaperView/Details/unit-toward-a-unified-physical-language-for-human-to-humanoid-policy-learning-and-world-modeling-5072-682c0e25",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.19734",
+      "pdf_url": "https://arxiv.org/pdf/2604.19734",
+      "github_links": [
+        "https://github.com/xpeng-robotics/UniT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.19734",
+      "scraped_at": "2026-04-26T02:51:17.529890"
+    },
+    "scraped_date": "2026-04-26"
+  },
+  {
+    "title": "StyleID: A Perception-Aware Dataset and Metric for Stylization-Agnostic Facial Identity Recognition",
+    "paper_url": "https://huggingface.co/papers/2604.21689",
+    "authors": [
+      "Seungmi Lee",
+      "Youngseo Kim",
+      "Ayeong Jeong",
+      "Changmin Lee",
+      "Kwan Yun"
+    ],
+    "stars": "18",
+    "details": {
+      "title": "StyleID: A Perception-Aware Dataset and Metric for Stylization-Agnostic Facial Identity Recognition",
+      "abstract": "Stylization-Agnostic Facial Identity Recognition",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.21689",
+      "pdf_url": "https://arxiv.org/pdf/2604.21689",
+      "github_links": [
+        "https://github.com/kwanyun/StyleID"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.21689",
+      "scraped_at": "2026-04-26T02:51:19.477923"
+    },
+    "scraped_date": "2026-04-26"
+  },
+  {
+    "title": "Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks",
+    "paper_url": "https://huggingface.co/papers/2604.20987",
+    "authors": [],
+    "stars": "10",
+    "details": {
+      "title": "Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks",
+      "abstract": "Github: https://github.com/wuxiyang1996/cos-play . Paper: https://arxiv.org/abs/2604.20987 Website: https://wuxiyang1996.github.io/COSPLAY_page/ Models: https://huggingface.co/IntelligenceLab/COS-PLAY Cold-Start Data: https://huggingface.co/datasets/IntelligenceLab/Cos-Play-Cold-Start",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.20987",
+      "pdf_url": "https://arxiv.org/pdf/2604.20987",
+      "github_links": [
+        "https://github.com/wuxiyang1996/cos-play"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.20987",
+      "scraped_at": "2026-04-26T02:51:21.427411"
+    },
+    "scraped_date": "2026-04-26"
+  },
+  {
+    "title": "Seeing Fast and Slow: Learning the Flow of Time in Videos",
+    "paper_url": "https://huggingface.co/papers/2604.21931",
+    "authors": [
+      "Ali Farhadi",
+      "Tao Tu",
+      "Jingsen Zhu",
+      "Rundong Luo",
+      "Yen-Siang Wu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Seeing Fast and Slow: Learning the Flow of Time in Videos",
+      "abstract": "that audio-visual self-supervision for speed-change detection is neat, it exploits a real cross-modal cue that doesn't need labels. but i keep circling back to edge cases where audio is absent or misleading, like mute clips or mismatched soundtrack. did you run ablations on silent videos or on corrupted audio to see how much the speed signal leans on audio versus motion cues? the arxivlens breakdown helped me parse the method details, especially how they claim equivariance under temporal rescaling; it would be nice to see a quantitative split of audio-driven vs visual-driven signals. a fully visual self-supervised route would strengthen the claim that time is a learnable perceptual dimension, maybe via a motion-consistency or frame-interval prediction objective.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.21931",
+      "pdf_url": "https://arxiv.org/pdf/2604.21931",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.21931",
+      "scraped_at": "2026-04-26T02:51:23.449470"
+    },
+    "scraped_date": "2026-04-26"
+  },
+  {
+    "title": "VLAA-GUI: Knowing When to Stop, Recover, and Search, A Modular Framework for GUI Automation",
+    "paper_url": "https://huggingface.co/papers/2604.21375",
+    "authors": [],
+    "stars": "11",
+    "details": {
+      "title": "VLAA-GUI: Knowing When to Stop, Recover, and Search, A Modular Framework for GUI Automation",
+      "abstract": "Autonomous GUI agents suffer from two chronic failure modes: early stopping (declaring success before the task is actually done) and repetitive loops (cycling through the same failing action without recovering). VLAA-GUI is a modular framework with three integrated components that tell the agent when to STOP, RECOVER, and SEARCH: A mandatory Completeness Verifier enforces UI-observable success criteria at every finish step, double-checked by an independent verifier model. A mandatory Loop Breaker detects repeated actions / recurring screen states / reflection-signaled stalls and escalates across three tiers. An on-demand Search Agent queries a search-grounded LLM directly in text, skipping the overhead of browser-based visual search. Paired with five top-tier backbones, VLAA-GUI reaches 77.5% on OSWorld-Verified with Claude Opus 4.6 and 61.0% on WindowsAgentArena. Three of five backbones surpass human-level (72.4%) on OSWorld in a single pass, and VLAA-GUI with Sonnet 4.6 at only 15 action steps already outperforms the best published 50-step system.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.21375",
+      "pdf_url": "https://arxiv.org/pdf/2604.21375",
+      "github_links": [
+        "https://github.com/UCSC-VLAA/VLAA-GUI"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.21375",
+      "scraped_at": "2026-04-26T02:51:25.403908"
+    },
+    "scraped_date": "2026-04-26"
+  },
+  {
+    "title": "TingIS: Real-time Risk Event Discovery from Noisy Customer Incidents at Enterprise Scale",
+    "paper_url": "https://huggingface.co/papers/2604.21889",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "TingIS: Real-time Risk Event Discovery from Noisy Customer Incidents at Enterprise Scale",
+      "abstract": "We present TingIS, an enterprise-grade end-to-end risk discovery system that processes 300,000 customer incidents every day and up to 2,000 incidents per minute. By synergizing efficient indexing techniques with Large Language Models, TingIS achieves a 3.5-minute 90% latency and a 95% risk discovery rate in real-world deployment. This paper has been accepted for publication at ACL 2026 Industry Track.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.21889",
+      "pdf_url": "https://arxiv.org/pdf/2604.21889",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.21889",
+      "scraped_at": "2026-04-26T02:51:27.458049"
+    },
+    "scraped_date": "2026-04-26"
+  },
+  {
+    "title": "Hybrid Policy Distillation for LLMs",
+    "paper_url": "https://huggingface.co/papers/2604.20244",
+    "authors": [
+      "Pengfei Liu",
+      "Rui Wang",
+      "Ruobing Xie",
+      "Wenhong Zhu"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "Hybrid Policy Distillation for LLMs",
+      "abstract": "🧭 A unified view of policy distillation methods ⚡ Efficient one-hot-style distillation 🧩 A hybrid KL objective with a masking mechanism 🪶 Lightweight sampling under an offline-prefix setting",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.20244",
+      "pdf_url": "https://arxiv.org/pdf/2604.20244",
+      "github_links": [
+        "https://github.com/zwhong714/Hybrid-Policy-Distillation"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.20244",
+      "scraped_at": "2026-04-26T02:51:29.407226"
+    },
+    "scraped_date": "2026-04-26"
+  },
+  {
+    "title": "Context Unrolling in Omni Models",
+    "paper_url": "https://huggingface.co/papers/2604.21921",
+    "authors": [
+      "Hao He",
+      "Fei Xiao",
+      "Yang Zhao",
+      "Zhijie Lin",
+      "Ceyuan Yang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Context Unrolling in Omni Models",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API MMCORE: MultiModal COnnection with Representation Aligned Latent Embeddings (2026) Modeling Cross-vision Synergy for Unified Large Vision Model (2026) Enhancing Alignment for Unified Multimodal Models via Semantically-Grounded Supervision (2026) TorchUMM: A Unified Multimodal Model Codebase for Evaluation, Analysis, and Post-training (2026) Generation Models Know Space: Unleashing Implicit 3D Priors for Scene Understanding (2026) LVRPO: Language-Visual Alignment with GRPO for Multimodal Understanding and Generation (2026) OmniWeaving: Towards Unified Video Generation with Free-form Composition and Reasoning (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.21921",
+      "pdf_url": "https://arxiv.org/pdf/2604.21921",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.21921",
+      "scraped_at": "2026-04-26T02:51:31.239320"
+    },
+    "scraped_date": "2026-04-26"
+  },
+  {
+    "title": "EditCrafter: Tuning-free High-Resolution Image Editing via Pretrained Diffusion Model",
+    "paper_url": "https://huggingface.co/papers/2604.10268",
+    "authors": [
+      "Hyungjin Chung",
+      "Yongjun Cho",
+      "Sumin Seo",
+      "Kunho Kim"
+    ],
+    "stars": "11",
+    "details": {
+      "title": "EditCrafter: Tuning-free High-Resolution Image Editing via Pretrained Diffusion Model",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.10268",
+      "pdf_url": "https://arxiv.org/pdf/2604.10268",
+      "github_links": [
+        "https://github.com/EditCrafter/EditCrafter"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.10268",
+      "scraped_at": "2026-04-26T02:51:33.223316"
+    },
+    "scraped_date": "2026-04-26"
+  },
+  {
+    "title": "Vista4D: Video Reshooting with 4D Point Clouds",
+    "paper_url": "https://huggingface.co/papers/2604.21915",
+    "authors": [],
+    "stars": "88",
+    "details": {
+      "title": "Vista4D: Video Reshooting with 4D Point Clouds",
+      "abstract": "I'm one of the authors on the paper! Vista4D is a model which grounds video reshooting/novel view synthesis in a 4D point cloud. Notably, we trained Vista4D to be robust to 4D reconstruction artifacts (because 4D reconstruction models, though getting better, are not perfect!) to not treat video reshooting/NVS as just an inpainting-like task, which makes our method work much better on target cameras with more extreme viewpoint changes, and work with point cloud renders where static points are always visible , which we found improves geometry preservation and camera control in more challenging video-camera pairs. This flexibility and robustness allows Vista4D to have some very cool applications, including 4D scene recomposition (a.k.a., point cloud editing), where while changing the input video's cameras we can also manipulate the 4D point cloud to edit the scene and even drop in point clouds from other videos, and dynamic scene expansion , where we can reduce the video model's hallucination by including static context frames, say, from a casual scene capture. Check out our model and play around with it! Let us know your thoughts :D",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.21915",
+      "pdf_url": "https://arxiv.org/pdf/2604.21915",
+      "github_links": [
+        "https://github.com/Eyeline-Labs/Vista4D"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.21915",
+      "scraped_at": "2026-04-26T02:51:35.103208"
+    },
+    "scraped_date": "2026-04-26"
+  },
+  {
+    "title": "UniGenDet: A Unified Generative-Discriminative Framework for Co-Evolutionary Image Generation and Generated Image Detection",
+    "paper_url": "https://huggingface.co/papers/2604.21904",
+    "authors": [],
+    "stars": "11",
+    "details": {
+      "title": "UniGenDet: A Unified Generative-Discriminative Framework for Co-Evolutionary Image Generation and Generated Image Detection",
+      "abstract": "Accepted to CVPR 2026. Image generation and generated-image detection have both advanced rapidly, but mostly along separate technical paths: generation is dominated by generative architectures, while detection is dominated by discriminative ones. This separation creates a persistent gap in practice: generators are not directly optimized by forensic criteria, and detectors are often trained on static snapshots of old forgeries, which limits robustness to new generators. UniGenDet addresses this gap with a unified co-evolutionary framework that jointly optimizes generation and detection in one loop. The core idea is to make both tasks explicitly exchange useful signals instead of evolving independently. Symbiotic multimodal self-attention bridges generation and authenticity understanding in a shared architecture. Generation-detection unified fine-tuning (GDUF) equips the detector with generative priors, improving generalization and interpretability. Detector-informed generative alignment (DIGA) feeds authenticity constraints back into synthesis, improving realism and fidelity. In short, UniGenDet turns the traditional \"generator vs. detector\" arms race into a closed-loop collaboration. This repository provides the full training and evaluation pipeline built on pretrained BAGEL components.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.21904",
+      "pdf_url": "https://arxiv.org/pdf/2604.21904",
+      "github_links": [
+        "https://github.com/Zhangyr2022/UniGenDet"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.21904",
+      "scraped_at": "2026-04-26T02:51:36.926529"
+    },
+    "scraped_date": "2026-04-26"
+  },
+  {
+    "title": "Temporally Extended Mixture-of-Experts Models",
+    "paper_url": "https://huggingface.co/papers/2604.20156",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "Temporally Extended Mixture-of-Experts Models",
+      "abstract": "Post-trains MoE LLMs into temporally extended MoEs, where active expert sets switch less frequently.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.20156",
+      "pdf_url": "https://arxiv.org/pdf/2604.20156",
+      "github_links": [
+        "https://github.com/princeton-polaris-lab/rl_moe"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.20156",
+      "scraped_at": "2026-04-26T02:51:38.745534"
+    },
+    "scraped_date": "2026-04-26"
+  },
+  {
+    "title": "WebGen-R1: Incentivizing Large Language Models to Generate Functional and Aesthetic Websites with Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2604.20398",
+    "authors": [
+      "Sunghun Kim",
+      "Jiasi Shen",
+      "Chansung Park",
+      "Chenglin Cai",
+      "Juyong Jiang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "WebGen-R1: Incentivizing Large Language Models to Generate Functional and Aesthetic Websites with Reinforcement Learning",
+      "abstract": "WebGen-R1 substantially transforms a 7B base model from generating nearly nonfunctional websites into producing deployable, aesthetically aligned multi-page websites.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.20398",
+      "pdf_url": "https://arxiv.org/pdf/2604.20398",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.20398",
+      "scraped_at": "2026-04-26T02:51:40.564378"
+    },
+    "scraped_date": "2026-04-26"
+  },
+  {
+    "title": "Coevolving Representations in Joint Image-Feature Diffusion",
+    "paper_url": "https://huggingface.co/papers/2604.17492",
+    "authors": [
+      "Nikos Komodakis",
+      "Spyros Gidaris",
+      "Theodoros Kouzelis"
+    ],
+    "stars": "6",
+    "details": {
+      "title": "Coevolving Representations in Joint Image-Feature Diffusion",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.17492",
+      "pdf_url": "https://arxiv.org/pdf/2604.17492",
+      "github_links": [
+        "https://github.com/zelaki/CoReDi"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.17492",
+      "scraped_at": "2026-04-26T02:51:42.390119"
+    },
+    "scraped_date": "2026-04-26"
+  },
+  {
+    "title": "Trust but Verify: Introducing DAVinCI -- A Framework for Dual Attribution and Verification in Claim Inference for Language Models",
+    "paper_url": "https://huggingface.co/papers/2604.21193",
+    "authors": [
+      "Nedim Lipka",
+      "Ryan Rossi",
+      "Vipula Rawte",
+      "Franck-Dernoncourt"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Trust but Verify: Introducing DAVinCI -- A Framework for Dual Attribution and Verification in Claim Inference for Language Models",
+      "abstract": "Code: https://github.com/vr25/davinci",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.21193",
+      "pdf_url": "https://arxiv.org/pdf/2604.21193",
+      "github_links": [
+        "https://github.com/vr25/davinci"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.21193",
+      "scraped_at": "2026-04-26T02:51:44.203556"
+    },
+    "scraped_date": "2026-04-26"
+  },
+  {
+    "title": "Explainable Disentangled Representation Learning for Generalizable Authorship Attribution in the Era of Generative AI",
+    "paper_url": "https://huggingface.co/papers/2604.21300",
+    "authors": [
+      "Thien Huu Nguyen",
+      "Nghia Trung Ngo",
+      "Van-Cuong Pham",
+      "Hieu Man",
+      "Franck-Dernoncourt"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Explainable Disentangled Representation Learning for Generalizable Authorship Attribution in the Era of Generative AI",
+      "abstract": "Dataset: https://huggingface.co/collections/Hieuman/document-level-authorship-datasets",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.21300",
+      "pdf_url": "https://arxiv.org/pdf/2604.21300",
+      "github_links": [
+        "https://github.com/hieum98/avae"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.21300",
+      "scraped_at": "2026-04-26T02:51:46.087136"
+    },
+    "scraped_date": "2026-04-26"
+  },
+  {
+    "title": "Test-Time Adaptation for EEG Foundation Models: A Systematic Study under Real-World Distribution Shifts",
+    "paper_url": "https://huggingface.co/papers/2604.16926",
+    "authors": [
+      "Jimeng Sun",
+      "Jathurshan Pradeepkumar",
+      "Gabriel Jason Lee"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Test-Time Adaptation for EEG Foundation Models: A Systematic Study under Real-World Distribution Shifts",
+      "abstract": "We present NeuroAdapt-Bench, a systematic benchmark for evaluating test-time adaptation methods on EEG foundation models under realistic distribution shifts.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.16926",
+      "pdf_url": "https://arxiv.org/pdf/2604.16926",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.16926",
+      "scraped_at": "2026-04-26T02:51:47.927883"
+    },
+    "scraped_date": "2026-04-26"
+  },
+  {
+    "title": "Encoder-Free Human Motion Understanding via Structured Motion Descriptions",
+    "paper_url": "https://huggingface.co/papers/2604.21668",
+    "authors": [
+      "Yu Xiao",
+      "Thomas Ploetz",
+      "Yao Zhang",
+      "Ryenhails"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Encoder-Free Human Motion Understanding via Structured Motion Descriptions",
+      "abstract": "Code, data, and pretrained LoRA adapters are available at https://yaozhang182.github.io/motion-smd/",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.21668",
+      "pdf_url": "https://arxiv.org/pdf/2604.21668",
+      "github_links": [
+        "https://github.com/yaozhang182/motion-smd"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.21668",
+      "scraped_at": "2026-04-26T02:51:49.795130"
+    },
+    "scraped_date": "2026-04-26"
+  },
+  {
+    "title": "PersonalAI: A Systematic Comparison of Knowledge Graph Storage and Retrieval Approaches for Personalized LLM agents",
+    "paper_url": "https://huggingface.co/papers/2506.17001",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PersonalAI: A Systematic Comparison of Knowledge Graph Storage and Retrieval Approaches for Personalized LLM agents",
+      "abstract": "Personalizing language models by effectively incorporating user interaction history remains a central challenge in the development of adaptive AI systems. While large language models (LLMs), combined with Retrieval-Augmented Generation (RAG), have improved factual accuracy, they often lack structured memory and fail to scale in complex, long-term interactions. To address this, we propose a flexible external memory framework based on a knowledge graph that is constructed and updated automatically by the LLM. Building upon the AriGraph architecture, we introduce a novel hybrid graph design that supports both standard edges and two types of hyper-edges, enabling rich and dynamic semantic and temporal representations. Our framework also supports diverse retrieval mechanisms, including A*, WaterCircles traversal, beam search, and hybrid methods, making it adaptable to different datasets and LLM capacities. We evaluate our system on TriviaQA, HotpotQA, DiaASQ benchmarks and demonstrate that different memory and retrieval configurations yield optimal performance depending on the task. Additionally, we extend the DiaASQ benchmark with temporal annotations and internally contradictory statements, showing that our system remains robust and effective in managing temporal dependencies and context-aware reasoning",
+      "arxiv_page_url": "https://arxiv.org/abs/2506.17001",
+      "pdf_url": "https://arxiv.org/pdf/2506.17001",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2506.17001",
+      "scraped_at": "2026-04-26T02:51:51.664664"
+    },
+    "scraped_date": "2026-04-26"
+  },
+  {
+    "title": "3D-VCD: Hallucination Mitigation in 3D-LLM Embodied Agents through Visual Contrastive Decoding",
+    "paper_url": "https://huggingface.co/papers/2604.08645",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "3D-VCD: Hallucination Mitigation in 3D-LLM Embodied Agents through Visual Contrastive Decoding",
+      "abstract": "We present 3D-VCD, a training-free inference-time framework that mitigates hallucinations in 3D embodied vision-language models through visual contrastive decoding. Our method constructs structured 3D scene graphs and introduces semantic and geometric distortions to generate contrasting contexts, enabling the model to suppress predictions that are not grounded in the observed environment. Across challenging benchmarks such as 3D-POPE and HEAL, 3D-VCD reduces hallucination rates while improving precision, accuracy, and overall reliability, without any model retraining.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.08645",
+      "pdf_url": "https://arxiv.org/pdf/2604.08645",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.08645",
+      "scraped_at": "2026-04-26T02:51:53.474730"
+    },
+    "scraped_date": "2026-04-26"
   }
 ]

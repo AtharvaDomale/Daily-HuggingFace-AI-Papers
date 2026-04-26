@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-22-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3574+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3596+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">22</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">52</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">403</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3574+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">74</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">425</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3596+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** April 25, 2026
+**Last Updated:** April 26, 2026
 
 ---
 
@@ -119,7 +119,7 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. LLaTiSA: Towards Difficulty-Stratified Time Series Reasoning from Visual Perception to Semantics</b> ⭐ 70</summary>
+<summary><b>1. LLaTiSA: Towards Difficulty-Stratified Time Series Reasoning from Visual Perception to Semantics</b> ⭐ 72</summary>
 
 <br/>
 
@@ -145,7 +145,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>3. UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling</b> ⭐ 32</summary>
+<summary><b>3. UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling</b> ⭐ 37</summary>
 
 <br/>
 
@@ -158,7 +158,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>4. StyleID: A Perception-Aware Dataset and Metric for Stylization-Agnostic Facial Identity Recognition</b> ⭐ 16</summary>
+<summary><b>4. StyleID: A Perception-Aware Dataset and Metric for Stylization-Agnostic Facial Identity Recognition</b> ⭐ 18</summary>
 
 <br/>
 
@@ -173,7 +173,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>5. Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks</b> ⭐ 6</summary>
+<summary><b>5. Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks</b> ⭐ 10</summary>
 
 <br/>
 
@@ -199,7 +199,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>7. VLAA-GUI: Knowing When to Stop, Recover, and Search, A Modular Framework for GUI Automation</b> ⭐ 8</summary>
+<summary><b>7. VLAA-GUI: Knowing When to Stop, Recover, and Search, A Modular Framework for GUI Automation</b> ⭐ 11</summary>
 
 <br/>
 
@@ -251,7 +251,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>11. EditCrafter: Tuning-free High-Resolution Image Editing via Pretrained Diffusion Model</b> ⭐ 6</summary>
+<summary><b>11. EditCrafter: Tuning-free High-Resolution Image Editing via Pretrained Diffusion Model</b> ⭐ 11</summary>
 
 <br/>
 
@@ -266,7 +266,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>12. Vista4D: Video Reshooting with 4D Point Clouds</b> ⭐ 61</summary>
+<summary><b>12. Vista4D: Video Reshooting with 4D Point Clouds</b> ⭐ 88</summary>
 
 <br/>
 
@@ -279,7 +279,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>13. UniGenDet: A Unified Generative-Discriminative Framework for Co-Evolutionary Image Generation and Generated Image Detection</b> ⭐ 10</summary>
+<summary><b>13. UniGenDet: A Unified Generative-Discriminative Framework for Co-Evolutionary Image Generation and Generated Image Detection</b> ⭐ 11</summary>
 
 <br/>
 
@@ -292,7 +292,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>14. WebGen-R1: Incentivizing Large Language Models to Generate Functional and Aesthetic Websites with Reinforcement Learning</b> ⭐ 0</summary>
+<summary><b>14. Temporally Extended Mixture-of-Experts Models</b> ⭐ 4</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.20156) • [📄 arXiv](https://arxiv.org/abs/2604.20156) • [📥 PDF](https://arxiv.org/pdf/2604.20156)
+
+**💻 Code:** [⭐ Code](https://github.com/princeton-polaris-lab/rl_moe)
+
+> Post-trains MoE LLMs into temporally extended MoEs, where active expert sets switch less frequently.
+
+</details>
+
+<details>
+<summary><b>15. WebGen-R1: Incentivizing Large Language Models to Generate Functional and Aesthetic Websites with Reinforcement Learning</b> ⭐ 0</summary>
 
 <br/>
 
@@ -305,37 +318,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>15. Trust but Verify: Introducing DAVinCI -- A Framework for Dual Attribution and Verification in Claim Inference for Language Models</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Nedim Lipka, Ryan Rossi, Vipula Rawte, Franck-Dernoncourt
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21193) • [📄 arXiv](https://arxiv.org/abs/2604.21193) • [📥 PDF](https://arxiv.org/pdf/2604.21193)
-
-**💻 Code:** [⭐ Code](https://github.com/vr25/davinci)
-
-> Code: https://github.com/vr25/davinci
-
-</details>
-
-<details>
-<summary><b>16. Explainable Disentangled Representation Learning for Generalizable Authorship Attribution in the Era of Generative AI</b> ⭐ 1</summary>
-
-<br/>
-
-**👥 Authors:** Thien Huu Nguyen, Nghia Trung Ngo, Van-Cuong Pham, Hieu Man, Franck-Dernoncourt
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21300) • [📄 arXiv](https://arxiv.org/abs/2604.21300) • [📥 PDF](https://arxiv.org/pdf/2604.21300)
-
-**💻 Code:** [⭐ Code](https://github.com/hieum98/avae)
-
-> Dataset: https://huggingface.co/collections/Hieuman/document-level-authorship-datasets
-
-</details>
-
-<details>
-<summary><b>17. Coevolving Representations in Joint Image-Feature Diffusion</b> ⭐ 5</summary>
+<summary><b>16. Coevolving Representations in Joint Image-Feature Diffusion</b> ⭐ 6</summary>
 
 <br/>
 
@@ -350,7 +333,50 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>18. Encoder-Free Human Motion Understanding via Structured Motion Descriptions</b> ⭐ 0</summary>
+<summary><b>17. Trust but Verify: Introducing DAVinCI -- A Framework for Dual Attribution and Verification in Claim Inference for Language Models</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Nedim Lipka, Ryan Rossi, Vipula Rawte, Franck-Dernoncourt
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21193) • [📄 arXiv](https://arxiv.org/abs/2604.21193) • [📥 PDF](https://arxiv.org/pdf/2604.21193)
+
+**💻 Code:** [⭐ Code](https://github.com/vr25/davinci)
+
+> Code: https://github.com/vr25/davinci
+
+</details>
+
+<details>
+<summary><b>18. Explainable Disentangled Representation Learning for Generalizable Authorship Attribution in the Era of Generative AI</b> ⭐ 1</summary>
+
+<br/>
+
+**👥 Authors:** Thien Huu Nguyen, Nghia Trung Ngo, Van-Cuong Pham, Hieu Man, Franck-Dernoncourt
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.21300) • [📄 arXiv](https://arxiv.org/abs/2604.21300) • [📥 PDF](https://arxiv.org/pdf/2604.21300)
+
+**💻 Code:** [⭐ Code](https://github.com/hieum98/avae)
+
+> Dataset: https://huggingface.co/collections/Hieuman/document-level-authorship-datasets
+
+</details>
+
+<details>
+<summary><b>19. Test-Time Adaptation for EEG Foundation Models: A Systematic Study under Real-World Distribution Shifts</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Jimeng Sun, Jathurshan Pradeepkumar, Gabriel Jason Lee
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.16926) • [📄 arXiv](https://arxiv.org/abs/2604.16926) • [📥 PDF](https://arxiv.org/pdf/2604.16926)
+
+> We present NeuroAdapt-Bench, a systematic benchmark for evaluating test-time adaptation methods on EEG foundation models under realistic distribution shifts.
+
+</details>
+
+<details>
+<summary><b>20. Encoder-Free Human Motion Understanding via Structured Motion Descriptions</b> ⭐ 0</summary>
 
 <br/>
 
@@ -361,32 +387,6 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/yaozhang182/motion-smd)
 
 > Code, data, and pretrained LoRA adapters are available at https://yaozhang182.github.io/motion-smd/
-
-</details>
-
-<details>
-<summary><b>19. Temporally Extended Mixture-of-Experts Models</b> ⭐ 2</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.20156) • [📄 arXiv](https://arxiv.org/abs/2604.20156) • [📥 PDF](https://arxiv.org/pdf/2604.20156)
-
-**💻 Code:** [⭐ Code](https://github.com/princeton-polaris-lab/rl_moe)
-
-> Post-trains MoE LLMs into temporally extended MoEs, where active expert sets switch less frequently.
-
-</details>
-
-<details>
-<summary><b>20. Test-Time Adaptation for EEG Foundation Models: A Systematic Study under Real-World Distribution Shifts</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Jimeng Sun, Jathurshan Pradeepkumar, Gabriel Jason Lee
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.16926) • [📄 arXiv](https://arxiv.org/abs/2604.16926) • [📥 PDF](https://arxiv.org/pdf/2604.16926)
-
-> We present NeuroAdapt-Bench, a systematic benchmark for evaluating test-time adaptation methods on EEG foundation models under realistic distribution shifts.
 
 </details>
 
@@ -421,27 +421,27 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 22 |
-| 📅 Today | [`2026-04-25.json`](data/daily/2026-04-25.json) | 22 |
-| 📆 This Week | [`2026-W16.json`](data/weekly/2026-W16.json) | 52 |
-| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 403 |
+| 📅 Today | [`2026-04-26.json`](data/daily/2026-04-26.json) | 22 |
+| 📆 This Week | [`2026-W16.json`](data/weekly/2026-W16.json) | 74 |
+| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 425 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-04-25 | 22 | [View JSON](data/daily/2026-04-25.json) |
+| 📌 2026-04-26 | 22 | [View JSON](data/daily/2026-04-26.json) |
+| 📄 2026-04-25 | 22 | [View JSON](data/daily/2026-04-25.json) |
 | 📄 2026-04-24 | 5 | [View JSON](data/daily/2026-04-24.json) |
 | 📄 2026-04-23 | 8 | [View JSON](data/daily/2026-04-23.json) |
 | 📄 2026-04-22 | 9 | [View JSON](data/daily/2026-04-22.json) |
 | 📄 2026-04-21 | 3 | [View JSON](data/daily/2026-04-21.json) |
 | 📄 2026-04-20 | 5 | [View JSON](data/daily/2026-04-20.json) |
-| 📄 2026-04-19 | 29 | [View JSON](data/daily/2026-04-19.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W16 | 52 | [View JSON](data/weekly/2026-W16.json) |
+| 📅 2026-W16 | 74 | [View JSON](data/weekly/2026-W16.json) |
 | 📅 2026-W15 | 99 | [View JSON](data/weekly/2026-W15.json) |
 | 📅 2026-W14 | 140 | [View JSON](data/weekly/2026-W14.json) |
 | 📅 2026-W13 | 115 | [View JSON](data/weekly/2026-W13.json) |
@@ -450,7 +450,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-04 | 403 | [View JSON](data/monthly/2026-04.json) |
+| 🗓️ 2026-04 | 425 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
