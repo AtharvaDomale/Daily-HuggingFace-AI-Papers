@@ -8792,5 +8792,141 @@
       "scraped_at": "2026-04-26T02:51:53.474730"
     },
     "scraped_date": "2026-04-26"
+  },
+  {
+    "title": "LLM Safety From Within: Detecting Harmful Content with Internal Representations",
+    "paper_url": "https://huggingface.co/papers/2604.18519",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "LLM Safety From Within: Detecting Harmful Content with Internal Representations",
+      "abstract": "Guard models are widely used to detect harmful content in user prompts and LLM responses. However, state-of-the-art guard models rely solely on terminal-layer representations and overlook the rich safety-relevant features distributed across internal layers. We present SIREN, a lightweight guard model that harnesses these internal features. By identifying safety neurons via linear probing and combining them through an adaptive layer-weighted strategy, SIREN builds a harmfulness detector from LLM internals without modifying the underlying model. Our comprehensive evaluation shows that SIREN substantially outperforms state-of-the-art open-source guard models across multiple benchmarks while using 250 times fewer trainable parameters. Moreover, SIREN exhibits superior generalization to unseen benchmarks, naturally enables real-time streaming detection, and significantly improves inference efficiency compared to generative guard models. Overall, our results highlight LLM internal states as a promising foundation for practical, high-performance harmfulness detection.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.18519",
+      "pdf_url": "https://arxiv.org/pdf/2604.18519",
+      "github_links": [
+        "https://github.com/CSSLab/SIREN"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.18519",
+      "scraped_at": "2026-04-27T02:53:53.387890"
+    },
+    "scraped_date": "2026-04-27"
+  },
+  {
+    "title": "dWorldEval: Scalable Robotic Policy Evaluation via Discrete Diffusion World Model",
+    "paper_url": "https://huggingface.co/papers/2604.22152",
+    "authors": [
+      "Yichen Zhu",
+      "Yaokai Xue",
+      "Yefei Chen",
+      "Zhongyi Zhou",
+      "Yaxuan Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "dWorldEval: Scalable Robotic Policy Evaluation via Discrete Diffusion World Model",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.22152",
+      "pdf_url": "https://arxiv.org/pdf/2604.22152",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.22152",
+      "scraped_at": "2026-04-27T02:53:55.068582"
+    },
+    "scraped_date": "2026-04-27"
+  },
+  {
+    "title": "AgentSearchBench: A Benchmark for AI Agent Search in the Wild",
+    "paper_url": "https://huggingface.co/papers/2604.22436",
+    "authors": [
+      "Emine Yilmaz",
+      "Xiaoyu Zhang",
+      "Arastun Mammadli",
+      "Bin Wu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AgentSearchBench: A Benchmark for AI Agent Search in the Wild",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.22436",
+      "pdf_url": "https://arxiv.org/pdf/2604.22436",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.22436",
+      "scraped_at": "2026-04-27T02:53:56.768987"
+    },
+    "scraped_date": "2026-04-27"
+  },
+  {
+    "title": "Learning Evidence Highlighting for Frozen LLMs",
+    "paper_url": "https://huggingface.co/papers/2604.22565",
+    "authors": [
+      "Xiaohan Wei",
+      "Mingfu Liang",
+      "Yufei Li",
+      "Yanhang Shi",
+      "Shaoang Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Learning Evidence Highlighting for Frozen LLMs",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.22565",
+      "pdf_url": "https://arxiv.org/pdf/2604.22565",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.22565",
+      "scraped_at": "2026-04-27T02:53:58.483217"
+    },
+    "scraped_date": "2026-04-27"
+  },
+  {
+    "title": "Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond",
+    "paper_url": "https://huggingface.co/papers/2604.22748",
+    "authors": [
+      "Jize Zhang",
+      "Lingdong Kong",
+      "Kevin Qinghong Lin",
+      "Xuan Billy Zhang",
+      "Meng Chu"
+    ],
+    "stars": "15",
+    "details": {
+      "title": "Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.22748",
+      "pdf_url": "https://arxiv.org/pdf/2604.22748",
+      "github_links": [
+        "https://github.com/matrix-agent/awesome-agentic-world-modeling"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.22748",
+      "scraped_at": "2026-04-27T02:54:00.220354"
+    },
+    "scraped_date": "2026-04-27"
+  },
+  {
+    "title": "AgriIR: A Scalable Framework for Domain-Specific Knowledge Retrieval",
+    "paper_url": "https://huggingface.co/papers/2604.16353",
+    "authors": [
+      "Dwaipayan Roy",
+      "Alok Mishra",
+      "Aheli Poddar",
+      "Shuvam Banerji Seal"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AgriIR: A Scalable Framework for Domain-Specific Knowledge Retrieval",
+      "abstract": "This paper introduces AgriIR, a configurable retrieval augmented generation (RAG) framework designed to deliver grounded, domain-specific answers while maintaining flexibility and low computational cost. Instead of relying on large, monolithic models, AgriIR decomposes the information access process into declarative modular stages -- query refinement, sub-query planning, retrieval, synthesis, and evaluation. This design allows practitioners to adapt the framework to new knowledge verticals without modifying the architecture. Our reference implementation targets Indian agricultural information access, integrating 1B-parameter language models with adaptive retrievers and domain-aware agent catalogues. The system enforces deterministic citation, integrates telemetry for transparency, and includes automated deployment assets to ensure auditable, reproducible operation. By emphasizing architectural design and modular control, AgriIR demonstrates that well-engineered pipelines can achieve domain-accurate, trustworthy retrieval even under constrained resources. We argue that this approach exemplifies \"AI for Agriculture'' by promoting accessibility, sustainability, and accountability in retrieval-augmented generation systems.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.16353",
+      "pdf_url": "https://arxiv.org/pdf/2604.16353",
+      "github_links": [
+        "https://github.com/Shuvam-Banerji-Seal/AgriIR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.16353",
+      "scraped_at": "2026-04-27T02:54:01.982622"
+    },
+    "scraped_date": "2026-04-27"
   }
 ]
