@@ -8928,5 +8928,64 @@
       "scraped_at": "2026-04-27T02:54:01.982622"
     },
     "scraped_date": "2026-04-27"
+  },
+  {
+    "title": "World-R1: Reinforcing 3D Constraints for Text-to-Video Generation",
+    "paper_url": "https://huggingface.co/papers/2604.24764",
+    "authors": [],
+    "stars": "23",
+    "details": {
+      "title": "World-R1: Reinforcing 3D Constraints for Text-to-Video Generation",
+      "abstract": "World-R1: Reinforcing 3D Constraints for Text-to-Video Generation",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.24764",
+      "pdf_url": "https://arxiv.org/pdf/2604.24764",
+      "github_links": [
+        "https://github.com/microsoft/World-R1"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.24764",
+      "scraped_at": "2026-04-28T03:22:40.135270"
+    },
+    "scraped_date": "2026-04-28"
+  },
+  {
+    "title": "Rewarding the Scientific Process: Process-Level Reward Modeling for Agentic Data Analysis",
+    "paper_url": "https://huggingface.co/papers/2604.24198",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Rewarding the Scientific Process: Process-Level Reward Modeling for Agentic Data Analysis",
+      "abstract": "DataPRM is an environment-aware generative process reward model that actively verifies execution and distinguishes error types, significantly improving LLM performance on dynamic data analysis tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.24198",
+      "pdf_url": "https://arxiv.org/pdf/2604.24198",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.24198",
+      "scraped_at": "2026-04-28T03:22:42.058232"
+    },
+    "scraped_date": "2026-04-28"
+  },
+  {
+    "title": "SketchVLM: Vision language models can annotate images to explain thoughts and guide users",
+    "paper_url": "https://huggingface.co/papers/2604.22875",
+    "authors": [
+      "Trung Bui",
+      "Mohammad Reza Taesiri",
+      "Hung Huy Nguyen",
+      "Logan Bolton",
+      "Brandon Collins"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SketchVLM: Vision language models can annotate images to explain thoughts and guide users",
+      "abstract": "Demo: https://sketch-vlm-demo.vercel.app/",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.22875",
+      "pdf_url": "https://arxiv.org/pdf/2604.22875",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.22875",
+      "scraped_at": "2026-04-28T03:22:43.807805"
+    },
+    "scraped_date": "2026-04-28"
   }
 ]

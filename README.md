@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-6-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3602+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-3-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3605+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">6</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">6</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">431</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3602+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">3</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">9</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">434</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3605+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** April 27, 2026
+**Last Updated:** April 28, 2026
 
 ---
 
@@ -119,84 +119,39 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. LLM Safety From Within: Detecting Harmful Content with Internal Representations</b> ⭐ 7</summary>
+<summary><b>1. World-R1: Reinforcing 3D Constraints for Text-to-Video Generation</b> ⭐ 23</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.18519) • [📄 arXiv](https://arxiv.org/abs/2604.18519) • [📥 PDF](https://arxiv.org/pdf/2604.18519)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.24764) • [📄 arXiv](https://arxiv.org/abs/2604.24764) • [📥 PDF](https://arxiv.org/pdf/2604.24764)
 
-**💻 Code:** [⭐ Code](https://github.com/CSSLab/SIREN)
+**💻 Code:** [⭐ Code](https://github.com/microsoft/World-R1)
 
-> Guard models are widely used to detect harmful content in user prompts and LLM responses. However, state-of-the-art guard models rely solely on terminal-layer representations and overlook the rich safety-relevant features distributed across intern...
+> World-R1: Reinforcing 3D Constraints for Text-to-Video Generation
 
 </details>
 
 <details>
-<summary><b>2. dWorldEval: Scalable Robotic Policy Evaluation via Discrete Diffusion World Model</b> ⭐ 0</summary>
+<summary><b>2. Rewarding the Scientific Process: Process-Level Reward Modeling for Agentic Data Analysis</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Yichen Zhu, Yaokai Xue, Yefei Chen, Zhongyi Zhou, Yaxuan Li
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.24198) • [📄 arXiv](https://arxiv.org/abs/2604.24198) • [📥 PDF](https://arxiv.org/pdf/2604.24198)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.22152) • [📄 arXiv](https://arxiv.org/abs/2604.22152) • [📥 PDF](https://arxiv.org/pdf/2604.22152)
-
-> No abstract available.
+> DataPRM is an environment-aware generative process reward model that actively verifies execution and distinguishes error types, significantly improving LLM performance on dynamic data analysis tasks.
 
 </details>
 
 <details>
-<summary><b>3. AgentSearchBench: A Benchmark for AI Agent Search in the Wild</b> ⭐ 0</summary>
+<summary><b>3. SketchVLM: Vision language models can annotate images to explain thoughts and guide users</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Emine Yilmaz, Xiaoyu Zhang, Arastun Mammadli, Bin Wu
+**👥 Authors:** Trung Bui, Mohammad Reza Taesiri, Hung Huy Nguyen, Logan Bolton, Brandon Collins
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.22436) • [📄 arXiv](https://arxiv.org/abs/2604.22436) • [📥 PDF](https://arxiv.org/pdf/2604.22436)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.22875) • [📄 arXiv](https://arxiv.org/abs/2604.22875) • [📥 PDF](https://arxiv.org/pdf/2604.22875)
 
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>4. Learning Evidence Highlighting for Frozen LLMs</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Xiaohan Wei, Mingfu Liang, Yufei Li, Yanhang Shi, Shaoang Li
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.22565) • [📄 arXiv](https://arxiv.org/abs/2604.22565) • [📥 PDF](https://arxiv.org/pdf/2604.22565)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>5. Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond</b> ⭐ 15</summary>
-
-<br/>
-
-**👥 Authors:** Jize Zhang, Lingdong Kong, Kevin Qinghong Lin, Xuan Billy Zhang, Meng Chu
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.22748) • [📄 arXiv](https://arxiv.org/abs/2604.22748) • [📥 PDF](https://arxiv.org/pdf/2604.22748)
-
-**💻 Code:** [⭐ Code](https://github.com/matrix-agent/awesome-agentic-world-modeling)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>6. AgriIR: A Scalable Framework for Domain-Specific Knowledge Retrieval</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Dwaipayan Roy, Alok Mishra, Aheli Poddar, Shuvam Banerji Seal
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.16353) • [📄 arXiv](https://arxiv.org/abs/2604.16353) • [📥 PDF](https://arxiv.org/pdf/2604.16353)
-
-**💻 Code:** [⭐ Code](https://github.com/Shuvam-Banerji-Seal/AgriIR)
-
-> This paper introduces AgriIR, a configurable retrieval augmented generation (RAG) framework designed to deliver grounded, domain-specific answers while maintaining flexibility and low computational cost. Instead of relying on large, monolithic mod...
+> Demo: https://sketch-vlm-demo.vercel.app/
 
 </details>
 
@@ -208,28 +163,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 6 |
-| 📅 Today | [`2026-04-27.json`](data/daily/2026-04-27.json) | 6 |
-| 📆 This Week | [`2026-W17.json`](data/weekly/2026-W17.json) | 6 |
-| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 431 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 3 |
+| 📅 Today | [`2026-04-28.json`](data/daily/2026-04-28.json) | 3 |
+| 📆 This Week | [`2026-W17.json`](data/weekly/2026-W17.json) | 9 |
+| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 434 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-04-27 | 6 | [View JSON](data/daily/2026-04-27.json) |
+| 📌 2026-04-28 | 3 | [View JSON](data/daily/2026-04-28.json) |
+| 📄 2026-04-27 | 6 | [View JSON](data/daily/2026-04-27.json) |
 | 📄 2026-04-26 | 22 | [View JSON](data/daily/2026-04-26.json) |
 | 📄 2026-04-25 | 22 | [View JSON](data/daily/2026-04-25.json) |
 | 📄 2026-04-24 | 5 | [View JSON](data/daily/2026-04-24.json) |
 | 📄 2026-04-23 | 8 | [View JSON](data/daily/2026-04-23.json) |
 | 📄 2026-04-22 | 9 | [View JSON](data/daily/2026-04-22.json) |
-| 📄 2026-04-21 | 3 | [View JSON](data/daily/2026-04-21.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W17 | 6 | [View JSON](data/weekly/2026-W17.json) |
+| 📅 2026-W17 | 9 | [View JSON](data/weekly/2026-W17.json) |
 | 📅 2026-W16 | 74 | [View JSON](data/weekly/2026-W16.json) |
 | 📅 2026-W15 | 99 | [View JSON](data/weekly/2026-W15.json) |
 | 📅 2026-W14 | 140 | [View JSON](data/weekly/2026-W14.json) |
@@ -238,7 +193,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-04 | 431 | [View JSON](data/monthly/2026-04.json) |
+| 🗓️ 2026-04 | 434 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |
