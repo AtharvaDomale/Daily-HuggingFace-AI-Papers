@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-12-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3617+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-4-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3621+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">12</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">21</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">446</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3617+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">4</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">25</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">450</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3621+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** April 29, 2026
+**Last Updated:** April 30, 2026
 
 ---
 
@@ -119,158 +119,54 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Recursive Multi-Agent Systems</b> ⭐ 3</summary>
+<summary><b>1. ClawGym: A Scalable Framework for Building Effective Claw Agents</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.25917) • [📄 arXiv](https://arxiv.org/abs/2604.25917) • [📥 PDF](https://arxiv.org/pdf/2604.25917)
+**👥 Authors:** Yike Yang, Daixuan Cheng, Shuang Sun, Huatong Song, Fei Bai
 
-**💻 Code:** [⭐ Code](https://github.com/RecursiveMAS/RecursiveMAS)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.26904) • [📄 arXiv](https://arxiv.org/abs/2604.26904) • [📥 PDF](https://arxiv.org/pdf/2604.26904)
 
-> Code and Data are Available at https://recursivemas.github.io
-
-</details>
-
-<details>
-<summary><b>2. Meta-CoT: Enhancing Granularity and Generalization in Image Editing</b> ⭐ 47</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.24625) • [📄 arXiv](https://arxiv.org/abs/2604.24625) • [📥 PDF](https://arxiv.org/pdf/2604.24625)
-
-**💻 Code:** [⭐ Code](https://github.com/shiyi-zh0408/Meta-CoT)
-
-> Paper: https://arxiv.org/abs/2604.24625 Project Page: https://shiyi-zh0408.github.io/projectpages/Meta-CoT/ Github: https://github.com/shiyi-zh0408/Meta-CoT Model: https://huggingface.co/shiyi0408/Meta-CoT Benchmark: https://huggingface.co/dataset...
-
-</details>
-
-<details>
-<summary><b>3. Programming with Data: Test-Driven Data Engineering for Self-Improving LLMs from Raw Corpora</b> ⭐ 17</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.24819) • [📄 arXiv](https://arxiv.org/abs/2604.24819) • [📥 PDF](https://arxiv.org/pdf/2604.24819)
-
-**💻 Code:** [⭐ Code](https://github.com/OpenRaiser/ProDa)
-
-> Reliably transferring specialized human knowledge from text into large language models remains a fundamental challenge in artificial intelligence. Fine-tuning on domain corpora has enabled substantial capability gains, but the process operates wit...
-
-</details>
-
-<details>
-<summary><b>4. Refinement via Regeneration: Enlarging Modification Space Boosts Image Refinement in Unified Multimodal Models</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.25636) • [📄 arXiv](https://arxiv.org/abs/2604.25636) • [📥 PDF](https://arxiv.org/pdf/2604.25636)
-
-**💻 Code:** [⭐ Code](https://github.com/LeapLabTHU/RvR)
-
-> 🔥 Regeneration over editing: unlocking more effective image refinement! We present Refinement via Regeneration (RvR), a novel framework that reformulates image refinement in unified multimodal models from an editing-based paradigm to a regeneratio...
-
-</details>
-
-<details>
-<summary><b>5. Mutual Forcing: Dual-Mode Self-Evolution for Fast Autoregressive Audio-Video Character Generation</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Yupeng Shi, Jiabao Wang, Zhifan Wu, Lianghua Huang, Yupeng Zhou
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.25819) • [📄 arXiv](https://arxiv.org/abs/2604.25819) • [📥 PDF](https://arxiv.org/pdf/2604.25819)
-
-**💻 Code:** [⭐ Code](https://github.com/HVision-NKU/MutualForcing)
-
-> Recent fast streaming generation methods often rely on a complicated pipeline, typically starting from a non-causal bidirectional diffusion model and requiring additional steps such as ODE initialization and DMD distillation. Mutual Forcing explor...
-
-</details>
-
-<details>
-<summary><b>6. DV-World: Benchmarking Data Visualization Agents in Real-World Scenarios</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Haoxiang Liu, Jingyu Guo, Fangyu Lei, Shaoping Huang, Jinxiang Meng
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.25914) • [📄 arXiv](https://arxiv.org/abs/2604.25914) • [📥 PDF](https://arxiv.org/pdf/2604.25914)
+**💻 Code:** [⭐ Code](https://github.com/ClawGym)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>7. Co-Director: Agentic Generative Video Storytelling</b> ⭐ 0</summary>
+<summary><b>2. Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models</b> ⭐ 3</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.24842) • [📄 arXiv](https://arxiv.org/abs/2604.24842) • [📥 PDF](https://arxiv.org/pdf/2604.24842)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.26951) • [📄 arXiv](https://arxiv.org/abs/2604.26951) • [📥 PDF](https://arxiv.org/pdf/2604.26951)
+
+**💻 Code:** [⭐ Code](https://github.com/PKU-YuanGroup/TIDE)
+
+> 🌊 Excited to share TIDE — to our knowledge, the first framework for cross-architecture distillation of diffusion LLMs, where teacher and student may differ in architecture, attention pattern, and tokenizer. We evaluate TIDE in two heterogeneous te...
+
+</details>
+
+<details>
+<summary><b>3. Accelerating RL Post-Training Rollouts via System-Integrated Speculative Decoding</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.26779) • [📄 arXiv](https://arxiv.org/abs/2604.26779) • [📥 PDF](https://arxiv.org/pdf/2604.26779)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>8. IAM: Identity-Aware Human Motion and Shape Joint Generation</b> ⭐ 0</summary>
+<summary><b>4. Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Chuan Guo, Chengcheng Tang, Abhay Mittal, Zekun Li, Wenqi Jia
+**👥 Authors:** Nan Sun, Zilong Chen, Peiyan Li, Qiwei Li, Jun Guo
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.25164) • [📄 arXiv](https://arxiv.org/abs/2604.25164) • [📥 PDF](https://arxiv.org/pdf/2604.25164)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.26694) • [📄 arXiv](https://arxiv.org/abs/2604.26694) • [📥 PDF](https://arxiv.org/pdf/2604.26694)
 
 > No abstract available.
-
-</details>
-
-<details>
-<summary><b>9. Toward Scalable Terminal Task Synthesis via Skill Graphs</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.25727) • [📄 arXiv](https://arxiv.org/abs/2604.25727) • [📥 PDF](https://arxiv.org/pdf/2604.25727)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>10. BARRED: Synthetic Training of Custom Policy Guardrails via Asymmetric Debate</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.25203) • [📄 arXiv](https://arxiv.org/abs/2604.25203) • [📥 PDF](https://arxiv.org/pdf/2604.25203)
-
-**💻 Code:** [⭐ Code](https://github.com/plurai-ai/BARRED)
-
-> The BARRED dataset can be found here: https://huggingface.co/datasets/Plurai/BARRED
-
-</details>
-
-<details>
-<summary><b>11. A Systematic Post-Train Framework for Video Generation</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Haoran Li, Shuai Lu, Jie Huang, Siming Fu, Zeyue Xue
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.25427) • [📄 arXiv](https://arxiv.org/abs/2604.25427) • [📥 PDF](https://arxiv.org/pdf/2604.25427)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>12. AutoGUI-v2: A Comprehensive Multi-Modal GUI Functionality Understanding Benchmark</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Yuntao Chen, Zheng Ju, Jingran Su, Xiping Wang, Hongxin Li
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.24441) • [📄 arXiv](https://arxiv.org/abs/2604.24441) • [📥 PDF](https://arxiv.org/pdf/2604.24441)
-
-**💻 Code:** [⭐ Code](https://github.com/ZJULiHongxin/AutoGUI-v2)
-
-> AutoGUI-v2 introduces comprehensive functional GUI understanding : rather than simply detecting what elements look like, it asks what they do — and whether models can tell apart elements that look the same but behave differently. Background: GUIs ...
 
 </details>
 
@@ -282,28 +178,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 12 |
-| 📅 Today | [`2026-04-29.json`](data/daily/2026-04-29.json) | 12 |
-| 📆 This Week | [`2026-W17.json`](data/weekly/2026-W17.json) | 21 |
-| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 446 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 4 |
+| 📅 Today | [`2026-04-30.json`](data/daily/2026-04-30.json) | 4 |
+| 📆 This Week | [`2026-W17.json`](data/weekly/2026-W17.json) | 25 |
+| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 450 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-04-29 | 12 | [View JSON](data/daily/2026-04-29.json) |
+| 📌 2026-04-30 | 4 | [View JSON](data/daily/2026-04-30.json) |
+| 📄 2026-04-29 | 12 | [View JSON](data/daily/2026-04-29.json) |
 | 📄 2026-04-28 | 3 | [View JSON](data/daily/2026-04-28.json) |
 | 📄 2026-04-27 | 6 | [View JSON](data/daily/2026-04-27.json) |
 | 📄 2026-04-26 | 22 | [View JSON](data/daily/2026-04-26.json) |
 | 📄 2026-04-25 | 22 | [View JSON](data/daily/2026-04-25.json) |
 | 📄 2026-04-24 | 5 | [View JSON](data/daily/2026-04-24.json) |
-| 📄 2026-04-23 | 8 | [View JSON](data/daily/2026-04-23.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W17 | 21 | [View JSON](data/weekly/2026-W17.json) |
+| 📅 2026-W17 | 25 | [View JSON](data/weekly/2026-W17.json) |
 | 📅 2026-W16 | 74 | [View JSON](data/weekly/2026-W16.json) |
 | 📅 2026-W15 | 99 | [View JSON](data/weekly/2026-W15.json) |
 | 📅 2026-W14 | 140 | [View JSON](data/weekly/2026-W14.json) |
@@ -312,7 +208,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-04 | 446 | [View JSON](data/monthly/2026-04.json) |
+| 🗓️ 2026-04 | 450 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
 | 🗓️ 2026-01 | 781 | [View JSON](data/monthly/2026-01.json) |

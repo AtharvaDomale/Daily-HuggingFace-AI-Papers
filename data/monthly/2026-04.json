@@ -9235,5 +9235,89 @@
       "scraped_at": "2026-04-29T02:59:20.666357"
     },
     "scraped_date": "2026-04-29"
+  },
+  {
+    "title": "ClawGym: A Scalable Framework for Building Effective Claw Agents",
+    "paper_url": "https://huggingface.co/papers/2604.26904",
+    "authors": [
+      "Yike Yang",
+      "Daixuan Cheng",
+      "Shuang Sun",
+      "Huatong Song",
+      "Fei Bai"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ClawGym: A Scalable Framework for Building Effective Claw Agents",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.26904",
+      "pdf_url": "https://arxiv.org/pdf/2604.26904",
+      "github_links": [
+        "https://github.com/ClawGym"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.26904",
+      "scraped_at": "2026-04-30T03:22:12.006889"
+    },
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "title": "Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2604.26951",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models",
+      "abstract": "🌊 Excited to share TIDE — to our knowledge, the first framework for cross-architecture distillation of diffusion LLMs, where teacher and student may differ in architecture, attention pattern, and tokenizer. We evaluate TIDE in two heterogeneous teacher–student distillation pipelines, both using a 0.6B Qwen3-BD3LM student architecture: LLaDA2.0-mini 16B MoE teacher → 0.6B BD3LM student WeDLM-8B-Instruct 8B dense teacher → 0.6B BD3LM student Three modular components make this work: TIDAL — a dual-axis distillation schedule over training progress and diffusion timestep, which down-weights unreliable teacher signals in high-mask / high-noise regions. CompDemo — complementary mask demonstrations with dual teacher forward passes, giving each masked position extra visible context to sharpen teacher predictions. Reverse CALM — a reversed chunk-level likelihood matching objective for cross-tokenizer alignment, yielding bounded gradients and stronger mode-seeking behavior. Across 8 benchmarks, TIDE improves over the BD3LM baseline by +1.53 on average, and achieves +16.48 on HumanEval over a same-size AR model. The 0.6B student further achieves 22× memory compression and 5.2× inference speedup compared with the 16B MoE teacher. Code, checkpoints, and data are all open-sourced — feedback / Upvotes are very welcome 🌟 📄 Paper: https://huggingface.co/papers/2604.26951 💻 Code: https://github.com/PKU-YuanGroup/TIDE 🌐 Project: https://pku-yuangroup.github.io/TIDE-Page/ 🤗 Models: https://huggingface.co/TIDE-dllm/models 📚 Data: https://huggingface.co/TIDE-dllm/datasets",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.26951",
+      "pdf_url": "https://arxiv.org/pdf/2604.26951",
+      "github_links": [
+        "https://github.com/PKU-YuanGroup/TIDE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.26951",
+      "scraped_at": "2026-04-30T03:22:13.974481"
+    },
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "title": "Accelerating RL Post-Training Rollouts via System-Integrated Speculative Decoding",
+    "paper_url": "https://huggingface.co/papers/2604.26779",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Accelerating RL Post-Training Rollouts via System-Integrated Speculative Decoding",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.26779",
+      "pdf_url": "https://arxiv.org/pdf/2604.26779",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.26779",
+      "scraped_at": "2026-04-30T03:22:15.855100"
+    },
+    "scraped_date": "2026-04-30"
+  },
+  {
+    "title": "Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising",
+    "paper_url": "https://huggingface.co/papers/2604.26694",
+    "authors": [
+      "Nan Sun",
+      "Zilong Chen",
+      "Peiyan Li",
+      "Qiwei Li",
+      "Jun Guo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.26694",
+      "pdf_url": "https://arxiv.org/pdf/2604.26694",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.26694",
+      "scraped_at": "2026-04-30T03:22:17.805649"
+    },
+    "scraped_date": "2026-04-30"
   }
 ]
