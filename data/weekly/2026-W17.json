@@ -525,5 +525,245 @@
       "scraped_at": "2026-04-30T03:22:17.805649"
     },
     "scraped_date": "2026-04-30"
+  },
+  {
+    "title": "Heterogeneous Scientific Foundation Model Collaboration",
+    "paper_url": "https://huggingface.co/papers/2604.27351",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Heterogeneous Scientific Foundation Model Collaboration",
+      "abstract": "We are bringing Eywa from fiction to digital reality: a heterogeneous agentic framework that enables language models and domain-specific foundation models to collaborate together. If you find the idea interesting, we would really appreciate your support and upvote! 🌿🚀 Eywa is open-sourced at https://github.com/Violet24K/Eywa . Project page: https://www.zihao.website/eywa.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.27351",
+      "pdf_url": "https://arxiv.org/pdf/2604.27351",
+      "github_links": [
+        "https://github.com/Violet24K/Eywa"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.27351",
+      "scraped_at": "2026-05-01T03:32:12.762901"
+    },
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "title": "Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling",
+    "paper_url": "https://huggingface.co/papers/2604.28185",
+    "authors": [
+      "Haowei Zhu",
+      "Shizun Wang",
+      "Kaichen Zhang",
+      "Zuhao Yang",
+      "Keming Wu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.28185",
+      "pdf_url": "https://arxiv.org/pdf/2604.28185",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.28185",
+      "scraped_at": "2026-05-01T03:32:14.634627"
+    },
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "title": "Synthetic Computers at Scale for Long-Horizon Productivity Simulation",
+    "paper_url": "https://huggingface.co/papers/2604.28181",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Synthetic Computers at Scale for Long-Horizon Productivity Simulation",
+      "abstract": "We create user-specific synthetic computers from personas and use them as grounding environments for long-horizon productivity simulations, producing both professional deliverables and process signals for improving agents in productivity scenarios.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.28181",
+      "pdf_url": "https://arxiv.org/pdf/2604.28181",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.28181",
+      "scraped_at": "2026-05-01T03:32:16.551920"
+    },
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "title": "Intern-Atlas: A Methodological Evolution Graph as Research Infrastructure for AI Scientists",
+    "paper_url": "https://huggingface.co/papers/2604.28158",
+    "authors": [
+      "Yiling Duan",
+      "Jinhang Xu",
+      "Xinchen Li",
+      "Dongxu Zhang",
+      "Yujun Wu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Intern-Atlas: A Methodological Evolution Graph as Research Infrastructure for AI Scientists",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.28158",
+      "pdf_url": "https://arxiv.org/pdf/2604.28158",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.28158",
+      "scraped_at": "2026-05-01T03:32:18.463854"
+    },
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "title": "InteractWeb-Bench: Can Multimodal Agent Escape Blind Execution in Interactive Website Generation?",
+    "paper_url": "https://huggingface.co/papers/2604.27419",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "InteractWeb-Bench: Can Multimodal Agent Escape Blind Execution in Interactive Website Generation?",
+      "abstract": "InteractWeb-Bench is a multimodal interactive benchmark for evaluating website generation agents under real-world, non-expert user conditions. It simulates ambiguous, noisy, and conflicting user instructions through persona-driven user agents, and introduces a dynamic action space (Clarify, Implement, Verify, Submit) to assess agents’ ability to escape “blind execution” and align with user intent. If you find our work interesting, we would really appreciate your support and upvote! 🌿🚀 InteractWeb-Bench is open-sourced at https://github.com/AIforIP/InteractWeb-Bench Project page: https://interactweb-bench.wangqiyao.me/",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.27419",
+      "pdf_url": "https://arxiv.org/pdf/2604.27419",
+      "github_links": [
+        "https://github.com/AIforIP/InteractWeb-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.27419",
+      "scraped_at": "2026-05-01T03:32:20.397227"
+    },
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "title": "Representation Fréchet Loss for Visual Generation",
+    "paper_url": "https://huggingface.co/papers/2604.28190",
+    "authors": [
+      "Yue Wang",
+      "Yonglong Tian",
+      "Xuan Ju",
+      "Zhengyang Geng",
+      "Jiawei Yang"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Representation Fréchet Loss for Visual Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.28190",
+      "pdf_url": "https://arxiv.org/pdf/2604.28190",
+      "github_links": [
+        "https://github.com/Jiawei-Yang/FD-Loss"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.28190",
+      "scraped_at": "2026-05-01T03:32:22.242233"
+    },
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "title": "World2Minecraft: Occupancy-Driven Simulated Scenes Construction",
+    "paper_url": "https://huggingface.co/papers/2604.27578",
+    "authors": [
+      "Yuan Xie",
+      "Xuhong Wang",
+      "Jingyu Gong",
+      "Haoran Xu",
+      "Lechao Zhang"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "World2Minecraft: Occupancy-Driven Simulated Scenes Construction",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.27578",
+      "pdf_url": "https://arxiv.org/pdf/2604.27578",
+      "github_links": [
+        "https://github.com/Nepenthes-zlc/World2Minecraft"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.27578",
+      "scraped_at": "2026-05-01T03:32:24.203168"
+    },
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "title": "Co-Evolving Policy Distillation",
+    "paper_url": "https://huggingface.co/papers/2604.27083",
+    "authors": [
+      "Dingyu Yao",
+      "Chuanyu Qin",
+      "Qingyi Si",
+      "Chenxu Yang",
+      "Naibin Gu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Co-Evolving Policy Distillation",
+      "abstract": "work in progress",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.27083",
+      "pdf_url": "https://arxiv.org/pdf/2604.27083",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.27083",
+      "scraped_at": "2026-05-01T03:32:26.063941"
+    },
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "title": "The Last Human-Written Paper: Agent-Native Research Artifacts",
+    "paper_url": "https://huggingface.co/papers/2604.24658",
+    "authors": [],
+    "stars": "13",
+    "details": {
+      "title": "The Last Human-Written Paper: Agent-Native Research Artifacts",
+      "abstract": "Scientific publication compresses a branching, iterative research process into a linear narrative, discarding the majority of what was discovered along the way. This compilation imposes two structural costs: a Storytelling Tax, where failed experiments, rejected hypotheses, and the branching exploration process are discarded to fit a linear narrative; and an Engineering Tax, where the gap between reviewer-sufficient prose and agent-sufficient specification leaves critical implementation details unwritten. Tolerable for human readers, these costs become critical when AI agents must understand, reproduce, and extend published work. We introduce the Agent-Native Research Artifact (ARA), a protocol that replaces the narrative paper with a machine-executable research package structured around four layers: scientific logic, executable code with full specifications, an exploration graph that preserves the failures compilation discards, and evidence grounding every claim in raw outputs. Three mechanisms support the ecosystem: a Live Research Manager that captures decisions and dead ends during ordinary development; an ARA Compiler that translates legacy PDFs and repos into ARAs; and an ARA-native review system that automates objective checks so human reviewers can focus on significance, novelty, and taste. On PaperBench and RE-Bench, ARA raises question-answering accuracy from 72.4% to 93.7% and reproduction success from 57.4% to 64.4%. On RE-Bench's five open-ended extension tasks, preserved failure traces in ARA accelerate progress, but can also constrain a capable agent from stepping outside the prior-run box depending on the agent's capabilities.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.24658",
+      "pdf_url": "https://arxiv.org/pdf/2604.24658",
+      "github_links": [
+        "https://github.com/Orchestra-Research/Agent-Native-Research-Artifact"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.24658",
+      "scraped_at": "2026-05-01T03:32:28.086851"
+    },
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "title": "MoCapAnything V2: End-to-End Motion Capture for Arbitrary Skeletons",
+    "paper_url": "https://huggingface.co/papers/2604.28130",
+    "authors": [
+      "Weixia He",
+      "Mingxi Xu",
+      "Dao Thien Phong",
+      "Zhengyu Wen",
+      "Kehong Gong"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "MoCapAnything V2: End-to-End Motion Capture for Arbitrary Skeletons",
+      "abstract": "🔗 Fully end-to-end motion capture: Video → Pose → Rotation jointly learned, removing analytical IK entirely. ⚓ Reference-anchored rotation: a single pose–rotation pair defines the rotation coordinate system, resolving the intrinsic ambiguity of pose-to-rotation mapping. ⚡ Mesh-free and efficient: no mesh reconstruction, ~20× faster than prior pipelines while improving rotation accuracy. 🎯 Animation-ready outputs for arbitrary skeletons from monocular video.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.28130",
+      "pdf_url": "https://arxiv.org/pdf/2604.28130",
+      "github_links": [
+        "https://github.com/animotionlab26/MocapAnything"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.28130",
+      "scraped_at": "2026-05-01T03:32:30.046843"
+    },
+    "scraped_date": "2026-05-01"
+  },
+  {
+    "title": "PhyCo: Learning Controllable Physical Priors for Generative Motion",
+    "paper_url": "https://huggingface.co/papers/2604.28169",
+    "authors": [
+      "Manmohan Chandraker",
+      "Srinivasa Narasimhan",
+      "Ziyu Jiang",
+      "Sriram Narayanan"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "PhyCo: Learning Controllable Physical Priors for Generative Motion",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2604.28169",
+      "pdf_url": "https://arxiv.org/pdf/2604.28169",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.28169",
+      "scraped_at": "2026-05-01T03:32:32.033025"
+    },
+    "scraped_date": "2026-05-01"
   }
 ]

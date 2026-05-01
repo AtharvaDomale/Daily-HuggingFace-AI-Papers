@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-4-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3621+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-11-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3632+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">4</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">25</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">450</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3621+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">11</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">36</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">11</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3632+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** April 30, 2026
+**Last Updated:** May 01, 2026
 
 ---
 
@@ -119,52 +119,147 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. ClawGym: A Scalable Framework for Building Effective Claw Agents</b> ⭐ 0</summary>
+<summary><b>1. Heterogeneous Scientific Foundation Model Collaboration</b> ⭐ 1</summary>
 
 <br/>
 
-**👥 Authors:** Yike Yang, Daixuan Cheng, Shuang Sun, Huatong Song, Fei Bai
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.27351) • [📄 arXiv](https://arxiv.org/abs/2604.27351) • [📥 PDF](https://arxiv.org/pdf/2604.27351)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.26904) • [📄 arXiv](https://arxiv.org/abs/2604.26904) • [📥 PDF](https://arxiv.org/pdf/2604.26904)
+**💻 Code:** [⭐ Code](https://github.com/Violet24K/Eywa)
 
-**💻 Code:** [⭐ Code](https://github.com/ClawGym)
+> We are bringing Eywa from fiction to digital reality: a heterogeneous agentic framework that enables language models and domain-specific foundation models to collaborate together. If you find the idea interesting, we would really appreciate your s...
+
+</details>
+
+<details>
+<summary><b>2. Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Haowei Zhu, Shizun Wang, Kaichen Zhang, Zuhao Yang, Keming Wu
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.28185) • [📄 arXiv](https://arxiv.org/abs/2604.28185) • [📥 PDF](https://arxiv.org/pdf/2604.28185)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>2. Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models</b> ⭐ 3</summary>
+<summary><b>3. Synthetic Computers at Scale for Long-Horizon Productivity Simulation</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.26951) • [📄 arXiv](https://arxiv.org/abs/2604.26951) • [📥 PDF](https://arxiv.org/pdf/2604.26951)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.28181) • [📄 arXiv](https://arxiv.org/abs/2604.28181) • [📥 PDF](https://arxiv.org/pdf/2604.28181)
 
-**💻 Code:** [⭐ Code](https://github.com/PKU-YuanGroup/TIDE)
-
-> 🌊 Excited to share TIDE — to our knowledge, the first framework for cross-architecture distillation of diffusion LLMs, where teacher and student may differ in architecture, attention pattern, and tokenizer. We evaluate TIDE in two heterogeneous te...
+> We create user-specific synthetic computers from personas and use them as grounding environments for long-horizon productivity simulations, producing both professional deliverables and process signals for improving agents in productivity scenarios.
 
 </details>
 
 <details>
-<summary><b>3. Accelerating RL Post-Training Rollouts via System-Integrated Speculative Decoding</b> ⭐ 0</summary>
+<summary><b>4. Intern-Atlas: A Methodological Evolution Graph as Research Infrastructure for AI Scientists</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.26779) • [📄 arXiv](https://arxiv.org/abs/2604.26779) • [📥 PDF](https://arxiv.org/pdf/2604.26779)
+**👥 Authors:** Yiling Duan, Jinhang Xu, Xinchen Li, Dongxu Zhang, Yujun Wu
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.28158) • [📄 arXiv](https://arxiv.org/abs/2604.28158) • [📥 PDF](https://arxiv.org/pdf/2604.28158)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>4. Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising</b> ⭐ 0</summary>
+<summary><b>5. InteractWeb-Bench: Can Multimodal Agent Escape Blind Execution in Interactive Website Generation?</b> ⭐ 2</summary>
 
 <br/>
 
-**👥 Authors:** Nan Sun, Zilong Chen, Peiyan Li, Qiwei Li, Jun Guo
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.27419) • [📄 arXiv](https://arxiv.org/abs/2604.27419) • [📥 PDF](https://arxiv.org/pdf/2604.27419)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.26694) • [📄 arXiv](https://arxiv.org/abs/2604.26694) • [📥 PDF](https://arxiv.org/pdf/2604.26694)
+**💻 Code:** [⭐ Code](https://github.com/AIforIP/InteractWeb-Bench)
+
+> InteractWeb-Bench is a multimodal interactive benchmark for evaluating website generation agents under real-world, non-expert user conditions. It simulates ambiguous, noisy, and conflicting user instructions through persona-driven user agents, and...
+
+</details>
+
+<details>
+<summary><b>6. Representation Fréchet Loss for Visual Generation</b> ⭐ 2</summary>
+
+<br/>
+
+**👥 Authors:** Yue Wang, Yonglong Tian, Xuan Ju, Zhengyang Geng, Jiawei Yang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.28190) • [📄 arXiv](https://arxiv.org/abs/2604.28190) • [📥 PDF](https://arxiv.org/pdf/2604.28190)
+
+**💻 Code:** [⭐ Code](https://github.com/Jiawei-Yang/FD-Loss)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>7. World2Minecraft: Occupancy-Driven Simulated Scenes Construction</b> ⭐ 1</summary>
+
+<br/>
+
+**👥 Authors:** Yuan Xie, Xuhong Wang, Jingyu Gong, Haoran Xu, Lechao Zhang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.27578) • [📄 arXiv](https://arxiv.org/abs/2604.27578) • [📥 PDF](https://arxiv.org/pdf/2604.27578)
+
+**💻 Code:** [⭐ Code](https://github.com/Nepenthes-zlc/World2Minecraft)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>8. Co-Evolving Policy Distillation</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Dingyu Yao, Chuanyu Qin, Qingyi Si, Chenxu Yang, Naibin Gu
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.27083) • [📄 arXiv](https://arxiv.org/abs/2604.27083) • [📥 PDF](https://arxiv.org/pdf/2604.27083)
+
+> work in progress
+
+</details>
+
+<details>
+<summary><b>9. The Last Human-Written Paper: Agent-Native Research Artifacts</b> ⭐ 13</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.24658) • [📄 arXiv](https://arxiv.org/abs/2604.24658) • [📥 PDF](https://arxiv.org/pdf/2604.24658)
+
+**💻 Code:** [⭐ Code](https://github.com/Orchestra-Research/Agent-Native-Research-Artifact)
+
+> Scientific publication compresses a branching, iterative research process into a linear narrative, discarding the majority of what was discovered along the way. This compilation imposes two structural costs: a Storytelling Tax, where failed experi...
+
+</details>
+
+<details>
+<summary><b>10. MoCapAnything V2: End-to-End Motion Capture for Arbitrary Skeletons</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Weixia He, Mingxi Xu, Dao Thien Phong, Zhengyu Wen, Kehong Gong
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.28130) • [📄 arXiv](https://arxiv.org/abs/2604.28130) • [📥 PDF](https://arxiv.org/pdf/2604.28130)
+
+**💻 Code:** [⭐ Code](https://github.com/animotionlab26/MocapAnything)
+
+> 🔗 Fully end-to-end motion capture: Video → Pose → Rotation jointly learned, removing analytical IK entirely. ⚓ Reference-anchored rotation: a single pose–rotation pair defines the rotation coordinate system, resolving the intrinsic ambiguity of po...
+
+</details>
+
+<details>
+<summary><b>11. PhyCo: Learning Controllable Physical Priors for Generative Motion</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Manmohan Chandraker, Srinivasa Narasimhan, Ziyu Jiang, Sriram Narayanan
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.28169) • [📄 arXiv](https://arxiv.org/abs/2604.28169) • [📥 PDF](https://arxiv.org/pdf/2604.28169)
 
 > No abstract available.
 
@@ -178,28 +273,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 4 |
-| 📅 Today | [`2026-04-30.json`](data/daily/2026-04-30.json) | 4 |
-| 📆 This Week | [`2026-W17.json`](data/weekly/2026-W17.json) | 25 |
-| 🗓️ This Month | [`2026-04.json`](data/monthly/2026-04.json) | 450 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 11 |
+| 📅 Today | [`2026-05-01.json`](data/daily/2026-05-01.json) | 11 |
+| 📆 This Week | [`2026-W17.json`](data/weekly/2026-W17.json) | 36 |
+| 🗓️ This Month | [`2026-05.json`](data/monthly/2026-05.json) | 11 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-04-30 | 4 | [View JSON](data/daily/2026-04-30.json) |
+| 📌 2026-05-01 | 11 | [View JSON](data/daily/2026-05-01.json) |
+| 📄 2026-04-30 | 4 | [View JSON](data/daily/2026-04-30.json) |
 | 📄 2026-04-29 | 12 | [View JSON](data/daily/2026-04-29.json) |
 | 📄 2026-04-28 | 3 | [View JSON](data/daily/2026-04-28.json) |
 | 📄 2026-04-27 | 6 | [View JSON](data/daily/2026-04-27.json) |
 | 📄 2026-04-26 | 22 | [View JSON](data/daily/2026-04-26.json) |
 | 📄 2026-04-25 | 22 | [View JSON](data/daily/2026-04-25.json) |
-| 📄 2026-04-24 | 5 | [View JSON](data/daily/2026-04-24.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W17 | 25 | [View JSON](data/weekly/2026-W17.json) |
+| 📅 2026-W17 | 36 | [View JSON](data/weekly/2026-W17.json) |
 | 📅 2026-W16 | 74 | [View JSON](data/weekly/2026-W16.json) |
 | 📅 2026-W15 | 99 | [View JSON](data/weekly/2026-W15.json) |
 | 📅 2026-W14 | 140 | [View JSON](data/weekly/2026-W14.json) |
@@ -208,6 +303,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
+| 🗓️ 2026-05 | 11 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 450 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
