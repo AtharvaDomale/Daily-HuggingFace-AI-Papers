@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-11-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3632+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-24-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3656+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">11</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">36</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">11</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3632+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">24</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">60</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">35</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3656+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** May 01, 2026
+**Last Updated:** May 02, 2026
 
 ---
 
@@ -119,7 +119,7 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Heterogeneous Scientific Foundation Model Collaboration</b> ⭐ 1</summary>
+<summary><b>1. Heterogeneous Scientific Foundation Model Collaboration</b> ⭐ 10</summary>
 
 <br/>
 
@@ -140,79 +140,14 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.28185) • [📄 arXiv](https://arxiv.org/abs/2604.28185) • [📥 PDF](https://arxiv.org/pdf/2604.28185)
 
-> No abstract available.
+**💻 Code:** [⭐ Code](https://github.com/EvolvingLMMs-Lab/Evolving-Visual-Generation)
+
+> Thanks @ taesiri for promoting our paper! We are excited to share our new roadmap, "Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling". The thesis is a pragmatic one: visual generation has entered its sec...
 
 </details>
 
 <details>
-<summary><b>3. Synthetic Computers at Scale for Long-Horizon Productivity Simulation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.28181) • [📄 arXiv](https://arxiv.org/abs/2604.28181) • [📥 PDF](https://arxiv.org/pdf/2604.28181)
-
-> We create user-specific synthetic computers from personas and use them as grounding environments for long-horizon productivity simulations, producing both professional deliverables and process signals for improving agents in productivity scenarios.
-
-</details>
-
-<details>
-<summary><b>4. Intern-Atlas: A Methodological Evolution Graph as Research Infrastructure for AI Scientists</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Yiling Duan, Jinhang Xu, Xinchen Li, Dongxu Zhang, Yujun Wu
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.28158) • [📄 arXiv](https://arxiv.org/abs/2604.28158) • [📥 PDF](https://arxiv.org/pdf/2604.28158)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>5. InteractWeb-Bench: Can Multimodal Agent Escape Blind Execution in Interactive Website Generation?</b> ⭐ 2</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.27419) • [📄 arXiv](https://arxiv.org/abs/2604.27419) • [📥 PDF](https://arxiv.org/pdf/2604.27419)
-
-**💻 Code:** [⭐ Code](https://github.com/AIforIP/InteractWeb-Bench)
-
-> InteractWeb-Bench is a multimodal interactive benchmark for evaluating website generation agents under real-world, non-expert user conditions. It simulates ambiguous, noisy, and conflicting user instructions through persona-driven user agents, and...
-
-</details>
-
-<details>
-<summary><b>6. Representation Fréchet Loss for Visual Generation</b> ⭐ 2</summary>
-
-<br/>
-
-**👥 Authors:** Yue Wang, Yonglong Tian, Xuan Ju, Zhengyang Geng, Jiawei Yang
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.28190) • [📄 arXiv](https://arxiv.org/abs/2604.28190) • [📥 PDF](https://arxiv.org/pdf/2604.28190)
-
-**💻 Code:** [⭐ Code](https://github.com/Jiawei-Yang/FD-Loss)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>7. World2Minecraft: Occupancy-Driven Simulated Scenes Construction</b> ⭐ 1</summary>
-
-<br/>
-
-**👥 Authors:** Yuan Xie, Xuhong Wang, Jingyu Gong, Haoran Xu, Lechao Zhang
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.27578) • [📄 arXiv](https://arxiv.org/abs/2604.27578) • [📥 PDF](https://arxiv.org/pdf/2604.27578)
-
-**💻 Code:** [⭐ Code](https://github.com/Nepenthes-zlc/World2Minecraft)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>8. Co-Evolving Policy Distillation</b> ⭐ 0</summary>
+<summary><b>3. Co-Evolving Policy Distillation</b> ⭐ 0</summary>
 
 <br/>
 
@@ -225,7 +160,150 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>9. The Last Human-Written Paper: Agent-Native Research Artifacts</b> ⭐ 13</summary>
+<summary><b>4. ExoActor: Exocentric Video Generation as Generalizable Interactive Humanoid Control</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Yu Bai, Zhenguo Sun, Yibo Peng, Jingyu Ma, Yanghao Zhou
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.27711) • [📄 arXiv](https://arxiv.org/abs/2604.27711) • [📥 PDF](https://arxiv.org/pdf/2604.27711)
+
+> ExoActor provides a scalable approach to modeling interaction-rich humanoid behaviors, potentially opening a new avenue for generative models to advance general-purpose humanoid intelligence. Feedback is very welcome!
+
+</details>
+
+<details>
+<summary><b>5. Efficient Training on Multiple Consumer GPUs with RoundPipe</b> ⭐ 30</summary>
+
+<br/>
+
+**👥 Authors:** Jiwu Shu, Youyou Lu, Huichuan Zheng, Shiwei Gao, Yibin Luo
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.27085) • [📄 arXiv](https://arxiv.org/abs/2604.27085) • [📥 PDF](https://arxiv.org/pdf/2604.27085)
+
+**💻 Code:** [⭐ Code](https://github.com/ITcarrot/RoundPipe)
+
+> Fine-tuning Large Language Models (LLMs) on consumer-grade GPUs is highly cost-effective, yet constrained by limited GPU memory and slow PCIe interconnects. Pipeline parallelism combined with CPU offloading mitigates these hardware bottlenecks by ...
+
+</details>
+
+<details>
+<summary><b>6. Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows</b> ⭐ 8</summary>
+
+<br/>
+
+**👥 Authors:** Shijue Huang, Yunlong Lin, Huangxin Lin, Zhengyang Tang, Chenxin Li
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.28139) • [📄 arXiv](https://arxiv.org/abs/2604.28139) • [📥 PDF](https://arxiv.org/pdf/2604.28139)
+
+**💻 Code:** [⭐ Code](https://github.com/Claw-Eval-Live/Claw-Eval-Live)
+
+> Claw-Eval-Live is a live benchmark for LLM workflow agents. Each release is constructed from public workflow-demand signals (ClawHub Top-500 skills) rather than frozen at release time, and materialized as 105 executable tasks with fixed fixtures, ...
+
+</details>
+
+<details>
+<summary><b>7. Length Value Model: Scalable Value Pretraining for Token-Level Length Modeling</b> ⭐ 6</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.27039) • [📄 arXiv](https://arxiv.org/abs/2604.27039) • [📥 PDF](https://arxiv.org/pdf/2604.27039)
+
+**💻 Code:** [⭐ Code](https://github.com/eric-ai-lab/Length-Value-Model)
+
+> Try our demo to see the impact of each token on the expected length. https://length-value-model.github.io/demo/index.html
+
+</details>
+
+<details>
+<summary><b>8. Leveraging Verifier-Based Reinforcement Learning in Image Editing</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.27505) • [📄 arXiv](https://arxiv.org/abs/2604.27505) • [📥 PDF](https://arxiv.org/pdf/2604.27505)
+
+> Leveraging Verifier-Based Reinforcement Learning in Image Editing
+
+</details>
+
+<details>
+<summary><b>9. Intern-Atlas: A Methodological Evolution Graph as Research Infrastructure for AI Scientists</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Yiling Duan, Jinhang Xu, Xinchen Li, Dongxu Zhang, Yujun Wu
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.28158) • [📄 arXiv](https://arxiv.org/abs/2604.28158) • [📥 PDF](https://arxiv.org/pdf/2604.28158)
+
+> i think this is a fascinating work, very timely in this field. thank you for your contribution to the community! the only thing i'd suggest is that the online graph seems pretty slow when clicking some large concepts, like Skip Connection.
+
+</details>
+
+<details>
+<summary><b>10. Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.24954) • [📄 arXiv](https://arxiv.org/abs/2604.24954) • [📥 PDF](https://arxiv.org/pdf/2604.24954)
+
+> We introduce Nemotron 3 Nano Omni, the latest model in the Nemotron multimodal series and the first to natively support audio inputs alongside text, images, and video. Nemotron 3 Nano Omni delivers consistent accuracy improvements over its predece...
+
+</details>
+
+<details>
+<summary><b>11. InteractWeb-Bench: Can Multimodal Agent Escape Blind Execution in Interactive Website Generation?</b> ⭐ 4</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.27419) • [📄 arXiv](https://arxiv.org/abs/2604.27419) • [📥 PDF](https://arxiv.org/pdf/2604.27419)
+
+**💻 Code:** [⭐ Code](https://github.com/AIforIP/InteractWeb-Bench)
+
+> InteractWeb-Bench is a multimodal interactive benchmark for evaluating website generation agents under real-world, non-expert user conditions. It simulates ambiguous, noisy, and conflicting user instructions through persona-driven user agents, and...
+
+</details>
+
+<details>
+<summary><b>12. Synthetic Computers at Scale for Long-Horizon Productivity Simulation</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.28181) • [📄 arXiv](https://arxiv.org/abs/2604.28181) • [📥 PDF](https://arxiv.org/pdf/2604.28181)
+
+> We create user-specific synthetic computers from personas and use them as grounding environments for long-horizon productivity simulations, producing both professional deliverables and process signals for improving agents in productivity scenarios.
+
+</details>
+
+<details>
+<summary><b>13. Representation Fréchet Loss for Visual Generation</b> ⭐ 65</summary>
+
+<br/>
+
+**👥 Authors:** Yue Wang, Yonglong Tian, Xuan Ju, Zhengyang Geng, Jiawei Yang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.28190) • [📄 arXiv](https://arxiv.org/abs/2604.28190) • [📥 PDF](https://arxiv.org/pdf/2604.28190)
+
+**💻 Code:** [⭐ Code](https://github.com/Jiawei-Yang/FD-Loss)
+
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Evaluating Generative Models via One-Dimensional Code Distributions (2026) ...
+
+</details>
+
+<details>
+<summary><b>14. Step-level Optimization for Efficient Computer-use Agents</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.27151) • [📄 arXiv](https://arxiv.org/abs/2604.27151) • [📥 PDF](https://arxiv.org/pdf/2604.27151)
+
+**💻 Code:** [⭐ Code](https://github.com/yale-nlp/StepWise)
+
+> We introduce an event-driven, step-level cascade for efficient computer-use agents. Instead of invoking a frontier VLM at every GUI step, our framework runs a smaller policy by default and escalates only when lightweight monitors detect progress s...
+
+</details>
+
+<details>
+<summary><b>15. The Last Human-Written Paper: Agent-Native Research Artifacts</b> ⭐ 22</summary>
 
 <br/>
 
@@ -238,7 +316,22 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>10. MoCapAnything V2: End-to-End Motion Capture for Arbitrary Skeletons</b> ⭐ 0</summary>
+<summary><b>16. Compliance versus Sensibility: On the Reasoning Controllability in Large Language Models</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Maria Liakata, Yuxiang Zhou, Mahmud Elahi Akhter, Marco Valentino, Xingwei Tan
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.27251) • [📄 arXiv](https://arxiv.org/abs/2604.27251) • [📥 PDF](https://arxiv.org/pdf/2604.27251)
+
+**💻 Code:** [⭐ Code](https://github.com/Xingwei-Tan/compliance_sensibility)
+
+> We explore whether LLMs can decouple reasoning types from specific tasks by analyzing reasoning conflicts, finding that while models prioritize task logic, these patterns are internally detectable and can be steered to improve controllability.
+
+</details>
+
+<details>
+<summary><b>17. MoCapAnything V2: End-to-End Motion Capture for Arbitrary Skeletons</b> ⭐ 47</summary>
 
 <br/>
 
@@ -253,7 +346,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>11. PhyCo: Learning Controllable Physical Priors for Generative Motion</b> ⭐ 0</summary>
+<summary><b>18. PhyCo: Learning Controllable Physical Priors for Generative Motion</b> ⭐ 0</summary>
 
 <br/>
 
@@ -261,7 +354,87 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.28169) • [📄 arXiv](https://arxiv.org/abs/2604.28169) • [📥 PDF](https://arxiv.org/pdf/2604.28169)
 
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Physical Simulator In-the-Loop Video Generation (2026) PhysAlign: Physics-C...
+
+</details>
+
+<details>
+<summary><b>19. Learning from Noisy Preferences: A Semi-Supervised Learning Approach to Direct Preference Optimization</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Chen Chen, Yuzhang Shang, Zonglin Lyu, Ming Li, Xinxin Liu
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.24952) • [📄 arXiv](https://arxiv.org/abs/2604.24952) • [📥 PDF](https://arxiv.org/pdf/2604.24952)
+
+> Project Page: https://liming-ai.github.io/SemiDPO
+
+</details>
+
+<details>
+<summary><b>20. World2Minecraft: Occupancy-Driven Simulated Scenes Construction</b> ⭐ 2</summary>
+
+<br/>
+
+**👥 Authors:** Yuan Xie, Xuhong Wang, Jingyu Gong, Haoran Xu, Lechao Zhang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.27578) • [📄 arXiv](https://arxiv.org/abs/2604.27578) • [📥 PDF](https://arxiv.org/pdf/2604.27578)
+
+**💻 Code:** [⭐ Code](https://github.com/Nepenthes-zlc/World2Minecraft)
+
 > No abstract available.
+
+</details>
+
+<details>
+<summary><b>21. Instruction-Guided Poetry Generation in Arabic and Its Dialects</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.27766) • [📄 arXiv](https://arxiv.org/abs/2604.27766) • [📥 PDF](https://arxiv.org/pdf/2604.27766)
+
+**💻 Code:** [⭐ Code](https://github.com/mbzuai-nlp/instructpoet-ar)
+
+> Arabic poetry finally gets instruction tuning: 1.35M examples, 5 language varieties, and controllable generation for writing, revising, continuing, and analyzing verse.
+
+</details>
+
+<details>
+<summary><b>22. ViPO: Visual Preference Optimization at Scale</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Rui Wang, Xiaojie Li, Justin Cui, Jie Wu, Ming Li
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.24953) • [📄 arXiv](https://arxiv.org/abs/2604.24953) • [📥 PDF](https://arxiv.org/pdf/2604.24953)
+
+> Project Page: https://liming-ai.github.io/ViPO
+
+</details>
+
+<details>
+<summary><b>23. FlashRT: Towards Computationally and Memory Efficient Red-Teaming for Prompt Injection and Knowledge Corruption</b> ⭐ 1</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.28157) • [📄 arXiv](https://arxiv.org/abs/2604.28157) • [📥 PDF](https://arxiv.org/pdf/2604.28157)
+
+**💻 Code:** [⭐ Code](https://github.com/wang-yanting/FlashRT)
+
+> The code is available at https://github.com/wang-yanting/FlashRT
+
+</details>
+
+<details>
+<summary><b>24. Safety Drift After Fine-Tuning: Evidence from High-Stakes Domains</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Dylan Hadfield-Menell, Miranda Bogen, Amy Winecoff, Emaan Bilal Khan
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.24902) • [📄 arXiv](https://arxiv.org/abs/2604.24902) • [📥 PDF](https://arxiv.org/pdf/2604.24902)
+
+> This paper analyzes the safety behavior of 100 models to understand the safety impact of benign fine-tuning, including widely deployed fine-tunes in the medical and legal domains as well as controlled adaptations of open foundation models alongsid...
 
 </details>
 
@@ -273,28 +446,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 11 |
-| 📅 Today | [`2026-05-01.json`](data/daily/2026-05-01.json) | 11 |
-| 📆 This Week | [`2026-W17.json`](data/weekly/2026-W17.json) | 36 |
-| 🗓️ This Month | [`2026-05.json`](data/monthly/2026-05.json) | 11 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 24 |
+| 📅 Today | [`2026-05-02.json`](data/daily/2026-05-02.json) | 24 |
+| 📆 This Week | [`2026-W17.json`](data/weekly/2026-W17.json) | 60 |
+| 🗓️ This Month | [`2026-05.json`](data/monthly/2026-05.json) | 35 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-05-01 | 11 | [View JSON](data/daily/2026-05-01.json) |
+| 📌 2026-05-02 | 24 | [View JSON](data/daily/2026-05-02.json) |
+| 📄 2026-05-01 | 11 | [View JSON](data/daily/2026-05-01.json) |
 | 📄 2026-04-30 | 4 | [View JSON](data/daily/2026-04-30.json) |
 | 📄 2026-04-29 | 12 | [View JSON](data/daily/2026-04-29.json) |
 | 📄 2026-04-28 | 3 | [View JSON](data/daily/2026-04-28.json) |
 | 📄 2026-04-27 | 6 | [View JSON](data/daily/2026-04-27.json) |
 | 📄 2026-04-26 | 22 | [View JSON](data/daily/2026-04-26.json) |
-| 📄 2026-04-25 | 22 | [View JSON](data/daily/2026-04-25.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W17 | 36 | [View JSON](data/weekly/2026-W17.json) |
+| 📅 2026-W17 | 60 | [View JSON](data/weekly/2026-W17.json) |
 | 📅 2026-W16 | 74 | [View JSON](data/weekly/2026-W16.json) |
 | 📅 2026-W15 | 99 | [View JSON](data/weekly/2026-W15.json) |
 | 📅 2026-W14 | 140 | [View JSON](data/weekly/2026-W14.json) |
@@ -303,7 +476,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-05 | 11 | [View JSON](data/monthly/2026-05.json) |
+| 🗓️ 2026-05 | 35 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 450 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |
