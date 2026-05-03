@@ -756,5 +756,523 @@
       "scraped_at": "2026-05-02T02:49:02.809113"
     },
     "scraped_date": "2026-05-02"
+  },
+  {
+    "title": "Heterogeneous Scientific Foundation Model Collaboration",
+    "paper_url": "https://huggingface.co/papers/2604.27351",
+    "authors": [],
+    "stars": "18",
+    "details": {
+      "title": "Heterogeneous Scientific Foundation Model Collaboration",
+      "abstract": "We are bringing Eywa from fiction to digital reality: a heterogeneous agentic framework that enables language models and domain-specific foundation models to collaborate together. If you find the idea interesting, we would really appreciate your support and upvote! 🌿🚀 Eywa is open-sourced at https://github.com/Violet24K/Eywa . Project page: https://www.zihao.website/eywa.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.27351",
+      "pdf_url": "https://arxiv.org/pdf/2604.27351",
+      "github_links": [
+        "https://github.com/Violet24K/Eywa"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.27351",
+      "scraped_at": "2026-05-03T03:23:14.502842"
+    },
+    "scraped_date": "2026-05-03"
+  },
+  {
+    "title": "Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling",
+    "paper_url": "https://huggingface.co/papers/2604.28185",
+    "authors": [
+      "Haowei Zhu",
+      "Shizun Wang",
+      "Kaichen Zhang",
+      "Zuhao Yang",
+      "Keming Wu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling",
+      "abstract": "Thanks @ taesiri for promoting our paper! We are excited to share our new roadmap, \"Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling\". The thesis is a pragmatic one: visual generation has entered its second half. The competition is no longer mainly about producing prettier images, but about whether models can understand structure, preserve identity and state, respect complex constraints, sustain multi-turn editing, and ultimately move toward interactive world modeling. To make this concrete, we propose a 5-level taxonomy of visual intelligence — Atomic Generation, Conditional Generation, In-Context Generation, Agentic Generation, and World-Modeling Generation — as a unified frame for what it means for a visual generation model to genuinely become more intelligent. Along this trajectory we systematically review the capability shifts emerging in frontier systems such as Nano Banana and GPT-Image-2, and we distill the training recipes that are converging across recent technical reports — Qwen-Image, Z-Image, Seedream, HunyuanImage, LongCat, Wan-Image, and others — covering flow matching, DiT, and unified multimodal architectures; the PT → CT → SFT → RL pipeline; and the surrounding stack of VLM relabeling, data curation, synthetic-data distillation, DPO/GRPO, reward modeling, and inference acceleration. A core observation is that the gap between open and closed source is shifting away from raw image quality and toward data engineering, post-training, long context, multi-turn consistency, tool use, and verification closed loops. We also design a suite of in-the-wild stress tests —jigsaw reconstruction, metro-map topology, coordinate maps, physical causality, multi-turn editing, and image text reasoning — to probe whether a model only \"looks right\" or actually \"understands\".",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.28185",
+      "pdf_url": "https://arxiv.org/pdf/2604.28185",
+      "github_links": [
+        "https://github.com/EvolvingLMMs-Lab/Evolving-Visual-Generation"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.28185",
+      "scraped_at": "2026-05-03T03:23:16.454402"
+    },
+    "scraped_date": "2026-05-03"
+  },
+  {
+    "title": "Co-Evolving Policy Distillation",
+    "paper_url": "https://huggingface.co/papers/2604.27083",
+    "authors": [
+      "Dingyu Yao",
+      "Chuanyu Qin",
+      "Qingyi Si",
+      "Chenxu Yang",
+      "Naibin Gu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Co-Evolving Policy Distillation",
+      "abstract": "work in progress",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.27083",
+      "pdf_url": "https://arxiv.org/pdf/2604.27083",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.27083",
+      "scraped_at": "2026-05-03T03:23:18.461315"
+    },
+    "scraped_date": "2026-05-03"
+  },
+  {
+    "title": "ExoActor: Exocentric Video Generation as Generalizable Interactive Humanoid Control",
+    "paper_url": "https://huggingface.co/papers/2604.27711",
+    "authors": [
+      "Yu Bai",
+      "Zhenguo Sun",
+      "Yibo Peng",
+      "Jingyu Ma",
+      "Yanghao Zhou"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ExoActor: Exocentric Video Generation as Generalizable Interactive Humanoid Control",
+      "abstract": "ExoActor provides a scalable approach to modeling interaction-rich humanoid behaviors, potentially opening a new avenue for generative models to advance general-purpose humanoid intelligence. Feedback is very welcome!",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.27711",
+      "pdf_url": "https://arxiv.org/pdf/2604.27711",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.27711",
+      "scraped_at": "2026-05-03T03:23:20.362603"
+    },
+    "scraped_date": "2026-05-03"
+  },
+  {
+    "title": "Efficient Training on Multiple Consumer GPUs with RoundPipe",
+    "paper_url": "https://huggingface.co/papers/2604.27085",
+    "authors": [
+      "Jiwu Shu",
+      "Youyou Lu",
+      "Huichuan Zheng",
+      "Shiwei Gao",
+      "Yibin Luo"
+    ],
+    "stars": "51",
+    "details": {
+      "title": "Efficient Training on Multiple Consumer GPUs with RoundPipe",
+      "abstract": "Fine-tuning Large Language Models (LLMs) on consumer-grade GPUs is highly cost-effective, yet constrained by limited GPU memory and slow PCIe interconnects. Pipeline parallelism combined with CPU offloading mitigates these hardware bottlenecks by reducing communication overhead. However, existing PP schedules suffer from an inherent limitation termed the weight binding issue. Binding uneven model stages (e.g., the LM head is large) to GPUs limits the pipeline's throughput to that of the GPU with the heaviest load, leading to severe pipeline bubbles. In this paper, we propose RoundPipe, a novel pipeline schedule that breaks the weight binding constraint on consumer GPU servers. RoundPipe treats GPUs as a pool of stateless execution workers and dynamically dispatches computation stages across devices in a round-robin manner, achieving a near-zero-bubble pipeline. To ensure training correctness and system efficiency, RoundPipe integrates a priority-aware transfer scheduling engine, a fine-grained distributed event-based synchronization protocol, and an automated layer partitioning algorithm. Evaluations on an 8× RTX 4090 server demonstrate that RoundPipe achieves 1.48--2.16× speedups over state-of-the-art baselines when fine-tuning 1.7B to 32B models. Remarkably, RoundPipe enables LoRA fine-tuning of the Qwen3-235B model with 31K sequence length on a single server. RoundPipe is publicly available as an open-source Python library with comprehensive documentation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.27085",
+      "pdf_url": "https://arxiv.org/pdf/2604.27085",
+      "github_links": [
+        "https://github.com/ITcarrot/RoundPipe"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.27085",
+      "scraped_at": "2026-05-03T03:23:22.328290"
+    },
+    "scraped_date": "2026-05-03"
+  },
+  {
+    "title": "Leveraging Verifier-Based Reinforcement Learning in Image Editing",
+    "paper_url": "https://huggingface.co/papers/2604.27505",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Leveraging Verifier-Based Reinforcement Learning in Image Editing",
+      "abstract": "Leveraging Verifier-Based Reinforcement Learning in Image Editing",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.27505",
+      "pdf_url": "https://arxiv.org/pdf/2604.27505",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.27505",
+      "scraped_at": "2026-05-03T03:23:24.360705"
+    },
+    "scraped_date": "2026-05-03"
+  },
+  {
+    "title": "Intern-Atlas: A Methodological Evolution Graph as Research Infrastructure for AI Scientists",
+    "paper_url": "https://huggingface.co/papers/2604.28158",
+    "authors": [
+      "Yiling Duan",
+      "Jinhang Xu",
+      "Xinchen Li",
+      "Dongxu Zhang",
+      "Yujun Wu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Intern-Atlas: A Methodological Evolution Graph as Research Infrastructure for AI Scientists",
+      "abstract": "i think this is a fascinating work, very timely in this field. thank you for your contribution to the community! the only thing i'd suggest is that the online graph seems pretty slow when clicking some large concepts, like Skip Connection.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.28158",
+      "pdf_url": "https://arxiv.org/pdf/2604.28158",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.28158",
+      "scraped_at": "2026-05-03T03:23:26.246620"
+    },
+    "scraped_date": "2026-05-03"
+  },
+  {
+    "title": "Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows",
+    "paper_url": "https://huggingface.co/papers/2604.28139",
+    "authors": [
+      "Shijue Huang",
+      "Yunlong Lin",
+      "Huangxin Lin",
+      "Zhengyang Tang",
+      "Chenxin Li"
+    ],
+    "stars": "21",
+    "details": {
+      "title": "Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows",
+      "abstract": "Claw-Eval-Live is a live benchmark for LLM workflow agents. Each release is constructed from public workflow-demand signals (ClawHub Top-500 skills) rather than frozen at release time, and materialized as 105 executable tasks with fixed fixtures, services, and task-specific graders. Tasks span controlled business services (CRM, HR, finance, email, helpdesk, calendar) and local workspace repair. Grading combines deterministic checks with structured LLM judging only for semantic dimensions. We evaluate 13 frontier models under a unified protocol. Key findings: The top model (Claude Opus 4.6) passes only 66.7% of tasks, and no model reaches 70%. Local workspace repair is near-ceiling, but service-backed business workflows remain the real bottleneck — HR averages 6.8%, management is all-fail, multi-system coordination stays hard. Models with similar pass rates diverge substantially in overall completion, so leaderboard rank alone is insufficient. Project page: https://claw-eval-live.github.io",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.28139",
+      "pdf_url": "https://arxiv.org/pdf/2604.28139",
+      "github_links": [
+        "https://github.com/Claw-Eval-Live/Claw-Eval-Live"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.28139",
+      "scraped_at": "2026-05-03T03:23:28.184391"
+    },
+    "scraped_date": "2026-05-03"
+  },
+  {
+    "title": "Length Value Model: Scalable Value Pretraining for Token-Level Length Modeling",
+    "paper_url": "https://huggingface.co/papers/2604.27039",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "Length Value Model: Scalable Value Pretraining for Token-Level Length Modeling",
+      "abstract": "Try our demo to see the impact of each token on the expected length. https://length-value-model.github.io/demo/index.html",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.27039",
+      "pdf_url": "https://arxiv.org/pdf/2604.27039",
+      "github_links": [
+        "https://github.com/eric-ai-lab/Length-Value-Model"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.27039",
+      "scraped_at": "2026-05-03T03:23:30.057408"
+    },
+    "scraped_date": "2026-05-03"
+  },
+  {
+    "title": "Representation Fréchet Loss for Visual Generation",
+    "paper_url": "https://huggingface.co/papers/2604.28190",
+    "authors": [
+      "Yue Wang",
+      "Yonglong Tian",
+      "Xuan Ju",
+      "Zhengyang Geng",
+      "Jiawei Yang"
+    ],
+    "stars": "133",
+    "details": {
+      "title": "Representation Fréchet Loss for Visual Generation",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Evaluating Generative Models via One-Dimensional Code Distributions (2026) Efficient Diffusion Distillation via Embedding Loss (2026) DUO-VSR: Dual-Stream Distillation for One-Step Video Super-Resolution (2026) Continuous Adversarial Flow Models (2026) DiverseDiT: Towards Diverse Representation Learning in Diffusion Transformers (2026) Geometry Preserving Loss Functions Promote Improved Adaptation of Blackbox Generative Model (2026) One View Is Enough! Monocular Training for In-the-Wild Novel View Generation (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.28190",
+      "pdf_url": "https://arxiv.org/pdf/2604.28190",
+      "github_links": [
+        "https://github.com/Jiawei-Yang/FD-Loss"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.28190",
+      "scraped_at": "2026-05-03T03:23:31.933685"
+    },
+    "scraped_date": "2026-05-03"
+  },
+  {
+    "title": "Synthetic Computers at Scale for Long-Horizon Productivity Simulation",
+    "paper_url": "https://huggingface.co/papers/2604.28181",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Synthetic Computers at Scale for Long-Horizon Productivity Simulation",
+      "abstract": "We create user-specific synthetic computers from personas and use them as grounding environments for long-horizon productivity simulations, producing both professional deliverables and process signals for improving agents in productivity scenarios.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.28181",
+      "pdf_url": "https://arxiv.org/pdf/2604.28181",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.28181",
+      "scraped_at": "2026-05-03T03:23:33.805174"
+    },
+    "scraped_date": "2026-05-03"
+  },
+  {
+    "title": "Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence",
+    "paper_url": "https://huggingface.co/papers/2604.24954",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence",
+      "abstract": "We introduce Nemotron 3 Nano Omni, the latest model in the Nemotron multimodal series and the first to natively support audio inputs alongside text, images, and video. Nemotron 3 Nano Omni delivers consistent accuracy improvements over its predecessor, Nemotron Nano V2 VL, across all modalities, enabled by advances in architecture, training data and recipes.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.24954",
+      "pdf_url": "https://arxiv.org/pdf/2604.24954",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.24954",
+      "scraped_at": "2026-05-03T03:23:35.716522"
+    },
+    "scraped_date": "2026-05-03"
+  },
+  {
+    "title": "The Last Human-Written Paper: Agent-Native Research Artifacts",
+    "paper_url": "https://huggingface.co/papers/2604.24658",
+    "authors": [],
+    "stars": "30",
+    "details": {
+      "title": "The Last Human-Written Paper: Agent-Native Research Artifacts",
+      "abstract": "Scientific publication compresses a branching, iterative research process into a linear narrative, discarding the majority of what was discovered along the way. This compilation imposes two structural costs: a Storytelling Tax, where failed experiments, rejected hypotheses, and the branching exploration process are discarded to fit a linear narrative; and an Engineering Tax, where the gap between reviewer-sufficient prose and agent-sufficient specification leaves critical implementation details unwritten. Tolerable for human readers, these costs become critical when AI agents must understand, reproduce, and extend published work. We introduce the Agent-Native Research Artifact (ARA), a protocol that replaces the narrative paper with a machine-executable research package structured around four layers: scientific logic, executable code with full specifications, an exploration graph that preserves the failures compilation discards, and evidence grounding every claim in raw outputs. Three mechanisms support the ecosystem: a Live Research Manager that captures decisions and dead ends during ordinary development; an ARA Compiler that translates legacy PDFs and repos into ARAs; and an ARA-native review system that automates objective checks so human reviewers can focus on significance, novelty, and taste. On PaperBench and RE-Bench, ARA raises question-answering accuracy from 72.4% to 93.7% and reproduction success from 57.4% to 64.4%. On RE-Bench's five open-ended extension tasks, preserved failure traces in ARA accelerate progress, but can also constrain a capable agent from stepping outside the prior-run box depending on the agent's capabilities.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.24658",
+      "pdf_url": "https://arxiv.org/pdf/2604.24658",
+      "github_links": [
+        "https://github.com/Orchestra-Research/Agent-Native-Research-Artifact"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.24658",
+      "scraped_at": "2026-05-03T03:23:37.712774"
+    },
+    "scraped_date": "2026-05-03"
+  },
+  {
+    "title": "InteractWeb-Bench: Can Multimodal Agent Escape Blind Execution in Interactive Website Generation?",
+    "paper_url": "https://huggingface.co/papers/2604.27419",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "InteractWeb-Bench: Can Multimodal Agent Escape Blind Execution in Interactive Website Generation?",
+      "abstract": "InteractWeb-Bench is a multimodal interactive benchmark for evaluating website generation agents under real-world, non-expert user conditions. It simulates ambiguous, noisy, and conflicting user instructions through persona-driven user agents, and introduces a dynamic action space (Clarify, Implement, Verify, Submit) to assess agents’ ability to escape “blind execution” and align with user intent. If you find our work interesting, we would really appreciate your support and upvote! 🌿🚀 InteractWeb-Bench is open-sourced at https://github.com/AIforIP/InteractWeb-Bench Project page: https://interactweb-bench.wangqiyao.me/",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.27419",
+      "pdf_url": "https://arxiv.org/pdf/2604.27419",
+      "github_links": [
+        "https://github.com/AIforIP/InteractWeb-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.27419",
+      "scraped_at": "2026-05-03T03:23:39.554580"
+    },
+    "scraped_date": "2026-05-03"
+  },
+  {
+    "title": "Step-level Optimization for Efficient Computer-use Agents",
+    "paper_url": "https://huggingface.co/papers/2604.27151",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Step-level Optimization for Efficient Computer-use Agents",
+      "abstract": "We introduce an event-driven, step-level cascade for efficient computer-use agents. Instead of invoking a frontier VLM at every GUI step, our framework runs a smaller policy by default and escalates only when lightweight monitors detect progress stalls or milestone checkpoints that require verification. Across OSWorld and WebArena, this adaptive routing recovers much of the performance of always-large agents while substantially reducing large-model usage, latency, and cost.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.27151",
+      "pdf_url": "https://arxiv.org/pdf/2604.27151",
+      "github_links": [
+        "https://github.com/yale-nlp/StepWise"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.27151",
+      "scraped_at": "2026-05-03T03:23:41.416041"
+    },
+    "scraped_date": "2026-05-03"
+  },
+  {
+    "title": "PhyCo: Learning Controllable Physical Priors for Generative Motion",
+    "paper_url": "https://huggingface.co/papers/2604.28169",
+    "authors": [
+      "Manmohan Chandraker",
+      "Srinivasa Narasimhan",
+      "Ziyu Jiang",
+      "Sriram Narayanan"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "PhyCo: Learning Controllable Physical Priors for Generative Motion",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Physical Simulator In-the-Loop Video Generation (2026) PhysAlign: Physics-Coherent Image-to-Video Generation through Feature and 3D Representation Alignment (2026) Phys4D: Fine-Grained Physics-Consistent 4D Modeling from Video Diffusion (2026) Toward Physically Consistent Driving Video World Models under Challenging Trajectories (2026) PhysVideo: Physically Plausible Video Generation with Cross-View Geometry Guidance (2026) Generative World Renderer (2026) PhysLayer: Language-Guided Layered Animation with Depth-Aware Physics (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.28169",
+      "pdf_url": "https://arxiv.org/pdf/2604.28169",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.28169",
+      "scraped_at": "2026-05-03T03:23:43.976631"
+    },
+    "scraped_date": "2026-05-03"
+  },
+  {
+    "title": "MoCapAnything V2: End-to-End Motion Capture for Arbitrary Skeletons",
+    "paper_url": "https://huggingface.co/papers/2604.28130",
+    "authors": [
+      "Weixia He",
+      "Mingxi Xu",
+      "Dao Thien Phong",
+      "Zhengyu Wen",
+      "Kehong Gong"
+    ],
+    "stars": "79",
+    "details": {
+      "title": "MoCapAnything V2: End-to-End Motion Capture for Arbitrary Skeletons",
+      "abstract": "🔗 Fully end-to-end motion capture: Video → Pose → Rotation jointly learned, removing analytical IK entirely. ⚓ Reference-anchored rotation: a single pose–rotation pair defines the rotation coordinate system, resolving the intrinsic ambiguity of pose-to-rotation mapping. ⚡ Mesh-free and efficient: no mesh reconstruction, ~20× faster than prior pipelines while improving rotation accuracy. 🎯 Animation-ready outputs for arbitrary skeletons from monocular video.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.28130",
+      "pdf_url": "https://arxiv.org/pdf/2604.28130",
+      "github_links": [
+        "https://github.com/animotionlab26/MocapAnything"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.28130",
+      "scraped_at": "2026-05-03T03:23:45.888316"
+    },
+    "scraped_date": "2026-05-03"
+  },
+  {
+    "title": "Compliance versus Sensibility: On the Reasoning Controllability in Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2604.27251",
+    "authors": [
+      "Maria Liakata",
+      "Yuxiang Zhou",
+      "Mahmud Elahi Akhter",
+      "Marco Valentino",
+      "Xingwei Tan"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Compliance versus Sensibility: On the Reasoning Controllability in Large Language Models",
+      "abstract": "We explore whether LLMs can decouple reasoning types from specific tasks by analyzing reasoning conflicts, finding that while models prioritize task logic, these patterns are internally detectable and can be steered to improve controllability.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.27251",
+      "pdf_url": "https://arxiv.org/pdf/2604.27251",
+      "github_links": [
+        "https://github.com/Xingwei-Tan/compliance_sensibility"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.27251",
+      "scraped_at": "2026-05-03T03:23:47.728270"
+    },
+    "scraped_date": "2026-05-03"
+  },
+  {
+    "title": "World2Minecraft: Occupancy-Driven Simulated Scenes Construction",
+    "paper_url": "https://huggingface.co/papers/2604.27578",
+    "authors": [
+      "Yuan Xie",
+      "Xuhong Wang",
+      "Jingyu Gong",
+      "Haoran Xu",
+      "Lechao Zhang"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "World2Minecraft: Occupancy-Driven Simulated Scenes Construction",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.27578",
+      "pdf_url": "https://arxiv.org/pdf/2604.27578",
+      "github_links": [
+        "https://github.com/Nepenthes-zlc/World2Minecraft"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.27578",
+      "scraped_at": "2026-05-03T03:23:49.598549"
+    },
+    "scraped_date": "2026-05-03"
+  },
+  {
+    "title": "Learning from Noisy Preferences: A Semi-Supervised Learning Approach to Direct Preference Optimization",
+    "paper_url": "https://huggingface.co/papers/2604.24952",
+    "authors": [
+      "Chen Chen",
+      "Yuzhang Shang",
+      "Zonglin Lyu",
+      "Ming Li",
+      "Xinxin Liu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Learning from Noisy Preferences: A Semi-Supervised Learning Approach to Direct Preference Optimization",
+      "abstract": "Project Page: https://liming-ai.github.io/SemiDPO",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.24952",
+      "pdf_url": "https://arxiv.org/pdf/2604.24952",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.24952",
+      "scraped_at": "2026-05-03T03:23:51.446515"
+    },
+    "scraped_date": "2026-05-03"
+  },
+  {
+    "title": "Instruction-Guided Poetry Generation in Arabic and Its Dialects",
+    "paper_url": "https://huggingface.co/papers/2604.27766",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Instruction-Guided Poetry Generation in Arabic and Its Dialects",
+      "abstract": "Arabic poetry finally gets instruction tuning: 1.35M examples, 5 language varieties, and controllable generation for writing, revising, continuing, and analyzing verse.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.27766",
+      "pdf_url": "https://arxiv.org/pdf/2604.27766",
+      "github_links": [
+        "https://github.com/mbzuai-nlp/instructpoet-ar"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.27766",
+      "scraped_at": "2026-05-03T03:23:53.238470"
+    },
+    "scraped_date": "2026-05-03"
+  },
+  {
+    "title": "ViPO: Visual Preference Optimization at Scale",
+    "paper_url": "https://huggingface.co/papers/2604.24953",
+    "authors": [
+      "Rui Wang",
+      "Xiaojie Li",
+      "Justin Cui",
+      "Jie Wu",
+      "Ming Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ViPO: Visual Preference Optimization at Scale",
+      "abstract": "Project Page: https://liming-ai.github.io/ViPO",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.24953",
+      "pdf_url": "https://arxiv.org/pdf/2604.24953",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.24953",
+      "scraped_at": "2026-05-03T03:23:55.038708"
+    },
+    "scraped_date": "2026-05-03"
+  },
+  {
+    "title": "FlashRT: Towards Computationally and Memory Efficient Red-Teaming for Prompt Injection and Knowledge Corruption",
+    "paper_url": "https://huggingface.co/papers/2604.28157",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "FlashRT: Towards Computationally and Memory Efficient Red-Teaming for Prompt Injection and Knowledge Corruption",
+      "abstract": "The code is available at https://github.com/wang-yanting/FlashRT",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.28157",
+      "pdf_url": "https://arxiv.org/pdf/2604.28157",
+      "github_links": [
+        "https://github.com/wang-yanting/FlashRT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.28157",
+      "scraped_at": "2026-05-03T03:23:56.850791"
+    },
+    "scraped_date": "2026-05-03"
+  },
+  {
+    "title": "Safety Drift After Fine-Tuning: Evidence from High-Stakes Domains",
+    "paper_url": "https://huggingface.co/papers/2604.24902",
+    "authors": [
+      "Dylan Hadfield-Menell",
+      "Miranda Bogen",
+      "Amy Winecoff",
+      "Emaan Bilal Khan"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Safety Drift After Fine-Tuning: Evidence from High-Stakes Domains",
+      "abstract": "This paper analyzes the safety behavior of 100 models to understand the safety impact of benign fine-tuning, including widely deployed fine-tunes in the medical and legal domains as well as controlled adaptations of open foundation models alongside their bases. Across general-purpose and domain-specific safety benchmarks, it finds that benign fine-tuning induces large, heterogeneous, and often contradictory changes in measured safety: models frequently improve on some instruments while degrading on others, with substantial disagreement across evaluations. These results show that safety behavior is not stable under ordinary downstream adaptation, which are important findings for anyone fine-tuning models, and raise critical questions about governance and deployment practices centered on base-model evaluations. Without explicit re-evaluation of fine-tuned models in deployment-relevant contexts, especially in high-stakes settings, safety failures both in the target domain and in other domains risk being overlooked.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.24902",
+      "pdf_url": "https://arxiv.org/pdf/2604.24902",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.24902",
+      "scraped_at": "2026-05-03T03:23:58.754728"
+    },
+    "scraped_date": "2026-05-03"
   }
 ]
