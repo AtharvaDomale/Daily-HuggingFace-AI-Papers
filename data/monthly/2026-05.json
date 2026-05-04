@@ -1274,5 +1274,108 @@
       "scraped_at": "2026-05-03T03:23:58.754728"
     },
     "scraped_date": "2026-05-03"
+  },
+  {
+    "title": "UniVidX: A Unified Multimodal Framework for Versatile Video Generation via Diffusion Priors",
+    "paper_url": "https://huggingface.co/papers/2605.00658",
+    "authors": [
+      "Shaocong Xu",
+      "Tianrui Zhu",
+      "Xianghao Kong",
+      "Hong Li",
+      "Houyuan Chen"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "UniVidX: A Unified Multimodal Framework for Versatile Video Generation via Diffusion Priors",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.00658",
+      "pdf_url": "https://arxiv.org/pdf/2605.00658",
+      "github_links": [
+        "https://github.com/houyuanchen111/UniVidX"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.00658",
+      "scraped_at": "2026-05-04T02:58:26.130495"
+    },
+    "scraped_date": "2026-05-04"
+  },
+  {
+    "title": "Themis: Training Robust Multilingual Code Reward Models for Flexible Multi-Criteria Scoring",
+    "paper_url": "https://huggingface.co/papers/2605.00754",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Themis: Training Robust Multilingual Code Reward Models for Flexible Multi-Criteria Scoring",
+      "abstract": "Reward models (RMs) have become an indispensable fixture of the language model (LM) post-training playbook, enabling policy alignment and test-time scaling. Research on the application of RMs in code generation, however, has been comparatively sparse, with existing work largely focusing on execution feedback. This choice constrains post-training to optimizing functional correctness over self-contained executable code. In this work, we examine the training and evaluation of multilingual, multi-criteria code RMs. To this end, we first compile Themis-CodeRewardBench, a benchmark to evaluate code RMs across five preference dimensions (i.e., criteria) and eight programming languages, on which we profile 50+ code, math, and general-purpose RMs. Observing the limited proficiency of current RMs beyond scoring for functional correctness, we develop Themis-CodePreference, the largest open-source collection of code preferences to date (more than 350k preference pairs), and use it to train Themis-RM, a suite of multilingual code reward models for flexible multi-criteria scoring, ranging in size from 600M to 32B parameters. Our experiments and ablations demonstrate positive scaling trends, strong cross-lingual transfer when training on diverse preferences, and the importance of multi-criteria training for reliable code reward modeling.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.00754",
+      "pdf_url": "https://arxiv.org/pdf/2605.00754",
+      "github_links": [
+        "https://github.com/iNeil77/Themis"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.00754",
+      "scraped_at": "2026-05-04T02:58:28.036166"
+    },
+    "scraped_date": "2026-05-04"
+  },
+  {
+    "title": "Map2World: Segment Map Conditioned Text to 3D World Generation",
+    "paper_url": "https://huggingface.co/papers/2605.00781",
+    "authors": [
+      "Kyoung Mu Lee",
+      "Jiaolong Yang",
+      "Jianfeng Xiang",
+      "Suyoung Lee",
+      "Jaeyoung Chung"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Map2World: Segment Map Conditioned Text to 3D World Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.00781",
+      "pdf_url": "https://arxiv.org/pdf/2605.00781",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.00781",
+      "scraped_at": "2026-05-04T02:58:29.899831"
+    },
+    "scraped_date": "2026-05-04"
+  },
+  {
+    "title": "End-to-End Autoregressive Image Generation with 1D Semantic Tokenizer",
+    "paper_url": "https://huggingface.co/papers/2605.00503",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "End-to-End Autoregressive Image Generation with 1D Semantic Tokenizer",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.00503",
+      "pdf_url": "https://arxiv.org/pdf/2605.00503",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.00503",
+      "scraped_at": "2026-05-04T02:58:31.761520"
+    },
+    "scraped_date": "2026-05-04"
+  },
+  {
+    "title": "Let ViT Speak: Generative Language-Image Pre-training",
+    "paper_url": "https://huggingface.co/papers/2605.00809",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Let ViT Speak: Generative Language-Image Pre-training",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.00809",
+      "pdf_url": "https://arxiv.org/pdf/2605.00809",
+      "github_links": [
+        "https://github.com/YanFangCS/GenLIP"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.00809",
+      "scraped_at": "2026-05-04T02:58:33.625313"
+    },
+    "scraped_date": "2026-05-04"
   }
 ]
