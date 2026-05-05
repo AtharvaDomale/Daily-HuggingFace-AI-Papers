@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-5-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3685+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-3-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3688+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">5</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">5</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">64</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3685+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">3</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">8</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">67</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3688+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** May 04, 2026
+**Last Updated:** May 05, 2026
 
 ---
 
@@ -119,67 +119,43 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. UniVidX: A Unified Multimodal Framework for Versatile Video Generation via Diffusion Priors</b> ⭐ 1</summary>
+<summary><b>1. From Context to Skills: Can Language Models Learn from Context Skillfully?</b> ⭐ 2</summary>
 
 <br/>
 
-**👥 Authors:** Shaocong Xu, Tianrui Zhu, Xianghao Kong, Hong Li, Houyuan Chen
+**👥 Authors:** Dingwei Chen, Qingyi Wang, Yu Lei, Haozhe Zhao, Shuzheng Si
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.00658) • [📄 arXiv](https://arxiv.org/abs/2605.00658) • [📥 PDF](https://arxiv.org/pdf/2605.00658)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.27660) • [📄 arXiv](https://arxiv.org/abs/2604.27660) • [📥 PDF](https://arxiv.org/pdf/2604.27660)
 
-**💻 Code:** [⭐ Code](https://github.com/houyuanchen111/UniVidX)
+**💻 Code:** [⭐ Code](https://github.com/S1s-Z/Ctx2Skill)
 
-> No abstract available.
+> Ctx2Skill is a self-evolving framework that autonomously discovers, refines, and selects context-specific skills from complex contexts, requiring no human annotation and no external feedback. The resulting natural-language skills can be plugged in...
 
 </details>
 
 <details>
-<summary><b>2. Themis: Training Robust Multilingual Code Reward Models for Flexible Multi-Criteria Scoring</b> ⭐ 0</summary>
+<summary><b>2. ComboStoc: Combinatorial Stochasticity for Diffusion Generative Models</b> ⭐ 31</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.00754) • [📄 arXiv](https://arxiv.org/abs/2605.00754) • [📥 PDF](https://arxiv.org/pdf/2605.00754)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2405.13729) • [📄 arXiv](https://arxiv.org/abs/2405.13729) • [📥 PDF](https://arxiv.org/pdf/2405.13729)
 
-**💻 Code:** [⭐ Code](https://github.com/iNeil77/Themis)
+**💻 Code:** [⭐ Code](https://github.com/Xrvitd/ComboStoc)
 
-> Reward models (RMs) have become an indispensable fixture of the language model (LM) post-training playbook, enabling policy alignment and test-time scaling. Research on the application of RMs in code generation, however, has been comparatively spa...
+> Today we're releasing ComboStoc , a simple new training strategy for diffusion generative models that unlocks faster training and more flexible control at test time . Diffusion models usually treat each training sample as a point moving along a si...
 
 </details>
 
 <details>
-<summary><b>3. Map2World: Segment Map Conditioned Text to 3D World Generation</b> ⭐ 0</summary>
+<summary><b>3. PhysicianBench: Evaluating LLM Agents in Real-World EHR Environments</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Kyoung Mu Lee, Jiaolong Yang, Jianfeng Xiang, Suyoung Lee, Jaeyoung Chung
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.02240) • [📄 arXiv](https://arxiv.org/abs/2605.02240) • [📥 PDF](https://arxiv.org/pdf/2605.02240)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.00781) • [📄 arXiv](https://arxiv.org/abs/2605.00781) • [📥 PDF](https://arxiv.org/pdf/2605.00781)
+**💻 Code:** [⭐ Code](https://github.com/HealthRex/PhysicianBench)
 
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>4. End-to-End Autoregressive Image Generation with 1D Semantic Tokenizer</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.00503) • [📄 arXiv](https://arxiv.org/abs/2605.00503) • [📥 PDF](https://arxiv.org/pdf/2605.00503)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>5. Let ViT Speak: Generative Language-Image Pre-training</b> ⭐ 1</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.00809) • [📄 arXiv](https://arxiv.org/abs/2605.00809) • [📥 PDF](https://arxiv.org/pdf/2605.00809)
-
-**💻 Code:** [⭐ Code](https://github.com/YanFangCS/GenLIP)
-
-> No abstract available.
+> PhysicianBench is a benchmark for evaluating LLM agents on physician tasks grounded in real clinical workflows. It comprises 100 long-horizon tasks (670 sub-checkpoints) adapted from real primary care-to-specialist consultations across 21 specialt...
 
 </details>
 
@@ -191,28 +167,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 5 |
-| 📅 Today | [`2026-05-04.json`](data/daily/2026-05-04.json) | 5 |
-| 📆 This Week | [`2026-W18.json`](data/weekly/2026-W18.json) | 5 |
-| 🗓️ This Month | [`2026-05.json`](data/monthly/2026-05.json) | 64 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 3 |
+| 📅 Today | [`2026-05-05.json`](data/daily/2026-05-05.json) | 3 |
+| 📆 This Week | [`2026-W18.json`](data/weekly/2026-W18.json) | 8 |
+| 🗓️ This Month | [`2026-05.json`](data/monthly/2026-05.json) | 67 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-05-04 | 5 | [View JSON](data/daily/2026-05-04.json) |
+| 📌 2026-05-05 | 3 | [View JSON](data/daily/2026-05-05.json) |
+| 📄 2026-05-04 | 5 | [View JSON](data/daily/2026-05-04.json) |
 | 📄 2026-05-03 | 24 | [View JSON](data/daily/2026-05-03.json) |
 | 📄 2026-05-02 | 24 | [View JSON](data/daily/2026-05-02.json) |
 | 📄 2026-05-01 | 11 | [View JSON](data/daily/2026-05-01.json) |
 | 📄 2026-04-30 | 4 | [View JSON](data/daily/2026-04-30.json) |
 | 📄 2026-04-29 | 12 | [View JSON](data/daily/2026-04-29.json) |
-| 📄 2026-04-28 | 3 | [View JSON](data/daily/2026-04-28.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W18 | 5 | [View JSON](data/weekly/2026-W18.json) |
+| 📅 2026-W18 | 8 | [View JSON](data/weekly/2026-W18.json) |
 | 📅 2026-W17 | 84 | [View JSON](data/weekly/2026-W17.json) |
 | 📅 2026-W16 | 74 | [View JSON](data/weekly/2026-W16.json) |
 | 📅 2026-W15 | 99 | [View JSON](data/weekly/2026-W15.json) |
@@ -221,7 +197,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-05 | 64 | [View JSON](data/monthly/2026-05.json) |
+| 🗓️ 2026-05 | 67 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 450 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |

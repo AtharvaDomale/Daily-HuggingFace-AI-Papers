@@ -101,5 +101,68 @@
       "scraped_at": "2026-05-04T02:58:33.625313"
     },
     "scraped_date": "2026-05-04"
+  },
+  {
+    "title": "From Context to Skills: Can Language Models Learn from Context Skillfully?",
+    "paper_url": "https://huggingface.co/papers/2604.27660",
+    "authors": [
+      "Dingwei Chen",
+      "Qingyi Wang",
+      "Yu Lei",
+      "Haozhe Zhao",
+      "Shuzheng Si"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "From Context to Skills: Can Language Models Learn from Context Skillfully?",
+      "abstract": "Ctx2Skill is a self-evolving framework that autonomously discovers, refines, and selects context-specific skills from complex contexts, requiring no human annotation and no external feedback. The resulting natural-language skills can be plugged into any language model at inference time to enhance context learning capability.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.27660",
+      "pdf_url": "https://arxiv.org/pdf/2604.27660",
+      "github_links": [
+        "https://github.com/S1s-Z/Ctx2Skill"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.27660",
+      "scraped_at": "2026-05-05T02:50:22.008276"
+    },
+    "scraped_date": "2026-05-05"
+  },
+  {
+    "title": "ComboStoc: Combinatorial Stochasticity for Diffusion Generative Models",
+    "paper_url": "https://huggingface.co/papers/2405.13729",
+    "authors": [],
+    "stars": "31",
+    "details": {
+      "title": "ComboStoc: Combinatorial Stochasticity for Diffusion Generative Models",
+      "abstract": "Today we're releasing ComboStoc , a simple new training strategy for diffusion generative models that unlocks faster training and more flexible control at test time . Diffusion models usually treat each training sample as a point moving along a single path. But for high dimensional data, and especially for structured generation tasks with additional attributes, that is often not enough. Large parts of the underlying combinatorial space remain poorly sampled during training, which can hurt generation quality at test time. ComboStoc addresses this with a simple idea: instead of training only along a narrow set of paths, it constructs stochastic processes that more fully explore the combinatorial structures induced by dimensions and attributes. This leads to much better coverage of the training space, with no need for a complicated redesign of the model itself. The result is a diffusion framework that trains significantly faster across very different data modalities, including images and structured 3D shapes . But ComboStoc is not only about speed. It also enables a new test time generation scheme with asynchronous time steps across different dimensions or attributes. In practice, this means you can preserve some parts more strongly than others, or apply different levels of control across regions, components, or conditions within the same sample. This opens up a new way to think about diffusion generation: not as one synchronized denoising process, but as a more flexible system where different parts of the data can evolve at different rates. We think this perspective is especially promising for structured generation problems, where dimensions and attributes are deeply entangled and should not always be treated uniformly. Faster training. Better path coverage. More controllable generation. ComboStoc is a simple step toward diffusion models that make fuller use of the structure already present in the data. 🌐 Project Page: https://ruixu.me/html/ComboStoc/index.html 📄 Paper: https://arxiv.org/abs/2405.13729 💻 Code: https://github.com/Xrvitd/ComboStoc",
+      "arxiv_page_url": "https://arxiv.org/abs/2405.13729",
+      "pdf_url": "https://arxiv.org/pdf/2405.13729",
+      "github_links": [
+        "https://github.com/Xrvitd/ComboStoc"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2405.13729",
+      "scraped_at": "2026-05-05T02:50:23.988790"
+    },
+    "scraped_date": "2026-05-05"
+  },
+  {
+    "title": "PhysicianBench: Evaluating LLM Agents in Real-World EHR Environments",
+    "paper_url": "https://huggingface.co/papers/2605.02240",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PhysicianBench: Evaluating LLM Agents in Real-World EHR Environments",
+      "abstract": "PhysicianBench is a benchmark for evaluating LLM agents on physician tasks grounded in real clinical workflows. It comprises 100 long-horizon tasks (670 sub-checkpoints) adapted from real primary care-to-specialist consultations across 21 specialties, executed in an EHR environment with real patient records accessed via standard FHIR APIs. Solving each task requires retrieving data across encounters, reasoning over heterogeneous clinical information, executing consequential clinical actions, and producing clinical documentation. Across 13 proprietary and open-source LLM agents, the best-performing model achieves only 46% success rate (pass@1), while open-source models reach at most 19%, revealing a substantial gap between current agent capabilities and the demands of real-world clinical workflows. PhysicianBench provides a realistic and execution-grounded benchmark for measuring progress toward autonomous clinical agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.02240",
+      "pdf_url": "https://arxiv.org/pdf/2605.02240",
+      "github_links": [
+        "https://github.com/HealthRex/PhysicianBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.02240",
+      "scraped_at": "2026-05-05T02:50:26.060527"
+    },
+    "scraped_date": "2026-05-05"
   }
 ]
