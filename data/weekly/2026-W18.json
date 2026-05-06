@@ -164,5 +164,183 @@
       "scraped_at": "2026-05-05T02:50:26.060527"
     },
     "scraped_date": "2026-05-05"
+  },
+  {
+    "title": "Beyond SFT-to-RL: Pre-alignment via Black-Box On-Policy Distillation for Multimodal RL",
+    "paper_url": "https://huggingface.co/papers/2604.28123",
+    "authors": [
+      "Hehai Lin",
+      "Zuhao Yang",
+      "Xiaomin Yu",
+      "Weiquan Huang",
+      "Sudong Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Beyond SFT-to-RL: Pre-alignment via Black-Box On-Policy Distillation for Multimodal RL",
+      "abstract": "Project Page: https://xiao4579.github.io/PRISM/ Paper： https://arxiv.org/abs/2604.28123 Code： https://github.com/XIAO4579/PRISM Data and Model： https://huggingface.co/prism-vlm",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.28123",
+      "pdf_url": "https://arxiv.org/pdf/2604.28123",
+      "github_links": [
+        "https://github.com/XIAO4579/PRISM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.28123",
+      "scraped_at": "2026-05-06T02:56:56.170499"
+    },
+    "scraped_date": "2026-05-06"
+  },
+  {
+    "title": "OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and High-Difficulty Trajectories",
+    "paper_url": "https://huggingface.co/papers/2605.04036",
+    "authors": [
+      "Xinyu Zhu",
+      "Keduan Huang",
+      "Shuo Tang",
+      "Rui Ye",
+      "Yuwen Du"
+    ],
+    "stars": "622",
+    "details": {
+      "title": "OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and High-Difficulty Trajectories",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.04036",
+      "pdf_url": "https://arxiv.org/pdf/2605.04036",
+      "github_links": [
+        "https://github.com/PolarSeeker/OpenSeeker"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.04036",
+      "scraped_at": "2026-05-06T02:56:57.921851"
+    },
+    "scraped_date": "2026-05-06"
+  },
+  {
+    "title": "SymptomAI: Towards a Conversational AI Agent for Everyday Symptom Assessment",
+    "paper_url": "https://huggingface.co/papers/2605.04012",
+    "authors": [
+      "Miao Liu",
+      "Marinela Cotoi",
+      "Beszel Hawkins",
+      "Fadi Yousif",
+      "Joseph Breda"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SymptomAI: Towards a Conversational AI Agent for Everyday Symptom Assessment",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.04012",
+      "pdf_url": "https://arxiv.org/pdf/2605.04012",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.04012",
+      "scraped_at": "2026-05-06T02:56:59.785766"
+    },
+    "scraped_date": "2026-05-06"
+  },
+  {
+    "title": "A Benchmark for Interactive World Models with a Unified Action Generation Framework",
+    "paper_url": "https://huggingface.co/papers/2605.03941",
+    "authors": [
+      "Yuchao Huang",
+      "Ziyou Wang",
+      "Qin Wan",
+      "Yingshan Lei",
+      "Jianjie Fang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "A Benchmark for Interactive World Models with a Unified Action Generation Framework",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.03941",
+      "pdf_url": "https://arxiv.org/pdf/2605.03941",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.03941",
+      "scraped_at": "2026-05-06T02:57:01.589124"
+    },
+    "scraped_date": "2026-05-06"
+  },
+  {
+    "title": "Workspace-Bench 1.0: Benchmarking AI Agents on Workspace Tasks with Large-Scale File Dependencies",
+    "paper_url": "https://huggingface.co/papers/2605.03596",
+    "authors": [
+      "Weizheng Wang",
+      "Linchun Li",
+      "Yumou Liu",
+      "Xuanhe Zhou",
+      "Zirui Tang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Workspace-Bench 1.0: Benchmarking AI Agents on Workspace Tasks with Large-Scale File Dependencies",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.03596",
+      "pdf_url": "https://arxiv.org/pdf/2605.03596",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.03596",
+      "scraped_at": "2026-05-06T02:57:03.382458"
+    },
+    "scraped_date": "2026-05-06"
+  },
+  {
+    "title": "HeavySkill: Heavy Thinking as the Inner Skill in Agentic Harness",
+    "paper_url": "https://huggingface.co/papers/2605.02396",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "HeavySkill: Heavy Thinking as the Inner Skill in Agentic Harness",
+      "abstract": "HeavySkill: Heavy Thinking as the Inner Skill in Agentic Harness HeavySkill is a test-time scaling technique that decomposes complex reasoning into two stages: Parallel Reasoning — Generate K independent reasoning trajectories concurrently Sequential Deliberation — Synthesize trajectories through critical analysis into a superior final answer",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.02396",
+      "pdf_url": "https://arxiv.org/pdf/2605.02396",
+      "github_links": [
+        "https://github.com/wjn1996/HeavySkill"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.02396",
+      "scraped_at": "2026-05-06T02:57:05.148804"
+    },
+    "scraped_date": "2026-05-06"
+  },
+  {
+    "title": "SVGS: Enhancing Gaussian Splatting Using Primitives with Spatially Varying Colors",
+    "paper_url": "https://huggingface.co/papers/2411.18966",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SVGS: Enhancing Gaussian Splatting Using Primitives with Spatially Varying Colors",
+      "abstract": "Today we're releasing SVGS , a new approach for Gaussian Splatting that makes each primitive far more expressive by giving it spatially varying colors and opacity . Gaussian Splatting has become a powerful paradigm for novel view synthesis, but existing Gaussian primitives are still limited in how they represent appearance. In standard 3DGS and 2DGS, each Gaussian is typically assigned only a single learnable color and opacity, which makes the representation less compact and can limit fine detail reconstruction. SVGS changes this by letting the appearance vary across each primitive itself. Instead of treating every Gaussian as having just one color, SVGS equips each Gaussian surfel with spatially varying color and opacity , so different regions within a single primitive can represent different visual patterns. This simple idea greatly improves the expressive power of the representation. In practice, it means that one Gaussian can model much richer local appearance , capture sharper details, and reconstruct challenging regions more faithfully. SVGS supports several ways to model these spatially varying functions, including bilinear interpolation , movable kernels , and even tiny neural networks . Across extensive experiments, all of them outperform the standard Gaussian baseline, with movable kernels achieving the strongest overall performance. Built on top of 2DGS, SVGS also inherits its strong geometric reconstruction ability, while further improving rendering quality through a more powerful appearance model. The gains become especially clear when the number of Gaussians is limited, where stronger per primitive expressiveness leads to better quality with a more compact representation . We believe the next step for Gaussian Splatting is not just adding more primitives, but making each primitive smarter . SVGS is a step in that direction. 📄 Paper: http://arxiv.org/abs/2411.18966 💻 Code: https://github.com/Xrvitd/SVGS",
+      "arxiv_page_url": "http://arxiv.org/abs/2411.18966",
+      "pdf_url": "https://arxiv.org/pdf/2411.18966",
+      "github_links": [
+        "https://github.com/Xrvitd/SVGS"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2411.18966",
+      "scraped_at": "2026-05-06T02:57:06.979751"
+    },
+    "scraped_date": "2026-05-06"
+  },
+  {
+    "title": "Healthcare AI GYM for Medical Agents",
+    "paper_url": "https://huggingface.co/papers/2605.02943",
+    "authors": [
+      "Minbyul Jeong"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Healthcare AI GYM for Medical Agents",
+      "abstract": "please contact minstar@upstage.ai any information for the project.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.02943",
+      "pdf_url": "https://arxiv.org/pdf/2605.02943",
+      "github_links": [
+        "https://github.com/minstar/Healthcare_GYM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.02943",
+      "scraped_at": "2026-05-06T02:57:08.799349"
+    },
+    "scraped_date": "2026-05-06"
   }
 ]
