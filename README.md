@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-8-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-3696+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-3-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-3699+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">8</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">16</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">75</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3696+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">3</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">19</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">78</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">3699+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** May 06, 2026
+**Last Updated:** May 07, 2026
 
 ---
 
@@ -119,112 +119,41 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Beyond SFT-to-RL: Pre-alignment via Black-Box On-Policy Distillation for Multimodal RL</b> ⭐ 0</summary>
+<summary><b>1. HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation</b> ⭐ 35</summary>
 
 <br/>
 
-**👥 Authors:** Hehai Lin, Zuhao Yang, Xiaomin Yu, Weiquan Huang, Sudong Wang
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.28196) • [📄 arXiv](https://arxiv.org/abs/2604.28196) • [📥 PDF](https://arxiv.org/pdf/2604.28196)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.28123) • [📄 arXiv](https://arxiv.org/abs/2604.28123) • [📥 PDF](https://arxiv.org/pdf/2604.28123)
+**💻 Code:** [⭐ Code](https://github.com/H-EmbodVis/HERMESV2)
 
-**💻 Code:** [⭐ Code](https://github.com/XIAO4579/PRISM)
-
-> Project Page: https://xiao4579.github.io/PRISM/ Paper： https://arxiv.org/abs/2604.28123 Code： https://github.com/XIAO4579/PRISM Data and Model： https://huggingface.co/prism-vlm
+> Driving world models serve as a pivotal technology for autonomous driving by simulating environmental dynamics. However, existing approaches predominantly focus on future scene generation, often overlooking comprehensive 3D scene understanding. Co...
 
 </details>
 
 <details>
-<summary><b>2. OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and High-Difficulty Trajectories</b> ⭐ 622</summary>
+<summary><b>2. D-OPSD: On-Policy Self-Distillation for Continuously Tuning Step-Distilled Diffusion Models</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Xinyu Zhu, Keduan Huang, Shuo Tang, Rui Ye, Yuwen Du
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.05204) • [📄 arXiv](https://arxiv.org/abs/2605.05204) • [📥 PDF](https://arxiv.org/pdf/2605.05204)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.04036) • [📄 arXiv](https://arxiv.org/abs/2605.04036) • [📥 PDF](https://arxiv.org/pdf/2605.04036)
+**💻 Code:** [⭐ Code](https://github.com/vvvvvjdy/D-OPSD)
 
-**💻 Code:** [⭐ Code](https://github.com/PolarSeeker/OpenSeeker)
-
-> No abstract available.
+> On-Policy Self-Distillation for Diffusion Models
 
 </details>
 
 <details>
-<summary><b>3. SymptomAI: Towards a Conversational AI Agent for Everyday Symptom Assessment</b> ⭐ 0</summary>
+<summary><b>3. MedSkillAudit: A Domain-Specific Audit Framework for Medical Research Agent Skills</b> ⭐ 515</summary>
 
 <br/>
 
-**👥 Authors:** Miao Liu, Marinela Cotoi, Beszel Hawkins, Fadi Yousif, Joseph Breda
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2604.20441) • [📄 arXiv](https://arxiv.org/abs/2604.20441) • [📥 PDF](https://arxiv.org/pdf/2604.20441)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.04012) • [📄 arXiv](https://arxiv.org/abs/2605.04012) • [📥 PDF](https://arxiv.org/pdf/2605.04012)
+**💻 Code:** [⭐ Code](https://github.com/aipoch/medical-research-skills)
 
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>4. A Benchmark for Interactive World Models with a Unified Action Generation Framework</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Yuchao Huang, Ziyou Wang, Qin Wan, Yingshan Lei, Jianjie Fang
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.03941) • [📄 arXiv](https://arxiv.org/abs/2605.03941) • [📥 PDF](https://arxiv.org/pdf/2605.03941)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>5. Workspace-Bench 1.0: Benchmarking AI Agents on Workspace Tasks with Large-Scale File Dependencies</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Weizheng Wang, Linchun Li, Yumou Liu, Xuanhe Zhou, Zirui Tang
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.03596) • [📄 arXiv](https://arxiv.org/abs/2605.03596) • [📥 PDF](https://arxiv.org/pdf/2605.03596)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>6. HeavySkill: Heavy Thinking as the Inner Skill in Agentic Harness</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.02396) • [📄 arXiv](https://arxiv.org/abs/2605.02396) • [📥 PDF](https://arxiv.org/pdf/2605.02396)
-
-**💻 Code:** [⭐ Code](https://github.com/wjn1996/HeavySkill)
-
-> HeavySkill: Heavy Thinking as the Inner Skill in Agentic Harness HeavySkill is a test-time scaling technique that decomposes complex reasoning into two stages: Parallel Reasoning — Generate K independent reasoning trajectories concurrently Sequent...
-
-</details>
-
-<details>
-<summary><b>7. SVGS: Enhancing Gaussian Splatting Using Primitives with Spatially Varying Colors</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2411.18966) • [📄 arXiv](http://arxiv.org/abs/2411.18966) • [📥 PDF](https://arxiv.org/pdf/2411.18966)
-
-**💻 Code:** [⭐ Code](https://github.com/Xrvitd/SVGS)
-
-> Today we're releasing SVGS , a new approach for Gaussian Splatting that makes each primitive far more expressive by giving it spatially varying colors and opacity . Gaussian Splatting has become a powerful paradigm for novel view synthesis, but ex...
-
-</details>
-
-<details>
-<summary><b>8. Healthcare AI GYM for Medical Agents</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Minbyul Jeong
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.02943) • [📄 arXiv](https://arxiv.org/abs/2605.02943) • [📥 PDF](https://arxiv.org/pdf/2605.02943)
-
-**💻 Code:** [⭐ Code](https://github.com/minstar/Healthcare_GYM)
-
-> please contact minstar@upstage.ai any information for the project.
+> We're in the middle of a skill/agent explosion — everyone is packaging capabilities as reusable modules. But medical research skills can't just be "probably fine." A skill that generates plausible-sounding but subtly wrong study designs, or runs a...
 
 </details>
 
@@ -236,28 +165,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 8 |
-| 📅 Today | [`2026-05-06.json`](data/daily/2026-05-06.json) | 8 |
-| 📆 This Week | [`2026-W18.json`](data/weekly/2026-W18.json) | 16 |
-| 🗓️ This Month | [`2026-05.json`](data/monthly/2026-05.json) | 75 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 3 |
+| 📅 Today | [`2026-05-07.json`](data/daily/2026-05-07.json) | 3 |
+| 📆 This Week | [`2026-W18.json`](data/weekly/2026-W18.json) | 19 |
+| 🗓️ This Month | [`2026-05.json`](data/monthly/2026-05.json) | 78 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-05-06 | 8 | [View JSON](data/daily/2026-05-06.json) |
+| 📌 2026-05-07 | 3 | [View JSON](data/daily/2026-05-07.json) |
+| 📄 2026-05-06 | 8 | [View JSON](data/daily/2026-05-06.json) |
 | 📄 2026-05-05 | 3 | [View JSON](data/daily/2026-05-05.json) |
 | 📄 2026-05-04 | 5 | [View JSON](data/daily/2026-05-04.json) |
 | 📄 2026-05-03 | 24 | [View JSON](data/daily/2026-05-03.json) |
 | 📄 2026-05-02 | 24 | [View JSON](data/daily/2026-05-02.json) |
 | 📄 2026-05-01 | 11 | [View JSON](data/daily/2026-05-01.json) |
-| 📄 2026-04-30 | 4 | [View JSON](data/daily/2026-04-30.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W18 | 16 | [View JSON](data/weekly/2026-W18.json) |
+| 📅 2026-W18 | 19 | [View JSON](data/weekly/2026-W18.json) |
 | 📅 2026-W17 | 84 | [View JSON](data/weekly/2026-W17.json) |
 | 📅 2026-W16 | 74 | [View JSON](data/weekly/2026-W16.json) |
 | 📅 2026-W15 | 99 | [View JSON](data/weekly/2026-W15.json) |
@@ -266,7 +195,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-05 | 75 | [View JSON](data/monthly/2026-05.json) |
+| 🗓️ 2026-05 | 78 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 450 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 | 🗓️ 2026-02 | 1048 | [View JSON](data/monthly/2026-02.json) |

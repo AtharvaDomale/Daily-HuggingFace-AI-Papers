@@ -1618,5 +1618,62 @@
       "scraped_at": "2026-05-06T02:57:08.799349"
     },
     "scraped_date": "2026-05-06"
+  },
+  {
+    "title": "HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation",
+    "paper_url": "https://huggingface.co/papers/2604.28196",
+    "authors": [],
+    "stars": "35",
+    "details": {
+      "title": "HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation",
+      "abstract": "Driving world models serve as a pivotal technology for autonomous driving by simulating environmental dynamics. However, existing approaches predominantly focus on future scene generation, often overlooking comprehensive 3D scene understanding. Conversely, while Large Language Models (LLMs) demonstrate impressive reasoning capabilities, they lack the capacity to predict future geometric evolution, creating a significant disparity between semantic interpretation and physical simulation. To bridge this gap, we propose HERMES++, a unified driving world model that integrates 3D scene understanding and future geometry prediction within a single framework. Our approach addresses the distinct requirements of these tasks through synergistic designs. First, a BEV representation consolidates multi-view spatial information into a structure compatible with LLMs. Second, we introduce LLM-enhanced world queries to facilitate knowledge transfer from the understanding branch. Third, a Current-to-Future Link is designed to bridge the temporal gap, conditioning geometric evolution on semantic context. Finally, to enforce structural integrity, we employ a Joint Geometric Optimization strategy that integrates explicit geometric constraints with implicit latent regularization to align internal representations with geometry-aware priors. Extensive evaluations on multiple benchmarks validate the effectiveness of our method. HERMES++ achieves strong performance, outperforming specialist approaches in both future point cloud prediction and 3D scene understanding tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.28196",
+      "pdf_url": "https://arxiv.org/pdf/2604.28196",
+      "github_links": [
+        "https://github.com/H-EmbodVis/HERMESV2"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.28196",
+      "scraped_at": "2026-05-07T02:57:22.970114"
+    },
+    "scraped_date": "2026-05-07"
+  },
+  {
+    "title": "D-OPSD: On-Policy Self-Distillation for Continuously Tuning Step-Distilled Diffusion Models",
+    "paper_url": "https://huggingface.co/papers/2605.05204",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "D-OPSD: On-Policy Self-Distillation for Continuously Tuning Step-Distilled Diffusion Models",
+      "abstract": "On-Policy Self-Distillation for Diffusion Models",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.05204",
+      "pdf_url": "https://arxiv.org/pdf/2605.05204",
+      "github_links": [
+        "https://github.com/vvvvvjdy/D-OPSD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.05204",
+      "scraped_at": "2026-05-07T02:57:24.767882"
+    },
+    "scraped_date": "2026-05-07"
+  },
+  {
+    "title": "MedSkillAudit: A Domain-Specific Audit Framework for Medical Research Agent Skills",
+    "paper_url": "https://huggingface.co/papers/2604.20441",
+    "authors": [],
+    "stars": "515",
+    "details": {
+      "title": "MedSkillAudit: A Domain-Specific Audit Framework for Medical Research Agent Skills",
+      "abstract": "We're in the middle of a skill/agent explosion — everyone is packaging capabilities as reusable modules. But medical research skills can't just be \"probably fine.\" A skill that generates plausible-sounding but subtly wrong study designs, or runs an analysis with a silent methodological flaw, doesn't just fail gracefully — it influences research reasoning downstream. MedSkillAudit isn't a benchmark for ranking; it's a governance tool: structured feedback, actionable optimization guidance, pre-deployment gating. The fact that it matches human judgment with ICC 0.449 (when humans match each other at 0.300) is genuinely impressive for a first version.",
+      "arxiv_page_url": "https://arxiv.org/abs/2604.20441",
+      "pdf_url": "https://arxiv.org/pdf/2604.20441",
+      "github_links": [
+        "https://github.com/aipoch/medical-research-skills"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2604.20441",
+      "scraped_at": "2026-05-07T02:57:26.538272"
+    },
+    "scraped_date": "2026-05-07"
   }
 ]
