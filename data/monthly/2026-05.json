@@ -1675,5 +1675,393 @@
       "scraped_at": "2026-05-07T02:57:26.538272"
     },
     "scraped_date": "2026-05-07"
+  },
+  {
+    "title": "MiA-Signature: Approximating Global Activation for Long-Context Understanding",
+    "paper_url": "https://huggingface.co/papers/2605.06416",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MiA-Signature: Approximating Global Activation for Long-Context Understanding",
+      "abstract": "We believe this work provides a step toward bridging cognitive insights and practical system design, highlighting the importance of global activation in memory-driven reasoning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.06416",
+      "pdf_url": "https://arxiv.org/pdf/2605.06416",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.06416",
+      "scraped_at": "2026-05-08T03:18:39.039100"
+    },
+    "scraped_date": "2026-05-08"
+  },
+  {
+    "title": "MARBLE: Multi-Aspect Reward Balance for Diffusion RL",
+    "paper_url": "https://huggingface.co/papers/2605.06507",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "MARBLE: Multi-Aspect Reward Balance for Diffusion RL",
+      "abstract": "MARBLE harmonizes reward-specific policy gradients into a single update direction, simultaneously improving all rewards in one training run. No manual reward weighting, no multi-stage curriculum, and at near single-reward training cost. To the best of our knowledge, we are the first to address reward balancing problem in multi-reward diffusion RL.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.06507",
+      "pdf_url": "https://arxiv.org/pdf/2605.06507",
+      "github_links": [
+        "https://github.com/aim-uofa/MARBLE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.06507",
+      "scraped_at": "2026-05-08T03:18:40.925980"
+    },
+    "scraped_date": "2026-05-08"
+  },
+  {
+    "title": "Continuous Latent Diffusion Language Model",
+    "paper_url": "https://huggingface.co/papers/2605.06548",
+    "authors": [
+      "Rui Zhu",
+      "Shen Nie",
+      "Yian Zhao",
+      "Qinyu Zhao",
+      "Hongcan Guo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Continuous Latent Diffusion Language Model",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.06548",
+      "pdf_url": "https://arxiv.org/pdf/2605.06548",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.06548",
+      "scraped_at": "2026-05-08T03:18:42.797137"
+    },
+    "scraped_date": "2026-05-08"
+  },
+  {
+    "title": "Auto Research with Specialist Agents Develops Effective and Non-Trivial Training Recipes",
+    "paper_url": "https://huggingface.co/papers/2605.05724",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Auto Research with Specialist Agents Develops Effective and Non-Trivial Training Recipes",
+      "abstract": "Closed-loop auto research turns agent-written code, real experiments, and evaluator feedback into an autonomous feedback loop that develops non-trivial training recipes.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.05724",
+      "pdf_url": "https://arxiv.org/pdf/2605.05724",
+      "github_links": [
+        "https://github.com/cxcscmu/Auto-Research-Recipes"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.05724",
+      "scraped_at": "2026-05-08T03:18:44.647235"
+    },
+    "scraped_date": "2026-05-08"
+  },
+  {
+    "title": "ReflectDrive-2: Reinforcement-Learning-Aligned Self-Editing for Discrete Diffusion Driving",
+    "paper_url": "https://huggingface.co/papers/2605.04647",
+    "authors": [
+      "Ben Lu",
+      "Pengxiang Li",
+      "Bihao Cui",
+      "Yue Wang",
+      "Huimin Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ReflectDrive-2: Reinforcement-Learning-Aligned Self-Editing for Discrete Diffusion Driving",
+      "abstract": "We started ReflectDrive-2 from a concrete observation: when imitation-learned driving policies fail, they fail along two predictable axes — longitudinal (overshoot, late braking, under-progress) and lateral (lane drift, clipped turns). That kind of structured error begs for an in-place correction mechanism. So we built the planner on masked discrete diffusion. Trajectories become sequences of discrete BEV tokens, drafted in parallel via unmasking, and any subset of tokens can be rewritten by the same model — no auxiliary refiner needed. We call that rewrite step AutoEdit, and we pre-train it on structure-aware perturbations (longitudinal arc-length rescaling, lateral rotations) that mirror exactly those two failure axes. The editor sees its target failure modes during training instead of chasing a generic uncertainty signal at decode time.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.04647",
+      "pdf_url": "https://arxiv.org/pdf/2605.04647",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.04647",
+      "scraped_at": "2026-05-08T03:18:46.476693"
+    },
+    "scraped_date": "2026-05-08"
+  },
+  {
+    "title": "Nonsense Helps: Prompt Space Perturbation Broadens Reasoning Exploration",
+    "paper_url": "https://huggingface.co/papers/2605.05566",
+    "authors": [
+      "Yuyi Yang",
+      "Donghong Cai",
+      "Jinyuan Li",
+      "Chengsong Huang",
+      "Langlin Huang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Nonsense Helps: Prompt Space Perturbation Broadens Reasoning Exploration",
+      "abstract": "prompt space perturbation broadens reasoning exploration",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.05566",
+      "pdf_url": "https://arxiv.org/pdf/2605.05566",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.05566",
+      "scraped_at": "2026-05-08T03:18:48.289681"
+    },
+    "scraped_date": "2026-05-08"
+  },
+  {
+    "title": "UniPool: A Globally Shared Expert Pool for Mixture-of-Experts",
+    "paper_url": "https://huggingface.co/papers/2605.06665",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "UniPool: A Globally Shared Expert Pool for Mixture-of-Experts",
+      "abstract": "Modern Mixture-of-Experts (MoE) architectures allocate expert capacity through a rigid per-layer rule: each transformer layer owns a separate expert set. This convention couples depth scaling with linear expert-parameter growth and assumes that every layer needs isolated expert capacity. However, recent analyses and our routing probe challenge this allocation rule: replacing a deeper layer's learned top-k router with uniform random routing drops downstream accuracy by only 1.0-1.6 points across multiple production MoE models. Motivated by this redundancy, we propose UniPool, an MoE architecture that treats expert capacity as a global architectural budget by replacing per-layer expert ownership with a single shared pool accessed by independent per-layer routers. To enable stable and balanced training under sharing, we introduce a pool-level auxiliary loss that balances expert utilization across the entire pool, and adopt NormRouter to provide sparse and scale-stable routing into the shared expert pool. Across five LLaMA-architecture model scales (182M, 469M, 650M, 830M, and 978M parameters) trained on 30B tokens from the Pile, UniPool consistently improves validation loss and perplexity over the matched vanilla MoE baselines. Across these scales, UniPool reduces validation loss by up to 0.0386 relative to vanilla MoE. Beyond raw loss improvement, our results identify pool size as an explicit depth-scaling hyperparameter: reduced-pool UniPool variants using only 41.6%-66.7% of the vanilla expert-parameter budget match or outperform layer-wise MoE at the tested scales. This shows that, under a shared-pool design, expert parameters need not grow linearly with depth; they can grow sublinearly while remaining more efficient and effective than vanilla MoE. Further analysis shows that UniPool's benefits compose with finer-grained expert decomposition.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.06665",
+      "pdf_url": "https://arxiv.org/pdf/2605.06665",
+      "github_links": [
+        "https://github.com/Centaurus-Alpha/UniPool"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.06665",
+      "scraped_at": "2026-05-08T03:18:50.103614"
+    },
+    "scraped_date": "2026-05-08"
+  },
+  {
+    "title": "Continuous-Time Distribution Matching for Few-Step Diffusion Distillation",
+    "paper_url": "https://huggingface.co/papers/2605.06376",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Continuous-Time Distribution Matching for Few-Step Diffusion Distillation",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.06376",
+      "pdf_url": "https://arxiv.org/pdf/2605.06376",
+      "github_links": [
+        "https://github.com/byliutao/cdm"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.06376",
+      "scraped_at": "2026-05-08T03:18:51.903548"
+    },
+    "scraped_date": "2026-05-08"
+  },
+  {
+    "title": "A^2TGPO: Agentic Turn-Group Policy Optimization with Adaptive Turn-level Clipping",
+    "paper_url": "https://huggingface.co/papers/2605.06200",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "A^2TGPO: Agentic Turn-Group Policy Optimization with Adaptive Turn-level Clipping",
+      "abstract": "Overview we propose A²TGPO ( A gentic T urn- G roup P olicy O ptimization with A daptive Turn-level Clipping), which retains IG as the intrinsic signal but re-designs how it is normalized, accumulated, and consumed: (i) turn-group normalization: normalizes IG within each (prompt, turn-index) group so that each turn is compared only against peers at the same interaction depth; (ii) variance-rescaled discounted accumulation: divides cumulative normalized IG by square root of accumulated terms to keep advantage magnitudes comparable across turn positions; and (iii) adaptive turn-level clipping: modulates each turn's clipping range based on its normalized IG, widening the update region for informative turns and narrowing it for uninformative ones.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.06200",
+      "pdf_url": "https://arxiv.org/pdf/2605.06200",
+      "github_links": [
+        "https://github.com/CuSO4-Chen/A-TGPO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.06200",
+      "scraped_at": "2026-05-08T03:18:53.709828"
+    },
+    "scraped_date": "2026-05-08"
+  },
+  {
+    "title": "SkillOS: Learning Skill Curation for Self-Evolving Agents",
+    "paper_url": "https://huggingface.co/papers/2605.06614",
+    "authors": [
+      "Zifeng Wang",
+      "Rujun Han",
+      "Yanfei Chen",
+      "Jun Yan",
+      "Siru Ouyang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SkillOS: Learning Skill Curation for Self-Evolving Agents",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.06614",
+      "pdf_url": "https://arxiv.org/pdf/2605.06614",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.06614",
+      "scraped_at": "2026-05-08T03:18:55.419190"
+    },
+    "scraped_date": "2026-05-08"
+  },
+  {
+    "title": "Can RL Teach Long-Horizon Reasoning to LLMs? Expressiveness Is Key",
+    "paper_url": "https://huggingface.co/papers/2605.06638",
+    "authors": [
+      "Sipeng Zhang",
+      "Xinpeng Wei",
+      "Guangchen Lan",
+      "Zhaoyang Wang",
+      "Tianle Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Can RL Teach Long-Horizon Reasoning to LLMs? Expressiveness Is Key",
+      "abstract": "📄 Paper: https://arxiv.org/abs/2605.06638",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.06638",
+      "pdf_url": "https://arxiv.org/pdf/2605.06638",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.06638",
+      "scraped_at": "2026-05-08T03:18:57.176524"
+    },
+    "scraped_date": "2026-05-08"
+  },
+  {
+    "title": "The Granularity Axis: A Micro-to-Macro Latent Direction for Social Roles in Language Models",
+    "paper_url": "https://huggingface.co/papers/2605.06196",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "The Granularity Axis: A Micro-to-Macro Latent Direction for Social Roles in Language Models",
+      "abstract": "We identify the Granularity Axis, a micro-to-macro latent direction that organizes social-role representations in language models and partially steers the scale of model reasoning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.06196",
+      "pdf_url": "https://arxiv.org/pdf/2605.06196",
+      "github_links": [
+        "https://github.com/qinchonghanzuibang/Granularity-Axis"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.06196",
+      "scraped_at": "2026-05-08T03:18:59.116038"
+    },
+    "scraped_date": "2026-05-08"
+  },
+  {
+    "title": "SwiftI2V: Efficient High-Resolution Image-to-Video Generation via Conditional Segment-wise Generation",
+    "paper_url": "https://huggingface.co/papers/2605.06356",
+    "authors": [
+      "Rui Liu",
+      "Yufei Zhao",
+      "Wenbo Li",
+      "Yuechen Zhang",
+      "YaoYang Liu"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "SwiftI2V: Efficient High-Resolution Image-to-Video Generation via Conditional Segment-wise Generation",
+      "abstract": "We propose SwiftI2V, an efficient framework for high-resolution (2K) I2V generation that decouples motion modeling from detail synthesis via progressive segment-wise generation and bidirectional contextual interaction. SwiftI2V achieves performance comparable to end-to-end baselines while reducing total GPU-time by 202×, enabling practical 2K I2V on a single RTX 4090.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.06356",
+      "pdf_url": "https://arxiv.org/pdf/2605.06356",
+      "github_links": [
+        "https://github.com/HKUST-LongGroup/SwiftI2V"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.06356",
+      "scraped_at": "2026-05-08T03:19:00.951959"
+    },
+    "scraped_date": "2026-05-08"
+  },
+  {
+    "title": "Skill1: Unified Evolution of Skill-Augmented Agents via Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2605.06130",
+    "authors": [
+      "Shugui Liu",
+      "Yuchun Miao",
+      "Zhengxi Lu",
+      "Yuxin Chen",
+      "Yaorui Shi"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Skill1: Unified Evolution of Skill-Augmented Agents via Reinforcement Learning",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.06130",
+      "pdf_url": "https://arxiv.org/pdf/2605.06130",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.06130",
+      "scraped_at": "2026-05-08T03:19:02.750660"
+    },
+    "scraped_date": "2026-05-08"
+  },
+  {
+    "title": "AI Co-Mathematician: Accelerating Mathematicians with Agentic AI",
+    "paper_url": "https://huggingface.co/papers/2605.06651",
+    "authors": [
+      "Lars Buesing",
+      "Iuliya Beloshapka",
+      "Yori Zwols",
+      "Ingrid von Glehn",
+      "Daniel Zheng"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AI Co-Mathematician: Accelerating Mathematicians with Agentic AI",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.06651",
+      "pdf_url": "https://arxiv.org/pdf/2605.06651",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.06651",
+      "scraped_at": "2026-05-08T03:19:04.679229"
+    },
+    "scraped_date": "2026-05-08"
+  },
+  {
+    "title": "TabEmbed: Benchmarking and Learning Generalist Embeddings for Tabular Understanding",
+    "paper_url": "https://huggingface.co/papers/2605.04962",
+    "authors": [
+      "Yu Cheng",
+      "Xing Fu",
+      "Xiaoyi Bao",
+      "Mingming Zhang",
+      "Minjie Qiang"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "TabEmbed: Benchmarking and Learning Generalist Embeddings for Tabular Understanding",
+      "abstract": "the generalist embedding model that unifies tabular classification and retrieval in a single shared space.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.04962",
+      "pdf_url": "https://arxiv.org/pdf/2605.04962",
+      "github_links": [
+        "https://github.com/qiangminjie27/TabEmbed"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.04962",
+      "scraped_at": "2026-05-08T03:19:06.519015"
+    },
+    "scraped_date": "2026-05-08"
+  },
+  {
+    "title": "Recovering Hidden Reward in Diffusion-Based Policies",
+    "paper_url": "https://huggingface.co/papers/2605.00623",
+    "authors": [
+      "Wenyuan Xie",
+      "Shaokai Wu",
+      "Yuting Hu",
+      "Qiuchang Li",
+      "sotaagi"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Recovering Hidden Reward in Diffusion-Based Policies",
+      "abstract": "ENERGYFLOW unifies diffusion-based imitation learning and inverse reinforcement learning by learning a conservative energy field whose gradient drives action generation while exposing a recoverable reward signal, improving manipulation performance, downstream RL, and out-of-distribution robustness.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.00623",
+      "pdf_url": "https://arxiv.org/pdf/2605.00623",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.00623",
+      "scraped_at": "2026-05-08T03:19:08.432095"
+    },
+    "scraped_date": "2026-05-08"
+  },
+  {
+    "title": "Think, then Score: Decoupled Reasoning and Scoring for Video Reward Modeling",
+    "paper_url": "https://huggingface.co/papers/2605.05922",
+    "authors": [
+      "Jiajun Liang",
+      "Borui Liao",
+      "Yulong Xu",
+      "Ouxiang Li",
+      "Yuan Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Think, then Score: Decoupled Reasoning and Scoring for Video Reward Modeling",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.05922",
+      "pdf_url": "https://arxiv.org/pdf/2605.05922",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.05922",
+      "scraped_at": "2026-05-08T03:19:10.210814"
+    },
+    "scraped_date": "2026-05-08"
   }
 ]
