@@ -3641,5 +3641,541 @@
       "scraped_at": "2026-05-10T03:27:46.375361"
     },
     "scraped_date": "2026-05-10"
+  },
+  {
+    "title": "LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling",
+    "paper_url": "https://huggingface.co/papers/2605.08083",
+    "authors": [],
+    "stars": "16",
+    "details": {
+      "title": "LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling",
+      "abstract": "Test-time scaling (TTS) has become an effective approach for improving large language model performance by allocating additional computation during inference. However, existing TTS strategies are largely hand-crafted: researchers manually design reasoning patterns and tune heuristics by intuition, leaving much of the computation-allocation space unexplored. We propose an environment-driven framework, AutoTTS, that changes what researchers design: from individual TTS heuristics to environments where TTS strategies can be discovered automatically. The key to AutoTTS lies in environment construction: the discovery environment must make the control space tractable and provide cheap, frequent feedback for TTS search. As a concrete instantiation, we formulate width--depth TTS as controller synthesis over pre-collected reasoning trajectories and probe signals, where controllers decide when to branch, continue, probe, prune, or stop and can be evaluated cheaply without repeated LLM calls. We further introduce beta parameterization to make the search tractable and fine-grained execution trace feedback to improve discovery efficiency by helping the agent diagnose why a TTS program fails. Experiments on mathematical reasoning benchmarks show that the discovered strategies improve the overall accuracy--cost tradeoff over strong manually designed baselines. The discovered strategies generalize to held-out benchmarks and model scales, while the entire discovery costs only $39.9 and 160 minutes. Our data, and code will be open-source at this https URL.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.08083",
+      "pdf_url": "https://arxiv.org/pdf/2605.08083",
+      "github_links": [
+        "https://github.com/zhengkid/AutoTTS"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.08083",
+      "scraped_at": "2026-05-11T03:38:25.072800"
+    },
+    "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "Listwise Policy Optimization: Group-based RLVR as Target-Projection on the LLM Response Simplex",
+    "paper_url": "https://huggingface.co/papers/2605.06139",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Listwise Policy Optimization: Group-based RLVR as Target-Projection on the LLM Response Simplex",
+      "abstract": "This work reveals that group-based methods in RLVR share a common geometric structure: each implicitly defines a target distribution on the response simplex and projects toward it via first-order approximation. Building on this insight, we propose Listwise Policy Optimization (LPO) to explicitly conduct the target-projection, which demystifies the implicit target by restricting the proximal RL objective to the response simplex, and then projects the policy via exact divergence minimization. This framework provides (i) monotonic improvement on the listwise objective with bounded, zero-sum, and self-correcting projection gradients, and (ii) flexibility in divergence selection with distinct structural properties through the decoupled projection step. On diverse reasoning tasks and LLM backbones, LPO consistently improves training performance over typical policy gradient baselines under matched targets, while intrinsically preserving optimization stability and response diversity.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.06139",
+      "pdf_url": "https://arxiv.org/pdf/2605.06139",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.06139",
+      "scraped_at": "2026-05-11T03:38:27.061747"
+    },
+    "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "Beyond Retrieval: A Multitask Benchmark and Model for Code Search",
+    "paper_url": "https://huggingface.co/papers/2605.04615",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Beyond Retrieval: A Multitask Benchmark and Model for Code Search",
+      "abstract": "Code search has usually been evaluated as first-stage retrieval, even though production systems rely on broader pipelines with reranking and developer-style queries. Existing benchmarks also suffer from data contamination, label noise, and degenerate binary relevance. We introduce CoREB, a contamination-limited, multitask code retrieval and reranking benchmark, together with a fine-tuned code reranker, that goes beyond retrieval to cover the full code search pipeline. CoREB is built from counterfactually rewritten LiveCodeBench problems in five programming languages and delivered as timed releases with graded relevance judgments. We benchmark eleven embedding models and five rerankers across three tasks: text-to-code, code-to-text, and code-to-code. Our experiments reveal that: (1) code-specialised embeddings dominate code-to-code retrieval (~2x over general encoders), yet no single model wins all three tasks; (2) short keyword queries, the format closest to real developer search, collapse every model to near-zero nDCG@10; (3) off-the-shelf rerankers are task-asymmetric, with a 12-point swing on code-to-code and no baseline net-positive across all tasks; (4) our fine-tuned CoREB-Reranker is the first to achieve consistent gains across all three tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.04615",
+      "pdf_url": "https://arxiv.org/pdf/2605.04615",
+      "github_links": [
+        "https://github.com/hq-bench/coreb"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.04615",
+      "scraped_at": "2026-05-11T03:38:28.851872"
+    },
+    "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "HumanNet: Scaling Human-centric Video Learning to One Million Hours",
+    "paper_url": "https://huggingface.co/papers/2605.06747",
+    "authors": [
+      "Daquan Zhou",
+      "Yufan Deng"
+    ],
+    "stars": "12",
+    "details": {
+      "title": "HumanNet: Scaling Human-centric Video Learning to One Million Hours",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.06747",
+      "pdf_url": "https://arxiv.org/pdf/2605.06747",
+      "github_links": [
+        "https://github.com/DAGroup-PKU/HumanNet"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.06747",
+      "scraped_at": "2026-05-11T03:38:30.615803"
+    },
+    "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "4DThinker: Thinking with 4D Imagery for Dynamic Spatial Understanding",
+    "paper_url": "https://huggingface.co/papers/2605.05997",
+    "authors": [],
+    "stars": "8",
+    "details": {
+      "title": "4DThinker: Thinking with 4D Imagery for Dynamic Spatial Understanding",
+      "abstract": "Dynamic spatial reasoning from monocular video is essential for bridging visual intelligence and the physical world, yet remains challenging for vision-language models (VLMs). Prior approaches either verbalize spatial-temporal reasoning entirely as text, which is inherently verbose and imprecise for complex dynamics, or rely on external geometric modules that increase inference complexity without fostering intrinsic model capability. In this paper, we present 4DThinker, the first framework that enables VLMs to \"think with 4D\" through dynamic latent mental imagery, i.e., internally simulating how scenes evolve within the continuous hidden space. Specifically, we first introduce a scalable, annotation-free data generation pipeline that synthesizes 4D reasoning data from raw videos. We then propose Dynamic-Imagery Fine-Tuning (DIFT), which jointly supervises textual tokens and 4D latents to ground the model in dynamic visual semantics. Building on this, 4D Reinforcement Learning (4DRL) further tackles complex reasoning tasks via outcome-based rewards, restricting policy gradients to text tokens to ensure stable optimization. Extensive experiments across multiple dynamic spatial reasoning benchmarks demonstrate that 4DThinker consistently outperforms strong baselines and offers a new perspective toward 4D reasoning in VLMs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.05997",
+      "pdf_url": "https://arxiv.org/pdf/2605.05997",
+      "github_links": [
+        "https://github.com/zhangquanchen/4DThinker"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.05997",
+      "scraped_at": "2026-05-11T03:38:32.406293"
+    },
+    "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "Flow-OPD: On-Policy Distillation for Flow Matching Models",
+    "paper_url": "https://huggingface.co/papers/2605.08063",
+    "authors": [
+      "Shuang Chen",
+      "Yiming Zhao",
+      "Yu Zeng",
+      "Wenxuan Huang",
+      "Zhen Fang"
+    ],
+    "stars": "11",
+    "details": {
+      "title": "Flow-OPD: On-Policy Distillation for Flow Matching Models",
+      "abstract": "Introduce on-policy distillation to flow matching models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.08063",
+      "pdf_url": "https://arxiv.org/pdf/2605.08063",
+      "github_links": [
+        "https://github.com/CostaliyA/Flow-OPD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.08063",
+      "scraped_at": "2026-05-11T03:38:34.338967"
+    },
+    "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "Anisotropic Modality Align",
+    "paper_url": "https://huggingface.co/papers/2605.07825",
+    "authors": [
+      "Yue Yang",
+      "Hanzhen Zhao",
+      "Yuhui Zhang",
+      "Yijiang Li",
+      "Xiaomin Yu"
+    ],
+    "stars": "62",
+    "details": {
+      "title": "Anisotropic Modality Align",
+      "abstract": "Anisotropic Modality Align",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.07825",
+      "pdf_url": "https://arxiv.org/pdf/2605.07825",
+      "github_links": [
+        "https://github.com/Yu-xm/Modality_Gap_Theory"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.07825",
+      "scraped_at": "2026-05-11T03:38:36.083485"
+    },
+    "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "MISA: Mixture of Indexer Sparse Attention for Long-Context LLM Inference",
+    "paper_url": "https://huggingface.co/papers/2605.07363",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MISA: Mixture of Indexer Sparse Attention for Long-Context LLM Inference",
+      "abstract": "Mixture of Indexer Sparse Attention",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.07363",
+      "pdf_url": "https://arxiv.org/pdf/2605.07363",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.07363",
+      "scraped_at": "2026-05-11T03:38:37.837607"
+    },
+    "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "UniSD: Towards a Unified Self-Distillation Framework for Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2605.06597",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "UniSD: Towards a Unified Self-Distillation Framework for Large Language Models",
+      "abstract": "A unified framework for on-policy self-distillation",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.06597",
+      "pdf_url": "https://arxiv.org/pdf/2605.06597",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.06597",
+      "scraped_at": "2026-05-11T03:38:39.694903"
+    },
+    "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "A^2RD: Agentic Autoregressive Diffusion for Long Video Consistency",
+    "paper_url": "https://huggingface.co/papers/2605.06924",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "A^2RD: Agentic Autoregressive Diffusion for Long Video Consistency",
+      "abstract": "We introduce A^2RD, an agentic autoregressive diffusion architecture for long video synthesis that allows  diffusion models to synthesize and self-improve long videos, achieving state-of-the-art consistency and narrative coherence over long horizons.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.06924",
+      "pdf_url": "https://arxiv.org/pdf/2605.06924",
+      "github_links": [
+        "https://github.com/dxlong2000/AARD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.06924",
+      "scraped_at": "2026-05-11T03:38:41.460133"
+    },
+    "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "HyperEyes: Dual-Grained Efficiency-Aware Reinforcement Learning for Parallel Multimodal Search Agents",
+    "paper_url": "https://huggingface.co/papers/2605.07177",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "HyperEyes: Dual-Grained Efficiency-Aware Reinforcement Learning for Parallel Multimodal Search Agents",
+      "abstract": "Code Repo: https://github.com/DeepExperience/HyperEyes",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.07177",
+      "pdf_url": "https://arxiv.org/pdf/2605.07177",
+      "github_links": [
+        "https://github.com/DeepExperience/HyperEyes"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.07177",
+      "scraped_at": "2026-05-11T03:38:43.216410"
+    },
+    "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "What Matters for Diffusion-Friendly Latent Manifold? Prior-Aligned Autoencoders for Latent Diffusion",
+    "paper_url": "https://huggingface.co/papers/2605.07915",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "What Matters for Diffusion-Friendly Latent Manifold? Prior-Aligned Autoencoders for Latent Diffusion",
+      "abstract": "🚀 PAE: State-of-the-Art Latent Diffusion with 13x Faster Training! We are excited to present Prior-Aligned AutoEncoder (PAE), a new paradigm for constructing diffusion-friendly latent manifolds! By explicitly shaping the latent space geometry, PAE breaks the trade-off between reconstruction fidelity and generation learnability. 🔥 Highlights: State-of-the-Art Quality: Achieves a new SOTA gFID of 1.03 on ImageNet 256×256, surpassing strong baselines like RAE and FAE. Unprecedented Efficiency: Enables 13x faster convergence for downstream DiT training. Reaches competitive performance in just 80 epochs compared to 800+ epochs for previous methods. Diffusion-Friendly Manifold: Explicitly optimizes three key geometric properties: Spatial Structure Coherence, Local Manifold Continuity, and Global Semantic Organization, ensuring smooth and semantically consistent latent spaces. Robust Few-Step Sampling: Maintains high-quality generation (gFID 1.05) with only 45 denoising steps, thanks to improved local continuity. Available Models: Pre-trained tokenizers based on DINOv2, SigLIP2, DINOv3, and MAE backbones! Code & Models are fully open-sourced on HuggingFace and ModelScope.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.07915",
+      "pdf_url": "https://arxiv.org/pdf/2605.07915",
+      "github_links": [
+        "https://github.com/ZhengrongYue/PAE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.07915",
+      "scraped_at": "2026-05-11T03:38:44.992898"
+    },
+    "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "STARFlow2: Bridging Language Models and Normalizing Flows for Unified Multimodal Generation",
+    "paper_url": "https://huggingface.co/papers/2605.08029",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "STARFlow2: Bridging Language Models and Normalizing Flows for Unified Multimodal Generation",
+      "abstract": "Github: https://github.com/apple/ml-starflow",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.08029",
+      "pdf_url": "https://arxiv.org/pdf/2605.08029",
+      "github_links": [
+        "https://github.com/apple/ml-starflow"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.08029",
+      "scraped_at": "2026-05-11T03:38:46.731417"
+    },
+    "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "Normalizing Trajectory Models",
+    "paper_url": "https://huggingface.co/papers/2605.08078",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Normalizing Trajectory Models",
+      "abstract": "Github: https://github.com/apple/ml-starflow",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.08078",
+      "pdf_url": "https://arxiv.org/pdf/2605.08078",
+      "github_links": [
+        "https://github.com/apple/ml-starflow"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.08078",
+      "scraped_at": "2026-05-11T03:38:48.570534"
+    },
+    "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms",
+    "paper_url": "https://huggingface.co/papers/2605.06716",
+    "authors": [
+      "Hongzhan Lin",
+      "Ziyang Luo",
+      "Chuxue Cao",
+      "Yuchen Tian",
+      "Jinghao Luo"
+    ],
+    "stars": "9",
+    "details": {
+      "title": "From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms",
+      "abstract": "An evolutionary framework is proposed for LLM agent memory that unifies fragmented research into three stages—Storage (save trajectories), Reflection (refine them), and Experience (abstract them)—driven by the need for long-range consistency, dynamic adaptation, and continual learning. Two frontier mechanisms are spotlighted in the Experience stage (proactive exploration and cross-trajectory abstraction) to provide design principles for next-generation agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.06716",
+      "pdf_url": "https://arxiv.org/pdf/2605.06716",
+      "github_links": [
+        "https://github.com/FeishuLuo/Evolving-LLM-Agent-Memory-Survey"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.06716",
+      "scraped_at": "2026-05-11T03:38:50.323568"
+    },
+    "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "IntentGrasp: A Comprehensive Benchmark for Intent Understanding",
+    "paper_url": "https://huggingface.co/papers/2605.06832",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "IntentGrasp: A Comprehensive Benchmark for Intent Understanding",
+      "abstract": "Paper: https://arxiv.org/abs/2605.06832 Authors: Yuwei Yin , Chuyuan Li , Giuseppe Carenini Institute: UBC NLP Group , Department of Computer Science, University of British Columbia Keywords: Intent Understanding, Dataset, Benchmark, LLM, Evaluation, Intentional Fine-Tuning Abstract: Accurately understanding the intent behind speech, conversation, and writing is crucial to the development of helpful Large Language Model (LLM) assistants. We introduce IntentGrasp, a comprehensive benchmark for evaluating the intent understanding capability of LLMs . Derived from 49 high-quality, open-licensed corpora spanning 12 diverse domains, IntentGrasp is constructed through source datasets curation, intent label contextualization, and task format unification. IntentGrasp contains a large-scale training set of 262,759 instances and two evaluation sets: an All Set of 12,909 test cases and a more balanced and challenging Gem Set of 470 cases . GitHub: https://github.com/YuweiYin/IntentGrasp Dataset: https://huggingface.co/datasets/yuweiyin/IntentGrasp",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.06832",
+      "pdf_url": "https://arxiv.org/pdf/2605.06832",
+      "github_links": [
+        "https://github.com/YuweiYin/IntentGrasp"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.06832",
+      "scraped_at": "2026-05-11T03:38:52.208916"
+    },
+    "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "LiVeAction: a Lightweight, Versatile, and Asymmetric Neural Codec Design for Real-time Operation",
+    "paper_url": "https://huggingface.co/papers/2605.06628",
+    "authors": [
+      "Neeraja J. Yadwadkar",
+      "danjacobellis"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "LiVeAction: a Lightweight, Versatile, and Asymmetric Neural Codec Design for Real-time Operation",
+      "abstract": "https://ut-sysml.github.io/liveaction pip install livecodec",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.06628",
+      "pdf_url": "https://arxiv.org/pdf/2605.06628",
+      "github_links": [
+        "https://github.com/ut-sysml/liveaction"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.06628",
+      "scraped_at": "2026-05-11T03:38:54.003004"
+    },
+    "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "Fast Byte Latent Transformer",
+    "paper_url": "https://huggingface.co/papers/2605.08044",
+    "authors": [
+      "Luke Zettlemoyer",
+      "Gargi Ghosh",
+      "Tomasz Limisiewicz",
+      "Artidoro Pagnoni",
+      "Julie Kallini"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Fast Byte Latent Transformer",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.08044",
+      "pdf_url": "https://arxiv.org/pdf/2605.08044",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.08044",
+      "scraped_at": "2026-05-11T03:38:55.753062"
+    },
+    "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "Who Prices Cognitive Labor in the Age of Agents? Compute-Anchored Wages",
+    "paper_url": "https://huggingface.co/papers/2605.05558",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Who Prices Cognitive Labor in the Age of Agents? Compute-Anchored Wages",
+      "abstract": "This paper discusses how cognitive labor is priced in the age of agents",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.05558",
+      "pdf_url": "https://arxiv.org/pdf/2605.05558",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.05558",
+      "scraped_at": "2026-05-11T03:38:57.587893"
+    },
+    "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "Steering Visual Generation in Unified Multimodal Models with Understanding Supervision",
+    "paper_url": "https://huggingface.co/papers/2605.05781",
+    "authors": [
+      "Huan Yang",
+      "Cheng Da",
+      "Yang Yue",
+      "Zanlin Ni",
+      "Zeyu Liu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Steering Visual Generation in Unified Multimodal Models with Understanding Supervision",
+      "abstract": "Unified multimodal models are envisioned to bridge the gap between understanding and generation. Yet, to achieve competitive performance, state-of-the-art models adopt largely decoupled understanding and generation components. This design, while effective for individual tasks, weakens the connection required for mutual enhancement, leaving the potential synergy empirically uncertain. We propose to explicitly restore this synergy by introducing Understanding-Oriented Post-Training (UNO), a lightweight framework that treats understanding not only as a distinct task, but also a direct supervisory signal to steer generative representations. By incorporating objectives that encode semantic abstraction (captioning) and structural details (visual regression), we enable effective gradient flow from understanding to generation. Extensive experiments on image generation and editing demonstrate that understanding can serve as an effective catalyst for generation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.05781",
+      "pdf_url": "https://arxiv.org/pdf/2605.05781",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.05781",
+      "scraped_at": "2026-05-11T03:38:59.341406"
+    },
+    "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "UniPrefill: Universal Long-Context Prefill Acceleration via Block-wise Dynamic Sparsification",
+    "paper_url": "https://huggingface.co/papers/2605.06221",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "UniPrefill: Universal Long-Context Prefill Acceleration via Block-wise Dynamic Sparsification",
+      "abstract": "As large language models (LLMs) continue to advance rapidly, they are becoming increasingly capable while simultaneously demanding ever-longer context lengths. To improve the inference efficiency of long-context processing, several novel low-complexity hybrid architectures have recently been proposed, effectively alleviating the computational burden of long-context inference. However, existing research on long-context prefill acceleration remains predominantly focused on sparse attention mechanisms, which achieve their maximum speedup only on full-attention models. When transferred to emerging architectures--such as linear/full attention hybrids or sliding window/full attention hybrids--these prefill acceleration approaches suffer significant performance degradation. Furthermore, such methods are generally incompatible with continuous batching, making them difficult to integrate into modern inference engines such as vLLM. To this end, we propose UniPrefill, a prefill acceleration framework applicable to virtually any model architecture, which directly accelerates the model's computation at the token level. We further implement UniPrefill as a continuous batching operator and extend vLLM's scheduling strategy to natively support prefill-decode co-processing and tensor parallel for UniPrefill, enabling its seamless integration into vLLM. UniPrefill achieves up to 2.1x speedup in Time-To-First-Token (TTFT), with the acceleration becoming increasingly pronounced as the number of concurrent requests grows.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.06221",
+      "pdf_url": "https://arxiv.org/pdf/2605.06221",
+      "github_links": [
+        "https://github.com/qhfan/UniPrefill"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.06221",
+      "scraped_at": "2026-05-11T03:39:01.181183"
+    },
+    "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "MDN: Parallelizing Stepwise Momentum for Delta Linear Attention",
+    "paper_url": "https://huggingface.co/papers/2605.05838",
+    "authors": [
+      "Zunchang Liu",
+      "Xiaopeng Lin",
+      "Hongxiang Huang",
+      "Xiang Liu",
+      "huuuuyulong"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "MDN: Parallelizing Stepwise Momentum for Delta Linear Attention",
+      "abstract": "We introduce Momentum DeltaNet (MDN), a new Delta Linear Attention model that combines stepwise momentum, chunkwise-parallel training, and stability-aware gating to improve both efficiency and performance in long-sequence language modeling.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.05838",
+      "pdf_url": "https://arxiv.org/pdf/2605.05838",
+      "github_links": [
+        "https://github.com/HuuYuLong/MomentumDeltaNet"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.05838",
+      "scraped_at": "2026-05-11T03:39:02.946357"
+    },
+    "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "CASCADE: Case-Based Continual Adaptation for Large Language Models During Deployment",
+    "paper_url": "https://huggingface.co/papers/2605.06702",
+    "authors": [
+      "Jun Wang",
+      "Yi Chang",
+      "Hechang Chen",
+      "Yali Du",
+      "Siyuan Guo"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "CASCADE: Case-Based Continual Adaptation for Large Language Models During Deployment",
+      "abstract": "Large language models (LLMs) have become a central foundation of modern artificial intelligence, yet their lifecycle remains constrained by a rigid separation between training and deployment, after which learning effectively ceases. This limitation contrasts with natural intelligence, which continually adapts through interaction with its environment. In this paper, we formalise deployment-time learning (DTL) as the third stage in the LLM lifecycle that enables LLM agents to improve from experience during deployment without modifying model parameters. We present CASCADE (CASe-based Continual Adaptation during DEployment), a general and principled framework that equips LLM agents with an explicit, evolving episodic memory. CASCADE formulates experience reuse as a contextual bandit problem, enabling principled exploration-exploitation trade-offs and establishing no-regret guarantees over long-term interactions. This design allows agents to accumulate, select, and refine task-relevant cases, transforming past experience into actionable knowledge. Across 16 diverse tasks spanning medical diagnosis, legal analysis, code generation, web search, tool use, and embodied interaction, CASCADE improves macro-averaged success rate by 20.9% over zero-shot prompting while consistently outperforming gradient-based and memory-based baselines. By reframing deployment as an adaptive learning process, this work establishes a foundation for continually improving AI systems.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.06702",
+      "pdf_url": "https://arxiv.org/pdf/2605.06702",
+      "github_links": [
+        "https://github.com/guosyjlu/CASCADE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.06702",
+      "scraped_at": "2026-05-11T03:39:04.712880"
+    },
+    "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "Scaling Continual Learning to 300+ Tasks with Bi-Level Routing Mixture-of-Experts",
+    "paper_url": "https://huggingface.co/papers/2602.03473",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "Scaling Continual Learning to 300+ Tasks with Bi-Level Routing Mixture-of-Experts",
+      "abstract": "A strong continual learner capable of scaling to over 300 tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03473",
+      "pdf_url": "https://arxiv.org/pdf/2602.03473",
+      "github_links": [
+        "https://github.com/LMMMEng/CaRE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2602.03473",
+      "scraped_at": "2026-05-11T03:39:06.447680"
+    },
+    "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "InterLV-Search: Benchmarking Interleaved Multimodal Agentic Search",
+    "paper_url": "https://huggingface.co/papers/2605.07510",
+    "authors": [
+      "Sicong Leng",
+      "Ronghao Dang",
+      "Jiayan Guo",
+      "Jiuning Gu",
+      "Bohan Hou"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "InterLV-Search: Benchmarking Interleaved Multimodal Agentic Search",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.07510",
+      "pdf_url": "https://arxiv.org/pdf/2605.07510",
+      "github_links": [
+        "https://github.com/hbhalpha/InterLV-Search-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.07510",
+      "scraped_at": "2026-05-11T03:39:08.184237"
+    },
+    "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "CPCANet: Deep Unfolding Common Principal Component Analysis for Domain Generalization",
+    "paper_url": "https://huggingface.co/papers/2605.05136",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CPCANet: Deep Unfolding Common Principal Component Analysis for Domain Generalization",
+      "abstract": "We propose CPCANet, which unrolls CPCA into a differentiable network to learn a structured domain-invariant subspace for domain generalization. It is architecture-agnostic and tuning-free, and achieves SOTA performance on standard benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.05136",
+      "pdf_url": "https://arxiv.org/pdf/2605.05136",
+      "github_links": [
+        "https://github.com/wish44165/CPCANet"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.05136",
+      "scraped_at": "2026-05-11T03:39:09.945589"
+    },
+    "scraped_date": "2026-05-11"
   }
 ]
