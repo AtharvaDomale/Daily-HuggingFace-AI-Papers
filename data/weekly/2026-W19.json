@@ -534,5 +534,305 @@
       "scraped_at": "2026-05-11T03:39:09.945589"
     },
     "scraped_date": "2026-05-11"
+  },
+  {
+    "title": "Soohak: A Mathematician-Curated Benchmark for Evaluating Research-level Math Capabilities of LLMs",
+    "paper_url": "https://huggingface.co/papers/2605.09063",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Soohak: A Mathematician-Curated Benchmark for Evaluating Research-level Math Capabilities of LLMs",
+      "abstract": "For questions or model-evaluation requests, contact guijin.son@snu.ac.kr .",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.09063",
+      "pdf_url": "https://arxiv.org/pdf/2605.09063",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.09063",
+      "scraped_at": "2026-05-12T03:25:44.415329"
+    },
+    "scraped_date": "2026-05-12"
+  },
+  {
+    "title": "Auto-Rubric as Reward: From Implicit Preferences to Explicit Multimodal Generative Criteria",
+    "paper_url": "https://huggingface.co/papers/2605.08354",
+    "authors": [],
+    "stars": "16",
+    "details": {
+      "title": "Auto-Rubric as Reward: From Implicit Preferences to Explicit Multimodal Generative Criteria",
+      "abstract": "Auto-Rubric as Reward converts a small set of labeled visual supervision into readable rubric text, supports both pointwise and pairwise VLM grading, and lets practitioners freely scale up the rubric dimensions they care about. On top of that, we provide a concise pairwise online RL algorithm for diffusion models that emphasizes data efficiency, training stability, and scalability, verifying that Rubric as Reward extends beyond multimodal reasoning into multimodal generation, including text-to-image and image editing.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.08354",
+      "pdf_url": "https://arxiv.org/pdf/2605.08354",
+      "github_links": [
+        "https://github.com/OpenEnvision/AutoRubric-as-Reward"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.08354",
+      "scraped_at": "2026-05-12T03:25:46.264331"
+    },
+    "scraped_date": "2026-05-12"
+  },
+  {
+    "title": "X-OmniClaw Technical Report: A Unified Mobile Agent for Multimodal Understanding and Interaction",
+    "paper_url": "https://huggingface.co/papers/2605.05765",
+    "authors": [],
+    "stars": "65",
+    "details": {
+      "title": "X-OmniClaw Technical Report: A Unified Mobile Agent for Multimodal Understanding and Interaction",
+      "abstract": "Hi HF community! If you are interested in our work or have any questions, feel free to reach out or leave a comment. I'd love to hear your thoughts!",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.05765",
+      "pdf_url": "https://arxiv.org/pdf/2605.05765",
+      "github_links": [
+        "https://github.com/OPPO-Mente-Lab/X-OmniClaw"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.05765",
+      "scraped_at": "2026-05-12T03:25:48.121998"
+    },
+    "scraped_date": "2026-05-12"
+  },
+  {
+    "title": "Geometry Conflict: Explaining and Controlling Forgetting in LLM Continual Post-Training",
+    "paper_url": "https://huggingface.co/papers/2605.09608",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Geometry Conflict: Explaining and Controlling Forgetting in LLM Continual Post-Training",
+      "abstract": "How should we continually post-train LLMs without causing catastrophic forgetting? We find that forgetting is not simply caused by large parameter updates. Instead, it is better understood as a state-relative update-integration failure: harmful steps occur when a new task update becomes geometrically incompatible with the current LLM state shaped by previous updates. We formalize this through geometry conflict, a signal based on the covariance geometry induced by task updates. Across Qwen3 0.6B--14B, we compare geometry conflict with update norm, subspace alignment, and gradient conflict, and show that state-relative geometry conflict better captures when transfer or interference occurs. Based on this insight, we propose Geometry-Conflict Wasserstein Merging (GCWM), a data-free continual update-integration method that uses geometry conflict to gate Wasserstein-based merge correction. GCWM improves retention and final performance across domain-continual and capability-continual settings without replay data. The main takeaway: continual post-training should not only control how far an LLM moves, but whether each new update remains geometrically compatible with the evolving model state.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.09608",
+      "pdf_url": "https://arxiv.org/pdf/2605.09608",
+      "github_links": [
+        "https://github.com/wyy-code/GCWM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.09608",
+      "scraped_at": "2026-05-12T03:25:49.922286"
+    },
+    "scraped_date": "2026-05-12"
+  },
+  {
+    "title": "Make Each Token Count: Towards Improving Long-Context Performance with KV Cache Eviction",
+    "paper_url": "https://huggingface.co/papers/2605.09649",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "Make Each Token Count: Towards Improving Long-Context Performance with KV Cache Eviction",
+      "abstract": "Can we improve long-context performance with KV cache eviction?",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.09649",
+      "pdf_url": "https://arxiv.org/pdf/2605.09649",
+      "github_links": [
+        "https://github.com/ngocbh/trimkv"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.09649",
+      "scraped_at": "2026-05-12T03:25:51.725839"
+    },
+    "scraped_date": "2026-05-12"
+  },
+  {
+    "title": "Omni-Persona: Systematic Benchmarking and Improving Omnimodal Personalization",
+    "paper_url": "https://huggingface.co/papers/2605.09996",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Omni-Persona: Systematic Benchmarking and Improving Omnimodal Personalization",
+      "abstract": "We introduce Omni-Persona, the first comprehensive benchmark for omnimodal personalization spanning text, image, and audio. Built on the Persona Modality Graph (PMG), it formalizes personalization as cross-modal routing and jointly evaluates grounding and calibrated abstention under realistic absent-persona retrieval noise.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.09996",
+      "pdf_url": "https://arxiv.org/pdf/2605.09996",
+      "github_links": [
+        "https://github.com/oyt9306/Omni-Persona"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.09996",
+      "scraped_at": "2026-05-12T03:25:53.505014"
+    },
+    "scraped_date": "2026-05-12"
+  },
+  {
+    "title": "Reinforcing Multimodal Reasoning Against Visual Degradation",
+    "paper_url": "https://huggingface.co/papers/2605.09262",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Reinforcing Multimodal Reasoning Against Visual Degradation",
+      "abstract": "Reinforcement Learning has significantly advanced the reasoning capabilities of Multimodal Large Language Models (MLLMs), yet the resulting policies remain brittle against real-world visual degradations such as blur, compression artifacts, and low-resolution scans. Prior robustness techniques from vision and deep RL rely on static data augmentation or value-based regularization, neither of which transfers cleanly to critic-free RL fine-tuning of autoregressive MLLMs. Reinforcing reasoning against such corruptions is non-trivial: naively injecting degraded views during rollout induces reward poisoning, where perceptual occlusions trigger hallucinated trajectories and destabilize optimization. We propose ROMA, an RL fine-tuning framework that modifies the optimization dynamics to reinforce reasoning against visual degradation while preserving clean-input performance. A dual-forward-pass strategy uses teacher forcing to evaluate corrupted views against clean-image trajectories, avoiding new rollouts on degraded inputs. For distributional consistency, we apply a token-level surrogate KL penalty against the worst-case augmentation; to prevent policy collapse under regularization, an auxiliary policy gradient loss anchored to clean-image advantages preserves a reliable reward signal; and to avoid systematically incorrect invariance, correctness-conditioned regularization restricts enforcement to successful trajectories. On Qwen3-VL 4B/8B across seven multimodal reasoning benchmarks, our method improves robustness by +2.4% on seen and +2.3% on unseen corruptions over GRPO while matching clean accuracy.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.09262",
+      "pdf_url": "https://arxiv.org/pdf/2605.09262",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.09262",
+      "scraped_at": "2026-05-12T03:25:55.401542"
+    },
+    "scraped_date": "2026-05-12"
+  },
+  {
+    "title": "DeltaRubric: Generative Multimodal Reward Modeling via Joint Planning and Verification",
+    "paper_url": "https://huggingface.co/papers/2605.09269",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DeltaRubric: Generative Multimodal Reward Modeling via Joint Planning and Verification",
+      "abstract": "Aligning Multimodal Large Language Models (MLLMs) requires reliable reward models, yet existing single-step evaluators can suffer from lazy judging, exploiting language priors over fine-grained visual verification. While rubric-based evaluation mitigates these biases in text-only settings, extending it to multimodal tasks is bottlenecked by the complexity of visual reasoning. The critical differences be- tween responses often depend on instance-specific visual details. Robust evaluation requires dynamically synthesizing rubrics that isolate spatial and factual discrepan- cies. To address this, we introduce DeltaRubric, an approach that reformulates multimodal preference evaluation as a plan-and-execute process within a single MLLM. DeltaRubric operates in two steps: acting first as a Disagreement Planner, the model generates a neutral, instance-specific verification checklist. Transitioning into a Checklist Verifier, it executes these self-generated checks against the image and question to produce the final grounded judgment. We formulate DeltaRubric as a multi-role reinforcement learning problem, jointly optimizing planning and verification capabilities. Validated on Qwen3-VL 4B and 8B Instruct models, DeltaRubric achieves solid empirical gains. For instance, On VL-RewardBench, it improves base model overall accuracy by +22.6 (4B) and +18.8 (8B) points, largely outperforming standard no-rubric baselines. The results demonstrate that decomposing evaluation into structured, verifiable steps leads to more reliable and generalizable multimodal reward modeling.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.09269",
+      "pdf_url": "https://arxiv.org/pdf/2605.09269",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.09269",
+      "scraped_at": "2026-05-12T03:25:57.170218"
+    },
+    "scraped_date": "2026-05-12"
+  },
+  {
+    "title": "RigidFormer: Learning Rigid Dynamics using Transformers",
+    "paper_url": "https://huggingface.co/papers/2605.09196",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "RigidFormer: Learning Rigid Dynamics using Transformers",
+      "abstract": "RigidFormer: Learning Rigid Dynamics with Transformers - our attempt to scale learning-based physical dynamics with Transformers. RigidFormer learns rigid dynamics with Transformers. It is a mesh-free, object-centric Transformer for multi-object rigid-body contact dynamics from point clouds. Learning physics with purely neural simulators, without relying on traditional physics engines, is an important and widely studied problem. Prior SOTA methods often use graph neural networks for accuracy and generalization, but still struggle with efficient, high-fidelity simulation at scale. RigidFormer uses only point inputs, matches or outperforms mesh-based baselines on standard benchmarks, runs much faster, generalizes across point resolutions and datasets, and scales to 200+ objects. We also show a preliminary extension to command-conditioned articulated bodies by treating body parts as interacting object-level components. RigidFormer is mesh-free: it does not require mesh connectivity, SDFs, or vertex-level message passing, making it well-suited for point-cloud observations and scalable simulation. This architecture can also be adapted to learn soft-body dynamics by replacing the rigid-body module (differentiable Kabsch alignment).",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.09196",
+      "pdf_url": "https://arxiv.org/pdf/2605.09196",
+      "github_links": [
+        "https://github.com/Frank-ZY-Dou/Dynamics-Modeling"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.09196",
+      "scraped_at": "2026-05-12T03:25:58.974284"
+    },
+    "scraped_date": "2026-05-12"
+  },
+  {
+    "title": "G-Zero: Self-Play for Open-Ended Generation from Zero Data",
+    "paper_url": "https://huggingface.co/papers/2605.09959",
+    "authors": [
+      "Langlin Huang",
+      "Runpeng Dai",
+      "Tong Zheng",
+      "Haolin Liu",
+      "Chengsong Huang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "G-Zero: Self-Play for Open-Ended Generation from Zero Data",
+      "abstract": "Self-evolving LLMs excel in verifiable domains but struggle in open-ended tasks, where reliance on proxy LLM judges introduces capability bottlenecks and reward hacking. To overcome this, we introduce G-Zero, a verifier-free, co-evolutionary framework for autonomous self-improvement. Our core innovation is Hint-, an intrinsic reward that quantifies the predictive shift between a Generator model's unassisted response and its response conditioned on a self-generated hint. Using this signal, a Proposer model is trained via GRPO to continuously target the Generator's blind spots by synthesizing challenging queries and informative hints. The Generator is concurrently optimized via DPO to internalize these hint-guided improvements. Theoretically, we prove a best-iterate suboptimality guarantee for an idealized standard-DPO version of G-Zero, provided that the Proposer induces sufficient exploration coverage and the data filteration keeps pseudo-label score noise low. By deriving supervision entirely from internal distributional dynamics, G-Zero bypasses the capability ceilings of external judges, providing a scalable, robust pathway for continuous LLM self-evolution across unverifiable domains.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.09959",
+      "pdf_url": "https://arxiv.org/pdf/2605.09959",
+      "github_links": [
+        "https://github.com/Chengsong-Huang/G-Zero"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.09959",
+      "scraped_at": "2026-05-12T03:26:00.783571"
+    },
+    "scraped_date": "2026-05-12"
+  },
+  {
+    "title": "Model Merging Scaling Laws in Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2509.24244",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Model Merging Scaling Laws in Large Language Models",
+      "abstract": "Can we predict the returns of language model merging before trying every expert combination? We study scaling laws for LLM merging and find a compact floor-plus-tail law that predicts merged-model cross-entropy from base model size and the number of merged experts. Across 10,866 merged models, 0.5B–72B base sizes, nine domains, and four merging methods (Average, TA, TIES, DARE), we observe consistent regularities: most gains come from the first few experts, larger models are easier to merge, variance contracts with more experts, and method differences shrink at scale. This turns model merging from a mostly empirical trial-and-error procedure into a predictable, budget-aware alternative to multitask fine-tuning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2509.24244",
+      "pdf_url": "https://arxiv.org/pdf/2509.24244",
+      "github_links": [
+        "https://github.com/InfiXAI/Merging-Scaling-Law"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2509.24244",
+      "scraped_at": "2026-05-12T03:26:02.596883"
+    },
+    "scraped_date": "2026-05-12"
+  },
+  {
+    "title": "Pushing Biomolecular Utility-Diversity Frontiers with Supergroup Relative Policy Optimization",
+    "paper_url": "https://huggingface.co/papers/2605.08659",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Pushing Biomolecular Utility-Diversity Frontiers with Supergroup Relative Policy Optimization",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.08659",
+      "pdf_url": "https://arxiv.org/pdf/2605.08659",
+      "github_links": [
+        "https://github.com/IDEA-XL/SGRPO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.08659",
+      "scraped_at": "2026-05-12T03:26:04.359664"
+    },
+    "scraped_date": "2026-05-12"
+  },
+  {
+    "title": "Uncovering Entity Identity Confusion in Multimodal Knowledge Editing",
+    "paper_url": "https://huggingface.co/papers/2605.06096",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Uncovering Entity Identity Confusion in Multimodal Knowledge Editing",
+      "abstract": "Multimodal knowledge editing (MKE) aims to correct the internal knowledge of large vision-language models after deployment, yet the behavioral patterns of post-edit models remain underexplored. In this paper, we identify a systemic failure mode in edited models, termed Entity Identity Confusion (EIC): edited models exhibit an absurd behavior where text-only queries about the original entity's identity unexpectedly return information about the new entity. To rigorously investigate EIC, we construct EC-Bench, a diagnostic benchmark that directly probes how image-entity bindings shift before and after editing. Our analysis reveals that EIC stems from existing methods failing to distinguish between Image-Entity (I-E) binding and Entity-Entity (E-E) relational knowledge in the model, causing models to overfit E-E associations as a shortcut: the image is still perceived as the original entity, with the new entity's name serving only as a spurious identity label. We further explore potential mitigation strategies, showing that constraining edits to the model's I-E processing stage encourages edits to act more faithfully on I-E binding, thereby substantially reducing EIC. Based on these findings, we discuss principled desiderata for faithful MKE and provide methodological guidance for future research.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.06096",
+      "pdf_url": "https://arxiv.org/pdf/2605.06096",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.06096",
+      "scraped_at": "2026-05-12T03:26:06.121645"
+    },
+    "scraped_date": "2026-05-12"
+  },
+  {
+    "title": "Sub-JEPA: Subspace Gaussian Regularization for Stable End-to-End World Models",
+    "paper_url": "https://huggingface.co/papers/2605.09241",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Sub-JEPA: Subspace Gaussian Regularization for Stable End-to-End World Models",
+      "abstract": "We're releasing Sub-JEPA 🌐 LeWM (from LeCun's group) is the first end-to-end trainable JEPA world model — it uses isotropic Gaussian regularization to prevent representation collapse. Clean and effective. Our take: latent representations sit on low-dimensional manifolds, so enforcing a full-space Gaussian is too strong a bias. We propose Subspace Gaussian Regularization: instead of constraining the full embedding space, we project latents into multiple orthogonal subspaces and apply Gaussian constraints there. Simple change, better inductive bias. Results on 4 continuous-control benchmarks consistently outperform LeWM, with gains correlated to reductions in effective rank — the lower the task's intrinsic dimensionality, the larger the gain.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.09241",
+      "pdf_url": "https://arxiv.org/pdf/2605.09241",
+      "github_links": [
+        "https://github.com/intcomp/Sub-JEPA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.09241",
+      "scraped_at": "2026-05-12T03:26:07.841959"
+    },
+    "scraped_date": "2026-05-12"
+  },
+  {
+    "title": "TD3B: Transition-Directed Discrete Diffusion for Allosteric Binder Generation",
+    "paper_url": "https://huggingface.co/papers/2605.09810",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "TD3B: Transition-Directed Discrete Diffusion for Allosteric Binder Generation",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.09810",
+      "pdf_url": "https://arxiv.org/pdf/2605.09810",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.09810",
+      "scraped_at": "2026-05-12T03:26:09.692455"
+    },
+    "scraped_date": "2026-05-12"
+  },
+  {
+    "title": "100,000+ Movie Reviews from Kazakhstan: Russian, Kazakh, and Code-Switched Texts",
+    "paper_url": "https://huggingface.co/papers/2605.08600",
+    "authors": [
+      "Rustem Yeshpanov"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "100,000+ Movie Reviews from Kazakhstan: Russian, Kazakh, and Code-Switched Texts",
+      "abstract": "Accepted to NLP4DH 2026",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.08600",
+      "pdf_url": "https://arxiv.org/pdf/2605.08600",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.08600",
+      "scraped_at": "2026-05-12T03:26:11.453058"
+    },
+    "scraped_date": "2026-05-12"
   }
 ]
