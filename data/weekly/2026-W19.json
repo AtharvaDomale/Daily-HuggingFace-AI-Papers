@@ -834,5 +834,437 @@
       "scraped_at": "2026-05-12T03:26:11.453058"
     },
     "scraped_date": "2026-05-12"
+  },
+  {
+    "title": "δ-mem: Efficient Online Memory for Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2605.12357",
+    "authors": [],
+    "stars": "26",
+    "details": {
+      "title": "δ-mem: Efficient Online Memory for Large Language Models",
+      "abstract": "https://github.com/declare-lab/delta-Mem",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.12357",
+      "pdf_url": "https://arxiv.org/pdf/2605.12357",
+      "github_links": [
+        "https://github.com/declare-lab/delta-Mem"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.12357",
+      "scraped_at": "2026-05-13T03:33:41.128364"
+    },
+    "scraped_date": "2026-05-13"
+  },
+  {
+    "title": "MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents",
+    "paper_url": "https://huggingface.co/papers/2605.09530",
+    "authors": [],
+    "stars": "31",
+    "details": {
+      "title": "MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents",
+      "abstract": "MemPrivacy: Privacy-Preserving Personalized Memory for Edge-Cloud Agents Authors: Yining Chen, Jihao Zhao, Bo Tang, Haofen Wang, Yue Zhang, Fei Huang, Feiyu Xiong, Zhiyu Li ArXiv: 2605.09530 GitHub: MemTensor/MemPrivacy Hugging Face Models: IAAR-Shanghai/memprivacy 🧠 Motivation As LLM-powered agents become widespread in edge-cloud settings, personalized memory is crucial for long-term adaptation and user-centric interaction. However, cloud-based memory risks exposing sensitive user information, while naive privacy solutions (like *** masking) destroy task semantics , harming memory utility and personalization. Goal: Protect sensitive data without sacrificing semantic utility . Why MemPrivacy? Cloud agents typically send user messages to remote LLMs and store conversation traces in memory systems (e.g., Mem0 , LangMem , Memobase ) for long-term personalization. This creates a large privacy attack surface: plaintext prompts and logs may contain PII , medical/financial data, credentials cloud memory stores can leak via retrieval, prompt injection, inversion, or misconfiguration naïve mitigation (e.g., *** masking) destroys task semantics , harming retrieval and personalization Goal: reduce privacy leakage without sacrificing utility . Core Idea MemPrivacy implements local reversible pseudonymization : On-device privacy detection (local) Detect privacy spans in user input and classify them by: privacy level (PL1–PL4) privacy type (e.g., Email, Real Name, Medical Health, Recovery Code) Typed placeholder replacement (local → cloud) Replace protected spans with semantically meaningful typed placeholders , e.g.: 160/110 (blood pressure) → <Health_Info_1> recovery code RC-7291 → <Recovery_Code_1> Local secure mapping (persistent across sessions) Store the mapping placeholder ↔ original value in a local SQLite DB . Cloud reasoning and memory operations (cloud) The cloud agent/memory only sees placeholders—preserving semantic roles while hiding raw values. Downlink restoration (local) Restore placeholders in the cloud response back to the original values for a fluent user experience. This yields architecture-level isolation : cloud components never see/store raw sensitive values. Key Contributions & Advantages 1) Privacy–Utility Balance (vs. masking) Irreversible masking ( *** ) protects privacy but loses meaning and breaks memory retrieval. Untyped placeholders ( <Mask_1> ) keep structure but lose semantic roles. MemPrivacy (typed placeholders) preserve the semantic role and hide raw values, minimizing utility loss. 2) Configurable Protection via a 4-Level Privacy Taxonomy MemPrivacy introduces PL1–PL4 to support user-configurable policies: Level Meaning Examples Typical Default Policy PL1 low sensitivity / preferences “I like sci-fi”, tone, generic habits can be kept for personalization PL2 identifiable PII real name, phone, email, detailed address, account IDs disallowed by default in long-term memory PL3 highly sensitive PII health records, financial records, precise location, religion/ethnicity not permitted in general memory PL4 critical secrets (immediately exploitable) passwords, OTPs, recovery codes, API keys zero retention ; must be blocked/redacted 3) Benchmark & Evaluation for Memory Systems This repo builds MemPrivacy-Bench and evaluates privacy protection strategies across real memory systems: MemPrivacy-Bench : 200 synthetic users, bilingual (Chinese/English), multi-turn dialogues with dense privacy exposure, plus memory QA tasks. Evaluations on MemPrivacy-Bench (in-distribution) and PersonaMem-v2 (out-of-distribution, annotated here). 4) Lightweight & Practical The framework is designed for edge deployment : local detection + placeholder substitution + SQLite lookup are low-latency operations works as a drop-in privacy layer for existing cloud agents / memory systems 5) Open-Source MemPrivacy Models We release a family of MemPrivacy models trained via Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) across different parameter sizes. You can access the full model collection here . Model Name Parameters Method HuggingFace Link 🤗 MemPrivacy-4B-RL 4B RL IAAR-Shanghai/MemPrivacy-4B-RL 🤗 MemPrivacy-4B-SFT 4B SFT IAAR-Shanghai/MemPrivacy-4B-SFT 🤗 MemPrivacy-1.7B-RL 1.7B RL IAAR-Shanghai/MemPrivacy-1.7B-RL 🤗 MemPrivacy-1.7B-SFT 1.7B SFT IAAR-Shanghai/MemPrivacy-1.7B-SFT Evaluation Results 1. Privacy Extraction Performance Key Takeaways: Superior Accuracy: MemPrivacy consistently outperforms 11 general LLMs and OpenAI-Privacy-Filter . The best model (MemPrivacy-4B-RL) achieves F1 scores of 85.97% and 94.48% , significantly surpassing the top general models (78.41% and 92.18%). Even our smallest 0.6B model beats most general models. Robustness on Complex Data: While lightweight filters like OpenAI-Privacy-Filter are fast, they struggle with implicit and linguistically diverse privacy expressions (only 35.50% F1 on MemPrivacy-Bench). MemPrivacy accurately handles fine-grained, heterogeneous conversational scenarios. High Efficiency: Despite its accuracy, MemPrivacy remains highly efficient. Processing latency per message is consistently below one second on PersonaMem-v2, making it well-suited for seamless on-device deployment without noticeable delays. 2. Memory System Performance under Different Protection Methods Key Takeaways: Optimal Privacy-Utility Trade-off: Compared to traditional masking ( *** ) or untyped placeholders ( <Mask_1> ), MemPrivacy preserves the utility of downstream systems (LangMem, Mem0, Memobase) significantly better by retaining critical semantic roles. Minimal Degradation: When applying stringent protection (PL2–PL4), system accuracy drops by merely 0.71%–1.60% . If protecting only critical secrets (PL4), the drop is below 0.89% . Extractor Dependency: The effectiveness of the entire framework heavily depends on accurate privacy extraction. Replacing the MemPrivacy model with general LLMs (e.g., DeepSeek-V3.2-Think, GPT-5.2) causes substantial accuracy degradation, validating the necessity of our specialized fine-tuning. 🔗 Links Paper on arXiv GitHub Repository Hugging Face Models",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.09530",
+      "pdf_url": "https://arxiv.org/pdf/2605.09530",
+      "github_links": [
+        "https://github.com/MemTensor/MemPrivacy"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.09530",
+      "scraped_at": "2026-05-13T03:33:43.097405"
+    },
+    "scraped_date": "2026-05-13"
+  },
+  {
+    "title": "SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture",
+    "paper_url": "https://huggingface.co/papers/2605.12500",
+    "authors": [
+      "Shihao Bai",
+      "Jiahao Wang",
+      "Hanming Deng",
+      "Penghao Wu",
+      "Haiwen Diao"
+    ],
+    "stars": "1.58k",
+    "details": {
+      "title": "SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture",
+      "abstract": "🚀 SenseNova U1 is a new series of native multimodal models that unifies multimodal understanding, reasoning, and generation within a monolithic architecture. It marks a fundamental paradigm shift in multimodal AI: from modality integration to true unification. Rather than relying on adapters to translate between modalities, SenseNova U1 models think-and-act across language and vision natively.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.12500",
+      "pdf_url": "https://arxiv.org/pdf/2605.12500",
+      "github_links": [
+        "https://github.com/OpenSenseNova/SenseNova-U1"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.12500",
+      "scraped_at": "2026-05-13T03:33:45.006921"
+    },
+    "scraped_date": "2026-05-13"
+  },
+  {
+    "title": "RubricEM: Meta-RL with Rubric-guided Policy Decomposition beyond Verifiable Rewards",
+    "paper_url": "https://huggingface.co/papers/2605.10899",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "RubricEM: Meta-RL with Rubric-guided Policy Decomposition beyond Verifiable Rewards",
+      "abstract": "TLDR: RubricEM introduces a rubric-guided reinforcement learning framework for training long-form deep research agents, enabling finer-grained stagewise credit assignment and reflection meta-policy training beyond verifiable rewards.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.10899",
+      "pdf_url": "https://arxiv.org/pdf/2605.10899",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.10899",
+      "scraped_at": "2026-05-13T03:33:46.906511"
+    },
+    "scraped_date": "2026-05-13"
+  },
+  {
+    "title": "Beyond the Last Layer: Multi-Layer Representation Fusion for Visual Tokenization",
+    "paper_url": "https://huggingface.co/papers/2605.10780",
+    "authors": [
+      "Yuanxing Zhang",
+      "Yihang Lou",
+      "Yang Shi",
+      "Yan Bai",
+      "Xuanyu Zhu"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Beyond the Last Layer: Multi-Layer Representation Fusion for Visual Tokenization",
+      "abstract": "Representation autoencoders that reuse frozen pretrained vision encoders as visual tokenizers have achieved strong reconstruction and generation quality. However, existing methods universally extract features from only the last encoder layer, discarding the rich hierarchical information distributed across intermediate layers. We show that low-level visual details survive in the last layer merely as attenuated residuals after multiple layers of semantic abstraction, and that explicitly fusing multi-layer features can substantially recover this lost information. We propose DRoRAE (Depth-Routed Representation AutoEncoder), a lightweight fusion module that adaptively aggregates all encoder layers via energy-constrained routing and incremental correction, producing an enriched latent compatible with a frozen pretrained decoder. A three-phase decoupled training strategy first learns the fusion under the implicit distributional constraint of the frozen decoder, then fine-tunes the decoder to fully exploit the enriched representation. On ImageNet-256, DRoRAE reduces rFID from 0.57 to 0.29 and improves generation FID from 1.74 to 1.65 (with AutoGuidance), with gains also transferring to text-to-image synthesis. Furthermore, we uncover a log-linear scaling law (R2=0.86) between fusion capacity and reconstruction quality, identifying \\textit{representation richness} as a new, predictably scalable dimension for visual tokenizers analogous to vocabulary size in NLP.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.10780",
+      "pdf_url": "https://arxiv.org/pdf/2605.10780",
+      "github_links": [
+        "https://github.com/zhuzil/DRoRAE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.10780",
+      "scraped_at": "2026-05-13T03:33:48.762667"
+    },
+    "scraped_date": "2026-05-13"
+  },
+  {
+    "title": "CausalCine: Real-Time Autoregressive Generation for Multi-Shot Video Narratives",
+    "paper_url": "https://huggingface.co/papers/2605.12496",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CausalCine: Real-Time Autoregressive Generation for Multi-Shot Video Narratives",
+      "abstract": "Project page: https://yihao-meng.github.io/CausalCine/",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.12496",
+      "pdf_url": "https://arxiv.org/pdf/2605.12496",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.12496",
+      "scraped_at": "2026-05-13T03:33:50.712758"
+    },
+    "scraped_date": "2026-05-13"
+  },
+  {
+    "title": "Teaching Language Models to Think in Code",
+    "paper_url": "https://huggingface.co/papers/2605.07237",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Teaching Language Models to Think in Code",
+      "abstract": "arxiv: https://arxiv.org/abs/2605.07237 Code and models will be released soon.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.07237",
+      "pdf_url": "https://arxiv.org/pdf/2605.07237",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.07237",
+      "scraped_at": "2026-05-13T03:33:52.580142"
+    },
+    "scraped_date": "2026-05-13"
+  },
+  {
+    "title": "Do Enterprise Systems Need Learned World Models? The Importance of Context to Infer Dynamics",
+    "paper_url": "https://huggingface.co/papers/2605.12178",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Do Enterprise Systems Need Learned World Models? The Importance of Context to Infer Dynamics",
+      "abstract": "We study the question of enterprise models in enterprise software, where many transition rules are not hidden in the environment but stored explicitly as workflows, business rules, SLAs, schemas, and configuration records. We compare trained world models against discovery agents that inspect the live system at inference time to predict state changes. The main finding: learned world models can look strong in-distribution, but they are brittle under enterprise shift. Discovery agents are more robust because they recover the relevant dynamics from the active system itself. Would love to engage in researchers and people interested in world modeling and long-horizon planning under distribution shift.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.12178",
+      "pdf_url": "https://arxiv.org/pdf/2605.12178",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.12178",
+      "scraped_at": "2026-05-13T03:33:54.430797"
+    },
+    "scraped_date": "2026-05-13"
+  },
+  {
+    "title": "LoopUS: Recasting Pretrained LLMs into Looped Latent Refinement Models",
+    "paper_url": "https://huggingface.co/papers/2605.11011",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "LoopUS: Recasting Pretrained LLMs into Looped Latent Refinement Models",
+      "abstract": "project page: https://thrillcrazyer.github.io/LoopUS",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.11011",
+      "pdf_url": "https://arxiv.org/pdf/2605.11011",
+      "github_links": [
+        "https://github.com/Thrillcrazyer/LoopUS"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.11011",
+      "scraped_at": "2026-05-13T03:33:56.413040"
+    },
+    "scraped_date": "2026-05-13"
+  },
+  {
+    "title": "Beyond GRPO and On-Policy Distillation: An Empirical Sparse-to-Dense Reward Principle for Language-Model Post-Training",
+    "paper_url": "https://huggingface.co/papers/2605.12483",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Beyond GRPO and On-Policy Distillation: An Empirical Sparse-to-Dense Reward Principle for Language-Model Post-Training",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.12483",
+      "pdf_url": "https://arxiv.org/pdf/2605.12483",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.12483",
+      "scraped_at": "2026-05-13T03:33:58.228222"
+    },
+    "scraped_date": "2026-05-13"
+  },
+  {
+    "title": "Agent-ValueBench: A Comprehensive Benchmark for Evaluating Agent Values",
+    "paper_url": "https://huggingface.co/papers/2605.10365",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Agent-ValueBench: A Comprehensive Benchmark for Evaluating Agent Values",
+      "abstract": "Autonomous agents have rapidly matured as task executors and seen widespread deployment via harnesses such as OpenClaw. Safety concerns have rightly drawn growing research attention, and beneath them lie the values silently steering agent behavior. Existing value benchmarks, however, remain confined to LLMs, leaving agent values largely uncharted. From intuitive, empirical, and theoretical vantage points, we show that an agent's values diverge from those of its underlying LLM, and the agentic modality further introduces dataset-, evaluation-, and system-level challenges absent from text-only protocols. We close this gap with Agent-ValueBench, the first benchmark dedicated to agent values. It features 394 executable environments across 16 domains, offering 4,335 value-conflict tasks that cover 28 value systems and 332 dimensions. Every instance is co-synthesized through our purpose-built end-to-end pipeline and curated per-instance by professional psychologists. Each task ships with two pole-aligned golden trajectories whose checkpoints anchor a trajectory-level rubric-based judge. Benchmarking 14 frontier proprietary and open-weights models across 4 mainstream harnesses, we uncover three concerted findings. Agent values first manifest as a Value Tide of cross-model homogeneity beneath interpretable counter-currents. This tide bends non-additively under harness pull, and yet more decisively under deliberate steering via embedded skills. Together these results signal that the agent-alignment lever is shifting from classical model alignment and prompt steering toward harness alignment and skill steering.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.10365",
+      "pdf_url": "https://arxiv.org/pdf/2605.10365",
+      "github_links": [
+        "https://github.com/ValueByte-AI/Agent-ValueBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.10365",
+      "scraped_at": "2026-05-13T03:34:00.083455"
+    },
+    "scraped_date": "2026-05-13"
+  },
+  {
+    "title": "LychSim: A Controllable and Interactive Simulation Framework for Vision Research",
+    "paper_url": "https://huggingface.co/papers/2605.12449",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "LychSim: A Controllable and Interactive Simulation Framework for Vision Research",
+      "abstract": "LychSim is a highly controllable, interactive simulation framework built on Unreal Engine 5, designed to lower the technical barrier of using a modern game engine for computer vision research.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.12449",
+      "pdf_url": "https://arxiv.org/pdf/2605.12449",
+      "github_links": [
+        "https://github.com/wufeim/LychSim"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.12449",
+      "scraped_at": "2026-05-13T03:34:01.915944"
+    },
+    "scraped_date": "2026-05-13"
+  },
+  {
+    "title": "The Many Faces of On-Policy Distillation: Pitfalls, Mechanisms, and Fixes",
+    "paper_url": "https://huggingface.co/papers/2605.11182",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "The Many Faces of On-Policy Distillation: Pitfalls, Mechanisms, and Fixes",
+      "abstract": "Excited to share our paper on On-Policy Distillation!",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.11182",
+      "pdf_url": "https://arxiv.org/pdf/2605.11182",
+      "github_links": [
+        "https://github.com/ulab-uiuc/Open-On-Policy-Distillation"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.11182",
+      "scraped_at": "2026-05-13T03:34:03.838904"
+    },
+    "scraped_date": "2026-05-13"
+  },
+  {
+    "title": "AutoLLMResearch: Training Research Agents for Automating LLM Experiment Configuration -- Learning from Cheap, Optimizing Expensive",
+    "paper_url": "https://huggingface.co/papers/2605.11518",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "AutoLLMResearch: Training Research Agents for Automating LLM Experiment Configuration -- Learning from Cheap, Optimizing Expensive",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.11518",
+      "pdf_url": "https://arxiv.org/pdf/2605.11518",
+      "github_links": [
+        "https://github.com/taichengguo/AutoLLMResearch"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.11518",
+      "scraped_at": "2026-05-13T03:34:05.731602"
+    },
+    "scraped_date": "2026-05-13"
+  },
+  {
+    "title": "MCP-Cosmos: World Model-Augmented Agents for Complex Task Execution in MCP Environments",
+    "paper_url": "https://huggingface.co/papers/2605.09131",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MCP-Cosmos: World Model-Augmented Agents for Complex Task Execution in MCP Environments",
+      "abstract": "World Model 4 MCP",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.09131",
+      "pdf_url": "https://arxiv.org/pdf/2605.09131",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.09131",
+      "scraped_at": "2026-05-13T03:34:07.569778"
+    },
+    "scraped_date": "2026-05-13"
+  },
+  {
+    "title": "LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues",
+    "paper_url": "https://huggingface.co/papers/2605.12493",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues",
+      "abstract": "Is your memory system ready to make your agent an experienced colleague after consuming 500 sessions/115M tokens? LME-V2 stress tests the required memory abilities. Check out the paper, data, and code here: https://xiaowu0162.github.io/longmemeval-v2/",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.12493",
+      "pdf_url": "https://arxiv.org/pdf/2605.12493",
+      "github_links": [
+        "https://github.com/xiaowu0162/LongMemEval-V2"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.12493",
+      "scraped_at": "2026-05-13T03:34:09.406565"
+    },
+    "scraped_date": "2026-05-13"
+  },
+  {
+    "title": "MoCam: Unified Novel View Synthesis via Structured Denoising Dynamics",
+    "paper_url": "https://huggingface.co/papers/2605.12119",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MoCam: Unified Novel View Synthesis via Structured Denoising Dynamics",
+      "abstract": "This paper introduces MoCam, a unified framework for novel view synthesis that addresses the fundamental conflict between geometric and appearance priors in diffusion-based generation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.12119",
+      "pdf_url": "https://arxiv.org/pdf/2605.12119",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.12119",
+      "scraped_at": "2026-05-13T03:34:11.224533"
+    },
+    "scraped_date": "2026-05-13"
+  },
+  {
+    "title": "VidSplat: Gaussian Splatting Reconstruction with Geometry-Guided Video Diffusion Priors",
+    "paper_url": "https://huggingface.co/papers/2605.11424",
+    "authors": [
+      "Kanle Shi",
+      "Zian Huang",
+      "Junsheng Zhou",
+      "Wenyuan Zhang",
+      "Jimin Tang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "VidSplat: Gaussian Splatting Reconstruction with Geometry-Guided Video Diffusion Priors",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.11424",
+      "pdf_url": "https://arxiv.org/pdf/2605.11424",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.11424",
+      "scraped_at": "2026-05-13T03:34:13.035584"
+    },
+    "scraped_date": "2026-05-13"
+  },
+  {
+    "title": "Reward Hacking in Rubric-Based Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2605.12474",
+    "authors": [
+      "Bing Liu",
+      "Anisha Gunjal",
+      "Zihao Wang",
+      "MohammadHossein Rezaei",
+      "Anas Mahmoud"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Reward Hacking in Rubric-Based Reinforcement Learning",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.12474",
+      "pdf_url": "https://arxiv.org/pdf/2605.12474",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.12474",
+      "scraped_at": "2026-05-13T03:34:14.841391"
+    },
+    "scraped_date": "2026-05-13"
+  },
+  {
+    "title": "From Web to Pixels: Bringing Agentic Search into Visual Perception",
+    "paper_url": "https://huggingface.co/papers/2605.12497",
+    "authors": [
+      "Dongming Wu",
+      "Xingping Dong",
+      "Kaituo Feng",
+      "Xinyi Sun",
+      "Bokang Yang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "From Web to Pixels: Bringing Agentic Search into Visual Perception",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.12497",
+      "pdf_url": "https://arxiv.org/pdf/2605.12497",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.12497",
+      "scraped_at": "2026-05-13T03:34:16.644719"
+    },
+    "scraped_date": "2026-05-13"
+  },
+  {
+    "title": "Images in Sentences: Scaling Interleaved Instructions for Unified Visual Generation",
+    "paper_url": "https://huggingface.co/papers/2605.12305",
+    "authors": [
+      "Xun Wang",
+      "Xinyu Huang",
+      "Dewei Zhou",
+      "Kunchang Li",
+      "Yabo Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Images in Sentences: Scaling Interleaved Instructions for Unified Visual Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.12305",
+      "pdf_url": "https://arxiv.org/pdf/2605.12305",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.12305",
+      "scraped_at": "2026-05-13T03:34:18.551242"
+    },
+    "scraped_date": "2026-05-13"
+  },
+  {
+    "title": "Continual Harness: Online Adaptation for Self-Improving Foundation Agents",
+    "paper_url": "https://huggingface.co/papers/2605.09998",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Continual Harness: Online Adaptation for Self-Improving Foundation Agents",
+      "abstract": "Continual Harness: Online Adaptation for Self-Improving Foundation Agents",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.09998",
+      "pdf_url": "https://arxiv.org/pdf/2605.09998",
+      "github_links": [
+        "https://github.com/sethkarten/pokeagent-speedrun"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.09998",
+      "scraped_at": "2026-05-13T03:34:20.506902"
+    },
+    "scraped_date": "2026-05-13"
   }
 ]
