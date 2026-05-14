@@ -1266,5 +1266,461 @@
       "scraped_at": "2026-05-13T03:34:20.506902"
     },
     "scraped_date": "2026-05-13"
+  },
+  {
+    "title": "MinT: Managed Infrastructure for Training and Serving Millions of LLMs",
+    "paper_url": "https://huggingface.co/papers/2605.13779",
+    "authors": [],
+    "stars": "17",
+    "details": {
+      "title": "MinT: Managed Infrastructure for Training and Serving Millions of LLMs",
+      "abstract": "MinT: Managed Infrastructure for Training and Serving Millions of LLMs",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.13779",
+      "pdf_url": "https://arxiv.org/pdf/2605.13779",
+      "github_links": [
+        "https://github.com/MindLab-Research/mindlab-toolkit"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.13779",
+      "scraped_at": "2026-05-14T03:33:12.258018"
+    },
+    "scraped_date": "2026-05-14"
+  },
+  {
+    "title": "Edit-Compass & EditReward-Compass: A Unified Benchmark for Image Editing and Reward Modeling",
+    "paper_url": "https://huggingface.co/papers/2605.13062",
+    "authors": [
+      "Yuran Wang",
+      "Xuanyu Zhu",
+      "Yi-Fan Zhang",
+      "Yang Shi",
+      "Xuehai Bai"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "Edit-Compass & EditReward-Compass: A Unified Benchmark for Image Editing and Reward Modeling",
+      "abstract": "Recent image editing models have achieved remarkable progress in instruction following, multimodal understanding, and complex visual editing. However, existing benchmarks often fail to faithfully reflect human judgment, especially for strong frontier models, due to limited task difficulty and coarse-grained evaluation protocols. In parallel, reward models have become increasingly important for RL-based image editing optimization, yet existing reward model benchmarks still rely on unrealistic evaluation settings that deviate from practical RL scenarios. These limitations hinder reliable assessment of both image editing models and reward models. To address these challenges, we introduce Edit-Compass and EditReward-Compass, a unified evaluation suite for image editing and reward modeling. Edit-Compass contains 2,388 carefully annotated instances spanning six progressively challenging task categories, covering capabilities such as world knowledge reasoning, visual reasoning, and multi-image editing. Beyond broad task coverage, Edit-Compass adopts a fine-grained multidimensional evaluation framework based on structured reasoning and carefully designed scoring rubrics. In parallel, EditReward-Compass contains 2,251 preference pairs that simulate realistic reward modeling scenarios during RL optimization.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.13062",
+      "pdf_url": "https://arxiv.org/pdf/2605.13062",
+      "github_links": [
+        "https://github.com/bxhsort/Edit-Compass-and-EditReward-Compass"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.13062",
+      "scraped_at": "2026-05-14T03:33:14.219185"
+    },
+    "scraped_date": "2026-05-14"
+  },
+  {
+    "title": "AnyFlow: Any-Step Video Diffusion Model with On-Policy Flow Map Distillation",
+    "paper_url": "https://huggingface.co/papers/2605.13724",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AnyFlow: Any-Step Video Diffusion Model with On-Policy Flow Map Distillation",
+      "abstract": "We have open-sourced the code, model and demo. 📄Paper: https://arxiv.org/abs/2605.13724 💻Code: https://github.com/NVlabs/AnyFlow 🎨Pre-trained Models: https://huggingface.co/collections/nvidia/anyflow 🎬Demo: https://nvlabs.github.io/AnyFlow/demo",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.13724",
+      "pdf_url": "https://arxiv.org/pdf/2605.13724",
+      "github_links": [
+        "https://github.com/NVlabs/AnyFlow"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.13724",
+      "scraped_at": "2026-05-14T03:33:16.090697"
+    },
+    "scraped_date": "2026-05-14"
+  },
+  {
+    "title": "Qwen-Image-VAE-2.0 Technical Report",
+    "paper_url": "https://huggingface.co/papers/2605.13565",
+    "authors": [],
+    "stars": "8",
+    "details": {
+      "title": "Qwen-Image-VAE-2.0 Technical Report",
+      "abstract": "Qwen-Image-VAE-2.0 Technical Report",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.13565",
+      "pdf_url": "https://arxiv.org/pdf/2605.13565",
+      "github_links": [
+        "https://github.com/alibaba/OmniDoc-TokenBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.13565",
+      "scraped_at": "2026-05-14T03:33:17.887558"
+    },
+    "scraped_date": "2026-05-14"
+  },
+  {
+    "title": "Many-Shot CoT-ICL: Making In-Context Learning Truly Learn",
+    "paper_url": "https://huggingface.co/papers/2605.13511",
+    "authors": [
+      "Dit-Yan Yeung",
+      "Mo Yu",
+      "Lemao Liu",
+      "Tsz Ting Chung"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Many-Shot CoT-ICL: Making In-Context Learning Truly Learn",
+      "abstract": "We believe this work provides a step toward bridging ICL from pattern matching to in-context test time learning with two principles proposed, showing that reasoning performance relies on demonstrations being both understandable to the model and smoothly sequenced to facilitate conceptual progression.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.13511",
+      "pdf_url": "https://arxiv.org/pdf/2605.13511",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.13511",
+      "scraped_at": "2026-05-14T03:33:19.659049"
+    },
+    "scraped_date": "2026-05-14"
+  },
+  {
+    "title": "Revisiting DAgger in the Era of LLM-Agents",
+    "paper_url": "https://huggingface.co/papers/2605.12913",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Revisiting DAgger in the Era of LLM-Agents",
+      "abstract": "DAgger is back for the agent era: we revisit it for LLM agents and place SFT, RL, OPD, and DAgger under one unified post-training lens. Using our training recipe, 4B SWE agents beat published 8B systems, while 8B agents approach 32B-scale performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.12913",
+      "pdf_url": "https://arxiv.org/pdf/2605.12913",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.12913",
+      "scraped_at": "2026-05-14T03:33:21.417045"
+    },
+    "scraped_date": "2026-05-14"
+  },
+  {
+    "title": "PresentAgent-2: Towards Generalist Multimodal Presentation Agents",
+    "paper_url": "https://huggingface.co/papers/2605.11363",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "PresentAgent-2: Towards Generalist Multimodal Presentation Agents",
+      "abstract": "The code has been open-sourced.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.11363",
+      "pdf_url": "https://arxiv.org/pdf/2605.11363",
+      "github_links": [
+        "https://github.com/AIGeeksGroup/PresentAgent-2"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.11363",
+      "scraped_at": "2026-05-14T03:33:23.226088"
+    },
+    "scraped_date": "2026-05-14"
+  },
+  {
+    "title": "Training Long-Context Vision-Language Models Effectively with Generalization Beyond 128K Context",
+    "paper_url": "https://huggingface.co/papers/2605.13831",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Training Long-Context Vision-Language Models Effectively with Generalization Beyond 128K Context",
+      "abstract": "Long-context modeling is becoming a core capability of modern large vision-language models (LVLMs), enabling sustained context management across long-document understanding, video analysis, and multi-turn tool use in agentic workflows. Yet practical training recipes remain insufficiently explored, particularly for designing and balancing long-context data mixtures. In this work, we present a systematic study of long-context continued pre-training for LVLMs, extending a 7B model from 32K to 128K context with extensive ablations on long-document data. We first show that long-document VQA is substantially more effective than OCR transcription. Building on this observation, our ablations further yield three key findings: i) for sequence-length distribution, balanced data outperforms target-length-focused data (e.g., 128K), suggesting that long-context ability requires generalizable key-information retrieval across various lengths and positions; ii) retrieval remains the primary bottleneck, favoring retrieval-heavy mixtures with modest reasoning data for task diversity; and iii) pure long-document VQA largely preserves short-context capabilities, suggesting that instruction-formatted long data reduces the need for short-data mixing. Based on these findings, we introduce MMProLong, obtained by long-context continued pre-training from Qwen2.5-VL-7B with only a 5B-token budget. MMProLong improves long-document VQA scores by 7.1% and maintains strong performance at 256K and 512K contexts beyond its 128K training window, without additional training. It further generalizes to webpage-based multimodal needle retrieval, long-context vision-text compression, and long-video understanding without task-specific supervision. Overall, our study establishes a practical LongPT recipe and an empirical foundation for advancing long-context vision-language models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.13831",
+      "pdf_url": "https://arxiv.org/pdf/2605.13831",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.13831",
+      "scraped_at": "2026-05-14T03:33:25.017385"
+    },
+    "scraped_date": "2026-05-14"
+  },
+  {
+    "title": "Results and Retrospective Analysis of the CODS 2025 AssetOpsBench Challenge",
+    "paper_url": "https://huggingface.co/papers/2605.08518",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Results and Retrospective Analysis of the CODS 2025 AssetOpsBench Challenge",
+      "abstract": "Competition retrospectives are useful when they explain what a leaderboard measured, how hidden evaluation changed conclusions, and which design patterns were rewarded. We revisit the CODS 2025 challenge, a privacy-aware Codabench competition on industrial multi-agent orchestration built on . We combine final rank sheets, a 300-submission server log, 149-team registrations, best-submission exports, the organizer winners report, the companion system paper, and verified planning-track source trees. Five results stand out. First, the public planning leaderboard saturates at 72.73%, and richer prompts do not improve that peak. Second, hidden evaluation changes the story: public and private scores correlate moderately in planning (r{=}0.69) but negatively in execution (r{=}{-}0.13), with several 45.45% public execution systems reaching 63.64% on the hidden set. Third, the term is numerically almost inert in the official composite -- combined on a 0--1 scale with 0--100 percentage scores, it contributes at most 0.05 points per track, and rescaling would swap the top two teams. Fourth, the competition is operationally account-based but substantively team-based: 149 registered teams reduce to 24 with non-zero public scores and 11 fully ranked, while 52.3% of deduplicated registrations list multiple usernames. Fifth, successful execution methods mostly improve guardrails -- response selection, contamination cleanup, fallback, and context control -- rather than novel agent architectures. These findings identify which behaviors the evaluation rewarded, and motivate scale-aware composites, skill-level diagnostics, and versioned artifact release.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.08518",
+      "pdf_url": "https://arxiv.org/pdf/2605.08518",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.08518",
+      "scraped_at": "2026-05-14T03:33:26.998481"
+    },
+    "scraped_date": "2026-05-14"
+  },
+  {
+    "title": "Asymmetric Flow Models",
+    "paper_url": "https://huggingface.co/papers/2605.12964",
+    "authors": [],
+    "stars": "290",
+    "details": {
+      "title": "Asymmetric Flow Models",
+      "abstract": "JiT x0-prediction is not enough for pixel generation. AsymFlow introduces rank-asymmetric flow parameterization for scalable pixel generation. Core Method Velocity prediction has a data term and a noise term. AsymFlow makes them rank-asymmetric: Data term is full-dimensional Noise term is in a low-rank subspace The full-dimensional velocity is recovered analytically for flow matching training and sampling. State-of-the-Art Results 1.57 FID on ImageNet (best pixel flow model) Finetunes FLUX.2 klein into pixel space, beats the original latent model on HPSv3/DPG/GenEval (#1 overall on HPSv3)",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.12964",
+      "pdf_url": "https://arxiv.org/pdf/2605.12964",
+      "github_links": [
+        "https://github.com/Lakonik/LakonLab"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.12964",
+      "scraped_at": "2026-05-14T03:33:28.798387"
+    },
+    "scraped_date": "2026-05-14"
+  },
+  {
+    "title": "The DAWN of World-Action Interactive Models",
+    "paper_url": "https://huggingface.co/papers/2605.11550",
+    "authors": [
+      "Xiang Gu",
+      "Haoyu Wang",
+      "Chenghao He",
+      "Liang Yao",
+      "Hongbo Lu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "The DAWN of World-Action Interactive Models",
+      "abstract": "Existing World Action Models (WAMs) largely miss this reciprocity, treating world prediction and action generation as either isolated parallel branches or rigid predict-then-plan pipelines. We formalize this perspective as World-Action Interactive Models (WAIMs), and instantiate it in autonomous driving with DAWN (Denoising Actions and World iNteractive model), a simple yet strong latent generative baseline. DAWN operates in a compact semantic latent space and couples a World Predictor with a World-Conditioned Action Denoiser: the predicted world hypothesis conditions action denoising, while the denoised action hypothesis is fed back to update the world prediction, so that both are recursively refined during inference. Rather than eliminating test-time world evolution altogether or rolling out the full future in pixel space, DAWN performs a short explicit latent rollout that is sufficient to support long-horizon trajectory generation in complex interactive scenes.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.11550",
+      "pdf_url": "https://arxiv.org/pdf/2605.11550",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.11550",
+      "scraped_at": "2026-05-14T03:33:30.571888"
+    },
+    "scraped_date": "2026-05-14"
+  },
+  {
+    "title": "RoboEvolve: Co-Evolving Planner-Simulator for Robotic Manipulation with Limited Data",
+    "paper_url": "https://huggingface.co/papers/2605.13775",
+    "authors": [
+      "Ying-Cong Chen",
+      "Wenhang Ge",
+      "Yingjie Xu",
+      "Sirui Chen",
+      "Harold Haodong Chen"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "RoboEvolve: Co-Evolving Planner-Simulator for Robotic Manipulation with Limited Data",
+      "abstract": "https://arxiv.org/pdf/2605.13775",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.13775",
+      "pdf_url": "https://arxiv.org/pdf/2605.13775",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.13775",
+      "scraped_at": "2026-05-14T03:33:32.371007"
+    },
+    "scraped_date": "2026-05-14"
+  },
+  {
+    "title": "AgentLens: Revealing The Lucky Pass Problem in SWE-Agent Evaluation",
+    "paper_url": "https://huggingface.co/papers/2605.12925",
+    "authors": [
+      "Benjamin Steenhoek",
+      "Shengjie Ma",
+      "Xiaomin Li",
+      "Gaurav Mittal",
+      "Priyam Sahoo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AgentLens: Revealing The Lucky Pass Problem in SWE-Agent Evaluation",
+      "abstract": "Github: https://github.com/microsoft/code-agent-state-trajectories",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.12925",
+      "pdf_url": "https://arxiv.org/pdf/2605.12925",
+      "github_links": [
+        "https://github.com/microsoft/code-agent-state-trajectories"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.12925",
+      "scraped_at": "2026-05-14T03:33:34.286240"
+    },
+    "scraped_date": "2026-05-14"
+  },
+  {
+    "title": "MAP: A Map-then-Act Paradigm for Long-Horizon Interactive Agent Reasoning",
+    "paper_url": "https://huggingface.co/papers/2605.13037",
+    "authors": [
+      "Jinwei Xiao",
+      "Mingye Zhu",
+      "Yueqing Sun",
+      "Ziang Ye",
+      "Yuxin Liu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "MAP: A Map-then-Act Paradigm for Long-Horizon Interactive Agent Reasoning",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.13037",
+      "pdf_url": "https://arxiv.org/pdf/2605.13037",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.13037",
+      "scraped_at": "2026-05-14T03:33:36.048293"
+    },
+    "scraped_date": "2026-05-14"
+  },
+  {
+    "title": "Frequency Bias and OOD Generalization in Neural Operators under a Variable-Coefficient Wave Equation",
+    "paper_url": "https://huggingface.co/papers/2605.12997",
+    "authors": [
+      "An Luo",
+      "Runlong Xie"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Frequency Bias and OOD Generalization in Neural Operators under a Variable-Coefficient Wave Equation",
+      "abstract": "Neural Operators",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.12997",
+      "pdf_url": "https://arxiv.org/pdf/2605.12997",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.12997",
+      "scraped_at": "2026-05-14T03:33:37.836967"
+    },
+    "scraped_date": "2026-05-14"
+  },
+  {
+    "title": "Visual Aesthetic Benchmark: Can Frontier Models Judge Beauty?",
+    "paper_url": "https://huggingface.co/papers/2605.12684",
+    "authors": [
+      "Fengqing Jiang",
+      "Yuanyuan Chen",
+      "Chunjiang Liu",
+      "Yuetai Li",
+      "Yichen Feng"
+    ],
+    "stars": "29",
+    "details": {
+      "title": "Visual Aesthetic Benchmark: Can Frontier Models Judge Beauty?",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.12684",
+      "pdf_url": "https://arxiv.org/pdf/2605.12684",
+      "github_links": [
+        "https://github.com/BakeLab/Visual-Aesthetic-Benchmark"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.12684",
+      "scraped_at": "2026-05-14T03:33:39.582796"
+    },
+    "scraped_date": "2026-05-14"
+  },
+  {
+    "title": "ShapeCodeBench: A Renewable Benchmark for Perception-to-Program Reconstruction of Synthetic Shape Scenes",
+    "paper_url": "https://huggingface.co/papers/2605.11680",
+    "authors": [
+      "shivamk3r"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "ShapeCodeBench: A Renewable Benchmark for Perception-to-Program Reconstruction of Synthetic Shape Scenes",
+      "abstract": "ShapeCodeBench is a synthetic multimodal benchmark for perception-to-program reconstruction: models infer executable drawing programs from rendered shape scenes. The v1 release is intentionally small but challenging: the best multimodal exact-match rate is only 2.7%, even though foreground IoU reaches 0.87. The benchmark is renewable from fresh seeds to reduce exact-instance contamination, and includes deterministic scoring, a frozen eval_v1 split, baselines, code, data, paper source, and archived reproducibility artifacts.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.11680",
+      "pdf_url": "https://arxiv.org/pdf/2605.11680",
+      "github_links": [
+        "https://github.com/shivamk3r/shape-code-bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.11680",
+      "scraped_at": "2026-05-14T03:33:41.366945"
+    },
+    "scraped_date": "2026-05-14"
+  },
+  {
+    "title": "Position: LLM Inference Should Be Evaluated as Energy-to-Token Production",
+    "paper_url": "https://huggingface.co/papers/2605.11733",
+    "authors": [
+      "Kaiyong Zhao",
+      "Peijie Dong",
+      "Zhenheng Tang",
+      "Shimiao Yuan",
+      "Xiang Liu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Position: LLM Inference Should Be Evaluated as Energy-to-Token Production",
+      "abstract": "LLM inference is still evaluated mainly as a model or software problem: accuracy, latency, throughput, and hardware utilization. This is incomplete. At deployment scale, the relevant output is a quality-conditioned token produced under joint constraints from effective compute, delivered data-center power, cooling capacity, PUE, and utilization. We argue that the ML community should treat inference as \\emph{energy-to-token production}. We formalize this view with a dimensionally consistent Token Production Function in which token rate is bounded by both compute-per-token and energy-per-token ceilings. Listed API prices vary by over an order of magnitude across providers, but we use price dispersion only as directional motivation, not as causal evidence of marginal cost. The core physical question is instead: under fixed quality and service targets, when does the binding constraint move from theoretical peak compute toward delivered power, cooling, and operational efficiency? Under this framing, system optimizations -- latent KV-cache compression, sparse or heavily compressed attention, quantization, routing, and difficulty-adaptive reasoning -- are not merely local engineering tricks. They are energy-to-token levers because they reduce FLOPs/token, joules/token, memory traffic, or utilization losses under fixed (q∗,s∗). We therefore call for inference papers and benchmarks to report Joules/token, active binding constraint, PUE-adjusted delivered power, and utilization-adjusted token output alongside accuracy and latency.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.11733",
+      "pdf_url": "https://arxiv.org/pdf/2605.11733",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.11733",
+      "scraped_at": "2026-05-14T03:33:43.176134"
+    },
+    "scraped_date": "2026-05-14"
+  },
+  {
+    "title": "The Extrapolation Cliff in On-Policy Distillation of Near-Deterministic Structured Outputs",
+    "paper_url": "https://huggingface.co/papers/2605.08737",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "The Extrapolation Cliff in On-Policy Distillation of Near-Deterministic Structured Outputs",
+      "abstract": "https://lixin.ai/ListOPD",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.08737",
+      "pdf_url": "https://arxiv.org/pdf/2605.08737",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.08737",
+      "scraped_at": "2026-05-14T03:33:45.100258"
+    },
+    "scraped_date": "2026-05-14"
+  },
+  {
+    "title": "Context Training with Active Information Seeking",
+    "paper_url": "https://huggingface.co/papers/2605.13050",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Context Training with Active Information Seeking",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.13050",
+      "pdf_url": "https://arxiv.org/pdf/2605.13050",
+      "github_links": [],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.13050",
+      "scraped_at": "2026-05-14T03:33:46.850363"
+    },
+    "scraped_date": "2026-05-14"
+  },
+  {
+    "title": "Orthrus: Memory-Efficient Parallel Token Generation via Dual-View Diffusion",
+    "paper_url": "https://huggingface.co/papers/2605.12825",
+    "authors": [
+      "Franck Dernoncourt",
+      "Ryan A. Rossi",
+      "Van Cuong Pham",
+      "Chaitra Hegde",
+      "Chien Van Nguyen"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Orthrus: Memory-Efficient Parallel Token Generation via Dual-View Diffusion",
+      "abstract": "Fast, lossless LLM inference via dual-view diffusion decoding. Code: https://github.com/chiennv2000/orthrus",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.12825",
+      "pdf_url": "https://arxiv.org/pdf/2605.12825",
+      "github_links": [
+        "https://github.com/chiennv2000/orthrus"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.12825",
+      "scraped_at": "2026-05-14T03:33:48.608010"
+    },
+    "scraped_date": "2026-05-14"
+  },
+  {
+    "title": "WriteSAE: Sparse Autoencoders for Recurrent State",
+    "paper_url": "https://huggingface.co/papers/2605.12770",
+    "authors": [
+      "Jack Young"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "WriteSAE: Sparse Autoencoders for Recurrent State",
+      "abstract": "WriteSAE extends sparse autoencoders to the matrix-recurrent write site by making decoder atoms rank-1 outer products, matching the native k_t v_t^T cache update. The main results are 92.4% atom-substitution win rate over matched-norm ablation at Qwen3.5-0.8B L9 H4, R^2 = 0.98 closed-form logit-shift prediction, 88.1% transfer to Mamba-2-370M, and a sustained install that moves midrank target-in-continuation from 33.3% to 100%.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.12770",
+      "pdf_url": "https://arxiv.org/pdf/2605.12770",
+      "github_links": [
+        "https://github.com/JackYoung27/writesae"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.12770",
+      "scraped_at": "2026-05-14T03:33:50.368938"
+    },
+    "scraped_date": "2026-05-14"
   }
 ]
