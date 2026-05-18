@@ -8140,5 +8140,412 @@
       "scraped_at": "2026-05-17T03:35:56.499022"
     },
     "scraped_date": "2026-05-17"
+  },
+  {
+    "title": "MMSkills: Towards Multimodal Skills for General Visual Agents",
+    "paper_url": "https://huggingface.co/papers/2605.13527",
+    "authors": [],
+    "stars": "23",
+    "details": {
+      "title": "MMSkills: Towards Multimodal Skills for General Visual Agents",
+      "abstract": "Reusable skills have become a core substrate for improving agent capabilities, yet most existing skill packages encode reusable behavior primarily as textual prompts, executable code, or learned routines. For visual agents, however, procedural knowledge is inherently multimodal: reuse depends not only on what operation to perform, but also on recognizing the relevant state, interpreting visual evidence of progress or failure, and deciding what to do next. We formalize this requirement as multimodal procedural knowledge and address three practical challenges: (I) what a multimodal skill package should contain; (II) where such packages can be derived from public interaction experience; and (III) how agents can consult multimodal evidence at inference time without excessive image context or over-anchoring to reference screenshots. We introduce MMSkills, a framework for representing, generating, and using reusable multimodal procedures for runtime visual decision making. Each MMSkill is a compact, state-conditioned package that couples a textual procedure with runtime state cards and multi-view keyframes. To construct these packages, we develop an agentic trajectory-to-skill Generator that transforms public non-evaluation trajectories into reusable multimodal skills through workflow grouping, procedure induction, visual grounding, and meta-skill-guided auditing. To use them, we introduce a branch-loaded multimodal skill agent: selected state cards and keyframes are inspected in a temporary branch, aligned with the live environment, and distilled into structured guidance for the main agent. Experiments across GUI and game-based visual-agent benchmarks show that MMSkills consistently improve both frontier and smaller multimodal agents, suggesting that external multimodal procedural knowledge complements model-internal priors.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.13527",
+      "pdf_url": "https://arxiv.org/pdf/2605.13527",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/DeepExperience/MMSkills"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.13527",
+      "scraped_at": "2026-05-18T03:49:31.637461"
+    },
+    "scraped_date": "2026-05-18"
+  },
+  {
+    "title": "DexJoCo: A Benchmark and Toolkit for Task-Oriented Dexterous Manipulation on MuJoCo",
+    "paper_url": "https://huggingface.co/papers/2605.16257",
+    "authors": [
+      "He Lin",
+      "Siyuan Huang",
+      "Xiangyu Wang",
+      "Weizhi Zhao",
+      "Hanwen Wang"
+    ],
+    "stars": "7",
+    "details": {
+      "title": "DexJoCo: A Benchmark and Toolkit for Task-Oriented Dexterous Manipulation on MuJoCo",
+      "abstract": "DexJoCo is a toolkit and benchmark for task-oriented dexterous manipulation based on MuJoCo with full-stack infrastructure, including open-sourced hardware design, data collection pipeline, human-collected trajectories, and long-horizon tool-use tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.16257",
+      "pdf_url": "https://arxiv.org/pdf/2605.16257",
+      "github_links": [
+        "https://github.com/brave-eai/dexjoco",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.16257",
+      "scraped_at": "2026-05-18T03:49:33.622243"
+    },
+    "scraped_date": "2026-05-18"
+  },
+  {
+    "title": "Nudging Beyond the Comfort Zone: Efficient Strategy-Guided Exploration for RLVR",
+    "paper_url": "https://huggingface.co/papers/2605.15726",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Nudging Beyond the Comfort Zone: Efficient Strategy-Guided Exploration for RLVR",
+      "abstract": "We introduce NudgeRL, a method that enables the model to generate diverse reasoning paths during rollout through strategy nudging, thereby improving exploration. To effectively learn from the exploration induced by nudging, we further introduce the inter-intra group advantage.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.15726",
+      "pdf_url": "https://arxiv.org/pdf/2605.15726",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/tally0818/NudgeRL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.15726",
+      "scraped_at": "2026-05-18T03:49:35.514145"
+    },
+    "scraped_date": "2026-05-18"
+  },
+  {
+    "title": "InsightTok: Improving Text and Face Fidelity in Discrete Tokenization for Autoregressive Image Generation",
+    "paper_url": "https://huggingface.co/papers/2605.14333",
+    "authors": [],
+    "stars": "9",
+    "details": {
+      "title": "InsightTok: Improving Text and Face Fidelity in Discrete Tokenization for Autoregressive Image Generation",
+      "abstract": "InsightTok is a discrete visual tokenizer designed to improve the fidelity of text and faces, two of the most challenging yet perceptually important structures in autoregressive image generation. Existing visual tokenizers are typically trained with generic reconstruction objectives, which do not explicitly prioritize these fidelity-critical regions. InsightTok addresses this limitation through localized, content-aware perceptual supervision , enabling substantially better preservation of textual content and facial details under a compact discrete bottleneck. Highlights: State-of-the-art text and face reconstruction among discrete visual tokenizers at the same compression rate, using 16× downsampling and a compact 16,384-entry codebook Minimal additional training overhead over a vanilla VQGAN-style tokenizer No changes required to downstream generative modeling . Readily compatible with standard autoregressive image generation pipelines Tokenizer improvements transfer effectively to downstream text-to-image generation, yielding clearer text and more faithful facial details",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.14333",
+      "pdf_url": "https://arxiv.org/pdf/2605.14333",
+      "github_links": [
+        "https://github.com/LeapLabTHU/InsightTok",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.14333",
+      "scraped_at": "2026-05-18T03:49:37.400963"
+    },
+    "scraped_date": "2026-05-18"
+  },
+  {
+    "title": "FashionChameleon: Towards Real-Time and Interactive Human-Garment Video Customization",
+    "paper_url": "https://huggingface.co/papers/2605.15824",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "FashionChameleon: Towards Real-Time and Interactive Human-Garment Video Customization",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.15824",
+      "pdf_url": "https://arxiv.org/pdf/2605.15824",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/quanjiansong/FashionChameleon"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.15824",
+      "scraped_at": "2026-05-18T03:49:39.398703"
+    },
+    "scraped_date": "2026-05-18"
+  },
+  {
+    "title": "Solvita: Enhancing Large Language Models for Competitive Programming via Agentic Evolution",
+    "paper_url": "https://huggingface.co/papers/2605.15301",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Solvita: Enhancing Large Language Models for Competitive Programming via Agentic Evolution",
+      "abstract": "Large language models (LLMs) still struggle with the rigorous reasoning demands of hard competitive programming. While recent multi-agent frameworks attempt to bridge this reliability gap, they remain fundamentally stateless: they rely on static retrieval and discard the valuable problem-solving and debugging experience gained from previous tasks. To address this, we present Solvita, an agentic evolution framework that enables continuous learning without requiring weight updates to the underlying LLM. Solvita reorganizes problem-solving into a closed-loop system of strategy selection, program synthesis, certified supervision, and targeted hacking, executed by four specialized agents (Planner, Solver, Oracle, and Hacker).",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.15301",
+      "pdf_url": "https://arxiv.org/pdf/2605.15301",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.15301",
+      "scraped_at": "2026-05-18T03:49:41.369910"
+    },
+    "scraped_date": "2026-05-18"
+  },
+  {
+    "title": "ReactiveGWM: Steering NPC in Reactive Game World Models",
+    "paper_url": "https://huggingface.co/papers/2605.15256",
+    "authors": [
+      "Yinhan Zhang",
+      "Zizhao Tong",
+      "Zhaohu Xing",
+      "Danze Chen",
+      "Zeqing Wang"
+    ],
+    "stars": "9",
+    "details": {
+      "title": "ReactiveGWM: Steering NPC in Reactive Game World Models",
+      "abstract": "🚀 ReactiveGWM: Bringing true autonomy to NPCs in Game World Models! Instead of treating NPCs as background pixels , we explicitly decouple player controls from NPC behaviors. ✨ Highlights: Strategy-Driven: NPCs autonomously execute high-level intents (Offense, Control, Defense). Zero-Shot Transfer: The learned interactive logic is game-agnostic. Plug our modules directly into unannotated world models of different games to unlock steerable NPCs instantly—no domain-specific retraining needed! High Fidelity: Preserves fine-grained player control and native visual dynamics. 👇 Dive in: 📄 Arxiv: http://arxiv.org/abs/2605.15256 💻 Code: https://github.com/INV-WZQ/ReactiveGWM 🏠 Project: https://inv-wzq.github.io/ReactiveGWM/ 🤗 Model: https://huggingface.co/INV-WZQ/ReactiveGWM-Models 🗄️ Dataset: https://huggingface.co/datasets/INV-WZQ/ReactiveGWM-Datasets",
+      "arxiv_page_url": "http://arxiv.org/abs/2605.15256",
+      "pdf_url": "https://arxiv.org/pdf/2605.15256",
+      "github_links": [
+        "https://github.com/INV-WZQ/ReactiveGWM",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.15256",
+      "scraped_at": "2026-05-18T03:49:43.285733"
+    },
+    "scraped_date": "2026-05-18"
+  },
+  {
+    "title": "Flash-GRPO: Efficient Alignment for Video Diffusion via One-Step Policy Optimization",
+    "paper_url": "https://huggingface.co/papers/2605.15980",
+    "authors": [
+      "Ruizhe He",
+      "Weijie Wang",
+      "Zeyue Xue",
+      "Siming Fu",
+      "Xiaoxuan He"
+    ],
+    "stars": "7",
+    "details": {
+      "title": "Flash-GRPO: Efficient Alignment for Video Diffusion via One-Step Policy Optimization",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.15980",
+      "pdf_url": "https://arxiv.org/pdf/2605.15980",
+      "github_links": [
+        "https://github.com/Shredded-Pork/Flash-GRPO",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.15980",
+      "scraped_at": "2026-05-18T03:49:45.159271"
+    },
+    "scraped_date": "2026-05-18"
+  },
+  {
+    "title": "Unlocking Dense Metric Depth Estimation in VLMs",
+    "paper_url": "https://huggingface.co/papers/2605.15876",
+    "authors": [],
+    "stars": "8",
+    "details": {
+      "title": "Unlocking Dense Metric Depth Estimation in VLMs",
+      "abstract": "DepthVLM serves as a unified foundation model for both low-level dense geometry prediction and high-level multimodal understanding, while achieving substantially faster inference compared with existing VLM-based approaches such as DepthLM and Youtu-VL.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.15876",
+      "pdf_url": "https://arxiv.org/pdf/2605.15876",
+      "github_links": [
+        "https://github.com/hanxunyu/DepthVLM",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.15876",
+      "scraped_at": "2026-05-18T03:49:47.087795"
+    },
+    "scraped_date": "2026-05-18"
+  },
+  {
+    "title": "PAGER: Bridging the Semantic-Execution Gap in Point-Precise Geometric GUI Control",
+    "paper_url": "https://huggingface.co/papers/2605.15963",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "PAGER: Bridging the Semantic-Execution Gap in Point-Precise Geometric GUI Control",
+      "abstract": "Large vision-language models have significantly advanced GUI agents, enabling executable interaction across web, mobile, and desktop interfaces. Yet these gains largely rely on a forgiving region-tolerant paradigm, where many nearby pixels inside the same component remain valid. Precise geometric construction breaks this assumption: actions must land on points in continuous canvas space rather than tolerant regions. Because geometric primitives carry ontological dependencies, a local coordinate error can induce cascading topological failures that distort downstream objects and invalidate the final construction. We identify this regime as precision-sensitive GUI tasks, requiring point-level accuracy, geometry-aware verification, and robustness to dependency-driven error propagation. To benchmark it, we introduce PAGE Bench, with 4,906 problems and over 224K process-supervised, pixel-level GUI actions. We further propose PAGER, a topology-aware agent that decomposes construction into dependency-structured planning and pixel-level execution. Pixel-grounded supervised tuning establishes executable action grammar, while precision-aligned reinforcement learning mitigates rollout-induced exposure bias through state-conditioned geometric feedback. Experiments reveal a pronounced Semantic-Execution Gap: general multimodal models can exceed 88% action type accuracy yet remain below 6% task success. PAGER closes this gap, delivering 4.1x higher task success than the strongest evaluated general baseline and raising step success rate from below 9% for GUI-specialized agents to over 62%, establishing a new state of the art for point-precise GUI control.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.15963",
+      "pdf_url": "https://arxiv.org/pdf/2605.15963",
+      "github_links": [
+        "https://github.com/OpenRaiser/Pager",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.15963",
+      "scraped_at": "2026-05-18T03:49:48.989159"
+    },
+    "scraped_date": "2026-05-18"
+  },
+  {
+    "title": "FFAvatar: Few-Shot, Feed-Forward, and Generalizable Avatar Reconstruction",
+    "paper_url": "https://huggingface.co/papers/2605.15320",
+    "authors": [
+      "Gordon Guocheng Qian",
+      "Hao Li",
+      "Yinyu Nie",
+      "Jiahao Luo",
+      "Thuan Hoang Nguyen"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "FFAvatar: Few-Shot, Feed-Forward, and Generalizable Avatar Reconstruction",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.15320",
+      "pdf_url": "https://arxiv.org/pdf/2605.15320",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.15320",
+      "scraped_at": "2026-05-18T03:49:50.854403"
+    },
+    "scraped_date": "2026-05-18"
+  },
+  {
+    "title": "DiagnosticIQ: A Benchmark for LLM-Based Industrial Maintenance Action Recommendation from Symbolic Rules",
+    "paper_url": "https://huggingface.co/papers/2605.08614",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DiagnosticIQ: A Benchmark for LLM-Based Industrial Maintenance Action Recommendation from Symbolic Rules",
+      "abstract": "Monitoring complex industrial assets relies on engineer-authored symbolic rules that trigger based on sensor conditions and prompt technicians to perform corrective actions. The bottleneck is not detection but response: translating rules into maintenance steps requires asset-specific knowledge gained through years of practice. We investigate whether LLMs can serve as decision support for this rule-to-action step and introduce \\ours{}, a benchmark of 6{,}690 expert-validated multiple-choice questions from 118 rule-action pairs across 16 asset types. We contribute (i) a symbolic-to-MCQA pipeline normalizing rules to Disjunctive Normal Form with embedding-based distractor sampling, (ii) five variants probing distinct failure modes (Pro, Pert, Verbose, Aug, Rationale), and (iii) a benchmark of 29 LLMs and 4 embedding baselines. A human evaluation (9 practitioners, mean 45.0%) confirms \\ours{} requires specialist knowledge beyond operational experience. Three findings stand out. The frontier has closed: the top three LLMs lie within one Macro point, with Bradley-Terry Elo placing claude-opus-4-6 30 points above the next model. Yet \\ours{},Pro exposes brittleness, with every model losing 13--60% relative accuracy under distractor expansion. \\ours{},Aug exposes pattern-matching: under condition inversion, frontier models still select the original answer 49--63% of the time. The deployment bottleneck is not capability but calibration: frontier models handle template-style fault detection but break under structural perturbation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.08614",
+      "pdf_url": "https://arxiv.org/pdf/2605.08614",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.08614",
+      "scraped_at": "2026-05-18T03:49:52.740843"
+    },
+    "scraped_date": "2026-05-18"
+  },
+  {
+    "title": "WorldAct: Activating Monolithic 3D Worlds into Interactive-Ready Object-Centric Scenes",
+    "paper_url": "https://huggingface.co/papers/2605.15843",
+    "authors": [
+      "Sikuang Li",
+      "Chen Yang",
+      "Jiazhong Cen",
+      "Jiawei Guo",
+      "Jichen Hu"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "WorldAct: Activating Monolithic 3D Worlds into Interactive-Ready Object-Centric Scenes",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.15843",
+      "pdf_url": "https://arxiv.org/pdf/2605.15843",
+      "github_links": [
+        "https://github.com/SJTU-DeepVisionLab/WorldAct",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.15843",
+      "scraped_at": "2026-05-18T03:49:54.638093"
+    },
+    "scraped_date": "2026-05-18"
+  },
+  {
+    "title": "Learning from Failures: Correction-Oriented Policy Optimization with Verifiable Rewards",
+    "paper_url": "https://huggingface.co/papers/2605.14539",
+    "authors": [
+      "Hongyu Lin",
+      "Xueru Wen",
+      "Boxi Cao",
+      "Jie Lou",
+      "Mengjie Ren"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Learning from Failures: Correction-Oriented Policy Optimization with Verifiable Rewards",
+      "abstract": "Reinforcement Learning with Verifiable Rewards (RLVR) has emerged as an effective paradigm for improving the reasoning capabilities of large language models. However, RLVR training is often hindered by sparse binary rewards and weak credit assignment, resulting in ambiguous optimization signals and underutilization of the useful information embedded in failed trajectories. To address this challenge, we propose Correction-Oriented Policy Optimization (CIPO), a simple and effective extension to RLVR that converts on-policy failed trajectories into correction-oriented supervision, without relying on any external signals. By jointly optimizing correction samples derived from the model's own failed attempts together with the standard RLVR objective, CIPO improves learning effectiveness while explicitly enhancing the model's ability to correct its own errors. Extensive experiments across 11 benchmarks spanning mathematical reasoning and code generation demonstrate that CIPO consistently and significantly outperforms strong baselines in both reasoning and correction performance. Moreover, CIPO yields stronger pass@K gains, indicating that it improves the model's intrinsic reasoning capacity rather than merely redistributing probability mass over existing correct answers.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.14539",
+      "pdf_url": "https://arxiv.org/pdf/2605.14539",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.14539",
+      "scraped_at": "2026-05-18T03:49:56.491725"
+    },
+    "scraped_date": "2026-05-18"
+  },
+  {
+    "title": "HodgeCover: Higher-Order Topological Coverage Drives Compression of Sparse Mixture-of-Experts",
+    "paper_url": "https://huggingface.co/papers/2605.13997",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "HodgeCover: Higher-Order Topological Coverage Drives Compression of Sparse Mixture-of-Experts",
+      "abstract": "Sparse Mixture-of-Experts (MoE) layers route tokens through a handful of experts, and learning-free compression of these layers reduces inference cost without retraining. A subtle obstruction blocks every existing compressor in this family: three experts can each be pairwise compatible yet form an irreducible cycle when merged together, so any score that ranks experts on pairwise signals is structurally blind to which triples are jointly mergeable. We show the obstruction is a precise mathematical object, the harmonic kernel of the simplicial Laplacian on a 2-complex whose vertices are experts, whose edges carry KL merge barriers, and whose faces carry triplet barriers; Hodge-decomposing the edge-barrier signal isolates the kernel exactly. We turn the diagnostic into a selection objective: HodgeCover greedily covers the harmonic-critical edges and triplet-critical triangles, and a hybrid variant of HodgeCover pairs it with off-the-shelf weight pruning on survivors. On three open-weight Sparse MoE backbones under aggressive expert reduction, HodgeCover matches state-of-the-art learning-free baselines on the expert-reduction axis, leads on the aggressive-compression frontier of the hybrid axis, and uniquely balances retained mass across all four Hodge components. These results show that exposing the harmonic kernel of a learned MoE structure changes which compressor wins at the regime that matters most.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.13997",
+      "pdf_url": "https://arxiv.org/pdf/2605.13997",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.13997",
+      "scraped_at": "2026-05-18T03:49:58.415256"
+    },
+    "scraped_date": "2026-05-18"
+  },
+  {
+    "title": "OmniHumanoid: Streaming Cross-Embodiment Video Generation with Paired-Free Adaptation",
+    "paper_url": "https://huggingface.co/papers/2605.12038",
+    "authors": [
+      "Mike Zheng Shou",
+      "Yihan Wang",
+      "Pei Yang",
+      "Xiyao Deng",
+      "Yiren Song"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "OmniHumanoid: Streaming Cross-Embodiment Video Generation with Paired-Free Adaptation",
+      "abstract": "Cross-embodiment video generation aims to transfer motions across different humanoid embodiments, such as human-to-robot and robot-to-robot, enabling scalable data generation for embodied intelligence. A major challenge in this setting is that motion dynamics are partly transferable across embodiments, whereas appearance and morphology remain embodiment-specific. Existing approaches often entangle these factors, and many require paired data for every target embodiment, which limits scalability to new robots. We present OmniHumanoid, a framework that factorizes transferable motion learning and embodiment-specific adaptation. Our method learns a shared motion transfer model from motion-aligned paired videos spanning multiple embodiments, while adapting to a new embodiment using only unpaired videos through lightweight embodiment-specific adapters. To reduce interference between motion transfer and embodiment adaptation, we further introduce a branch-isolated attention design that separates motion conditioning from embodiment-specific modulation. In addition, we construct a synthetic crossembodiment dataset with motion-aligned paired videos rendered across diverse humanoid assets, scenes, and viewpoints. Experiments on both synthetic and realworld benchmarks show that OmniHumanoid achieves strong motion fidelity and embodiment consistency, while enabling scalable adaptation to unseen humanoid embodiments without retraining the shared motion model. Code is released at https://github.com/showlab/OmniHumanoid",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.12038",
+      "pdf_url": "https://arxiv.org/pdf/2605.12038",
+      "github_links": [
+        "https://github.com/showlab/OmniHumanoid",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.12038",
+      "scraped_at": "2026-05-18T03:50:00.298095"
+    },
+    "scraped_date": "2026-05-18"
+  },
+  {
+    "title": "Agentic Discovery of Neural Architectures: AIRA-Compose and AIRA-Design",
+    "paper_url": "https://huggingface.co/papers/2605.15871",
+    "authors": [
+      "Yannan Nellie Wu",
+      "Bilge Acun",
+      "Despoina Magka",
+      "Chien-Yu Lin",
+      "Alberto Pepe"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Agentic Discovery of Neural Architectures: AIRA-Compose and AIRA-Design",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.15871",
+      "pdf_url": "https://arxiv.org/pdf/2605.15871",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.15871",
+      "scraped_at": "2026-05-18T03:50:02.156183"
+    },
+    "scraped_date": "2026-05-18"
+  },
+  {
+    "title": "Look Before You Leap: Autonomous Exploration for LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2605.16143",
+    "authors": [
+      "Zhengzhou Cai",
+      "Yu Wang",
+      "Yuxin Liu",
+      "Wentao Shi",
+      "Ziang Ye"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Look Before You Leap: Autonomous Exploration for LLM Agents",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.16143",
+      "pdf_url": "https://arxiv.org/pdf/2605.16143",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.16143",
+      "scraped_at": "2026-05-18T03:50:04.027788"
+    },
+    "scraped_date": "2026-05-18"
   }
 ]
