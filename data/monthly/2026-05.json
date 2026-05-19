@@ -8547,5 +8547,318 @@
       "scraped_at": "2026-05-18T03:50:04.027788"
     },
     "scraped_date": "2026-05-18"
+  },
+  {
+    "title": "AI for Auto-Research: Roadmap & User Guide",
+    "paper_url": "https://huggingface.co/papers/2605.18661",
+    "authors": [
+      "Kevin Qinghong Lin",
+      "Linfeng Li",
+      "Wei Chow",
+      "Xian Sun",
+      "Lingdong Kong"
+    ],
+    "stars": "17",
+    "details": {
+      "title": "AI for Auto-Research: Roadmap & User Guide",
+      "abstract": "AI for Auto-Research — the first survey of AI across the complete research lifecycle, covering idea generation, literature review, coding, writing, peer review, rebuttal, and dissemination. Project Page: https://worldbench.github.io/awesome-ai-auto-research GitHub： https://github.com/worldbench/awesome-ai-auto-research",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.18661",
+      "pdf_url": "https://arxiv.org/pdf/2605.18661",
+      "github_links": [
+        "https://github.com/worldbench/awesome-ai-auto-research",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.18661",
+      "scraped_at": "2026-05-19T03:39:51.454406"
+    },
+    "scraped_date": "2026-05-19"
+  },
+  {
+    "title": "KVPO: ODE-Native GRPO for Autoregressive Video Alignment via KV Semantic Exploration",
+    "paper_url": "https://huggingface.co/papers/2605.14278",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "KVPO: ODE-Native GRPO for Autoregressive Video Alignment via KV Semantic Exploration",
+      "abstract": "We propose KVPO, a novel ODE-native Group Relative Policy Optimization (GRPO) framework that aligns streaming autoregressive video generators with human preferences through innovative causal-semantic KV cache exploration and a velocity-field surrogate policy, comprehensively enhancing visual quality, motion dynamics, and text-video alignment across both short and long videos.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.14278",
+      "pdf_url": "https://arxiv.org/pdf/2605.14278",
+      "github_links": [
+        "https://github.com/Richard-Zhang-AI/KVPO",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.14278",
+      "scraped_at": "2026-05-19T03:39:53.347372"
+    },
+    "scraped_date": "2026-05-19"
+  },
+  {
+    "title": "Where Should Diffusion Enter a Language Model? Geometry-Guided Hidden-State Replacement",
+    "paper_url": "https://huggingface.co/papers/2605.14368",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Where Should Diffusion Enter a Language Model? Geometry-Guided Hidden-State Replacement",
+      "abstract": "DiHAL, a geometry-guided diffusion-transformer hybrid, identifies optimal layers for diffusion integration in pretrained transformers by using geometry-based proxies to select diffusion-friendly hidden-state interfaces, enabling more effective language modeling compared to traditional continuous diffusion approaches.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.14368",
+      "pdf_url": "https://arxiv.org/pdf/2605.14368",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.14368",
+      "scraped_at": "2026-05-19T03:39:55.246942"
+    },
+    "scraped_date": "2026-05-19"
+  },
+  {
+    "title": "LongLive-2.0: An NVFP4 Parallel Infrastructure for Long Video Generation",
+    "paper_url": "https://huggingface.co/papers/2605.18739",
+    "authors": [],
+    "stars": "1.22k",
+    "details": {
+      "title": "LongLive-2.0: An NVFP4 Parallel Infrastructure for Long Video Generation",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.18739",
+      "pdf_url": "https://arxiv.org/pdf/2605.18739",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/NVlabs/LongLive"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.18739",
+      "scraped_at": "2026-05-19T03:39:57.212646"
+    },
+    "scraped_date": "2026-05-19"
+  },
+  {
+    "title": "Stop When Reasoning Converges: Semantic-Preserving Early Exit for Reasoning Models",
+    "paper_url": "https://huggingface.co/papers/2605.17672",
+    "authors": [
+      "Gal Yona",
+      "Yongliang Wu",
+      "Huiyi Chen",
+      "Giovanni Vaccarino",
+      "Dehai Min"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Stop When Reasoning Converges: Semantic-Preserving Early Exit for Reasoning Models",
+      "abstract": "Stop When Reasoning Converges: Semantic-Preserving Early Exit for Reasoning Models Large Reasoning Models (LRMs) achieve strong performance by generating long chains of thought (CoT), but often overthink, continuing to reason after a solution has already stabilized and thereby wasting tokens and increasing latency. Existing inference-time early-exit methods rely primarily on answer-level signals, such as confidence or trial-answer consistency, to decide when to stop. However, these signals mainly reflect answer readiness rather than reasoning convergence: they may trigger before the model has finished exploring or self-correcting, causing premature exits that can degrade final-answer accuracy and leave the retained reasoning chain semantically incomplete. We identify reasoning-level semantic redundancy as a complementary signal for semantic-preserving early exit: when successive steps no longer add novel progress and instead revisit established conclusions, the reasoning trajectory has likely converged. Building on this insight, we propose PUMA, a plug-and-play framework that combines a lightweight Redundancy Detector with answer-level verification. The detector flags semantically redundant candidate exits, while verification confirms whether stopping is safe, allowing PUMA to remove redundant continuation while preserving both answer accuracy and a coherent reasoning prefix. Across five LRMs and five challenging reasoning benchmarks, PUMA achieves 26.2% average token reduction while preserving accuracy and retained CoT quality. Additional experiments on code generation, zero-shot vision-language reasoning, and learned stopping-policy internalization further demonstrate that reasoning-level redundancy is a robust, transferable, and learnable signal for efficient reasoning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.17672",
+      "pdf_url": "https://arxiv.org/pdf/2605.17672",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/giovanni-vaccarino/PUMA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.17672",
+      "scraped_at": "2026-05-19T03:39:59.086572"
+    },
+    "scraped_date": "2026-05-19"
+  },
+  {
+    "title": "Model-Adaptive Tool Necessity Reveals the Knowing-Doing Gap in LLM Tool Use",
+    "paper_url": "https://huggingface.co/papers/2605.14038",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "Model-Adaptive Tool Necessity Reveals the Knowing-Doing Gap in LLM Tool Use",
+      "abstract": "Excited to share our new work on the knowing–doing gap in LLM tool use. Most prior work in LLM adaptive tool use treats “tool necessity” as fixed and model-agnostic. But models have different capabilities. What GPT-5 can solve without a tool may require tools for another model. So we introduce model-adaptive tool necessity, grounded in each model’s empirical capability. Across arithmetic + factual QA tasks, we compare: ✅ When models actually need tools vs.🔧 When models actually use tools We find major mismatches — up to 54% disagreement between necessity and behavior. Models frequently: use tools unnecessarily skip tools when needed To understand why, we model tool use as a two-stage process: 🧠 Cognition: recognizing a tool is needed ⚡ Execution: actually invoking the tool This distinction turns out to matter a lot. By probing hidden states, we found: Tool necessity signals are often decodable Tool-call execution signals are also decodable But at late tokens in late layers, the two signals become nearly orthogonal Meaning: The representation of necessity and action are decoupled. By tracing the trajectory of samples in the two-stage process, we further discover that the majority of mismatch is concentrated in the cognition-to-action transition, not in cognition itself. This shows models often internally know whether they need a tool, but fail to translate that cognition into the matching tool-call or direct-answer action. We call this: 👉 the knowing–doing gap in LLM tool use. Takeaway: improving tool-use reliability requires not only better recognition of when tools are needed, but also better translation of that recognition into action. Curious to hear your thoughts: Have you observed similar knowing–doing gaps in agentic systems? What mechanisms might better align internal recognition with external action?",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.14038",
+      "pdf_url": "https://arxiv.org/pdf/2605.14038",
+      "github_links": [
+        "https://github.com/chengez/Tool-Cognition-Action",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.14038",
+      "scraped_at": "2026-05-19T03:40:01.037528"
+    },
+    "scraped_date": "2026-05-19"
+  },
+  {
+    "title": "Lance: Unified Multimodal Modeling by Multi-Task Synergy",
+    "paper_url": "https://huggingface.co/papers/2605.18678",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Lance: Unified Multimodal Modeling by Multi-Task Synergy",
+      "abstract": "Lance is a native unified multimodal model that supports image and video understanding, generation, and editing within a single framework (Especially  video understanding, generation and editing). Efficient at 3B scale. With only 3B active parameters, Lance delivers strong performance across image generation, image editing, and video generation benchmarks. Trained from scratch. Lance is built with a staged multi-task recipe and trained entirely from scratch within a 128-A100-GPU budget.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.18678",
+      "pdf_url": "https://arxiv.org/pdf/2605.18678",
+      "github_links": [
+        "https://github.com/bytedance/Lance",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.18678",
+      "scraped_at": "2026-05-19T03:40:02.906523"
+    },
+    "scraped_date": "2026-05-19"
+  },
+  {
+    "title": "EndPrompt: Efficient Long-Context Extension via Terminal Anchoring",
+    "paper_url": "https://huggingface.co/papers/2605.14589",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "EndPrompt: Efficient Long-Context Extension via Terminal Anchoring",
+      "abstract": "Extending the context window of large language models typically requires training on sequences at the target length, incurring quadratic memory and computational costs that make long-context adaptation expensive and difficult to reproduce. We propose EndPrompt, a method that achieves effective context extension using only short training sequences. The core insight is that exposing a model to long-range relative positional distances does not require constructing full-length inputs: we preserve the original short context as an intact first segment and append a brief terminal prompt as a second segment, assigning it positional indices near the target context length. This two-segment construction introduces both local and long-range relative distances within a short physical sequence while maintaining the semantic continuity of the training text--a property absent in chunk-based simulation approaches that split contiguous context. We provide a theoretical analysis grounded in Rotary Position Embedding and the Bernstein inequality, showing that position interpolation induces a rigorous smoothness constraint over the attention function, with shared Transformer parameters further suppressing unstable extrapolation to unobserved intermediate distances. Applied to LLaMA-family models extending the context window from 8K to 64K, EndPrompt achieves an average RULER score of 76.03 and the highest average on LongBench, surpassing LCEG (72.24), LongLoRA (72.95), and full-length fine-tuning (69.23) while requiring substantially less computation. These results demonstrate that long-context generalization can be induced from sparse positional supervision, challenging the prevailing assumption that dense long-sequence training is necessary for reliable context-window extension. The code is available at https://github.com/clx1415926/EndPrompt .",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.14589",
+      "pdf_url": "https://arxiv.org/pdf/2605.14589",
+      "github_links": [
+        "https://github.com/clx1415926/EndPrompt",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.14589",
+      "scraped_at": "2026-05-19T03:40:04.780810"
+    },
+    "scraped_date": "2026-05-19"
+  },
+  {
+    "title": "LiteFrame: Efficient Vision Encoders Unlock Frame Scaling in Video LLMs",
+    "paper_url": "https://huggingface.co/papers/2605.17260",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "LiteFrame: Efficient Vision Encoders Unlock Frame Scaling in Video LLMs",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.17260",
+      "pdf_url": "https://arxiv.org/pdf/2605.17260",
+      "github_links": [
+        "https://github.com/jjihwan/LiteFrame",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.17260",
+      "scraped_at": "2026-05-19T03:40:06.691934"
+    },
+    "scraped_date": "2026-05-19"
+  },
+  {
+    "title": "Measuring Maximum Activations in Open Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2605.15572",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Measuring Maximum Activations in Open Large Language Models",
+      "abstract": "The dynamic range of activations is a first-order constraint for low-bit quantization, activation scaling, and stable LLM inference. Prior work characterized outlier features and massive activations on pre-2024 LLaMA-style models, and the downstream activation-quantization stack inherits that picture without revisiting it for the post-LLaMA open-model boom. We ask the deployment-oriented question: how large can activations get in modern open LLMs, and how does this magnitude vary across families, generations, and training stages? Under a unified pipeline (5,000-sample multi-domain corpus, family-specific tokenization, identical hooks across embeddings, hidden states, attention, MLP/MoE, SwiGLU gates, and final norm), we measure global and layerwise maxima on 27 checkpoints from 8 open families spanning dense, MoE, vision-language, intermediate-training, and instruction-tuned variants. We find that (i) global maxima span over nearly four orders of magnitude at comparable parameter counts, with Qwen3.5 and MoE checkpoints in the 10^2 to 10^3 range and Gemma3-27B-it reaching ~7 x 10^5; (ii) cross-family and cross-generation comparisons break simple monotonic scaling; and (iii) MoE checkpoints exhibit 14.0-23.4x lower peaks than matched-scale dense counterparts, while the residual stream carries the global maximum in 22/24 checkpoints. A lightweight INT-8 sanity check shows that measured maxima co-vary with low-bit reconstruction error via activation-scale selection. We conclude that maximum activation magnitude is a model property tied to family, architecture, and training stage - not a simple byproduct of size - and should be measured and reported alongside any open-weight release before low-bit deployment. The code is publicly available at https://github.com/clx1415926/Max_act_llm .",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.15572",
+      "pdf_url": "https://arxiv.org/pdf/2605.15572",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/clx1415926/Max_act_llm"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.15572",
+      "scraped_at": "2026-05-19T03:40:08.607153"
+    },
+    "scraped_date": "2026-05-19"
+  },
+  {
+    "title": "Targeted Neuron Modulation via Contrastive Pair Search",
+    "paper_url": "https://huggingface.co/papers/2605.12290",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Targeted Neuron Modulation via Contrastive Pair Search",
+      "abstract": "Language models are instruction-tuned to refuse harmful requests, but the mechanisms underlying this behavior remain poorly understood. Popular steering methods operate on the residual stream and degrade output coherence at high intervention strengths, limiting their practical use. We introduce contrastive neuron attribution (CNA), which identifies the 0.1% of MLP neurons whose activations most distinguish harmful from benign prompts, requiring only forward passes with no gradients or auxiliary training. In instruct models, ablating the discovered circuit reduces refusal rates by over 50% on a standard jailbreak benchmark while preserving fluency and non-degeneracy across all steering strengths. Applying CNA to matched base and instruct models across Llama and Qwen architectures (from 1B to 72B parameters), we find that base models contain similar late-layer discrimination structures but steering these neurons produces only content shifts, not behavioral change. These results demonstrate that neuron-level intervention enables reliable behavioral steering without the quality tradeoffs of residual-stream methods. More broadly, our findings suggest that alignment fine-tuning transforms pre-existing discrimination structure into a sparse, targetable refusal gate.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.12290",
+      "pdf_url": "https://arxiv.org/pdf/2605.12290",
+      "github_links": [
+        "https://github.com/NousResearch/neural-steering",
+        "https://github.com/neuron-steering",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.12290",
+      "scraped_at": "2026-05-19T03:40:10.449038"
+    },
+    "scraped_date": "2026-05-19"
+  },
+  {
+    "title": "Post-Trained MoE Can Skip Half Experts via Self-Distillation",
+    "paper_url": "https://huggingface.co/papers/2605.18643",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Post-Trained MoE Can Skip Half Experts via Self-Distillation",
+      "abstract": "Github: https://github.com/TsinghuaC3I/ZEDA",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.18643",
+      "pdf_url": "https://arxiv.org/pdf/2605.18643",
+      "github_links": [
+        "https://github.com/TsinghuaC3I/ZEDA",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.18643",
+      "scraped_at": "2026-05-19T03:40:12.398986"
+    },
+    "scraped_date": "2026-05-19"
+  },
+  {
+    "title": "Agent Bazaar: Enabling Economic Alignment in Multi-Agent Marketplaces",
+    "paper_url": "https://huggingface.co/papers/2605.17698",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Agent Bazaar: Enabling Economic Alignment in Multi-Agent Marketplaces",
+      "abstract": "The deployment of Large Language Models (LLMs) as autonomous economic agents introduces systemic risks that extend beyond individual capability failures. As agents transition to directly interacting with marketplaces, their collective behavior can amplify volatility and mask deception at scale. We introduce the Agent Bazaar, a multi-agent simulation framework for evaluating Economic Alignment, the capacity of agentic systems to preserve market stability and integrity. We identify two failure modes: (1) Algorithmic Instability in a B2C market (\"The Crash\"), where firms amplify price volatility until the market collapses, and (2) Sybil Deception in a C2C market (\"The Lemon Market\"), where a single deceptive agent controlling multiple coordinated seller identities floods the market with fraudulent listings, eroding trust and consumer welfare. We evaluate frontier and open-weight models across both scenarios and find that models largely fail to self-regulate, with failure severity varying by model rather than by size. We propose economically aligned harnesses, Stabilizing Firms and Skeptical Guardians, that improve outcomes but remain fragile under harder market conditions. To close this gap, we train agents with REINFORCE++ using an adaptive curriculum, producing a 9B model that outperforms all evaluated frontier and open-weight models. We propose the Economic Alignment Score (EAS), a 4-component scalar metric aggregating stability, integrity, welfare, and profitability, enabling direct cross-model comparison. Our results show that economic alignment is orthogonal to general capability and can be directly trained with targeted RL.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.17698",
+      "pdf_url": "https://arxiv.org/pdf/2605.17698",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.17698",
+      "scraped_at": "2026-05-19T03:40:14.252449"
+    },
+    "scraped_date": "2026-05-19"
+  },
+  {
+    "title": "Geometric Phase Transition Enables Extreme Hippocampal Memory Capacity",
+    "paper_url": "https://huggingface.co/papers/2605.17199",
+    "authors": [
+      "Prashant C. Raju"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Geometric Phase Transition Enables Extreme Hippocampal Memory Capacity",
+      "abstract": "The paper resolves a fundamental paradox in biological memory: how do organisms store vastly more information without proportionally more neurons? Comparing food-caching black-capped chickadees to non-caching zebra finches, shows that extreme spatial memory capacity arises from a discrete topological phase transition in hippocampal population geometry - a shift from disorganized ``mist'' codes to crystalline, topologically rigid manifolds (Shesha stability: 0.245 vs. 0.166; temporal coherence: 0.393 vs. 0.209). Computational modeling across 10,000 network configurations confirms topological rigidity as the mathematical prerequisite for scale: crystalline codes sustain reliable readout beyond M = 1,000 memory locations while mist codes fail below M = 10 - a > 100-fold capacity advantage. High-capacity circuits pay a \"geometric tax\": 169x representational redundancy to stabilize the manifold against biological noise. Double dissociation with traditional stable memory allocation models confirms the advantage is topological, not neuron-count-based.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.17199",
+      "pdf_url": "https://arxiv.org/pdf/2605.17199",
+      "github_links": [
+        "https://github.com/prashantcraju/hippocampal-stability",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.17199",
+      "scraped_at": "2026-05-19T03:40:16.178594"
+    },
+    "scraped_date": "2026-05-19"
+  },
+  {
+    "title": "SNLP: Layer-Parallel Inference via Structured Newton Corrections",
+    "paper_url": "https://huggingface.co/papers/2605.17842",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "SNLP: Layer-Parallel Inference via Structured Newton Corrections",
+      "abstract": "We introduce Structured Newton Layer Parallelism (SNLP), a framework for accelerating Transformer inference by parallelizing computation across layers. Instead of running layers sequentially, SNLP treats the hidden-state trace across depth as a nonlinear residual equation and solves it with cheap structured Newton corrections — Identity Newton (IDN) for residual Transformers, HC Newton (HCN) for mHC-style architectures, and Diagonal Newton (DiagN) via associative scan. Key results on Nanochat models (built on top of @ karpathy 's nanochat): SNLP-aware training regularization improves sequential PPL by 4.7–23.4%, even without using layer parallelism at inference At inference, chunkwise layer fusion achieves up to 2.3x wall-clock speedup on H100 with comparable or lower PPL",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.17842",
+      "pdf_url": "https://arxiv.org/pdf/2605.17842",
+      "github_links": [
+        "https://github.com/phymhan/nanochat-snlp",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.17842",
+      "scraped_at": "2026-05-19T03:40:18.023684"
+    },
+    "scraped_date": "2026-05-19"
   }
 ]
