@@ -8860,5 +8860,377 @@
       "scraped_at": "2026-05-19T03:40:18.023684"
     },
     "scraped_date": "2026-05-19"
+  },
+  {
+    "title": "Process Rewards with Learned Reliability",
+    "paper_url": "https://huggingface.co/papers/2605.15529",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Process Rewards with Learned Reliability",
+      "abstract": "Process Reward Models (PRMs) provide step-level feedback for reasoning, but current PRMs usually output only a single reward score for each step. Downstream methods must therefore treat imperfect step-level reward predictions as reliable decision signals, with no indication of when these predictions should be trusted. We propose BetaPRM, a distributional PRM that predicts both a step-level success probability and the reliability of that prediction. Given step-success supervision from Monte Carlo continuations, BetaPRM learns a Beta belief that explains the observed number of successful continuations through a Beta-Binomial likelihood, rather than regressing to the finite-sample success ratio as a point target. This learned reliability signal indicates when a step reward should be trusted, enabling downstream applications to distinguish reliable rewards from uncertain ones. As one application, we introduce Adaptive Computation Allocation (ACA) for PRM-guided Best-of-N reasoning. ACA uses the learned reliability signal to stop when a high-reward solution is reliable and to spend additional computation on uncertain candidate prefixes. Experiments across four backbones and four reasoning benchmarks show that BetaPRM improves PRM-guided Best-of-N selection while preserving standard step-level error detection. Built on this signal, ACA improves the accuracy--token tradeoff over fixed-budget Best-of-16, reducing token usage by up to 33.57% while improving final-answer accuracy.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.15529",
+      "pdf_url": "https://arxiv.org/pdf/2605.15529",
+      "github_links": [
+        "https://github.com/JinYuanLi0012/Beta-Binomial-PRM",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.15529",
+      "scraped_at": "2026-05-20T03:40:55.265642"
+    },
+    "scraped_date": "2026-05-20"
+  },
+  {
+    "title": "Artifact-Bench: Evaluating MLLMs on Detecting and Assessing the Artifacts of AI-Generated Videos",
+    "paper_url": "https://huggingface.co/papers/2605.18984",
+    "authors": [
+      "Xuehai Bai",
+      "Qixun Wang",
+      "Zhuoran Zhang",
+      "Yang Shi",
+      "Yuqi Tang"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Artifact-Bench: Evaluating MLLMs on Detecting and Assessing the Artifacts of AI-Generated Videos",
+      "abstract": "Recent video generative models have greatly improved the realism of AI-generated videos, yet their outputs still exhibit artifacts such as temporal inconsistencies, structural distortions, and semantic incoherence. While Multimodal Large Language Models (MLLMs) show strong visual understanding capabilities, their ability to perceive and reason about such artifacts remains unclear. Existing benchmarks often lack systematic evaluation of artifact-aware perception and fine-grained diagnostic reasoning, especially across diverse AI-generated video domains beyond photorealistic content. To address this gap, we introduce Artifact-Bench, a comprehensive benchmark for evaluating MLLMs on AI-generated video artifact detection and analysis. We first establish a three-level hierarchical taxonomy of realism artifacts, covering photorealistic, animated, and CG-style videos. Based on this taxonomy, Artifact-Bench defines three complementary tasks: real vs. AI-generated video classification, pairwise realism comparison, and fine-grained artifact identification. Experiments on 19 leading MLLMs reveal substantial limitations in artifact perception and reasoning, with many models approaching random or even below-random performance in challenging settings. We further observe significant misalignment between MLLM judgments and human perceptual preferences, highlighting their limited reliability as general evaluators for AI-generated video realism.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.18984",
+      "pdf_url": "https://arxiv.org/pdf/2605.18984",
+      "github_links": [
+        "https://github.com/FrankYang-17/Artifact-Bench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.18984",
+      "scraped_at": "2026-05-20T03:40:57.087368"
+    },
+    "scraped_date": "2026-05-20"
+  },
+  {
+    "title": "CogOmniControl: Reasoning-Driven Controllable Video Generation via Creative Intent Cognition",
+    "paper_url": "https://huggingface.co/papers/2605.19995",
+    "authors": [
+      "Alan Zhao",
+      "Xiaotong Zhao",
+      "Yucheng Zhou",
+      "Songlian Li",
+      "Hongji Yang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "CogOmniControl: Reasoning-Driven Controllable Video Generation via Creative Intent Cognition",
+      "abstract": "Recent diffusion models achieve strong photorealism and fluency in video generation, yet remain fragile under abstract, sparse or complex conditions, leading to poor performance in professional production workflows such as storyboard sketches and clay-render conditions. Existing video-generation models either inject conditions through adapters or couple a generic vision-language model (VLM) with a diffusion backbone, leaving a capability gap and failing to produce videos that align with the user's creative intent. We present CogOmniControl, a reasoning-driven framework that factorizes controllable video generation into creative-intent cognition and generation. We train a specialized CogVLM using authentic anime-production data; compared to generic VLMs, it produces more professional and clearer outputs, accurately cognizing user intent from sparse and abstract conditions. CogOmniDiT unifies controls from heterogeneous conditions through in-context generation and is aligned with the CogVLM reasoning outputs via reinforcement learning. Furthermore, leveraging CogVLM's robust capability in guiding video generation, we release its potential in planning specific evaluators and enable a Best-of-N selection, transforming the entire framework into a closed-loop \"harness-like\" architecture. We also introduce CogReasonBench and CogControlBench, built from professional workflow data carrying genuine creative intent. Experiments on the two benchmarks show that CogOmniControl surpasses existing open-source models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.19995",
+      "pdf_url": "https://arxiv.org/pdf/2605.19995",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.19995",
+      "scraped_at": "2026-05-20T03:40:58.889339"
+    },
+    "scraped_date": "2026-05-20"
+  },
+  {
+    "title": "Aurora: Unified Video Editing with a Tool-Using Agent",
+    "paper_url": "https://huggingface.co/papers/2605.18748",
+    "authors": [
+      "Hang Hua",
+      "Zhenghong Zhou",
+      "Zhiyuan Xiao",
+      "Ziyun Zeng",
+      "Yongsheng Yu"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "Aurora: Unified Video Editing with a Tool-Using Agent",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.18748",
+      "pdf_url": "https://arxiv.org/pdf/2605.18748",
+      "github_links": [
+        "https://github.com/yeates/Aurora",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.18748",
+      "scraped_at": "2026-05-20T03:41:00.793099"
+    },
+    "scraped_date": "2026-05-20"
+  },
+  {
+    "title": "OmniGUI: Benchmarking GUI Agents in Omni-Modal Smartphone Environments",
+    "paper_url": "https://huggingface.co/papers/2605.18758",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "OmniGUI: Benchmarking GUI Agents in Omni-Modal Smartphone Environments",
+      "abstract": "Current benchmarks for graphical user interface (GUI) agents predominantly rely on static screenshots. However, real-world smartphone interaction routinely requires agents to process transient audio cues and temporal video dynamics that are tightly coupled with the moment of action. To bridge this gap, we introduce OmniGUI, the first step-level benchmark designed to evaluate GUI agents in omni-modal smartphone environments. OmniGUI provides continuous, interleaved multimodal inputs-comprising static images, synchronous audio, and video clips—at every action step. The dataset encompasses 709 expert-demonstrated episodes (2,579 action steps) across 29 applications, systematically annotated with objective multimodal dependency levels. Because dedicated omni-modal GUI agent frameworks are currently in their nascent stage, we select foundational omni-modal models capable of natively processing interleaved inputs to serve as agent proxies for our initial baselines. Our empirical evaluation reveals that while current models exhibit competency on visually static tasks, their action prediction performance degrades significantly in environments requiring synchronous temporal and auditory signals. Furthermore, ablation studies isolate specific operational bottlenecks, notably cross-modal interference when processing task-irrelevant environmental noise.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.18758",
+      "pdf_url": "https://arxiv.org/pdf/2605.18758",
+      "github_links": [
+        "https://github.com/omni-gui/OmniGUI",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.18758",
+      "scraped_at": "2026-05-20T03:41:02.570034"
+    },
+    "scraped_date": "2026-05-20"
+  },
+  {
+    "title": "MSAVBench: Towards Comprehensive and Reliable Evaluation of Multi-Shot Audio-Video Generation",
+    "paper_url": "https://huggingface.co/papers/2605.20183",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MSAVBench: Towards Comprehensive and Reliable Evaluation of Multi-Shot Audio-Video Generation",
+      "abstract": "MSAVBench is the first comprehensive benchmark for multi-shot audio-video generation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.20183",
+      "pdf_url": "https://arxiv.org/pdf/2605.20183",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.20183",
+      "scraped_at": "2026-05-20T03:41:04.542502"
+    },
+    "scraped_date": "2026-05-20"
+  },
+  {
+    "title": "CEPO: RLVR Self-Distillation using Contrastive Evidence Policy Optimization",
+    "paper_url": "https://huggingface.co/papers/2605.19436",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "CEPO: RLVR Self-Distillation using Contrastive Evidence Policy Optimization",
+      "abstract": "CEPO is a token-level credit assignment method for RLVR that replaces uniform reward signals with a contrastive ratio between correct and wrong answer teachers (drawn from rejected rollouts at no extra cost), focusing gradient updates on the tokens that actually decide correctness. In just 50 training steps, CEPO improves over GRPO by +2.26% at 2B and +3.13% at 4B scale across five multimodal math reasoning benchmarks; distribution matching alternatives (OPSD, SDPO) collapse below the untrained baseline, confirming the information leakage CEPO is designed to avoid.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.19436",
+      "pdf_url": "https://arxiv.org/pdf/2605.19436",
+      "github_links": [
+        "https://github.com/ahmedheakl/CEPO",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.19436",
+      "scraped_at": "2026-05-20T03:41:06.325488"
+    },
+    "scraped_date": "2026-05-20"
+  },
+  {
+    "title": "AutoResearchClaw: Self-Reinforcing Autonomous Research with Human-AI Collaboration",
+    "paper_url": "https://huggingface.co/papers/2605.20025",
+    "authors": [
+      "Haonian Ji",
+      "Bingzhou Li",
+      "Mairui Li",
+      "Shi Qiu",
+      "Jiaqi Liu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AutoResearchClaw: Self-Reinforcing Autonomous Research with Human-AI Collaboration",
+      "abstract": "AutoResearchClaw is a multi-agent, human-in-the-loop research framework that leverages self-reinforcing mechanisms, structured debate, and adaptive execution to autonomously improve scientific discovery and outperform existing autonomous research systems.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.20025",
+      "pdf_url": "https://arxiv.org/pdf/2605.20025",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/aiming-lab/AutoResearchClaw"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.20025",
+      "scraped_at": "2026-05-20T03:41:08.149716"
+    },
+    "scraped_date": "2026-05-20"
+  },
+  {
+    "title": "GoLongRL: Capability-Oriented Long Context Reinforcement Learning with Multitask Alignment",
+    "paper_url": "https://huggingface.co/papers/2605.19577",
+    "authors": [
+      "Zhenpeng Su",
+      "Junmin Chen",
+      "Tanlong Du",
+      "Tiehua Mei",
+      "Minxuan Lv"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "GoLongRL: Capability-Oriented Long Context Reinforcement Learning with Multitask Alignment",
+      "abstract": "We present GoLongRL , a fully open-source, capability-oriented post-training recipe for long-context reinforcement learning with verifiable rewards (RLVR) 🚀 GoLongRL-30B-A3B achieves long-context performance comparable to DeepSeek-R1-0528 and Qwen3-235B-A22B-Thinking-2507, while using a significantly smaller activated parameter budget ⚡ Under the same vanilla GRPO setup, our dataset alone outperforms the closed-source QwenLong-L1.5 dataset by +6.1 at the 4B scale and +2.6 at 30B 📈 We have open-sourced all training data, code, and models to support reproducibility and further research 🤝 Resources: 📄 Paper: https://arxiv.org/pdf/2605.19577 🧠 Project: https://github.com/xiaoxuanNLP/GoLongRL 📊 Data: https://huggingface.co/datasets/Kwai-Klear/GoLongRL 🤖 Models: GoLongRL-30B-A3B: https://huggingface.co/Kwai-Klear/GoLongRL-30B-A3B GoLongRL-4B: https://huggingface.co/Kwai-Klear/GoLongRL-4B",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.19577",
+      "pdf_url": "https://arxiv.org/pdf/2605.19577",
+      "github_links": [
+        "https://github.com/xiaoxuanNLP/GoLongRL",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.19577",
+      "scraped_at": "2026-05-20T03:41:10.036383"
+    },
+    "scraped_date": "2026-05-20"
+  },
+  {
+    "title": "Echo-Forcing: A Scene Memory Framework for Interactive Long Video Generation",
+    "paper_url": "https://huggingface.co/papers/2605.16003",
+    "authors": [
+      "Yuqi Li",
+      "Haotong Qin",
+      "Zhefeng Zhang",
+      "Weilun Feng",
+      "Mingqiang Wu"
+    ],
+    "stars": "15",
+    "details": {
+      "title": "Echo-Forcing: A Scene Memory Framework for Interactive Long Video Generation",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.16003",
+      "pdf_url": "https://arxiv.org/pdf/2605.16003",
+      "github_links": [
+        "https://github.com/mingqiangWu/Echo-Forcing",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.16003",
+      "scraped_at": "2026-05-20T03:41:11.883435"
+    },
+    "scraped_date": "2026-05-20"
+  },
+  {
+    "title": "DocAtlas: Multilingual Document Understanding Across 80+ Languages",
+    "paper_url": "https://huggingface.co/papers/2605.12623",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DocAtlas: Multilingual Document Understanding Across 80+ Languages",
+      "abstract": "DocAtlas is a framework for constructing high-fidelity multilingual OCR datasets and benchmarks covering 82 languages and 9 evaluation tasks, using differential rendering to produce model-free structural annotations from native documents. Evaluating 16 models reveals persistent gaps in low-resource scripts; DPO with rendering-derived ground truth achieves stable cross-lingual transfer (+1.9% in-domain, +1.8% out-of-domain) without base-language degradation, where supervised fine-tuning collapses by up to 21%.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.12623",
+      "pdf_url": "https://arxiv.org/pdf/2605.12623",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.12623",
+      "scraped_at": "2026-05-20T03:41:13.754617"
+    },
+    "scraped_date": "2026-05-20"
+  },
+  {
+    "title": "Anti-Self-Distillation for Reasoning RL via Pointwise Mutual Information",
+    "paper_url": "https://huggingface.co/papers/2605.11609",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Anti-Self-Distillation for Reasoning RL via Pointwise Mutual Information",
+      "abstract": "AntiSD reaches GRPO's accuracy in 2–10× fewer training steps and improves final accuracy by up to +11.5 points on AIME 2024/2025, HMMT 2025, and BeyondAIME — consistent across 4B–30B dense and MoE models. Standard self-distillation in reasoning RL pulls the student toward a teacher conditioned on a verified solution. The privileged context makes the teacher sharp on template tokens but unsure on the deliberation tokens — \"Wait\", \"Let\", \"Maybe\" — that drive multi-step search; descending its divergence reinforces templates at the cost of reasoning. AntiSD flips the sign: instead of descending the divergence, we ascend a bounded Jensen–Shannon between student and teacher, with an entropy-triggered gate. No token-level reward shaping, no length normalization, no schedule heuristics. Code: https://github.com/FloyedShen/AntiSD Paper: https://www.alphaxiv.org/abs/2605.11609",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.11609",
+      "pdf_url": "https://arxiv.org/pdf/2605.11609",
+      "github_links": [
+        "https://github.com/FloyedShen/AntiSD",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.11609",
+      "scraped_at": "2026-05-20T03:41:15.737924"
+    },
+    "scraped_date": "2026-05-20"
+  },
+  {
+    "title": "SceneCode: Executable World Programs for Editable Indoor Scenes with Articulated Objects",
+    "paper_url": "https://huggingface.co/papers/2605.19587",
+    "authors": [
+      "Kevin Qinghong Lin",
+      "Zhengyuan Yang",
+      "Linjie Li",
+      "Yuhao Wang",
+      "Puyi Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SceneCode: Executable World Programs for Editable Indoor Scenes with Articulated Objects",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.19587",
+      "pdf_url": "https://arxiv.org/pdf/2605.19587",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.19587",
+      "scraped_at": "2026-05-20T03:41:17.487065"
+    },
+    "scraped_date": "2026-05-20"
+  },
+  {
+    "title": "OpenComputer: Verifiable Software Worlds for Computer-Use Agents",
+    "paper_url": "https://huggingface.co/papers/2605.19769",
+    "authors": [
+      "Kangqi Ni",
+      "Xiao Zhou",
+      "Yilun Zhao",
+      "Qianran Ma",
+      "Jinbiao Wei"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "OpenComputer: Verifiable Software Worlds for Computer-Use Agents",
+      "abstract": "OpenComputer provides a framework for creating verifiable software environments and benchmarks to evaluate computer-use agents through precise, state-aware task verification across diverse desktop applications.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.19769",
+      "pdf_url": "https://arxiv.org/pdf/2605.19769",
+      "github_links": [
+        "https://github.com/echo0715/OpenComputer",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.19769",
+      "scraped_at": "2026-05-20T03:41:19.239720"
+    },
+    "scraped_date": "2026-05-20"
+  },
+  {
+    "title": "Draft Less, Retrieve More: Hybrid Tree Construction for Speculative Decoding",
+    "paper_url": "https://huggingface.co/papers/2605.20104",
+    "authors": [
+      "Baolin Zhang",
+      "Quan Kong",
+      "Xinyi Hu",
+      "Tianyu Liu",
+      "Yuhao Shen"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Draft Less, Retrieve More: Hybrid Tree Construction for Speculative Decoding",
+      "abstract": "Graft is a training-free speculative decoding framework that combines pruning and token retrieval to improve acceptance rates and accelerate large language model inference without incurring additional computational overhead.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.20104",
+      "pdf_url": "https://arxiv.org/pdf/2605.20104",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.20104",
+      "scraped_at": "2026-05-20T03:41:21.001978"
+    },
+    "scraped_date": "2026-05-20"
+  },
+  {
+    "title": "Delta Attention Residuals",
+    "paper_url": "https://huggingface.co/papers/2605.18855",
+    "authors": [
+      "Junjie Hu",
+      "Zefan Cai",
+      "Cheng Luo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Delta Attention Residuals",
+      "abstract": "Delta Attention Residuals improve transformer performance by attending to sublayer deltas instead of cumulative hidden states, enabling more selective and effective routing across layers.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.18855",
+      "pdf_url": "https://arxiv.org/pdf/2605.18855",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.18855",
+      "scraped_at": "2026-05-20T03:41:22.763361"
+    },
+    "scraped_date": "2026-05-20"
   }
 ]
