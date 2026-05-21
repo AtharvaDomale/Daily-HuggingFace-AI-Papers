@@ -1090,5 +1090,421 @@
       "scraped_at": "2026-05-20T03:41:22.763361"
     },
     "scraped_date": "2026-05-20"
+  },
+  {
+    "title": "OScaR: The Occam's Razor for Extreme KV Cache Quantization in LLMs and Beyond",
+    "paper_url": "https://huggingface.co/papers/2605.19660",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "OScaR: The Occam's Razor for Extreme KV Cache Quantization in LLMs and Beyond",
+      "abstract": "OScaR is an accurate, lightweight INT2 KV quantization method that establishes a new accuracy-efficiency Pareto frontier. It operates without data, training, or calibration, offering plug-and-play compatibility for X-LLMs (i.e., text-only, multi-modal, and omni-modal LLMs).",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.19660",
+      "pdf_url": "https://arxiv.org/pdf/2605.19660",
+      "github_links": [
+        "https://github.com/ZunhaiSu/OScaR-KV-Quant",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.19660",
+      "scraped_at": "2026-05-21T03:52:04.191713"
+    },
+    "scraped_date": "2026-05-21"
+  },
+  {
+    "title": "Evaluating Temporal Semantic Caching and Workflow Optimization in Agentic Plan-Execute Pipelines",
+    "paper_url": "https://huggingface.co/papers/2605.20630",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Evaluating Temporal Semantic Caching and Workflow Optimization in Agentic Plan-Execute Pipelines",
+      "abstract": "Industrial asset operations workflows are latency-sensitive because a single user query may require coordination over sensor data, work orders, failure modes, fore- casting tools, and domain-specific agents. We evaluate this problem on Asse- tOpsBench (AOB), an industrial agent benchmark whose plan-execute pipeline exposes repeated overhead from tool discovery, LLM planning, MCP tool exe- cution, and final summarization. Existing LLM caching techniques such as KV- cache reuse and embedding-based semantic caching were designed for chatbot serving and break down when output validity depends on time, asset, or sen- sor parameters. We propose two complementary optimization layers for AOB plan-execute pipelines: a temporal semantic cache and a set of MCP workflow optimizations combining disk-backed tool-discovery caching and dependency- aware parallel step execution. MCP workflow optimizations corresponded to a 1.67× speedup and reduced median end-to-end latency by about 40.0% while the temporal-cache benchmark achieved a median of 30.6× speedup on cache hits. Beyond the speedup, our results expose a concrete failure mode of pure seman- tic caching for parameter-rich industrial queries, providing a critical analysis of how caching choices interact with evaluation correctness in MCP-backed agent benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.20630",
+      "pdf_url": "https://arxiv.org/pdf/2605.20630",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.20630",
+      "scraped_at": "2026-05-21T03:52:06.138867"
+    },
+    "scraped_date": "2026-05-21"
+  },
+  {
+    "title": "Generative Recursive Reasoning",
+    "paper_url": "https://huggingface.co/papers/2605.19376",
+    "authors": [
+      "Yoshua Bengio",
+      "Mengye Ren",
+      "Minsu Kim",
+      "Mingyu Jo",
+      "Junyeob Baek"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Generative Recursive Reasoning",
+      "abstract": "We introduce GRAM, a generative framework for recursive reasoning. Unlike deterministic recursive models such as HRM, TRM, and Looped Transformers, GRAM treats reasoning as a stochastic latent trajectory, allowing the model to explore multiple possible solution paths in parallel. This enables inference-time scaling not only by running deeper recursion, but also by sampling wider sets of reasoning trajectories. The same formulation supports both conditional reasoning, p(y|x), and unconditional generation, p(x). With only 10M parameters, GRAM achieves strong results on Sudoku-Extreme, ARC-AGI, and multi-solution tasks such as N-Queens.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.19376",
+      "pdf_url": "https://arxiv.org/pdf/2605.19376",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.19376",
+      "scraped_at": "2026-05-21T03:52:07.996717"
+    },
+    "scraped_date": "2026-05-21"
+  },
+  {
+    "title": "Uni-Edit: Intelligent Editing Is A General Task For Unified Model Tuning",
+    "paper_url": "https://huggingface.co/papers/2605.21487",
+    "authors": [
+      "Kai Zou",
+      "Hongbo Liu",
+      "Hongyu Li",
+      "Manyuan Zhang",
+      "Dian Zheng"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Uni-Edit: Intelligent Editing Is A General Task For Unified Model Tuning",
+      "abstract": "Uni-Edit is a novel training task for Unified Multimodal Models that integrates image understanding and generation into a single pipeline to achieve simultaneous performance improvements.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.21487",
+      "pdf_url": "https://arxiv.org/pdf/2605.21487",
+      "github_links": [
+        "https://github.com/zhengdian1/Uni-Edit",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.21487",
+      "scraped_at": "2026-05-21T03:52:09.857406"
+    },
+    "scraped_date": "2026-05-21"
+  },
+  {
+    "title": "On the limits and opportunities of AI reviewers: Reviewing the reviews of Nature-family papers with 45 expert scientists",
+    "paper_url": "https://huggingface.co/papers/2605.20668",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "On the limits and opportunities of AI reviewers: Reviewing the reviews of Nature-family papers with 45 expert scientists",
+      "abstract": "With the advancement of AI capabilities, AI reviewers are beginning to be deployed in scientific peer review, yet their capability and credibility remain in question: many scientists simply view them as probabilistic systems without the expertise to evaluate research, while other researchers are more optimistic about their readiness without concrete evidence. Understanding what AI reviewers do well, where they fall short, and what challenges remain is essential. However, existing evaluations of AI reviewers have focused on whether their verdicts match human verdicts (e.g., score alignment, acceptance prediction), which is insufficient to characterize their capabilities and limits. In this paper, we close this gap through a large-scale expert annotation study, in which 45 domain scientists in Physical, Biological, and Health Sciences spent 469 hours rating 2,960 individual criticisms (each targeting one specific aspect of a paper) from human-written and AI-generated reviews of 82 Nature-family papers on correctness, significance, and sufficiency of evidence. On a composite of all three dimensions, a reviewing agent powered by GPT-5.2 scores above each paper's top-rated human reviewer (60.0% vs. 48.2%, p = 0.009), while all three AI reviewers (including Gemini 3.0 Pro and Claude Opus 4.5) exceed the lowest-rated human across every dimension. AI reviewers' accurate criticisms are also more often rated significant and well-evidenced, and surface a distinct 26% of issues no human raises. However, AI reviewers overlap far more than humans do (21% vs. 3% for cross-reviewer pairs), and exhibit 16 recurring weaknesses humans do not share, such as limited subfield knowledge, lack of long context management over multiple files, and overly critical stance on minor issues. Overall, our results position current AI reviewers as complements to, not substitutes for, human reviewers.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.20668",
+      "pdf_url": "https://arxiv.org/pdf/2605.20668",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/prometheus-eval/cmu-paper-reviewer"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.20668",
+      "scraped_at": "2026-05-21T03:52:11.721657"
+    },
+    "scraped_date": "2026-05-21"
+  },
+  {
+    "title": "UniT: Unified Geometry Learning with Group Autoregressive Transformer",
+    "paper_url": "https://huggingface.co/papers/2605.21131",
+    "authors": [
+      "Xinhu Zheng",
+      "Hongliang Lu",
+      "Zhaonian Kuang",
+      "Yusong Huang",
+      "Haotian Wang"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "UniT: Unified Geometry Learning with Group Autoregressive Transformer",
+      "abstract": "🚀 UniT: Unified Geometry Learning with Group Autoregressive Transformer UniT is a unified feed-forward model for geometry perception. It reformulates a wide range of geometry perception capabilities into a single framework, covering: Diverse view configurations : supporting both online and offline inference over an arbitrary number of views Flexible modality combinations : incorporating auxiliary inputs such as camera parameters and depth maps Metric-scale perception : recovering geometry in real-world scale, measured in meters Long-horizon scalability : maintaining bounded complexity over long-horizons 📄 Paper: https://arxiv.org/abs/2605.21131 🌐 Project Page: https://sc2i-hkustgz.github.io/UniT/ 🤗 Hugging Face Demo: https://enceladush-unit.hf.space/",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.21131",
+      "pdf_url": "https://arxiv.org/pdf/2605.21131",
+      "github_links": [
+        "https://github.com/Wang-xjtu/UniT",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.21131",
+      "scraped_at": "2026-05-21T03:52:13.665105"
+    },
+    "scraped_date": "2026-05-21"
+  },
+  {
+    "title": "OcclusionFormer: Arranging Z-Order for Layout-Grounded Image Generation",
+    "paper_url": "https://huggingface.co/papers/2605.21343",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "OcclusionFormer: Arranging Z-Order for Layout-Grounded Image Generation",
+      "abstract": "ICML 2026. We first construct SA-Z, a large-scale dataset enriched with explicit occlusion ordering and pixel-level annotations. Building upon our proposed dataset, we introduce OcclusionFormer, a novel occlusion-aware Diffusion Transformer framework that explicitly models Z-order priority by decoupling instances and compositing them via volume rendering.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.21343",
+      "pdf_url": "https://arxiv.org/pdf/2605.21343",
+      "github_links": [
+        "https://github.com/FudanCVL/OcclusionFormer",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.21343",
+      "scraped_at": "2026-05-21T03:52:15.462701"
+    },
+    "scraped_date": "2026-05-21"
+  },
+  {
+    "title": "Conditional Equivalence of DPO and RLHF: Implicit Assumption, Failure Modes, and Provable Alignment",
+    "paper_url": "https://huggingface.co/papers/2605.20834",
+    "authors": [
+      "Bo Han",
+      "Dong Fang",
+      "Wei Xue",
+      "Yonggang Zhang",
+      "Zhiqin Yang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Conditional Equivalence of DPO and RLHF: Implicit Assumption, Failure Modes, and Provable Alignment",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.20834",
+      "pdf_url": "https://arxiv.org/pdf/2605.20834",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.20834",
+      "scraped_at": "2026-05-21T03:52:17.288482"
+    },
+    "scraped_date": "2026-05-21"
+  },
+  {
+    "title": "HRM-Text: Efficient Pretraining Beyond Scaling",
+    "paper_url": "https://huggingface.co/papers/2605.20613",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "HRM-Text: Efficient Pretraining Beyond Scaling",
+      "abstract": "HRM-Text explores a different approach to language model pretraining: hierarchical recurrent computation, task-completion training, and latent-space reasoning. At just 1B parameters, HRM-Text achieves competitive performance with dramatically lower training cost and data requirements. 1B parameters 40B unique tokens ~1 day of pretraining ~$1000 training cost",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.20613",
+      "pdf_url": "https://arxiv.org/pdf/2605.20613",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/sapientinc/HRM-Text"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.20613",
+      "scraped_at": "2026-05-21T03:52:19.189791"
+    },
+    "scraped_date": "2026-05-21"
+  },
+  {
+    "title": "Rethinking Visual Attribution for Chest X-ray Reasoning in Large Vision Language Models",
+    "paper_url": "https://huggingface.co/papers/2605.20158",
+    "authors": [
+      "Aidong Zhang",
+      "Zhiyong Lu",
+      "Sanchit Sinha",
+      "Qiao Jin",
+      "Guangzhi Xiong"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "Rethinking Visual Attribution for Chest X-ray Reasoning in Large Vision Language Models",
+      "abstract": "We propose MedFocus and MedGround-Bench.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.20158",
+      "pdf_url": "https://arxiv.org/pdf/2605.20158",
+      "github_links": [
+        "https://github.com/gzxiong/medfocus",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.20158",
+      "scraped_at": "2026-05-21T03:52:21.012967"
+    },
+    "scraped_date": "2026-05-21"
+  },
+  {
+    "title": "PanoWorld: A Generative Spatial World Model for Consistent Whole-House Panorama Synthesis",
+    "paper_url": "https://huggingface.co/papers/2605.17916",
+    "authors": [
+      "Yifeng Shi",
+      "Yijiang Hu",
+      "Zhenjia Li",
+      "JiaJinrang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "PanoWorld: A Generative Spatial World Model for Consistent Whole-House Panorama Synthesis",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.17916",
+      "pdf_url": "https://arxiv.org/pdf/2605.17916",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.17916",
+      "scraped_at": "2026-05-21T03:52:22.888450"
+    },
+    "scraped_date": "2026-05-21"
+  },
+  {
+    "title": "iTryOn: Mastering Interactive Video Virtual Try-On with Spatial-Semantic Guidance",
+    "paper_url": "https://huggingface.co/papers/2605.21431",
+    "authors": [
+      "Jinsong Lan",
+      "Jing Wang",
+      "Mengting Chen",
+      "Zhengze Xu",
+      "Jun Zheng"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "iTryOn: Mastering Interactive Video Virtual Try-On with Spatial-Semantic Guidance",
+      "abstract": "Video Virtual Try-On (VVT) aims to seamlessly replace a garment on a person in a video with a new one. While existing methods have made significant strides in maintaining temporal consistency, they are predominantly confined to non-interactive scenarios where models merely showcase garments. This limitation overlooks a crucial aspect of real-world apparel presentation: active human-garment interaction. To bridge this gap, we introduce and formalize a new challenging task: Interactive Video Virtual Try-On (Interactive VVT), where subjects in the video actively engage with their clothing. This task introduces unique challenges beyond simple texture preservation, including: (1) resolving the semantic ambiguity of interactions from standard pose information, and (2) learning complex garment deformations from video where interactive moments are sparse and brief. To address these challenges, we propose iTryOn, a novel framework built upon a large-scale video diffusion Transformer. iTryOn pioneers a multi-level interaction injection mechanism to guide the generation of complex dynamics. At the spatial level, we introduce a garment-agnostic 3D hand prior to provide fine-grained guidance for precise hand-garment contact, effectively resolving spatial ambiguity. At the semantic level, iTryOn leverages global captions for overall context and time-stamped action captions for localized interactions, synchronized via our novel Action-aware Rotational Position Embedding (A-RoPE). Extensive experiments demonstrate that iTryOn not only achieves state-of-the-art performance on traditional VVT benchmarks but also establishes a commanding lead in the new interactive setting, marking a significant step towards more dynamic and controllable virtual try-on experiences.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.21431",
+      "pdf_url": "https://arxiv.org/pdf/2605.21431",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.21431",
+      "scraped_at": "2026-05-21T03:52:24.971712"
+    },
+    "scraped_date": "2026-05-21"
+  },
+  {
+    "title": "DrawMotion: Generating 3D Human Motions by Freehand Drawing",
+    "paper_url": "https://huggingface.co/papers/2605.20955",
+    "authors": [
+      "Jiaming Chu",
+      "Qiaozhi He",
+      "Zhihua Wu",
+      "Lei Jin",
+      "Tao Wang"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "DrawMotion: Generating 3D Human Motions by Freehand Drawing",
+      "abstract": "DrawMotion introduces a diffusion-based framework for generating 3D human motions from freehand drawings and text, using a Multi-Condition Module for efficient multi-condition fusion and guidance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.20955",
+      "pdf_url": "https://arxiv.org/pdf/2605.20955",
+      "github_links": [
+        "https://github.com/InvertedForest/DrawMotion",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.20955",
+      "scraped_at": "2026-05-21T03:52:26.789059"
+    },
+    "scraped_date": "2026-05-21"
+  },
+  {
+    "title": "PlanningBench: Generating Scalable and Verifiable Planning Data for Evaluating and Training Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2605.20873",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PlanningBench: Generating Scalable and Verifiable Planning Data for Evaluating and Training Large Language Models",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.20873",
+      "pdf_url": "https://arxiv.org/pdf/2605.20873",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.20873",
+      "scraped_at": "2026-05-21T03:52:28.650143"
+    },
+    "scraped_date": "2026-05-21"
+  },
+  {
+    "title": "SpecBench: Measuring Reward Hacking in Long-Horizon Coding Agents",
+    "paper_url": "https://huggingface.co/papers/2605.21384",
+    "authors": [
+      "Zhengyao Jiang",
+      "Yuxiang Wu",
+      "Dhruv Srikanth",
+      "Bingchen Zhao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SpecBench: Measuring Reward Hacking in Long-Horizon Coding Agents",
+      "abstract": "SpecBench is a novel benchmark designed to evaluate reward hacking in long-horizon coding agents by identifying performance gaps between visible validation suites and held-out real-world test sets.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.21384",
+      "pdf_url": "https://arxiv.org/pdf/2605.21384",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.21384",
+      "scraped_at": "2026-05-21T03:52:30.530258"
+    },
+    "scraped_date": "2026-05-21"
+  },
+  {
+    "title": "Mem-π: Adaptive Memory through Learning When and What to Generate",
+    "paper_url": "https://huggingface.co/papers/2605.21463",
+    "authors": [
+      "Alexandre Lacoste",
+      "Christopher Pal",
+      "Hadi Nekoei",
+      "Chao Wang",
+      "Xiaoqiang Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Mem-π: Adaptive Memory through Learning When and What to Generate",
+      "abstract": "Mem-π is an adaptive memory framework for LLM agents that replaces traditional retrieval with a model-generated, RL-optimized guidance mechanism to improve performance on complex, context-dependent agentic tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.21463",
+      "pdf_url": "https://arxiv.org/pdf/2605.21463",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.21463",
+      "scraped_at": "2026-05-21T03:52:32.460296"
+    },
+    "scraped_date": "2026-05-21"
+  },
+  {
+    "title": "It Takes Two: Complementary Self-Distillation for Contextual Integrity in LLMs",
+    "paper_url": "https://huggingface.co/papers/2605.20258",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "It Takes Two: Complementary Self-Distillation for Contextual Integrity in LLMs",
+      "abstract": "We introduce SelfCI, a complementary self-distillation framework that aligns LLMs with Contextual Integrity (CI) by jointly optimizing utility-preserving and privacy-preserving objectives, achieving stronger privacy–utility trade-offs than existing RL-based approaches.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.20258",
+      "pdf_url": "https://arxiv.org/pdf/2605.20258",
+      "github_links": [
+        "https://github.com/sw-programmer/SelfCI",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.20258",
+      "scraped_at": "2026-05-21T03:52:34.655986"
+    },
+    "scraped_date": "2026-05-21"
+  },
+  {
+    "title": "LongMINT: Evaluating Memory under Multi-Target Interference in Long-Horizon Agent Systems",
+    "paper_url": "https://huggingface.co/papers/2605.18565",
+    "authors": [
+      "Elias Stengel-Eskin",
+      "Zaid Khan",
+      "Joykirat Singh",
+      "Justin Chih-Yao Chen",
+      "Hyunji Lee"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "LongMINT: Evaluating Memory under Multi-Target Interference in Long-Horizon Agent Systems",
+      "abstract": "Code and dataset: https://github.com/amy-hyunji/MINTEval",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.18565",
+      "pdf_url": "https://arxiv.org/pdf/2605.18565",
+      "github_links": [
+        "https://github.com/amy-hyunji/MINTEval",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.18565",
+      "scraped_at": "2026-05-21T03:52:36.546923"
+    },
+    "scraped_date": "2026-05-21"
   }
 ]
