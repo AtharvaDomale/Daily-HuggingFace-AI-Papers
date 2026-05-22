@@ -1506,5 +1506,381 @@
       "scraped_at": "2026-05-21T03:52:36.546923"
     },
     "scraped_date": "2026-05-21"
+  },
+  {
+    "title": "π-Bench: Evaluating Proactive Personal Assistant Agents in Long-Horizon Workflows",
+    "paper_url": "https://huggingface.co/papers/2605.14678",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "π-Bench: Evaluating Proactive Personal Assistant Agents in Long-Horizon Workflows",
+      "abstract": "The rise of personal assistant agents, e.g., OpenClaw, highlights the growing potential of large language models to support users across everyday life and work. A core challenge in these settings is proactive assistance, since users often begin with underspecified requests and leave important needs, constraints, or preferences unstated. However, existing benchmarks rarely evaluate whether agents can identify and act on such hidden intents before they are explicitly stated, especially in sustained multi-turn interactions where user needs emerge gradually. To address this gap, we introduce π-Bench, a benchmark for proactive assistance comprising 100 multi-turn tasks across 5 domain-specific user personas. By incorporating hidden user intents, inter-task dependencies, and cross-session continuity, π-Bench evaluates agents’ ability to anticipate and address user needs over extended interactions, jointly measuring proactivity and task completion in long-horizon trajectories that better reflect real-world use. Experiments show (1) proactive assistance remains challenging, (2) a clear distinction between task completion and proactivity, and (3) the value of prior interaction for proactive intent resolution in later tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.14678",
+      "pdf_url": "https://arxiv.org/pdf/2605.14678",
+      "github_links": [
+        "https://github.com/Simplified-Reasoning/Pi-Bench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.14678",
+      "scraped_at": "2026-05-22T03:47:06.395859"
+    },
+    "scraped_date": "2026-05-22"
+  },
+  {
+    "title": "ACC: Compiling Agent Trajectories for Long-Context Training",
+    "paper_url": "https://huggingface.co/papers/2605.21850",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ACC: Compiling Agent Trajectories for Long-Context Training",
+      "abstract": "Recent development of agents has renewed demand for long-context reasoning capacity of LLMs. However, training LLMs for this capacity requires costly long-document curation or heuristic context synthesis. We observe that agents produce massive trajectories when solving problems, invoking tools and receiving environment observations across many turns. The evidence needed to answer the original question is thus scattered throughout these turns, requiring integration of distant context segments. Nevertheless, standard agent SFT masks tool responses and only trains turn-level tool selection, creating a supervision blind spot where these scattered signals go unused. We propose Agent Context Compilation (ACC), which converts trajectories from search, software engineering, and database querying agents into long-context QA pairs that combine the original question with tool responses and environment observations gathered across multiple turns, training the model to answer directly without tool use. This makes the dependencies between the question and the evidence explicit, enabling direct supervision of long-context reasoning over distant segments without additional annotation. ACC is a simple but effective approach that can be combined with any existing long-context extension or training method, providing scalable supervised fine-tuning data. We validate ACC on long-range dependency modeling tasks through MRCR and GraphWalks, challenging benchmarks requiring cross-turn coreference resolution and graph traversal over extended contexts. Training Qwen3-30B-A3B with ACC achieves 68.3 on MRCR (+18.1) and 77.5 on GraphWalks (+7.6), results comparable to Qwen3-235B-A22B, while preserving general capabilities on GPQA, MMLU-Pro, AIME, and IFEval. Further mechanism analysis reveals that the ACC-trained model exhibits task-adaptive attention restructuring and expert specialization. Dataset and checkpoints are released publicly.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.21850",
+      "pdf_url": "https://arxiv.org/pdf/2605.21850",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.21850",
+      "scraped_at": "2026-05-22T03:47:08.197070"
+    },
+    "scraped_date": "2026-05-22"
+  },
+  {
+    "title": "WorldKV: Efficient World Memory with World Retrieval and Compression",
+    "paper_url": "https://huggingface.co/papers/2605.22718",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "WorldKV: Efficient World Memory with World Retrieval and Compression",
+      "abstract": "Project Page: https://cvlab-kaist.github.io/WorldKV/",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.22718",
+      "pdf_url": "https://arxiv.org/pdf/2605.22718",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.22718",
+      "scraped_at": "2026-05-22T03:47:10.130811"
+    },
+    "scraped_date": "2026-05-22"
+  },
+  {
+    "title": "Spreadsheet-RL: Advancing Large Language Model Agents on Realistic Spreadsheet Tasks via Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2605.22642",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Spreadsheet-RL: Advancing Large Language Model Agents on Realistic Spreadsheet Tasks via Reinforcement Learning",
+      "abstract": "Spreadsheet-RL is an RL fine-tuning framework and benchmarking environment designed to improve LLM agent performance on complex, multi-step spreadsheet tasks within Microsoft Excel.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.22642",
+      "pdf_url": "https://arxiv.org/pdf/2605.22642",
+      "github_links": [
+        "https://github.com/Spreadsheet-RL/Spreadsheet-RL",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.22642",
+      "scraped_at": "2026-05-22T03:47:12.015870"
+    },
+    "scraped_date": "2026-05-22"
+  },
+  {
+    "title": "FlowLong: Inference-time Long Video Generation via Manifold-constrained Tweedie Matching",
+    "paper_url": "https://huggingface.co/papers/2605.20910",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "FlowLong: Inference-time Long Video Generation via Manifold-constrained Tweedie Matching",
+      "abstract": "FlowLong is a training-free, model-agnostic inference-time method that extends pretrained flow-based video diffusion models beyond their native generation horizon — works uniformly for text-to-video, audio-video joint, and text-to-3D scene generation. Project page: https://flowlong-video.github.io/ Paper: https://arxiv.org/abs/2605.20910",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.20910",
+      "pdf_url": "https://arxiv.org/pdf/2605.20910",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/jhq1234/flowlong"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.20910",
+      "scraped_at": "2026-05-22T03:47:13.864874"
+    },
+    "scraped_date": "2026-05-22"
+  },
+  {
+    "title": "Maestro: Reinforcement Learning to Orchestrate Hierarchical Model-Skill Ensembles",
+    "paper_url": "https://huggingface.co/papers/2605.22177",
+    "authors": [
+      "Zhengxi Lu",
+      "Yuhao Shen",
+      "Ruihan Jin",
+      "Guocheng Zhai",
+      "Jinyang Wu"
+    ],
+    "stars": "5",
+    "details": {
+      "title": "Maestro: Reinforcement Learning to Orchestrate Hierarchical Model-Skill Ensembles",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.22177",
+      "pdf_url": "https://arxiv.org/pdf/2605.22177",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/jinyangwu/Maestro"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.22177",
+      "scraped_at": "2026-05-22T03:47:15.759958"
+    },
+    "scraped_date": "2026-05-22"
+  },
+  {
+    "title": "Sensor2Sensor: Cross-Embodiment Sensor Conversion for Autonomous Driving",
+    "paper_url": "https://huggingface.co/papers/2605.22809",
+    "authors": [
+      "Songyou Peng",
+      "Vincent Casser",
+      "Yijing Bai",
+      "Bo Sun",
+      "Jiahao Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Sensor2Sensor: Cross-Embodiment Sensor Conversion for Autonomous Driving",
+      "abstract": "Accepted by CVPR 2026",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.22809",
+      "pdf_url": "https://arxiv.org/pdf/2605.22809",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.22809",
+      "scraped_at": "2026-05-22T03:47:17.644607"
+    },
+    "scraped_date": "2026-05-22"
+  },
+  {
+    "title": "Perception or Prejudice: Can MLLMs Go Beyond First Impressions of Personality?",
+    "paper_url": "https://huggingface.co/papers/2605.22109",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Perception or Prejudice: Can MLLMs Go Beyond First Impressions of Personality?",
+      "abstract": "👋 Hello AI Community! We are the authors of Perception or Prejudice . Do Multimodal LLMs truly understand human personality, or do they just get the right score for the wrong reason? 🤔 Our paper introduces MM-OCEAN , a multi-granularity benchmark designed to evaluate Grounded Personality Reasoning (GPR) . Instead of raw regression scores, we audit MLLMs through a rigorous three-tier chain: Ordinal Rating, Open-Ended Reasoning, and Structured Cue Grounding (via 5,320 expert-verified MCQs). 📉 Key Takeaway : Our evaluation of 27 frontier models reveals a ubiquitous Prejudice Gap —over half (51%) of correct personality ratings are completely ungrounded in actual behavioral cues. 📦 All artifacts are open-sourced: Dataset: https://huggingface.co/datasets/anonymous-mm-ocean/MM-OCEAN Code: https://github.com/kkkcx/MM-OCEAN We'd love to hear your thoughts and feedback! Check out our work and let’s discuss downstream safety and alignment for socially intelligent agents! 🚀",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.22109",
+      "pdf_url": "https://arxiv.org/pdf/2605.22109",
+      "github_links": [
+        "https://github.com/kkkcx/MM-OCEAN",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.22109",
+      "scraped_at": "2026-05-22T03:47:19.460403"
+    },
+    "scraped_date": "2026-05-22"
+  },
+  {
+    "title": "Gated DeltaNet-2: Decoupling Erase and Write in Linear Attention",
+    "paper_url": "https://huggingface.co/papers/2605.22791",
+    "authors": [],
+    "stars": "19",
+    "details": {
+      "title": "Gated DeltaNet-2: Decoupling Erase and Write in Linear Attention",
+      "abstract": "Gated DeltaNet-2 introduces a linear attention architecture that improves memory management by decoupling erase and write operations, achieving superior performance on long-context benchmarks compared to existing recurrent models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.22791",
+      "pdf_url": "https://arxiv.org/pdf/2605.22791",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/NVlabs/GatedDeltaNet-2"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.22791",
+      "scraped_at": "2026-05-22T03:47:21.288724"
+    },
+    "scraped_date": "2026-05-22"
+  },
+  {
+    "title": "KVServe: Service-Aware KV Cache Compression for Communication-Efficient Disaggregated LLM Serving",
+    "paper_url": "https://huggingface.co/papers/2605.13734",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "KVServe: Service-Aware KV Cache Compression for Communication-Efficient Disaggregated LLM Serving",
+      "abstract": "We’re excited to share that KVServe has been accepted by SIGCOMM 2026 🎉 KVServe is a service-aware KV cache compression framework for communication-efficient disaggregated LLM serving. It treats KV compression as a runtime strategy selection problem rather than a fixed configuration, and achieves up to 9.13× JCT speedup in PD-separated serving and 32.8× TTFT reduction in KV-disaggregated serving. :)",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.13734",
+      "pdf_url": "https://arxiv.org/pdf/2605.13734",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/hpdps-group/KVServe"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.13734",
+      "scraped_at": "2026-05-22T03:47:23.156100"
+    },
+    "scraped_date": "2026-05-22"
+  },
+  {
+    "title": "Swift Sampling: Selecting Temporal Surprises via Taylor Series",
+    "paper_url": "https://huggingface.co/papers/2605.22678",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Swift Sampling: Selecting Temporal Surprises via Taylor Series",
+      "abstract": "While most frames in long-form video are redundant, the critical information resides in temporal surprises: moments where the actual visual features deviate from their predicted evolution. Inspired by the human brain’s predictive coding, we introduce Swift Sampling, an elegant, training-free frame selection algorithm that automatically identifies high-information moments in a video. Specifically, we model a video as a differentiable trajectory in the visual latent space and compute the velocity and acceleration of its features. Then, we apply Taylor expansion to project the expected path of subsequent frames. Frames that diverge sharply from this predicted manifold are identified as temporally surprising frames and selected for sampling. Unlike prior training-free methods that rely on auxiliary networks or video-specific hyperparameter tuning, Swift Sampling is incredibly lightweight, adding only 0.02× additional computational cost over baseline making it 30×cheaper overhead than leading baselines. Across three long-video question answering benchmarks and 10 different downstream tasks, Swift Sampling outperforms uniform sampling and prior query-agnostic baselines. It is especially powerful for long videos with limited frame budgets improving accuracy by up to +12.5 points.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.22678",
+      "pdf_url": "https://arxiv.org/pdf/2605.22678",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.22678",
+      "scraped_at": "2026-05-22T03:47:24.950355"
+    },
+    "scraped_date": "2026-05-22"
+  },
+  {
+    "title": "Diversed Model Discovery via Structured Table Discovery",
+    "paper_url": "https://huggingface.co/papers/2605.22766",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Diversed Model Discovery via Structured Table Discovery",
+      "abstract": "Diversed Model Discovery via Structured Table Discovery",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.22766",
+      "pdf_url": "https://arxiv.org/pdf/2605.22766",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/RJMillerLab/ModelSearch"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.22766",
+      "scraped_at": "2026-05-22T03:47:26.968090"
+    },
+    "scraped_date": "2026-05-22"
+  },
+  {
+    "title": "SceneAligner: 3D-Grounded Floorplan Localization in the Wild",
+    "paper_url": "https://huggingface.co/papers/2605.22581",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SceneAligner: 3D-Grounded Floorplan Localization in the Wild",
+      "abstract": "Project Page: https://Cornell-VAILab.github.io/SceneAligner",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.22581",
+      "pdf_url": "https://arxiv.org/pdf/2605.22581",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Cornell-VAILab/SceneAligner"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.22581",
+      "scraped_at": "2026-05-22T03:47:28.831347"
+    },
+    "scraped_date": "2026-05-22"
+  },
+  {
+    "title": "Bernini: Latent Semantic Planning for Video Diffusion",
+    "paper_url": "https://huggingface.co/papers/2605.22344",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Bernini: Latent Semantic Planning for Video Diffusion",
+      "abstract": "Bernini is a unified framework for video generation and editing that uses an MLLM-based planner to predict latent semantic representations for a DiT-based renderer.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.22344",
+      "pdf_url": "https://arxiv.org/pdf/2605.22344",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.22344",
+      "scraped_at": "2026-05-22T03:47:30.607274"
+    },
+    "scraped_date": "2026-05-22"
+  },
+  {
+    "title": "Training Large Language Models to Predict Clinical Events",
+    "paper_url": "https://huggingface.co/papers/2605.12817",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Training Large Language Models to Predict Clinical Events",
+      "abstract": "Longitudinal clinical notes contain rich evidence of how patients evolve over time, but converting this signal into training supervision for clinical prediction remains challenging. We extend Foresight Learning to clinical prediction by converting time-ordered MIMIC-III notes into examples consisting of past patient context, a natural-language question about a possible future event, and a label resolved from later documentation. This process yields 6,900 prediction examples from 702 admissions across medications, procedures, organ support, microbiology, and mortality. A small LoRA adapter trained on these examples improves over the prompted base model, reducing expected calibration error from 0.1269 to 0.0398 and Brier score from 0.199 to 0.145, while slightly outperforming GPT-5 point estimates on held-out questions. The approach enables reusable clinical prediction supervision from longitudinal notes without hand-engineered structured features or endpoint-specific classifiers.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.12817",
+      "pdf_url": "https://arxiv.org/pdf/2605.12817",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.12817",
+      "scraped_at": "2026-05-22T03:47:32.464135"
+    },
+    "scraped_date": "2026-05-22"
+  },
+  {
+    "title": "From Reasoning Chains to Verifiable Subproblems: Curriculum Reinforcement Learning Enables Credit Assignment for LLM Reasoning",
+    "paper_url": "https://huggingface.co/papers/2605.22074",
+    "authors": [
+      "Shenzhi Wang",
+      "Yang Yue",
+      "Wenze Lin",
+      "Zihan Tang",
+      "Xitai Jiang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "From Reasoning Chains to Verifiable Subproblems: Curriculum Reinforcement Learning Enables Credit Assignment for LLM Reasoning",
+      "abstract": "Introduces SCRL, a curriculum reinforcement learning framework for LLM reasoning that derives verifiable subproblems from reasoning chains to enable fine-grained, subproblem-level credit assignment without external reward models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.22074",
+      "pdf_url": "https://arxiv.org/pdf/2605.22074",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.22074",
+      "scraped_at": "2026-05-22T03:47:34.237615"
+    },
+    "scraped_date": "2026-05-22"
+  },
+  {
+    "title": "TerminalWorld: Benchmarking Agents on Real-World Terminal Tasks",
+    "paper_url": "https://huggingface.co/papers/2605.22535",
+    "authors": [
+      "Han Li",
+      "Pengyu Zou",
+      "Xingyu Jiang",
+      "Jiarui Hu",
+      "Zhaoyang Chu"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "TerminalWorld: Benchmarking Agents on Real-World Terminal Tasks",
+      "abstract": "TerminalWorld is a scalable data engine that reverse-engineers real-world terminal recordings into a benchmark of 1,530 validated tasks to evaluate agent performance on authentic software engineering terminal workflows.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.22535",
+      "pdf_url": "https://arxiv.org/pdf/2605.22535",
+      "github_links": [
+        "https://github.com/EuniAI/TerminalWorld",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.22535",
+      "scraped_at": "2026-05-22T03:47:36.088611"
+    },
+    "scraped_date": "2026-05-22"
+  },
+  {
+    "title": "Same Architecture, Different Capacity: Optimizer-Induced Spectral Scaling Laws",
+    "paper_url": "https://huggingface.co/papers/2605.21803",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Same Architecture, Different Capacity: Optimizer-Induced Spectral Scaling Laws",
+      "abstract": "Same Architecture, Different Optimizer, Different Capacity: In this work, we have shown that realized representation capacity is not architecture-only, it emerges from the architecture-optimizer interaction. Optimizer geometry changes the scaling exponents that govern how FFN width converted into usable capacity. Further,  through controlled comparisons, we found that optimizer-induced shifts in spectral scaling often exceeds the shift caused by  architectural interventions.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.21803",
+      "pdf_url": "https://arxiv.org/pdf/2605.21803",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.21803",
+      "scraped_at": "2026-05-22T03:47:37.939341"
+    },
+    "scraped_date": "2026-05-22"
   }
 ]
