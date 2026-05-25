@@ -12108,5 +12108,369 @@
       "scraped_at": "2026-05-24T03:43:40.652495"
     },
     "scraped_date": "2026-05-24"
+  },
+  {
+    "title": "Rethinking Cross-Layer Information Routing in Diffusion Transformers",
+    "paper_url": "https://huggingface.co/papers/2605.20708",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Rethinking Cross-Layer Information Routing in Diffusion Transformers",
+      "abstract": "Hi everyone! We’re excited to share our work “Rethinking Cross-Layer Information Routing in Diffusion Transformers.” While DiTs have been extensively improved in tokenization, attention, conditioning, objectives, and autoencoders, their residual stream is still largely inherited from the original Transformer. We revisit this overlooked design axis and analyze cross-layer information flow in DiTs across both depth and denoising timestep. Our diagnosis reveals three symptoms of standard residual routing: forward magnitude inflation, backward gradient decay, and block-wise redundancy. Based on this, we propose Diffusion-Adaptive Routing (DAR) , a drop-in residual replacement that performs learnable, timestep-adaptive, and non-incremental aggregation over previous sublayer outputs. On ImageNet 256×256, DAR improves SiT-XL/2 from 9.67 to 7.56 FID and reaches the baseline’s converged quality with 8.75× fewer iterations . DAR is also complementary to REPA, bringing a 2× early-stage speedup , and helps preserve high-frequency details during DMD for large-scale T2I models. We hope this work highlights cross-layer routing as an underexplored but promising direction for Diffusion Transformers. Feedback is very welcome!",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.20708",
+      "pdf_url": "https://arxiv.org/pdf/2605.20708",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.20708",
+      "scraped_at": "2026-05-25T03:57:20.746474"
+    },
+    "scraped_date": "2026-05-25"
+  },
+  {
+    "title": "Lens: Rethinking Training Efficiency for Foundational Text-to-Image Models",
+    "paper_url": "https://huggingface.co/papers/2605.21573",
+    "authors": [],
+    "stars": "81",
+    "details": {
+      "title": "Lens: Rethinking Training Efficiency for Foundational Text-to-Image Models",
+      "abstract": "Lens is a 3.8B-parameter foundational text-to-image model designed for efficient training and fast high-resolution generation . It combines dense-caption pre-training, mixed-resolution learning, GPT-OSS multi-layer text features, and the FLUX.2 semantic VAE to reach competitive quality with substantially less training compute than larger T2I models. Highlights Fully open-sourced model suite : Lens-Base, Lens-RL, and Lens-Turbo are released, covering both a 20-step high-quality version and a 4-step fast-inference version. Fully transparent technical details : We disclose the complete pipeline, including data construction, pre-training, RL post-training, Reasoner design, distillation acceleration, inference configuration, and ablation analysis. High training efficiency : Lens is trained with 128 A100 GPUs, requiring only about 19.3% of the training cost of Z-Image. State-of-the-art performance : Lens achieves leading results on multiple benchmarks, including OneIG, GenEval, LongText, and CVTG. Fast inference speed : Lens generates a 1024-resolution image in only 3.15s on a single H100 GPU, while Lens-Turbo reduces this to 0.84s . Flexible generation capability : Lens supports up to 1440-resolution generation, arbitrary aspect ratios from 1:2 to 2:1 , multilingual prompts, and automatic prompt enhancement through the Reasoner.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.21573",
+      "pdf_url": "https://arxiv.org/pdf/2605.21573",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/microsoft/Lens"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.21573",
+      "scraped_at": "2026-05-25T03:57:22.683601"
+    },
+    "scraped_date": "2026-05-25"
+  },
+  {
+    "title": "See What I Mean: Aligning Vision and Language Representations for Video Fine-grained Object Understanding",
+    "paper_url": "https://huggingface.co/papers/2605.18018",
+    "authors": [],
+    "stars": "78",
+    "details": {
+      "title": "See What I Mean: Aligning Vision and Language Representations for Video Fine-grained Object Understanding",
+      "abstract": "A new paradigm for fine-grained video understanding.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.18018",
+      "pdf_url": "https://arxiv.org/pdf/2605.18018",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/HumanMLLM/SWIM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.18018",
+      "scraped_at": "2026-05-25T03:57:24.550506"
+    },
+    "scraped_date": "2026-05-25"
+  },
+  {
+    "title": "StepAudio 2.5 Technical Report",
+    "paper_url": "https://huggingface.co/papers/2605.23463",
+    "authors": [
+      "Chen Wu",
+      "Chao Yan",
+      "Boyong Wu",
+      "Bo Zhao",
+      "Bin Lin"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "StepAudio 2.5 Technical Report",
+      "abstract": "This report presents StepAudio 2.5, a unified audiolanguage foundation model that matches or exceeds specialized systems across all three capabilities.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.23463",
+      "pdf_url": "https://arxiv.org/pdf/2605.23463",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.23463",
+      "scraped_at": "2026-05-25T03:57:26.434023"
+    },
+    "scraped_date": "2026-05-25"
+  },
+  {
+    "title": "RankE: End-to-End Post-Training for Discrete Text-to-Image Generation with Decoder Co-Evolution",
+    "paper_url": "https://huggingface.co/papers/2605.21195",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "RankE: End-to-End Post-Training for Discrete Text-to-Image Generation with Decoder Co-Evolution",
+      "abstract": "Project Page: https://syjmelody.github.io/RankE/ GitHub: https://github.com/syjmelody/RankE ⚡ TL;DR RankE is the first end-to-end post-training framework for discrete text-to-image generation that jointly optimizes the Generator and the Decoder . Instead of improving reward scores at the cost of image quality, RankE improves both alignment and fidelity at the same time. 🤔 Background: What is the problem? Most discrete text-to-image models still follow a two-stage pipeline: train a VQ-VAE / tokenizer to map images into discrete visual tokens; train an autoregressive Generator to model those tokens. This pipeline works well for pretraining, but post-training is usually incomplete: existing methods optimize the Generator only and keep the Decoder frozen . That creates a mismatch. As the Generator is optimized to chase higher rewards, its output token distribution gradually drifts away from the real token distribution that the Decoder saw during tokenizer training. The result is a frustrating trade-off: reward scores go up, but decoded image quality can get worse. The paper identifies this issue as Latent Covariate Shift . 🔍 Why existing solutions are not enough Recent work such as REPA-E has shown that in continuous diffusion models, the autoencoder is not just a supporting module — it can be a real bottleneck for alignment and visual quality. But discrete T2I is harder. Because token sampling and vector quantization are discrete operations, gradients cannot flow cleanly through the entire generation process. That is why most existing RL or preference-optimization methods for discrete generation still update only the Generator while leaving the Decoder unchanged. So the field already knows the decoder matters — but a practical end-to-end solution for discrete generation has been missing. 🚀 What RankE does RankE addresses this directly by making the Generator and Decoder co-evolve . Its core insight is simple: if Generator optimization already behaves like a ranking process over latent token sequences, why not extend the same ranking principle to pixel-space Decoder optimization? RankE therefore uses alternating optimization : Generator step: optimize the policy so that higher-reward latent token sequences receive stronger updates; Decoder step: optimize the Decoder so it can better adapt to the Generator’s evolving token distribution, while also favoring higher-reward decoded images. In other words, RankE does not just make the model “better at scoring well.” It aligns optimization across both latent space and pixel space . This is the key difference from standard frozen-decoder RL. 🧠 Why this matters In standard RL post-training for discrete T2I, the Generator keeps changing, but the Decoder stays fixed. Over time, the Decoder is forced to decode token patterns it was never really trained to handle. RankE removes this bottleneck by continuously adapting the Decoder during post-training. This turns reward optimization into actual visual improvement, rather than reward hacking in latent space. 📈 Results The gains are clear. On LlamaGen-XL (775M) under CLIP-based optimization: Standard RL: improves CLIP, but hurts FID RankE: improves both Specifically: CLIP: 32.45 → 33.76 FID: 17.76 → 15.21 That is the main message of the paper: RankE breaks the common fidelity–alignment trade-off in discrete text-to-image post-training. The improvements are also consistent across: different backbones, different reward functions, and multiple evaluation settings. ✨ One-line takeaway RankE is a more natural way to post-train discrete text-to-image models: instead of optimizing only the Generator, it lets the Generator and Decoder improve together.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.21195",
+      "pdf_url": "https://arxiv.org/pdf/2605.21195",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/syjmelody/RankE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.21195",
+      "scraped_at": "2026-05-25T03:57:28.350082"
+    },
+    "scraped_date": "2026-05-25"
+  },
+  {
+    "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+    "paper_url": "https://huggingface.co/papers/2605.23904",
+    "authors": [
+      "Ziwei Zhou",
+      "Qihao Yang",
+      "Weiquan Huang",
+      "Ziyang Gong",
+      "Yifan Yang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.23904",
+      "pdf_url": "https://arxiv.org/pdf/2605.23904",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.23904",
+      "scraped_at": "2026-05-25T03:57:30.180635"
+    },
+    "scraped_date": "2026-05-25"
+  },
+  {
+    "title": "SCOPE: Simulating Cross-game Operations in Playable Environments for FPS World Models",
+    "paper_url": "https://huggingface.co/papers/2605.23345",
+    "authors": [
+      "Kexu Cheng",
+      "Zhaohu Xing",
+      "Zeqing Wang",
+      "Hongfeng Lai",
+      "Zizhao Tong"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SCOPE: Simulating Cross-game Operations in Playable Environments for FPS World Models",
+      "abstract": "🚀 Introducing SCOPE — an interactive world model for FPS games. SCOPE handles dense FPS controls by learning per-pixel temporal action responses, separating localized weapon/scope effects from stable scene generation without segmentation labels. We also release CrossFPS, the first multi-game FPS dataset with frame-aligned action telemetry: 69K clips, 7 titles, 10-DoF controls. 👇 Dive in: 📄 Arxiv: http://arxiv.org/abs/2605.23345 🏠 Project Page: https://z2tong.github.io/SCOPE/ 💻 Code: https://github.com/z2tong/SCOPE 🤗 Model: https://huggingface.co/zizhaotong/SCOPE 🗄️ Dataset: https://huggingface.co/collections/zizhaotong/crossfps",
+      "arxiv_page_url": "http://arxiv.org/abs/2605.23345",
+      "pdf_url": "https://arxiv.org/pdf/2605.23345",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/z2tong/SCOPE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.23345",
+      "scraped_at": "2026-05-25T03:57:32.058729"
+    },
+    "scraped_date": "2026-05-25"
+  },
+  {
+    "title": "PiD: Fast and High-Resolution Latent Decoding with Pixel Diffusion",
+    "paper_url": "https://huggingface.co/papers/2605.23902",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PiD: Fast and High-Resolution Latent Decoding with Pixel Diffusion",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.23902",
+      "pdf_url": "https://arxiv.org/pdf/2605.23902",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.23902",
+      "scraped_at": "2026-05-25T03:57:33.925247"
+    },
+    "scraped_date": "2026-05-25"
+  },
+  {
+    "title": "Geo-Align: Video Generation Alignment via Metric Geometry Reward",
+    "paper_url": "https://huggingface.co/papers/2605.23903",
+    "authors": [
+      "Tong He",
+      "Chunhua Shen",
+      "Runzhe Teng",
+      "Haoyu Guo",
+      "Zizun Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Geo-Align: Video Generation Alignment via Metric Geometry Reward",
+      "abstract": "Camera-controlled video generation has achieved remarkable progress in recent years. However, existing video-to-video re-rendering methods primarily rely on Supervised Fine-Tuning using synthetic datasets. At present, there is an extreme scarcity of synchronized, multi-view real-world video data. Consequently, the prevailing paradigm often exhibits limited generalization when processing out-of-distribution real-world videos, with models struggling to accurately adhere to physical scales and camera trajectories. To bridge this gap, we propose Geo-Align, the first Reinforcement Learning framework specifically designed for camera-controlled video re-rendering. Built upon a pretrained model, we optimize the model through a scale-aware perceptual reward mechanism. Specifically, we introduce a metric 3D estimator to extract precise camera trajectories from generated videos, explicitly penalizing deviations in rotation and translation. Furthermore, we meticulously designed a data pipeline strategy based on real-world conditioning videos and target camera trajectories derived from synthetic data, eliminating the reliance on paired data. Extensive experiments demonstrate that Geo-Align consistently outperforms existing supervised learning baselines in both precise camera controllability and visual fidelity, indicating the effectiveness of our method.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.23903",
+      "pdf_url": "https://arxiv.org/pdf/2605.23903",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/LiZizun/GeoAlign"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.23903",
+      "scraped_at": "2026-05-25T03:57:35.751173"
+    },
+    "scraped_date": "2026-05-25"
+  },
+  {
+    "title": "ETCHR: Editing To Clarify and Harness Reasoning",
+    "paper_url": "https://huggingface.co/papers/2605.23897",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "ETCHR: Editing To Clarify and Harness Reasoning",
+      "abstract": "We introduce ETCHR (Editing To Clarify and Harness Reasoning), a question-conditioned, reasoning-aware image editor decoupled from the downstream understanding model and trained with a two-stage recipe targeted at the two gaps: Reasoning Imitation via supervised fine-tuning on edit trajectories, followed by Reasoning Enhancement with VLM-derived rewards for edit correctness and downstream reasoning accuracy.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.23897",
+      "pdf_url": "https://arxiv.org/pdf/2605.23897",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/InternLM/ETCHR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.23897",
+      "scraped_at": "2026-05-25T03:57:37.590238"
+    },
+    "scraped_date": "2026-05-25"
+  },
+  {
+    "title": "VGenST-Bench: A Benchmark for Spatio-Temporal Reasoning via Active Video Synthesis",
+    "paper_url": "https://huggingface.co/papers/2605.22570",
+    "authors": [
+      "Eunbyung Park",
+      "Hogun Park",
+      "Youbin Kim",
+      "zino1"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "VGenST-Bench: A Benchmark for Spatio-Temporal Reasoning via Active Video Synthesis",
+      "abstract": "Awesome work!",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.22570",
+      "pdf_url": "https://arxiv.org/pdf/2605.22570",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/zinosii/VGenST-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.22570",
+      "scraped_at": "2026-05-25T03:57:39.531081"
+    },
+    "scraped_date": "2026-05-25"
+  },
+  {
+    "title": "Rethinking Muon Beyond Pretraining: Spectral Failures and High-Pass Remedies for VLA and RLVR",
+    "paper_url": "https://huggingface.co/papers/2605.19282",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Rethinking Muon Beyond Pretraining: Spectral Failures and High-Pass Remedies for VLA and RLVR",
+      "abstract": "This paper proposes a new optimizer called Pion, which replaces Muon's uniform spectral whitening with a spectral high-pass filtering mechanism, successfully addressing the performance failures that occur in non-LLM-pretraining scenarios such as Vision-Language-Action (VLA) models and Reinforcement Learning with Verifiable Rewards (RLVR).",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.19282",
+      "pdf_url": "https://arxiv.org/pdf/2605.19282",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/OPTML-Group/Pion"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.19282",
+      "scraped_at": "2026-05-25T03:57:41.367682"
+    },
+    "scraped_date": "2026-05-25"
+  },
+  {
+    "title": "GenRecon: Bridging Generative Priors for Multi-View 3D Scene Reconstruction",
+    "paper_url": "https://huggingface.co/papers/2605.23888",
+    "authors": [
+      "Matthias Nießner",
+      "Angela Dai",
+      "Jozef Hladký",
+      "Nicolas von Lützow",
+      "Katharina Schmid"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "GenRecon: Bridging Generative Priors for Multi-View 3D Scene Reconstruction",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.23888",
+      "pdf_url": "https://arxiv.org/pdf/2605.23888",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.23888",
+      "scraped_at": "2026-05-25T03:57:43.203056"
+    },
+    "scraped_date": "2026-05-25"
+  },
+  {
+    "title": "LLMs as Noisy Channels: A Shannon Perspective on Model Capacity and Scaling Laws",
+    "paper_url": "https://huggingface.co/papers/2605.23901",
+    "authors": [
+      "Yuan Yang",
+      "Jing Liu",
+      "Yuhang Cai",
+      "Deyi Liu",
+      "Xu Ouyang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "LLMs as Noisy Channels: A Shannon Perspective on Model Capacity and Scaling Laws",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.23901",
+      "pdf_url": "https://arxiv.org/pdf/2605.23901",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.23901",
+      "scraped_at": "2026-05-25T03:57:44.989884"
+    },
+    "scraped_date": "2026-05-25"
+  },
+  {
+    "title": "From Raw Experience to Skill Consumption: A Systematic Study of Model-Generated Agent Skills",
+    "paper_url": "https://huggingface.co/papers/2605.23899",
+    "authors": [
+      "Qihao Yang",
+      "Ziyang Gong",
+      "Yifan Yang",
+      "Jingwen Xu",
+      "Zisu Huang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "From Raw Experience to Skill Consumption: A Systematic Study of Model-Generated Agent Skills",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.23899",
+      "pdf_url": "https://arxiv.org/pdf/2605.23899",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.23899",
+      "scraped_at": "2026-05-25T03:57:46.816885"
+    },
+    "scraped_date": "2026-05-25"
+  },
+  {
+    "title": "HINT-SD: Targeted Hindsight Self-Distillation for Long-Horizon Agents",
+    "paper_url": "https://huggingface.co/papers/2605.17873",
+    "authors": [
+      "Sung Ju Hwang",
+      "Taekyung Ki",
+      "Yumin Choi",
+      "Woongyeng Yeo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "HINT-SD: Targeted Hindsight Self-Distillation for Long-Horizon Agents",
+      "abstract": "We propose HINT-SD, a targeted hindsight self-distillation framework for long-horizon agents that improves learning by identifying and correcting only the actions responsible for task failure. Instead of distilling entire trajectories, HINT-SD performs hindsight analysis to isolate failure-critical decisions and conducts self-distillation on each targeted turn, with the teacher conditioned on generated hindsight feedback.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.17873",
+      "pdf_url": "https://arxiv.org/pdf/2605.17873",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.17873",
+      "scraped_at": "2026-05-25T03:57:48.634455"
+    },
+    "scraped_date": "2026-05-25"
   }
 ]
