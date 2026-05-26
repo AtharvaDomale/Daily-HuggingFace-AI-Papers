@@ -362,5 +362,346 @@
       "scraped_at": "2026-05-25T03:57:48.634455"
     },
     "scraped_date": "2026-05-25"
+  },
+  {
+    "title": "DVAO: Dynamic Variance-adaptive Advantage Optimization for Multi-reward Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2605.25604",
+    "authors": [
+      "Guohua Liu",
+      "Chuzhan Hao",
+      "Guofeng Quan",
+      "Jingyi Song",
+      "Guochao Jiang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "DVAO: Dynamic Variance-adaptive Advantage Optimization for Multi-reward Reinforcement Learning",
+      "abstract": "We propose Dynamic Variance-adaptive Advantage Optimization (DVAO), which dynamically adjusts combination weights based on the empirical reward variance of each objective within a rollout group, effectively up-weighting objectives with a stronger learning signal while suppressing noisy ones.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.25604",
+      "pdf_url": "https://arxiv.org/pdf/2605.25604",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.25604",
+      "scraped_at": "2026-05-26T03:40:04.223963"
+    },
+    "scraped_date": "2026-05-26"
+  },
+  {
+    "title": "WBench: A Comprehensive Multi-turn Benchmark for Interactive Video World Model Evaluation",
+    "paper_url": "https://huggingface.co/papers/2605.25874",
+    "authors": [],
+    "stars": "16",
+    "details": {
+      "title": "WBench: A Comprehensive Multi-turn Benchmark for Interactive Video World Model Evaluation",
+      "abstract": "upload",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.25874",
+      "pdf_url": "https://arxiv.org/pdf/2605.25874",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/meituan-longcat/WBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.25874",
+      "scraped_at": "2026-05-26T03:40:06.158345"
+    },
+    "scraped_date": "2026-05-26"
+  },
+  {
+    "title": "Macaron-A2UI: A Model for Generative UI in Personal Agents",
+    "paper_url": "https://huggingface.co/papers/2605.24830",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Macaron-A2UI: A Model for Generative UI in Personal Agents",
+      "abstract": "Macaron-A2UI: A Model for Generative UI in Personal Agents",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.24830",
+      "pdf_url": "https://arxiv.org/pdf/2605.24830",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.24830",
+      "scraped_at": "2026-05-26T03:40:08.100270"
+    },
+    "scraped_date": "2026-05-26"
+  },
+  {
+    "title": "AutoResearch AI: Towards AI-Powered Research Automation for Scientific Discovery",
+    "paper_url": "https://huggingface.co/papers/2605.23204",
+    "authors": [
+      "Ziji Sheng",
+      "Yixiao Huang",
+      "Dingjie Song",
+      "Jiawen Shi",
+      "Guiyao Tie"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AutoResearch AI: Towards AI-Powered Research Automation for Scientific Discovery",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.23204",
+      "pdf_url": "https://arxiv.org/pdf/2605.23204",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Mr-Tieguigui/Autoresearch"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.23204",
+      "scraped_at": "2026-05-26T03:40:10.146376"
+    },
+    "scraped_date": "2026-05-26"
+  },
+  {
+    "title": "Your Embedding Model is SMARTer Than You Think",
+    "paper_url": "https://huggingface.co/papers/2605.24938",
+    "authors": [
+      "Donghyun Kim",
+      "Tae-Eui Kam",
+      "Sukanta Ganguly",
+      "Hyun Jung Lee",
+      "Jianrui Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Your Embedding Model is SMARTer Than You Think",
+      "abstract": "Our work introduces SMART, a framework that unlocks the latent multi-vector capabilities of standard single-vector models for multimodal retrieval. While single-vector retrievers are highly efficient, they often discard the fine-grained, local evidence critical for dense retrieval tasks. To address this, SMART applies direct late-interaction over the frozen hidden states of your model during inference, acting as a plug-and-play upgrade that consistently improves performance across diverse modalities. Not only does this approach push state-of-the-art performance further on MMEB-V2, but with simple, lightweight post-training, it also enables single-vector models to outperform heavily trained multi-vector counterparts on Visual Document retrieval. Ultimately, it offers both a highly efficient inference enhancement and a powerful finetuning technique to get the absolute most out of existing embedding models, saving both time and compute. Code and weights are open-sourced!",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.24938",
+      "pdf_url": "https://arxiv.org/pdf/2605.24938",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/HanSolo9682/SMART"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.24938",
+      "scraped_at": "2026-05-26T03:40:12.187134"
+    },
+    "scraped_date": "2026-05-26"
+  },
+  {
+    "title": "ParaVT: Taming the Tool Prior Paradox for Parallel Tool Use in Agentic Video Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2605.20342",
+    "authors": [],
+    "stars": "10",
+    "details": {
+      "title": "ParaVT: Taming the Tool Prior Paradox for Parallel Tool Use in Agentic Video Reinforcement Learning",
+      "abstract": "Long-video understanding is becoming agentic where LMMs are post-trained with RL to natively invoke video tools (e.g., temporal cropping). But every existing native-RL recipe (including our own LongVT @ CVPR 2026) dispatches tool calls sequentially , one per turn: a bad crop has no peer correction, multi-turn calls drift the context, and inference cost grows linearly with turns. ParaVT is the first multi-agent end-to-end RL-trained framework for Para llel V ideo T ool calling. A main agent emits multiple temporal-window crops in a single turn, weight-sharing sub-agents process them concurrently, and a gather-and-reason step produces the final answer. But applying standard GRPO on top of a tool-native LMM surfaces two coupled failures driven by the same pretrained tool prior. We call this the Tool Prior Paradox : Format Fragility — SFT-learned <think> / <tool_call> / <answer> closures collapse under temperature sampling. Tool Necessity Gap — with a 64-frame overview, \"skip-tool\" becomes a shortcut and the GRPO advantage of calling vs. skipping flattens to zero. We propose PARA-GRPO (Parseability-Anchored and Ratio-gAted GRPO), pairing one targeted fix per failure: (i) a format reward applied only at the structural-token positions most prone to collapse, and (ii) per-prompt overview-frame randomization K ∼ Uniform{4, 8, 16, 32, 64} that keeps the tool-call advantage non-degenerate. Fully open: paper, code, weights, data 📄 arxiv.org/abs/2605.20342  ·  💻 github.com/EvolvingLMMs-Lab/ParaVT  ·  🤖 https://huggingface.co/ParaVT ·  🌐 evolvinglmms-lab.github.io/ParaVT",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.20342",
+      "pdf_url": "https://arxiv.org/pdf/2605.20342",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/EvolvingLMMs-Lab/ParaVT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.20342",
+      "scraped_at": "2026-05-26T03:40:14.207101"
+    },
+    "scraped_date": "2026-05-26"
+  },
+  {
+    "title": "Pantheon360: Taming Digital Twin Generation via 3D-Aware 360° Video Diffusion",
+    "paper_url": "https://huggingface.co/papers/2605.25449",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Pantheon360: Taming Digital Twin Generation via 3D-Aware 360° Video Diffusion",
+      "abstract": "Generating complete digital twins from videos requires precise camera control, global scene coverage, and strict spatial–temporal consistency—constraints that remain challenging for perspective video generators due to their limited field of view (FoV). Their narrow FoV forces long or multi-view trajectories, amplifying cross-view inconsistency and temporal drift. We argue that 360° video generation offers a natural solution: panoramic coverage simplifies trajectory design and provides strong global context for maintaining coherence. We introduce Pantheon360: Taming Digital Twin Generation via 3D-Aware 360° Video Diffusion, a controllable 360° video generation framework that synthesizes high-fidelity videos from sparse 360° inputs. The key idea is an explicit 3D Cache, reconstructed from the input, which serves as a geometric scaffold for any user-defined camera path. This allows the diffusion model to focus on photorealistic texture refinement while the 3D Cache enforces global geometric consistency. Beyond single-image generation, we are the first video diffusion model to support 360° interpolation, enabling seamless chaining of video segments to produce extended, coherent long-form videos. Experiments show that Pantheon360 achieves superior visual quality and unmatched geometric coherence, enabling reliable and flexible 360° scene generation for downstream simulation and digital-twin applications.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.25449",
+      "pdf_url": "https://arxiv.org/pdf/2605.25449",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.25449",
+      "scraped_at": "2026-05-26T03:40:16.120034"
+    },
+    "scraped_date": "2026-05-26"
+  },
+  {
+    "title": "TriSplat: Simulation-Ready Feed-Forward 3D Scene Reconstruction",
+    "paper_url": "https://huggingface.co/papers/2605.26115",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "TriSplat: Simulation-Ready Feed-Forward 3D Scene Reconstruction",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.26115",
+      "pdf_url": "https://arxiv.org/pdf/2605.26115",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ziplab/TriSplat"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.26115",
+      "scraped_at": "2026-05-26T03:40:18.127433"
+    },
+    "scraped_date": "2026-05-26"
+  },
+  {
+    "title": "Claw-Anything: Benchmarking Always-On Personal Assistants with Broader Access to User's Digital World",
+    "paper_url": "https://huggingface.co/papers/2605.26086",
+    "authors": [
+      "Siqi Cheng",
+      "Qipeng Gu",
+      "Haiyang Wang",
+      "Xinyuan Liang",
+      "Yusong Lin"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "Claw-Anything: Benchmarking Always-On Personal Assistants with Broader Access to User's Digital World",
+      "abstract": "Claw-Anything: See anything, and do anything.  Scaling Agent Context. We believe the next leap for always-on LLM agents lies in scaling agent context — expanding the slice of the user's digital world an assistant can continuously perceive, reason over, and act on.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.26086",
+      "pdf_url": "https://arxiv.org/pdf/2605.26086",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/LiberCoders/CLaw-Anything"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.26086",
+      "scraped_at": "2026-05-26T03:40:20.048711"
+    },
+    "scraped_date": "2026-05-26"
+  },
+  {
+    "title": "Geometry-Aware Image Flow Matching",
+    "paper_url": "https://huggingface.co/papers/2605.25294",
+    "authors": [
+      "Joonseok Lee",
+      "Kwanseok Kim",
+      "Junho Lee"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Geometry-Aware Image Flow Matching",
+      "abstract": "TL;DR: Natural images live on a hypersphere — and treating them that way improves flow matching. Geometry-aware generative modeling has worked well on known manifolds (molecules, crystals, proteins), but natural images have stayed stuck in Euclidean space because nobody knew what manifold they lived on. We show a surprisingly simple answer: their semantic content is almost entirely in the direction, not the norm. Projecting images (both RGB and VAE latents) onto a sphere of the dataset's mean radius leaves them perceptually indistinguishable from the originals. Building on this, we propose SOT-CFM (angular OT cost) and SFM (fully Riemannian flow matching on the sphere). SFM is, to our knowledge, the first successful application of a fully manifold-based generative framework to large-scale natural images.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.25294",
+      "pdf_url": "https://arxiv.org/pdf/2605.25294",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.25294",
+      "scraped_at": "2026-05-26T03:40:21.939465"
+    },
+    "scraped_date": "2026-05-26"
+  },
+  {
+    "title": "MetaphorVU: Towards Metaphorical Video Understanding",
+    "paper_url": "https://huggingface.co/papers/2605.25461",
+    "authors": [
+      "Ruotong Pan",
+      "Fangrui Lv",
+      "Guiping Jiang",
+      "Boxi Cao",
+      "Zhuoqun Li"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "MetaphorVU: Towards Metaphorical Video Understanding",
+      "abstract": "• We propose MetaphorVU-Bench, which is the first benchmark dedicated to systematic and comprehensive evaluation for metaphorical video understanding. • We conduct extensive experiments and analysis, reveal\u0002ing the deficiencies of current MLLMs and providing insights into the underlying causes of their failures. • We construct MetaphorBoost, boosting metaphorical video understanding via inference-time mapping aug\u0002mentation based on a metaphorical knowledge graph. ICML 2026 spotlight",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.25461",
+      "pdf_url": "https://arxiv.org/pdf/2605.25461",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/icip-cas/MetaphorVU"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.25461",
+      "scraped_at": "2026-05-26T03:40:23.905861"
+    },
+    "scraped_date": "2026-05-26"
+  },
+  {
+    "title": "Toward Native Multimodal Modeling: A Roadmap",
+    "paper_url": "https://huggingface.co/papers/2605.25343",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Toward Native Multimodal Modeling: A Roadmap",
+      "abstract": "The community is undergoing a macro-level paradigm shift from early modular assembly, i.e., late-fusion and grafted pipelines blind to raw sensory signals, toward born-native multimodal convergence, where multimodal understanding and generation fluidly coexist within unified transformer spaces. If you are trying to navigate the messy, fragmented design space of multimodal models, this paper delivers the community's first definitive, full-lifecycle roadmap.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.25343",
+      "pdf_url": "https://arxiv.org/pdf/2605.25343",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/NMM-Roadmap/Awesome-NMM-List"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.25343",
+      "scraped_at": "2026-05-26T03:40:25.803485"
+    },
+    "scraped_date": "2026-05-26"
+  },
+  {
+    "title": "Channel-wise Vector Quantization",
+    "paper_url": "https://huggingface.co/papers/2605.26089",
+    "authors": [
+      "Zuxuan Wu",
+      "Tong Zhang",
+      "Yitong Chen",
+      "Tianhang Wang",
+      "Wei Song"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Channel-wise Vector Quantization",
+      "abstract": "We present Channel-wise Vector Quantization (CVQ), a novel image tokenization paradigm that replaces patch-wise tokens with channel-wise tokens. Unlike conventional vector quantization, which assigns a discrete token to each patch feature vector, CVQ quantizes each channel of the feature map. This formulation represents an image as discrete levels of visual details, rather than as a grid of spatial patches. Based on CVQ, we introduce a new visual autoregressive framework with \"next-channel prediction\". Instead of rendering images patch by patch in raster order, our Channel-wise Autoregressive (CAR) model predicts image channels sequentially, producing progressively enriched visual details. Specifically, it first sketches global structure and then refines fine-grained attributes, akin to a human artist's workflow. Empirically, we show that: (1) CVQ achieves 100% codebook utilization with a 16K+ codebook size without any bells and whistles, and substantially improves reconstruction quality over conventional VQ; and (2) CAR attains a DPG score of 86.7 and a GenEval score of 0.79, demonstrating strong effectiveness for text-to-image generation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.26089",
+      "pdf_url": "https://arxiv.org/pdf/2605.26089",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/songweii/CVQ"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.26089",
+      "scraped_at": "2026-05-26T03:40:27.691421"
+    },
+    "scraped_date": "2026-05-26"
+  },
+  {
+    "title": "SemBridge: Language Transfer in Sparse Encoders via Multilingual Semantic Bridges",
+    "paper_url": "https://huggingface.co/papers/2605.26002",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SemBridge: Language Transfer in Sparse Encoders via Multilingual Semantic Bridges",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.26002",
+      "pdf_url": "https://arxiv.org/pdf/2605.26002",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.26002",
+      "scraped_at": "2026-05-26T03:40:29.555617"
+    },
+    "scraped_date": "2026-05-26"
+  },
+  {
+    "title": "ClaimDiff-RL: Fine-Grained Caption Reinforcement Learning through Visual Claim Comparison",
+    "paper_url": "https://huggingface.co/papers/2605.20278",
+    "authors": [
+      "Shaoxiang Chen",
+      "Rongxin Guo",
+      "Yan Ma",
+      "Xuyang Shen",
+      "Tianle Li"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "ClaimDiff-RL: Fine-Grained Caption Reinforcement Learning through Visual Claim Comparison",
+      "abstract": "Can we make caption RL more diagnosable than a single scalar reward? In ClaimDiff-RL, we argue that long-form image captions should not be judged only as whole sequences. A dense caption is made of many local visual claims—objects, counts, colors, spatial relations, OCR text, and fine-grained details. Instead of directly asking a judge for one holistic score, ClaimDiff-RL compares an actor caption with a reference caption, identifies atomic visual differences, verifies each difference against the image, and assigns side-specific typed errors. This turns hallucinations, missing facts, and correct extra details into separately measurable reward signals. Interestingly, we find that holistic rewards can reduce hallucination by encouraging conservative under-captioning, while claim-difference rewards expose a more controllable faithfulness–coverage frontier. Curious to hear what the community thinks: should future multimodal RL rewards move from holistic scores toward verifiable claim-level supervision?",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.20278",
+      "pdf_url": "https://arxiv.org/pdf/2605.20278",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ltl3A87/ClaimDiff-RL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.20278",
+      "scraped_at": "2026-05-26T03:40:31.489670"
+    },
+    "scraped_date": "2026-05-26"
   }
 ]
