@@ -12813,5 +12813,348 @@
       "scraped_at": "2026-05-26T03:40:31.489670"
     },
     "scraped_date": "2026-05-26"
+  },
+  {
+    "title": "Geometry-Aware Representation Denoising for Robust Multi-view 3D Reconstruction",
+    "paper_url": "https://huggingface.co/papers/2605.26230",
+    "authors": [],
+    "stars": "10",
+    "details": {
+      "title": "Geometry-Aware Representation Denoising for Robust Multi-view 3D Reconstruction",
+      "abstract": "Project page: https://cvlab-kaist.github.io/GARD/",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.26230",
+      "pdf_url": "https://arxiv.org/pdf/2605.26230",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/cvlab-kaist/GARD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.26230",
+      "scraped_at": "2026-05-27T03:57:02.174613"
+    },
+    "scraped_date": "2026-05-27"
+  },
+  {
+    "title": "MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research",
+    "paper_url": "https://huggingface.co/papers/2605.26114",
+    "authors": [
+      "Han Xiao",
+      "Shuzhe Wu",
+      "Haiyang Wang",
+      "Rui Hao",
+      "Dingbang Wu"
+    ],
+    "stars": "24",
+    "details": {
+      "title": "MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research",
+      "abstract": "MobileGym is a browser-hosted, lightweight, fully controllable, and highly parallel environment for everyday mobile use.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.26114",
+      "pdf_url": "https://arxiv.org/pdf/2605.26114",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Purewhiter/mobilegym"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.26114",
+      "scraped_at": "2026-05-27T03:57:04.076448"
+    },
+    "scraped_date": "2026-05-27"
+  },
+  {
+    "title": "EvalVerse: Pipeline-Aware and Expert-Calibrated Benchmarking for Professional Cinematic Video Generation",
+    "paper_url": "https://huggingface.co/papers/2605.23271",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "EvalVerse: Pipeline-Aware and Expert-Calibrated Benchmarking for Professional Cinematic Video Generation",
+      "abstract": "The rapid evolution of generative video foundation models has propelled the field toward professional-grade cinematic synthesis. To achieve such demanding quality, the community transitions towards Reinforcement Learning (RL) and agentic workflows. However, reliable evaluation has emerged as a critical bottleneck. Existing benchmarks predominantly evaluate ''whether it is right'' (basic prompt-following) while fundamentally neglecting ''whether it is good'' (cinematic quality, acting, and aesthetics). Furthermore, current automated metrics lack the domain-specific rigor required to provide trustworthy signals, creating a severe credibility gap between human aesthetic perception and machine scoring. To bridge this gap, we introduce EvalVerse, a comprehensive, pipeline-aware, and expert-calibrated evaluation framework. We treat video generation assessment not merely as an engineering task, but as a core scientific problem: the systematic digitization of subjective cinematic expertise. First, we organize domain knowledge into an evaluation taxonomy aligned with the professional filmmaking workflow (pre-production, production, and post-production). Second, we distill human expert judgments into a curated dataset with large-scale human annotations. Third, we inject this knowledge into Vision-Language Models (VLMs) through an expert-calibrated fine-tuning strategy, enabling the VLM to perform explicit Chain-of-Thought reasoning. Compared to previous works, EvalVerse not only retains compatibility with foundational ''rightness'' metrics, but also significantly expands the criteria to ''goodness'' and broaden the task coverage to complex multi-shot sequencing and audio-visual integration. Consequently, by providing granular diagnostic signals, EvalVerse transcends a static leaderboard and establishes a fundamental infrastructure for future work, such as reward models and evaluator agent.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.23271",
+      "pdf_url": "https://arxiv.org/pdf/2605.23271",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.23271",
+      "scraped_at": "2026-05-27T03:57:05.989570"
+    },
+    "scraped_date": "2026-05-27"
+  },
+  {
+    "title": "LocateAnything: Fast and High-Quality Vision-Language Grounding with Parallel Box Decoding",
+    "paper_url": "https://huggingface.co/papers/2605.27365",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LocateAnything: Fast and High-Quality Vision-Language Grounding with Parallel Box Decoding",
+      "abstract": "Github: https://github.com/NVlabs/Eagle",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.27365",
+      "pdf_url": "https://arxiv.org/pdf/2605.27365",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/NVlabs/Eagle"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.27365",
+      "scraped_at": "2026-05-27T03:57:07.913317"
+    },
+    "scraped_date": "2026-05-27"
+  },
+  {
+    "title": "SpatialBench: Is Your Spatial Foundation Model an All-Round Player?",
+    "paper_url": "https://huggingface.co/papers/2605.27367",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "SpatialBench: Is Your Spatial Foundation Model an All-Round Player?",
+      "abstract": "The first benchmark for the spatial foundation model.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.27367",
+      "pdf_url": "https://arxiv.org/pdf/2605.27367",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Ropedia/SpatialBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.27367",
+      "scraped_at": "2026-05-27T03:57:09.835268"
+    },
+    "scraped_date": "2026-05-27"
+  },
+  {
+    "title": "LongAV-Compass: Towards Unified Evaluation of Minute-Scale Audio-Visual Generation Across T2AV, I2AV, and V2AV",
+    "paper_url": "https://huggingface.co/papers/2605.26244",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "LongAV-Compass: Towards Unified Evaluation of Minute-Scale Audio-Visual Generation Across T2AV, I2AV, and V2AV",
+      "abstract": "Audio-visual generation is rapidly advancing from short clips to minute-long content, while existing evaluation protocols remain largely confined to short-form settings. Existing benchmarks primarily focus on 5--10 second text-conditioned generation and rarely support unified evaluation across text, image, and video conditioning modalities. Moreover, they provide limited insight into how identity consistency, narrative coherence, and audio-visual alignment degrade over extended temporal horizons. To bridge this gap, we introduce LongAV-Compass, a systematic benchmark for minute-long audio-visual generation. LongAV-Compass contains 284 curated test cases spanning text-to-audio-video (T2AV), image-to-audio-video (I2AV), and video-to-audio-video (V2AV), organized by application scenario and generation complexity. The benchmark combines taxonomy-guided benchmark construction with a unified evaluation framework that integrates MLLM-assisted assessment with complementary perceptual and multimodal metrics, including DINO-v2, ArcFace, CLIP, and ImageBind. The framework evaluates more than 20 fine-grained dimensions covering within-segment quality, cross-segment consistency, global narrative coherence, semantic alignment, and audio-visual synchronization. Through experiments on 11 representative models together with human-alignment validation, LongAV-Compass provides a diagnostic testbed for analyzing the limitations of current systems in sustaining coherent, semantically aligned, and temporally consistent minute-scale audio-visual generation across diverse input modalities.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.26244",
+      "pdf_url": "https://arxiv.org/pdf/2605.26244",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/pkucs-Ltf/LongAV-Compass"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.26244",
+      "scraped_at": "2026-05-27T03:57:11.747220"
+    },
+    "scraped_date": "2026-05-27"
+  },
+  {
+    "title": "Does Seeing More Mean Knowing More? Mono-Anchored Advantage Normalization for Multi-Source Visual Reasoning",
+    "paper_url": "https://huggingface.co/papers/2605.25437",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Does Seeing More Mean Knowing More? Mono-Anchored Advantage Normalization for Multi-Source Visual Reasoning",
+      "abstract": "An effective way for resolving conflict in multi-source visual reasoning",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.25437",
+      "pdf_url": "https://arxiv.org/pdf/2605.25437",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/AI9Stars/MARS"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.25437",
+      "scraped_at": "2026-05-27T03:57:13.605511"
+    },
+    "scraped_date": "2026-05-27"
+  },
+  {
+    "title": "The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence",
+    "paper_url": "https://huggingface.co/papers/2605.26494",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.26494",
+      "pdf_url": "https://arxiv.org/pdf/2605.26494",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.26494",
+      "scraped_at": "2026-05-27T03:57:15.463364"
+    },
+    "scraped_date": "2026-05-27"
+  },
+  {
+    "title": "Efficient Agentic Reinforcement Learning with On-Policy Intrinsic Knowledge Boundary Enhancement",
+    "paper_url": "https://huggingface.co/papers/2605.26952",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "Efficient Agentic Reinforcement Learning with On-Policy Intrinsic Knowledge Boundary Enhancement",
+      "abstract": "We propose AKBE (Agentic Knowledge Boundary Enhancement), an on-policy method that dynamically probes the model's intrinsic knowledge boundary through dual-path (with-tool and no-tool) rollouts during training. We define the knowledge boundary as the per-instance determination of whether tools are required and the minimum tool calls necessary. By comparing correctness across paths, AKBE categorizes trajectories and constructs targeted supervisory signals that guide efficient tool-use patterns for each question. These signals are integrated seamlessly into the agentic RL training loop. Experiments on seven QA benchmarks demonstrate that AKBE improves task accuracy by +1.85 on average and reduces tool calls by 18% over standard agentic RL, yielding 25% higher tool productivity without any accuracy-efficiency trade-off. Further analysis suggests its plug-and-play compatibility across different RL algorithms and the mechanism of each signal category.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.26952",
+      "pdf_url": "https://arxiv.org/pdf/2605.26952",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/CuSO4-Chen/AKBE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.26952",
+      "scraped_at": "2026-05-27T03:57:17.321918"
+    },
+    "scraped_date": "2026-05-27"
+  },
+  {
+    "title": "Soap2Soap: Long Cinematic Video Remaking via Multi-Agent Collaboration",
+    "paper_url": "https://huggingface.co/papers/2605.17423",
+    "authors": [],
+    "stars": "10",
+    "details": {
+      "title": "Soap2Soap: Long Cinematic Video Remaking via Multi-Agent Collaboration",
+      "abstract": "Meet Soap2Soap — Video-to-Video generation via multi-agent collaboration. Transform any video into a fully stylized animated version — Pixar, Disney, LEGO, anime, clay, and more — with consistent characters, environments, and cinematic composition preserved across every shot.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.17423",
+      "pdf_url": "https://arxiv.org/pdf/2605.17423",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/showlab/Soap2Soap"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.17423",
+      "scraped_at": "2026-05-27T03:57:19.199752"
+    },
+    "scraped_date": "2026-05-27"
+  },
+  {
+    "title": "MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation",
+    "paper_url": "https://huggingface.co/papers/2605.27366",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.27366",
+      "pdf_url": "https://arxiv.org/pdf/2605.27366",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.27366",
+      "scraped_at": "2026-05-27T03:57:21.037062"
+    },
+    "scraped_date": "2026-05-27"
+  },
+  {
+    "title": "Beyond Final Answers: Auditing Trajectory-Level Hallucinations in Multi-Agent Industrial Workflows",
+    "paper_url": "https://huggingface.co/papers/2605.24219",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Beyond Final Answers: Auditing Trajectory-Level Hallucinations in Multi-Agent Industrial Workflows",
+      "abstract": "Large Language Models (LLMs) are increasingly deployed as autonomous agents that reason, use tools, and act over multiple steps. Yet most hallucination benchmarks still evaluate only the final output, missing failures that originate in intermediate Thought-Action-Observation steps. We present Trajel, a dataset and evaluation framework for auditing trajectory-level hallucinations in multi-agent industrial workflows. Trajel introduces a five-type hallucination taxonomy (factual, referential, logical, procedural, and scope-based) over expert-annotated agent traces from AssetOpsBench. We benchmark supervised detection models at the subtask, trajectory, and long-context levels. Our results show that the most common failure modes are missed by existing benchmarks, that nearly half of hallucinated trajectories involve multiple types at once, and that automated detectors with high binary accuracy still misclassify the subtlest types. Trajectory-aware detection significantly outperforms standard post-hoc verification, making taxonomy-grounded evaluation necessary for safer agentic deployment.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.24219",
+      "pdf_url": "https://arxiv.org/pdf/2605.24219",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.24219",
+      "scraped_at": "2026-05-27T03:57:22.895375"
+    },
+    "scraped_date": "2026-05-27"
+  },
+  {
+    "title": "Squeezing Capacity from Multimodal Large Language Models for Subject-driven Generation",
+    "paper_url": "https://huggingface.co/papers/2605.26111",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Squeezing Capacity from Multimodal Large Language Models for Subject-driven Generation",
+      "abstract": "A comprehensive investigation of how to squeeze capacity from multimodal large language models for subject-driven generation, which requires both text instruction understanding and identity preservation for the subjects.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.26111",
+      "pdf_url": "https://arxiv.org/pdf/2605.26111",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.26111",
+      "scraped_at": "2026-05-27T03:57:24.747369"
+    },
+    "scraped_date": "2026-05-27"
+  },
+  {
+    "title": "MobileMoE: Scaling On-Device Mixture of Experts",
+    "paper_url": "https://huggingface.co/papers/2605.27358",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MobileMoE: Scaling On-Device Mixture of Experts",
+      "abstract": "Seems really interesting and promising on mobile devices.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.27358",
+      "pdf_url": "https://arxiv.org/pdf/2605.27358",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.27358",
+      "scraped_at": "2026-05-27T03:57:26.663632"
+    },
+    "scraped_date": "2026-05-27"
+  },
+  {
+    "title": "Negligible in Size, Significant in Effect: On Scale Vectors in Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2605.26895",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Negligible in Size, Significant in Effect: On Scale Vectors in Large Language Models",
+      "abstract": "This work provides a systematic study of scale vectors in LLMs, proposing a unified strategy of lightweight architectural improvements that enhances optimization and training efficiency across diverse model scales.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.26895",
+      "pdf_url": "https://arxiv.org/pdf/2605.26895",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.26895",
+      "scraped_at": "2026-05-27T03:57:28.581851"
+    },
+    "scraped_date": "2026-05-27"
+  },
+  {
+    "title": "MRT: Masked Region Transformer for Layered Image Generation and Editing at Scale",
+    "paper_url": "https://huggingface.co/papers/2605.27235",
+    "authors": [
+      "Yifan Pu",
+      "Mohan Zhou",
+      "Jingye Chen",
+      "Zhao Zhang",
+      "Zhicong Tang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "MRT: Masked Region Transformer for Layered Image Generation and Editing at Scale",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.27235",
+      "pdf_url": "https://arxiv.org/pdf/2605.27235",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.27235",
+      "scraped_at": "2026-05-27T03:57:30.392790"
+    },
+    "scraped_date": "2026-05-27"
+  },
+  {
+    "title": "RT-Lynx: Putting the GEMM Sparsity In a Right Way for Diffusion Models",
+    "paper_url": "https://huggingface.co/papers/2605.26632",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "RT-Lynx: Putting the GEMM Sparsity In a Right Way for Diffusion Models",
+      "abstract": "👋 Hi everyone!  We’re excited to share our ICML 2026 work RT-Lynx: Putting GEMM Sparsity in the Right Place for Diffusion Models . Semi-structured sparsity has the potential to nearly halve GEMM FLOPs, but applying it to diffusion models remains challenging: conventional weight sparsification often removes critical generative capacity and causes visible quality degradation. We revisit this problem and find that, unlike weights, DiT activations are intrinsically sparse and significantly more robust to 2:4 semi-structured sparsity. This suggests that activation sparsity is a better target than weight sparsity for accelerating Diffusion Transformers.Based on this observation, we propose RT-Lynx, which shifts the sparsification target from weights to activations. It combines online activation sparsification with norm-based compensation and a lightweight LoRA branch to recover fine-grained visual details.To make this practically efficient, we further design optimized CUDA kernels that fuse sparsification, compression, and sparse Tensor Core computation into a unified inference pipeline. Across Qwen-Image, FLUX.1-dev, and Z-Image, RT-Lynx preserves generation quality while achieving around 1.2× end-to-end speedup and up to 1.55× average linear-layer acceleration. We hope this work highlights activation sparsity as a more suitable and hardware-friendly direction for accelerating modern Diffusion Transformers. Feedback is very welcome!",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.26632",
+      "pdf_url": "https://arxiv.org/pdf/2605.26632",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.26632",
+      "scraped_at": "2026-05-27T03:57:32.249284"
+    },
+    "scraped_date": "2026-05-27"
   }
 ]
