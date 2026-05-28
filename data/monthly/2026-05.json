@@ -13156,5 +13156,414 @@
       "scraped_at": "2026-05-27T03:57:32.249284"
     },
     "scraped_date": "2026-05-27"
+  },
+  {
+    "title": "Gamma-World: Generative Multi-Agent World Modeling Beyond Two Players",
+    "paper_url": "https://huggingface.co/papers/2605.28816",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Gamma-World: Generative Multi-Agent World Modeling Beyond Two Players",
+      "abstract": "Gamma-World is a generative multi-agent world model that uses Simplex Rotary Agent Encoding and Sparse Hub Attention for efficient, scalable, and action-conditioned interactive simulations.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.28816",
+      "pdf_url": "https://arxiv.org/pdf/2605.28816",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.28816",
+      "scraped_at": "2026-05-28T03:43:14.225267"
+    },
+    "scraped_date": "2026-05-28"
+  },
+  {
+    "title": "From Pixels to Words -- Towards Native One-Vision Models at Scale",
+    "paper_url": "https://huggingface.co/papers/2605.28820",
+    "authors": [
+      "Yuwei Niu",
+      "Yuhao Dong",
+      "Penghao Wu",
+      "Jiahao Wang",
+      "Haiwen Diao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "From Pixels to Words -- Towards Native One-Vision Models at Scale",
+      "abstract": "NEO-ov is a native encoder-free vision-language foundation model designed for single-image, multi-image, video understanding, and spatial intelligence. Unlike modular VLMs that connect separate image encoders and language decoders through multi-stage alignment, NEO-ov removes external encoders, adapters, and post-hoc fusion, allowing pixel-level, cross-frame, and pixel-word correspondence to be learned end-to-end. It achieves competitive performance with modular VLMs while showing strong fine-grained visual perception, demonstrating the scalability and promise of native “one-vision” multimodal architectures.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.28820",
+      "pdf_url": "https://arxiv.org/pdf/2605.28820",
+      "github_links": [
+        "https://github.com/EvolvingLMMs-Lab/NEO",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.28820",
+      "scraped_at": "2026-05-28T03:43:16.076125"
+    },
+    "scraped_date": "2026-05-28"
+  },
+  {
+    "title": "Agent Explorative Policy Optimization for Multimodal Agentic Reasoning",
+    "paper_url": "https://huggingface.co/papers/2605.28774",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Agent Explorative Policy Optimization for Multimodal Agentic Reasoning",
+      "abstract": "AXPO (Agent Explorative Policy Optimization) addresses the thinking-acting gap in multimodal agentic reasoning by resampling tool calls in failed rollouts to improve training signal and model performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.28774",
+      "pdf_url": "https://arxiv.org/pdf/2605.28774",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.28774",
+      "scraped_at": "2026-05-28T03:43:17.892952"
+    },
+    "scraped_date": "2026-05-28"
+  },
+  {
+    "title": "ResearchMath-14K: Scaling Research-Level Mathematics via Agents",
+    "paper_url": "https://huggingface.co/papers/2605.28003",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ResearchMath-14K: Scaling Research-Level Mathematics via Agents",
+      "abstract": "We release a collection of 14k research-level (mostly open) math . Link to Dataset: https://huggingface.co/datasets/amphora/ResearchMath-14k",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.28003",
+      "pdf_url": "https://arxiv.org/pdf/2605.28003",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.28003",
+      "scraped_at": "2026-05-28T03:43:19.724086"
+    },
+    "scraped_date": "2026-05-28"
+  },
+  {
+    "title": "Self-Improving Language Models with Bidirectional Evolutionary Search",
+    "paper_url": "https://huggingface.co/papers/2605.28814",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Self-Improving Language Models with Bidirectional Evolutionary Search",
+      "abstract": "We propose Bidirectional Evolutionary Search (BES), a search framework that couples forward candidate evolution with backward goal decomposition.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.28814",
+      "pdf_url": "https://arxiv.org/pdf/2605.28814",
+      "github_links": [
+        "https://github.com/Embodied-Minds-Lab/BES",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.28814",
+      "scraped_at": "2026-05-28T03:43:21.574480"
+    },
+    "scraped_date": "2026-05-28"
+  },
+  {
+    "title": "OSP-Next: Efficient High-Quality Video Generation with Sparse Sequence Parallelism, HiF8 Quantization, and Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2605.28691",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "OSP-Next: Efficient High-Quality Video Generation with Sparse Sequence Parallelism, HiF8 Quantization, and Reinforcement Learning",
+      "abstract": "Quick Overview:",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.28691",
+      "pdf_url": "https://arxiv.org/pdf/2605.28691",
+      "github_links": [
+        "https://github.com/PKU-YuanGroup/OSP-Next",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.28691",
+      "scraped_at": "2026-05-28T03:43:23.480533"
+    },
+    "scraped_date": "2026-05-28"
+  },
+  {
+    "title": "HRBench: Benchmarking and Understanding Thinking-Mode Switch Strategies in Hybrid-Reasoning LLMs",
+    "paper_url": "https://huggingface.co/papers/2605.28398",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "HRBench: Benchmarking and Understanding Thinking-Mode Switch Strategies in Hybrid-Reasoning LLMs",
+      "abstract": "This paper introduces HRBench, a unified evaluation framework for studying thinking-mode switching in hybrid reasoning LLMs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.28398",
+      "pdf_url": "https://arxiv.org/pdf/2605.28398",
+      "github_links": [
+        "https://github.com/usail-hkust/HRBench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.28398",
+      "scraped_at": "2026-05-28T03:43:25.372936"
+    },
+    "scraped_date": "2026-05-28"
+  },
+  {
+    "title": "Joint Training of Multi-Token Prediction in Reinforcement Learning via Optimal Coefficient Calibration",
+    "paper_url": "https://huggingface.co/papers/2605.28184",
+    "authors": [
+      "Shiming Xiang",
+      "Xiaohan Wang",
+      "Lin Chen",
+      "Jiajun Chai",
+      "Zili Wang"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Joint Training of Multi-Token Prediction in Reinforcement Learning via Optimal Coefficient Calibration",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.28184",
+      "pdf_url": "https://arxiv.org/pdf/2605.28184",
+      "github_links": [
+        "https://github.com/MarkXCloud/RL-MTP",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.28184",
+      "scraped_at": "2026-05-28T03:43:27.216293"
+    },
+    "scraped_date": "2026-05-28"
+  },
+  {
+    "title": "Learn from Weaknesses: Automated Domain Specialization for Small Computer-Use Agents",
+    "paper_url": "https://huggingface.co/papers/2605.28775",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Learn from Weaknesses: Automated Domain Specialization for Small Computer-Use Agents",
+      "abstract": "We introduce LearnWeak, an automated training framework for domain specialization of small computer-use agents (CUAs) that requires no human trajectory annotation, constructs synthetic training datasets focused on the student’s weaknesses, and trains the student using DPO with adaptive loss selection based on error types. On OSWorld, LearnWeak achieves average gains of 11.6 and 11.1 percentage points over EvoCUA-8B and OpenCUA-7B, respectively, across eight domains.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.28775",
+      "pdf_url": "https://arxiv.org/pdf/2605.28775",
+      "github_links": [
+        "https://github.com/sujiikim/LearnWeak",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.28775",
+      "scraped_at": "2026-05-28T03:43:29.034801"
+    },
+    "scraped_date": "2026-05-28"
+  },
+  {
+    "title": "VibeSearchBench: Benchmarking Long-horizon Proactive Search in the Wild",
+    "paper_url": "https://huggingface.co/papers/2605.27882",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "VibeSearchBench: Benchmarking Long-horizon Proactive Search in the Wild",
+      "abstract": "🚀 Introducing VibeSearchBench — a new benchmark that exposes a striking gap between how LLM agents are evaluated and how real users actually search. 💡 The problem. Today's search benchmarks (BrowseComp, WideSearch, DeepSearchQA…) all assume over-specified queries, single-turn interaction, and fixed-schema outputs . But in the wild, users don't know what they want upfront — they vibe-search: vague initial query → partial results → emerging preferences → iterative refinement. We call this the evaluation–experience gap . 🧪 What we built. 200 manually curated bilingual (EN/ZH) tasks across 20 domains, split into VibeSearch-Pro (professional) and VibeSearch-Daily (everyday life). Each task pairs a user persona with K progressive-disclosure stages and a schema-free ground-truth knowledge graph (avg. 212 nodes / 298 triples). We contribute two novel pieces: (1) a progressive-disclosure user simulator that unlocks needs only when trigger conditions are met, and (2) an LLM-as-judge graph-matching evaluator with 98.5%+ human agreement. 📊 Findings. Across 7 frontier models (Claude Opus 4.6, GPT-5.4, Gemini-3.1 Pro, Kimi K2.6, DeepSeek-V4-Pro…) under ReAct & OpenClaw: Best F1 = 30.30 — every model below 33 More tool calls ≠ better results (GPT-5.4 burns the most, scores lowest) Zero trajectories reach the user's [DONE] signal Sub-agents, local memory, life-long memory all yield no significant gain 🎯 Takeaway. VibeSearch demands fundamental model-level advances in long-context reasoning, proactive intent elicitation, and structured knowledge construction — not just more scaffolding. The road to truly helpful search agents is much longer than the leaderboards suggest. 🔗 vibebench.github.io/VibeSearchBench",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.27882",
+      "pdf_url": "https://arxiv.org/pdf/2605.27882",
+      "github_links": [
+        "https://github.com/VibeBench/VibeSearchBench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.27882",
+      "scraped_at": "2026-05-28T03:43:30.893726"
+    },
+    "scraped_date": "2026-05-28"
+  },
+  {
+    "title": "LiveBrowseComp: Are Search Agents Searching, or Just Verifying What They Already Know?",
+    "paper_url": "https://huggingface.co/papers/2605.28721",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LiveBrowseComp: Are Search Agents Searching, or Just Verifying What They Already Know?",
+      "abstract": "Closed-book performance on BrowseComp vs. LiveBrowseComp",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.28721",
+      "pdf_url": "https://arxiv.org/pdf/2605.28721",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.28721",
+      "scraped_at": "2026-05-28T03:43:32.735908"
+    },
+    "scraped_date": "2026-05-28"
+  },
+  {
+    "title": "Chartographer: Counterfactual Chart Generation for Evaluating Vision-Language Models",
+    "paper_url": "https://huggingface.co/papers/2605.27311",
+    "authors": [
+      "Freda Shi",
+      "Jesse C. Cresswell",
+      "Dae Yon Hwang",
+      "Yifan Jiang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Chartographer: Counterfactual Chart Generation for Evaluating Vision-Language Models",
+      "abstract": "interesting read",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.27311",
+      "pdf_url": "https://arxiv.org/pdf/2605.27311",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.27311",
+      "scraped_at": "2026-05-28T03:43:34.564243"
+    },
+    "scraped_date": "2026-05-28"
+  },
+  {
+    "title": "OmniVerifier-M1: Multimodal Meta-Verifier with Explicit Structured Recalibration",
+    "paper_url": "https://huggingface.co/papers/2605.28805",
+    "authors": [
+      "Yizhen Zhang",
+      "Chufan Shi",
+      "Jiale Liu",
+      "Bowei Liu",
+      "Xinchen Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "OmniVerifier-M1: Multimodal Meta-Verifier with Explicit Structured Recalibration",
+      "abstract": "Code: https://github.com/Cominclip/OmniVerifier",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.28805",
+      "pdf_url": "https://arxiv.org/pdf/2605.28805",
+      "github_links": [
+        "https://github.com/Cominclip/OmniVerifier",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.28805",
+      "scraped_at": "2026-05-28T03:43:36.360772"
+    },
+    "scraped_date": "2026-05-28"
+  },
+  {
+    "title": "CubePart: An Open-Vocabulary Part-Controllable 3D Generator",
+    "paper_url": "https://huggingface.co/papers/2605.28763",
+    "authors": [
+      "Daiqing Li",
+      "Inaki Navarro",
+      "Jean-Philippe Fauconnier",
+      "Kangle Deng",
+      "Yiheng Zhu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "CubePart: An Open-Vocabulary Part-Controllable 3D Generator",
+      "abstract": "Github: https://github.com/Roblox/cube/tree/main/cubepart",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.28763",
+      "pdf_url": "https://arxiv.org/pdf/2605.28763",
+      "github_links": [
+        "https://github.com/Roblox/cube/tree/main/cubepart",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.28763",
+      "scraped_at": "2026-05-28T03:43:38.211918"
+    },
+    "scraped_date": "2026-05-28"
+  },
+  {
+    "title": "Less is More: Early Stopping Rollout for On-Policy Distillation",
+    "paper_url": "https://huggingface.co/papers/2605.27028",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Less is More: Early Stopping Rollout for On-Policy Distillation",
+      "abstract": "Early stopping method for OPD! The paper diagnoses the \"Off-policy Teacher Decay\" problem for On-policy Distillation(OPD) - the later position in the trajectory is actually harmful! This is because the trajectory from the student is off-policy to the teacher, and when it gets longer, the teacher model goes off its original reasoning patterns and falls back to pre-training behavior - token completion. This causes the teacher signal quality to decay and the learning to be unstable and even collapsing during training. The fix is very simple - stop the rollout early (Early Stopping Rollout, ESR). By rolling out just the first N tokens (as few as 50 to 100), the performance consistently outperforms full rollout across tasks, model families, sizes and training regimes (FFT or LoRA), and can be 24x faster. Moreover, it can exceed the teacher performance sometimes! Why does it work so well? Aside from relieving the \"Off-policy Teacher Decay\" problem, the paper also discovered 1. the \"Cascading Alignment\" effect that late-position tokens can get \"trained\" (KL divergence reduced) automatically when only training on the early tokens; 2. the \"Sub-mode Commitment\" effect that shows ESR may commit to a non-dominant mode of teacher that is actually better, which enables it to even exceed the teacher.  Beside, the paper also ablates that this position-based token selection strategy is different from KL or entropy based ones, and can are better than using them alone.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.27028",
+      "pdf_url": "https://arxiv.org/pdf/2605.27028",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.27028",
+      "scraped_at": "2026-05-28T03:43:40.010842"
+    },
+    "scraped_date": "2026-05-28"
+  },
+  {
+    "title": "AI Research Agents Narrow Scientific Exploration",
+    "paper_url": "https://huggingface.co/papers/2605.27905",
+    "authors": [
+      "Yi Yang",
+      "Yixuan Tang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AI Research Agents Narrow Scientific Exploration",
+      "abstract": "⚠️ AI research agents promise to accelerate science, but this study finds they actually narrow it. What do you think it would take for AI agents to genuinely broaden scientific exploration? 🤗",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.27905",
+      "pdf_url": "https://arxiv.org/pdf/2605.27905",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.27905",
+      "scraped_at": "2026-05-28T03:43:41.874488"
+    },
+    "scraped_date": "2026-05-28"
+  },
+  {
+    "title": "AutoScientists: Self-Organizing Agent Teams for Long-Running Scientific Experimentation",
+    "paper_url": "https://huggingface.co/papers/2605.28655",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AutoScientists: Self-Organizing Agent Teams for Long-Running Scientific Experimentation",
+      "abstract": "AutoScientists is a decentralized team of AI agents that self-organizes to perform long-running scientific experimentation, improving exploration efficiency across biomedical and machine learning optimization tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.28655",
+      "pdf_url": "https://arxiv.org/pdf/2605.28655",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.28655",
+      "scraped_at": "2026-05-28T03:43:43.739790"
+    },
+    "scraped_date": "2026-05-28"
+  },
+  {
+    "title": "Verus-SpecGym: An Agentic Environment for Evaluating Specification Autoformalization",
+    "paper_url": "https://huggingface.co/papers/2605.26457",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Verus-SpecGym: An Agentic Environment for Evaluating Specification Autoformalization",
+      "abstract": "We release VERUS-SpecBench and VERUS-SpecGym, a benchmark and agentic environment for evaluating whether language models can translate informal programming intent into faithful Verus specifications. The core contribution is an executable-specification evaluator that tests generated specs against official Codeforces tests and human-written adversarial hacks, giving a deterministic faithfulness signal without expert-written reference specs or LLM judges. Frontier models reach 50–78% pass@1 and open-source models 21–26%, and even when a model can solve a problem it often fails to specify it faithfully, suggesting specification is a distinct bottleneck for verified code generation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.26457",
+      "pdf_url": "https://arxiv.org/pdf/2605.26457",
+      "github_links": [
+        "https://github.com/formal-verif-is-cool/verus-spec-gym",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.26457",
+      "scraped_at": "2026-05-28T03:43:45.642657"
+    },
+    "scraped_date": "2026-05-28"
+  },
+  {
+    "title": "PEAM: Parametric Embodied Agent Memory through Contrastive Internalization of Experience in Minecraft",
+    "paper_url": "https://huggingface.co/papers/2605.27762",
+    "authors": [
+      "Weifeng Su",
+      "Yiu-ming Cheung",
+      "Hongmin Cai",
+      "Junli Gong",
+      "Yuchen Guo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "PEAM: Parametric Embodied Agent Memory through Contrastive Internalization of Experience in Minecraft",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.27762",
+      "pdf_url": "https://arxiv.org/pdf/2605.27762",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.27762",
+      "scraped_at": "2026-05-28T03:43:47.389951"
+    },
+    "scraped_date": "2026-05-28"
   }
 ]
