@@ -13565,5 +13565,535 @@
       "scraped_at": "2026-05-28T03:43:47.389951"
     },
     "scraped_date": "2026-05-28"
+  },
+  {
+    "title": "OmniRetrieval: Unified Retrieval across Heterogeneous Knowledge Sources",
+    "paper_url": "https://huggingface.co/papers/2605.29250",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "OmniRetrieval: Unified Retrieval across Heterogeneous Knowledge Sources",
+      "abstract": "Real-world answers live in text, tables, and graphs. And, OmniRetrieval reaches them all through one natural-language interface, meeting each source on its own terms.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.29250",
+      "pdf_url": "https://arxiv.org/pdf/2605.29250",
+      "github_links": [
+        "https://github.com/JinheonBaek/OmniRetrieval",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.29250",
+      "scraped_at": "2026-05-29T03:43:13.513480"
+    },
+    "scraped_date": "2026-05-29"
+  },
+  {
+    "title": "AgentDoG 1.5: A Lightweight and Scalable Alignment Framework for AI Agent Safety and Security",
+    "paper_url": "https://huggingface.co/papers/2605.29801",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AgentDoG 1.5: A Lightweight and Scalable Alignment Framework for AI Agent Safety and Security",
+      "abstract": "A Lightweight and Scalable Alignment Framework for AI Agent Safety and Security",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.29801",
+      "pdf_url": "https://arxiv.org/pdf/2605.29801",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.29801",
+      "scraped_at": "2026-05-29T03:43:15.354580"
+    },
+    "scraped_date": "2026-05-29"
+  },
+  {
+    "title": "How LoRA Remembers? A Parametric Memory Law for LLM Finetuning",
+    "paper_url": "https://huggingface.co/papers/2605.30260",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "How LoRA Remembers? A Parametric Memory Law for LLM Finetuning",
+      "abstract": "We uncover a quantitative law of parametric memory in LLMs, showing that exact recall emerges through a sharp probability threshold and can be significantly improved with threshold-guided fine-tuning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.30260",
+      "pdf_url": "https://arxiv.org/pdf/2605.30260",
+      "github_links": [
+        "https://github.com/zjunlp/ParametricMemoryLaw",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.30260",
+      "scraped_at": "2026-05-29T03:43:17.150980"
+    },
+    "scraped_date": "2026-05-29"
+  },
+  {
+    "title": "Native Audio-Visual Alignment for Generation",
+    "paper_url": "https://huggingface.co/papers/2605.30073",
+    "authors": [],
+    "stars": "23",
+    "details": {
+      "title": "Native Audio-Visual Alignment for Generation",
+      "abstract": "NAVA is a 6.3B-parameter Native Audio-Visual Alignment framework for joint audio-video generation. To overcome the limitations of existing dual-tower and unified paradigms, NAVA employs an Align-then-Fuse MMDiT architecture that first establishes fine-grained audio-video correspondence before applying textual context. Furthermore, it introduces Timbre-in-Context Conditioning for highly controllable speech generation. Experiments show NAVA achieves superior A-V synchronization, robust video quality, and enhanced reference-timbre controllability on Verse-Bench and Seed-TTS.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.30073",
+      "pdf_url": "https://arxiv.org/pdf/2605.30073",
+      "github_links": [
+        "https://github.com/ernie-research/NAVA",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.30073",
+      "scraped_at": "2026-05-29T03:43:19.020193"
+    },
+    "scraped_date": "2026-05-29"
+  },
+  {
+    "title": "When Should Models Change Their Minds? Contextual Belief Management in Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2605.30219",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "When Should Models Change Their Minds? Contextual Belief Management in Large Language Models",
+      "abstract": "We show that long-horizon reasoning in LLMs fundamentally depends on contextual belief management — knowing when to update, preserve, or ignore information — and that explicit belief-state optimization dramatically improves this ability.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.30219",
+      "pdf_url": "https://arxiv.org/pdf/2605.30219",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.30219",
+      "scraped_at": "2026-05-29T03:43:20.872688"
+    },
+    "scraped_date": "2026-05-29"
+  },
+  {
+    "title": "LaRA: Layer-wise Representation Analysis for Detecting Data Contamination in RL Post-Training",
+    "paper_url": "https://huggingface.co/papers/2605.29888",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LaRA: Layer-wise Representation Analysis for Detecting Data Contamination in RL Post-Training",
+      "abstract": "This paper introduces LaRA (Layer-wise Representation Analysis), a framework for detecting data contamination in RL post-trained LLMs by examining how internal representations change across layers rather than relying on output-level signals such as likelihood or entropy.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.29888",
+      "pdf_url": "https://arxiv.org/pdf/2605.29888",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.29888",
+      "scraped_at": "2026-05-29T03:43:22.684938"
+    },
+    "scraped_date": "2026-05-29"
+  },
+  {
+    "title": "GenClaw: Code-Driven Agentic Image Generation",
+    "paper_url": "https://huggingface.co/papers/2605.30248",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GenClaw: Code-Driven Agentic Image Generation",
+      "abstract": "Image generation models have evolved from text-conditioned pixel synthesis toward multimodal agents endowed with visual comprehension and tool invocation capabilities. Yet, existing agents remain at the mercy of underlying black-box image models. Their workflow is trapped in a repetitive cycle of prompt rewriting for generation refinement, leaving them with no mechanism to directly manipulate the canvas. In essence, the potential of LLMs to serve as a genuine \"brush\" for precise visual construction remains largely untapped. In this paper, we propose GenClaw, a code-driven agentic image generation paradigm that empowers the agent to create like a human artist: first conceptualizing, then sketching, and finally coloring. Specifically, the agent first constructs the conceptual knowledge and context through search and reasoning. It then utilizes code (e.g., SVG, HTML, Three.JS) to render executable visual sketches. Finally, it employs an image generation model to supplement textures, materials, and photorealism. In this workflow, code serves as a controllable intermediate canvas bridging linguistic reasoning and pixel synthesis, seamlessly integrating programmatic logic with the visual expressiveness of generative models. By transforming image generation from a black-box paradigm into a staged process akin to authentic human creation, GenClaw offers a step toward for highly controllable and interpretable visual generation systems.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.30248",
+      "pdf_url": "https://arxiv.org/pdf/2605.30248",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.30248",
+      "scraped_at": "2026-05-29T03:43:24.498968"
+    },
+    "scraped_date": "2026-05-29"
+  },
+  {
+    "title": "UI-KOBE: Knowledge-Oriented Behavior Exploration for Lightweight Graph-Guided GUI Agents",
+    "paper_url": "https://huggingface.co/papers/2605.29534",
+    "authors": [
+      "Rui Liu",
+      "Jinpeng Chen",
+      "Xinyu Fu",
+      "Han Xiao",
+      "Yuxiang Chai"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "UI-KOBE: Knowledge-Oriented Behavior Exploration for Lightweight Graph-Guided GUI Agents",
+      "abstract": "Code at: https://github.com/YuxiangChai/UI-KOBE",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.29534",
+      "pdf_url": "https://arxiv.org/pdf/2605.29534",
+      "github_links": [
+        "https://github.com/YuxiangChai/UI-KOBE",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.29534",
+      "scraped_at": "2026-05-29T03:43:26.276332"
+    },
+    "scraped_date": "2026-05-29"
+  },
+  {
+    "title": "AsyncTool: Evaluating the Asynchronous Function Calling Capability under Multi-Task Scenarios",
+    "paper_url": "https://huggingface.co/papers/2605.27995",
+    "authors": [
+      "Zhen Fang",
+      "Avery Nie",
+      "Shiting Huang",
+      "Ziao Zhang",
+      "KouShi2"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "AsyncTool: Evaluating the Asynchronous Function Calling Capability under Multi-Task Scenarios",
+      "abstract": "Large language model (LLM)-based agents have shown strong capabilities in using external tools to solve complex tasks. However, existing evaluations often overlook the temporal dimension of tool use, especially the impact of tool response latency, and are usually limited to single-task settings. In real-world applications, multiple tasks often need to be executed concurrently, and overall efficiency depends on whether an agent can use idle time while waiting for tool responses. We refer to this capability as asynchronous tool calling. To evaluate it, we propose AsyncTool, a benchmark for assessing LLM-based agents in interactive multi-task tool-use environments with delayed tool feedback. AsyncTool presents multiple heterogeneous tasks simultaneously and simulates realistic tool response latency during execution. Using a hybrid data evolution strategy, we construct a diverse asynchronous multitasking dataset that covers multiple scenarios and tool-use patterns. We evaluate models at the step, sub-task, and task levels, and introduce efficiency-oriented metrics to measure task coordination and completion efficiency. Extensive experiments show that delayed tool feedback poses substantial challenges to current agents and leads to clear performance degradation. Models that better coordinate task switching, dependency tracking, and state maintenance achieve stronger performance on AsyncTool. Our analysis identifies key failure modes of current tool-using agents and provides practical insights for designing future systems with stronger temporal reasoning and coordination capabilities.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.27995",
+      "pdf_url": "https://arxiv.org/pdf/2605.27995",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/StoKou/repo-asynctool"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.27995",
+      "scraped_at": "2026-05-29T03:43:28.090738"
+    },
+    "scraped_date": "2026-05-29"
+  },
+  {
+    "title": "LiteCoder-Terminal: Scaling Long-Horizon Terminal Environments for Learning Language Agents",
+    "paper_url": "https://huggingface.co/papers/2605.29559",
+    "authors": [
+      "Yaojie Lu",
+      "Boxi Cao",
+      "Xinyu Lu",
+      "Kaiqi Zhang",
+      "Xiaoxuan Peng"
+    ],
+    "stars": "14",
+    "details": {
+      "title": "LiteCoder-Terminal: Scaling Long-Horizon Terminal Environments for Learning Language Agents",
+      "abstract": "Add paper.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.29559",
+      "pdf_url": "https://arxiv.org/pdf/2605.29559",
+      "github_links": [
+        "https://github.com/icip-cas/LiteCoder",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.29559",
+      "scraped_at": "2026-05-29T03:43:30.055368"
+    },
+    "scraped_date": "2026-05-29"
+  },
+  {
+    "title": "Learning A Unified Risk Map for Autonomous Driving in Partially Observable Environments",
+    "paper_url": "https://huggingface.co/papers/2605.22189",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Learning A Unified Risk Map for Autonomous Driving in Partially Observable Environments",
+      "abstract": "Learning A Unified Risk Map for Autonomous Driving in Partially Observable Environments  (IEEE RA-L) — How should a self-driving car reason about danger it can't see? This work (IEEE RA-L) introduces a unified spatiotemporal risk map that fuses traffic-flow risk and collision risk into a single field for occlusion-aware planning. Its standout idea: generate rich risk labels offline by combining an expressive guided-diffusion model with rule-based logic, then distill them into a lightweight transformer that predicts the field in real time from vectorized maps and the ego's field-of-view — the richness of a generative model at feed-forward speed. To beat the scarcity of safety-critical occluded data, a guidance-based diffusion generator synthesizes adversarial-yet-realistic interactions. On the Waymo Open Motion Dataset, it delivers consistent safety gains (e.g., TTC) over SOTA occlusion-aware baselines — a practical \"use a heavy model to teach a fast one\" template for safety-critical robotics.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.22189",
+      "pdf_url": "https://arxiv.org/pdf/2605.22189",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.22189",
+      "scraped_at": "2026-05-29T03:43:31.845820"
+    },
+    "scraped_date": "2026-05-29"
+  },
+  {
+    "title": "LoMo: Local Modality Substitution for Deeper Vision-Language Fusion",
+    "paper_url": "https://huggingface.co/papers/2605.30265",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "LoMo: Local Modality Substitution for Deeper Vision-Language Fusion",
+      "abstract": "LoMo is a lightweight, architecture-agnostic data curation paradigm that mitigates the cross-carrier modality gap in VLMs by recasting selected text spans into rendered images, turning standard SFT into an implicit cross-modal alignment objective without architectural changes or inference overhead. Project Page: https://maplebb.github.io/LoMo/page/ GitHub: https://github.com/Maplebb/LoMo",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.30265",
+      "pdf_url": "https://arxiv.org/pdf/2605.30265",
+      "github_links": [
+        "https://github.com/Maplebb/LoMo",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.30265",
+      "scraped_at": "2026-05-29T03:43:33.935003"
+    },
+    "scraped_date": "2026-05-29"
+  },
+  {
+    "title": "minWM: A Full-Stack Open-Source Framework for Real-Time Interactive Video World Models",
+    "paper_url": "https://huggingface.co/papers/2605.30263",
+    "authors": [
+      "Yimin Chen",
+      "Zihan Zhou",
+      "Bokai Yan",
+      "Hongzhou Zhu",
+      "Min Zhao"
+    ],
+    "stars": "185",
+    "details": {
+      "title": "minWM: A Full-Stack Open-Source Framework for Real-Time Interactive Video World Models",
+      "abstract": "Github: https://github.com/shengshu-ai/minWM",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.30263",
+      "pdf_url": "https://arxiv.org/pdf/2605.30263",
+      "github_links": [
+        "https://github.com/shengshu-ai/minWM",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.30263",
+      "scraped_at": "2026-05-29T03:43:35.755209"
+    },
+    "scraped_date": "2026-05-29"
+  },
+  {
+    "title": "Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments",
+    "paper_url": "https://huggingface.co/papers/2605.30280",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments",
+      "abstract": "Qwen-VLA is a unified embodied foundation model that extends Qwen's vision-language stack to support continuous action and trajectory generation across diverse robot platforms, tasks, and environments.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.30280",
+      "pdf_url": "https://arxiv.org/pdf/2605.30280",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.30280",
+      "scraped_at": "2026-05-29T03:43:37.558785"
+    },
+    "scraped_date": "2026-05-29"
+  },
+  {
+    "title": "SmartDirector: Keyframe-Conditioned Cinematic Video Generation with Narrative Pacing Control",
+    "paper_url": "https://huggingface.co/papers/2605.27891",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "SmartDirector: Keyframe-Conditioned Cinematic Video Generation with Narrative Pacing Control",
+      "abstract": "SmartDirector introduces a two-stage framework that empowers cinematic video generation with precise narrative pacing and high-fidelity detail recovery by leveraging a novel Multi-Chunk VAE strategy to circumvent temporal causal constraints.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.27891",
+      "pdf_url": "https://arxiv.org/pdf/2605.27891",
+      "github_links": [
+        "https://github.com/Orange-3DV-Team/SmartDirector",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.27891",
+      "scraped_at": "2026-05-29T03:43:39.372755"
+    },
+    "scraped_date": "2026-05-29"
+  },
+  {
+    "title": "NeuROK: Generative 4D Neural Object Kinematics",
+    "paper_url": "https://huggingface.co/papers/2605.30347",
+    "authors": [
+      "Shangzhe Wu",
+      "Yunzhi Zhang",
+      "Yue Gao",
+      "Guangzhao He",
+      "Chen Geng"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "NeuROK: Generative 4D Neural Object Kinematics",
+      "abstract": "NeuROK provides a data-driven kinematic state parameterization for object-centric systems, enabling the efficient generation of simulative 4D object dynamics without explicit physical models or prior inductive bias.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.30347",
+      "pdf_url": "https://arxiv.org/pdf/2605.30347",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.30347",
+      "scraped_at": "2026-05-29T03:43:41.215945"
+    },
+    "scraped_date": "2026-05-29"
+  },
+  {
+    "title": "Beyond 3D VQAs: Injecting 3D Spatial Priors into Vision-Language Models for Enhanced Geometric Reasoning",
+    "paper_url": "https://huggingface.co/papers/2605.30231",
+    "authors": [
+      "Joseph Tighe",
+      "Yi Ma",
+      "Manchen Wang",
+      "Shengyi Qian",
+      "Chun-Hsiao Yeh"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Beyond 3D VQAs: Injecting 3D Spatial Priors into Vision-Language Models for Enhanced Geometric Reasoning",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2605.30231",
+      "pdf_url": "https://arxiv.org/pdf/2605.30231",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.30231",
+      "scraped_at": "2026-05-29T03:43:43.067593"
+    },
+    "scraped_date": "2026-05-29"
+  },
+  {
+    "title": "AdaState: Self-Evolving Anchors for Streaming Video Generation",
+    "paper_url": "https://huggingface.co/papers/2605.30349",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AdaState: Self-Evolving Anchors for Streaming Video Generation",
+      "abstract": "Streaming video diffusion models have a structural blind spot: they anchor on the first frame. Because that frame sits in the cleanest, most error-free slot of the KV cache, attention collapses onto this reference; suppressing dynamics and locking the scene composition even as the rollout progresses. AdaState replaces this static anchor with a self-evolving one. We reserve a hidden latent slot inside the KV cache that the model denoises alongside each chunk but never renders as a frame. At every step, the model generates its own scene anchor by attending to both the previous state and the current content, so the reference evolves with the video and stays temporally continuous with the chunk being generated.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.30349",
+      "pdf_url": "https://arxiv.org/pdf/2605.30349",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.30349",
+      "scraped_at": "2026-05-29T03:43:45.002726"
+    },
+    "scraped_date": "2026-05-29"
+  },
+  {
+    "title": "Parallax: Parameterized Local Linear Attention for Language Modeling",
+    "paper_url": "https://huggingface.co/papers/2605.29157",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Parallax: Parameterized Local Linear Attention for Language Modeling",
+      "abstract": "LLA paper: https://arxiv.org/abs/2510.01450 LLA kernel was published in the github: https://github.com/Yifei-Zuo/FlashLLA",
+      "arxiv_page_url": "https://arxiv.org/abs/2510.01450",
+      "pdf_url": "https://arxiv.org/pdf/2605.29157",
+      "github_links": [
+        "https://github.com/Yifei-Zuo/Parallax",
+        "https://github.com/Yifei-Zuo/FlashLLA",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.29157",
+      "scraped_at": "2026-05-29T03:43:46.792907"
+    },
+    "scraped_date": "2026-05-29"
+  },
+  {
+    "title": "OmniInteract: Benchmarking Real-World Streaming Interaction for Real-Time Omnimodal Assistants",
+    "paper_url": "https://huggingface.co/papers/2605.26485",
+    "authors": [
+      "Jinpeng Chen",
+      "Yang Bo",
+      "Annan Wang",
+      "Xueying Li",
+      "Xudong Lu"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "OmniInteract: Benchmarking Real-World Streaming Interaction for Real-Time Omnimodal Assistants",
+      "abstract": "OmniInteract is a streaming benchmark for real-time omnimodal LLMs, evaluated through their native online inference over continuous audio-visual streams. User queries and ambient sounds live in the audio track, visual events live in the video, and models must decide whether, when, and what to respond — all without lookahead to future content.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.26485",
+      "pdf_url": "https://arxiv.org/pdf/2605.26485",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Lucky-Lance/OmniInteract"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.26485",
+      "scraped_at": "2026-05-29T03:43:48.709707"
+    },
+    "scraped_date": "2026-05-29"
+  },
+  {
+    "title": "MoZoo:Unleashing Video Diffusion power in animal fur and muscle simulation",
+    "paper_url": "https://huggingface.co/papers/2605.13857",
+    "authors": [],
+    "stars": "85",
+    "details": {
+      "title": "MoZoo:Unleashing Video Diffusion power in animal fur and muscle simulation",
+      "abstract": "MoZoo is a pioneering generative dynamics solver that revolutionizes cinematic animal production by directly synthesizing high-fidelity fur and muscle simulations from coarse meshes, effectively bypassing the labor-intensive refinement stages of traditional CG pipelines.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.13857",
+      "pdf_url": "https://arxiv.org/pdf/2605.13857",
+      "github_links": [
+        "https://github.com/Orange-3DV-Team/MoZoo",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.13857",
+      "scraped_at": "2026-05-29T03:43:50.620940"
+    },
+    "scraped_date": "2026-05-29"
+  },
+  {
+    "title": "PhoneWorld: Scaling Phone-Use Agent Environments",
+    "paper_url": "https://huggingface.co/papers/2605.29486",
+    "authors": [
+      "Pengyuan Lyu",
+      "Junyi Li",
+      "Xin Lai",
+      "Yuxuan Liu",
+      "Zhengyang Tang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "PhoneWorld: Scaling Phone-Use Agent Environments",
+      "abstract": "check out our new paper for phone-use/mobile agents gym!",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.29486",
+      "pdf_url": "https://arxiv.org/pdf/2605.29486",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.29486",
+      "scraped_at": "2026-05-29T03:43:52.436670"
+    },
+    "scraped_date": "2026-05-29"
+  },
+  {
+    "title": "Why Larger Models Learn More: Effects of Capacity, Interference, and Rare-Task Retention",
+    "paper_url": "https://huggingface.co/papers/2605.29548",
+    "authors": [
+      "Naomi Saphra",
+      "Laura Ruis",
+      "Rachit Bansal",
+      "Daniel Wurgaft",
+      "Jing Huang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Why Larger Models Learn More: Effects of Capacity, Interference, and Rare-Task Retention",
+      "abstract": "This paper provides a data-centric account of why larger models learn tasks smaller models fail, attributing this to reduced gradient interference and more efficient resource allocation for rare tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.29548",
+      "pdf_url": "https://arxiv.org/pdf/2605.29548",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.29548",
+      "scraped_at": "2026-05-29T03:43:54.202606"
+    },
+    "scraped_date": "2026-05-29"
+  },
+  {
+    "title": "WorldMemArena: Evaluating Multimodal Agent Memory Through Action-World Interaction",
+    "paper_url": "https://huggingface.co/papers/2605.29341",
+    "authors": [
+      "Lin Long",
+      "Yepeng Liu",
+      "Sophia Xiao Pu",
+      "Yuzhe Yang",
+      "Chengzhi Liu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "WorldMemArena: Evaluating Multimodal Agent Memory Through Action-World Interaction",
+      "abstract": "WorldMemArena is a new benchmark evaluating the multimodal memory of long-horizon agents using a four-stage Action-World Interaction Loop and multi-session tasks for detailed performance diagnostics.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.29341",
+      "pdf_url": "https://arxiv.org/pdf/2605.29341",
+      "github_links": [
+        "https://github.com/UCSB-AI/WorldMemArena",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.29341",
+      "scraped_at": "2026-05-29T03:43:55.988886"
+    },
+    "scraped_date": "2026-05-29"
   }
 ]
