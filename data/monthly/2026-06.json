@@ -523,5 +523,466 @@
       "scraped_at": "2026-06-01T04:13:19.618041"
     },
     "scraped_date": "2026-06-01"
+  },
+  {
+    "title": "On the Scaling of PEFT: Towards Million Personal Models of Trillion Parameters",
+    "paper_url": "https://huggingface.co/papers/2606.02437",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "On the Scaling of PEFT: Towards Million Personal Models of Trillion Parameters",
+      "abstract": "On the Scaling of PEFT: Towards Million Personal Models of Trillion Parameters",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.02437",
+      "pdf_url": "https://arxiv.org/pdf/2606.02437",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.02437",
+      "scraped_at": "2026-06-02T04:05:28.607956"
+    },
+    "scraped_date": "2026-06-02"
+  },
+  {
+    "title": "VideoMLA: Low-Rank Latent KV Cache for Minute-Scale Autoregressive Video Diffusion",
+    "paper_url": "https://huggingface.co/papers/2605.30351",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "VideoMLA: Low-Rank Latent KV Cache for Minute-Scale Autoregressive Video Diffusion",
+      "abstract": "VideoMLA: Low-Rank Latent KV Cache for Minute-Scale Autoregressive Video Diffusion",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.30351",
+      "pdf_url": "https://arxiv.org/pdf/2605.30351",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yesiltepe-hidir/VideoMLA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.30351",
+      "scraped_at": "2026-06-02T04:05:30.484063"
+    },
+    "scraped_date": "2026-06-02"
+  },
+  {
+    "title": "Crafter: A Multi-Agent Harness for Editable Scientific Figure Generation from Diverse Inputs",
+    "paper_url": "https://huggingface.co/papers/2605.30611",
+    "authors": [
+      "Liang Chen",
+      "Zheng Wang",
+      "Zhenhailong Wang",
+      "Shuzheng Si",
+      "Haozhe Zhao"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Crafter: A Multi-Agent Harness for Editable Scientific Figure Generation from Diverse Inputs",
+      "abstract": "Crafter is a multi-agent system for generating publication-quality scientific figures across diverse types and conditions, with CraftEditor turning raster outputs into editable SVGs and CraftBench for evaluation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.30611",
+      "pdf_url": "https://arxiv.org/pdf/2605.30611",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/HaozheZhao/Crafter"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.30611",
+      "scraped_at": "2026-06-02T04:05:32.404857"
+    },
+    "scraped_date": "2026-06-02"
+  },
+  {
+    "title": "K-BrowseComp: A Web Browsing Agent Benchmark Grounded in Korean Contexts",
+    "paper_url": "https://huggingface.co/papers/2606.02404",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "K-BrowseComp: A Web Browsing Agent Benchmark Grounded in Korean Contexts",
+      "abstract": "Frontier model evaluations are shifting from foundational capabilities (e.g., instruction following and reasoning) toward compositional, agentic ones, but Korean agentic benchmarks remain scarce. We introduce K-BrowseComp, a web-browsing agent benchmark grounded in Korean contexts, consisting of 400 problems. The 300-problem K-BrowseComp-Verified subset is manually constructed and validated by native Korean speakers. On this subset, frontier LLMs, including GPT-5.5, DeepSeek-V4-Pro, and GLM-5.1, reach only 30.00--45.67%, a substantial drop from BrowseComp, while Korean LLMs released through Korea's Proprietary AI Foundation Model program obtain only 0.00--10.33%. We further construct a 100-problem synthetic split using hard few-shot exemplars and failure-mode-targeted generation to exploit the asymmetry between solving and creating web browsing problems. On the adversarially filtered synthetic diagnostic split, the strongest model reaches only 26.00%, and we report this split separately as a targeted stress test. We publicly release our data and code.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.02404",
+      "pdf_url": "https://arxiv.org/pdf/2606.02404",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/prometheus-eval/K-BrowseComp"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.02404",
+      "scraped_at": "2026-06-02T04:05:34.315413"
+    },
+    "scraped_date": "2026-06-02"
+  },
+  {
+    "title": "X-Stream: Exploring MLLMs as Multiplexers for Multi-Stream Understanding",
+    "paper_url": "https://huggingface.co/papers/2606.02482",
+    "authors": [
+      "Dongming Wu",
+      "Yang Bo",
+      "Huadai Liu",
+      "Xudong Lu",
+      "Peiwen Sun"
+    ],
+    "stars": "17",
+    "details": {
+      "title": "X-Stream: Exploring MLLMs as Multiplexers for Multi-Stream Understanding",
+      "abstract": "Paper: https://arxiv.org/abs/2606.02482 Code: https://github.com/PeiwenSun2000/X-Stream Data: https://huggingface.co/datasets/spw2000/X-stream",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.02482",
+      "pdf_url": "https://arxiv.org/pdf/2606.02482",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/PeiwenSun2000/X-Stream"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.02482",
+      "scraped_at": "2026-06-02T04:05:36.159106"
+    },
+    "scraped_date": "2026-06-02"
+  },
+  {
+    "title": "Which Pretraining Paradigm Better Serves Spatial Intelligence? An Empirical Comparison of Vision-Language and Video Generation Models",
+    "paper_url": "https://huggingface.co/papers/2605.28132",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "Which Pretraining Paradigm Better Serves Spatial Intelligence? An Empirical Comparison of Vision-Language and Video Generation Models",
+      "abstract": "As we push toward Vision-First architectures for robotics, a critical question remains: Which pre-training scheme provides the best substrate for Spatial Intelligence? VLM or VGM? To find out, we built a lightweight, frozen-feature probing framework to evaluate both model families across three axes of physical understanding.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.28132",
+      "pdf_url": "https://arxiv.org/pdf/2605.28132",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/om-ai-lab/Probing-VLM-VGM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.28132",
+      "scraped_at": "2026-06-02T04:05:38.075809"
+    },
+    "scraped_date": "2026-06-02"
+  },
+  {
+    "title": "Draft-OPD: On-Policy Distillation for Speculative Draft Models",
+    "paper_url": "https://huggingface.co/papers/2605.29343",
+    "authors": [
+      "Qianjia Cheng",
+      "Shunkai Zhang",
+      "Haoran Zhang",
+      "Yafy Li",
+      "bingyang-lei"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "Draft-OPD: On-Policy Distillation for Speculative Draft Models",
+      "abstract": "Our model is also aviliable at https://huggingface.co/collections/bingyang-lei/draft-opd",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.29343",
+      "pdf_url": "https://arxiv.org/pdf/2605.29343",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/bingyang-lei/Draft-OPD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.29343",
+      "scraped_at": "2026-06-02T04:05:39.951402"
+    },
+    "scraped_date": "2026-06-02"
+  },
+  {
+    "title": "SkillAdaptor: Self-Adapting Skills for LLM Agents from Trajectories",
+    "paper_url": "https://huggingface.co/papers/2606.01311",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SkillAdaptor: Self-Adapting Skills for LLM Agents from Trajectories",
+      "abstract": "Large language model (LLM) agents increasingly rely on reusable external skills to solve long-horizon interactive tasks. Existing training-free skill adaptation pipelines usually update skills from full trajectories or session-level feedback, which makes failure attribution coarse and often produces unstable or overly broad revisions. We propose SkillAdaptor, a training-free step-level skill adaptation framework with explicit failure attribution, and it can plug into OpenClaw-class agent harnesses. Given a failed trajectory, SkillAdaptor identifies a first actionable fault step, links responsibility to candidate skills, and applies targeted updates under explicit acceptance checks while keeping the backbone frozen. We evaluate on WebShop, PinchBench, and Claw-Eval with Kimi-K2.5, GLM-5, and GPT-5.2. SkillAdaptor improves over no-skill and skill-adaptation baselines on all three suites, with the largest single-metric improvements of +1.5 points on PinchBench Avg Score%, +1.8 on Claw-Eval Avg Score, and +1.7 on WebShop success rate. These results indicate that step-level attribution supports more stable and auditable training-free skill maintenance （The code will be released at https://github.com/zjunlp/SkillAdaptor ).",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.01311",
+      "pdf_url": "https://arxiv.org/pdf/2606.01311",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/zjunlp/SkillAdaptor"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.01311",
+      "scraped_at": "2026-06-02T04:05:41.812512"
+    },
+    "scraped_date": "2026-06-02"
+  },
+  {
+    "title": "ESPO: Early-Stopping Proximal Policy Optimization",
+    "paper_url": "https://huggingface.co/papers/2605.29860",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ESPO: Early-Stopping Proximal Policy Optimization",
+      "abstract": "ESPO (Early-Stopping Proximal Policy Optimization) tackles a key waste in RL training of reasoning LLMs: when a model errs early in a trajectory, standard algorithms keep generating to the maximum length, burning compute on never-rewarded tokens and polluting advantage estimates with post-failure noise. ESPO detects failure on-the-fly—using a surrogate regret computed from logits already produced during sampling—and truncates the rollout, treating it as an absorbing failure state with a terminal reward that concentrates negative TD errors at the failure step, all without any extra reward model or human annotation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.29860",
+      "pdf_url": "https://arxiv.org/pdf/2605.29860",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.29860",
+      "scraped_at": "2026-06-02T04:05:43.700291"
+    },
+    "scraped_date": "2026-06-02"
+  },
+  {
+    "title": "NITP: Next Implicit Token Prediction for LLM Pre-training",
+    "paper_url": "https://huggingface.co/papers/2605.24956",
+    "authors": [],
+    "stars": "21",
+    "details": {
+      "title": "NITP: Next Implicit Token Prediction for LLM Pre-training",
+      "abstract": "Accepted to ICML 2026.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.24956",
+      "pdf_url": "https://arxiv.org/pdf/2605.24956",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/aHapBean/NITP"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.24956",
+      "scraped_at": "2026-06-02T04:05:45.522545"
+    },
+    "scraped_date": "2026-06-02"
+  },
+  {
+    "title": "Where to Look: Can Foundation Models Reach a Target Viewpoint Through Active Exploration?",
+    "paper_url": "https://huggingface.co/papers/2606.01247",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Where to Look: Can Foundation Models Reach a Target Viewpoint Through Active Exploration?",
+      "abstract": "Interesting benchmark for testing whether foundation models can actively navigate to a target viewpoint, rather than just passively understand images. The low zero-shot success rates make TVRBench a nice stress test for embodied spatial intelligence, and the strong gains from visual-action SFT suggest that mapping visual discrepancies to actions is still a key bottleneck.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.01247",
+      "pdf_url": "https://arxiv.org/pdf/2606.01247",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/aim-uofa/TVRBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.01247",
+      "scraped_at": "2026-06-02T04:05:47.431880"
+    },
+    "scraped_date": "2026-06-02"
+  },
+  {
+    "title": "VLMs are Good Teachers for Video Reasoning via Adaptive Test-Time Optimization",
+    "paper_url": "https://huggingface.co/papers/2606.02564",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "VLMs are Good Teachers for Video Reasoning via Adaptive Test-Time Optimization",
+      "abstract": "Video Generation Models can produce temporally coherent visual trajectories, yet often fail to follow task-specific rules. We introduce a VLM-as-Teacher framework that synthesizes task-specific reward queries and guides a VGM Reasoner through online test-time optimization of a lightweight LoRA module.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.02564",
+      "pdf_url": "https://arxiv.org/pdf/2606.02564",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.02564",
+      "scraped_at": "2026-06-02T04:05:49.335779"
+    },
+    "scraped_date": "2026-06-02"
+  },
+  {
+    "title": "StreamChar: Long-Horizon Streaming Character Audio-Video Generation with Decoupled Orchestration",
+    "paper_url": "https://huggingface.co/papers/2605.25659",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "StreamChar: Long-Horizon Streaming Character Audio-Video Generation with Decoupled Orchestration",
+      "abstract": "Audio-video multimodal generation with real-time interactive experience on a single GPU.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.25659",
+      "pdf_url": "https://arxiv.org/pdf/2605.25659",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.25659",
+      "scraped_at": "2026-06-02T04:05:51.187986"
+    },
+    "scraped_date": "2026-06-02"
+  },
+  {
+    "title": "Brain-IT-VQA: From Brain Signals to Answers",
+    "paper_url": "https://huggingface.co/papers/2605.29588",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Brain-IT-VQA: From Brain Signals to Answers",
+      "abstract": "A step toward connecting brain signals and large language models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.29588",
+      "pdf_url": "https://arxiv.org/pdf/2605.29588",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.29588",
+      "scraped_at": "2026-06-02T04:05:52.995705"
+    },
+    "scraped_date": "2026-06-02"
+  },
+  {
+    "title": "RoboSemanticBench: Diagnosing Semantic Grounding in Action Prediction for VLA Models",
+    "paper_url": "https://huggingface.co/papers/2606.02277",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "RoboSemanticBench: Diagnosing Semantic Grounding in Action Prediction for VLA Models",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.02277",
+      "pdf_url": "https://arxiv.org/pdf/2606.02277",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ZGC-EmbodyAI/RoboSemanticBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.02277",
+      "scraped_at": "2026-06-02T04:05:54.850538"
+    },
+    "scraped_date": "2026-06-02"
+  },
+  {
+    "title": "RoboStressBench: Benchmarking VLM Robustness to Physical Visual Stress in Embodied Scenes",
+    "paper_url": "https://huggingface.co/papers/2606.00828",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "RoboStressBench: Benchmarking VLM Robustness to Physical Visual Stress in Embodied Scenes",
+      "abstract": "Vision-Language Models (VLMs) have shown strong visual understanding and are increasingly deployed in embodied AI systems, where reliable perception under real conditions is essential. However, existing benchmarks assess VLMs using clean images or isolated perturbations rather than stresses caused by physical scene formation. This design has two limitations: it covers only a narrow subset of everyday visual stresses, and some perturbations rarely appear in realistic embodied scenes. This gap raises a fundamental question: how can we define visual stress in a principled way that captures the diverse factors encountered in physical environments? To address this question, we formulate visual perception from an inverse graphics perspective and introduce RoboStressBench, a benchmark for evaluating VLM robustness to physical visual stress in embodied scenes. Inspired by the physical rendering equation, RoboStressBench decomposes visual stress into four physically grounded dimensions: Material (M), Viewpoint (V), Lighting (L), and Geometry (G). This design enables RoboStressBench to cover a broad range of visual stresses in real-world environments, while allowing controlled analysis of their effects on VLM capabilities such as visual recognition, reasoning, and planning. Through comprehensive evaluations of state-of-the-art VLMs, we identify stress-specific failure modes and reveal that different physical factors degrade different embodied capabilities, which are often obscured by aggregate accuracy. We further introduce a stress-aware agentic solver that detects visual stressors and invokes visual-editing skills before reasoning, improving robustness in high-stress scenarios. Overall, RoboStressBench provides a principled evaluation framework for diagnosing and improving VLM perception under real-world physical stress, supporting the development of more reliable embodied AI systems.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.00828",
+      "pdf_url": "https://arxiv.org/pdf/2606.00828",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/YUEVII/RoboStressBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.00828",
+      "scraped_at": "2026-06-02T04:05:56.805605"
+    },
+    "scraped_date": "2026-06-02"
+  },
+  {
+    "title": "Speculative Pipeline Decoding: Higher-Accruacy and Zero-Bubble Speculation via Pipeline Parallelism",
+    "paper_url": "https://huggingface.co/papers/2605.30852",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Speculative Pipeline Decoding: Higher-Accruacy and Zero-Bubble Speculation via Pipeline Parallelism",
+      "abstract": "This is a novel speculative decoding paradigm, expected to address the issues of increasing difficulty and latency bubbles in traditional SD. Compatible with Qwen3, Qwen3.5, Llama3.1, etc. The target model runs in a multi-stage pipeline while a lightweight speculation head drafts tokens in parallel; drafts are verified against the base model for lossless generation. This paradigm is totally different from the traditional speculative decoding, and achieves higher acceptance rate and zero latency bubble.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.30852",
+      "pdf_url": "https://arxiv.org/pdf/2605.30852",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yuyijiong/speculative_pipeline_decoding"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.30852",
+      "scraped_at": "2026-06-02T04:05:58.760365"
+    },
+    "scraped_date": "2026-06-02"
+  },
+  {
+    "title": "HakushoBench: A Japanese Chart and Table VQA Benchmark from Governmental White Papers",
+    "paper_url": "https://huggingface.co/papers/2606.01132",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "HakushoBench: A Japanese Chart and Table VQA Benchmark from Governmental White Papers",
+      "abstract": "We introduce HakushoBench , a challenging Japanese chart and table visual question answering (VQA) benchmark for evaluating vision-language models (VLMs). To construct HakushoBench, we leverage Japanese government white papers, which contain a large and diverse collection of chart and table images. The benchmark is built from 33 white papers , covering more than 10 image types and comprising 2,053 VQA instances . Experimental results reveal a substantial performance gap between open-weight and proprietary models, highlighting significant room for improvement in open-weight VLMs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.01132",
+      "pdf_url": "https://arxiv.org/pdf/2606.01132",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.01132",
+      "scraped_at": "2026-06-02T04:06:00.711612"
+    },
+    "scraped_date": "2026-06-02"
+  },
+  {
+    "title": "Skill is Not One-Size-Fits-All: Model-Aware Skill Alignment for LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2605.30723",
+    "authors": [
+      "Zichen Ding",
+      "Qier Cui",
+      "Bochen Lin",
+      "Jiapeng Zhu",
+      "Jianxiang Yu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Skill is Not One-Size-Fits-All: Model-Aware Skill Alignment for LLM Agents",
+      "abstract": "Key idea: Skills are not universally effective across LLM backbones. This paper introduces MASA, a model-aware skill alignment framework that rewrites and adapts skills based on a model’s capability profile. Results across multiple agent environments show that model-specific skill alignment significantly outperforms generic skill libraries and generalizes to new tasks with low inference cost.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.30723",
+      "pdf_url": "https://arxiv.org/pdf/2605.30723",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.30723",
+      "scraped_at": "2026-06-02T04:06:02.576952"
+    },
+    "scraped_date": "2026-06-02"
+  },
+  {
+    "title": "Masking Stale Observations Helps Search Agents -- Until It Doesn't: A Regime Map and Its Mechanism",
+    "paper_url": "https://huggingface.co/papers/2606.00408",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Masking Stale Observations Helps Search Agents -- Until It Doesn't: A Regime Map and Its Mechanism",
+      "abstract": "We present a systematic study on observation masking—a lightweight context management (CM) technique for long-horizon search agents. By evaluation over diverse backbones (4B–284B) and retrievers, we establish a quantitative regime map revealing that CM gains follow an asymmetric inverted-U shape governed by the mismatch between retriever recall and a model's implicit filtering capacity. While masking provides boosts in intermediate regimes by removing a \"neglected middle noise\" that models fail to filter, its utility collapses once advanced models become saturated. Attention and behavioral tracking show that masking forces weaker models to structurally align with stronger ones, but risks evicting critical signals in capable readers. Our findings reframe context management as a regime-dependent intervention and suggest shifting future efforts from aggressive pruning toward high-fidelity retrieval.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.00408",
+      "pdf_url": "https://arxiv.org/pdf/2606.00408",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/i-DeepSearch/observation-masking"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.00408",
+      "scraped_at": "2026-06-02T04:06:04.464899"
+    },
+    "scraped_date": "2026-06-02"
+  },
+  {
+    "title": "LongAttnComp: Cross-Family Context Compression for Long-Context Reasoning",
+    "paper_url": "https://huggingface.co/papers/2606.01336",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LongAttnComp: Cross-Family Context Compression for Long-Context Reasoning",
+      "abstract": "This paper presents a fine-tuning-based long-context compressor with a two-stage training recipe , which achieves strong long-context reasoning performance. A shorter version was accepted at the AdaptFM Workshop at ICML 2026.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.01336",
+      "pdf_url": "https://arxiv.org/pdf/2606.01336",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.01336",
+      "scraped_at": "2026-06-02T04:06:06.223751"
+    },
+    "scraped_date": "2026-06-02"
+  },
+  {
+    "title": "Compositional Text-to-Image Generation Via Region-aware Bimodal Direct Preference Optimization",
+    "paper_url": "https://huggingface.co/papers/2605.28615",
+    "authors": [
+      "Zuxuan Wu",
+      "Yitong Chen",
+      "Wujian Peng",
+      "anzeameol"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Compositional Text-to-Image Generation Via Region-aware Bimodal Direct Preference Optimization",
+      "abstract": "T2I models still struggle with complex prompts—like getting attribute binding, spatial relations, or counting wrong. To bridge this gap, we proposed BiDPO. We curate a high-quality preference dataset (BiComp), extend Diffusion DPO to jointly optimize image & text preferences, and apply region-level guidance for fine-grained alignment. It delivers a huge boost in compositional fidelity. 🔥 We’ve already open-sourced the dataset and model weights right here on Hugging Face. Check them out! 🎉 Super excited to share that this work is accepted to CVPR 2026!",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.28615",
+      "pdf_url": "https://arxiv.org/pdf/2605.28615",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/anzeameol/BiDPO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.28615",
+      "scraped_at": "2026-06-02T04:06:08.042252"
+    },
+    "scraped_date": "2026-06-02"
   }
 ]
