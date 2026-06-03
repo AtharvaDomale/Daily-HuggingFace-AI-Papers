@@ -984,5 +984,215 @@
       "scraped_at": "2026-06-02T04:06:08.042252"
     },
     "scraped_date": "2026-06-02"
+  },
+  {
+    "title": "Trust Region On-Policy Distillation",
+    "paper_url": "https://huggingface.co/papers/2606.01249",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Trust Region On-Policy Distillation",
+      "abstract": "On-Policy Distillation (OPD) is a fundamental technique for efficient post-training of large language models (LLMs), with broad applications in agent learning, multi-task enhancement, and model compression. However, OPD training becomes unstable when the teacher and student distributions differ substantially, as teacher supervision on student-generated tokens may yield unreliable policy gradients and even cause optimization failure. This work addresses reliable on-policy token-level supervision through credit assignment strategies, and proposes Trust Region On-Policy Distillation, TrOPD. It features the following characteristics: 1) Trust-Region On-Policy Learning: TrOPD performs OPD only in regions where the teacher provides reliable supervision, mitigating the optimization difficulty of the K1 reverse-KL estimator under distribution mismatch. 2) Outlier Estimation: For outlier regions, we explore gradient clipping, masking, and forward-KL estimation to reduce the adverse effects of unreliable supervision. 3) Off-Policy Guidance: The student continues generation from teacher prefixes and uses forward KL to imitate off-policy guidance, encouraging on-policy exploration toward reliable regions. Experiments show that TrOPD consistently outperforms SoTA OPD baselines, including OPD, EOPD, and REOPOLD, across mathematical reasoning, code generation, and general-domain benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.01249",
+      "pdf_url": "https://arxiv.org/pdf/2606.01249",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.01249",
+      "scraped_at": "2026-06-03T04:15:15.391771"
+    },
+    "scraped_date": "2026-06-03"
+  },
+  {
+    "title": "Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking",
+    "paper_url": "https://huggingface.co/papers/2606.03985",
+    "authors": [
+      "Yunrui Lian",
+      "Chenghuai Lin",
+      "Dairu Liu",
+      "Xuchuan Chen",
+      "Zekun Qi"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.03985",
+      "pdf_url": "https://arxiv.org/pdf/2606.03985",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.03985",
+      "scraped_at": "2026-06-03T04:15:17.318599"
+    },
+    "scraped_date": "2026-06-03"
+  },
+  {
+    "title": "Ψ-Bench: Evaluating Persona-Sensitive Influencing in Persuasive Dialogues",
+    "paper_url": "https://huggingface.co/papers/2606.02754",
+    "authors": [
+      "Yutong Liu",
+      "Yihang Sun",
+      "Jiayu Liu",
+      "Hongyi Du",
+      "Peixuan Han"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Ψ-Bench: Evaluating Persona-Sensitive Influencing in Persuasive Dialogues",
+      "abstract": "A benchmark for personalized persuasion",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.02754",
+      "pdf_url": "https://arxiv.org/pdf/2606.02754",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.02754",
+      "scraped_at": "2026-06-03T04:15:19.386053"
+    },
+    "scraped_date": "2026-06-03"
+  },
+  {
+    "title": "Decentralized Instruction Tuning: Conflict-Aware Splitting and Weight Merging",
+    "paper_url": "https://huggingface.co/papers/2606.01717",
+    "authors": [
+      "Geewook Kim",
+      "Minsik Choi"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Decentralized Instruction Tuning: Conflict-Aware Splitting and Weight Merging",
+      "abstract": "Large-scale instruction tuning hits two walls: heterogeneous tasks produce conflicting gradients (negative transfer), and joint training needs constant gradient sync across a tightly-coupled cluster. We show both can be handled at once—by training parts of the mixture independently and reconciling them once in parameter space. MERIT (1) estimates dataset-level gradient conflicts at a shared (merge-ready) initialization, (2) splits the mixture along the top PCA conflict axes, (3) fine-tunes each branch with zero cross-partition communication, and (4) merges once via token-weighted averaging. On Qwen2.5-VL-3B with 136 Vision-FLAN tasks, the 8-benchmark average improves 54.3 → 57.0 with no gradient communication during fine-tuning. The method also scales to a 7B / 1.6M-example / 176-source mixture (matching or beating centralized joint training at minimal overhead) and transfers to text-only FLAN. We will publicly open-source our work at https://github.com/naver-ai/merit",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.01717",
+      "pdf_url": "https://arxiv.org/pdf/2606.01717",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/naver-ai/merit"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.01717",
+      "scraped_at": "2026-06-03T04:15:21.365210"
+    },
+    "scraped_date": "2026-06-03"
+  },
+  {
+    "title": "Language Models Need Sleep: Learning to Self-Modify and Consolidate Memories",
+    "paper_url": "https://huggingface.co/papers/2606.03979",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Language Models Need Sleep: Learning to Self-Modify and Consolidate Memories",
+      "abstract": "The authors introduce a 'Sleep' paradigm for LLMs, enabling continual learning through memory consolidation via knowledge seeding and a self-improvement 'Dreaming' process driven by reinforcement learning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.03979",
+      "pdf_url": "https://arxiv.org/pdf/2606.03979",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.03979",
+      "scraped_at": "2026-06-03T04:15:23.306239"
+    },
+    "scraped_date": "2026-06-03"
+  },
+  {
+    "title": "PlatonicNav: Unveiling Semantic Correspondence in Navigation with Platonic Topological Maps",
+    "paper_url": "https://huggingface.co/papers/2606.01788",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "PlatonicNav: Unveiling Semantic Correspondence in Navigation with Platonic Topological Maps",
+      "abstract": "Open-sourced.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.01788",
+      "pdf_url": "https://arxiv.org/pdf/2606.01788",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/AIGeeksGroup/PlatonicNav"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.01788",
+      "scraped_at": "2026-06-03T04:15:25.345025"
+    },
+    "scraped_date": "2026-06-03"
+  },
+  {
+    "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation",
+    "paper_url": "https://huggingface.co/papers/2606.03159",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation",
+      "abstract": "NVIDIA OmniDreams is an action-conditioned foundation generative world model that provides real-time, photorealistic, and reactive simulation environments for training and evaluating autonomous driving policies.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.03159",
+      "pdf_url": "https://arxiv.org/pdf/2606.03159",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.03159",
+      "scraped_at": "2026-06-03T04:15:27.203803"
+    },
+    "scraped_date": "2026-06-03"
+  },
+  {
+    "title": "Value-Aware Stochastic KV Cache Eviction for Reasoning Models",
+    "paper_url": "https://huggingface.co/papers/2606.03928",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Value-Aware Stochastic KV Cache Eviction for Reasoning Models",
+      "abstract": "Reasoning models improve accuracy through extended chains of thought, but their long outputs create a memory and compute bottleneck. KV cache eviction methods reduce this cost by evicting unimportant key-value pairs from the cache, yet they often yield worse accuracy than selection-based sparse attention alternatives, which keep the full KV cache. We identify key factors crucial to KV cache eviction accuracy. First, a small fraction of value states have abnormally large magnitudes, and evicting them causes catastrophic failure where models enter repetitive reasoning loops. Second, introducing stochasticity during eviction improves accuracy by increasing cache diversity. Based on these findings, we propose Value-aware Stochastic KV Cache Eviction (VaSE), a training-free recipe that protects large-magnitude value states and promotes diverse eviction decisions. Across six reasoning tasks, Qwen3 models using VaSE with 4x KV cache compression yield higher average accuracies than SOTA selection method at the same sparsity, while outperforming the strongest eviction method by more than 4%. Overall, VaSE bridges the gap between efficiency and accuracy, supporting FlashAttention2 and enabling a static memory footprint for reasoning models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.03928",
+      "pdf_url": "https://arxiv.org/pdf/2606.03928",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/terarachang/VaSE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.03928",
+      "scraped_at": "2026-06-03T04:15:29.074530"
+    },
+    "scraped_date": "2026-06-03"
+  },
+  {
+    "title": "Benchmarking Visual State Tracking in Multimodal Video Understanding",
+    "paper_url": "https://huggingface.co/papers/2606.03920",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Benchmarking Visual State Tracking in Multimodal Video Understanding",
+      "abstract": "VSTAT: https://vision-x-nyu.github.io/vstat-site/",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.03920",
+      "pdf_url": "https://arxiv.org/pdf/2606.03920",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/vision-x-nyu/vstat"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.03920",
+      "scraped_at": "2026-06-03T04:15:30.935052"
+    },
+    "scraped_date": "2026-06-03"
+  },
+  {
+    "title": "MERIT: Learning Disentangled Music Representations for Audio Similarity",
+    "paper_url": "https://huggingface.co/papers/2605.27346",
+    "authors": [],
+    "stars": "20",
+    "details": {
+      "title": "MERIT: Learning Disentangled Music Representations for Audio Similarity",
+      "abstract": "Most similarity models collapse melody, rhythm, and timbre into a single undifferentiated score. MERIT exposes all three as independent, interpretable signals from the same audio query.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.27346",
+      "pdf_url": "https://arxiv.org/pdf/2605.27346",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/AMAAI-Lab/MERIT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.27346",
+      "scraped_at": "2026-06-03T04:15:32.779653"
+    },
+    "scraped_date": "2026-06-03"
   }
 ]
