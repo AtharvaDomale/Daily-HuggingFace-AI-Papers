@@ -7,7 +7,7 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-10-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-0-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
 [![Total Papers](https://img.shields.io/badge/Total%20Papers-4460+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
@@ -103,156 +103,20 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">10</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">0</font><br/>papers</td>
 <td align="center"><b>📅 This Week</b><br/><font size="5">57</font><br/>papers</td>
 <td align="center"><b>📆 This Month</b><br/><font size="5">57</font><br/>papers</td>
 <td align="center"><b>🗄️ Total Archive</b><br/><font size="5">4460+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** June 03, 2026
+**Last Updated:** June 04, 2026
 
 ---
 
 ## 🔥 Today's Trending Papers
 
 > Latest AI research papers from HuggingFace Papers, updated daily
-
-<details>
-<summary><b>1. Trust Region On-Policy Distillation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.01249) • [📄 arXiv](https://arxiv.org/abs/2606.01249) • [📥 PDF](https://arxiv.org/pdf/2606.01249)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> On-Policy Distillation (OPD) is a fundamental technique for efficient post-training of large language models (LLMs), with broad applications in agent learning, multi-task enhancement, and model compression. However, OPD training becomes unstable w...
-
-</details>
-
-<details>
-<summary><b>2. Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Yunrui Lian, Chenghuai Lin, Dairu Liu, Xuchuan Chen, Zekun Qi
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.03985) • [📄 arXiv](https://arxiv.org/abs/2606.03985) • [📥 PDF](https://arxiv.org/pdf/2606.03985)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>3. Ψ-Bench: Evaluating Persona-Sensitive Influencing in Persuasive Dialogues</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Yutong Liu, Yihang Sun, Jiayu Liu, Hongyi Du, Peixuan Han
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.02754) • [📄 arXiv](https://arxiv.org/abs/2606.02754) • [📥 PDF](https://arxiv.org/pdf/2606.02754)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> A benchmark for personalized persuasion
-
-</details>
-
-<details>
-<summary><b>4. Decentralized Instruction Tuning: Conflict-Aware Splitting and Weight Merging</b> ⭐ 1</summary>
-
-<br/>
-
-**👥 Authors:** Geewook Kim, Minsik Choi
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.01717) • [📄 arXiv](https://arxiv.org/abs/2606.01717) • [📥 PDF](https://arxiv.org/pdf/2606.01717)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/naver-ai/merit)
-
-> Large-scale instruction tuning hits two walls: heterogeneous tasks produce conflicting gradients (negative transfer), and joint training needs constant gradient sync across a tightly-coupled cluster. We show both can be handled at once—by training...
-
-</details>
-
-<details>
-<summary><b>5. Language Models Need Sleep: Learning to Self-Modify and Consolidate Memories</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.03979) • [📄 arXiv](https://arxiv.org/abs/2606.03979) • [📥 PDF](https://arxiv.org/pdf/2606.03979)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> The authors introduce a 'Sleep' paradigm for LLMs, enabling continual learning through memory consolidation via knowledge seeding and a self-improvement 'Dreaming' process driven by reinforcement learning.
-
-</details>
-
-<details>
-<summary><b>6. PlatonicNav: Unveiling Semantic Correspondence in Navigation with Platonic Topological Maps</b> ⭐ 1</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.01788) • [📄 arXiv](https://arxiv.org/abs/2606.01788) • [📥 PDF](https://arxiv.org/pdf/2606.01788)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/AIGeeksGroup/PlatonicNav)
-
-> Open-sourced.
-
-</details>
-
-<details>
-<summary><b>7. NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.03159) • [📄 arXiv](https://arxiv.org/abs/2606.03159) • [📥 PDF](https://arxiv.org/pdf/2606.03159)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> NVIDIA OmniDreams is an action-conditioned foundation generative world model that provides real-time, photorealistic, and reactive simulation environments for training and evaluating autonomous driving policies.
-
-</details>
-
-<details>
-<summary><b>8. Value-Aware Stochastic KV Cache Eviction for Reasoning Models</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.03928) • [📄 arXiv](https://arxiv.org/abs/2606.03928) • [📥 PDF](https://arxiv.org/pdf/2606.03928)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/terarachang/VaSE)
-
-> Reasoning models improve accuracy through extended chains of thought, but their long outputs create a memory and compute bottleneck. KV cache eviction methods reduce this cost by evicting unimportant key-value pairs from the cache, yet they often ...
-
-</details>
-
-<details>
-<summary><b>9. Benchmarking Visual State Tracking in Multimodal Video Understanding</b> ⭐ 3</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.03920) • [📄 arXiv](https://arxiv.org/abs/2606.03920) • [📥 PDF](https://arxiv.org/pdf/2606.03920)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/vision-x-nyu/vstat)
-
-> VSTAT: https://vision-x-nyu.github.io/vstat-site/
-
-</details>
-
-<details>
-<summary><b>10. MERIT: Learning Disentangled Music Representations for Audio Similarity</b> ⭐ 20</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.27346) • [📄 arXiv](https://arxiv.org/abs/2605.27346) • [📥 PDF](https://arxiv.org/pdf/2605.27346)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/AMAAI-Lab/MERIT)
-
-> Most similarity models collapse melody, rhythm, and timbre into a single undifferentiated score. MERIT exposes all three as independent, interpretable signals from the same audio query.
-
-</details>
 
 ---
 
@@ -262,8 +126,8 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 10 |
-| 📅 Today | [`2026-06-03.json`](data/daily/2026-06-03.json) | 10 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 0 |
+| 📅 Today | [`2026-06-04.json`](data/daily/2026-06-04.json) | 0 |
 | 📆 This Week | [`2026-W22.json`](data/weekly/2026-W22.json) | 57 |
 | 🗓️ This Month | [`2026-06.json`](data/monthly/2026-06.json) | 57 |
 
@@ -271,13 +135,13 @@ getTodaysPapers();
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-06-03 | 10 | [View JSON](data/daily/2026-06-03.json) |
+| 📌 2026-06-04 | 0 | [View JSON](data/daily/2026-06-04.json) |
+| 📄 2026-06-03 | 10 | [View JSON](data/daily/2026-06-03.json) |
 | 📄 2026-06-02 | 22 | [View JSON](data/daily/2026-06-02.json) |
 | 📄 2026-06-01 | 25 | [View JSON](data/daily/2026-06-01.json) |
 | 📄 2026-05-31 | 59 | [View JSON](data/daily/2026-05-31.json) |
 | 📄 2026-05-30 | 59 | [View JSON](data/daily/2026-05-30.json) |
 | 📄 2026-05-29 | 24 | [View JSON](data/daily/2026-05-29.json) |
-| 📄 2026-05-28 | 19 | [View JSON](data/daily/2026-05-28.json) |
 
 ### 📚 Weekly Archives
 
