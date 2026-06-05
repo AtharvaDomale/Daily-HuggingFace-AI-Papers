@@ -1194,5 +1194,474 @@
       "scraped_at": "2026-06-03T04:15:32.779653"
     },
     "scraped_date": "2026-06-03"
+  },
+  {
+    "title": "VideoKR: Towards Knowledge- and Reasoning-Intensive Video Understanding",
+    "paper_url": "https://huggingface.co/papers/2606.05259",
+    "authors": [
+      "Arman Cohan",
+      "Tingyu Song",
+      "Yang Wang",
+      "Zheyuan Yang",
+      "Lin Fu"
+    ],
+    "stars": "9",
+    "details": {
+      "title": "VideoKR: Towards Knowledge- and Reasoning-Intensive Video Understanding",
+      "abstract": "VideoKR presents a large-scale video reasoning dataset and benchmark designed to enhance knowledge-intensive video understanding through expert-domain content and human-in-the-loop example generation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.05259",
+      "pdf_url": "https://arxiv.org/pdf/2606.05259",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Fu-Fu-Fu-Fu/VideoKR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.05259",
+      "scraped_at": "2026-06-05T03:54:16.575924"
+    },
+    "scraped_date": "2026-06-05"
+  },
+  {
+    "title": "Personal AI Agent for Camera Roll VQA",
+    "paper_url": "https://huggingface.co/papers/2606.05275",
+    "authors": [
+      "Yuheng Li",
+      "Yong Jae Lee",
+      "Donghyun Kim",
+      "Krishna Kumar Singh",
+      "Thao Nguyen"
+    ],
+    "stars": "5",
+    "details": {
+      "title": "Personal AI Agent for Camera Roll VQA",
+      "abstract": "\"if an AI could see your whole camera roll, what would you ask?\" . project page: https://thaoshibe.github.io/camroll/ . github: https://github.com/thaoshibe/camroll/ We study the personal camera roll visual question answering setting. In this setting, a conversational AI assistant can access a user's personal camera roll and retrieve relevant photos to answer queries, ranging from simple factual questions (e.g., Name of the food I tried yesterday?'') to more open-ended ones (e.g., Recommend some dishes I have never eaten before''). Given the vast nature of the personal camera roll (i.e., multiple years, hundreds to thousands of photos), a successful AI assistant needs to understand a long-horizon, highly personalized visual content stream in order to navigate and locate the correct and/or relevant information. To support this, we collect and manually annotate questions that mimic real-world usage. The final dataset, camroll, contains 50 users, 31,476 images, and 2,500 QA pairs. We further design camroll-agent, a conversational AI agent equipped with hierarchical memory and a minimal set of tools for efficient navigation over large, personalized visual memory. Experimental results show that camroll-agent outperforms numerous baselines and methods for long-context understanding AI agents system. Together, the camroll dataset and camroll-agent highlight the gap in AI agents' long-context reasoning: personalized visual memory requires different approaches from standard long-context textual memory, especially when consistency, visual details, and user-specific context are present.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.05275",
+      "pdf_url": "https://arxiv.org/pdf/2606.05275",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/thaoshibe/camroll",
+        "https://github.com/thaoshibe/camroll/"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.05275",
+      "scraped_at": "2026-06-05T03:54:18.551401"
+    },
+    "scraped_date": "2026-06-05"
+  },
+  {
+    "title": "Rethinking Continual Experience Internalization for Self-Evolving LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2606.04703",
+    "authors": [
+      "Chenxing Sun",
+      "Wenbo Nie",
+      "Shengda Fan",
+      "Wenkai Yang",
+      "cjw259wen"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Rethinking Continual Experience Internalization for Self-Evolving LLM Agents",
+      "abstract": "Rethinking Continual Experience Internalization for Self-Evolving LLM Agents",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.04703",
+      "pdf_url": "https://arxiv.org/pdf/2606.04703",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.04703",
+      "scraped_at": "2026-06-05T03:54:20.504113"
+    },
+    "scraped_date": "2026-06-05"
+  },
+  {
+    "title": "LoomVideo: Unifying Multimodal Inputs into Video Generation and Editing",
+    "paper_url": "https://huggingface.co/papers/2606.06042",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "LoomVideo: Unifying Multimodal Inputs into Video Generation and Editing",
+      "abstract": "Developing unified video generation and editing models capable of interpreting interleaved multimodal inputs is a promising yet challenging frontier field. Existing unified frameworks predominantly rely on massive models (typically 13B parameters or more) and incorporate source video conditions for editing by concatenating sequence tokens. This concatenation inevitably doubles the sequence length, quadrupling the computational complexity of the self-attention mechanism and introducing prohibitive overhead. To address these bottlenecks, we present LoomVideo, a highly efficient 5B-parameter unified architecture for both video generation and editing. LoomVideo replaces the standard text encoder with a Multimodal Large Language Model (MLLM) and employs a Deepstack injection mechanism to align multi-layer MLLM features with the Diffusion Transformer (DiT). Crucially, we introduce a zero-overhead Scale-and-Add conditioning approach for video editing. By scaling and directly adding the clean source video latent to the noised target latent, this elegant design eliminates the need for token concatenation, drastically reducing computational cost while maintaining robust capabilities for complex, non-rigid edits. Furthermore, a Negative Temporal RoPE strategy is seamlessly integrated to handle multiple reference images. Extensive experiments demonstrate that our compact 5B model achieves state-of-the-art or highly competitive performance across comprehensive benchmarks, exhibiting exceptional superiority in e-commerce and fashion generation scenarios. Benefiting from the zero-overhead conditioning mechanism, LoomVideo achieves at least a 5.41× acceleration in inference speed compared to models of similar capabilities, paving the way for highly practical and efficient video foundation models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.06042",
+      "pdf_url": "https://arxiv.org/pdf/2606.06042",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/MSALab-PKU/LoomVideo"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.06042",
+      "scraped_at": "2026-06-05T03:54:22.418016"
+    },
+    "scraped_date": "2026-06-05"
+  },
+  {
+    "title": "Unsupervised Skill Discovery for Agentic Data Analysis",
+    "paper_url": "https://huggingface.co/papers/2606.06416",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Unsupervised Skill Discovery for Agentic Data Analysis",
+      "abstract": "Inference-time skill augmentation provides a lightweight way to improve data-analytic agents by injecting reusable procedural knowledge without updating model parameters. However, discovering effective skills for data analysis remains challenging, as reliable supervision is expensive and success criteria vary across analytical formats. This raises the key question of how to discover reusable data-analysis skills from unlabeled exploration alone. We propose DataCOPE, an unsupervised verifier-guided skill discovery framework for data-analytic agents. DataCOPE derives verifier signals from the exploration trajectories and uses them to characterize relative quality or aggreement among trajectories. It iteratively coordinates a Data-Analytic Agent for trajectory generation, an Unsupervised Verifier for signal extraction, and a Skill Manager for contrastive skill distillation. For report-style analysis, we instantiate the verifier as an Adaptive Checklist Verifier that derives task-specific criteria, scores reports by verifiable coverage, and iteratively refines the checklist. For reasoning-style analysis, we instantiate it as an Answer Agreement Verifier that groups trajectories by answer agreement and uses self-consistency as an auxiliary signal. We evaluate DataCOPE on report-style analysis from Deep Data Research and reasoning-style analysis from DABStep. Across both settings, DataCOPE consistently improves held-out performance over baselines. Averaged across four model settings, DataCOPE improves the mean score by 9.71% and 32.30% on report-style and reasoning-style tasks respectively.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.06416",
+      "pdf_url": "https://arxiv.org/pdf/2606.06416",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.06416",
+      "scraped_at": "2026-06-05T03:54:24.351801"
+    },
+    "scraped_date": "2026-06-05"
+  },
+  {
+    "title": "ArcANE: Do Role-Playing Language Agents Stay in Character at the Right Time?",
+    "paper_url": "https://huggingface.co/papers/2606.05553",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ArcANE: Do Role-Playing Language Agents Stay in Character at the Right Time?",
+      "abstract": "Role-playing language agents (RPLAs) should play characters whose values and behavior evolve as the story progresses, not maintain a fixed persona. Existing benchmarks measure factual recall at a given chapter, not whether responses align with the character's psychological trajectory, especially in scenarios the source text never explores. We introduce ArcANE (Arc-Aware Narrative Evaluation), an automatically constructed benchmark spanning 17 novels and 80 principal characters. A Character Arc segments the narrative into phases along a psychological axis, and each probe poses the same scenario across phases, spanning both situations within the source text and situations beyond it. Across six models and six context modes, conditioning on the Character Arc tops every other context strategy on every model, and the gap is largest on scenarios outside the source text where retrieval has nothing to find. We further fine-tune open-weight models on the same data to obtain ArcANE-8B/32B, which widen the Arc advantage even more on scenarios outside the source text.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.05553",
+      "pdf_url": "https://arxiv.org/pdf/2606.05553",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.05553",
+      "scraped_at": "2026-06-05T03:54:26.209287"
+    },
+    "scraped_date": "2026-06-05"
+  },
+  {
+    "title": "Latent Reasoning with Normalizing Flows",
+    "paper_url": "https://huggingface.co/papers/2606.06447",
+    "authors": [
+      "Haoqiang Kang",
+      "Yao Tang",
+      "Suhao Yu",
+      "Xiangjun Fu",
+      "Guancheng Tu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Latent Reasoning with Normalizing Flows",
+      "abstract": "NF-CoT introduces a latent reasoning framework for LLMs that models intermediate thoughts as continuous states using normalizing flows, preserving autoregressive decoding while improving performance and efficiency.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.06447",
+      "pdf_url": "https://arxiv.org/pdf/2606.06447",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.06447",
+      "scraped_at": "2026-06-05T03:54:28.154226"
+    },
+    "scraped_date": "2026-06-05"
+  },
+  {
+    "title": "Imagine Before You Predict: Interleaved Latent Visual Reasoning for Video Event Prediction",
+    "paper_url": "https://huggingface.co/papers/2606.05769",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Imagine Before You Predict: Interleaved Latent Visual Reasoning for Video Event Prediction",
+      "abstract": "Future-L1 nails video event prediction by letting MLLMs interleave text reasoning with latent visual \"imagination\" of future frames.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.05769",
+      "pdf_url": "https://arxiv.org/pdf/2606.05769",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/OpenGVLab/Future-L1"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.05769",
+      "scraped_at": "2026-06-05T03:54:29.991730"
+    },
+    "scraped_date": "2026-06-05"
+  },
+  {
+    "title": "MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery",
+    "paper_url": "https://huggingface.co/papers/2606.06473",
+    "authors": [
+      "Shiyang Feng",
+      "Zongsheng Cao",
+      "Jinxin Shi",
+      "Xiangchao Yan",
+      "Shangheng Du"
+    ],
+    "stars": "296",
+    "details": {
+      "title": "MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery",
+      "abstract": "MLEvolve is an LLM-based multi-agent framework for automated machine learning algorithm discovery, featuring Progressive Monte Carlo Graph Search and retrospective memory to enhance long-horizon optimization performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.06473",
+      "pdf_url": "https://arxiv.org/pdf/2606.06473",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/InternScience/MLEvolve"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.06473",
+      "scraped_at": "2026-06-05T03:54:31.924054"
+    },
+    "scraped_date": "2026-06-05"
+  },
+  {
+    "title": "OPRD: On-Policy Representation Distillation",
+    "paper_url": "https://huggingface.co/papers/2606.06021",
+    "authors": [
+      "Mingxuan Xia",
+      "Haobo Wang",
+      "Bowen Song",
+      "Guangcheng Zhu",
+      "Shenzhi Yang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "OPRD: On-Policy Representation Distillation",
+      "abstract": "Due to the company's open-source process, the code will be released within the next week~",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.06021",
+      "pdf_url": "https://arxiv.org/pdf/2606.06021",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ShenzhiYang2000/OPRD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.06021",
+      "scraped_at": "2026-06-05T03:54:33.761602"
+    },
+    "scraped_date": "2026-06-05"
+  },
+  {
+    "title": "Flash-WAM: Modality-Aware Distillation for World Action Models",
+    "paper_url": "https://huggingface.co/papers/2606.05254",
+    "authors": [
+      "Yixiao Chen",
+      "Lin Zhao",
+      "Arash Akbari",
+      "Ci Zhang",
+      "Arman Akbari"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Flash-WAM: Modality-Aware Distillation for World Action Models",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.05254",
+      "pdf_url": "https://arxiv.org/pdf/2606.05254",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.05254",
+      "scraped_at": "2026-06-05T03:54:35.586735"
+    },
+    "scraped_date": "2026-06-05"
+  },
+  {
+    "title": "Video2LoRA: Parametric Video Internalization for Vision-Language Models",
+    "paper_url": "https://huggingface.co/papers/2606.04351",
+    "authors": [
+      "Dinesh Manocha",
+      "Sarvesh Baskar",
+      "Manan Suri"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Video2LoRA: Parametric Video Internalization for Vision-Language Models",
+      "abstract": "Zero token video understanding for VLMs! We train hypernetworks to metalearn video understanding for VLMs; during inference you can convert a video to a LoRA adapter in a single forward pass, and have efficient video understanding without any visual tokens in the model's context. We show: → Up to 1500× reduction in answer-time visual-token load → 6–80× faster TTFT during queries → Statistically equivalent / non-inferior to direct video-in-context inference across most captioning and QA settings → At scales like 1024px and 1024 frames, where the base model often degenerates into gibberish, Video2LoRA-enabled VLMs still generate meaningfully relevant content",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.04351",
+      "pdf_url": "https://arxiv.org/pdf/2606.04351",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/MananSuri27/video2lora"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.04351",
+      "scraped_at": "2026-06-05T03:54:37.515557"
+    },
+    "scraped_date": "2026-06-05"
+  },
+  {
+    "title": "EvoDS: Self-Evolving Autonomous Data Science Agent with Skill Learning and Context Management",
+    "paper_url": "https://huggingface.co/papers/2606.03841",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "EvoDS: Self-Evolving Autonomous Data Science Agent with Skill Learning and Context Management",
+      "abstract": "Accepted by KDD2026",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.03841",
+      "pdf_url": "https://arxiv.org/pdf/2606.03841",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/usail-hkust/EvoDS"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.03841",
+      "scraped_at": "2026-06-05T03:54:39.354662"
+    },
+    "scraped_date": "2026-06-05"
+  },
+  {
+    "title": "The Shadow Price of Reasoning: Economic Perspective on Optimal Budget Allocation for LLMs",
+    "paper_url": "https://huggingface.co/papers/2606.03092",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "The Shadow Price of Reasoning: Economic Perspective on Optimal Budget Allocation for LLMs",
+      "abstract": "Inference-time scaling has emerged as a critical avenue for enhancing Large Language Models' performance, yet real-world deployment is constrained by strict computational budgets. In this work, we formulate inference budget allocation as a global constrained optimization problem governed by economic principles. By modeling per-query reasoning utility with a shifted-surge function, we derive an optimal allocation policy based on a global shadow price that equilibrates marginal utility under resource scarcity. Based on this theory, we propose Constrained Latent-utility Equilibrium Allocation for Reasoning (CLEAR). It performs rational abandonment and reallocates resources from insolvent queries to solvable queries near their emergence thresholds. Extensive experiments on several reasoning tasks with different traffic streams demonstrate that CLEAR significantly improves the Pareto frontier of total token cost versus mean accuracy. In resource-scarce regimes, CLEAR achieves up to a 3x improvement in global accuracy compared to uniform allocation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.03092",
+      "pdf_url": "https://arxiv.org/pdf/2606.03092",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/waunx/CLEAR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.03092",
+      "scraped_at": "2026-06-05T03:54:41.212784"
+    },
+    "scraped_date": "2026-06-05"
+  },
+  {
+    "title": "Combinatorial Synthesis: Scaling Code RLVR via Atomic Decomposition and Recombination",
+    "paper_url": "https://huggingface.co/papers/2605.31058",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Combinatorial Synthesis: Scaling Code RLVR via Atomic Decomposition and Recombination",
+      "abstract": "We propose Atomic Decomposition and Recombination (ADR), a novel framework that generates verifiable code tasks via decomposition into atomic elements and controlled recombination, thereby enabling the generation of genuinely novel and challenging verifiable code tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.31058",
+      "pdf_url": "https://arxiv.org/pdf/2605.31058",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/icip-cas/ADR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.31058",
+      "scraped_at": "2026-06-05T03:54:43.081230"
+    },
+    "scraped_date": "2026-06-05"
+  },
+  {
+    "title": "Meta-Cognitive Memory Policy Optimization for Long-Horizon LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2605.30159",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Meta-Cognitive Memory Policy Optimization for Long-Horizon LLM Agents",
+      "abstract": "Meta-Cognitive Memory Policy Optimization for Long-Horizon LLM Agents",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.30159",
+      "pdf_url": "https://arxiv.org/pdf/2605.30159",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.30159",
+      "scraped_at": "2026-06-05T03:54:44.961669"
+    },
+    "scraped_date": "2026-06-05"
+  },
+  {
+    "title": "Is This Edit Correct? A Multi-Dimensional Benchmark for Reasoning-Aware Image Editing",
+    "paper_url": "https://huggingface.co/papers/2606.05172",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Is This Edit Correct? A Multi-Dimensional Benchmark for Reasoning-Aware Image Editing",
+      "abstract": "Diffusion-based image editing has achieved strong visual fidelity under natural language instructions, yet most existing systems still operate at the level of surface instruction following, without reasoning about the implicit contextual constraints embedded in real user requests. This often leads to visually plausible but logically inconsistent edits. In this work, we introduce RE-Edit, a benchmark for REasoning-aware image Editing that evaluates image editing systems across five complementary reasoning dimensions: physical, environmental, cultural, causal, and referential. RE-Edit comprises 1,000 carefully curated samples, each designed such that visual plausibility alone is insufficient and correct editing requires satisfying implicit logical constraints. To support fine-grained analysis, we establish dimension-aligned evaluation criteria and conduct a comprehensive study of ten open-source and two commercial image editing models. Our results show that even advanced systems frequently struggle with implicit multi-dimensional reasoning despite producing high-quality visuals. We further present a lightweight reasoning-guided post-edit baseline as an initial exploration, illustrating how inserting explicit reasoning can help mitigate such failures in a model-agnostic manner.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.05172",
+      "pdf_url": "https://arxiv.org/pdf/2606.05172",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Yixuan-Ding-ZJU/RE-Edit"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.05172",
+      "scraped_at": "2026-06-05T03:54:46.861110"
+    },
+    "scraped_date": "2026-06-05"
+  },
+  {
+    "title": "Reinforcement Learning Elicits Contextual Learning of Unseen Language Translation",
+    "paper_url": "https://huggingface.co/papers/2606.06428",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Reinforcement Learning Elicits Contextual Learning of Unseen Language Translation",
+      "abstract": "In this paper, we propose a reinforcement learning approach to unseen language translation given rich linguistic context, we argue that LLMs can acquire the meta-skill of utilizing context knowledge rather than memorizing specific languages thus have generalization ability to unseen languages.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.06428",
+      "pdf_url": "https://arxiv.org/pdf/2606.06428",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/hanxuhu/rl-new-language"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.06428",
+      "scraped_at": "2026-06-05T03:54:48.785124"
+    },
+    "scraped_date": "2026-06-05"
+  },
+  {
+    "title": "World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis",
+    "paper_url": "https://huggingface.co/papers/2606.05979",
+    "authors": [
+      "Yanzhe Hu",
+      "Yiyang Chen",
+      "Siqi Kou",
+      "Zhihong Liu",
+      "Yi Yang"
+    ],
+    "stars": "6",
+    "details": {
+      "title": "World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.05979",
+      "pdf_url": "https://arxiv.org/pdf/2606.05979",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/SJTU-DENG-Lab/WLA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.05979",
+      "scraped_at": "2026-06-05T03:54:50.664540"
+    },
+    "scraped_date": "2026-06-05"
+  },
+  {
+    "title": "Discrete-WAM: Unified Discrete Vision-Action Token Editing for World-Policy Learning",
+    "paper_url": "https://huggingface.co/papers/2606.05645",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Discrete-WAM: Unified Discrete Vision-Action Token Editing for World-Policy Learning",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.05645",
+      "pdf_url": "https://arxiv.org/pdf/2606.05645",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.05645",
+      "scraped_at": "2026-06-05T03:54:52.570088"
+    },
+    "scraped_date": "2026-06-05"
+  },
+  {
+    "title": "SePO: Self-Evolving Prompt Agent for System Prompt Optimization",
+    "paper_url": "https://huggingface.co/papers/2606.04465",
+    "authors": [
+      "Weng-Fai Wong",
+      "Han Wu",
+      "taowangcheng"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SePO: Self-Evolving Prompt Agent for System Prompt Optimization",
+      "abstract": "SePO is a self-evolving system prompt optimization framework that improves a prompt agent by applying the same prompt optimization procedure to the prompt agent itself.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.04465",
+      "pdf_url": "https://arxiv.org/pdf/2606.04465",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.04465",
+      "scraped_at": "2026-06-05T03:54:54.410721"
+    },
+    "scraped_date": "2026-06-05"
   }
 ]
