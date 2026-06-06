@@ -1663,5 +1663,1088 @@
       "scraped_at": "2026-06-05T03:54:54.410721"
     },
     "scraped_date": "2026-06-05"
+  },
+  {
+    "title": "Code2LoRA: Hypernetwork-Generated Adapters for Code Language Models under Software Evolution",
+    "paper_url": "https://huggingface.co/papers/2606.06492",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Code2LoRA: Hypernetwork-Generated Adapters for Code Language Models under Software Evolution",
+      "abstract": "Repository context is the bottleneck for code LLMs: every completion needs to know the project's imports, APIs, and conventions, and today we pay for that context at every single query -  through RAG, dependency analysis, or ever-longer prompts - or we fine-tune a LoRA per repo and watch it go stale on the next commit. We ask a simple question: what if the repository itself were the prompt, but only once? Code2LoRA is a hypernetwork that reads a repo (or its stream of commits) and emits a LoRA adapter for a frozen code LLM in a single forward pass. The repo's knowledge lives in the weights, and inference adds zero extra tokens. It comes in two flavors. Code2LoRA-Static snapshots a repo into an adapter and, with no per-repo training, already matches the per-repository LoRA upper bound on in-repo eval and beats RAG / dependency-resolved-context / FFT+RAG cross-repo (+9.9pp EM). Code2LoRA-Evo is the part we're most excited about: a GRU walks the commit history and refreshes the adapter in O(1) per commit, so the model keeps up with active development instead of fighting it. On a strictly post-cutoff 92-repo OOD holdout — repos the encoder has never seen — Code2LoRA-Evo lifts a Qwen2.5-Coder backbone from 44.6% to 74.1% EM. To make all of this measurable we also release RepoPeftBench : 604 Python repos, 62K static and 400K commit-derived assertion-completion tasks, with in-repo, cross-repo, and temporal-OOD splits. We hope it's useful as a benchmark for repo-conditioned and evolution-aware code modeling beyond our own setup. Code: https://anonymous.4open.science/r/code2lora-6857 · Data & models: https://huggingface.co/code2lora",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.06492",
+      "pdf_url": "https://arxiv.org/pdf/2606.06492",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.06492",
+      "scraped_at": "2026-06-06T03:36:41.507388"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "ArcANE: Do Role-Playing Language Agents Stay in Character at the Right Time?",
+    "paper_url": "https://huggingface.co/papers/2606.05553",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ArcANE: Do Role-Playing Language Agents Stay in Character at the Right Time?",
+      "abstract": "Role-playing language agents (RPLAs) should play characters whose values and behavior evolve as the story progresses, not maintain a fixed persona. Existing benchmarks measure factual recall at a given chapter, not whether responses align with the character's psychological trajectory, especially in scenarios the source text never explores. We introduce ArcANE (Arc-Aware Narrative Evaluation), an automatically constructed benchmark spanning 17 novels and 80 principal characters. A Character Arc segments the narrative into phases along a psychological axis, and each probe poses the same scenario across phases, spanning both situations within the source text and situations beyond it. Across six models and six context modes, conditioning on the Character Arc tops every other context strategy on every model, and the gap is largest on scenarios outside the source text where retrieval has nothing to find. We further fine-tune open-weight models on the same data to obtain ArcANE-8B/32B, which widen the Arc advantage even more on scenarios outside the source text.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.05553",
+      "pdf_url": "https://arxiv.org/pdf/2606.05553",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.05553",
+      "scraped_at": "2026-06-06T03:36:43.419268"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "TIDE: Proactive Multi-Problem Discovery via Template-Guided Iteration",
+    "paper_url": "https://huggingface.co/papers/2606.04743",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "TIDE: Proactive Multi-Problem Discovery via Template-Guided Iteration",
+      "abstract": "Most AI assistants only solve the problems users explicitly ask about, leaving many important issues hidden in the surrounding context. TIDE introduces a template-guided iterative discovery framework that proactively uncovers multiple latent problems, grounds them in evidence, and recommends concrete actions, achieving substantial gains across personal workspace and software repository settings.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.04743",
+      "pdf_url": "https://arxiv.org/pdf/2606.04743",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.04743",
+      "scraped_at": "2026-06-06T03:36:45.461375"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "VideoKR: Towards Knowledge- and Reasoning-Intensive Video Understanding",
+    "paper_url": "https://huggingface.co/papers/2606.05259",
+    "authors": [
+      "Tingyu Song",
+      "Yang Wang",
+      "yilunzhao",
+      "Raywithyou",
+      "minuzero"
+    ],
+    "stars": "16",
+    "details": {
+      "title": "VideoKR: Towards Knowledge- and Reasoning-Intensive Video Understanding",
+      "abstract": "VideoKR presents a large-scale video reasoning dataset and benchmark designed to enhance knowledge-intensive video understanding through expert-domain content and human-in-the-loop example generation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.05259",
+      "pdf_url": "https://arxiv.org/pdf/2606.05259",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Fu-Fu-Fu-Fu/VideoKR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.05259",
+      "scraped_at": "2026-06-06T03:36:47.367493"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "AdaPlanBench: Evaluating Adaptive Planning in Large Language Model Agents under World and User Constraints",
+    "paper_url": "https://huggingface.co/papers/2606.05622",
+    "authors": [],
+    "stars": "18",
+    "details": {
+      "title": "AdaPlanBench: Evaluating Adaptive Planning in Large Language Model Agents under World and User Constraints",
+      "abstract": "Excited to share AdaPlanBench, a benchmark for studying how LLM agents adaptively re-plan as hidden world constraints and user preferences emerge.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.05622",
+      "pdf_url": "https://arxiv.org/pdf/2606.05622",
+      "github_links": [
+        "https://github.com/JiayuJeff/AdaPlanBench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.05622",
+      "scraped_at": "2026-06-06T03:36:49.293421"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "Reinforcement Learning Elicits Contextual Learning of Unseen Language Translation",
+    "paper_url": "https://huggingface.co/papers/2606.06428",
+    "authors": [],
+    "stars": "8",
+    "details": {
+      "title": "Reinforcement Learning Elicits Contextual Learning of Unseen Language Translation",
+      "abstract": "In this paper, we propose a reinforcement learning approach to unseen language translation given rich linguistic context, we argue that LLMs can acquire the meta-skill of utilizing context knowledge rather than memorizing specific languages thus have generalization ability to unseen languages.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.06428",
+      "pdf_url": "https://arxiv.org/pdf/2606.06428",
+      "github_links": [
+        "https://github.com/hanxuhu/rl-new-language",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.06428",
+      "scraped_at": "2026-06-06T03:36:51.262346"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "RobotValues: Evaluating Household Robots When Human Values Conflict",
+    "paper_url": "https://huggingface.co/papers/2606.03312",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "RobotValues: Evaluating Household Robots When Human Values Conflict",
+      "abstract": "Seems like a very timely work, nice job!",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.03312",
+      "pdf_url": "https://arxiv.org/pdf/2606.03312",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.03312",
+      "scraped_at": "2026-06-06T03:36:53.201410"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "LoomVideo: Unifying Multimodal Inputs into Video Generation and Editing",
+    "paper_url": "https://huggingface.co/papers/2606.06042",
+    "authors": [],
+    "stars": "30",
+    "details": {
+      "title": "LoomVideo: Unifying Multimodal Inputs into Video Generation and Editing",
+      "abstract": "Developing unified video generation and editing models capable of interpreting interleaved multimodal inputs is a promising yet challenging frontier field. Existing unified frameworks predominantly rely on massive models (typically 13B parameters or more) and incorporate source video conditions for editing by concatenating sequence tokens. This concatenation inevitably doubles the sequence length, quadrupling the computational complexity of the self-attention mechanism and introducing prohibitive overhead. To address these bottlenecks, we present LoomVideo, a highly efficient 5B-parameter unified architecture for both video generation and editing. LoomVideo replaces the standard text encoder with a Multimodal Large Language Model (MLLM) and employs a Deepstack injection mechanism to align multi-layer MLLM features with the Diffusion Transformer (DiT). Crucially, we introduce a zero-overhead Scale-and-Add conditioning approach for video editing. By scaling and directly adding the clean source video latent to the noised target latent, this elegant design eliminates the need for token concatenation, drastically reducing computational cost while maintaining robust capabilities for complex, non-rigid edits. Furthermore, a Negative Temporal RoPE strategy is seamlessly integrated to handle multiple reference images. Extensive experiments demonstrate that our compact 5B model achieves state-of-the-art or highly competitive performance across comprehensive benchmarks, exhibiting exceptional superiority in e-commerce and fashion generation scenarios. Benefiting from the zero-overhead conditioning mechanism, LoomVideo achieves at least a 5.41× acceleration in inference speed compared to models of similar capabilities, paving the way for highly practical and efficient video foundation models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.06042",
+      "pdf_url": "https://arxiv.org/pdf/2606.06042",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/MSALab-PKU/LoomVideo"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.06042",
+      "scraped_at": "2026-06-06T03:36:55.109780"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "Personal AI Agent for Camera Roll VQA",
+    "paper_url": "https://huggingface.co/papers/2606.05275",
+    "authors": [
+      "Yuheng Li",
+      "Yong Jae Lee",
+      "Donghyun Kim",
+      "Krishna Kumar Singh",
+      "Thao Nguyen"
+    ],
+    "stars": "6",
+    "details": {
+      "title": "Personal AI Agent for Camera Roll VQA",
+      "abstract": "\"if an AI could see your whole camera roll, what would you ask?\" . project page: https://thaoshibe.github.io/camroll/ . github: https://github.com/thaoshibe/camroll/ We study the personal camera roll visual question answering setting. In this setting, a conversational AI assistant can access a user's personal camera roll and retrieve relevant photos to answer queries, ranging from simple factual questions (e.g., Name of the food I tried yesterday?'') to more open-ended ones (e.g., Recommend some dishes I have never eaten before''). Given the vast nature of the personal camera roll (i.e., multiple years, hundreds to thousands of photos), a successful AI assistant needs to understand a long-horizon, highly personalized visual content stream in order to navigate and locate the correct and/or relevant information. To support this, we collect and manually annotate questions that mimic real-world usage. The final dataset, camroll, contains 50 users, 31,476 images, and 2,500 QA pairs. We further design camroll-agent, a conversational AI agent equipped with hierarchical memory and a minimal set of tools for efficient navigation over large, personalized visual memory. Experimental results show that camroll-agent outperforms numerous baselines and methods for long-context understanding AI agents system. Together, the camroll dataset and camroll-agent highlight the gap in AI agents' long-context reasoning: personalized visual memory requires different approaches from standard long-context textual memory, especially when consistency, visual details, and user-specific context are present.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.05275",
+      "pdf_url": "https://arxiv.org/pdf/2606.05275",
+      "github_links": [
+        "https://github.com/thaoshibe/camroll",
+        "https://github.com/huggingface",
+        "https://github.com/thaoshibe/camroll/"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.05275",
+      "scraped_at": "2026-06-06T03:36:56.986216"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "Complexity-Balanced Diffusion Splitting",
+    "paper_url": "https://huggingface.co/papers/2606.06477",
+    "authors": [],
+    "stars": "11",
+    "details": {
+      "title": "Complexity-Balanced Diffusion Splitting",
+      "abstract": "Complexity-Balanced Splitting (CBS) is a principled framework for temporal capacity allocation in diffusion models. By mathematically partitioning the diffusion timeline based on local approximation burden (e.g., path acceleration), CBS significantly improves image synthesis quality, improving FID by ~35% on SiT-XL with CFG relative to naive temporal partitioning, without increasing per-step inference costs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.06477",
+      "pdf_url": "https://arxiv.org/pdf/2606.06477",
+      "github_links": [
+        "https://github.com/NoamIssachar/Complexity-Balanced-Splitting",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.06477",
+      "scraped_at": "2026-06-06T03:36:58.862651"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "Rethinking Continual Experience Internalization for Self-Evolving LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2606.04703",
+    "authors": [
+      "Chenxing Sun",
+      "Wenbo Nie",
+      "Shengda Fan",
+      "Keven16",
+      "cjw259wen"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Rethinking Continual Experience Internalization for Self-Evolving LLM Agents",
+      "abstract": "Rethinking Continual Experience Internalization for Self-Evolving LLM Agents",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.04703",
+      "pdf_url": "https://arxiv.org/pdf/2606.04703",
+      "github_links": [
+        "https://github.com/RUCBM/ExpInternalization",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.04703",
+      "scraped_at": "2026-06-06T03:37:00.789553"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "The Road Ahead in Autonomous Driving: The KITScenes Multimodal Dataset",
+    "paper_url": "https://huggingface.co/papers/2606.02956",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "The Road Ahead in Autonomous Driving: The KITScenes Multimodal Dataset",
+      "abstract": "We present KITScenes Multimodal, a European dataset built around a high-fidelity sensor suite together with the most complete HD maps for autonomous driving ever released. Highlights European urban focus — recordings from Karlsruhe, Frankfurt, and Sindelfingen High-fidelity sensor suite — 72.5 MPix global-shutter surround cameras, 7 LiDARs (~906k points/frame on average), 3 Continental ARS548 4D imaging radars, and redundant GNSS/INS Long-range sensing — effective LiDAR range beyond 400 m with substantially higher return density than common public driving datasets Production-grade HD maps — Lanelet2 maps with lane topology, regulatory elements, 29 road-feature classes, 120 traffic-sign classes (GTSIGN-220 taxonomy), and 3D-localized signs, traffic lights, and poles Research benchmarks — relational HD map perception, long-range monocular depth estimation, novel view synthesis, and end-to-end / world-model research",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.02956",
+      "pdf_url": "https://arxiv.org/pdf/2606.02956",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.02956",
+      "scraped_at": "2026-06-06T03:37:02.866536"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "Dream.exe: Can Video Generation Models Dream Executable Robot Manipulation?",
+    "paper_url": "https://huggingface.co/papers/2606.04811",
+    "authors": [
+      "Ziqi Wang",
+      "Siyang Chen",
+      "Jifeng Zhu",
+      "Kaiming Yang",
+      "Rui Zhao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Dream.exe: Can Video Generation Models Dream Executable Robot Manipulation?",
+      "abstract": "Repo: https://github.com/showlab/Dream.exe",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.04811",
+      "pdf_url": "https://arxiv.org/pdf/2606.04811",
+      "github_links": [
+        "https://github.com/showlab/Dream.exe",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.04811",
+      "scraped_at": "2026-06-06T03:37:04.736358"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "Unsupervised Skill Discovery for Agentic Data Analysis",
+    "paper_url": "https://huggingface.co/papers/2606.06416",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Unsupervised Skill Discovery for Agentic Data Analysis",
+      "abstract": "Inference-time skill augmentation provides a lightweight way to improve data-analytic agents by injecting reusable procedural knowledge without updating model parameters. However, discovering effective skills for data analysis remains challenging, as reliable supervision is expensive and success criteria vary across analytical formats. This raises the key question of how to discover reusable data-analysis skills from unlabeled exploration alone. We propose DataCOPE, an unsupervised verifier-guided skill discovery framework for data-analytic agents. DataCOPE derives verifier signals from the exploration trajectories and uses them to characterize relative quality or aggreement among trajectories. It iteratively coordinates a Data-Analytic Agent for trajectory generation, an Unsupervised Verifier for signal extraction, and a Skill Manager for contrastive skill distillation. For report-style analysis, we instantiate the verifier as an Adaptive Checklist Verifier that derives task-specific criteria, scores reports by verifiable coverage, and iteratively refines the checklist. For reasoning-style analysis, we instantiate it as an Answer Agreement Verifier that groups trajectories by answer agreement and uses self-consistency as an auxiliary signal. We evaluate DataCOPE on report-style analysis from Deep Data Research and reasoning-style analysis from DABStep. Across both settings, DataCOPE consistently improves held-out performance over baselines. Averaged across four model settings, DataCOPE improves the mean score by 9.71% and 32.30% on report-style and reasoning-style tasks respectively.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.06416",
+      "pdf_url": "https://arxiv.org/pdf/2606.06416",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.06416",
+      "scraped_at": "2026-06-06T03:37:06.651811"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "LLMs Can Leak Training Data But Do They Want To? A Propensity-Aware Evaluation of Memorization in LLMs",
+    "paper_url": "https://huggingface.co/papers/2606.06286",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LLMs Can Leak Training Data But Do They Want To? A Propensity-Aware Evaluation of Memorization in LLMs",
+      "abstract": "We introduced PropMe and SimpleTrace to prove that while AI can be forced to leak training data under attack, its natural propensity to do so during everyday use is remarkably low. We also found that continuous training helps models naturally dilute and forget these old memories over time, confirming previous work. Ultimately, we argue that AI safety audits must evolve to measure real-world leakage propensity, not just worst-case hacks, to give us a true, comprehensive picture of this phenomenon.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.06286",
+      "pdf_url": "https://arxiv.org/pdf/2606.06286",
+      "github_links": [
+        "https://github.com/N-essuno/PropMe",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.06286",
+      "scraped_at": "2026-06-06T03:37:08.615378"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "OPRD: On-Policy Representation Distillation",
+    "paper_url": "https://huggingface.co/papers/2606.06021",
+    "authors": [
+      "Mingxuan Xia",
+      "Haobo Wang",
+      "Bowen Song",
+      "Guangcheng Zhu",
+      "Shenzhi Yang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "OPRD: On-Policy Representation Distillation",
+      "abstract": "Due to the company's open-source process, the code will be released within the next week~",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.06021",
+      "pdf_url": "https://arxiv.org/pdf/2606.06021",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ShenzhiYang2000/OPRD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.06021",
+      "scraped_at": "2026-06-06T03:37:10.495326"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "MAOAM: Unified Object and Material Selection with Vision-Language Models",
+    "paper_url": "https://huggingface.co/papers/2606.04880",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "MAOAM: Unified Object and Material Selection with Vision-Language Models",
+      "abstract": "In this work, we present MAOAM, a unified selection framework that enables precise object and material-level selection across both text- and click-based interactions. A key challenge is the lack of material selection datasets with text annotations. We propose a scalable data generation pipeline: we collect real and synthetic images with material masks, and leverage VLMs to generate material descriptions with rich visual-semantics. We train MAOAM with a multi-task objective over click and text-based selection, along with an auxiliary VQA task derived from the material descriptions to facilitate deeper material understanding. Despite being trained with uni-modal prompts, our model exhibits an emergent improvement in selection when combining text and clicks at inference, enabling flexible image editing workflows. Experiments demonstrate accurate and coherent selections across diverse objects, materials, and interaction scenarios, highlighting robustness in practice.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.04880",
+      "pdf_url": "https://arxiv.org/pdf/2606.04880",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/adobe-research/obj-and-mat-selection"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.04880",
+      "scraped_at": "2026-06-06T03:37:12.761977"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "The Shadow Price of Reasoning: Economic Perspective on Optimal Budget Allocation for LLMs",
+    "paper_url": "https://huggingface.co/papers/2606.03092",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "The Shadow Price of Reasoning: Economic Perspective on Optimal Budget Allocation for LLMs",
+      "abstract": "Inference-time scaling has emerged as a critical avenue for enhancing Large Language Models' performance, yet real-world deployment is constrained by strict computational budgets. In this work, we formulate inference budget allocation as a global constrained optimization problem governed by economic principles. By modeling per-query reasoning utility with a shifted-surge function, we derive an optimal allocation policy based on a global shadow price that equilibrates marginal utility under resource scarcity. Based on this theory, we propose Constrained Latent-utility Equilibrium Allocation for Reasoning (CLEAR). It performs rational abandonment and reallocates resources from insolvent queries to solvable queries near their emergence thresholds. Extensive experiments on several reasoning tasks with different traffic streams demonstrate that CLEAR significantly improves the Pareto frontier of total token cost versus mean accuracy. In resource-scarce regimes, CLEAR achieves up to a 3x improvement in global accuracy compared to uniform allocation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.03092",
+      "pdf_url": "https://arxiv.org/pdf/2606.03092",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/waunx/CLEAR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.03092",
+      "scraped_at": "2026-06-06T03:37:14.606988"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis",
+    "paper_url": "https://huggingface.co/papers/2606.05979",
+    "authors": [
+      "Yanzhe Hu",
+      "Yiyang Chen",
+      "Siqi Kou",
+      "Zhihong Liu",
+      "Yi Yang"
+    ],
+    "stars": "10",
+    "details": {
+      "title": "World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.05979",
+      "pdf_url": "https://arxiv.org/pdf/2606.05979",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/SJTU-DENG-Lab/WLA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.05979",
+      "scraped_at": "2026-06-06T03:37:16.438753"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "Imagine Before You Predict: Interleaved Latent Visual Reasoning for Video Event Prediction",
+    "paper_url": "https://huggingface.co/papers/2606.05769",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Imagine Before You Predict: Interleaved Latent Visual Reasoning for Video Event Prediction",
+      "abstract": "Future-L1 nails video event prediction by letting MLLMs interleave text reasoning with latent visual \"imagination\" of future frames.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.05769",
+      "pdf_url": "https://arxiv.org/pdf/2606.05769",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/OpenGVLab/Future-L1"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.05769",
+      "scraped_at": "2026-06-06T03:37:18.295373"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "Meta-Cognitive Memory Policy Optimization for Long-Horizon LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2605.30159",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Meta-Cognitive Memory Policy Optimization for Long-Horizon LLM Agents",
+      "abstract": "Meta-Cognitive Memory Policy Optimization for Long-Horizon LLM Agents",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.30159",
+      "pdf_url": "https://arxiv.org/pdf/2605.30159",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.30159",
+      "scraped_at": "2026-06-06T03:37:20.162785"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "Towards One-to-Many Temporal Grounding",
+    "paper_url": "https://huggingface.co/papers/2606.06294",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Towards One-to-Many Temporal Grounding",
+      "abstract": "Temporal Grounding (TG) aims to localize video segments corresponding to a textual query. Prior research predominantly focuses on single-segment retrieval. Real-world scenarios, however, often require localizing multiple disjoint segments for a single query -- a setting we term One-to-Many Temporal Grounding (OMTG). Previous state-of-the-art MLLMs, optimized for one-to-one settings, struggle in this context, often yielding near-zero scores due to a lack of event cardinality perception. To bridge this gap, we present a systematic solution with three key contributions. First, we establish the first comprehensive OMTG benchmark, introducing Count Accuracy (C-Acc) and Effective Temporal F1 (EtF1) as evaluation metrics. Second, we curate a high-quality OMTG dataset comprising 56k samples through a sophisticated construction pipeline. Third, we develop novel temporal and caption reward functions specifically designed for OMTG. In particular, the caption reward leverages Chain-of-Thought reasoning over dense video captions to explicitly guide policy optimization toward both preciseness and completeness. Extensive experiments show our model achieves a new state-of-the-art EtF1 of 43.65% on OMTG Bench, outperforming Gemini 2.5 Pro and Seed-1.8 by 15.85% and 15.61%, respectively.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.06294",
+      "pdf_url": "https://arxiv.org/pdf/2606.06294",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.06294",
+      "scraped_at": "2026-06-06T03:37:22.021125"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery",
+    "paper_url": "https://huggingface.co/papers/2606.06473",
+    "authors": [
+      "Shiyang Feng",
+      "Zongsheng Cao",
+      "Jinxin Shi",
+      "Xiangchao Yan",
+      "Shangheng Du"
+    ],
+    "stars": "301",
+    "details": {
+      "title": "MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery",
+      "abstract": "MLEvolve is an LLM-based multi-agent framework for automated machine learning algorithm discovery, featuring Progressive Monte Carlo Graph Search and retrospective memory to enhance long-horizon optimization performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.06473",
+      "pdf_url": "https://arxiv.org/pdf/2606.06473",
+      "github_links": [
+        "https://github.com/InternScience/MLEvolve",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.06473",
+      "scraped_at": "2026-06-06T03:37:23.899232"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "SEAOTTER: Sensor Embedded Autoencoding with One-Time Transcode for Efficient Reconstruction",
+    "paper_url": "https://huggingface.co/papers/2606.03940",
+    "authors": [
+      "Neeraja J. Yadwadkar",
+      "danjacobellis"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SEAOTTER: Sensor Embedded Autoencoding with One-Time Transcode for Efficient Reconstruction",
+      "abstract": "https://ut-sysml.github.io/seaotter/",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.03940",
+      "pdf_url": "https://arxiv.org/pdf/2606.03940",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/UT-SysML/seaotter"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.03940",
+      "scraped_at": "2026-06-06T03:37:25.801785"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "AdaCodec: A Predictive Visual Code for Video MLLMs",
+    "paper_url": "https://huggingface.co/papers/2606.02569",
+    "authors": [
+      "Chenglin Li",
+      "Qingyi Si",
+      "Zheming Liang",
+      "Zhen Huang",
+      "Haowen Hou"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AdaCodec: A Predictive Visual Code for Video MLLMs",
+      "abstract": "Homepage： https://haowenhou.github.io/AdaCodec-Page/",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.02569",
+      "pdf_url": "https://arxiv.org/pdf/2606.02569",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.02569",
+      "scraped_at": "2026-06-06T03:37:27.655201"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "Learning Geometric Representations from Videos for Spatial Intelligent Multimodal Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2606.05833",
+    "authors": [
+      "Lifu Huang",
+      "Haibo Wang"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "Learning Geometric Representations from Videos for Spatial Intelligent Multimodal Large Language Models",
+      "abstract": "We propose GeoVR, a paradigm to restructure MLLM’s intrinsic representations with geometric awareness using purely 2D videos for Spatial Intelligence.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.05833",
+      "pdf_url": "https://arxiv.org/pdf/2606.05833",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/WHB139426/GeoVR-MLLM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.05833",
+      "scraped_at": "2026-06-06T03:37:29.588072"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "AffordanceVLA: A Vision-Language-Action Model Empowering Action Generation through Affordance-Aware Understanding",
+    "paper_url": "https://huggingface.co/papers/2606.06155",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "AffordanceVLA: A Vision-Language-Action Model Empowering Action Generation through Affordance-Aware Understanding",
+      "abstract": "AffordanceVLA introduces a structured affordance-forecasting bridge for VLA models, enabling robots to reason about what to manipulate, where to interact, and how to act for more robust instruction-following manipulation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.06155",
+      "pdf_url": "https://arxiv.org/pdf/2606.06155",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Skywalker-yqz/AffordanceVLA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.06155",
+      "scraped_at": "2026-06-06T03:37:31.646796"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "Towards Truly Multilingual ASR: Generalizing Code-Switching ASR to Unseen Language Pairs",
+    "paper_url": "https://huggingface.co/papers/2606.05846",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Towards Truly Multilingual ASR: Generalizing Code-Switching ASR to Unseen Language Pairs",
+      "abstract": "Automatic Speech Recognition (ASR) has become a key technology for human--AI interaction. However, code-switching ASR (CS-ASR) remains particularly challenging due to the severe scarcity of multilingual CS speech resources across diverse language pairs. Existing approaches primarily improve CS-ASR performance through synthetic CS speech generation or pair-specific fine-tuning on limited bilingual datasets. Nevertheless, these approaches face an inherent scalability limitation, as support for CS must be developed separately for language pairs whose number grows combinatorially with the number of supported languages. In this work, we investigate whether CS capabilities learned from a limited set of seen language pairs can generalize to unseen language pairs through model merging and domain generalization methods. Our experiments show that merged bilingual CS-ASR models modestly generalize to unseen language pairs, suggesting limited transfer of bilingual CS capabilities across language pairs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.05846",
+      "pdf_url": "https://arxiv.org/pdf/2606.05846",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.05846",
+      "scraped_at": "2026-06-06T03:37:33.521906"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "SePO: Self-Evolving Prompt Agent for System Prompt Optimization",
+    "paper_url": "https://huggingface.co/papers/2606.04465",
+    "authors": [
+      "Weng-Fai Wong",
+      "Han Wu",
+      "taowangcheng"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SePO: Self-Evolving Prompt Agent for System Prompt Optimization",
+      "abstract": "SePO is a self-evolving system prompt optimization framework that improves a prompt agent by applying the same prompt optimization procedure to the prompt agent itself.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.04465",
+      "pdf_url": "https://arxiv.org/pdf/2606.04465",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.04465",
+      "scraped_at": "2026-06-06T03:37:35.354778"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "Flash-WAM: Modality-Aware Distillation for World Action Models",
+    "paper_url": "https://huggingface.co/papers/2606.05254",
+    "authors": [
+      "Yixiao Chen",
+      "Lin Zhao",
+      "Arash Akbari",
+      "Ci Zhang",
+      "armanakbari4"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Flash-WAM: Modality-Aware Distillation for World Action Models",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.05254",
+      "pdf_url": "https://arxiv.org/pdf/2606.05254",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.05254",
+      "scraped_at": "2026-06-06T03:37:37.167530"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "MechVQA: Benchmarking and Enhancing Multimodal LLMs on Comprehensive Mechanical Drawing Understanding",
+    "paper_url": "https://huggingface.co/papers/2605.30794",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MechVQA: Benchmarking and Enhancing Multimodal LLMs on Comprehensive Mechanical Drawing Understanding",
+      "abstract": "Accepted by ICML2026",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.30794",
+      "pdf_url": "https://arxiv.org/pdf/2605.30794",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.30794",
+      "scraped_at": "2026-06-06T03:37:39.032990"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "Revising Context, Shifting Simulated Stance: Auditing LLM-Based Stance Simulation in Online Discussions",
+    "paper_url": "https://huggingface.co/papers/2606.06443",
+    "authors": [
+      "Jiebo Luo",
+      "Zhongyu Wei",
+      "Hanjia Lyu",
+      "Wanting Shan",
+      "Xinnong Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Revising Context, Shifting Simulated Stance: Auditing LLM-Based Stance Simulation in Online Discussions",
+      "abstract": "Large language models are increasingly used to simulate social media users and infer how individuals may respond to online discussions. In this work, we study counterfactual context revision as a framework for auditing LLM-based stance simulation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.06443",
+      "pdf_url": "https://arxiv.org/pdf/2606.06443",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.06443",
+      "scraped_at": "2026-06-06T03:37:40.841787"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "Latent Reasoning with Normalizing Flows",
+    "paper_url": "https://huggingface.co/papers/2606.06447",
+    "authors": [
+      "Haoqiang Kang",
+      "Yao Tang",
+      "Suhao Yu",
+      "Xiangjun Fu",
+      "Guancheng Tu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Latent Reasoning with Normalizing Flows",
+      "abstract": "NF-CoT introduces a latent reasoning framework for LLMs that models intermediate thoughts as continuous states using normalizing flows, preserving autoregressive decoding while improving performance and efficiency.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.06447",
+      "pdf_url": "https://arxiv.org/pdf/2606.06447",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.06447",
+      "scraped_at": "2026-06-06T03:37:42.806595"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "Benchmark Everything Everywhere All at Once",
+    "paper_url": "https://huggingface.co/papers/2606.06462",
+    "authors": [
+      "Bokang Yang",
+      "Yuang Ai",
+      "Peiwen Sun",
+      "Dongming Wu",
+      "Christinexx"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Benchmark Everything Everywhere All at Once",
+      "abstract": "Paper: https://arxiv.org/abs/2606.06462 Code: https://github.com/Shiyun-x/Benchmark-Agent",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.06462",
+      "pdf_url": "https://arxiv.org/pdf/2606.06462",
+      "github_links": [
+        "https://github.com/Shiyun-x/Benchmark-Agent",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.06462",
+      "scraped_at": "2026-06-06T03:37:44.622893"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "EvoDS: Self-Evolving Autonomous Data Science Agent with Skill Learning and Context Management",
+    "paper_url": "https://huggingface.co/papers/2606.03841",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "EvoDS: Self-Evolving Autonomous Data Science Agent with Skill Learning and Context Management",
+      "abstract": "Accepted by KDD2026",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.03841",
+      "pdf_url": "https://arxiv.org/pdf/2606.03841",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/usail-hkust/EvoDS"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.03841",
+      "scraped_at": "2026-06-06T03:37:46.490291"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "The Shape of Addition: Geometric Structures of Arithmetic in Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2606.03645",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "The Shape of Addition: Geometric Structures of Arithmetic in Large Language Models",
+      "abstract": "We introduce The Shape of Addition , a mechanistic interpretability study of why LLMs can still fail at basic multi-operand addition. By probing residual-stream activations at each generated digit, we find that arithmetic states are organized into Iso-Raw-Sum Trajectories (IRSTs) : continuous raw-sum fibers passing through digit basins and further stratified by carry states. This geometry explains common off-by-one arithmetic errors as geometric slippages , where noisy latent carry representations cross quantization thresholds before discrete token output. We further propose a Noisy Quantization Model to characterize these failures, and validate the framework with a dual-stream consistency check that can detect and correct some quantization errors during inference. The results suggest that LLMs may internally retain correct arithmetic components even when the final token prediction is wrong.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.03645",
+      "pdf_url": "https://arxiv.org/pdf/2606.03645",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/RL-MIND/Shape-of-Addition"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.03645",
+      "scraped_at": "2026-06-06T03:37:48.407526"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "Regret Minimization with Adaptive Opponents in Repeated Games",
+    "paper_url": "https://huggingface.co/papers/2606.06486",
+    "authors": [
+      "Kaiqing Zhang",
+      "Tiancheng Yu",
+      "Asuman Ozdaglar",
+      "Mingyang Liu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Regret Minimization with Adaptive Opponents in Repeated Games",
+      "abstract": "In this paper, we study regret minimization in repeated games with \\emph{adaptive} opponents who can respond based on histories of play. The standard metric of \\emph{external regret} in online learning is known to fail to capture such adaptivity. To account for players' counterfactual reasoning, we introduce {\\tt Repeated Policy Regret (RP-Regret)}, a game-theoretic metric that measures the difference between the \\emph{realized} and the \\emph{best-in-hindsight} accumulated utility when all players can \\emph{respond} to the history of play. Compared to existing regret notions in this setting, ours is native to repeated game playing, enabling stronger comparators and opponents with fewer constraints, while maintaining the possibility of finding better equilibria when all players minimize it. We first identify necessary conditions for obtaining {\\tt RP-Regret} sublinear in time, on the variation of the player's comparator strategies in the regret definition and on the memories of both the comparator and opponents' strategies. We then study additional conditions and provable algorithms to minimize {\\tt RP-Regret}, which is by definition \\emph{non-convex} in the strategy space. To address this challenge, we propose three algorithms: (i) one based on an optimization oracle, as assumed in some prior work in online non-convex learning; (ii) one that minimizes a convex and \\emph{linearized} surrogate of {\\tt RP-Regret} at each iteration; (iii) one that directly minimizes {\\tt RP-Regret} when opponents change strategies slowly. Furthermore, when all players can run algorithms to minimize the {\\tt RP-Regret} (or its linearized variant), certain subgame perfect equilibria of the repeated game can be learned. We also provide experiments showing that minimizing our regret notions can lead to more cooperative solutions with higher utility in games such as Stag-Hunt.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.06486",
+      "pdf_url": "https://arxiv.org/pdf/2606.06486",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.06486",
+      "scraped_at": "2026-06-06T03:37:50.259595"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "AURA: Intent-Directed Probing for Implicit-Need Surfacing in Situated LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2606.05557",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AURA: Intent-Directed Probing for Implicit-Need Surfacing in Situated LLM Agents",
+      "abstract": "AURA: Intent-Directed Probing for Implicit-Need Surfacing in Situated LLM Agents Situated queries often carry implicit needs beyond their literal wording — asking \"where is Lin Wei?\" may really be asking \"are they free to interrupt?\" Standard ReAct-style agents take such queries at face value and either miss the underlying need or over-probe with unnecessary tool calls. AURA adds an IntentFrame inference step that estimates the implicit need behind a query and computes a gap score that directs tool selection — probing only when there's a genuine information gap to close. On a 100-query benchmark, AURA improves coverage of implicit needs over ReAct-style baselines while significantly cutting unnecessary tool probes. Code, simulator, and benchmark: https://github.com/innovation64/AURA",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.05557",
+      "pdf_url": "https://arxiv.org/pdf/2606.05557",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/innovation64/AURA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.05557",
+      "scraped_at": "2026-06-06T03:37:52.164882"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "Discrete-WAM: Unified Discrete Vision-Action Token Editing for World-Policy Learning",
+    "paper_url": "https://huggingface.co/papers/2606.05645",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Discrete-WAM: Unified Discrete Vision-Action Token Editing for World-Policy Learning",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.05645",
+      "pdf_url": "https://arxiv.org/pdf/2606.05645",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.05645",
+      "scraped_at": "2026-06-06T03:37:53.979325"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "Video2LoRA: Parametric Video Internalization for Vision-Language Models",
+    "paper_url": "https://huggingface.co/papers/2606.04351",
+    "authors": [
+      "Dinesh Manocha",
+      "Sarvesh Baskar",
+      "MananSuri27"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Video2LoRA: Parametric Video Internalization for Vision-Language Models",
+      "abstract": "Zero token video understanding for VLMs! We train hypernetworks to metalearn video understanding for VLMs; during inference you can convert a video to a LoRA adapter in a single forward pass, and have efficient video understanding without any visual tokens in the model's context. We show: → Up to 1500× reduction in answer-time visual-token load → 6–80× faster TTFT during queries → Statistically equivalent / non-inferior to direct video-in-context inference across most captioning and QA settings → At scales like 1024px and 1024 frames, where the base model often degenerates into gibberish, Video2LoRA-enabled VLMs still generate meaningfully relevant content",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.04351",
+      "pdf_url": "https://arxiv.org/pdf/2606.04351",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/MananSuri27/video2lora"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.04351",
+      "scraped_at": "2026-06-06T03:37:55.852102"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "Absorbing Complexity: An Interaction-Native Knowledge Harness for Financial LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2606.01886",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Absorbing Complexity: An Interaction-Native Knowledge Harness for Financial LLM Agents",
+      "abstract": "Financial AI adoption is constrained not by model quality but by cognition friction: users repeatedly restate fragmented context, historical judgments, and risk preferences. Existing financial agents remain turn-based and workflow-disposable. We propose InKH, a financial-agent architecture combining: an event-stream view of user/market/tool updates; a bounded working context buffer assembled by passive injection rather than agent-driven search; a temporal knowledge graph for low-latency retrieval; a wiki audit surface; and background extraction with maturity, decay, and write-time invalidation. We report a reproducible benchmark with 24 seeds, 4 rounds, 80 episodes per round, and 6 baselines. InKH achieves 0.815 task quality at 900ms mean latency. Relative to agent-driven wiki-walk memory: 82.95% lower latency, 82.29% lower token cost, 96.58% less stale-knowledge usage, +0.108 task quality, +0.461 traceability.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.01886",
+      "pdf_url": "https://arxiv.org/pdf/2606.01886",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.01886",
+      "scraped_at": "2026-06-06T03:37:57.735912"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "Quality-Guided Semi-Supervised Learning for Medical Image Segmentation",
+    "paper_url": "https://huggingface.co/papers/2606.01753",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Quality-Guided Semi-Supervised Learning for Medical Image Segmentation",
+      "abstract": "Introduces the first framework-agnostic method to leverage a learned quality prediction model to guide semi-supervised learning (SSL). Two complementary mechanisms for integrating as drop-in enhancements to existing SSL frameworks: differentiable quality regularization and pseudo-label re-weighting. Extensive evaluation across multiple medical imaging datasets, modalities, SSL paradigms, and model architectures.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.01753",
+      "pdf_url": "https://arxiv.org/pdf/2606.01753",
+      "github_links": [
+        "https://github.com/sfu-mial/QG-SSL",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.01753",
+      "scraped_at": "2026-06-06T03:37:59.595210"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "LLM Anonymization Against Agentic Re-Identification",
+    "paper_url": "https://huggingface.co/papers/2605.30848",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LLM Anonymization Against Agentic Re-Identification",
+      "abstract": "Agentic LLMs with web search change the threat model for text anonymization: weak contextual cues can become cross-referenceable evidence for re-identification, yet those same details also carry downstream analytic value of the text. Existing defenses either remove explicit identifiers, perturb text for formal privacy, or test rewritten text against non-web inference models, leaving underexplored the operating region between resistance to agentic web-search re-identification and utility retention. We introduce AURA (Anonymization with Utility-Retention Adaptation), an LLM-powered mask-reconstruct framework that decouples privacy localization from utility-preserving reconstruction and selects candidates with adversarial privacy and utility-retention checks. We evaluate AURA on real-user interview transcripts using re-identification attacks carried out by web-search agents, along with a utility evaluation based on interviewee-profile facts, codebook facts, and the joint contextual utility grid. Our results show that AURA improves the privacy-utility frontier by using adaptive privacy scope to strengthen resistance to agentic re-identification and using a mask-reconstruct anonymization method to better preserve contextual utility under fixed privacy scope.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.30848",
+      "pdf_url": "https://arxiv.org/pdf/2605.30848",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/PEACH-Research-Lab/AURA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.30848",
+      "scraped_at": "2026-06-06T03:38:01.467118"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "Combinatorial Synthesis: Scaling Code RLVR via Atomic Decomposition and Recombination",
+    "paper_url": "https://huggingface.co/papers/2605.31058",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Combinatorial Synthesis: Scaling Code RLVR via Atomic Decomposition and Recombination",
+      "abstract": "We propose Atomic Decomposition and Recombination (ADR), a novel framework that generates verifiable code tasks via decomposition into atomic elements and controlled recombination, thereby enabling the generation of genuinely novel and challenging verifiable code tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.31058",
+      "pdf_url": "https://arxiv.org/pdf/2605.31058",
+      "github_links": [
+        "https://github.com/icip-cas/ADR",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.31058",
+      "scraped_at": "2026-06-06T03:38:03.363465"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "Multimodal Music Recommendation System using LLMs",
+    "paper_url": "https://huggingface.co/papers/2606.00125",
+    "authors": [
+      "Swetha Mohan",
+      "Chandana Magapu",
+      "Sreehitha R. Narayana",
+      "Srikar Prabhas Kandagatla",
+      "Franck-Dernoncourt"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Multimodal Music Recommendation System using LLMs",
+      "abstract": "Dataset: https://zenodo.org/records/20431748",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.00125",
+      "pdf_url": "https://arxiv.org/pdf/2606.00125",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.00125",
+      "scraped_at": "2026-06-06T03:38:05.252716"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "Trust Region Q Adjoint Matching",
+    "paper_url": "https://huggingface.co/papers/2605.27079",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "Trust Region Q Adjoint Matching",
+      "abstract": "TRQAM internalizes the trust region as a scalar λ inside the flow-policy sampling SDE — an exact Girsanov path-space KL identity (Thm 1) makes the KL budget structurally enforceable via dual descent. 68% vs 46% on 50 OGBench tasks. 👇 blog & code",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.27079",
+      "pdf_url": "https://arxiv.org/pdf/2605.27079",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yonghdong/trqam"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.27079",
+      "scraped_at": "2026-06-06T03:38:07.163800"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "Is This Edit Correct? A Multi-Dimensional Benchmark for Reasoning-Aware Image Editing",
+    "paper_url": "https://huggingface.co/papers/2606.05172",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Is This Edit Correct? A Multi-Dimensional Benchmark for Reasoning-Aware Image Editing",
+      "abstract": "Diffusion-based image editing has achieved strong visual fidelity under natural language instructions, yet most existing systems still operate at the level of surface instruction following, without reasoning about the implicit contextual constraints embedded in real user requests. This often leads to visually plausible but logically inconsistent edits. In this work, we introduce RE-Edit, a benchmark for REasoning-aware image Editing that evaluates image editing systems across five complementary reasoning dimensions: physical, environmental, cultural, causal, and referential. RE-Edit comprises 1,000 carefully curated samples, each designed such that visual plausibility alone is insufficient and correct editing requires satisfying implicit logical constraints. To support fine-grained analysis, we establish dimension-aligned evaluation criteria and conduct a comprehensive study of ten open-source and two commercial image editing models. Our results show that even advanced systems frequently struggle with implicit multi-dimensional reasoning despite producing high-quality visuals. We further present a lightweight reasoning-guided post-edit baseline as an initial exploration, illustrating how inserting explicit reasoning can help mitigate such failures in a model-agnostic manner.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.05172",
+      "pdf_url": "https://arxiv.org/pdf/2606.05172",
+      "github_links": [
+        "https://github.com/Yixuan-Ding-ZJU/RE-Edit",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.05172",
+      "scraped_at": "2026-06-06T03:38:09.026815"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "ForeSci: Evaluating LLM Agents for Forward-Looking AI Research Judgment",
+    "paper_url": "https://huggingface.co/papers/2606.00644",
+    "authors": [
+      "Zequn Liu",
+      "Youyong Kong",
+      "Yingce Xia",
+      "Haojie Yin",
+      "Qiuyu Tian"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ForeSci: Evaluating LLM Agents for Forward-Looking AI Research Judgment",
+      "abstract": "AI research often requires decisions before future evidence exists: which bottleneck to attack, which direction to pursue, or where a project should be positioned. We introduce ForeSci, a temporally controlled benchmark for evaluating whether LLM agents can make such forward-looking research judgements from historical evidence.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.00644",
+      "pdf_url": "https://arxiv.org/pdf/2606.00644",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.00644",
+      "scraped_at": "2026-06-06T03:38:10.865314"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "BRepCLIP: Contrastive Multimodal Pretraining on BRep Primitives for CAD Understanding",
+    "paper_url": "https://huggingface.co/papers/2606.05515",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "BRepCLIP: Contrastive Multimodal Pretraining on BRep Primitives for CAD Understanding",
+      "abstract": "Learning representations of CAD models is a largely open problem. While 3D representation learning has flourished around point clouds and meshes, the native format of CAD - boundary representations BReps, which encodes exact parametric surfaces, curves, and their topology, has received little attention as a representation learning substrate. We introduce BRepCLIP, the first framework to align BRep geometry with language and image embeddings through contrastive pretraining. We model each CAD object as a sequence of face and edge tokens with separate discrete vocabularies for surface and curve geometry, augmented with spatial and semantic descriptors that capture surface types (e.g., cylindrical, torus, NURBS) and curve primitives (e.g., line, arc, B-spline). A transformer encoder aggregates these tokens into a global BRep embedding, aligned with CLIP's text and image encoders via a joint contrastive objective. BRepCLIP generates more discriminative and semantically grounded embeddings than existing point-based alternatives, improving Top-1 retrieval over OpenShape by 40.4%, 22.0%, and 23.9% on ABC, CADParser, and Automate, respectively, and improving zero-shot classification on FabWave by 15% in Top-1 score. We further demonstrate its utility as a CAD-aware similarity metric for evaluating text and image-conditioned CAD generation, establishing the importance of structure-aware pretraining for multimodal CAD understanding.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.05515",
+      "pdf_url": "https://arxiv.org/pdf/2606.05515",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.05515",
+      "scraped_at": "2026-06-06T03:38:12.719562"
+    },
+    "scraped_date": "2026-06-06"
+  },
+  {
+    "title": "SABER: Benchmarking Operational Safety of LLM Coding Agents in Stateful Project Workspaces",
+    "paper_url": "https://huggingface.co/papers/2606.01317",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SABER: Benchmarking Operational Safety of LLM Coding Agents in Stateful Project Workspaces",
+      "abstract": "SABER shifts coding-agent safety evaluation from single-turn refusal behavior to the final state of a realistic, stateful workspace after multi-step agent actions. This is an important benchmark direction because many safety failures in coding agents emerge operationally, through file edits, commands, and environment changes, rather than in isolated model responses. The reported >54% harmful safety-violation rate, even for the best model, is a strong signal that current alignment is still not sufficient for realistic project settings.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.01317",
+      "pdf_url": "https://arxiv.org/pdf/2606.01317",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/sssr-lab/saber"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.01317",
+      "scraped_at": "2026-06-06T03:38:14.686275"
+    },
+    "scraped_date": "2026-06-06"
   }
 ]
