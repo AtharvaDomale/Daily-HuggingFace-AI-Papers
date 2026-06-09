@@ -4162,5 +4162,175 @@
       "scraped_at": "2026-06-08T04:07:50.801328"
     },
     "scraped_date": "2026-06-08"
+  },
+  {
+    "title": "SWE-Explore: Benchmarking How Coding Agents Explore Repositories",
+    "paper_url": "https://huggingface.co/papers/2606.07297",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "SWE-Explore: Benchmarking How Coding Agents Explore Repositories",
+      "abstract": "Is your coding agent good at exploring repositories?",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.07297",
+      "pdf_url": "https://arxiv.org/pdf/2606.07297",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Qiushao-E/SWE-Explore-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.07297",
+      "scraped_at": "2026-06-09T03:37:23.069012"
+    },
+    "scraped_date": "2026-06-09"
+  },
+  {
+    "title": "On the Geometry of On-Policy Distillation",
+    "paper_url": "https://huggingface.co/papers/2606.07082",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "On the Geometry of On-Policy Distillation",
+      "abstract": "On-policy distillation (OPD) is increasingly used to improve large language model reasoning, but its training dynamics remain poorly understood. We characterize the trajectory of OPD updates in parameter space and compare it with supervised fine-tuning (SFT) and reinforcement learning with verifiable rewards (RLVR). A suite of parameter-space diagnostics consistently places OPD in a relaxed off-principal regime: compared with SFT, its updates affect fewer weights and avoid principal directions more strongly, while compared with RLVR, they remain less tightly constrained. Beyond this static localization, OPD exhibits subspace locking: its cumulative updates rapidly enter a narrow low-dimensional channel. Constraining training to the update subspace formed early in training preserves OPD performance but substantially degrades SFT, indicating that the locked subspace is functionally sufficient for OPD. Control experiments further show that sparsifying the update tokens and shifting rollout generation off-policy preserve the rank dynamics, whereas mixing the OPD objective with RLVR changes them. Overall, these results suggest that OPD is not merely an intermediate point between SFT and RLVR, but induces its own update geometry in parameter space.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.07082",
+      "pdf_url": "https://arxiv.org/pdf/2606.07082",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.07082",
+      "scraped_at": "2026-06-09T03:37:24.908489"
+    },
+    "scraped_date": "2026-06-09"
+  },
+  {
+    "title": "Latent Spatial Memory for Video World Models",
+    "paper_url": "https://huggingface.co/papers/2606.09828",
+    "authors": [],
+    "stars": "14",
+    "details": {
+      "title": "Latent Spatial Memory for Video World Models",
+      "abstract": "Latent Spatial Memory stores persistent 3D scene content directly as latent tokens in video world models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.09828",
+      "pdf_url": "https://arxiv.org/pdf/2606.09828",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/microsoft/LatentSpatialMemory"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.09828",
+      "scraped_at": "2026-06-09T03:37:26.815674"
+    },
+    "scraped_date": "2026-06-09"
+  },
+  {
+    "title": "Human Psychometric Questionnaires Mischaracterize LLM Behavior",
+    "paper_url": "https://huggingface.co/papers/2509.10078",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Human Psychometric Questionnaires Mischaracterize LLM Behavior",
+      "abstract": "We examine whether human psychometric questionnaires can serve as reliable tools for characterizing and predicting LLM behavior in everyday user interactions. We analyze eight open-source LLMs by comparing their value and personality profiles derived from two different methods: Likert self-reports on established questionnaires (PVQ-40/21 and BFI-44/10) and generation probabilities over value-laden responses to everyday user queries. The two profiles diverge substantially. Within-construct item consistency, often cited as evidence of stable LLM dispositions, disappears in generation probabilities. We attribute this gap to the fact that explicit lexical cues in established questionnaire items allow models to recognize the target construct and respond in alignment-consistent, socially desirable ways, whereas realistic user queries provide no such cues. In addition, demographic persona prompts shift models' responses to human questionnaires in ways consistent with real human patterns, but no such shifts appear in the generation probabilities of responses to realistic user queries, showing their limited ability to simulate the behaviors of target demographics in real-world user interactions. Overall, our study shows that human psychometric questionnaires are insufficient tools for predicting LLM behavior and suggests generation-based profiling as a more accurate measure.",
+      "arxiv_page_url": "https://arxiv.org/abs/2509.10078",
+      "pdf_url": "https://arxiv.org/pdf/2509.10078",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2509.10078",
+      "scraped_at": "2026-06-09T03:37:28.752799"
+    },
+    "scraped_date": "2026-06-09"
+  },
+  {
+    "title": "SpatialWorld: Benchmarking Interactive Spatial Reasoning of Multimodal Agents in Real-World Tasks",
+    "paper_url": "https://huggingface.co/papers/2606.09669",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "SpatialWorld: Benchmarking Interactive Spatial Reasoning of Multimodal Agents in Real-World Tasks",
+      "abstract": "The paper can be also found in https://github.com/Hongcheng-Gao/SpatialWorld/blob/main/SpatialWorld.pdf",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.09669",
+      "pdf_url": "https://arxiv.org/pdf/2606.09669",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Hongcheng-Gao/SpatialWorld",
+        "https://github.com/Hongcheng-Gao/SpatialWorld/blob/main/SpatialWorld.pdf"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.09669",
+      "scraped_at": "2026-06-09T03:37:30.603853"
+    },
+    "scraped_date": "2026-06-09"
+  },
+  {
+    "title": "CoVEBench: Can Video Editing Models Handle Complex Instructions?",
+    "paper_url": "https://huggingface.co/papers/2606.08415",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "CoVEBench: Can Video Editing Models Handle Complex Instructions?",
+      "abstract": "We introduce CoVEBench, a fine-grained checklist benchmark to evaluate text-guided video editing models on complex, compositional instructions.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.08415",
+      "pdf_url": "https://arxiv.org/pdf/2606.08415",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/NJU-LINK/CoVEBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.08415",
+      "scraped_at": "2026-06-09T03:37:32.578362"
+    },
+    "scraped_date": "2026-06-09"
+  },
+  {
+    "title": "Echo-Memory: A Controlled Study of Memory in Action World Models",
+    "paper_url": "https://huggingface.co/papers/2606.09803",
+    "authors": [
+      "Haoran Li",
+      "Jie Huang",
+      "Yuxuan Bian",
+      "Zeyue Xue",
+      "Wayne King"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Echo-Memory: A Controlled Study of Memory in Action World Models",
+      "abstract": "Echo-Memory is a controlled study that systematically evaluates memory mechanisms in action-conditioned world models to address challenges in long-term scene consistency and object retention.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.09803",
+      "pdf_url": "https://arxiv.org/pdf/2606.09803",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Echo-Team-Joy-Future-Academy-JD/Echo-Memory"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.09803",
+      "scraped_at": "2026-06-09T03:37:34.609286"
+    },
+    "scraped_date": "2026-06-09"
+  },
+  {
+    "title": "Set-Based Transformer for Atmospheric Compensation in Standoff LWIR Hyperspectral Imaging",
+    "paper_url": "https://huggingface.co/papers/2606.08324",
+    "authors": [
+      "Hoover Rueda-Chacon",
+      "Jeferson Acevedo",
+      "Nicolas Quintero",
+      "Fabian Perez"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Set-Based Transformer for Atmospheric Compensation in Standoff LWIR Hyperspectral Imaging",
+      "abstract": "github: https://github.com/Factral/SAE-LWIR",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.08324",
+      "pdf_url": "https://arxiv.org/pdf/2606.08324",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Factral/SAE-LWIR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.08324",
+      "scraped_at": "2026-06-09T03:37:36.517971"
+    },
+    "scraped_date": "2026-06-09"
   }
 ]

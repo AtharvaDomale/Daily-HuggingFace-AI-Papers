@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-15-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-4596+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-8-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-4604+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">15</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">15</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">193</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">4596+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">8</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">23</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">201</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">4604+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** June 08, 2026
+**Last Updated:** June 09, 2026
 
 ---
 
@@ -119,211 +119,110 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. SubtleMemory: A Benchmark for Fine-Grained Relational Memory Discrimination in Long-Horizon AI Agents</b> ⭐ 3</summary>
+<summary><b>1. SWE-Explore: Benchmarking How Coding Agents Explore Repositories</b> ⭐ 5</summary>
 
 <br/>
 
-**👥 Authors:** Weinan Zhang, Mingyang Song, Fukuan Hou, Haoyu Sun, Yummytanmo
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.07297) • [📄 arXiv](https://arxiv.org/abs/2606.07297) • [📥 PDF](https://arxiv.org/pdf/2606.07297)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.05761) • [📄 arXiv](https://arxiv.org/abs/2606.05761) • [📥 PDF](https://arxiv.org/pdf/2606.05761)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Qiushao-E/SWE-Explore-Bench)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Yummytanmo/SubtleMemory)
-
-> Persistent AI assistants, such as OpenClaw, accumulate large collections of related memories over long-term interactions. As these memories grow, they may reinforce one another, diverge across contexts, or directly conflict, making correct assista...
+> Is your coding agent good at exploring repositories?
 
 </details>
 
 <details>
-<summary><b>2. When Tools Fail: Benchmarking Dynamic Replanning and Anomaly Recovery in LLM Agents</b> ⭐ 2</summary>
+<summary><b>2. On the Geometry of On-Policy Distillation</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.05806) • [📄 arXiv](https://arxiv.org/abs/2606.05806) • [📥 PDF](https://arxiv.org/pdf/2606.05806)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Zhudongsheng75/ToolMaze)
-
-> When Tools Fail: Benchmarking Dynamic Replanning and Anomaly Recovery in LLM Agents
-
-</details>
-
-<details>
-<summary><b>3. UniSHARP: Universal Sharp Monocular View Synthesis</b> ⭐ 9</summary>
-
-<br/>
-
-**👥 Authors:** Bo Du, Ruiyang Zhang, Hao Ren, Dizhe Zhang, Meixi Song
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.07514) • [📄 arXiv](https://arxiv.org/abs/2606.07514) • [📥 PDF](https://arxiv.org/pdf/2606.07514)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Insta360-Research-Team/UniSHARP)
-
-> Given a single image from a perspective, wide-FoV, fisheye, or panoramic camera, UniSHARP predicts a 3D Gaussian point cloud and renders high-quality novel views.
-
-</details>
-
-<details>
-<summary><b>4. LIMMT: Less is More for Motion Tracking</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.06953) • [📄 arXiv](https://arxiv.org/abs/2606.06953) • [📥 PDF](https://arxiv.org/pdf/2606.06953)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.07082) • [📄 arXiv](https://arxiv.org/abs/2606.07082) • [📥 PDF](https://arxiv.org/pdf/2606.07082)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> Accepted at ICML 2026.
+> On-policy distillation (OPD) is increasingly used to improve large language model reasoning, but its training dynamics remain poorly understood. We characterize the trajectory of OPD updates in parameter space and compare it with supervised fine-t...
 
 </details>
 
 <details>
-<summary><b>5. Watch, Remember, Reason: Human-View Video Understanding with MLLMs</b> ⭐ 0</summary>
+<summary><b>3. Latent Spatial Memory for Video World Models</b> ⭐ 14</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.07433) • [📄 arXiv](https://arxiv.org/abs/2606.07433) • [📥 PDF](https://arxiv.org/pdf/2606.07433)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.09828) • [📄 arXiv](https://arxiv.org/abs/2606.09828) • [📥 PDF](https://arxiv.org/pdf/2606.09828)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/marinero4972/Awesome-HumanView-VideoUnderstanding)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/microsoft/LatentSpatialMemory)
 
-> Watch, Remember, Reason: Human-View Video Understanding with MLLMs
+> Latent Spatial Memory stores persistent 3D scene content directly as latent tokens in video world models.
 
 </details>
 
 <details>
-<summary><b>6. Thinking with Imagination: Agentic Visual Spatial Reasoning with World Simulators</b> ⭐ 0</summary>
+<summary><b>4. Human Psychometric Questionnaires Mischaracterize LLM Behavior</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.06476) • [📄 arXiv](https://arxiv.org/abs/2606.06476) • [📥 PDF](https://arxiv.org/pdf/2606.06476)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/ZCMax/Thinking-With-Imagination)
-
-> Spatial reasoning from multi-view images often requires evidence that is not visible in the given observations. Astra studies this problem as thinking with imagination: a VLM actively queries a world simulator for missing viewpoints and uses the r...
-
-</details>
-
-<details>
-<summary><b>7. OpenSkill: Open-World Self-Evolution for LLM Agents</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Yuxuan Zhang, Wei Liang, Hanrong Zhang, Dingjie Song, Zhiling Yan
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.06741) • [📄 arXiv](https://arxiv.org/abs/2606.06741) • [📥 PDF](https://arxiv.org/pdf/2606.06741)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/OpenLAIR/OpenSkill)
-
-> OpenSkill is a framework enabling LLM agents to self-evolve by synthesizing grounded skills and verification signals from open-world resources without external target-task supervision.
-
-</details>
-
-<details>
-<summary><b>8. When Gradients Collide: Failure Modes of Multi-Objective Prompt Optimization for LLM Judges</b> ⭐ 1</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2605.26046) • [📄 arXiv](https://arxiv.org/abs/2603.00451) • [📥 PDF](https://arxiv.org/pdf/2605.26046)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/adivekar-utexas/when-gradients-collide)
-
-> Title: When Gradients Collide: Failure Modes of Multi-Objective Prompt Optimization for LLM Judges Authors: Parth Darshan (IIT Jodhpur), Abhishek Divekar (Amazon) Blogpost: https://textgrad-failure-modes.github.io Codebase: https://github.com/adiv...
-
-</details>
-
-<details>
-<summary><b>9. Stream3D-VLM: Online 3D Spatial Understanding with Incremental Geometry Priors</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.06891) • [📄 arXiv](https://arxiv.org/abs/2606.06891) • [📥 PDF](https://arxiv.org/pdf/2606.06891)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/hanxunyu/Stream3D-VLM)
-
-> Stream3D-VLM is an online 3D vision-language model that supports real-time spatial understanding and interaction directly from streaming video. By incrementally integrating geometry priors and employing geometry-adaptive voxel compression, our app...
-
-</details>
-
-<details>
-<summary><b>10. Your UnEmbedding Matrix is Secretly a Feature Lens for Text Embeddings</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Cong Li, Heng Cui, Yuxuan Liu, Zhongxin Chen, Songhao Wu
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.07502) • [📄 arXiv](https://arxiv.org/abs/2606.07502) • [📥 PDF](https://arxiv.org/pdf/2606.07502)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/CentreChen/EmbFilter)
-
-> We show that the unemebdding matrix within LLMs serve as an overlooked feature extractor for free.  It encodes a latent semantic space; filtering out its effects from the primary text embeddings markedly improves zero-shot representation performan...
-
-</details>
-
-<details>
-<summary><b>11. PaperFlow: Profiling, Recommending, and Adapting Across Daily Paper Streams</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.07454) • [📄 arXiv](https://arxiv.org/abs/2606.07454) • [📥 PDF](https://arxiv.org/pdf/2606.07454)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/OpenRaiser/PaperFlow)
-
-> Scientific paper recommendation is typically evaluated as static ranking over a fixed candidate set, yet real scientific reading unfolds as a daily, longitudinal process in which interests shift and feedback accumulates. We introduce PaperFlow, a ...
-
-</details>
-
-<details>
-<summary><b>12. Socratic-SWE: Self-Evolving Coding Agents via Trace-Derived Agent Skills</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Bing Zhao, Wei Wang, Shaobo Wang, Zhengbo Jiao, Chuan Xiao
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.07412) • [📄 arXiv](https://arxiv.org/abs/2606.07412) • [📥 PDF](https://arxiv.org/pdf/2606.07412)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2509.10078) • [📄 arXiv](https://arxiv.org/abs/2509.10078) • [📥 PDF](https://arxiv.org/pdf/2509.10078)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> Socratic-SWE is a self-evolution framework for coding agents that distills historical solving traces into structured skills, enabling the generation of targeted tasks to improve software engineering performance.
+> We examine whether human psychometric questionnaires can serve as reliable tools for characterizing and predicting LLM behavior in everyday user interactions. We analyze eight open-source LLMs by comparing their value and personality profiles deri...
 
 </details>
 
 <details>
-<summary><b>13. dots.tts Technical Report</b> ⭐ 210</summary>
+<summary><b>5. SpatialWorld: Benchmarking Interactive Spatial Reasoning of Multimodal Agents in Real-World Tasks</b> ⭐ 4</summary>
 
 <br/>
 
-**👥 Authors:** Da Zheng, Hankun Wang, Bohan Li, Changtao Li, Shi Lian
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.09669) • [📄 arXiv](https://arxiv.org/abs/2606.09669) • [📥 PDF](https://arxiv.org/pdf/2606.09669)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.07080) • [📄 arXiv](https://arxiv.org/abs/2606.07080) • [📥 PDF](https://arxiv.org/pdf/2606.07080)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Hongcheng-Gao/SpatialWorld) • [⭐ Code](https://github.com/Hongcheng-Gao/SpatialWorld/blob/main/SpatialWorld.pdf)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/rednote-hilab/dots.tts)
-
-> dots.tts is a 2B-parameter continuous autoregressive text-to-speech foundation model utilizing Audio-VAE, flow-matching with full-history conditioning, and reward-free self-corrective post-training to achieve state-of-the-art speech generation per...
+> The paper can be also found in https://github.com/Hongcheng-Gao/SpatialWorld/blob/main/SpatialWorld.pdf
 
 </details>
 
 <details>
-<summary><b>14. WorldBench: A Challenging and Visually Diverse Multimodal Reasoning Benchmark</b> ⭐ 0</summary>
+<summary><b>6. CoVEBench: Can Video Editing Models Handle Complex Instructions?</b> ⭐ 7</summary>
 
 <br/>
 
-**👥 Authors:** Wenhao Chai, Boya Zeng, Chung Peng Lee, Harish Krishnakumar, Yida Yin
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.08415) • [📄 arXiv](https://arxiv.org/abs/2606.08415) • [📥 PDF](https://arxiv.org/pdf/2606.08415)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.06538) • [📄 arXiv](https://arxiv.org/abs/2606.06538) • [📥 PDF](https://arxiv.org/pdf/2606.06538)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/NJU-LINK/CoVEBench)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> WorldBench is a challenging and visually diverse benchmark designed to evaluate Multimodal Large Language Models, addressing gaps in visual concept representation found in existing multimodal evaluation frameworks.
+> We introduce CoVEBench, a fine-grained checklist benchmark to evaluate text-guided video editing models on complex, compositional instructions.
 
 </details>
 
 <details>
-<summary><b>15. Parametric Social Identity Injection and Diversification in Public Opinion Simulation</b> ⭐ 0</summary>
+<summary><b>7. Echo-Memory: A Controlled Study of Memory in Action World Models</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.16142) • [📄 arXiv](https://arxiv.org/abs/2603.16142) • [📥 PDF](https://arxiv.org/pdf/2603.16142)
+**👥 Authors:** Haoran Li, Jie Huang, Yuxuan Bian, Zeyue Xue, Wayne King
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/halsayxi/PSII)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.09803) • [📄 arXiv](https://arxiv.org/abs/2606.09803) • [📥 PDF](https://arxiv.org/pdf/2606.09803)
 
-> Excited to share our work on Parametric Social Identity Injection (PSII) for socially diverse public opinion simulation with LLM agents. We identify Diversity Collapse , a phenomenon where prompt-conditioned LLM agents produce overly homogeneous r...
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Echo-Team-Joy-Future-Academy-JD/Echo-Memory)
+
+> Echo-Memory is a controlled study that systematically evaluates memory mechanisms in action-conditioned world models to address challenges in long-term scene consistency and object retention.
+
+</details>
+
+<details>
+<summary><b>8. Set-Based Transformer for Atmospheric Compensation in Standoff LWIR Hyperspectral Imaging</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Hoover Rueda-Chacon, Jeferson Acevedo, Nicolas Quintero, Fabian Perez
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.08324) • [📄 arXiv](https://arxiv.org/abs/2606.08324) • [📥 PDF](https://arxiv.org/pdf/2606.08324)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Factral/SAE-LWIR)
+
+> github: https://github.com/Factral/SAE-LWIR
 
 </details>
 
@@ -335,28 +234,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 15 |
-| 📅 Today | [`2026-06-08.json`](data/daily/2026-06-08.json) | 15 |
-| 📆 This Week | [`2026-W23.json`](data/weekly/2026-W23.json) | 15 |
-| 🗓️ This Month | [`2026-06.json`](data/monthly/2026-06.json) | 193 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 8 |
+| 📅 Today | [`2026-06-09.json`](data/daily/2026-06-09.json) | 8 |
+| 📆 This Week | [`2026-W23.json`](data/weekly/2026-W23.json) | 23 |
+| 🗓️ This Month | [`2026-06.json`](data/monthly/2026-06.json) | 201 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-06-08 | 15 | [View JSON](data/daily/2026-06-08.json) |
+| 📌 2026-06-09 | 8 | [View JSON](data/daily/2026-06-09.json) |
+| 📄 2026-06-08 | 15 | [View JSON](data/daily/2026-06-08.json) |
 | 📄 2026-06-07 | 50 | [View JSON](data/daily/2026-06-07.json) |
 | 📄 2026-06-06 | 50 | [View JSON](data/daily/2026-06-06.json) |
 | 📄 2026-06-05 | 21 | [View JSON](data/daily/2026-06-05.json) |
 | 📄 2026-06-04 | 0 | [View JSON](data/daily/2026-06-04.json) |
 | 📄 2026-06-03 | 10 | [View JSON](data/daily/2026-06-03.json) |
-| 📄 2026-06-02 | 22 | [View JSON](data/daily/2026-06-02.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W23 | 15 | [View JSON](data/weekly/2026-W23.json) |
+| 📅 2026-W23 | 23 | [View JSON](data/weekly/2026-W23.json) |
 | 📅 2026-W22 | 178 | [View JSON](data/weekly/2026-W22.json) |
 | 📅 2026-W21 | 209 | [View JSON](data/weekly/2026-W21.json) |
 | 📅 2026-W20 | 183 | [View JSON](data/weekly/2026-W20.json) |
@@ -365,7 +264,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-06 | 193 | [View JSON](data/monthly/2026-06.json) |
+| 🗓️ 2026-06 | 201 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 782 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 450 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
