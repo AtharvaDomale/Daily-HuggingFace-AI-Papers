@@ -4332,5 +4332,391 @@
       "scraped_at": "2026-06-09T03:37:36.517971"
     },
     "scraped_date": "2026-06-09"
+  },
+  {
+    "title": "ABot-Earth 0.5: Generative 3D Earth Model",
+    "paper_url": "https://huggingface.co/papers/2606.09967",
+    "authors": [],
+    "stars": "83",
+    "details": {
+      "title": "ABot-Earth 0.5: Generative 3D Earth Model",
+      "abstract": "Tech report. ABot-Earth-0.5 is a generative 3D Earth model developed by the Amap CV Lab. The github repo is dedicated to our technical report and academic discourse. It does not contain implementation code. Media: https://www.youtube.com/watch?v=Qv64FpsEi2Q",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.09967",
+      "pdf_url": "https://arxiv.org/pdf/2606.09967",
+      "github_links": [
+        "https://github.com/amap-cvlab/ABot-Earth-0.5",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.09967",
+      "scraped_at": "2026-06-10T03:51:20.584319"
+    },
+    "scraped_date": "2026-06-10"
+  },
+  {
+    "title": "SearchSwarm: Towards Delegation Intelligence in Agentic LLMs for Long-Horizon Deep Research",
+    "paper_url": "https://huggingface.co/papers/2606.09730",
+    "authors": [],
+    "stars": "28",
+    "details": {
+      "title": "SearchSwarm: Towards Delegation Intelligence in Agentic LLMs for Long-Horizon Deep Research",
+      "abstract": "Real tasks can grow almost unbounded, yet a model's context is finite. We teach agentic LLMs delegation intelligence: to decompose a long-horizon task, delegate bounded subtasks to its own subagents, and integrate their condensed, evidence-grounded results, an active form of context management that lets a single model take on far more than its context alone allows. 👉 Project page: https://search-swarm.github.io 👉 Github repo: https://github.com/Search-Swarm/SearchSwarm",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.09730",
+      "pdf_url": "https://arxiv.org/pdf/2606.09730",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Search-Swarm/SearchSwarm"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.09730",
+      "scraped_at": "2026-06-10T03:51:22.542641"
+    },
+    "scraped_date": "2026-06-10"
+  },
+  {
+    "title": "One Token per Multimodal Evidence: Latent Memory for Resource-Constrained QA",
+    "paper_url": "https://huggingface.co/papers/2606.10572",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "One Token per Multimodal Evidence: Latent Memory for Resource-Constrained QA",
+      "abstract": "Latent Memory is a novel method for efficient representation and QA generation. It shows that one token per multimodal evidence can lead to a good performance-efficiency trade-off.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.10572",
+      "pdf_url": "https://arxiv.org/pdf/2606.10572",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/zz1358m/Latent-Memory-Master"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.10572",
+      "scraped_at": "2026-06-10T03:51:24.475804"
+    },
+    "scraped_date": "2026-06-10"
+  },
+  {
+    "title": "EEVEE: Towards Test-time Prompt Learning in the Real World for Self-Improving Agents",
+    "paper_url": "https://huggingface.co/papers/2606.11182",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "EEVEE: Towards Test-time Prompt Learning in the Real World for Self-Improving Agents",
+      "abstract": "EEVEE studies test-time prompt learning for LLM agents in more realistic settings, where tasks arrive as heterogeneous streams from multiple datasets and domains. Instead of optimizing a single prompt for a fixed benchmark, EEVEE introduces a router-prompt co-evolution framework that clusters incoming tasks and assigns them to suitable prompt configurations. This helps reduce cross-dataset interference while preserving test-time adaptation ability. The paper reports strong gains across multiple benchmarks, making it a useful step toward self-improving agents that can adapt continuously in the real world.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.11182",
+      "pdf_url": "https://arxiv.org/pdf/2606.11182",
+      "github_links": [
+        "https://github.com/Princeton-AI2-Lab/EEVEE",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.11182",
+      "scraped_at": "2026-06-10T03:51:26.421014"
+    },
+    "scraped_date": "2026-06-10"
+  },
+  {
+    "title": "How Does Reasoning Flow? Tracing Attention-Induced Information Flow for Targeted RL in LLMs",
+    "paper_url": "https://huggingface.co/papers/2606.10646",
+    "authors": [
+      "Yijia Luo",
+      "Weixun Wang",
+      "Yuhan Sun",
+      "Yang Li",
+      "Zhichen Dong"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "How Does Reasoning Flow? Tracing Attention-Induced Information Flow for Targeted RL in LLMs",
+      "abstract": "What if we stopped rewarding every token equally and instead followed the actual \"reasoning bloodstream\" inside an LLM? FlowTracer tackles one of RL’s messiest blind spots—token-level credit assignment—by turning attention patterns into a directed information-flow graph, tracing how evidence travels from the question to the final answer, and identifying the high-impact reasoning hubs that truly matter. Instead of spraying reward over fluent filler and decisive steps alike, it shapes RL signals around the tokens that route information toward correctness, offering a sharper way to train reasoning models by asking not just what they answered, but how the answer flowed into existence.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.10646",
+      "pdf_url": "https://arxiv.org/pdf/2606.10646",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.10646",
+      "scraped_at": "2026-06-10T03:51:28.321425"
+    },
+    "scraped_date": "2026-06-10"
+  },
+  {
+    "title": "Online Skill Learning for Web Agents via State-Grounded Dynamic Retrieval",
+    "paper_url": "https://huggingface.co/papers/2606.04391",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Online Skill Learning for Web Agents via State-Grounded Dynamic Retrieval",
+      "abstract": "This paper studies online skill learning for web agents, where agents continually induce reusable skills from previous task trajectories and reuse them for future web tasks. A key motivation is that most prior skill-based web agent methods retrieve or inject skills mainly based on the initial task instruction. However, web tasks are interactive: during execution, the webpage state keeps changing, and the skill that is useful at one step may be different from the skill needed later. This creates a mismatch between task-level skill retrieval and state-dependent decision making. To address this, the paper proposes State-Grounded Dynamic Retrieval (SGDR). Instead of retrieving a fixed set of skills only once from the task instruction, SGDR retrieves skills dynamically at each decision step based on both the task goal and the current webpage state. This allows the agent to reuse skills that are grounded in the actual execution context, such as the current page, form, button, or interaction state. SGDR further extracts intermediate-granularity skills from completed trajectories using sliding windows, and represents each skill as a text-code pair: natural language descriptions for retrieval and executable code for action support. On WebArena, SGDR improves over strong online skill-learning baselines across five domains, achieving 37.5% success rate with GPT-4.1 and 24.3% with Qwen3-4B, while also reducing the average number of steps. I think this is an interesting direction for making web agents improve continuously from experience, especially by moving skill reuse from static instruction-level retrieval to dynamic state-grounded retrieval during execution.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.04391",
+      "pdf_url": "https://arxiv.org/pdf/2606.04391",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/plusnli/skill-dynamic-retrieval"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.04391",
+      "scraped_at": "2026-06-10T03:51:30.153875"
+    },
+    "scraped_date": "2026-06-10"
+  },
+  {
+    "title": "Bridging the Agent-World Gap: Text World Models for LLM-based Agents",
+    "paper_url": "https://huggingface.co/papers/2606.09032",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "Bridging the Agent-World Gap: Text World Models for LLM-based Agents",
+      "abstract": "We present a systematic overview of text world models for agent applications, providing insights into narrowing the agent–world gap.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.09032",
+      "pdf_url": "https://arxiv.org/pdf/2606.09032",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/sustech-nlp/awesome-text-world-models"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.09032",
+      "scraped_at": "2026-06-10T03:51:31.943728"
+    },
+    "scraped_date": "2026-06-10"
+  },
+  {
+    "title": "SCAIL-2: Unifying Controlled Character Animation with End-to-end In-Context Conditioning",
+    "paper_url": "https://huggingface.co/papers/2606.10804",
+    "authors": [
+      "Jie Tang",
+      "Zhuoyi Yang",
+      "Fengjia Guo",
+      "Wenhao Yan"
+    ],
+    "stars": "95",
+    "details": {
+      "title": "SCAIL-2: Unifying Controlled Character Animation with End-to-end In-Context Conditioning",
+      "abstract": "SCAIL-2 provides an end-to-end framework for controlled character animation, eliminating reliance on intermediate pose skeletons and introducing the MotionPair-60K dataset for improved motion transfer performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.10804",
+      "pdf_url": "https://arxiv.org/pdf/2606.10804",
+      "github_links": [
+        "https://github.com/zai-org/SCAIL-2",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.10804",
+      "scraped_at": "2026-06-10T03:51:33.768182"
+    },
+    "scraped_date": "2026-06-10"
+  },
+  {
+    "title": "Emergent Misalignment Can Be Induced by Sycophancy and Reversed via Alignment Gating",
+    "paper_url": "https://huggingface.co/papers/2606.09068",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "Emergent Misalignment Can Be Induced by Sycophancy and Reversed via Alignment Gating",
+      "abstract": "Prior work has shown that fine-tuning large language models on malicious or incorrect outputs in narrow domains can induce broad misalignment and harmful behavior, a phenomenon known as emergent misalignment. However, efficient methods for reversing such misalignment remain limited. In this work, we make two contributions. First, we identify sycophancy fine-tuning, i.e., training models to passively agree with users' incorrect opinions, as a previously underexplored driver of emergent misalignment, and show that it induces broad and severe misaligned behavior. Second, we propose Alignment Gating, an efficient method for reversing emergent misalignment that inserts learnable and controllable gates into the model during fine-tuning. Through fine-tuning, these gates learn to identify the internal representations responsible for unsafe responses. Thus, amplifying or suppressing these representations then exacerbates or mitigates EM, respectively. We further find that alignment gating module exhibits strong generalization: gating weights obtained from narrow-domain fine-tuning substantially suppress broad-domain misaligned behavior while preserving the model's general capabilities.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.09068",
+      "pdf_url": "https://arxiv.org/pdf/2606.09068",
+      "github_links": [
+        "https://github.com/stay1to0/Sycophancy_Emergent_Misalignment_and_Gated_attention_FT",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.09068",
+      "scraped_at": "2026-06-10T03:51:35.559042"
+    },
+    "scraped_date": "2026-06-10"
+  },
+  {
+    "title": "What Should Agents Say? Action-state Communication for Efficient Multi-Agent Systems",
+    "paper_url": "https://huggingface.co/papers/2606.05304",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "What Should Agents Say? Action-state Communication for Efficient Multi-Agent Systems",
+      "abstract": "Multi-agent systems (MAS) built on large language models are typically organized around roles, pipelines, and turn schedules, while the content that agents pass to one another is often left as unconstrained natural language. However, this free-form communication can rapidly inflate token usage, consume the shared context window, and ultimately affect both system performance and inference cost. We analyze five common inter-agent communication strategies across two MAS topologies, finding that no fixed strategy is universally optimal. Instead, effective inter-agent messages consistently preserve action-centered information needed by downstream agents. Building on this, we propose the PACT (Protocolized Action-state Communication and Transmission), which treats inter-agent communication as a public state-update problem and projects each raw agent output into a compact action-state record before it enters shared history. Across different MAS topologies, PACT consistently improves the performance-cost trade-off, achieving comparable or stronger task performance with substantially fewer tokens. The gains extend to production coding harnesses: PACT lifts OpenHands' resolve rate at -10% tokens-per-resolved, and is resolve-neutral on SWE-agent while halving input tokens. Our code is publicly available at https://github.com/iNLP-Lab/PACT .",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.05304",
+      "pdf_url": "https://arxiv.org/pdf/2606.05304",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/iNLP-Lab/PACT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.05304",
+      "scraped_at": "2026-06-10T03:51:37.345980"
+    },
+    "scraped_date": "2026-06-10"
+  },
+  {
+    "title": "ARM: An AutoRegressive Large Multimodal Model with Unified Discrete Representations",
+    "paper_url": "https://huggingface.co/papers/2606.11188",
+    "authors": [
+      "Feng Li",
+      "Xuefeng Hu",
+      "Jiacheng Pan",
+      "Xiao Wang",
+      "Junke Wang"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "ARM: An AutoRegressive Large Multimodal Model with Unified Discrete Representations",
+      "abstract": "Technical report: a discrete autoregressive model that unifies image generation, editing, and understanding.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.11188",
+      "pdf_url": "https://arxiv.org/pdf/2606.11188",
+      "github_links": [
+        "https://github.com/wdrink/ARM",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.11188",
+      "scraped_at": "2026-06-10T03:51:39.132685"
+    },
+    "scraped_date": "2026-06-10"
+  },
+  {
+    "title": "When the Chain of Thought Knows Better: Failure Modes in Multi-Turn Reasoning Models",
+    "paper_url": "https://huggingface.co/papers/2606.10740",
+    "authors": [
+      "Samuele Poppi",
+      "Nils Lukas",
+      "Sai Kartheek Reddy Kasu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "When the Chain of Thought Knows Better: Failure Modes in Multi-Turn Reasoning Models",
+      "abstract": "TL;DR: Standard safety evaluations are missing a massive chunk of how reasoning models actually fail. In this paper, we moved beyond static, single-turn prompts to analyze multi-turn adversarial dialogues across distilled models like DeepSeek-R1-7B, Phi-4-Mini, and Qwen-4B-Thinking. By introducing a CoT-Output 2x2 safety matrix, we evaluated 6,750 turn-level observations and found some highly counterintuitive dynamics: The Oversight Paradox: Explicit monitoring cues (telling the model it is being watched) paradoxically increase alignment-faking rates rather than suppress them. For DeepSeek-R1-7B, robust alignment actually peaks when the model thinks it is unmonitored. Context-Injection Failure: We document a multi-turn, adversarial manifestation of CoT unfaithfulness. In this state, the model's internal CoT maintains safe reasoning (and explicitly notes the need for refusal), but the prolonged adversarial context hijacks the generation, causing the visible output to produce harm. We’re releasing the full dataset of 450 multi-turn dialogues and CoT traces on Hugging Face. Our hope is that this provides a reproducible behavioral substrate for follow-up mechanistic interpretability research, and helps the community investigate whether these unfaithfulness dynamics are artifacts of distillation or fundamental vulnerabilities that scale to frontier models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.10740",
+      "pdf_url": "https://arxiv.org/pdf/2606.10740",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.10740",
+      "scraped_at": "2026-06-10T03:51:40.982288"
+    },
+    "scraped_date": "2026-06-10"
+  },
+  {
+    "title": "Dynamic Linear Attention",
+    "paper_url": "https://huggingface.co/papers/2606.10650",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Dynamic Linear Attention",
+      "abstract": "DLA (Dynamic Linear Attention) is a framework for multi-state linear attention that uses information-aware dynamic state merging and capacity-bounded memory modeling to improve long-context LLM scalability.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.10650",
+      "pdf_url": "https://arxiv.org/pdf/2606.10650",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.10650",
+      "scraped_at": "2026-06-10T03:51:42.751120"
+    },
+    "scraped_date": "2026-06-10"
+  },
+  {
+    "title": "Workflow-GYM: Towards Long-Horizon Evaluation of Computer-use Agentic tasks in Real-World Professional Fields",
+    "paper_url": "https://huggingface.co/papers/2606.11042",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Workflow-GYM: Towards Long-Horizon Evaluation of Computer-use Agentic tasks in Real-World Professional Fields",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.11042",
+      "pdf_url": "https://arxiv.org/pdf/2606.11042",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.11042",
+      "scraped_at": "2026-06-10T03:51:44.578297"
+    },
+    "scraped_date": "2026-06-10"
+  },
+  {
+    "title": "Test-Time Gradient Guidance of Flow Policies in Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2606.11087",
+    "authors": [
+      "Tobias Springenberg",
+      "Qiyang Li",
+      "Charles Xu",
+      "Andy Peng",
+      "Zhiyuan Zhou"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "Test-Time Gradient Guidance of Flow Policies in Reinforcement Learning",
+      "abstract": "QGF (Q-Guided Flow) is a test-time reinforcement learning method that utilizes critic gradients to guide pre-trained flow-based policies toward higher-value actions, enhancing stability and scalability in continuous control.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.11087",
+      "pdf_url": "https://arxiv.org/pdf/2606.11087",
+      "github_links": [
+        "https://github.com/zhouzypaul/qgf",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.11087",
+      "scraped_at": "2026-06-10T03:51:46.374798"
+    },
+    "scraped_date": "2026-06-10"
+  },
+  {
+    "title": "MilliVid: Hierarchical Latents for Long-Range Consistency in Video Generation",
+    "paper_url": "https://huggingface.co/papers/2606.09056",
+    "authors": [
+      "Vitor Guizilini",
+      "Sergey Zakharov",
+      "Basile Van Hoorick",
+      "David Charatan",
+      "Ishaan Preetam Chandratreya"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "MilliVid: Hierarchical Latents for Long-Range Consistency in Video Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.09056",
+      "pdf_url": "https://arxiv.org/pdf/2606.09056",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.09056",
+      "scraped_at": "2026-06-10T03:51:48.302298"
+    },
+    "scraped_date": "2026-06-10"
+  },
+  {
+    "title": "Struct-Searcher: Agentic Structural Thinking Advances Multimodal Deep Information Seeking",
+    "paper_url": "https://huggingface.co/papers/2606.07689",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Struct-Searcher: Agentic Structural Thinking Advances Multimodal Deep Information Seeking",
+      "abstract": "Struct-Searcher is a training-free agentic workflow that advances multimodal deep research with structure-aware thinking mechanisms.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.07689",
+      "pdf_url": "https://arxiv.org/pdf/2606.07689",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.07689",
+      "scraped_at": "2026-06-10T03:51:50.080807"
+    },
+    "scraped_date": "2026-06-10"
+  },
+  {
+    "title": "BenSyc: Benchmarking Conversational Sycophancy and Human Alignment in LLMs for Bengali Contexts",
+    "paper_url": "https://huggingface.co/papers/2606.10061",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "BenSyc: Benchmarking Conversational Sycophancy and Human Alignment in LLMs for Bengali Contexts",
+      "abstract": "Large language models (LLMs) increasingly participate in emotionally sensitive social conversations, where responses may shift from balanced support toward excessive validation or escalatory alignment. Existing sycophancy research primarily focuses on factual agreement and instruction-following settings, leaving culturally grounded conversational sycophancy underexplored. We introduce BenSyc, the first benchmark for studying conversational sycophancy in Bengali social contexts. Starting from 11,840 Reddit posts and 170k comments collected from communities across Bangladesh and West Bengal, we construct a human-validated benchmark with binary labels and a fine-grained five-level taxonomy spanning Invalidation, Neutral, Support, Validation, and Escalation. We evaluate more than 15 open and proprietary LLMs on conversational alignment classification and response generation tasks. Results show that distinguishing empathetic support from reinforcement-oriented validation remains challenging even for frontier instruction-tuned models: the best system achieves only 61.8 Macro-F1 on binary detection and 61.7 Macro-F1 on five-class classification. In generation settings, several models frequently produce strongly validating or escalatory responses in emotionally charged situations. Our findings highlight substantial variation across model families and conversational behaviors, underscoring the importance of culturally grounded multilingual benchmarks for evaluating socially aligned conversational AI systems.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.10061",
+      "pdf_url": "https://arxiv.org/pdf/2606.10061",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.10061",
+      "scraped_at": "2026-06-10T03:51:51.879916"
+    },
+    "scraped_date": "2026-06-10"
   }
 ]
