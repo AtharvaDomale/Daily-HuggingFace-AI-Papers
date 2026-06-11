@@ -4718,5 +4718,330 @@
       "scraped_at": "2026-06-10T03:51:51.879916"
     },
     "scraped_date": "2026-06-10"
+  },
+  {
+    "title": "Agentic Environment Engineering for Large Language Models: A Survey of Environment Modeling, Synthesis, Evaluation, and Application",
+    "paper_url": "https://huggingface.co/papers/2606.12191",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Agentic Environment Engineering for Large Language Models: A Survey of Environment Modeling, Synthesis, Evaluation, and Application",
+      "abstract": "This paper systematically reviews agentic environments for LLM-based agents from the perspective of environment engineering, covering environment modeling, synthesis, evaluation, application, and future opportunities.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.12191",
+      "pdf_url": "https://arxiv.org/pdf/2606.12191",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.12191",
+      "scraped_at": "2026-06-11T04:04:39.148859"
+    },
+    "scraped_date": "2026-06-11"
+  },
+  {
+    "title": "Toward Generalist Autonomous Research via Hypothesis-Tree Refinement",
+    "paper_url": "https://huggingface.co/papers/2606.11926",
+    "authors": [],
+    "stars": "14",
+    "details": {
+      "title": "Toward Generalist Autonomous Research via Hypothesis-Tree Refinement",
+      "abstract": "From single-turn chatbots, to multi-turn dialogue systems, and then to tool-using agents, we believe the next important stage is the rise of Autonomous Agents. However, many existing efforts are either tightly bound to specific scenarios and single tasks, or remain at the research-prototype stage without being truly deployable in practice. This raises a central question: what should a general and practical autonomous agent look like? In our new work, Toward Generalist Autonomous Research via Hypothesis-Tree Refinement, we present our answer: Arbor. Automated research should not be reduced to repeated trial-and-error. Instead, it should explore in a structured way, organizing hypotheses, evidence, failures, and accumulated experience into an evolving research state, much like the process of real scientific inquiry. Each new attempt should build upon the discoveries and lessons from previous explorations. Arbor first emphasizes generality. It is not tied to a particular benchmark or task format. Instead, it unifies diverse research tasks, including model training, harness engineering, and data synthesis, under the framework of Autonomous Optimization. As long as there is an artifact to optimize, a clear objective, and executable feedback signals, Arbor can conduct long-horizon search and iterative improvement around it. Arbor also emphasizes practicality. It is not merely a paper idea or a research prototype confined to the lab. We open-source a fully runnable CLI and an Agent Skill Suite. Users can directly run the complete Arbor CLI for long-horizon automated research experiments, or load Arbor-style skills into environments such as Codex and Claude Code, enabling existing coding agents to gain more structured autonomous research capabilities. Arbor supports long-running experiments in real codebases, disciplined dev/test evaluation, git worktree isolation, checkpoint/resume, dashboard and report generation, and one-line plugin adaptation for different task types. Our goal is to move auto-research from a conceptual vision toward a truly usable system.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.11926",
+      "pdf_url": "https://arxiv.org/pdf/2606.11926",
+      "github_links": [
+        "https://github.com/RUC-NLPIR/Arbor",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.11926",
+      "scraped_at": "2026-06-11T04:04:41.163518"
+    },
+    "scraped_date": "2026-06-11"
+  },
+  {
+    "title": "DeNovoSWE: Scaling Long-Horizon Environments for Generating Entire Repositories from Scratch",
+    "paper_url": "https://huggingface.co/papers/2606.10728",
+    "authors": [],
+    "stars": "9",
+    "details": {
+      "title": "DeNovoSWE: Scaling Long-Horizon Environments for Generating Entire Repositories from Scratch",
+      "abstract": "As the capabilities of LLM-based code agents continue to advance, their expected role is expanding beyond localized bug fixing in existing codebases toward architecting and implementing complete software repositories from high-level specifications. However, training agents for such long-horizon software engineering tasks remains difficult due to the scarcity of large-scale, verifiable whole-repository generation data. In this paper, they introduce DeNovoSWE, a large-scale dataset for whole-repository generation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.10728",
+      "pdf_url": "https://arxiv.org/pdf/2606.10728",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/AweAI-Team/DeNovoSWE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.10728",
+      "scraped_at": "2026-06-11T04:04:43.091634"
+    },
+    "scraped_date": "2026-06-11"
+  },
+  {
+    "title": "Beyond Scalar Rewards by Internalizing Reasoning into Score Distributions",
+    "paper_url": "https://huggingface.co/papers/2606.09076",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Beyond Scalar Rewards by Internalizing Reasoning into Score Distributions",
+      "abstract": "Tech report. Z-Reward is a reasoning-internalized teacher-student reward modeling framework for visual generation, developed by the Z-Image Team. Z-Reward decouples reasoning-heavy judgment from efficient reward deployment: 🧠 The Teacher (27B): A large VLM that uses reasoning to infer rubric-aligned score distributions. Trained with Group-wise Direct Score Optimization (GDSO) , it reaches 89.6% human preference accuracy on our internally annotated evaluation set. ⚡ The Student (9B): Trained with Reasoning-Internalized Score Distillation (RISD) , it internalizes the teacher’s reasoning-conditioned score distribution into a compact model. It reaches 88.6% accuracy (outperforming the OPD baseline) without needing explicit reasoning chains at inference time, enabling efficient direct scoring and gradient backpropagation . We further show that Z-Reward can serve as a differentiable reward signal for text-to-image optimization, achieving a 41.3% net human-preference improvement over the SFT baseline.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.09076",
+      "pdf_url": "https://arxiv.org/pdf/2606.09076",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.09076",
+      "scraped_at": "2026-06-11T04:04:45.064948"
+    },
+    "scraped_date": "2026-06-11"
+  },
+  {
+    "title": "World Pilot: Steering Vision-Language-Action Models with World-Action Priors",
+    "paper_url": "https://huggingface.co/papers/2606.12403",
+    "authors": [
+      "Wenling Li",
+      "Xiaojuan Jin",
+      "Junjia Xu",
+      "Rongxu Cui",
+      "Zefu Lin"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "World Pilot: Steering Vision-Language-Action Models with World-Action Priors",
+      "abstract": "Cool Embodied Manipulation framework",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.12403",
+      "pdf_url": "https://arxiv.org/pdf/2606.12403",
+      "github_links": [
+        "https://github.com/ZefuLin/WorldPilot",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.12403",
+      "scraped_at": "2026-06-11T04:04:46.989459"
+    },
+    "scraped_date": "2026-06-11"
+  },
+  {
+    "title": "TRL-Bench: Standardizing Cross-Paradigm Representation-Level Evaluation of Tabular Encoders",
+    "paper_url": "https://huggingface.co/papers/2606.09323",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "TRL-Bench: Standardizing Cross-Paradigm Representation-Level Evaluation of Tabular Encoders",
+      "abstract": "📊 Releasing TRL-Bench — a unified framework + library for tabular representation learning, one stop for tabular representation learning. 🧩 20 encoders · 16 tasks · 87 datasets across 3 suites 🔍 Built to make heterogeneous tabular models directly comparable, and reusable as embedding models Tabular encoders come in every shape: different input formats, training objectives, and output heads. So even two models built for the same job are hard to compare head-to-head. We built TRL-Bench to make them comparable. It unifies everything at the level of the representation: each model is wrapped behind one shared interface that exports row-, column-, and table-embeddings, and shared lightweight heads probe those embeddings under common task definitions, so 20 encoders from every paradigm finally sit on the same axes. It's also a library: 20 different types of tabular models are adapted into embedding models that export row, column, and table embeddings for the community to reuse. It spans three suites: 🧩 TRL-CTbench — 13 column/table tasks: schema, joinability, unionability, grounding 🔗 TRL-Rbench — multi-target row prediction (50 subtasks, 123 targets) + record linkage (16 datasets) 🌊 TRL-DLTE — a 47,772-table data-lake enrichment pipeline spanning all three granularities The main takeaway is clear: there is no single best tabular encoder, strengths are split across different table jobs. The choice of tabular models should be task-aware. We also find that: 📌 Off-the-shelf text encoders are surprisingly strong when the signal is in the surface text (column names and cell values); cross-table alignment and matching instead reward structure-aware specialists 📌 Predicting a value inside a table and matching the same record across tables call for different encoders: one rewards adapting to a single table, the other rewards embeddings that stay comparable across tables 📌 Stacking the best per-stage encoders does not give the best compositional pipeline, and neither does reusing one encoder end-to-end; the winning recipe matches a different specialist to each step (find related tables → align columns → match rows) TRL-Bench is meant to serve both as a diagnostic benchmark and as a practical library for building on tabular representations. 📄 Paper: https://arxiv.org/abs/2606.09323 🌐 Website: https://logo-cuhksz.github.io/trl-bench.github.io/ 🤗 Datasets: https://huggingface.co/datasets/logo-lab/trl-ctbench · trl-rbench · trl-dlte 💻 Code: https://github.com/LOGO-CUHKSZ/TRL-Bench",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.09323",
+      "pdf_url": "https://arxiv.org/pdf/2606.09323",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/LOGO-CUHKSZ/TRL-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.09323",
+      "scraped_at": "2026-06-11T04:04:48.970214"
+    },
+    "scraped_date": "2026-06-11"
+  },
+  {
+    "title": "ComBench: A Benchmark for Rigorous Proof Reasoning and Constructive Realization in Olympiad-Level Combinatorics",
+    "paper_url": "https://huggingface.co/papers/2606.10479",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ComBench: A Benchmark for Rigorous Proof Reasoning and Constructive Realization in Olympiad-Level Combinatorics",
+      "abstract": "Combinatorics is central to Olympiad-level mathematical problem solving, requiring deep discrete reasoning, creative constructions, and rigorous structural insight. Recent evidence suggests that even today's strongest frontier models remain uneven on Olympiad combinatorics, revealing a gap in creative mathematical reasoning. We introduce ComBench, an Olympiad-level combinatorics benchmark for evaluating and diagnosing the combinatorial reasoning capabilities of large language models. ComBench contains 100 human-annotated competition-level problems organized around two complementary settings: analysis-centric problems, which primarily require rigorous mathematical arguments, and construction-centric problems, which require explicit constructions in addition to correctness justifications. The evaluation protocol combines rubric-guided proof grading with deterministic construction verification, exposing cases where proof quality and construction validity diverge. Experiments on frontier open- and closed-source models show that ComBench is far from saturated: the strongest model reaches 65.4% overall Avg. and 75.3% overall Best@4. We further find that Rigorous Proof Reasoning and Constructive Realization are distinct capabilities: Kimi-K2.6 trails GPT-5.5 on analysis-centric proof grading but surpasses it on construction-centric Best@4, while Existence and Construction problems remain consistently hardest across representative frontier models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.10479",
+      "pdf_url": "https://arxiv.org/pdf/2606.10479",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Simplified-Reasoning/ComBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.10479",
+      "scraped_at": "2026-06-11T04:04:50.916420"
+    },
+    "scraped_date": "2026-06-11"
+  },
+  {
+    "title": "InternVideo3: Agentify Foundation Models with Multimodal Contextual Reasoning",
+    "paper_url": "https://huggingface.co/papers/2606.12195",
+    "authors": [
+      "Tianxiang Jiang",
+      "Yue Wu",
+      "Jiashuo Yu",
+      "Sheng Xia",
+      "Ziang Yan"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "InternVideo3: Agentify Foundation Models with Multimodal Contextual Reasoning",
+      "abstract": "A framework for long-horizon video understanding via closed-loop contextual reasoning and efficient latent attention. Github: https://github.com/OpenGVLab/InternVideo/tree/main/InternVideo3",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.12195",
+      "pdf_url": "https://arxiv.org/pdf/2606.12195",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/OpenGVLab/InternVideo/tree/main/InternVideo3"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.12195",
+      "scraped_at": "2026-06-11T04:04:52.862487"
+    },
+    "scraped_date": "2026-06-11"
+  },
+  {
+    "title": "ICA Lens: Interpreting Language Models Without Training Another Dictionary",
+    "paper_url": "https://huggingface.co/papers/2606.11722",
+    "authors": [],
+    "stars": "14",
+    "details": {
+      "title": "ICA Lens: Interpreting Language Models Without Training Another Dictionary",
+      "abstract": "Many meaningful activation directions are selective: they fire for recurring words, constructions, topics, contexts, or discourse patterns rather than for typical random projections. That selectivity leaves a non-Gaussian footprint. ICA Lens turns this footprint into a practical workflow for finding, inspecting, and testing compact signed directions before reaching for costly learned dictionaries such as large SAEs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.11722",
+      "pdf_url": "https://arxiv.org/pdf/2606.11722",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/liusida/ica-lens-paper"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.11722",
+      "scraped_at": "2026-06-11T04:04:54.782373"
+    },
+    "scraped_date": "2026-06-11"
+  },
+  {
+    "title": "Verifiable Environments Are LEGO Bricks: Recursive Composition for Reasoning Generalization",
+    "paper_url": "https://huggingface.co/papers/2606.12373",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Verifiable Environments Are LEGO Bricks: Recursive Composition for Reasoning Generalization",
+      "abstract": "Reinforcement Learning (RL) with verifiable environments has emerged as a powerful approach for enhancing the reasoning capabilities of Large Language Models (LLMs). While prior research demonstrates that scaling environment quantity improves RL performance, existing manual or individual construction methods suffer from linear scaling limits, thereby hindering scalable reasoning generalization. This paper introduces RACES (\\textbf{R}ecursive \\textbf{A}utomated \\textbf{C}omposition for \\textbf{E}nvironment \\textbf{S}caling), a framework that conceptualizes verifiable environments as composable building blocks that can be recursively assembled. The key insight is that when the codomain (output type) of one environment matches the domain (input type) of another, they can be automatically fused into a new verifiable environment, enabling recursive composition. RACES is implemented with 300 individual environments and defines a set of composition operators (\\textsc{SEQUENTIAL}, \\textsc{PARALLEL}, \\textsc{SORT}, and \\textsc{SELECT}) that induce diverse reasoning patterns. Extensive experiments show that RL training on these composite environments consistently enhances reasoning generalization. Specifically, RACES improves DeepSeek-R1-Distill-Qwen-14B by an average of 3.1 points (from 48.2 to 51.3) and boosts Qwen3-14B performance from 58.8 to 61.1 on six benchmarks, which are unseen during the construction of training environments. Moreover, RACES achieves performance comparable to training on 300 individual environments using only 50 base environments, demonstrating significant efficiency in environment utilization.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.12373",
+      "pdf_url": "https://arxiv.org/pdf/2606.12373",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.12373",
+      "scraped_at": "2026-06-11T04:04:56.658340"
+    },
+    "scraped_date": "2026-06-11"
+  },
+  {
+    "title": "Breaking Entropy Bounds: Accelerating RL Training via MTP with Rejection Sampling",
+    "paper_url": "https://huggingface.co/papers/2606.12370",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Breaking Entropy Bounds: Accelerating RL Training via MTP with Rejection Sampling",
+      "abstract": "Accelerates RL training in LLMs using MTP with rejection sampling and a novel end-to-end TV loss.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.12370",
+      "pdf_url": "https://arxiv.org/pdf/2606.12370",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.12370",
+      "scraped_at": "2026-06-11T04:04:58.538531"
+    },
+    "scraped_date": "2026-06-11"
+  },
+  {
+    "title": "Lius: Translation Model Based Instructional Lingustic Using Continual Instruction Tuning In Kupang Malay",
+    "paper_url": "https://huggingface.co/papers/2606.11786",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Lius: Translation Model Based Instructional Lingustic Using Continual Instruction Tuning In Kupang Malay",
+      "abstract": "We introduce Lius , an Indonesian → Kupang Malay translation model designed for low-resource machine translation. Kupang Malay is a Malay-based creole spoken in East Nusa Tenggara, Indonesia, but it remains underrepresented in current NLP resources and commercial MT systems. In this work, we propose Instructional Linguistic , a linguistically informed instruction design strategy, and Continual Instruction Tuning (CIT) , where the model is trained iteratively with multiple instruction types for the same translation target. Our approach uses four instruction families: context-based, semantic mapping-based, phonetic-based, and list-group-label-based prompts. We train three Cendol-mT5 variants: small, base, and large. The best model, Lius-Large-MT , improves over standard instruction tuning and outperforms several multilingual LLM and NMT baselines on Indonesian → Kupang Malay translation. Models are available on Hugging Face: https://huggingface.co/joanitolopo/lius-cendol-large-inst-mt https://huggingface.co/joanitolopo/lius-cendol-base-inst-mt https://huggingface.co/joanitolopo/lius-cendol-small-inst-mt Code: https://github.com/joanitolopo/instructional-linguistic-llm",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.11786",
+      "pdf_url": "https://arxiv.org/pdf/2606.11786",
+      "github_links": [
+        "https://github.com/joanitolopo/instructional-linguistic-llm",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.11786",
+      "scraped_at": "2026-06-11T04:05:00.459178"
+    },
+    "scraped_date": "2026-06-11"
+  },
+  {
+    "title": "World Model Self-Distillation: Training World Models to Solve General Tasks",
+    "paper_url": "https://huggingface.co/papers/2606.12072",
+    "authors": [
+      "Paolo Favaro",
+      "Aram Davtyan",
+      "Pablo Acuaviva Huertos",
+      "Sebastian Stapf"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "World Model Self-Distillation: Training World Models to Solve General Tasks",
+      "abstract": "A scalable framework that trains world models to solve tasks via self-distillation and RL from VLM feedback.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.12072",
+      "pdf_url": "https://arxiv.org/pdf/2606.12072",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/sebastian-stapf/world-model-self-distillation"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.12072",
+      "scraped_at": "2026-06-11T04:05:02.322280"
+    },
+    "scraped_date": "2026-06-11"
+  },
+  {
+    "title": "Embodied-R1.5: Evolving Physical Intelligence via Embodied Foundation Models",
+    "paper_url": "https://huggingface.co/papers/2606.11324",
+    "authors": [
+      "Shuoheng Zhang",
+      "Yutong Li",
+      "Xianze Yao",
+      "Yaoting Huang",
+      "Yifu Yuan"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "Embodied-R1.5: Evolving Physical Intelligence via Embodied Foundation Models",
+      "abstract": "A unified embodied foundation model achieving SOTA on embodied VLM and manipulation benchmarks with self-correction capabilities.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.11324",
+      "pdf_url": "https://arxiv.org/pdf/2606.11324",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/pickxiguapi/Embodied-R1.5"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.11324",
+      "scraped_at": "2026-06-11T04:05:04.251448"
+    },
+    "scraped_date": "2026-06-11"
+  },
+  {
+    "title": "i1: A Simple and Fully Open Recipe for Strong Text-to-Image Models",
+    "paper_url": "https://huggingface.co/papers/2606.11289",
+    "authors": [
+      "Taiming Lu",
+      "Jucheng Shen",
+      "Shu Pu",
+      "Tianze Luo",
+      "Boya Zeng"
+    ],
+    "stars": "14",
+    "details": {
+      "title": "i1: A Simple and Fully Open Recipe for Strong Text-to-Image Models",
+      "abstract": "A high-performing, fully open-source 3B-parameter text-to-image diffusion model with a systematic training recipe.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.11289",
+      "pdf_url": "https://arxiv.org/pdf/2606.11289",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/zlab-princeton/i1"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.11289",
+      "scraped_at": "2026-06-11T04:05:06.163531"
+    },
+    "scraped_date": "2026-06-11"
   }
 ]
