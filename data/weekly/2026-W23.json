@@ -1218,5 +1218,507 @@
       "scraped_at": "2026-06-11T04:05:06.163531"
     },
     "scraped_date": "2026-06-11"
+  },
+  {
+    "title": "SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning",
+    "paper_url": "https://huggingface.co/papers/2606.13673",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning",
+      "abstract": "\"Code is the right action interface for spatial reasoning!!\" SpatialClaw lets a VLM-backed agent write Python in a persistent kernel, composing perception modules, inspecting intermediate results, and revising its strategy across steps. It is training-free, with no benchmark- or model-specific adaptation, yet it beats a recent prior agent by +11.2 points on 20 benchmarks and improves consistently across six VLM backbones.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13673",
+      "pdf_url": "https://arxiv.org/pdf/2606.13673",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/NVlabs/SpatialClaw"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13673",
+      "scraped_at": "2026-06-12T04:05:26.597913"
+    },
+    "scraped_date": "2026-06-12"
+  },
+  {
+    "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+    "paper_url": "https://huggingface.co/papers/2606.13681",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+      "abstract": "Large language model (LLM) agents have achieved strong performance on a wide range of benchmarks, yet most evaluations assume static environments. In contrast, real-world deployment is inherently dynamic, requiring agents to continually align their knowledge, skills, and behavior with changing environments and updated task conditions. To address this gap, we introduce EvoArena, a benchmark suite that models environment changes as sequences of progressive updates across terminal, software, and social domains. We further propose EvoMem, a patch-based memory paradigm that records memory evolution as structured update histories, enabling agents to reason about environmental evolution through changes in their memory. Experiments show that current agents struggle on EvoArena, achieving an average accuracy of 39.6% across evolving terminal, software, and social-preference domains. EvoMem consistently improves performance, yielding an average gain of 1.5% on EvoArena and also improving standard benchmarks such as GAIA and LoCoMo by 6.1% and 4.8%. Beyond individual tasks, EvoMem further improves chain-level accuracy by 3.7% on EvoArena, where success requires completing a consecutive sequence of related evolutionary subtasks. Mechanistic analysis shows that EvoMem improves evidence capture in the memory, indicating better preservation of complete evolving environment states. Our results highlight the importance of modeling evolution in both evaluation and memory for reliable agent deployment.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13681",
+      "pdf_url": "https://arxiv.org/pdf/2606.13681",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13681",
+      "scraped_at": "2026-06-12T04:05:28.404695"
+    },
+    "scraped_date": "2026-06-12"
+  },
+  {
+    "title": "FORT-Searcher: Synthesizing Shortcut-Resistant Search Tasks for Training Deep Search Agents",
+    "paper_url": "https://huggingface.co/papers/2606.12087",
+    "authors": [
+      "Shuo Tang",
+      "Ziyang Zeng",
+      "Xiaoqing Xiang",
+      "Yimeng Chen",
+      "Jia Deng"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "FORT-Searcher: Synthesizing Shortcut-Resistant Search Tasks for Training Deep Search Agents",
+      "abstract": "Training deep search agents requires verifiable questions whose answers remain unavailable until sufficient evidence has been acquired through search. Existing synthesis methods often increase apparent difficulty by enriching graph structures, but structural complexity alone does not guarantee realized search difficulty: the intended search process can collapse through a cheaper identifying route. We formalize this gap with a shortcut-aware difficulty framework and identify four actionable shortcut risks: evidence co-coverage, single-clue selectivity, exposed constants, and prior-knowledge binding. To diagnose their realized effects, we use trajectory signatures including solving cost, answer hit time, and prior-shortcut rate. Guided by this framework, we introduce FORT, a Framework of Shortcut-Resistant Training-Data Synthesis. FORT constructs shortcut-resistant training data by controlling shortcut risks across entity selection, evidence graph construction, question formulation, and adversarial refinement. Experiments show that FORT induces longer pre-answer search and fewer shortcut patterns than existing open-source deep search datasets. Using the resulting trajectories, we train FORT-Searcher with supervised fine-tuning (SFT) only, and it achieves the best overall performance among comparable-size open-source search agents on challenging deep search benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.12087",
+      "pdf_url": "https://arxiv.org/pdf/2606.12087",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/RUCAIBox/FORT-Searcher"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.12087",
+      "scraped_at": "2026-06-12T04:05:30.217517"
+    },
+    "scraped_date": "2026-06-12"
+  },
+  {
+    "title": "InterleaveThinker: Reinforcing Agentic Interleaved Generation",
+    "paper_url": "https://huggingface.co/papers/2606.13679",
+    "authors": [
+      "Zoey Guo",
+      "Kaituo Feng",
+      "Manyuan Zhang",
+      "Harry Lee",
+      "Dian Zheng"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "InterleaveThinker: Reinforcing Agentic Interleaved Generation",
+      "abstract": "hf: https://huggingface.co/InterleaveThinker",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13679",
+      "pdf_url": "https://arxiv.org/pdf/2606.13679",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/zhengdian1/InterleaveThinker"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13679",
+      "scraped_at": "2026-06-12T04:05:32.042632"
+    },
+    "scraped_date": "2026-06-12"
+  },
+  {
+    "title": "WeaveBench: A Long-Horizon, Real-World Benchmark for Computer-Use Agents with Hybrid Interfaces",
+    "paper_url": "https://huggingface.co/papers/2606.09426",
+    "authors": [],
+    "stars": "30",
+    "details": {
+      "title": "WeaveBench: A Long-Horizon, Real-World Benchmark for Computer-Use Agents with Hybrid Interfaces",
+      "abstract": "We introduce WeaveBench, a long-horizon benchmark with 114 tasks across 8 real-world domains, where agents must interleave GUI and CLI/code operations in a single trajectory on a real Ubuntu desktop. The best frontier model reaches only 41.2% PassRate, and our trajectory-aware judge shows outcome-only grading greatly overestimates agent performance. Project: https://weavebench.github.io",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.09426",
+      "pdf_url": "https://arxiv.org/pdf/2606.09426",
+      "github_links": [
+        "https://github.com/weavebench/WeaveBench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.09426",
+      "scraped_at": "2026-06-12T04:05:33.838521"
+    },
+    "scraped_date": "2026-06-12"
+  },
+  {
+    "title": "N-GRPO: Embedding-Level Neighbor Mixing for Enhanced Policy Optimization",
+    "paper_url": "https://huggingface.co/papers/2606.10768",
+    "authors": [
+      "Linchao Zhu",
+      "Peng Di",
+      "Hang Yu",
+      "Xukun Zhu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "N-GRPO: Embedding-Level Neighbor Mixing for Enhanced Policy Optimization",
+      "abstract": "N-GRPO: Embedding-Level Neighbor Mixing for Enhanced Policy Optimization Github: https://github.com/ZJUSCL/N-GRPO",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.10768",
+      "pdf_url": "https://arxiv.org/pdf/2606.10768",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ZJUSCL/N-GRPO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.10768",
+      "scraped_at": "2026-06-12T04:05:35.706917"
+    },
+    "scraped_date": "2026-06-12"
+  },
+  {
+    "title": "MoVerse: Real-Time Video World Modeling with Panoramic Gaussian Scaffold",
+    "paper_url": "https://huggingface.co/papers/2606.13376",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "MoVerse: Real-Time Video World Modeling with Panoramic Gaussian Scaffold",
+      "abstract": "MoVerse is a real-time video world model that transforms a single narrow-field-of-view image into an interactively navigable environment by lifting a topology-aware 360° panorama into a persistent 3D Gaussian scaffold, achieving high-fidelity scene roaming at 8 FPS on a single NVIDIA RTX 4090 GPU.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13376",
+      "pdf_url": "https://arxiv.org/pdf/2606.13376",
+      "github_links": [
+        "https://github.com/Orange-3DV-Team/MoVerse",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13376",
+      "scraped_at": "2026-06-12T04:05:37.538626"
+    },
+    "scraped_date": "2026-06-12"
+  },
+  {
+    "title": "Robust-U1: Can MLLMs Self-Recover Corrupted Visual Content for Robust Understanding?",
+    "paper_url": "https://huggingface.co/papers/2606.08063",
+    "authors": [
+      "Runtao Liu",
+      "Wei Wei",
+      "Youyang Zhai",
+      "Jianmin Chen",
+      "Jiaqi Tang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Robust-U1: Can MLLMs Self-Recover Corrupted Visual Content for Robust Understanding?",
+      "abstract": "Multimodal Large Language Models (MLLMs) have demonstrated remarkable success in visual understanding, yet their performance degrades significantly under real-world visual corruptions. While existing robustness enhancement approaches exist, they are limited: black-box feature alignment lacks interpretability, and white-box text-based reasoning cannot restore lost pixel-level details. This work investigates a fundamental research question: Can MLLMs recover corrupted visual content by themselves? To address this, we propose Robust-U1, a novel framework that equips MLLMs with explicit visual self-recovery capability for robust understanding. The approach comprises three core stages: supervised fine-tuning for initial reconstruction, reinforcement learning with dual rewards (pixel-level SSIM and semantic-level CLIP similarity) for aligning high visual quality, and multimodal reasoning that jointly considers both the corrupted input and the recovered image. Extensive experiments demonstrate that Robust-U1 achieves state-of-the-art robustness on the real-world corruption benchmark and maintains superior performance under adversarial corruptions on general VQA benchmarks. Analysis confirms that high-quality visual recovery directly enhances reasoning performance, establishing self-recovery as a critical mechanism for robust visual understanding.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.08063",
+      "pdf_url": "https://arxiv.org/pdf/2606.08063",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/jqtangust/Robust-U1"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.08063",
+      "scraped_at": "2026-06-12T04:05:39.334415"
+    },
+    "scraped_date": "2026-06-12"
+  },
+  {
+    "title": "Visual Para-Thinker++: A Single-Policy Multi-Agent Framework for Visual Reasoning",
+    "paper_url": "https://huggingface.co/papers/2606.09290",
+    "authors": [
+      "Jiaze Li",
+      "Yifei Gao",
+      "Hongyu Wang",
+      "Haoran Xu",
+      "zizhaotong"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Visual Para-Thinker++: A Single-Policy Multi-Agent Framework for Visual Reasoning",
+      "abstract": "Visual ParaThinker++",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.09290",
+      "pdf_url": "https://arxiv.org/pdf/2606.09290",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.09290",
+      "scraped_at": "2026-06-12T04:05:41.137195"
+    },
+    "scraped_date": "2026-06-12"
+  },
+  {
+    "title": "MaxProof: Scaling Mathematical Proof with Generative-Verifier RL and Population-Level Test-Time Scaling",
+    "paper_url": "https://huggingface.co/papers/2606.13473",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MaxProof: Scaling Mathematical Proof with Generative-Verifier RL and Population-Level Test-Time Scaling",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13473",
+      "pdf_url": "https://arxiv.org/pdf/2606.13473",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13473",
+      "scraped_at": "2026-06-12T04:05:42.912187"
+    },
+    "scraped_date": "2026-06-12"
+  },
+  {
+    "title": "SG-OPD: Sign-Gated On-Policy Distillation via Sign-Consistency Gating and Phased Teacher Sampling",
+    "paper_url": "https://huggingface.co/papers/2606.09304",
+    "authors": [
+      "Xiaofeng Zhang",
+      "Yifei Gao",
+      "Hongyu Wang",
+      "Haoran Xu",
+      "williamljz"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SG-OPD: Sign-Gated On-Policy Distillation via Sign-Consistency Gating and Phased Teacher Sampling",
+      "abstract": "SG-OPD",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.09304",
+      "pdf_url": "https://arxiv.org/pdf/2606.09304",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.09304",
+      "scraped_at": "2026-06-12T04:05:44.682935"
+    },
+    "scraped_date": "2026-06-12"
+  },
+  {
+    "title": "HarnessBridge: Learnable Bidirectional Controller for LLM Agent Harness",
+    "paper_url": "https://huggingface.co/papers/2606.12882",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "HarnessBridge: Learnable Bidirectional Controller for LLM Agent Harness",
+      "abstract": "HarnessBridge",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.12882",
+      "pdf_url": "https://arxiv.org/pdf/2606.12882",
+      "github_links": [
+        "https://github.com/mandyyyyii/HarnessBridge",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.12882",
+      "scraped_at": "2026-06-12T04:05:46.466006"
+    },
+    "scraped_date": "2026-06-12"
+  },
+  {
+    "title": "VideoMDM: Towards 3D Human Motion Generation From 2D Supervision",
+    "paper_url": "https://huggingface.co/papers/2606.13364",
+    "authors": [
+      "Or Litany",
+      "Merav Keidar",
+      "Gal Michael Harari",
+      "Amir Mann"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "VideoMDM: Towards 3D Human Motion Generation From 2D Supervision",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13364",
+      "pdf_url": "https://arxiv.org/pdf/2606.13364",
+      "github_links": [
+        "https://github.com/Amir-Mann/VideoMDM_release",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13364",
+      "scraped_at": "2026-06-12T04:05:48.270772"
+    },
+    "scraped_date": "2026-06-12"
+  },
+  {
+    "title": "EvoBrowseComp: Benchmarking Search Agents on Evolving Knowledge",
+    "paper_url": "https://huggingface.co/papers/2606.13120",
+    "authors": [
+      "Fandong Meng",
+      "Xianfeng Zeng",
+      "Lianzhe Huang",
+      "Jiaan Wang",
+      "Yunhan Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "EvoBrowseComp: Benchmarking Search Agents on Evolving Knowledge",
+      "abstract": "EvoBrowseComp is a search agent benchmark of 400 English and 400 Chinese contamination-free complex questions synthesized via live-web traversal.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13120",
+      "pdf_url": "https://arxiv.org/pdf/2606.13120",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13120",
+      "scraped_at": "2026-06-12T04:05:50.015058"
+    },
+    "scraped_date": "2026-06-12"
+  },
+  {
+    "title": "Demystifying Hidden-State Recurrence: Switchable Latent Reasoning with On-Policy Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2606.13106",
+    "authors": [
+      "Yuxuan Fan",
+      "Yinhong Liu",
+      "Shengen Wu",
+      "Chao Chen",
+      "Jiayu Yang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Demystifying Hidden-State Recurrence: Switchable Latent Reasoning with On-Policy Reinforcement Learning",
+      "abstract": "This paper introduces a pair of learned boundary tokens (/) that mark where latent reasoning begins and ends, making hidden-state-recurrence latent CoT both trainable with standard on-policy RL (GRPO) and open to direct mechanistic probing and causal intervention. It reaches 79.3% on MATH-500, well above same-scale Coconut-style baselines, and analysis confirms the latent step performs causally necessary computation rather than acting as an inert placeholder.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13106",
+      "pdf_url": "https://arxiv.org/pdf/2606.13106",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13106",
+      "scraped_at": "2026-06-12T04:05:51.762846"
+    },
+    "scraped_date": "2026-06-12"
+  },
+  {
+    "title": "Surflo: Consistent 3D Surface Flow Model with Global State",
+    "paper_url": "https://huggingface.co/papers/2606.13644",
+    "authors": [
+      "Ko Nishino",
+      "Jiahui Lei",
+      "Nicolas Dufour",
+      "Shu Nakamura",
+      "Antoine Guédon"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Surflo: Consistent 3D Surface Flow Model with Global State",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13644",
+      "pdf_url": "https://arxiv.org/pdf/2606.13644",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13644",
+      "scraped_at": "2026-06-12T04:05:53.514131"
+    },
+    "scraped_date": "2026-06-12"
+  },
+  {
+    "title": "EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery",
+    "paper_url": "https://huggingface.co/papers/2606.13662",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery",
+      "abstract": "As model capabilities continue to improve, we argue that the bottleneck for autonomous scientific discovery is shifting from prescribing agent workflows to designing agent environments: the resources, constraints, and interfaces that shape agent behavior. We frame this as environment engineering: building environments that amplify productive behaviors, such as open-ended exploration, systematic artifact management, and inter-agent collaboration, while suppressing harmful behaviors, such as reward hacking and high-friction human oversight. We present EurekAgent, an environment-engineered agent system for metric-driven autonomous scientific discovery. EurekAgent engineers the environment along four dimensions: permissions engineering for bounded agent execution and isolated evaluation; artifact engineering for filesystem and Git-based collaboration; budget engineering for budget-aware exploration; and human-in-the-loop engineering for easy human supervision and intervention. EurekAgent sets new state-of-the-art results on multiple mathematics, kernel engineering, and machine learning tasks, including new state-of-the-art 26-circle packing results discovered with less than $11 in total API cost. We open-source our code and results, and call for environment engineering as a core research direction for developing reliable autonomous research agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13662",
+      "pdf_url": "https://arxiv.org/pdf/2606.13662",
+      "github_links": [
+        "https://github.com/THU-Team-Eureka/EurekAgent",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13662",
+      "scraped_at": "2026-06-12T04:05:55.373793"
+    },
+    "scraped_date": "2026-06-12"
+  },
+  {
+    "title": "Evoflux: Inference-Time Evolution of Executable Tool Workflows for Compact Agents",
+    "paper_url": "https://huggingface.co/papers/2606.12674",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Evoflux: Inference-Time Evolution of Executable Tool Workflows for Compact Agents",
+      "abstract": "Evoflux tackles a practical bottleneck for small (1.5B–4B) tool-using agents: with only a few hundred teacher traces available, should that scarce supervision go into fine-tuning the model's weights, or into search at inference time? The paper reframes compact MCP-style tool use as executable workflow repair rather than one-shot function calling—the agent has to resolve tools from live catalogs, satisfy schemas, preserve cross-step dependencies, and ground its final answer in real execution—and introduces Evoflux, an inference-time evolutionary loop that evolves typed workflow graphs through structured edits, execution feedback, adaptive intensity, meta-guided redesign, and diversity pruning, all without updating weights. On held-out MCP-Bench tasks spanning live servers and 250 tools, Evoflux raises execution feasibility from roughly 3% to 17–24% across small planners, while SFT and SFT+DPO trained on the same search-mined data merely match, underperform, or even collapse below the zero-shot baseline—a nice quantification of an underreported risk in small-corpus fine-tuning of compact agents (ReAct hits higher peaks but with far higher variance and token cost). The takeaway is clean: under tight teacher-trace budgets, execution-grounded search transfers more reliably than weight updates.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.12674",
+      "pdf_url": "https://arxiv.org/pdf/2606.12674",
+      "github_links": [
+        "https://github.com/IBM/Evoflux",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.12674",
+      "scraped_at": "2026-06-12T04:05:57.238651"
+    },
+    "scraped_date": "2026-06-12"
+  },
+  {
+    "title": "MaskAlign: Token-Subset Representation Alignment for Efficient Diffusion Training",
+    "paper_url": "https://huggingface.co/papers/2606.08788",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MaskAlign: Token-Subset Representation Alignment for Efficient Diffusion Training",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.08788",
+      "pdf_url": "https://arxiv.org/pdf/2606.08788",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.08788",
+      "scraped_at": "2026-06-12T04:05:59.007605"
+    },
+    "scraped_date": "2026-06-12"
+  },
+  {
+    "title": "WEAVER, Better, Faster, Longer: An Effective World Model for Robotic Manipulation",
+    "paper_url": "https://huggingface.co/papers/2606.13672",
+    "authors": [
+      "Andrea Bajcsy",
+      "Gokul Swamy",
+      "Jesse Farebrother",
+      "Yilin Wu",
+      "Arnav Kumar Jain"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "WEAVER, Better, Faster, Longer: An Effective World Model for Robotic Manipulation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13672",
+      "pdf_url": "https://arxiv.org/pdf/2606.13672",
+      "github_links": [
+        "https://github.com/arnavkj1995/WEAVER",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13672",
+      "scraped_at": "2026-06-12T04:06:00.737475"
+    },
+    "scraped_date": "2026-06-12"
+  },
+  {
+    "title": "LabVLA: Grounding Vision-Language-Action Models in Scientific Laboratories",
+    "paper_url": "https://huggingface.co/papers/2606.13578",
+    "authors": [
+      "Chenxi Li",
+      "Yanshuo Liu",
+      "Xi Chen",
+      "Xinjie Liu",
+      "Baochang Ren"
+    ],
+    "stars": "39",
+    "details": {
+      "title": "LabVLA: Grounding Vision-Language-Action Models in Scientific Laboratories",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13578",
+      "pdf_url": "https://arxiv.org/pdf/2606.13578",
+      "github_links": [
+        "https://github.com/zjunlp/LabVLA",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13578",
+      "scraped_at": "2026-06-12T04:06:02.469627"
+    },
+    "scraped_date": "2026-06-12"
+  },
+  {
+    "title": "MuJoCo-Drones-Gym: A GPU-Accelerated Multi-Drone Simulator for Control and Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2606.08039",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "MuJoCo-Drones-Gym: A GPU-Accelerated Multi-Drone Simulator for Control and Reinforcement Learning",
+      "abstract": "We present MuJoCo-Drones-Gym, an open-source Gymnasium-compatible multi-drone environment built on top of the MuJoCo physics engine. Multi-drone environment for RL with MuJoCo, with GPU vectorization, wind models, domain randomization, and curriculum learning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.08039",
+      "pdf_url": "https://arxiv.org/pdf/2606.08039",
+      "github_links": [
+        "https://github.com/tau-intelligence/MuJoCo-drones-gym",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.08039",
+      "scraped_at": "2026-06-12T04:06:04.250422"
+    },
+    "scraped_date": "2026-06-12"
   }
 ]
