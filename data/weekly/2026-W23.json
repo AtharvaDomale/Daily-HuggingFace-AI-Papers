@@ -1720,5 +1720,984 @@
       "scraped_at": "2026-06-12T04:06:04.250422"
     },
     "scraped_date": "2026-06-12"
+  },
+  {
+    "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+    "paper_url": "https://huggingface.co/papers/2606.13681",
+    "authors": [],
+    "stars": "8",
+    "details": {
+      "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+      "abstract": "Large language model (LLM) agents have achieved strong performance on a wide range of benchmarks, yet most evaluations assume static environments. In contrast, real-world deployment is inherently dynamic, requiring agents to continually align their knowledge, skills, and behavior with changing environments and updated task conditions. To address this gap, we introduce EvoArena, a benchmark suite that models environment changes as sequences of progressive updates across terminal, software, and social domains. We further propose EvoMem, a patch-based memory paradigm that records memory evolution as structured update histories, enabling agents to reason about environmental evolution through changes in their memory. Experiments show that current agents struggle on EvoArena, achieving an average accuracy of 39.6% across evolving terminal, software, and social-preference domains. EvoMem consistently improves performance, yielding an average gain of 1.5% on EvoArena and also improving standard benchmarks such as GAIA and LoCoMo by 6.1% and 4.8%. Beyond individual tasks, EvoMem further improves chain-level accuracy by 3.7% on EvoArena, where success requires completing a consecutive sequence of related evolutionary subtasks. Mechanistic analysis shows that EvoMem improves evidence capture in the memory, indicating better preservation of complete evolving environment states. Our results highlight the importance of modeling evolution in both evaluation and memory for reliable agent deployment.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13681",
+      "pdf_url": "https://arxiv.org/pdf/2606.13681",
+      "github_links": [
+        "https://github.com/Aiden0526/EvoArena",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13681",
+      "scraped_at": "2026-06-13T03:53:36.269779"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "MiniMax Sparse Attention",
+    "paper_url": "https://huggingface.co/papers/2606.13392",
+    "authors": [],
+    "stars": "215",
+    "details": {
+      "title": "MiniMax Sparse Attention",
+      "abstract": "our high-performance MSA kernel library is now open-source",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13392",
+      "pdf_url": "https://arxiv.org/pdf/2606.13392",
+      "github_links": [
+        "https://github.com/MiniMax-AI/MSA",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13392",
+      "scraped_at": "2026-06-13T03:53:38.357986"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning",
+    "paper_url": "https://huggingface.co/papers/2606.13673",
+    "authors": [],
+    "stars": "53",
+    "details": {
+      "title": "SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning",
+      "abstract": "\"Code is the right action interface for spatial reasoning!!\" SpatialClaw lets a VLM-backed agent write Python in a persistent kernel, composing perception modules, inspecting intermediate results, and revising its strategy across steps. It is training-free, with no benchmark- or model-specific adaptation, yet it beats a recent prior agent by +11.2 points on 20 benchmarks and improves consistently across six VLM backbones.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13673",
+      "pdf_url": "https://arxiv.org/pdf/2606.13673",
+      "github_links": [
+        "https://github.com/NVlabs/SpatialClaw",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13673",
+      "scraped_at": "2026-06-13T03:53:40.419381"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "InterleaveThinker: Reinforcing Agentic Interleaved Generation",
+    "paper_url": "https://huggingface.co/papers/2606.13679",
+    "authors": [
+      "Zoey Guo",
+      "Kaituo Feng",
+      "Manyuan Zhang",
+      "Harry Lee",
+      "zhengli1013"
+    ],
+    "stars": "99",
+    "details": {
+      "title": "InterleaveThinker: Reinforcing Agentic Interleaved Generation",
+      "abstract": "hf: https://huggingface.co/InterleaveThinker",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13679",
+      "pdf_url": "https://arxiv.org/pdf/2606.13679",
+      "github_links": [
+        "https://github.com/zhengdian1/InterleaveThinker",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13679",
+      "scraped_at": "2026-06-13T03:53:42.431937"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "FORT-Searcher: Synthesizing Shortcut-Resistant Search Tasks for Training Deep Search Agents",
+    "paper_url": "https://huggingface.co/papers/2606.12087",
+    "authors": [
+      "Shuo Tang",
+      "Xiaoqing Xiang",
+      "Yimeng Chen",
+      "Jia Deng",
+      "ziyang1060"
+    ],
+    "stars": "17",
+    "details": {
+      "title": "FORT-Searcher: Synthesizing Shortcut-Resistant Search Tasks for Training Deep Search Agents",
+      "abstract": "Training deep search agents requires verifiable questions whose answers remain unavailable until sufficient evidence has been acquired through search. Existing synthesis methods often increase apparent difficulty by enriching graph structures, but structural complexity alone does not guarantee realized search difficulty: the intended search process can collapse through a cheaper identifying route. We formalize this gap with a shortcut-aware difficulty framework and identify four actionable shortcut risks: evidence co-coverage, single-clue selectivity, exposed constants, and prior-knowledge binding. To diagnose their realized effects, we use trajectory signatures including solving cost, answer hit time, and prior-shortcut rate. Guided by this framework, we introduce FORT, a Framework of Shortcut-Resistant Training-Data Synthesis. FORT constructs shortcut-resistant training data by controlling shortcut risks across entity selection, evidence graph construction, question formulation, and adversarial refinement. Experiments show that FORT induces longer pre-answer search and fewer shortcut patterns than existing open-source deep search datasets. Using the resulting trajectories, we train FORT-Searcher with supervised fine-tuning (SFT) only, and it achieves the best overall performance among comparable-size open-source search agents on challenging deep search benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.12087",
+      "pdf_url": "https://arxiv.org/pdf/2606.12087",
+      "github_links": [
+        "https://github.com/RUCAIBox/FORT-Searcher",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.12087",
+      "scraped_at": "2026-06-13T03:53:44.370023"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "Robust-U1: Can MLLMs Self-Recover Corrupted Visual Content for Robust Understanding?",
+    "paper_url": "https://huggingface.co/papers/2606.08063",
+    "authors": [
+      "Runtao Liu",
+      "Wei Wei",
+      "Youyang Zhai",
+      "Jianmin Chen",
+      "Jiaqi-hkust"
+    ],
+    "stars": "73",
+    "details": {
+      "title": "Robust-U1: Can MLLMs Self-Recover Corrupted Visual Content for Robust Understanding?",
+      "abstract": "Multimodal Large Language Models (MLLMs) have demonstrated remarkable success in visual understanding, yet their performance degrades significantly under real-world visual corruptions. While existing robustness enhancement approaches exist, they are limited: black-box feature alignment lacks interpretability, and white-box text-based reasoning cannot restore lost pixel-level details. This work investigates a fundamental research question: Can MLLMs recover corrupted visual content by themselves? To address this, we propose Robust-U1, a novel framework that equips MLLMs with explicit visual self-recovery capability for robust understanding. The approach comprises three core stages: supervised fine-tuning for initial reconstruction, reinforcement learning with dual rewards (pixel-level SSIM and semantic-level CLIP similarity) for aligning high visual quality, and multimodal reasoning that jointly considers both the corrupted input and the recovered image. Extensive experiments demonstrate that Robust-U1 achieves state-of-the-art robustness on the real-world corruption benchmark and maintains superior performance under adversarial corruptions on general VQA benchmarks. Analysis confirms that high-quality visual recovery directly enhances reasoning performance, establishing self-recovery as a critical mechanism for robust visual understanding.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.08063",
+      "pdf_url": "https://arxiv.org/pdf/2606.08063",
+      "github_links": [
+        "https://github.com/jqtangust/Robust-U1",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.08063",
+      "scraped_at": "2026-06-13T03:53:46.274836"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "MaxProof: Scaling Mathematical Proof with Generative-Verifier RL and Population-Level Test-Time Scaling",
+    "paper_url": "https://huggingface.co/papers/2606.13473",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MaxProof: Scaling Mathematical Proof with Generative-Verifier RL and Population-Level Test-Time Scaling",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Automating Formal Verification with Reinforcement Learning and Recursive Inference (2026) Scaling Test-Time Compute for Agentic Coding (2026) OProver: A Unified Framework for Agentic Formal Theorem Proving (2026) Pseudo-Formalization for Automatic Proof Verification (2026) DIRECT: When and Where Should You Allocate Test-Time Compute in Embodied Planners? (2026) Adaptive Generate-Rank-Verify: Inference-Time Search with Costly Verification (2026) Exploiting Verification-Generation Gap: Test-Time Reinforcement Learning with Confidence-Conditioned Verification (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13473",
+      "pdf_url": "https://arxiv.org/pdf/2606.13473",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13473",
+      "scraped_at": "2026-06-13T03:53:48.167481"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "WeaveBench: A Long-Horizon, Real-World Benchmark for Computer-Use Agents with Hybrid Interfaces",
+    "paper_url": "https://huggingface.co/papers/2606.09426",
+    "authors": [],
+    "stars": "35",
+    "details": {
+      "title": "WeaveBench: A Long-Horizon, Real-World Benchmark for Computer-Use Agents with Hybrid Interfaces",
+      "abstract": "We introduce WeaveBench, a long-horizon benchmark with 114 tasks across 8 real-world domains, where agents must interleave GUI and CLI/code operations in a single trajectory on a real Ubuntu desktop. The best frontier model reaches only 41.2% PassRate, and our trajectory-aware judge shows outcome-only grading greatly overestimates agent performance. Project: https://weavebench.github.io",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.09426",
+      "pdf_url": "https://arxiv.org/pdf/2606.09426",
+      "github_links": [
+        "https://github.com/weavebench/WeaveBench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.09426",
+      "scraped_at": "2026-06-13T03:53:50.082591"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "LabVLA: Grounding Vision-Language-Action Models in Scientific Laboratories",
+    "paper_url": "https://huggingface.co/papers/2606.13578",
+    "authors": [
+      "Yanshuo Liu",
+      "Xi Chen",
+      "Xinjie Liu",
+      "Baochang Ren",
+      "Ningyu"
+    ],
+    "stars": "45",
+    "details": {
+      "title": "LabVLA: Grounding Vision-Language-Action Models in Scientific Laboratories",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13578",
+      "pdf_url": "https://arxiv.org/pdf/2606.13578",
+      "github_links": [
+        "https://github.com/zjunlp/LabVLA",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13578",
+      "scraped_at": "2026-06-13T03:53:52.083281"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "HYDRA-X: Native Unified Multimodal Models with Holistic Visual Tokenizers",
+    "paper_url": "https://huggingface.co/papers/2606.13289",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "HYDRA-X: Native Unified Multimodal Models with Holistic Visual Tokenizers",
+      "abstract": "🔱 Meet HYDRA-X — a 7B native unified multimodal model where one ViT-based tokenizer drives 5 tasks: image/video understanding, image/video generation, and image editing. Three core contributions: 🎯 Less attention is more. Local causal tubelet attention + hierarchical temporal patchify preserve the image-pretrained prior far better than full spatiotemporal mixing or single-step compression. 🌉 Compressed latents, full-rate semantics. A lightweight training-time Decompressor lets image+video teachers supervise temporally compressed latents — no extra cost at inference. ✨ Editing as length-2 video. Source–target alignment happens inside the tokenizer via the same causal pathway used for video — no extra modules, no extra parameters. Across all 5 tasks, HYDRA-X delivers strong results at the 7B dense scale — laying a solid foundation and offering practical insights for future unified-tokenizer UMM research. 🚀",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13289",
+      "pdf_url": "https://arxiv.org/pdf/2606.13289",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13289",
+      "scraped_at": "2026-06-13T03:53:53.995131"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "N-GRPO: Embedding-Level Neighbor Mixing for Enhanced Policy Optimization",
+    "paper_url": "https://huggingface.co/papers/2606.10768",
+    "authors": [
+      "Linchao Zhu",
+      "Peng Di",
+      "Hang Yu",
+      "MoonKuun"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "N-GRPO: Embedding-Level Neighbor Mixing for Enhanced Policy Optimization",
+      "abstract": "N-GRPO: Embedding-Level Neighbor Mixing for Enhanced Policy Optimization Github: https://github.com/ZJUSCL/N-GRPO",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.10768",
+      "pdf_url": "https://arxiv.org/pdf/2606.10768",
+      "github_links": [
+        "https://github.com/ZJUSCL/N-GRPO",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.10768",
+      "scraped_at": "2026-06-13T03:53:55.835792"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery",
+    "paper_url": "https://huggingface.co/papers/2606.13662",
+    "authors": [],
+    "stars": "20",
+    "details": {
+      "title": "EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery",
+      "abstract": "As model capabilities continue to improve, we argue that the bottleneck for autonomous scientific discovery is shifting from prescribing agent workflows to designing agent environments: the resources, constraints, and interfaces that shape agent behavior. We frame this as environment engineering: building environments that amplify productive behaviors, such as open-ended exploration, systematic artifact management, and inter-agent collaboration, while suppressing harmful behaviors, such as reward hacking and high-friction human oversight. We present EurekAgent, an environment-engineered agent system for metric-driven autonomous scientific discovery. EurekAgent engineers the environment along four dimensions: permissions engineering for bounded agent execution and isolated evaluation; artifact engineering for filesystem and Git-based collaboration; budget engineering for budget-aware exploration; and human-in-the-loop engineering for easy human supervision and intervention. EurekAgent sets new state-of-the-art results on multiple mathematics, kernel engineering, and machine learning tasks, including new state-of-the-art 26-circle packing results discovered with less than $11 in total API cost. We open-source our code and results, and call for environment engineering as a core research direction for developing reliable autonomous research agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13662",
+      "pdf_url": "https://arxiv.org/pdf/2606.13662",
+      "github_links": [
+        "https://github.com/THU-Team-Eureka/EurekAgent",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13662",
+      "scraped_at": "2026-06-13T03:53:57.766773"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "Demystifying Hidden-State Recurrence: Switchable Latent Reasoning with On-Policy Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2606.13106",
+    "authors": [
+      "Yinhong Liu",
+      "Shengen Wu",
+      "Chao Chen",
+      "Jiayu Yang",
+      "EasonFan"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Demystifying Hidden-State Recurrence: Switchable Latent Reasoning with On-Policy Reinforcement Learning",
+      "abstract": "This paper introduces a pair of learned boundary tokens (/) that mark where latent reasoning begins and ends, making hidden-state-recurrence latent CoT both trainable with standard on-policy RL (GRPO) and open to direct mechanistic probing and causal intervention. It reaches 79.3% on MATH-500, well above same-scale Coconut-style baselines, and analysis confirms the latent step performs causally necessary computation rather than acting as an inert placeholder.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13106",
+      "pdf_url": "https://arxiv.org/pdf/2606.13106",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13106",
+      "scraped_at": "2026-06-13T03:53:59.733403"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "VideoMDM: Towards 3D Human Motion Generation From 2D Supervision",
+    "paper_url": "https://huggingface.co/papers/2606.13364",
+    "authors": [
+      "Or Litany",
+      "Merav Keidar",
+      "Gal Michael Harari",
+      "Amir Mann"
+    ],
+    "stars": "10",
+    "details": {
+      "title": "VideoMDM: Towards 3D Human Motion Generation From 2D Supervision",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API AnyLift: Scaling Motion Reconstruction from Internet Videos via 2D Diffusion (2026) Unsupervised 3D Human Pose Estimation via Conditional Multi-view Ancestral Sampling (2026) Natural Human Motion Recovery by Aligning High-Order Temporal Dynamics from Monocular Videos (2026) Enhancing Domain Generalization in 3D Human Pose Estimation through Controllable Generative Augmentation (2026) FactorizedHMR: A Hybrid Framework for Video Human Mesh Recovery (2026) TrackCraft3R: Repurposing Video Diffusion Transformers for Dense 3D Tracking (2026) AnyAct: Towards Human Reenactment of Character Motion From Video (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13364",
+      "pdf_url": "https://arxiv.org/pdf/2606.13364",
+      "github_links": [
+        "https://github.com/Amir-Mann/VideoMDM_release",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13364",
+      "scraped_at": "2026-06-13T03:54:01.611330"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "VIA-SD: Verification via Intra-Model Routing for Speculative Decoding",
+    "paper_url": "https://huggingface.co/papers/2606.12243",
+    "authors": [
+      "Yi Yang",
+      "Yang He",
+      "Yuchen Xian",
+      "Yunqiu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "VIA-SD: Verification via Intra-Model Routing for Speculative Decoding",
+      "abstract": "Project page: https://zju-xyc.github.io/VIA-SD-Project-Page/",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.12243",
+      "pdf_url": "https://arxiv.org/pdf/2606.12243",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.12243",
+      "scraped_at": "2026-06-13T03:54:03.464282"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "Where, What, Why, and Importance: Structured Defect Grounding for Text-to-Image Feedback",
+    "paper_url": "https://huggingface.co/papers/2606.06113",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "Where, What, Why, and Importance: Structured Defect Grounding for Text-to-Image Feedback",
+      "abstract": "All code, datasets and model weights are publicly available. https://huggingface.co/collections/P1n3/sdg github： https://github.com/nianbai006/SDG",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.06113",
+      "pdf_url": "https://arxiv.org/pdf/2606.06113",
+      "github_links": [
+        "https://github.com/nianbai006/SDG",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.06113",
+      "scraped_at": "2026-06-13T03:54:05.381616"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "From 2D Grids to 1D Tokens: Reforming Shared Representations for Multimodal Image Fusion",
+    "paper_url": "https://huggingface.co/papers/2606.12303",
+    "authors": [
+      "Yi Yang",
+      "Yang He",
+      "Yunqiu Xu",
+      "Yuchen Xian"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "From 2D Grids to 1D Tokens: Reforming Shared Representations for Multimodal Image Fusion",
+      "abstract": "Project page: https://zju-xyc.github.io/1D-Fusion-Project-Page/",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.12303",
+      "pdf_url": "https://arxiv.org/pdf/2606.12303",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.12303",
+      "scraped_at": "2026-06-13T03:54:07.271011"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "MoVerse: Real-Time Video World Modeling with Panoramic Gaussian Scaffold",
+    "paper_url": "https://huggingface.co/papers/2606.13376",
+    "authors": [],
+    "stars": "12",
+    "details": {
+      "title": "MoVerse: Real-Time Video World Modeling with Panoramic Gaussian Scaffold",
+      "abstract": "MoVerse is a real-time video world model that transforms a single narrow-field-of-view image into an interactively navigable environment by lifting a topology-aware 360° panorama into a persistent 3D Gaussian scaffold, achieving high-fidelity scene roaming at 8 FPS on a single NVIDIA RTX 4090 GPU.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13376",
+      "pdf_url": "https://arxiv.org/pdf/2606.13376",
+      "github_links": [
+        "https://github.com/Orange-3DV-Team/MoVerse",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13376",
+      "scraped_at": "2026-06-13T03:54:09.128163"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "TreeSeeker: Tree-Structured Trial, Error, and Return in Deep Search",
+    "paper_url": "https://huggingface.co/papers/2606.11662",
+    "authors": [
+      "Pu Zhao",
+      "Fangkai Yang",
+      "Lu Wang",
+      "Zhuofan Shi",
+      "mingzhema"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "TreeSeeker: Tree-Structured Trial, Error, and Return in Deep Search",
+      "abstract": "We propose TreeSeeker, a framework for deep-search agents that explicitly models trial-and-error during long-horizon web research. In practice, deep search is not only a reasoning problem — it is also a search-control problem. Agents often face several plausible directions early in the search process, but only some later lead to reliable evidence. Existing systems usually follow a single evolving trajectory or a fixed execution schedule, which can cause premature commitment to weak paths. TreeSeeker addresses this by organizing search as branch-and-return exploration over tree-structured states. Our controller, TreeSearch, uses textual signals of value, uncertainty, and risk to decide whether to exploit a promising branch, explore an uncertain alternative, or prune and return from an unproductive continuation. TreeMem keeps branch-local evidence, conflicts, and failure cues so later decisions can be informed by earlier trials. Across XBench-DeepSearch, BrowseComp, and BrowseComp-ZH, TreeSeeker consistently outperforms strong open-source baselines. We hope this work contributes to building more reliable and adaptive research agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.11662",
+      "pdf_url": "https://arxiv.org/pdf/2606.11662",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.11662",
+      "scraped_at": "2026-06-13T03:54:10.978248"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "HarnessBridge: Learnable Bidirectional Controller for LLM Agent Harness",
+    "paper_url": "https://huggingface.co/papers/2606.12882",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "HarnessBridge: Learnable Bidirectional Controller for LLM Agent Harness",
+      "abstract": "HarnessBridge",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.12882",
+      "pdf_url": "https://arxiv.org/pdf/2606.12882",
+      "github_links": [
+        "https://github.com/mandyyyyii/HarnessBridge",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.12882",
+      "scraped_at": "2026-06-13T03:54:12.835362"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "Risk Under Pressure: Compute-Aware Evaluation of Adversarial Robustness in Language Models",
+    "paper_url": "https://huggingface.co/papers/2606.11409",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Risk Under Pressure: Compute-Aware Evaluation of Adversarial Robustness in Language Models",
+      "abstract": "Compute-aware jailbreak evaluation framework showing that attack success alone is misleading, and that measuring adversarial effort in FLOPs reveals nuanced tradeoffs between alignment, model scaling, attack transferability, and harm-category-specific robustness.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.11409",
+      "pdf_url": "https://arxiv.org/pdf/2606.11409",
+      "github_links": [
+        "https://github.com/r-three/risk-under-pressure",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.11409",
+      "scraped_at": "2026-06-13T03:54:14.840053"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "High-Fidelity Two-Step Image Generation via Teacher-Aligned End-to-End Distillation",
+    "paper_url": "https://huggingface.co/papers/2606.12575",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "High-Fidelity Two-Step Image Generation via Teacher-Aligned End-to-End Distillation",
+      "abstract": "We introduce Z-Image Turbo++, a high-quality 2-step image generation model distilled from the 8-step Z-Image Turbo teacher. With distribution-aligned adversarial learning, step-decoupled parameterization, and end-to-end training with iterative regularization, Z-Image Turbo++ substantially narrows the quality gap between 2-step and 8-step generation while keeping inference to only two denoising steps.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.12575",
+      "pdf_url": "https://arxiv.org/pdf/2606.12575",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.12575",
+      "scraped_at": "2026-06-13T03:54:16.669771"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "Visual Para-Thinker++: A Single-Policy Multi-Agent Framework for Visual Reasoning",
+    "paper_url": "https://huggingface.co/papers/2606.09290",
+    "authors": [
+      "Jiaze Li",
+      "Yifei Gao",
+      "Hongyu Wang",
+      "Haoran Xu",
+      "zizhaotong"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Visual Para-Thinker++: A Single-Policy Multi-Agent Framework for Visual Reasoning",
+      "abstract": "Visual ParaThinker++",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.09290",
+      "pdf_url": "https://arxiv.org/pdf/2606.09290",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.09290",
+      "scraped_at": "2026-06-13T03:54:18.551020"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "SG-OPD: Sign-Gated On-Policy Distillation via Sign-Consistency Gating and Phased Teacher Sampling",
+    "paper_url": "https://huggingface.co/papers/2606.09304",
+    "authors": [
+      "Xiaofeng Zhang",
+      "Yifei Gao",
+      "Hongyu Wang",
+      "Haoran Xu",
+      "williamljz"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SG-OPD: Sign-Gated On-Policy Distillation via Sign-Consistency Gating and Phased Teacher Sampling",
+      "abstract": "SG-OPD",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.09304",
+      "pdf_url": "https://arxiv.org/pdf/2606.09304",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.09304",
+      "scraped_at": "2026-06-13T03:54:20.487558"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "EvoBrowseComp: Benchmarking Search Agents on Evolving Knowledge",
+    "paper_url": "https://huggingface.co/papers/2606.13120",
+    "authors": [
+      "Fandong Meng",
+      "Xianfeng Zeng",
+      "Lianzhe Huang",
+      "Yunhan Wang",
+      "Krystalan"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "EvoBrowseComp: Benchmarking Search Agents on Evolving Knowledge",
+      "abstract": "EvoBrowseComp is a search agent benchmark of 400 English and 400 Chinese contamination-free complex questions synthesized via live-web traversal.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13120",
+      "pdf_url": "https://arxiv.org/pdf/2606.13120",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13120",
+      "scraped_at": "2026-06-13T03:54:22.311262"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "Rethinking Psychometric Evaluation of LLMs: When and Why Self-Reports Predict Behavior",
+    "paper_url": "https://huggingface.co/papers/2606.12730",
+    "authors": [
+      "Ramit Debnath",
+      "Myrl G. Marmarelis",
+      "Peiyang Song",
+      "Pengrui Han",
+      "Rafal Kocielnik"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Rethinking Psychometric Evaluation of LLMs: When and Why Self-Reports Predict Behavior",
+      "abstract": "When do LLM self-reports actually predict behavior? Our paper shows that the answer depends strongly on evaluation design. Broad personality traits such as Big Five are weak predictors of specific LLM behaviors , while behavior-specific instruments such as the Theory of Planned Behavior can reveal stronger coherence under favorable conditions . But this coherence is selective: it varies by task, model, and session structure, and same-session effects may reflect context-window priming rather than stable behavioral tendencies. We argue that psychometric probes should not be treated as direct evidence of stable model traits, but as evaluation tools whose validity depends on how they are designed and linked to behavior.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.12730",
+      "pdf_url": "https://arxiv.org/pdf/2606.12730",
+      "github_links": [
+        "https://github.com/psychology-of-AI/Rethinking-Pyschometric-Eval-LLMs",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.12730",
+      "scraped_at": "2026-06-13T03:54:24.215869"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "MaskAlign: Token-Subset Representation Alignment for Efficient Diffusion Training",
+    "paper_url": "https://huggingface.co/papers/2606.08788",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MaskAlign: Token-Subset Representation Alignment for Efficient Diffusion Training",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Beyond Point-Wise Matching: Structural Representation Alignment for Accelerating Diffusion Transformers (2026) Coevolving Representations in Joint Image-Feature Diffusion (2026) DecQ: Detail-Condensing Queries for Enhanced Reconstruction and Generation in Representation Autoencoders (2026) Registers Matter for Pixel-Space Diffusion Transformers (2026) Improving Visual Representation Alignment Generation with GRPO (2026) Latent Denoising Improves Visual Alignment in Large Multimodal Models (2026) AHPA: Adaptive Hierarchical Prior Alignment for Diffusion Transformers (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.08788",
+      "pdf_url": "https://arxiv.org/pdf/2606.08788",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.08788",
+      "scraped_at": "2026-06-13T03:54:26.151348"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "Evoflux: Inference-Time Evolution of Executable Tool Workflows for Compact Agents",
+    "paper_url": "https://huggingface.co/papers/2606.12674",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Evoflux: Inference-Time Evolution of Executable Tool Workflows for Compact Agents",
+      "abstract": "Evoflux tackles a practical bottleneck for small (1.5B–4B) tool-using agents: with only a few hundred teacher traces available, should that scarce supervision go into fine-tuning the model's weights, or into search at inference time? The paper reframes compact MCP-style tool use as executable workflow repair rather than one-shot function calling—the agent has to resolve tools from live catalogs, satisfy schemas, preserve cross-step dependencies, and ground its final answer in real execution—and introduces Evoflux, an inference-time evolutionary loop that evolves typed workflow graphs through structured edits, execution feedback, adaptive intensity, meta-guided redesign, and diversity pruning, all without updating weights. On held-out MCP-Bench tasks spanning live servers and 250 tools, Evoflux raises execution feasibility from roughly 3% to 17–24% across small planners, while SFT and SFT+DPO trained on the same search-mined data merely match, underperform, or even collapse below the zero-shot baseline—a nice quantification of an underreported risk in small-corpus fine-tuning of compact agents (ReAct hits higher peaks but with far higher variance and token cost). The takeaway is clean: under tight teacher-trace budgets, execution-grounded search transfers more reliably than weight updates.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.12674",
+      "pdf_url": "https://arxiv.org/pdf/2606.12674",
+      "github_links": [
+        "https://github.com/IBM/Evoflux",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.12674",
+      "scraped_at": "2026-06-13T03:54:27.992934"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "MuJoCo-Drones-Gym: A GPU-Accelerated Multi-Drone Simulator for Control and Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2606.08039",
+    "authors": [],
+    "stars": "9",
+    "details": {
+      "title": "MuJoCo-Drones-Gym: A GPU-Accelerated Multi-Drone Simulator for Control and Reinforcement Learning",
+      "abstract": "We present MuJoCo-Drones-Gym, an open-source Gymnasium-compatible multi-drone environment built on top of the MuJoCo physics engine. Multi-drone environment for RL with MuJoCo, with GPU vectorization, wind models, domain randomization, and curriculum learning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.08039",
+      "pdf_url": "https://arxiv.org/pdf/2606.08039",
+      "github_links": [
+        "https://github.com/tau-intelligence/MuJoCo-drones-gym",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.08039",
+      "scraped_at": "2026-06-13T03:54:29.812804"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "See What I See, Know What I Think: Dense Latent Communication Across Heterogeneous Agents",
+    "paper_url": "https://huggingface.co/papers/2606.13594",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "See What I See, Know What I Think: Dense Latent Communication Across Heterogeneous Agents",
+      "abstract": "Multi-agent systems communicate mostly through text, paying a lossy and expensive decode and re-encode cost. KV-cache communication is a promising alternative, yet most prior work is homogeneous, using duplicate copies of the same model, and avoids the central challenge of cross-model latent alignment; existing heterogeneous methods are also restrictive, typically assuming shared input and using transferred caches mainly for steering. We study a more fundamental question: can heterogeneous agents be aligned well enough to perform real \"mind reading\" and transfer both what one agent sees and how it thinks? Our information-structure analysis reveals a duality: context-aware transfer is driven by sparse reasoning signals, while context-unaware transfer, where the receiver sees no input, requires dense contextual knowledge preservation. Motivated by this, we propose dense alignment for heterogeneous KV-cache communication via a lightweight cross-model cache transformation and two-phase training: reconstruction followed by generation. Across all six directions of {Qwen3-4B, 8B, 14B} and six in-domain and out-of-domain benchmarks, our method outperforms prior heterogeneous baselines, matches or exceeds text communication in context-aware settings at roughly 2 to 3 times lower compute, and remains effective in context-unaware transfer where prior methods collapse.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13594",
+      "pdf_url": "https://arxiv.org/pdf/2606.13594",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13594",
+      "scraped_at": "2026-06-13T03:54:31.646471"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "Getting Better at Working With You: Compiling User Corrections into Runtime Enforcement for Coding Agents",
+    "paper_url": "https://huggingface.co/papers/2606.13174",
+    "authors": [
+      "Yue Huang",
+      "Xiangqi Wang",
+      "Haomin Zhuang",
+      "Kehan Guo",
+      "Yujun Zhou"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Getting Better at Working With You: Compiling User Corrections into Runtime Enforcement for Coding Agents",
+      "abstract": "Coding agents remember your corrections but still violate them — with Mem0 memory, 57.5% of preference checks still fail. The problem isn't forgetting; it's that memory is advisory, not binding. TRACE fixes this by changing the representation: it mines your own chat corrections, rewrites each as an atomic rule, and compiles it into a runtime check that must pass before the agent can finish the task. A remembered preference becomes an execution constraint, not a suggestion the agent can quietly skip. The payoff: held-out preference violations drop from 100% to 37.6% in-distribution without hurting task success or adding runtime cost, and with users having to repeat themselves far less often. 💻Code: https://github.com/YujunZhou/TRACE_exp 🔧 Skill: https://github.com/YujunZhou/tellonce",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13174",
+      "pdf_url": "https://arxiv.org/pdf/2606.13174",
+      "github_links": [
+        "https://github.com/YujunZhou/TRACE_exp",
+        "https://github.com/YujunZhou/tellonce",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13174",
+      "scraped_at": "2026-06-13T03:54:33.453698"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "ArogyaSutra: A Multi-Agent Framework for Multimodal Medical Reasoning in Indic Languages",
+    "paper_url": "https://huggingface.co/papers/2606.13572",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ArogyaSutra: A Multi-Agent Framework for Multimodal Medical Reasoning in Indic Languages",
+      "abstract": "An agentic framework for enhancing multimodal medical reasoning in Indian Languages.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13572",
+      "pdf_url": "https://arxiv.org/pdf/2606.13572",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13572",
+      "scraped_at": "2026-06-13T03:54:35.274608"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "WEAVER, Better, Faster, Longer: An Effective World Model for Robotic Manipulation",
+    "paper_url": "https://huggingface.co/papers/2606.13672",
+    "authors": [
+      "Andrea Bajcsy",
+      "Gokul Swamy",
+      "Jesse Farebrother",
+      "Yilin Wu",
+      "Arnav Kumar Jain"
+    ],
+    "stars": "6",
+    "details": {
+      "title": "WEAVER, Better, Faster, Longer: An Effective World Model for Robotic Manipulation",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API GE-Sim 2.0: A Roadmap Towards Comprehensive Closed-loop Video World Simulators for Robotic Manipulation (2026) $\\tau_0$-WM: A Unified Video-Action World Model for Robotic Manipulation (2026) Cortex 2.0: Grounding World Models in Real-World Industrial Deployment (2026) dWorldEval: Scalable Robotic Policy Evaluation via Discrete Diffusion World Model (2026) MotuBrain: An Advanced World Action Model for Robot Control (2026) $\\omega$-EVA: Envision, Verify, and Act with Latent Interactive World Models (2026) ProgVLA: Progress-Aware Robot Manipulation Skill Learning (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13672",
+      "pdf_url": "https://arxiv.org/pdf/2606.13672",
+      "github_links": [
+        "https://github.com/arnavkj1995/WEAVER",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13672",
+      "scraped_at": "2026-06-13T03:54:37.157477"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "Surflo: Consistent 3D Surface Flow Model with Global State",
+    "paper_url": "https://huggingface.co/papers/2606.13644",
+    "authors": [
+      "Ko Nishino",
+      "Jiahui Lei",
+      "Nicolas Dufour",
+      "Shu Nakamura",
+      "Antoine Guédon"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Surflo: Consistent 3D Surface Flow Model with Global State",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API ZipSplat: Fewer Gaussians, Better Splats (2026) GlobalSplat: Efficient Feed-Forward 3D Gaussian Splatting via Global Scene Tokens (2026) TriSplat: Simulation-Ready Feed-Forward 3D Scene Reconstruction (2026) IVGT: Implicit Visual Geometry Transformer for Neural Scene Representation (2026) Learning Global Motion with Compact Gaussians for Feed-Forward 4D Reconstruction (2026) World Tracing: Generative Pixel-Aligned Geometry Beyond the Visible (2026) VolFill: Single-View Amodal 3D Scene Reconstruction with Volumetric Flow Matching (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @ librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13644",
+      "pdf_url": "https://arxiv.org/pdf/2606.13644",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13644",
+      "scraped_at": "2026-06-13T03:54:39.125289"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "IDEAL: In-DEpth ALignment Makes A Discrete Representation AutoEncoder",
+    "paper_url": "https://huggingface.co/papers/2606.11096",
+    "authors": [
+      "Yixuan Ren",
+      "Lingyu Kong",
+      "Junke Wang",
+      "Zijie Diao",
+      "Row11n"
+    ],
+    "stars": "5",
+    "details": {
+      "title": "IDEAL: In-DEpth ALignment Makes A Discrete Representation AutoEncoder",
+      "abstract": "IDEAL: In-DEpth ALignment Makes A Discrete Representation AutoEncoder",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.11096",
+      "pdf_url": "https://arxiv.org/pdf/2606.11096",
+      "github_links": [
+        "https://github.com/Row11n/IDEAL",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.11096",
+      "scraped_at": "2026-06-13T03:54:40.927841"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "The Cold-Start Safety Gap in LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2606.07867",
+    "authors": [
+      "Tsui-Wei Weng",
+      "Linbo Liu",
+      "Chung-En Sun"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "The Cold-Start Safety Gap in LLM Agents",
+      "abstract": "TLDR: LLM agents are most unsafe at the very beginning of a session.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.07867",
+      "pdf_url": "https://arxiv.org/pdf/2606.07867",
+      "github_links": [
+        "https://github.com/Trustworthy-ML-Lab/Agent-Cold-Start-Safety-Gap",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.07867",
+      "scraped_at": "2026-06-13T03:54:42.868933"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "ToolSense: A Diagnostic Framework for Auditing Parametric Tool Knowledge in LLMs",
+    "paper_url": "https://huggingface.co/papers/2606.12451",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "ToolSense: A Diagnostic Framework for Auditing Parametric Tool Knowledge in LLMs",
+      "abstract": "Parametric tool retrieval trains LLMs to act as their own retrievers by encoding tools as virtual tokens, achieving >90% recall on standard benchmarks. However, these benchmarks rely on verbose, fully-specified queries and constrained trie decoding—making it impossible to tell if the model truly understands its tools or is simply pattern-matching. We introduce ToolSense, an open-source diagnostic framework that automatically generates three benchmarks from any tool catalog: a Realistic Retrieval Benchmark (RRB) with user-style queries at three ambiguity levels, an MCQ factual probe, and a QA inferential probe. Applying ToolSense to ToolBench (~47k tools) reveals a striking knowledge-retrieval dissociation: top parametric configurations collapse by 50–64 percentage points on realistic queries, falling below dense embedding baselines. Factual probing further shows that Stage 2 retrieval fine-tuning systematically erases the tool knowledge acquired during Stage 1 memorization. The best mitigation we found is combining LoRA with multi-format memorization.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.12451",
+      "pdf_url": "https://arxiv.org/pdf/2606.12451",
+      "github_links": [
+        "https://github.com/SAP/toolsense",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.12451",
+      "scraped_at": "2026-06-13T03:54:44.719368"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "A Stationary (and Therefore Compatible) Representation is All You Need",
+    "paper_url": "https://huggingface.co/papers/2606.12488",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "A Stationary (and Therefore Compatible) Representation is All You Need",
+      "abstract": "Accepted to TPAMI2026. Extension of the CVPR2024 version (arXiv:2405.02581).",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.12488",
+      "pdf_url": "https://arxiv.org/pdf/2606.12488",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.12488",
+      "scraped_at": "2026-06-13T03:54:46.545693"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "PianoKontext: Expressive Performance Rendering from Deadpan Context",
+    "paper_url": "https://huggingface.co/papers/2606.12282",
+    "authors": [
+      "realfolkcode"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "PianoKontext: Expressive Performance Rendering from Deadpan Context",
+      "abstract": "Expressive performance rendering (EPR) aims to generate realistic performances constrained on sequences of notes. However, flow matching audio editing models manipulate only synchronized music samples of the same duration, limiting their understanding of expressive timing. We introduce PianoKontext, a flow matching rendering model for classical piano music that generates variable-length performances in the latent space of a pretrained Music2Latent model. We synthesize MIDI scores into deadpan audio and employ Dynamic Time Warping (DTW) in the latent space to construct paired data for training. The aligned embeddings are concatenated in DiT blocks, allowing for a simple and effective learning of the dependencies between the score and performances. Audio samples are available at our demo page: https://realfolkcode.github.io/pianokontext_demo/ .",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.12282",
+      "pdf_url": "https://arxiv.org/pdf/2606.12282",
+      "github_links": [
+        "https://github.com/realfolkcode/pianokontext",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.12282",
+      "scraped_at": "2026-06-13T03:54:48.388939"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "WebChallenger: A Reliable and Efficient Generalist Web Agent",
+    "paper_url": "https://huggingface.co/papers/2606.10423",
+    "authors": [
+      "Vedant Padwal",
+      "Xiaowen Zhang",
+      "jayoohwang"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "WebChallenger: A Reliable and Efficient Generalist Web Agent",
+      "abstract": "Blog post: https://x.com/JayooHwang/status/2065481877545521247",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.10423",
+      "pdf_url": "https://arxiv.org/pdf/2606.10423",
+      "github_links": [
+        "https://github.com/jayoohwang1/webchallenger",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.10423",
+      "scraped_at": "2026-06-13T03:54:50.228312"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "Flash-GMM: A Memory-Efficient Kernel for Scalable Soft Clustering",
+    "paper_url": "https://huggingface.co/papers/2606.10896",
+    "authors": [],
+    "stars": "12",
+    "details": {
+      "title": "Flash-GMM: A Memory-Efficient Kernel for Scalable Soft Clustering",
+      "abstract": "Have a look at https://github.com/IBM/Flash-GMM",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.10896",
+      "pdf_url": "https://arxiv.org/pdf/2606.10896",
+      "github_links": [
+        "https://github.com/IBM/Flash-GMM",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.10896",
+      "scraped_at": "2026-06-13T03:54:52.059632"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "Leveraging Morphology for Historical Script Metrological Analysis",
+    "paper_url": "https://huggingface.co/papers/2606.09446",
+    "authors": [],
+    "stars": "12",
+    "details": {
+      "title": "Leveraging Morphology for Historical Script Metrological Analysis",
+      "abstract": "Advances in handwritten text recognition have enabled large-scale transcription of historical documents, but still provide limited access to interpretable visual measurements for paleography, the study of historical scripts. In this paper, our main insight is that morphological script analysis, in particular the capacity to learn character prototypes from line-level transcriptions, enables the definition of scalable, meaningful, and stable paleographic measurements. More precisely, we leverage a transformer-based detection architecture together with a prototype-based line reconstruction module to learn prototypical characters and their occurrence, deformation, and positioning. Our contributions are twofold. First, we introduce a deep architecture and learning methodology that enables efficient character modeling with only line-level transcription supervision, significantly improving over the Learnable Typewriter baseline and enabling accurate character bounding box prediction, unlocking its potential for paleographic measurements. Second, we introduce and demonstrate the paleographical relevance of automatic measurements enabled by our architecture for characters, bi-grams, and spaces between graphical units. For this demonstration, we extend the annotations of the codex Paris, BnF, fr. 2813, commissioned in the late fourteenth century by Charles V and copied by four hands, to 160 pages. We visualize our measurements over these pages, showing how they enable us not only to differentiate graphical profiles, but also to discover and analyze subtle variations. This case study outlines the scalability of our approach and its frugality in terms of required training data, since a single column of text is sufficient to compute our measurements on each of the 160 pages.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.09446",
+      "pdf_url": "https://arxiv.org/pdf/2606.09446",
+      "github_links": [
+        "https://github.com/raphael-baena/morphology4metrology",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.09446",
+      "scraped_at": "2026-06-13T03:54:54.022606"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "Revisiting Articulated Parts Perception in Robot Manipulation",
+    "paper_url": "https://huggingface.co/papers/2606.08103",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Revisiting Articulated Parts Perception in Robot Manipulation",
+      "abstract": "We are surrounded by various objects with movable, articulated parts, e.g., box, handle, door. An accurate and generalizable perception of articulated parts is essential to enhance robotic manipulation capabilities. Building on this need, recent efforts in articulated parts perception have followed two main directions: One line of work uses pose-based representation, which requires high manual cost; in parallel, affordance-based methods extract future object motion from point tracking without additional manual efforts, but suffer from low-quality data. In this paper, we propose a new representation of articulated parts, Geometric Primary Structure (GPS), an abstraction of the part geometry structure to balance scalability and quality. For efficient and scalable data collection, GPS is integrated with a portable Virtual Reality (VR) device and requires only one minute to annotate one object sequence. This direct human annotation provides higher quality than the estimated affordance. With this efficient VR-GPS system, we collect 41K frames for 234 objects across six part classes, and train a generalizable GPS model with a single RGB-D object image as input. For object manipulation, we deploy a heuristic policy based on GPS prediction. Without any in-domain fine-tuning, our method achieves an 73% success rate, covering 270 initial states for 9 objects.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.08103",
+      "pdf_url": "https://arxiv.org/pdf/2606.08103",
+      "github_links": [
+        "https://github.com/enlighten0707/Geometric_Primary_Structure",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.08103",
+      "scraped_at": "2026-06-13T03:54:55.861077"
+    },
+    "scraped_date": "2026-06-13"
+  },
+  {
+    "title": "On the Limits of LLM Adaptability: Impact of Model-Internalized Priors on Annotation Task Performance",
+    "paper_url": "https://huggingface.co/papers/2606.00467",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "On the Limits of LLM Adaptability: Impact of Model-Internalized Priors on Annotation Task Performance",
+      "abstract": "Do LLM annotators actually follow the definitions we give them? Our paper studies how model-internalized priors shape LLM annotation behavior . Across 9 models and 5 toxicity-related datasets, we find that performance is better explained by definition alignment than by text memorization. We introduce Definition-Specific Familiarity (DSF), a lightweight diagnostic for measuring whether a model’s internal concept matches the task definition . We also find strong “decision stickiness”: most zero-shot errors persist even after aligned definitions and few-shot examples, and high-confidence errors are especially hard to correct. Models can also confidently follow misaligned definitions, making confidence an unreliable indicator of whether the intended labeling standard is being applied. The takeaway: LLM annotation pipelines should not assume that prompt definitions fully control model behavior. Definition design and definition alignment need to be measured explicitly.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.00467",
+      "pdf_url": "https://arxiv.org/pdf/2606.00467",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.00467",
+      "scraped_at": "2026-06-13T03:54:57.874788"
+    },
+    "scraped_date": "2026-06-13"
   }
 ]
