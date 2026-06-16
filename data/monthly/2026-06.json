@@ -7503,5 +7503,357 @@
       "scraped_at": "2026-06-14T04:13:27.180918"
     },
     "scraped_date": "2026-06-14"
+  },
+  {
+    "title": "DreamX-World 1.0: A General-Purpose Interactive World Model",
+    "paper_url": "https://huggingface.co/papers/2606.16993",
+    "authors": [],
+    "stars": "264",
+    "details": {
+      "title": "DreamX-World 1.0: A General-Purpose Interactive World Model",
+      "abstract": "Project Page: https://amap-ml.github.io/DreamX_World Code: https://github.com/AMAP-ML/DreamX-World",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.16993",
+      "pdf_url": "https://arxiv.org/pdf/2606.16993",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/AMAP-ML/DreamX-World"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.16993",
+      "scraped_at": "2026-06-16T04:17:14.949089"
+    },
+    "scraped_date": "2026-06-16"
+  },
+  {
+    "title": "Data Journalist Agent: Transforming Data into Verifiable Multimodal Stories",
+    "paper_url": "https://huggingface.co/papers/2606.11176",
+    "authors": [],
+    "stars": "34",
+    "details": {
+      "title": "Data Journalist Agent: Transforming Data into Verifiable Multimodal Stories",
+      "abstract": "Can an AI agent act like an editor, turning raw data into readable, verifiable, multimodal stories? Data2Story brings data analysis, information retrieval, narrative writing, visual design, and fact-checking into one “virtual newsroom.” Every key finding can be traced back to code, data, or external sources, making the story more transparent, reproducible, and verifiable. In short, we want AI not only to generate stories, but to generate stories with evidence, sources, and accountability.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.11176",
+      "pdf_url": "https://arxiv.org/pdf/2606.11176",
+      "github_links": [
+        "https://github.com/QinghongLin/data2story-skill",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.11176",
+      "scraped_at": "2026-06-16T04:17:16.896154"
+    },
+    "scraped_date": "2026-06-16"
+  },
+  {
+    "title": "FastContext: Training Efficient Repository Explorer for Coding Agents",
+    "paper_url": "https://huggingface.co/papers/2606.14066",
+    "authors": [],
+    "stars": "152",
+    "details": {
+      "title": "FastContext: Training Efficient Repository Explorer for Coding Agents",
+      "abstract": "Can an explore subagent rise the performance of main agent?",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.14066",
+      "pdf_url": "https://arxiv.org/pdf/2606.14066",
+      "github_links": [
+        "https://github.com/YerbaPage/Awesome-Agent-Context-Compression",
+        "https://github.com/huggingface",
+        "https://github.com/microsoft/fastcontext"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.14066",
+      "scraped_at": "2026-06-16T04:17:18.783499"
+    },
+    "scraped_date": "2026-06-16"
+  },
+  {
+    "title": "Who Should Lead Decoding Now? Tracking Reliable Trajectories for Ensembling Masked Diffusion Language Models",
+    "paper_url": "https://huggingface.co/papers/2606.16281",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Who Should Lead Decoding Now? Tracking Reliable Trajectories for Ensembling Masked Diffusion Language Models",
+      "abstract": "We observe that successful MDLM generations exhibit stable confidence dynamics over answer-relevant positions, and that unreliable trajectories can often be corrected using promising intermediate states from other models. Building on this observation, we propose TIE, which enables knowledge fusion across heterogeneous MDLMs by iteratively identifying and relaying reliable decoding trajectories during generation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.16281",
+      "pdf_url": "https://arxiv.org/pdf/2606.16281",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.16281",
+      "scraped_at": "2026-06-16T04:17:20.631702"
+    },
+    "scraped_date": "2026-06-16"
+  },
+  {
+    "title": "BRDFusion: Physics Meets Generation for Urban Scene Inverse Rendering",
+    "paper_url": "https://huggingface.co/papers/2606.17049",
+    "authors": [
+      "Chih-Hao Lin",
+      "Yu-Lun Liu",
+      "Zheng-Hui Huang",
+      "Jie-Ying Lee",
+      "Yi-Ruei Liu"
+    ],
+    "stars": "10",
+    "details": {
+      "title": "BRDFusion: Physics Meets Generation for Urban Scene Inverse Rendering",
+      "abstract": "Inverse rendering of urban scenes from captured videos enables numerous applications, including content creation and autonomous driving simulation. Physically-based rendering methods follow and control lighting physics, but suffer from reconstruction and rendering artifacts. While generative models produce realistic videos, they offer limited consistency and controllability. We present BRDFusion, a unified framework that combines two complementary models for inverse and forward rendering. Specifically, BRDFusion recovers explicit, consistent scene properties with physical modeling and alleviates optimization ambiguity with generative priors. During forward rendering, the physical model provides controllable rendering from the scene configuration, and the generative model denoises and fixes artifacts. Therefore, our method produces high-quality videos while allowing precise control, outperforming baselines in real and synthetic scenes. Moreover, BRDFusion supports novel-view relighting, night simulation, and dynamic object insertion/editing. Project page: https://shigon255.github.io/brdfusion-page/",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.17049",
+      "pdf_url": "https://arxiv.org/pdf/2606.17049",
+      "github_links": [
+        "https://github.com/shigon255/BRDFusion",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.17049",
+      "scraped_at": "2026-06-16T04:17:22.559112"
+    },
+    "scraped_date": "2026-06-16"
+  },
+  {
+    "title": "BadWorld: Adversarial Attacks on World Models",
+    "paper_url": "https://huggingface.co/papers/2606.16519",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "BadWorld: Adversarial Attacks on World Models",
+      "abstract": "🚨 We introduce BadWorld , a label-free adversarial attack for visual world models. Starting from a single perturbed context image 🖼️, BadWorld can break down model's future predictions, even under user controls it has never seen before 🎮. This exposes serious robustness risks in today’s visual world models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.16519",
+      "pdf_url": "https://arxiv.org/pdf/2606.16519",
+      "github_links": [
+        "https://github.com/LinghuiiShen/BadWorld",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.16519",
+      "scraped_at": "2026-06-16T04:17:24.440178"
+    },
+    "scraped_date": "2026-06-16"
+  },
+  {
+    "title": "CODA-BENCH: Can Code Agents Handle Data-Intensive Tasks?",
+    "paper_url": "https://huggingface.co/papers/2606.15300",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "CODA-BENCH: Can Code Agents Handle Data-Intensive Tasks?",
+      "abstract": "How do LLM agents perform when placed in a data-intensive environment with 1,000+ files? CoDA-Bench (Code and Data-intensive Benchmark) is a benchmark for evaluating LLM agents on data-intensive analytical tasks. Highlights of CoDA-Bench: 🔍 1000 tasks, each environment contains 1,000+ data files from the real Kaggle ecosystem 📊 Evaluates both the agent’s data intelligence and coding intelligence 🗂️ Provides a reproducible sandbox environment for one-click evaluation of Claude Code, Codex, and more",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.15300",
+      "pdf_url": "https://arxiv.org/pdf/2606.15300",
+      "github_links": [
+        "https://github.com/ruc-datalab/CoDA-Bench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.15300",
+      "scraped_at": "2026-06-16T04:17:26.303129"
+    },
+    "scraped_date": "2026-06-16"
+  },
+  {
+    "title": "OneRank: Unified Transformer-Native Ranking Architecture for Multi-Task Recommendation",
+    "paper_url": "https://huggingface.co/papers/2606.16838",
+    "authors": [
+      "Yu Zhao",
+      "Zhiluohan Guo",
+      "Kun Wang",
+      "Sunhao Dai",
+      "Jiakai Tang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "OneRank: Unified Transformer-Native Ranking Architecture for Multi-Task Recommendation",
+      "abstract": "🎉 Excited to share that our paper \"OneRank: Unified Transformer-Native Ranking Architecture for Multi-Task Recommendation\" has been accepted at KDD 2026! See you in Jeju Island 🇰🇷 🔍 The problem: Traditional multi-task recommenders follow an encoder–predictor paradigm that creates information bottlenecks, suffers from the seesaw phenomenon, and forces a dataflow mismatch between attention-based encoding and static feed-forward prediction. 💡 Our solution: OneRank completely removes the encoder–predictor split and internalizes all multi-task reasoning within a unified Transformer stack — from task-specific encoding to dynamic context-aware ranking. ✨ Key highlights: Task-specific token injection with mutual invisibility for early task specialization Candidate-aware contextualization via situational descriptors to bridge the training-serving gap Cross-task relational attention with strategic gradient detachment — turning cross-task attention into a read-only memory for knowledge transfer Dynamic matching-based scoring that replaces static MLP heads with context-adaptive ranking 📈 Validated on large-scale industrial datasets with both offline experiments and online A/B tests at Shopee, showing significant gains in ranking effectiveness while maintaining computational efficiency. Joint work with amazing collaborators from Gaoling School of AI @RUC, Shopee, and NTU 🙌",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.16838",
+      "pdf_url": "https://arxiv.org/pdf/2606.16838",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.16838",
+      "scraped_at": "2026-06-16T04:17:28.171850"
+    },
+    "scraped_date": "2026-06-16"
+  },
+  {
+    "title": "VibeThinker-3B: Exploring the Frontier of Verifiable Reasoning in Small Language Models",
+    "paper_url": "https://huggingface.co/papers/2606.16140",
+    "authors": [],
+    "stars": "577",
+    "details": {
+      "title": "VibeThinker-3B: Exploring the Frontier of Verifiable Reasoning in Small Language Models",
+      "abstract": "We introduce VibeThinker-3B , a 3B dense reasoning model that explores how far verifiable reasoning can be pushed within a strictly small-model regime. The core idea behind this work is that capabilities such as mathematics, coding, and STEM reasoning may be highly compressible when the task space is structured and reliable verification signals are available. This leads to our Parametric Compression-Coverage Hypothesis: verifiable reasoning can be concentrated in compact models through search, constraint satisfaction, self-correction, and answer verification, while open-domain knowledge and general-purpose dialogue require broader parameter coverage over facts, concepts, and long-tail scenarios. Despite its compact scale, VibeThinker-3B achieves strong results on challenging verifiable reasoning benchmarks: 94.3 on AIME 2026 , improved to 97.1 with Claim-Level Reliability Assessment (CLR), a test-time scaling strategy. 80.2 Pass@1 on LiveCodeBench v6 76.4 on IMO-AnswerBench , improved to 80.6 with CLR 96.1% acceptance rate on recent unseen LeetCode contests (From Apr.25 - May 31, 2026) 93.4 on IFEval , suggesting that reasoning enhancement does not compromise instruction controllability We hope this work provides evidence that small language models should not be viewed only as deployment-efficient substitutes for larger models, but also as a complementary research path toward frontier-level performance in parameter-dense, verifiable reasoning domains. Code, model, and the technical report are available here: GitHub: https://github.com/WeiboAI/VibeThinker Model: https://huggingface.co/WeiboAI/VibeThinker-3B Paper: https://arxiv.org/abs/2606.16140 We welcome feedback, independent evaluations, and discussion from the community.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.16140",
+      "pdf_url": "https://arxiv.org/pdf/2606.16140",
+      "github_links": [
+        "https://github.com/WeiboAI/VibeThinker",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.16140",
+      "scraped_at": "2026-06-16T04:17:30.021230"
+    },
+    "scraped_date": "2026-06-16"
+  },
+  {
+    "title": "JoyAI-VL-Interaction: Real-Time Vision-Language Interaction Intelligence",
+    "paper_url": "https://huggingface.co/papers/2606.14777",
+    "authors": [],
+    "stars": "100",
+    "details": {
+      "title": "JoyAI-VL-Interaction: Real-Time Vision-Language Interaction Intelligence",
+      "abstract": "Figure 1: Overview of JoyAI-VL-Interaction. Figure 3: Overview of the JoyAI-VL-Interaction System.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.14777",
+      "pdf_url": "https://arxiv.org/pdf/2606.14777",
+      "github_links": [
+        "https://github.com/jd-opensource/JoyAI-VL-Interaction",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.14777",
+      "scraped_at": "2026-06-16T04:17:31.895994"
+    },
+    "scraped_date": "2026-06-16"
+  },
+  {
+    "title": "TokenPilot: Cache-Efficient Context Management for LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2606.17016",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "TokenPilot: Cache-Efficient Context Management for LLM Agents",
+      "abstract": "TokenPilot cuts the cost of long-horizon LLM agents by making context shorter without breaking the prompt cache.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.17016",
+      "pdf_url": "https://arxiv.org/pdf/2606.17016",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.17016",
+      "scraped_at": "2026-06-16T04:17:33.716009"
+    },
+    "scraped_date": "2026-06-16"
+  },
+  {
+    "title": "VisualClaw: A Real-Time, Personalized Agent for the Physical World",
+    "paper_url": "https://huggingface.co/papers/2606.16295",
+    "authors": [
+      "Juncheng Wu",
+      "Siwei Han",
+      "Zijun Wang",
+      "Jianwen Chen",
+      "Haoqin Tu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "VisualClaw: A Real-Time, Personalized Agent for the Physical World",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.16295",
+      "pdf_url": "https://arxiv.org/pdf/2606.16295",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.16295",
+      "scraped_at": "2026-06-16T04:17:35.565074"
+    },
+    "scraped_date": "2026-06-16"
+  },
+  {
+    "title": "UniDDT: Unifying Multimodal Understanding and Generation with Decoupled Diffusion Transformer",
+    "paper_url": "https://huggingface.co/papers/2606.16255",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "UniDDT: Unifying Multimodal Understanding and Generation with Decoupled Diffusion Transformer",
+      "abstract": "Unified Multimodal Models (UMMs) have emerged as a critical direction for general-purpose multimodal intelligence, integrating understanding and generation into a single framework. However, existing UMMs face prominent challenges: (1) the inherent learning conflicts between visual understanding and generation tasks, leading to suboptimal modeling in both tasks; (2) different understanding and generation visual spaces impeding scalability; (3) over-reliance on task-specific data that neglects the duality of text-image understanding and generation. To address these challenges, we propose UniDDT, which leverages a Noisy ViT encoder along with an LLM to unify semantic encoding for visual generation and understanding tasks, while employing a separate diffusion decoder to decouple diffusion decoding from text decoding. With this Noisy ViT encoder, UniDDT is able to leverage the latent space as a unified visual representation, enabling seamless compatibility between understanding and generation tasks. Thus, the scalability within the generation tasks and the semantic expressiveness within understanding tasks can be balanced. Also, we construct dual data structures from the same image-text pairs, fostering interdependence between the generation and understanding data to exploit their inherent duality. Extensive experiments demonstrate that UniDDT achieves effective unification of multimodal understanding and generation with enhanced semantic consistency and scalability. For visual generation tasks, our UniDDT achieves 0.87 GenEval score and 86.9 DPG overall score. For multimodal understanding tasks, our UniDDT achieves 1699.5 score on MME benchmark and 76.5 overall score on SEEDbench.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.16255",
+      "pdf_url": "https://arxiv.org/pdf/2606.16255",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.16255",
+      "scraped_at": "2026-06-16T04:17:37.413167"
+    },
+    "scraped_date": "2026-06-16"
+  },
+  {
+    "title": "Nemotron 3 Ultra: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning",
+    "paper_url": "https://huggingface.co/papers/2606.15007",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Nemotron 3 Ultra: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning",
+      "abstract": "Github: https://github.com/NVIDIA-NeMo/Nemotron",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.15007",
+      "pdf_url": "https://arxiv.org/pdf/2606.15007",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/NVIDIA-NeMo/Nemotron"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.15007",
+      "scraped_at": "2026-06-16T04:17:39.272895"
+    },
+    "scraped_date": "2026-06-16"
+  },
+  {
+    "title": "Qwen-RobotWorld Technical Report: Unifying Embodied World Modeling through Language-Conditioned Video Generation",
+    "paper_url": "https://huggingface.co/papers/2606.17030",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Qwen-RobotWorld Technical Report: Unifying Embodied World Modeling through Language-Conditioned Video Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.17030",
+      "pdf_url": "https://arxiv.org/pdf/2606.17030",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.17030",
+      "scraped_at": "2026-06-16T04:17:41.149340"
+    },
+    "scraped_date": "2026-06-16"
+  },
+  {
+    "title": "TuneJury: An Open Metric for Improving Music Generation Preference Alignment",
+    "paper_url": "https://huggingface.co/papers/2606.17006",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "TuneJury: An Open Metric for Improving Music Generation Preference Alignment",
+      "abstract": "TuneJury is an open reward model for music generation preference alignment. A lightweight head sits on top of frozen music encoders and maps an audio clip and an optional text prompt to a single preference score. We train it on human pairwise judgments from open music-preference datasets. We demonstrate three applications: inference-time best-of-N selection, DITTO-style latent optimization, and expert-iteration post-training. We release the checkpoints, evaluation code, live demo, and score files over seven open music collections.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.17006",
+      "pdf_url": "https://arxiv.org/pdf/2606.17006",
+      "github_links": [
+        "https://github.com/yonghyunk1m/TuneJury",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.17006",
+      "scraped_at": "2026-06-16T04:17:43.001946"
+    },
+    "scraped_date": "2026-06-16"
+  },
+  {
+    "title": "Retrieve, Don't Retrain: Extending Vision Language Action Models to New Tasks at Test Time",
+    "paper_url": "https://huggingface.co/papers/2606.15631",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Retrieve, Don't Retrain: Extending Vision Language Action Models to New Tasks at Test Time",
+      "abstract": "TL;DR: Adding a new task to a VLA policy usually means collecting teleop demos and fine-tuning per task. We replace that target-side cost with retrieval: train the policy once, freeze it, and add new tasks at deployment just by appending cheap human-hand demos to a retrieval pool.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.15631",
+      "pdf_url": "https://arxiv.org/pdf/2606.15631",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.15631",
+      "scraped_at": "2026-06-16T04:17:44.908910"
+    },
+    "scraped_date": "2026-06-16"
   }
 ]
