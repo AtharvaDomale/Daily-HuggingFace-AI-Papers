@@ -350,5 +350,387 @@
       "scraped_at": "2026-06-16T04:17:44.908910"
     },
     "scraped_date": "2026-06-16"
+  },
+  {
+    "title": "GameCraft-Bench: Can Agents Build Playable Games End-to-End in a Real Game Engine?",
+    "paper_url": "https://huggingface.co/papers/2606.17861",
+    "authors": [],
+    "stars": "11",
+    "details": {
+      "title": "GameCraft-Bench: Can Agents Build Playable Games End-to-End in a Real Game Engine?",
+      "abstract": "Can coding agents build an actual game in a real game engine? We introduce GameCraft-Bench , a benchmark of 140 Godot tasks across 15 game families for evaluating end-to-end game generation through interactive gameplay verification. The strongest frontier agent achieves only 41.46% , suggesting that creating complete, playable games remains far from solved. Demos, code, and data: https://tongxuluo.github.io/gamecraft-bench-website/",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.17861",
+      "pdf_url": "https://arxiv.org/pdf/2606.17861",
+      "github_links": [
+        "https://github.com/tongxuluo/gamecraft-bench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.17861",
+      "scraped_at": "2026-06-17T04:14:05.751213"
+    },
+    "scraped_date": "2026-06-17"
+  },
+  {
+    "title": "ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining",
+    "paper_url": "https://huggingface.co/papers/2606.17200",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.17200",
+      "pdf_url": "https://arxiv.org/pdf/2606.17200",
+      "github_links": [
+        "https://github.com/ACERobotics-VLA/ACE-Ego-0",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.17200",
+      "scraped_at": "2026-06-17T04:14:07.627435"
+    },
+    "scraped_date": "2026-06-17"
+  },
+  {
+    "title": "OPD-Evolver: Cultivating Holistic Agent Evolver via On-Policy Distillation",
+    "paper_url": "https://huggingface.co/papers/2606.17628",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "OPD-Evolver: Cultivating Holistic Agent Evolver via On-Policy Distillation",
+      "abstract": "We introduce OPD-Evolver, a slow-fast co-evolution framework that helps agents not only store experience, but learn how to select, use, write, and maintain it. Across multi-domain benchmarks, OPD-Evolver outperforms existing memory systems, skill-enhanced agents and 300+B counterparts, showing strong potential for building truly self-evolving agents. GitHub: https://github.com/bingreeky/opd-evolver Huggingface: https://huggingface.co/greeky/OPDEvolver/",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.17628",
+      "pdf_url": "https://arxiv.org/pdf/2606.17628",
+      "github_links": [
+        "https://github.com/bingreeky/opd-evolver",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.17628",
+      "scraped_at": "2026-06-17T04:14:09.444318"
+    },
+    "scraped_date": "2026-06-17"
+  },
+  {
+    "title": "LectūraAgents: A Multi-Agent Framework for Adaptive Personalized AI-Assisted Learning and Embodied Teaching",
+    "paper_url": "https://huggingface.co/papers/2606.16428",
+    "authors": [
+      "Guangyao Chen",
+      "Yemin Shi",
+      "Siwei Dong",
+      "Yue Yu",
+      "Jaward Sesay"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "LectūraAgents: A Multi-Agent Framework for Adaptive Personalized AI-Assisted Learning and Embodied Teaching",
+      "abstract": "Effective personalized AI-assisted learning demands learning systems that can not only generate accurate learner-specific educational materials, but also dynamically adapt their instruction to diverse learners. LectūraAgents is here to address such needs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.16428",
+      "pdf_url": "https://arxiv.org/pdf/2606.16428",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.16428",
+      "scraped_at": "2026-06-17T04:14:11.323988"
+    },
+    "scraped_date": "2026-06-17"
+  },
+  {
+    "title": "TRIAGE: Dialectical Reasoning for Explainable Risk Prediction on Irregularly Sampled Medical Time Series with LLMs",
+    "paper_url": "https://huggingface.co/papers/2606.09030",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "TRIAGE: Dialectical Reasoning for Explainable Risk Prediction on Irregularly Sampled Medical Time Series with LLMs",
+      "abstract": "Predicting clinical risk from irregularly sampled medical time series demands more than an accurate label. It calls for calibrated risk scores to prioritize patients for triage, along with interpretable rationales that clinicians can verify. Large language models are an appealing route to such explanations, yet in practice they collapse graded clinical risk into overconfident binary predictions, a failure we call Risk Polarization. We resolve it through dialectical reasoning, letting a single LLM weigh both sides of a case and arrive at a calibrated prediction that carries its own rationale.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.09030",
+      "pdf_url": "https://arxiv.org/pdf/2606.09030",
+      "github_links": [
+        "https://github.com/HyeongWon-Jang/TRIAGE",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.09030",
+      "scraped_at": "2026-06-17T04:14:13.211683"
+    },
+    "scraped_date": "2026-06-17"
+  },
+  {
+    "title": "Zone of Proximal Policy Optimization: Teacher in Prompts, Not Gradients",
+    "paper_url": "https://huggingface.co/papers/2606.18216",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Zone of Proximal Policy Optimization: Teacher in Prompts, Not Gradients",
+      "abstract": "Our research question is \"For hard questions, how can we transfer the teacher's knowledge to the student without imitating the teacher's logits or injecting the teacher's response directly into the student's gradient? In other words, how to make the student solve the hard question without policy drift (degrading generalization)?\" ZPPO is a new RL post-training recipe as well as solution of our research question: teacher in prompts, not gradients. For hard questions, BCQ lets the student compare a correct teacher response with a wrong student response, while NCQ shows the student its own wrong rollouts as negatives. This recovers learning signals where ordinary RL gets zero advantage, while keeping the policy gradient on-policy. https://www.linkedin.com/feed/update/urn:li:activity:7472847184627986432/",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.18216",
+      "pdf_url": "https://arxiv.org/pdf/2606.18216",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.18216",
+      "scraped_at": "2026-06-17T04:14:15.095827"
+    },
+    "scraped_date": "2026-06-17"
+  },
+  {
+    "title": "Show the Signal, Hide the Noise: Spectral Forcing for Pixel-Space Diffusion",
+    "paper_url": "https://huggingface.co/papers/2606.15236",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "Show the Signal, Hide the Noise: Spectral Forcing for Pixel-Space Diffusion",
+      "abstract": "Spectral Forcing makes pixel-space diffusion more efficient by filtering noisy high frequencies over time, improving ImageNet (JIT) and T2I benchmark (SenseNova-U1) without adding parameters.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.15236",
+      "pdf_url": "https://arxiv.org/pdf/2606.15236",
+      "github_links": [
+        "https://github.com/WeichenFan/Spectral_Forcing",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.15236",
+      "scraped_at": "2026-06-17T04:14:16.946189"
+    },
+    "scraped_date": "2026-06-17"
+  },
+  {
+    "title": "A Gradient Perspective on RLVR Stability and Winner Advantage Policy Optimization",
+    "paper_url": "https://huggingface.co/papers/2606.16154",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "A Gradient Perspective on RLVR Stability and Winner Advantage Policy Optimization",
+      "abstract": "Rather than treating training collapse as a black box, the paper analyzes token-level gradient dynamics and derives a simple taxonomy showing that the effect of an update depends jointly on the advantage sign and the token's probability under the current policy. This provides an intuitive explanation for why entropy sometimes collapses so abruptly. The resulting algorithm, Winner Advantage Policy Optimization (WAPO) , is almost surprisingly simple: perform clipped policy updates only on positive-advantage completions. Despite this small change, it consistently improves training stability while matching or exceeding GRPO-style baselines across math reasoning and multi-hop QA.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.16154",
+      "pdf_url": "https://arxiv.org/pdf/2606.16154",
+      "github_links": [
+        "https://github.com/layer6ai-labs/wapo",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.16154",
+      "scraped_at": "2026-06-17T04:14:18.783175"
+    },
+    "scraped_date": "2026-06-17"
+  },
+  {
+    "title": "ChLogic: Evaluating Robustness of Logical Reasoning in Chinese Expressions",
+    "paper_url": "https://huggingface.co/papers/2606.17905",
+    "authors": [
+      "Bo Bai",
+      "Wei Han",
+      "Chaorui Zhang",
+      "Yuxu Chen",
+      "Peixian Zhou"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ChLogic: Evaluating Robustness of Logical Reasoning in Chinese Expressions",
+      "abstract": "Large language models perform increasingly well on standardized logical reasoning benchmarks, but whether this ability remains robust beyond English is unclear. We introduce ChLogic, an English--Chinese aligned benchmark that tests whether models preserve logical reasoning performance when the same latent logical structure is expressed in English and diverse Chinese surface realizations. Built from formal logical templates, the benchmark contains three data sets: (i) the General aligned set, derived from 60 General Propositions across nine template families; (ii) the Difficult aligned set, derived from 40 Difficult Problems; and (iii) the Chinese-only set, covering 15 language-specific phenomenon types. Each aligned item pairs one English reference expression with five Chinese realizations. Experiments on Qwen3, Ministral, and GLM models reveal a persistent English--Chinese performance gap. Back-translation from standard Chinese into English often improves performance on the General aligned set, but produces mixed effects on the Difficult aligned set, where Qwen3-32B and GLM-5.1 perform worse after translation. These results indicate that Chinese surface realization, translation artifacts, and model-specific behavior jointly affect multilingual logical reasoning. Overall, ChLogic provides a useful stress test for the robustness of multilingual reasoning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.17905",
+      "pdf_url": "https://arxiv.org/pdf/2606.17905",
+      "github_links": [
+        "https://github.com/0328zpx/ChLogic",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.17905",
+      "scraped_at": "2026-06-17T04:14:20.583968"
+    },
+    "scraped_date": "2026-06-17"
+  },
+  {
+    "title": "ActWorld: From Explorable to Interactive World Model via Action-Aware Memory",
+    "paper_url": "https://huggingface.co/papers/2606.17730",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ActWorld: From Explorable to Interactive World Model via Action-Aware Memory",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.17730",
+      "pdf_url": "https://arxiv.org/pdf/2606.17730",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.17730",
+      "scraped_at": "2026-06-17T04:14:22.386774"
+    },
+    "scraped_date": "2026-06-17"
+  },
+  {
+    "title": "Variable-Width Transformers",
+    "paper_url": "https://huggingface.co/papers/2606.18246",
+    "authors": [
+      "Yury Polyanskiy",
+      "Rameswar Panda",
+      "Shawn Tan",
+      "Oliver Sieberling",
+      "Zhaofeng Wu"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Variable-Width Transformers",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.18246",
+      "pdf_url": "https://arxiv.org/pdf/2606.18246",
+      "github_links": [
+        "https://github.com/ZhaofengWu/variable-width-transformers",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.18246",
+      "scraped_at": "2026-06-17T04:14:24.146771"
+    },
+    "scraped_date": "2026-06-17"
+  },
+  {
+    "title": "Unified Multimodal Autoregressive Modeling with Shared Context-Visual Tokenizer is Key to Unification",
+    "paper_url": "https://huggingface.co/papers/2606.18249",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Unified Multimodal Autoregressive Modeling with Shared Context-Visual Tokenizer is Key to Unification",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.18249",
+      "pdf_url": "https://arxiv.org/pdf/2606.18249",
+      "github_links": [
+        "https://github.com/ShareLab-SII/UniAR",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.18249",
+      "scraped_at": "2026-06-17T04:14:25.929405"
+    },
+    "scraped_date": "2026-06-17"
+  },
+  {
+    "title": "ProCUA-SFT Technical Report",
+    "paper_url": "https://huggingface.co/papers/2606.17321",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ProCUA-SFT Technical Report",
+      "abstract": "A 3.1M sample synthetic dataset for training computer-use agents, significantly improving performance on desktop interaction tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.17321",
+      "pdf_url": "https://arxiv.org/pdf/2606.17321",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.17321",
+      "scraped_at": "2026-06-17T04:14:27.729995"
+    },
+    "scraped_date": "2026-06-17"
+  },
+  {
+    "title": "Beyond Monolingual Deep Research: Evaluating Agents and Retrievers with Cross-Lingual BrowseComp-Plus",
+    "paper_url": "https://huggingface.co/papers/2606.15345",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Beyond Monolingual Deep Research: Evaluating Agents and Retrievers with Cross-Lingual BrowseComp-Plus",
+      "abstract": "We introduce XBCP, a controlled benchmark for cross-lingual deep research, showing that language-mismatched evidence causes both retrieval failures and independent agent-side difficulties in evidence integration, calibration, and citation fidelity.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.15345",
+      "pdf_url": "https://arxiv.org/pdf/2606.15345",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.15345",
+      "scraped_at": "2026-06-17T04:14:29.528254"
+    },
+    "scraped_date": "2026-06-17"
+  },
+  {
+    "title": "Aligning Quantum Operators with Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2606.13811",
+    "authors": [
+      "David Kremer",
+      "Hang Hua",
+      "Pengyuan Li",
+      "Yunchao Liu",
+      "Rogerio Feris"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Aligning Quantum Operators with Large Language Models",
+      "abstract": "Can Large Language Models (LLMs) understand and reason about quantum operators? Despite their remarkable capabilities in mathematics and symbolic reasoning, LLMs remain inherently blind to quantum representations such as unitary matrices. In this work, we take a step toward bridging this gap by introducing an approach that maps unitary operators into the latent space of an LLM, enabling unified modeling over quantum and linguistic inputs. We instantiate this idea on Clifford+T circuit synthesis over a Pauli rotation gate set, where our model achieves results competitive with state-of-the-art methods and scales consistently with training data, with no signs of saturation. Our approach further enables language-conditioned synthesis, allowing gate constraints unseen during training to be specified directly in natural language. This work suggests a path toward quantum--aware foundation models that can natively interpret and reason about quantum operations, which could have broader implications reaching across quantum compilation and algorithm discovery.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13811",
+      "pdf_url": "https://arxiv.org/pdf/2606.13811",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13811",
+      "scraped_at": "2026-06-17T04:14:31.321286"
+    },
+    "scraped_date": "2026-06-17"
+  },
+  {
+    "title": "LoopCoder-v2: Only Loop Once for Efficient Test-Time Computation Scaling",
+    "paper_url": "https://huggingface.co/papers/2606.18023",
+    "authors": [
+      "Yaxin Du",
+      "Tianyu Zheng",
+      "Wei Zhang",
+      "Shawn Guo",
+      "Jian Yang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "LoopCoder-v2: Only Loop Once for Efficient Test-Time Computation Scaling",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.18023",
+      "pdf_url": "https://arxiv.org/pdf/2606.18023",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.18023",
+      "scraped_at": "2026-06-17T04:14:33.295667"
+    },
+    "scraped_date": "2026-06-17"
+  },
+  {
+    "title": "Looped World Models",
+    "paper_url": "https://huggingface.co/papers/2606.18208",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Looped World Models",
+      "abstract": "Current world models face a fundamental tension: faithful long-horizon simulation demands deep computation, but deeper models are expensive to deploy and prone to compounding errors. We resolve this by introducing Looped World Models (LoopWM), which are the first looped architectures for world modelling. Our method iteratively refines latent environment states through a parameter-shared transformer block. This yield up to 100× parameter efficiency over conventional approaches with adaptive computation that automatically scales depth to match the complexity of each prediction step. Orthogonal to scaling model size and training data, LoopWM establishes iterative latent depth as a new scaling axis for world simulation, which might significantly push the community forward.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.18208",
+      "pdf_url": "https://arxiv.org/pdf/2606.18208",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.18208",
+      "scraped_at": "2026-06-17T04:14:35.107350"
+    },
+    "scraped_date": "2026-06-17"
+  },
+  {
+    "title": "MotionVLA: Vision-Language-Action Model for Humanoid Motion",
+    "paper_url": "https://huggingface.co/papers/2606.15142",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "MotionVLA: Vision-Language-Action Model for Humanoid Motion",
+      "abstract": "Open-sourced.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.15142",
+      "pdf_url": "https://arxiv.org/pdf/2606.15142",
+      "github_links": [
+        "https://github.com/AIGeeksGroup/MotionVLA",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.15142",
+      "scraped_at": "2026-06-17T04:14:36.970581"
+    },
+    "scraped_date": "2026-06-17"
   }
 ]
