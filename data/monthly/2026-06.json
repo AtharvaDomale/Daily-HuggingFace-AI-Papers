@@ -8237,5 +8237,262 @@
       "scraped_at": "2026-06-17T04:14:36.970581"
     },
     "scraped_date": "2026-06-17"
+  },
+  {
+    "title": "Guava: An Effective and Universal Harness for Embodied Manipulation",
+    "paper_url": "https://huggingface.co/papers/2606.18363",
+    "authors": [
+      "Tianyi Zhou",
+      "Peng Shi",
+      "Shaoxiong Yao",
+      "Xirui Li",
+      "Haowen Liu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Guava: An Effective and Universal Harness for Embodied Manipulation",
+      "abstract": "Language models trained on large-scale vision-language data have demonstrated strong potential for embodied agents. Harnessing models through embodied tools use offers a promising alternative to end-to-end vision-language-action systems by combining high-level reasoning with external modules for perception, planning, and control. However, it remains unclear what makes an effective harness for embodied manipulation, and to what extent such a harness can unlock embodied capabilities in a wide range of reasoning models. In this work, we present Guava, a harness framework for embodied tool use developed through systematic exploration of the design space of agent workflows, action spaces, and observation spaces. Our study identifies three key ingredients for effective embodied agents: iterative perception-reasoning-action loops, semantic action abstractions, and multimodal observations. To understand whether these design principles are universal even to small models, we develop an end-to-end training pipeline that distills embodied manipulation capabilities into a 4B open-source model using fewer than 2K trajectories collected entirely in simulation. Experimental results in both simulation and real-world environments show performance comparable to frontier proprietary models while exhibiting strong generalization to unseen objects, novel instructions, and long-horizon tasks. Results suggest that a well-designed harness can serve as a scalable, model-agnostic interface for embodied manipulation, enabling strong emergent embodied capabilities in compact open-source models with minimal training data.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.18363",
+      "pdf_url": "https://arxiv.org/pdf/2606.18363",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.18363",
+      "scraped_at": "2026-06-18T04:05:27.013094"
+    },
+    "scraped_date": "2026-06-18"
+  },
+  {
+    "title": "Trust the Right Teacher: Quality-Aware Self-Distillation for GUI Grounding",
+    "paper_url": "https://huggingface.co/papers/2606.18101",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Trust the Right Teacher: Quality-Aware Self-Distillation for GUI Grounding",
+      "abstract": "We use GUI grounding as a directly verifiable testbed to study a broader question in on-policy self-distillation: when the student-generated prefix is already wrong, are the teacher's next-token signals still reliable? Because GUI grounding answers can be checked against ground-truth boxes, we propose a solution tailored to this verifiable structure. Our experiments show that teacher signals after wrong student-prefix can still provide useful supervision, but they require special handling. Our training method achieves significant improvements across multiple GUI grounding benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.18101",
+      "pdf_url": "https://arxiv.org/pdf/2606.18101",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.18101",
+      "scraped_at": "2026-06-18T04:05:28.873928"
+    },
+    "scraped_date": "2026-06-18"
+  },
+  {
+    "title": "Kairos: A Native World Model Stack for Physical AI",
+    "paper_url": "https://huggingface.co/papers/2606.16533",
+    "authors": [
+      "Tao Huang",
+      "Qiming Zhang",
+      "Shan You",
+      "Fei Wang",
+      "Kairos Team"
+    ],
+    "stars": "712",
+    "details": {
+      "title": "Kairos: A Native World Model Stack for Physical AI",
+      "abstract": "Kairos Technical Report",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.16533",
+      "pdf_url": "https://arxiv.org/pdf/2606.16533",
+      "github_links": [
+        "https://github.com/kairos-agi/kairos-sensenova",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.16533",
+      "scraped_at": "2026-06-18T04:05:30.835509"
+    },
+    "scraped_date": "2026-06-18"
+  },
+  {
+    "title": "Beyond the Current Observation: Evaluating Multimodal Large Language Models in Controllable Non-Markov Games",
+    "paper_url": "https://huggingface.co/papers/2606.19338",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Beyond the Current Observation: Evaluating Multimodal Large Language Models in Controllable Non-Markov Games",
+      "abstract": "🔥Github Repo: https://github.com/InternLM/RNGBench",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.19338",
+      "pdf_url": "https://arxiv.org/pdf/2606.19338",
+      "github_links": [
+        "https://github.com/InternLM/RNGBench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.19338",
+      "scraped_at": "2026-06-18T04:05:32.769771"
+    },
+    "scraped_date": "2026-06-18"
+  },
+  {
+    "title": "Learning User Simulators with Turing Rewards",
+    "paper_url": "https://huggingface.co/papers/2606.19336",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Learning User Simulators with Turing Rewards",
+      "abstract": "We propose Turing-RL: a Turing-Test-based reinforcement learning approach for training user simulator models. Across two different domains—conversational chat and Reddit forum discussion—we find that Turing-RL consistently outperforms baseline methods on both LLM and human evaluation metrics. Our study suggests that optimizing for indistinguishability, rather than response matching, is effective for learning user simulators.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.19336",
+      "pdf_url": "https://arxiv.org/pdf/2606.19336",
+      "github_links": [
+        "https://github.com/SusanWYS/turing-rl",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.19336",
+      "scraped_at": "2026-06-18T04:05:34.610386"
+    },
+    "scraped_date": "2026-06-18"
+  },
+  {
+    "title": "Sumi: Open Uniform Diffusion Language Model from Scratch",
+    "paper_url": "https://huggingface.co/papers/2606.19005",
+    "authors": [
+      "Keisuke Sakaguchi",
+      "Ryosuke Matsuda",
+      "Wataru Ikeda",
+      "Keito Kudo",
+      "Mengyu Ye"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Sumi: Open Uniform Diffusion Language Model from Scratch",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.19005",
+      "pdf_url": "https://arxiv.org/pdf/2606.19005",
+      "github_links": [
+        "https://github.com/tohoku-nlp/sumi",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.19005",
+      "scraped_at": "2026-06-18T04:05:36.468807"
+    },
+    "scraped_date": "2026-06-18"
+  },
+  {
+    "title": "CEO-Bench: Can Agents Play the Long Game?",
+    "paper_url": "https://huggingface.co/papers/2606.18543",
+    "authors": [
+      "Zhuang Liu",
+      "Karthik Narasimhan",
+      "Haozhe Chen"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "CEO-Bench: Can Agents Play the Long Game?",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.18543",
+      "pdf_url": "https://arxiv.org/pdf/2606.18543",
+      "github_links": [
+        "https://github.com/zlab-princeton/ceobench-src",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.18543",
+      "scraped_at": "2026-06-18T04:05:38.273201"
+    },
+    "scraped_date": "2026-06-18"
+  },
+  {
+    "title": "IndustryBench-MIPU: Benchmarking Multi-Image Attribute Value Extraction for Industrial Products",
+    "paper_url": "https://huggingface.co/papers/2606.14383",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "IndustryBench-MIPU: Benchmarking Multi-Image Attribute Value Extraction for Industrial Products",
+      "abstract": "Hi everyone! We are excited to share our team's latest work from Alibaba: IndustryBench-MIPU . While MLLMs are increasingly deployed for general visual tasks, understanding complex industrial products requires assembling dense technical specifications scattered across multiple heterogeneous images, including specification tables, nameplates, and technical drawings. To bridge this gap, we built the first large-scale benchmark for multi-image industrial product understanding. Key Highlights of our Benchmark: Massive Scale: 4,559 products across 27,652 images with 103,703 annotations spanning 18 industrial categories. Complex Challenges: The task requires models to jointly perform text recognition, visual reasoning over technical drawings, domain knowledge interpretation, and cross-image evidence integration. Core Findings: We evaluated 9 MLLMs and uncovered a stark completeness gap. While current models achieve high precision (86-94%), the absolute best model recovers only 49.9% of product-level attributes. Our evaluation proves that multi-image completeness, rather than single-image accuracy, is the true bottleneck for real-world industrial AI. As we continue to push the boundaries of multimodal and industrial intelligence, we hope this dataset and benchmark serve as a valuable testbed for the community. We would love to hear your thoughts, feedback, and see how your models perform! Paper: arxiv.org/abs/2606.14383 Dataset: huggingface.co/datasets/alibaba-multimodal-industrial-ai/IndustryBench-MIPU Code: github.com/alibaba-multimodal-industrial-ai/IndustryBench-MIPU",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.14383",
+      "pdf_url": "https://arxiv.org/pdf/2606.14383",
+      "github_links": [
+        "https://github.com/alibaba-multimodal-industrial-ai/IndustryBench-MIPU",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.14383",
+      "scraped_at": "2026-06-18T04:05:40.122626"
+    },
+    "scraped_date": "2026-06-18"
+  },
+  {
+    "title": "Physics-IQ Verified",
+    "paper_url": "https://huggingface.co/papers/2606.18943",
+    "authors": [
+      "Priyank Jaini",
+      "Stefan Bauer",
+      "Hilde Kuehne",
+      "Yuki M Asano",
+      "Tim Rädsch"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Physics-IQ Verified",
+      "abstract": "Github: https://github.com/google-deepmind/physics-iq-benchmark",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.18943",
+      "pdf_url": "https://arxiv.org/pdf/2606.18943",
+      "github_links": [
+        "https://github.com/google-deepmind/physics-iq-benchmark",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.18943",
+      "scraped_at": "2026-06-18T04:05:41.968050"
+    },
+    "scraped_date": "2026-06-18"
+  },
+  {
+    "title": "Externalizing Research Synthesis and Validation in AI Scientists through a Research Harness",
+    "paper_url": "https://huggingface.co/papers/2606.18874",
+    "authors": [
+      "Shenghan Zuo",
+      "Zijian Hu",
+      "Ziyue Yang",
+      "Hanqi Li",
+      "Zijian Wang"
+    ],
+    "stars": "12",
+    "details": {
+      "title": "Externalizing Research Synthesis and Validation in AI Scientists through a Research Harness",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.18874",
+      "pdf_url": "https://arxiv.org/pdf/2606.18874",
+      "github_links": [
+        "https://github.com/OpenDFM/Xcientist",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.18874",
+      "scraped_at": "2026-06-18T04:05:43.775914"
+    },
+    "scraped_date": "2026-06-18"
+  },
+  {
+    "title": "PAIWorld: A 3D-Consistent World Foundation Model for Robotic Manipulation",
+    "paper_url": "https://huggingface.co/papers/2606.18375",
+    "authors": [
+      "Jiazhao Zhang",
+      "Zhiyuan Yu",
+      "Junyan Xu",
+      "Xuan Lv",
+      "Yuhang Huang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "PAIWorld: A 3D-Consistent World Foundation Model for Robotic Manipulation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.18375",
+      "pdf_url": "https://arxiv.org/pdf/2606.18375",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.18375",
+      "scraped_at": "2026-06-18T04:05:45.611300"
+    },
+    "scraped_date": "2026-06-18"
   }
 ]
