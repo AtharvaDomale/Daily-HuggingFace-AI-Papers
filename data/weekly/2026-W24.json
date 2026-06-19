@@ -989,5 +989,352 @@
       "scraped_at": "2026-06-18T04:05:45.611300"
     },
     "scraped_date": "2026-06-18"
+  },
+  {
+    "title": "Beyond Static Leaderboards: Predictive Validity for the Evaluation of LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2606.19704",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Beyond Static Leaderboards: Predictive Validity for the Evaluation of LLM Agents",
+      "abstract": "Agent benchmarks are growing fast, but no single benchmark touches more than four or five of the dimensions that deployment exposes. This paper aggregates the largest coordinated deep-dive of one MCP-based industrial-agent benchmark to date: fourteen parallel implementation studies covering new asset classes (including a multi-modal visual extension), alternative orchestrations, retrieval strategies, reasoning modes, infrastructure optimizations, and evaluation-methodology probes. Consolidating those studies with seven prior agent benchmarks, we argue that aggregate-score leaderboards systematically underspecify deployed-agent evaluation. Rankings derived from aggregate scores do not transfer to out-of-distribution settings; recent public-to-hidden competition retrospectives provide direct empirical evidence of this rank instability. We propose ranking configurations by predictive validity, the correlation between in-sample and out-of-sample rank, rather than in-sample mean, and report a twelve-tier measurement apparatus that exposes the deployment-relevant dimensions HELM and its agent-era successors collapse. The position is operationalized through three falsifiable out-of-distribution criteria with explicit thresholds; existing evidence partly supports it but is too thin to confirm. We close with a pre-registered pilot design and a field-level vision for what the next generation of agentic benchmarks should report.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.19704",
+      "pdf_url": "https://arxiv.org/pdf/2606.19704",
+      "github_links": [
+        "https://github.com/IBM/AssetOpsBench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.19704",
+      "scraped_at": "2026-06-19T04:24:34.416509"
+    },
+    "scraped_date": "2026-06-19"
+  },
+  {
+    "title": "S-Agent: Spatial Tool-Use Elicits Reasoning for Spatial Intelligence",
+    "paper_url": "https://huggingface.co/papers/2606.20515",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "S-Agent: Spatial Tool-Use Elicits Reasoning for Spatial Intelligence",
+      "abstract": "The first agentic model for Spatial Intelligence. S-Agent turns perception into action: grounding, reconstructing, and reasoning with tools to solve complex spatial tasks step by step.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.20515",
+      "pdf_url": "https://arxiv.org/pdf/2606.20515",
+      "github_links": [
+        "https://github.com/Ropedia/S-Agent",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.20515",
+      "scraped_at": "2026-06-19T04:24:36.332447"
+    },
+    "scraped_date": "2026-06-19"
+  },
+  {
+    "title": "Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance",
+    "paper_url": "https://huggingface.co/papers/2606.19195",
+    "authors": [
+      "Xiaoxin Chen",
+      "Xiaohu Ruan",
+      "Wenyu Liu",
+      "Ziyang Xu",
+      "Kangsheng Duan"
+    ],
+    "stars": "31",
+    "details": {
+      "title": "Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance",
+      "abstract": "Moebius is our latest AI Image Inpainting endeavor, serving as a direct continuation of our previous work, PixelHacker. Named after the concepts of \"infinity\" and \"master painter,\" Moebius embodies our vision: maintaining exceptional generation quality under highly constrained computational resources while pushing the efficiency of image inpainting to its limits as much as possible. Under the iron grip of the Scaling Law, AI research has long devolved into a grueling arms race of burning capital, compute, and data. Consequently, the academic community finds it increasingly difficult to keep pace with the ever-expanding model scales driven by the tech industry. \"But is this brute-force scaling truly the only path forward?\" Using general-purpose image inpainting as our strategic entry point, we challenge the \"scale-at-all-costs\" path dependency dictated by the Scaling Law narrative. Through the synergistic optimization of architectural design and knowledge distillation, Moebius achieves a remarkably compact footprint of just 0.22B parameters. It liberates high-quality image inpainting from the heavy-compute narrative of 10B+ foundation models: Across six comprehensive benchmarks spanning both natural and portrait scenes, Moebius performs on par with, and in certain scenarios surpasses, the inpainting quality of 10B+ industrial state-of-the-art (SOTA) generalist models like FLUX.1-Fill-Dev, while delivering a massive >15× inference acceleration. 💡 The core insight of Moebius can be summarized in a single equation: Synergy × (Architecture + Distillation) = Shattering the \"Impossible Triangle\" of Low Parameters, Fast Inference, and High Quality",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.19195",
+      "pdf_url": "https://arxiv.org/pdf/2606.19195",
+      "github_links": [
+        "https://github.com/hustvl/PixelHacker",
+        "https://github.com/hustvl/Moebius",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.19195",
+      "scraped_at": "2026-06-19T04:24:38.368067"
+    },
+    "scraped_date": "2026-06-19"
+  },
+  {
+    "title": "FreeStyle: Free Control of Style-Content Dual-Reference Generation from Community LoRA Mining",
+    "paper_url": "https://huggingface.co/papers/2606.20506",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "FreeStyle: Free Control of Style-Content Dual-Reference Generation from Community LoRA Mining",
+      "abstract": "📚 Resources 📄 Paper: https://arxiv.org/pdf/2606.20506 🌐 Project Page: https://blue2giant.github.io/FreeStyle/ 💻 GitHub: https://github.com/Blue2Giant/FreeStyle 📦 Dataset: https://huggingface.co/datasets/Blue2Giant/FreeStyle_Dataset ⚖️ Model Weights: https://huggingface.co/Blue2Giant/FreeStyle_Checkpoint 📊 Benchmark: https://huggingface.co/datasets/Blue2Giant/FreeStyle_Bench 🔍 LoRA Metadata: https://huggingface.co/datasets/Blue2Giant/free_style_lora_meta",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.20506",
+      "pdf_url": "https://arxiv.org/pdf/2606.20506",
+      "github_links": [
+        "https://github.com/Blue2Giant/FreeStyle",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.20506",
+      "scraped_at": "2026-06-19T04:24:40.245315"
+    },
+    "scraped_date": "2026-06-19"
+  },
+  {
+    "title": "JanusMesh: Fast and Zero-Shot 3D Visual Illusion Generation via Cross-Space Denoising",
+    "paper_url": "https://huggingface.co/papers/2606.20563",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "JanusMesh: Fast and Zero-Shot 3D Visual Illusion Generation via Cross-Space Denoising",
+      "abstract": "Project Page: https://siang1105.github.io/JanusMesh.github.io/ Code: https://github.com/siang1105/JanusMesh",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.20563",
+      "pdf_url": "https://arxiv.org/pdf/2606.20563",
+      "github_links": [
+        "https://github.com/siang1105/JanusMesh",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.20563",
+      "scraped_at": "2026-06-19T04:24:42.156556"
+    },
+    "scraped_date": "2026-06-19"
+  },
+  {
+    "title": "ENPIRE: Agentic Robot Policy Self-Improvement in the Real World",
+    "paper_url": "https://huggingface.co/papers/2606.19980",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ENPIRE: Agentic Robot Policy Self-Improvement in the Real World",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.19980",
+      "pdf_url": "https://arxiv.org/pdf/2606.19980",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.19980",
+      "scraped_at": "2026-06-19T04:24:44.190200"
+    },
+    "scraped_date": "2026-06-19"
+  },
+  {
+    "title": "Thinking with Visual Grounding",
+    "paper_url": "https://huggingface.co/papers/2606.16122",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Thinking with Visual Grounding",
+      "abstract": "Check our dataset: https://huggingface.co/datasets/JunkaiZ/TVG and code: https://github.com/Jun-Kai-Zhang/visually_grounded_thinking/tree/main",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.16122",
+      "pdf_url": "https://arxiv.org/pdf/2606.16122",
+      "github_links": [
+        "https://github.com/Jun-Kai-Zhang/visually_grounded_thinking",
+        "https://github.com/Jun-Kai-Zhang/visually_grounded_thinking/tree/main",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.16122",
+      "scraped_at": "2026-06-19T04:24:46.057411"
+    },
+    "scraped_date": "2026-06-19"
+  },
+  {
+    "title": "Adaptive Volumetric Mechanical Property Fields Invariant to Resolution",
+    "paper_url": "https://huggingface.co/papers/2606.18231",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Adaptive Volumetric Mechanical Property Fields Invariant to Resolution",
+      "abstract": "https://research.nvidia.com/labs/sil/projects/adavomp/",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.18231",
+      "pdf_url": "https://arxiv.org/pdf/2606.18231",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.18231",
+      "scraped_at": "2026-06-19T04:24:47.946945"
+    },
+    "scraped_date": "2026-06-19"
+  },
+  {
+    "title": "Holo-World: Unified Camera, Object and Weather Control for Video World Model",
+    "paper_url": "https://huggingface.co/papers/2606.20083",
+    "authors": [
+      "Yinda Chen",
+      "Zijie Liu",
+      "Jiahui Yuan",
+      "Wenzhang Sun",
+      "Xiangchen Yin"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Holo-World: Unified Camera, Object and Weather Control for Video World Model",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.20083",
+      "pdf_url": "https://arxiv.org/pdf/2606.20083",
+      "github_links": [
+        "https://github.com/XiangchenYin/Holo-World",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.20083",
+      "scraped_at": "2026-06-19T04:24:49.764532"
+    },
+    "scraped_date": "2026-06-19"
+  },
+  {
+    "title": "FAPO: Fully Autonomous Prompt Optimization of Multi-Step LLM Pipelines",
+    "paper_url": "https://huggingface.co/papers/2606.19605",
+    "authors": [],
+    "stars": "8",
+    "details": {
+      "title": "FAPO: Fully Autonomous Prompt Optimization of Multi-Step LLM Pipelines",
+      "abstract": "Multi-step LLM pipelines fail through interactions among retrieval, reasoning, and formatting steps, so prompt-only optimization can miss bottlenecks in the chain. We present FAPO (Fully Autonomous Prompt Optimization), a framework that lets Claude Code optimize an LLM pipeline inside a standardized codebase. FAPO evaluates a pipeline, inspects intermediate steps, diagnoses failures, proposes scoped changes, and validates variants repeatedly to optimize against a score function. It first tries prompt edits and, only when prompt optimization appears insufficient, changes chain structure within the permitted scope when attribution identifies a structural bottleneck. Across six benchmarks and three task models, FAPO beats the baseline GEPA in 15 of 18 model-benchmark comparisons. In 11 model-benchmark comparisons, FAPO wins with non-overlapping mean  trial-standard-deviation ranges, and the mean FAPO-GEPA gain is +14.1 pp. In the six HoVer and IFBench comparisons where prompt-first search escalated to structural changes, FAPO wins all six with a mean gain of +33.8 pp. FAPO also improves performance on security tasks: on CTIBench-RCM, a security CVE-to-CWE task, prompt-only FAPO lifts test accuracy by +4.0 pp on GPT-5, +7.1 pp on Foundation-Sec-8B-Instruct, and +2.0 pp on Foundation-Sec-8B-Reasoning. These results position FAPO as a state-of-the-art pipeline optimization technique for both general-purpose and security-focused tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.19605",
+      "pdf_url": "https://arxiv.org/pdf/2606.19605",
+      "github_links": [
+        "https://github.com/cisco-foundation-ai/fully-automated-prompt-optimization",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.19605",
+      "scraped_at": "2026-06-19T04:24:51.650575"
+    },
+    "scraped_date": "2026-06-19"
+  },
+  {
+    "title": "ImageWAM: Do World Action Models Really Need Video Generation, or Just Image Editing?",
+    "paper_url": "https://huggingface.co/papers/2606.19531",
+    "authors": [
+      "Haitao Lin",
+      "He Zhang",
+      "Zekun Qi",
+      "Wenyao Zhang",
+      "Yuyang Zhang"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "ImageWAM: Do World Action Models Really Need Video Generation, or Just Image Editing?",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.19531",
+      "pdf_url": "https://arxiv.org/pdf/2606.19531",
+      "github_links": [
+        "https://github.com/yuyangalin/ImageWAM",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.19531",
+      "scraped_at": "2026-06-19T04:24:53.516955"
+    },
+    "scraped_date": "2026-06-19"
+  },
+  {
+    "title": "Understanding the Behaviors of Environment-aware Information Retrieval",
+    "paper_url": "https://huggingface.co/papers/2606.16817",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "Understanding the Behaviors of Environment-aware Information Retrieval",
+      "abstract": "Search agents are usually optimized around one or a few “search environments”, whether web search APIs or local search built with a single retriever. In practice, search environments are diverse, shaped by the retriever’s behavior, the indexing pipeline, the corpus distribution and quality, and the interaction interface. Can search agents adapt their search strategies to different environments? More fundamentally, are they even aware when they're placed in different environments? We believe this calls for a new research direction: 𝗘𝗻𝘃𝗶𝗿𝗼𝗻𝗺𝗲𝗻𝘁-𝗮𝘄𝗮𝗿𝗲 𝗜𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻 𝗥𝗲𝘁𝗿𝗶𝗲𝘃𝗮𝗹. Our ACL 2026 work takes an initial step toward this goal by studying one core factor: how search agents adapt to different retriever behaviors, and how much this adaptation matters. Check it out!",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.16817",
+      "pdf_url": "https://arxiv.org/pdf/2606.16817",
+      "github_links": [
+        "https://github.com/LCO-Embedding/Envs-aware-Information-Retrieval",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.16817",
+      "scraped_at": "2026-06-19T04:24:55.361639"
+    },
+    "scraped_date": "2026-06-19"
+  },
+  {
+    "title": "Current World Models Lack a Persistent State Core",
+    "paper_url": "https://huggingface.co/papers/2606.20545",
+    "authors": [
+      "Guo Tang",
+      "Linghan Cai",
+      "Haoyuan Shi",
+      "Dexu Zhu",
+      "Jinpeng Lu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Current World Models Lack a Persistent State Core",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.20545",
+      "pdf_url": "https://arxiv.org/pdf/2606.20545",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.20545",
+      "scraped_at": "2026-06-19T04:24:57.197468"
+    },
+    "scraped_date": "2026-06-19"
+  },
+  {
+    "title": "JAMER: Project-Level Code Framework Dataset and Benchmark on Professional Game Engines",
+    "paper_url": "https://huggingface.co/papers/2606.19830",
+    "authors": [
+      "Fanrui Zhang",
+      "Yukang Feng",
+      "Zizhen Li",
+      "Chuanhao Li",
+      "Jianwen Sun"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "JAMER: Project-Level Code Framework Dataset and Benchmark on Professional Game Engines",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.19830",
+      "pdf_url": "https://arxiv.org/pdf/2606.19830",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.19830",
+      "scraped_at": "2026-06-19T04:24:58.984448"
+    },
+    "scraped_date": "2026-06-19"
+  },
+  {
+    "title": "LooseControlVideo: Directorial Video Control using Spatial Blocking",
+    "paper_url": "https://huggingface.co/papers/2606.19495",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LooseControlVideo: Directorial Video Control using Spatial Blocking",
+      "abstract": "Project page: https://shariqfarooq123.github.io/LooseControlVideo/",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.19495",
+      "pdf_url": "https://arxiv.org/pdf/2606.19495",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.19495",
+      "scraped_at": "2026-06-19T04:25:00.983401"
+    },
+    "scraped_date": "2026-06-19"
+  },
+  {
+    "title": "Selective Synergistic Learning for Video Object-Centric Learning",
+    "paper_url": "https://huggingface.co/papers/2606.15527",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Selective Synergistic Learning for Video Object-Centric Learning",
+      "abstract": "Typical video object-centric learning (VOCL) approaches employ slot-based frameworks that rely on reconstruction-driven encoder–decoder architectures, where learning is mediated by two spatial maps: attention maps from the encoder and object maps from the decoder. As these two distinct maps exhibit different properties, a recent dense alignment strategy attempted to reconcile this discrepancy by enforcing agreement across all spatio-temporal patches via contrastive learning. However, this indiscriminate alignment inadvertently propagates the inherent weaknesses of each module, such as noisy encoder predictions and blurred decoder boundaries. Moreover, computing dense similarities across all pairs incurs a computational cost quadratic in the total number of spatio-temporal patches, severely limiting scalability. Motivated by this, we propose Selective Synergistic Learning (SSync). Instead of exhaustive patch-to-patch alignment, SSync prevents error propagation by selectively distilling only the most reliable cues: leveraging the encoder strictly for boundary refinement and the decoder for interior denoising. This is realized via a pseudo-labeling with linear complexity, eliminating the need for quadratic spatial comparisons. Also, to prevent the reinforcement of architectural biases like slot redundancy, we introduce a transitive pseudo-label merging that consolidates overlapping slots based on spatio-temporal activation consistency. Extensive studies demonstrate that SSync improves decomposition quality and serves as a versatile, plug-and-play module while also exhibiting exceptional robustness to slot configurations. Code is available at github.com/wjun0830/SSync.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.15527",
+      "pdf_url": "https://arxiv.org/pdf/2606.15527",
+      "github_links": [
+        "https://github.com/wjun0830/SSync",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.15527",
+      "scraped_at": "2026-06-19T04:25:02.845720"
+    },
+    "scraped_date": "2026-06-19"
   }
 ]
