@@ -10305,5 +10305,89 @@
       "scraped_at": "2026-06-21T04:20:27.941177"
     },
     "scraped_date": "2026-06-21"
+  },
+  {
+    "title": "PerceptionDLM: Parallel Region Perception with Multimodal Diffusion Language Models",
+    "paper_url": "https://huggingface.co/papers/2606.19534",
+    "authors": [],
+    "stars": "11",
+    "details": {
+      "title": "PerceptionDLM: Parallel Region Perception with Multimodal Diffusion Language Models",
+      "abstract": "🚀 PerceptionDLM: Parallel Region Perception with Multimodal Diffusion Language Models We introduce PerceptionDLM, a multimodal diffusion VLM built for efficient parallel region perception. Instead of describing image regions one-by-one like autoregressive captioners, it exploits the parallel decoding nature of dLLMs: given an image and multiple region masks, it generates descriptions for all regions in a single denoising pass — avoiding the linear latency growth of AR region captioners. Highlights: 🏆 Strong open diffusion VLM baseline. PerceptionDLM-Base outperforms LLaDA-V on 15/16 multimodal benchmarks and stays competitive with leading AR VLMs (Qwen2.5-VL, InternVL3) at the same scale. 🧩 Parallel region captioning for a much better accuracy–efficiency trade-off on multi-region dense captioning. 📊 New benchmark — ParaDLC-Bench, jointly evaluating caption quality and inference efficiency. 🔁 Fully open: code, model weights, training data, and the full evaluation suite. 📄 Paper: https://arxiv.org/abs/2606.19534 💻 Code: https://github.com/MSALab-PKU/PerceptionDLM 🤗 Models & Data: https://huggingface.co/collections/MSALab/perceptiondlm-model-zoo Feedback and discussion welcome! 🙌",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.19534",
+      "pdf_url": "https://arxiv.org/pdf/2606.19534",
+      "github_links": [
+        "https://github.com/MSALab-PKU/PerceptionDLM",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.19534",
+      "scraped_at": "2026-06-22T04:21:33.260671"
+    },
+    "scraped_date": "2026-06-22"
+  },
+  {
+    "title": "BrainG3N: A Dual-Purpose Tokenizer for Controllable 3D Brain MRI Generation",
+    "paper_url": "https://huggingface.co/papers/2606.19651",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "BrainG3N: A Dual-Purpose Tokenizer for Controllable 3D Brain MRI Generation",
+      "abstract": "BrainG3N: A Dual-Purpose Tokenizer for Controllable 3D Brain MRI Generation BrainG3N is a controllable generator for 3D brain MRI built on top of a strong self-supervised foundation encoder. A frozen 3D MAE encoder (pretrained on 35,309 volumes across 18 cohorts, 4 modalities, 200+ sites) produces clinically informative embeddings; a conditional flow-matching DiT then generates new scans directly in that space, and a fine-tuned CNN decoder maps them back to voxels. Because generation happens in a clinically grounded latent space, the synthetic scans actually carry the conditioned attributes: Controllable along disease, age, sex, modality, site, and IDH1 status, plus patient-specific longitudinal forecasting. Real-data clinical probes recover the requested attribute from generated scans (age Pearson r=0.93). The same frozen encoder is a strong foundation model in its own right — beats/matches BrainIAC, BrainSegFounder, and MedicalNet on 21/23 linear-probing tasks (IDH1 AUC 0.937, brain-age MAE 4.43 y), with no fine-tuning. Useful for augmenting under-represented cohorts, counterfactual disease trajectories (\"what would this patient look like under disease X\"), and privacy-preserving synthetic data sharing. 📄 https://arxiv.org/abs/2606.19651 — model, code, and synthetic dataset coming soon. Feel free to reach out! 🤗",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.19651",
+      "pdf_url": "https://arxiv.org/pdf/2606.19651",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.19651",
+      "scraped_at": "2026-06-22T04:21:35.152544"
+    },
+    "scraped_date": "2026-06-22"
+  },
+  {
+    "title": "WorldLines: Benchmarking and Modeling Long-Horizon Stateful Embodied Agents",
+    "paper_url": "https://huggingface.co/papers/2606.18847",
+    "authors": [
+      "Tianhao Zhou",
+      "Yifan Chang",
+      "Haojian Huang",
+      "Jianchong Su",
+      "Yehang Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "WorldLines: Benchmarking and Modeling Long-Horizon Stateful Embodied Agents",
+      "abstract": "To assist humans over extended periods in real homes, embodied agents must remember user routines, world states, and past interactions. Existing long-term memory benchmarks mainly evaluate language-centric retrieval and question answering, while embodied benchmarks often focus on short-horizon task execution without testing long-term memory use in dynamic environments. We introduce WorldLines, a project-driven benchmark for long-horizon embodied household assistance. It constructs temporally extended household traces with dialogues, actions, execution feedback, object and device state changes, and converts them into evidence-linked samples for Memory QA and Embodied Task Planning. We further propose ObsMem, an observer-grounded memory framework that maintains visibility-aware memories and action-native state trails for state-aware decisions. Experiments reveal persistent challenges in partial observability, overwritten world states, and translating long-term memory into embodied plans, while ObsMem offers a stronger reference architecture for this setting.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.18847",
+      "pdf_url": "https://arxiv.org/pdf/2606.18847",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.18847",
+      "scraped_at": "2026-06-22T04:21:36.958362"
+    },
+    "scraped_date": "2026-06-22"
+  },
+  {
+    "title": "GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents",
+    "paper_url": "https://huggingface.co/papers/2606.18829",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents",
+      "abstract": "Thanks for checking out GateMem! GateMem is a benchmark for memory governance in multi-principal shared-memory agents. Instead of only asking whether an agent can remember information, GateMem evaluates whether a persistent-memory agent can remain useful, enforce requester-specific access control, and honor deletion requests. We release: 91 long-form multi-party episodes 2,218 hidden evaluation checkpoints 4 shared-memory domains: medical, office, education, and household 7 memory-agent baselines across 6 backbone LLMs official evaluation code a public leaderboard and online submission interface Resources: Paper: https://arxiv.org/abs/2606.18829 Project page: https://rzhub.github.io/GateMem/project.html Code: https://github.com/rzhub/GateMem Dataset: https://huggingface.co/datasets/Ray368/GateMem Leaderboard: https://rzhub.github.io/GateMem/ Submit results: https://huggingface.co/spaces/Ray368/GateMem-Submit We welcome new submissions to the leaderboard and feedback from the community.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.18829",
+      "pdf_url": "https://arxiv.org/pdf/2606.18829",
+      "github_links": [
+        "https://github.com/rzhub/GateMem",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.18829",
+      "scraped_at": "2026-06-22T04:21:38.775570"
+    },
+    "scraped_date": "2026-06-22"
   }
 ]
