@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-4-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-4881+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-14-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-4895+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">4</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">4</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">478</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">4881+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">14</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">18</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">492</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">4895+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** June 22, 2026
+**Last Updated:** June 23, 2026
 
 ---
 
@@ -119,56 +119,190 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. PerceptionDLM: Parallel Region Perception with Multimodal Diffusion Language Models</b> ⭐ 11</summary>
+<summary><b>1. KaLM-Reranker-V1: Fast but Not Late Interaction for Compressed Document Reranking</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.19534) • [📄 arXiv](https://arxiv.org/abs/2606.19534) • [📥 PDF](https://arxiv.org/pdf/2606.19534)
-
-**💻 Code:** [⭐ Code](https://github.com/MSALab-PKU/PerceptionDLM) • [⭐ Code](https://github.com/huggingface)
-
-> 🚀 PerceptionDLM: Parallel Region Perception with Multimodal Diffusion Language Models We introduce PerceptionDLM, a multimodal diffusion VLM built for efficient parallel region perception. Instead of describing image regions one-by-one like autore...
-
-</details>
-
-<details>
-<summary><b>2. BrainG3N: A Dual-Purpose Tokenizer for Controllable 3D Brain MRI Generation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.19651) • [📄 arXiv](https://arxiv.org/abs/2606.19651) • [📥 PDF](https://arxiv.org/pdf/2606.19651)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.22807) • [📄 arXiv](https://arxiv.org/abs/2606.22807) • [📥 PDF](https://arxiv.org/pdf/2606.22807)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> BrainG3N: A Dual-Purpose Tokenizer for Controllable 3D Brain MRI Generation BrainG3N is a controllable generator for 3D brain MRI built on top of a strong self-supervised foundation encoder. A frozen 3D MAE encoder (pretrained on 35,309 volumes ac...
+> We present KaLM-Reranker-V1, a fast but not late-interaction (FBNL) reranker that decouples query and passage computation while retaining expressive relevance modeling. Built on an encoder-decoder architecture, KaLM-Reranker-V1 uses the encoder to...
 
 </details>
 
 <details>
-<summary><b>3. WorldLines: Benchmarking and Modeling Long-Horizon Stateful Embodied Agents</b> ⭐ 0</summary>
+<summary><b>2. World Action Models: A Survey</b> ⭐ 217</summary>
 
 <br/>
 
-**👥 Authors:** Tianhao Zhou, Yifan Chang, Haojian Huang, Jianchong Su, Yehang Zhang
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.20781) • [📄 arXiv](https://arxiv.org/abs/2606.20781) • [📥 PDF](https://arxiv.org/pdf/2606.20781)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.18847) • [📄 arXiv](https://arxiv.org/abs/2606.18847) • [📥 PDF](https://arxiv.org/pdf/2606.18847)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/world-action-models/awesome-world-action-models)
+
+> World Action Models (WAMs) are embodied predictive-action models that make a forecast of the future available to action. Recent WAMs repurpose large video generation models, and a parallel line relies on language or vision-language backbones witho...
+
+</details>
+
+<details>
+<summary><b>3. HydraHead: From Head-Level Functional Heterogeneity to Specialized Attention Hybridization</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Xu Shen, Yao Liu, Jingyi Shen, Wei Chen, tzt
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.20097) • [📄 arXiv](https://arxiv.org/abs/2606.20097) • [📥 PDF](https://arxiv.org/pdf/2606.20097)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> To assist humans over extended periods in real homes, embodied agents must remember user routines, world states, and past interactions. Existing long-term memory benchmarks mainly evaluate language-centric retrieval and question answering, while e...
+> HydraHead: From Head-Level Functional Heterogeneity to Specialized Attention Hybridization
 
 </details>
 
 <details>
-<summary><b>4. GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents</b> ⭐ 0</summary>
+<summary><b>4. EvoEmbedding: Evolvable Representations for Long-Context Retrieval and Agentic Memory</b> ⭐ 14</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.18829) • [📄 arXiv](https://arxiv.org/abs/2606.18829) • [📥 PDF](https://arxiv.org/pdf/2606.18829)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.21649) • [📄 arXiv](https://arxiv.org/abs/2606.21649) • [📥 PDF](https://arxiv.org/pdf/2606.21649)
 
-**💻 Code:** [⭐ Code](https://github.com/rzhub/GateMem) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/MiG-NJU/EvoEmbedding) • [⭐ Code](https://github.com/MiG-NJU/EvoEmbedding/tree/main)
 
-> Thanks for checking out GateMem! GateMem is a benchmark for memory governance in multi-principal shared-memory agents. Instead of only asking whether an agent can remember information, GateMem evaluates whether a persistent-memory agent can remain...
+> EvoEmbedding: Evolvable Representations for Long-Context Retrieval and Agentic Memory
+
+</details>
+
+<details>
+<summary><b>5. Learning from Your Own Mistakes: Constructing Learnable Micro-Reflective Trajectories for Self-Distillation</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.18844) • [📄 arXiv](https://arxiv.org/abs/2606.18844) • [📥 PDF](https://arxiv.org/pdf/2606.18844)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>6. DailyReport: An Open-ended Benchmark for Evaluating Search Agents on Daily Search Tasks</b> ⭐ 5</summary>
+
+<br/>
+
+**👥 Authors:** Ziwen Wang, Mingyang Zhu, Wei Liu, Jingxuan Han, wagoriginal
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.12871) • [📄 arXiv](https://arxiv.org/abs/2606.12871) • [📥 PDF](https://arxiv.org/pdf/2606.12871)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/AGI-Eval-Official/DailyReport)
+
+> Search Agents (SAs) typically leverage large language models (LLMs) to support complex information-seeking tasks by autonomously exploring web sources and synthesizing information into comprehensive responses. For SAs evaluation, prior benchmarks ...
+
+</details>
+
+<details>
+<summary><b>7. Exploring the Design Space of Reward Backpropagation for Flow Matching</b> ⭐ 6</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.11075) • [📄 arXiv](https://arxiv.org/abs/2606.11075) • [📥 PDF](https://arxiv.org/pdf/2606.11075)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/RuoyuWang-2077/FlowBP)
+
+> We introduce FlowBP , a unified framework for direct reward backpropagation in flow-matching models. Instead of treating the backward pass as a fixed approximation, FlowBP makes the surrogate backward trajectory itself a design object, exposing fo...
+
+</details>
+
+<details>
+<summary><b>8. Deep Research in Physical Sciences: A Multi-Agent Framework and Comprehensive Benchmark</b> ⭐ 1</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.18648) • [📄 arXiv](https://arxiv.org/abs/2606.18648) • [📥 PDF](https://arxiv.org/pdf/2606.18648)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/yigengjiang/physci-deepresearch)
+
+> Excited to share our paper: Deep Research in Physical Sciences: A Multi-Agent Framework and Comprehensive Benchmark . We introduce PhySciBench , a benchmark for evaluating deep-research agents in the physical sciences, and DelveAgent , a modular m...
+
+</details>
+
+<details>
+<summary><b>9. PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-Use Agents in Large-Scale Tool Ecosystems</b> ⭐ 2</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.22388) • [📄 arXiv](https://arxiv.org/abs/2606.22388) • [📥 PDF](https://arxiv.org/pdf/2606.22388)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/JiayuJeff/PlanBench-XL)
+
+> Excited to share PlanBench-XL! We built this benchmark to evaluate whether LLM agents can really plan over long horizons in large, imperfect tool ecosystems, where they must iteratively retrieve tools, call them, and recover from missing, failing,...
+
+</details>
+
+<details>
+<summary><b>10. OpenRath: Session-Centered Runtime State for Agent Systems</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Ruilin Xu, Zhijie Wang, smallkang2025
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.19409) • [📄 arXiv](https://arxiv.org/abs/2606.19409) • [📥 PDF](https://arxiv.org/pdf/2606.19409)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Rath-Team/OpenRath)
+
+> OpenRath proposes a PyTorch-like programming model for multi-agent, multi-session systems, centered on a first-class Session runtime value. Instead of reconstructing transcripts, tool traces, memory events, workspace placement, and branch provenan...
+
+</details>
+
+<details>
+<summary><b>11. Connect the Dots: Training LLMs for Long-Lifecycle Agents with Cross-Domain Generalization Via Reinforcement Learning</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.20002) • [📄 arXiv](https://arxiv.org/abs/2606.20002) • [📥 PDF](https://arxiv.org/pdf/2606.20002)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/agentscope-ai/Trinity-RFT/tree/research/cod/examples/research_cod)
+
+> To achieve a vision for LLM-based long-lifecycle agents, we present a general framework of end-to-end RL, our proof-of-concept implementations, and some promising empirical results. GitHub: https://github.com/agentscope-ai/Trinity-RFT/tree/researc...
+
+</details>
+
+<details>
+<summary><b>12. Safe Few-Step Generation via Velocity Editing</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.23267) • [📄 arXiv](https://arxiv.org/abs/2606.23267) • [📥 PDF](https://arxiv.org/pdf/2606.23267)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> Project Page: https://uzn36.github.io/VESFlow/
+
+</details>
+
+<details>
+<summary><b>13. CalVerT: Augmenting Agents with Calibrated Verifier Telemetry Improves Action and Learning in Knowledge-Intensive Tasks</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.21777) • [📄 arXiv](https://arxiv.org/abs/2606.21777) • [📥 PDF](https://arxiv.org/pdf/2606.21777)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/ashwinn-v/CalVerT)
+
+> Excited to share CalVerT, a flexible+easy method that augments QA agents w/ telemetry about how certain and grounded their answers are. Works training-free (+3.7 F1 2Wiki, +4.7 WiTQA), and trained (+5.9 HotpotQA w/ GRPO) while cutting over retriev...
+
+</details>
+
+<details>
+<summary><b>14. Manifold Bandits: Bayesian Curriculum Learning over the Latent Geometry of Large Language Models</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.19750) • [📄 arXiv](https://arxiv.org/abs/2606.19750) • [📥 PDF](https://arxiv.org/pdf/2606.19750)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/DarrienMcKenzie/manifold-bandits)
+
+> Excited to share Manifold Bandits. When using RL to train LLMs, training efficiency depends not only on the strength of the policy optimization algorithm, but also on which problems the model sees at each point in training. Many adaptive curriculu...
 
 </details>
 
@@ -180,28 +314,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 4 |
-| 📅 Today | [`2026-06-22.json`](data/daily/2026-06-22.json) | 4 |
-| 📆 This Week | [`2026-W25.json`](data/weekly/2026-W25.json) | 4 |
-| 🗓️ This Month | [`2026-06.json`](data/monthly/2026-06.json) | 478 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 14 |
+| 📅 Today | [`2026-06-23.json`](data/daily/2026-06-23.json) | 14 |
+| 📆 This Week | [`2026-W25.json`](data/weekly/2026-W25.json) | 18 |
+| 🗓️ This Month | [`2026-06.json`](data/monthly/2026-06.json) | 492 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-06-22 | 4 | [View JSON](data/daily/2026-06-22.json) |
+| 📌 2026-06-23 | 14 | [View JSON](data/daily/2026-06-23.json) |
+| 📄 2026-06-22 | 4 | [View JSON](data/daily/2026-06-22.json) |
 | 📄 2026-06-21 | 34 | [View JSON](data/daily/2026-06-21.json) |
 | 📄 2026-06-20 | 34 | [View JSON](data/daily/2026-06-20.json) |
 | 📄 2026-06-19 | 16 | [View JSON](data/daily/2026-06-19.json) |
 | 📄 2026-06-18 | 11 | [View JSON](data/daily/2026-06-18.json) |
 | 📄 2026-06-17 | 18 | [View JSON](data/daily/2026-06-17.json) |
-| 📄 2026-06-16 | 17 | [View JSON](data/daily/2026-06-16.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W25 | 4 | [View JSON](data/weekly/2026-W25.json) |
+| 📅 2026-W25 | 18 | [View JSON](data/weekly/2026-W25.json) |
 | 📅 2026-W24 | 130 | [View JSON](data/weekly/2026-W24.json) |
 | 📅 2026-W23 | 166 | [View JSON](data/weekly/2026-W23.json) |
 | 📅 2026-W22 | 178 | [View JSON](data/weekly/2026-W22.json) |
@@ -210,7 +344,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-06 | 478 | [View JSON](data/monthly/2026-06.json) |
+| 🗓️ 2026-06 | 492 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 782 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 450 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
