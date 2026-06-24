@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-14-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-4895+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-15-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-4910+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">14</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">18</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">492</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">4895+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">15</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">33</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">507</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">4910+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** June 23, 2026
+**Last Updated:** June 24, 2026
 
 ---
 
@@ -119,65 +119,80 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. KaLM-Reranker-V1: Fast but Not Late Interaction for Compressed Document Reranking</b> ⭐ 0</summary>
+<summary><b>1. NatureBench: Can Coding Agents Match the Published SOTA of Nature-Family Papers?</b> ⭐ 6</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.22807) • [📄 arXiv](https://arxiv.org/abs/2606.22807) • [📥 PDF](https://arxiv.org/pdf/2606.22807)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.24530) • [📄 arXiv](https://arxiv.org/abs/2606.24530) • [📥 PDF](https://arxiv.org/pdf/2606.24530)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/FrontisAI/NatureBench)
+
+> NatureBench is a cross-discipline benchmark of 90 tasks distilled from peer-reviewed Nature-family publications, spanning 6 scientific domains, designed to evaluate whether AI coding agents can move beyond reproduction toward discovery. Each task ...
+
+</details>
+
+<details>
+<summary><b>2. Qwen-AgentWorld: Language World Models for General Agents</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.24597) • [📄 arXiv](https://arxiv.org/abs/2606.24597) • [📥 PDF](https://arxiv.org/pdf/2606.24597)
+
+**💻 Code:** [⭐ Code](https://github.com/QwenLM/Qwen-AgentWorld) • [⭐ Code](https://github.com/huggingface)
+
+> https://github.com/QwenLM/Qwen-AgentWorld
+
+</details>
+
+<details>
+<summary><b>3. MobileForge: Annotation-Free Adaptation for Mobile GUI Agents with Hierarchical Feedback-Guided Policy Optimization</b> ⭐ 1</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.19930) • [📄 arXiv](https://arxiv.org/abs/2606.19930) • [📥 PDF](https://arxiv.org/pdf/2606.19930)
+
+**💻 Code:** [⭐ Code](https://github.com/kwai/MobileForge) • [⭐ Code](https://github.com/huggingface)
+
+> Code, data, and trained models will be released at https://mobile-forge.github.io .
+
+</details>
+
+<details>
+<summary><b>4. MemGUI-Agent: An End-to-End Long-Horizon Mobile GUI Agent with Proactive Context Management</b> ⭐ 1</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.19926) • [📄 arXiv](https://arxiv.org/abs/2606.19926) • [📥 PDF](https://arxiv.org/pdf/2606.19926)
+
+**💻 Code:** [⭐ Code](https://github.com/kwai/MemGUI-Agent) • [⭐ Code](https://github.com/huggingface)
+
+> Code, data, and trained models will be released at https://memgui-agent.github.io .
+
+</details>
+
+<details>
+<summary><b>5. FedOT: Ownership Verification and Leakage Tracing via Watermarks for Federated LDMs</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Jiaxu Miao, Yuan Gan, Wenlong Cheng, Yunqiu
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.22875) • [📄 arXiv](https://arxiv.org/abs/2606.22875) • [📥 PDF](https://arxiv.org/pdf/2606.22875)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> We present KaLM-Reranker-V1, a fast but not late-interaction (FBNL) reranker that decouples query and passage computation while retaining expressive relevance modeling. Built on an encoder-decoder architecture, KaLM-Reranker-V1 uses the encoder to...
+> Project page: https://spyzixuan.github.io/FedOT/
 
 </details>
 
 <details>
-<summary><b>2. World Action Models: A Survey</b> ⭐ 217</summary>
+<summary><b>6. OpenThoughts-Agent: Data Recipes for Agentic Models</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.20781) • [📄 arXiv](https://arxiv.org/abs/2606.20781) • [📥 PDF](https://arxiv.org/pdf/2606.20781)
+**👥 Authors:** Atula Tejaswi, Etash Guha, Marianna Nezhurina, Richard Zhuang, Negin Raoof
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/world-action-models/awesome-world-action-models)
-
-> World Action Models (WAMs) are embodied predictive-action models that make a forecast of the future available to action. Recent WAMs repurpose large video generation models, and a parallel line relies on language or vision-language backbones witho...
-
-</details>
-
-<details>
-<summary><b>3. HydraHead: From Head-Level Functional Heterogeneity to Specialized Attention Hybridization</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Xu Shen, Yao Liu, Jingyi Shen, Wei Chen, tzt
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.20097) • [📄 arXiv](https://arxiv.org/abs/2606.20097) • [📥 PDF](https://arxiv.org/pdf/2606.20097)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> HydraHead: From Head-Level Functional Heterogeneity to Specialized Attention Hybridization
-
-</details>
-
-<details>
-<summary><b>4. EvoEmbedding: Evolvable Representations for Long-Context Retrieval and Agentic Memory</b> ⭐ 14</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.21649) • [📄 arXiv](https://arxiv.org/abs/2606.21649) • [📥 PDF](https://arxiv.org/pdf/2606.21649)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/MiG-NJU/EvoEmbedding) • [⭐ Code](https://github.com/MiG-NJU/EvoEmbedding/tree/main)
-
-> EvoEmbedding: Evolvable Representations for Long-Context Retrieval and Agentic Memory
-
-</details>
-
-<details>
-<summary><b>5. Learning from Your Own Mistakes: Constructing Learnable Micro-Reflective Trajectories for Self-Distillation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.18844) • [📄 arXiv](https://arxiv.org/abs/2606.18844) • [📥 PDF](https://arxiv.org/pdf/2606.18844)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.24855) • [📄 arXiv](https://arxiv.org/abs/2606.24855) • [📥 PDF](https://arxiv.org/pdf/2606.24855)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
@@ -186,123 +201,127 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>6. DailyReport: An Open-ended Benchmark for Evaluating Search Agents on Daily Search Tasks</b> ⭐ 5</summary>
+<summary><b>7. Are Text-to-Image Models Inductivist Turkeys? A Counterfactual Benchmark for Causal Reasoning</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Ziwen Wang, Mingyang Zhu, Wei Liu, Jingxuan Han, wagoriginal
+**👥 Authors:** Jing Xu, Rongpeng Zhu, Xingyu Han, Yuandong Pu, Jiayi Lei
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.12871) • [📄 arXiv](https://arxiv.org/abs/2606.12871) • [📥 PDF](https://arxiv.org/pdf/2606.12871)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/AGI-Eval-Official/DailyReport)
-
-> Search Agents (SAs) typically leverage large language models (LLMs) to support complex information-seeking tasks by autonomously exploring web sources and synthesizing information into comprehensive responses. For SAs evaluation, prior benchmarks ...
-
-</details>
-
-<details>
-<summary><b>7. Exploring the Design Space of Reward Backpropagation for Flow Matching</b> ⭐ 6</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.11075) • [📄 arXiv](https://arxiv.org/abs/2606.11075) • [📥 PDF](https://arxiv.org/pdf/2606.11075)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/RuoyuWang-2077/FlowBP)
-
-> We introduce FlowBP , a unified framework for direct reward backpropagation in flow-matching models. Instead of treating the backward pass as a fixed approximation, FlowBP makes the surrogate backward trajectory itself a design object, exposing fo...
-
-</details>
-
-<details>
-<summary><b>8. Deep Research in Physical Sciences: A Multi-Agent Framework and Comprehensive Benchmark</b> ⭐ 1</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.18648) • [📄 arXiv](https://arxiv.org/abs/2606.18648) • [📥 PDF](https://arxiv.org/pdf/2606.18648)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/yigengjiang/physci-deepresearch)
-
-> Excited to share our paper: Deep Research in Physical Sciences: A Multi-Agent Framework and Comprehensive Benchmark . We introduce PhySciBench , a benchmark for evaluating deep-research agents in the physical sciences, and DelveAgent , a modular m...
-
-</details>
-
-<details>
-<summary><b>9. PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-Use Agents in Large-Scale Tool Ecosystems</b> ⭐ 2</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.22388) • [📄 arXiv](https://arxiv.org/abs/2606.22388) • [📥 PDF](https://arxiv.org/pdf/2606.22388)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/JiayuJeff/PlanBench-XL)
-
-> Excited to share PlanBench-XL! We built this benchmark to evaluate whether LLM agents can really plan over long horizons in large, imperfect tool ecosystems, where they must iteratively retrieve tools, call them, and recover from missing, failing,...
-
-</details>
-
-<details>
-<summary><b>10. OpenRath: Session-Centered Runtime State for Agent Systems</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Ruilin Xu, Zhijie Wang, smallkang2025
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.19409) • [📄 arXiv](https://arxiv.org/abs/2606.19409) • [📥 PDF](https://arxiv.org/pdf/2606.19409)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Rath-Team/OpenRath)
-
-> OpenRath proposes a PyTorch-like programming model for multi-agent, multi-session systems, centered on a first-class Session runtime value. Instead of reconstructing transcripts, tool traces, memory events, workspace placement, and branch provenan...
-
-</details>
-
-<details>
-<summary><b>11. Connect the Dots: Training LLMs for Long-Lifecycle Agents with Cross-Domain Generalization Via Reinforcement Learning</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.20002) • [📄 arXiv](https://arxiv.org/abs/2606.20002) • [📥 PDF](https://arxiv.org/pdf/2606.20002)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/agentscope-ai/Trinity-RFT/tree/research/cod/examples/research_cod)
-
-> To achieve a vision for LLM-based long-lifecycle agents, we present a general framework of end-to-end RL, our proof-of-concept implementations, and some promising empirical results. GitHub: https://github.com/agentscope-ai/Trinity-RFT/tree/researc...
-
-</details>
-
-<details>
-<summary><b>12. Safe Few-Step Generation via Velocity Editing</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.23267) • [📄 arXiv](https://arxiv.org/abs/2606.23267) • [📥 PDF](https://arxiv.org/pdf/2606.23267)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.24548) • [📄 arXiv](https://arxiv.org/abs/2606.24548) • [📥 PDF](https://arxiv.org/pdf/2606.24548)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> Project Page: https://uzn36.github.io/VESFlow/
+> https://arxiv.org/pdf/2606.24548
 
 </details>
 
 <details>
-<summary><b>13. CalVerT: Augmenting Agents with Calibrated Verifier Telemetry Improves Action and Learning in Knowledge-Intensive Tasks</b> ⭐ 0</summary>
+<summary><b>8. DiffusionBench: On Holistic Evaluation of Diffusion Transformers</b> ⭐ 36</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.21777) • [📄 arXiv](https://arxiv.org/abs/2606.21777) • [📥 PDF](https://arxiv.org/pdf/2606.21777)
+**👥 Authors:** Martin Bell, Ethan Smith, Zhanhao Liang, Jaskirat Singh, Xingjian Leng
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/ashwinn-v/CalVerT)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.24888) • [📄 arXiv](https://arxiv.org/abs/2606.24888) • [📥 PDF](https://arxiv.org/pdf/2606.24888)
 
-> Excited to share CalVerT, a flexible+easy method that augments QA agents w/ telemetry about how certain and grounded their answers are. Works training-free (+3.7 F1 2Wiki, +4.7 WiTQA), and trained (+5.9 HotpotQA w/ GRPO) while cutting over retriev...
+**💻 Code:** [⭐ Code](https://github.com/End2End-Diffusion/diffusion-bench) • [⭐ Code](https://github.com/huggingface)
+
+> No abstract available.
 
 </details>
 
 <details>
-<summary><b>14. Manifold Bandits: Bayesian Curriculum Learning over the Latent Geometry of Large Language Models</b> ⭐ 0</summary>
+<summary><b>9. FlowR2A: Learning Reward-to-Action Distribution for Multimodal Driving Planning</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.19750) • [📄 arXiv](https://arxiv.org/abs/2606.19750) • [📥 PDF](https://arxiv.org/pdf/2606.19750)
+**👥 Authors:** Yifeng Pan, Wenhua Han, Xiaoqing Ye, Zhe Liu, Xirui Li
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/DarrienMcKenzie/manifold-bandits)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.24231) • [📄 arXiv](https://arxiv.org/abs/2606.24231) • [📥 PDF](https://arxiv.org/pdf/2606.24231)
 
-> Excited to share Manifold Bandits. When using RL to train LLMs, training efficiency depends not only on the strength of the policy optimization algorithm, but also on which problems the model sees at each point in training. Many adaptive curriculu...
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/lixirui142/FlowR2A)
+
+> FlowR2A is a multimodal driving planner that learns the reward-conditioned action distribution p(a | r) with flow matching. Instead of treating simulation rewards as discriminative targets, FlowR2A treats them as a condition, unifying the dense su...
+
+</details>
+
+<details>
+<summary><b>10. DREAM: Dense Retrieval Embeddings via Autoregressive Modeling</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Yi Yang, Yixuan Tang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.24667) • [📄 arXiv](https://arxiv.org/abs/2606.24667) • [📥 PDF](https://arxiv.org/pdf/2606.24667)
+
+**💻 Code:** [⭐ Code](https://github.com/yixuantt/DREAM) • [⭐ Code](https://github.com/huggingface)
+
+> train dense retrievers using the LLM’s next-token prediction loss instead of relying only on contrastive labels. DREAM treats relevance as whether a document helps a frozen LLM predict the target output, then backpropagates that signal to the retr...
+
+</details>
+
+<details>
+<summary><b>11. ReMMD: Realistic Multilingual Multi-Image Agentic Verification for Multimodal Misinformation Detection</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.24112) • [📄 arXiv](https://arxiv.org/abs/2606.24112) • [📥 PDF](https://arxiv.org/pdf/2606.24112)
+
+**💻 Code:** [⭐ Code](https://github.com/DANG-ai/ReMMDBench-Agent) • [⭐ Code](https://github.com/huggingface)
+
+> We introduce ReMMD, a realistic multilingual multi-image agentic verification framework for multimodal misinformation detection. ReMMDBench contains 500 real-world samples with 2,756 images, five monolingual languages, two cross-lingual settings, ...
+
+</details>
+
+<details>
+<summary><b>12. Holistic Data Scheduler for LLM Pre-training via Multi-Objective Reinforcement Learning</b> ⭐ 199</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.24133) • [📄 arXiv](https://arxiv.org/abs/2606.24133) • [📥 PDF](https://arxiv.org/pdf/2606.24133)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/DANG-ai/LLM-Training-Holistic-Data-Schedule)
+
+> KDD 2026 cycle 1 paper. This paper introduces Holistic Data Scheduler (HDS), an online data mixing framework for LLM pre-training that formulates dynamic data scheduling as a multi-objective reinforcement learning problem. Instead of relying on a ...
+
+</details>
+
+<details>
+<summary><b>13. World Value Models for Robotic Manipulation</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.24742) • [📄 arXiv](https://arxiv.org/abs/2606.24742) • [📥 PDF](https://arxiv.org/pdf/2606.24742)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>14. FLUX3D: High-Fidelity 3D Gaussian Generation with Diffusion-Aligned Sparse Representation</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.24874) • [📄 arXiv](https://arxiv.org/abs/2606.24874) • [📥 PDF](https://arxiv.org/pdf/2606.24874)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>15. An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.12345) • [📄 arXiv](https://arxiv.org/abs/2606.12345) • [📥 PDF](https://arxiv.org/pdf/2606.12345)
+
+**💻 Code:** [⭐ Code](https://github.com/shidingz/EDV) • [⭐ Code](https://github.com/huggingface)
+
+> Experience-driven self-evolution is essential for large language model (LLM) agents to improve through interaction with open-world environments. However, existing experience learning methods largely rely on single-agent loops, in which the same ag...
 
 </details>
 
@@ -314,28 +333,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 14 |
-| 📅 Today | [`2026-06-23.json`](data/daily/2026-06-23.json) | 14 |
-| 📆 This Week | [`2026-W25.json`](data/weekly/2026-W25.json) | 18 |
-| 🗓️ This Month | [`2026-06.json`](data/monthly/2026-06.json) | 492 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 15 |
+| 📅 Today | [`2026-06-24.json`](data/daily/2026-06-24.json) | 15 |
+| 📆 This Week | [`2026-W25.json`](data/weekly/2026-W25.json) | 33 |
+| 🗓️ This Month | [`2026-06.json`](data/monthly/2026-06.json) | 507 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-06-23 | 14 | [View JSON](data/daily/2026-06-23.json) |
+| 📌 2026-06-24 | 15 | [View JSON](data/daily/2026-06-24.json) |
+| 📄 2026-06-23 | 14 | [View JSON](data/daily/2026-06-23.json) |
 | 📄 2026-06-22 | 4 | [View JSON](data/daily/2026-06-22.json) |
 | 📄 2026-06-21 | 34 | [View JSON](data/daily/2026-06-21.json) |
 | 📄 2026-06-20 | 34 | [View JSON](data/daily/2026-06-20.json) |
 | 📄 2026-06-19 | 16 | [View JSON](data/daily/2026-06-19.json) |
 | 📄 2026-06-18 | 11 | [View JSON](data/daily/2026-06-18.json) |
-| 📄 2026-06-17 | 18 | [View JSON](data/daily/2026-06-17.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W25 | 18 | [View JSON](data/weekly/2026-W25.json) |
+| 📅 2026-W25 | 33 | [View JSON](data/weekly/2026-W25.json) |
 | 📅 2026-W24 | 130 | [View JSON](data/weekly/2026-W24.json) |
 | 📅 2026-W23 | 166 | [View JSON](data/weekly/2026-W23.json) |
 | 📅 2026-W22 | 178 | [View JSON](data/weekly/2026-W22.json) |
@@ -344,7 +363,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-06 | 492 | [View JSON](data/monthly/2026-06.json) |
+| 🗓️ 2026-06 | 507 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 782 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 450 | [View JSON](data/monthly/2026-04.json) |
 | 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |

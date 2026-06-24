@@ -375,5 +375,332 @@
       "scraped_at": "2026-06-23T03:40:07.575438"
     },
     "scraped_date": "2026-06-23"
+  },
+  {
+    "title": "NatureBench: Can Coding Agents Match the Published SOTA of Nature-Family Papers?",
+    "paper_url": "https://huggingface.co/papers/2606.24530",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "NatureBench: Can Coding Agents Match the Published SOTA of Nature-Family Papers?",
+      "abstract": "NatureBench is a cross-discipline benchmark of 90 tasks distilled from peer-reviewed Nature-family publications, spanning 6 scientific domains, designed to evaluate whether AI coding agents can move beyond reproduction toward discovery. Each task asks an agent to solve a real scientific machine-learning problem and is scored against the source paper's reported state of the art. NatureBench is built on NatureGym, an automated pipeline that converts a published paper into a containerized task package comprising a task brief, the paper's dataset, a held-out test set with hidden ground truth, and an automated evaluator.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.24530",
+      "pdf_url": "https://arxiv.org/pdf/2606.24530",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/FrontisAI/NatureBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.24530",
+      "scraped_at": "2026-06-24T03:40:24.596910"
+    },
+    "scraped_date": "2026-06-24"
+  },
+  {
+    "title": "Qwen-AgentWorld: Language World Models for General Agents",
+    "paper_url": "https://huggingface.co/papers/2606.24597",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Qwen-AgentWorld: Language World Models for General Agents",
+      "abstract": "https://github.com/QwenLM/Qwen-AgentWorld",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.24597",
+      "pdf_url": "https://arxiv.org/pdf/2606.24597",
+      "github_links": [
+        "https://github.com/QwenLM/Qwen-AgentWorld",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.24597",
+      "scraped_at": "2026-06-24T03:40:26.514149"
+    },
+    "scraped_date": "2026-06-24"
+  },
+  {
+    "title": "MobileForge: Annotation-Free Adaptation for Mobile GUI Agents with Hierarchical Feedback-Guided Policy Optimization",
+    "paper_url": "https://huggingface.co/papers/2606.19930",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "MobileForge: Annotation-Free Adaptation for Mobile GUI Agents with Hierarchical Feedback-Guided Policy Optimization",
+      "abstract": "Code, data, and trained models will be released at https://mobile-forge.github.io .",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.19930",
+      "pdf_url": "https://arxiv.org/pdf/2606.19930",
+      "github_links": [
+        "https://github.com/kwai/MobileForge",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.19930",
+      "scraped_at": "2026-06-24T03:40:28.412273"
+    },
+    "scraped_date": "2026-06-24"
+  },
+  {
+    "title": "MemGUI-Agent: An End-to-End Long-Horizon Mobile GUI Agent with Proactive Context Management",
+    "paper_url": "https://huggingface.co/papers/2606.19926",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "MemGUI-Agent: An End-to-End Long-Horizon Mobile GUI Agent with Proactive Context Management",
+      "abstract": "Code, data, and trained models will be released at https://memgui-agent.github.io .",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.19926",
+      "pdf_url": "https://arxiv.org/pdf/2606.19926",
+      "github_links": [
+        "https://github.com/kwai/MemGUI-Agent",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.19926",
+      "scraped_at": "2026-06-24T03:40:30.424241"
+    },
+    "scraped_date": "2026-06-24"
+  },
+  {
+    "title": "FedOT: Ownership Verification and Leakage Tracing via Watermarks for Federated LDMs",
+    "paper_url": "https://huggingface.co/papers/2606.22875",
+    "authors": [
+      "Jiaxu Miao",
+      "Yuan Gan",
+      "Wenlong Cheng",
+      "Yunqiu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "FedOT: Ownership Verification and Leakage Tracing via Watermarks for Federated LDMs",
+      "abstract": "Project page: https://spyzixuan.github.io/FedOT/",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.22875",
+      "pdf_url": "https://arxiv.org/pdf/2606.22875",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.22875",
+      "scraped_at": "2026-06-24T03:40:32.499680"
+    },
+    "scraped_date": "2026-06-24"
+  },
+  {
+    "title": "OpenThoughts-Agent: Data Recipes for Agentic Models",
+    "paper_url": "https://huggingface.co/papers/2606.24855",
+    "authors": [
+      "Atula Tejaswi",
+      "Etash Guha",
+      "Marianna Nezhurina",
+      "Richard Zhuang",
+      "Negin Raoof"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "OpenThoughts-Agent: Data Recipes for Agentic Models",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.24855",
+      "pdf_url": "https://arxiv.org/pdf/2606.24855",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.24855",
+      "scraped_at": "2026-06-24T03:40:34.482773"
+    },
+    "scraped_date": "2026-06-24"
+  },
+  {
+    "title": "Are Text-to-Image Models Inductivist Turkeys? A Counterfactual Benchmark for Causal Reasoning",
+    "paper_url": "https://huggingface.co/papers/2606.24548",
+    "authors": [
+      "Jing Xu",
+      "Rongpeng Zhu",
+      "Xingyu Han",
+      "Yuandong Pu",
+      "Jiayi Lei"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Are Text-to-Image Models Inductivist Turkeys? A Counterfactual Benchmark for Causal Reasoning",
+      "abstract": "https://arxiv.org/pdf/2606.24548",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.24548",
+      "pdf_url": "https://arxiv.org/pdf/2606.24548",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.24548",
+      "scraped_at": "2026-06-24T03:40:36.352890"
+    },
+    "scraped_date": "2026-06-24"
+  },
+  {
+    "title": "DiffusionBench: On Holistic Evaluation of Diffusion Transformers",
+    "paper_url": "https://huggingface.co/papers/2606.24888",
+    "authors": [
+      "Martin Bell",
+      "Ethan Smith",
+      "Zhanhao Liang",
+      "Jaskirat Singh",
+      "Xingjian Leng"
+    ],
+    "stars": "36",
+    "details": {
+      "title": "DiffusionBench: On Holistic Evaluation of Diffusion Transformers",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.24888",
+      "pdf_url": "https://arxiv.org/pdf/2606.24888",
+      "github_links": [
+        "https://github.com/End2End-Diffusion/diffusion-bench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.24888",
+      "scraped_at": "2026-06-24T03:40:38.197532"
+    },
+    "scraped_date": "2026-06-24"
+  },
+  {
+    "title": "FlowR2A: Learning Reward-to-Action Distribution for Multimodal Driving Planning",
+    "paper_url": "https://huggingface.co/papers/2606.24231",
+    "authors": [
+      "Yifeng Pan",
+      "Wenhua Han",
+      "Xiaoqing Ye",
+      "Zhe Liu",
+      "Xirui Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "FlowR2A: Learning Reward-to-Action Distribution for Multimodal Driving Planning",
+      "abstract": "FlowR2A is a multimodal driving planner that learns the reward-conditioned action distribution p(a | r) with flow matching. Instead of treating simulation rewards as discriminative targets, FlowR2A treats them as a condition, unifying the dense supervision of scoring-based methods with the generative proposal modeling of anchor-based methods. At inference, generation is steered toward high-reward trajectories via classifier-free guidance. Training pipeline: NAVSIM-v1 result:",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.24231",
+      "pdf_url": "https://arxiv.org/pdf/2606.24231",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/lixirui142/FlowR2A"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.24231",
+      "scraped_at": "2026-06-24T03:40:40.130400"
+    },
+    "scraped_date": "2026-06-24"
+  },
+  {
+    "title": "DREAM: Dense Retrieval Embeddings via Autoregressive Modeling",
+    "paper_url": "https://huggingface.co/papers/2606.24667",
+    "authors": [
+      "Yi Yang",
+      "Yixuan Tang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "DREAM: Dense Retrieval Embeddings via Autoregressive Modeling",
+      "abstract": "train dense retrievers using the LLM’s next-token prediction loss instead of relying only on contrastive labels. DREAM treats relevance as whether a document helps a frozen LLM predict the target output, then backpropagates that signal to the retriever through attention.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.24667",
+      "pdf_url": "https://arxiv.org/pdf/2606.24667",
+      "github_links": [
+        "https://github.com/yixuantt/DREAM",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.24667",
+      "scraped_at": "2026-06-24T03:40:42.155405"
+    },
+    "scraped_date": "2026-06-24"
+  },
+  {
+    "title": "ReMMD: Realistic Multilingual Multi-Image Agentic Verification for Multimodal Misinformation Detection",
+    "paper_url": "https://huggingface.co/papers/2606.24112",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ReMMD: Realistic Multilingual Multi-Image Agentic Verification for Multimodal Misinformation Detection",
+      "abstract": "We introduce ReMMD, a realistic multilingual multi-image agentic verification framework for multimodal misinformation detection. ReMMDBench contains 500 real-world samples with 2,756 images, five monolingual languages, two cross-lingual settings, three text-length tiers, five-way veracity labels, eight distortion labels, evidence provenance, and rationales, targeting the gap between existing simplified MMD benchmarks and real-world fact-checking scenarios. We also propose ReMMD-Agent, a persistent-memory verifier that decomposes posts into atomic claims and image bindings, reuses retrieved evidence, and produces structured veracity, distortion, and rationale outputs. Experiments across commercial agents and open-source MMD agents show that ReMMD-Agent achieves the strongest overall performance while substantially reducing verification cost. Project page: https://dang-ai.github.io/ReMMD",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.24112",
+      "pdf_url": "https://arxiv.org/pdf/2606.24112",
+      "github_links": [
+        "https://github.com/DANG-ai/ReMMDBench-Agent",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.24112",
+      "scraped_at": "2026-06-24T03:40:44.045456"
+    },
+    "scraped_date": "2026-06-24"
+  },
+  {
+    "title": "Holistic Data Scheduler for LLM Pre-training via Multi-Objective Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2606.24133",
+    "authors": [],
+    "stars": "199",
+    "details": {
+      "title": "Holistic Data Scheduler for LLM Pre-training via Multi-Objective Reinforcement Learning",
+      "abstract": "KDD 2026 cycle 1 paper. This paper introduces Holistic Data Scheduler (HDS), an online data mixing framework for LLM pre-training that formulates dynamic data scheduling as a multi-objective reinforcement learning problem. Instead of relying on a single signal such as loss or gradient alignment, HDS uses a Soft Actor-Critic agent with a holistic reward combining inter-domain influence, scheduled lexical diversity, and model stability. Experiments on The Pile with Pythia models show that HDS substantially improves pre-training efficiency and final capability, reaching the strongest baseline’s perplexity with 44% fewer training steps, achieving a 2.21× wall-clock speedup over static mixing, and improving MMLU 0-shot accuracy by 7.2%.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.24133",
+      "pdf_url": "https://arxiv.org/pdf/2606.24133",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/DANG-ai/LLM-Training-Holistic-Data-Schedule"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.24133",
+      "scraped_at": "2026-06-24T03:40:45.979301"
+    },
+    "scraped_date": "2026-06-24"
+  },
+  {
+    "title": "World Value Models for Robotic Manipulation",
+    "paper_url": "https://huggingface.co/papers/2606.24742",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "World Value Models for Robotic Manipulation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.24742",
+      "pdf_url": "https://arxiv.org/pdf/2606.24742",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.24742",
+      "scraped_at": "2026-06-24T03:40:47.917452"
+    },
+    "scraped_date": "2026-06-24"
+  },
+  {
+    "title": "FLUX3D: High-Fidelity 3D Gaussian Generation with Diffusion-Aligned Sparse Representation",
+    "paper_url": "https://huggingface.co/papers/2606.24874",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "FLUX3D: High-Fidelity 3D Gaussian Generation with Diffusion-Aligned Sparse Representation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.24874",
+      "pdf_url": "https://arxiv.org/pdf/2606.24874",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.24874",
+      "scraped_at": "2026-06-24T03:40:49.721626"
+    },
+    "scraped_date": "2026-06-24"
+  },
+  {
+    "title": "An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction",
+    "paper_url": "https://huggingface.co/papers/2606.12345",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction",
+      "abstract": "Experience-driven self-evolution is essential for large language model (LLM) agents to improve through interaction with open-world environments. However, existing experience learning methods largely rely on single-agent loops, in which the same agent executes tasks, summarizes outcomes, and decides what should be written into memory. In such settings, agents are prone to the Self-Confirmation Trap, where wrong-but-self-consistent trajectories are mistakenly treated as successful experience, leading to error accumulation through later retrieval and reuse. To address this challenge, we propose EDV, an Execute-Distill-Verify framework for reliable experience learning. In the Execute stage, multiple heterogeneous agents explore the same task space in parallel, generating diverse candidate trajectories. In the Distill stage, a designated third-party distillation agent comparatively analyzes these trajectories and produces candidate experiences, reducing the bias of executor-centric self-summarization. In the Verify stage, the execution group jointly validates candidate experiences through a consensus-based mechanism, and only experiences that pass strict validation are written into shared or private memory. By decoupling execution, distillation, and validation, EDV turns experience learning from an isolated self-reflection loop into a collaborative experience construction process that suppresses erroneous and noisy experi- ence before memory insertion. We evaluate EDV on challenging long-horizon benchmarks, including τ2-bench, Mind2Web, and MMTB. Experimental results show that EDV consis- tently outperforms strong baselines, demonstrating the value of improving the reliability of experience construction for agent self-evolution. These findings suggest that robust agent improvement depends not only on richer memory, but also on how experience is constructed before it enters memory. Our code is available at https://github.com/shidingz/EDV .",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.12345",
+      "pdf_url": "https://arxiv.org/pdf/2606.12345",
+      "github_links": [
+        "https://github.com/shidingz/EDV",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.12345",
+      "scraped_at": "2026-06-24T03:40:51.581307"
+    },
+    "scraped_date": "2026-06-24"
   }
 ]
