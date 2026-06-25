@@ -11009,5 +11009,276 @@
       "scraped_at": "2026-06-24T03:40:51.581307"
     },
     "scraped_date": "2026-06-24"
+  },
+  {
+    "title": "DomainShuttle: Freeform Open Domain Subject-driven Text-to-video Generation",
+    "paper_url": "https://huggingface.co/papers/2606.26058",
+    "authors": [
+      "Cheng Chen",
+      "Junwen Pan",
+      "Rongchang Xie",
+      "Yiyang Cai",
+      "Nan Chen"
+    ],
+    "stars": "21",
+    "details": {
+      "title": "DomainShuttle: Freeform Open Domain Subject-driven Text-to-video Generation",
+      "abstract": "We propose DomainShuttle, an open-domain subject-driven text-to-video method that flexibly handles both in-domain fidelity and cross-domain editability by decoupling reference and video features, modeling domain attributes, and learning intrinsic subject representations.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.26058",
+      "pdf_url": "https://arxiv.org/pdf/2606.26058",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/HKUST-C4G/DomainShuttle"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.26058",
+      "scraped_at": "2026-06-25T03:39:54.582424"
+    },
+    "scraped_date": "2026-06-25"
+  },
+  {
+    "title": "Beyond NL2Code: A Structured Survey of Multimodal Code Intelligence",
+    "paper_url": "https://huggingface.co/papers/2606.15932",
+    "authors": [
+      "Haoyue Yang",
+      "Xuexin Liu",
+      "Jingyu Xiao",
+      "Qiushi Sun",
+      "Xuanle Zhao"
+    ],
+    "stars": "262",
+    "details": {
+      "title": "Beyond NL2Code: A Structured Survey of Multimodal Code Intelligence",
+      "abstract": "GitHub Repo at https://github.com/xjywhu/Awesome-Multimodal-LLM-for-Code",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.15932",
+      "pdf_url": "https://arxiv.org/pdf/2606.15932",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/xjywhu/Awesome-Multimodal-LLM-for-Code"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.15932",
+      "scraped_at": "2026-06-25T03:39:56.449309"
+    },
+    "scraped_date": "2026-06-25"
+  },
+  {
+    "title": "Wan-Streamer v0.1: End-to-end Real-time Interactive Foundation Models",
+    "paper_url": "https://huggingface.co/papers/2606.25041",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Wan-Streamer v0.1: End-to-end Real-time Interactive Foundation Models",
+      "abstract": "Wan-Streamer v0.1 is a native-streaming, end-to-end model that listens, sees, thinks, speaks, and responds on video in real time — at 25 fps with ~200 ms model-side latency, all within a single Transformer.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.25041",
+      "pdf_url": "https://arxiv.org/pdf/2606.25041",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.25041",
+      "scraped_at": "2026-06-25T03:39:58.405902"
+    },
+    "scraped_date": "2026-06-25"
+  },
+  {
+    "title": "IV-CoT: Implicit Visual Chain-of-Thought for Structure-Aware Text-to-Image Generation",
+    "paper_url": "https://huggingface.co/papers/2606.24849",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "IV-CoT: Implicit Visual Chain-of-Thought for Structure-Aware Text-to-Image Generation",
+      "abstract": "IV-CoT introduces an elegant implicit visual reasoning mechanism for text-to-image generation, separating structural planning from semantic rendering to improve compositional fidelity in counts, spatial relations, and layouts without requiring explicit intermediate CoT outputs at inference.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.24849",
+      "pdf_url": "https://arxiv.org/pdf/2606.24849",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.24849",
+      "scraped_at": "2026-06-25T03:40:00.390575"
+    },
+    "scraped_date": "2026-06-25"
+  },
+  {
+    "title": "Are We Ready For An Agent-Native Memory System?",
+    "paper_url": "https://huggingface.co/papers/2606.24775",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Are We Ready For An Agent-Native Memory System?",
+      "abstract": "Please refer to our paper list at: https://github.com/OpenDataBox/awesome-agent-memory ; Please refer to our code repository at: https://github.com/OpenDataBox/MemoryData .",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.24775",
+      "pdf_url": "https://arxiv.org/pdf/2606.24775",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/OpenDataBox/MemoryData",
+        "https://github.com/OpenDataBox/awesome-agent-memory"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.24775",
+      "scraped_at": "2026-06-25T03:40:02.255763"
+    },
+    "scraped_date": "2026-06-25"
+  },
+  {
+    "title": "Improved Large Language Diffusion Models",
+    "paper_url": "https://huggingface.co/papers/2606.25331",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Improved Large Language Diffusion Models",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.25331",
+      "pdf_url": "https://arxiv.org/pdf/2606.25331",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.25331",
+      "scraped_at": "2026-06-25T03:40:04.136588"
+    },
+    "scraped_date": "2026-06-25"
+  },
+  {
+    "title": "The Hitchhiker's Guide to Agentic AI: From Foundations to Systems",
+    "paper_url": "https://huggingface.co/papers/2606.24937",
+    "authors": [
+      "Haggai Roitman"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "The Hitchhiker's Guide to Agentic AI: From Foundations to Systems",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.24937",
+      "pdf_url": "https://arxiv.org/pdf/2606.24937",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.24937",
+      "scraped_at": "2026-06-25T03:40:05.949770"
+    },
+    "scraped_date": "2026-06-25"
+  },
+  {
+    "title": "Look Light, Think Heavy: What Multimodal Chain-of-Thought Reasoning Can and Cannot Do",
+    "paper_url": "https://huggingface.co/papers/2606.22565",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Look Light, Think Heavy: What Multimodal Chain-of-Thought Reasoning Can and Cannot Do",
+      "abstract": "We aim to systematically investigate the key question: What can multimodal Chain-of-Thought reasoning do, and where and why does it fall short?",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.22565",
+      "pdf_url": "https://arxiv.org/pdf/2606.22565",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.22565",
+      "scraped_at": "2026-06-25T03:40:07.807736"
+    },
+    "scraped_date": "2026-06-25"
+  },
+  {
+    "title": "Autodata: An agentic data scientist to create high quality synthetic data",
+    "paper_url": "https://huggingface.co/papers/2606.25996",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Autodata: An agentic data scientist to create high quality synthetic data",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.25996",
+      "pdf_url": "https://arxiv.org/pdf/2606.25996",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.25996",
+      "scraped_at": "2026-06-25T03:40:09.650662"
+    },
+    "scraped_date": "2026-06-25"
+  },
+  {
+    "title": "TryOnCrafter: Unleashing Camera Trajectories for Realistic Video Virtual Try-on via a Renderable 4D Try-on Proxy",
+    "paper_url": "https://huggingface.co/papers/2606.26092",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "TryOnCrafter: Unleashing Camera Trajectories for Realistic Video Virtual Try-on via a Renderable 4D Try-on Proxy",
+      "abstract": "While Video Virtual Try-on (VVT) has achieved remarkable progress in synthesizing realistic garment overlays on dynamic subjects, existing paradigms remains fundamentally constrained by a passive dependency on source camera trajectories, failing to accommodate the requisite interactive freedom for omnidirectional viewpoint exploration. To address this limitation, we define a pioneering research frontier: Camera-controllable Video Virtual Try-on (CaM-VVT). Unlike conventional VVT, CaM-VVT not only necessitates viewpoint-agnostic texture hallucination but also strict structural synchronization between non-rigid human dynamics and background contexts under arbitrary, unconstrained camera movements. To tackle these challenges, we present TryOnCrafter, the first unified DiT-based framework specifically architected for the CaM-VVT task. Departing from implicit pixel-space manipulation, we introduce a Renderable 4D Try-on Proxy that explicitly decouples the human subject from the environment. This is achieved by distilling high-fidelity 2D try-on priors into a clothed 3DGS-based avatar, which is subsequently animated via SMPL-X sequences and metric-aligned into a reconstructed background point cloud. This proxy establishes a robust structural foundation with superior texture density and motion integrity. Our Proxy-Anchored Video DiT leverages this robust structural foundation as a primary geometric anchor, ensuring that the synthesized photorealistic videos are strictly constrained by prescribed trajectories and physically plausible deformations. Benefiting from the inherent editability of the 4D proxy, TryOnCrafter facilitates diverse downstream applications, including human relocalization, ``bullet time'' effects, and 360-degree orbital viewing.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.26092",
+      "pdf_url": "https://arxiv.org/pdf/2606.26092",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.26092",
+      "scraped_at": "2026-06-25T03:40:11.502764"
+    },
+    "scraped_date": "2026-06-25"
+  },
+  {
+    "title": "Causal-rCM: A Unified Teacher-Forcing and Self-Forcing Open Recipe for Autoregressive Diffusion Distillation in Streaming Video Generation and Interactive World Models",
+    "paper_url": "https://huggingface.co/papers/2606.25473",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Causal-rCM: A Unified Teacher-Forcing and Self-Forcing Open Recipe for Autoregressive Diffusion Distillation in Streaming Video Generation and Interactive World Models",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.25473",
+      "pdf_url": "https://arxiv.org/pdf/2606.25473",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.25473",
+      "scraped_at": "2026-06-25T03:40:13.696130"
+    },
+    "scraped_date": "2026-06-25"
+  },
+  {
+    "title": "RoPE-Aware Bit Allocation for KV-Cache Quantization",
+    "paper_url": "https://huggingface.co/papers/2606.24033",
+    "authors": [
+      "Jiaya Jia",
+      "Yuechen Zhang",
+      "Fengfeng Liang"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "RoPE-Aware Bit Allocation for KV-Cache Quantization",
+      "abstract": "RoPE-Aware Bit Allocation for KV-Cache Quantization",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.24033",
+      "pdf_url": "https://arxiv.org/pdf/2606.24033",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/JIA-Lab-research/blockgtq"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.24033",
+      "scraped_at": "2026-06-25T03:40:15.577900"
+    },
+    "scraped_date": "2026-06-25"
+  },
+  {
+    "title": "Advancing WordArt-Oriented Scene Text Recognition: Datasets and Methods",
+    "paper_url": "https://huggingface.co/papers/2606.24484",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Advancing WordArt-Oriented Scene Text Recognition: Datasets and Methods",
+      "abstract": "It constructs WATER-S, a 2M-scale synthetic artistic text dataset, and proposes WATERec, a strong STR baseline supporting arbitrary-shaped inputs. It achieves 90.40% accuracy on WordArt-Bench, the first result exceeding 90%, surpassing both general-purpose and OCR-specialized VLMs by a large margin.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.24484",
+      "pdf_url": "https://arxiv.org/pdf/2606.24484",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/YesianRohn/WATER"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.24484",
+      "scraped_at": "2026-06-25T03:40:17.456236"
+    },
+    "scraped_date": "2026-06-25"
   }
 ]
