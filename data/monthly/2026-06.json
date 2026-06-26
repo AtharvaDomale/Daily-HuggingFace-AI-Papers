@@ -11280,5 +11280,261 @@
       "scraped_at": "2026-06-25T03:40:17.456236"
     },
     "scraped_date": "2026-06-25"
+  },
+  {
+    "title": "DanceOPD: On-Policy Generative Field Distillation",
+    "paper_url": "https://huggingface.co/papers/2606.27377",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DanceOPD: On-Policy Generative Field Distillation",
+      "abstract": "DanceOPD uses hard routing to select one frozen capability field, queries it on a low-noise on-policy student state, and matches the selected velocity with a local velocity MSE loss.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.27377",
+      "pdf_url": "https://arxiv.org/pdf/2606.27377",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.27377",
+      "scraped_at": "2026-06-26T03:50:44.299905"
+    },
+    "scraped_date": "2026-06-26"
+  },
+  {
+    "title": "OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2606.26790",
+    "authors": [
+      "Fan Zhang",
+      "Yuhao Shen",
+      "Zhengxi Lu",
+      "Jinyang Wu",
+      "Shuo Yang"
+    ],
+    "stars": "5",
+    "details": {
+      "title": "OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.26790",
+      "pdf_url": "https://arxiv.org/pdf/2606.26790",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/jinyangwu/OPID"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.26790",
+      "scraped_at": "2026-06-26T03:50:46.242574"
+    },
+    "scraped_date": "2026-06-26"
+  },
+  {
+    "title": "Qwen-Image-Agent: Bridging the Context Gap in Real-World Image Generation",
+    "paper_url": "https://huggingface.co/papers/2606.26907",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Qwen-Image-Agent: Bridging the Context Gap in Real-World Image Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.26907",
+      "pdf_url": "https://arxiv.org/pdf/2606.26907",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.26907",
+      "scraped_at": "2026-06-26T03:50:48.128106"
+    },
+    "scraped_date": "2026-06-26"
+  },
+  {
+    "title": "ViQ: Text-Aligned Visual Quantized Representations at Any Resolution",
+    "paper_url": "https://huggingface.co/papers/2606.27313",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "ViQ: Text-Aligned Visual Quantized Representations at Any Resolution",
+      "abstract": "GitHub: https://github.com/yuxumin/ViQ HuggingFace: https://huggingface.co/XuminYu/ViQ_weights",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.27313",
+      "pdf_url": "https://arxiv.org/pdf/2606.27313",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yuxumin/ViQ"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.27313",
+      "scraped_at": "2026-06-26T03:50:50.014405"
+    },
+    "scraped_date": "2026-06-26"
+  },
+  {
+    "title": "Confidence-Aware Tool Orchestration for Robust Video Understanding",
+    "paper_url": "https://huggingface.co/papers/2606.26904",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Confidence-Aware Tool Orchestration for Robust Video Understanding",
+      "abstract": "Project Page: https://rova-v2.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.26904",
+      "pdf_url": "https://arxiv.org/pdf/2606.26904",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ROVA-V2/Robust-TO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.26904",
+      "scraped_at": "2026-06-26T03:50:51.897142"
+    },
+    "scraped_date": "2026-06-26"
+  },
+  {
+    "title": "Why Multi-Step Tool-Use Reinforcement Learning Collapses and How Supervisory Signals Fix It",
+    "paper_url": "https://huggingface.co/papers/2606.26027",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Why Multi-Step Tool-Use Reinforcement Learning Collapses and How Supervisory Signals Fix It",
+      "abstract": "Our Code is available at https://github.com/hypasd-art/Tool-RL-Box .",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.26027",
+      "pdf_url": "https://arxiv.org/pdf/2606.26027",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/hypasd-art/Tool-RL-Box"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.26027",
+      "scraped_at": "2026-06-26T03:50:53.725473"
+    },
+    "scraped_date": "2026-06-26"
+  },
+  {
+    "title": "GUI vs. CLI: Execution Bottlenecks in Screen-Only and Skill-Mediated Computer-Use Agents",
+    "paper_url": "https://huggingface.co/papers/2606.24551",
+    "authors": [
+      "Tingyu Song",
+      "Jinbiao Wei",
+      "Yilun Zhao",
+      "Siyue Zhang",
+      "rebeccazzzz"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "GUI vs. CLI: Execution Bottlenecks in Screen-Only and Skill-Mediated Computer-Use Agents",
+      "abstract": "Computer-use agents can execute software tasks through either graphical interfaces or programmatic command interfaces, but existing evaluations confound interaction modality with differences in tasks, initial states, verifiers, and permitted actions. We introduce a matched execution-layer benchmark of 440 desktop tasks across 18 applications and 12 workflow categories, where screen-only GUI agents and skill-mediated CLI agents receive identical goals, states, and final-state verifiers while being restricted to modality-native actions. In this controlled setting, the strongest GUI agent reaches a 59.1% full pass rate, outperforming the strongest original-skill CLI agent at 48.2%; however, verifier-guided skill augmentation raises CLI success to 69.3%, showing that much of the CLI deficit comes from incomplete skill coverage rather than model capability alone. These results suggest that GUI and CLI expose different execution bottlenecks: GUI agents are limited by reliable grounded interaction over long-horizon workflows, whereas CLI agents are limited by the coverage and scalability of their skill interfaces.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.24551",
+      "pdf_url": "https://arxiv.org/pdf/2606.24551",
+      "github_links": [
+        "https://github.com/rebeccaz4/gui-vs-cli",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.24551",
+      "scraped_at": "2026-06-26T03:50:55.602493"
+    },
+    "scraped_date": "2026-06-26"
+  },
+  {
+    "title": "In-Context World Modeling for Robotic Control",
+    "paper_url": "https://huggingface.co/papers/2606.26025",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "In-Context World Modeling for Robotic Control",
+      "abstract": "In-Context World Modeling for Robotic Control",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.26025",
+      "pdf_url": "https://arxiv.org/pdf/2606.26025",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.26025",
+      "scraped_at": "2026-06-26T03:50:57.391037"
+    },
+    "scraped_date": "2026-06-26"
+  },
+  {
+    "title": "Fast LeWorldModel",
+    "paper_url": "https://huggingface.co/papers/2606.26217",
+    "authors": [
+      "Xiangyu Xu",
+      "Yuntian Gao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Fast LeWorldModel",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.26217",
+      "pdf_url": "https://arxiv.org/pdf/2606.26217",
+      "github_links": [
+        "https://github.com/Yuntian-Gao/Fast-LeWorldModel",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.26217",
+      "scraped_at": "2026-06-26T03:50:59.132499"
+    },
+    "scraped_date": "2026-06-26"
+  },
+  {
+    "title": "OpenBioRQ: Unsolved Biomedical Research Questions for Agents",
+    "paper_url": "https://huggingface.co/papers/2606.21959",
+    "authors": [
+      "Minbyul Jeong"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "OpenBioRQ: Unsolved Biomedical Research Questions for Agents",
+      "abstract": "project page: https://minstar.github.io/OpenBioRQ/ dataset: https://huggingface.co/datasets/Minbyul/OpenBioRQ",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.21959",
+      "pdf_url": "https://arxiv.org/pdf/2606.21959",
+      "github_links": [
+        "https://github.com/minstar/healthcare-research",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.21959",
+      "scraped_at": "2026-06-26T03:51:01.005551"
+    },
+    "scraped_date": "2026-06-26"
+  },
+  {
+    "title": "PhysiFormer: Learning to Simulate Mechanics in World Space",
+    "paper_url": "https://huggingface.co/papers/2606.27364",
+    "authors": [
+      "Andrea Vedaldi",
+      "Yushi Lan",
+      "Yiming Chen"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "PhysiFormer: Learning to Simulate Mechanics in World Space",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.27364",
+      "pdf_url": "https://arxiv.org/pdf/2606.27364",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.27364",
+      "scraped_at": "2026-06-26T03:51:02.753610"
+    },
+    "scraped_date": "2026-06-26"
+  },
+  {
+    "title": "COrigami: An AI Pipeline for Co-Designing Flat-Foldable Visually Recognisable Origami",
+    "paper_url": "https://huggingface.co/papers/2606.26299",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "COrigami: An AI Pipeline for Co-Designing Flat-Foldable Visually Recognisable Origami",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.26299",
+      "pdf_url": "https://arxiv.org/pdf/2606.26299",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.26299",
+      "scraped_at": "2026-06-26T03:51:04.515209"
+    },
+    "scraped_date": "2026-06-26"
   }
 ]
