@@ -1229,5 +1229,548 @@
       "scraped_at": "2026-06-26T03:51:04.515209"
     },
     "scraped_date": "2026-06-26"
+  },
+  {
+    "title": "DanceOPD: On-Policy Generative Field Distillation",
+    "paper_url": "https://huggingface.co/papers/2606.27377",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DanceOPD: On-Policy Generative Field Distillation",
+      "abstract": "DanceOPD uses hard routing to select one frozen capability field, queries it on a low-noise on-policy student state, and matches the selected velocity with a local velocity MSE loss.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.27377",
+      "pdf_url": "https://arxiv.org/pdf/2606.27377",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.27377",
+      "scraped_at": "2026-06-27T03:33:30.570550"
+    },
+    "scraped_date": "2026-06-27"
+  },
+  {
+    "title": "ViQ: Text-Aligned Visual Quantized Representations at Any Resolution",
+    "paper_url": "https://huggingface.co/papers/2606.27313",
+    "authors": [],
+    "stars": "36",
+    "details": {
+      "title": "ViQ: Text-Aligned Visual Quantized Representations at Any Resolution",
+      "abstract": "GitHub: https://github.com/yuxumin/ViQ HuggingFace: https://huggingface.co/XuminYu/ViQ_weights",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.27313",
+      "pdf_url": "https://arxiv.org/pdf/2606.27313",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yuxumin/ViQ"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.27313",
+      "scraped_at": "2026-06-27T03:33:32.450459"
+    },
+    "scraped_date": "2026-06-27"
+  },
+  {
+    "title": "OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2606.26790",
+    "authors": [
+      "Fan Zhang",
+      "Yuhao Shen",
+      "Zhengxi Lu",
+      "Jinyang Wu",
+      "Shuo Yang"
+    ],
+    "stars": "29",
+    "details": {
+      "title": "OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.26790",
+      "pdf_url": "https://arxiv.org/pdf/2606.26790",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/jinyangwu/OPID"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.26790",
+      "scraped_at": "2026-06-27T03:33:34.467245"
+    },
+    "scraped_date": "2026-06-27"
+  },
+  {
+    "title": "Qwen-Image-Agent: Bridging the Context Gap in Real-World Image Generation",
+    "paper_url": "https://huggingface.co/papers/2606.26907",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Qwen-Image-Agent: Bridging the Context Gap in Real-World Image Generation",
+      "abstract": "Qwen3.7-Max/Plus is already live as a closed API — any plans for open-weight releases of the 3.7 family? (like 3.6-35B-A3B / 3.6-27B alongside 3.6-Max) Would love to run it locally via llama.cpp / GGUF.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.26907",
+      "pdf_url": "https://arxiv.org/pdf/2606.26907",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.26907",
+      "scraped_at": "2026-06-27T03:33:36.389235"
+    },
+    "scraped_date": "2026-06-27"
+  },
+  {
+    "title": "The Verification Horizon: No Silver Bullet for Coding Agent Rewards",
+    "paper_url": "https://huggingface.co/papers/2606.26300",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "The Verification Horizon: No Silver Bullet for Coding Agent Rewards",
+      "abstract": "A classical intuition holds that verifying a solution is easier than producing one. For today's coding agents, this intuition is being inverted: as foundation models develop stronger reasoning capabilities and engineering harnesses grow more sophisticated, generating complex candidate solutions is no longer difficult -- reliably verifying them has become the harder problem. Every verifier we can build is only a proxy for human intent, never the intent itself. This makes verification subject to a twofold difficulty: first, intent is underspecified by nature, making it inherently hard to faithfully check whether it has been fulfilled; second, during model training, optimization widens the gap between proxy and intent -- manifesting as reward hacking or signal saturation. To address this, we characterize the quality of verification signals along three dimensions -- scalability, faithfulness, and robustness -- and argue that achieving all three simultaneously is the central challenge. We further study four reward constructions: a test verifier for general coding tasks, a rubric verifier for frontend tasks, the user as verifier for real-world agent tasks, and an automated agent verifier for long-horizon tasks. Across different task types and policy capability levels, we conduct in-depth analysis and experiments on the core challenges of reward design and how to more effectively leverage reward signals. Experiments show that targeted verification design can effectively suppress reward hacking, improve task completion quality, and achieve significant gains across multiple internal and public benchmarks. These experiences collectively point to a core observation: no fixed reward function can remain effective as policy capability continues to grow; and verification must co-evolve with the generator.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.26300",
+      "pdf_url": "https://arxiv.org/pdf/2606.26300",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.26300",
+      "scraped_at": "2026-06-27T03:33:38.441902"
+    },
+    "scraped_date": "2026-06-27"
+  },
+  {
+    "title": "JetSpec: Breaking the Scaling Ceiling of Speculative Decoding with Parallel Tree Drafting",
+    "paper_url": "https://huggingface.co/papers/2606.18394",
+    "authors": [
+      "Yujie Zhao",
+      "Haoran Yuan",
+      "Yulun Wu",
+      "Zhaoxiang Feng",
+      "Lanxiang Hu"
+    ],
+    "stars": "35",
+    "details": {
+      "title": "JetSpec: Breaking the Scaling Ceiling of Speculative Decoding with Parallel Tree Drafting",
+      "abstract": "Speculative decoding (SD) accelerates autoregressive Large Language Models (LLMs) by drafting multiple tokens and verifying them in parallel, but it faces a scaling limitation: increasing the draft budget improves speed only when acceptance remains high and drafting overhead stays low. This ceiling has been difficult to break because prior head-based SD methods face a causality-efficiency dilemma. Autoregressive drafters produce path-conditioned candidates that are effective for tree speculative decoding with higher acceptance length, but their drafting cost grows with tree depth. Bidirectional block-diffusion drafters generate all positions in one pass, but their branch-agnostic marginals can form individually plausible yet mutually inconsistent trees, wasting budget and reducing acceptance. We propose JetSpec, a head-based SD framework that combines one-forward drafting efficiency with branch-wise causal conditioning. JetSpec trains a causal parallel draft head using fused hidden states from the frozen target model, producing candidate trees whose scores align with the target model’s autoregressive factorization. This enables JetSpec to convert larger draft budgets into longer accepted prefixes and higher end-to-end speedup. Across math, coding, and chat benchmarks on dense and MoE Qwen3 models, JetSpec consistently outperforms bidirectional-head and tree-based SD baselines. On H100 GPUs, JetSpec achieves up to 9.64x speedup on MATH500 and 4.58x on open-ended conversational workloads, with further latency gains demonstrated through vLLM integration under realistic serving loads. Our code and models are available at https://github.com/hao-ai-lab/JetSpec .",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.18394",
+      "pdf_url": "https://arxiv.org/pdf/2606.18394",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/hao-ai-lab/JetSpec"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.18394",
+      "scraped_at": "2026-06-27T03:33:40.331567"
+    },
+    "scraped_date": "2026-06-27"
+  },
+  {
+    "title": "GUI vs. CLI: Execution Bottlenecks in Screen-Only and Skill-Mediated Computer-Use Agents",
+    "paper_url": "https://huggingface.co/papers/2606.24551",
+    "authors": [
+      "Tingyu Song",
+      "Jinbiao Wei",
+      "Yilun Zhao",
+      "Siyue Zhang",
+      "rebeccazzzz"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "GUI vs. CLI: Execution Bottlenecks in Screen-Only and Skill-Mediated Computer-Use Agents",
+      "abstract": "Computer-use agents can execute software tasks through either graphical interfaces or programmatic command interfaces, but existing evaluations confound interaction modality with differences in tasks, initial states, verifiers, and permitted actions. We introduce a matched execution-layer benchmark of 440 desktop tasks across 18 applications and 12 workflow categories, where screen-only GUI agents and skill-mediated CLI agents receive identical goals, states, and final-state verifiers while being restricted to modality-native actions. In this controlled setting, the strongest GUI agent reaches a 59.1% full pass rate, outperforming the strongest original-skill CLI agent at 48.2%; however, verifier-guided skill augmentation raises CLI success to 69.3%, showing that much of the CLI deficit comes from incomplete skill coverage rather than model capability alone. These results suggest that GUI and CLI expose different execution bottlenecks: GUI agents are limited by reliable grounded interaction over long-horizon workflows, whereas CLI agents are limited by the coverage and scalability of their skill interfaces.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.24551",
+      "pdf_url": "https://arxiv.org/pdf/2606.24551",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/rebeccaz4/gui-vs-cli"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.24551",
+      "scraped_at": "2026-06-27T03:33:42.245706"
+    },
+    "scraped_date": "2026-06-27"
+  },
+  {
+    "title": "Fast LeWorldModel",
+    "paper_url": "https://huggingface.co/papers/2606.26217",
+    "authors": [
+      "Xiangyu Xu",
+      "Yuntian Gao"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "Fast LeWorldModel",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.26217",
+      "pdf_url": "https://arxiv.org/pdf/2606.26217",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Yuntian-Gao/Fast-LeWorldModel"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.26217",
+      "scraped_at": "2026-06-27T03:33:44.084890"
+    },
+    "scraped_date": "2026-06-27"
+  },
+  {
+    "title": "Why Multi-Step Tool-Use Reinforcement Learning Collapses and How Supervisory Signals Fix It",
+    "paper_url": "https://huggingface.co/papers/2606.26027",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Why Multi-Step Tool-Use Reinforcement Learning Collapses and How Supervisory Signals Fix It",
+      "abstract": "Our Code is available at https://github.com/hypasd-art/Tool-RL-Box .",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.26027",
+      "pdf_url": "https://arxiv.org/pdf/2606.26027",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/hypasd-art/Tool-RL-Box"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.26027",
+      "scraped_at": "2026-06-27T03:33:46.217045"
+    },
+    "scraped_date": "2026-06-27"
+  },
+  {
+    "title": "Running the Gauntlet: Re-evaluating the Capabilities of Agents Beyond Familiar Environments",
+    "paper_url": "https://huggingface.co/papers/2606.14397",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Running the Gauntlet: Re-evaluating the Capabilities of Agents Beyond Familiar Environments",
+      "abstract": "https://gauntlet-landing-page.vercel.app/",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.14397",
+      "pdf_url": "https://arxiv.org/pdf/2606.14397",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/gauntlet-benchmark/evaluation-harness"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.14397",
+      "scraped_at": "2026-06-27T03:33:48.128481"
+    },
+    "scraped_date": "2026-06-27"
+  },
+  {
+    "title": "LISA: Likelihood Score Alignment for Visual-condition Controllable Generation",
+    "paper_url": "https://huggingface.co/papers/2606.27192",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "LISA: Likelihood Score Alignment for Visual-condition Controllable Generation",
+      "abstract": "LISA can accelerate the training for controllable visual generation and bootstrap better synthetic results.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.27192",
+      "pdf_url": "https://arxiv.org/pdf/2606.27192",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/HKUST-LongGroup/LISA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.27192",
+      "scraped_at": "2026-06-27T03:33:50.094903"
+    },
+    "scraped_date": "2026-06-27"
+  },
+  {
+    "title": "In-Context World Modeling for Robotic Control",
+    "paper_url": "https://huggingface.co/papers/2606.26025",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "In-Context World Modeling for Robotic Control",
+      "abstract": "In-Context World Modeling for Robotic Control",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.26025",
+      "pdf_url": "https://arxiv.org/pdf/2606.26025",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.26025",
+      "scraped_at": "2026-06-27T03:33:52.131135"
+    },
+    "scraped_date": "2026-06-27"
+  },
+  {
+    "title": "Confidence-Aware Tool Orchestration for Robust Video Understanding",
+    "paper_url": "https://huggingface.co/papers/2606.26904",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Confidence-Aware Tool Orchestration for Robust Video Understanding",
+      "abstract": "Project Page: https://rova-v2.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.26904",
+      "pdf_url": "https://arxiv.org/pdf/2606.26904",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ROVA-V2/Robust-TO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.26904",
+      "scraped_at": "2026-06-27T03:33:54.005789"
+    },
+    "scraped_date": "2026-06-27"
+  },
+  {
+    "title": "PhysiFormer: Learning to Simulate Mechanics in World Space",
+    "paper_url": "https://huggingface.co/papers/2606.27364",
+    "authors": [
+      "Andrea Vedaldi",
+      "Yushi Lan",
+      "Yiming Chen"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "PhysiFormer: Learning to Simulate Mechanics in World Space",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.27364",
+      "pdf_url": "https://arxiv.org/pdf/2606.27364",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.27364",
+      "scraped_at": "2026-06-27T03:33:55.854262"
+    },
+    "scraped_date": "2026-06-27"
+  },
+  {
+    "title": "Hallucination in World Models is Predictable and Preventable",
+    "paper_url": "https://huggingface.co/papers/2606.27326",
+    "authors": [],
+    "stars": "31",
+    "details": {
+      "title": "Hallucination in World Models is Predictable and Preventable",
+      "abstract": "🌐 Interactive paper: https://www.nicklashansen.com/mmbench2 🕹️ Live demo: https://www.nicklashansen.com/mmbench2/#live-demo 📄 Paper: https://arxiv.org/abs/2606.27326 💻 Code: https://github.com/nicklashansen/mmbench2 📦 Dataset: https://huggingface.co/datasets/nicklashansen/mmbench2 🤖 Models: https://huggingface.co/nicklashansen/mmbench2-models",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.27326",
+      "pdf_url": "https://arxiv.org/pdf/2606.27326",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/nicklashansen/mmbench2"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.27326",
+      "scraped_at": "2026-06-27T03:33:57.755477"
+    },
+    "scraped_date": "2026-06-27"
+  },
+  {
+    "title": "CoffeeBench: Benchmarking Long-Horizon LLM Agents in Heterogeneous Multi-Agent Economies",
+    "paper_url": "https://huggingface.co/papers/2606.16613",
+    "authors": [
+      "Shota Onose",
+      "Keita Ogawa",
+      "Kazuo Araragi",
+      "Daichi Hattori",
+      "speed"
+    ],
+    "stars": "8",
+    "details": {
+      "title": "CoffeeBench: Benchmarking Long-Horizon LLM Agents in Heterogeneous Multi-Agent Economies",
+      "abstract": "We introduce CoffeeBench, a benchmark for evaluating LLM agents in a long-horizon multi-agent economy composed of heterogeneous firms. In CoffeeBench, two farmers, two roasters, and two retailers autonomously operate their businesses over a 90-day simulation, each seeking to maximize cumulative net income through communication and transactions while managing cash, inventory, and pricing. The evaluated model controls one coffee roaster, while the remaining firms are controlled by fixed reference agents. Across several recent open-weight and proprietary LLMs, all models outperform a passive baseline that takes no actions, with most achieving positive net income. Analysis of agent behavior reveals substantial differences in long-horizon economic interaction: higher-performing models communicate more actively with other firms, whereas Claude Haiku 4.5 exhibits an idle-drift failure mode, repeatedly choosing inaction despite producing coherent assessments and plans.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.16613",
+      "pdf_url": "https://arxiv.org/pdf/2606.16613",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/SakanaAI/CoffeeBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.16613",
+      "scraped_at": "2026-06-27T03:33:59.702692"
+    },
+    "scraped_date": "2026-06-27"
+  },
+  {
+    "title": "Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2606.26080",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents",
+      "abstract": "We introduce Progress Advantage, an implicit process reward signal derived as a byproduct of post-training, enabling step-level guidance and monitoring for LLM agents in stochastic environments.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.26080",
+      "pdf_url": "https://arxiv.org/pdf/2606.26080",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/deeplearning-wisc/progress-advantage"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.26080",
+      "scraped_at": "2026-06-27T03:34:01.660431"
+    },
+    "scraped_date": "2026-06-27"
+  },
+  {
+    "title": "Discretizing Reward Models",
+    "paper_url": "https://huggingface.co/papers/2606.21795",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Discretizing Reward Models",
+      "abstract": "Reward models are an essential tool in language model alignment and post-training. But we don't really understand what makes a given reward model  suitable as a teacher for reinforcement learning. Some reward models that are near-perfect at imitating human preferences are very bad at guiding RL. We offer a potential explanation: reward model oversensitivity . Turns out that even the strongest-known reward models see large differences within groups of equally-good responses. This is a bad thing. We propose a way to evaluate reward models (by separately measuring \"specificity\" -- the opposite of oversensitivity -- and \"discriminative ability\") and a new algorithm that, on-the-fly, can make any existing reward model less oversensitive. For every reward model we tried,, discretization either maintains or improves how well it can teach a student model via RL. This is evidence that specificity/oversensitivity might be an answer to the question of \"what makes a reward model a bad teacher for RL\".",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.21795",
+      "pdf_url": "https://arxiv.org/pdf/2606.21795",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.21795",
+      "scraped_at": "2026-06-27T03:34:03.558928"
+    },
+    "scraped_date": "2026-06-27"
+  },
+  {
+    "title": "Information-Aware KV Cache Compression for Long Reasoning",
+    "paper_url": "https://huggingface.co/papers/2606.26875",
+    "authors": [
+      "Zhouhan Lin",
+      "Alexandra Birch",
+      "Zhuiri Xiao",
+      "Jushi Kai"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Information-Aware KV Cache Compression for Long Reasoning",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.26875",
+      "pdf_url": "https://arxiv.org/pdf/2606.26875",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.26875",
+      "scraped_at": "2026-06-27T03:34:05.472258"
+    },
+    "scraped_date": "2026-06-27"
+  },
+  {
+    "title": "When Does Combining Language Models Help? A Co-Failure Ceiling on Routing, Voting, and Mixture-of-Agents Across 67 Frontier Models",
+    "paper_url": "https://huggingface.co/papers/2606.27288",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "When Does Combining Language Models Help? A Co-Failure Ceiling on Routing, Voting, and Mixture-of-Agents Across 67 Frontier Models",
+      "abstract": "Combining LLMs Rarely Beats the Single Best Model: A Provable Co-Failure Ceiling Across 67 Frontier Models",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.27288",
+      "pdf_url": "https://arxiv.org/pdf/2606.27288",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.27288",
+      "scraped_at": "2026-06-27T03:34:07.365164"
+    },
+    "scraped_date": "2026-06-27"
+  },
+  {
+    "title": "COrigami: An AI Pipeline for Co-Designing Flat-Foldable Visually Recognisable Origami",
+    "paper_url": "https://huggingface.co/papers/2606.26299",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "COrigami: An AI Pipeline for Co-Designing Flat-Foldable Visually Recognisable Origami",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.26299",
+      "pdf_url": "https://arxiv.org/pdf/2606.26299",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.26299",
+      "scraped_at": "2026-06-27T03:34:09.281148"
+    },
+    "scraped_date": "2026-06-27"
+  },
+  {
+    "title": "OpenBioRQ: Unsolved Biomedical Research Questions for Agents",
+    "paper_url": "https://huggingface.co/papers/2606.21959",
+    "authors": [
+      "Minbyul Jeong"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "OpenBioRQ: Unsolved Biomedical Research Questions for Agents",
+      "abstract": "project page: https://minstar.github.io/OpenBioRQ/ dataset: https://huggingface.co/datasets/Minbyul/OpenBioRQ",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.21959",
+      "pdf_url": "https://arxiv.org/pdf/2606.21959",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/minstar/healthcare-research"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.21959",
+      "scraped_at": "2026-06-27T03:34:11.103777"
+    },
+    "scraped_date": "2026-06-27"
+  },
+  {
+    "title": "How Post-Training Shapes Biological Reasoning Models",
+    "paper_url": "https://huggingface.co/papers/2606.16517",
+    "authors": [
+      "Bryan Perozzi",
+      "Eric Wang",
+      "Michelle M. Li",
+      "Hanlin Zhang",
+      "Lukas Fesser"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "How Post-Training Shapes Biological Reasoning Models",
+      "abstract": "This study of 100+ models reveals that biological reasoning follows non-monotonic dynamics, where more post-training compute does not always yield better generalization. We identify a \"generalization collapse\" where SFT drives in-domain accuracy but causes out-of-domain robustness to peak early and then sharply decline. Reinforcement Learning (RL) acts as a vital corrective, recovering lost robustness and pushing the performance frontier on unseen biological systems. Our findings identifies an optimal recipe for scientific reasoning: prioritize brief SFT paired with larger RL allocations and asymmetric adaptation capacity across stages.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.16517",
+      "pdf_url": "https://arxiv.org/pdf/2606.16517",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.16517",
+      "scraped_at": "2026-06-27T03:34:12.983950"
+    },
+    "scraped_date": "2026-06-27"
+  },
+  {
+    "title": "EO-WM: A Physically Informed World Model for Probabilistic Earth Observation Forecasting",
+    "paper_url": "https://huggingface.co/papers/2606.27277",
+    "authors": [
+      "Zhe Liu",
+      "Yansheng Li",
+      "Zhenya Yang",
+      "Shuai Yuan",
+      "Junwei Luo"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "EO-WM: A Physically Informed World Model for Probabilistic Earth Observation Forecasting",
+      "abstract": "[EO-WM](EO-WM: A Physically Informed World Model for Probabilistic Earth Observation Forecasting)",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.27277",
+      "pdf_url": "https://arxiv.org/pdf/2606.27277",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Luo-Z13/EO-WM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.27277",
+      "scraped_at": "2026-06-27T03:34:14.832739"
+    },
+    "scraped_date": "2026-06-27"
+  },
+  {
+    "title": "ABACUS: Adapting Unified Foundation Model for Bridging Image Count Understanding and Generation",
+    "paper_url": "https://huggingface.co/papers/2606.23835",
+    "authors": [
+      "Anjan Dutta",
+      "Sauradip Nag",
+      "Anindya Mondal"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ABACUS: Adapting Unified Foundation Model for Bridging Image Count Understanding and Generation",
+      "abstract": "ABACUS is a unified vision-language model that handles object counting, crowd counting, referring-expression counting, and count-faithful image generation without any benchmark-specific training required. Our model is built on existing 3B-parameter unified foundation model and is adapted for object localization tasks using three key innovations: density-aware adaptive zooming with objectness maps for spatial grounding; a boundary-aware count policy via GRPO to eliminate crop-boundary errors; and a cycle-consistent GRPO strategy where the understanding branch self-critiques generated outputs, closing the understanding-generation gap without any external annotations. ABACUS achieves state-of-the-art results across seven benchmarks, outperforming both task-specific specialists and larger generalist models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.23835",
+      "pdf_url": "https://arxiv.org/pdf/2606.23835",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.23835",
+      "scraped_at": "2026-06-27T03:34:16.679817"
+    },
+    "scraped_date": "2026-06-27"
   }
 ]
