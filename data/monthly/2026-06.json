@@ -12622,5 +12622,209 @@
       "scraped_at": "2026-06-28T03:57:39.082685"
     },
     "scraped_date": "2026-06-28"
+  },
+  {
+    "title": "PhysisForcing: Physics Reinforced World Simulator for Robotic Manipulation",
+    "paper_url": "https://huggingface.co/papers/2606.28128",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PhysisForcing: Physics Reinforced World Simulator for Robotic Manipulation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.28128",
+      "pdf_url": "https://arxiv.org/pdf/2606.28128",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.28128",
+      "scraped_at": "2026-06-29T04:02:15.226448"
+    },
+    "scraped_date": "2026-06-29"
+  },
+  {
+    "title": "SingGuard: A Policy-Adaptive Multimodal LLM Guardrail with Dynamic Reasoning",
+    "paper_url": "https://huggingface.co/papers/2606.22873",
+    "authors": [],
+    "stars": "29",
+    "details": {
+      "title": "SingGuard: A Policy-Adaptive Multimodal LLM Guardrail with Dynamic Reasoning",
+      "abstract": "SingGuard is a policy-adaptive multimodal LLM guardrail model family for text, image, image-text, query-response, and multilingual safety moderation. Unlike static guardrails that rely on a fixed taxonomy, SingGuard treats the active safety policy as a runtime input and performs rule-by-rule policy-grounded judgment, enabling different products or deployment scenarios to apply customized and dynamically updated safety rules. SingGuard supports three inference regimes: fast judgment for low-latency moderation, slow policy-grounded reasoning for complex or audit-sensitive cases, and hybrid fast-slow reasoning with early exit. It also introduces Rule Isolation Mask (RI-Mask), an inference-time acceleration method for multi-rule moderation: shared image-text content is encoded once, while different rule branches remain isolated through attention masking, enabling parallel rule checking without cross-rule interference. We further introduce SingGuard-Bench, a 56,340-example multimodal guardrail benchmark covering 80+ fine-grained risk types, including image safety, multimodal QA safety, cross-modal hidden-intent attacks, multilingual moderation, and dynamic-rule evaluation. Across 6 benchmark families and 35 datasets, SingGuard achieves state-of-the-art average F1 and improves policy-following accuracy under runtime rule shifts.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.22873",
+      "pdf_url": "https://arxiv.org/pdf/2606.22873",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/inclusionAI/Sing-Guard"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.22873",
+      "scraped_at": "2026-06-29T04:02:17.093262"
+    },
+    "scraped_date": "2026-06-29"
+  },
+  {
+    "title": "ProMSA:Progressive Multimodal Search Agents for Knowledge-Based Visual Question Answering",
+    "paper_url": "https://huggingface.co/papers/2606.27974",
+    "authors": [
+      "Yunyao Yu",
+      "Zhuohong Chen",
+      "Kai Shi",
+      "Hangrui Xu",
+      "ZhengXian Wu"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "ProMSA:Progressive Multimodal Search Agents for Knowledge-Based Visual Question Answering",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.27974",
+      "pdf_url": "https://arxiv.org/pdf/2606.27974",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/DingWu1021/Promsa"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.27974",
+      "scraped_at": "2026-06-29T04:02:18.956063"
+    },
+    "scraped_date": "2026-06-29"
+  },
+  {
+    "title": "Qwen-Image-2.0-RL Technical Report",
+    "paper_url": "https://huggingface.co/papers/2606.27608",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Qwen-Image-2.0-RL Technical Report",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.27608",
+      "pdf_url": "https://arxiv.org/pdf/2606.27608",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.27608",
+      "scraped_at": "2026-06-29T04:02:20.761098"
+    },
+    "scraped_date": "2026-06-29"
+  },
+  {
+    "title": "Ko-WideSearch: A Korean Breadth-Search Benchmark for Exhaustive Set Enumeration by Web Agents",
+    "paper_url": "https://huggingface.co/papers/2606.27595",
+    "authors": [
+      "Minbyul Jeong"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Ko-WideSearch: A Korean Breadth-Search Benchmark for Exhaustive Set Enumeration by Web Agents",
+      "abstract": "https://huggingface.co/datasets/Minbyul/Ko-widesearch",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.27595",
+      "pdf_url": "https://arxiv.org/pdf/2606.27595",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.27595",
+      "scraped_at": "2026-06-29T04:02:22.582175"
+    },
+    "scraped_date": "2026-06-29"
+  },
+  {
+    "title": "Formalizing Latent Thoughts: Four Axioms of Thought Representation in LLMs",
+    "paper_url": "https://huggingface.co/papers/2606.27378",
+    "authors": [
+      "Fatemeh Fard",
+      "Fahd Seddik"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Formalizing Latent Thoughts: Four Axioms of Thought Representation in LLMs",
+      "abstract": "We introduce an axiomatic evaluation framework for latent thought representations in LLMs, comprising metrics that are independent of downstream benchmark scores and reveal representational failures that benchmark accuracy masks. Existing evaluations conflate representation quality with model capacity. Therefore, failures cannot be attributed to the representation rather than to the model that processes it. We formalize four functional axioms (Causality, Minimality, Separability, and Stability) and define a quantitative measure for each, computed directly on the representation independently of downstream accuracy. We audit open-weight LLMs across 23 reasoning tasks (e.g., Spatial Reasoning, Factual QA). We find that no candidate satisfies all four axioms simultaneously, that the representations distinguish task type reliably but cannot distinguish between two questions within the same task, and that the representations encode little information beyond what is already present in the input embedding. The failure is consistent across dense, reasoning-distilled, and RL-trained model families, indicating that the gap is structural rather than a property of model size or training procedure.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.27378",
+      "pdf_url": "https://arxiv.org/pdf/2606.27378",
+      "github_links": [
+        "https://github.com/fard-lab/formalize-thoughts",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.27378",
+      "scraped_at": "2026-06-29T04:02:24.560298"
+    },
+    "scraped_date": "2026-06-29"
+  },
+  {
+    "title": "Translation as a Bridging Action: Transferring Manipulation Skills from Humans to Robots",
+    "paper_url": "https://huggingface.co/papers/2606.28133",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Translation as a Bridging Action: Transferring Manipulation Skills from Humans to Robots",
+      "abstract": "We study whether we can learn novel manipulation skills from human actions to a bi-manual robot with parallel grippers. Human action data is cheap, abundant, and diverse, making it one of the most promising resources for scaling up robot learning. Yet transferring skills from humans to robots remains hard: most prior work treats humans as just another bi-manual 6DoF embodiment, where hand-pose estimates are noisy and the contact patterns of human fingers differ fundamentally from those of a parallel gripper. We argue that learning rotation-inclusive action signals from human data is therefore sub-optimal, and instead propose a bridging action representation: the relative wrist translation within the initial head-camera frame, an action space shared by humans and robots. To handle the potential absence of certain action components in different embodiments, we build a π0-like vision-language-action model with interleaved action tokens and attention masking. On a suite of novel bi-manual manipulation tasks, our bridging action transfers human manipulation knowledge to robots far more effectively than noisy 6DoF human actions and scales with the amount of human data.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.28133",
+      "pdf_url": "https://arxiv.org/pdf/2606.28133",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.28133",
+      "scraped_at": "2026-06-29T04:02:26.513721"
+    },
+    "scraped_date": "2026-06-29"
+  },
+  {
+    "title": "NormGuard: Reward-Preserving Norm Constraints in Flow-Matching Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2606.27771",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "NormGuard: Reward-Preserving Norm Constraints in Flow-Matching Reinforcement Learning",
+      "abstract": "RL post-training inflates flow-matching velocity norms by 5–15%, causing perceptual artifacts that inference-time fixes can't remedy; NormGuard applies a training-time hinge penalty on excess norm, improving image quality and realism across models and methods without sacrificing reward gains.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.27771",
+      "pdf_url": "https://arxiv.org/pdf/2606.27771",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.27771",
+      "scraped_at": "2026-06-29T04:02:28.399921"
+    },
+    "scraped_date": "2026-06-29"
+  },
+  {
+    "title": "Towards Automating Scientific Review with Google's Paper Assistant Tool",
+    "paper_url": "https://huggingface.co/papers/2606.28277",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Towards Automating Scientific Review with Google's Paper Assistant Tool",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.28277",
+      "pdf_url": "https://arxiv.org/pdf/2606.28277",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.28277",
+      "scraped_at": "2026-06-29T04:02:30.214225"
+    },
+    "scraped_date": "2026-06-29"
+  },
+  {
+    "title": "SimFoundry: Modular and Automated Scene Generation for Policy Learning and Evaluation",
+    "paper_url": "https://huggingface.co/papers/2606.28276",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SimFoundry: Modular and Automated Scene Generation for Policy Learning and Evaluation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.28276",
+      "pdf_url": "https://arxiv.org/pdf/2606.28276",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.28276",
+      "scraped_at": "2026-06-29T04:02:32.075653"
+    },
+    "scraped_date": "2026-06-29"
   }
 ]
