@@ -202,5 +202,454 @@
       "scraped_at": "2026-06-29T04:02:32.075653"
     },
     "scraped_date": "2026-06-29"
+  },
+  {
+    "title": "Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
+    "paper_url": "https://huggingface.co/papers/2606.30616",
+    "authors": [],
+    "stars": "34",
+    "details": {
+      "title": "Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
+      "abstract": "🚀 We are excited to share Agents-A1 from the Shanghai AI Lab. Agents-A1 is a 35B MoE agentic model designed to scale long-horizon scientific and engineering capabilities, rather than simply scaling model parameters. It learns from knowledge-action trajectories that connect reasoning, tool use, execution feedback, and verification. 🔬 Agents-A1 shows strong capabilities in scientific reasoning, research-level coding, ML engineering, and scientific tool use. In our technical report, it achieves competitive results on benchmarks such as HLE with tools, HiPhO, FrontierScience, SciCode, MLE-Bench-Lite, MatTools, and MolBench-Bind. 🛠️ We hope Agents-A1 can serve as a practical open model for the community to explore autonomous research workflows, tool-integrated scientific problem solving, and next-generation AI-for-Science agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.30616",
+      "pdf_url": "https://arxiv.org/pdf/2606.30616",
+      "github_links": [
+        "https://github.com/InternScience/Agents-A1",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.30616",
+      "scraped_at": "2026-06-30T03:43:38.893713"
+    },
+    "scraped_date": "2026-06-30"
+  },
+  {
+    "title": "ReFreeKV: Towards Threshold-Free KV Cache Compression",
+    "paper_url": "https://huggingface.co/papers/2502.16886",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "ReFreeKV: Towards Threshold-Free KV Cache Compression",
+      "abstract": "Code is publicly released at: https://github.com/Patrick-Ni/ReFreeKV",
+      "arxiv_page_url": "https://arxiv.org/abs/2502.16886",
+      "pdf_url": "https://arxiv.org/pdf/2502.16886",
+      "github_links": [
+        "https://github.com/Patrick-Ni/ReFreeKV",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2502.16886",
+      "scraped_at": "2026-06-30T03:43:40.787988"
+    },
+    "scraped_date": "2026-06-30"
+  },
+  {
+    "title": "AsyncOPD: How Stale Can On-Policy Distillation Be?",
+    "paper_url": "https://huggingface.co/papers/2606.24143",
+    "authors": [],
+    "stars": "14",
+    "details": {
+      "title": "AsyncOPD: How Stale Can On-Policy Distillation Be?",
+      "abstract": "Code: https://github.com/furiosa-ai/async-opd",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.24143",
+      "pdf_url": "https://arxiv.org/pdf/2606.24143",
+      "github_links": [
+        "https://github.com/furiosa-ai/async-opd",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.24143",
+      "scraped_at": "2026-06-30T03:43:42.706139"
+    },
+    "scraped_date": "2026-06-30"
+  },
+  {
+    "title": "Bridging VideoQA and Video-Guided Agentic Tasks via Generalized Keyframe Extraction",
+    "paper_url": "https://huggingface.co/papers/2606.29445",
+    "authors": [
+      "Shuojin Yang",
+      "Meng-Hao Guo",
+      "Runqi Yin",
+      "Qingle Liu",
+      "Sunqi Fan"
+    ],
+    "stars": "5",
+    "details": {
+      "title": "Bridging VideoQA and Video-Guided Agentic Tasks via Generalized Keyframe Extraction",
+      "abstract": "Accepted by ECCV 2026.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.29445",
+      "pdf_url": "https://arxiv.org/pdf/2606.29445",
+      "github_links": [
+        "https://github.com/VG-GUI-TASKER/VG-GUI-TASKER",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.29445",
+      "scraped_at": "2026-06-30T03:43:44.615086"
+    },
+    "scraped_date": "2026-06-30"
+  },
+  {
+    "title": "TACO: Tool-Augmented Credit Optimization for Agentic Tool Use",
+    "paper_url": "https://huggingface.co/papers/2606.30251",
+    "authors": [
+      "Ruihan Jin",
+      "Fangrui Lv",
+      "Hao Gu",
+      "Jinyang Wu",
+      "Mingkuan Feng"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "TACO: Tool-Augmented Credit Optimization for Agentic Tool Use",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.30251",
+      "pdf_url": "https://arxiv.org/pdf/2606.30251",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.30251",
+      "scraped_at": "2026-06-30T03:43:46.544919"
+    },
+    "scraped_date": "2026-06-30"
+  },
+  {
+    "title": "Orca: The World is in Your Mind",
+    "paper_url": "https://huggingface.co/papers/2606.30534",
+    "authors": [
+      "Runze Xiao",
+      "Yanqing Shen",
+      "Mingyu Cao",
+      "Yuheng Ji",
+      "Yihao Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Orca: The World is in Your Mind",
+      "abstract": "Orca: An initial instantiation of a general world foundation model",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.30534",
+      "pdf_url": "https://arxiv.org/pdf/2606.30534",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.30534",
+      "scraped_at": "2026-06-30T03:43:48.386859"
+    },
+    "scraped_date": "2026-06-30"
+  },
+  {
+    "title": "Monte Carlo Energy Aggregation for Mobile 3D Gaussian Splatting",
+    "paper_url": "https://huggingface.co/papers/2606.30017",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Monte Carlo Energy Aggregation for Mobile 3D Gaussian Splatting",
+      "abstract": "Code is available: https://github.com/xiaobiaodu/Flux-GS Project page: https://xiaobiaodu.github.io/flux-gs-project/ You can use the idea of our Flux-GS for commercial use for free. We hope it can foster Gaussian Splatting industry development.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.30017",
+      "pdf_url": "https://arxiv.org/pdf/2606.30017",
+      "github_links": [
+        "https://github.com/xiaobiaodu/Flux-GS",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.30017",
+      "scraped_at": "2026-06-30T03:43:50.230743"
+    },
+    "scraped_date": "2026-06-30"
+  },
+  {
+    "title": "MIMFlow: Integrating Masked Image Modeling with Normalizing Flows for End-to-End Image Generation",
+    "paper_url": "https://huggingface.co/papers/2606.26016",
+    "authors": [
+      "Qiushi Guo",
+      "Xinwen Zhang",
+      "Shuai Wang",
+      "Xiaowei Xu",
+      "Y-Sisyphus"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "MIMFlow: Integrating Masked Image Modeling with Normalizing Flows for End-to-End Image Generation",
+      "abstract": "Accepted by ECCV2026",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.26016",
+      "pdf_url": "https://arxiv.org/pdf/2606.26016",
+      "github_links": [
+        "https://github.com/MCG-NJU/MIMFlow",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.26016",
+      "scraped_at": "2026-06-30T03:43:52.005514"
+    },
+    "scraped_date": "2026-06-30"
+  },
+  {
+    "title": "GUICrafter: Weakly-Supervised GUI Agent Leveraging Massive Unannotated Screenshots",
+    "paper_url": "https://huggingface.co/papers/2606.29705",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GUICrafter: Weakly-Supervised GUI Agent Leveraging Massive Unannotated Screenshots",
+      "abstract": "GUICrafter: Weakly-Supervised GUI Agent Leveraging Massive Unannotated Screenshots and environment interactive signals. Authors are from Tsinghua University and Tencent Hunyuan.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.29705",
+      "pdf_url": "https://arxiv.org/pdf/2606.29705",
+      "github_links": [
+        "https://github.com/fansunqi/GUICrafter",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.29705",
+      "scraped_at": "2026-06-30T03:43:53.781957"
+    },
+    "scraped_date": "2026-06-30"
+  },
+  {
+    "title": "PolicyGuard: A Dialogue-Grounded Sub-Agent Verifier for Policy Adherence in LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2606.29225",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PolicyGuard: A Dialogue-Grounded Sub-Agent Verifier for Policy Adherence in LLM Agents",
+      "abstract": "PolicyGuard: A Dialogue-Grounded Sub-Agent Verifier for Policy Adherence in LLM Agents",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.29225",
+      "pdf_url": "https://arxiv.org/pdf/2606.29225",
+      "github_links": [
+        "https://github.com/erjui/PolicyGuard",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.29225",
+      "scraped_at": "2026-06-30T03:43:55.559300"
+    },
+    "scraped_date": "2026-06-30"
+  },
+  {
+    "title": "Cognitive Episodes in LLM Reasoning Traces Enable Interpretable Human Item Difficulty Prediction",
+    "paper_url": "https://huggingface.co/papers/2606.28186",
+    "authors": [
+      "Hong Jiao",
+      "Zhuochun Li",
+      "Xinyue Zeng",
+      "Ming Li",
+      "Chenguang Wang"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Cognitive Episodes in LLM Reasoning Traces Enable Interpretable Human Item Difficulty Prediction",
+      "abstract": "Predicting human item difficulty is central to educational assessment, where reliable estimates support fairness and effective test construction. Existing methods often depend on costly human calibration or item-level textual representations, providing limited evidence about the cognitive processes that make items difficult. We argue that difficulty should be viewed not only as a property of item text, but also as an observable consequence of the problem-solving burden an item induces. Large Reasoning Models (LRMs) offer scalable process evidence through reasoning traces, but such evidence must be structured to support interpretable modeling. To this end, we introduce Epi2Diff (Episode to Difficulty), a framework that maps LRM reasoning traces into cognitively grounded episode sequences. These episodes group trace segments into functional problem-solving states, enabling difficulty to be modeled through reasoning scale, effort allocation, and state transitions. Epi2Diff extracts compact episode-dynamic features and combines them with semantic item representations for human difficulty prediction. Experiments on four real-world human difficulty datasets show that Epi2Diff consistently outperforms strong baselines, including fine-tuned small language models, LLM in-context learning, and supervised LLM adaptation. On SAT-derived classification benchmarks, Epi2Diff achieves an 8.1% average relative gain over supervised LLM fine-tuning baselines. Further analyses show that harder items induce more effortful, iterative, and implementation-centered episode dynamics, rather than merely longer responses. These results demonstrate that cognitive episodes in LRM reasoning traces provide a predictive and interpretable process representation for human item difficulty, offering a new lens for educational measurement with reasoning models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.28186",
+      "pdf_url": "https://arxiv.org/pdf/2606.28186",
+      "github_links": [
+        "https://github.com/c-steve-wang/Epi2Diff",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.28186",
+      "scraped_at": "2026-06-30T03:43:57.340278"
+    },
+    "scraped_date": "2026-06-30"
+  },
+  {
+    "title": "Focusing on What Matters: Saliency-Harnessing Accurate Routing for Diffusion MoE",
+    "paper_url": "https://huggingface.co/papers/2606.26938",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Focusing on What Matters: Saliency-Harnessing Accurate Routing for Diffusion MoE",
+      "abstract": "A Diffusion MoE Framework with Saliency-Harnessing Accurate Routing",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.26938",
+      "pdf_url": "https://arxiv.org/pdf/2606.26938",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.26938",
+      "scraped_at": "2026-06-30T03:43:59.192796"
+    },
+    "scraped_date": "2026-06-30"
+  },
+  {
+    "title": "Nemotron-Labs-Diffusion-Image: Advancing Masked Discrete Diffusion for High-Resolution Image Synthesis",
+    "paper_url": "https://huggingface.co/papers/2606.29814",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Nemotron-Labs-Diffusion-Image: Advancing Masked Discrete Diffusion for High-Resolution Image Synthesis",
+      "abstract": "We propose Nemotron-Labs-Diffusion-Image, a state-of-the-art masked discrete diffusion model (MDM) for high-resolution text-to-image synthesis. Compared with prior work on masked image generation, Nemotron-Labs-Diffusion-Image addresses two key challenges. First, unlike continuous diffusion models which progressively refine latent representations across the entire image, standard MDMs lack self-correcting capability because discrete tokens cannot be modified once they are unmasked. Second, although increasing the vocabulary size of discrete image tokenizers improves reconstruction fidelity, it introduces optimization difficulties for generative modeling as the per-token training signal becomes increasingly sparse. To address the first challenge, Nemotron-Labs-Diffusion-Image incorporates a token-editing mechanism that enables the model to dynamically revise already-unmasked tokens during inference, similar to how a sculptor iteratively refines their work. To tackle the second challenge, we propose a Grouped Cross-Entropy (GCE) objective that assigns positive learning signals to tokens neighboring the ground truth in embedding space, thereby alleviating signal sparsity. To further improve training efficiency, we implement a custom fused operator for GCE that significantly reduces VRAM usage in large-vocabulary settings. Experimental results demonstrate that these innovations substantially improve both training efficiency and image fidelity of masked discrete image generators, achieving a score of 0.90 on GenEval, 86.9 on DPG and 10.76 of HPSv3.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.29814",
+      "pdf_url": "https://arxiv.org/pdf/2606.29814",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.29814",
+      "scraped_at": "2026-06-30T03:44:00.977228"
+    },
+    "scraped_date": "2026-06-30"
+  },
+  {
+    "title": "How Good Can Linear Models Be for Time-Series Forecasting?",
+    "paper_url": "https://huggingface.co/papers/2606.27282",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "How Good Can Linear Models Be for Time-Series Forecasting?",
+      "abstract": "Linear models aren't weak; their preprocessing is under-tuned . Closed-form Ridge, with only preprocessing tuned (L, r, α, augmentation), matches/beats Transformer, MLP & CNN baselines on 6/8 long-horizon benchmarks at orders-of-magnitude lower cost --- and there's no universal lookback: optimal L* ∝ H^b, exponents from −0.19 to +0.46 across datasets.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.27282",
+      "pdf_url": "https://arxiv.org/pdf/2606.27282",
+      "github_links": [
+        "https://github.com/SakanaAI/SearchCast",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.27282",
+      "scraped_at": "2026-06-30T03:44:02.791174"
+    },
+    "scraped_date": "2026-06-30"
+  },
+  {
+    "title": "ReasoningLens: Hierarchical Visualization and Diagnostic Auditing for Large Reasoning Models",
+    "paper_url": "https://huggingface.co/papers/2606.23404",
+    "authors": [
+      "Hongyu Lin",
+      "Yaojie Lu",
+      "Boxi Cao",
+      "Jiasheng Zheng",
+      "Jun Zhang"
+    ],
+    "stars": "24",
+    "details": {
+      "title": "ReasoningLens: Hierarchical Visualization and Diagnostic Auditing for Large Reasoning Models",
+      "abstract": "Long-form reasoning (CoT) is a double-edged sword. While reasoning models  are smarter than ever, debugging a 10,000-token reasoning trace is a nightmare. ReasoningLens turns that \"Wall of Text\" into an interactive, hierarchical map.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.23404",
+      "pdf_url": "https://arxiv.org/pdf/2606.23404",
+      "github_links": [
+        "https://github.com/icip-cas/ReasoningLens",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.23404",
+      "scraped_at": "2026-06-30T03:44:04.553340"
+    },
+    "scraped_date": "2026-06-30"
+  },
+  {
+    "title": "Walking in the Implicit: Interactive World Exploration via Neural Scene Representation",
+    "paper_url": "https://huggingface.co/papers/2606.30045",
+    "authors": [
+      "Cong Qiu",
+      "Hangning Zhou",
+      "Zhenhua Du",
+      "Chengrui Dong",
+      "Zhiqi Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Walking in the Implicit: Interactive World Exploration via Neural Scene Representation",
+      "abstract": "Our system rolls out a fixed-length, renderable Neural Implicit Scene state and renders queried observations under camera control.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.30045",
+      "pdf_url": "https://arxiv.org/pdf/2606.30045",
+      "github_links": [
+        "https://github.com/WU-CVGL/NeuWorld",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.30045",
+      "scraped_at": "2026-06-30T03:44:06.327014"
+    },
+    "scraped_date": "2026-06-30"
+  },
+  {
+    "title": "PoseShield: Neural Collision Fields for Human Self-Collision Resolution",
+    "paper_url": "https://huggingface.co/papers/2606.29686",
+    "authors": [
+      "Miaolan Xie",
+      "Liangyan Gui",
+      "Yifan Shen",
+      "Zeyun Deng",
+      "Zhengyuan Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "PoseShield: Neural Collision Fields for Human Self-Collision Resolution",
+      "abstract": "Self-collision remains a persistent challenge in SMPL-based human pose estimation and motion generation. Under extreme articulations or stochastic motion synthesis, generated meshes frequently exhibit self-penetrations, leading to physically implausible results. We propose PoseShield, a neural collision constraint defined directly in SMPL pose space. We formulate collision correction as a constrained optimization problem and connect the learned constraint with the Eikonal equation. Enforcing Eikonal regularization ensures non-vanishing gradients near the collision boundary, improving numerical stability and robustness of the optimization process. Unlike prior methods that operate in the mesh space or rely on heuristic penalties, our approach operates directly in the low-dimensional space of human poses and is theoretically grounded. The same learned constraint extends to human motion sequences, providing a generator-agnostic post-hoc collision corrector without retraining the underlying motion model. Experiments on a newly constructed SMPL pose benchmark show that our method achieves a 95.8% success rate and outperforms state-of-the-art baselines.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.29686",
+      "pdf_url": "https://arxiv.org/pdf/2606.29686",
+      "github_links": [
+        "https://github.com/lzhyu/PoseShield",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.29686",
+      "scraped_at": "2026-06-30T03:44:08.148107"
+    },
+    "scraped_date": "2026-06-30"
+  },
+  {
+    "title": "OSWorld2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks",
+    "paper_url": "https://huggingface.co/papers/2606.29537",
+    "authors": [
+      "Jiayang Sun",
+      "Weiming Wu",
+      "Xinzhuang Xiong",
+      "Zilong Zhou",
+      "Mengqi Yuan"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "OSWorld2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.29537",
+      "pdf_url": "https://arxiv.org/pdf/2606.29537",
+      "github_links": [
+        "https://github.com/xlang-ai/OSWorld-V2",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.29537",
+      "scraped_at": "2026-06-30T03:44:09.968364"
+    },
+    "scraped_date": "2026-06-30"
+  },
+  {
+    "title": "SafePyramid: A Hierarchical Benchmark for In-context Policy Guardrailing",
+    "paper_url": "https://huggingface.co/papers/2606.29887",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SafePyramid: A Hierarchical Benchmark for In-context Policy Guardrailing",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.29887",
+      "pdf_url": "https://arxiv.org/pdf/2606.29887",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/bytedance/safepyramid"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.29887",
+      "scraped_at": "2026-06-30T03:44:11.783674"
+    },
+    "scraped_date": "2026-06-30"
+  },
+  {
+    "title": "One Forward Beats Two: InnerZoom for Accurate and Efficient GUI Grounding",
+    "paper_url": "https://huggingface.co/papers/2606.30084",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "One Forward Beats Two: InnerZoom for Accurate and Efficient GUI Grounding",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.30084",
+      "pdf_url": "https://arxiv.org/pdf/2606.30084",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.30084",
+      "scraped_at": "2026-06-30T03:44:13.523984"
+    },
+    "scraped_date": "2026-06-30"
   }
 ]
