@@ -651,5 +651,253 @@
       "scraped_at": "2026-06-30T03:44:13.523984"
     },
     "scraped_date": "2026-06-30"
+  },
+  {
+    "title": "Orca: The World is in Your Mind",
+    "paper_url": "https://huggingface.co/papers/2606.30534",
+    "authors": [
+      "Runze Xiao",
+      "Yanqing Shen",
+      "Mingyu Cao",
+      "Yuheng Ji",
+      "Yihao Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Orca: The World is in Your Mind",
+      "abstract": "Orca: An initial instantiation of a general world foundation model",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.30534",
+      "pdf_url": "https://arxiv.org/pdf/2606.30534",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.30534",
+      "scraped_at": "2026-07-01T04:00:27.936460"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "BlockPilot: Instance-Adaptive Policy Learning for Diffusion-based Speculative Decoding",
+    "paper_url": "https://huggingface.co/papers/2606.31315",
+    "authors": [
+      "Xin Xiao",
+      "Mingqiao Mo",
+      "Yong Wang",
+      "Yiming Hu",
+      "Hao Zhang"
+    ],
+    "stars": "20",
+    "details": {
+      "title": "BlockPilot: Instance-Adaptive Policy Learning for Diffusion-based Speculative Decoding",
+      "abstract": "BlockPilot: Instance-Adaptive Policy Learning for Diffusion-based Speculative Decoding Github: https://github.com/AMAP-ML/BlockPilot",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.31315",
+      "pdf_url": "https://arxiv.org/pdf/2606.31315",
+      "github_links": [
+        "https://github.com/AMAP-ML/BlockPilot",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.31315",
+      "scraped_at": "2026-07-01T04:00:29.740049"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "Dockerless: Environment-Free Program Verifier for Coding Agents",
+    "paper_url": "https://huggingface.co/papers/2606.28436",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Dockerless: Environment-Free Program Verifier for Coding Agents",
+      "abstract": "Try environment-free RL!",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.28436",
+      "pdf_url": "https://arxiv.org/pdf/2606.28436",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.28436",
+      "scraped_at": "2026-07-01T04:00:31.569391"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "DOPD: Dual On-policy Distillation",
+    "paper_url": "https://huggingface.co/papers/2606.30626",
+    "authors": [
+      "Yuqi Xu",
+      "Guibin Zhang",
+      "Qingyi Si",
+      "Gen Li",
+      "Xinlei Yu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "DOPD: Dual On-policy Distillation",
+      "abstract": "DOPD: Dual On-policy Distillation",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.30626",
+      "pdf_url": "https://arxiv.org/pdf/2606.30626",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.30626",
+      "scraped_at": "2026-07-01T04:00:33.386813"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "Evolution Fine-Tuning: Learning to Discover Across 371 Optimization Tasks",
+    "paper_url": "https://huggingface.co/papers/2606.29082",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Evolution Fine-Tuning: Learning to Discover Across 371 Optimization Tasks",
+      "abstract": "Would experience designing faster GPU kernels also help close in on a long-standing open mathematical conjecture? Large Language Models (LLMs) integrated into evolutionary search have recently produced state-of-the-art solutions on optimization tasks, including open mathematical conjectures, GPU kernel design, scientific law discovery, and combinatorial puzzles. To achieve this, prior work applied search scaffolds to one target task at a time, so every new problem is approached from scratch and the experience accumulated during search is discarded once the model finishes its attempt. This leaves the capability of iteratively evolving a solution (e.g., knowing which part to mutate and how, deciding when to backtrack) entirely in the scaffold rather than in the model itself. Whether the model itself could acquire this capability and reuse it across different tasks has been largely unexamined. To address this, we introduce Evolution Fine-Tuning (EFT), a mid-training paradigm that teaches LLMs to evolve solutions across tasks by converting evolutionary search trajectories into supervision. We construct Finch Collection, a 156K-trajectory dataset spanning 10 domains and 371 optimization tasks, and fine-tune open-source LLMs from 2B to 9B parameters. Empirically, EFT confers cross-task generalization: across 22 held-out tasks, our models surpass their base counterparts by 10.22% on average. Furthermore, when paired with test-time RL, our model matches state-of-the-art performance on two circle-packing tasks and outperforms its base-model counterpart on the Erdős minimum-overlap problem. EFT thus serves as a \"practice phase\" for general-purpose discovery agents that do not solve new problems from scratch.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.29082",
+      "pdf_url": "https://arxiv.org/pdf/2606.29082",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Open-Galapagos/evolution-fine-tuning"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.29082",
+      "scraped_at": "2026-07-01T04:00:35.358260"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "MemLearner: Learning to Query Context memory for Video World Models",
+    "paper_url": "https://huggingface.co/papers/2606.31734",
+    "authors": [
+      "Kaiyi Huang",
+      "Yiran Qin",
+      "Jianhong Bai",
+      "Jianxiong Gao",
+      "Jiwen Yu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "MemLearner: Learning to Query Context memory for Video World Models",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.31734",
+      "pdf_url": "https://arxiv.org/pdf/2606.31734",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.31734",
+      "scraped_at": "2026-07-01T04:00:37.160477"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "AVTok: 1D Unified Tokenization for Holistic Audio-Video Generation",
+    "paper_url": "https://huggingface.co/papers/2606.30811",
+    "authors": [
+      "Long Chen",
+      "Qifeng Chen",
+      "I Chieh Chen",
+      "Kien T. Pham"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "AVTok: 1D Unified Tokenization for Holistic Audio-Video Generation",
+      "abstract": "AVTok: 1D Unified Tokenization for Holistic Audio-Video Generation",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.30811",
+      "pdf_url": "https://arxiv.org/pdf/2606.30811",
+      "github_links": [
+        "https://github.com/hkust-longgroup/AVTok",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.30811",
+      "scraped_at": "2026-07-01T04:00:38.990832"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "PolyFlow: Continuous Topology Embedding Flow Matching for Artist-style Mesh Generation",
+    "paper_url": "https://huggingface.co/papers/2606.30673",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PolyFlow: Continuous Topology Embedding Flow Matching for Artist-style Mesh Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.30673",
+      "pdf_url": "https://arxiv.org/pdf/2606.30673",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.30673",
+      "scraped_at": "2026-07-01T04:00:40.818464"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "Xiaomi-GUI-0 Technical Report",
+    "paper_url": "https://huggingface.co/papers/2606.31410",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Xiaomi-GUI-0 Technical Report",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2606.31410",
+      "pdf_url": "https://arxiv.org/pdf/2606.31410",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.31410",
+      "scraped_at": "2026-07-01T04:00:42.614493"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "BrainJanus: A Unified Model for Understanding and Generation across Brain, Vision, and Language",
+    "paper_url": "https://huggingface.co/papers/2606.30319",
+    "authors": [
+      "Qihao Zheng",
+      "Shangquan Sun",
+      "Zhouheng Yao",
+      "Qirui Zhang",
+      "Haitao Wu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "BrainJanus: A Unified Model for Understanding and Generation across Brain, Vision, and Language",
+      "abstract": "Modeling the bidirectional correspondence between external sensory stimuli and internal neural activity has emerged as a critical frontier in neuroscience. However, existing approaches predominantly treat brain encoding and decoding as isolated tasks, relying heavily on unimodal alignment and external priors while overlooking the brain's intrinsic nature as a multimodal integration system. To address these limitations, we propose BrainJanus, the first unified brain model that integrates brain, vision, and language within a single framework. Specifically, we introduce a Unified Brain Tokenizer to quantize continuous neural dynamics into discrete tokens aligned with visual and linguistic representations in a shared Omni space. Building on this, we utilize an All-in-One autoregressive architecture that leverages next-token prediction to enable seamless any-to-any generation, which encompasses image-to-brain and text-to-brain encoding, and brain-to-image and brain-to-text decoding. Extensive experiments demonstrate that BrainJanus achieves superior performance across diverse benchmarks. Furthermore, our framework exhibits zero-shot generalization and preserves interpretable biological topography, highlighting its potential as a general-purpose brain modeling paradigm. The code is available at \\href{this https URL}{GitHub}.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.30319",
+      "pdf_url": "https://arxiv.org/pdf/2606.30319",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.30319",
+      "scraped_at": "2026-07-01T04:00:44.376211"
+    },
+    "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "LUMOS: A Semantic Operating-System Layer for Accessibility-Grounded AI Agents",
+    "paper_url": "https://huggingface.co/papers/2606.30697",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LUMOS: A Semantic Operating-System Layer for Accessibility-Grounded AI Agents",
+      "abstract": "Current operating systems expose interfaces optimized for human users but not for AI agents. Humans benefit from pixels, icons, windows, visual grouping, mouse movement, and keyboard shortcuts; AI agents instead need compact semantic state, grounded actions, and reliable feedback. As a result, many computer-use agents are forced to interpret screenshots, OCR output, and visual crops, introducing high token costs, visual ambiguity, latency, and coordinate uncertainty. This paper introduces LUMOS (Language Model Unified Machine-Readable Operating-System Semantics), a semantic interaction layer between AI agents and operating systems. LUMOS converts native accessibility metadata and browser UI structures into machine readable semantic blueprints with stable identifiers, roles, names, values, bounds, and action affordances. It also supports live semantic pointer grounding by querying the UI element under or near the cursor through operating-system automation APIs. An LLM then acts through an accessibility grounded observe act loop using constrained visible-UI primitives rather than application-specific scripts. LUMOS does not claim to replace visual agents; instead, it reduces dependence on screenshots when operating systems already provide semantic structure. These results suggest a path toward AI-native operating systems and machine-readable interaction layers.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.30697",
+      "pdf_url": "https://arxiv.org/pdf/2606.30697",
+      "github_links": [
+        "https://github.com/thotayogeswarreddy/Lumos",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.30697",
+      "scraped_at": "2026-07-01T04:00:46.257274"
+    },
+    "scraped_date": "2026-07-01"
   }
 ]
