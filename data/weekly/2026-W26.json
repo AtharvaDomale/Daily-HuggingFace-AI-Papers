@@ -899,5 +899,227 @@
       "scraped_at": "2026-07-01T04:00:46.257274"
     },
     "scraped_date": "2026-07-01"
+  },
+  {
+    "title": "TurboServe: Serving Streaming Video Generation Efficiently and Economically",
+    "paper_url": "https://huggingface.co/papers/2606.19271",
+    "authors": [],
+    "stars": "10",
+    "details": {
+      "title": "TurboServe: Serving Streaming Video Generation Efficiently and Economically",
+      "abstract": "We present TurboServe, the first serving system designed specifically for streaming video generation workloads. TurboServe formulates serving as an online scheduling problem that jointly coordinates session placement and GPU provisioning. Its closed-loop scheduling algorithm combines a migration-aware placement controller, which rebalances sessions across GPUs to reduce the maximum per-chunk latency, with a load-driven autoscaling controller, which adapts the GPU budget to workload variation for improved cost efficiency. To support these decisions at runtime, TurboServe implements coalesced chunk processing for batching concurrent active sessions on the same GPU, GPU-CPU offloading for session suspension and resumption, and NCCL-based GPU-GPU migration for online rebalancing. We evaluate TurboServe on real-world production traces from Shengshu Technology across multiple model sizes and GPU clusters with up to 64 NVIDIA B300 GPUs. Compared with baseline serving configurations, TurboServe reduces worst-case per-chunk latency by 37.5% and total GPU operating cost by 37.2% on average. Our code is publicly available at https://github.com/shengshu-ai/TurboServe .",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.19271",
+      "pdf_url": "https://arxiv.org/pdf/2606.19271",
+      "github_links": [
+        "https://github.com/shengshu-ai/TurboServe",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.19271",
+      "scraped_at": "2026-07-02T03:40:50.601643"
+    },
+    "scraped_date": "2026-07-02"
+  },
+  {
+    "title": "Domain Arithmetic: One-Shot VLA Adaptation under Environmental Shifts",
+    "paper_url": "https://huggingface.co/papers/2607.00666",
+    "authors": [],
+    "stars": "9",
+    "details": {
+      "title": "Domain Arithmetic: One-Shot VLA Adaptation under Environmental Shifts",
+      "abstract": "Accepted at ECCV 2026. Domain Arithmetic (DART) adapts multi-task VLAs to environmental shifts (e.g., camera-pose changes, embodiment changes) using a single demo of a single task through subspace-aligned weight arithmetic.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.00666",
+      "pdf_url": "https://arxiv.org/pdf/2607.00666",
+      "github_links": [
+        "https://github.com/snumprlab/dart",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.00666",
+      "scraped_at": "2026-07-02T03:40:52.645951"
+    },
+    "scraped_date": "2026-07-02"
+  },
+  {
+    "title": "CausalMix: Data Mixture as Causal Inference for Language Model Training",
+    "paper_url": "https://huggingface.co/papers/2607.01104",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CausalMix: Data Mixture as Causal Inference for Language Model Training",
+      "abstract": "22 pages, 3 figures, code is under review",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.01104",
+      "pdf_url": "https://arxiv.org/pdf/2607.01104",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.01104",
+      "scraped_at": "2026-07-02T03:40:54.557892"
+    },
+    "scraped_date": "2026-07-02"
+  },
+  {
+    "title": "BioInsight: Multi-Agent Orchestration for Interactive Biomedical Knowledge Discovery",
+    "paper_url": "https://huggingface.co/papers/2606.20997",
+    "authors": [
+      "Desong Meng",
+      "Nanyi Jiang",
+      "Bingxuan Li",
+      "JiayuJeff",
+      "Joysw909"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "BioInsight: Multi-Agent Orchestration for Interactive Biomedical Knowledge Discovery",
+      "abstract": "BioInsight converts disease-centered protein evidence into an interactive evidence interface. The system uses agent-produced artifacts for search, reasoning, report writing, and dashboard construction, so users can move from high-level hypotheses to the proteins, pathways, publications, and interaction evidence behind them. An anonymized output result is available at http://3.148.244.109:5000/",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.20997",
+      "pdf_url": "https://arxiv.org/pdf/2606.20997",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.20997",
+      "scraped_at": "2026-07-02T03:40:56.467139"
+    },
+    "scraped_date": "2026-07-02"
+  },
+  {
+    "title": "ABot-M0.5: Unified Mobility-and-Manipulation World Action Model",
+    "paper_url": "https://huggingface.co/papers/2607.00678",
+    "authors": [
+      "Tong Lin",
+      "Dongjie Huo",
+      "Zuojin Tang",
+      "Yandan Yang",
+      "Ronghan Chen"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ABot-M0.5: Unified Mobility-and-Manipulation World Action Model",
+      "abstract": "Github: https://github.com/amap-cvlab/ABot-Manipulation",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.00678",
+      "pdf_url": "https://arxiv.org/pdf/2607.00678",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/amap-cvlab/ABot-Manipulation"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.00678",
+      "scraped_at": "2026-07-02T03:40:58.414132"
+    },
+    "scraped_date": "2026-07-02"
+  },
+  {
+    "title": "Autonomous Scientific Discovery via Iterative Meta-Reflection",
+    "paper_url": "https://huggingface.co/papers/2607.01131",
+    "authors": [
+      "Oisin Mac Aodha",
+      "Sara Beery",
+      "Bingchen Zhao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Autonomous Scientific Discovery via Iterative Meta-Reflection",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.01131",
+      "pdf_url": "https://arxiv.org/pdf/2607.01131",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.01131",
+      "scraped_at": "2026-07-02T03:41:00.272568"
+    },
+    "scraped_date": "2026-07-02"
+  },
+  {
+    "title": "AutoTrainess: Teaching Language Models to Improve Language Models Autonomously",
+    "paper_url": "https://huggingface.co/papers/2606.31551",
+    "authors": [
+      "Kai Cai",
+      "Shilin He",
+      "Shuzheng Gao",
+      "Penghao Yin",
+      "Zhaojian Yu"
+    ],
+    "stars": "7",
+    "details": {
+      "title": "AutoTrainess: Teaching Language Models to Improve Language Models Autonomously",
+      "abstract": "AutoTrainess: Teaching Language Models to Improve Language Models Autonomously",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.31551",
+      "pdf_url": "https://arxiv.org/pdf/2606.31551",
+      "github_links": [
+        "https://github.com/simple-agent-lab/AutoTrainess",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.31551",
+      "scraped_at": "2026-07-02T03:41:02.394663"
+    },
+    "scraped_date": "2026-07-02"
+  },
+  {
+    "title": "Perceive-to-Reason: Decoupling Perception and Reasoning for Fine-Grained Visual Reasoning",
+    "paper_url": "https://huggingface.co/papers/2607.01191",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Perceive-to-Reason: Decoupling Perception and Reasoning for Fine-Grained Visual Reasoning",
+      "abstract": "This paper proposes P2R, a two-stage framework that decouples fine-grained visual reasoning into perception and reasoning, trained with PRA-GRPO, a role-aware alternating RL strategy requiring only final-answer supervision without bounding box annotations. 💻 Code: https://github.com/ZJU-REAL/Perceive-to-Reason 🤗 Model: https://huggingface.co/hongxingli/P2R-4B 🤗 Dataset: https://huggingface.co/datasets/hongxingli/P2R-10k",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.01191",
+      "pdf_url": "https://arxiv.org/pdf/2607.01191",
+      "github_links": [
+        "https://github.com/ZJU-REAL/Perceive-to-Reason",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.01191",
+      "scraped_at": "2026-07-02T03:41:04.389354"
+    },
+    "scraped_date": "2026-07-02"
+  },
+  {
+    "title": "Valdi: Value Diffusion World Models",
+    "paper_url": "https://huggingface.co/papers/2607.00917",
+    "authors": [
+      "Kashyap Chitta",
+      "Christopher Lindenberg"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "Valdi: Value Diffusion World Models",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.00917",
+      "pdf_url": "https://arxiv.org/pdf/2607.00917",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Kit115/ValueDiffusionWorldModels"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.00917",
+      "scraped_at": "2026-07-02T03:41:06.275421"
+    },
+    "scraped_date": "2026-07-02"
+  },
+  {
+    "title": "AtomiMed: Hierarchical Atomic Fact-Checking for Universal Clinical-Aware Medical Report Evaluation",
+    "paper_url": "https://huggingface.co/papers/2606.31292",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "AtomiMed: Hierarchical Atomic Fact-Checking for Universal Clinical-Aware Medical Report Evaluation",
+      "abstract": "Official submission of our paper introducing OmniMRG-Bench, a comprehensive benchmark for universal medical report evaluation across multiple imaging modalities. The paper also presents AtomiMed, a hierarchical atomic fact-checking framework that better aligns automatic evaluation with expert radiologist judgments.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.31292",
+      "pdf_url": "https://arxiv.org/pdf/2606.31292",
+      "github_links": [
+        "https://github.com/Venn2336/MRGEvalkit",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.31292",
+      "scraped_at": "2026-07-02T03:41:08.271935"
+    },
+    "scraped_date": "2026-07-02"
   }
 ]
