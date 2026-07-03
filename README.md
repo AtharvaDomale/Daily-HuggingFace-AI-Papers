@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-10-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-5036+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-12-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-5048+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">10</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">51</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">21</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5036+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">12</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">63</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">33</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5048+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** July 02, 2026
+**Last Updated:** July 03, 2026
 
 ---
 
@@ -119,82 +119,110 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. TurboServe: Serving Streaming Video Generation Efficiently and Economically</b> ⭐ 10</summary>
+<summary><b>1. Program-as-Weights: A Programming Paradigm for Fuzzy Functions</b> ⭐ 92</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.19271) • [📄 arXiv](https://arxiv.org/abs/2606.19271) • [📥 PDF](https://arxiv.org/pdf/2606.19271)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.02512) • [📄 arXiv](https://arxiv.org/abs/2607.02512) • [📥 PDF](https://arxiv.org/pdf/2607.02512)
 
-**💻 Code:** [⭐ Code](https://github.com/shengshu-ai/TurboServe) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/programasweights/programasweights-python)
 
-> We present TurboServe, the first serving system designed specifically for streaming video generation workloads. TurboServe formulates serving as an online scheduling problem that jointly coordinates session placement and GPU provisioning. Its clos...
+> Define functions in English → ProgramAsWeights (PAW) compiles them into neural programs → call them like ordinary Python functions. PAW enables: 🎮 Alien Taboo : give an alien free-form clues and see whether it can guess your secret word 🤖 Avatar D...
 
 </details>
 
 <details>
-<summary><b>2. Domain Arithmetic: One-Shot VLA Adaptation under Environmental Shifts</b> ⭐ 9</summary>
+<summary><b>2. Morphing into Hybrid Attention Models</b> ⭐ 4</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.00666) • [📄 arXiv](https://arxiv.org/abs/2607.00666) • [📥 PDF](https://arxiv.org/pdf/2607.00666)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.30562) • [📄 arXiv](https://arxiv.org/abs/2606.30562) • [📥 PDF](https://arxiv.org/pdf/2606.30562)
 
-**💻 Code:** [⭐ Code](https://github.com/snumprlab/dart) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/LanDisen/FlashMorph)
 
-> Accepted at ECCV 2026. Domain Arithmetic (DART) adapts multi-task VLAs to environmental shifts (e.g., camera-pose changes, embodiment changes) using a single demo of a single task through subspace-aligned weight arithmetic.
+> Morphing into Hybrid Attention Models
 
 </details>
 
 <details>
-<summary><b>3. CausalMix: Data Mixture as Causal Inference for Language Model Training</b> ⭐ 0</summary>
+<summary><b>3. Multi-Resolution Flow Matching: Training-Free Diffusion Acceleration via Staged Sampling</b> ⭐ 3</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.01104) • [📄 arXiv](https://arxiv.org/abs/2607.01104) • [📥 PDF](https://arxiv.org/pdf/2607.01104)
+**👥 Authors:** Junqing Lin, Weilun Feng, Yifu Ding, Xianglong Liu, Xingyu Zheng
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.01642) • [📄 arXiv](https://arxiv.org/abs/2607.01642) • [📥 PDF](https://arxiv.org/pdf/2607.01642)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Xingyu-Zheng/MrFlow)
+
+> MrFlow proposes a training-free multi-resolution strategy for accelerating image generation, following a clear coarse-to-fine pipeline: multi-step low-resolution structure sampling, pixel-space super-resolution, and one-step high-resolution detail...
+
+</details>
+
+<details>
+<summary><b>4. Optimizing Visual Generative Models via Distribution-wise Rewards</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.02291) • [📄 arXiv](https://arxiv.org/abs/2607.02291) • [📥 PDF](https://arxiv.org/pdf/2607.02291)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> 22 pages, 3 figures, code is under review
+> Proposes a distribution-wise RL framework for visual generation to mitigate reward hacking and mode collapse. By employing an efficient subset-replace strategy, this approach significantly improves the visual quality and diversity on the SiT model.
 
 </details>
 
 <details>
-<summary><b>4. BioInsight: Multi-Agent Orchestration for Interactive Biomedical Knowledge Discovery</b> ⭐ 0</summary>
+<summary><b>5. AgenticDataBench: A Comprehensive Benchmark for Data Agents</b> ⭐ 19</summary>
 
 <br/>
 
-**👥 Authors:** Desong Meng, Nanyi Jiang, Bingxuan Li, JiayuJeff, Joysw909
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.01647) • [📄 arXiv](https://arxiv.org/abs/2607.01647) • [📥 PDF](https://arxiv.org/pdf/2607.01647)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.20997) • [📄 arXiv](https://arxiv.org/abs/2606.20997) • [📥 PDF](https://arxiv.org/pdf/2606.20997)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/AgenticDataBench/AgenticDataBench)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> BioInsight converts disease-centered protein evidence into an interactive evidence interface. The system uses agent-produced artifacts for search, reasoning, report writing, and dashboard construction, so users can move from high-level hypotheses ...
+> AgenticDataBench is a comprehensive benchmark for evaluating LLM-based data agents that automate real-world data science workflows. It addresses the lack of rigorous evaluation by providing diverse and realistic tasks with fine-grained ground-trut...
 
 </details>
 
 <details>
-<summary><b>5. ABot-M0.5: Unified Mobility-and-Manipulation World Action Model</b> ⭐ 0</summary>
+<summary><b>6. AnyGroundBench: A Specialized-Domain Benchmark for Video Grounding in Vision-Language Models</b> ⭐ 1</summary>
 
 <br/>
 
-**👥 Authors:** Tong Lin, Dongjie Huo, Zuojin Tang, Yandan Yang, Ronghan Chen
+**👥 Authors:** Kanta Sawafuji, Taiki Kanaya, Reina Ishikawa, Ryo Fujii, Rintaro Otsubo
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.00678) • [📄 arXiv](https://arxiv.org/abs/2607.00678) • [📥 PDF](https://arxiv.org/pdf/2607.00678)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.02269) • [📄 arXiv](https://arxiv.org/abs/2607.02269) • [📥 PDF](https://arxiv.org/pdf/2607.02269)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/amap-cvlab/ABot-Manipulation)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/rinost081/AnyGroundBench)
 
-> Github: https://github.com/amap-cvlab/ABot-Manipulation
+> Vision-Language Models (VLMs) have demonstrated immense promise in Spatio-Temporal Video Grounding (STVG). However, current evaluation protocols are largely confined to zero-shot assessments on general, daily-life benchmarks. This creates a critic...
 
 </details>
 
 <details>
-<summary><b>6. Autonomous Scientific Discovery via Iterative Meta-Reflection</b> ⭐ 0</summary>
+<summary><b>7. Denser neq Better: Limits of On-Policy Self-Distillation for Continual Post-Training</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Oisin Mac Aodha, Sara Beery, Bingchen Zhao
+**👥 Authors:** Geng Liu, Lu Yang, Wenzhuo Liu, Haohan Zhao, Meng Wang
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.01131) • [📄 arXiv](https://arxiv.org/abs/2607.01131) • [📥 PDF](https://arxiv.org/pdf/2607.01131)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.01763) • [📄 arXiv](https://arxiv.org/abs/2607.01763) • [📥 PDF](https://arxiv.org/pdf/2607.01763)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Moenupa/SDPO-CL)
+
+> Denser Supervision ≠ Better Performance, as we found SDPO suffers forgetting much more than GRPO.
+
+</details>
+
+<details>
+<summary><b>8. SkillCoach: Self-Evolving Rubrics for Evaluating and Enhancing Agentic Skill-Use</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Sulong Xu, Dengbo He, Yudong Guo, Kelong Mao, Jiayin Zhu
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.01874) • [📄 arXiv](https://arxiv.org/abs/2607.01874) • [📥 PDF](https://arxiv.org/pdf/2607.01874)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
@@ -203,58 +231,62 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>7. AutoTrainess: Teaching Language Models to Improve Language Models Autonomously</b> ⭐ 7</summary>
+<summary><b>9. PACE: A Proxy for Agentic Capability Evaluation</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Kai Cai, Shilin He, Shuzheng Gao, Penghao Yin, Zhaojian Yu
+**👥 Authors:** Jiayi Geng, Lindia Tjuatja, Jiarui Liu, Lintang Sutawika, Yueqi Song
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.31551) • [📄 arXiv](https://arxiv.org/abs/2606.31551) • [📥 PDF](https://arxiv.org/pdf/2606.31551)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.02032) • [📄 arXiv](https://arxiv.org/abs/2607.02032) • [📥 PDF](https://arxiv.org/pdf/2607.02032)
 
-**💻 Code:** [⭐ Code](https://github.com/simple-agent-lab/AutoTrainess) • [⭐ Code](https://github.com/huggingface)
-
-> AutoTrainess: Teaching Language Models to Improve Language Models Autonomously
-
-</details>
-
-<details>
-<summary><b>8. Perceive-to-Reason: Decoupling Perception and Reasoning for Fine-Grained Visual Reasoning</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.01191) • [📄 arXiv](https://arxiv.org/abs/2607.01191) • [📥 PDF](https://arxiv.org/pdf/2607.01191)
-
-**💻 Code:** [⭐ Code](https://github.com/ZJU-REAL/Perceive-to-Reason) • [⭐ Code](https://github.com/huggingface)
-
-> This paper proposes P2R, a two-stage framework that decouples fine-grained visual reasoning into perception and reasoning, trained with PRA-GRPO, a role-aware alternating RL strategy requiring only final-answer supervision without bounding box ann...
-
-</details>
-
-<details>
-<summary><b>9. Valdi: Value Diffusion World Models</b> ⭐ 3</summary>
-
-<br/>
-
-**👥 Authors:** Kashyap Chitta, Christopher Lindenberg
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.00917) • [📄 arXiv](https://arxiv.org/abs/2607.00917) • [📥 PDF](https://arxiv.org/pdf/2607.00917)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Kit115/ValueDiffusionWorldModels)
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>10. AtomiMed: Hierarchical Atomic Fact-Checking for Universal Clinical-Aware Medical Report Evaluation</b> ⭐ 2</summary>
+<summary><b>10. Representation Distribution Matching for One-Step Visual Generation</b> ⭐ 8</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.31292) • [📄 arXiv](https://arxiv.org/abs/2606.31292) • [📥 PDF](https://arxiv.org/pdf/2606.31292)
+**👥 Authors:** Alexandre Alahi, Matthieu Cord, Eloi Zablocki, Wuyang Li, Lan Feng
 
-**💻 Code:** [⭐ Code](https://github.com/Venn2336/MRGEvalkit) • [⭐ Code](https://github.com/huggingface)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.02375) • [📄 arXiv](https://arxiv.org/abs/2607.02375) • [📥 PDF](https://arxiv.org/pdf/2607.02375)
 
-> Official submission of our paper introducing OmniMRG-Bench, a comprehensive benchmark for universal medical report evaluation across multiple imaging modalities. The paper also presents AtomiMed, a hierarchical atomic fact-checking framework that ...
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/vita-epfl/RDM)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>11. Learning to Move Before Learning to Do: Task-Agnostic pretraining for VLAs</b> ⭐ 1</summary>
+
+<br/>
+
+**👥 Authors:** Jingjing Gong, Li Ji, Xiaopeng Yu, Siyin Wang, Junhao Shi
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.02466) • [📄 arXiv](https://arxiv.org/abs/2607.02466) • [📥 PDF](https://arxiv.org/pdf/2607.02466)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/sjh0354/Task-Agnostic-Pretrain)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>12. WorldDirector: Building Controllable World Simulators with Persistent Dynamic Memory</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Qingyan Bai, Wen Wang, Qiuyu Wang, Hao Ouyang, Hanlin Wang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.02517) • [📄 arXiv](https://arxiv.org/abs/2607.02517) • [📥 PDF](https://arxiv.org/pdf/2607.02517)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> No abstract available.
 
 </details>
 
@@ -266,28 +298,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 10 |
-| 📅 Today | [`2026-07-02.json`](data/daily/2026-07-02.json) | 10 |
-| 📆 This Week | [`2026-W26.json`](data/weekly/2026-W26.json) | 51 |
-| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 21 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 12 |
+| 📅 Today | [`2026-07-03.json`](data/daily/2026-07-03.json) | 12 |
+| 📆 This Week | [`2026-W26.json`](data/weekly/2026-W26.json) | 63 |
+| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 33 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-07-02 | 10 | [View JSON](data/daily/2026-07-02.json) |
+| 📌 2026-07-03 | 12 | [View JSON](data/daily/2026-07-03.json) |
+| 📄 2026-07-02 | 10 | [View JSON](data/daily/2026-07-02.json) |
 | 📄 2026-07-01 | 11 | [View JSON](data/daily/2026-07-01.json) |
 | 📄 2026-06-30 | 20 | [View JSON](data/daily/2026-06-30.json) |
 | 📄 2026-06-29 | 10 | [View JSON](data/daily/2026-06-29.json) |
 | 📄 2026-06-28 | 25 | [View JSON](data/daily/2026-06-28.json) |
 | 📄 2026-06-27 | 25 | [View JSON](data/daily/2026-06-27.json) |
-| 📄 2026-06-26 | 12 | [View JSON](data/daily/2026-06-26.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W26 | 51 | [View JSON](data/weekly/2026-W26.json) |
+| 📅 2026-W26 | 63 | [View JSON](data/weekly/2026-W26.json) |
 | 📅 2026-W25 | 108 | [View JSON](data/weekly/2026-W25.json) |
 | 📅 2026-W24 | 130 | [View JSON](data/weekly/2026-W24.json) |
 | 📅 2026-W23 | 166 | [View JSON](data/weekly/2026-W23.json) |
@@ -296,7 +328,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-07 | 21 | [View JSON](data/monthly/2026-07.json) |
+| 🗓️ 2026-07 | 33 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 782 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 450 | [View JSON](data/monthly/2026-04.json) |
