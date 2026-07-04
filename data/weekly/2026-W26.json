@@ -1405,5 +1405,630 @@
       "scraped_at": "2026-07-03T03:21:59.834785"
     },
     "scraped_date": "2026-07-03"
+  },
+  {
+    "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+    "paper_url": "https://huggingface.co/papers/2607.02512",
+    "authors": [],
+    "stars": "99",
+    "details": {
+      "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+      "abstract": "Define functions in English → ProgramAsWeights (PAW) compiles them into neural programs → call them like ordinary Python functions. PAW enables: 🎮 Alien Taboo : give an alien free-form clues and see whether it can guess your secret word 🤖 Avatar Director : describe an action in natural language and watch a 3D character perform it 🌳 Website Helper : ask questions about a website and get grounded answers with relevant information and links Using PAW in Python: import programasweights as paw\n\n# Compile an English description into a local function.\nfn = paw.compile_and_load(\n    \"Classify if a message needs immediate attention or can wait\"\n)\n\n# After compilation, inference runs locally with no API calls.\nfn(\"Thesis defense moved to 3pm, need your signature today\")\n# \"immediate\"",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.02512",
+      "pdf_url": "https://arxiv.org/pdf/2607.02512",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/programasweights/programasweights-python"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.02512",
+      "scraped_at": "2026-07-04T03:15:38.369572"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2607.02255",
+    "authors": [],
+    "stars": "28",
+    "details": {
+      "title": "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.02255",
+      "pdf_url": "https://arxiv.org/pdf/2607.02255",
+      "github_links": [
+        "https://github.com/AlayaLab/AgenticSTS",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.02255",
+      "scraped_at": "2026-07-04T03:15:40.492969"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "EvoPolicyGym: Evaluating Autonomous Policy Evolution in Interactive Environments",
+    "paper_url": "https://huggingface.co/papers/2607.02440",
+    "authors": [
+      "Jiacheng Chen",
+      "Jusen Du",
+      "Runzhe Zhan",
+      "Han Song",
+      "Zhilin Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "EvoPolicyGym: Evaluating Autonomous Policy Evolution in Interactive Environments",
+      "abstract": "Autonomous agents are increasingly expected to improve executable policies through feedback, yet existing evaluations often collapse this process into a final score or confound it with open-ended software-engineering progress. We introduce Autonomous Policy Evolution, a controlled evaluation setting in which a harness-model agent repeatedly edits an executable policy system under a fixed interaction budget. We instantiate this setting in EvoPolicyGym, a benchmark built from compact interactive RL environments that evaluates how agents iteratively improve explored policies. On the EvoPolicyGym suite, GPT-5.5 achieves the strongest aggregate rank score and top-two performance on all 16 environments. Beyond leaderboard results, EvoPolicyGym also provides trajectory-level diagnostics that distinguish how agents allocate budget, convert feedback into parametric tuning. These analyses show that strong autonomous policy evolution depends not only on isolated task wins, but on discovering task-appropriate mechanisms and refining policies under bounded feedback.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.02440",
+      "pdf_url": "https://arxiv.org/pdf/2607.02440",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.02440",
+      "scraped_at": "2026-07-04T03:15:42.446201"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "Morphing into Hybrid Attention Models",
+    "paper_url": "https://huggingface.co/papers/2606.30562",
+    "authors": [],
+    "stars": "8",
+    "details": {
+      "title": "Morphing into Hybrid Attention Models",
+      "abstract": "Morphing into Hybrid Attention Models",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.30562",
+      "pdf_url": "https://arxiv.org/pdf/2606.30562",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/LanDisen/FlashMorph"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.30562",
+      "scraped_at": "2026-07-04T03:15:44.448868"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "AgenticDataBench: A Comprehensive Benchmark for Data Agents",
+    "paper_url": "https://huggingface.co/papers/2607.01647",
+    "authors": [],
+    "stars": "20",
+    "details": {
+      "title": "AgenticDataBench: A Comprehensive Benchmark for Data Agents",
+      "abstract": "AgenticDataBench is a comprehensive benchmark for evaluating LLM-based data agents that automate real-world data science workflows. It addresses the lack of rigorous evaluation by providing diverse and realistic tasks with fine-grained ground-truth labels. The benchmark includes: 344 tasks 433 data science skills 97 datasets 27.3GB of data It spans 15 domains, including real-world B2B fintech applications, and is structured around reusable data science skills—core operational patterns extracted from large-scale task solutions. By combining curated real-world tasks with systematically generated ones, AgenticDataBench ensures broad coverage and minimal redundancy. It enables both: Overall task success evaluation Fine-grained skill-level performance analysis",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.01647",
+      "pdf_url": "https://arxiv.org/pdf/2607.01647",
+      "github_links": [
+        "https://github.com/AgenticDataBench/AgenticDataBench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.01647",
+      "scraped_at": "2026-07-04T03:15:46.413921"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "Multi-Resolution Flow Matching: Training-Free Diffusion Acceleration via Staged Sampling",
+    "paper_url": "https://huggingface.co/papers/2607.01642",
+    "authors": [
+      "Junqing Lin",
+      "Weilun Feng",
+      "Yifu Ding",
+      "Xianglong Liu",
+      "Xingyu Zheng"
+    ],
+    "stars": "29",
+    "details": {
+      "title": "Multi-Resolution Flow Matching: Training-Free Diffusion Acceleration via Staged Sampling",
+      "abstract": "MrFlow proposes a training-free multi-resolution strategy for accelerating image generation, following a clear coarse-to-fine pipeline: multi-step low-resolution structure sampling, pixel-space super-resolution, and one-step high-resolution detail refinement. This elegant design achieves faithful generation with up to 10x end-to-end speedup , establishing a new SOTA among training-free diffusion acceleration methods. Moreover, MrFlow is orthogonal to pretrained timestep distillation methods, allowing straightforward combination and further pushing the end-to-end speedup beyond 25x . Overall, the work is simple but effective.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.01642",
+      "pdf_url": "https://arxiv.org/pdf/2607.01642",
+      "github_links": [
+        "https://github.com/Xingyu-Zheng/MrFlow",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.01642",
+      "scraped_at": "2026-07-04T03:15:48.324186"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "WorldDirector: Building Controllable World Simulators with Persistent Dynamic Memory",
+    "paper_url": "https://huggingface.co/papers/2607.02517",
+    "authors": [
+      "Qingyan Bai",
+      "Wen Wang",
+      "Qiuyu Wang",
+      "Hao Ouyang",
+      "Hanlin Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "WorldDirector: Building Controllable World Simulators with Persistent Dynamic Memory",
+      "abstract": "Project Page: https://worlddirector.github.io/ Github: https://github.com/pPetrichor/WorldDirector",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.02517",
+      "pdf_url": "https://arxiv.org/pdf/2607.02517",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/pPetrichor/WorldDirector"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.02517",
+      "scraped_at": "2026-07-04T03:15:50.308928"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "Breaking Failure Cascades: Step-Aware Reinforcement Learning for Medical Multimodal Reasoning",
+    "paper_url": "https://huggingface.co/papers/2606.31825",
+    "authors": [
+      "Jaehoon Yun",
+      "Sungwook Jung",
+      "Suhyeon Lim",
+      "Minbyul Jeong",
+      "Junha Jung"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Breaking Failure Cascades: Step-Aware Reinforcement Learning for Medical Multimodal Reasoning",
+      "abstract": "Recent multimodal large language models have shown great promise in clinical image reasoning, but existing post-training pipelines remain predominantly outcome-centric, relying on final answer correctness or sequence-level preferences. This suffers from sparse credit assignment, making it difficult to optimize the reasoning process essential for clinical applications. Our analysis reveals that cascading errors from early-stage reasoning failures are a leading cause of incorrect predictions in medical visual question answering (VQA) benchmarks. Motivated by this, we propose Medical Reasoning-aware Policy Optimization (MRPO), an RL algorithm that incorporates step-wise process rewards. When the final answer is incorrect, MRPO assigns exponentially larger penalties to tokens in earlier invalid reasoning steps, breaking failure cascades without compromising successful paths. Across three multimodal LLM backbones, MRPO consistently outperforms standard GRPO and a recent RL baseline, and on Qwen3-VL-8B-Instruct even surpasses substantially larger medical MLLMs such as HuatuoGPT-Vision-34B by 2.79 points. Moreover, MRPO reduces early-stage reasoning failures from 64.0% to 13.0%, showing that targeted mitigation of cascading failures improves both reasoning quality and final answer accuracy. Our code is available at this https URL ( https://github.com/dmis-lab/MRPO ) Models: https://huggingface.co/collections/dmis-lab/mrpo",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.31825",
+      "pdf_url": "https://arxiv.org/pdf/2606.31825",
+      "github_links": [
+        "https://github.com/dmis-lab/MRPO",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.31825",
+      "scraped_at": "2026-07-04T03:15:52.264497"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "SkillCoach: Self-Evolving Rubrics for Evaluating and Enhancing Agentic Skill-Use",
+    "paper_url": "https://huggingface.co/papers/2607.01874",
+    "authors": [
+      "Sulong Xu",
+      "Dengbo He",
+      "Yudong Guo",
+      "Kelong Mao",
+      "Jiayin Zhu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SkillCoach: Self-Evolving Rubrics for Evaluating and Enhancing Agentic Skill-Use",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.01874",
+      "pdf_url": "https://arxiv.org/pdf/2607.01874",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.01874",
+      "scraped_at": "2026-07-04T03:15:54.181133"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "Optimizing Visual Generative Models via Distribution-wise Rewards",
+    "paper_url": "https://huggingface.co/papers/2607.02291",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Optimizing Visual Generative Models via Distribution-wise Rewards",
+      "abstract": "Proposes a distribution-wise RL framework for visual generation to mitigate reward hacking and mode collapse. By employing an efficient subset-replace strategy, this approach significantly improves the visual quality and diversity on the SiT model.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.02291",
+      "pdf_url": "https://arxiv.org/pdf/2607.02291",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.02291",
+      "scraped_at": "2026-07-04T03:15:56.116006"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "Logit-Contribution Scoring Identifies Non-Literal Retrieval Heads",
+    "paper_url": "https://huggingface.co/papers/2607.01002",
+    "authors": [
+      "Pasquale Minervini",
+      "Beatrice Alex",
+      "Aryo Pradipta Gema"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Logit-Contribution Scoring Identifies Non-Literal Retrieval Heads",
+      "abstract": "A fresh perspective on retrieval heads!",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.01002",
+      "pdf_url": "https://arxiv.org/pdf/2607.01002",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/aryopg/locos"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.01002",
+      "scraped_at": "2026-07-04T03:15:58.018865"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "AGVBench: A Reliability-Oriented Benchmark of Data Augmentation for Vein Recognition",
+    "paper_url": "https://huggingface.co/papers/2607.02271",
+    "authors": [],
+    "stars": "9",
+    "details": {
+      "title": "AGVBench: A Reliability-Oriented Benchmark of Data Augmentation for Vein Recognition",
+      "abstract": "TL;DR: We open-source AGVBench, the first reliability-oriented benchmark for data augmentation in vein recognition. By systematically evaluating 30 representative augmentation strategies across 5 public palm- and finger-vein datasets using 7 backbone architectures, we demonstrate that accuracy-centric evaluation alone is insufficient for assessing the reliability of biometric recognition systems. 📌 Key Findings: 🔹 Accuracy–Security Decoupling: Multi-image mixing methods (e.g., MixUp and PuzzleMix) generally achieve the strongest recognition performance. However, they are often poorly calibrated and more vulnerable to adversarial perturbations, revealing a clear inconsistency between clean accuracy and adversarial security. 🔹 Degradation from Geometric Transformations: Severe geometric transformations consistently degrade recognition performance, likely due to feature misalignment or spatial cropping, rather than direct disruption of vein topology. 🔹 Modality Variations: The effectiveness of augmentation strategies varies substantially across palm-vein and finger-vein datasets, indicating that no single augmentation strategy universally generalizes across different vein modalities. 🚀 Beyond benchmarking, AGVBench aims to serve as an open research platform for reliability-oriented vein recognition, promoting reproducible evaluation, inspiring the development of next-generation augmentation algorithms, and advancing the deployment of trustworthy biometric systems in real-world applications. 🏠 Project Page: https://advance-veintech-innovators.github.io/AGVBench/ 📄 ArXiv Paper: https://arxiv.org/abs/2607.02271 💻 Code & Benchmark: https://github.com/Advance-VeinTech-Innovators/AGVBench",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.02271",
+      "pdf_url": "https://arxiv.org/pdf/2607.02271",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Advance-VeinTech-Innovators/AGVBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.02271",
+      "scraped_at": "2026-07-04T03:15:59.949762"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "From SRA to Self-Flow: Data Augmentation or Self-Supervision?",
+    "paper_url": "https://huggingface.co/papers/2607.02508",
+    "authors": [
+      "Jingdong Wang",
+      "Harry Yang",
+      "Mengmeng Wang",
+      "Dengyang Jiang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "From SRA to Self-Flow: Data Augmentation or Self-Supervision?",
+      "abstract": "The underlying mechanism behind the evolution from SRA to Self-Flow",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.02508",
+      "pdf_url": "https://arxiv.org/pdf/2607.02508",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.02508",
+      "scraped_at": "2026-07-04T03:16:01.834610"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "InstanceControl: Controllable Complex Image Generation without Instance Labeling",
+    "paper_url": "https://huggingface.co/papers/2606.31924",
+    "authors": [
+      "Jiaqi Xu",
+      "Zhixin Wang",
+      "Fan Li",
+      "Huan Wang",
+      "xiaoyu1104"
+    ],
+    "stars": "15",
+    "details": {
+      "title": "InstanceControl: Controllable Complex Image Generation without Instance Labeling",
+      "abstract": "Accepted by ECCV 2026, project page: https://instancecontrol.github.io/InstanceControl/",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.31924",
+      "pdf_url": "https://arxiv.org/pdf/2606.31924",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/liuxiaoyu1104/InstanceControl"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.31924",
+      "scraped_at": "2026-07-04T03:16:03.732595"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "When Search Agents Should Ask: DiscoBench for Clarification-Aware Deep Search",
+    "paper_url": "https://huggingface.co/papers/2606.27669",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "When Search Agents Should Ask: DiscoBench for Clarification-Aware Deep Search",
+      "abstract": "We introduce DiscoBench: a benchmark for evaluating when an LLM search agent should stop searching and ask for clarification. Many search-agent benchmarks assume that user queries are complete and well-specified. But in real-world deep search, requests are often vague, underspecified, or even factually incorrect. In these cases, the answer may still exist, but it is not reachable through search alone until the agent resolves the ambiguity with the user. DiscoBench evaluates this capability with 211 samples and 463 ambiguity instances across 11 real-world domains. It tests whether agents can detect ambiguous checkpoints, ask effective clarification questions, and recover the correct reasoning path through interaction. A key finding is that failure is not simply caused by missing knowledge or weak retrieval. Repeatedly searching can even be worse than directly guessing: SearchHeavyGuess achieves lower pass rates than DirectGuess, while SearchThenAsk reaches the highest pass rate. This suggests that current agents may notice uncertainty in retrieval results, but still fail to convert that uncertainty into the right external action. This points to a broader question for agent evaluation: beyond measuring whether an agent eventually completes a task, should we also evaluate whether it chooses the right next action when the current path becomes unreliable? DiscoBench highlights this missing capability: transforming uncertainty into the right interaction decision. Happy to hear thoughts from the community!",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.27669",
+      "pdf_url": "https://arxiv.org/pdf/2606.27669",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.27669",
+      "scraped_at": "2026-07-04T03:16:05.648812"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "AnyGroundBench: A Specialized-Domain Benchmark for Video Grounding in Vision-Language Models",
+    "paper_url": "https://huggingface.co/papers/2607.02269",
+    "authors": [
+      "Kanta Sawafuji",
+      "Taiki Kanaya",
+      "Reina Ishikawa",
+      "Ryo Fujii",
+      "Rintaro Otsubo"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "AnyGroundBench: A Specialized-Domain Benchmark for Video Grounding in Vision-Language Models",
+      "abstract": "Vision-Language Models (VLMs) have demonstrated immense promise in Spatio-Temporal Video Grounding (STVG). However, current evaluation protocols are largely confined to zero-shot assessments on general, daily-life benchmarks. This creates a critical disconnect from real-world applications in specialized fields, where models inevitably encounter rare visual concepts and complex spatio-temporal dynamics. Since exhaustive pre-training across infinite data distributions is infeasible, the ability to adapt to novel domains is essential. To bridge this gap, we introduce AnyGroundBench, a domain-adaptation benchmark designed to shift the STVG evaluation paradigm from static zero-shot testing to rigorous domain adaptation. Targeting five specialized domains (animal, industry, sports, surgery, and public security), AnyGroundBench pairs newly captured videos, such as expert-annotated mouse behaviors, with established datasets, unifying them through dense, high-fidelity spatio-temporal annotations. Crucially, the benchmark provides dedicated training subsets to systematically measure domain adaptability. We extensively evaluate 15 state-of-the-art VLMs, assessing their zero-shot generalization and In-Context Learning (ICL) capabilities under practical computational constraints. Ultimately, our findings reveal that current models fail in both zero-shot and ICL-based adaptation when confronted with specialized domains, exposing critical flaws in spatio-temporal reasoning that future research must address.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.02269",
+      "pdf_url": "https://arxiv.org/pdf/2607.02269",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/rinost081/AnyGroundBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.02269",
+      "scraped_at": "2026-07-04T03:16:07.783556"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "AutoMem: Automated Learning of Memory as a Cognitive Skill",
+    "paper_url": "https://huggingface.co/papers/2607.01224",
+    "authors": [
+      "Serena Yeung-Levy",
+      "Xiaohan Wang",
+      "Yuhui Zhang",
+      "Hao Zhu",
+      "Shengguang Wu"
+    ],
+    "stars": "26",
+    "details": {
+      "title": "AutoMem: Automated Learning of Memory as a Cognitive Skill",
+      "abstract": "On long-horizon tasks, an LLM agent has to manage a lot of memory — what to write down, what to look up. We turn managing memory into a skill the model learns, and improve it automatically. An open 32B model approaches frontier-level performance on three procedurally generated long-horizon games: Crafter, MiniHack, and NetHack. Code & demos: https://autolearnmem.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.01224",
+      "pdf_url": "https://arxiv.org/pdf/2607.01224",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/autoLearnMem/AutoMem"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.01224",
+      "scraped_at": "2026-07-04T03:16:09.854047"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "PACE: A Proxy for Agentic Capability Evaluation",
+    "paper_url": "https://huggingface.co/papers/2607.02032",
+    "authors": [
+      "Jiayi Geng",
+      "Lindia Tjuatja",
+      "Jiarui Liu",
+      "Lintang Sutawika",
+      "Yueqi Song"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "PACE: A Proxy for Agentic Capability Evaluation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.02032",
+      "pdf_url": "https://arxiv.org/pdf/2607.02032",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.02032",
+      "scraped_at": "2026-07-04T03:16:11.735653"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "Representation Distribution Matching for One-Step Visual Generation",
+    "paper_url": "https://huggingface.co/papers/2607.02375",
+    "authors": [
+      "Alexandre Alahi",
+      "Matthieu Cord",
+      "Eloi Zablocki",
+      "Wuyang Li",
+      "Lan Feng"
+    ],
+    "stars": "26",
+    "details": {
+      "title": "Representation Distribution Matching for One-Step Visual Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.02375",
+      "pdf_url": "https://arxiv.org/pdf/2607.02375",
+      "github_links": [
+        "https://github.com/vita-epfl/RDM",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.02375",
+      "scraped_at": "2026-07-04T03:16:13.780806"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "Learning to Move Before Learning to Do: Task-Agnostic pretraining for VLAs",
+    "paper_url": "https://huggingface.co/papers/2607.02466",
+    "authors": [
+      "Jingjing Gong",
+      "Li Ji",
+      "Xiaopeng Yu",
+      "Siyin Wang",
+      "Junhao Shi"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Learning to Move Before Learning to Do: Task-Agnostic pretraining for VLAs",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.02466",
+      "pdf_url": "https://arxiv.org/pdf/2607.02466",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/sjh0354/Task-Agnostic-Pretrain"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.02466",
+      "scraped_at": "2026-07-04T03:16:15.653850"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "Denser neq Better: Limits of On-Policy Self-Distillation for Continual Post-Training",
+    "paper_url": "https://huggingface.co/papers/2607.01763",
+    "authors": [
+      "Geng Liu",
+      "Lu Yang",
+      "Wenzhuo Liu",
+      "Haohan Zhao",
+      "Meng Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Denser neq Better: Limits of On-Policy Self-Distillation for Continual Post-Training",
+      "abstract": "Denser Supervision ≠ Better Performance, as we found SDPO suffers forgetting much more than GRPO.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.01763",
+      "pdf_url": "https://arxiv.org/pdf/2607.01763",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Moenupa/SDPO-CL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.01763",
+      "scraped_at": "2026-07-04T03:16:17.579739"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "Discrete Diffusion Language Models for Interactive Radiology Report Drafting",
+    "paper_url": "https://huggingface.co/papers/2607.01436",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Discrete Diffusion Language Models for Interactive Radiology Report Drafting",
+      "abstract": "Discrete diffusion LMs can draft radiology reports interactively - and match autoregression while doing it. We finetune an MoE diffusion VLM (DiffusionGemma-26B, 3.8B active) head-to-head against its autoregressive sibling (Gemma-4-26B) under an identical LoRA recipe - same backbone, vision tower, data, LoRA targets - so the generative paradigm is nearly the only variable. Then we lean on a property AR doesn't have off the shelf: any-order infill. Matches/edges out AR on medical VQA (VQA-RAD, SLAKE, VQA-Med), LLM-judge scored — same recipe, no diffusion-specific tricks. 3.5–4.4× faster decoding at matched output budgets. Training-free interactive infill: clamp fixed report fragments at each denoising step and the model fills the gaps using both-sided context. The radiologist pins what they know; the model drafts the rest. To our knowledge this is the first medical finetune of DiffusionGemma , currently done per-dataset on medical VQA (+ single-sentence infill on MIMIC-CXR), so accuracy here is VQA. A full medical finetune targeting report generation is in the works. 📄 https://arxiv.org/abs/2607.01436 🤗 weights: https://huggingface.co/gevaertlab/diffusiongemma-radiology-vqa 💻 code: https://github.com/mxvp/discrete_diffusion_RRG Feel free to reach out! 🤗",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.01436",
+      "pdf_url": "https://arxiv.org/pdf/2607.01436",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/mxvp/discrete_diffusion_RRG"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.01436",
+      "scraped_at": "2026-07-04T03:16:19.804193"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "WARP: Weight-Space Analysis for Recovering Training Data Portfolios",
+    "paper_url": "https://huggingface.co/papers/2607.01686",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "WARP: Weight-Space Analysis for Recovering Training Data Portfolios",
+      "abstract": "Weight-space geometry encodes traces of training data. Can we use it to reverse-engineer data recipes? Introducing WARP: a new strategy to estimate domain mixtures from model weights alone!",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.01686",
+      "pdf_url": "https://arxiv.org/pdf/2607.01686",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/SprocketLab/WARP"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.01686",
+      "scraped_at": "2026-07-04T03:16:21.694545"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "DuoMem: Towards Capable On-Device Memory Agents via Dual-Space Distillation",
+    "paper_url": "https://huggingface.co/papers/2606.29961",
+    "authors": [
+      "Ignacio Castro",
+      "Andrea Maracani",
+      "Ahmed Alajrami",
+      "Ondrej Bohdal",
+      "Peyman Hosseini"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "DuoMem: Towards Capable On-Device Memory Agents via Dual-Space Distillation",
+      "abstract": "We are excited to release DuoMem, a dual-space distillation framework for on-device AI agents! DuoMem combines context-space and parameter-space distillation to transfer knowledge from a large teacher model into a small on-device model. It boosts 4B model success rate from 4.3% to 77.9% on ALFWorld, achieving near-parity with a 72B teacher model (87.1%) with 3× faster inference. Minimal overhead with <10M trainable parameters, making it suitable for edge deployment.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.29961",
+      "pdf_url": "https://arxiv.org/pdf/2606.29961",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.29961",
+      "scraped_at": "2026-07-04T03:16:23.578263"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "Transferability for General Reasoning: An Automated Curriculum for Multi-Domain RLVR",
+    "paper_url": "https://huggingface.co/papers/2606.25178",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Transferability for General Reasoning: An Automated Curriculum for Multi-Domain RLVR",
+      "abstract": "TAC studies general reasoning through the lens of transferability: instead of asking whether post-training improves performance on its source domain, we ask how well the learned behavior transfers across held-out domains. Across 14 benchmarks in 6 domains and two backbones, TAC improves macro-average accuracy and reveals a surprising pattern: math, often treated as a central RLVR domain, is among the least transferable.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.25178",
+      "pdf_url": "https://arxiv.org/pdf/2606.25178",
+      "github_links": [
+        "https://github.com/YangYongJin/transfer-aware-curriculum",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.25178",
+      "scraped_at": "2026-07-04T03:16:25.472972"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "Parameter-Efficient Quantum-Inspired Fast Weight Programmers for Traffic-Matrix Forecasting",
+    "paper_url": "https://huggingface.co/papers/2606.27821",
+    "authors": [
+      "Nan-Yow Chen",
+      "Tai-Yue Li",
+      "Chun-Hua Lin",
+      "Jiun-Cheng Jiang",
+      "Kuo-Chung Peng"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Parameter-Efficient Quantum-Inspired Fast Weight Programmers for Traffic-Matrix Forecasting",
+      "abstract": "This paper explores whether compact quantum-inspired recurrent models can efficiently forecast full network traffic matrices under realistic resource constraints. The authors adapt gated quantum-inspired Kolmogorov–Arnold Network Fast-Weight Programmers, or QKAN-FWPs, to predict the next 20 five-minute Abilene traffic-matrix frames from a two-hour history, covering 144 origin–destination traffic channels. Instead of relying on graph, transformer, vision, or diffusion modules, the study isolates lightweight recurrent fast-weight designs and compares three QKAN placement variants against matched-size and larger LSTMs plus a classical gated FWP baseline. The best model, G-QKANFWP, achieves the lowest pooled RMSE while using only 22.4% of the parameters of the larger LSTM, and it also outperforms the classical G-FWP baseline, suggesting that the quantum-inspired fast readout contributes beyond the gated fast-weight mechanism alone. The results position G-QKANFWP as a promising accuracy–efficiency trade-off for online traffic-matrix forecasting in edge, cloud-edge, and network-control settings.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.27821",
+      "pdf_url": "https://arxiv.org/pdf/2606.27821",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.27821",
+      "scraped_at": "2026-07-04T03:16:27.411525"
+    },
+    "scraped_date": "2026-07-04"
+  },
+  {
+    "title": "Scaling Laws for Grid-Based Approximate Nearest Neighbor Search in High Dimensions",
+    "paper_url": "https://huggingface.co/papers/2607.01283",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Scaling Laws for Grid-Based Approximate Nearest Neighbor Search in High Dimensions",
+      "abstract": "Grid-based approaches to approximate nearest neighbor (ANN) search have been absent from modern scaling analyses. We present a systematic characterization of a multiprobe grid algorithm with respect to dataset size $N$ and dimensionality $d$. Our experiments reveal a previously unreported $d$-scaling crossover on the GloVe embedding family, in which multiprobe grid search maintains an approximately constant dimensional scaling exponent while other graph-, tree-, and partitioning-based methods exhibit degrading throughput. The advantage comes with near-linear query scaling in $N$, but also with lower indexing cost than competing ANN methods. Our results suggest that grid-based methods such as multiprobe grid may be competitive in rebuild-heavy or high-dimensional settings where indexing cost and dimensional robustness dictate performance. More broadly, recent work has formalized self-attention as an ANN operation. Thus, the $N$- and $d$-scaling properties of ANN algorithms may guide cost analysis of efficient transformer architectures. Code is  available at: https://github.com/weiz345/MultiProbeANN",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.01283",
+      "pdf_url": "https://arxiv.org/pdf/2607.01283",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/weiz345/MultiProbeANN"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.01283",
+      "scraped_at": "2026-07-04T03:16:29.300199"
+    },
+    "scraped_date": "2026-07-04"
   }
 ]
