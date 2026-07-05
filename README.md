@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-27-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-5075+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-5102+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">27</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">90</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">60</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5075+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">117</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">87</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5102+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** July 04, 2026
+**Last Updated:** July 05, 2026
 
 ---
 
@@ -119,20 +119,20 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Program-as-Weights: A Programming Paradigm for Fuzzy Functions</b> ⭐ 99</summary>
+<summary><b>1. Program-as-Weights: A Programming Paradigm for Fuzzy Functions</b> ⭐ 113</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.02512) • [📄 arXiv](https://arxiv.org/abs/2607.02512) • [📥 PDF](https://arxiv.org/pdf/2607.02512)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/programasweights/programasweights-python)
+**💻 Code:** [⭐ Code](https://github.com/programasweights/programasweights-python) • [⭐ Code](https://github.com/huggingface)
 
 > Define functions in English → ProgramAsWeights (PAW) compiles them into neural programs → call them like ordinary Python functions. PAW enables: 🎮 Alien Taboo : give an alien free-form clues and see whether it can guess your secret word 🤖 Avatar D...
 
 </details>
 
 <details>
-<summary><b>2. AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents</b> ⭐ 28</summary>
+<summary><b>2. AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents</b> ⭐ 51</summary>
 
 <br/>
 
@@ -160,33 +160,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>4. Morphing into Hybrid Attention Models</b> ⭐ 8</summary>
+<summary><b>4. Morphing into Hybrid Attention Models</b> ⭐ 9</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.30562) • [📄 arXiv](https://arxiv.org/abs/2606.30562) • [📥 PDF](https://arxiv.org/pdf/2606.30562)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/LanDisen/FlashMorph)
+**💻 Code:** [⭐ Code](https://github.com/LanDisen/FlashMorph) • [⭐ Code](https://github.com/huggingface)
 
 > Morphing into Hybrid Attention Models
 
 </details>
 
 <details>
-<summary><b>5. AgenticDataBench: A Comprehensive Benchmark for Data Agents</b> ⭐ 20</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.01647) • [📄 arXiv](https://arxiv.org/abs/2607.01647) • [📥 PDF](https://arxiv.org/pdf/2607.01647)
-
-**💻 Code:** [⭐ Code](https://github.com/AgenticDataBench/AgenticDataBench) • [⭐ Code](https://github.com/huggingface)
-
-> AgenticDataBench is a comprehensive benchmark for evaluating LLM-based data agents that automate real-world data science workflows. It addresses the lack of rigorous evaluation by providing diverse and realistic tasks with fine-grained ground-trut...
-
-</details>
-
-<details>
-<summary><b>6. Multi-Resolution Flow Matching: Training-Free Diffusion Acceleration via Staged Sampling</b> ⭐ 29</summary>
+<summary><b>5. Multi-Resolution Flow Matching: Training-Free Diffusion Acceleration via Staged Sampling</b> ⭐ 87</summary>
 
 <br/>
 
@@ -197,6 +184,19 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/Xingyu-Zheng/MrFlow) • [⭐ Code](https://github.com/huggingface)
 
 > MrFlow proposes a training-free multi-resolution strategy for accelerating image generation, following a clear coarse-to-fine pipeline: multi-step low-resolution structure sampling, pixel-space super-resolution, and one-step high-resolution detail...
+
+</details>
+
+<details>
+<summary><b>6. AgenticDataBench: A Comprehensive Benchmark for Data Agents</b> ⭐ 22</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.01647) • [📄 arXiv](https://arxiv.org/abs/2607.01647) • [📥 PDF](https://arxiv.org/pdf/2607.01647)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/AgenticDataBench/AgenticDataBench)
+
+> AgenticDataBench is a comprehensive benchmark for evaluating LLM-based data agents that automate real-world data science workflows. It addresses the lack of rigorous evaluation by providing diverse and realistic tasks with fine-grained ground-trut...
 
 </details>
 
@@ -241,7 +241,7 @@ getTodaysPapers();
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> No abstract available.
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API SkillRevise: Improving LLM-Authored Agent Skills via Trace-Conditioned Skil...
 
 </details>
 
@@ -274,7 +274,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>12. AGVBench: A Reliability-Oriented Benchmark of Data Augmentation for Vein Recognition</b> ⭐ 9</summary>
+<summary><b>12. AGVBench: A Reliability-Oriented Benchmark of Data Augmentation for Vein Recognition</b> ⭐ 13</summary>
 
 <br/>
 
@@ -287,65 +287,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>13. From SRA to Self-Flow: Data Augmentation or Self-Supervision?</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Jingdong Wang, Harry Yang, Mengmeng Wang, Dengyang Jiang
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.02508) • [📄 arXiv](https://arxiv.org/abs/2607.02508) • [📥 PDF](https://arxiv.org/pdf/2607.02508)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> The underlying mechanism behind the evolution from SRA to Self-Flow
-
-</details>
-
-<details>
-<summary><b>14. InstanceControl: Controllable Complex Image Generation without Instance Labeling</b> ⭐ 15</summary>
-
-<br/>
-
-**👥 Authors:** Jiaqi Xu, Zhixin Wang, Fan Li, Huan Wang, xiaoyu1104
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.31924) • [📄 arXiv](https://arxiv.org/abs/2606.31924) • [📥 PDF](https://arxiv.org/pdf/2606.31924)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/liuxiaoyu1104/InstanceControl)
-
-> Accepted by ECCV 2026, project page: https://instancecontrol.github.io/InstanceControl/
-
-</details>
-
-<details>
-<summary><b>15. When Search Agents Should Ask: DiscoBench for Clarification-Aware Deep Search</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.27669) • [📄 arXiv](https://arxiv.org/abs/2606.27669) • [📥 PDF](https://arxiv.org/pdf/2606.27669)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> We introduce DiscoBench: a benchmark for evaluating when an LLM search agent should stop searching and ask for clarification. Many search-agent benchmarks assume that user queries are complete and well-specified. But in real-world deep search, req...
-
-</details>
-
-<details>
-<summary><b>16. AnyGroundBench: A Specialized-Domain Benchmark for Video Grounding in Vision-Language Models</b> ⭐ 3</summary>
-
-<br/>
-
-**👥 Authors:** Kanta Sawafuji, Taiki Kanaya, Reina Ishikawa, Ryo Fujii, Rintaro Otsubo
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.02269) • [📄 arXiv](https://arxiv.org/abs/2607.02269) • [📥 PDF](https://arxiv.org/pdf/2607.02269)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/rinost081/AnyGroundBench)
-
-> Vision-Language Models (VLMs) have demonstrated immense promise in Spatio-Temporal Video Grounding (STVG). However, current evaluation protocols are largely confined to zero-shot assessments on general, daily-life benchmarks. This creates a critic...
-
-</details>
-
-<details>
-<summary><b>17. AutoMem: Automated Learning of Memory as a Cognitive Skill</b> ⭐ 26</summary>
+<summary><b>13. AutoMem: Automated Learning of Memory as a Cognitive Skill</b> ⭐ 47</summary>
 
 <br/>
 
@@ -360,6 +302,64 @@ getTodaysPapers();
 </details>
 
 <details>
+<summary><b>14. From SRA to Self-Flow: Data Augmentation or Self-Supervision?</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Jingdong Wang, Harry Yang, Mengmeng Wang, Dengyang Jiang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.02508) • [📄 arXiv](https://arxiv.org/abs/2607.02508) • [📥 PDF](https://arxiv.org/pdf/2607.02508)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> The underlying mechanism behind the evolution from SRA to Self-Flow
+
+</details>
+
+<details>
+<summary><b>15. InstanceControl: Controllable Complex Image Generation without Instance Labeling</b> ⭐ 16</summary>
+
+<br/>
+
+**👥 Authors:** Jiaqi Xu, Zhixin Wang, Fan Li, Huan Wang, xiaoyu1104
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.31924) • [📄 arXiv](https://arxiv.org/abs/2606.31924) • [📥 PDF](https://arxiv.org/pdf/2606.31924)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/liuxiaoyu1104/InstanceControl)
+
+> Accepted by ECCV 2026, project page: https://instancecontrol.github.io/InstanceControl/
+
+</details>
+
+<details>
+<summary><b>16. When Search Agents Should Ask: DiscoBench for Clarification-Aware Deep Search</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2606.27669) • [📄 arXiv](https://arxiv.org/abs/2606.27669) • [📥 PDF](https://arxiv.org/pdf/2606.27669)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> We introduce DiscoBench: a benchmark for evaluating when an LLM search agent should stop searching and ask for clarification. Many search-agent benchmarks assume that user queries are complete and well-specified. But in real-world deep search, req...
+
+</details>
+
+<details>
+<summary><b>17. AnyGroundBench: A Specialized-Domain Benchmark for Video Grounding in Vision-Language Models</b> ⭐ 3</summary>
+
+<br/>
+
+**👥 Authors:** Kanta Sawafuji, Taiki Kanaya, Reina Ishikawa, Ryo Fujii, Rintaro Otsubo
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.02269) • [📄 arXiv](https://arxiv.org/abs/2607.02269) • [📥 PDF](https://arxiv.org/pdf/2607.02269)
+
+**💻 Code:** [⭐ Code](https://github.com/rinost081/AnyGroundBench) • [⭐ Code](https://github.com/huggingface)
+
+> Vision-Language Models (VLMs) have demonstrated immense promise in Spatio-Temporal Video Grounding (STVG). However, current evaluation protocols are largely confined to zero-shot assessments on general, daily-life benchmarks. This creates a critic...
+
+</details>
+
+<details>
 <summary><b>18. PACE: A Proxy for Agentic Capability Evaluation</b> ⭐ 0</summary>
 
 <br/>
@@ -370,27 +370,25 @@ getTodaysPapers();
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> No abstract available.
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API WildClawBench: A Benchmark for Real-World, Long-Horizon Agent Evaluation (2...
 
 </details>
 
 <details>
-<summary><b>19. Representation Distribution Matching for One-Step Visual Generation</b> ⭐ 26</summary>
+<summary><b>19. WARP: Weight-Space Analysis for Recovering Training Data Portfolios</b> ⭐ 2</summary>
 
 <br/>
 
-**👥 Authors:** Alexandre Alahi, Matthieu Cord, Eloi Zablocki, Wuyang Li, Lan Feng
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.01686) • [📄 arXiv](https://arxiv.org/abs/2607.01686) • [📥 PDF](https://arxiv.org/pdf/2607.01686)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.02375) • [📄 arXiv](https://arxiv.org/abs/2607.02375) • [📥 PDF](https://arxiv.org/pdf/2607.02375)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/SprocketLab/WARP)
 
-**💻 Code:** [⭐ Code](https://github.com/vita-epfl/RDM) • [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
+> Weight-space geometry encodes traces of training data. Can we use it to reverse-engineer data recipes? Introducing WARP: a new strategy to estimate domain mixtures from model weights alone!
 
 </details>
 
 <details>
-<summary><b>20. Learning to Move Before Learning to Do: Task-Agnostic pretraining for VLAs</b> ⭐ 2</summary>
+<summary><b>20. Learning to Move Before Learning to Do: Task-Agnostic pretraining for VLAs</b> ⭐ 3</summary>
 
 <br/>
 
@@ -398,9 +396,9 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.02466) • [📄 arXiv](https://arxiv.org/abs/2607.02466) • [📥 PDF](https://arxiv.org/pdf/2607.02466)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/sjh0354/Task-Agnostic-Pretrain)
+**💻 Code:** [⭐ Code](https://github.com/sjh0354/Task-Agnostic-Pretrain) • [⭐ Code](https://github.com/huggingface)
 
-> No abstract available.
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API APT: Action Expert Pretraining Improves Instruction Generalization of Visio...
 
 </details>
 
@@ -420,33 +418,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>22. Discrete Diffusion Language Models for Interactive Radiology Report Drafting</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.01436) • [📄 arXiv](https://arxiv.org/abs/2607.01436) • [📥 PDF](https://arxiv.org/pdf/2607.01436)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/mxvp/discrete_diffusion_RRG)
-
-> Discrete diffusion LMs can draft radiology reports interactively - and match autoregression while doing it. We finetune an MoE diffusion VLM (DiffusionGemma-26B, 3.8B active) head-to-head against its autoregressive sibling (Gemma-4-26B) under an i...
-
-</details>
-
-<details>
-<summary><b>23. WARP: Weight-Space Analysis for Recovering Training Data Portfolios</b> ⭐ 2</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.01686) • [📄 arXiv](https://arxiv.org/abs/2607.01686) • [📥 PDF](https://arxiv.org/pdf/2607.01686)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/SprocketLab/WARP)
-
-> Weight-space geometry encodes traces of training data. Can we use it to reverse-engineer data recipes? Introducing WARP: a new strategy to estimate domain mixtures from model weights alone!
-
-</details>
-
-<details>
-<summary><b>24. DuoMem: Towards Capable On-Device Memory Agents via Dual-Space Distillation</b> ⭐ 0</summary>
+<summary><b>22. DuoMem: Towards Capable On-Device Memory Agents via Dual-Space Distillation</b> ⭐ 0</summary>
 
 <br/>
 
@@ -457,6 +429,34 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
 > We are excited to release DuoMem, a dual-space distillation framework for on-device AI agents! DuoMem combines context-space and parameter-space distillation to transfer knowledge from a large teacher model into a small on-device model. It boosts ...
+
+</details>
+
+<details>
+<summary><b>23. Representation Distribution Matching for One-Step Visual Generation</b> ⭐ 34</summary>
+
+<br/>
+
+**👥 Authors:** Alexandre Alahi, Matthieu Cord, Eloi Zablocki, Wuyang Li, Lan Feng
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.02375) • [📄 arXiv](https://arxiv.org/abs/2607.02375) • [📥 PDF](https://arxiv.org/pdf/2607.02375)
+
+**💻 Code:** [⭐ Code](https://github.com/vita-epfl/RDM) • [⭐ Code](https://github.com/huggingface)
+
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Drifting Preference Optimization for One-Step Generative Models (2026) Teac...
+
+</details>
+
+<details>
+<summary><b>24. Discrete Diffusion Language Models for Interactive Radiology Report Drafting</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.01436) • [📄 arXiv](https://arxiv.org/abs/2607.01436) • [📥 PDF](https://arxiv.org/pdf/2607.01436)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/mxvp/discrete_diffusion_RRG)
+
+> Discrete diffusion LMs can draft radiology reports interactively - and match autoregression while doing it. We finetune an MoE diffusion VLM (DiffusionGemma-26B, 3.8B active) head-to-head against its autoregressive sibling (Gemma-4-26B) under an i...
 
 </details>
 
@@ -510,27 +510,27 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 27 |
-| 📅 Today | [`2026-07-04.json`](data/daily/2026-07-04.json) | 27 |
-| 📆 This Week | [`2026-W26.json`](data/weekly/2026-W26.json) | 90 |
-| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 60 |
+| 📅 Today | [`2026-07-05.json`](data/daily/2026-07-05.json) | 27 |
+| 📆 This Week | [`2026-W26.json`](data/weekly/2026-W26.json) | 117 |
+| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 87 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-07-04 | 27 | [View JSON](data/daily/2026-07-04.json) |
+| 📌 2026-07-05 | 27 | [View JSON](data/daily/2026-07-05.json) |
+| 📄 2026-07-04 | 27 | [View JSON](data/daily/2026-07-04.json) |
 | 📄 2026-07-03 | 12 | [View JSON](data/daily/2026-07-03.json) |
 | 📄 2026-07-02 | 10 | [View JSON](data/daily/2026-07-02.json) |
 | 📄 2026-07-01 | 11 | [View JSON](data/daily/2026-07-01.json) |
 | 📄 2026-06-30 | 20 | [View JSON](data/daily/2026-06-30.json) |
 | 📄 2026-06-29 | 10 | [View JSON](data/daily/2026-06-29.json) |
-| 📄 2026-06-28 | 25 | [View JSON](data/daily/2026-06-28.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W26 | 90 | [View JSON](data/weekly/2026-W26.json) |
+| 📅 2026-W26 | 117 | [View JSON](data/weekly/2026-W26.json) |
 | 📅 2026-W25 | 108 | [View JSON](data/weekly/2026-W25.json) |
 | 📅 2026-W24 | 130 | [View JSON](data/weekly/2026-W24.json) |
 | 📅 2026-W23 | 166 | [View JSON](data/weekly/2026-W23.json) |
@@ -539,7 +539,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-07 | 60 | [View JSON](data/monthly/2026-07.json) |
+| 🗓️ 2026-07 | 87 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 782 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 450 | [View JSON](data/monthly/2026-04.json) |
