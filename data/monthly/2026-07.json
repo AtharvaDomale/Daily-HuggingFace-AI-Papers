@@ -2002,5 +2002,69 @@
       "scraped_at": "2026-07-05T03:31:56.437902"
     },
     "scraped_date": "2026-07-05"
+  },
+  {
+    "title": "The Mirage of Optimizing Training Policies: Monotonic Inference Policies as the Real Objective for LLM Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2606.29526",
+    "authors": [
+      "Weixun Wang",
+      "Yancheng He",
+      "Yi Ma",
+      "Hongyao Tang",
+      "Jing Liang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "The Mirage of Optimizing Training Policies: Monotonic Inference Policies as the Real Objective for LLM Reinforcement Learning",
+      "abstract": "We introduce MIPI (Monotonic Inference Policy Improvement) and its instantiation MIPU, a two-step RL framework for large language models under training–inference mismatch. As illustrated in the figure, standard LLM RL methods optimize training-side surrogates, which do not necessarily translate into improvements of the deployed inference policy due to persistent engine-level mismatch (e.g., FP8 quantization or backend inconsistency). MIPU addresses this by explicitly decomposing inference-policy improvement into (i) training-side update and (ii) post-synchronization inference gap. Step 1 constructs sampler-referenced policy updates to improve candidate quality, while Step 2 performs inference-gap-aware acceptance to filter updates that do not yield consistent improvements after synchronization. Under FP8-quantized rollout, MIPU achieves both improved reasoning performance and significantly enhanced training stability across Qwen3-1.7B and Qwen3-4B. The figure summarizes the core idea: instead of optimizing only the training policy, MIPU directly aligns optimization with inference-policy improvement under real deployment mismatch. Project Page: https://anitaleungxx.github.io/MIPU/ Paper: https://arxiv.org/pdf/2606.29526",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.29526",
+      "pdf_url": "https://arxiv.org/pdf/2606.29526",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.29526",
+      "scraped_at": "2026-07-06T03:38:15.442849"
+    },
+    "scraped_date": "2026-07-06"
+  },
+  {
+    "title": "Embodied.cpp: A Portable Inference Runtime of Embodied AI Models on Heterogeneous Robots",
+    "paper_url": "https://huggingface.co/papers/2607.02501",
+    "authors": [],
+    "stars": "17",
+    "details": {
+      "title": "Embodied.cpp: A Portable Inference Runtime of Embodied AI Models on Heterogeneous Robots",
+      "abstract": "We introduce Embodied.cpp , a portable C++ inference runtime for embodied AI models on heterogeneous robots. A key motivation behind this work is that the embodied AI community has focused much more on model training than on practical inference and deployment . Today, we already see many exciting embodied models, but there is still no general inference framework designed for: closed-loop embodied inference edge-side / on-robot deployment heterogeneous devices and hardware backends unified support across different embodied model families This is exactly the gap we target with Embodied.cpp : a portable C++ inference runtime for embodied AI models on heterogeneous robots. In the paper, we focus on the runtime side of embodied intelligence: how to support latency-first batch-1 inference how to handle multi-rate closed-loop execution how to bridge diverse embodied models through a unified runtime abstraction how to make deployment more practical across simulators, robots, and hardware We evaluate the system on representative models including HY-VLA , pi0.5 , and LingBot-VA Transformer block benchmark. This is only the beginning. We plan to continue updating: more embodied models more complete runtime and system support more edge-side and heterogeneous-device optimization methods Code and model artifacts: GitHub: https://github.com/SEU-PAISys/Embodied.cpp Hugging Face: https://huggingface.co/SEU-PAISys/Embodied.cpp Paper: https://arxiv.org/abs/2607.02501",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.02501",
+      "pdf_url": "https://arxiv.org/pdf/2607.02501",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/SEU-PAISys/Embodied.cpp"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.02501",
+      "scraped_at": "2026-07-06T03:38:17.313989"
+    },
+    "scraped_date": "2026-07-06"
+  },
+  {
+    "title": "AGE: Adaptive-masking for Graph Embedding in Graph Retrieval-Augmented Generation",
+    "paper_url": "https://huggingface.co/papers/2607.00052",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AGE: Adaptive-masking for Graph Embedding in Graph Retrieval-Augmented Generation",
+      "abstract": "We proposed Adaptive-masking for Graph Embedding (AGE) to improve structured graph embeddings and enhance LLM performance on GraphQA tasks. The method introduced JEPA, a self-supervised learning architecture which enhanced the graph-structure embedding for downstream reasoning tasks. Our node sampler demonstrated its effectiveness in the ablation study, successfully identified key nodes within given graphs. The quantitative results confirmed AGE's consistent performance gain in GraphRAG tasks while maintaining computational cost. We hope this work contributes to structured knowledge representation for intelligent agents and facilitates cross-modal reasoning through structured perceptual representations.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.00052",
+      "pdf_url": "https://arxiv.org/pdf/2607.00052",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.00052",
+      "scraped_at": "2026-07-06T03:38:19.194898"
+    },
+    "scraped_date": "2026-07-06"
   }
 ]
