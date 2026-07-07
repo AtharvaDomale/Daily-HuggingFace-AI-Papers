@@ -62,5 +62,205 @@
       "scraped_at": "2026-07-06T03:38:19.194898"
     },
     "scraped_date": "2026-07-06"
+  },
+  {
+    "title": "GigaWorld-1: A Roadmap to Build World Models for Robot Policy Evaluation",
+    "paper_url": "https://huggingface.co/papers/2607.02642",
+    "authors": [],
+    "stars": "118",
+    "details": {
+      "title": "GigaWorld-1: A Roadmap to Build World Models for Robot Policy Evaluation",
+      "abstract": "Code： https://github.com/open-gigaai/giga-world-1 Model： https://huggingface.co/open-gigaai/Giga-World-1 Data： https://huggingface.co/datasets/open-gigaai/CVPR-2026-WorldModel-Track-Dataset Benchmark： https://huggingface.co/spaces/open-gigaai/CVPR-2026-WorldModel-Track-LeaderBoard",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.02642",
+      "pdf_url": "https://arxiv.org/pdf/2607.02642",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/open-gigaai/giga-world-1"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.02642",
+      "scraped_at": "2026-07-07T03:29:50.496974"
+    },
+    "scraped_date": "2026-07-07"
+  },
+  {
+    "title": "ResearchStudio-Reel: Automate the Last Mile of Research from Paper to Poster, Video, and Blog",
+    "paper_url": "https://huggingface.co/papers/2607.04438",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ResearchStudio-Reel: Automate the Last Mile of Research from Paper to Poster, Video, and Blog",
+      "abstract": "ResearchStudio - Reel From paper to poster, video, blog, and reel — Automating the Last Mile of Research Dissemination. ResearchStudio streamlines the final steps of a research project — the materials a paper needs after the writing is done. Drop in one PDF and get back the artifacts that turn a paper into a conference submission and a public release: a structured asset bundle, a print-ready poster, a narrated walkthrough video, a bilingual blog post ready for an editor, and an interactive reel viewer. Paper2Reel — presenting an interactive reel. Paper2Poster — building a poster from one PDF.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.04438",
+      "pdf_url": "https://arxiv.org/pdf/2607.04438",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.04438",
+      "scraped_at": "2026-07-07T03:29:52.556118"
+    },
+    "scraped_date": "2026-07-07"
+  },
+  {
+    "title": "ResearchStudio-Idea: An Evidence-Grounded Research-Ideation Skill Suite from ML Conference Outcomes",
+    "paper_url": "https://huggingface.co/papers/2607.04439",
+    "authors": [],
+    "stars": "84",
+    "details": {
+      "title": "ResearchStudio-Idea: An Evidence-Grounded Research-Ideation Skill Suite from ML Conference Outcomes",
+      "abstract": "From a research problem to a reviewer-defensible idea card — Automating the First Mile of Research Ideation. ResearchStudio-Idea is a reusable research ideation skill suite that assists researchers in developing well-grounded research proposals. It combines three skills: Paper-Search for multi-source literature retrieval, Scoop-Check for prior-art collision detection, and IdeaSpark, an end-to-end workflow skill that grounds ideas in evidence, identifies research bottlenecks, applies reusable ideation patterns, audits risks, and generates structured research idea cards. The framework is built from an analysis of 1,947 machine learning papers published between 2021 and 2025, from which 15 reusable ideation patterns are distilled. Experiments show that it produces higher-quality research proposals than generic ideation baselines while maintaining competitive novelty.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.04439",
+      "pdf_url": "https://arxiv.org/pdf/2607.04439",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/microsoft/ResearchStudio"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.04439",
+      "scraped_at": "2026-07-07T03:29:54.601139"
+    },
+    "scraped_date": "2026-07-07"
+  },
+  {
+    "title": "Wan-Streamer v0.2: Higher Resolution, Same Latency",
+    "paper_url": "https://huggingface.co/papers/2607.04443",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Wan-Streamer v0.2: Higher Resolution, Same Latency",
+      "abstract": "A latency-preserving Wan Streamer upgrade: from 192p close-up calls to 640×368 clearer calls and scene-grounded mid-shot agents, still at 25 fps with ~200 ms model-side latency.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.04443",
+      "pdf_url": "https://arxiv.org/pdf/2607.04443",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.04443",
+      "scraped_at": "2026-07-07T03:29:56.703201"
+    },
+    "scraped_date": "2026-07-07"
+  },
+  {
+    "title": "Vision Pretraining for Dense Spatial Perception",
+    "paper_url": "https://huggingface.co/papers/2607.05247",
+    "authors": [
+      "Kecheng Zheng",
+      "Shaohui Liu",
+      "Changjiang Sun",
+      "Bin Tan",
+      "Zelin Fu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Vision Pretraining for Dense Spatial Perception",
+      "abstract": "A novel SSL pretraining for spatial perception with a STRONG depth model, LingBot-Depth 2.0",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.05247",
+      "pdf_url": "https://arxiv.org/pdf/2607.05247",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Robbyant/lingbot-vision"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.05247",
+      "scraped_at": "2026-07-07T03:29:58.568339"
+    },
+    "scraped_date": "2026-07-07"
+  },
+  {
+    "title": "Safety Testing LLM Agents at Scale: From Risk Discovery to Evidence-Grounded Verification",
+    "paper_url": "https://huggingface.co/papers/2607.01793",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Safety Testing LLM Agents at Scale: From Risk Discovery to Evidence-Grounded Verification",
+      "abstract": "LLM agents increasingly perform autonomous actions through external tools, leading to complex and evolving safety risks. However, existing safety testing targets expert-designed safety violations, and the corresponding outcomes are evaluated by hard-coded rules, making them costly to extend as agents evolve. To this end, we present Vera, an end-to-end automated safety testing framework that instantiates software engineering testing principles for non-deterministic agents through a three-stage, self-reinforcing pipeline. First, a literature-driven exploration continuously discovers and structures emerging risks into taxonomies of safety risks, attack methods, and tool execution environments. Second, combinatorial composition across taxonomy dimensions produces executable safety cases, each specifying a concrete safety goal, a programmatically constructed initial state, and a deterministic verification predicate grounded in observable artifacts. Third, adaptive execution runs heterogeneous agents in isolated sandboxes where a control agent steers multi-turn interaction based on runtime observations, while evidence-grounded verifiers judge outcomes from environment state and tool-call evidence rather than model self-report. We evaluate Vera on four production agent frameworks (OpenClaw, Hermes, Codex, Claude Code), revealing substantial safety weaknesses, with average attack success rates reaching 93.9% under multi-channel attacks; we also release Vera-Bench, comprising 1600 executable safety cases spanning 124 risk categories across three execution settings. These results indicate that modular, executable testing infrastructure is essential for rigorous and maintainable safety evaluation of rapidly evolving agentic systems at scale.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.01793",
+      "pdf_url": "https://arxiv.org/pdf/2607.01793",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Yunhao-Feng/Vera"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.01793",
+      "scraped_at": "2026-07-07T03:30:00.441433"
+    },
+    "scraped_date": "2026-07-07"
+  },
+  {
+    "title": "PraMem: Practice-derived Experiential Memory for Long-horizon Behavior Prediction",
+    "paper_url": "https://huggingface.co/papers/2607.02881",
+    "authors": [
+      "Ruoxi Xu",
+      "Hanshu Zhou",
+      "Jiawei Chen",
+      "Boxi Cao",
+      "Zhuoqun Li"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "PraMem: Practice-derived Experiential Memory for Long-horizon Behavior Prediction",
+      "abstract": "Long-horizon behavior prediction aims to infer a user's next action based on a lengthy historical sequence, playing a crucial role in artificial intelligence field. The rise of large language models (LLMs) offers a promising direction for sequential behavior prediction, yet LLMs struggle with latent behavioral pattern induction and model-intrinsic cognitive biases when tackling long-horizon behavior prediction. Prior memory management methods follow a context-compression paradigm that attempts to address this task by alleviating the historical sequence burden, yet fail to resolve the core challenges. In this paper, we advocate a paradigm shift that reframes the lengthy historical sequence from a burden into a valuable resource to be exploited, and accordingly propose PraMem, which conducts beforehand practice over the lengthy historical sequence to build an experiential memory, thereby serving as the assisted input for accurate long-horizon behavior prediction. Extensive experiments across diverse tasks demonstrate that PraMem achieves superior performance than prior methods, and more in-depth analyses provide valuable insights into the mechanism and evolution of the experiential memory.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.02881",
+      "pdf_url": "https://arxiv.org/pdf/2607.02881",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/icip-cas/PraMem"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.02881",
+      "scraped_at": "2026-07-07T03:30:02.393308"
+    },
+    "scraped_date": "2026-07-07"
+  },
+  {
+    "title": "Mastermind: Strategy-grounded Learning for Repository-Scale Vulnerability Reproduction",
+    "paper_url": "https://huggingface.co/papers/2607.01764",
+    "authors": [
+      "Zhijiang Guo",
+      "Renyang Liu",
+      "Tianyi Wu",
+      "Luu Anh Tuan",
+      "Mingzhe Du"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Mastermind: Strategy-grounded Learning for Repository-Scale Vulnerability Reproduction",
+      "abstract": "Repository-level vulnerability reproduction is a demanding software engineering (SE) task: an agent must inspect a codebase, infer the input grammar that reaches a vulnerable path, construct a proof-of-conceptv(PoC), and verify that the crash disappears on the patched build. Recent LLM agents can often execute these steps when the approach is correct, yet they still fail by choosing the wrong strategy. This paper argues that strategy, rather than the full action trajectory, is the right learning unit for such SE agents: it is compact enough to optimize, concrete enough to guide execution, and stable enough to store and reuse across attempts. We present Mastermind, a dual-loop framework that separates transferable strategy learning from task-specific experience. A trainable planner learns reusable vulnerability-reproduction strategies through SFT and milestone-based GRPO, while an experience loop maintains task-local strategy records that guide subsequent attempts. The planner is trained independently of the executor, allowing strategy learning to improve multiple frozen executors without modifying their action-generation capability. We evaluate Mastermind on CyberGym using 260 training tasks and 200 held-out evaluation tasks. With GPT-5.5 as the frozen executor, Mastermind achieves an 84.5% pass rate, outperforming open-book PoC context (60.0%), Best-of-8 sampling (63.0%), and iterative improvement (77.0%). The same planner also improves GPT-5.4 mini and GLM~5.1 from 45.0% and 58.5% to 60.0% and 71.0%. These results demonstrate that learning high-level strategies is an effective and transferable mechanism for improving repository-scale SE agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.01764",
+      "pdf_url": "https://arxiv.org/pdf/2607.01764",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.01764",
+      "scraped_at": "2026-07-07T03:30:04.247946"
+    },
+    "scraped_date": "2026-07-07"
+  },
+  {
+    "title": "Speaker-Disentangled Chunk-Wise Regression for Syllabic Tokenization",
+    "paper_url": "https://huggingface.co/papers/2607.04064",
+    "authors": [
+      "Takahiro Shinozaki",
+      "Takuma Okamoto",
+      "Kota Kawakita",
+      "Ryota Komatsu"
+    ],
+    "stars": "46",
+    "details": {
+      "title": "Speaker-Disentangled Chunk-Wise Regression for Syllabic Tokenization",
+      "abstract": "In this IEEE OJSP paper, we introduce SylReg-LM 7B, an efficiently scalable interleaved syllable-text language model!",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.04064",
+      "pdf_url": "https://arxiv.org/pdf/2607.04064",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ryota-komatsu/speaker_disentangled_hubert"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.04064",
+      "scraped_at": "2026-07-07T03:30:06.236378"
+    },
+    "scraped_date": "2026-07-07"
   }
 ]
