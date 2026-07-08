@@ -262,5 +262,185 @@
       "scraped_at": "2026-07-07T03:30:06.236378"
     },
     "scraped_date": "2026-07-07"
+  },
+  {
+    "title": "AlayaWorld: Long-Horizon and Playable Video World Generation",
+    "paper_url": "https://huggingface.co/papers/2607.06291",
+    "authors": [
+      "Yongtao Ge",
+      "Yifan Zhan",
+      "Chuanhao Li",
+      "Kaipeng Zhang",
+      "AlayaWorld Team"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AlayaWorld: Long-Horizon and Playable Video World Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.06291",
+      "pdf_url": "https://arxiv.org/pdf/2607.06291",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.06291",
+      "scraped_at": "2026-07-08T02:46:12.738398"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "Light-Omni: Reflex over Reasoning in Agentic Video Understanding with Long-Term Memory",
+    "paper_url": "https://huggingface.co/papers/2607.05511",
+    "authors": [],
+    "stars": "17",
+    "details": {
+      "title": "Light-Omni: Reflex over Reasoning in Agentic Video Understanding with Long-Term Memory",
+      "abstract": "We introduce Light-Omni, a highly efficient multimodal agent framework for long-term video understanding. Advanced video agents usually suffer from prohibitive latency due to heavy \"detective-style\" iterative reasoning. To solve this, Light-Omni enables instant \"reflexive\" responses via a novel dual-state mechanism (Global & Latent states) in a single forward pass. Key Highlights: 🔥 Incredible Efficiency: Achieves a 12.1× speedup and 2.6× GPU memory reduction compared to M3-Agent, with near-constant latency (~2.3s) regardless of video length. 📈 SOTA Performance: Delivers an average accuracy of 64.8% across VideoMME-long, LVBench, and HippoVlog. 🛠️ Plug-and-Play: Acts as a foundational memory system that seamlessly boosts existing MLLMs (e.g., Qwen2.5-VL, Qwen3-VL, Gemini-2.0-Flash). Code, models, and dataset are available in our repo!",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.05511",
+      "pdf_url": "https://arxiv.org/pdf/2607.05511",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Clare-Nie/Light-Omni"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.05511",
+      "scraped_at": "2026-07-08T02:46:14.715792"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "TREK: Distill to Explore, Reinforce to Refine",
+    "paper_url": "https://huggingface.co/papers/2607.05339",
+    "authors": [
+      "Hejian Sang",
+      "Jelena Markovic-Voronov",
+      "Kayhan Behdin",
+      "Zhengze Zhou",
+      "Yuanda Xu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "TREK: Distill to Explore, Reinforce to Refine",
+      "abstract": "Distillation for exploration",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.05339",
+      "pdf_url": "https://arxiv.org/pdf/2607.05339",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.05339",
+      "scraped_at": "2026-07-08T02:46:16.741629"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "SkillOpt-Lite: Better and Faster Agent Self-evolution via One Line of Vibe",
+    "paper_url": "https://huggingface.co/papers/2607.03451",
+    "authors": [],
+    "stars": "14",
+    "details": {
+      "title": "SkillOpt-Lite: Better and Faster Agent Self-evolution via One Line of Vibe",
+      "abstract": "Train your agent's skills and harness with a single line of vibe — automatic, looped improvements. Convergence and generalization bound of skill and harness optimization is also derived.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.03451",
+      "pdf_url": "https://arxiv.org/pdf/2607.03451",
+      "github_links": [
+        "https://github.com/EvolvingLMMs-Lab/SkillOpt-Lite",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.03451",
+      "scraped_at": "2026-07-08T02:46:18.699124"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "Nemotron-Labs-Diffusion: A Tri-Mode Language Model Unifying Autoregressive, Diffusion, and Self-Speculation Decoding",
+    "paper_url": "https://huggingface.co/papers/2607.05722",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Nemotron-Labs-Diffusion: A Tri-Mode Language Model Unifying Autoregressive, Diffusion, and Self-Speculation Decoding",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.05722",
+      "pdf_url": "https://arxiv.org/pdf/2607.05722",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.05722",
+      "scraped_at": "2026-07-08T02:46:20.570180"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "SIEVE: Structure-Aware Data Selection for Imitation Learning with VLA Models",
+    "paper_url": "https://huggingface.co/papers/2607.06442",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SIEVE: Structure-Aware Data Selection for Imitation Learning with VLA Models",
+      "abstract": "🚀 Do VLA models need more data, or better data? We introduce SIEVE , a structure-aware data selection method for VLA imitation learning. Instead of treating demonstrations as isolated trajectories, SIEVE views them as compositions of reusable visuo-motor primitives and transition interfaces . ✨ What SIEVE does: 🔹 discovers reusable primitives from robot trajectories 🔹 allocates data budgets to structurally informative composition patterns 🔹 selects central, stable demonstrations that are easier for behavior cloning to learn from 📊 Results: ✅ Consistently beats strong data selection baselines ✅ Works across multiple datasets, benchmarks, and VLA models ✅ Surpasses full-data training with only 50% data + 50% training steps 💡 Takeaway: For efficient VLA training, selecting reusable behavioral structure can be more important than simply scaling up robot data.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.06442",
+      "pdf_url": "https://arxiv.org/pdf/2607.06442",
+      "github_links": [
+        "https://github.com/ChangtiWu/SIEVE",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.06442",
+      "scraped_at": "2026-07-08T02:46:22.474570"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "RynnWorld-Teleop: An Action-Conditioned World Model for Digital Teleoperation",
+    "paper_url": "https://huggingface.co/papers/2607.06558",
+    "authors": [
+      "Kehan Li",
+      "Biao Gong",
+      "Hangyu Li",
+      "Xingyue Zhao",
+      "Haoyu Zhao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "RynnWorld-Teleop: An Action-Conditioned World Model for Digital Teleoperation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.06558",
+      "pdf_url": "https://arxiv.org/pdf/2607.06558",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.06558",
+      "scraped_at": "2026-07-08T02:46:24.423797"
+    },
+    "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation",
+    "paper_url": "https://huggingface.co/papers/2607.06559",
+    "authors": [
+      "Deli Zhao",
+      "Xin Li",
+      "Siteng Huang",
+      "Xingyue Zhao",
+      "Haoyu Zhao"
+    ],
+    "stars": "11",
+    "details": {
+      "title": "RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.06559",
+      "pdf_url": "https://arxiv.org/pdf/2607.06559",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/alibaba-damo-academy/RynnWorld-4D"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.06559",
+      "scraped_at": "2026-07-08T02:46:26.292778"
+    },
+    "scraped_date": "2026-07-08"
   }
 ]
