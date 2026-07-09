@@ -2446,5 +2446,124 @@
       "scraped_at": "2026-07-08T02:46:26.292778"
     },
     "scraped_date": "2026-07-08"
+  },
+  {
+    "title": "Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence",
+    "paper_url": "https://huggingface.co/papers/2607.07675",
+    "authors": [
+      "Chaoran Feng",
+      "Jingjing Wang",
+      "Xinyang Wang",
+      "Jiaqi Liao",
+      "Shuailei Ma"
+    ],
+    "stars": "77",
+    "details": {
+      "title": "Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.07675",
+      "pdf_url": "https://arxiv.org/pdf/2607.07675",
+      "github_links": [
+        "https://github.com/robbyant/lingbot-video",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.07675",
+      "scraped_at": "2026-07-09T03:22:48.437689"
+    },
+    "scraped_date": "2026-07-09"
+  },
+  {
+    "title": "Dual Latent Memory in Vision-Language-Action Models for Robotic Manipulation",
+    "paper_url": "https://huggingface.co/papers/2607.07608",
+    "authors": [
+      "Xinlei Yu",
+      "Shaohuan Yang",
+      "Xiaobin Hu",
+      "Jianzhe Gao",
+      "Hongyu Qu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Dual Latent Memory in Vision-Language-Action Models for Robotic Manipulation",
+      "abstract": "Dual Latent Memory in Vision-Language-Action Models for Robotic Manipulation",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.07608",
+      "pdf_url": "https://arxiv.org/pdf/2607.07608",
+      "github_links": [
+        "https://github.com/quhongyu/LaMem-VLA",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.07608",
+      "scraped_at": "2026-07-09T03:22:50.259849"
+    },
+    "scraped_date": "2026-07-09"
+  },
+  {
+    "title": "Infinite Worlds with Versatile Interactions",
+    "paper_url": "https://huggingface.co/papers/2607.07534",
+    "authors": [
+      "Zichen Liu",
+      "Jingye Chen",
+      "Jiapeng Zhu",
+      "Qiuyu Wang",
+      "Zelin Gao"
+    ],
+    "stars": "50",
+    "details": {
+      "title": "Infinite Worlds with Versatile Interactions",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.07534",
+      "pdf_url": "https://arxiv.org/pdf/2607.07534",
+      "github_links": [
+        "https://github.com/robbyant/lingbot-world-v2",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.07534",
+      "scraped_at": "2026-07-09T03:22:52.030287"
+    },
+    "scraped_date": "2026-07-09"
+  },
+  {
+    "title": "RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies",
+    "paper_url": "https://huggingface.co/papers/2607.04434",
+    "authors": [],
+    "stars": "92",
+    "details": {
+      "title": "RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies",
+      "abstract": "Website: https://robodojo-benchmark.com/ arXiv: https://arxiv.org/abs/2607.04434 Leaderboard: https://robodojo-benchmark.com/LeaderBoard Benchmark code: https://github.com/RoboDojo-Benchmark/RoboDojo XPolicyLab code: https://github.com/XPolicyLab/XPolicyLab Community: https://robodojo-benchmark.com/community",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.04434",
+      "pdf_url": "https://arxiv.org/pdf/2607.04434",
+      "github_links": [
+        "https://github.com/RoboDojo-Benchmark/RoboDojo",
+        "https://github.com/XPolicyLab/XPolicyLab",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.04434",
+      "scraped_at": "2026-07-09T03:22:53.899515"
+    },
+    "scraped_date": "2026-07-09"
+  },
+  {
+    "title": "WildCity: A Real-World City-Scale Testbed for Rendering, Simulation, and Spatial Intelligence",
+    "paper_url": "https://huggingface.co/papers/2607.06838",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "WildCity: A Real-World City-Scale Testbed for Rendering, Simulation, and Spatial Intelligence",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.06838",
+      "pdf_url": "https://arxiv.org/pdf/2607.06838",
+      "github_links": [
+        "https://github.com/han-xiangyu/Wild-City",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.06838",
+      "scraped_at": "2026-07-09T03:22:55.706019"
+    },
+    "scraped_date": "2026-07-09"
   }
 ]
