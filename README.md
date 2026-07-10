@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-5-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-5127+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-8-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-5135+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">5</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">25</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">112</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5127+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">8</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">33</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">120</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5135+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** July 09, 2026
+**Last Updated:** July 10, 2026
 
 ---
 
@@ -119,71 +119,104 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence</b> ⭐ 77</summary>
+<summary><b>1. Vidu S1: A Real-Time Interactive Video Generation Model</b> ⭐ 43</summary>
 
 <br/>
 
-**👥 Authors:** Chaoran Feng, Jingjing Wang, Xinyang Wang, Jiaqi Liao, Shuailei Ma
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.03118) • [📄 arXiv](https://arxiv.org/abs/2607.03118) • [📥 PDF](https://arxiv.org/pdf/2607.03118)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.07675) • [📄 arXiv](https://arxiv.org/abs/2607.07675) • [📥 PDF](https://arxiv.org/pdf/2607.07675)
+**💻 Code:** [⭐ Code](https://github.com/shengshu-ai/Vidu-S1) • [⭐ Code](https://github.com/huggingface)
 
-**💻 Code:** [⭐ Code](https://github.com/robbyant/lingbot-video) • [⭐ Code](https://github.com/huggingface)
+> Highly recommend giving Vidu S1 a try~ User Guide : https://auspicious-passive-36a.notion.site/Vidu-S1-Introduction-34324005a3e48009b3f3d9c07c79d83b Try it now : https://www.vidu.com/vidu-stream API Platform : https://platform.vidu.com/live/landin...
+
+</details>
+
+<details>
+<summary><b>2. Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation</b> ⭐ 2</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.08758) • [📄 arXiv](https://arxiv.org/abs/2607.08758) • [📥 PDF](https://arxiv.org/pdf/2607.08758)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/VisionXLab/IdeasHaveGenomes)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>2. Dual Latent Memory in Vision-Language-Action Models for Robotic Manipulation</b> ⭐ 0</summary>
+<summary><b>3. Jet-Long: Efficient Long-Context Extension with Dynamic Bifocal RoPE</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Xinlei Yu, Shaohuan Yang, Xiaobin Hu, Jianzhe Gao, Hongyu Qu
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.07740) • [📄 arXiv](https://arxiv.org/abs/2607.07740) • [📥 PDF](https://arxiv.org/pdf/2607.07740)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.07608) • [📄 arXiv](https://arxiv.org/abs/2607.07608) • [📥 PDF](https://arxiv.org/pdf/2607.07608)
-
-**💻 Code:** [⭐ Code](https://github.com/quhongyu/LaMem-VLA) • [⭐ Code](https://github.com/huggingface)
-
-> Dual Latent Memory in Vision-Language-Action Models for Robotic Manipulation
-
-</details>
-
-<details>
-<summary><b>3. Infinite Worlds with Versatile Interactions</b> ⭐ 50</summary>
-
-<br/>
-
-**👥 Authors:** Zichen Liu, Jingye Chen, Jiapeng Zhu, Qiuyu Wang, Zelin Gao
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.07534) • [📄 arXiv](https://arxiv.org/abs/2607.07534) • [📥 PDF](https://arxiv.org/pdf/2607.07534)
-
-**💻 Code:** [⭐ Code](https://github.com/robbyant/lingbot-world-v2) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/jet-ai-projects/jet-long) • [⭐ Code](https://github.com/huggingface)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>4. RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies</b> ⭐ 92</summary>
+<summary><b>4. OpenCoF: Learning to Reason Through Video Generation</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.04434) • [📄 arXiv](https://arxiv.org/abs/2607.04434) • [📥 PDF](https://arxiv.org/pdf/2607.04434)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.08763) • [📄 arXiv](https://arxiv.org/abs/2607.08763) • [📥 PDF](https://arxiv.org/pdf/2607.08763)
 
-**💻 Code:** [⭐ Code](https://github.com/RoboDojo-Benchmark/RoboDojo) • [⭐ Code](https://github.com/XPolicyLab/XPolicyLab) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> Website: https://robodojo-benchmark.com/ arXiv: https://arxiv.org/abs/2607.04434 Leaderboard: https://robodojo-benchmark.com/LeaderBoard Benchmark code: https://github.com/RoboDojo-Benchmark/RoboDojo XPolicyLab code: https://github.com/XPolicyLab/...
+> No abstract available.
 
 </details>
 
 <details>
-<summary><b>5. WildCity: A Real-World City-Scale Testbed for Rendering, Simulation, and Spatial Intelligence</b> ⭐ 2</summary>
+<summary><b>5. Flash-BoN: Instant Drafts for Inference-Time Scaling in Diffusion Models</b> ⭐ 3</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.06838) • [📄 arXiv](https://arxiv.org/abs/2607.06838) • [📥 PDF](https://arxiv.org/pdf/2607.06838)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.04461) • [📄 arXiv](https://arxiv.org/abs/2607.04461) • [📥 PDF](https://arxiv.org/pdf/2607.04461)
 
-**💻 Code:** [⭐ Code](https://github.com/han-xiangyu/Wild-City) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/flash-bon/flash-bon)
+
+> Budget-constrained, verifier-guided best-of-N generation for diffusion models. Given a prompt and a wall-clock budget, Flash-BoN drafts cheap candidates (TaylorSeer-style caching + layer/timestep skipping), selects the best with a pairwise vision-...
+
+</details>
+
+<details>
+<summary><b>6. UP: Unbounded Positive Asymmetric Optimization for Breaking the Exploration-Stability Dilemma</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.06987) • [📄 arXiv](https://arxiv.org/abs/2607.06987) • [📥 PDF](https://arxiv.org/pdf/2607.06987)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> This paper introduces Unbounded Positive Asymmetric Optimization (UP), a plug-and-play reinforcement learning objective that overcomes the exploration-stability dilemma and effectively mitigates entropy collapse by allowing unclipped gradients for...
+
+</details>
+
+<details>
+<summary><b>7. CausalDS: Benchmarking Causal Reasoning in Data-Science Agents</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.08093) • [📄 arXiv](https://arxiv.org/abs/2607.08093) • [📥 PDF](https://arxiv.org/pdf/2607.08093)
+
+**💻 Code:** [⭐ Code](https://github.com/andleb/causalds) • [⭐ Code](https://github.com/huggingface)
+
+> We introduce CausalDS , a benchmark generator for agentic causal data science. Rather than relying on a fixed collection of examples, CausalDS generates fresh hidden causal graphs and SCMs, synthetic tabular data, graph-audited natural-language st...
+
+</details>
+
+<details>
+<summary><b>8. ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.08741) • [📄 arXiv](https://arxiv.org/abs/2607.08741) • [📥 PDF](https://arxiv.org/pdf/2607.08741)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
 
 > No abstract available.
 
@@ -197,28 +230,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 5 |
-| 📅 Today | [`2026-07-09.json`](data/daily/2026-07-09.json) | 5 |
-| 📆 This Week | [`2026-W27.json`](data/weekly/2026-W27.json) | 25 |
-| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 112 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 8 |
+| 📅 Today | [`2026-07-10.json`](data/daily/2026-07-10.json) | 8 |
+| 📆 This Week | [`2026-W27.json`](data/weekly/2026-W27.json) | 33 |
+| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 120 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-07-09 | 5 | [View JSON](data/daily/2026-07-09.json) |
+| 📌 2026-07-10 | 8 | [View JSON](data/daily/2026-07-10.json) |
+| 📄 2026-07-09 | 5 | [View JSON](data/daily/2026-07-09.json) |
 | 📄 2026-07-08 | 8 | [View JSON](data/daily/2026-07-08.json) |
 | 📄 2026-07-07 | 9 | [View JSON](data/daily/2026-07-07.json) |
 | 📄 2026-07-06 | 3 | [View JSON](data/daily/2026-07-06.json) |
 | 📄 2026-07-05 | 27 | [View JSON](data/daily/2026-07-05.json) |
 | 📄 2026-07-04 | 27 | [View JSON](data/daily/2026-07-04.json) |
-| 📄 2026-07-03 | 12 | [View JSON](data/daily/2026-07-03.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W27 | 25 | [View JSON](data/weekly/2026-W27.json) |
+| 📅 2026-W27 | 33 | [View JSON](data/weekly/2026-W27.json) |
 | 📅 2026-W26 | 117 | [View JSON](data/weekly/2026-W26.json) |
 | 📅 2026-W25 | 108 | [View JSON](data/weekly/2026-W25.json) |
 | 📅 2026-W24 | 130 | [View JSON](data/weekly/2026-W24.json) |
@@ -227,7 +260,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-07 | 112 | [View JSON](data/monthly/2026-07.json) |
+| 🗓️ 2026-07 | 120 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 782 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 450 | [View JSON](data/monthly/2026-04.json) |

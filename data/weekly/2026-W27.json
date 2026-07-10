@@ -561,5 +561,162 @@
       "scraped_at": "2026-07-09T03:22:55.706019"
     },
     "scraped_date": "2026-07-09"
+  },
+  {
+    "title": "Vidu S1: A Real-Time Interactive Video Generation Model",
+    "paper_url": "https://huggingface.co/papers/2607.03118",
+    "authors": [],
+    "stars": "43",
+    "details": {
+      "title": "Vidu S1: A Real-Time Interactive Video Generation Model",
+      "abstract": "Highly recommend giving Vidu S1 a try~ User Guide : https://auspicious-passive-36a.notion.site/Vidu-S1-Introduction-34324005a3e48009b3f3d9c07c79d83b Try it now : https://www.vidu.com/vidu-stream API Platform : https://platform.vidu.com/live/landing Paper : https://arxiv.org/pdf/2607.03118 Github : https://github.com/shengshu-ai/Vidu-S1",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.03118",
+      "pdf_url": "https://arxiv.org/pdf/2607.03118",
+      "github_links": [
+        "https://github.com/shengshu-ai/Vidu-S1",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.03118",
+      "scraped_at": "2026-07-10T03:24:58.369048"
+    },
+    "scraped_date": "2026-07-10"
+  },
+  {
+    "title": "Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation",
+    "paper_url": "https://huggingface.co/papers/2607.08758",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.08758",
+      "pdf_url": "https://arxiv.org/pdf/2607.08758",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/VisionXLab/IdeasHaveGenomes"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.08758",
+      "scraped_at": "2026-07-10T03:25:00.146307"
+    },
+    "scraped_date": "2026-07-10"
+  },
+  {
+    "title": "Jet-Long: Efficient Long-Context Extension with Dynamic Bifocal RoPE",
+    "paper_url": "https://huggingface.co/papers/2607.07740",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Jet-Long: Efficient Long-Context Extension with Dynamic Bifocal RoPE",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.07740",
+      "pdf_url": "https://arxiv.org/pdf/2607.07740",
+      "github_links": [
+        "https://github.com/jet-ai-projects/jet-long",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.07740",
+      "scraped_at": "2026-07-10T03:25:01.977941"
+    },
+    "scraped_date": "2026-07-10"
+  },
+  {
+    "title": "OpenCoF: Learning to Reason Through Video Generation",
+    "paper_url": "https://huggingface.co/papers/2607.08763",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "OpenCoF: Learning to Reason Through Video Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.08763",
+      "pdf_url": "https://arxiv.org/pdf/2607.08763",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.08763",
+      "scraped_at": "2026-07-10T03:25:03.764199"
+    },
+    "scraped_date": "2026-07-10"
+  },
+  {
+    "title": "Flash-BoN: Instant Drafts for Inference-Time Scaling in Diffusion Models",
+    "paper_url": "https://huggingface.co/papers/2607.04461",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Flash-BoN: Instant Drafts for Inference-Time Scaling in Diffusion Models",
+      "abstract": "Budget-constrained, verifier-guided best-of-N generation for diffusion models. Given a prompt and a wall-clock budget, Flash-BoN drafts cheap candidates (TaylorSeer-style caching + layer/timestep skipping), selects the best with a pairwise vision-language tournament, refines the top-k to full quality by resuming denoising from a captured state, and scores them with VQAScore.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.04461",
+      "pdf_url": "https://arxiv.org/pdf/2607.04461",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/flash-bon/flash-bon"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.04461",
+      "scraped_at": "2026-07-10T03:25:05.547712"
+    },
+    "scraped_date": "2026-07-10"
+  },
+  {
+    "title": "UP: Unbounded Positive Asymmetric Optimization for Breaking the Exploration-Stability Dilemma",
+    "paper_url": "https://huggingface.co/papers/2607.06987",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "UP: Unbounded Positive Asymmetric Optimization for Breaking the Exploration-Stability Dilemma",
+      "abstract": "This paper introduces Unbounded Positive Asymmetric Optimization (UP), a plug-and-play reinforcement learning objective that overcomes the exploration-stability dilemma and effectively mitigates entropy collapse by allowing unclipped gradients for positive advantages to maximize exploration while retaining standard clipping for negative advantages to ensure training stability.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.06987",
+      "pdf_url": "https://arxiv.org/pdf/2607.06987",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.06987",
+      "scraped_at": "2026-07-10T03:25:07.334009"
+    },
+    "scraped_date": "2026-07-10"
+  },
+  {
+    "title": "CausalDS: Benchmarking Causal Reasoning in Data-Science Agents",
+    "paper_url": "https://huggingface.co/papers/2607.08093",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CausalDS: Benchmarking Causal Reasoning in Data-Science Agents",
+      "abstract": "We introduce CausalDS , a benchmark generator for agentic causal data science. Rather than relying on a fixed collection of examples, CausalDS generates fresh hidden causal graphs and SCMs, synthetic tabular data, graph-audited natural-language stories, and tasks spanning all three rungs of Pearl’s causal hierarchy. Exam composition is fully parameterizable: it can be tailored to specific evaluation goals or grounded in empirical distributions from real-world corpora. The benchmark jointly evaluates causal reasoning, statistical estimation, uncertainty quantification, abstention on non-identifiable queries, and tool use in file-backed data-science workflows. Our experiments show that these capabilities dissociate substantially across current models, particularly on abstention and uncertainty quantification, where the open-weights model lag behind the frontier ones.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.08093",
+      "pdf_url": "https://arxiv.org/pdf/2607.08093",
+      "github_links": [
+        "https://github.com/andleb/causalds",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.08093",
+      "scraped_at": "2026-07-10T03:25:09.148306"
+    },
+    "scraped_date": "2026-07-10"
+  },
+  {
+    "title": "ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation",
+    "paper_url": "https://huggingface.co/papers/2607.08741",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.08741",
+      "pdf_url": "https://arxiv.org/pdf/2607.08741",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.08741",
+      "scraped_at": "2026-07-10T03:25:10.925902"
+    },
+    "scraped_date": "2026-07-10"
   }
 ]
