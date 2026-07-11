@@ -718,5 +718,473 @@
       "scraped_at": "2026-07-10T03:25:10.925902"
     },
     "scraped_date": "2026-07-10"
+  },
+  {
+    "title": "Vidu S1: A Real-Time Interactive Video Generation Model",
+    "paper_url": "https://huggingface.co/papers/2607.03118",
+    "authors": [],
+    "stars": "141",
+    "details": {
+      "title": "Vidu S1: A Real-Time Interactive Video Generation Model",
+      "abstract": "Highly recommend giving Vidu S1 a try~ User Guide : https://auspicious-passive-36a.notion.site/Vidu-S1-Introduction-34324005a3e48009b3f3d9c07c79d83b Try it now : https://www.vidu.com/vidu-stream API Platform : https://platform.vidu.com/live/landing Paper : https://arxiv.org/pdf/2607.03118 Github : https://github.com/shengshu-ai/Vidu-S1",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.03118",
+      "pdf_url": "https://arxiv.org/pdf/2607.03118",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/shengshu-ai/Vidu-S1"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.03118",
+      "scraped_at": "2026-07-11T02:43:03.095775"
+    },
+    "scraped_date": "2026-07-11"
+  },
+  {
+    "title": "Video-Oasis: Rethinking Evaluation of Video Understanding",
+    "paper_url": "https://huggingface.co/papers/2603.29616",
+    "authors": [],
+    "stars": "21",
+    "details": {
+      "title": "Video-Oasis: Rethinking Evaluation of Video Understanding",
+      "abstract": "TL;DR. Video-Oasis rethinks the current benchmark landscape by examining whether proliferating video benchmarks truly satisfy shared criteria for genuine video understanding.",
+      "arxiv_page_url": "https://arxiv.org/abs/2603.29616",
+      "pdf_url": "https://arxiv.org/pdf/2603.29616",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/sejong-rcv/Video-Oasis"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2603.29616",
+      "scraped_at": "2026-07-11T02:43:04.963668"
+    },
+    "scraped_date": "2026-07-11"
+  },
+  {
+    "title": "Why Can't I Open My Drawer? Mitigating Object-Driven Shortcuts in Zero-Shot Compositional Action Recognition",
+    "paper_url": "https://huggingface.co/papers/2601.16211",
+    "authors": [],
+    "stars": "8",
+    "details": {
+      "title": "Why Can't I Open My Drawer? Mitigating Object-Driven Shortcuts in Zero-Shot Compositional Action Recognition",
+      "abstract": "TL;DR: We quantify how object-driven shortcuts sabotage compositional generalization in video understanding. A model that has seen \"Open Window\" and \"Close Drawer\" should be able to recognize \"Open Drawer\"—an unseen yet plausible verb–object combination. But we found that when existing models fail, it's mostly a verb-collapse phenomenon: they get the object right and the verb wrong. The model simply assumes the verb that is most often paired with that object in training and thus fails to generalize to unseen compositions. We show that these object-driven shortcuts are not a matter of insufficient model capacity or pretrained knowledge. They stem from two intertwined, structural problems: (i) sparse compositional supervision and (ii) the learning asymmetry between verbs and objects (objects are simply easier to learn than verbs). We prove this empirically, and we further propose a suite of diagnostic tools that measure exactly how far a model overfits to co-occurrence statistics. Our diagnostic-driven fix—RCORE (Robust COmpositional REpresentations)—directly mitigates both root causes and delivers consistent gains in unseen-composition generalization across multiple benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2601.16211",
+      "pdf_url": "https://arxiv.org/pdf/2601.16211",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/KHU-VLL/RCORE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2601.16211",
+      "scraped_at": "2026-07-11T02:43:06.902434"
+    },
+    "scraped_date": "2026-07-11"
+  },
+  {
+    "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
+    "paper_url": "https://huggingface.co/papers/2607.08768",
+    "authors": [],
+    "stars": "22",
+    "details": {
+      "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
+      "abstract": "The rapid development of large language models and multimodal large language models has accelerated the emergence of proactive agents capable of operating everyday tools and assisting users in real-world environments. However, existing benchmarks struggle to evaluate such agents effectively, as they often rely on sandboxed environments and single-turn evaluation paradigms. Moreover, their scenario-based task taxonomies mix multiple model capabilities within the same task category, making it difficult to identify the root causes of agent failures. To address these limitations, we introduce UniClawBench, the first capability-driven benchmark designed to evaluate proactive agents in dynamic, real-world settings. UniClawBench is built around five foundational model capabilities: Skill Usage, Exploration, Long-Context Reasoning, Multimodal Understanding, and Cross-Platform Coordination. Based on these capabilities, we design 400 bilingual real-world tasks. Unlike previous benchmarks that rely on static, pre-recorded answers, our benchmark evaluates agents in live Docker containers using fine-grained, step-by-step completion checkpoints. Furthermore, we design a closed-loop evaluation strategy comprising an executor agent, a hidden supervisor agent, and a user agent to simulate realistic multi-turn human feedback without leaking grading criteria. To disentangle base model capabilities from framework-level design choices, we evaluate state-of-the-art models under multiple agent frameworks. Through comprehensive comparisons across both models and frameworks, we show how base model capabilities and agent framework designs jointly shape performance in real-world environments. To facilitate future research, we make our benchmark and code publicly available at https://github.com/HKU-MMLab/UniClawBench",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.08768",
+      "pdf_url": "https://arxiv.org/pdf/2607.08768",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/HKU-MMLab/UniClawBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.08768",
+      "scraped_at": "2026-07-11T02:43:08.791126"
+    },
+    "scraped_date": "2026-07-11"
+  },
+  {
+    "title": "Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation",
+    "paper_url": "https://huggingface.co/papers/2607.08758",
+    "authors": [],
+    "stars": "22",
+    "details": {
+      "title": "Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation",
+      "abstract": "Step length seems underappreciated from the image, can be measured as bits of fuzzing needed, maybe as a \"removal of idea from trained model direction\", and then probably from a positive direction as well, though that one seems more initialized and absolute rather than the relative removal tactic.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.08758",
+      "pdf_url": "https://arxiv.org/pdf/2607.08758",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/VisionXLab/IdeasHaveGenomes"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.08758",
+      "scraped_at": "2026-07-11T02:43:10.754754"
+    },
+    "scraped_date": "2026-07-11"
+  },
+  {
+    "title": "LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models",
+    "paper_url": "https://huggingface.co/papers/2607.08770",
+    "authors": [],
+    "stars": "20",
+    "details": {
+      "title": "LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models",
+      "abstract": "Recovering high-quality video from sparse event streams is a challenging task. Regression methods often blur textures, while existing generative models struggle with long-term stability. We propose LongE2V, a novel approach that leverages pre-trained video diffusion priors to jointly handle event-based video reconstruction, prediction, and frame interpolation. By fine-tuning a foundational video model, our approach achieves high data efficiency and superior perceptual quality. We introduce Autoregressive Unrolling and Adaptive Context Switching to mitigate temporal drift in extremely long sequences. We also propose Reencoding Alignment with Cross Residual Correction to ensure precise bidirectional consistency during frame interpolation. Furthermore, Event Voxel Density Augmentation ensures robustness across varying sensor resolutions. Extensive experiments on real-world benchmarks demonstrate that LongE2V outperforms state-of-the-art methods across all three tasks, exhibiting exceptional temporal coherence and zero-shot generalization. Project page: https://cdfan0627.github.io/LongE2V-page/",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.08770",
+      "pdf_url": "https://arxiv.org/pdf/2607.08770",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/cdfan0627/LongE2V"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.08770",
+      "scraped_at": "2026-07-11T02:43:12.700384"
+    },
+    "scraped_date": "2026-07-11"
+  },
+  {
+    "title": "Enhancing In-context Panoramic Generation via Geometric-aware Pretraining",
+    "paper_url": "https://huggingface.co/papers/2607.08765",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "Enhancing In-context Panoramic Generation via Geometric-aware Pretraining",
+      "abstract": "Project page： https://zry000.github.io/Canvas360/ GitHub repo： https://github.com/Insta360-Research-Team/Canvas360",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.08765",
+      "pdf_url": "https://arxiv.org/pdf/2607.08765",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Insta360-Research-Team/Canvas360"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.08765",
+      "scraped_at": "2026-07-11T02:43:14.577626"
+    },
+    "scraped_date": "2026-07-11"
+  },
+  {
+    "title": "DrugGen 2: A disease-aware language model for enhancing drug discovery",
+    "paper_url": "https://huggingface.co/papers/2607.08404",
+    "authors": [
+      "Matin Irajpour",
+      "Navid Mazrouei",
+      "Mahsa Sheikholeslami",
+      "Mohammadreza Ghaffarzadeh-Esfahani",
+      "Ali Motahharynia"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "DrugGen 2: A disease-aware language model for enhancing drug discovery",
+      "abstract": "Current computational approaches for drug design typically focus on generating molecules conditioned on specific targets or general molecular properties, often neglecting the influence of disease context on target behavior and therapeutic outcomes. To address this gap, we introduce DrugGen-2, a novel generative model that designs small molecules conditioned on both disease ontology and target protein sequences.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.08404",
+      "pdf_url": "https://arxiv.org/pdf/2607.08404",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/alimotahharynia/DrugGen-2"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.08404",
+      "scraped_at": "2026-07-11T02:43:16.485959"
+    },
+    "scraped_date": "2026-07-11"
+  },
+  {
+    "title": "Jet-Long: Efficient Long-Context Extension with Dynamic Bifocal RoPE",
+    "paper_url": "https://huggingface.co/papers/2607.07740",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Jet-Long: Efficient Long-Context Extension with Dynamic Bifocal RoPE",
+      "abstract": "Why stop at 2?",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.07740",
+      "pdf_url": "https://arxiv.org/pdf/2607.07740",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/jet-ai-projects/jet-long"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.07740",
+      "scraped_at": "2026-07-11T02:43:18.441454"
+    },
+    "scraped_date": "2026-07-11"
+  },
+  {
+    "title": "CineMobile: On-Device Image-to-Video Diffusion for Cinematic Camera Motion Generation",
+    "paper_url": "https://huggingface.co/papers/2607.03803",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CineMobile: On-Device Image-to-Video Diffusion for Cinematic Camera Motion Generation",
+      "abstract": "The growing demand for image-to-video creation on mobile devices has increasingly focused on cinematic motion effects like bullet time, dolly zoom, slow motion, etc. While Diffusion Transformers (DiTs) exhibit strong performance in video generation, their large parameter sizes and multi-step iterative denoising processes lead to substantial computational overhead, making efficient generation on mobile devices challenging. We propose CineMobile to bridge the gap. In particular, CineMobile adopts a three-fold optimization strategy: (1) leveraging a distillation-guided pruning approach to derive a compact yet efficient model that retains the essential video generation capabilities required for cinematic effects; (2) optimizing the compressed model into a 4-step generator via a combination of diffusion distillation and reinforcement learning; (3) employing a hybrid post-training quantization strategy to compress the model footprint to under 1 GB. Experimental results show that compared to the teacher model with the Wan 2.1 architecture, CineMobile achieves a 40x speedup in generation while maintaining comparable visual quality. Specifically, CineMobile generates 49-frame 480p videos with a per-step denoising latency of 0.6s on an NVIDIA H200 GPU and 20s on the MediaTek Dimensity 8400 Ultimate 5G platform, with a peak memory usage of 1.8 GB, demonstrating its practical applicability for mobile-based image-to-video creation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.03803",
+      "pdf_url": "https://arxiv.org/pdf/2607.03803",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.03803",
+      "scraped_at": "2026-07-11T02:43:20.421186"
+    },
+    "scraped_date": "2026-07-11"
+  },
+  {
+    "title": "OpenCoF: Learning to Reason Through Video Generation",
+    "paper_url": "https://huggingface.co/papers/2607.08763",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "OpenCoF: Learning to Reason Through Video Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.08763",
+      "pdf_url": "https://arxiv.org/pdf/2607.08763",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.08763",
+      "scraped_at": "2026-07-11T02:43:22.340929"
+    },
+    "scraped_date": "2026-07-11"
+  },
+  {
+    "title": "Linear Attention Architectures: Mechanisms, Trade-offs, and Cross-Layer Routing",
+    "paper_url": "https://huggingface.co/papers/2607.07953",
+    "authors": [],
+    "stars": "13",
+    "details": {
+      "title": "Linear Attention Architectures: Mechanisms, Trade-offs, and Cross-Layer Routing",
+      "abstract": "We compare several recent recurrent linear-attention architectures —DeltaNet, Gated DeltaNet, Kimi Delta Attention, and Gated DeltaNet-2 — in a shared recurrent-memory notation and empirical setup. The report focuses on practical trade-offs among validation loss, training throughput, optimizer sensitivity, hybrid vs. pure stacks, and sequence-length scaling, and also introduces a lightweight cross-layer routing variant for DeltaNet-style memories.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.07953",
+      "pdf_url": "https://arxiv.org/pdf/2607.07953",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/tommasocerruti/linear-attention-architectures"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.07953",
+      "scraped_at": "2026-07-11T02:43:24.318756"
+    },
+    "scraped_date": "2026-07-11"
+  },
+  {
+    "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
+    "paper_url": "https://huggingface.co/papers/2607.08716",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.08716",
+      "pdf_url": "https://arxiv.org/pdf/2607.08716",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yifannnwu/proactive-memory-agent"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.08716",
+      "scraped_at": "2026-07-11T02:43:26.308014"
+    },
+    "scraped_date": "2026-07-11"
+  },
+  {
+    "title": "UP: Unbounded Positive Asymmetric Optimization for Breaking the Exploration-Stability Dilemma",
+    "paper_url": "https://huggingface.co/papers/2607.06987",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "UP: Unbounded Positive Asymmetric Optimization for Breaking the Exploration-Stability Dilemma",
+      "abstract": "This paper introduces Unbounded Positive Asymmetric Optimization (UP), a plug-and-play reinforcement learning objective that overcomes the exploration-stability dilemma and effectively mitigates entropy collapse by allowing unclipped gradients for positive advantages to maximize exploration while retaining standard clipping for negative advantages to ensure training stability.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.06987",
+      "pdf_url": "https://arxiv.org/pdf/2607.06987",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.06987",
+      "scraped_at": "2026-07-11T02:43:28.195166"
+    },
+    "scraped_date": "2026-07-11"
+  },
+  {
+    "title": "PhyMRI-SR: Toward Physics-Aware MRI Image Super-Resolution",
+    "paper_url": "https://huggingface.co/papers/2607.06238",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "PhyMRI-SR: Toward Physics-Aware MRI Image Super-Resolution",
+      "abstract": "This paper reframes MRI super-resolution as a physics-aware problem, recognizing that resolution and SNR are inherently coupled in MRI acquisition, making resolution dynamic rather than fixed. The authors adapt 2D Gaussian Splatting as a resolution-agnostic representation and introduce physics-constrained signal modeling that predicts intrinsic tissue parameters (proton density and relaxation rate) to synthesize biophysically plausible images. A meta-learning framework addresses paired-data scarcity by pretraining on simulated data and adapting to real-world conditions, achieving state-of-the-art performance on both dynamic-resolution and standard benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.06238",
+      "pdf_url": "https://arxiv.org/pdf/2607.06238",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/weilihua0205/PhyMRI-SR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.06238",
+      "scraped_at": "2026-07-11T02:43:30.051266"
+    },
+    "scraped_date": "2026-07-11"
+  },
+  {
+    "title": "Flash-BoN: Instant Drafts for Inference-Time Scaling in Diffusion Models",
+    "paper_url": "https://huggingface.co/papers/2607.04461",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "Flash-BoN: Instant Drafts for Inference-Time Scaling in Diffusion Models",
+      "abstract": "Budget-constrained, verifier-guided best-of-N generation for diffusion models. Given a prompt and a wall-clock budget, Flash-BoN drafts cheap candidates (TaylorSeer-style caching + layer/timestep skipping), selects the best with a pairwise vision-language tournament, refines the top-k to full quality by resuming denoising from a captured state, and scores them with VQAScore.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.04461",
+      "pdf_url": "https://arxiv.org/pdf/2607.04461",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/flash-bon/flash-bon"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.04461",
+      "scraped_at": "2026-07-11T02:43:31.900487"
+    },
+    "scraped_date": "2026-07-11"
+  },
+  {
+    "title": "A Quantized Native Runtime for On-Device Semantic Audio Generation",
+    "paper_url": "https://huggingface.co/papers/2607.08526",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "A Quantized Native Runtime for On-Device Semantic Audio Generation",
+      "abstract": "We release aria , a native inference engine for audio diffusion models, written from scratch in C with no third-party dependencies. It runs Stable Audio 3 (small-music and medium) end to end, from a text prompt to a stereo WAV, with no Python or deep-learning framework underneath. It is CPU-first by design and runs on ordinary laptops, on old and cheap NVIDIA cards through an optional CUDA backend, and on an 8 GB Raspberry Pi 5. The point is to make capable open-weight audio models usable on hardware people already own, where the usual PyTorch stack is impractical.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.08526",
+      "pdf_url": "https://arxiv.org/pdf/2607.08526",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/matteospanio/aria"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.08526",
+      "scraped_at": "2026-07-11T02:43:33.814311"
+    },
+    "scraped_date": "2026-07-11"
+  },
+  {
+    "title": "CausalDS: Benchmarking Causal Reasoning in Data-Science Agents",
+    "paper_url": "https://huggingface.co/papers/2607.08093",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CausalDS: Benchmarking Causal Reasoning in Data-Science Agents",
+      "abstract": "We introduce CausalDS , a benchmark generator for agentic causal data science. Rather than relying on a fixed collection of examples, CausalDS generates fresh hidden causal graphs and SCMs, synthetic tabular data, graph-audited natural-language stories, and tasks spanning all three rungs of Pearl’s causal hierarchy. Exam composition is fully parameterizable: it can be tailored to specific evaluation goals or grounded in empirical distributions from real-world corpora. The benchmark jointly evaluates causal reasoning, statistical estimation, uncertainty quantification, abstention on non-identifiable queries, and tool use in file-backed data-science workflows. Our experiments show that these capabilities dissociate substantially across current models, particularly on abstention and uncertainty quantification, where the open-weights model lag behind the frontier ones.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.08093",
+      "pdf_url": "https://arxiv.org/pdf/2607.08093",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/andleb/causalds"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.08093",
+      "scraped_at": "2026-07-11T02:43:35.702475"
+    },
+    "scraped_date": "2026-07-11"
+  },
+  {
+    "title": "ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation",
+    "paper_url": "https://huggingface.co/papers/2607.08741",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.08741",
+      "pdf_url": "https://arxiv.org/pdf/2607.08741",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.08741",
+      "scraped_at": "2026-07-11T02:43:37.588004"
+    },
+    "scraped_date": "2026-07-11"
+  },
+  {
+    "title": "A Sparse and Truncated State Vector Simulator for Peaked Circuits",
+    "paper_url": "https://huggingface.co/papers/2607.07816",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "A Sparse and Truncated State Vector Simulator for Peaked Circuits",
+      "abstract": "Introduces a sparse and truncated state‑vector simulator for peaked quantum circuits, where the goal is to find the most probable output bit string. By storing only nonzero amplitudes and by vectorizing all operations (with optional GPU acceleration), this open‑source implementation enables approximate classical simulation beyond the memory limits of dense state-vector representations.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.07816",
+      "pdf_url": "https://arxiv.org/pdf/2607.07816",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/diogoff/qstvec"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.07816",
+      "scraped_at": "2026-07-11T02:43:39.412799"
+    },
+    "scraped_date": "2026-07-11"
+  },
+  {
+    "title": "SAM-MT: Real-Time Interactive Multi-Target Video Segmentation",
+    "paper_url": "https://huggingface.co/papers/2607.08688",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "SAM-MT: Real-Time Interactive Multi-Target Video Segmentation",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.08688",
+      "pdf_url": "https://arxiv.org/pdf/2607.08688",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/FudanCVL/SAM-MT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.08688",
+      "scraped_at": "2026-07-11T02:43:41.282593"
+    },
+    "scraped_date": "2026-07-11"
+  },
+  {
+    "title": "PAST-TIDE: Prototype-Anchored Statement Tuning with Topic-Invariant Normalization for Stance Detection",
+    "paper_url": "https://huggingface.co/papers/2607.04690",
+    "authors": [
+      "Fakhri Karray",
+      "Md Rezwanul Haque",
+      "Md. Milon Islam",
+      "MD Jahid Hasan Jim",
+      "Md. Shakhoyat Rahman Shujon"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "PAST-TIDE: Prototype-Anchored Statement Tuning with Topic-Invariant Normalization for Stance Detection",
+      "abstract": "Published in The Fifteenth Language Resources and Evaluation Conference (LREC 2026)",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.04690",
+      "pdf_url": "https://arxiv.org/pdf/2607.04690",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Shakhoyat/PAST-TIDE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.04690",
+      "scraped_at": "2026-07-11T02:43:43.150940"
+    },
+    "scraped_date": "2026-07-11"
+  },
+  {
+    "title": "Can Dialects Be Steered Like Languages? Sparse Neurons and Distributed Directions in Arabic LLMs",
+    "paper_url": "https://huggingface.co/papers/2607.03936",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Can Dialects Be Steered Like Languages? Sparse Neurons and Distributed Directions in Arabic LLMs",
+      "abstract": "A key challenge in Arabic NLP is the scarcity of dialectal data relative to Modern Standard Arabic (MSA), causing LLMs to overproduce MSA and struggle with dialectally accurate generation. From an interpretability perspective, this raises a fundamental question: where and how are dialectal features encoded within model internals, and can these representations be leveraged to improve dialect generation without fine-tuning? This study investigates two complementary inference-time approaches that serve simultaneously as interpretability probes and control mechanisms. First, we conduct a neuron-level analysis, identifying sparse neuron populations that encode dialect-specific features and showing that amplifying or suppressing these neurons can steer model outputs toward target dialects. Second, motivated by the entanglement of dialectal features at the single-neuron level, we apply a vector-steering approach that extracts dialect-specific activation directions and injects them during inference. Together, these methods illuminate the geometry of dialectal knowledge in Arabic LLMs and offer a principled, interpretability-grounded framework for dialect control without requiring dialect-specific fine-tuning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.03936",
+      "pdf_url": "https://arxiv.org/pdf/2607.03936",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/mbzuai-nlp/arabic-dialect-steering"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.03936",
+      "scraped_at": "2026-07-11T02:43:45.033362"
+    },
+    "scraped_date": "2026-07-11"
   }
 ]
