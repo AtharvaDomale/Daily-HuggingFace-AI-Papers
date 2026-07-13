@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-23-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-5181+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-9-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-5190+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">23</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">79</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">166</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5181+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">9</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">9</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">175</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5190+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** July 12, 2026
+**Last Updated:** July 13, 2026
 
 ---
 
@@ -119,305 +119,129 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Vidu S1: A Real-Time Interactive Video Generation Model</b> ⭐ 158</summary>
+<summary><b>1. PanoWorld: Real-World Panoramic Generation</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.03118) • [📄 arXiv](https://arxiv.org/abs/2607.03118) • [📥 PDF](https://arxiv.org/pdf/2607.03118)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.09661) • [📄 arXiv](https://arxiv.org/abs/2607.09661) • [📥 PDF](https://arxiv.org/pdf/2607.09661)
 
-**💻 Code:** [⭐ Code](https://github.com/shengshu-ai/Vidu-S1) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Insta360-Research-Team/PanoWorld)
 
-> Highly recommend giving Vidu S1 a try~ User Guide : https://auspicious-passive-36a.notion.site/Vidu-S1-Introduction-34324005a3e48009b3f3d9c07c79d83b Try it now : https://www.vidu.com/vidu-stream API Platform : https://platform.vidu.com/live/landin...
+> Project page： https://lihaoy-ux.github.io/panoworld-page/ GitHub repo： https://github.com/Insta360-Research-Team/PanoWorld
 
 </details>
 
 <details>
-<summary><b>2. Video-Oasis: Rethinking Evaluation of Video Understanding</b> ⭐ 25</summary>
+<summary><b>2. Video Generation Models are General-Purpose Vision Learners</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2603.29616) • [📄 arXiv](https://arxiv.org/abs/2603.29616) • [📥 PDF](https://arxiv.org/pdf/2603.29616)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/sejong-rcv/Video-Oasis)
-
-> TL;DR. Video-Oasis rethinks the current benchmark landscape by examining whether proliferating video benchmarks truly satisfy shared criteria for genuine video understanding.
-
-</details>
-
-<details>
-<summary><b>3. Why Can't I Open My Drawer? Mitigating Object-Driven Shortcuts in Zero-Shot Compositional Action Recognition</b> ⭐ 8</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2601.16211) • [📄 arXiv](https://arxiv.org/abs/2601.16211) • [📥 PDF](https://arxiv.org/pdf/2601.16211)
-
-**💻 Code:** [⭐ Code](https://github.com/KHU-VLL/RCORE) • [⭐ Code](https://github.com/huggingface)
-
-> TL;DR: We quantify how object-driven shortcuts sabotage compositional generalization in video understanding. A model that has seen "Open Window" and "Close Drawer" should be able to recognize "Open Drawer"—an unseen yet plausible verb–object combi...
-
-</details>
-
-<details>
-<summary><b>4. Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation</b> ⭐ 25</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.08758) • [📄 arXiv](https://arxiv.org/abs/2607.08758) • [📥 PDF](https://arxiv.org/pdf/2607.08758)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/VisionXLab/IdeasHaveGenomes)
-
-> Step length seems underappreciated from the image, can be measured as bits of fuzzing needed, maybe as a "removal of idea from trained model direction", and then probably from a positive direction as well, though that one seems more initialized an...
-
-</details>
-
-<details>
-<summary><b>5. LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models</b> ⭐ 22</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.08770) • [📄 arXiv](https://arxiv.org/abs/2607.08770) • [📥 PDF](https://arxiv.org/pdf/2607.08770)
-
-**💻 Code:** [⭐ Code](https://github.com/cdfan0627/LongE2V) • [⭐ Code](https://github.com/huggingface)
-
-> Recovering high-quality video from sparse event streams is a challenging task. Regression methods often blur textures, while existing generative models struggle with long-term stability. We propose LongE2V, a novel approach that leverages pre-trai...
-
-</details>
-
-<details>
-<summary><b>6. UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks</b> ⭐ 24</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.08768) • [📄 arXiv](https://arxiv.org/abs/2607.08768) • [📥 PDF](https://arxiv.org/pdf/2607.08768)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/HKU-MMLab/UniClawBench)
-
-> The rapid development of large language models and multimodal large language models has accelerated the emergence of proactive agents capable of operating everyday tools and assisting users in real-world environments. However, existing benchmarks ...
-
-</details>
-
-<details>
-<summary><b>7. Enhancing In-context Panoramic Generation via Geometric-aware Pretraining</b> ⭐ 5</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.08765) • [📄 arXiv](https://arxiv.org/abs/2607.08765) • [📥 PDF](https://arxiv.org/pdf/2607.08765)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Insta360-Research-Team/Canvas360)
-
-> Project page： https://zry000.github.io/Canvas360/ GitHub repo： https://github.com/Insta360-Research-Team/Canvas360
-
-</details>
-
-<details>
-<summary><b>8. DrugGen 2: A disease-aware language model for enhancing drug discovery</b> ⭐ 3</summary>
-
-<br/>
-
-**👥 Authors:** Matin Irajpour, Navid Mazrouei, Mahsa Sheikholeslami, Mohammadreza Ghaffarzadeh-Esfahani, alimotahharynia
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.08404) • [📄 arXiv](https://arxiv.org/abs/2607.08404) • [📥 PDF](https://arxiv.org/pdf/2607.08404)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/alimotahharynia/DrugGen-2)
-
-> Current computational approaches for drug design typically focus on generating molecules conditioned on specific targets or general molecular properties, often neglecting the influence of disease context on target behavior and therapeutic outcomes...
-
-</details>
-
-<details>
-<summary><b>9. Jet-Long: Efficient Long-Context Extension with Dynamic Bifocal RoPE</b> ⭐ 3</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.07740) • [📄 arXiv](https://arxiv.org/abs/2607.07740) • [📥 PDF](https://arxiv.org/pdf/2607.07740)
-
-**💻 Code:** [⭐ Code](https://github.com/jet-ai-projects/jet-long) • [⭐ Code](https://github.com/huggingface)
-
-> Why stop at 2?
-
-</details>
-
-<details>
-<summary><b>10. CineMobile: On-Device Image-to-Video Diffusion for Cinematic Camera Motion Generation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.03803) • [📄 arXiv](https://arxiv.org/abs/2607.03803) • [📥 PDF](https://arxiv.org/pdf/2607.03803)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.09024) • [📄 arXiv](https://arxiv.org/abs/2607.09024) • [📥 PDF](https://arxiv.org/pdf/2607.09024)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> The growing demand for image-to-video creation on mobile devices has increasingly focused on cinematic motion effects like bullet time, dolly zoom, slow motion, etc. While Diffusion Transformers (DiTs) exhibit strong performance in video generatio...
-
-</details>
-
-<details>
-<summary><b>11. OpenCoF: Learning to Reason Through Video Generation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.08763) • [📄 arXiv](https://arxiv.org/abs/2607.08763) • [📥 PDF](https://arxiv.org/pdf/2607.08763)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API VGenST-Bench: A Benchmark for Spatio-Temporal Reasoning via Active Video Sy...
-
-</details>
-
-<details>
-<summary><b>12. Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.08716) • [📄 arXiv](https://arxiv.org/abs/2607.08716) • [📥 PDF](https://arxiv.org/pdf/2607.08716)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/yifannnwu/proactive-memory-agent)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>13. Linear Attention Architectures: Mechanisms, Trade-offs, and Cross-Layer Routing</b> ⭐ 17</summary>
+<summary><b>3. From RGB Generation to Dense Field Readout: Pixel-Space Dense Prediction with Text-to-Image Models</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.07953) • [📄 arXiv](https://arxiv.org/abs/2607.07953) • [📥 PDF](https://arxiv.org/pdf/2607.07953)
+**👥 Authors:** Yijiang Li, Dengyang Jiang, Haodong Li, Xin Lin, xmz111
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/tommasocerruti/linear-attention-architectures)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.06553) • [📄 arXiv](https://arxiv.org/abs/2607.06553) • [📥 PDF](https://arxiv.org/pdf/2607.06553)
 
-> We compare several recent recurrent linear-attention architectures —DeltaNet, Gated DeltaNet, Kimi Delta Attention, and Gated DeltaNet-2 — in a shared recurrent-memory notation and empirical setup. The report focuses on practical trade-offs among ...
+**💻 Code:** [⭐ Code](https://github.com/xmz111/ReChannel) • [⭐ Code](https://github.com/huggingface)
+
+> Pixel-Space Dense Prediction with Pretrained Text-to-Image Diffusion Models
 
 </details>
 
 <details>
-<summary><b>14. ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation</b> ⭐ 0</summary>
+<summary><b>4. Trust Region Policy Distillation</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.08741) • [📄 arXiv](https://arxiv.org/abs/2607.08741) • [📥 PDF](https://arxiv.org/pdf/2607.08741)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.04751) • [📄 arXiv](https://arxiv.org/abs/2607.04751) • [📥 PDF](https://arxiv.org/pdf/2607.04751)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API DiscoForcing: A Unified Framework for Real-Time Audio-Driven Character Cont...
+> Improving the stability and performance of On-Policy Distillation (OPD) at no additional cost.
 
 </details>
 
 <details>
-<summary><b>15. A Sparse and Truncated State Vector Simulator for Peaked Circuits</b> ⭐ 0</summary>
+<summary><b>5. Phone Segmentation and Recognition through Phonological Activation Mapping</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.07816) • [📄 arXiv](https://arxiv.org/abs/2607.07816) • [📥 PDF](https://arxiv.org/pdf/2607.07816)
+**👥 Authors:** Eunjung Yeo, Chin-Jou Li, Stephen McIntosh, Kwanghee Choi, Shikhar Bharadwaj
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/diogoff/qstvec)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.09020) • [📄 arXiv](https://arxiv.org/abs/2607.09020) • [📥 PDF](https://arxiv.org/pdf/2607.09020)
 
-> Introduces a sparse and truncated state‑vector simulator for peaked quantum circuits, where the goal is to find the most probable output bit string. By storing only nonzero amplitudes and by vectorizing all operations (with optional GPU accelerati...
+**💻 Code:** [⭐ Code](https://github.com/stephenmac7/phone-metrics) • [⭐ Code](https://github.com/huggingface)
+
+> What it does : Solves phone segmentation and phone recognition jointly, instead of modeling them as separate tasks. Core idea : Phonetic structure is already latent inside self-supervised speech model (S3M) representations. We develop a method to ...
 
 </details>
 
 <details>
-<summary><b>16. UP: Unbounded Positive Asymmetric Optimization for Breaking the Exploration-Stability Dilemma</b> ⭐ 0</summary>
+<summary><b>6. Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in Large Language Model Finetuning</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.06987) • [📄 arXiv](https://arxiv.org/abs/2607.06987) • [📥 PDF](https://arxiv.org/pdf/2607.06987)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.08393) • [📄 arXiv](https://arxiv.org/abs/2607.08393) • [📥 PDF](https://arxiv.org/pdf/2607.08393)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> This paper introduces Unbounded Positive Asymmetric Optimization (UP), a plug-and-play reinforcement learning objective that overcomes the exploration-stability dilemma and effectively mitigates entropy collapse by allowing unclipped gradients for...
-
-</details>
-
-<details>
-<summary><b>17. SAM-MT: Real-Time Interactive Multi-Target Video Segmentation</b> ⭐ 9</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.08688) • [📄 arXiv](https://arxiv.org/abs/2607.08688) • [📥 PDF](https://arxiv.org/pdf/2607.08688)
-
-**💻 Code:** [⭐ Code](https://github.com/FudanCVL/SAM-MT) • [⭐ Code](https://github.com/huggingface)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>18. PhyMRI-SR: Toward Physics-Aware MRI Image Super-Resolution</b> ⭐ 2</summary>
+<summary><b>7. Self-Guided Test-Time Training for Long-Context LLMs</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.06238) • [📄 arXiv](https://arxiv.org/abs/2607.06238) • [📥 PDF](https://arxiv.org/pdf/2607.06238)
+**👥 Authors:** Fei Tian, Yunchen Pu, Xiaohan Wei, Zhe Xu, Xinyu Zhu
 
-**💻 Code:** [⭐ Code](https://github.com/weilihua0205/PhyMRI-SR) • [⭐ Code](https://github.com/huggingface)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.09415) • [📄 arXiv](https://arxiv.org/abs/2607.09415) • [📥 PDF](https://arxiv.org/pdf/2607.09415)
 
-> This paper reframes MRI super-resolution as a physics-aware problem, recognizing that resolution and SNR are inherently coupled in MRI acquisition, making resolution dynamic rather than fixed. The authors adapt 2D Gaussian Splatting as a resolutio...
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> No abstract available.
 
 </details>
 
 <details>
-<summary><b>19. Flash-BoN: Instant Drafts for Inference-Time Scaling in Diffusion Models</b> ⭐ 7</summary>
+<summary><b>8. A Sovereign, Open-Source Foundation Model for German and English</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.04461) • [📄 arXiv](https://arxiv.org/abs/2607.04461) • [📥 PDF](https://arxiv.org/pdf/2607.04461)
+**👥 Authors:** Lukas Helff, Ruben Härle, David Fitzek, Benedikt Droste, The Soofi-Team
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/flash-bon/flash-bon)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.09424) • [📄 arXiv](https://arxiv.org/abs/2607.09424) • [📥 PDF](https://arxiv.org/pdf/2607.09424)
 
-> Budget-constrained, verifier-guided best-of-N generation for diffusion models. Given a prompt and a wall-clock budget, Flash-BoN drafts cheap candidates (TaylorSeer-style caching + layer/timestep skipping), selects the best with a pairwise vision-...
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> No abstract available.
 
 </details>
 
 <details>
-<summary><b>20. A Quantized Native Runtime for On-Device Semantic Audio Generation</b> ⭐ 1</summary>
+<summary><b>9. Scalable Visual Pretraining for Language Intelligence</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.08526) • [📄 arXiv](https://arxiv.org/abs/2607.08526) • [📥 PDF](https://arxiv.org/pdf/2607.08526)
+**👥 Authors:** Tianyang Lin, Haiteng Zhao, Wenwei Zhang, Zhonghan Zhao, Yiming Zhang
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/matteospanio/aria)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.09657) • [📄 arXiv](https://arxiv.org/abs/2607.09657) • [📥 PDF](https://arxiv.org/pdf/2607.09657)
 
-> We release aria , a native inference engine for audio diffusion models, written from scratch in C with no third-party dependencies. It runs Stable Audio 3 (small-music and medium) end to end, from a text prompt to a stereo WAV, with no Python or d...
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-</details>
-
-<details>
-<summary><b>21. CausalDS: Benchmarking Causal Reasoning in Data-Science Agents</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.08093) • [📄 arXiv](https://arxiv.org/abs/2607.08093) • [📥 PDF](https://arxiv.org/pdf/2607.08093)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/andleb/causalds)
-
-> We introduce CausalDS , a benchmark generator for agentic causal data science. Rather than relying on a fixed collection of examples, CausalDS generates fresh hidden causal graphs and SCMs, synthetic tabular data, graph-audited natural-language st...
-
-</details>
-
-<details>
-<summary><b>22. Can Dialects Be Steered Like Languages? Sparse Neurons and Distributed Directions in Arabic LLMs</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.03936) • [📄 arXiv](https://arxiv.org/abs/2607.03936) • [📥 PDF](https://arxiv.org/pdf/2607.03936)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/mbzuai-nlp/arabic-dialect-steering)
-
-> A key challenge in Arabic NLP is the scarcity of dialectal data relative to Modern Standard Arabic (MSA), causing LLMs to overproduce MSA and struggle with dialectally accurate generation. From an interpretability perspective, this raises a fundam...
-
-</details>
-
-<details>
-<summary><b>23. PAST-TIDE: Prototype-Anchored Statement Tuning with Topic-Invariant Normalization for Stance Detection</b> ⭐ 1</summary>
-
-<br/>
-
-**👥 Authors:** Fakhri Karray, Md. Milon Islam, MD Jahid Hasan Jim, Md. Shakhoyat Rahman Shujon, mr3haque
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.04690) • [📄 arXiv](https://arxiv.org/abs/2607.04690) • [📥 PDF](https://arxiv.org/pdf/2607.04690)
-
-**💻 Code:** [⭐ Code](https://github.com/Shakhoyat/PAST-TIDE) • [⭐ Code](https://github.com/huggingface)
-
-> Published in The Fifteenth Language Resources and Evaluation Conference (LREC 2026)
+> No abstract available.
 
 </details>
 
@@ -429,37 +253,37 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 23 |
-| 📅 Today | [`2026-07-12.json`](data/daily/2026-07-12.json) | 23 |
-| 📆 This Week | [`2026-W27.json`](data/weekly/2026-W27.json) | 79 |
-| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 166 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 9 |
+| 📅 Today | [`2026-07-13.json`](data/daily/2026-07-13.json) | 9 |
+| 📆 This Week | [`2026-W28.json`](data/weekly/2026-W28.json) | 9 |
+| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 175 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-07-12 | 23 | [View JSON](data/daily/2026-07-12.json) |
+| 📌 2026-07-13 | 9 | [View JSON](data/daily/2026-07-13.json) |
+| 📄 2026-07-12 | 23 | [View JSON](data/daily/2026-07-12.json) |
 | 📄 2026-07-11 | 23 | [View JSON](data/daily/2026-07-11.json) |
 | 📄 2026-07-10 | 8 | [View JSON](data/daily/2026-07-10.json) |
 | 📄 2026-07-09 | 5 | [View JSON](data/daily/2026-07-09.json) |
 | 📄 2026-07-08 | 8 | [View JSON](data/daily/2026-07-08.json) |
 | 📄 2026-07-07 | 9 | [View JSON](data/daily/2026-07-07.json) |
-| 📄 2026-07-06 | 3 | [View JSON](data/daily/2026-07-06.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
+| 📅 2026-W28 | 9 | [View JSON](data/weekly/2026-W28.json) |
 | 📅 2026-W27 | 79 | [View JSON](data/weekly/2026-W27.json) |
 | 📅 2026-W26 | 117 | [View JSON](data/weekly/2026-W26.json) |
 | 📅 2026-W25 | 108 | [View JSON](data/weekly/2026-W25.json) |
-| 📅 2026-W24 | 130 | [View JSON](data/weekly/2026-W24.json) |
 
 ### 🗂️ Monthly Archives
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-07 | 166 | [View JSON](data/monthly/2026-07.json) |
+| 🗓️ 2026-07 | 175 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 782 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 450 | [View JSON](data/monthly/2026-04.json) |

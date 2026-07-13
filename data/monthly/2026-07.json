@@ -3658,5 +3658,209 @@
       "scraped_at": "2026-07-12T02:51:57.111169"
     },
     "scraped_date": "2026-07-12"
+  },
+  {
+    "title": "PanoWorld: Real-World Panoramic Generation",
+    "paper_url": "https://huggingface.co/papers/2607.09661",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PanoWorld: Real-World Panoramic Generation",
+      "abstract": "Project page： https://lihaoy-ux.github.io/panoworld-page/ GitHub repo： https://github.com/Insta360-Research-Team/PanoWorld",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.09661",
+      "pdf_url": "https://arxiv.org/pdf/2607.09661",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Insta360-Research-Team/PanoWorld"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.09661",
+      "scraped_at": "2026-07-13T02:52:28.937190"
+    },
+    "scraped_date": "2026-07-13"
+  },
+  {
+    "title": "Video Generation Models are General-Purpose Vision Learners",
+    "paper_url": "https://huggingface.co/papers/2607.09024",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Video Generation Models are General-Purpose Vision Learners",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.09024",
+      "pdf_url": "https://arxiv.org/pdf/2607.09024",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.09024",
+      "scraped_at": "2026-07-13T02:52:30.876780"
+    },
+    "scraped_date": "2026-07-13"
+  },
+  {
+    "title": "From RGB Generation to Dense Field Readout: Pixel-Space Dense Prediction with Text-to-Image Models",
+    "paper_url": "https://huggingface.co/papers/2607.06553",
+    "authors": [
+      "Yijiang Li",
+      "Dengyang Jiang",
+      "Haodong Li",
+      "Xin Lin",
+      "xmz111"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "From RGB Generation to Dense Field Readout: Pixel-Space Dense Prediction with Text-to-Image Models",
+      "abstract": "Pixel-Space Dense Prediction with Pretrained Text-to-Image Diffusion Models",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.06553",
+      "pdf_url": "https://arxiv.org/pdf/2607.06553",
+      "github_links": [
+        "https://github.com/xmz111/ReChannel",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.06553",
+      "scraped_at": "2026-07-13T02:52:32.735508"
+    },
+    "scraped_date": "2026-07-13"
+  },
+  {
+    "title": "Trust Region Policy Distillation",
+    "paper_url": "https://huggingface.co/papers/2607.04751",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Trust Region Policy Distillation",
+      "abstract": "Improving the stability and performance of On-Policy Distillation (OPD) at no additional cost.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.04751",
+      "pdf_url": "https://arxiv.org/pdf/2607.04751",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.04751",
+      "scraped_at": "2026-07-13T02:52:34.636837"
+    },
+    "scraped_date": "2026-07-13"
+  },
+  {
+    "title": "Phone Segmentation and Recognition through Phonological Activation Mapping",
+    "paper_url": "https://huggingface.co/papers/2607.09020",
+    "authors": [
+      "Eunjung Yeo",
+      "Chin-Jou Li",
+      "Stephen McIntosh",
+      "Kwanghee Choi",
+      "Shikhar Bharadwaj"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Phone Segmentation and Recognition through Phonological Activation Mapping",
+      "abstract": "What it does : Solves phone segmentation and phone recognition jointly, instead of modeling them as separate tasks. Core idea : Phonetic structure is already latent inside self-supervised speech model (S3M) representations. We develop a method to use these S3M representations efficiently. Method : Uses SPAM (S3M-based Phonological Activation Mapping), which converts each frame into phonological feature activations like voicing and nasality. Architecture : Two lightweight, gradient-descent-free prediction heads on top of SPAM, one for recognition and another for segmentation. Data efficiency : Requires less than one minute of time-aligned phonetic transcriptions to work. Generalization : Handles phones unseen during training, which is useful for low-resource languages and zero-shot phonetic analysis. Results : SOTA phone segmentation and strong recognition performance across a diverse range of datasets.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.09020",
+      "pdf_url": "https://arxiv.org/pdf/2607.09020",
+      "github_links": [
+        "https://github.com/stephenmac7/phone-metrics",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.09020",
+      "scraped_at": "2026-07-13T02:52:36.503239"
+    },
+    "scraped_date": "2026-07-13"
+  },
+  {
+    "title": "Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in Large Language Model Finetuning",
+    "paper_url": "https://huggingface.co/papers/2607.08393",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in Large Language Model Finetuning",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.08393",
+      "pdf_url": "https://arxiv.org/pdf/2607.08393",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.08393",
+      "scraped_at": "2026-07-13T02:52:38.420849"
+    },
+    "scraped_date": "2026-07-13"
+  },
+  {
+    "title": "Self-Guided Test-Time Training for Long-Context LLMs",
+    "paper_url": "https://huggingface.co/papers/2607.09415",
+    "authors": [
+      "Fei Tian",
+      "Yunchen Pu",
+      "Xiaohan Wei",
+      "Zhe Xu",
+      "Xinyu Zhu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Self-Guided Test-Time Training for Long-Context LLMs",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.09415",
+      "pdf_url": "https://arxiv.org/pdf/2607.09415",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.09415",
+      "scraped_at": "2026-07-13T02:52:40.291373"
+    },
+    "scraped_date": "2026-07-13"
+  },
+  {
+    "title": "A Sovereign, Open-Source Foundation Model for German and English",
+    "paper_url": "https://huggingface.co/papers/2607.09424",
+    "authors": [
+      "Lukas Helff",
+      "Ruben Härle",
+      "David Fitzek",
+      "Benedikt Droste",
+      "The Soofi-Team"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "A Sovereign, Open-Source Foundation Model for German and English",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.09424",
+      "pdf_url": "https://arxiv.org/pdf/2607.09424",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.09424",
+      "scraped_at": "2026-07-13T02:52:42.196950"
+    },
+    "scraped_date": "2026-07-13"
+  },
+  {
+    "title": "Scalable Visual Pretraining for Language Intelligence",
+    "paper_url": "https://huggingface.co/papers/2607.09657",
+    "authors": [
+      "Tianyang Lin",
+      "Haiteng Zhao",
+      "Wenwei Zhang",
+      "Zhonghan Zhao",
+      "Yiming Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Scalable Visual Pretraining for Language Intelligence",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.09657",
+      "pdf_url": "https://arxiv.org/pdf/2607.09657",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.09657",
+      "scraped_at": "2026-07-13T02:52:44.013740"
+    },
+    "scraped_date": "2026-07-13"
   }
 ]
