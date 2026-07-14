@@ -202,5 +202,302 @@
       "scraped_at": "2026-07-13T02:52:44.013740"
     },
     "scraped_date": "2026-07-13"
+  },
+  {
+    "title": "Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading",
+    "paper_url": "https://huggingface.co/papers/2607.08964",
+    "authors": [],
+    "stars": "25",
+    "details": {
+      "title": "Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading",
+      "abstract": "BLOG with newest results https://zli12321.github.io/LHTB/index.html",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.08964",
+      "pdf_url": "https://arxiv.org/pdf/2607.08964",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/zli12321/LHTB"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.08964",
+      "scraped_at": "2026-07-14T02:33:39.374296"
+    },
+    "scraped_date": "2026-07-14"
+  },
+  {
+    "title": "Scalable Visual Pretraining for Language Intelligence",
+    "paper_url": "https://huggingface.co/papers/2607.09657",
+    "authors": [
+      "Tianyang Lin",
+      "Haiteng Zhao",
+      "Wenwei Zhang",
+      "Zhonghan Zhao",
+      "Yiming Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Scalable Visual Pretraining for Language Intelligence",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.09657",
+      "pdf_url": "https://arxiv.org/pdf/2607.09657",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.09657",
+      "scraped_at": "2026-07-14T02:33:41.242932"
+    },
+    "scraped_date": "2026-07-14"
+  },
+  {
+    "title": "Video Generation Models are General-Purpose Vision Learners",
+    "paper_url": "https://huggingface.co/papers/2607.09024",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Video Generation Models are General-Purpose Vision Learners",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.09024",
+      "pdf_url": "https://arxiv.org/pdf/2607.09024",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.09024",
+      "scraped_at": "2026-07-14T02:33:43.236213"
+    },
+    "scraped_date": "2026-07-14"
+  },
+  {
+    "title": "KronQ: LLM Quantization via Kronecker-Factored Hessian",
+    "paper_url": "https://huggingface.co/papers/2607.07964",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "KronQ: LLM Quantization via Kronecker-Factored Hessian",
+      "abstract": "What got me was the gradient covariance angle. I've run GPTQ enough times to know it treats every output channel like it matters equally, and that's always felt like a shortcut. KronQ adds the gradient covariance into the quantization objective via a Kronecker-factored Hessian approximation, which means it actually weighs which output channels matter more for the reconstruction loss. Makes intuitive sense — not all weights pull their weight in the forward pass. The practical question is whether the extra compute at quantization time pays off. Second-order methods already cost more than RTN or AWQ, and KronQ adds another matrix factorization step on top. For a one-time quant on a model you'll serve millions of times, sure. For iterating on quant recipes during development, the overhead might sting. I'd be curious to see perplexity numbers at 3-bit and 2-bit specifically. That's where GPTQ tends to fall apart and where a better loss objective would show its teeth. If KronQ holds at 3-bit where GPTQ starts hallucinating, that's the real win.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.07964",
+      "pdf_url": "https://arxiv.org/pdf/2607.07964",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Intelligent-Computing-Lab-Panda/KronQ"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.07964",
+      "scraped_at": "2026-07-14T02:33:45.261169"
+    },
+    "scraped_date": "2026-07-14"
+  },
+  {
+    "title": "Trust Region Policy Distillation",
+    "paper_url": "https://huggingface.co/papers/2607.04751",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Trust Region Policy Distillation",
+      "abstract": "Improving the stability and performance of On-Policy Distillation (OPD) at no additional cost.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.04751",
+      "pdf_url": "https://arxiv.org/pdf/2607.04751",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.04751",
+      "scraped_at": "2026-07-14T02:33:47.165862"
+    },
+    "scraped_date": "2026-07-14"
+  },
+  {
+    "title": "From RGB Generation to Dense Field Readout: Pixel-Space Dense Prediction with Text-to-Image Models",
+    "paper_url": "https://huggingface.co/papers/2607.06553",
+    "authors": [
+      "Yijiang Li",
+      "Dengyang Jiang",
+      "Haodong Li",
+      "Xin Lin",
+      "xmz111"
+    ],
+    "stars": "13",
+    "details": {
+      "title": "From RGB Generation to Dense Field Readout: Pixel-Space Dense Prediction with Text-to-Image Models",
+      "abstract": "Pixel-Space Dense Prediction with Pretrained Text-to-Image Diffusion Models",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.06553",
+      "pdf_url": "https://arxiv.org/pdf/2607.06553",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/xmz111/ReChannel"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.06553",
+      "scraped_at": "2026-07-14T02:33:49.028670"
+    },
+    "scraped_date": "2026-07-14"
+  },
+  {
+    "title": "Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in Large Language Model Finetuning",
+    "paper_url": "https://huggingface.co/papers/2607.08393",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in Large Language Model Finetuning",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.08393",
+      "pdf_url": "https://arxiv.org/pdf/2607.08393",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.08393",
+      "scraped_at": "2026-07-14T02:33:50.925620"
+    },
+    "scraped_date": "2026-07-14"
+  },
+  {
+    "title": "PanoWorld: Real-World Panoramic Generation",
+    "paper_url": "https://huggingface.co/papers/2607.09661",
+    "authors": [],
+    "stars": "12",
+    "details": {
+      "title": "PanoWorld: Real-World Panoramic Generation",
+      "abstract": "Project page： https://lihaoy-ux.github.io/panoworld-page/ GitHub repo： https://github.com/Insta360-Research-Team/PanoWorld",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.09661",
+      "pdf_url": "https://arxiv.org/pdf/2607.09661",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Insta360-Research-Team/PanoWorld"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.09661",
+      "scraped_at": "2026-07-14T02:33:52.838178"
+    },
+    "scraped_date": "2026-07-14"
+  },
+  {
+    "title": "Self-Guided Test-Time Training for Long-Context LLMs",
+    "paper_url": "https://huggingface.co/papers/2607.09415",
+    "authors": [
+      "Fei Tian",
+      "Yunchen Pu",
+      "Xiaohan Wei",
+      "Zhe Xu",
+      "Xinyu Zhu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Self-Guided Test-Time Training for Long-Context LLMs",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.09415",
+      "pdf_url": "https://arxiv.org/pdf/2607.09415",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.09415",
+      "scraped_at": "2026-07-14T02:33:54.682933"
+    },
+    "scraped_date": "2026-07-14"
+  },
+  {
+    "title": "Flow-ERD: Agent-type Aware Flow Matching with Entropy-Regularized Distillation for Diverse Traffic Simulation",
+    "paper_url": "https://huggingface.co/papers/2607.06957",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Flow-ERD: Agent-type Aware Flow Matching with Entropy-Regularized Distillation for Diverse Traffic Simulation",
+      "abstract": "diverse traffic simulation video",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.06957",
+      "pdf_url": "https://arxiv.org/pdf/2607.06957",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.06957",
+      "scraped_at": "2026-07-14T02:33:56.605511"
+    },
+    "scraped_date": "2026-07-14"
+  },
+  {
+    "title": "Phone Segmentation and Recognition through Phonological Activation Mapping",
+    "paper_url": "https://huggingface.co/papers/2607.09020",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Phone Segmentation and Recognition through Phonological Activation Mapping",
+      "abstract": "What it does : Solves phone segmentation and phone recognition jointly, instead of modeling them as separate tasks. Core idea : Phonetic structure is already latent inside self-supervised speech model (S3M) representations. We develop a method to use these S3M representations efficiently. Method : Uses SPAM (S3M-based Phonological Activation Mapping), which converts each frame into phonological feature activations like voicing and nasality. Architecture : Two lightweight, gradient-descent-free prediction heads on top of SPAM, one for recognition and another for segmentation. Data efficiency : Requires less than one minute of time-aligned phonetic transcriptions to work. Generalization : Handles phones unseen during training, which is useful for low-resource languages and zero-shot phonetic analysis. Results : SOTA phone segmentation and strong recognition performance across a diverse range of datasets.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.09020",
+      "pdf_url": "https://arxiv.org/pdf/2607.09020",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/stephenmac7/phone-metrics"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.09020",
+      "scraped_at": "2026-07-14T02:33:58.526961"
+    },
+    "scraped_date": "2026-07-14"
+  },
+  {
+    "title": "MedPMC: A Systematic Framework for Scaling High-Fidelity Medical Multimodal Data for Foundation Models",
+    "paper_url": "https://huggingface.co/papers/2607.07673",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "MedPMC: A Systematic Framework for Scaling High-Fidelity Medical Multimodal Data for Foundation Models",
+      "abstract": "MedPMC Corpus: https://huggingface.co/datasets/Yale-BIDS-Chen/medpmc-11m-dataset_jun24_baseline MedPMC-CLIP: https://huggingface.co/Yale-BIDS-Chen/medpmc-clip-l-14_jun24_v1",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.07673",
+      "pdf_url": "https://arxiv.org/pdf/2607.07673",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Yale-BIDS-Chen-Lab/MedPMC"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.07673",
+      "scraped_at": "2026-07-14T02:34:00.445978"
+    },
+    "scraped_date": "2026-07-14"
+  },
+  {
+    "title": "A Sovereign, Open-Source Foundation Model for German and English",
+    "paper_url": "https://huggingface.co/papers/2607.09424",
+    "authors": [
+      "Lukas Helff",
+      "Ruben Härle",
+      "David Fitzek",
+      "Benedikt Droste",
+      "The Soofi-Team"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "A Sovereign, Open-Source Foundation Model for German and English",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.09424",
+      "pdf_url": "https://arxiv.org/pdf/2607.09424",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.09424",
+      "scraped_at": "2026-07-14T02:34:02.285296"
+    },
+    "scraped_date": "2026-07-14"
+  },
+  {
+    "title": "VaseMuseum: Digital Intelligent Museum for Ancient Greek Pottery",
+    "paper_url": "https://huggingface.co/papers/2607.06374",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "VaseMuseum: Digital Intelligent Museum for Ancient Greek Pottery",
+      "abstract": "Open-sourced.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.06374",
+      "pdf_url": "https://arxiv.org/pdf/2607.06374",
+      "github_links": [
+        "https://github.com/AIGeeksGroup/VaseMuseum",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.06374",
+      "scraped_at": "2026-07-14T02:34:04.168204"
+    },
+    "scraped_date": "2026-07-14"
   }
 ]
