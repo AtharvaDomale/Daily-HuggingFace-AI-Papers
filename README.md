@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-14-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-5204+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-1-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-5205+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">14</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">23</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">189</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5204+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">1</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">24</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">190</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5205+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** July 14, 2026
+**Last Updated:** July 15, 2026
 
 ---
 
@@ -119,192 +119,15 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading</b> ⭐ 25</summary>
+<summary><b>1. Know Before Fix: QA-Driven Repository Knowledge Acquisition for Software Issue Resolution</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.08964) • [📄 arXiv](https://arxiv.org/abs/2607.08964) • [📥 PDF](https://arxiv.org/pdf/2607.08964)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/zli12321/LHTB)
-
-> BLOG with newest results https://zli12321.github.io/LHTB/index.html
-
-</details>
-
-<details>
-<summary><b>2. Scalable Visual Pretraining for Language Intelligence</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Tianyang Lin, Haiteng Zhao, Wenwei Zhang, Zhonghan Zhao, Yiming Zhang
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.09657) • [📄 arXiv](https://arxiv.org/abs/2607.09657) • [📥 PDF](https://arxiv.org/pdf/2607.09657)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.11111) • [📄 arXiv](https://arxiv.org/abs/2607.11111) • [📥 PDF](https://arxiv.org/pdf/2607.11111)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>3. Video Generation Models are General-Purpose Vision Learners</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.09024) • [📄 arXiv](https://arxiv.org/abs/2607.09024) • [📥 PDF](https://arxiv.org/pdf/2607.09024)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>4. KronQ: LLM Quantization via Kronecker-Factored Hessian</b> ⭐ 2</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.07964) • [📄 arXiv](https://arxiv.org/abs/2607.07964) • [📥 PDF](https://arxiv.org/pdf/2607.07964)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Intelligent-Computing-Lab-Panda/KronQ)
-
-> What got me was the gradient covariance angle. I've run GPTQ enough times to know it treats every output channel like it matters equally, and that's always felt like a shortcut. KronQ adds the gradient covariance into the quantization objective vi...
-
-</details>
-
-<details>
-<summary><b>5. Trust Region Policy Distillation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.04751) • [📄 arXiv](https://arxiv.org/abs/2607.04751) • [📥 PDF](https://arxiv.org/pdf/2607.04751)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> Improving the stability and performance of On-Policy Distillation (OPD) at no additional cost.
-
-</details>
-
-<details>
-<summary><b>6. From RGB Generation to Dense Field Readout: Pixel-Space Dense Prediction with Text-to-Image Models</b> ⭐ 13</summary>
-
-<br/>
-
-**👥 Authors:** Yijiang Li, Dengyang Jiang, Haodong Li, Xin Lin, xmz111
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.06553) • [📄 arXiv](https://arxiv.org/abs/2607.06553) • [📥 PDF](https://arxiv.org/pdf/2607.06553)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/xmz111/ReChannel)
-
-> Pixel-Space Dense Prediction with Pretrained Text-to-Image Diffusion Models
-
-</details>
-
-<details>
-<summary><b>7. Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in Large Language Model Finetuning</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.08393) • [📄 arXiv](https://arxiv.org/abs/2607.08393) • [📥 PDF](https://arxiv.org/pdf/2607.08393)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>8. PanoWorld: Real-World Panoramic Generation</b> ⭐ 12</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.09661) • [📄 arXiv](https://arxiv.org/abs/2607.09661) • [📥 PDF](https://arxiv.org/pdf/2607.09661)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Insta360-Research-Team/PanoWorld)
-
-> Project page： https://lihaoy-ux.github.io/panoworld-page/ GitHub repo： https://github.com/Insta360-Research-Team/PanoWorld
-
-</details>
-
-<details>
-<summary><b>9. Self-Guided Test-Time Training for Long-Context LLMs</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Fei Tian, Yunchen Pu, Xiaohan Wei, Zhe Xu, Xinyu Zhu
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.09415) • [📄 arXiv](https://arxiv.org/abs/2607.09415) • [📥 PDF](https://arxiv.org/pdf/2607.09415)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>10. Flow-ERD: Agent-type Aware Flow Matching with Entropy-Regularized Distillation for Diverse Traffic Simulation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.06957) • [📄 arXiv](https://arxiv.org/abs/2607.06957) • [📥 PDF](https://arxiv.org/pdf/2607.06957)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> diverse traffic simulation video
-
-</details>
-
-<details>
-<summary><b>11. Phone Segmentation and Recognition through Phonological Activation Mapping</b> ⭐ 1</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.09020) • [📄 arXiv](https://arxiv.org/abs/2607.09020) • [📥 PDF](https://arxiv.org/pdf/2607.09020)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/stephenmac7/phone-metrics)
-
-> What it does : Solves phone segmentation and phone recognition jointly, instead of modeling them as separate tasks. Core idea : Phonetic structure is already latent inside self-supervised speech model (S3M) representations. We develop a method to ...
-
-</details>
-
-<details>
-<summary><b>12. MedPMC: A Systematic Framework for Scaling High-Fidelity Medical Multimodal Data for Foundation Models</b> ⭐ 1</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.07673) • [📄 arXiv](https://arxiv.org/abs/2607.07673) • [📥 PDF](https://arxiv.org/pdf/2607.07673)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Yale-BIDS-Chen-Lab/MedPMC)
-
-> MedPMC Corpus: https://huggingface.co/datasets/Yale-BIDS-Chen/medpmc-11m-dataset_jun24_baseline MedPMC-CLIP: https://huggingface.co/Yale-BIDS-Chen/medpmc-clip-l-14_jun24_v1
-
-</details>
-
-<details>
-<summary><b>13. A Sovereign, Open-Source Foundation Model for German and English</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Lukas Helff, Ruben Härle, David Fitzek, Benedikt Droste, The Soofi-Team
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.09424) • [📄 arXiv](https://arxiv.org/abs/2607.09424) • [📥 PDF](https://arxiv.org/pdf/2607.09424)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>14. VaseMuseum: Digital Intelligent Museum for Ancient Greek Pottery</b> ⭐ 1</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.06374) • [📄 arXiv](https://arxiv.org/abs/2607.06374) • [📥 PDF](https://arxiv.org/pdf/2607.06374)
-
-**💻 Code:** [⭐ Code](https://github.com/AIGeeksGroup/VaseMuseum) • [⭐ Code](https://github.com/huggingface)
-
-> Open-sourced.
+> ACQUIRE introduces a QA-driven knowledge acquisition paradigm that explicitly identifies and resolves an agent’s repository understanding gaps before patch generation, replacing unguided pre-repair exploration with structured, evidence-grounded kn...
 
 </details>
 
@@ -316,28 +139,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 14 |
-| 📅 Today | [`2026-07-14.json`](data/daily/2026-07-14.json) | 14 |
-| 📆 This Week | [`2026-W28.json`](data/weekly/2026-W28.json) | 23 |
-| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 189 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 1 |
+| 📅 Today | [`2026-07-15.json`](data/daily/2026-07-15.json) | 1 |
+| 📆 This Week | [`2026-W28.json`](data/weekly/2026-W28.json) | 24 |
+| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 190 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-07-14 | 14 | [View JSON](data/daily/2026-07-14.json) |
+| 📌 2026-07-15 | 1 | [View JSON](data/daily/2026-07-15.json) |
+| 📄 2026-07-14 | 14 | [View JSON](data/daily/2026-07-14.json) |
 | 📄 2026-07-13 | 9 | [View JSON](data/daily/2026-07-13.json) |
 | 📄 2026-07-12 | 23 | [View JSON](data/daily/2026-07-12.json) |
 | 📄 2026-07-11 | 23 | [View JSON](data/daily/2026-07-11.json) |
 | 📄 2026-07-10 | 8 | [View JSON](data/daily/2026-07-10.json) |
 | 📄 2026-07-09 | 5 | [View JSON](data/daily/2026-07-09.json) |
-| 📄 2026-07-08 | 8 | [View JSON](data/daily/2026-07-08.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W28 | 23 | [View JSON](data/weekly/2026-W28.json) |
+| 📅 2026-W28 | 24 | [View JSON](data/weekly/2026-W28.json) |
 | 📅 2026-W27 | 79 | [View JSON](data/weekly/2026-W27.json) |
 | 📅 2026-W26 | 117 | [View JSON](data/weekly/2026-W26.json) |
 | 📅 2026-W25 | 108 | [View JSON](data/weekly/2026-W25.json) |
@@ -346,7 +169,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-07 | 189 | [View JSON](data/monthly/2026-07.json) |
+| 🗓️ 2026-07 | 190 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 782 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 450 | [View JSON](data/monthly/2026-04.json) |

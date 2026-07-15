@@ -499,5 +499,24 @@
       "scraped_at": "2026-07-14T02:34:04.168204"
     },
     "scraped_date": "2026-07-14"
+  },
+  {
+    "title": "Know Before Fix: QA-Driven Repository Knowledge Acquisition for Software Issue Resolution",
+    "paper_url": "https://huggingface.co/papers/2607.11111",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Know Before Fix: QA-Driven Repository Knowledge Acquisition for Software Issue Resolution",
+      "abstract": "ACQUIRE introduces a QA-driven knowledge acquisition paradigm that explicitly identifies and resolves an agent’s repository understanding gaps before patch generation, replacing unguided pre-repair exploration with structured, evidence-grounded knowledge acquisition for more accurate software issue resolution.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.11111",
+      "pdf_url": "https://arxiv.org/pdf/2607.11111",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.11111",
+      "scraped_at": "2026-07-15T02:31:38.333705"
+    },
+    "scraped_date": "2026-07-15"
   }
 ]
