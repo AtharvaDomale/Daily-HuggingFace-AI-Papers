@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-1-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-5205+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-4-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-5209+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">1</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">24</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">190</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5205+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">4</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">28</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">194</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5209+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** July 15, 2026
+**Last Updated:** July 16, 2026
 
 ---
 
@@ -119,15 +119,56 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Know Before Fix: QA-Driven Repository Knowledge Acquisition for Software Issue Resolution</b> ⭐ 0</summary>
+<summary><b>1. KnowAct-GUIClaw: Know Deeply, Act Perfectly, Personal GUI Assistant with Self-Evolving Memory and Skill</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.11111) • [📄 arXiv](https://arxiv.org/abs/2607.11111) • [📥 PDF](https://arxiv.org/pdf/2607.11111)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.12625) • [📄 arXiv](https://arxiv.org/abs/2607.12625) • [📥 PDF](https://arxiv.org/pdf/2607.12625)
+
+**💻 Code:** [⭐ Code](https://github.com/HITsz-TMG/KnowAct) • [⭐ Code](https://github.com/huggingface)
+
+> Recursive Self-improvement Personal assistant with self-evolving memory and skill for long-horizon, cross-application GUI workflows.
+
+</details>
+
+<details>
+<summary><b>2. Ring-Zero: Scaling Zero RL to a Trillion Parameters for Emergent Reasoning</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.12395) • [📄 arXiv](https://arxiv.org/abs/2607.12395) • [📥 PDF](https://arxiv.org/pdf/2607.12395)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> ACQUIRE introduces a QA-driven knowledge acquisition paradigm that explicitly identifies and resolves an agent’s repository understanding gaps before patch generation, replacing unguided pre-repair exploration with structured, evidence-grounded kn...
+> File unavailable for 2607.12395 HTML or source was not provided to generate HTML or a PDF. maybe something wrong!
+
+</details>
+
+<details>
+<summary><b>3. OvisOCR2 Technical Report</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** An-Yang Ji, Yuhui Chen, Yu Xia, Yinglun Li, Shiyin Lu
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.13639) • [📄 arXiv](https://arxiv.org/abs/2607.13639) • [📥 PDF](https://arxiv.org/pdf/2607.13639)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>4. Harness Handbook: Making Evolving Agent Harnesses Readable,Navigable, and Editable</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.13285) • [📄 arXiv](https://arxiv.org/abs/2607.13285) • [📥 PDF](https://arxiv.org/pdf/2607.13285)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> No abstract available.
 
 </details>
 
@@ -139,28 +180,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 1 |
-| 📅 Today | [`2026-07-15.json`](data/daily/2026-07-15.json) | 1 |
-| 📆 This Week | [`2026-W28.json`](data/weekly/2026-W28.json) | 24 |
-| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 190 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 4 |
+| 📅 Today | [`2026-07-16.json`](data/daily/2026-07-16.json) | 4 |
+| 📆 This Week | [`2026-W28.json`](data/weekly/2026-W28.json) | 28 |
+| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 194 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-07-15 | 1 | [View JSON](data/daily/2026-07-15.json) |
+| 📌 2026-07-16 | 4 | [View JSON](data/daily/2026-07-16.json) |
+| 📄 2026-07-15 | 1 | [View JSON](data/daily/2026-07-15.json) |
 | 📄 2026-07-14 | 14 | [View JSON](data/daily/2026-07-14.json) |
 | 📄 2026-07-13 | 9 | [View JSON](data/daily/2026-07-13.json) |
 | 📄 2026-07-12 | 23 | [View JSON](data/daily/2026-07-12.json) |
 | 📄 2026-07-11 | 23 | [View JSON](data/daily/2026-07-11.json) |
 | 📄 2026-07-10 | 8 | [View JSON](data/daily/2026-07-10.json) |
-| 📄 2026-07-09 | 5 | [View JSON](data/daily/2026-07-09.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W28 | 24 | [View JSON](data/weekly/2026-W28.json) |
+| 📅 2026-W28 | 28 | [View JSON](data/weekly/2026-W28.json) |
 | 📅 2026-W27 | 79 | [View JSON](data/weekly/2026-W27.json) |
 | 📅 2026-W26 | 117 | [View JSON](data/weekly/2026-W26.json) |
 | 📅 2026-W25 | 108 | [View JSON](data/weekly/2026-W25.json) |
@@ -169,7 +210,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-07 | 190 | [View JSON](data/monthly/2026-07.json) |
+| 🗓️ 2026-07 | 194 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 782 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 450 | [View JSON](data/monthly/2026-04.json) |

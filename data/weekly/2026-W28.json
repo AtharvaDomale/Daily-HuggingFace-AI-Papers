@@ -518,5 +518,88 @@
       "scraped_at": "2026-07-15T02:31:38.333705"
     },
     "scraped_date": "2026-07-15"
+  },
+  {
+    "title": "KnowAct-GUIClaw: Know Deeply, Act Perfectly, Personal GUI Assistant with Self-Evolving Memory and Skill",
+    "paper_url": "https://huggingface.co/papers/2607.12625",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "KnowAct-GUIClaw: Know Deeply, Act Perfectly, Personal GUI Assistant with Self-Evolving Memory and Skill",
+      "abstract": "Recursive Self-improvement Personal assistant with self-evolving memory and skill for long-horizon, cross-application GUI workflows.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.12625",
+      "pdf_url": "https://arxiv.org/pdf/2607.12625",
+      "github_links": [
+        "https://github.com/HITsz-TMG/KnowAct",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.12625",
+      "scraped_at": "2026-07-16T02:40:00.251499"
+    },
+    "scraped_date": "2026-07-16"
+  },
+  {
+    "title": "Ring-Zero: Scaling Zero RL to a Trillion Parameters for Emergent Reasoning",
+    "paper_url": "https://huggingface.co/papers/2607.12395",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Ring-Zero: Scaling Zero RL to a Trillion Parameters for Emergent Reasoning",
+      "abstract": "File unavailable for 2607.12395 HTML or source was not provided to generate HTML or a PDF. maybe something wrong!",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.12395",
+      "pdf_url": "https://arxiv.org/pdf/2607.12395",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.12395",
+      "scraped_at": "2026-07-16T02:40:02.192515"
+    },
+    "scraped_date": "2026-07-16"
+  },
+  {
+    "title": "OvisOCR2 Technical Report",
+    "paper_url": "https://huggingface.co/papers/2607.13639",
+    "authors": [
+      "An-Yang Ji",
+      "Yuhui Chen",
+      "Yu Xia",
+      "Yinglun Li",
+      "Shiyin Lu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "OvisOCR2 Technical Report",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.13639",
+      "pdf_url": "https://arxiv.org/pdf/2607.13639",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.13639",
+      "scraped_at": "2026-07-16T02:40:04.132547"
+    },
+    "scraped_date": "2026-07-16"
+  },
+  {
+    "title": "Harness Handbook: Making Evolving Agent Harnesses Readable,Navigable, and Editable",
+    "paper_url": "https://huggingface.co/papers/2607.13285",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Harness Handbook: Making Evolving Agent Harnesses Readable,Navigable, and Editable",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.13285",
+      "pdf_url": "https://arxiv.org/pdf/2607.13285",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.13285",
+      "scraped_at": "2026-07-16T02:40:06.115205"
+    },
+    "scraped_date": "2026-07-16"
   }
 ]
