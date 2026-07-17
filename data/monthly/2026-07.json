@@ -4261,5 +4261,177 @@
       "scraped_at": "2026-07-16T02:40:06.115205"
     },
     "scraped_date": "2026-07-16"
+  },
+  {
+    "title": "BadWAM: When World-Action Models Dream Right but Act Wrong",
+    "paper_url": "https://huggingface.co/papers/2607.15207",
+    "authors": [
+      "Xinchao Wang",
+      "Xingyi Yang",
+      "Qi Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "BadWAM: When World-Action Models Dream Right but Act Wrong",
+      "abstract": "BadWAM models World-Action Drift Attacks: a new class of WAM-specific adversarial attacks that use small visual perturbations to break the alignment between what a WAM imagines and what it executes. It instantiates two complementary objectives. The action-only adversarial attack prioritizes disruption by driving the model toward task-failing actions. The imagination-preserving adversarial attack additionally keeps the predicted future close to the clean imagination, producing a stealthier failure mode.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.15207",
+      "pdf_url": "https://arxiv.org/pdf/2607.15207",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/LiQiiiii/BadWAM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.15207",
+      "scraped_at": "2026-07-17T02:42:37.645282"
+    },
+    "scraped_date": "2026-07-17"
+  },
+  {
+    "title": "Video = World + Event Stream",
+    "paper_url": "https://huggingface.co/papers/2607.15038",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Video = World + Event Stream",
+      "abstract": "Wan Streamer v0.3 learns a persistent world and the events unfolding within it. This general video pretraining brings free-form behavior to real-time full-duplex audio-visual interaction — still 640×368 at 25 fps, with the same ~200 ms model-side latency. Project page: https://wan-streamer.com/v0.3/",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.15038",
+      "pdf_url": "https://arxiv.org/pdf/2607.15038",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.15038",
+      "scraped_at": "2026-07-17T02:42:39.537223"
+    },
+    "scraped_date": "2026-07-17"
+  },
+  {
+    "title": "SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2607.14777",
+    "authors": [
+      "Yuhao Shen",
+      "Fan Zhang",
+      "Zhengxi Lu",
+      "Shuo Yang",
+      "Jinyang Wu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.14777",
+      "pdf_url": "https://arxiv.org/pdf/2607.14777",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/jinyangwu/SEED"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.14777",
+      "scraped_at": "2026-07-17T02:42:41.437758"
+    },
+    "scraped_date": "2026-07-17"
+  },
+  {
+    "title": "RoboTTT: Context Scaling for Robot Policies",
+    "paper_url": "https://huggingface.co/papers/2607.15275",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "RoboTTT: Context Scaling for Robot Policies",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.15275",
+      "pdf_url": "https://arxiv.org/pdf/2607.15275",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.15275",
+      "scraped_at": "2026-07-17T02:42:43.278142"
+    },
+    "scraped_date": "2026-07-17"
+  },
+  {
+    "title": "Smarter and Cheaper at Once: Byte-Exact KV-Cache Grafting Turns a Frozen Small Model into a Verified-Knowledge Flywheel",
+    "paper_url": "https://huggingface.co/papers/2607.14431",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Smarter and Cheaper at Once: Byte-Exact KV-Cache Grafting Turns a Frozen Small Model into a Verified-Knowledge Flywheel",
+      "abstract": "This Sunday on stage for agisummit",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.14431",
+      "pdf_url": "https://arxiv.org/pdf/2607.14431",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.14431",
+      "scraped_at": "2026-07-17T02:42:45.032140"
+    },
+    "scraped_date": "2026-07-17"
+  },
+  {
+    "title": "WanSong v1.0 Technical Report",
+    "paper_url": "https://huggingface.co/papers/2607.14749",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "WanSong v1.0 Technical Report",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.14749",
+      "pdf_url": "https://arxiv.org/pdf/2607.14749",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.14749",
+      "scraped_at": "2026-07-17T02:42:46.743358"
+    },
+    "scraped_date": "2026-07-17"
+  },
+  {
+    "title": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
+    "paper_url": "https://huggingface.co/papers/2607.15257",
+    "authors": [
+      "Jin Zhang",
+      "Jiaming Fan",
+      "Zhengxian Wu",
+      "Junjie Gao",
+      "Yuyao Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.15257",
+      "pdf_url": "https://arxiv.org/pdf/2607.15257",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/antins-labs/SearchOS"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.15257",
+      "scraped_at": "2026-07-17T02:42:48.489952"
+    },
+    "scraped_date": "2026-07-17"
+  },
+  {
+    "title": "MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity Generators",
+    "paper_url": "https://huggingface.co/papers/2607.15273",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity Generators",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.15273",
+      "pdf_url": "https://arxiv.org/pdf/2607.15273",
+      "github_links": [
+        "https://github.com/Harahan/MeanFlowNFT",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.15273",
+      "scraped_at": "2026-07-17T02:42:50.211254"
+    },
+    "scraped_date": "2026-07-17"
   }
 ]
