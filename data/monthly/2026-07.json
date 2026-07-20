@@ -5679,5 +5679,204 @@
       "scraped_at": "2026-07-19T02:48:38.655555"
     },
     "scraped_date": "2026-07-19"
+  },
+  {
+    "title": "RecGPT-V3 Technical Report",
+    "paper_url": "https://huggingface.co/papers/2607.15591",
+    "authors": [
+      "Han Zhu",
+      "Gaoyang Guo",
+      "Dian Chen",
+      "Chao Yi",
+      "Bowen Zheng"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "RecGPT-V3 Technical Report",
+      "abstract": "🚀 RecGPT-V3 Is Here: Making LLMs the “Intelligent Brain” of Industrial-Scale Recommender Systems From RecGPT-V1 , which pioneered intent understanding in Taobao’s recommendation pipeline, to RecGPT-V2 , which expanded the breadth and efficiency of intent understanding through multi-expert collaboration, our mission has remained the same: to move recommender systems beyond “predicting the next click” toward “understanding the real needs behind every choice.” Today, we introduce RecGPT-V3 . It brings together continually evolving stateful user memory, hybrid-modal understanding that connects natural language with the item space, and efficient latent reasoning that can be decoded back into human-readable explanations . Together, these capabilities enable recommender systems to remember users, understand their intent more precisely, and perform deep reasoning at significantly lower cost. 🧠 From Repeated Analysis to Continual Memory The Memory Hub distills long-term user behavior into structured memory that evolves over time. Instead of repeatedly processing the entire interaction history from scratch, the system continuously accumulates and refines its understanding of each user, reducing user-modeling compute by 55.8% . 🎯 From Ambiguous Intent to Precise Item Grounding The model jointly reasons over natural language and Semantic IDs (SIDs) . Natural language captures open-ended and complex user needs, while SIDs ground those needs directly in concrete items, bridging the gap between “understanding the user” and “finding the right products.” ⚡ From Lengthy Explicit Reasoning to Efficient Latent Reasoning Latent Intent Reasoning internalizes thousands of explicit reasoning tokens into a compact set of latent tokens, substantially reducing online inference costs. These latent reasoning traces can also be decoded back into human-readable explanations on demand , preserving interpretability while delivering a 3.46× end-to-end inference speedup . RecGPT-V3 has now been deployed in the “Guess What You Like” feed on Taobao’s homepage. Large-scale online A/B tests have delivered significant improvements: 📈 IPV +1.28%, CTR +1.00%, TC +1.97%, and GMV +3.97% 📉 52.4% reduction in end-to-end serving resource consumption From RecGPT-V1 to RecGPT-V3, we are steadily advancing recommendation from “replaying a user’s past” toward “continually remembering users, deeply understanding their intent, and efficiently delivering truly personalized experiences.” ✨",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.15591",
+      "pdf_url": "https://arxiv.org/pdf/2607.15591",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.15591",
+      "scraped_at": "2026-07-20T03:16:50.624229"
+    },
+    "scraped_date": "2026-07-20"
+  },
+  {
+    "title": "From Human-Centric to Agentic Code Review: The Impact of Different Generations of Generative AI Technology on Review Quality",
+    "paper_url": "https://huggingface.co/papers/2607.13196",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "From Human-Centric to Agentic Code Review: The Impact of Different Generations of Generative AI Technology on Review Quality",
+      "abstract": "We study 1.02 million reviewed pull requests from 207 GitHub projects to examine how code review evolves across human-centric, LLM-assisted, and agentic review eras. By modeling review discussions as human–AI interaction sequences, we find that AI-agent involvement is associated with faster review decisions, especially when agents initiate reviews or multiple agents participate. However, these efficiency gains do not consistently improve review quality. Our findings highlight both the promise and limitations of agentic code review and provide practical guidance for designing human–AI review workflows.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.13196",
+      "pdf_url": "https://arxiv.org/pdf/2607.13196",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.13196",
+      "scraped_at": "2026-07-20T03:16:52.460131"
+    },
+    "scraped_date": "2026-07-20"
+  },
+  {
+    "title": "xHC: Expanded Hyper-Connections",
+    "paper_url": "https://huggingface.co/papers/2607.14530",
+    "authors": [],
+    "stars": "21",
+    "details": {
+      "title": "xHC: Expanded Hyper-Connections",
+      "abstract": "Can residual stream width become a practical scaling axis beyond N=4? xHC achieves this in large scale language model pre-training. As Figure 2 shows, on the 18B MoE model, xHC lowers the final training loss from 1.776 to 1.758 and raises the average downstream score from 44.8 to 48.8 over DeepSeek mHC, with broad gains across reasoning, knowledge, and code, while adding only 4.1% training FLOPs over the vanilla baseline. The gains persist at 28B, where xHC outperforms mHC by another 3.1 average points, and scaling-law results show that mHC and vanilla require 1.19× and 1.50× the compute of xHC to reach the same loss.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.14530",
+      "pdf_url": "https://arxiv.org/pdf/2607.14530",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/aHapBean/xHC"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.14530",
+      "scraped_at": "2026-07-20T03:16:54.312432"
+    },
+    "scraped_date": "2026-07-20"
+  },
+  {
+    "title": "Loop the Loopies!",
+    "paper_url": "https://huggingface.co/papers/2607.16051",
+    "authors": [
+      "Ran Tao",
+      "Xinyu Yang",
+      "Yihao Xiao",
+      "Yilong Chen",
+      "Zitian Gao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Loop the Loopies!",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.16051",
+      "pdf_url": "https://arxiv.org/pdf/2607.16051",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.16051",
+      "scraped_at": "2026-07-20T03:16:56.081116"
+    },
+    "scraped_date": "2026-07-20"
+  },
+  {
+    "title": "Understanding Reasoning from Pretraining to Post-Training",
+    "paper_url": "https://huggingface.co/papers/2607.16097",
+    "authors": [
+      "Micah Goldblum",
+      "Yifan Sun",
+      "Salman Rahman",
+      "Ang Li",
+      "Jingyan Shen"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Understanding Reasoning from Pretraining to Post-Training",
+      "abstract": "We use chess as a controlled testbed for studying reasoning across the full pretraining-to-post-training pipeline. We follow the standard LLM training pipeline by pretraining language models from 5M to 1B parameters on human chess games, supervised fine-tuning on synthetic reasoning traces, and running RL on chess puzzles with verifiable rewards. Using this framework, we study two questions: (1) how do pretraining choices (model size, data) shape the returns to RL compute, and (2) what does RL actually do to the model? We establish connections on scaling behavior between pretraining and RL. Beyond scaling, we find that RL does not simply sharpen the SFT policy: on easy puzzles it amplifies correct moves the SFT policy already preferred, while on hard puzzles it surfaces correct moves that were nearly absent under SFT. We further test whether our findings beyond chess by training a 1B language model on math domain, where the same predictive pattern emerges: longer-pretrained checkpoints reach higher post-RL performance and improve faster under RL. In sum, we provide a quantitative account of the pretraining-to-RL interface and a controlled testbed for studying the science of reasoning across the full pretraining-to-post-training pipeline.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.16097",
+      "pdf_url": "https://arxiv.org/pdf/2607.16097",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/pavelslab-nyu/pre2post-chess"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.16097",
+      "scraped_at": "2026-07-20T03:16:57.929596"
+    },
+    "scraped_date": "2026-07-20"
+  },
+  {
+    "title": "Recursive Harness Self-Improvement",
+    "paper_url": "https://huggingface.co/papers/2607.15524",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Recursive Harness Self-Improvement",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.15524",
+      "pdf_url": "https://arxiv.org/pdf/2607.15524",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.15524",
+      "scraped_at": "2026-07-20T03:16:59.673520"
+    },
+    "scraped_date": "2026-07-20"
+  },
+  {
+    "title": "DSWorld: A Data Science World Model for Efficient Autonomous Agents",
+    "paper_url": "https://huggingface.co/papers/2607.15901",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DSWorld: A Data Science World Model for Efficient Autonomous Agents",
+      "abstract": "We introduce DSWorld, a Data Science World Model that predicts the outcomes of data science operations before real execution. DSWorld achieves a 14× training speedup and 3–6× inference speedup for autonomous data science agents while maintaining competitive performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.15901",
+      "pdf_url": "https://arxiv.org/pdf/2607.15901",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.15901",
+      "scraped_at": "2026-07-20T03:17:01.438274"
+    },
+    "scraped_date": "2026-07-20"
+  },
+  {
+    "title": "Cura 1T: Specialized Model for Agentic Healthcare",
+    "paper_url": "https://huggingface.co/papers/2607.15314",
+    "authors": [
+      "Deon Metelski",
+      "Steve Brown",
+      "Leon Qi",
+      "Haolin Chen",
+      "actAVA AI"
+    ],
+    "stars": "13",
+    "details": {
+      "title": "Cura 1T: Specialized Model for Agentic Healthcare",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.15314",
+      "pdf_url": "https://arxiv.org/pdf/2607.15314",
+      "github_links": [
+        "https://github.com/actava-ai/Cura",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.15314",
+      "scraped_at": "2026-07-20T03:17:03.181518"
+    },
+    "scraped_date": "2026-07-20"
+  },
+  {
+    "title": "Audio-Visual Flamingo: Open Audio-Visual Intelligence for Long and Complex Videos",
+    "paper_url": "https://huggingface.co/papers/2607.16107",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Audio-Visual Flamingo: Open Audio-Visual Intelligence for Long and Complex Videos",
+      "abstract": "Github: https://github.com/NVIDIA/audio-flamingo",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.16107",
+      "pdf_url": "https://arxiv.org/pdf/2607.16107",
+      "github_links": [
+        "https://github.com/NVIDIA/audio-flamingo",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.16107",
+      "scraped_at": "2026-07-20T03:17:04.986026"
+    },
+    "scraped_date": "2026-07-20"
   }
 ]
