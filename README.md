@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-9-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-5284+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-2-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-5286+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">9</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">9</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">269</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5284+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">2</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">11</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">271</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5286+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** July 20, 2026
+**Last Updated:** July 21, 2026
 
 ---
 
@@ -119,127 +119,30 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. RecGPT-V3 Technical Report</b> ⭐ 0</summary>
+<summary><b>1. DiffGI: Differentiable Geometry Images for High-Fidelity Thin-Shell 3D Generation</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Han Zhu, Gaoyang Guo, Dian Chen, Chao Yi, Bowen Zheng
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.15591) • [📄 arXiv](https://arxiv.org/abs/2607.15591) • [📥 PDF](https://arxiv.org/pdf/2607.15591)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.13365) • [📄 arXiv](https://arxiv.org/abs/2607.13365) • [📥 PDF](https://arxiv.org/pdf/2607.13365)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> 🚀 RecGPT-V3 Is Here: Making LLMs the “Intelligent Brain” of Industrial-Scale Recommender Systems From RecGPT-V1 , which pioneered intent understanding in Taobao’s recommendation pipeline, to RecGPT-V2 , which expanded the breadth and efficiency of...
+> High-fidelity thin-shell 3D generation in about a second on a consumer GPU — it even runs on a laptop CPU, no server needed. 🌐 Project page: https://ejshim.github.io/diffgi/ DiffGI replaces binary occupancy maps in geometry images with a continuou...
 
 </details>
 
 <details>
-<summary><b>2. From Human-Centric to Agentic Code Review: The Impact of Different Generations of Generative AI Technology on Review Quality</b> ⭐ 0</summary>
+<summary><b>2. JoyNexus: Service-Oriented Multi-Tenant Post-Training for VLA Models</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.13196) • [📄 arXiv](https://arxiv.org/abs/2607.13196) • [📥 PDF](https://arxiv.org/pdf/2607.13196)
+**👥 Authors:** Yongjian Guo, Hedan Yang, Junyang Hua, Wentao Zhang, Haoran231
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.16074) • [📄 arXiv](https://arxiv.org/abs/2607.16074) • [📥 PDF](https://arxiv.org/pdf/2607.16074)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> We study 1.02 million reviewed pull requests from 207 GitHub projects to examine how code review evolves across human-centric, LLM-assisted, and agentic review eras. By modeling review discussions as human–AI interaction sequences, we find that AI...
-
-</details>
-
-<details>
-<summary><b>3. xHC: Expanded Hyper-Connections</b> ⭐ 21</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.14530) • [📄 arXiv](https://arxiv.org/abs/2607.14530) • [📥 PDF](https://arxiv.org/pdf/2607.14530)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/aHapBean/xHC)
-
-> Can residual stream width become a practical scaling axis beyond N=4? xHC achieves this in large scale language model pre-training. As Figure 2 shows, on the 18B MoE model, xHC lowers the final training loss from 1.776 to 1.758 and raises the aver...
-
-</details>
-
-<details>
-<summary><b>4. Loop the Loopies!</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Ran Tao, Xinyu Yang, Yihao Xiao, Yilong Chen, Zitian Gao
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.16051) • [📄 arXiv](https://arxiv.org/abs/2607.16051) • [📥 PDF](https://arxiv.org/pdf/2607.16051)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>5. Understanding Reasoning from Pretraining to Post-Training</b> ⭐ 1</summary>
-
-<br/>
-
-**👥 Authors:** Micah Goldblum, Yifan Sun, Salman Rahman, Ang Li, Jingyan Shen
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.16097) • [📄 arXiv](https://arxiv.org/abs/2607.16097) • [📥 PDF](https://arxiv.org/pdf/2607.16097)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/pavelslab-nyu/pre2post-chess)
-
-> We use chess as a controlled testbed for studying reasoning across the full pretraining-to-post-training pipeline. We follow the standard LLM training pipeline by pretraining language models from 5M to 1B parameters on human chess games, supervise...
-
-</details>
-
-<details>
-<summary><b>6. Recursive Harness Self-Improvement</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.15524) • [📄 arXiv](https://arxiv.org/abs/2607.15524) • [📥 PDF](https://arxiv.org/pdf/2607.15524)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>7. DSWorld: A Data Science World Model for Efficient Autonomous Agents</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.15901) • [📄 arXiv](https://arxiv.org/abs/2607.15901) • [📥 PDF](https://arxiv.org/pdf/2607.15901)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> We introduce DSWorld, a Data Science World Model that predicts the outcomes of data science operations before real execution. DSWorld achieves a 14× training speedup and 3–6× inference speedup for autonomous data science agents while maintaining c...
-
-</details>
-
-<details>
-<summary><b>8. Cura 1T: Specialized Model for Agentic Healthcare</b> ⭐ 13</summary>
-
-<br/>
-
-**👥 Authors:** Deon Metelski, Steve Brown, Leon Qi, Haolin Chen, actAVA AI
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.15314) • [📄 arXiv](https://arxiv.org/abs/2607.15314) • [📥 PDF](https://arxiv.org/pdf/2607.15314)
-
-**💻 Code:** [⭐ Code](https://github.com/actava-ai/Cura) • [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>9. Audio-Visual Flamingo: Open Audio-Visual Intelligence for Long and Complex Videos</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.16107) • [📄 arXiv](https://arxiv.org/abs/2607.16107) • [📥 PDF](https://arxiv.org/pdf/2607.16107)
-
-**💻 Code:** [⭐ Code](https://github.com/NVIDIA/audio-flamingo) • [⭐ Code](https://github.com/huggingface)
-
-> Github: https://github.com/NVIDIA/audio-flamingo
+> We present JoyNexus, a service-oriented multi-tenant post-training framework for Vision-Language-Action (VLA) models. As illustrated in the following figure, JoyNexus decouples Training Model, Inference Model, and Environment Services, enabling co...
 
 </details>
 
@@ -251,28 +154,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 9 |
-| 📅 Today | [`2026-07-20.json`](data/daily/2026-07-20.json) | 9 |
-| 📆 This Week | [`2026-W29.json`](data/weekly/2026-W29.json) | 9 |
-| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 269 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 2 |
+| 📅 Today | [`2026-07-21.json`](data/daily/2026-07-21.json) | 2 |
+| 📆 This Week | [`2026-W29.json`](data/weekly/2026-W29.json) | 11 |
+| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 271 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-07-20 | 9 | [View JSON](data/daily/2026-07-20.json) |
+| 📌 2026-07-21 | 2 | [View JSON](data/daily/2026-07-21.json) |
+| 📄 2026-07-20 | 9 | [View JSON](data/daily/2026-07-20.json) |
 | 📄 2026-07-19 | 29 | [View JSON](data/daily/2026-07-19.json) |
 | 📄 2026-07-18 | 29 | [View JSON](data/daily/2026-07-18.json) |
 | 📄 2026-07-17 | 8 | [View JSON](data/daily/2026-07-17.json) |
 | 📄 2026-07-16 | 4 | [View JSON](data/daily/2026-07-16.json) |
 | 📄 2026-07-15 | 1 | [View JSON](data/daily/2026-07-15.json) |
-| 📄 2026-07-14 | 14 | [View JSON](data/daily/2026-07-14.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W29 | 9 | [View JSON](data/weekly/2026-W29.json) |
+| 📅 2026-W29 | 11 | [View JSON](data/weekly/2026-W29.json) |
 | 📅 2026-W28 | 94 | [View JSON](data/weekly/2026-W28.json) |
 | 📅 2026-W27 | 79 | [View JSON](data/weekly/2026-W27.json) |
 | 📅 2026-W26 | 117 | [View JSON](data/weekly/2026-W26.json) |
@@ -281,7 +184,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-07 | 269 | [View JSON](data/monthly/2026-07.json) |
+| 🗓️ 2026-07 | 271 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 782 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 450 | [View JSON](data/monthly/2026-04.json) |

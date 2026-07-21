@@ -5878,5 +5878,49 @@
       "scraped_at": "2026-07-20T03:17:04.986026"
     },
     "scraped_date": "2026-07-20"
+  },
+  {
+    "title": "DiffGI: Differentiable Geometry Images for High-Fidelity Thin-Shell 3D Generation",
+    "paper_url": "https://huggingface.co/papers/2607.13365",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DiffGI: Differentiable Geometry Images for High-Fidelity Thin-Shell 3D Generation",
+      "abstract": "High-fidelity thin-shell 3D generation in about a second on a consumer GPU — it even runs on a laptop CPU, no server needed. 🌐 Project page: https://ejshim.github.io/diffgi/ DiffGI replaces binary occupancy maps in geometry images with a continuous 2D TSDF and a Differentiable Marching Squares module, making the whole pipeline end-to-end differentiable. Interactive demo coming soon — happy to answer any questions!",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.13365",
+      "pdf_url": "https://arxiv.org/pdf/2607.13365",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.13365",
+      "scraped_at": "2026-07-21T02:45:14.726923"
+    },
+    "scraped_date": "2026-07-21"
+  },
+  {
+    "title": "JoyNexus: Service-Oriented Multi-Tenant Post-Training for VLA Models",
+    "paper_url": "https://huggingface.co/papers/2607.16074",
+    "authors": [
+      "Yongjian Guo",
+      "Hedan Yang",
+      "Junyang Hua",
+      "Wentao Zhang",
+      "Haoran231"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "JoyNexus: Service-Oriented Multi-Tenant Post-Training for VLA Models",
+      "abstract": "We present JoyNexus, a service-oriented multi-tenant post-training framework for Vision-Language-Action (VLA) models. As illustrated in the following figure, JoyNexus decouples Training Model, Inference Model, and Environment Services, enabling concurrent tenant workloads with isolated action modules and shared resident base models. Experimental results show that JoyNexus significantly improves GPU utilization compared to isolated single-tenant execution.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.16074",
+      "pdf_url": "https://arxiv.org/pdf/2607.16074",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.16074",
+      "scraped_at": "2026-07-21T02:45:16.575322"
+    },
+    "scraped_date": "2026-07-21"
   }
 ]
