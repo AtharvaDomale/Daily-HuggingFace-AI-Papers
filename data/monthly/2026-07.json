@@ -5922,5 +5922,106 @@
       "scraped_at": "2026-07-21T02:45:16.575322"
     },
     "scraped_date": "2026-07-21"
+  },
+  {
+    "title": "Masked Visual Actions for Unified World Modeling",
+    "paper_url": "https://huggingface.co/papers/2607.19343",
+    "authors": [
+      "Lvmin Zhang",
+      "Christopher Luey",
+      "Haonan Chen",
+      "Wenlong Huang",
+      "Hadi Alzayer"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Masked Visual Actions for Unified World Modeling",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.19343",
+      "pdf_url": "https://arxiv.org/pdf/2607.19343",
+      "github_links": [
+        "https://github.com/HadiZayer/masked-visual-actions",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.19343",
+      "scraped_at": "2026-07-22T02:42:55.063817"
+    },
+    "scraped_date": "2026-07-22"
+  },
+  {
+    "title": "Appearance Pointers -- Multimodal Region Control of Diffusion Transformers",
+    "paper_url": "https://huggingface.co/papers/2607.19344",
+    "authors": [
+      "Matheus Gadelha",
+      "Srinath Sridhar",
+      "Radomír Měch",
+      "Yulia Gryaditskaya",
+      "Rahul Sajnani"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Appearance Pointers -- Multimodal Region Control of Diffusion Transformers",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.19344",
+      "pdf_url": "https://arxiv.org/pdf/2607.19344",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.19344",
+      "scraped_at": "2026-07-22T02:42:56.798598"
+    },
+    "scraped_date": "2026-07-22"
+  },
+  {
+    "title": "H^2SD: Hybrid Hindsight Self-Distillation",
+    "paper_url": "https://huggingface.co/papers/2607.18955",
+    "authors": [
+      "Yongkang Chen",
+      "Peiji Li",
+      "Linyang Li",
+      "Yichuan Ma",
+      "Qiye Cai"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "H^2SD: Hybrid Hindsight Self-Distillation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.18955",
+      "pdf_url": "https://arxiv.org/pdf/2607.18955",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.18955",
+      "scraped_at": "2026-07-22T02:42:58.533174"
+    },
+    "scraped_date": "2026-07-22"
+  },
+  {
+    "title": "ConsiSpace: Learning Geometric Consistency Matters for Video Spatial Reasoning",
+    "paper_url": "https://huggingface.co/papers/2607.17599",
+    "authors": [
+      "Hao Tang",
+      "Jian Yang",
+      "Wenyuan Huang",
+      "Zhenyu Zhang",
+      "Ting Huang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ConsiSpace: Learning Geometric Consistency Matters for Video Spatial Reasoning",
+      "abstract": "We propose a geometry-consistency-aware framework for video spatial reasoning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.17599",
+      "pdf_url": "https://arxiv.org/pdf/2607.17599",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.17599",
+      "scraped_at": "2026-07-22T02:43:00.312155"
+    },
+    "scraped_date": "2026-07-22"
   }
 ]

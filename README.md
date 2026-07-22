@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-2-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-5286+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-4-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-5290+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">2</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">11</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">271</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5286+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">4</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">15</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">275</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5290+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** July 21, 2026
+**Last Updated:** July 22, 2026
 
 ---
 
@@ -119,30 +119,62 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. DiffGI: Differentiable Geometry Images for High-Fidelity Thin-Shell 3D Generation</b> ⭐ 0</summary>
+<summary><b>1. Masked Visual Actions for Unified World Modeling</b> ⭐ 1</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.13365) • [📄 arXiv](https://arxiv.org/abs/2607.13365) • [📥 PDF](https://arxiv.org/pdf/2607.13365)
+**👥 Authors:** Lvmin Zhang, Christopher Luey, Haonan Chen, Wenlong Huang, Hadi Alzayer
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.19343) • [📄 arXiv](https://arxiv.org/abs/2607.19343) • [📥 PDF](https://arxiv.org/pdf/2607.19343)
 
-> High-fidelity thin-shell 3D generation in about a second on a consumer GPU — it even runs on a laptop CPU, no server needed. 🌐 Project page: https://ejshim.github.io/diffgi/ DiffGI replaces binary occupancy maps in geometry images with a continuou...
+**💻 Code:** [⭐ Code](https://github.com/HadiZayer/masked-visual-actions) • [⭐ Code](https://github.com/huggingface)
+
+> No abstract available.
 
 </details>
 
 <details>
-<summary><b>2. JoyNexus: Service-Oriented Multi-Tenant Post-Training for VLA Models</b> ⭐ 0</summary>
+<summary><b>2. Appearance Pointers -- Multimodal Region Control of Diffusion Transformers</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Yongjian Guo, Hedan Yang, Junyang Hua, Wentao Zhang, Haoran231
+**👥 Authors:** Matheus Gadelha, Srinath Sridhar, Radomír Měch, Yulia Gryaditskaya, Rahul Sajnani
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.16074) • [📄 arXiv](https://arxiv.org/abs/2607.16074) • [📥 PDF](https://arxiv.org/pdf/2607.16074)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.19344) • [📄 arXiv](https://arxiv.org/abs/2607.19344) • [📥 PDF](https://arxiv.org/pdf/2607.19344)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> We present JoyNexus, a service-oriented multi-tenant post-training framework for Vision-Language-Action (VLA) models. As illustrated in the following figure, JoyNexus decouples Training Model, Inference Model, and Environment Services, enabling co...
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>3. H^2SD: Hybrid Hindsight Self-Distillation</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Yongkang Chen, Peiji Li, Linyang Li, Yichuan Ma, Qiye Cai
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.18955) • [📄 arXiv](https://arxiv.org/abs/2607.18955) • [📥 PDF](https://arxiv.org/pdf/2607.18955)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>4. ConsiSpace: Learning Geometric Consistency Matters for Video Spatial Reasoning</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Hao Tang, Jian Yang, Wenyuan Huang, Zhenyu Zhang, Ting Huang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.17599) • [📄 arXiv](https://arxiv.org/abs/2607.17599) • [📥 PDF](https://arxiv.org/pdf/2607.17599)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> We propose a geometry-consistency-aware framework for video spatial reasoning.
 
 </details>
 
@@ -154,28 +186,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 2 |
-| 📅 Today | [`2026-07-21.json`](data/daily/2026-07-21.json) | 2 |
-| 📆 This Week | [`2026-W29.json`](data/weekly/2026-W29.json) | 11 |
-| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 271 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 4 |
+| 📅 Today | [`2026-07-22.json`](data/daily/2026-07-22.json) | 4 |
+| 📆 This Week | [`2026-W29.json`](data/weekly/2026-W29.json) | 15 |
+| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 275 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-07-21 | 2 | [View JSON](data/daily/2026-07-21.json) |
+| 📌 2026-07-22 | 4 | [View JSON](data/daily/2026-07-22.json) |
+| 📄 2026-07-21 | 2 | [View JSON](data/daily/2026-07-21.json) |
 | 📄 2026-07-20 | 9 | [View JSON](data/daily/2026-07-20.json) |
 | 📄 2026-07-19 | 29 | [View JSON](data/daily/2026-07-19.json) |
 | 📄 2026-07-18 | 29 | [View JSON](data/daily/2026-07-18.json) |
 | 📄 2026-07-17 | 8 | [View JSON](data/daily/2026-07-17.json) |
 | 📄 2026-07-16 | 4 | [View JSON](data/daily/2026-07-16.json) |
-| 📄 2026-07-15 | 1 | [View JSON](data/daily/2026-07-15.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W29 | 11 | [View JSON](data/weekly/2026-W29.json) |
+| 📅 2026-W29 | 15 | [View JSON](data/weekly/2026-W29.json) |
 | 📅 2026-W28 | 94 | [View JSON](data/weekly/2026-W28.json) |
 | 📅 2026-W27 | 79 | [View JSON](data/weekly/2026-W27.json) |
 | 📅 2026-W26 | 117 | [View JSON](data/weekly/2026-W26.json) |
@@ -184,7 +216,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-07 | 271 | [View JSON](data/monthly/2026-07.json) |
+| 🗓️ 2026-07 | 275 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 782 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 450 | [View JSON](data/monthly/2026-04.json) |
