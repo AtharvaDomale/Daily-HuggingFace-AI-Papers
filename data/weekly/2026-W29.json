@@ -342,5 +342,133 @@
       "scraped_at": "2026-07-22T02:43:00.312155"
     },
     "scraped_date": "2026-07-22"
+  },
+  {
+    "title": "SLAI T-Rex: Full-Parameter Post-training of the DeepSeek-V4 Family on Ascend SuperPOD",
+    "paper_url": "https://huggingface.co/papers/2607.20145",
+    "authors": [
+      "Linyuan Qiu",
+      "Xuhui Chen",
+      "Ruoyu Sun",
+      "Xiaodong Luo",
+      "Dongfang Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SLAI T-Rex: Full-Parameter Post-training of the DeepSeek-V4 Family on Ascend SuperPOD",
+      "abstract": "Full-parameter post-training of trillion-parameter-scale MoE models introduces substantial system-level challenges for large-scale distributed training, including severe memory pressure, non-overlapped communication overhead, and inefficient kernel execution. While most large-scale LLM training systems are built around GPU-based clusters, this report presents an end-to-end optimization practice on the Ascend NPU SuperPOD. Using the DeepSeek-V4 model family as the target workload, we develop a hierarchical optimization framework spanning model-level parallelism, computation-communication orchestration, and low-level kernel execution. The resulting system achieves 34.22% Model FLOPs Utilization (MFU) with a 2.93x improvement over the open-source baseline recipe while maintaining training stability. Building on this optimized infrastructure, we further establish a CPT and SFT workflow for complex Operations Research (OR) tasks. We refer to the integrated framework as SLAI T-Rex. Using DeepSeek-V4-Flash, we develop OR-oriented CPT and SFT data pipelines that combine collected domain resources with solver-verified synthetic optimization documents. The resulting dataset contains 10K high-quality SFT samples spanning four task categories and three problem representations. The specialized model achieves the highest average zero-shot Pass@1 score among the evaluated models, reaching 71.81% and outperforming GPT-5.4-Mini and the base DeepSeek-V4-Flash model by 3.98 and 11.27 percentage points, respectively. Overall, this work demonstrates a full-stack pathway from efficient trillion-parameter model post-training on Ascend infra to domain-specialized Flash models for solver-grounded mathematical modeling, advancing frontier-model systems for complex reasoning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.20145",
+      "pdf_url": "https://arxiv.org/pdf/2607.20145",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/SLAI-AITP/SLAI-T-Rex"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.20145",
+      "scraped_at": "2026-07-23T02:48:43.100736"
+    },
+    "scraped_date": "2026-07-23"
+  },
+  {
+    "title": "SLPO: Scaling Latent Reasoning via a Surrogate Policy",
+    "paper_url": "https://huggingface.co/papers/2607.19691",
+    "authors": [
+      "Wenjie Li",
+      "Yongqi Li",
+      "Zhiyuan Liu",
+      "Runyang You"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SLPO: Scaling Latent Reasoning via a Surrogate Policy",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.19691",
+      "pdf_url": "https://arxiv.org/pdf/2607.19691",
+      "github_links": [
+        "https://github.com/ModalityDance/SLPO",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.19691",
+      "scraped_at": "2026-07-23T02:48:44.962328"
+    },
+    "scraped_date": "2026-07-23"
+  },
+  {
+    "title": "G-MAD: A Game-Based Data Generation Framework for Multi-View RGB-T Aerial Object Detection",
+    "paper_url": "https://huggingface.co/papers/2607.19942",
+    "authors": [
+      "Moongu Jeon",
+      "Namhoon Jung",
+      "Dongho Yoon",
+      "JongHyun Park",
+      "Yechan Kim"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "G-MAD: A Game-Based Data Generation Framework for Multi-View RGB-T Aerial Object Detection",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.19942",
+      "pdf_url": "https://arxiv.org/pdf/2607.19942",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/unique-chan/G-MAD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.19942",
+      "scraped_at": "2026-07-23T02:48:46.781370"
+    },
+    "scraped_date": "2026-07-23"
+  },
+  {
+    "title": "SeededGrasp: Language-Guided Grasping in Complex Scenes with Multiple Embodiments",
+    "paper_url": "https://huggingface.co/papers/2607.20207",
+    "authors": [
+      "Maria Attarian",
+      "Jasper Gerigk",
+      "Raymond Wang",
+      "Gurpreet Singh Mukker",
+      "Yang Xu"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "SeededGrasp: Language-Guided Grasping in Complex Scenes with Multiple Embodiments",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.20207",
+      "pdf_url": "https://arxiv.org/pdf/2607.20207",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/uoft-isl/SeededGrasp"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.20207",
+      "scraped_at": "2026-07-23T02:48:48.668379"
+    },
+    "scraped_date": "2026-07-23"
+  },
+  {
+    "title": "ATSplat: Compact Feed-forward 3D Gaussian Splatting with Adaptive Token Expansion",
+    "paper_url": "https://huggingface.co/papers/2607.20417",
+    "authors": [
+      "Seon Joo Kim",
+      "Gim Hee Lee",
+      "Mijin Yoo",
+      "Jeonghwan Cho",
+      "Cho In"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ATSplat: Compact Feed-forward 3D Gaussian Splatting with Adaptive Token Expansion",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.20417",
+      "pdf_url": "https://arxiv.org/pdf/2607.20417",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.20417",
+      "scraped_at": "2026-07-23T02:48:50.564092"
+    },
+    "scraped_date": "2026-07-23"
   }
 ]
