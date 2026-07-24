@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-5-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-5295+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-6-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-5301+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">5</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">20</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">280</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5295+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">6</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">26</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">286</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5301+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** July 23, 2026
+**Last Updated:** July 24, 2026
 
 ---
 
@@ -119,73 +119,80 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. SLAI T-Rex: Full-Parameter Post-training of the DeepSeek-V4 Family on Ascend SuperPOD</b> ⭐ 0</summary>
+<summary><b>1. Tencent WorkBuddy Bench: A Multi-Domain Coding-Agent Benchmark with Contamination-Resistant Task Construction</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Linyuan Qiu, Xuhui Chen, Ruoyu Sun, Xiaodong Luo, Dongfang Li
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.20911) • [📄 arXiv](https://arxiv.org/abs/2607.20911) • [📥 PDF](https://arxiv.org/pdf/2607.20911)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.20145) • [📄 arXiv](https://arxiv.org/abs/2607.20145) • [📥 PDF](https://arxiv.org/pdf/2607.20145)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/SLAI-AITP/SLAI-T-Rex)
-
-> Full-parameter post-training of trillion-parameter-scale MoE models introduces substantial system-level challenges for large-scale distributed training, including severe memory pressure, non-overlapped communication overhead, and inefficient kerne...
-
-</details>
-
-<details>
-<summary><b>2. SLPO: Scaling Latent Reasoning via a Surrogate Policy</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Wenjie Li, Yongqi Li, Zhiyuan Liu, Runyang You
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.19691) • [📄 arXiv](https://arxiv.org/abs/2607.19691) • [📥 PDF](https://arxiv.org/pdf/2607.19691)
-
-**💻 Code:** [⭐ Code](https://github.com/ModalityDance/SLPO) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>3. G-MAD: A Game-Based Data Generation Framework for Multi-View RGB-T Aerial Object Detection</b> ⭐ 2</summary>
+<summary><b>2. NVIDIA-labs OO Agents: Native Python Object-Oriented Agents</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Moongu Jeon, Namhoon Jung, Dongho Yoon, JongHyun Park, Yechan Kim
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.20709) • [📄 arXiv](https://arxiv.org/abs/2607.20709) • [📥 PDF](https://arxiv.org/pdf/2607.20709)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.19942) • [📄 arXiv](https://arxiv.org/abs/2607.19942) • [📥 PDF](https://arxiv.org/pdf/2607.19942)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/unique-chan/G-MAD)
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>4. SeededGrasp: Language-Guided Grasping in Complex Scenes with Multiple Embodiments</b> ⭐ 1</summary>
+<summary><b>3. Predictive Divergence Masks for LLM RL</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Maria Attarian, Jasper Gerigk, Raymond Wang, Gurpreet Singh Mukker, Yang Xu
+**👥 Authors:** Jiaqi Tang, Bowen Ping, Penghui Qi, Jiarui Yao, Xiangxin Zhou
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.20207) • [📄 arXiv](https://arxiv.org/abs/2607.20207) • [📥 PDF](https://arxiv.org/pdf/2607.20207)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.10848) • [📄 arXiv](https://arxiv.org/abs/2607.10848) • [📥 PDF](https://arxiv.org/pdf/2607.10848)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/uoft-isl/SeededGrasp)
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> Reinforcement learning for large language models (LLMs) typically relies on trust-region masks to stabilize off-policy updates. The dominant PPO-style approach uses the sampled-token importance ratio for two criteria: a proximity criterion, which ...
+
+</details>
+
+<details>
+<summary><b>4. GraphVid: Interactive Graph-Controllable Video Generation</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.21580) • [📄 arXiv](https://arxiv.org/abs/2607.21580) • [📥 PDF](https://arxiv.org/pdf/2607.21580)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> GraphVid: Interactive Graph-Controllable Video Generation (ECCV'26)
+
+</details>
+
+<details>
+<summary><b>5. TableVerse: A Large-scale Tabletop Dataset with Real-world Grounded Layouts for Generalizable Manipulation</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.21017) • [📄 arXiv](https://arxiv.org/abs/2607.21017) • [📥 PDF](https://arxiv.org/pdf/2607.21017)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>5. ATSplat: Compact Feed-forward 3D Gaussian Splatting with Adaptive Token Expansion</b> ⭐ 0</summary>
+<summary><b>6. Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Seon Joo Kim, Gim Hee Lee, Mijin Yoo, Jeonghwan Cho, Cho In
+**👥 Authors:** Bolei Zhou, Krishna Kumar Singh, Ziyang Leng, Yuheng Li, Sicheng Mo
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.20417) • [📄 arXiv](https://arxiv.org/abs/2607.20417) • [📥 PDF](https://arxiv.org/pdf/2607.20417)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.21594) • [📄 arXiv](https://arxiv.org/abs/2607.21594) • [📥 PDF](https://arxiv.org/pdf/2607.21594)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
@@ -201,28 +208,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 5 |
-| 📅 Today | [`2026-07-23.json`](data/daily/2026-07-23.json) | 5 |
-| 📆 This Week | [`2026-W29.json`](data/weekly/2026-W29.json) | 20 |
-| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 280 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 6 |
+| 📅 Today | [`2026-07-24.json`](data/daily/2026-07-24.json) | 6 |
+| 📆 This Week | [`2026-W29.json`](data/weekly/2026-W29.json) | 26 |
+| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 286 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-07-23 | 5 | [View JSON](data/daily/2026-07-23.json) |
+| 📌 2026-07-24 | 6 | [View JSON](data/daily/2026-07-24.json) |
+| 📄 2026-07-23 | 5 | [View JSON](data/daily/2026-07-23.json) |
 | 📄 2026-07-22 | 4 | [View JSON](data/daily/2026-07-22.json) |
 | 📄 2026-07-21 | 2 | [View JSON](data/daily/2026-07-21.json) |
 | 📄 2026-07-20 | 9 | [View JSON](data/daily/2026-07-20.json) |
 | 📄 2026-07-19 | 29 | [View JSON](data/daily/2026-07-19.json) |
 | 📄 2026-07-18 | 29 | [View JSON](data/daily/2026-07-18.json) |
-| 📄 2026-07-17 | 8 | [View JSON](data/daily/2026-07-17.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W29 | 20 | [View JSON](data/weekly/2026-W29.json) |
+| 📅 2026-W29 | 26 | [View JSON](data/weekly/2026-W29.json) |
 | 📅 2026-W28 | 94 | [View JSON](data/weekly/2026-W28.json) |
 | 📅 2026-W27 | 79 | [View JSON](data/weekly/2026-W27.json) |
 | 📅 2026-W26 | 117 | [View JSON](data/weekly/2026-W26.json) |
@@ -231,7 +238,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-07 | 280 | [View JSON](data/monthly/2026-07.json) |
+| 🗓️ 2026-07 | 286 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 782 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 450 | [View JSON](data/monthly/2026-04.json) |

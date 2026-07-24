@@ -470,5 +470,131 @@
       "scraped_at": "2026-07-23T02:48:50.564092"
     },
     "scraped_date": "2026-07-23"
+  },
+  {
+    "title": "Tencent WorkBuddy Bench: A Multi-Domain Coding-Agent Benchmark with Contamination-Resistant Task Construction",
+    "paper_url": "https://huggingface.co/papers/2607.20911",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Tencent WorkBuddy Bench: A Multi-Domain Coding-Agent Benchmark with Contamination-Resistant Task Construction",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.20911",
+      "pdf_url": "https://arxiv.org/pdf/2607.20911",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.20911",
+      "scraped_at": "2026-07-24T02:44:03.925887"
+    },
+    "scraped_date": "2026-07-24"
+  },
+  {
+    "title": "NVIDIA-labs OO Agents: Native Python Object-Oriented Agents",
+    "paper_url": "https://huggingface.co/papers/2607.20709",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "NVIDIA-labs OO Agents: Native Python Object-Oriented Agents",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.20709",
+      "pdf_url": "https://arxiv.org/pdf/2607.20709",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.20709",
+      "scraped_at": "2026-07-24T02:44:05.650418"
+    },
+    "scraped_date": "2026-07-24"
+  },
+  {
+    "title": "Predictive Divergence Masks for LLM RL",
+    "paper_url": "https://huggingface.co/papers/2607.10848",
+    "authors": [
+      "Jiaqi Tang",
+      "Bowen Ping",
+      "Penghui Qi",
+      "Jiarui Yao",
+      "Xiangxin Zhou"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Predictive Divergence Masks for LLM RL",
+      "abstract": "Reinforcement learning for large language models (LLMs) typically relies on trust-region masks to stabilize off-policy updates. The dominant PPO-style approach uses the sampled-token importance ratio for two criteria: a proximity criterion, which asks whether the policy has moved too far from the behavior policy, and a direction criterion, which asks whether the update pushes it farther away. Recent work, DPPO, improves the proximity criterion by replacing PPO’s ratio-based test with a probability divergence between the behavior and training policies. However, its direction criterion is still inherited from PPO. A token can be masked only when the sampled-token importance ratio moves away from one. We observe that this ratio-based direction criterion is a single-sample proxy that can disagree in sign with the change of the divergence that defines the proximity criterion. We therefore propose the predictive divergence mask, which asks whether the next policy-gradient step will increase or decrease the same divergence used by the trust region. For the discrete softmax policies used in LLM RL, we derive this prediction in closed form. Because production rollout engines expose only a truncated (top-K) view of the vocabulary, we develop two lightweight top-K estimators for this prediction. Detailed analysis shows the divergence-based direction is better aligned with the realized change of the divergence than the sampled ratio, and the resulting masks improve RL training across model scales and precision settings.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.10848",
+      "pdf_url": "https://arxiv.org/pdf/2607.10848",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.10848",
+      "scraped_at": "2026-07-24T02:44:07.387226"
+    },
+    "scraped_date": "2026-07-24"
+  },
+  {
+    "title": "GraphVid: Interactive Graph-Controllable Video Generation",
+    "paper_url": "https://huggingface.co/papers/2607.21580",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GraphVid: Interactive Graph-Controllable Video Generation",
+      "abstract": "GraphVid: Interactive Graph-Controllable Video Generation (ECCV'26)",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.21580",
+      "pdf_url": "https://arxiv.org/pdf/2607.21580",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.21580",
+      "scraped_at": "2026-07-24T02:44:09.148320"
+    },
+    "scraped_date": "2026-07-24"
+  },
+  {
+    "title": "TableVerse: A Large-scale Tabletop Dataset with Real-world Grounded Layouts for Generalizable Manipulation",
+    "paper_url": "https://huggingface.co/papers/2607.21017",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "TableVerse: A Large-scale Tabletop Dataset with Real-world Grounded Layouts for Generalizable Manipulation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.21017",
+      "pdf_url": "https://arxiv.org/pdf/2607.21017",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.21017",
+      "scraped_at": "2026-07-24T02:44:10.862086"
+    },
+    "scraped_date": "2026-07-24"
+  },
+  {
+    "title": "Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers",
+    "paper_url": "https://huggingface.co/papers/2607.21594",
+    "authors": [
+      "Bolei Zhou",
+      "Krishna Kumar Singh",
+      "Ziyang Leng",
+      "Yuheng Li",
+      "Sicheng Mo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.21594",
+      "pdf_url": "https://arxiv.org/pdf/2607.21594",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.21594",
+      "scraped_at": "2026-07-24T02:44:12.579607"
+    },
+    "scraped_date": "2026-07-24"
   }
 ]
