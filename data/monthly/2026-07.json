@@ -7183,5 +7183,178 @@
       "scraped_at": "2026-07-26T02:51:54.873453"
     },
     "scraped_date": "2026-07-26"
+  },
+  {
+    "title": "Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2607.21653",
+    "authors": [],
+    "stars": "605",
+    "details": {
+      "title": "Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.21653",
+      "pdf_url": "https://arxiv.org/pdf/2607.21653",
+      "github_links": [
+        "https://github.com/NVIDIA-NeMo/labs-molt",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.21653",
+      "scraped_at": "2026-07-27T03:15:54.992254"
+    },
+    "scraped_date": "2026-07-27"
+  },
+  {
+    "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
+    "paper_url": "https://huggingface.co/papers/2607.22529",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.22529",
+      "pdf_url": "https://arxiv.org/pdf/2607.22529",
+      "github_links": [
+        "https://github.com/Qwen-Applications/skill-self-play",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.22529",
+      "scraped_at": "2026-07-27T03:15:56.821835"
+    },
+    "scraped_date": "2026-07-27"
+  },
+  {
+    "title": "IDEAgent: Agentic Quality-Diversity Search for Research Idea Generation",
+    "paper_url": "https://huggingface.co/papers/2607.22375",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "IDEAgent: Agentic Quality-Diversity Search for Research Idea Generation",
+      "abstract": "IDEAgent: Agentic Quality-Diversity Search for Research Idea Generation",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.22375",
+      "pdf_url": "https://arxiv.org/pdf/2607.22375",
+      "github_links": [
+        "https://github.com/declare-lab/IDEAgent",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.22375",
+      "scraped_at": "2026-07-27T03:15:58.648856"
+    },
+    "scraped_date": "2026-07-27"
+  },
+  {
+    "title": "LAMAR: An Open Language-Aware Multilingual Alignment Reranker",
+    "paper_url": "https://huggingface.co/papers/2607.22042",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LAMAR: An Open Language-Aware Multilingual Alignment Reranker",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.22042",
+      "pdf_url": "https://arxiv.org/pdf/2607.22042",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.22042",
+      "scraped_at": "2026-07-27T03:16:00.563545"
+    },
+    "scraped_date": "2026-07-27"
+  },
+  {
+    "title": "Scaling Native Multimodal Pre-Training From Scratch",
+    "paper_url": "https://huggingface.co/papers/2607.22043",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Scaling Native Multimodal Pre-Training From Scratch",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.22043",
+      "pdf_url": "https://arxiv.org/pdf/2607.22043",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.22043",
+      "scraped_at": "2026-07-27T03:16:02.458507"
+    },
+    "scraped_date": "2026-07-27"
+  },
+  {
+    "title": "SceneActBench: Can Agents Act on the 3D Scenes They See?",
+    "paper_url": "https://huggingface.co/papers/2607.22393",
+    "authors": [
+      "Pu Jian",
+      "Jiaqi Tang",
+      "Wenhao Yang",
+      "Xiangxin Zhou",
+      "Yifei Zhao"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "SceneActBench: Can Agents Act on the 3D Scenes They See?",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.22393",
+      "pdf_url": "https://arxiv.org/pdf/2607.22393",
+      "github_links": [
+        "https://github.com/Feinaldo2/SceneActBench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.22393",
+      "scraped_at": "2026-07-27T03:16:04.320770"
+    },
+    "scraped_date": "2026-07-27"
+  },
+  {
+    "title": "Closing the Loop: Training-Free Revisit Consistency for Autoregressive Generative Rendering",
+    "paper_url": "https://huggingface.co/papers/2607.21848",
+    "authors": [
+      "Haomiao Jiang",
+      "Sharon X. Huang",
+      "Changran Liu",
+      "Wenchao Ma"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Closing the Loop: Training-Free Revisit Consistency for Autoregressive Generative Rendering",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.21848",
+      "pdf_url": "https://arxiv.org/pdf/2607.21848",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.21848",
+      "scraped_at": "2026-07-27T03:16:06.138491"
+    },
+    "scraped_date": "2026-07-27"
+  },
+  {
+    "title": "VisCo: Leveraging Large Language Models as Intrinsic Encoders for Visual Token Compression",
+    "paper_url": "https://huggingface.co/papers/2607.12756",
+    "authors": [
+      "Nenghai Yu",
+      "Bin Liu",
+      "Kai Zou",
+      "zpatrick"
+    ],
+    "stars": "11",
+    "details": {
+      "title": "VisCo: Leveraging Large Language Models as Intrinsic Encoders for Visual Token Compression",
+      "abstract": "github: https://github.com/Zyvpeng/VisCo",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.12756",
+      "pdf_url": "https://arxiv.org/pdf/2607.12756",
+      "github_links": [
+        "https://github.com/Zyvpeng/VisCo",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.12756",
+      "scraped_at": "2026-07-27T03:16:08.059726"
+    },
+    "scraped_date": "2026-07-27"
   }
 ]
