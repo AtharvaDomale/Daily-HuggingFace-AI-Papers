@@ -7356,5 +7356,90 @@
       "scraped_at": "2026-07-27T03:16:08.059726"
     },
     "scraped_date": "2026-07-27"
+  },
+  {
+    "title": "StateAct: Program State, before Pixels, for Long-Horizon Computer-Use Agents",
+    "paper_url": "https://huggingface.co/papers/2607.22798",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "StateAct: Program State, before Pixels, for Long-Horizon Computer-Use Agents",
+      "abstract": "🚨 We just set a new SOTA on OSWorld 2.0! ⭐️ And we did it by making our computer-use agent look less, not more. Everyone's racing the same way: better vision, sharper screen-reading, more pixels. We went the opposite direction. StateAct barely looks at the screen at all. The insight nobody wanted to say out loud: a screenshot is a lie. It's a lossy picture of what actually matters, the files, backends, and DOM behind the glass. Pixels can't tell them apart. Code can. So we made program state the primary interface, and call a GUI specialist only when a subgoal is truly visual, just 1.1% of steps. The result, on the exact same Claude Opus 4.8: 🔥 Binary: 20.6 -> 26.9% 🔥 Partial: 54.8 -> 61.6% 💸 ~9× cheaper: ~$7.8 vs ~$72/task, 224K -> 100K tokens The same harness lifts Opus 4.8 across 5 benchmarks: 🚀 OSWorld-Verified 80.9 -> 81.9 🚀 WindowsAgentArena 41.6 -> 50.6 🚀 AndroidWorld 69.0 -> 81.9 🚀 MobileWorld 51.3 -> 70.1 And it's not tied to Claude. Drop in our internal 31B SFR-CUA and it leaps across the board: 🚀 OSWorld 2.0 7.6 -> 43.2 🚀 OSWorld-Verified 66.9 -> 81.1 🚀 WindowsAgentArena 40.9 -> 51.2 🚀 AndroidWorld 68.1 -> 84.1 🚀 MobileWorld 48.7 -> 68.4 A small model, punching far above its weight. 💡 Computer-use was never only about vision. It's an agent reasoning problem, tying together what it sees, the state it acts on, and the plan it holds across hundreds of steps.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.22798",
+      "pdf_url": "https://arxiv.org/pdf/2607.22798",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.22798",
+      "scraped_at": "2026-07-28T02:35:41.476185"
+    },
+    "scraped_date": "2026-07-28"
+  },
+  {
+    "title": "Data Pyramid for Embodied Manipulation",
+    "paper_url": "https://huggingface.co/papers/2607.24744",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Data Pyramid for Embodied Manipulation",
+      "abstract": "Multimodal foundation models learned to see and reason from Internet-scale image-text data. Embodied AI, however, requires a fundamentally different ingredient: interaction data that couples perception, physical states, and actions. But today’s embodied data ecosystem is highly fragmented. Real-robot trajectories, UMI demonstrations, egocentric videos, simulation, and general vision-language data each provide different forms of supervision, yet their roles and trade-offs remain poorly understood. In this work, we introduce the Embodied Data Pyramid, a unified taxonomy that organizes embodied data into five complementary layers: Real-Robot Data — highest robot alignment and physical fidelity 🤖 UMI Data — scalable robot-free demonstrations with action supervision 🦾 Egocentric & Exocentric Data — rich human interaction priors from the real world 👓 Simulation Data — scalable robot-oriented interaction with privileged supervision 🕹️ General Data — web-scale perception, reasoning, and semantic knowledge 🌐 Beyond organizing the data landscape, we analyze how recent Embodied Brain Models, Vision-Language-Action Models (VLAs), and World-Action Models (WAMs) combine these heterogeneous data sources, revealing the emerging trends in embodied pretraining recipes. Finally, we discuss several open challenges, including tactile data, failure and recovery trajectories, scalable data collection, cross-embodiment action alignment, egocentric priors for dexterous manipulation, and principled data recipes for robot learning. We hope this survey provides a useful roadmap for understanding, collecting, and utilizing data for the next generation of embodied foundation models. Feedback and discussions are very welcome!",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.24744",
+      "pdf_url": "https://arxiv.org/pdf/2607.24744",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/worldbench/awesome-embodied-data-pyramid"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.24744",
+      "scraped_at": "2026-07-28T02:35:43.235633"
+    },
+    "scraped_date": "2026-07-28"
+  },
+  {
+    "title": "Progress Reward Modeling for Robotic Learning: A Comprehensive Survey",
+    "paper_url": "https://huggingface.co/papers/2607.21655",
+    "authors": [
+      "Ce Zhang",
+      "Anbang Liu",
+      "Haoran Lu",
+      "Keliang Wu",
+      "Jianshu Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Progress Reward Modeling for Robotic Learning: A Comprehensive Survey",
+      "abstract": "Welcome any update of this direction! Welcome PR and discussion! Our repo: https://github.com/sterzhang/Awesome-Progress-Models",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.21655",
+      "pdf_url": "https://arxiv.org/pdf/2607.21655",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/sterzhang/Awesome-Progress-Models"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.21655",
+      "scraped_at": "2026-07-28T02:35:44.949651"
+    },
+    "scraped_date": "2026-07-28"
+  },
+  {
+    "title": "DriveDNA: A Large-Scale Multimodal Naturalistic Driving Dataset and Benchmark for Driving Style Identification",
+    "paper_url": "https://huggingface.co/papers/2607.23822",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DriveDNA: A Large-Scale Multimodal Naturalistic Driving Dataset and Benchmark for Driving Style Identification",
+      "abstract": "Hi, author here 👋 TL;DR: Recognizing a driver is not the same as capturing driving style. DriveDNA is a large-scale naturalistic driving benchmark (465 drivers, 115 vehicle models, 975 h of human-controlled driving with CAN + forward video) built around one question: does a model recognize how a person drives — or merely which car they own, which roads they frequent, and which conditions they encounter? Highlights: 🧬 Learned representations reach AUROC .935 on unseen drivers vs .707 for classical descriptors, and retain .811 under condition-matched evaluation while descriptors collapse to chance. 🎥 A video-only model matches CAN at re-identification (.937) — but predicts the route at 347× chance and collapses to .675 once conditions are matched. Strong recognition can be pure shortcut. 📏 30 baseline configurations under one frozen multi-seed protocol, with leakage probes shipped as part of the benchmark: report utility and leakage. Dataset & evaluation harness (public tier reproduces every number in the paper): 👉 https://huggingface.co/datasets/HenryYHW/DriveDNA Happy to answer questions!",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.23822",
+      "pdf_url": "https://arxiv.org/pdf/2607.23822",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/WangYuHang-cmd/DriveDNA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.23822",
+      "scraped_at": "2026-07-28T02:35:46.704651"
+    },
+    "scraped_date": "2026-07-28"
   }
 ]

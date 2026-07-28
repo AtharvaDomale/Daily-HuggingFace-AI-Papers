@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-8-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-5353+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-4-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-5357+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">8</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">8</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">338</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5353+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">4</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">12</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">342</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5357+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** July 27, 2026
+**Last Updated:** July 28, 2026
 
 ---
 
@@ -119,112 +119,56 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning</b> ⭐ 605</summary>
+<summary><b>1. StateAct: Program State, before Pixels, for Long-Horizon Computer-Use Agents</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.21653) • [📄 arXiv](https://arxiv.org/abs/2607.21653) • [📥 PDF](https://arxiv.org/pdf/2607.21653)
-
-**💻 Code:** [⭐ Code](https://github.com/NVIDIA-NeMo/labs-molt) • [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>2. Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.22529) • [📄 arXiv](https://arxiv.org/abs/2607.22529) • [📥 PDF](https://arxiv.org/pdf/2607.22529)
-
-**💻 Code:** [⭐ Code](https://github.com/Qwen-Applications/skill-self-play) • [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>3. IDEAgent: Agentic Quality-Diversity Search for Research Idea Generation</b> ⭐ 1</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.22375) • [📄 arXiv](https://arxiv.org/abs/2607.22375) • [📥 PDF](https://arxiv.org/pdf/2607.22375)
-
-**💻 Code:** [⭐ Code](https://github.com/declare-lab/IDEAgent) • [⭐ Code](https://github.com/huggingface)
-
-> IDEAgent: Agentic Quality-Diversity Search for Research Idea Generation
-
-</details>
-
-<details>
-<summary><b>4. LAMAR: An Open Language-Aware Multilingual Alignment Reranker</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.22042) • [📄 arXiv](https://arxiv.org/abs/2607.22042) • [📥 PDF](https://arxiv.org/pdf/2607.22042)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.22798) • [📄 arXiv](https://arxiv.org/abs/2607.22798) • [📥 PDF](https://arxiv.org/pdf/2607.22798)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> No abstract available.
+> 🚨 We just set a new SOTA on OSWorld 2.0! ⭐️ And we did it by making our computer-use agent look less, not more. Everyone's racing the same way: better vision, sharper screen-reading, more pixels. We went the opposite direction. StateAct barely loo...
 
 </details>
 
 <details>
-<summary><b>5. Scaling Native Multimodal Pre-Training From Scratch</b> ⭐ 0</summary>
+<summary><b>2. Data Pyramid for Embodied Manipulation</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.22043) • [📄 arXiv](https://arxiv.org/abs/2607.22043) • [📥 PDF](https://arxiv.org/pdf/2607.22043)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.24744) • [📄 arXiv](https://arxiv.org/abs/2607.24744) • [📥 PDF](https://arxiv.org/pdf/2607.24744)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/worldbench/awesome-embodied-data-pyramid)
 
-> No abstract available.
+> Multimodal foundation models learned to see and reason from Internet-scale image-text data. Embodied AI, however, requires a fundamentally different ingredient: interaction data that couples perception, physical states, and actions. But today’s em...
 
 </details>
 
 <details>
-<summary><b>6. SceneActBench: Can Agents Act on the 3D Scenes They See?</b> ⭐ 2</summary>
+<summary><b>3. Progress Reward Modeling for Robotic Learning: A Comprehensive Survey</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Pu Jian, Jiaqi Tang, Wenhao Yang, Xiangxin Zhou, Yifei Zhao
+**👥 Authors:** Ce Zhang, Anbang Liu, Haoran Lu, Keliang Wu, Jianshu Zhang
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.22393) • [📄 arXiv](https://arxiv.org/abs/2607.22393) • [📥 PDF](https://arxiv.org/pdf/2607.22393)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.21655) • [📄 arXiv](https://arxiv.org/abs/2607.21655) • [📥 PDF](https://arxiv.org/pdf/2607.21655)
 
-**💻 Code:** [⭐ Code](https://github.com/Feinaldo2/SceneActBench) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/sterzhang/Awesome-Progress-Models)
 
-> No abstract available.
+> Welcome any update of this direction! Welcome PR and discussion! Our repo: https://github.com/sterzhang/Awesome-Progress-Models
 
 </details>
 
 <details>
-<summary><b>7. Closing the Loop: Training-Free Revisit Consistency for Autoregressive Generative Rendering</b> ⭐ 0</summary>
+<summary><b>4. DriveDNA: A Large-Scale Multimodal Naturalistic Driving Dataset and Benchmark for Driving Style Identification</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Haomiao Jiang, Sharon X. Huang, Changran Liu, Wenchao Ma
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.23822) • [📄 arXiv](https://arxiv.org/abs/2607.23822) • [📥 PDF](https://arxiv.org/pdf/2607.23822)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.21848) • [📄 arXiv](https://arxiv.org/abs/2607.21848) • [📥 PDF](https://arxiv.org/pdf/2607.21848)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/WangYuHang-cmd/DriveDNA)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>8. VisCo: Leveraging Large Language Models as Intrinsic Encoders for Visual Token Compression</b> ⭐ 11</summary>
-
-<br/>
-
-**👥 Authors:** Nenghai Yu, Bin Liu, Kai Zou, zpatrick
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.12756) • [📄 arXiv](https://arxiv.org/abs/2607.12756) • [📥 PDF](https://arxiv.org/pdf/2607.12756)
-
-**💻 Code:** [⭐ Code](https://github.com/Zyvpeng/VisCo) • [⭐ Code](https://github.com/huggingface)
-
-> github: https://github.com/Zyvpeng/VisCo
+> Hi, author here 👋 TL;DR: Recognizing a driver is not the same as capturing driving style. DriveDNA is a large-scale naturalistic driving benchmark (465 drivers, 115 vehicle models, 975 h of human-controlled driving with CAN + forward video) built ...
 
 </details>
 
@@ -236,28 +180,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 8 |
-| 📅 Today | [`2026-07-27.json`](data/daily/2026-07-27.json) | 8 |
-| 📆 This Week | [`2026-W30.json`](data/weekly/2026-W30.json) | 8 |
-| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 338 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 4 |
+| 📅 Today | [`2026-07-28.json`](data/daily/2026-07-28.json) | 4 |
+| 📆 This Week | [`2026-W30.json`](data/weekly/2026-W30.json) | 12 |
+| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 342 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-07-27 | 8 | [View JSON](data/daily/2026-07-27.json) |
+| 📌 2026-07-28 | 4 | [View JSON](data/daily/2026-07-28.json) |
+| 📄 2026-07-27 | 8 | [View JSON](data/daily/2026-07-27.json) |
 | 📄 2026-07-26 | 22 | [View JSON](data/daily/2026-07-26.json) |
 | 📄 2026-07-25 | 22 | [View JSON](data/daily/2026-07-25.json) |
 | 📄 2026-07-24 | 6 | [View JSON](data/daily/2026-07-24.json) |
 | 📄 2026-07-23 | 5 | [View JSON](data/daily/2026-07-23.json) |
 | 📄 2026-07-22 | 4 | [View JSON](data/daily/2026-07-22.json) |
-| 📄 2026-07-21 | 2 | [View JSON](data/daily/2026-07-21.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W30 | 8 | [View JSON](data/weekly/2026-W30.json) |
+| 📅 2026-W30 | 12 | [View JSON](data/weekly/2026-W30.json) |
 | 📅 2026-W29 | 70 | [View JSON](data/weekly/2026-W29.json) |
 | 📅 2026-W28 | 94 | [View JSON](data/weekly/2026-W28.json) |
 | 📅 2026-W27 | 79 | [View JSON](data/weekly/2026-W27.json) |
@@ -266,7 +210,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-07 | 338 | [View JSON](data/monthly/2026-07.json) |
+| 🗓️ 2026-07 | 342 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 782 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 450 | [View JSON](data/monthly/2026-04.json) |
