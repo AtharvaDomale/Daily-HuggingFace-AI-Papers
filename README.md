@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-4-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-5357+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-8-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-5365+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">4</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">12</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">342</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5357+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">8</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">20</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">350</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5365+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** July 28, 2026
+**Last Updated:** July 29, 2026
 
 ---
 
@@ -119,56 +119,110 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. StateAct: Program State, before Pixels, for Long-Horizon Computer-Use Agents</b> ⭐ 0</summary>
+<summary><b>1. Keep It InMind: Benchmarking the Implicit-Association Blind Spot in Agent Memory</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.22798) • [📄 arXiv](https://arxiv.org/abs/2607.22798) • [📥 PDF](https://arxiv.org/pdf/2607.22798)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.24368) • [📄 arXiv](https://arxiv.org/abs/2607.24368) • [📥 PDF](https://arxiv.org/pdf/2607.24368)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/imlrz/InMind)
+
+> We want to make a claim: Agent memory cannot be retrieve-only. Retrieve-only memory is closer to a notebook than to human memory. A notebook may store information perfectly, but it helps only when you realize that you should look something up. Hum...
+
+</details>
+
+<details>
+<summary><b>2. HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.25895) • [📄 arXiv](https://arxiv.org/abs/2607.25895) • [📥 PDF](https://arxiv.org/pdf/2607.25895)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> 🚨 We just set a new SOTA on OSWorld 2.0! ⭐️ And we did it by making our computer-use agent look less, not more. Everyone's racing the same way: better vision, sharper screen-reading, more pixels. We went the opposite direction. StateAct barely loo...
+> Hi everyone! We’re excited to share HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone. The central question is simple: can we eliminate target-task robot teleoperation from post-training, rather than merely redu...
 
 </details>
 
 <details>
-<summary><b>2. Data Pyramid for Embodied Manipulation</b> ⭐ 0</summary>
+<summary><b>3. Visual prompt engineering for video models</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.24744) • [📄 arXiv](https://arxiv.org/abs/2607.24744) • [📥 PDF](https://arxiv.org/pdf/2607.24744)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.25537) • [📄 arXiv](https://arxiv.org/abs/2607.25537) • [📥 PDF](https://arxiv.org/pdf/2607.25537)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/worldbench/awesome-embodied-data-pyramid)
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> Multimodal foundation models learned to see and reason from Internet-scale image-text data. Embodied AI, however, requires a fundamentally different ingredient: interaction data that couples perception, physical states, and actions. But today’s em...
+> No abstract available.
 
 </details>
 
 <details>
-<summary><b>3. Progress Reward Modeling for Robotic Learning: A Comprehensive Survey</b> ⭐ 0</summary>
+<summary><b>4. Wonder: Video World Model Done Better</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Ce Zhang, Anbang Liu, Haoran Lu, Keliang Wu, Jianshu Zhang
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.26037) • [📄 arXiv](https://arxiv.org/abs/2607.26037) • [📥 PDF](https://arxiv.org/pdf/2607.26037)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.21655) • [📄 arXiv](https://arxiv.org/abs/2607.21655) • [📥 PDF](https://arxiv.org/pdf/2607.21655)
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/sterzhang/Awesome-Progress-Models)
-
-> Welcome any update of this direction! Welcome PR and discussion! Our repo: https://github.com/sterzhang/Awesome-Progress-Models
+> No abstract available.
 
 </details>
 
 <details>
-<summary><b>4. DriveDNA: A Large-Scale Multimodal Naturalistic Driving Dataset and Benchmark for Driving Style Identification</b> ⭐ 0</summary>
+<summary><b>5. Shieldstral</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.23822) • [📄 arXiv](https://arxiv.org/abs/2607.23822) • [📥 PDF](https://arxiv.org/pdf/2607.23822)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.25857) • [📄 arXiv](https://arxiv.org/abs/2607.25857) • [📥 PDF](https://arxiv.org/pdf/2607.25857)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/WangYuHang-cmd/DriveDNA)
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> Hi, author here 👋 TL;DR: Recognizing a driver is not the same as capturing driving style. DriveDNA is a large-scale naturalistic driving benchmark (465 drivers, 115 vehicle models, 975 h of human-controlled driving with CAN + forward video) built ...
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>6. Towards Robust Reinforcement Learning for Small-Scale Language Model Agents</b> ⭐ 2</summary>
+
+<br/>
+
+**👥 Authors:** Fakhri Karray, Md. Milon Islam, Md Rezwanul Haque
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.25091) • [📄 arXiv](https://arxiv.org/abs/2607.25091) • [📥 PDF](https://arxiv.org/pdf/2607.25091)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/rezwanh001/SLM-RL-Agents)
+
+> Proceedings of the 2026 IEEE International Conference on Systems, Man, and Cybernetics (SMC), Bellevue, WA, USA
+
+</details>
+
+<details>
+<summary><b>7. OmniDelta: Skill-Driven Budget Allocation for Token Compression in OmniLLMs</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Kang Tan, Hongyaoxing Gu, Tianqi Xu, Wenjie Huang, Haoyang Huang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.25669) • [📄 arXiv](https://arxiv.org/abs/2607.25669) • [📥 PDF](https://arxiv.org/pdf/2607.25669)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>8. PerceptionBench: Evaluating Atomic Visual Perception in Multimodal Large Language Models</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.24957) • [📄 arXiv](https://arxiv.org/abs/2607.24957) • [📥 PDF](https://arxiv.org/pdf/2607.24957)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> No abstract available.
 
 </details>
 
@@ -180,28 +234,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 4 |
-| 📅 Today | [`2026-07-28.json`](data/daily/2026-07-28.json) | 4 |
-| 📆 This Week | [`2026-W30.json`](data/weekly/2026-W30.json) | 12 |
-| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 342 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 8 |
+| 📅 Today | [`2026-07-29.json`](data/daily/2026-07-29.json) | 8 |
+| 📆 This Week | [`2026-W30.json`](data/weekly/2026-W30.json) | 20 |
+| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 350 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-07-28 | 4 | [View JSON](data/daily/2026-07-28.json) |
+| 📌 2026-07-29 | 8 | [View JSON](data/daily/2026-07-29.json) |
+| 📄 2026-07-28 | 4 | [View JSON](data/daily/2026-07-28.json) |
 | 📄 2026-07-27 | 8 | [View JSON](data/daily/2026-07-27.json) |
 | 📄 2026-07-26 | 22 | [View JSON](data/daily/2026-07-26.json) |
 | 📄 2026-07-25 | 22 | [View JSON](data/daily/2026-07-25.json) |
 | 📄 2026-07-24 | 6 | [View JSON](data/daily/2026-07-24.json) |
 | 📄 2026-07-23 | 5 | [View JSON](data/daily/2026-07-23.json) |
-| 📄 2026-07-22 | 4 | [View JSON](data/daily/2026-07-22.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W30 | 12 | [View JSON](data/weekly/2026-W30.json) |
+| 📅 2026-W30 | 20 | [View JSON](data/weekly/2026-W30.json) |
 | 📅 2026-W29 | 70 | [View JSON](data/weekly/2026-W29.json) |
 | 📅 2026-W28 | 94 | [View JSON](data/weekly/2026-W28.json) |
 | 📅 2026-W27 | 79 | [View JSON](data/weekly/2026-W27.json) |
@@ -210,7 +264,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-07 | 342 | [View JSON](data/monthly/2026-07.json) |
+| 🗓️ 2026-07 | 350 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 782 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 450 | [View JSON](data/monthly/2026-04.json) |

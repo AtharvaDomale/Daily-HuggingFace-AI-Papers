@@ -256,5 +256,169 @@
       "scraped_at": "2026-07-28T02:35:46.704651"
     },
     "scraped_date": "2026-07-28"
+  },
+  {
+    "title": "Keep It InMind: Benchmarking the Implicit-Association Blind Spot in Agent Memory",
+    "paper_url": "https://huggingface.co/papers/2607.24368",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Keep It InMind: Benchmarking the Implicit-Association Blind Spot in Agent Memory",
+      "abstract": "We want to make a claim: Agent memory cannot be retrieve-only. Retrieve-only memory is closer to a notebook than to human memory. A notebook may store information perfectly, but it helps only when you realize that you should look something up. Human memory is different: important facts can continuously shape our judgment, and world knowledge connects things that appear unrelated on the surface. Yet most agent-memory systems today are notebook-like. They write user information into an external store, then retrieve “relevant” memories when a new query arrives. Whether the implementation is a vector database, a knowledge graph, or agentic RAG, the basic order is usually the same: First decide what is relevant from the query. Then let the model reason. That order creates a structural blind spot. A user says: “I’m allergic to tree nuts.” Later, they ask: “I want to try making macarons. Any recipes?” A good agent should warn them that traditional macarons use almond flour. But many memory systems simply provide a recipe: “tree-nut allergy” and “macarons” are not similar enough for the allergy memory to be retrieved in the first place. Or consider this: “I have lilies at home.” “I want to adopt a cat.” A good agent should warn that lilies are highly toxic to cats and should be removed first. But a retrieve-only system may just give generic advice about caring for a new cat, because “lilies” and “cats” have almost no surface-level similarity. The troubling part is that these systems may still answer direct questions perfectly: “What am I allergic to?” “What plants do I have at home?” So users are led to believe that the agent truly remembers—and will “keep in mind”—their important information. But this can be a false promise : the memory exists in the database, yet fails to affect the agent’s behavior when it actually matters. We tested representative state-of-the-art memory systems, including HippoRAG 2, A-RAG, A-Mem, Mem0, MemoryOS, and xMemory. Across this class of cases, they show the same systematic failure pattern: they can recall the fact on demand, but fail to apply it when a world-knowledge bridge is needed. To measure this phenomenon, we introduce InMind Memory Bench , a benchmark for the implicit-association blind spot in agent memory. Retrieval is necessary. But retrieval alone is not enough. A reliable agent memory needs to answer a harder question: not only what should be retrieved now? , but also what information must remain available because it could matter in ways the current query does not reveal?",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.24368",
+      "pdf_url": "https://arxiv.org/pdf/2607.24368",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/imlrz/InMind"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.24368",
+      "scraped_at": "2026-07-29T02:41:55.822181"
+    },
+    "scraped_date": "2026-07-29"
+  },
+  {
+    "title": "HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone",
+    "paper_url": "https://huggingface.co/papers/2607.25895",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone",
+      "abstract": "Hi everyone! We’re excited to share HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone. The central question is simple: can we eliminate target-task robot teleoperation from post-training, rather than merely reduce it? HiFi-UMI is a portable, robot-free data-production system co-designed for action fidelity. It achieves 3 mm workspace-local end-effector accuracy, <40 μs cross-sensor synchronization, and ultra-wide six-view sensing, together with automated trajectory reconstruction, simulation replay, and quality validation. Our main findings: Across three VLA and WAM backbones—StarVLA-QwenPI, OpenPI-π0.5, and LingBot-VA—post-training using only HiFi-UMI demonstrations matches in-domain robot teleoperation, with success-rate differences of −2.5, +3.1, and −0.6 percentage points. The strongest policy reaches 85% success on precision insertion, despite no HiFi-UMI demonstration being collected in the evaluation scene. Pre-training on 4,000 hours reduces action error on ten unseen tasks by 41% and improves real-robot success by 18.1 percentage points. We release HiFi-UMI-2K: 2,000 hours and 482K+ replayable demonstrations across 110+ scenes under CC BY 4.0. Our key takeaway: robot-free data can support deployment—not only pre-training—when it is sufficiently high-fidelity and action-aligned. 📄 Paper 🌐 Project Website 🤗 Dataset",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.25895",
+      "pdf_url": "https://arxiv.org/pdf/2607.25895",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.25895",
+      "scraped_at": "2026-07-29T02:41:57.630832"
+    },
+    "scraped_date": "2026-07-29"
+  },
+  {
+    "title": "Visual prompt engineering for video models",
+    "paper_url": "https://huggingface.co/papers/2607.25537",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Visual prompt engineering for video models",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.25537",
+      "pdf_url": "https://arxiv.org/pdf/2607.25537",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.25537",
+      "scraped_at": "2026-07-29T02:41:59.350767"
+    },
+    "scraped_date": "2026-07-29"
+  },
+  {
+    "title": "Wonder: Video World Model Done Better",
+    "paper_url": "https://huggingface.co/papers/2607.26037",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Wonder: Video World Model Done Better",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.26037",
+      "pdf_url": "https://arxiv.org/pdf/2607.26037",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.26037",
+      "scraped_at": "2026-07-29T02:42:01.124026"
+    },
+    "scraped_date": "2026-07-29"
+  },
+  {
+    "title": "Shieldstral",
+    "paper_url": "https://huggingface.co/papers/2607.25857",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Shieldstral",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.25857",
+      "pdf_url": "https://arxiv.org/pdf/2607.25857",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.25857",
+      "scraped_at": "2026-07-29T02:42:02.823686"
+    },
+    "scraped_date": "2026-07-29"
+  },
+  {
+    "title": "Towards Robust Reinforcement Learning for Small-Scale Language Model Agents",
+    "paper_url": "https://huggingface.co/papers/2607.25091",
+    "authors": [
+      "Fakhri Karray",
+      "Md. Milon Islam",
+      "Md Rezwanul Haque"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Towards Robust Reinforcement Learning for Small-Scale Language Model Agents",
+      "abstract": "Proceedings of the 2026 IEEE International Conference on Systems, Man, and Cybernetics (SMC), Bellevue, WA, USA",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.25091",
+      "pdf_url": "https://arxiv.org/pdf/2607.25091",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/rezwanh001/SLM-RL-Agents"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.25091",
+      "scraped_at": "2026-07-29T02:42:04.538466"
+    },
+    "scraped_date": "2026-07-29"
+  },
+  {
+    "title": "OmniDelta: Skill-Driven Budget Allocation for Token Compression in OmniLLMs",
+    "paper_url": "https://huggingface.co/papers/2607.25669",
+    "authors": [
+      "Kang Tan",
+      "Hongyaoxing Gu",
+      "Tianqi Xu",
+      "Wenjie Huang",
+      "Haoyang Huang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "OmniDelta: Skill-Driven Budget Allocation for Token Compression in OmniLLMs",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.25669",
+      "pdf_url": "https://arxiv.org/pdf/2607.25669",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.25669",
+      "scraped_at": "2026-07-29T02:42:06.269896"
+    },
+    "scraped_date": "2026-07-29"
+  },
+  {
+    "title": "PerceptionBench: Evaluating Atomic Visual Perception in Multimodal Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2607.24957",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PerceptionBench: Evaluating Atomic Visual Perception in Multimodal Large Language Models",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.24957",
+      "pdf_url": "https://arxiv.org/pdf/2607.24957",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.24957",
+      "scraped_at": "2026-07-29T02:42:08.039968"
+    },
+    "scraped_date": "2026-07-29"
   }
 ]
