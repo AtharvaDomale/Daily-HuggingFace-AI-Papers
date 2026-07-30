@@ -7605,5 +7605,134 @@
       "scraped_at": "2026-07-29T02:42:08.039968"
     },
     "scraped_date": "2026-07-29"
+  },
+  {
+    "title": "TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM",
+    "paper_url": "https://huggingface.co/papers/2607.27205",
+    "authors": [],
+    "stars": "15",
+    "details": {
+      "title": "TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM",
+      "abstract": "Vision-language-action (VLA) models commonly adopt an LLM-centric V→L→A pathway, where visual observations are projected into the representation space of a large language model before being decoded into robot actions. Although effective, this design incurs substantial computation and memory overhead at every policy invocation. In this work, we introduce TurboVLA, a new VLA paradigm that reformulates the conventional V→L→A pathway as a direct V+L→A mapping. Instead of using a large language model as the central interface between perception and action, TurboVLA independently encodes visual observations and language instructions, directly exchanges information between them through lightweight bidirectional vision-language interaction, and predicts continuous action chunks with a compact decoder. This simple design constructs task-conditioned representations directly from visual and linguistic features, significantly reducing the computational and memory costs of VLA inference. On LIBERO, TurboVLA achieves 97.7% average success with only 0.2B parameters, 31.2 ms inference latency, and 0.9 GB inference VRAM on a consumer-grade RTX 4090, matching or outperforming substantially larger VLA policies. These results establish TurboVLA as a simple and effective alternative to the prevailing LLM-centric VLA paradigm, offering a new perspective on how vision, language, and action can be connected for efficient robotic manipulation. Code is available at this https URL.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.27205",
+      "pdf_url": "https://arxiv.org/pdf/2607.27205",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/H-EmbodVis/TurboVLA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.27205",
+      "scraped_at": "2026-07-30T02:27:59.591488"
+    },
+    "scraped_date": "2026-07-30"
+  },
+  {
+    "title": "HumanCLAW: Can Vision-Language Models Act Through a Body?",
+    "paper_url": "https://huggingface.co/papers/2607.27180",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "HumanCLAW: Can Vision-Language Models Act Through a Body?",
+      "abstract": "A model may know where the sofa is, yet still not know how to move its body there and sit down. We call this ability Action Intelligence , and HumanCLAW makes it measurable without tying it to motor control. This is a first step toward models that can reason and act through a physical body.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.27180",
+      "pdf_url": "https://arxiv.org/pdf/2607.27180",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.27180",
+      "scraped_at": "2026-07-30T02:28:01.392804"
+    },
+    "scraped_date": "2026-07-30"
+  },
+  {
+    "title": "Can AI agents conduct open-ended AI research? Early evidence from two case studies",
+    "paper_url": "https://huggingface.co/papers/2607.27191",
+    "authors": [
+      "David Africa",
+      "Stephan Rabanser",
+      "Andrew Schwartz",
+      "Sayash Kapoor",
+      "Peter Kirgis"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Can AI agents conduct open-ended AI research? Early evidence from two case studies",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.27191",
+      "pdf_url": "https://arxiv.org/pdf/2607.27191",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.27191",
+      "scraped_at": "2026-07-30T02:28:03.164494"
+    },
+    "scraped_date": "2026-07-30"
+  },
+  {
+    "title": "Explicit Layer Modeling for Video Object Insertion and Layer Decomposition",
+    "paper_url": "https://huggingface.co/papers/2607.25802",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Explicit Layer Modeling for Video Object Insertion and Layer Decomposition",
+      "abstract": "Release the paper on arXiv! Check out DBL-Diffusion’s amazing layered video generation capabilities🔥",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.25802",
+      "pdf_url": "https://arxiv.org/pdf/2607.25802",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/KyujinHan/DBL-Diffusion"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.25802",
+      "scraped_at": "2026-07-30T02:28:05.003073"
+    },
+    "scraped_date": "2026-07-30"
+  },
+  {
+    "title": "OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding",
+    "paper_url": "https://huggingface.co/papers/2607.27155",
+    "authors": [
+      "Zhenghai Chen",
+      "Jingjia Cao",
+      "Qi Bao",
+      "Yusai Zhao",
+      "Jingbo Zhou"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.27155",
+      "pdf_url": "https://arxiv.org/pdf/2607.27155",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/baidu-frontier-research/OmegaUse-OfficeVal"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.27155",
+      "scraped_at": "2026-07-30T02:28:06.754427"
+    },
+    "scraped_date": "2026-07-30"
+  },
+  {
+    "title": "GPT-Red: Automated Red Teaming via Self-Play at Scale",
+    "paper_url": "https://huggingface.co/papers/2607.26115",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GPT-Red: Automated Red Teaming via Self-Play at Scale",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.26115",
+      "pdf_url": "https://arxiv.org/pdf/2607.26115",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.26115",
+      "scraped_at": "2026-07-30T02:28:08.490999"
+    },
+    "scraped_date": "2026-07-30"
   }
 ]

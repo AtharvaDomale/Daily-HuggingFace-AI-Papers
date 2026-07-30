@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-8-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-5365+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-6-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-5371+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">8</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">20</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">350</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5365+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">6</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">26</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">356</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5371+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** July 29, 2026
+**Last Updated:** July 30, 2026
 
 ---
 
@@ -119,50 +119,39 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Keep It InMind: Benchmarking the Implicit-Association Blind Spot in Agent Memory</b> ⭐ 0</summary>
+<summary><b>1. TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM</b> ⭐ 15</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.24368) • [📄 arXiv](https://arxiv.org/abs/2607.24368) • [📥 PDF](https://arxiv.org/pdf/2607.24368)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.27205) • [📄 arXiv](https://arxiv.org/abs/2607.27205) • [📥 PDF](https://arxiv.org/pdf/2607.27205)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/imlrz/InMind)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/H-EmbodVis/TurboVLA)
 
-> We want to make a claim: Agent memory cannot be retrieve-only. Retrieve-only memory is closer to a notebook than to human memory. A notebook may store information perfectly, but it helps only when you realize that you should look something up. Hum...
+> Vision-language-action (VLA) models commonly adopt an LLM-centric V→L→A pathway, where visual observations are projected into the representation space of a large language model before being decoded into robot actions. Although effective, this desi...
 
 </details>
 
 <details>
-<summary><b>2. HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone</b> ⭐ 0</summary>
+<summary><b>2. HumanCLAW: Can Vision-Language Models Act Through a Body?</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.25895) • [📄 arXiv](https://arxiv.org/abs/2607.25895) • [📥 PDF](https://arxiv.org/pdf/2607.25895)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.27180) • [📄 arXiv](https://arxiv.org/abs/2607.27180) • [📥 PDF](https://arxiv.org/pdf/2607.27180)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> Hi everyone! We’re excited to share HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone. The central question is simple: can we eliminate target-task robot teleoperation from post-training, rather than merely redu...
+> A model may know where the sofa is, yet still not know how to move its body there and sit down. We call this ability Action Intelligence , and HumanCLAW makes it measurable without tying it to motor control. This is a first step toward models that...
 
 </details>
 
 <details>
-<summary><b>3. Visual prompt engineering for video models</b> ⭐ 0</summary>
+<summary><b>3. Can AI agents conduct open-ended AI research? Early evidence from two case studies</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.25537) • [📄 arXiv](https://arxiv.org/abs/2607.25537) • [📥 PDF](https://arxiv.org/pdf/2607.25537)
+**👥 Authors:** David Africa, Stephan Rabanser, Andrew Schwartz, Sayash Kapoor, Peter Kirgis
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>4. Wonder: Video World Model Done Better</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.26037) • [📄 arXiv](https://arxiv.org/abs/2607.26037) • [📥 PDF](https://arxiv.org/pdf/2607.26037)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.27191) • [📄 arXiv](https://arxiv.org/abs/2607.27191) • [📥 PDF](https://arxiv.org/pdf/2607.27191)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
@@ -171,54 +160,39 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>5. Shieldstral</b> ⭐ 0</summary>
+<summary><b>4. Explicit Layer Modeling for Video Object Insertion and Layer Decomposition</b> ⭐ 2</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.25857) • [📄 arXiv](https://arxiv.org/abs/2607.25857) • [📥 PDF](https://arxiv.org/pdf/2607.25857)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.25802) • [📄 arXiv](https://arxiv.org/abs/2607.25802) • [📥 PDF](https://arxiv.org/pdf/2607.25802)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/KyujinHan/DBL-Diffusion)
+
+> Release the paper on arXiv! Check out DBL-Diffusion’s amazing layered video generation capabilities🔥
+
+</details>
+
+<details>
+<summary><b>5. OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Zhenghai Chen, Jingjia Cao, Qi Bao, Yusai Zhao, Jingbo Zhou
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.27155) • [📄 arXiv](https://arxiv.org/abs/2607.27155) • [📥 PDF](https://arxiv.org/pdf/2607.27155)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/baidu-frontier-research/OmegaUse-OfficeVal)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>6. Towards Robust Reinforcement Learning for Small-Scale Language Model Agents</b> ⭐ 2</summary>
+<summary><b>6. GPT-Red: Automated Red Teaming via Self-Play at Scale</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Fakhri Karray, Md. Milon Islam, Md Rezwanul Haque
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.25091) • [📄 arXiv](https://arxiv.org/abs/2607.25091) • [📥 PDF](https://arxiv.org/pdf/2607.25091)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/rezwanh001/SLM-RL-Agents)
-
-> Proceedings of the 2026 IEEE International Conference on Systems, Man, and Cybernetics (SMC), Bellevue, WA, USA
-
-</details>
-
-<details>
-<summary><b>7. OmniDelta: Skill-Driven Budget Allocation for Token Compression in OmniLLMs</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Kang Tan, Hongyaoxing Gu, Tianqi Xu, Wenjie Huang, Haoyang Huang
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.25669) • [📄 arXiv](https://arxiv.org/abs/2607.25669) • [📥 PDF](https://arxiv.org/pdf/2607.25669)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>8. PerceptionBench: Evaluating Atomic Visual Perception in Multimodal Large Language Models</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.24957) • [📄 arXiv](https://arxiv.org/abs/2607.24957) • [📥 PDF](https://arxiv.org/pdf/2607.24957)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.26115) • [📄 arXiv](https://arxiv.org/abs/2607.26115) • [📥 PDF](https://arxiv.org/pdf/2607.26115)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
@@ -234,28 +208,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 8 |
-| 📅 Today | [`2026-07-29.json`](data/daily/2026-07-29.json) | 8 |
-| 📆 This Week | [`2026-W30.json`](data/weekly/2026-W30.json) | 20 |
-| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 350 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 6 |
+| 📅 Today | [`2026-07-30.json`](data/daily/2026-07-30.json) | 6 |
+| 📆 This Week | [`2026-W30.json`](data/weekly/2026-W30.json) | 26 |
+| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 356 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-07-29 | 8 | [View JSON](data/daily/2026-07-29.json) |
+| 📌 2026-07-30 | 6 | [View JSON](data/daily/2026-07-30.json) |
+| 📄 2026-07-29 | 8 | [View JSON](data/daily/2026-07-29.json) |
 | 📄 2026-07-28 | 4 | [View JSON](data/daily/2026-07-28.json) |
 | 📄 2026-07-27 | 8 | [View JSON](data/daily/2026-07-27.json) |
 | 📄 2026-07-26 | 22 | [View JSON](data/daily/2026-07-26.json) |
 | 📄 2026-07-25 | 22 | [View JSON](data/daily/2026-07-25.json) |
 | 📄 2026-07-24 | 6 | [View JSON](data/daily/2026-07-24.json) |
-| 📄 2026-07-23 | 5 | [View JSON](data/daily/2026-07-23.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W30 | 20 | [View JSON](data/weekly/2026-W30.json) |
+| 📅 2026-W30 | 26 | [View JSON](data/weekly/2026-W30.json) |
 | 📅 2026-W29 | 70 | [View JSON](data/weekly/2026-W29.json) |
 | 📅 2026-W28 | 94 | [View JSON](data/weekly/2026-W28.json) |
 | 📅 2026-W27 | 79 | [View JSON](data/weekly/2026-W27.json) |
@@ -264,7 +238,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-07 | 350 | [View JSON](data/monthly/2026-07.json) |
+| 🗓️ 2026-07 | 356 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 782 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 450 | [View JSON](data/monthly/2026-04.json) |
