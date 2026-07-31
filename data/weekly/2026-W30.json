@@ -549,5 +549,232 @@
       "scraped_at": "2026-07-30T02:28:08.490999"
     },
     "scraped_date": "2026-07-30"
+  },
+  {
+    "title": "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis",
+    "paper_url": "https://huggingface.co/papers/2607.28618",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis",
+      "abstract": "Working on chemistry? What if you could search chemistry findings instead of papers? We turned 147,000 papers into 2.4 million searchable claims , making it possible to find results, compare evidence, and surface contradictions. Try AskChem: 🔎 https://askchem.org Everything is open: 🤗 https://huggingface.co/datasets/bing-yan/askchem 💻 https://github.com/bingyan4science/askchem",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28618",
+      "pdf_url": "https://arxiv.org/pdf/2607.28618",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/bingyan4science/askchem"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28618",
+      "scraped_at": "2026-07-31T02:52:33.815094"
+    },
+    "scraped_date": "2026-07-31"
+  },
+  {
+    "title": "SpatialCLI: Learning to Reason With Spatial Tools, Then Without Them",
+    "paper_url": "https://huggingface.co/papers/2607.27703",
+    "authors": [
+      "Chen Zhang",
+      "Zhuo Yang",
+      "Sunzhu Li",
+      "Zixuan Huang",
+      "Yang Zhou"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "SpatialCLI: Learning to Reason With Spatial Tools, Then Without Them",
+      "abstract": "We introduce SpatialCLI, a framework that teaches vision-language models to reason with spatial tools and internalize their capabilities for tool-free inference.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.27703",
+      "pdf_url": "https://arxiv.org/pdf/2607.27703",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/IANNXANG/SpatialCLI"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.27703",
+      "scraped_at": "2026-07-31T02:52:35.677661"
+    },
+    "scraped_date": "2026-07-31"
+  },
+  {
+    "title": "PhiZero: A World Model Built Around Physical Language",
+    "paper_url": "https://huggingface.co/papers/2607.28624",
+    "authors": [
+      "Tieniu Tan",
+      "Xu Chen",
+      "Ruopeng Gao",
+      "Yuqi Wang",
+      "Shuyao Shang"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "PhiZero: A World Model Built Around Physical Language",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28624",
+      "pdf_url": "https://arxiv.org/pdf/2607.28624",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yaoyao-jpg/PhiZero"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28624",
+      "scraped_at": "2026-07-31T02:52:37.507614"
+    },
+    "scraped_date": "2026-07-31"
+  },
+  {
+    "title": "MemHarness: Memory Is Reconstructed, Not Replayed",
+    "paper_url": "https://huggingface.co/papers/2607.28272",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "MemHarness: Memory Is Reconstructed, Not Replayed",
+      "abstract": "Most memory-augmented LLM agents follow a retrieve-and-replay paradigm, directly inserting retrieved trajectories into the context. This conflates retrieval relevance with action-level applicability: a memory may be semantically related yet inappropriate for the current state, since it was formed under different conditions. Inspired by the reconstructive nature of human memory—recall reorganizes past experience using present cues rather than reproducing it verbatim—we recast memory-guided decision-making as a five-stage process: observation, retrieval, critique, reconstruction, and action. We introduce MemHarness, which inserts explicit memory critique and reconstruction between retrieval and action, turning static records into context-sensitive guidance while retaining their traceability. Crucially, this reconstructive ability requires no human annotation: it emerges end-to-end via GRPO by optimizing for task success. On ALFWorld and WebShop, MemHarness consistently outperforms both pure RL and static memory-augmented baselines, and ablations confirm that adaptive reconstruction—not retrieval alone—is the primary driver of the gains.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28272",
+      "pdf_url": "https://arxiv.org/pdf/2607.28272",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/KnowledgeXLab/MemHarness"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28272",
+      "scraped_at": "2026-07-31T02:52:39.565714"
+    },
+    "scraped_date": "2026-07-31"
+  },
+  {
+    "title": "Metis: Memory Foundation Model",
+    "paper_url": "https://huggingface.co/papers/2607.26760",
+    "authors": [],
+    "stars": "26",
+    "details": {
+      "title": "Metis: Memory Foundation Model",
+      "abstract": "Metis : The first prototype of a memory foundation model, equipping foundation models with a persistent and dynamically evolving native memory state. What if memory were a native capability of foundation models, rather than an external module? Recent advances have increasingly internalized capabilities such as multimodal perception and reasoning into foundation models. Agent memory, however, is still primarily implemented through external retrieval, storage, and prompt-construction pipelines. We introduce memory foundation models , which treat memory as a first-class capability of the model itself. We formalize native memory from two complementary perspectives: Native memory state: a persistent and dynamically evolving state within the model backbone that participates directly in subsequent computation. Native memory procedures: learned procedures that autonomously determine what to store and how to utilize the stored information. At its core, each Metis Block combines a Local Memory Block , which maintains the persistent memory state, with a Hyper Memory Block , which learns the storage and utilization procedures. Historical information is compressed into a compact, fixed-size session state and accessed through memory attention, allowing later queries to use the memory without replaying the original history. Memory maintenance is gradient-free and requires only forward computation. At inference time, all learned model weights remain frozen, while the native memory state evolves through standard model computation. We release the implementation and Qwen3.5-based checkpoints at 4B, 9B, and 27B scales.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.26760",
+      "pdf_url": "https://arxiv.org/pdf/2607.26760",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/MemTensor/Metis"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.26760",
+      "scraped_at": "2026-07-31T02:52:41.710381"
+    },
+    "scraped_date": "2026-07-31"
+  },
+  {
+    "title": "Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering",
+    "paper_url": "https://huggingface.co/papers/2607.28568",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering",
+      "abstract": "Recursive self-improvement (RSI) requires AI systems that improve the process of building AI (i.e., AI4AI); machine learning engineering (MLE) offers a concrete, executable testbed for studying this capability. We introduce OpenMLE, an open full-stack system for RSI research in MLE, and  Frontis-MA1 (35B) as a meta-evolution agent for MLE, exceeding GPT-5.5 + Codex and approaching GPT-5.6 Sol and the 2.8T Kimi K3 on MLE-Bench Lite with fixed budget.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28568",
+      "pdf_url": "https://arxiv.org/pdf/2607.28568",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/FrontisAI/OpenRSI"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28568",
+      "scraped_at": "2026-07-31T02:52:43.721373"
+    },
+    "scraped_date": "2026-07-31"
+  },
+  {
+    "title": "VideoCoCo: Code-as-CoT for Physically-Consistent Video Generation via an Agentic Dual-Engine System",
+    "paper_url": "https://huggingface.co/papers/2607.27380",
+    "authors": [
+      "Zhen Fang",
+      "Chunmei Qing",
+      "Xiaoxiao Ma",
+      "Tianfei Ren",
+      "Haodong Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "VideoCoCo: Code-as-CoT for Physically-Consistent Video Generation via an Agentic Dual-Engine System",
+      "abstract": "🧠 VideoCoCo uses executable Blender code as process-level CoT✨, generating deterministic spatiotemporal drafts that guide a video editor toward photorealistic and physically consistent results. 🎬",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.27380",
+      "pdf_url": "https://arxiv.org/pdf/2607.27380",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.27380",
+      "scraped_at": "2026-07-31T02:52:45.582468"
+    },
+    "scraped_date": "2026-07-31"
+  },
+  {
+    "title": "ReToken: One Token to Improve Vision-Language Models for Visual Retrieval",
+    "paper_url": "https://huggingface.co/papers/2607.28627",
+    "authors": [
+      "Jianfeng Gao",
+      "Yuqun Wu",
+      "Zhen Zhu",
+      "Reuben Tan",
+      "Yao Xiao"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "ReToken: One Token to Improve Vision-Language Models for Visual Retrieval",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28627",
+      "pdf_url": "https://arxiv.org/pdf/2607.28627",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/avaxiao/ReToken"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28627",
+      "scraped_at": "2026-07-31T02:52:47.338841"
+    },
+    "scraped_date": "2026-07-31"
+  },
+  {
+    "title": "Chimera: Designing and Chinchilla-Scaling Hybrid Visual Diffusion Transformers",
+    "paper_url": "https://huggingface.co/papers/2607.28611",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Chimera: Designing and Chinchilla-Scaling Hybrid Visual Diffusion Transformers",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28611",
+      "pdf_url": "https://arxiv.org/pdf/2607.28611",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28611",
+      "scraped_at": "2026-07-31T02:52:49.165281"
+    },
+    "scraped_date": "2026-07-31"
+  },
+  {
+    "title": "ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine",
+    "paper_url": "https://huggingface.co/papers/2607.28625",
+    "authors": [
+      "Yinghao Liu",
+      "Runmao Yao",
+      "Beichen Wen",
+      "Haozhe Xie",
+      "Yukang Cao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28625",
+      "pdf_url": "https://arxiv.org/pdf/2607.28625",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28625",
+      "scraped_at": "2026-07-31T02:52:51.065177"
+    },
+    "scraped_date": "2026-07-31"
   }
 ]

@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-6-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-5371+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-10-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-5381+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">6</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">26</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">356</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5371+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">10</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">36</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">366</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5381+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** July 30, 2026
+**Last Updated:** July 31, 2026
 
 ---
 
@@ -119,39 +119,123 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM</b> ⭐ 15</summary>
+<summary><b>1. AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.27205) • [📄 arXiv](https://arxiv.org/abs/2607.27205) • [📥 PDF](https://arxiv.org/pdf/2607.27205)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.28618) • [📄 arXiv](https://arxiv.org/abs/2607.28618) • [📥 PDF](https://arxiv.org/pdf/2607.28618)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/H-EmbodVis/TurboVLA)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/bingyan4science/askchem)
 
-> Vision-language-action (VLA) models commonly adopt an LLM-centric V→L→A pathway, where visual observations are projected into the representation space of a large language model before being decoded into robot actions. Although effective, this desi...
+> Working on chemistry? What if you could search chemistry findings instead of papers? We turned 147,000 papers into 2.4 million searchable claims , making it possible to find results, compare evidence, and surface contradictions. Try AskChem: 🔎 htt...
 
 </details>
 
 <details>
-<summary><b>2. HumanCLAW: Can Vision-Language Models Act Through a Body?</b> ⭐ 0</summary>
+<summary><b>2. SpatialCLI: Learning to Reason With Spatial Tools, Then Without Them</b> ⭐ 1</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.27180) • [📄 arXiv](https://arxiv.org/abs/2607.27180) • [📥 PDF](https://arxiv.org/pdf/2607.27180)
+**👥 Authors:** Chen Zhang, Zhuo Yang, Sunzhu Li, Zixuan Huang, Yang Zhou
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.27703) • [📄 arXiv](https://arxiv.org/abs/2607.27703) • [📥 PDF](https://arxiv.org/pdf/2607.27703)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/IANNXANG/SpatialCLI)
+
+> We introduce SpatialCLI, a framework that teaches vision-language models to reason with spatial tools and internalize their capabilities for tool-free inference.
+
+</details>
+
+<details>
+<summary><b>3. PhiZero: A World Model Built Around Physical Language</b> ⭐ 2</summary>
+
+<br/>
+
+**👥 Authors:** Tieniu Tan, Xu Chen, Ruopeng Gao, Yuqi Wang, Shuyao Shang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.28624) • [📄 arXiv](https://arxiv.org/abs/2607.28624) • [📥 PDF](https://arxiv.org/pdf/2607.28624)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/yaoyao-jpg/PhiZero)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>4. MemHarness: Memory Is Reconstructed, Not Replayed</b> ⭐ 1</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.28272) • [📄 arXiv](https://arxiv.org/abs/2607.28272) • [📥 PDF](https://arxiv.org/pdf/2607.28272)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/KnowledgeXLab/MemHarness)
+
+> Most memory-augmented LLM agents follow a retrieve-and-replay paradigm, directly inserting retrieved trajectories into the context. This conflates retrieval relevance with action-level applicability: a memory may be semantically related yet inappr...
+
+</details>
+
+<details>
+<summary><b>5. Metis: Memory Foundation Model</b> ⭐ 26</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.26760) • [📄 arXiv](https://arxiv.org/abs/2607.26760) • [📥 PDF](https://arxiv.org/pdf/2607.26760)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/MemTensor/Metis)
+
+> Metis : The first prototype of a memory foundation model, equipping foundation models with a persistent and dynamically evolving native memory state. What if memory were a native capability of foundation models, rather than an external module? Rec...
+
+</details>
+
+<details>
+<summary><b>6. Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.28568) • [📄 arXiv](https://arxiv.org/abs/2607.28568) • [📥 PDF](https://arxiv.org/pdf/2607.28568)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/FrontisAI/OpenRSI)
+
+> Recursive self-improvement (RSI) requires AI systems that improve the process of building AI (i.e., AI4AI); machine learning engineering (MLE) offers a concrete, executable testbed for studying this capability. We introduce OpenMLE, an open full-s...
+
+</details>
+
+<details>
+<summary><b>7. VideoCoCo: Code-as-CoT for Physically-Consistent Video Generation via an Agentic Dual-Engine System</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Zhen Fang, Chunmei Qing, Xiaoxiao Ma, Tianfei Ren, Haodong Li
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.27380) • [📄 arXiv](https://arxiv.org/abs/2607.27380) • [📥 PDF](https://arxiv.org/pdf/2607.27380)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> A model may know where the sofa is, yet still not know how to move its body there and sit down. We call this ability Action Intelligence , and HumanCLAW makes it measurable without tying it to motor control. This is a first step toward models that...
+> 🧠 VideoCoCo uses executable Blender code as process-level CoT✨, generating deterministic spatiotemporal drafts that guide a video editor toward photorealistic and physically consistent results. 🎬
 
 </details>
 
 <details>
-<summary><b>3. Can AI agents conduct open-ended AI research? Early evidence from two case studies</b> ⭐ 0</summary>
+<summary><b>8. ReToken: One Token to Improve Vision-Language Models for Visual Retrieval</b> ⭐ 1</summary>
 
 <br/>
 
-**👥 Authors:** David Africa, Stephan Rabanser, Andrew Schwartz, Sayash Kapoor, Peter Kirgis
+**👥 Authors:** Jianfeng Gao, Yuqun Wu, Zhen Zhu, Reuben Tan, Yao Xiao
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.27191) • [📄 arXiv](https://arxiv.org/abs/2607.27191) • [📥 PDF](https://arxiv.org/pdf/2607.27191)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.28627) • [📄 arXiv](https://arxiv.org/abs/2607.28627) • [📥 PDF](https://arxiv.org/pdf/2607.28627)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/avaxiao/ReToken)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>9. Chimera: Designing and Chinchilla-Scaling Hybrid Visual Diffusion Transformers</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.28611) • [📄 arXiv](https://arxiv.org/abs/2607.28611) • [📥 PDF](https://arxiv.org/pdf/2607.28611)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
@@ -160,39 +244,13 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>4. Explicit Layer Modeling for Video Object Insertion and Layer Decomposition</b> ⭐ 2</summary>
+<summary><b>10. ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.25802) • [📄 arXiv](https://arxiv.org/abs/2607.25802) • [📥 PDF](https://arxiv.org/pdf/2607.25802)
+**👥 Authors:** Yinghao Liu, Runmao Yao, Beichen Wen, Haozhe Xie, Yukang Cao
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/KyujinHan/DBL-Diffusion)
-
-> Release the paper on arXiv! Check out DBL-Diffusion’s amazing layered video generation capabilities🔥
-
-</details>
-
-<details>
-<summary><b>5. OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Zhenghai Chen, Jingjia Cao, Qi Bao, Yusai Zhao, Jingbo Zhou
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.27155) • [📄 arXiv](https://arxiv.org/abs/2607.27155) • [📥 PDF](https://arxiv.org/pdf/2607.27155)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/baidu-frontier-research/OmegaUse-OfficeVal)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>6. GPT-Red: Automated Red Teaming via Self-Play at Scale</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.26115) • [📄 arXiv](https://arxiv.org/abs/2607.26115) • [📥 PDF](https://arxiv.org/pdf/2607.26115)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.28625) • [📄 arXiv](https://arxiv.org/abs/2607.28625) • [📥 PDF](https://arxiv.org/pdf/2607.28625)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
@@ -208,28 +266,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 6 |
-| 📅 Today | [`2026-07-30.json`](data/daily/2026-07-30.json) | 6 |
-| 📆 This Week | [`2026-W30.json`](data/weekly/2026-W30.json) | 26 |
-| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 356 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 10 |
+| 📅 Today | [`2026-07-31.json`](data/daily/2026-07-31.json) | 10 |
+| 📆 This Week | [`2026-W30.json`](data/weekly/2026-W30.json) | 36 |
+| 🗓️ This Month | [`2026-07.json`](data/monthly/2026-07.json) | 366 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-07-30 | 6 | [View JSON](data/daily/2026-07-30.json) |
+| 📌 2026-07-31 | 10 | [View JSON](data/daily/2026-07-31.json) |
+| 📄 2026-07-30 | 6 | [View JSON](data/daily/2026-07-30.json) |
 | 📄 2026-07-29 | 8 | [View JSON](data/daily/2026-07-29.json) |
 | 📄 2026-07-28 | 4 | [View JSON](data/daily/2026-07-28.json) |
 | 📄 2026-07-27 | 8 | [View JSON](data/daily/2026-07-27.json) |
 | 📄 2026-07-26 | 22 | [View JSON](data/daily/2026-07-26.json) |
 | 📄 2026-07-25 | 22 | [View JSON](data/daily/2026-07-25.json) |
-| 📄 2026-07-24 | 6 | [View JSON](data/daily/2026-07-24.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W30 | 26 | [View JSON](data/weekly/2026-W30.json) |
+| 📅 2026-W30 | 36 | [View JSON](data/weekly/2026-W30.json) |
 | 📅 2026-W29 | 70 | [View JSON](data/weekly/2026-W29.json) |
 | 📅 2026-W28 | 94 | [View JSON](data/weekly/2026-W28.json) |
 | 📅 2026-W27 | 79 | [View JSON](data/weekly/2026-W27.json) |
@@ -238,7 +296,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-07 | 356 | [View JSON](data/monthly/2026-07.json) |
+| 🗓️ 2026-07 | 366 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 782 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 450 | [View JSON](data/monthly/2026-04.json) |
