@@ -776,5 +776,862 @@
       "scraped_at": "2026-07-31T02:52:51.065177"
     },
     "scraped_date": "2026-07-31"
+  },
+  {
+    "title": "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis",
+    "paper_url": "https://huggingface.co/papers/2607.28618",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis",
+      "abstract": "Working on chemistry? What if you could search chemistry findings instead of papers? We turned 147,000 papers into 2.4 million searchable claims , making it possible to find results, compare evidence, and surface contradictions. Try AskChem: 🔎 https://askchem.org Everything is open: 🤗 https://huggingface.co/datasets/bing-yan/askchem 💻 https://github.com/bingyan4science/askchem",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28618",
+      "pdf_url": "https://arxiv.org/pdf/2607.28618",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/bingyan4science/askchem"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28618",
+      "scraped_at": "2026-08-01T02:51:32.639717"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "Qwen-UI-Agent Technical Report: Toward Next-Generation Real-World Centric Foundation GUI Agents",
+    "paper_url": "https://huggingface.co/papers/2607.28227",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Qwen-UI-Agent Technical Report: Toward Next-Generation Real-World Centric Foundation GUI Agents",
+      "abstract": "We present Qwen-UI-Agent, a real-world centric foundation GUI agent unifying mobile, computer, browser, and DeepSearch scenarios in a single model. It sets a new SOTA on mobile use and stays competitive with Opus 4.8, Gemini 3.1 Pro, and GPT-5.6 Sol on computer and browser use. 🚀 🏠 Project Page: https://tongyi-mai.github.io/Qwen-UI-Agent/",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28227",
+      "pdf_url": "https://arxiv.org/pdf/2607.28227",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Tongyi-MAI/MAI-UI"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28227",
+      "scraped_at": "2026-08-01T02:51:34.604168"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "Metis: Memory Foundation Model",
+    "paper_url": "https://huggingface.co/papers/2607.26760",
+    "authors": [],
+    "stars": "42",
+    "details": {
+      "title": "Metis: Memory Foundation Model",
+      "abstract": "Metis : The first prototype of a memory foundation model, equipping foundation models with a persistent and dynamically evolving native memory state. What if memory were a native capability of foundation models, rather than an external module? Recent advances have increasingly internalized capabilities such as multimodal perception and reasoning into foundation models. Agent memory, however, is still primarily implemented through external retrieval, storage, and prompt-construction pipelines. We introduce memory foundation models , which treat memory as a first-class capability of the model itself. We formalize native memory from two complementary perspectives: Native memory state: a persistent and dynamically evolving state within the model backbone that participates directly in subsequent computation. Native memory procedures: learned procedures that autonomously determine what to store and how to utilize the stored information. At its core, each Metis Block combines a Local Memory Block , which maintains the persistent memory state, with a Hyper Memory Block , which learns the storage and utilization procedures. Historical information is compressed into a compact, fixed-size session state and accessed through memory attention, allowing later queries to use the memory without replaying the original history. Memory maintenance is gradient-free and requires only forward computation. At inference time, all learned model weights remain frozen, while the native memory state evolves through standard model computation. We release the implementation and Qwen3.5-based checkpoints at 4B, 9B, and 27B scales.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.26760",
+      "pdf_url": "https://arxiv.org/pdf/2607.26760",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/MemTensor/Metis"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.26760",
+      "scraped_at": "2026-08-01T02:51:36.633534"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering",
+    "paper_url": "https://huggingface.co/papers/2607.28568",
+    "authors": [],
+    "stars": "72",
+    "details": {
+      "title": "Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering",
+      "abstract": "Recursive self-improvement (RSI) requires AI systems that improve the process of building AI (i.e., AI4AI); machine learning engineering (MLE) offers a concrete, executable testbed for studying this capability. We introduce OpenMLE, an open full-stack system for RSI research in MLE, and  Frontis-MA1 (35B) as a meta-evolution agent for MLE, exceeding GPT-5.5 + Codex and approaching GPT-5.6 Sol and the 2.8T Kimi K3 on MLE-Bench Lite with fixed budget.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28568",
+      "pdf_url": "https://arxiv.org/pdf/2607.28568",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/FrontisAI/OpenRSI"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28568",
+      "scraped_at": "2026-08-01T02:51:38.657242"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "PhiZero: A World Model Built Around Physical Language",
+    "paper_url": "https://huggingface.co/papers/2607.28624",
+    "authors": [
+      "Tieniu Tan",
+      "Xu Chen",
+      "Yuqi Wang",
+      "HELLORPG",
+      "ShuyaoShang"
+    ],
+    "stars": "23",
+    "details": {
+      "title": "PhiZero: A World Model Built Around Physical Language",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28624",
+      "pdf_url": "https://arxiv.org/pdf/2607.28624",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yaoyao-jpg/PhiZero"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28624",
+      "scraped_at": "2026-08-01T02:51:40.610334"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "VideoCoCo: Code-as-CoT for Physically-Consistent Video Generation via an Agentic Dual-Engine System",
+    "paper_url": "https://huggingface.co/papers/2607.27380",
+    "authors": [
+      "Xiaoxiao Ma",
+      "Haodong Li",
+      "Lin-Chen",
+      "Juanxi",
+      "rentianfei122"
+    ],
+    "stars": "55",
+    "details": {
+      "title": "VideoCoCo: Code-as-CoT for Physically-Consistent Video Generation via an Agentic Dual-Engine System",
+      "abstract": "🧠 VideoCoCo uses executable Blender code as process-level CoT✨, generating deterministic spatiotemporal drafts that guide a video editor toward photorealistic and physically consistent results. 🎬",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.27380",
+      "pdf_url": "https://arxiv.org/pdf/2607.27380",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/micky-li-hd/VideoCoCo"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.27380",
+      "scraped_at": "2026-08-01T02:51:42.503891"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "Memory Decoder at Scale: A Pretrained, Parametric Long-Term Memory",
+    "paper_url": "https://huggingface.co/papers/2607.27919",
+    "authors": [
+      "Qipeng Guo",
+      "Junming Zhang",
+      "Jiarui Wang",
+      "Jiaqi Cao",
+      "Rubin-Wei"
+    ],
+    "stars": "6",
+    "details": {
+      "title": "Memory Decoder at Scale: A Pretrained, Parametric Long-Term Memory",
+      "abstract": "We introduce Memory Decoder at Scale, which disentangles long-term memory from reasoning and scales parametric memory to 6.9B parameters and 300B training tokens. Pythia-410M + Mem-6.9B surpasses Pythia-12B across 17 tasks with 39% fewer total parameters, revealing a promising \"small backbone, large memory\" paradigm.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.27919",
+      "pdf_url": "https://arxiv.org/pdf/2607.27919",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/LUMIA-Group/MemoryDecoder-at-Scale"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.27919",
+      "scraped_at": "2026-08-01T02:51:44.383676"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "Beacon: Knowing When and How to Perform Agentic Visual Reasoning",
+    "paper_url": "https://huggingface.co/papers/2607.28595",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Beacon: Knowing When and How to Perform Agentic Visual Reasoning",
+      "abstract": "The fundamental goal of agentic visual reasoning is to improve the success rate of multimodal large language models (MLLMs) on complex tasks, rather than merely equipping them with a sophisticated yet inefficient reasoning paradigm. In this work, we rethink agentic visual reasoning through two key dimensions of tool use: Mode Adaptiveness (MA) and Tool Effect (TE). Mode Adaptiveness characterizes whether an MLLM can recognize when tools are truly necessary and invoke them accordingly, thereby avoiding unnecessary computational overhead while improving performance on challenging problems that require tool assistance. Tool Effect characterizes the actual impact of tool use: tools should extend the model's capabilities on problems unsolvable through text-only reasoning, while avoiding additional errors on problems that the model can already solve without tools. We conduct a comprehensive analysis to quantify these two properties and empirically reveal that existing agentic visual reasoning models exhibit limited Mode Adaptiveness, while the gains produced by tool use on hard examples are largely offset by the harm introduced on easy examples that the models can already solve. Motivated by these observations, we propose Beacon, a novel agentic visual reasoning model that achieves stronger overall performance, improved Mode Adaptiveness, and genuine tool-induced performance gains. At the core of Beacon are the Necessity-Aware Adaptive Reward and the Hint-Guided Capability Expansion mechanism in the reinforcement learning stage, which respectively encourage adaptive tool invocation based on task necessity and strengthen the model's tool-use capability on the most challenging problems. Extensive experiments across diverse benchmarks demonstrate the strong overall performance of Beacon and its substantial improvements in both Mode Adaptiveness and Tool Effect.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28595",
+      "pdf_url": "https://arxiv.org/pdf/2607.28595",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/NOVAglow646/Beacon"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28595",
+      "scraped_at": "2026-08-01T02:51:46.308431"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "BM25 Wins at Scale: A Scaling Study of Retrieval-Augmented Generation Paradigms",
+    "paper_url": "https://huggingface.co/papers/2607.26497",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "BM25 Wins at Scale: A Scaling Study of Retrieval-Augmented Generation Paradigms",
+      "abstract": "hi! Thanks for supporting!",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.26497",
+      "pdf_url": "https://arxiv.org/pdf/2607.26497",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.26497",
+      "scraped_at": "2026-08-01T02:51:48.359587"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "Flux-OPD: On-Policy Distillation with Evolving Contexts",
+    "paper_url": "https://huggingface.co/papers/2607.28022",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Flux-OPD: On-Policy Distillation with Evolving Contexts",
+      "abstract": "Large language model training in open-ended domains lacks verifiable rewards, making task preferences difficult to formalize as effective supervision. Contexts can convey such preferences, yet provide little additional supervision once distilled into the student, motivating contexts that evolve with student performance. However, directly using evolving contexts as in-training supervision results in an unstable distillation target and conflicting distributions, requiring mechanisms to stabilize target and downweight conflicts. In this paper, we analyze the effect of contexts through a decomposition of the reverse KL objective, revealing two findings: the student is distilled toward the geometric mean of context-conditioned teachers, and the objective contains a conflict term that measures conflicts among these teachers. Based on this decomposition, we propose Flux-OPD, an OPD paradigm that uses evolving contexts as in-training supervision to capture task preferences in open-ended domains. Flux-OPD treats the differences between context-conditioned and context-free teachers as contextual difference signals, injects them as contextual corrections into the context-free teacher anchor, and weights their correction strength using the conflict term as an indicator. Experiments on open-ended tasks show that Flux-OPD outperforms existing OPD paradigms, highlighting the potential to combine teacher supervision with evolving contexts.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28022",
+      "pdf_url": "https://arxiv.org/pdf/2607.28022",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28022",
+      "scraped_at": "2026-08-01T02:51:50.231879"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "MPIE-Bench: Benchmarking Anatomically Plausible Multi-Person Interaction Editing",
+    "paper_url": "https://huggingface.co/papers/2607.27616",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "MPIE-Bench: Benchmarking Anatomically Plausible Multi-Person Interaction Editing",
+      "abstract": "Text-to-image and personalized editing models now synthesize high-fidelity single-subject images with ease. Yet placing multiple named people into shared contact actions such as embrace, carry, or grapple still exposes major failures: fused limbs, invented extremities, and interpenetrating bodies. Existing evaluations largely overlook these anatomical and geometric issues, and VLM-as-a-judge checklists often saturate on Interaction while the errors remain obvious to humans. We introduce MPIE-Bench, a 2,500-sample benchmark of video-mined editing triplets spanning 405 scenes, 14 interaction categories, and four contact densities (C0-C3). We also propose MPIE-Eval, whose two new axes score contact-time geometry from a frozen public multi-person mesh reconstruction. Anatomy asks whether every human-like mass is explained by a complete set of reconstructed bodies, and Interaction asks whether the penetration and surface distance between those bodies match the contact the instruction asked for. Across ten editors, mesh Anatomy tops out at 0.65 and mesh Interaction at 0.72 on two different models, so no single editor is strong on both, while VLM checklists rate the same images above 0.95. A five-rater study confirms that both axes track human judgement more closely than a zero-shot VLM judge, and the rankings hold under ablation of every weight and threshold.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.27616",
+      "pdf_url": "https://arxiv.org/pdf/2607.27616",
+      "github_links": [
+        "https://github.com/AnnLin0628/mpie-bench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.27616",
+      "scraped_at": "2026-08-01T02:51:52.100666"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine",
+    "paper_url": "https://huggingface.co/papers/2607.28625",
+    "authors": [
+      "Yukang Cao",
+      "ChaosLiao",
+      "yaorunmao",
+      "wenbc21",
+      "hzxie"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28625",
+      "pdf_url": "https://arxiv.org/pdf/2607.28625",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28625",
+      "scraped_at": "2026-08-01T02:51:54.019677"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "Beyond Borrowed Histories: Person-Aligned User Simulation for Interactive Role-Playing Evaluation",
+    "paper_url": "https://huggingface.co/papers/2607.27816",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "Beyond Borrowed Histories: Person-Aligned User Simulation for Interactive Role-Playing Evaluation",
+      "abstract": "Role-playing agents (RPAs) have become one of the most important consumer applications of large language models. Users engage in multi-turn conversations with RPAs for experiences such as emotional comfort, making reliable evaluation essential for measuring capability, comparing systems, and guiding further improvement. Existing benchmarks, however, typically require an RPA to continue a fixed dialogue history and then evaluate the continuation using a fixed rubric detached from the user. We identify and empirically demonstrate two limitations of this design. First, an RPA's output is shaped by the preceding dialogue history, preventing a scientifically grounded assessment of its role-playing ability in real multi-turn settings. Second, user experience varies substantially across individuals, and conventional fixed rubrics need not align with user satisfaction. We therefore introduce PALATE (Person-Aligned LLM-Simulated-User Assessment with Tailored Evaluation), a scalable RPA benchmark built on user simulators. PALATE is accompanied by a pool of 300 character profiles. Its main evaluation trains five per-user simulators and lets them engage candidate RPAs in free-form, multi-turn conversations over a pre-frozen panel of character profiles. Alongside a general quality rubric, we construct personalized rubrics to measure user satisfaction; on held-out annotated data, the personalized rubrics show higher agreement with human judgments than the general rubric. In the main evaluation of 16 candidates, PALATE separately characterizes generic turn quality, long-horizon session capability, and per-user experience on multi-turn trajectories co-constructed by each candidate. It thereby produces interpretable evaluations of specific user-RPA pairs rather than compressing systems into a single user-independent ranking.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.27816",
+      "pdf_url": "https://arxiv.org/pdf/2607.27816",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Zhuyh1139/PALATE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.27816",
+      "scraped_at": "2026-08-01T02:51:55.892727"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "RefCaptioner: Multi-Reference Image-Grounded Video Captioning",
+    "paper_url": "https://huggingface.co/papers/2607.28509",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "RefCaptioner: Multi-Reference Image-Grounded Video Captioning",
+      "abstract": "Existing video captioning models generate natural descriptions of video content but cannot explicitly ground local visual elements to multiple reference images. We introduce multi-reference image-grounded video captioning, a new task requiring factual video descriptions with phrase-level reference grounding, and propose RefCaptioner, a two-stage post-training framework for this task. RefCaptioner combines mixed-data SFT with Hierarchical Coverage-Discounted GRPO to jointly improve reference selection, phrase-level binding, distractor rejection, and cross-reference consistency while preserving general video-captioning ability. To support training, we construct a corpus containing 20,000 videos and 171,354 reference images. We further introduce MRVBench, a benchmark for evaluating caption factuality and multi-reference grounding on both real-world and AI-generated videos. Experiments show that RefCaptioner achieves the best overall performance among the open-source models while remaining competitive on standard video captioning benchmarks. Human evaluation further confirms that its captions are preferred by annotators and enable more source-faithful video reconstruction with both open-source and proprietary video generators.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28509",
+      "pdf_url": "https://arxiv.org/pdf/2607.28509",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/pkucs-Ltf/RefCaptioner"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28509",
+      "scraped_at": "2026-08-01T02:51:57.771565"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "SpatialCLI: Learning to Reason With Spatial Tools, Then Without Them",
+    "paper_url": "https://huggingface.co/papers/2607.27703",
+    "authors": [
+      "Zixuan Huang",
+      "liushunyu",
+      "Shunian",
+      "sojuL",
+      "Yang-Zhou"
+    ],
+    "stars": "8",
+    "details": {
+      "title": "SpatialCLI: Learning to Reason With Spatial Tools, Then Without Them",
+      "abstract": "We introduce SpatialCLI, a framework that teaches vision-language models to reason with spatial tools and internalize their capabilities for tool-free inference.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.27703",
+      "pdf_url": "https://arxiv.org/pdf/2607.27703",
+      "github_links": [
+        "https://github.com/IANNXANG/SpatialCLI",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.27703",
+      "scraped_at": "2026-08-01T02:51:59.762436"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "See2Think: Do Multimodal Models Really Use Intermediate Visual States?",
+    "paper_url": "https://huggingface.co/papers/2607.26769",
+    "authors": [
+      "Jingyu Chen",
+      "Panhao Zhou",
+      "Haiying Xu",
+      "Zhuoran Yan",
+      "SiyuYanYan"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "See2Think: Do Multimodal Models Really Use Intermediate Visual States?",
+      "abstract": "We introduce See2Think, a benchmark for understanding whether multimodal large language models truly rely on intermediate visual states during reasoning. Unlike existing evaluations that only measure final answers, See2Think analyzes the full visual reasoning process through Visual Action-of-Thought (VAoT), including visual actions, rendered states, and feedback utilization. Our findings reveal that current MLLMs can often select relevant visual operations, but faithful visual rendering remains a major bottleneck. We hope this work provides a new perspective for evaluating and improving visual reasoning capabilities in multimodal AI systems.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.26769",
+      "pdf_url": "https://arxiv.org/pdf/2607.26769",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/CSU-JPG/See2Think"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.26769",
+      "scraped_at": "2026-08-01T02:52:01.705616"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "β-OPSD: Deriving with Policy Optimization, Training with Self-Distillation",
+    "paper_url": "https://huggingface.co/papers/2607.28582",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "β-OPSD: Deriving with Policy Optimization, Training with Self-Distillation",
+      "abstract": "We introduce β-OPSD, a principled generalization of on-policy self-distillation for reasoning language models. 🔍 Our key observation is that vanilla OPSD is exactly the β = 1 case of a broader KL-regularized policy-optimization objective. Its optimal policy geometrically interpolates between a reference policy and a privileged teacher. ⚡ Instead of running costly, high-variance reinforcement learning, β-OPSD converts this closed-form solution into an efficient token-level distillation target. We also use return-to-go credit assignment to better align token updates with sequence-level outcomes. 📈 Across mathematical reasoning benchmarks and Qwen3 models from 1.7B to 8B, β-OPSD improves average performance and training stability over vanilla OPSD—including a +5.74-point average gain at the 1.7B scale. 🌐 Project page: https://umd-huang-lab.github.io/beta-opsd/",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28582",
+      "pdf_url": "https://arxiv.org/pdf/2607.28582",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28582",
+      "scraped_at": "2026-08-01T02:52:03.670765"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "Chimera: Designing and Chinchilla-Scaling Hybrid Visual Diffusion Transformers",
+    "paper_url": "https://huggingface.co/papers/2607.28611",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Chimera: Designing and Chinchilla-Scaling Hybrid Visual Diffusion Transformers",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28611",
+      "pdf_url": "https://arxiv.org/pdf/2607.28611",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28611",
+      "scraped_at": "2026-08-01T02:52:05.546932"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "ShadowDancer: Teaching Video World Models Any Action by Learning Unified Dynamics Representations from a Video and Its Shadow",
+    "paper_url": "https://huggingface.co/papers/2607.28362",
+    "authors": [],
+    "stars": "16",
+    "details": {
+      "title": "ShadowDancer: Teaching Video World Models Any Action by Learning Unified Dynamics Representations from a Video and Its Shadow",
+      "abstract": "ShadowDancer learns to control video world models by watching each dynamics twice — a video and its “shadow” (same motion, resampled appearance). This cross-shadow paradigm yields one unified action interface for any demonstrable behavior: first/third-person gameplay, open worlds, human motion, camera, and robot manipulation — no labels, no fine-tuning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28362",
+      "pdf_url": "https://arxiv.org/pdf/2607.28362",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/AlayaLab/ShadowDancer"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28362",
+      "scraped_at": "2026-08-01T02:52:07.525162"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "Can Large Language Models Execute Parent Orders?",
+    "paper_url": "https://huggingface.co/papers/2607.28410",
+    "authors": [
+      "Guangyi Zhang",
+      "Xinli Xu",
+      "Zane Shen",
+      "YZCS",
+      "StarYDY"
+    ],
+    "stars": "9",
+    "details": {
+      "title": "Can Large Language Models Execute Parent Orders?",
+      "abstract": "Can LLMs execute large financial orders? PACE extends financial LLMs from deciding what to trade to determining how to execute, achieving competitive execution performance without task-specific training.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28410",
+      "pdf_url": "https://arxiv.org/pdf/2607.28410",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/zaneopen/PACE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28410",
+      "scraped_at": "2026-08-01T02:52:09.429436"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "MemHarness: Memory Is Reconstructed, Not Replayed",
+    "paper_url": "https://huggingface.co/papers/2607.28272",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "MemHarness: Memory Is Reconstructed, Not Replayed",
+      "abstract": "Most memory-augmented LLM agents follow a retrieve-and-replay paradigm, directly inserting retrieved trajectories into the context. This conflates retrieval relevance with action-level applicability: a memory may be semantically related yet inappropriate for the current state, since it was formed under different conditions. Inspired by the reconstructive nature of human memory—recall reorganizes past experience using present cues rather than reproducing it verbatim—we recast memory-guided decision-making as a five-stage process: observation, retrieval, critique, reconstruction, and action. We introduce MemHarness, which inserts explicit memory critique and reconstruction between retrieval and action, turning static records into context-sensitive guidance while retaining their traceability. Crucially, this reconstructive ability requires no human annotation: it emerges end-to-end via GRPO by optimizing for task success. On ALFWorld and WebShop, MemHarness consistently outperforms both pure RL and static memory-augmented baselines, and ablations confirm that adaptive reconstruction—not retrieval alone—is the primary driver of the gains.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28272",
+      "pdf_url": "https://arxiv.org/pdf/2607.28272",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/KnowledgeXLab/MemHarness"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28272",
+      "scraped_at": "2026-08-01T02:52:11.371473"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "INTACT: Isomorphic Intent-to-Action Learning for Search-Free World Models",
+    "paper_url": "https://huggingface.co/papers/2607.26056",
+    "authors": [],
+    "stars": "58",
+    "details": {
+      "title": "INTACT: Isomorphic Intent-to-Action Learning for Search-Free World Models",
+      "abstract": "[INTACT is an end-to-end unified JEPA that completes the intent-to-action half of LeWM. Instead of using an action-effect world model only for CEM planning, it jointly learns a deployable controller that maps latent motion intent directly to actions. After a single full-data epoch, INTACT achieves 95.33% direct macro SR across four control tasks with zero test-time search and 2.9–5.5 ms inference, reducing planning latency by approximately 300×. Its shared encoder further supports joint four-task training, moving JEPA world models beyond task-specific models toward unified, search-free control.](INTACT: Isomorphic Intent-to-Action Learning for Search-Free World Models Forward world models answer “what will happen if I execute this action?”, while control requires the inverse query: “which action realizes this intent?” Existing latent world models typically bridge this gap through expensive test-time action search. INTACT learns this missing intent-to-action correspondence end to end. A shared conditional operator maps both realized local transitions and deployable goal intents to their induced action distributions. The two intent instances share the same predictor and action supervision, while using deliberately asymmetric gradient paths. This grounds goal-conditioned control in observed physical transitions without forcing pointwise latent alignment or globally linear dynamics. After only one training epoch, INTACT achieves 95.33% Direct macro success rate across four visual-control tasks, with zero candidate search and 2.9–5.5 ms inference latency. This reduces planning latency by approximately 300× relative to broad CEM control. INTACT also supports joint four-task training with a shared visual encoder and lightweight task-specific heads. Our analysis further shows that predicted–expert action-family alignment strongly tracks Direct control performance, connecting the proposed conditional action quotient to measurable representation geometry.)",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.26056",
+      "pdf_url": "https://arxiv.org/pdf/2607.26056",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/zju3dv/INTACT-JEPA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.26056",
+      "scraped_at": "2026-08-01T02:52:13.373509"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "LEDGERMIND: Provenance-Constrained Multimodal Agentic Reasoning with a Structured Evidence Ledger",
+    "paper_url": "https://huggingface.co/papers/2607.28374",
+    "authors": [
+      "Zirong Chen",
+      "Siyi Liu",
+      "Chenxu Du",
+      "Hange Zhou",
+      "Enjun Du"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "LEDGERMIND: Provenance-Constrained Multimodal Agentic Reasoning with a Structured Evidence Ledger",
+      "abstract": "Multimodal agents for visual question answering increasingly operate as multi-step trajectories that interleave perception, retrieval, and reasoning, yet evaluation still largely reduces to final-answer accuracy. This aggregate signal cannot tell whether a correct answer was reached through grounded evidence, language priors, or accidental error cancellation. We propose to treat a multimodal agent trajectory as a provenance-constrained state machine: tool outputs are normalized into a Struc- tured Evidence Ledger that serves as the trajectory state, downstream reasoning and decision claims may cite only active ledger entries, grounding is checked at the entity and numeric level, and repair is realized as typed state transitions that cannot introduce content without tool-produced provenance. We instantiate this design as LedgerMind (Provenance-Constrained Multimodal Agentic Reasoning with a Structured Evidence Ledger), augmented by a Three-Layer Grounding Pro- tocol, an Adaptive Dual-Path Dispatcher that matches reasoning depth to question complexity, and an Event-Triggered Verification-and-Repair engine with a formal provenance non-amplification guarantee. We use LedgerMind to target four re- curring failure patterns that final-answer accuracy tends to obscure: unsupported intermediate reasoning, citation-backed entity hallucination (Phantom Grounding), over-reasoning on simple queries, and repair-time amplification. Experiments across multiple multimodal reasoning benchmarks and backbone MLLMs show that LedgerMind improves both answer accuracy and trajectory-level faithfulness.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28374",
+      "pdf_url": "https://arxiv.org/pdf/2607.28374",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28374",
+      "scraped_at": "2026-08-01T02:52:15.216501"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "Echoverse: Deep, Evolving Environments for Training Computer-Use Agents at Scale",
+    "paper_url": "https://huggingface.co/papers/2607.28074",
+    "authors": [],
+    "stars": "11",
+    "details": {
+      "title": "Echoverse: Deep, Evolving Environments for Training Computer-Use Agents at Scale",
+      "abstract": "Blog: https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/ Github: https://github.com/microsoft/Echoverse",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28074",
+      "pdf_url": "https://arxiv.org/pdf/2607.28074",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/microsoft/Echoverse"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28074",
+      "scraped_at": "2026-08-01T02:52:17.087084"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "Σ-Mem: An Online Reliability Memory for LLM-based Multi-Agent Systems",
+    "paper_url": "https://huggingface.co/papers/2607.27958",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Σ-Mem: An Online Reliability Memory for LLM-based Multi-Agent Systems",
+      "abstract": "We introduce Σ-Mem, a persistent online reliability memory for LLM-based multi-agent systems. Instead of memorizing interaction content, Σ-Mem continuously learns which peers are reliable under different conditions from correctness feedback, enabling adaptive routing, voting, and model steering without retraining. Experiments across multiple Qwen-family agents show improved robustness under reliability shifts and strong generalization to unseen peers and domains.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.27958",
+      "pdf_url": "https://arxiv.org/pdf/2607.27958",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.27958",
+      "scraped_at": "2026-08-01T02:52:18.949198"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "Multi-Head Attention Residuals",
+    "paper_url": "https://huggingface.co/papers/2607.27230",
+    "authors": [
+      "Junjie Hu",
+      "Zefan Cai",
+      "Cheng Luo"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Multi-Head Attention Residuals",
+      "abstract": "Multi-Head Attention Residuals",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.27230",
+      "pdf_url": "https://arxiv.org/pdf/2607.27230",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/wdlctc/multi-head-attention-residuals"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.27230",
+      "scraped_at": "2026-08-01T02:52:20.863369"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "Explorative Modeling: Unlocking a Third Pretraining Axis and End-to-End Generation",
+    "paper_url": "https://huggingface.co/papers/2607.27372",
+    "authors": [],
+    "stars": "43",
+    "details": {
+      "title": "Explorative Modeling: Unlocking a Third Pretraining Axis and End-to-End Generation",
+      "abstract": "TLDR: We introduce Explorative Modeling, a new paradigm for generative modeling that acts as a third pretraining axis when added to existing generative models, and also enables end-to-end generation. Increasing exploration monotonically improves existing models across images, video, and language, and the gains grow with scale (7%→36% with data, 13%→23% with parameters). Concretely, Explorative Models (XMs) reach 6.2× sample efficiency, 4.1× FLOP efficiency, and 47% better parameter efficiency. Exploration also enables scaling generalization, and even scaling how end-to-end existing models are. As end-to-end generative models, XMs match diffusion on control tasks with up to 256× less inference compute.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.27372",
+      "pdf_url": "https://arxiv.org/pdf/2607.27372",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/alexiglad/XM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.27372",
+      "scraped_at": "2026-08-01T02:52:22.800705"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "Filesystem-Based Memory for LLM Agents: Organization, Evolution, and Sustainability",
+    "paper_url": "https://huggingface.co/papers/2607.26637",
+    "authors": [
+      "Junda Wu",
+      "Hui Wei",
+      "Sheldon Yu",
+      "Sizhe Zhou",
+      "yuz9yuz"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Filesystem-Based Memory for LLM Agents: Organization, Evolution, and Sustainability",
+      "abstract": "Filesystem-Based Memory for LLM Agents: Organization, Evolution, and Sustainability Deployed agents increasingly keep long-term memory as a folder of markdown files that the agent itself reads, writes, and reorganizes with generic file tools. The default ships everywhere, but its two working assumptions were untested: can an agent keep a growing store organized, and does that organization pay? We present the first systematic study of filesystem-based agent memory: one store class, three roles (a management agent that organizes, a search agent that answers with cited sources, an execution agent whose trajectories are distilled into skills), unifying declarative memory and skills in a single filesystem. Across long-conversation benchmarks and embodied tasks, we vary store shape, stream scale, tool harness, and the strength of every role, tracking answer quality, cost, and store health as memory grows. Down at the file level, declarative memories and distilled skills share one anatomy: YAML frontmatter that listings and search expose first, nested headings that continue the taxonomy inside the file, and inline locators that tie each fact back to its source. Some key findings: Organization buys search economy, not accuracy. Organized stores roughly halve retrieval cost on large material, yet no store shape wins answer quality everywhere, and no agent we measure converts organization itself into better answers. Memory form must match its consumer. A verbatim episode log leads under a strong execution agent and inverts under a weak one, where only the strongest curated skill store survives the drop. Sustainability is the real bottleneck. As memory grows, taxonomy discipline erodes for all but the strongest management agent. Tools are a hidden lever. Changing the tool harness alone reshapes the store as strongly as swapping the model. Growth still pays. Accumulated memory helped at every model we measured, with early memories holding their value. Paper: https://arxiv.org/abs/2607.26637",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.26637",
+      "pdf_url": "https://arxiv.org/pdf/2607.26637",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.26637",
+      "scraped_at": "2026-08-01T02:52:24.689021"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "Revisiting Lossy Verification in Speculative Decoding: Mechanisms, Trade-offs, and Failure Modes",
+    "paper_url": "https://huggingface.co/papers/2607.26627",
+    "authors": [
+      "Zikai Xiao",
+      "Heng Li",
+      "Wenbin Wang",
+      "Tianyu Wang",
+      "zhouyuxuanyx"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Revisiting Lossy Verification in Speculative Decoding: Mechanisms, Trade-offs, and Failure Modes",
+      "abstract": "We provide Principled Characterization on lossy verification, revealing its underlying paradigms and distributional failure modes.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.26627",
+      "pdf_url": "https://arxiv.org/pdf/2607.26627",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ZhouYuxuanYX/Fast-HSD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.26627",
+      "scraped_at": "2026-08-01T02:52:26.524069"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "Harness-G: A Graph-Structured Harness for Search Agents",
+    "paper_url": "https://huggingface.co/papers/2607.27652",
+    "authors": [
+      "Xirui Liu",
+      "Xiaoshu Chen",
+      "Sihang Zhou",
+      "Haoyuan Chen",
+      "Yanning Hou"
+    ],
+    "stars": "8",
+    "details": {
+      "title": "Harness-G: A Graph-Structured Harness for Search Agents",
+      "abstract": "Reinforcement-learning search agents typically generate free-form retrieval queries. Although the strings may look diverse, they often retrieve nearly identical evidence, leaving group-relative optimization with little meaningful retrieval contrast. We refer to this failure mode as retrieval-equivalence collapse. Harness-G replaces free-form query generation with a finite menu of typed, verifiable actions over a programmatically induced paragraph–sentence–entity graph. The policy selects an action ID, while the environment handles query construction, graph navigation, validation, and deduplication.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.27652",
+      "pdf_url": "https://arxiv.org/pdf/2607.27652",
+      "github_links": [
+        "https://github.com/7HHHHH/Harness-G",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.27652",
+      "scraped_at": "2026-08-01T02:52:28.364472"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "OmniScope: Modality-Decoupled Token Compression for Omnimodal Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2607.23193",
+    "authors": [
+      "Meiguang Jin",
+      "Yibo Hu",
+      "Yuexiao Ma",
+      "Yongdong Luo",
+      "Consonnm"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "OmniScope: Modality-Decoupled Token Compression for Omnimodal Large Language Models",
+      "abstract": "Existing token compression methods for omnimodal large language models typically rely on one modality to determine what to retain in the other. We show that this assumption often breaks down: for the same query, audio and video relevance often peaks at different moments. This cross-modal salience mismatch makes unidirectional guidance prone to discarding answer-critical cues under aggressive compression. We propose OmniScope, a training-free token compression framework that uses the query as a shared semantic anchor while estimating relevance separately for audio and video. OmniScope allocates modality-specific token budgets, prunes visual tokens with an anchor-delta strategy that preserves both global context and temporal changes, and merges audio tokens within each second to reduce redundancy while maintaining temporal continuity. Across four audio-video benchmarks and two Qwen2.5-Omni model scales, OmniScope achieves the best average accuracy across all compression settings. At 25% overall token retention, it delivers up to 3.53x prefill speedup and more than 15% GPU memory reduction, with only a 0.35-point drop in average accuracy. These results suggest a simple design principle for OmniLLM inference: share the query across modalities, but not the salience estimates.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.23193",
+      "pdf_url": "https://arxiv.org/pdf/2607.23193",
+      "github_links": [
+        "https://github.com/MAC-AutoML/OmniScope",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.23193",
+      "scraped_at": "2026-08-01T02:52:30.193059"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "Is Deep Research Reliable? Misleading Knowledge Induces False Conclusions",
+    "paper_url": "https://huggingface.co/papers/2607.20891",
+    "authors": [
+      "Sen Su",
+      "Longju Yang",
+      "Lijun Li",
+      "Pengyu Zhu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Is Deep Research Reliable? Misleading Knowledge Induces False Conclusions",
+      "abstract": "Deep Research agents conduct long-horizon investigations by iteratively planning, retrieving evidence, and generating reports. However, it remains unclear whether they can resist apparently credible but factually false information introduced into these workflows. To study this failure mode, we introduce MisKnow-Agent, a controlled evaluation framework that constructs task-specific documents supporting manually audited false conclusions with controlled authority cues and source styles. Applied to the tasks from DeepResearch Bench, it generates 5,933 misleading documents after filtering. We evaluate DeerFlow and WebThinker with three backbone LLMs, together with Gemini Deep Research, using a report-level false-conclusion adoption rate (FCAR) that counts only reports endorsing the false conclusion. Across the configurations, introducing one misleading document increases the mean FCAR from 0% in the no-injection control to 54.7%. FCAR varies substantially with lifecycle stage and framework design, and also with source authority and presentation style, whereas search-result rank and additional documents beyond the first have limited influence. Although cross-model verification consistently classifies retained instances as misleading, Deep Research agents can still adopt the corresponding false conclusions during long-horizon research. Pre- and post-research defenses reduce FCAR but do not eliminate adoption, motivating continuous verification when evidence enters intermediate research states and final synthesis.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.20891",
+      "pdf_url": "https://arxiv.org/pdf/2607.20891",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.20891",
+      "scraped_at": "2026-08-01T02:52:32.131049"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "AI Tour Meeting: Group Travel Planning by LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2607.18806",
+    "authors": [
+      "oookiku"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AI Tour Meeting: Group Travel Planning by LLM Agents",
+      "abstract": "AI Tour Meeting is a group travel planning framework powered by multiple LLM-based agents, where the agents collaborate with each other to find an itinerary that satisfies their constraints and preferences. Its two primary use cases include, but not limited to: a simulation tool for analyzing the behavior of multiple LLM-based agents during tour planning discussions a recommender system where persona-based agents act on behalf of group members who are unable to participate and provide ideas from their perspectives We hope you enjoy group travel planning with agents! Code: https://github.com/ntt-dkiku/ai-tour-meeting Docs: https://ntt-dkiku.github.io/ai-tour-meeting/ Paper: https://arxiv.org/abs/2607.18806",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.18806",
+      "pdf_url": "https://arxiv.org/pdf/2607.18806",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ntt-dkiku/ai-tour-meeting"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.18806",
+      "scraped_at": "2026-08-01T02:52:33.990509"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "ReToken: One Token to Improve Vision-Language Models for Visual Retrieval",
+    "paper_url": "https://huggingface.co/papers/2607.28627",
+    "authors": [
+      "Jianfeng Gao",
+      "Yuqun Wu",
+      "Zhen Zhu",
+      "Reuben Tan",
+      "Yao Xiao"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "ReToken: One Token to Improve Vision-Language Models for Visual Retrieval",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28627",
+      "pdf_url": "https://arxiv.org/pdf/2607.28627",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/avaxiao/ReToken"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28627",
+      "scraped_at": "2026-08-01T02:52:35.871285"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "Fairness Pruning: Locating Demographic Bias in GLU-MLP Layers via Differential Activations",
+    "paper_url": "https://huggingface.co/papers/2607.28319",
+    "authors": [
+      "Alfonso Ureña López",
+      "Eugenio Martínez Cámara",
+      "oopere"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Fairness Pruning: Locating Demographic Bias in GLU-MLP Layers via Differential Activations",
+      "abstract": "Changing 5 neurons is enough to modify an LLM's response. 🧠 We locate neurons that respond differentially to demographic attributes using contrastive prompt pairs. No additional training required, runs on consumer hardware — the same used for model inference. Experiments zeroing from 1 to 40 neurons maintain 99.49% capability on general benchmarks (in the 40-neuron case). In models from 1B to 3B, zeroing out 5 neurons has been enough to significantly alter biased responses. his is the first paper in a broader research line. The next step is moving from blind zeroing to directional steering, incorporating a signed BiasScore that separates amplifier neurons from regulator neurons. All code, datasets, and results are openly available. GitHub : https://github.com/peremartra/fairness-pruning Datasets : https://huggingface.co/datasets/oopere/fairness-pruning-pairs-en https://huggingface.co/datasets/oopere/fairness-pruning-pairs-es",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28319",
+      "pdf_url": "https://arxiv.org/pdf/2607.28319",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/peremartra/fairness-pruning"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28319",
+      "scraped_at": "2026-08-01T02:52:37.756455"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "Beyond Geometric Complementarity: Coherent Overlap in Sparse Mixture-of-Experts Routing",
+    "paper_url": "https://huggingface.co/papers/2607.28308",
+    "authors": [
+      "Shijian Li",
+      "Bonan Xu",
+      "Huiyuancs"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Beyond Geometric Complementarity: Coherent Overlap in Sparse Mixture-of-Experts Routing",
+      "abstract": "We introduce coherent overlap as a way to understand sparse MoE routing: co-selected experts can occupy substantially overlapping representation subspaces while still providing useful multi-expert computation. Across six MoE architectures, we find that actual routes are more token-relevant than matched alternatives, and that geometric similarity alone does not imply functional redundancy or pruning value. We welcome feedback and discussion, especially on the implications for MoE routing, expert redundancy, and pruning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28308",
+      "pdf_url": "https://arxiv.org/pdf/2607.28308",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28308",
+      "scraped_at": "2026-08-01T02:52:39.587269"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "AMRD: Adaptive Multi-Teacher Relational Distillation for Lightweight Speech Emotion Recognition",
+    "paper_url": "https://huggingface.co/papers/2607.25289",
+    "authors": [
+      "Xiaoqin Feng",
+      "Kuo Yang",
+      "Xianglong Wang",
+      "Yuqi Li",
+      "dlion168"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AMRD: Adaptive Multi-Teacher Relational Distillation for Lightweight Speech Emotion Recognition",
+      "abstract": "On-device speech emotion recognition (SER) is critical for real-time applications, yet large self-supervised models that excel at SER are too costly for edge devices. Multi-teacher knowledge distillation can compress them into a lightweight student, but two challenges remain: teacher reliability varies across batches, and logit-level distillation ignores inter-sample relational structure. We propose Adaptive Multi-teacher Relational Distillation (AMRD) to address both. A one-class SVM on each teacher's logit similarity matrix assigns per-batch weights favoring more coherent teachers. A relational distillation loss aligns teacher and student similarity matrices, capturing structure that logit matching misses. On IEMOCAP and CREMA-D datasets across four student architectures, AMRD outperforms single-teacher distillation baselines in most settings, and ablations confirm both components yield complementary gains.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.25289",
+      "pdf_url": "https://arxiv.org/pdf/2607.25289",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.25289",
+      "scraped_at": "2026-08-01T02:52:41.390706"
+    },
+    "scraped_date": "2026-08-01"
+  },
+  {
+    "title": "Pedestrian Archetypes Extension -- More Pedestrian Models for Autonomous Vehicle Safety Testing",
+    "paper_url": "https://huggingface.co/papers/2607.16922",
+    "authors": [
+      "Regina Lim",
+      "Ritvik Bansal",
+      "Namita Gaidhani",
+      "Taorui Huang",
+      "jub-aer"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Pedestrian Archetypes Extension -- More Pedestrian Models for Autonomous Vehicle Safety Testing",
+      "abstract": "this is the extended work of the work Pedestrian Archetypes- https://ieeexplore.ieee.org/document/11097414/",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.16922",
+      "pdf_url": "https://arxiv.org/pdf/2607.16922",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.16922",
+      "scraped_at": "2026-08-01T02:52:43.196834"
+    },
+    "scraped_date": "2026-08-01"
   }
 ]
