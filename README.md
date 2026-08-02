@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-38-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-5419+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-5457+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">38</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">74</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">38</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5419+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">112</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">76</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5457+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** August 01, 2026
+**Last Updated:** August 02, 2026
 
 ---
 
@@ -119,13 +119,13 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis</b> ⭐ 5</summary>
+<summary><b>1. AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis</b> ⭐ 8</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.28618) • [📄 arXiv](https://arxiv.org/abs/2607.28618) • [📥 PDF](https://arxiv.org/pdf/2607.28618)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/bingyan4science/askchem)
+**💻 Code:** [⭐ Code](https://github.com/bingyan4science/askchem) • [⭐ Code](https://github.com/huggingface)
 
 > Working on chemistry? What if you could search chemistry findings instead of papers? We turned 147,000 papers into 2.4 million searchable claims , making it possible to find results, compare evidence, and surface contradictions. Try AskChem: 🔎 htt...
 
@@ -145,37 +145,35 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>3. Metis: Memory Foundation Model</b> ⭐ 42</summary>
+<summary><b>3. Metis: Memory Foundation Model</b> ⭐ 51</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.26760) • [📄 arXiv](https://arxiv.org/abs/2607.26760) • [📥 PDF](https://arxiv.org/pdf/2607.26760)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/MemTensor/Metis)
+**💻 Code:** [⭐ Code](https://github.com/MemTensor/Metis) • [⭐ Code](https://github.com/huggingface)
 
 > Metis : The first prototype of a memory foundation model, equipping foundation models with a persistent and dynamically evolving native memory state. What if memory were a native capability of foundation models, rather than an external module? Rec...
 
 </details>
 
 <details>
-<summary><b>4. Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering</b> ⭐ 72</summary>
+<summary><b>4. Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering</b> ⭐ 103</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.28568) • [📄 arXiv](https://arxiv.org/abs/2607.28568) • [📥 PDF](https://arxiv.org/pdf/2607.28568)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/FrontisAI/OpenRSI)
+**💻 Code:** [⭐ Code](https://github.com/FrontisAI/OpenRSI) • [⭐ Code](https://github.com/huggingface)
 
 > Recursive self-improvement (RSI) requires AI systems that improve the process of building AI (i.e., AI4AI); machine learning engineering (MLE) offers a concrete, executable testbed for studying this capability. We introduce OpenMLE, an open full-s...
 
 </details>
 
 <details>
-<summary><b>5. PhiZero: A World Model Built Around Physical Language</b> ⭐ 23</summary>
+<summary><b>5. PhiZero: A World Model Built Around Physical Language</b> ⭐ 37</summary>
 
 <br/>
-
-**👥 Authors:** Tieniu Tan, Xu Chen, Yuqi Wang, HELLORPG, ShuyaoShang
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.28624) • [📄 arXiv](https://arxiv.org/abs/2607.28624) • [📥 PDF](https://arxiv.org/pdf/2607.28624)
 
@@ -186,7 +184,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>6. VideoCoCo: Code-as-CoT for Physically-Consistent Video Generation via an Agentic Dual-Engine System</b> ⭐ 55</summary>
+<summary><b>6. VideoCoCo: Code-as-CoT for Physically-Consistent Video Generation via an Agentic Dual-Engine System</b> ⭐ 65</summary>
 
 <br/>
 
@@ -201,7 +199,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>7. Memory Decoder at Scale: A Pretrained, Parametric Long-Term Memory</b> ⭐ 6</summary>
+<summary><b>7. Memory Decoder at Scale: A Pretrained, Parametric Long-Term Memory</b> ⭐ 7</summary>
 
 <br/>
 
@@ -209,7 +207,7 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.27919) • [📄 arXiv](https://arxiv.org/abs/2607.27919) • [📥 PDF](https://arxiv.org/pdf/2607.27919)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/LUMIA-Group/MemoryDecoder-at-Scale)
+**💻 Code:** [⭐ Code](https://github.com/LUMIA-Group/MemoryDecoder-at-Scale) • [⭐ Code](https://github.com/huggingface)
 
 > We introduce Memory Decoder at Scale, which disentangles long-term memory from reasoning and scales parametric memory to 6.9B parameters and 300B training tokens. Pythia-410M + Mem-6.9B surpasses Pythia-12B across 17 tasks with 39% fewer total par...
 
@@ -261,7 +259,7 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.27616) • [📄 arXiv](https://arxiv.org/abs/2607.27616) • [📥 PDF](https://arxiv.org/pdf/2607.27616)
 
-**💻 Code:** [⭐ Code](https://github.com/AnnLin0628/mpie-bench) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/AnnLin0628/mpie-bench)
 
 > Text-to-image and personalized editing models now synthesize high-fidelity single-subject images with ease. Yet placing multiple named people into shared contact actions such as embrace, carry, or grapple still exposes major failures: fused limbs,...
 
@@ -278,7 +276,7 @@ getTodaysPapers();
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> No abstract available.
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Human-as-Humanoid: Enabling Zero-Shot Humanoid Learning from Ego-Exo Human ...
 
 </details>
 
@@ -289,7 +287,7 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.27816) • [📄 arXiv](https://arxiv.org/abs/2607.27816) • [📥 PDF](https://arxiv.org/pdf/2607.27816)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Zhuyh1139/PALATE)
+**💻 Code:** [⭐ Code](https://github.com/Zhuyh1139/PALATE) • [⭐ Code](https://github.com/huggingface)
 
 > Role-playing agents (RPAs) have become one of the most important consumer applications of large language models. Users engage in multi-turn conversations with RPAs for experiences such as emotional comfort, making reliable evaluation essential for...
 
@@ -309,22 +307,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>15. SpatialCLI: Learning to Reason With Spatial Tools, Then Without Them</b> ⭐ 8</summary>
-
-<br/>
-
-**👥 Authors:** Zixuan Huang, liushunyu, Shunian, sojuL, Yang-Zhou
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.27703) • [📄 arXiv](https://arxiv.org/abs/2607.27703) • [📥 PDF](https://arxiv.org/pdf/2607.27703)
-
-**💻 Code:** [⭐ Code](https://github.com/IANNXANG/SpatialCLI) • [⭐ Code](https://github.com/huggingface)
-
-> We introduce SpatialCLI, a framework that teaches vision-language models to reason with spatial tools and internalize their capabilities for tool-free inference.
-
-</details>
-
-<details>
-<summary><b>16. See2Think: Do Multimodal Models Really Use Intermediate Visual States?</b> ⭐ 3</summary>
+<summary><b>15. See2Think: Do Multimodal Models Really Use Intermediate Visual States?</b> ⭐ 3</summary>
 
 <br/>
 
@@ -335,6 +318,21 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/CSU-JPG/See2Think)
 
 > We introduce See2Think, a benchmark for understanding whether multimodal large language models truly rely on intermediate visual states during reasoning. Unlike existing evaluations that only measure final answers, See2Think analyzes the full visu...
+
+</details>
+
+<details>
+<summary><b>16. SpatialCLI: Learning to Reason With Spatial Tools, Then Without Them</b> ⭐ 9</summary>
+
+<br/>
+
+**👥 Authors:** Zixuan Huang, liushunyu, Shunian, sojuL, Yang-Zhou
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.27703) • [📄 arXiv](https://arxiv.org/abs/2607.27703) • [📥 PDF](https://arxiv.org/pdf/2607.27703)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/IANNXANG/SpatialCLI)
+
+> We introduce SpatialCLI, a framework that teaches vision-language models to reason with spatial tools and internalize their capabilities for tool-free inference.
 
 </details>
 
@@ -360,12 +358,12 @@ getTodaysPapers();
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> No abstract available.
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Effici...
 
 </details>
 
 <details>
-<summary><b>19. ShadowDancer: Teaching Video World Models Any Action by Learning Unified Dynamics Representations from a Video and Its Shadow</b> ⭐ 16</summary>
+<summary><b>19. ShadowDancer: Teaching Video World Models Any Action by Learning Unified Dynamics Representations from a Video and Its Shadow</b> ⭐ 20</summary>
 
 <br/>
 
@@ -378,7 +376,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>20. Can Large Language Models Execute Parent Orders?</b> ⭐ 9</summary>
+<summary><b>20. Can Large Language Models Execute Parent Orders?</b> ⭐ 10</summary>
 
 <br/>
 
@@ -386,14 +384,14 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.28410) • [📄 arXiv](https://arxiv.org/abs/2607.28410) • [📥 PDF](https://arxiv.org/pdf/2607.28410)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/zaneopen/PACE)
+**💻 Code:** [⭐ Code](https://github.com/zaneopen/PACE) • [⭐ Code](https://github.com/huggingface)
 
 > Can LLMs execute large financial orders? PACE extends financial LLMs from deciding what to trade to determining how to execute, achieving competitive execution performance without task-specific training.
 
 </details>
 
 <details>
-<summary><b>21. MemHarness: Memory Is Reconstructed, Not Replayed</b> ⭐ 4</summary>
+<summary><b>21. MemHarness: Memory Is Reconstructed, Not Replayed</b> ⭐ 5</summary>
 
 <br/>
 
@@ -406,7 +404,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>22. INTACT: Isomorphic Intent-to-Action Learning for Search-Free World Models</b> ⭐ 58</summary>
+<summary><b>22. Σ-Mem: An Online Reliability Memory for LLM-based Multi-Agent Systems</b> ⭐ 2</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.27958) • [📄 arXiv](https://arxiv.org/abs/2607.27958) • [📥 PDF](https://arxiv.org/pdf/2607.27958)
+
+**💻 Code:** [⭐ Code](https://github.com/declare-lab/sigma-mem) • [⭐ Code](https://github.com/huggingface)
+
+> We introduce Σ-Mem, a persistent online reliability memory for LLM-based multi-agent systems. Instead of memorizing interaction content, Σ-Mem continuously learns which peers are reliable under different conditions from correctness feedback, enabl...
+
+</details>
+
+<details>
+<summary><b>23. INTACT: Isomorphic Intent-to-Action Learning for Search-Free World Models</b> ⭐ 71</summary>
 
 <br/>
 
@@ -419,7 +430,20 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>23. LEDGERMIND: Provenance-Constrained Multimodal Agentic Reasoning with a Structured Evidence Ledger</b> ⭐ 0</summary>
+<summary><b>24. Explorative Modeling: Unlocking a Third Pretraining Axis and End-to-End Generation</b> ⭐ 101</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.27372) • [📄 arXiv](https://arxiv.org/abs/2607.27372) • [📥 PDF](https://arxiv.org/pdf/2607.27372)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/alexiglad/XM)
+
+> TLDR: We introduce Explorative Modeling, a new paradigm for generative modeling that acts as a third pretraining axis when added to existing generative models, and also enables end-to-end generation. Increasing exploration monotonically improves e...
+
+</details>
+
+<details>
+<summary><b>25. LEDGERMIND: Provenance-Constrained Multimodal Agentic Reasoning with a Structured Evidence Ledger</b> ⭐ 0</summary>
 
 <br/>
 
@@ -434,7 +458,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>24. Echoverse: Deep, Evolving Environments for Training Computer-Use Agents at Scale</b> ⭐ 11</summary>
+<summary><b>26. Echoverse: Deep, Evolving Environments for Training Computer-Use Agents at Scale</b> ⭐ 22</summary>
 
 <br/>
 
@@ -447,20 +471,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>25. Σ-Mem: An Online Reliability Memory for LLM-based Multi-Agent Systems</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.27958) • [📄 arXiv](https://arxiv.org/abs/2607.27958) • [📥 PDF](https://arxiv.org/pdf/2607.27958)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> We introduce Σ-Mem, a persistent online reliability memory for LLM-based multi-agent systems. Instead of memorizing interaction content, Σ-Mem continuously learns which peers are reliable under different conditions from correctness feedback, enabl...
-
-</details>
-
-<details>
-<summary><b>26. Multi-Head Attention Residuals</b> ⭐ 2</summary>
+<summary><b>27. Multi-Head Attention Residuals</b> ⭐ 5</summary>
 
 <br/>
 
@@ -468,22 +479,9 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.27230) • [📄 arXiv](https://arxiv.org/abs/2607.27230) • [📥 PDF](https://arxiv.org/pdf/2607.27230)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/wdlctc/multi-head-attention-residuals)
+**💻 Code:** [⭐ Code](https://github.com/wdlctc/multi-head-attention-residuals) • [⭐ Code](https://github.com/huggingface)
 
 > Multi-Head Attention Residuals
-
-</details>
-
-<details>
-<summary><b>27. Explorative Modeling: Unlocking a Third Pretraining Axis and End-to-End Generation</b> ⭐ 43</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.27372) • [📄 arXiv](https://arxiv.org/abs/2607.27372) • [📥 PDF](https://arxiv.org/pdf/2607.27372)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/alexiglad/XM)
-
-> TLDR: We introduce Explorative Modeling, a new paradigm for generative modeling that acts as a third pretraining axis when added to existing generative models, and also enables end-to-end generation. Increasing exploration monotonically improves e...
 
 </details>
 
@@ -511,7 +509,7 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.26627) • [📄 arXiv](https://arxiv.org/abs/2607.26627) • [📥 PDF](https://arxiv.org/pdf/2607.26627)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/ZhouYuxuanYX/Fast-HSD)
+**💻 Code:** [⭐ Code](https://github.com/ZhouYuxuanYX/Fast-HSD) • [⭐ Code](https://github.com/huggingface)
 
 > We provide Principled Characterization on lossy verification, revealing its underlying paradigms and distributional failure modes.
 
@@ -526,14 +524,29 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.27652) • [📄 arXiv](https://arxiv.org/abs/2607.27652) • [📥 PDF](https://arxiv.org/pdf/2607.27652)
 
-**💻 Code:** [⭐ Code](https://github.com/7HHHHH/Harness-G) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/7HHHHH/Harness-G)
 
 > Reinforcement-learning search agents typically generate free-form retrieval queries. Although the strings may look diverse, they often retrieve nearly identical evidence, leaving group-relative optimization with little meaningful retrieval contras...
 
 </details>
 
 <details>
-<summary><b>31. OmniScope: Modality-Decoupled Token Compression for Omnimodal Large Language Models</b> ⭐ 3</summary>
+<summary><b>31. ReToken: One Token to Improve Vision-Language Models for Visual Retrieval</b> ⭐ 4</summary>
+
+<br/>
+
+**👥 Authors:** Jianfeng Gao, Yuqun Wu, Zhen Zhu, Reuben Tan, Yao Xiao
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.28627) • [📄 arXiv](https://arxiv.org/abs/2607.28627) • [📥 PDF](https://arxiv.org/pdf/2607.28627)
+
+**💻 Code:** [⭐ Code](https://github.com/avaxiao/ReToken) • [⭐ Code](https://github.com/huggingface)
+
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API QSVideo: Query-Conditioned Semantic Temporal Retrieval for Video Understand...
+
+</details>
+
+<details>
+<summary><b>32. OmniScope: Modality-Decoupled Token Compression for Omnimodal Large Language Models</b> ⭐ 3</summary>
 
 <br/>
 
@@ -548,7 +561,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>32. Is Deep Research Reliable? Misleading Knowledge Induces False Conclusions</b> ⭐ 0</summary>
+<summary><b>33. Is Deep Research Reliable? Misleading Knowledge Induces False Conclusions</b> ⭐ 0</summary>
 
 <br/>
 
@@ -563,7 +576,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>33. AI Tour Meeting: Group Travel Planning by LLM Agents</b> ⭐ 0</summary>
+<summary><b>34. AI Tour Meeting: Group Travel Planning by LLM Agents</b> ⭐ 0</summary>
 
 <br/>
 
@@ -571,44 +584,14 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.18806) • [📄 arXiv](https://arxiv.org/abs/2607.18806) • [📥 PDF](https://arxiv.org/pdf/2607.18806)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/ntt-dkiku/ai-tour-meeting)
+**💻 Code:** [⭐ Code](https://github.com/ntt-dkiku/ai-tour-meeting) • [⭐ Code](https://github.com/huggingface)
 
 > AI Tour Meeting is a group travel planning framework powered by multiple LLM-based agents, where the agents collaborate with each other to find an itinerary that satisfies their constraints and preferences. Its two primary use cases include, but n...
 
 </details>
 
 <details>
-<summary><b>34. ReToken: One Token to Improve Vision-Language Models for Visual Retrieval</b> ⭐ 2</summary>
-
-<br/>
-
-**👥 Authors:** Jianfeng Gao, Yuqun Wu, Zhen Zhu, Reuben Tan, Yao Xiao
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.28627) • [📄 arXiv](https://arxiv.org/abs/2607.28627) • [📥 PDF](https://arxiv.org/pdf/2607.28627)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/avaxiao/ReToken)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>35. Fairness Pruning: Locating Demographic Bias in GLU-MLP Layers via Differential Activations</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Alfonso Ureña López, Eugenio Martínez Cámara, oopere
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.28319) • [📄 arXiv](https://arxiv.org/abs/2607.28319) • [📥 PDF](https://arxiv.org/pdf/2607.28319)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/peremartra/fairness-pruning)
-
-> Changing 5 neurons is enough to modify an LLM's response. 🧠 We locate neurons that respond differentially to demographic attributes using contrastive prompt pairs. No additional training required, runs on consumer hardware — the same used for mode...
-
-</details>
-
-<details>
-<summary><b>36. Beyond Geometric Complementarity: Coherent Overlap in Sparse Mixture-of-Experts Routing</b> ⭐ 0</summary>
+<summary><b>35. Beyond Geometric Complementarity: Coherent Overlap in Sparse Mixture-of-Experts Routing</b> ⭐ 0</summary>
 
 <br/>
 
@@ -619,6 +602,21 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
 > We introduce coherent overlap as a way to understand sparse MoE routing: co-selected experts can occupy substantially overlapping representation subspaces while still providing useful multi-expert computation. Across six MoE architectures, we find...
+
+</details>
+
+<details>
+<summary><b>36. Fairness Pruning: Locating Demographic Bias in GLU-MLP Layers via Differential Activations</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Alfonso Ureña López, Eugenio Martínez Cámara, oopere
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.28319) • [📄 arXiv](https://arxiv.org/abs/2607.28319) • [📥 PDF](https://arxiv.org/pdf/2607.28319)
+
+**💻 Code:** [⭐ Code](https://github.com/peremartra/fairness-pruning) • [⭐ Code](https://github.com/huggingface)
+
+> Changing 5 neurons is enough to modify an LLM's response. 🧠 We locate neurons that respond differentially to demographic attributes using contrastive prompt pairs. No additional training required, runs on consumer hardware — the same used for mode...
 
 </details>
 
@@ -661,27 +659,27 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 38 |
-| 📅 Today | [`2026-08-01.json`](data/daily/2026-08-01.json) | 38 |
-| 📆 This Week | [`2026-W30.json`](data/weekly/2026-W30.json) | 74 |
-| 🗓️ This Month | [`2026-08.json`](data/monthly/2026-08.json) | 38 |
+| 📅 Today | [`2026-08-02.json`](data/daily/2026-08-02.json) | 38 |
+| 📆 This Week | [`2026-W30.json`](data/weekly/2026-W30.json) | 112 |
+| 🗓️ This Month | [`2026-08.json`](data/monthly/2026-08.json) | 76 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-08-01 | 38 | [View JSON](data/daily/2026-08-01.json) |
+| 📌 2026-08-02 | 38 | [View JSON](data/daily/2026-08-02.json) |
+| 📄 2026-08-01 | 38 | [View JSON](data/daily/2026-08-01.json) |
 | 📄 2026-07-31 | 10 | [View JSON](data/daily/2026-07-31.json) |
 | 📄 2026-07-30 | 6 | [View JSON](data/daily/2026-07-30.json) |
 | 📄 2026-07-29 | 8 | [View JSON](data/daily/2026-07-29.json) |
 | 📄 2026-07-28 | 4 | [View JSON](data/daily/2026-07-28.json) |
 | 📄 2026-07-27 | 8 | [View JSON](data/daily/2026-07-27.json) |
-| 📄 2026-07-26 | 22 | [View JSON](data/daily/2026-07-26.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W30 | 74 | [View JSON](data/weekly/2026-W30.json) |
+| 📅 2026-W30 | 112 | [View JSON](data/weekly/2026-W30.json) |
 | 📅 2026-W29 | 70 | [View JSON](data/weekly/2026-W29.json) |
 | 📅 2026-W28 | 94 | [View JSON](data/weekly/2026-W28.json) |
 | 📅 2026-W27 | 79 | [View JSON](data/weekly/2026-W27.json) |
@@ -690,7 +688,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-08 | 38 | [View JSON](data/monthly/2026-08.json) |
+| 🗓️ 2026-08 | 76 | [View JSON](data/monthly/2026-08.json) |
 | 🗓️ 2026-07 | 366 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 782 | [View JSON](data/monthly/2026-05.json) |
