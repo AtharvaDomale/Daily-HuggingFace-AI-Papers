@@ -1707,5 +1707,196 @@
       "scraped_at": "2026-08-02T02:51:58.902682"
     },
     "scraped_date": "2026-08-02"
+  },
+  {
+    "title": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
+    "paper_url": "https://huggingface.co/papers/2607.28617",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
+      "abstract": "YOUR AGENT HAS A HIDDENT AGENDA! Introducing SystemPromptIndex SystemPromptIndex is the first and largest system prompt index, created to advance transparency and accountability in AI system prompts. It also introduces AISPA ( Artificial Intelligence System Prompt Assurance ), the first user-centric assurance standard for AI system prompts.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28617",
+      "pdf_url": "https://arxiv.org/pdf/2607.28617",
+      "github_links": [
+        "https://github.com/SystemPromptIndex/SystemPromptIndex",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28617",
+      "scraped_at": "2026-08-03T02:51:38.418773"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "QQWorld: Quantile-Quantile Matching for World Model Regularization",
+    "paper_url": "https://huggingface.co/papers/2607.28415",
+    "authors": [
+      "Xiangyu Xu",
+      "Xiaoyu Hu",
+      "Zhoushun Yu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "QQWorld: Quantile-Quantile Matching for World Model Regularization",
+      "abstract": "QQWorld improves latent world models with a quantile-quantile matching objective that aligns projected latent samples with rank-matched Gaussian quantiles, boosting planning success.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28415",
+      "pdf_url": "https://arxiv.org/pdf/2607.28415",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28415",
+      "scraped_at": "2026-08-03T02:51:40.147474"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "From RLVR to RLSVR: Task Transformation Induces Self-Verifiable Rewards for Open-Ended LLM Self-Improvement",
+    "paper_url": "https://huggingface.co/papers/2607.23802",
+    "authors": [
+      "Kun Wan",
+      "Huazheng Wang",
+      "Jing Shi",
+      "Qinsi Wang",
+      "Benjamin-eecs"
+    ],
+    "stars": "137",
+    "details": {
+      "title": "From RLVR to RLSVR: Task Transformation Induces Self-Verifiable Rewards for Open-Ended LLM Self-Improvement",
+      "abstract": "[COLM 2026] From RLVR to RLSVR: Task Transformation Induces Self-Verifiable Rewards for Open-Ended LLM Self-Improvement",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.23802",
+      "pdf_url": "https://arxiv.org/pdf/2607.23802",
+      "github_links": [
+        "https://github.com/wangqinsi1/RLSVR",
+        "https://github.com/wangqinsi1/RLSVR/tree/SpyRL",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.23802",
+      "scraped_at": "2026-08-03T02:51:41.938688"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "N_0-VTLA: Scaling Vision-Tactile-Language-Action Model with Latent Tactile Tokens",
+    "paper_url": "https://huggingface.co/papers/2607.23782",
+    "authors": [],
+    "stars": "31",
+    "details": {
+      "title": "N_0-VTLA: Scaling Vision-Tactile-Language-Action Model with Latent Tactile Tokens",
+      "abstract": "Hi all, author here 👋 We're excited to share N0-VTLA, a vision–tactile–language–action (VTLA) foundation model built for two things current VLA backbones struggle with: fine-grained contact-rich manipulation with real tactile feedback control, and offline policy improvement from data you've already collected during deployment. The recipe has three parts: Visuo-tactile pre-training on NeoData, our large-scale visuo-tactile robot dataset. To our knowledge this makes N0-VTLA the first VTLA model pre-trained on tactile data at scale. Staged tactile-pathway integration in post-training, a predictive tactile pathway that distills the contact priors learned at scale into fine motion adjustments for downstream tactile-centric tasks. [ALTER], an advantage-conditioned offline RL method that turns relative progress and trajectory-event comparisons into binary advantage labels, so a fixed deployment corpus can keep improving the policy. Results: N0-VTLA wins all nine real-robot NeoReal tasks, and reaches 63.8% mean success on our 20-task simulation suite vs. 44.0% for the strongest baseline. With [ALTER], policies hit 75–95% success on three long-horizon real-robot tasks, including deformable object manipulation. Happy to answer questions here — feedback very welcome!",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.23782",
+      "pdf_url": "https://arxiv.org/pdf/2607.23782",
+      "github_links": [
+        "https://github.com/neoteai/N0-VTLA",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.23782",
+      "scraped_at": "2026-08-03T02:51:43.746848"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "Scaling Properties of Text Conditioning in Visual Generation",
+    "paper_url": "https://huggingface.co/papers/2607.29679",
+    "authors": [
+      "Haoqi Fan",
+      "Hongyi Yuan",
+      "Kunchang Li",
+      "Chaorui Deng",
+      "Zilong Chen"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Scaling Properties of Text Conditioning in Visual Generation",
+      "abstract": "We study empirical scaling properties for text conditioning in visual generation. Such properties have rarely been measured because diffusion loss does not scale with the number of tokens in natural-language prompts. Surprisingly, we find that the converged diffusion loss scales with the amount of structured language in the prompt. To quantify structured language, we adapt two complementary measures: a white-box likelihood metric (GPG) and a black-box attribute metric (ED). Across controlled training runs, the converged diffusion loss decreases approximately linearly with GPG and follows a power law with ED. Guided by these scaling properties, we improve \\emph{diffusability} by constructing structured prompts with semantic and geometric annotations derived from images, and improve \\emph{promptability} by training a prompter through supervised fine-tuning, cold-start, and verifier-gated on-policy distillation. The resulting system outperforms all evaluated open-weight models on nearly every compositional, reasoning, and world-knowledge benchmark, while matching or surpassing the strongest closed-weight models on most evaluations.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.29679",
+      "pdf_url": "https://arxiv.org/pdf/2607.29679",
+      "github_links": [
+        "https://github.com/heheyas/context-scaling",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.29679",
+      "scraped_at": "2026-08-03T02:51:45.454951"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "Meshy T2: Fast Native Mesh Generation with Flow Matching",
+    "paper_url": "https://huggingface.co/papers/2607.28675",
+    "authors": [
+      "Zangyueyang Xian",
+      "Siyuan Shen",
+      "Yuhao Long",
+      "Rendong Liang",
+      "Jiale Xu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Meshy T2: Fast Native Mesh Generation with Flow Matching",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28675",
+      "pdf_url": "https://arxiv.org/pdf/2607.28675",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28675",
+      "scraped_at": "2026-08-03T02:51:47.187139"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction",
+    "paper_url": "https://huggingface.co/papers/2607.29677",
+    "authors": [
+      "Simon Suo",
+      "Zhaoqi Li",
+      "Eli Stewart",
+      "Adrian Lyjak",
+      "Boyang Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.29677",
+      "pdf_url": "https://arxiv.org/pdf/2607.29677",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.29677",
+      "scraped_at": "2026-08-03T02:51:48.878520"
+    },
+    "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "Evaluation-Verification Reward for Consistent Multi-Reference Image Editing",
+    "paper_url": "https://huggingface.co/papers/2607.29025",
+    "authors": [
+      "Lei Sun",
+      "Meng Yu",
+      "Xiaochen Lv",
+      "Pengfei Zhang",
+      "Yingmao Miao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Evaluation-Verification Reward for Consistent Multi-Reference Image Editing",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2607.29025",
+      "pdf_url": "https://arxiv.org/pdf/2607.29025",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.29025",
+      "scraped_at": "2026-08-03T02:51:50.586350"
+    },
+    "scraped_date": "2026-08-03"
   }
 ]
