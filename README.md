@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-8-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-5465+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-2-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-5467+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">8</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">8</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">84</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5465+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">2</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">10</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">86</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5467+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** August 03, 2026
+**Last Updated:** August 04, 2026
 
 ---
 
@@ -119,118 +119,30 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. AISPA: User-Centric System Prompt Auditing for Large Language Model Applications</b> ⭐ 5</summary>
+<summary><b>1. VAD: Attributing Visual Evidence for Target Reconstruction in Multimodal On-Policy Distillation</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.28617) • [📄 arXiv](https://arxiv.org/abs/2607.28617) • [📥 PDF](https://arxiv.org/pdf/2607.28617)
+**👥 Authors:** Zhengxi Lu, Qingyao Li, Shuai Shao, Yixing Li, Kangning Zhang
 
-**💻 Code:** [⭐ Code](https://github.com/SystemPromptIndex/SystemPromptIndex) • [⭐ Code](https://github.com/huggingface)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.28590) • [📄 arXiv](https://arxiv.org/abs/2607.28590) • [📥 PDF](https://arxiv.org/pdf/2607.28590)
 
-> YOUR AGENT HAS A HIDDENT AGENDA! Introducing SystemPromptIndex SystemPromptIndex is the first and largest system prompt index, created to advance transparency and accountability in AI system prompts. It also introduces AISPA ( Artificial Intellige...
+**💻 Code:** [⭐ Code](https://github.com/DeepExperience/VAD_Multimodal_OPD) • [⭐ Code](https://github.com/huggingface)
+
+> preview
 
 </details>
 
 <details>
-<summary><b>2. QQWorld: Quantile-Quantile Matching for World Model Regularization</b> ⭐ 0</summary>
+<summary><b>2. Deferred Exposure of Future Trajectories for Verifiable Reasoning in Autonomous Driving VLMs</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Xiangyu Xu, Xiaoyu Hu, Zhoushun Yu
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.01755) • [📄 arXiv](https://arxiv.org/abs/2608.01755) • [📥 PDF](https://arxiv.org/pdf/2608.01755)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.28415) • [📄 arXiv](https://arxiv.org/abs/2607.28415) • [📥 PDF](https://arxiv.org/pdf/2607.28415)
+**💻 Code:** [⭐ Code](https://github.com/hzx122/DEFT-RLVR) • [⭐ Code](https://github.com/huggingface)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> QQWorld improves latent world models with a quantile-quantile matching objective that aligns projected latent samples with rank-matched Gaussian quantiles, boosting planning success.
-
-</details>
-
-<details>
-<summary><b>3. From RLVR to RLSVR: Task Transformation Induces Self-Verifiable Rewards for Open-Ended LLM Self-Improvement</b> ⭐ 137</summary>
-
-<br/>
-
-**👥 Authors:** Kun Wan, Huazheng Wang, Jing Shi, Qinsi Wang, Benjamin-eecs
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.23802) • [📄 arXiv](https://arxiv.org/abs/2607.23802) • [📥 PDF](https://arxiv.org/pdf/2607.23802)
-
-**💻 Code:** [⭐ Code](https://github.com/wangqinsi1/RLSVR) • [⭐ Code](https://github.com/wangqinsi1/RLSVR/tree/SpyRL) • [⭐ Code](https://github.com/huggingface)
-
-> [COLM 2026] From RLVR to RLSVR: Task Transformation Induces Self-Verifiable Rewards for Open-Ended LLM Self-Improvement
-
-</details>
-
-<details>
-<summary><b>4. N_0-VTLA: Scaling Vision-Tactile-Language-Action Model with Latent Tactile Tokens</b> ⭐ 31</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.23782) • [📄 arXiv](https://arxiv.org/abs/2607.23782) • [📥 PDF](https://arxiv.org/pdf/2607.23782)
-
-**💻 Code:** [⭐ Code](https://github.com/neoteai/N0-VTLA) • [⭐ Code](https://github.com/huggingface)
-
-> Hi all, author here 👋 We're excited to share N0-VTLA, a vision–tactile–language–action (VTLA) foundation model built for two things current VLA backbones struggle with: fine-grained contact-rich manipulation with real tactile feedback control, and...
-
-</details>
-
-<details>
-<summary><b>5. Scaling Properties of Text Conditioning in Visual Generation</b> ⭐ 2</summary>
-
-<br/>
-
-**👥 Authors:** Haoqi Fan, Hongyi Yuan, Kunchang Li, Chaorui Deng, Zilong Chen
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.29679) • [📄 arXiv](https://arxiv.org/abs/2607.29679) • [📥 PDF](https://arxiv.org/pdf/2607.29679)
-
-**💻 Code:** [⭐ Code](https://github.com/heheyas/context-scaling) • [⭐ Code](https://github.com/huggingface)
-
-> We study empirical scaling properties for text conditioning in visual generation. Such properties have rarely been measured because diffusion loss does not scale with the number of tokens in natural-language prompts. Surprisingly, we find that the...
-
-</details>
-
-<details>
-<summary><b>6. Meshy T2: Fast Native Mesh Generation with Flow Matching</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Zangyueyang Xian, Siyuan Shen, Yuhao Long, Rendong Liang, Jiale Xu
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.28675) • [📄 arXiv](https://arxiv.org/abs/2607.28675) • [📥 PDF](https://arxiv.org/pdf/2607.28675)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>7. ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Simon Suo, Zhaoqi Li, Eli Stewart, Adrian Lyjak, Boyang Zhang
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.29677) • [📄 arXiv](https://arxiv.org/abs/2607.29677) • [📥 PDF](https://arxiv.org/pdf/2607.29677)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>8. Evaluation-Verification Reward for Consistent Multi-Reference Image Editing</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Lei Sun, Meng Yu, Xiaochen Lv, Pengfei Zhang, Yingmao Miao
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.29025) • [📄 arXiv](https://arxiv.org/abs/2607.29025) • [📥 PDF](https://arxiv.org/pdf/2607.29025)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
+> We identify an anchoring bias in autonomous-driving VLMs caused by GT-conditioned CoT supervision. To address this issue, we introduce AD-MCQ and DEFT-RLVR, a candidate-grounded reinforcement learning framework that reformulates AD planning as ver...
 
 </details>
 
@@ -242,28 +154,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 8 |
-| 📅 Today | [`2026-08-03.json`](data/daily/2026-08-03.json) | 8 |
-| 📆 This Week | [`2026-W31.json`](data/weekly/2026-W31.json) | 8 |
-| 🗓️ This Month | [`2026-08.json`](data/monthly/2026-08.json) | 84 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 2 |
+| 📅 Today | [`2026-08-04.json`](data/daily/2026-08-04.json) | 2 |
+| 📆 This Week | [`2026-W31.json`](data/weekly/2026-W31.json) | 10 |
+| 🗓️ This Month | [`2026-08.json`](data/monthly/2026-08.json) | 86 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-08-03 | 8 | [View JSON](data/daily/2026-08-03.json) |
+| 📌 2026-08-04 | 2 | [View JSON](data/daily/2026-08-04.json) |
+| 📄 2026-08-03 | 8 | [View JSON](data/daily/2026-08-03.json) |
 | 📄 2026-08-02 | 38 | [View JSON](data/daily/2026-08-02.json) |
 | 📄 2026-08-01 | 38 | [View JSON](data/daily/2026-08-01.json) |
 | 📄 2026-07-31 | 10 | [View JSON](data/daily/2026-07-31.json) |
 | 📄 2026-07-30 | 6 | [View JSON](data/daily/2026-07-30.json) |
 | 📄 2026-07-29 | 8 | [View JSON](data/daily/2026-07-29.json) |
-| 📄 2026-07-28 | 4 | [View JSON](data/daily/2026-07-28.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W31 | 8 | [View JSON](data/weekly/2026-W31.json) |
+| 📅 2026-W31 | 10 | [View JSON](data/weekly/2026-W31.json) |
 | 📅 2026-W30 | 112 | [View JSON](data/weekly/2026-W30.json) |
 | 📅 2026-W29 | 70 | [View JSON](data/weekly/2026-W29.json) |
 | 📅 2026-W28 | 94 | [View JSON](data/weekly/2026-W28.json) |
@@ -272,7 +184,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-08 | 84 | [View JSON](data/monthly/2026-08.json) |
+| 🗓️ 2026-08 | 86 | [View JSON](data/monthly/2026-08.json) |
 | 🗓️ 2026-07 | 366 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 782 | [View JSON](data/monthly/2026-05.json) |

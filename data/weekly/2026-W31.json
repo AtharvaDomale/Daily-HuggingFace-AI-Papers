@@ -189,5 +189,51 @@
       "scraped_at": "2026-08-03T02:51:50.586350"
     },
     "scraped_date": "2026-08-03"
+  },
+  {
+    "title": "VAD: Attributing Visual Evidence for Target Reconstruction in Multimodal On-Policy Distillation",
+    "paper_url": "https://huggingface.co/papers/2607.28590",
+    "authors": [
+      "Zhengxi Lu",
+      "Qingyao Li",
+      "Shuai Shao",
+      "Yixing Li",
+      "Kangning Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "VAD: Attributing Visual Evidence for Target Reconstruction in Multimodal On-Policy Distillation",
+      "abstract": "preview",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28590",
+      "pdf_url": "https://arxiv.org/pdf/2607.28590",
+      "github_links": [
+        "https://github.com/DeepExperience/VAD_Multimodal_OPD",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28590",
+      "scraped_at": "2026-08-04T02:35:24.304513"
+    },
+    "scraped_date": "2026-08-04"
+  },
+  {
+    "title": "Deferred Exposure of Future Trajectories for Verifiable Reasoning in Autonomous Driving VLMs",
+    "paper_url": "https://huggingface.co/papers/2608.01755",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Deferred Exposure of Future Trajectories for Verifiable Reasoning in Autonomous Driving VLMs",
+      "abstract": "We identify an anchoring bias in autonomous-driving VLMs caused by GT-conditioned CoT supervision. To address this issue, we introduce AD-MCQ and DEFT-RLVR, a candidate-grounded reinforcement learning framework that reformulates AD planning as verifiable trajectory selection. This formulation encourages more causally faithful reasoning while preserving the model’s general visual capabilities. Moreover, because AD-MCQ operates entirely within the VLM and allows task difficulty to be flexibly controlled through candidate construction, it provides a practical, scalable, and readily deployable foundation for future research.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.01755",
+      "pdf_url": "https://arxiv.org/pdf/2608.01755",
+      "github_links": [
+        "https://github.com/hzx122/DEFT-RLVR",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.01755",
+      "scraped_at": "2026-08-04T02:35:26.114753"
+    },
+    "scraped_date": "2026-08-04"
   }
 ]
