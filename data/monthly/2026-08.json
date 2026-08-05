@@ -1944,5 +1944,191 @@
       "scraped_at": "2026-08-04T02:35:26.114753"
     },
     "scraped_date": "2026-08-04"
+  },
+  {
+    "title": "JoyAI-Video-Edit: Real-Time Open-Ended Video Editing with Autoregressive Diffusion",
+    "paper_url": "https://huggingface.co/papers/2608.03974",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "JoyAI-Video-Edit: Real-Time Open-Ended Video Editing with Autoregressive Diffusion",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.03974",
+      "pdf_url": "https://arxiv.org/pdf/2608.03974",
+      "github_links": [
+        "https://github.com/jd-opensource/JoyAI-Video-Edit",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.03974",
+      "scraped_at": "2026-08-05T02:34:09.052822"
+    },
+    "scraped_date": "2026-08-05"
+  },
+  {
+    "title": "MerchantBench: Benchmarking LLM Agents for Long-Term Coherence in E-Commerce Operations",
+    "paper_url": "https://huggingface.co/papers/2607.28956",
+    "authors": [],
+    "stars": "12",
+    "details": {
+      "title": "MerchantBench: Benchmarking LLM Agents for Long-Term Coherence in E-Commerce Operations",
+      "abstract": "homepage: https://air.1688.com/kapp/next1688/merchantbench/?spm=defwork.home.0.0.7f8c530dSdRT9v code: https://github.com/KhanCold/merchantbench paper: https://arxiv.org/abs/2607.28956",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28956",
+      "pdf_url": "https://arxiv.org/pdf/2607.28956",
+      "github_links": [
+        "https://github.com/KhanCold/merchantbench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28956",
+      "scraped_at": "2026-08-05T02:34:10.930499"
+    },
+    "scraped_date": "2026-08-05"
+  },
+  {
+    "title": "UniWorld-Design: From Pixel Generation to Layer-Native Design",
+    "paper_url": "https://huggingface.co/papers/2608.03971",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "UniWorld-Design: From Pixel Generation to Layer-Native Design",
+      "abstract": "Paper: https://arxiv.org/abs/2608.03971",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.03971",
+      "pdf_url": "https://arxiv.org/pdf/2608.03971",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.03971",
+      "scraped_at": "2026-08-05T02:34:12.724892"
+    },
+    "scraped_date": "2026-08-05"
+  },
+  {
+    "title": "Any-OPD: Heterogeneous On-Policy Distillation for Flow-Matching Models via Representation-Space Bridging",
+    "paper_url": "https://huggingface.co/papers/2608.03316",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Any-OPD: Heterogeneous On-Policy Distillation for Flow-Matching Models via Representation-Space Bridging",
+      "abstract": "On-policy distillation, in which a teacher corrects samples that the student itself generates, presupposes that the two models speak the same language: identical VAE latents, matching architectures, and a common timestep grid. We ask what happens when none of this holds, as when the strongest teacher available and the student one wishes to deploy come from different model families, and find that the standard recipes have no answer: teacher latents cannot serve as targets in a foreign coordinate system, per-pixel losses against a teacher that stochastically re-draws local detail degenerate into blur or divergence, and timestep indices lose their meaning across mismatched schedules. We present Any-OPD, to our knowledge the first framework for on-policy distillation between arbitrary pairs of latent flow-matching generators. Any-OPD treats the teacher purely as a black-box sampler and connects the two models at exactly one point: a frozen, model-agnostic vision representation in which their independently decoded outputs are compared, sidestepping every assumption about latents, features, or architecture. Trajectory correspondence is recovered by matching continuous noise levels instead of step indices, and a brief anchoring phase, in which teacher samples are re-encoded through the student's own VAE, ensures the on-policy gradient measures sample quality rather than domain mismatch. Distilling the 12B FLUX.1-dev into the 2.5B SD3.5-Medium, Any-OPD lifts the student's PickScore from 0.846 to 0.884 and HPSv3 from 9.12 to 10.97, rivaling the teacher at a fifth of its size, where direct latent regression fails to train at all.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.03316",
+      "pdf_url": "https://arxiv.org/pdf/2608.03316",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.03316",
+      "scraped_at": "2026-08-05T02:34:14.561293"
+    },
+    "scraped_date": "2026-08-05"
+  },
+  {
+    "title": "SkillJack: Persistent Skill Backdoors in Self-Evolving Agents",
+    "paper_url": "https://huggingface.co/papers/2608.03509",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SkillJack: Persistent Skill Backdoors in Self-Evolving Agents",
+      "abstract": "This paper introduces SkillJack, the first attack targeting the skill evolution process of self-evolving agents. Unlike prior memory poisoning attacks that rely on poisoned context being retrieved, SkillJack compromises the agent's own experience-to-skill pipeline, turning transient malicious experiences into persistent reusable skills. The study shows that skill extraction can unintentionally sanitize and conceal malicious intent, making poisoned skills significantly harder to detect while allowing them to survive even after the original poisoned experiences are removed. These findings reveal that autonomous skill learning introduces a fundamentally new attack surface, highlighting the need for provenance tracking and security mechanisms throughout the entire skill lifecycle rather than only protecting runtime memory.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.03509",
+      "pdf_url": "https://arxiv.org/pdf/2608.03509",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.03509",
+      "scraped_at": "2026-08-05T02:34:16.371256"
+    },
+    "scraped_date": "2026-08-05"
+  },
+  {
+    "title": "Hunyuan3D-Buffalo 1.0: A Unified Multimodal Model for Scalable 3D Generation, Understanding, and Editing",
+    "paper_url": "https://huggingface.co/papers/2608.02711",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Hunyuan3D-Buffalo 1.0: A Unified Multimodal Model for Scalable 3D Generation, Understanding, and Editing",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.02711",
+      "pdf_url": "https://arxiv.org/pdf/2608.02711",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.02711",
+      "scraped_at": "2026-08-05T02:34:18.160494"
+    },
+    "scraped_date": "2026-08-05"
+  },
+  {
+    "title": "GROVE: Growing and Reasoning over Temporally Stratified Memory from Streaming Video Experience",
+    "paper_url": "https://huggingface.co/papers/2608.02392",
+    "authors": [
+      "Bo Zheng",
+      "Guo Chen",
+      "Tianyu Yan",
+      "Caixin Kang",
+      "Sitong Gong"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "GROVE: Growing and Reasoning over Temporally Stratified Memory from Streaming Video Experience",
+      "abstract": "A wearable assistant should both answer questions about its visual history and recognize when that history is useful to the present situation. Existing video-memory systems primarily support question-conditioned recall, whereas proactive assistants typically use separate memory and control mechanisms. We introduce GROVE, a training-free framework that supports both behaviors with one memory grown causally from a continuous video stream. GROVE retains fine-grained perceptual evidence and incrementally consolidates it into time-stamped moments, coherent episodes, and recurring cross-day patterns. Each stratum is paired with a scale-native retrieval skill for locating an observation, replaying an activity, or traversing long-range regularities. Reactive QA and proactive assistance share this memory and access interface, differing in whether retrieval is initiated by a user query or the current situation. Across multiple benchmarks including the challenging MM-lifelong and EgoServe, GROVE achieves the best results among the compared methods. Controlled ablations show that the temporal strata and their access skills are complementary, with patterns providing the largest benefit when evidence spans multiple days.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.02392",
+      "pdf_url": "https://arxiv.org/pdf/2608.02392",
+      "github_links": [
+        "https://github.com/SitongGong/GROVE",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.02392",
+      "scraped_at": "2026-08-05T02:34:19.944544"
+    },
+    "scraped_date": "2026-08-05"
+  },
+  {
+    "title": "CAPEval: A Decoupled Caption Evaluation across Understanding and Generation",
+    "paper_url": "https://huggingface.co/papers/2608.02589",
+    "authors": [
+      "Zhaoxiang Zhang",
+      "Haochen Wang",
+      "LiuzhipengUCAS"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "CAPEval: A Decoupled Caption Evaluation across Understanding and Generation",
+      "abstract": "Code: https://github.com/liuzhipenggg/CAPEval Suppose an image contains 10 factual claims: Caption A references 9 of them but misstates 2 , while Caption B only mentions 5, all of which are factually correct . Which caption is higher‑quality? You may find yourself stumped. This question is difficult to resolve with a single aggregated score, since each has its own merits. Caption A’s strength lies in its comprehensiveness, whereas Caption B excels in factual accuracy . Over the past several years, a growing body of work has used vision‑language models to‑recaption training images, aiming to improve dataset quality with richer and more accurate captions. The importance of captions in multimodal model training is now widely recognized. Yet, as the opening example demonstrates, a more fundamental question remains poorly understood: what kinds of captions genuinely benefit downstream model training? To tackle this problem, we have proposed a new caption evaluation framework: CAPEval ( C overage A nd P recision E valuation). Unlike previous benchmarks that evaluate captions in isolation, we further train vision‑language and text‑to‑image models on captions produced by different captioning models. Through controlled‑variable experiments, we examine how different quality attributes of captions ultimately influence downstream model performance. Our paper identifies a clear task‑dependent dissociation: Coverage serves as the stronger correlate for understanding performance, whereas Precision acts as the dominant predictor for generation performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.02589",
+      "pdf_url": "https://arxiv.org/pdf/2608.02589",
+      "github_links": [
+        "https://github.com/liuzhipenggg/CAPEval",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.02589",
+      "scraped_at": "2026-08-05T02:34:22.223813"
+    },
+    "scraped_date": "2026-08-05"
+  },
+  {
+    "title": "TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning",
+    "paper_url": "https://huggingface.co/papers/2608.04007",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning",
+      "abstract": "TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning 💡 Overview We propose TurnSight , a turn-level hindsight self-distillation framework designed for Tool-Integrated Reasoning (TIR). The key idea is to derive fine-grained, state-aligned supervision directly from the tool execution outcomes encountered by the agent itself. By aggregating token-level hindsight evidence into coherent interaction-level signals, TurnSight enables reinforcement learning to distinguish between useful, redundant, and harmful tool-use decisions across long-horizon trajectories. 🔥 Key Insights We identify two key requirements for credit assignment in multi-turn TIR: supervision should be aligned with on-policy execution states and coherent at the interaction-turn level. We propose TurnSight, which derives execution-conditioned, multi-horizon hindsight assessments from on-policy tool execution outcomes and uses them to modulate RL advantages without changing their optimization direction. Extensive experiments on both in-domain and out-of-domain benchmarks demonstrate the effectiveness, robustness, and generalization ability of TurnSight across diverse multi-turn TIR scenarios. 🔧✨ All the code, datasets and model checkpoints of TurnSight are fully open-sourced: Github: https://github.com/quchangle1/TurnSight Datasets & Models: https://huggingface.co/collections/ChangleQu/turnsight",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.04007",
+      "pdf_url": "https://arxiv.org/pdf/2608.04007",
+      "github_links": [
+        "https://github.com/quchangle1/TurnSight",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.04007",
+      "scraped_at": "2026-08-05T02:34:24.034763"
+    },
+    "scraped_date": "2026-08-05"
   }
 ]

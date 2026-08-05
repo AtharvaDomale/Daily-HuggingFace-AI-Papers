@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-2-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-5467+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-9-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-5476+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">2</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">10</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">86</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5467+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">9</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">19</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">95</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5476+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** August 04, 2026
+**Last Updated:** August 05, 2026
 
 ---
 
@@ -119,30 +119,123 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. VAD: Attributing Visual Evidence for Target Reconstruction in Multimodal On-Policy Distillation</b> ⭐ 0</summary>
+<summary><b>1. JoyAI-Video-Edit: Real-Time Open-Ended Video Editing with Autoregressive Diffusion</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Zhengxi Lu, Qingyao Li, Shuai Shao, Yixing Li, Kangning Zhang
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.03974) • [📄 arXiv](https://arxiv.org/abs/2608.03974) • [📥 PDF](https://arxiv.org/pdf/2608.03974)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.28590) • [📄 arXiv](https://arxiv.org/abs/2607.28590) • [📥 PDF](https://arxiv.org/pdf/2607.28590)
+**💻 Code:** [⭐ Code](https://github.com/jd-opensource/JoyAI-Video-Edit) • [⭐ Code](https://github.com/huggingface)
 
-**💻 Code:** [⭐ Code](https://github.com/DeepExperience/VAD_Multimodal_OPD) • [⭐ Code](https://github.com/huggingface)
-
-> preview
+> No abstract available.
 
 </details>
 
 <details>
-<summary><b>2. Deferred Exposure of Future Trajectories for Verifiable Reasoning in Autonomous Driving VLMs</b> ⭐ 0</summary>
+<summary><b>2. MerchantBench: Benchmarking LLM Agents for Long-Term Coherence in E-Commerce Operations</b> ⭐ 12</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.01755) • [📄 arXiv](https://arxiv.org/abs/2608.01755) • [📥 PDF](https://arxiv.org/pdf/2608.01755)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.28956) • [📄 arXiv](https://arxiv.org/abs/2607.28956) • [📥 PDF](https://arxiv.org/pdf/2607.28956)
 
-**💻 Code:** [⭐ Code](https://github.com/hzx122/DEFT-RLVR) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/KhanCold/merchantbench) • [⭐ Code](https://github.com/huggingface)
 
-> We identify an anchoring bias in autonomous-driving VLMs caused by GT-conditioned CoT supervision. To address this issue, we introduce AD-MCQ and DEFT-RLVR, a candidate-grounded reinforcement learning framework that reformulates AD planning as ver...
+> homepage: https://air.1688.com/kapp/next1688/merchantbench/?spm=defwork.home.0.0.7f8c530dSdRT9v code: https://github.com/KhanCold/merchantbench paper: https://arxiv.org/abs/2607.28956
+
+</details>
+
+<details>
+<summary><b>3. UniWorld-Design: From Pixel Generation to Layer-Native Design</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.03971) • [📄 arXiv](https://arxiv.org/abs/2608.03971) • [📥 PDF](https://arxiv.org/pdf/2608.03971)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> Paper: https://arxiv.org/abs/2608.03971
+
+</details>
+
+<details>
+<summary><b>4. Any-OPD: Heterogeneous On-Policy Distillation for Flow-Matching Models via Representation-Space Bridging</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.03316) • [📄 arXiv](https://arxiv.org/abs/2608.03316) • [📥 PDF](https://arxiv.org/pdf/2608.03316)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> On-policy distillation, in which a teacher corrects samples that the student itself generates, presupposes that the two models speak the same language: identical VAE latents, matching architectures, and a common timestep grid. We ask what happens ...
+
+</details>
+
+<details>
+<summary><b>5. SkillJack: Persistent Skill Backdoors in Self-Evolving Agents</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.03509) • [📄 arXiv](https://arxiv.org/abs/2608.03509) • [📥 PDF](https://arxiv.org/pdf/2608.03509)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> This paper introduces SkillJack, the first attack targeting the skill evolution process of self-evolving agents. Unlike prior memory poisoning attacks that rely on poisoned context being retrieved, SkillJack compromises the agent's own experience-...
+
+</details>
+
+<details>
+<summary><b>6. Hunyuan3D-Buffalo 1.0: A Unified Multimodal Model for Scalable 3D Generation, Understanding, and Editing</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.02711) • [📄 arXiv](https://arxiv.org/abs/2608.02711) • [📥 PDF](https://arxiv.org/pdf/2608.02711)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>7. GROVE: Growing and Reasoning over Temporally Stratified Memory from Streaming Video Experience</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Bo Zheng, Guo Chen, Tianyu Yan, Caixin Kang, Sitong Gong
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.02392) • [📄 arXiv](https://arxiv.org/abs/2608.02392) • [📥 PDF](https://arxiv.org/pdf/2608.02392)
+
+**💻 Code:** [⭐ Code](https://github.com/SitongGong/GROVE) • [⭐ Code](https://github.com/huggingface)
+
+> A wearable assistant should both answer questions about its visual history and recognize when that history is useful to the present situation. Existing video-memory systems primarily support question-conditioned recall, whereas proactive assistant...
+
+</details>
+
+<details>
+<summary><b>8. CAPEval: A Decoupled Caption Evaluation across Understanding and Generation</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Zhaoxiang Zhang, Haochen Wang, LiuzhipengUCAS
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.02589) • [📄 arXiv](https://arxiv.org/abs/2608.02589) • [📥 PDF](https://arxiv.org/pdf/2608.02589)
+
+**💻 Code:** [⭐ Code](https://github.com/liuzhipenggg/CAPEval) • [⭐ Code](https://github.com/huggingface)
+
+> Code: https://github.com/liuzhipenggg/CAPEval Suppose an image contains 10 factual claims: Caption A references 9 of them but misstates 2 , while Caption B only mentions 5, all of which are factually correct . Which caption is higher‑quality? You ...
+
+</details>
+
+<details>
+<summary><b>9. TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.04007) • [📄 arXiv](https://arxiv.org/abs/2608.04007) • [📥 PDF](https://arxiv.org/pdf/2608.04007)
+
+**💻 Code:** [⭐ Code](https://github.com/quchangle1/TurnSight) • [⭐ Code](https://github.com/huggingface)
+
+> TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning 💡 Overview We propose TurnSight , a turn-level hindsight self-distillation framework designed for Tool-Integrated Reasoning (TIR). The key idea is to derive fine-grain...
 
 </details>
 
@@ -154,28 +247,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 2 |
-| 📅 Today | [`2026-08-04.json`](data/daily/2026-08-04.json) | 2 |
-| 📆 This Week | [`2026-W31.json`](data/weekly/2026-W31.json) | 10 |
-| 🗓️ This Month | [`2026-08.json`](data/monthly/2026-08.json) | 86 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 9 |
+| 📅 Today | [`2026-08-05.json`](data/daily/2026-08-05.json) | 9 |
+| 📆 This Week | [`2026-W31.json`](data/weekly/2026-W31.json) | 19 |
+| 🗓️ This Month | [`2026-08.json`](data/monthly/2026-08.json) | 95 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-08-04 | 2 | [View JSON](data/daily/2026-08-04.json) |
+| 📌 2026-08-05 | 9 | [View JSON](data/daily/2026-08-05.json) |
+| 📄 2026-08-04 | 2 | [View JSON](data/daily/2026-08-04.json) |
 | 📄 2026-08-03 | 8 | [View JSON](data/daily/2026-08-03.json) |
 | 📄 2026-08-02 | 38 | [View JSON](data/daily/2026-08-02.json) |
 | 📄 2026-08-01 | 38 | [View JSON](data/daily/2026-08-01.json) |
 | 📄 2026-07-31 | 10 | [View JSON](data/daily/2026-07-31.json) |
 | 📄 2026-07-30 | 6 | [View JSON](data/daily/2026-07-30.json) |
-| 📄 2026-07-29 | 8 | [View JSON](data/daily/2026-07-29.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W31 | 10 | [View JSON](data/weekly/2026-W31.json) |
+| 📅 2026-W31 | 19 | [View JSON](data/weekly/2026-W31.json) |
 | 📅 2026-W30 | 112 | [View JSON](data/weekly/2026-W30.json) |
 | 📅 2026-W29 | 70 | [View JSON](data/weekly/2026-W29.json) |
 | 📅 2026-W28 | 94 | [View JSON](data/weekly/2026-W28.json) |
@@ -184,7 +277,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-08 | 86 | [View JSON](data/monthly/2026-08.json) |
+| 🗓️ 2026-08 | 95 | [View JSON](data/monthly/2026-08.json) |
 | 🗓️ 2026-07 | 366 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 782 | [View JSON](data/monthly/2026-05.json) |
