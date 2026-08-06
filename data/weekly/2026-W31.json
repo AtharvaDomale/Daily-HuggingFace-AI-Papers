@@ -421,5 +421,315 @@
       "scraped_at": "2026-08-05T02:34:24.034763"
     },
     "scraped_date": "2026-08-05"
+  },
+  {
+    "title": "Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning",
+    "paper_url": "https://huggingface.co/papers/2608.05139",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning",
+      "abstract": "code and data: https://github.com/Gen-Verse/Skill-Entropy-RL",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.05139",
+      "pdf_url": "https://arxiv.org/pdf/2608.05139",
+      "github_links": [
+        "https://github.com/Gen-Verse/Skill-Entropy-RL",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.05139",
+      "scraped_at": "2026-08-06T02:36:37.535463"
+    },
+    "scraped_date": "2026-08-06"
+  },
+  {
+    "title": "Towards Physics of Multimodal Pretraining: Knowledge Flow, Modality Synergy, Early Unification, and Recipes",
+    "paper_url": "https://huggingface.co/papers/2608.05000",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Towards Physics of Multimodal Pretraining: Knowledge Flow, Modality Synergy, Early Unification, and Recipes",
+      "abstract": "Explorations into multimodal pretraining.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.05000",
+      "pdf_url": "https://arxiv.org/pdf/2608.05000",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.05000",
+      "scraped_at": "2026-08-06T02:36:39.275381"
+    },
+    "scraped_date": "2026-08-06"
+  },
+  {
+    "title": "OneDayAgent: Towards a Long-Horizon Harness for Autonomous Agents",
+    "paper_url": "https://huggingface.co/papers/2608.05013",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "OneDayAgent: Towards a Long-Horizon Harness for Autonomous Agents",
+      "abstract": "One Prompt. One Day. One Agent. Turning open-ended requests into  long-horizon execution.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.05013",
+      "pdf_url": "https://arxiv.org/pdf/2608.05013",
+      "github_links": [
+        "https://github.com/zjunlp/OneDayAgent",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.05013",
+      "scraped_at": "2026-08-06T02:36:41.045171"
+    },
+    "scraped_date": "2026-08-06"
+  },
+  {
+    "title": "The Personalization Mirage: How LLMs Fabricate User Profiles, and Why Self-Monitoring Misleads",
+    "paper_url": "https://huggingface.co/papers/2608.04570",
+    "authors": [
+      "Rui Sheng",
+      "Yanjie Zhang",
+      "Yushi Sun"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "The Personalization Mirage: How LLMs Fabricate User Profiles, and Why Self-Monitoring Misleads",
+      "abstract": "Personalized LLMs with persistent memory are increasingly deployed, yet the faithfulness of their user models remains unexamined. We study over-inference (OI): the phenomenon where LLMs fabricate user attributes beyond what evidence supports. We introduce MirageBench, comprising 150 personas balanced across stereotypical, counter-stereotypical, and neutral profiles, 6 personalization tasks spanning an ``imagination gradient'', a four-way faithfulness taxonomy operationalized by an independent judge (validated against a blind human annotator on 400 claims: Cohen's kappa = 0.863 four-class, kappa = 0.900 binary), and a leaderboard of 12 models across 7 families on 143616 judged claims. We find that over-inference is pervasive: every one of the 12 models over-infers 35%--49% of its claims (cross-model mean 41.6%; claim-weighted 41.8%), with no model in this evaluation escaping it. Most strikingly, we surface a Self-Monitoring Inversion: at the model-selection level, models' self-assessed OI is negatively rank-correlated with their judge-measured OI (rho = -0.60, p = 0.044; exploratory, wide bootstrap CI [-0.90, +0.06], n = 12). The models that report the least over-inference tend to be flagged as fabricating the most, so self-reported confidence is a misleading signal for comparing models, even though within a single model self-audit still ranks that model's own claims moderately well (AUROC 0.58--0.83). We further show that OI is task-dependent (27%--59%) and that, in a multi-turn pilot, inferred attributes accumulate approximately linearly with little revision. MirageBench positions external verification, rather than model self-report, as a more reliable foundation for trustworthy personalization.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.04570",
+      "pdf_url": "https://arxiv.org/pdf/2608.04570",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.04570",
+      "scraped_at": "2026-08-06T02:36:42.761691"
+    },
+    "scraped_date": "2026-08-06"
+  },
+  {
+    "title": "When Teachers Mislead: Spurious-Signal-Aware On-Policy Distillation",
+    "paper_url": "https://huggingface.co/papers/2608.03632",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "When Teachers Mislead: Spurious-Signal-Aware On-Policy Distillation",
+      "abstract": "SA-OPD addresses a previously overlooked failure mode in on-policy distillation: teacher signals can appear confident, informative, and learnable while being driven by input-agnostic language priors, formatting conventions, or stereotyped reasoning templates, producing large gradients with little task-improving direction. By comparing token-level teacher–student divergence under the original input and a residual no-prompt context, SA-OPD provides a lightweight proxy for input-groundedness—without requiring external verification labels or auxiliary judges. It then filters only tokens that combine low input-groundedness with high absolute distillation divergence, targeting the high-impact portion of dense OPD supervision most likely to induce harmful updates. Across LLM and VLM distillation settings, SA-OPD consistently improves over Vanilla OPD and strong selective OPD baselines on mathematical reasoning, visual understanding, and visual reasoning benchmarks, offering a practical direction for more reliable, input-grounded distillation signal selection in on-policy distillation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.03632",
+      "pdf_url": "https://arxiv.org/pdf/2608.03632",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/jjjyinuo/SA-OPD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.03632",
+      "scraped_at": "2026-08-06T02:36:44.508309"
+    },
+    "scraped_date": "2026-08-06"
+  },
+  {
+    "title": "When Memory Lies: An Empirical Study of Spatial Memory Staleness in VLM Agents",
+    "paper_url": "https://huggingface.co/papers/2608.04574",
+    "authors": [
+      "Yanjie Zhang",
+      "Yushi Sun"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "When Memory Lies: An Empirical Study of Spatial Memory Staleness in VLM Agents",
+      "abstract": "Memory-augmented VLM agents act on persistent spatial knowledge, yet that knowledge silently goes stale as the environment changes. We ask what happens when an agent must reconcile a confident memory claim with a contradicting observation, and whether current models can catch the conflict before it becomes a safety-relevant mistake. Using a dynamic FrozenLake testbed, we pair a staleness-detection task with a downstream navigation task across three closed-source models and three open-weight VLMs under both text and image inputs (1,800 detection runs, and 12,000 text-mode navigation episodes over four LLM navigators at a shared 50-seed scale). Three findings emerge. First, text solvability does not imply visual grounding: models that flag stale entries reliably from text nonetheless span vision F1 from 0.887 down to 0.067 on the identical grids, and the weakest keeps making fluent, confident decisions that ignore the image. Second, consuming stale memory without an audit is a safety liability: in our primary GPT-4o setting, an agent that trusts raw memory dies more than twice as often as the same agent given no memory at all. Third, auditing helps but does not close the gap: a transparent read-time filter removes much of the safety cost in text mode, yet even oracle stale labels bring no further significant gain on the current grid size, and when visual auditing is unreliable, filtering yields no consistent benefit. Together these results frame spatial-memory staleness as a safety failure mode and isolate reliable visual grounding and action selection under memory--observation conflict as the central open challenges for memory-augmented agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.04574",
+      "pdf_url": "https://arxiv.org/pdf/2608.04574",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.04574",
+      "scraped_at": "2026-08-06T02:36:46.230934"
+    },
+    "scraped_date": "2026-08-06"
+  },
+  {
+    "title": "NOLLI: A Difficulty-Calibrated Puzzle Benchmark for Diagnosing the English-Korean Performance Gap",
+    "paper_url": "https://huggingface.co/papers/2608.04397",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "NOLLI: A Difficulty-Calibrated Puzzle Benchmark for Diagnosing the English-Korean Performance Gap",
+      "abstract": "NOLLI is a procedurally generated, behaviorally calibrated English–Korean puzzle benchmark that finds small matched presentation-language gaps and localizes candidate bottlenecks in multi-step Hangul-jamo execution and Korean kinship terminology.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.04397",
+      "pdf_url": "https://arxiv.org/pdf/2608.04397",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/HAE-RAE/NOLLI"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.04397",
+      "scraped_at": "2026-08-06T02:36:47.958393"
+    },
+    "scraped_date": "2026-08-06"
+  },
+  {
+    "title": "UniWorld-View: Large-Baseline View Synthesis via Video Diffusion Models",
+    "paper_url": "https://huggingface.co/papers/2608.04701",
+    "authors": [
+      "Yonghong Tian",
+      "Xunyu Zhou",
+      "Chaoran Feng",
+      "Wangbo Yu",
+      "Haiyang Zhou"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "UniWorld-View: Large-Baseline View Synthesis via Video Diffusion Models",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.04701",
+      "pdf_url": "https://arxiv.org/pdf/2608.04701",
+      "github_links": [
+        "https://github.com/PKU-YuanGroup/UniWorld-View",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.04701",
+      "scraped_at": "2026-08-06T02:36:49.822132"
+    },
+    "scraped_date": "2026-08-06"
+  },
+  {
+    "title": "ToolArtist: Tool-Using Unified Multimodal Models for Agentic Image Generation",
+    "paper_url": "https://huggingface.co/papers/2608.04436",
+    "authors": [
+      "Chengwei Qin",
+      "Fengwei Teng",
+      "Zhongxiang Sun",
+      "Xiaomin Yu",
+      "Jiahao Zhao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ToolArtist: Tool-Using Unified Multimodal Models for Agentic Image Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.04436",
+      "pdf_url": "https://arxiv.org/pdf/2608.04436",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.04436",
+      "scraped_at": "2026-08-06T02:36:51.517384"
+    },
+    "scraped_date": "2026-08-06"
+  },
+  {
+    "title": "Poly-OPD: Heterogeneous Multi-Teacher On-Policy Distillation for Capability-Selectable Flow Models",
+    "paper_url": "https://huggingface.co/papers/2608.04349",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Poly-OPD: Heterogeneous Multi-Teacher On-Policy Distillation for Capability-Selectable Flow Models",
+      "abstract": "Leading open text-to-image models often carry complementary strengths: one may lead on preference-aligned aesthetics while another follows compositional instructions more faithfully. However, differences in their autoencoders and noise schedules make it difficult to transfer these strengths across models. In this paper, we present Poly-OPD, a framework that can consolidate complementary strengths of heterogeneous teachers into a single compact flow-matching student. To bridge the incompatible latent spaces of different teachers, Poly-OPD performs on-policy distillation through a pixel bridge. Each student-generated image is re-encoded by a selected teacher's encoder and refined from a noise level matched by magnitude under the teacher's noise schedule. The resulting target is further matched to the student in frozen DINOv2 space, enabling supervision across incompatible latent spaces. To retain complementary capabilities without cross-teacher interference, Poly-OPD uses a gradient compatibility diagnostic to organize its adapters: attention LoRA modules are shared across teachers, whereas feed-forward adapters remain teacher-specific. During distillation, a gap-aware curriculum devotes more training to compositional categories where the student still falls short of the teacher. As each gap narrows, training shifts toward categories with larger remaining gaps. By distilling FLUX.1-dev and Z-Image into a 2.5B SD3.5-Medium student, Poly-OPD improves GenEval from 67.3 to 73.3, surpassing both larger teachers, and raises DrawBench HPSv3 from 9.34 to 11.35, consolidating both strengths within a switchable model.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.04349",
+      "pdf_url": "https://arxiv.org/pdf/2608.04349",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.04349",
+      "scraped_at": "2026-08-06T02:36:53.419521"
+    },
+    "scraped_date": "2026-08-06"
+  },
+  {
+    "title": "HelloWorld: Enabling Socially Interactive Characters in Video World Models",
+    "paper_url": "https://huggingface.co/papers/2608.05070",
+    "authors": [
+      "Yoichi Sato",
+      "Kaipeng Zhang",
+      "Xuangeng Chu",
+      "Ruicong Liu",
+      "Liangyang Ouyang"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "HelloWorld: Enabling Socially Interactive Characters in Video World Models",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.05070",
+      "pdf_url": "https://arxiv.org/pdf/2608.05070",
+      "github_links": [
+        "https://github.com/AlayaLab/HelloWorld",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.05070",
+      "scraped_at": "2026-08-06T02:36:55.174309"
+    },
+    "scraped_date": "2026-08-06"
+  },
+  {
+    "title": "OPD-V: Visual On-Policy Self-Distillation with Modality Balance",
+    "paper_url": "https://huggingface.co/papers/2608.05131",
+    "authors": [
+      "Volker Tresp",
+      "Zengjie Jin",
+      "Peng Liao",
+      "Jinhe Bi",
+      "Aniri"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "OPD-V: Visual On-Policy Self-Distillation with Modality Balance",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.05131",
+      "pdf_url": "https://arxiv.org/pdf/2608.05131",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.05131",
+      "scraped_at": "2026-08-06T02:36:56.868073"
+    },
+    "scraped_date": "2026-08-06"
+  },
+  {
+    "title": "TriGlue: a Biology-Inspired Generative Model for Generating Molecular Glue-Induced Ternary Complex",
+    "paper_url": "https://huggingface.co/papers/2607.22143",
+    "authors": [
+      "Enyan Dai",
+      "Yiqin Sun",
+      "Haochun Tang",
+      "Shuo Yan",
+      "Yuliang Yan"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "TriGlue: a Biology-Inspired Generative Model for Generating Molecular Glue-Induced Ternary Complex",
+      "abstract": "Excited to share TriGlue , a biology-inspired generative framework for the de novo design of molecular glue-induced ternary complexes. Unlike conventional structure-based drug design, molecular glue discovery involves an unknown protein–protein interface and requires ligand generation, protein docking, and ternary complex assembly to be modeled jointly. TriGlue addresses this challenge by decomposing the generation process into two coupled stages: An SE(3)-equivariant interface estimation module predicts a geometrically constrained protein–protein interface from unbound monomer structures. An interface-conditioned ternary flow matching network jointly generates the molecular glue and predicts the rigid-body transformation required to assemble the ternary complex. Experiments on TernaryDB show that TriGlue generates chemically valid molecules and structurally plausible ternary complexes. It also improves overall docking acceptance compared with DeepTernary and substantially outperforms existing interface-prediction baselines. We hope this work provides a new direction for AI-driven targeted protein degradation by moving beyond ternary structure prediction toward the de novo generation of molecular glues and ternary complexes. We welcome feedback from the community!",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.22143",
+      "pdf_url": "https://arxiv.org/pdf/2607.22143",
+      "github_links": [
+        "https://github.com/yuliangyan0807/molecular-glue-design",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.22143",
+      "scraped_at": "2026-08-06T02:36:58.656724"
+    },
+    "scraped_date": "2026-08-06"
+  },
+  {
+    "title": "SKILL-KD: Contrastive Skill Distillation for LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2607.28048",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SKILL-KD: Contrastive Skill Distillation for LLM Agents",
+      "abstract": "Excited to share our new work, SKILL-KD: Contrastive Skill Distillation for LLM Agents! SKILL-KD explores a simple question: can a stronger teacher agent improve a frozen student agent without fine-tuning its weights? Instead of directly summarizing successful demonstrations, SKILL-KD contrasts the student’s failed trajectory with the teacher’s trajectory on the same task, distilling their actionable discrepancy into a textual skill patch. The patch is validated through student reruns and iteratively refined, while Drift-Aware Skill Consolidation prevents redundant, overly specific, or conflicting rules from accumulating. Across five agent benchmarks and two teacher–student configurations, SKILL-KD consistently outperforms existing skill-learning baselines, improving the average score from 43.5 to 66.8 for Qwen3.5-4B and from 57.9 to 74.6 for Qwen3.6-35B-A3B. These results suggest that natural-language skills can serve as an effective and model-agnostic medium for transferring procedural knowledge between heterogeneous agents—without parameter updates. We’d love to hear your thoughts and feedback!",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.28048",
+      "pdf_url": "https://arxiv.org/pdf/2607.28048",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.28048",
+      "scraped_at": "2026-08-06T02:37:00.388322"
+    },
+    "scraped_date": "2026-08-06"
   }
 ]
