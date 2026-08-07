@@ -2440,5 +2440,185 @@
       "scraped_at": "2026-08-06T02:37:00.388322"
     },
     "scraped_date": "2026-08-06"
+  },
+  {
+    "title": "AgentOPSD: Recursive Self-Distillation for Agentic Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2608.05987",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "AgentOPSD: Recursive Self-Distillation for Agentic Reinforcement Learning",
+      "abstract": "We therefore propose AgentOPSD, a critic-free recursive turn-level credit assignment for agentic reinforcement learning. AgentOPSD aggregates token-level teacher-student log-probability gaps into turn-level evidence, recursively updates a Bayesian belief state in log-odds space.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.05987",
+      "pdf_url": "https://arxiv.org/pdf/2608.05987",
+      "github_links": [
+        "https://github.com/ZethWang/AgentOPSD",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.05987",
+      "scraped_at": "2026-08-07T02:41:51.155709"
+    },
+    "scraped_date": "2026-08-07"
+  },
+  {
+    "title": "ChronoVision: Temporal Reasoning via Latent State Reconstruction",
+    "paper_url": "https://huggingface.co/papers/2608.05631",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ChronoVision: Temporal Reasoning via Latent State Reconstruction",
+      "abstract": "Multimodal large language models excel at passive perception but struggle with complex visual cognitive tasks requiring multi-step temporal reasoning. This degradation largely stems from the inherent ambiguity of language-based reasoning, which often fails to accurately articulate continuous visual transformations. To address this, we propose ChronoVision, a multimodal framework designed to align visual logic with latent imagery. During supervised fine-tuning, a Reconstructive Visual Head predicts the latent representation of the final transformed state, while an ROI Attention Locating module focuses the model on key visual evidence via semantic span queries. In post-training, we apply reinforcement learning with an implicit process grounding mechanism, guided by a composite reward function that evaluates outcome correctness, latent process alignment, and unsupervised visual focus. Furthermore, we introduce Vbvr-VQA, a novel dataset that evaluates temporal tracking by reformulating video reasoning into a strict image-ordering task. Experiments demonstrate that ChronoVision achieves state-of-the-art performance on Vbvr-VQA with 74.8% in-domain and 71.6% out-of-domain accuracy, alongside a strong 55.0% accuracy on IntPhys2, a highly challenging cross-domain benchmark.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.05631",
+      "pdf_url": "https://arxiv.org/pdf/2608.05631",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.05631",
+      "scraped_at": "2026-08-07T02:41:53.111628"
+    },
+    "scraped_date": "2026-08-07"
+  },
+  {
+    "title": "Learning from Failures: Retrieval-Centric CoT via Hard Negatives for Unified Multimodal Retrieval",
+    "paper_url": "https://huggingface.co/papers/2608.06060",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Learning from Failures: Retrieval-Centric CoT via Hard Negatives for Unified Multimodal Retrieval",
+      "abstract": "Unified multimodal retrieval aims to identify candidates that satisfy complex user intent expressed through heterogeneous inputs.  Although Large Vision-Language Model (LVLM)-based retrievers are efficient and scalable, directly encoding raw multimodal inputs often misses fine-grained discriminative cues, leading to confusion among semantically similar candidates. Recent methods mitigate this limitation by generating Chain-of-Thought (CoT) rationales to enrich the query representation. However, such reasoning is typically derived from the query alone: it explains what the query describes, but not what the retriever misunderstands. We argue that effective retrieval reasoning should instead be conditioned on retrieval feedback.  Based on this insight, we introduce UniME-R1, an embedder-adviser framework that learns to reason over initially retrieved candidates and generate Retrieval-Centric Chain-of-Thought (RC-CoT).  The adviser analyzes candidates individually to identify the discriminative cues confused by the embedder. If the target appears in the initial top-k set, UniME-R1 directly reranks the candidates; otherwise, it generates RC-CoT to refine the retrieval direction and performs full-corpus re-retrieval with a dual-mode embedder. To train the framework, we mine hard negatives to simulate realistic retrieval failures, jointly optimize direct retrieval and RC-CoT-augmented retrieval, and align the adviser with retrieval outcomes through supervised learning and retrieval-oriented reinforcement learning. Extensive experiments on MMEB-V2 and a diverse set of general multimodal retrieval benchmarks demonstrate that UniME-R1 consistently improves retrieval performance over strong baselines.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.06060",
+      "pdf_url": "https://arxiv.org/pdf/2608.06060",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/deepglint/UniME-R1"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.06060",
+      "scraped_at": "2026-08-07T02:41:54.849010"
+    },
+    "scraped_date": "2026-08-07"
+  },
+  {
+    "title": "WorldClaw: Agentic 3D Open-World Generation at Scale",
+    "paper_url": "https://huggingface.co/papers/2608.05248",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "WorldClaw: Agentic 3D Open-World Generation at Scale",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.05248",
+      "pdf_url": "https://arxiv.org/pdf/2608.05248",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.05248",
+      "scraped_at": "2026-08-07T02:41:56.689666"
+    },
+    "scraped_date": "2026-08-07"
+  },
+  {
+    "title": "On-Policy Delta Distillation for Multilingual Math Reasoning",
+    "paper_url": "https://huggingface.co/papers/2608.05802",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "On-Policy Delta Distillation for Multilingual Math Reasoning",
+      "abstract": "Extending On-Policy Delta Distillation (OPD²) to multilingual reasoning",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.05802",
+      "pdf_url": "https://arxiv.org/pdf/2608.05802",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.05802",
+      "scraped_at": "2026-08-07T02:41:58.438467"
+    },
+    "scraped_date": "2026-08-07"
+  },
+  {
+    "title": "HarnessOpt-Bench: Evaluating LLMs at Harness Optimization",
+    "paper_url": "https://huggingface.co/papers/2608.06301",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "HarnessOpt-Bench: Evaluating LLMs at Harness Optimization",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.06301",
+      "pdf_url": "https://arxiv.org/pdf/2608.06301",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.06301",
+      "scraped_at": "2026-08-07T02:42:00.163595"
+    },
+    "scraped_date": "2026-08-07"
+  },
+  {
+    "title": "GST-Bench: Can VLMs Develop Global Spatial Awareness from Video?",
+    "paper_url": "https://huggingface.co/papers/2608.05747",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GST-Bench: Can VLMs Develop Global Spatial Awareness from Video?",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.05747",
+      "pdf_url": "https://arxiv.org/pdf/2608.05747",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.05747",
+      "scraped_at": "2026-08-07T02:42:01.881953"
+    },
+    "scraped_date": "2026-08-07"
+  },
+  {
+    "title": "DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation",
+    "paper_url": "https://huggingface.co/papers/2608.06374",
+    "authors": [
+      "Pingyue Sheng",
+      "Yangyang Zheng",
+      "Zhide Zhong",
+      "Junjie He",
+      "Junfeng Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.06374",
+      "pdf_url": "https://arxiv.org/pdf/2608.06374",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.06374",
+      "scraped_at": "2026-08-07T02:42:03.624379"
+    },
+    "scraped_date": "2026-08-07"
+  },
+  {
+    "title": "CalibForge: Adversarial Solver Calibration for Scaling Learnable Terminal Tasks",
+    "paper_url": "https://huggingface.co/papers/2608.06352",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CalibForge: Adversarial Solver Calibration for Scaling Learnable Terminal Tasks",
+      "abstract": "A very interesting take on agent data synthesis: instead of just generating and validating executable tasks, CalibForge uses solver behavior to actively reshape tasks into a solver-relative “ learnable zone .” The idea of calibrating task difficulty through multi-solver disagreement or strong-vs-weak contrast feels simple but powerful, and the downstream gains suggest that which tasks we train on matters as much as how many we generate. HF: https://huggingface.co/datasets/AweAI-Team/CalibForge Model: https://huggingface.co/collections/AweAI-Team/calibforge Github: https://github.com/AweAI-Team/CalibForge",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.06352",
+      "pdf_url": "https://arxiv.org/pdf/2608.06352",
+      "github_links": [
+        "https://github.com/AweAI-Team/CalibForge",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.06352",
+      "scraped_at": "2026-08-07T02:42:05.367922"
+    },
+    "scraped_date": "2026-08-07"
   }
 ]

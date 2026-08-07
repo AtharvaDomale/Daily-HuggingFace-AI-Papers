@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-14-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-5490+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-9-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-5499+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">14</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">33</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">109</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5490+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">9</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">42</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">118</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5499+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** August 06, 2026
+**Last Updated:** August 07, 2026
 
 ---
 
@@ -119,123 +119,50 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning</b> ⭐ 0</summary>
+<summary><b>1. AgentOPSD: Recursive Self-Distillation for Agentic Reinforcement Learning</b> ⭐ 2</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.05139) • [📄 arXiv](https://arxiv.org/abs/2608.05139) • [📥 PDF](https://arxiv.org/pdf/2608.05139)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.05987) • [📄 arXiv](https://arxiv.org/abs/2608.05987) • [📥 PDF](https://arxiv.org/pdf/2608.05987)
 
-**💻 Code:** [⭐ Code](https://github.com/Gen-Verse/Skill-Entropy-RL) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/ZethWang/AgentOPSD) • [⭐ Code](https://github.com/huggingface)
 
-> code and data: https://github.com/Gen-Verse/Skill-Entropy-RL
+> We therefore propose AgentOPSD, a critic-free recursive turn-level credit assignment for agentic reinforcement learning. AgentOPSD aggregates token-level teacher-student log-probability gaps into turn-level evidence, recursively updates a Bayesian...
 
 </details>
 
 <details>
-<summary><b>2. Towards Physics of Multimodal Pretraining: Knowledge Flow, Modality Synergy, Early Unification, and Recipes</b> ⭐ 0</summary>
+<summary><b>2. ChronoVision: Temporal Reasoning via Latent State Reconstruction</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.05000) • [📄 arXiv](https://arxiv.org/abs/2608.05000) • [📥 PDF](https://arxiv.org/pdf/2608.05000)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.05631) • [📄 arXiv](https://arxiv.org/abs/2608.05631) • [📥 PDF](https://arxiv.org/pdf/2608.05631)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> Explorations into multimodal pretraining.
+> Multimodal large language models excel at passive perception but struggle with complex visual cognitive tasks requiring multi-step temporal reasoning. This degradation largely stems from the inherent ambiguity of language-based reasoning, which of...
 
 </details>
 
 <details>
-<summary><b>3. OneDayAgent: Towards a Long-Horizon Harness for Autonomous Agents</b> ⭐ 0</summary>
+<summary><b>3. Learning from Failures: Retrieval-Centric CoT via Hard Negatives for Unified Multimodal Retrieval</b> ⭐ 3</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.05013) • [📄 arXiv](https://arxiv.org/abs/2608.05013) • [📥 PDF](https://arxiv.org/pdf/2608.05013)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.06060) • [📄 arXiv](https://arxiv.org/abs/2608.06060) • [📥 PDF](https://arxiv.org/pdf/2608.06060)
 
-**💻 Code:** [⭐ Code](https://github.com/zjunlp/OneDayAgent) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/deepglint/UniME-R1)
 
-> One Prompt. One Day. One Agent. Turning open-ended requests into  long-horizon execution.
+> Unified multimodal retrieval aims to identify candidates that satisfy complex user intent expressed through heterogeneous inputs.  Although Large Vision-Language Model (LVLM)-based retrievers are efficient and scalable, directly encoding raw multi...
 
 </details>
 
 <details>
-<summary><b>4. The Personalization Mirage: How LLMs Fabricate User Profiles, and Why Self-Monitoring Misleads</b> ⭐ 0</summary>
+<summary><b>4. WorldClaw: Agentic 3D Open-World Generation at Scale</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Rui Sheng, Yanjie Zhang, Yushi Sun
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.04570) • [📄 arXiv](https://arxiv.org/abs/2608.04570) • [📥 PDF](https://arxiv.org/pdf/2608.04570)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> Personalized LLMs with persistent memory are increasingly deployed, yet the faithfulness of their user models remains unexamined. We study over-inference (OI): the phenomenon where LLMs fabricate user attributes beyond what evidence supports. We i...
-
-</details>
-
-<details>
-<summary><b>5. When Teachers Mislead: Spurious-Signal-Aware On-Policy Distillation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.03632) • [📄 arXiv](https://arxiv.org/abs/2608.03632) • [📥 PDF](https://arxiv.org/pdf/2608.03632)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/jjjyinuo/SA-OPD)
-
-> SA-OPD addresses a previously overlooked failure mode in on-policy distillation: teacher signals can appear confident, informative, and learnable while being driven by input-agnostic language priors, formatting conventions, or stereotyped reasonin...
-
-</details>
-
-<details>
-<summary><b>6. When Memory Lies: An Empirical Study of Spatial Memory Staleness in VLM Agents</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Yanjie Zhang, Yushi Sun
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.04574) • [📄 arXiv](https://arxiv.org/abs/2608.04574) • [📥 PDF](https://arxiv.org/pdf/2608.04574)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> Memory-augmented VLM agents act on persistent spatial knowledge, yet that knowledge silently goes stale as the environment changes. We ask what happens when an agent must reconcile a confident memory claim with a contradicting observation, and whe...
-
-</details>
-
-<details>
-<summary><b>7. NOLLI: A Difficulty-Calibrated Puzzle Benchmark for Diagnosing the English-Korean Performance Gap</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.04397) • [📄 arXiv](https://arxiv.org/abs/2608.04397) • [📥 PDF](https://arxiv.org/pdf/2608.04397)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/HAE-RAE/NOLLI)
-
-> NOLLI is a procedurally generated, behaviorally calibrated English–Korean puzzle benchmark that finds small matched presentation-language gaps and localizes candidate bottlenecks in multi-step Hangul-jamo execution and Korean kinship terminology.
-
-</details>
-
-<details>
-<summary><b>8. UniWorld-View: Large-Baseline View Synthesis via Video Diffusion Models</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Yonghong Tian, Xunyu Zhou, Chaoran Feng, Wangbo Yu, Haiyang Zhou
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.04701) • [📄 arXiv](https://arxiv.org/abs/2608.04701) • [📥 PDF](https://arxiv.org/pdf/2608.04701)
-
-**💻 Code:** [⭐ Code](https://github.com/PKU-YuanGroup/UniWorld-View) • [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>9. ToolArtist: Tool-Using Unified Multimodal Models for Agentic Image Generation</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Chengwei Qin, Fengwei Teng, Zhongxiang Sun, Xiaomin Yu, Jiahao Zhao
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.04436) • [📄 arXiv](https://arxiv.org/abs/2608.04436) • [📥 PDF](https://arxiv.org/pdf/2608.04436)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.05248) • [📄 arXiv](https://arxiv.org/abs/2608.05248) • [📥 PDF](https://arxiv.org/pdf/2608.05248)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
@@ -244,41 +171,24 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>10. Poly-OPD: Heterogeneous Multi-Teacher On-Policy Distillation for Capability-Selectable Flow Models</b> ⭐ 0</summary>
+<summary><b>5. On-Policy Delta Distillation for Multilingual Math Reasoning</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.04349) • [📄 arXiv](https://arxiv.org/abs/2608.04349) • [📥 PDF](https://arxiv.org/pdf/2608.04349)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.05802) • [📄 arXiv](https://arxiv.org/abs/2608.05802) • [📥 PDF](https://arxiv.org/pdf/2608.05802)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> Leading open text-to-image models often carry complementary strengths: one may lead on preference-aligned aesthetics while another follows compositional instructions more faithfully. However, differences in their autoencoders and noise schedules m...
+> Extending On-Policy Delta Distillation (OPD²) to multilingual reasoning
 
 </details>
 
 <details>
-<summary><b>11. HelloWorld: Enabling Socially Interactive Characters in Video World Models</b> ⭐ 1</summary>
+<summary><b>6. HarnessOpt-Bench: Evaluating LLMs at Harness Optimization</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Yoichi Sato, Kaipeng Zhang, Xuangeng Chu, Ruicong Liu, Liangyang Ouyang
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.05070) • [📄 arXiv](https://arxiv.org/abs/2608.05070) • [📥 PDF](https://arxiv.org/pdf/2608.05070)
-
-**💻 Code:** [⭐ Code](https://github.com/AlayaLab/HelloWorld) • [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>12. OPD-V: Visual On-Policy Self-Distillation with Modality Balance</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Volker Tresp, Zengjie Jin, Peng Liao, Jinhe Bi, Aniri
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.05131) • [📄 arXiv](https://arxiv.org/abs/2608.05131) • [📥 PDF](https://arxiv.org/pdf/2608.05131)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.06301) • [📄 arXiv](https://arxiv.org/abs/2608.06301) • [📥 PDF](https://arxiv.org/pdf/2608.06301)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
@@ -287,30 +197,43 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>13. TriGlue: a Biology-Inspired Generative Model for Generating Molecular Glue-Induced Ternary Complex</b> ⭐ 1</summary>
+<summary><b>7. GST-Bench: Can VLMs Develop Global Spatial Awareness from Video?</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Enyan Dai, Yiqin Sun, Haochun Tang, Shuo Yan, Yuliang Yan
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.05747) • [📄 arXiv](https://arxiv.org/abs/2608.05747) • [📥 PDF](https://arxiv.org/pdf/2608.05747)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.22143) • [📄 arXiv](https://arxiv.org/abs/2607.22143) • [📥 PDF](https://arxiv.org/pdf/2607.22143)
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-**💻 Code:** [⭐ Code](https://github.com/yuliangyan0807/molecular-glue-design) • [⭐ Code](https://github.com/huggingface)
-
-> Excited to share TriGlue , a biology-inspired generative framework for the de novo design of molecular glue-induced ternary complexes. Unlike conventional structure-based drug design, molecular glue discovery involves an unknown protein–protein in...
+> No abstract available.
 
 </details>
 
 <details>
-<summary><b>14. SKILL-KD: Contrastive Skill Distillation for LLM Agents</b> ⭐ 0</summary>
+<summary><b>8. DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.28048) • [📄 arXiv](https://arxiv.org/abs/2607.28048) • [📥 PDF](https://arxiv.org/pdf/2607.28048)
+**👥 Authors:** Pingyue Sheng, Yangyang Zheng, Zhide Zhong, Junjie He, Junfeng Li
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.06374) • [📄 arXiv](https://arxiv.org/abs/2608.06374) • [📥 PDF](https://arxiv.org/pdf/2608.06374)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> Excited to share our new work, SKILL-KD: Contrastive Skill Distillation for LLM Agents! SKILL-KD explores a simple question: can a stronger teacher agent improve a frozen student agent without fine-tuning its weights? Instead of directly summarizi...
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>9. CalibForge: Adversarial Solver Calibration for Scaling Learnable Terminal Tasks</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.06352) • [📄 arXiv](https://arxiv.org/abs/2608.06352) • [📥 PDF](https://arxiv.org/pdf/2608.06352)
+
+**💻 Code:** [⭐ Code](https://github.com/AweAI-Team/CalibForge) • [⭐ Code](https://github.com/huggingface)
+
+> A very interesting take on agent data synthesis: instead of just generating and validating executable tasks, CalibForge uses solver behavior to actively reshape tasks into a solver-relative “ learnable zone .” The idea of calibrating task difficul...
 
 </details>
 
@@ -322,28 +245,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 14 |
-| 📅 Today | [`2026-08-06.json`](data/daily/2026-08-06.json) | 14 |
-| 📆 This Week | [`2026-W31.json`](data/weekly/2026-W31.json) | 33 |
-| 🗓️ This Month | [`2026-08.json`](data/monthly/2026-08.json) | 109 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 9 |
+| 📅 Today | [`2026-08-07.json`](data/daily/2026-08-07.json) | 9 |
+| 📆 This Week | [`2026-W31.json`](data/weekly/2026-W31.json) | 42 |
+| 🗓️ This Month | [`2026-08.json`](data/monthly/2026-08.json) | 118 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-08-06 | 14 | [View JSON](data/daily/2026-08-06.json) |
+| 📌 2026-08-07 | 9 | [View JSON](data/daily/2026-08-07.json) |
+| 📄 2026-08-06 | 14 | [View JSON](data/daily/2026-08-06.json) |
 | 📄 2026-08-05 | 9 | [View JSON](data/daily/2026-08-05.json) |
 | 📄 2026-08-04 | 2 | [View JSON](data/daily/2026-08-04.json) |
 | 📄 2026-08-03 | 8 | [View JSON](data/daily/2026-08-03.json) |
 | 📄 2026-08-02 | 38 | [View JSON](data/daily/2026-08-02.json) |
 | 📄 2026-08-01 | 38 | [View JSON](data/daily/2026-08-01.json) |
-| 📄 2026-07-31 | 10 | [View JSON](data/daily/2026-07-31.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W31 | 33 | [View JSON](data/weekly/2026-W31.json) |
+| 📅 2026-W31 | 42 | [View JSON](data/weekly/2026-W31.json) |
 | 📅 2026-W30 | 112 | [View JSON](data/weekly/2026-W30.json) |
 | 📅 2026-W29 | 70 | [View JSON](data/weekly/2026-W29.json) |
 | 📅 2026-W28 | 94 | [View JSON](data/weekly/2026-W28.json) |
@@ -352,7 +275,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-08 | 109 | [View JSON](data/monthly/2026-08.json) |
+| 🗓️ 2026-08 | 118 | [View JSON](data/monthly/2026-08.json) |
 | 🗓️ 2026-07 | 366 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 782 | [View JSON](data/monthly/2026-05.json) |
