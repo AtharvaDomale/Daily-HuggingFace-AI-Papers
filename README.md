@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-30-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-5559+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-5589+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">30</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">102</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">178</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5559+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">30</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">208</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5589+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** August 09, 2026
+**Last Updated:** August 10, 2026
 
 ---
 
@@ -119,13 +119,13 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. AgentOPSD: Recursive Self-Distillation for Agentic Reinforcement Learning</b> ⭐ 15</summary>
+<summary><b>1. AgentOPSD: Recursive Self-Distillation for Agentic Reinforcement Learning</b> ⭐ 19</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.05987) • [📄 arXiv](https://arxiv.org/abs/2608.05987) • [📥 PDF](https://arxiv.org/pdf/2608.05987)
 
-**💻 Code:** [⭐ Code](https://github.com/ZethWang/AgentOPSD) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/ZethWang/AgentOPSD)
 
 > We therefore propose AgentOPSD, a critic-free recursive turn-level credit assignment for agentic reinforcement learning. AgentOPSD aggregates token-level teacher-student log-probability gaps into turn-level evidence, recursively updates a Bayesian...
 
@@ -138,7 +138,7 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2607.28609) • [📄 arXiv](https://arxiv.org/abs/2607.28609) • [📥 PDF](https://arxiv.org/pdf/2607.28609)
 
-**💻 Code:** [⭐ Code](https://github.com/OS-Copilot/OSReward) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/OS-Copilot/OSReward)
 
 > A CUA trajectory is the interleaved record of an agent's screens, actions, and reasoning. Deciding whether it fulfilled the instruction is the reward signal behind evaluation, data curation and RL. How well the models we now use as judges actually...
 
@@ -153,7 +153,7 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.01481) • [📄 arXiv](https://arxiv.org/abs/2608.01481) • [📥 PDF](https://arxiv.org/pdf/2608.01481)
 
-**💻 Code:** [⭐ Code](https://github.com/ivsemenkov/LISA) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/ivsemenkov/LISA)
 
 > Can a brain decoder be accurate, compact, and interpretable at the same time? We redesign a high-performing MEG-to-speech retrieval decoder into a model that is ~20× smaller while remaining in the same performance range as prior state-of-the-art s...
 
@@ -192,14 +192,27 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.06197) • [📄 arXiv](https://arxiv.org/abs/2608.06197) • [📥 PDF](https://arxiv.org/pdf/2608.06197)
 
-**💻 Code:** [⭐ Code](https://github.com/Within-yao/EnvACE) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Within-yao/EnvACE)
 
 > Training large language model agents for long-horizon tool use typically relies on interactions with real or synthesized executable environments, whose construction and verification are costly, or on external simulators that are difficult to groun...
 
 </details>
 
 <details>
-<summary><b>7. ChronoVision: Temporal Reasoning via Latent State Reconstruction</b> ⭐ 0</summary>
+<summary><b>7. Learning from Failures: Retrieval-Centric CoT via Hard Negatives for Unified Multimodal Retrieval</b> ⭐ 10</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.06060) • [📄 arXiv](https://arxiv.org/abs/2608.06060) • [📥 PDF](https://arxiv.org/pdf/2608.06060)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/deepglint/UniME-R1)
+
+> Unified multimodal retrieval aims to identify candidates that satisfy complex user intent expressed through heterogeneous inputs.  Although Large Vision-Language Model (LVLM)-based retrievers are efficient and scalable, directly encoding raw multi...
+
+</details>
+
+<details>
+<summary><b>8. ChronoVision: Temporal Reasoning via Latent State Reconstruction</b> ⭐ 0</summary>
 
 <br/>
 
@@ -208,19 +221,6 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
 > Multimodal large language models excel at passive perception but struggle with complex visual cognitive tasks requiring multi-step temporal reasoning. This degradation largely stems from the inherent ambiguity of language-based reasoning, which of...
-
-</details>
-
-<details>
-<summary><b>8. Learning from Failures: Retrieval-Centric CoT via Hard Negatives for Unified Multimodal Retrieval</b> ⭐ 8</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.06060) • [📄 arXiv](https://arxiv.org/abs/2608.06060) • [📥 PDF](https://arxiv.org/pdf/2608.06060)
-
-**💻 Code:** [⭐ Code](https://github.com/deepglint/UniME-R1) • [⭐ Code](https://github.com/huggingface)
-
-> Unified multimodal retrieval aims to identify candidates that satisfy complex user intent expressed through heterogeneous inputs.  Although Large Vision-Language Model (LVLM)-based retrievers are efficient and scalable, directly encoding raw multi...
 
 </details>
 
@@ -244,40 +244,27 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.06020) • [📄 arXiv](https://arxiv.org/abs/2608.06020) • [📥 PDF](https://arxiv.org/pdf/2608.06020)
 
-**💻 Code:** [⭐ Code](https://github.com/FreedomIntelligence/Awesome-Economic-World-Models) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/FreedomIntelligence/Awesome-Economic-World-Models)
 
 > The new paradigm for for "AI + economics"
 
 </details>
 
 <details>
-<summary><b>11. DataSpace: Benchmarking Data Agents for Verifiable Analytics over Heterogeneous Workspaces</b> ⭐ 13</summary>
+<summary><b>11. DataSpace: Benchmarking Data Agents for Verifiable Analytics over Heterogeneous Workspaces</b> ⭐ 14</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.03451) • [📄 arXiv](https://arxiv.org/abs/2608.03451) • [📥 PDF](https://arxiv.org/pdf/2608.03451)
 
-**💻 Code:** [⭐ Code](https://github.com/HKUSTDial/DataSpace) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/HKUSTDial/DataSpace/tree/main/evaluation) • [⭐ Code](https://github.com/HKUSTDial/DataSpace)
 
 > Can a data agent do more than answer a question—can it navigate an entire workspace and deliver a result you can actually verify? Real-world analytics rarely begins with a single clean table. The evidence is often scattered across databases, struc...
 
 </details>
 
 <details>
-<summary><b>12. On-Policy Delta Distillation for Multilingual Math Reasoning</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.05802) • [📄 arXiv](https://arxiv.org/abs/2608.05802) • [📥 PDF](https://arxiv.org/pdf/2608.05802)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> Extending On-Policy Delta Distillation (OPD²) to multilingual reasoning
-
-</details>
-
-<details>
-<summary><b>13. Teaching Nemotron Greek: Mining a Corpus, Adapting Retrieval, and Grounding Generation for Modern Greek across Specialist Domains</b> ⭐ 0</summary>
+<summary><b>12. Teaching Nemotron Greek: Mining a Corpus, Adapting Retrieval, and Grounding Generation for Modern Greek across Specialist Domains</b> ⭐ 0</summary>
 
 <br/>
 
@@ -290,6 +277,19 @@ getTodaysPapers();
 </details>
 
 <details>
+<summary><b>13. On-Policy Delta Distillation for Multilingual Math Reasoning</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.05802) • [📄 arXiv](https://arxiv.org/abs/2608.05802) • [📥 PDF](https://arxiv.org/pdf/2608.05802)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> Extending On-Policy Delta Distillation (OPD²) to multilingual reasoning
+
+</details>
+
+<details>
 <summary><b>14. World-to-Wrist: Task-Conditioned Future Wrist Modeling for Fine-Grained Robot Manipulation</b> ⭐ 18</summary>
 
 <br/>
@@ -298,44 +298,14 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.05369) • [📄 arXiv](https://arxiv.org/abs/2608.05369) • [📥 PDF](https://arxiv.org/pdf/2608.05369)
 
-**💻 Code:** [⭐ Code](https://github.com/yyyyu120/W2-VLA) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/yyyyu120/W2-VLA)
 
 > 🚀 We’re excited to release W²-VLA! 🎉 Task-conditioned future wrist modeling for fine-grained robot manipulation. 🌍 Global task context guides the prediction of task-relevant future wrist latents. 🧠 W²-CoT provides structured supervision to help sh...
 
 </details>
 
 <details>
-<summary><b>15. DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Pingyue Sheng, Yangyang Zheng, Zhide Zhong, Junjie He, Junfeng Li
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.06374) • [📄 arXiv](https://arxiv.org/abs/2608.06374) • [📥 PDF](https://arxiv.org/pdf/2608.06374)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Learning Action Priors for Cross-embodiment Robot Manipulation (2026) Train...
-
-</details>
-
-<details>
-<summary><b>16. Activity Frames: Deterministic Screen-Activity Compilation for Agent Memory and Replay</b> ⭐ 551</summary>
-
-<br/>
-
-**👥 Authors:** Nos7
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.05784) • [📄 arXiv](https://arxiv.org/abs/2608.05784) • [📥 PDF](https://arxiv.org/pdf/2608.05784)
-
-**💻 Code:** [⭐ Code](https://github.com/nossa-y/activity-frames) • [⭐ Code](https://github.com/huggingface)
-
-> code: https://github.com/nossa-y/activity-frames project: https://usenocta.app paper: https://arxiv.org/abs/2608.05784
-
-</details>
-
-<details>
-<summary><b>17. SmartMage: Dynamic Modality Orchestration for 3D Scene Understanding</b> ⭐ 0</summary>
+<summary><b>15. SmartMage: Dynamic Modality Orchestration for 3D Scene Understanding</b> ⭐ 0</summary>
 
 <br/>
 
@@ -350,7 +320,63 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>18. EffectLearner: World-Aware Object-Effect Reasoning for Real-World Video Object Removal</b> ⭐ 0</summary>
+<summary><b>16. Activity Frames: Deterministic Screen-Activity Compilation for Agent Memory and Replay</b> ⭐ 552</summary>
+
+<br/>
+
+**👥 Authors:** Nos7
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.05784) • [📄 arXiv](https://arxiv.org/abs/2608.05784) • [📥 PDF](https://arxiv.org/pdf/2608.05784)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/nossa-y/activity-frames)
+
+> code: https://github.com/nossa-y/activity-frames project: https://usenocta.app paper: https://arxiv.org/abs/2608.05784
+
+</details>
+
+<details>
+<summary><b>17. DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Pingyue Sheng, Yangyang Zheng, Zhide Zhong, Junjie He, Junfeng Li
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.06374) • [📄 arXiv](https://arxiv.org/abs/2608.06374) • [📥 PDF](https://arxiv.org/pdf/2608.06374)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Learning Action Priors for Cross-embodiment Robot Manipulation (2026) Train...
+
+</details>
+
+<details>
+<summary><b>18. PaDoc: Layout-Grounded Parallel Decoding for Document Parsing</b> ⭐ 7</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.06146) • [📄 arXiv](https://arxiv.org/abs/2608.06146) • [📥 PDF](https://arxiv.org/pdf/2608.06146)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Longin-Yu/Padoc)
+
+> End-to-end document parsers provide a unified interface, but serialize page layouts and regional contents into one autoregressive sequence. This formulation forces independent regions onto a decoding path whose length grows with the total content,...
+
+</details>
+
+<details>
+<summary><b>19. CalibForge: Adversarial Solver Calibration for Scaling Learnable Terminal Tasks</b> ⭐ 10</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.06352) • [📄 arXiv](https://arxiv.org/abs/2608.06352) • [📥 PDF](https://arxiv.org/pdf/2608.06352)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/AweAI-Team/CalibForge)
+
+> A very interesting take on agent data synthesis: instead of just generating and validating executable tasks, CalibForge uses solver behavior to actively reshape tasks into a solver-relative “ learnable zone .” The idea of calibrating task difficul...
+
+</details>
+
+<details>
+<summary><b>20. EffectLearner: World-Aware Object-Effect Reasoning for Real-World Video Object Removal</b> ⭐ 0</summary>
 
 <br/>
 
@@ -365,39 +391,13 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>19. PaDoc: Layout-Grounded Parallel Decoding for Document Parsing</b> ⭐ 6</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.06146) • [📄 arXiv](https://arxiv.org/abs/2608.06146) • [📥 PDF](https://arxiv.org/pdf/2608.06146)
-
-**💻 Code:** [⭐ Code](https://github.com/Longin-Yu/Padoc) • [⭐ Code](https://github.com/huggingface)
-
-> End-to-end document parsers provide a unified interface, but serialize page layouts and regional contents into one autoregressive sequence. This formulation forces independent regions onto a decoding path whose length grows with the total content,...
-
-</details>
-
-<details>
-<summary><b>20. CalibForge: Adversarial Solver Calibration for Scaling Learnable Terminal Tasks</b> ⭐ 10</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.06352) • [📄 arXiv](https://arxiv.org/abs/2608.06352) • [📥 PDF](https://arxiv.org/pdf/2608.06352)
-
-**💻 Code:** [⭐ Code](https://github.com/AweAI-Team/CalibForge) • [⭐ Code](https://github.com/huggingface)
-
-> A very interesting take on agent data synthesis: instead of just generating and validating executable tasks, CalibForge uses solver behavior to actively reshape tasks into a solver-relative “ learnable zone .” The idea of calibrating task difficul...
-
-</details>
-
-<details>
-<summary><b>21. KVAE: Family of Tokenizers for Multimodal Generative Models</b> ⭐ 53</summary>
+<summary><b>21. KVAE: Family of Tokenizers for Multimodal Generative Models</b> ⭐ 60</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.05798) • [📄 arXiv](https://arxiv.org/abs/2608.05798) • [📥 PDF](https://arxiv.org/pdf/2608.05798)
 
-**💻 Code:** [⭐ Code](https://github.com/kandinskylab/kvae) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/kandinskylab/kvae)
 
 > Report provides results for novel audio, video and image tokenizers. They were developed specifically for subsequent generation by LDM in text-conditioned setting. Series of experiments confirm their ability to surpass leading opensource methods. ...
 
@@ -410,7 +410,7 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.05850) • [📄 arXiv](https://arxiv.org/abs/2608.05850) • [📥 PDF](https://arxiv.org/pdf/2608.05850)
 
-**💻 Code:** [⭐ Code](https://github.com/katzurik/MameLoshnLM) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/katzurik/MameLoshnLM)
 
 > Yiddish carries centuries of literature, humor, and culture—yet it has almost no modern NLP infrastructure. With MameloshnLM , we introduce the first dedicated Yiddish language model and the first Yiddish LLM benchmark. We show that: Multilingual ...
 
@@ -535,36 +535,36 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 30 |
-| 📅 Today | [`2026-08-09.json`](data/daily/2026-08-09.json) | 30 |
-| 📆 This Week | [`2026-W31.json`](data/weekly/2026-W31.json) | 102 |
-| 🗓️ This Month | [`2026-08.json`](data/monthly/2026-08.json) | 178 |
+| 📅 Today | [`2026-08-10.json`](data/daily/2026-08-10.json) | 30 |
+| 📆 This Week | [`2026-W32.json`](data/weekly/2026-W32.json) | 30 |
+| 🗓️ This Month | [`2026-08.json`](data/monthly/2026-08.json) | 208 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-08-09 | 30 | [View JSON](data/daily/2026-08-09.json) |
+| 📌 2026-08-10 | 30 | [View JSON](data/daily/2026-08-10.json) |
+| 📄 2026-08-09 | 30 | [View JSON](data/daily/2026-08-09.json) |
 | 📄 2026-08-08 | 30 | [View JSON](data/daily/2026-08-08.json) |
 | 📄 2026-08-07 | 9 | [View JSON](data/daily/2026-08-07.json) |
 | 📄 2026-08-06 | 14 | [View JSON](data/daily/2026-08-06.json) |
 | 📄 2026-08-05 | 9 | [View JSON](data/daily/2026-08-05.json) |
 | 📄 2026-08-04 | 2 | [View JSON](data/daily/2026-08-04.json) |
-| 📄 2026-08-03 | 8 | [View JSON](data/daily/2026-08-03.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
+| 📅 2026-W32 | 30 | [View JSON](data/weekly/2026-W32.json) |
 | 📅 2026-W31 | 102 | [View JSON](data/weekly/2026-W31.json) |
 | 📅 2026-W30 | 112 | [View JSON](data/weekly/2026-W30.json) |
 | 📅 2026-W29 | 70 | [View JSON](data/weekly/2026-W29.json) |
-| 📅 2026-W28 | 94 | [View JSON](data/weekly/2026-W28.json) |
 
 ### 🗂️ Monthly Archives
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-08 | 178 | [View JSON](data/monthly/2026-08.json) |
+| 🗓️ 2026-08 | 208 | [View JSON](data/monthly/2026-08.json) |
 | 🗓️ 2026-07 | 366 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 782 | [View JSON](data/monthly/2026-05.json) |
