@@ -2164,5 +2164,75 @@
       "scraped_at": "2026-08-12T02:00:34.222280"
     },
     "scraped_date": "2026-08-12"
+  },
+  {
+    "title": "ToolHazard: Scaling Adversarial Environments for Security Evaluation and Alignment of LLM-based Agents",
+    "paper_url": "https://huggingface.co/papers/2608.11878",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ToolHazard: Scaling Adversarial Environments for Security Evaluation and Alignment of LLM-based Agents",
+      "abstract": "In this study, we propose ToolHazard, a scalable adversarial environment synthesis framework that enables agent security evaluation and adversarial alignment across broader application domains.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.11878",
+      "pdf_url": "https://arxiv.org/pdf/2608.11878",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/MurrayTom/ToolHazard"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.11878",
+      "scraped_at": "2026-08-13T02:01:49.708122"
+    },
+    "scraped_date": "2026-08-13"
+  },
+  {
+    "title": "Spark-to-Paper: End-to-End Research Paper Generation as a Composable Skill",
+    "paper_url": "https://huggingface.co/papers/2608.11924",
+    "authors": [
+      "Desan Dai",
+      "Chris D Yan",
+      "Yiran Wang",
+      "Biao Wu",
+      "Zhuoyang Qian"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Spark-to-Paper: End-to-End Research Paper Generation as a Composable Skill",
+      "abstract": "🚀 Spark-to-Paper is now on Hugging Face Daily Papers: drop in a one-line research idea and get an end-to-end draft with verified citations, auto-run experiments, and editable vector figures.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.11924",
+      "pdf_url": "https://arxiv.org/pdf/2608.11924",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Spark-To-Paper-Skills/spark-to-paper-skills"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.11924",
+      "scraped_at": "2026-08-13T02:01:51.466795"
+    },
+    "scraped_date": "2026-08-13"
+  },
+  {
+    "title": "Agent Safety Should Be a Runtime Contract",
+    "paper_url": "https://huggingface.co/papers/2608.11274",
+    "authors": [
+      "Wenhao Wang",
+      "Jusheng Zhang",
+      "Yi Han",
+      "Albus W. Ng"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Agent Safety Should Be a Runtime Contract",
+      "abstract": "Agent safety shouldn’t stop at training: our new paper argues for runtime contracts that block dangerous actions and require checkable evidence that agents actually did what they claim.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.11274",
+      "pdf_url": "https://arxiv.org/pdf/2608.11274",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.11274",
+      "scraped_at": "2026-08-13T02:01:53.135135"
+    },
+    "scraped_date": "2026-08-13"
   }
 ]
