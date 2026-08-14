@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-3-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-5665+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-1-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-5666+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">3</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">106</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">284</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5665+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">1</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">107</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">285</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">5666+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** August 13, 2026
+**Last Updated:** August 14, 2026
 
 ---
 
@@ -119,45 +119,17 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. ToolHazard: Scaling Adversarial Environments for Security Evaluation and Alignment of LLM-based Agents</b> ⭐ 0</summary>
+<summary><b>1. Intern-S2-Preview: Scientific Agentic Foundation Model</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.11878) • [📄 arXiv](https://arxiv.org/abs/2608.11878) • [📥 PDF](https://arxiv.org/pdf/2608.11878)
+**👥 Authors:** Kai Chen, Guanzhou Chen, Chiyu Chen, Jiaqi Cao, Lei Bai
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/MurrayTom/ToolHazard)
-
-> In this study, we propose ToolHazard, a scalable adversarial environment synthesis framework that enables agent security evaluation and adversarial alignment across broader application domains.
-
-</details>
-
-<details>
-<summary><b>2. Spark-to-Paper: End-to-End Research Paper Generation as a Composable Skill</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Desan Dai, Chris D Yan, Yiran Wang, Biao Wu, Zhuoyang Qian
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.11924) • [📄 arXiv](https://arxiv.org/abs/2608.11924) • [📥 PDF](https://arxiv.org/pdf/2608.11924)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Spark-To-Paper-Skills/spark-to-paper-skills)
-
-> 🚀 Spark-to-Paper is now on Hugging Face Daily Papers: drop in a one-line research idea and get an end-to-end draft with verified citations, auto-run experiments, and editable vector figures.
-
-</details>
-
-<details>
-<summary><b>3. Agent Safety Should Be a Runtime Contract</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Wenhao Wang, Jusheng Zhang, Yi Han, Albus W. Ng
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.11274) • [📄 arXiv](https://arxiv.org/abs/2608.11274) • [📥 PDF](https://arxiv.org/pdf/2608.11274)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.13505) • [📄 arXiv](https://arxiv.org/abs/2608.13505) • [📥 PDF](https://arxiv.org/pdf/2608.13505)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> Agent safety shouldn’t stop at training: our new paper argues for runtime contracts that block dangerous actions and require checkable evidence that agents actually did what they claim.
+> No abstract available.
 
 </details>
 
@@ -169,28 +141,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 3 |
-| 📅 Today | [`2026-08-13.json`](data/daily/2026-08-13.json) | 3 |
-| 📆 This Week | [`2026-W32.json`](data/weekly/2026-W32.json) | 106 |
-| 🗓️ This Month | [`2026-08.json`](data/monthly/2026-08.json) | 284 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 1 |
+| 📅 Today | [`2026-08-14.json`](data/daily/2026-08-14.json) | 1 |
+| 📆 This Week | [`2026-W32.json`](data/weekly/2026-W32.json) | 107 |
+| 🗓️ This Month | [`2026-08.json`](data/monthly/2026-08.json) | 285 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-08-13 | 3 | [View JSON](data/daily/2026-08-13.json) |
+| 📌 2026-08-14 | 1 | [View JSON](data/daily/2026-08-14.json) |
+| 📄 2026-08-13 | 3 | [View JSON](data/daily/2026-08-13.json) |
 | 📄 2026-08-12 | 38 | [View JSON](data/daily/2026-08-12.json) |
 | 📄 2026-08-11 | 35 | [View JSON](data/daily/2026-08-11.json) |
 | 📄 2026-08-10 | 30 | [View JSON](data/daily/2026-08-10.json) |
 | 📄 2026-08-09 | 30 | [View JSON](data/daily/2026-08-09.json) |
 | 📄 2026-08-08 | 30 | [View JSON](data/daily/2026-08-08.json) |
-| 📄 2026-08-07 | 9 | [View JSON](data/daily/2026-08-07.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W32 | 106 | [View JSON](data/weekly/2026-W32.json) |
+| 📅 2026-W32 | 107 | [View JSON](data/weekly/2026-W32.json) |
 | 📅 2026-W31 | 102 | [View JSON](data/weekly/2026-W31.json) |
 | 📅 2026-W30 | 112 | [View JSON](data/weekly/2026-W30.json) |
 | 📅 2026-W29 | 70 | [View JSON](data/weekly/2026-W29.json) |
@@ -199,7 +171,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-08 | 284 | [View JSON](data/monthly/2026-08.json) |
+| 🗓️ 2026-08 | 285 | [View JSON](data/monthly/2026-08.json) |
 | 🗓️ 2026-07 | 366 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 782 | [View JSON](data/monthly/2026-05.json) |

@@ -6122,5 +6122,30 @@
       "scraped_at": "2026-08-13T02:01:53.135135"
     },
     "scraped_date": "2026-08-13"
+  },
+  {
+    "title": "Intern-S2-Preview: Scientific Agentic Foundation Model",
+    "paper_url": "https://huggingface.co/papers/2608.13505",
+    "authors": [
+      "Kai Chen",
+      "Guanzhou Chen",
+      "Chiyu Chen",
+      "Jiaqi Cao",
+      "Lei Bai"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Intern-S2-Preview: Scientific Agentic Foundation Model",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.13505",
+      "pdf_url": "https://arxiv.org/pdf/2608.13505",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.13505",
+      "scraped_at": "2026-08-14T01:59:27.494989"
+    },
+    "scraped_date": "2026-08-14"
   }
 ]
