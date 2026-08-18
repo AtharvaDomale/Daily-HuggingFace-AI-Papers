@@ -680,5 +680,656 @@
       "scraped_at": "2026-08-17T01:18:19.794817"
     },
     "scraped_date": "2026-08-17"
+  },
+  {
+    "title": "Can We Defend Against AI-Generated Video Attacks on Real-World Crisis Events? A Systematic Evaluation of Detectors, Generators and Social Dissemination",
+    "paper_url": "https://huggingface.co/papers/2608.14391",
+    "authors": [],
+    "stars": "36",
+    "details": {
+      "title": "Can We Defend Against AI-Generated Video Attacks on Real-World Crisis Events? A Systematic Evaluation of Detectors, Generators and Social Dissemination",
+      "abstract": "A Systematic Evaluation of Detectors, Generators and Social Dissemination",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14391",
+      "pdf_url": "https://arxiv.org/pdf/2608.14391",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/24029100313/RA-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14391",
+      "scraped_at": "2026-08-18T01:14:54.757003"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "Self-Supervised Visual On-Policy Distillation",
+    "paper_url": "https://huggingface.co/papers/2608.14144",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Self-Supervised Visual On-Policy Distillation",
+      "abstract": "Visual on-policy distillation relies heavily on an informative teacher-student asymmetry, through either a larger, stronger teacher or privileged supervision, such as reference answers or ground-truth regions of interest. This raises a fundamental question: where can informative asymmetry come from when nothing privileged is available? We answer this by inverting where the asymmetry comes from. Rather than adding privileged information to the teacher, we subtract information from the student. This asymmetry creates the same effective learning signal for free as a teacher with access to information unavailable to the student, without ground-truth annotations, rewards, or a separate stronger teacher model. Building on this principle, we introduce Self-Supervised Visual On-Policy Distillation (S2VOPD), a simple yet effective method that constructs on-policy learning signals from asymmetric augmented views. S2VOPD distills the teacher's distribution conditioned on the original image on-policy into the student distribution conditioned on a strongly augmented view of the same image. We systematically explore a broad design space of visual augmentations and uncover that (1) asymmetry matters: all four augmentation families improve performance, while symmetric self-distillation degrades it; (2) strength matters: performance peaks at a moderate strength; and (3) the gap must remain task-consistent: augmentations that completely remove the question-relevant evidence can induce large but uninformative discrepancies. Across six fine-grained perception benchmarks, S2VOPD improves Qwen3.5-4B from 70.7% to 77.4%, above all open-source models compared, up to Qwen3-VL at 235B, and surpasses GPT-5.4. While holding training data the same, it recovers 96% of the improvement achieved by methods with privileged information.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14144",
+      "pdf_url": "https://arxiv.org/pdf/2608.14144",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14144",
+      "scraped_at": "2026-08-18T01:14:56.501009"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "Beyond Final Scores: A Systematic Evaluation of Agents for Long-Horizon AI Research and Development",
+    "paper_url": "https://huggingface.co/papers/2608.13417",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Beyond Final Scores: A Systematic Evaluation of Agents for Long-Horizon AI Research and Development",
+      "abstract": "🚀 We are excited to share Beyond Final Scores: A Systematic Evaluation of Agents for Long-Horizon AI Research and Development . 🔍 As AI agents increasingly tackle long-horizon research and engineering tasks, evaluating them by final scores alone is no longer enough. How do they actually approach, execute, and improve throughout the research process? We systematically evaluate 7 frontier models across 36 long-horizon tasks , going beyond final performance to examine how agents frame solutions, execute experiments, respond to feedback, and reuse experience . 🧑‍🔬 Our results suggest that today's agents are better characterized as engineering optimizers than fully autonomous researchers : they can formulate and implement practical solutions, but performance remains highly variable across runs, strong solutions largely adapt or combine established techniques, and genuine methodological novelty is still rare. 📊 We also find that: similar final scores can hide very different process bottlenecks; experience reuse can either help or mislead later decisions; harness design substantially affects performance stability. 💡 We hope this study provides a more fine-grained view of where current research agents succeed, where they fail, and what needs to improve next. Would love to hear your thoughts and discussions!",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.13417",
+      "pdf_url": "https://arxiv.org/pdf/2608.13417",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.13417",
+      "scraped_at": "2026-08-18T01:14:58.345111"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "Intern-S2-Mobius: Foundation Model with Decoupled Knowledge and Reasoning",
+    "paper_url": "https://huggingface.co/papers/2608.14290",
+    "authors": [
+      "Jiaye Ge",
+      "Ning Ding",
+      "Jifeng Ding",
+      "Kai Chen",
+      "Youbang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Intern-S2-Mobius: Foundation Model with Decoupled Knowledge and Reasoning",
+      "abstract": "اصنع فيديو تعليمي لل اطفال لمده 5 دقائق عن الأرقام",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14290",
+      "pdf_url": "https://arxiv.org/pdf/2608.14290",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14290",
+      "scraped_at": "2026-08-18T01:15:00.079254"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "Apodex Discovery: Reality Benchmarks and Environments for Evaluating and Building Discoverative Artificial Intelligence",
+    "paper_url": "https://huggingface.co/papers/2608.11341",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Apodex Discovery: Reality Benchmarks and Environments for Evaluating and Building Discoverative Artificial Intelligence",
+      "abstract": "Apodex Discovery is a new paradigm for discoverative AI, which is different from generative AI, with a focus on targeting real-world problems that do not have ground truth answers. More can be learned at our website https://discovery.apodex.com/",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.11341",
+      "pdf_url": "https://arxiv.org/pdf/2608.11341",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.11341",
+      "scraped_at": "2026-08-18T01:15:01.805082"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "SimpleOPD: Simple Tokenizer-Agnostic On-Policy Distillation for Long-Context Reasoning",
+    "paper_url": "https://huggingface.co/papers/2608.14277",
+    "authors": [],
+    "stars": "8",
+    "details": {
+      "title": "SimpleOPD: Simple Tokenizer-Agnostic On-Policy Distillation for Long-Context Reasoning",
+      "abstract": "Experiments on both same-family and different-family student models, including Qwen3, Qwen3.5, Intern-S2, GLM-4.7, Gemma-4, show consistent gains in mathematical reasoning, especially natural-language math proving. Notably, Intern-S2-Preview improves by 21.2 points on ProofBench, reaching 55.2 and surpassing Gemini-2.5-Pro. It also improves on science benchmarks such as HLE and HiPhO, suggesting that OPD transfers reasoning capabilities that generalize beyond the mathematical training domain.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14277",
+      "pdf_url": "https://arxiv.org/pdf/2608.14277",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/hhnqqq/SimpleOPD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14277",
+      "scraped_at": "2026-08-18T01:15:03.571952"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "Marionette: Predicting World States, Rendering Geometry, Painting Appearance",
+    "paper_url": "https://huggingface.co/papers/2608.14530",
+    "authors": [
+      "Kaipeng Zhang",
+      "Qiang Li",
+      "Chuanhao Li",
+      "Zian Meng",
+      "Lixsp11"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Marionette: Predicting World States, Rendering Geometry, Painting Appearance",
+      "abstract": "https://youtu.be/bLLtwXVcqEc",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14530",
+      "pdf_url": "https://arxiv.org/pdf/2608.14530",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14530",
+      "scraped_at": "2026-08-18T01:15:05.312827"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data",
+    "paper_url": "https://huggingface.co/papers/2608.13517",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data",
+      "abstract": "Current large language model development relies on massive, often non-permissible datasets, creating a high barrier for researchers committed to open-source and ethically sourced data. We introduce Mimir, a 1-billion-parameter language model based on the Hierarchical Reasoning Model (HRM) architecture, that is trained from scratch and delivers highly competitive performance for English and sets a new state of the art for Danish using only permissible post-training data. Trained on a mixture of 161 datasets, comprising approximately 70.479 billion tokens per epoch. Mimir outperforms the original HRM-Text 1B and competes with larger frontier models like Qwen 3.5 4B and Gemma 4 E2B, tested across 20 benchmarks for English, Math & Code and Danish.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.13517",
+      "pdf_url": "https://arxiv.org/pdf/2608.13517",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/schneiderkamplab/HRM-Text"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.13517",
+      "scraped_at": "2026-08-18T01:15:07.053447"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "MobileMem: Learning from a Year of Mobile Experiences",
+    "paper_url": "https://huggingface.co/papers/2608.13606",
+    "authors": [],
+    "stars": "12",
+    "details": {
+      "title": "MobileMem: Learning from a Year of Mobile Experiences",
+      "abstract": "MobileMem, a benchmark and framework for studying on-device long-term memory, grounded in a year-scale collection of mobile experiences.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.13606",
+      "pdf_url": "https://arxiv.org/pdf/2608.13606",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/zjunlp/MobileMem"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.13606",
+      "scraped_at": "2026-08-18T01:15:08.764256"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
+    "paper_url": "https://huggingface.co/papers/2608.13555",
+    "authors": [],
+    "stars": "26",
+    "details": {
+      "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
+      "abstract": "We introduce HumanTracker, a comprehensive and human-aligned benchmark for humanoid motion tracking, together with HumanScore, a preference-aligned metric that better reflects human judgments. Our goal is to move beyond simple kinematic errors and evaluate what truly matters—stable, natural, and physically plausible motion.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.13555",
+      "pdf_url": "https://arxiv.org/pdf/2608.13555",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/GalaxyGeneralRobotics/HumanTracker"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.13555",
+      "scraped_at": "2026-08-18T01:15:10.479148"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "CPI-Bench: A Comprehensive,Practical and Intelligent Benchmark for Real-World Image Editing",
+    "paper_url": "https://huggingface.co/papers/2608.14546",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "CPI-Bench: A Comprehensive,Practical and Intelligent Benchmark for Real-World Image Editing",
+      "abstract": "CPI-Bench: A Comprehensive,Practical and Intelligent Benchmark for Real-World Image Editing",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14546",
+      "pdf_url": "https://arxiv.org/pdf/2608.14546",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/zqyzzz/CPI-benchmark"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14546",
+      "scraped_at": "2026-08-18T01:15:12.195063"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "Latent On-Policy Self-Distillation",
+    "paper_url": "https://huggingface.co/papers/2608.13040",
+    "authors": [],
+    "stars": "31",
+    "details": {
+      "title": "Latent On-Policy Self-Distillation",
+      "abstract": "Github: https://github.com/bingreeky/LOPD Enabling agents to learn from experience and internalize it into their policy has become a central problem in self-evolving AI. On-policy self-distillation (OPSD) offers an effective pathway by using a privileged self-teacher to provide dense supervision on the student’s own trajectories; however, existing methods still rely heavily on designer-specified privileged artifacts (e.g., answers, feedback, skills, or trajectories), limiting the end-to-end learnability and scalability required for continual self-improvement. In this work, we introduce Latent On-Policy Self-Distillation (LOPD), which, rather than proposing another hand-crafted OPSD variant with a newly prescribed form of privileged context, makes the teacher’s privileged context itself learnable end-to-end from experience. Technically, LOPD retrieves relevant experiences and composes them into continuous latent tokens that condition a self-teacher, while the student generates trajectories from the task and interaction history and receives dense token-level supervision at every visited prefix. We further introduce a privileged-margin objective to stabilize and regulate the learning of latent context. Empirically, LOPD demonstrates (I) strong performance, outperforming RLVR and representative OPSD methods including OPSD, SDPO, and Skill-SD across both agentic tool use and code generation; and (II) high learning efficiency, surpassing GRPO and Skill-SD with less than 30% of their rollout budget. Ablation studies further provide direct evidence that making privileged context learnable is necessary for realizing these gains. Together, these results position LOPD as a step toward a more scalable and self-directed paradigm for agent evolution.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.13040",
+      "pdf_url": "https://arxiv.org/pdf/2608.13040",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/bingreeky/LOPD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.13040",
+      "scraped_at": "2026-08-18T01:15:13.926281"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "Modular Cognitive Architecture Emerges in Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2608.13567",
+    "authors": [],
+    "stars": "69",
+    "details": {
+      "title": "Modular Cognitive Architecture Emerges in Large Language Models",
+      "abstract": "The human brain is strikingly modular, with distinct networks for language, formal reasoning, social reasoning, and physical reasoning. Is this a fundamental principle of how intelligent systems are built, or an accident of biological evolution? In our latest preprint, we find that a similar modular organization emerges in Large Language Models, another class of intelligent system. Brains and LLMs are shaped by entirely different kinds of optimization (biological evolution vs. gradient descent). That they arrive at the same modular design anyway suggests modularity may be a fundamental property of intelligent systems.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.13567",
+      "pdf_url": "https://arxiv.org/pdf/2608.13567",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Pengrui-Han/LLM_Modularity"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.13567",
+      "scraped_at": "2026-08-18T01:15:15.601691"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "PRM-as-a-Judge 1.5: A Toolkit for Robot Process Assessment",
+    "paper_url": "https://huggingface.co/papers/2608.14284",
+    "authors": [
+      "Ruike Chen",
+      "Yanqing Shen",
+      "Yuyang Liu",
+      "yuheng2000",
+      "BubbleQ"
+    ],
+    "stars": "6",
+    "details": {
+      "title": "PRM-as-a-Judge 1.5: A Toolkit for Robot Process Assessment",
+      "abstract": "An easy-to-use toolkit for fine-grained robot process assessment, with progress-aware metrics, progress judge benchmarking, and visualization tools.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14284",
+      "pdf_url": "https://arxiv.org/pdf/2608.14284",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/YuyangLiu2003/PRM-as-a-Judge"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14284",
+      "scraped_at": "2026-08-18T01:15:17.354307"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "Claim-Level Reliability Assessment for Efficient Test-Time Reasoning",
+    "paper_url": "https://huggingface.co/papers/2608.11994",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Claim-Level Reliability Assessment for Efficient Test-Time Reasoning",
+      "abstract": "We introduce CLR (Claim-Level Reliability Assessment) , a training-free test-time scaling method previously used in VibeThinker-3B . CLR is built on a simple idea that exploits the asymmetry between solving and falsification to improve reasoning reliability. Falsification exploits asymmetric capability requirements. With the same model parameters, establishing correctness through forward search is harder than falsifying a decisive claim. CLR exploits this asymmetry without requiring a stronger model. Claim-level verification improves the signal-to-noise ratio. By focusing on decision-critical claims, CLR reduces the influence of erroneous or irrelevant tokens in a full reasoning trace, making decisive failure signals easier to identify. Falsification compresses the survival space of incorrect reasoning. Rather than explicitly proving which trace is correct, CLR suppresses traces with decisive flaws, allowing more reliable reasoning to naturally emerge in the final consensus. Empirically, this translates into substantial recovery of failed consensus. On GPT-OSS-20B, when at least one correct trace is already present but standard self-consistency still fails, CLR rescues ~37% of such cases on average. On CMIMC25, CLR outperforms standard self-consistency under matched model-call budgets, achieving 82.19% vs. 77.50% while using 37.0% fewer tokens, and delivers a +27.15 pp gain over Pass@1. 📄 Paper: https://arxiv.org/abs/2608.11994 💻 Code: https://github.com/WeiboAI/CLR",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.11994",
+      "pdf_url": "https://arxiv.org/pdf/2608.11994",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/WeiboAI/CLR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.11994",
+      "scraped_at": "2026-08-18T01:15:19.047084"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "Second Thought: Reasoning in Parallel as LLM Agents Act and Observe",
+    "paper_url": "https://huggingface.co/papers/2608.13667",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Second Thought: Reasoning in Parallel as LLM Agents Act and Observe",
+      "abstract": "A new idle window for test-time scaling 😃",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.13667",
+      "pdf_url": "https://arxiv.org/pdf/2608.13667",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.13667",
+      "scraped_at": "2026-08-18T01:15:20.852368"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "Multimodal Model Diffing for Feature Discovery and Control",
+    "paper_url": "https://huggingface.co/papers/2608.09928",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Multimodal Model Diffing for Feature Discovery and Control",
+      "abstract": "We introduce MMDiff, a multimodal model-diffing pipeline to discover task-specific features in MLLMs and enable targeted feature-level control. 🌟 MMDiff diffs a base-LM SAE against a multimodal SAE to isolate vision-adapted features, making it easier to distinguish visually responsive features from representations inherited from the base language model. 🌟 We then identify task-specific features within these vision-adapted features, enabling targeted feature-level steering and ablation of specific model behaviours. 🌟 We apply MMDiff across three MLLM families with different language backbones, vision encoders, and SAE objectives, showing that the pipeline generalizes across LLaVA-MORE, PaliGemma 2, and InternVL3.5. 🌟 We demonstrate targeted control across spatial reasoning, multimodal safety, and OCR, where targeted ablations selectively affect the corresponding behaviours while largely preserving general VQA performance. 🌟 MMDiff provides a practical route to discovering, understanding, and controlling task-specific representations in multimodal models. Project Page: https://pixl.cs.ox.ac.uk/mmdiff/ arXiv: https://arxiv.org/abs/2608.09928",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.09928",
+      "pdf_url": "https://arxiv.org/pdf/2608.09928",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/hunarbatra/MMDiff"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.09928",
+      "scraped_at": "2026-08-18T01:15:22.599936"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "Forecast Collapse in Time-Series Foundation Models",
+    "paper_url": "https://huggingface.co/papers/2608.14106",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Forecast Collapse in Time-Series Foundation Models",
+      "abstract": "We find a surprising failure mode, forecast collapse , of Time Series Foundation Models (TSFMs). Despite their strong performance across general time-series benchmarks, we observe that TSFMs can generate overly smooth or near-constant forecasts that fail to reflect the heterogeneous dynamics of the underlying multivariate series.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14106",
+      "pdf_url": "https://arxiv.org/pdf/2608.14106",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14106",
+      "scraped_at": "2026-08-18T01:15:24.302877"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure",
+    "paper_url": "https://huggingface.co/papers/2608.13545",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure",
+      "abstract": "What happens when an LLM never sees material beyond fifth grade? The 5B LittleLearner model trained from scratch on LittleCurriculum, a corpus restricted to K–5 material, answers this question and allows to test the effect of post-training, prompting and scaling on moving beyond the pretraining knowledge boundary.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.13545",
+      "pdf_url": "https://arxiv.org/pdf/2608.13545",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.13545",
+      "scraped_at": "2026-08-18T01:15:26.066213"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "Scaling Domain Data Repetition in LLM Pretraining",
+    "paper_url": "https://huggingface.co/papers/2608.14071",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Scaling Domain Data Repetition in LLM Pretraining",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14071",
+      "pdf_url": "https://arxiv.org/pdf/2608.14071",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14071",
+      "scraped_at": "2026-08-18T01:15:27.737200"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "Dion3: Full-Stack Orthogonal Updates",
+    "paper_url": "https://huggingface.co/papers/2608.11612",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Dion3: Full-Stack Orthogonal Updates",
+      "abstract": "Dion3 is a full stack optimization of muon-like updates yielding up to an observed factor of 6 reduction in optimizer time and an extra centinat of performance with code available at https://github.com/microsoft/dion . The time improvements include Gram Newton Schulz, Row Selection, Megabatching, Cudagraph Capture, and Symmetric Kernels. The statistical improvements include joint learning rate+fraction optimization, row normalization that works with row selection, and fused rounding. Enjoy :-)",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.11612",
+      "pdf_url": "https://arxiv.org/pdf/2608.11612",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/microsoft/dion"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.11612",
+      "scraped_at": "2026-08-18T01:15:29.422018"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "Agents Catching Agents: Shortcut Cascades and Benchmark Gaming in Clinical Multi-Agent Systems",
+    "paper_url": "https://huggingface.co/papers/2608.03744",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Agents Catching Agents: Shortcut Cascades and Benchmark Gaming in Clinical Multi-Agent Systems",
+      "abstract": "Multi-agent medical AI fails socially, not visually: agents that resist shortcuts alone adopt wrong answers 38% of the time under peer agreement. Independent referees detect it at 77–88% precision.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.03744",
+      "pdf_url": "https://arxiv.org/pdf/2608.03744",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/criticaldata/benchmaxxing"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.03744",
+      "scraped_at": "2026-08-18T01:15:31.116189"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "Verifier-Induced Support Reshaping in On-Policy Optimization",
+    "paper_url": "https://huggingface.co/papers/2608.00220",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Verifier-Induced Support Reshaping in On-Policy Optimization",
+      "abstract": "What happens when on-policy RLVR improves the objective in front of it, but makes successful behavior for the next objective harder to sample? In this paper, we study this effect across mathematical reasoning and constrained instruction following. We call it verifier-induced support reshaping . On IFEval with Qwen3-8B-Base, Math-RLVR raises pass@1 by 6.5 percentage points relative to Base while lowering best@32 by 9.8 points: a random sample succeeds more often, yet fewer prompts remain recoverable across 32 samples. We further find that the largest measured policy shifts concentrate near response openings. In controlled opening interventions, route selection has a causal role in math searchability within the tested settings. We would love to hear whether others have observed similar effects in multi-stage or multi-objective RLVR. Paper: https://arxiv.org/pdf/2608.00220 Code: https://github.com/sylvain-wei/verifier-induced-support-reshaping Project page: https://sylvain-wei.github.io/verifier-induced-support-reshaping/",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.00220",
+      "pdf_url": "https://arxiv.org/pdf/2608.00220",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/sylvain-wei/verifier-induced-support-reshaping"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.00220",
+      "scraped_at": "2026-08-18T01:15:32.906076"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "UniProbe: A Learnable Token-Level Hallucination Detector for Large VLMs using Multi-Structural Internal Representations",
+    "paper_url": "https://huggingface.co/papers/2608.10835",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "UniProbe: A Learnable Token-Level Hallucination Detector for Large VLMs using Multi-Structural Internal Representations",
+      "abstract": "Large Vision-Language Models (LVLMs) achieve impressive visual reasoning and dialogue capabilities, yet frequently hallucinate content unsupported by the visual input. Effective mitigation requires token-level localization, enabling targeted intervention without discarding the entire response. Existing detectors require expensive full-model fine-tuning, rely on external verifiers that ignore the model's generation process, or reduce internal signals to isolated features and hand-crafted statistics, discarding spatial, sequential, and relational structure. We introduce \\textbf{UniProbe}, a lightweight, unified, learnable detector that models a frozen LVLM's heterogeneous computational trace from a single forward pass. UniProbe constructs a directed graph over image patches, query tokens, and generated tokens, with attention weights encoding their relations. It processes this trace with alternating structure-aware modules: a GNN for relational evidence, a ViT for 2-D visual geometry, and a GRU for response order. Interleaving them allows spatial, relational, and sequential evidence to interact throughout the detector. We further develop a streaming variant for hallucination-aware decoding, which detects and resamples hallucinated tokens during generation, and a self-adaptation strategy aligning the detector with the LVLM's own generations. Across diverse LVLM backbones, UniProbe achieves state-of-the-art token-level and object-hallucination detection. During decoding, it reduces object hallucinations by up to 55% at 1.06× the latency of standard generation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.10835",
+      "pdf_url": "https://arxiv.org/pdf/2608.10835",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.10835",
+      "scraped_at": "2026-08-18T01:15:34.582762"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "A Pathway to General-Purpose Scientific AI: Multimodal Comprehension of Scientific Images",
+    "paper_url": "https://huggingface.co/papers/2608.14075",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "A Pathway to General-Purpose Scientific AI: Multimodal Comprehension of Scientific Images",
+      "abstract": "Scientific figures are more than illustrations—they encode the evidence behind scientific claims. This perspective asks what it would take for multimodal AI to move beyond extracting information from figures toward scientific conceptual understanding from images, with reasoning that is grounded, traceable, and verifiable.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14075",
+      "pdf_url": "https://arxiv.org/pdf/2608.14075",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/sciknoworg/sci-imageminer"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14075",
+      "scraped_at": "2026-08-18T01:15:36.267299"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "Nanbeige4.2-3B on Apple Silicon: Fixing Deployment Bugs and Decreasing Looped Transformer Memory Overhead",
+    "paper_url": "https://huggingface.co/papers/2608.13987",
+    "authors": [
+      "John T. Halloran"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Nanbeige4.2-3B on Apple Silicon: Fixing Deployment Bugs and Decreasing Looped Transformer Memory Overhead",
+      "abstract": "Nanbeige4.2-3B (a 3B \"Looped Transformer\" agentic model) has five bugs that block it from loading/running correctly via Hugging Face transformers out of the box, plus a memory ceiling and a system-prompt regression that surface once it does run. We fix what's fixable (chunked prefill, chat-template splice) and measure the rest honestly on MCPMark and BFCL.  Patched checkpoint, harness, and all repro scripts released.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.13987",
+      "pdf_url": "https://arxiv.org/pdf/2608.13987",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/johnhalloran321/Nanbeige4.2-3B-mps-fix"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.13987",
+      "scraped_at": "2026-08-18T01:15:37.994437"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "Amplified Does Not Mean Predictive: Reasoning Behaviors in Thinking Models",
+    "paper_url": "https://huggingface.co/papers/2608.13760",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Amplified Does Not Mean Predictive: Reasoning Behaviors in Thinking Models",
+      "abstract": "Amplified Does Not Mean Predictive: Reasoning Behaviors in Thinking Models Thinking models produce more deliberative traces, but this added deliberation is not concentrated in the behaviors most associated with reasoning correctness. The largest lifts are associated with confidence calibration, knowledge alignment, and self-awareness rather than visible search or hesitation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.13760",
+      "pdf_url": "https://arxiv.org/pdf/2608.13760",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.13760",
+      "scraped_at": "2026-08-18T01:15:39.670657"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "Who Speaks Matters: Authority-Aware Multi-View RAG over Italian Parliamentary Proceedings",
+    "paper_url": "https://huggingface.co/papers/2608.13410",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Who Speaks Matters: Authority-Aware Multi-View RAG over Italian Parliamentary Proceedings",
+      "abstract": "ParliamentRAG is a RAG system over the official records of the Italian Chamber of Deputies (19th legislature): 46.8k speech transcripts, 17.3k roll-call votes and 6.9M individual ballots in a Neo4j knowledge graph. Speaker authority is estimated per query (profession, committee work, acts, roles), retrieval is balanced across all parliamentary groups, and every quotation is verified verbatim against the transcript via offset-based retrieval, so fabricated quotes cannot survive. Accepted at ISWC 2026, In-Use track. Dataset: https://huggingface.co/datasets/emeierkeio/parliamentrag-camera-leg19",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.13410",
+      "pdf_url": "https://arxiv.org/pdf/2608.13410",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Emeierkeio/ParliamentRAG"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.13410",
+      "scraped_at": "2026-08-18T01:15:41.367863"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "UNMASK: Discovering and Causally Verifying Spurious Shortcuts in Text Classifiers",
+    "paper_url": "https://huggingface.co/papers/2608.09209",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "UNMASK: Discovering and Causally Verifying Spurious Shortcuts in Text Classifiers",
+      "abstract": "Language Models are very good at exploiting shortcuts. Existing approaches either require manual specification of the spurious feature or automate discovery only partially. The gap between dataset-level correlation and model-level exploitation is unaddressed.  UNMASK closes that. The pipeline generates candidate shortcuts as executable boolean predicates. has_neg(h) AND overlap(p,h) >= 0.8 is a hypothesis you can run on the corpus - statistically test it, rank it against every other candidate, and reuse the exact same function downstream. Stage 2 repairs them: an evaluator LLM checks each predicate against its actual execution trace and broken ones are rewritten. Survivors run over every training example, and only features passing Fisher's exact test under BH control - replicated on a held-out split get through. But a correlation in the data isn't a shortcut the model uses. Correlation doesn't mean causation right? So we intervene. Generate a minimal edit that removes the surface pattern while preserving the label, then measure the paired shift in predicted probability as causal signal. On MNLI: BERT causally exploits 9 of 10 validated features. RoBERTa only 6. And the strongest correlation in the entire dataset - always/every in premise + never/no in hypothesis, OR 10.01 is used by neither. A high odds ratio is a hypothesis, not a finding. And because the predicates are executable, they hand you group labels for free: 71.84% worst-group accuracy on CivilComments-WILDS, matching hand-labeled DFR, with no additional demographic annotation. For NLI tasks, HANS accuracy improves by up to 12.58 pp. We tried the discovery half at RewardBench2. No debiasing, just which surface predicates separate chosen from rejected and Math's strongest signal is the phrase \"let me help you solve this step by step.\"  OR 22.7. This forces to learn string, not a reasoning style.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.09209",
+      "pdf_url": "https://arxiv.org/pdf/2608.09209",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.09209",
+      "scraped_at": "2026-08-18T01:15:43.054255"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "SPARGen: Unifying Spatial Perception and Reasoning through Native Multimodal Generation",
+    "paper_url": "https://huggingface.co/papers/2608.14138",
+    "authors": [
+      "Kewang Deng",
+      "Siyi Xie",
+      "Jianhua Li",
+      "Jinsheng Quan",
+      "shixuanke"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SPARGen: Unifying Spatial Perception and Reasoning through Native Multimodal Generation",
+      "abstract": "Interesting approach. SPARGen’s main strength seems to be bringing 3D reconstruction, dense correspondence, and spatial reasoning into one unified generative framework instead of treating them as separate tasks. Sharing representations across these related problems could improve knowledge transfer and make spatial understanding more flexible.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14138",
+      "pdf_url": "https://arxiv.org/pdf/2608.14138",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14138",
+      "scraped_at": "2026-08-18T01:15:44.714194"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "Is this Citation on Point?",
+    "paper_url": "https://huggingface.co/papers/2608.12571",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Is this Citation on Point?",
+      "abstract": "In 2023, a New York judge sanctioned two attorneys in Mata v. Avianca for filing a brief with hallucinated citations generated by ChatGPT. Such failures are largely caught by database lookups; the harder problem is detecting citations that point to real cases but do not support the propositions for which they are offered—a failure mode that existing evaluations of LLMs for legal use cases largely overlook. In this paper, we study proposition-level citation support verification through controlled perturbations of real legal citations obtained from two legal corpora, either replacing the cited case or changing only the pinpoint page within the same case. We evaluate fourteen model configurations on the resulting examples. Models catch 93-100% of wrong-case corruptions. They catch only 37-61% of wrong-pinpoint corruptions on court opinions and 52-83% on legal briefs. When models fail to catch wrong-pinpoint corruptions, they accept the citation based on topical overlap rather than page-level support. Scale and extended reasoning narrow the gap but do not close it: GPT-5.4, even with high reasoning effort, still misses 40% of pinpoint mismatches on court opinions and 18% on briefs. Prompting the model to verify support at the cited page improves recall, but it also raises the false positive rate. Recognizing the right legal topic and verifying support for the cited proposition are distinct capabilities, and current models conflate them.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.12571",
+      "pdf_url": "https://arxiv.org/pdf/2608.12571",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.12571",
+      "scraped_at": "2026-08-18T01:15:46.376929"
+    },
+    "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "Generation as Auxiliary Supervision: Enhancing Visual Understanding at Zero Inference Overhead via Decoupled Embedding Prediction",
+    "paper_url": "https://huggingface.co/papers/2608.12209",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Generation as Auxiliary Supervision: Enhancing Visual Understanding at Zero Inference Overhead via Decoupled Embedding Prediction",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.12209",
+      "pdf_url": "https://arxiv.org/pdf/2608.12209",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.12209",
+      "scraped_at": "2026-08-18T01:15:48.280503"
+    },
+    "scraped_date": "2026-08-18"
   }
 ]
