@@ -8845,5 +8845,902 @@
       "scraped_at": "2026-08-18T01:15:48.280503"
     },
     "scraped_date": "2026-08-18"
+  },
+  {
+    "title": "StateM: Reaching 95.3% Raw Accuracy, or a \\$15 Frontier Run, on Terminal-Bench 2.1 via Harness Scaling",
+    "paper_url": "https://huggingface.co/papers/2608.15089",
+    "authors": [
+      "Kai Wang",
+      "Zhangyang Atlas Wang",
+      "Yaxin Lu",
+      "Ziheng Qin"
+    ],
+    "stars": "49",
+    "details": {
+      "title": "StateM: Reaching 95.3% Raw Accuracy, or a \\$15 Frontier Run, on Terminal-Bench 2.1 via Harness Scaling",
+      "abstract": "Harness scaling, a different way to scale agent performance. On Terminal-Bench 2.1, StateM raises GPT-5.5 xhigh to 92.1%, versus 83.1% reference and GPT-5.6 Sol Ultra at 91.9%. The runbook transfers unchanged to GPT-5.6. With GPT-5.6 Sol xhigh, StateM reaches 95.3% raw accuracy across 445 trials and succeeds on all 89 tasks at least once.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.15089",
+      "pdf_url": "https://arxiv.org/pdf/2608.15089",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/henryqin1997/statem"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.15089",
+      "scraped_at": "2026-08-19T01:16:14.798432"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "HarnessEval-W: Agentifying the Evaluation of Visual Worlds",
+    "paper_url": "https://huggingface.co/papers/2608.16859",
+    "authors": [],
+    "stars": "132",
+    "details": {
+      "title": "HarnessEval-W: Agentifying the Evaluation of Visual Worlds",
+      "abstract": "HarnessEval is an agentified evaluation pipeline that brings the harness paradigm from the LLM ecosystem to world model benchmarking. Rather than applying a fixed rubric, HarnessEval interprets the context of each evaluation case, decomposes the evaluation question into measurable sub-questions, and spawns specialized sub-agents, each equipped with tailored context and diagnostic tools to reason over its own sub-question. The parent agent then validates the gathered evidence and aggregates it into the final verdict. Every evaluation becomes a transparent evidence tree whose complete reasoning chain justifies the result.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16859",
+      "pdf_url": "https://arxiv.org/pdf/2608.16859",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/MirroS-Lab/HarnessEval-W"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16859",
+      "scraped_at": "2026-08-19T01:16:16.587417"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "VibeWorlding: Can Multimodal Agents Construct 3D Open Worlds End-to-End?",
+    "paper_url": "https://huggingface.co/papers/2608.15265",
+    "authors": [],
+    "stars": "52",
+    "details": {
+      "title": "VibeWorlding: Can Multimodal Agents Construct 3D Open Worlds End-to-End?",
+      "abstract": "The first agentic RL framework for end-to-end 3D world construction tasks}, providing a unified stack: 2,616 annotated 3D assets, 323 seed 3D worlds, 6,828 user queries, an asset retrieval embedding model, an interactive sandbox environment, a dual-constraint verifier, and a unified agent post-training framework (including both SFT and multimodal RL training)",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.15265",
+      "pdf_url": "https://arxiv.org/pdf/2608.15265",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/usail-hkust/VibeWorlding-Gym"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.15265",
+      "scraped_at": "2026-08-19T01:16:18.375942"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "Large Discovery Models: Empirically-grounded Model-Based Open-Ended Search",
+    "paper_url": "https://huggingface.co/papers/2608.15669",
+    "authors": [],
+    "stars": "15",
+    "details": {
+      "title": "Large Discovery Models: Empirically-grounded Model-Based Open-Ended Search",
+      "abstract": "Discovery happens through repeated rounds of proposing, testing and learning. LDM uses every result to focus the next round, finding promising programs, proteins and molecules with fewer trials.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.15669",
+      "pdf_url": "https://arxiv.org/pdf/2608.15669",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yzailab/Large-Discovery-Models"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.15669",
+      "scraped_at": "2026-08-19T01:16:20.151027"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "Learn What's Left, Not What's Mastered: Saturation Aware Advantage Reweighting for Multi-Reward Policy Optimization",
+    "paper_url": "https://huggingface.co/papers/2608.16072",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Learn What's Left, Not What's Mastered: Saturation Aware Advantage Reweighting for Multi-Reward Policy Optimization",
+      "abstract": "Reinforcement learning (RL) with group-relative advantages has become the de facto standard for post-training language model reasoners. However, when optimizing multiple reward objectives, existing methods typically scalarize the reward vector with a fixed weighted sum before group-wise standardization. We show that this design leads to two fundamental problems: rollouts with distinct reward profiles can receive identical advantages, and all objectives are optimized with fixed relative weights regardless of their current level of saturation. As a result, training continues to allocate gradient budget to already-solved objectives instead of focusing on those with greater remaining headroom. We introduce \\textbf{Saturation Aware Advantage Reweighting for Multi-Reward Policy Optimization} (SA-MRPO), which standardizes each reward objective independently and adaptively discounts its contribution according to a batch-level estimate of objective saturation. This dynamically reallocates optimization effort toward under-optimized objectives while empirically maintaining performance on those that are already well satisfied. We further show that saturation-aware reweighting can reverse the sign of an update, rather than merely rescale its magnitude. Across mathematical reasoning with two- and three-objective reward combinations, SA-MRPO improves the harder correctness objective over GDPO in 12 of 15 benchmark comparisons, with gains of up to $5%$ on AIME24. On adaptive reasoning, it improves accuracy on all five benchmarks by 3.8% on average and up to 9.2% on AMC23, and on coding benchmarks it improves the pass rate by up to 2.3%, while in all settings maintaining the easier objectives near their already satisfied levels.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16072",
+      "pdf_url": "https://arxiv.org/pdf/2608.16072",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16072",
+      "scraped_at": "2026-08-19T01:16:21.927376"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "MOSS-VL Technical Report",
+    "paper_url": "https://huggingface.co/papers/2608.15045",
+    "authors": [],
+    "stars": "436",
+    "details": {
+      "title": "MOSS-VL Technical Report",
+      "abstract": "MOSS-VL treats real-time interaction — perceiving while it speaks — as a first-class capability: vision enters the decoder only through gated cross-attention, so the model keeps watching incoming frames while it generates. Among open-source streaming models it posts the best average on 3 of 4 streaming benchmarks and sweeps all three proactive subsets (66.0 vs. 37.5 on OmniMMI Proactive Alerting), while widening its TTFT advantage over same-backbone Qwen3-VL-8B from 2.8× to 5.1× as visual context grows. All five checkpoints, the training curriculum, and the real-time inference code are released.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.15045",
+      "pdf_url": "https://arxiv.org/pdf/2608.15045",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/OpenMOSS/MOSS-VL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.15045",
+      "scraped_at": "2026-08-19T01:16:23.753142"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "ClawGym II: Exploring Black-Box RL on Agent Harness",
+    "paper_url": "https://huggingface.co/papers/2608.16798",
+    "authors": [],
+    "stars": "36",
+    "details": {
+      "title": "ClawGym II: Exploring Black-Box RL on Agent Harness",
+      "abstract": "Agent harnesses have substantially improved performance on long-horizon tasks by coordinating agent interactions with the environment. However, reinforcement learning through complex harnesses remains largely unexplored, as scaling such training to long-horizon agent tasks introduces fundamental challenges. In this work, we present a unified black-box RL framework for stable and scalable optimization of general agents through complex harnesses. Concretely, we first build a sandbox-based execution infrastructure that isolates task environments and harnesses within temporary sandboxes for large-scale concurrent rollouts. We then decouple policy optimization from opaque harness execution and place a serving proxy at the model boundary to capture model calls. To reconstruct multi-turn trajectories and improve training efficiency, we organize the captured calls into prefix trees and further adapt both critic-based PPO and critic-free GRPO to optimize over the recovered tree structure. Meanwhile, we maintain training-inference consistency throughout the optimization process. Finally, we introduce mix-harness training, allowing a single model to be jointly optimized by heterogeneous harnesses. With Qwen3-30A3B, black-box RL improves Pass@1 on ClawGym-Bench by 9.98 and 14.81 points through OpenClaw and Claude Code, respectively, while remaining stable over 200-400 optimization steps. Moreover, the framework yields consistent gains on more challenging tasks such as JobBench and OfficeQA. Overall, our framework enables effective, stable, and scalable optimization of general agents through black-box harnesses, supporting unified training across heterogeneous execution systems.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16798",
+      "pdf_url": "https://arxiv.org/pdf/2608.16798",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ClawGym",
+        "https://github.com/ClawGym/ClawGym-Agents"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16798",
+      "scraped_at": "2026-08-19T01:16:25.498433"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "UI-Mate: Advancing Open-Weight Foundation GUI Agents with In-Context Demonstrations",
+    "paper_url": "https://huggingface.co/papers/2608.15930",
+    "authors": [],
+    "stars": "39",
+    "details": {
+      "title": "UI-Mate: Advancing Open-Weight Foundation GUI Agents with In-Context Demonstrations",
+      "abstract": "Strong general computer use — plus one demonstration when the instruction alone is not enough.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.15930",
+      "pdf_url": "https://arxiv.org/pdf/2608.15930",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Tencent/UI-Mate"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.15930",
+      "scraped_at": "2026-08-19T01:16:27.328034"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models",
+    "paper_url": "https://huggingface.co/papers/2608.16887",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models",
+      "abstract": "Z-Image-Pixel & Empirical Insight of Training Pixel-Space Diffusion Models",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16887",
+      "pdf_url": "https://arxiv.org/pdf/2608.16887",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16887",
+      "scraped_at": "2026-08-19T01:16:29.057747"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "Agentic Transaction: Towards ACID-Compliant Agent Systems",
+    "paper_url": "https://huggingface.co/papers/2608.13900",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "Agentic Transaction: Towards ACID-Compliant Agent Systems",
+      "abstract": "Can LLM agents have transactions like databases? • Agentic Transaction — a transactional abstraction for reliable long-horizon LLM agent execution. • ACID for Agents — Semantic Atomicity, Consistency, Isolation, and Durability. • ACID-Agent — a concrete data-agent system that realizes these guarantees in real-world data analysis. • +10.6% over Claude Code on KramaBench.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.13900",
+      "pdf_url": "https://arxiv.org/pdf/2608.13900",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/TsinghuaDatabaseGroup/ACID-Agent"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.13900",
+      "scraped_at": "2026-08-19T01:16:30.757531"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "Advancing Open and Reproducible Relational Learning: RelArena-α, TabPFN-Rel and RPI",
+    "paper_url": "https://huggingface.co/papers/2608.16319",
+    "authors": [],
+    "stars": "29",
+    "details": {
+      "title": "Advancing Open and Reproducible Relational Learning: RelArena-α, TabPFN-Rel and RPI",
+      "abstract": "We’re happy to announce our first release in relational learning at Prior Labs, continuing our commitment to open science. We open-source three pieces of software that we expect to accelerate research in the field towards meaningful, real-world impact. First and foremost, we release 𝗥𝗲𝗹𝗔𝗿𝗲𝗻𝗮-α: a unified framework for running and comparing baselines on RelBench v1 tasks. Based on learnings from tabular benchmarks like TabArena, we are standardizing data loading, evaluation protocols, tuning regimes, and adding support for systems with custom tuning. We also open-source 𝗧𝗮𝗯𝗣𝗙𝗡-𝗥𝗲𝗹: our relational harness for TabPFN-3. We initialize the (living) RelArena-α leaderboard with TabPFN-Rel and a comprehensive set of baselines. The rankings at the time of release are: • 𝗧𝗮𝗯𝗣𝗙𝗡-𝗥𝗲𝗹 is the No. 1 model submission • 𝗥𝗧-𝗣𝗹𝘂𝗥𝗲𝗹 is the No. 1 system submission Last but not least, we open-source an alpha version of the 𝗥𝗲𝗹𝗮𝘁𝗶𝗼𝗻𝗮𝗹 𝗣𝗿𝗲𝗱𝗶𝗰𝘁𝗶𝘃𝗲 𝗜𝗻𝘁𝗲𝗿𝗳𝗮𝗰𝗲 (𝗥𝗣𝗜): enabling you to easily specify prediction tasks on your own relational database and then run any RelArena-α model, like TabPFN-Rel, in a few lines of code, all bundled as a simple PyPI package.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16319",
+      "pdf_url": "https://arxiv.org/pdf/2608.16319",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/PriorLabs/relarena"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16319",
+      "scraped_at": "2026-08-19T01:16:32.506941"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "How Do Agents Fail on AutoResearch: End-to-End Diagnostic Evaluation on 100 Real-World Frontier Research Tasks",
+    "paper_url": "https://huggingface.co/papers/2608.14905",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "How Do Agents Fail on AutoResearch: End-to-End Diagnostic Evaluation on 100 Real-World Frontier Research Tasks",
+      "abstract": "How do agents fail at autonomous research? We stress-tested them on 100 real frontier-research tasks (800 trajectories, 8 harness–model combos). Every failure traced back to one thing — agents can't self-doubt or self-correct. The bottleneck is metacognition, not capability. We release ARFT, a taxonomy of 45 failure modes.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14905",
+      "pdf_url": "https://arxiv.org/pdf/2608.14905",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14905",
+      "scraped_at": "2026-08-19T01:16:34.222915"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "GenRouter: Unified Workflow Routing for Agentic Image Generation",
+    "paper_url": "https://huggingface.co/papers/2608.16721",
+    "authors": [
+      "Yingjie Xu",
+      "Weilin Ruan",
+      "Wen-Jie Shu",
+      "Zhiyu Hou",
+      "Harold328"
+    ],
+    "stars": "22",
+    "details": {
+      "title": "GenRouter: Unified Workflow Routing for Agentic Image Generation",
+      "abstract": "GenCanvas: The first unified workflow space that standardizes the execution paradigm of agentic image generation. It systematically deconstructs the generative process into universal foundational primitives ( e.g. , search, reason, verify, and sketch) and establishes a scalable library of workflow templates. GenRouter: A dynamic, self-evolving workflow router driven by demand profiling, memory-guided utility matching, and Pareto filtering. It seamlessly pairs diverse heterogeneous prompts with optimal execution plans to balance visual performance and computational cost.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16721",
+      "pdf_url": "https://arxiv.org/pdf/2608.16721",
+      "github_links": [
+        "https://github.com/EnVision-Research/GenRouter",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16721",
+      "scraped_at": "2026-08-19T01:16:35.931923"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "Understanding Cognition-Induced Risks in Agentic AI Systems",
+    "paper_url": "https://huggingface.co/papers/2608.15304",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Understanding Cognition-Induced Risks in Agentic AI Systems",
+      "abstract": "Frontier agentic systems powered by large language models (LLMs) exhibit human-like patterns of cognition. As these systems become deeply integrated across different domains, their cognitive engagement raises critical concerns for human society that remain insufficiently studied. To address this gap, we systematically analyze risks induced by expanding cognitive capabilities. Join us in exploring and discussing this problem!",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.15304",
+      "pdf_url": "https://arxiv.org/pdf/2608.15304",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.15304",
+      "scraped_at": "2026-08-19T01:16:37.646705"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "MegaParts: Scaling Part-Aware 3D Object Generation to 300 Parts via Token-Efficient Autoregressive Modeling",
+    "paper_url": "https://huggingface.co/papers/2608.14783",
+    "authors": [],
+    "stars": "515",
+    "details": {
+      "title": "MegaParts: Scaling Part-Aware 3D Object Generation to 300 Parts via Token-Efficient Autoregressive Modeling",
+      "abstract": "Paper: https://arxiv.org/abs/2608.14783 Github: https://github.com/InternRobotics/MeshCoder Project Page: https://expmaster.github.io/megaparts_webpage/",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14783",
+      "pdf_url": "https://arxiv.org/pdf/2608.14783",
+      "github_links": [
+        "https://github.com/InternRobotics/MeshCoder",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14783",
+      "scraped_at": "2026-08-19T01:16:39.478486"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "GRNEdit: Efficient General Video Editing from a New Binary-Evidence Perspective in Generative Refinement Networks",
+    "paper_url": "https://huggingface.co/papers/2608.16328",
+    "authors": [
+      "Yuxuan Chen",
+      "Zepeng Wang",
+      "Fuhao Li",
+      "Jiagao Hu",
+      "Feng Xie"
+    ],
+    "stars": "13",
+    "details": {
+      "title": "GRNEdit: Efficient General Video Editing from a New Binary-Evidence Perspective in Generative Refinement Networks",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16328",
+      "pdf_url": "https://arxiv.org/pdf/2608.16328",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Foxerity/GRNEdit"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16328",
+      "scraped_at": "2026-08-19T01:16:41.197823"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "Ventor-QTest: Threat-Model-Driven Verification of Vendor-Hosted LLM APIs",
+    "paper_url": "https://huggingface.co/papers/2608.16391",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Ventor-QTest: Threat-Model-Driven Verification of Vendor-Hosted LLM APIs",
+      "abstract": "As large language models become increasingly widespread, third-party providers that deploy open-weight models have become an important part of the ecosystem.  Auditing the quality of their inference APIs is therefore an open problem.  We formalize hosted model routing as a stochastic process and propose Ventor-QTest, a composite black-box audit that requires no probability information from the target API.  Its repeated-request component sends each frozen constrained context to the target multiple times, reconstructs a categorical output distribution from the returned text counts, and reports average fidelity loss(AFL) as a null-bias-corrected, within-window mean coarsened-KL statistic.  Its long-sequence component uses independent runs to report extreme fidelity loss (EFL) through the empirical upper tail of a run-level reference-centered-surprisal statistic.  Across three logprob-capable route conditions, AFL shows strong linear descriptive agreement with a logprob-derived coarsened-KL comparator.  Across seven route snapshots, 20-run sequence probes reveal route-specific EFL variation.  AFL and EFL have little detectable route-level association with GPQA-Diamond accuracy.  In contrast, pronounced EFL coincides with a decline in Terminal-Bench pass rate as task exposure increases.  This pattern may arise because correctness in long-horizon tasks is more sensitive to extreme fidelity loss.  These results motivate reporting AFL and EFL jointly, particularly when auditing long-horizon agentic tasks.  The open-source implementation is available at \\url{ https://github.com/Tencent/AI-Infra-Guard/tree/main/services/api_checker/ventor_qtest} .",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16391",
+      "pdf_url": "https://arxiv.org/pdf/2608.16391",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Tencent/AI-Infra-Guard/tree/main/services/api_checker/ventor_qtest%7D"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16391",
+      "scraped_at": "2026-08-19T01:16:43.015977"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "R^3-Bench: LLMs Struggle with Resource-Rational Reasoning under Shared Budgets",
+    "paper_url": "https://huggingface.co/papers/2608.16033",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "R^3-Bench: LLMs Struggle with Resource-Rational Reasoning under Shared Budgets",
+      "abstract": "Can LLMs spend a shared reasoning budget wisely? R³-Bench : A benchmark for resource-rational reasoning under shared computational budgets. Six-problem contests : Math, competitive programming, and abstract reasoning tasks compete for one shared token or action budget. Competence vs. allocation : A same-model empirical oracle compares contest performance with each model's demonstrated single-problem capability. Unrealized headroom in 71/72 cells : The oracle strictly outperforms the model's own contest allocation in 71 main-result cells and ties in one. Tools are not enough : Online strategy updates remain limited; lightweight schedulers help in 6/9 strong-pressure model-domain cases, but no scheduler works universally. Paper: https://arxiv.org/abs/2608.16033 Code: https://github.com/NineAbyss/R-3-Bench Dataset: https://huggingface.co/datasets/R-3-Bench/R-3-Bench",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16033",
+      "pdf_url": "https://arxiv.org/pdf/2608.16033",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/NineAbyss/R-3-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16033",
+      "scraped_at": "2026-08-19T01:16:44.807439"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "Improving the matrix multiplication exponent with modern optimization and AlphaEvolve",
+    "paper_url": "https://huggingface.co/papers/2608.16884",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Improving the matrix multiplication exponent with modern optimization and AlphaEvolve",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16884",
+      "pdf_url": "https://arxiv.org/pdf/2608.16884",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16884",
+      "scraped_at": "2026-08-19T01:16:46.496860"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "PACE-Bench: Benchmarking Physics Adaptation via Code Evolution in Dynamic Environments",
+    "paper_url": "https://huggingface.co/papers/2608.14441",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "PACE-Bench: Benchmarking Physics Adaptation via Code Evolution in Dynamic Environments",
+      "abstract": "Self-evolving agents promise to improve through interaction. Yet most benchmarks keep execution conditions fixed. Adaptation matters when past success stops working. If the environment changes, can an agent recover? Introducing PACE-Bench. Code & Benchmark: https://github.com/thunlp/PACE-Bench Project: https://github.com/thunlp/PACE-Bench Paper: https://arxiv.org/pdf/2608.14441",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14441",
+      "pdf_url": "https://arxiv.org/pdf/2608.14441",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/thunlp/PACE-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14441",
+      "scraped_at": "2026-08-19T01:16:48.222967"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "TRACE-Bench: Decomposing and Diagnosing Multi-Reference Image Generation",
+    "paper_url": "https://huggingface.co/papers/2608.16765",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "TRACE-Bench: Decomposing and Diagnosing Multi-Reference Image Generation",
+      "abstract": "Despite recent advances in unified multimodal models for multi-reference image generation, existing benchmarks remain organized around predefined task types (e.g., \"subject composition\"), which are ill-suited to this combinatorial setting and lead to fragmented coverage, uncontrolled complexity, and little diagnostic value. Recognizing that diverse multi-reference tasks share a common set of atomic operations, we adopt a capability-oriented perspective and formalize four operators: Anchor (f), Disentangle (g), Apply (⊕), and Compose (C). Any multi-reference prompt can then be represented as a compositional formula over these operators, whose structural complexity is quantified by the number of operator slots. Building on this formulation, we construct TRACE-Bench, comprising approximately 1,600 evaluation cases across slot counts 1--8, built from 631 formula templates and around 4,000 reference images spanning diverse artistic styles and real-world subjects. The formula structure directly drives an operator-aligned evaluation protocol for per-capability scoring and a diagnostic tree analysis for recursive failure localization. Evaluating 9 leading models reveals insights invisible to holistic scoring: the primary bottleneck lies in disentanglement (g) and attribute binding (⊕) rather than scene-level composition (C), with even the best model scoring only 0.74 on attribute fidelity.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16765",
+      "pdf_url": "https://arxiv.org/pdf/2608.16765",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Amuseum-WHR/TraceBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16765",
+      "scraped_at": "2026-08-19T01:16:49.955664"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "VideoGAIA: A Benchmark for General AI Assistants on Agentic Video Understanding",
+    "paper_url": "https://huggingface.co/papers/2608.14718",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "VideoGAIA: A Benchmark for General AI Assistants on Agentic Video Understanding",
+      "abstract": "Code: https://github.com/zfkarl/VideoGAIA Data: https://huggingface.co/datasets/Karl28/VideoGAIA",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14718",
+      "pdf_url": "https://arxiv.org/pdf/2608.14718",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/zfkarl/VideoGAIA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14718",
+      "scraped_at": "2026-08-19T01:16:51.652847"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "AnyTalk: Speech Animation for Arbitrary Characters Leveraging a Video Generation Model",
+    "paper_url": "https://huggingface.co/papers/2608.16143",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "AnyTalk: Speech Animation for Arbitrary Characters Leveraging a Video Generation Model",
+      "abstract": "Speech Animation using Video Diffusion Model Project page : { https://serin-yoon.github.io/projects/anytalk/} Code : { https://github.com/kwanyun/AnyTalk_CsF}",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16143",
+      "pdf_url": "https://arxiv.org/pdf/2608.16143",
+      "github_links": [
+        "https://github.com/kwanyun/AnyTalk_CsF%7D",
+        "https://github.com/huggingface",
+        "https://github.com/kwanyun/AnyTalk_CsF"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16143",
+      "scraped_at": "2026-08-19T01:16:53.356390"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "NaviDC-OCR: Navigating Document Parsing Across Digital and Camera-Captured Documents",
+    "paper_url": "https://huggingface.co/papers/2608.12898",
+    "authors": [],
+    "stars": "20",
+    "details": {
+      "title": "NaviDC-OCR: Navigating Document Parsing Across Digital and Camera-Captured Documents",
+      "abstract": "code： https://github.com/caipeng328/NaviDC-OCR paper： https://arxiv.org/pdf/2608.12898 huggingface： https://huggingface.co/StarDoc-AI/NaviDC-OCR",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.12898",
+      "pdf_url": "https://arxiv.org/pdf/2608.12898",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/caipeng328/NaviDC-OCR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.12898",
+      "scraped_at": "2026-08-19T01:16:55.068942"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "ConceptFormer: Learning Adaptive Latent Concepts for Query-Document Alignment in Visual Document Retrieval",
+    "paper_url": "https://huggingface.co/papers/2608.15698",
+    "authors": [
+      "Yu Shi",
+      "Liu Zhenghao",
+      "Yan Yukun",
+      "Xu Zhipeng",
+      "hmhm1229"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "ConceptFormer: Learning Adaptive Latent Concepts for Query-Document Alignment in Visual Document Retrieval",
+      "abstract": "Visual document retrieval is a critical component of multimodal retrieval-augmented generation, aiming to identify query-relevant pages from document collections where evidence is distributed across text, layout, charts, and visual structures. Recent efforts toward finer-grained supervision primarily rely on textual descriptions or localized visual regions as evidence proxies. However, such supervision signals may either overlook complex visual structures or provide incomplete and inaccurate representations of the underlying evidence. To address these limitations, we propose ConceptFormer, a latent concept representation learning framework for visual document retrieval. ConceptFormer models query-relevant evidence as continuous, query-conditioned latent concepts that explicitly bridge localized visual evidence and semantic relevance, without requiring either textual intermediate representations or direct reliance on raw visual annotations. During training, ConceptFormer employs a strong vision-language model to dynamically determine the number of latent concept tokens and uses these concepts as an intermediate representation to bridge the semantic gap between queries and documents, thereby guiding the learning of the embedding space. Experiments on diverse visual document retrieval benchmarks demonstrate that ConceptFormer achieves 16.7% and 22.1% relative improvements in average NDCG@10 over the strongest visual retrieval baseline and the strongest OCR-based text retrieval baseline, respectively. Further analysis reveals that latent concepts effectively connect localized visual evidence with semantic relevance, enabling the retriever to capture both fine-grained textual cues and complex document-level visual structures while preserving strong retrieval alignment.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.15698",
+      "pdf_url": "https://arxiv.org/pdf/2608.15698",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/NEUIR/ConceptFormer"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.15698",
+      "scraped_at": "2026-08-19T01:16:56.777770"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "Beyond Visual CoT: Internalized Visual Thinking for Proactive Video Reasoning",
+    "paper_url": "https://huggingface.co/papers/2608.15869",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Beyond Visual CoT: Internalized Visual Thinking for Proactive Video Reasoning",
+      "abstract": "This paper introduces Internalized Visual Thinking (IVT), a post-training framework for proactive video reasoning that learns to predict future visual representations during training while retaining direct-answer inference. IVT consistently improves over text-only post-training across early- and next-event prediction tasks, matches or outperforms explicit Visual CoT on most settings, and reduces end-to-end inference latency by more than 5×.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.15869",
+      "pdf_url": "https://arxiv.org/pdf/2608.15869",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.15869",
+      "scraped_at": "2026-08-19T01:16:58.487059"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "ENTLORE: A Graph-Grounded Benchmark for Latent Organizational Reasoning in Enterprise Question Answering",
+    "paper_url": "https://huggingface.co/papers/2608.10679",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "ENTLORE: A Graph-Grounded Benchmark for Latent Organizational Reasoning in Enterprise Question Answering",
+      "abstract": "a benchmark framework that evaluates enterprise question answering by requiring recovery of implicit organizational relations across routine documents, revealing that even with gold sources many latent reasoning questions remain unanswered.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.10679",
+      "pdf_url": "https://arxiv.org/pdf/2608.10679",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/scitix/entlore"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.10679",
+      "scraped_at": "2026-08-19T01:17:01.449162"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "Prior Audit-Repair Context Shifts LLM Verifier Thresholds Toward Leniency",
+    "paper_url": "https://huggingface.co/papers/2608.16003",
+    "authors": [
+      "Kasra Mazaheri",
+      "parsa-mz"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Prior Audit-Repair Context Shifts LLM Verifier Thresholds Toward Leniency",
+      "abstract": "A verifier that flags fewer errors has not necessarily become more accurate. It may only have moved its threshold. We looked for the accuracy gain on three open-weight models, at the quantity the improvement account predicts - discrimination - and it is not there. What we find instead is leniency: The episode moves the threshold. A completed audit --> repair episode already in context lowers false alarms by 2.8 to 11.5 pp against a length-matched non-audit control, in 15 of 15 model x wording combinations, with the present task held byte-identical. Discrimination does not follow. The criterion moves in 15 of 15 and survives correction in 13. d' survives in 0 of 15, though its test is half as sensitive by construction. Polarity does not explain it. An episode whose audit reported an error is more lenient still - the opposite sign to what the accumulated-message literature predicts. The caution is about placement: be wary of putting a verifier in a context where it has already carried out the kind of repair it is about to judge. Code: https://github.com/parsa-mz/crtitxer",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16003",
+      "pdf_url": "https://arxiv.org/pdf/2608.16003",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/parsa-mz/crtitxer"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16003",
+      "scraped_at": "2026-08-19T01:17:03.137104"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "Drive, Pack, Fly: The Travelling Thief Problem with Drone",
+    "paper_url": "https://huggingface.co/papers/2608.16435",
+    "authors": [
+      "Abhay Sobhanan",
+      "Kabir Murjani"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "Drive, Pack, Fly: The Travelling Thief Problem with Drone",
+      "abstract": "In collection operations, accumulating payload progressively slows the vehicle, imposing a cumulative penalty on routing efficiency. An onboard drone can offset this penalty by retrieving outlying items, thereby shortening the makespan and increasing operational profit. However, travel time remains load-dependent, and each item collected by the ground vehicle shifts the arrival times that govern the drone's launch and rendezvous points. This paper introduces the Travelling Thief Problem with Drone (TTP-D), which maximises the collected profit, net of a time-based rental cost, by jointly optimising item selection, vehicle routing, and flight synchronisation. We formulate a mixed-integer linear program that solves small instances to optimality, and develop both metaheuristics and an attention-based Deep Reinforcement Learning (DRL) policy for larger instances. We further propose a learner-initialised hybrid solver, in which the DRL policy constructs an initial solution that a short annealing run subsequently refines. On two benchmark sets, this hybrid recovers most of the metaheuristic baseline's quality at a fraction of its computational budget, although the largest instances still require the baseline at its full budget. Finally, a sensitivity analysis reveals that the rental ratio is the primary driver of profitability, whereas the fleet parameters affect profit only at the margin.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16435",
+      "pdf_url": "https://arxiv.org/pdf/2608.16435",
+      "github_links": [
+        "https://github.com/corbit-lab/ttpd",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16435",
+      "scraped_at": "2026-08-19T01:17:04.810985"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "Gathered, Not Admitted: How Attention Brings a Latent Variable into Verbalizable Form",
+    "paper_url": "https://huggingface.co/papers/2608.15022",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Gathered, Not Admitted: How Attention Brings a Latent Variable into Verbalizable Form",
+      "abstract": "A latent variable does not reach a language model's self-report because a gate opens. It gets there because attention carries it. We looked for that gate on an open-weight model, at the position the account predicts, and it is not there. What we find instead is transport: Availability is not the variable. One shared linear probe decodes the latent in every arm, including the arm needing it for nothing, at 6.4-9.0x its corrected floor. Demand changes visibility, not presence. Attention does the carrying. At matched readout distance, transport concentrates in a mid-depth window by >=17x over anywhere shallower. No tested MLP contributes positively inside it.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.15022",
+      "pdf_url": "https://arxiv.org/pdf/2608.15022",
+      "github_links": [
+        "https://github.com/parsa-mz/innerj",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.15022",
+      "scraped_at": "2026-08-19T01:17:06.631131"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "DumpsterCluster: From Dumpster Diving to Serving LLaMA-70B on $60 GPUs",
+    "paper_url": "https://huggingface.co/papers/2608.14614",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DumpsterCluster: From Dumpster Diving to Serving LLaMA-70B on $60 GPUs",
+      "abstract": "Turns out you can use very very old hardware to serve relatively large models with a magnitude reduction in throughput",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14614",
+      "pdf_url": "https://arxiv.org/pdf/2608.14614",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14614",
+      "scraped_at": "2026-08-19T01:17:08.375856"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "Plausible but Not Valid: A Psychometric Audit of LLMs as Synthetic Survey Respondents",
+    "paper_url": "https://huggingface.co/papers/2608.14606",
+    "authors": [
+      "Viktorija Šarkauskaitė",
+      "MLukauskas"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Plausible but Not Valid: A Psychometric Audit of LLMs as Synthetic Survey Respondents",
+      "abstract": "LLMs can generate very plausible survey responses - but are they psychometrically valid? We find that plausibility often hides unstable constructs, weak reliability, and poor agreement with real human response patterns. The paper was originally submitted to arXiv in July, but remained on moderation hold and was only publicly released today.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14606",
+      "pdf_url": "https://arxiv.org/pdf/2608.14606",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14606",
+      "scraped_at": "2026-08-19T01:17:10.050101"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "HarmProfile: Characterizing Harmful Distributions in Frontier LLMs",
+    "paper_url": "https://huggingface.co/papers/2608.14577",
+    "authors": [
+      "Xiao Liu",
+      "Xiang Zheng",
+      "Yutao Wu",
+      "Zhouyuan Ma",
+      "hanxunh"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "HarmProfile: Characterizing Harmful Distributions in Frontier LLMs",
+      "abstract": "HarmProfile is a benchmark dataset that characterizes frontier LLM safety failures through content analysis, revealing that harmfulness and diversity increase with model capability.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14577",
+      "pdf_url": "https://arxiv.org/pdf/2608.14577",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/fresh-ma/HarmProfile"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14577",
+      "scraped_at": "2026-08-19T01:17:11.708693"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "A Plug-and-Play 2D Motion Interface for Real-World Motion Language Models",
+    "paper_url": "https://huggingface.co/papers/2608.15984",
+    "authors": [
+      "Norimichi Ukita",
+      "KanameYOkoYAMA"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "A Plug-and-Play 2D Motion Interface for Real-World Motion Language Models",
+      "abstract": "Plug-and-play 2D motion interface for real-world Motion Language Models",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.15984",
+      "pdf_url": "https://arxiv.org/pdf/2608.15984",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/irajisamurai/2D-Motion-Interface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.15984",
+      "scraped_at": "2026-08-19T01:17:13.423178"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "WorldRover: A Scalable Synthetic Video Data Engine for World Exploration with Rich Annotations",
+    "paper_url": "https://huggingface.co/papers/2608.15659",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "WorldRover: A Scalable Synthetic Video Data Engine for World Exploration with Rich Annotations",
+      "abstract": "A Scalable Synthetic Video Data Engine for World Exploration with Rich Annotations",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.15659",
+      "pdf_url": "https://arxiv.org/pdf/2608.15659",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.15659",
+      "scraped_at": "2026-08-19T01:17:15.107535"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "Accuracy and Order Sensitivity Diverge Under Label-Free Strategies",
+    "paper_url": "https://huggingface.co/papers/2608.11947",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Accuracy and Order Sensitivity Diverge Under Label-Free Strategies",
+      "abstract": "We study how MCQ accuracy and sensitivity to option order can diverge under label-free evaluation strategies. Alongside the paper, we release ChoiceBench, a modular open-source framework for evaluating and comparing MCQ evaluation methods across models and benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.11947",
+      "pdf_url": "https://arxiv.org/pdf/2608.11947",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/cotenthusiast/choicebench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.11947",
+      "scraped_at": "2026-08-19T01:17:16.773966"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "When Context Bites: Detecting RAG Poisoning via Document-Level Attention Collapse",
+    "paper_url": "https://huggingface.co/papers/2608.06947",
+    "authors": [
+      "Yu-Cheng Chang",
+      "Xiao Luo",
+      "Yiwei Fu",
+      "Ziyi Zhao",
+      "An998"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "When Context Bites: Detecting RAG Poisoning via Document-Level Attention Collapse",
+      "abstract": "RAG poisoning attacks can manipulate LLM outputs by injecting malicious documents into the retrieval context. Existing detectors often rely on output uncertainty, which can fail when poisoned generations appear deceptively confident. In this work, we uncover Attention Collapse, a distinctive internal signature of RAG poisoning. Under attack, the model's attention becomes increasingly concentrated on poisoned documents, leading to a measurable drop in document-level attention entropy. Based on this observation, we introduce D-SCAN (Document-level Signal Collapse Analysis), a lightweight detection framework that monitors attention dynamics to identify poisoned generations. D-SCAN performs effectively across multiple attack benchmarks and can even detect attacks that do not successfully change the model's final answer.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.06947",
+      "pdf_url": "https://arxiv.org/pdf/2608.06947",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.06947",
+      "scraped_at": "2026-08-19T01:17:18.434600"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "Position: AI Agents in Scientific Teams Should Be Studied as Human-Agent Systems",
+    "paper_url": "https://huggingface.co/papers/2608.14667",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Position: AI Agents in Scientific Teams Should Be Studied as Human-Agent Systems",
+      "abstract": "This position paper argues that AI agents used in scientific discovery should be studied as human-agent systems, not just evaluated on their standalone capabilities. The authors review current \"AI Scientist\" systems and find most only let humans set goals and check final outputs, missing the back-and-forth collaboration real science teams rely on. They point to concrete risks of this gap: hallucinated citations showing up in accepted NeurIPS and ACL papers, a documented drop in topic diversity when AI assists research, and signs of de-skilling among junior scientists who lean too heavily on AI tools. Two case studies (writing up a theorem with Gemini 3 Pro, and modeling thermonuclear burn with GPT-5) show how humans and agents can genuinely complement each other when experts stay actively involved. The paper ends with a simple framework for measuring collaboration benefit versus coordination cost, and calls for more research into human-AI synergy specifically for scientific discovery.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14667",
+      "pdf_url": "https://arxiv.org/pdf/2608.14667",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14667",
+      "scraped_at": "2026-08-19T01:17:20.091858"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "Valid Per-Field Selective Risk Control for Document Extraction: Three Failure Modes, a Validity Ladder, and When Conditioning Pays",
+    "paper_url": "https://huggingface.co/papers/2608.14639",
+    "authors": [
+      "Bhaskar Gurram"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Valid Per-Field Selective Risk Control for Document Extraction: Three Failure Modes, a Validity Ladder, and When Conditioning Pays",
+      "abstract": "Author here (Bhaskar Gurram, Zasti AI). The abstract is dense, so here's what the paper actually argues. The claim \"Accept a field only if the error rate among accepted fields stays under α\" is the trust contract every document-extraction system implicitly sells. The standard way to implement it — fit a confidence score, hold out a calibration split, take the smallest add-one-smoothed threshold with empirical selective risk ≤ α — silently violates that contract on real documents. Not visibly. Not in a way your dashboard catches. Testbed: 13,859 genuine claude-sonnet-5 fields from 800 CORD receipts, of which only 49.0% are correct. Deliberately hard, deliberately real. Three failure modes, each pinned by a counterfactual 1. Document clustering. Fields aren't exchangeable — errors arrive in document-shaped clumps. Measured design effect 1.84–2.45 , so your effective calibration sample is roughly half its nominal size. A clean-fit control (score fit on held-out docs) still overshoots at risk 0.105 in 50% of splits, which isolates clustering from the next failure. 2. Score-refit leakage. Fit a high-capacity score and its threshold on the same fields and the score's optimism transfers straight into the threshold: coverage 0.416 at risk 0.127, violating nominal α=0.10 in 95% of splits. It looks spectacular. It's invalid. A 5-parameter logistic barely overfits (0.105) — which is exactly why nobody notices until score capacity grows. 3. Tie-mass pathology. A degenerate score distribution collapses the threshold grid. Our first capture silently shipped an all-zero entailment column; the fused score went from 1,702 distinct values to 257, with tie masses of 221 and 183 fields at the acceptance head. A threshold takes a tie mass whole or not at all, so no certificate existed at any confidence level. Counterfactually reproduced by zeroing that one signal on the intact dump: certified coverage 0.030 → 0.001. The validity ladder The fixes are organized as tiers, each row stating its own estimand, assumption, and violation fraction — because these bound different functionals under different assumptions and shouldn't be read as one price curve. tier guarantee coverage risk viol 1. practical (learned score) E[sel. risk] ≤ α, field 0.318 0.096 0.475 2. shared low-capacity fusion E[sel. risk] ≤ α, field 0.212 0.095 0.35 3. rigorous field-iid PAC P(group risk > α) ≤ δ 0.171 0.068 0.03 — cluster-corrected same, n_eff = n/deff 0.140 0.051 0.00 4. rigorous doc-iid PAC P(macro doc risk > α) ≤ δ 0.060 0.020 0.00 The vocabulary matters: tiers 1–2 control expected risk; only tiers 3–4 certify. Tier 1's 47.5% violation rate isn't a bug — that's what a mean-controlled bound sitting near its boundary looks like. If you need P(violation) ≤ δ, you buy tier 3 and pay 0.318 → 0.171. Tier 4 is the only tier whose assumptions actually match documents, and it is near-vacuous today — 0.060 coverage, certifying nothing in 19/40 splits. We lead with that rather than bury it. Powered document-level PAC procedures are the named open problem. When conditioning pays A two-regime law, with mechanism and scope: With a learned score, covariates belong in the score. A tree fusion splits on the covariate internally and equalizes per-group scales, so external Mondrian conditioning only fragments the threshold sample. It's actively harmful here (−0.062 / −0.036 coverage, p < 10⁻⁴). With a weak or frozen score, covariates belong in the taxonomy — and pay precisely where a pooled threshold cannot certify at the target α. On CORD, support-bin 0.171 vs pooled 0.091–0.098 at the rigorous tier. Formalized at the ρ=0 boundary (Props. 1–3); the sign prediction is verified on all three corpora, though n=3 corpora is n=3. What we're careful not to claim Provenance conditioning wins every rigor tier on the sonnet CORD capture (p < 10⁻⁴, Bonferroni-corrected over taxonomies) — and the same win collapses on the identical documents under haiku or Qwen2.5-14B , where the practical-tier winners are field-type taxonomies instead. That counterexample is printed in §7, not hidden. It's the boundary of the claim. What does transfer: a frozen configuration, executed once with no tuning on selection-untouched captures, held at both risk levels on claude-haiku-4-5 (0.167 at 0.093) and on open-weights Qwen (0.149 at 0.099). Across both untouched captures the risk contract never failed — what varies is coverage, which tracks signal quality. And the guarantee survives contact with humans: three blind annotators (Fleiss' κ=0.83) re-judged 149 fields from the accepted set. Human-verified selective risk: 2/149 = 1.3%, against a 10% budget. The automatic calibration labels err one-sidedly pessimistic (21% of auto-flagged errors are actually correct, 0% false-optimism), so thresholds fit against them are conservative. The price of rigor Certified coverage retained vs the invalid folklore baseline: 0% at α=0.05, 28% at 0.10, 42% at 0.15, 84% at 0.20. Rigor is a knob, and its cost collapses as the risk budget grows. That's the operating guidance, not a footnote. Artifact Apache-2.0, seed-pinned, regression-gated: https://github.com/bhaskargurram-ai/verifydoc pip install verifydoc\nmake results # regenerates every number in the paper from configs/ 40 fixed document-level splits (seed 7), bit-exact sanity gates chained across experiments, a 463/624-cells-bit-identical regression check — and full forensics on a capture-stage data defect in Appendix B, including how it was found and what it invalidated. Try it with no install: 🤗 https://huggingface.co/spaces/bhaskar1225/verifydoc Companion benchmark paper ( VerifyDocBench ) owns the datasets, labeling protocol, reliability audit, and the per-model measurement study. This paper owns the procedures, guarantees, diagnoses, and characterization. We claim no new conformal theory — the machinery is classical (Vovk 2003; Angelopoulos 2021, 2024). The contribution is the diagnoses, the protocol, the certified application, and the two-regime characterization. Open question I'd genuinely like input on: tier 4 is the assumption-honest tier and it's nearly vacuous at 800 documents. Has anyone had luck with variance-adaptive or clustered document-level bounds that stay powered at this scale? That's the bottleneck between \"honest\" and \"useful,\" and I don't think it's a data problem.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14639",
+      "pdf_url": "https://arxiv.org/pdf/2608.14639",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/bhaskargurram-ai/verifydoc"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14639",
+      "scraped_at": "2026-08-19T01:17:21.850817"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "StreamOPD: A Post-Training Recipe with Spatio-Temporal Cue Gating for Streaming Video Understanding",
+    "paper_url": "https://huggingface.co/papers/2608.16320",
+    "authors": [
+      "Zuhao Yang",
+      "Kaichen Zhang",
+      "Baoyi Wang",
+      "Keming Wu",
+      "xiangan"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "StreamOPD: A Post-Training Recipe with Spatio-Temporal Cue Gating for Streaming Video Understanding",
+      "abstract": "Streaming video understanding demands direct responses from the causally observed prefix of an unfolding video. Existing systems add inference-time memory, retrieval, and compression, yet a training-free sliding-window baseline already matches them. We therefore fix a memory-free recent-window protocol and ask how far post-training alone can go. Reinforcement learning with verifiable rewards fits this regime poorly, encouraging long ``think-then-answer'' generations, while on-policy distillation (OPD) supplies dense token-level teacher supervision on student trajectories but is stable only when both models train in thinking mode. These observations lead to StreamOPD, a recipe combining verifiable streaming-video data, thinking-mode OPD, and instruct-mode deployment. It raises StreamingBench from 77.9% to 83.9%---within 0.3 points of the 9B teacher---and improves OVO-Bench excluding its hallucination-detection subtask (HLD) by 9.1 points under unchanged inference. As a teacher-privilege extension, Spatio-Temporal CueGate (ST-CueGate) aggregates cue-versus-no-cue teacher likelihood ratios into a group-relative response score that reweights OPD. It reaches 71.9% on OVO-Bench (excluding HLD) and 64.9% on Video-MME, and is the only variant that stays above the base model on all four benchmarks. Replacing the teacher with a frozen copy of the student's initial policy---on-policy self-distillation---retains most of these gains and lifts HLD to 57.0%, above both the untrained student and the 9B teacher, so abstention loss is not intrinsic to the recipe. We provide a transparent and reproducible reference for open-source streaming-video research.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16320",
+      "pdf_url": "https://arxiv.org/pdf/2608.16320",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/UniX-AI-Lab/StreamOPD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16320",
+      "scraped_at": "2026-08-19T01:17:23.545412"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "HiFi-BRep: High-Fidelity Latent Representation for Robust B-Rep Generation",
+    "paper_url": "https://huggingface.co/papers/2608.16485",
+    "authors": [
+      "Yusheng Liu",
+      "Jiaying Lu",
+      "Pufan Wang",
+      "Chenqi Luo",
+      "Junhao Hou"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "HiFi-BRep: High-Fidelity Latent Representation for Robust B-Rep Generation",
+      "abstract": "Code and dataset are available at https://github.com/1nnoh/HiFi-BRep",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16485",
+      "pdf_url": "https://arxiv.org/pdf/2608.16485",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/1nnoh/HiFi-BRep"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16485",
+      "scraped_at": "2026-08-19T01:17:25.209482"
+    },
+    "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "Prototype-Rectified Iterative Self-supervised Manifold Denoising under Severe Acoustic Shift",
+    "paper_url": "https://huggingface.co/papers/2608.15037",
+    "authors": [
+      "Vinod K. Kurmi",
+      "Aryan Das",
+      "Rini Smita Thakur",
+      "ashish1108"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Prototype-Rectified Iterative Self-supervised Manifold Denoising under Severe Acoustic Shift",
+      "abstract": "Audio-Text Foundation Models (ATMs) fail catastrophically under severe acoustic noise, yet existing adaptation strategies either rely on gradient-based Test-Time Adaptation (TTA), which reinforces noise rather than signal, or on prompt tuning that requires privileged noise annotations unavailable at inference. We address these failures with PRISM (Prototype-Rectified Iterative Self-supervised Manifold Denoising), a training-free, source-free TTA framework grounded in the Affine Noise Hypothesis: severe acoustic noise induces a low-rank affine shift in the multimodal latent space, with more than 90% of distortion energy confined to the leading 60 principal components. PRISM estimates and reverses this distortion from an unlabeled target batch using frozen text prototypes as geometric anchors via three closed-form geometric corrections compiled into a single static projection matrix by Affine Bias Regression. At inference, adaptation reduces to one matrix-vector multiplication in 0.0009 ms, making it substantially faster than gradient-based TTA while requiring no additional training. On UrbanSound8K, PRISM improves over the zero-shot baseline by 12.94 percentage points and surpasses an oracle-assisted TTA baseline by 9.41 percentage points, despite never observing its privileged augmented noise prompts. We further identify the Polyphonic Trap, a principled failure mode of subspace deflation for broadband classes, and resolve it via Confidence-Aware Regression (CAR), recovering up to 8.16 percentage points for the worst-affected class.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.15037",
+      "pdf_url": "https://arxiv.org/pdf/2608.15037",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Ashish-1108/PRISM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.15037",
+      "scraped_at": "2026-08-19T01:17:27.107681"
+    },
+    "scraped_date": "2026-08-19"
   }
 ]
