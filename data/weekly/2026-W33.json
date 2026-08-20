@@ -2228,5 +2228,720 @@
       "scraped_at": "2026-08-19T01:17:27.107681"
     },
     "scraped_date": "2026-08-19"
+  },
+  {
+    "title": "Demystifying Agent Skills: Why They Work-Until They Don't",
+    "paper_url": "https://huggingface.co/papers/2608.14036",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Demystifying Agent Skills: Why They Work-Until They Don't",
+      "abstract": "Skills have emerged as a practical and effective approach for enhancing LLM agents at inference time through structured packages of knowledge. However, existing evaluations largely measure whether skills improve aggregated task success, leaving a more fundamental question underexplored: When do skills help, why do they work, and where do they fail? Through controlled experiments across various benchmarks, agent harnesses and LLMs, we isolate the effects of representation, outcome annotation, retrieval difficulty, and cross-framework robustness of skills. To further answer this question, we design a contrastive study that combines controlled quantitative experiments with paired trajectory analysis. We normalize 8,135 trial records from controlled experiments and retain 238 valid unique labels from 240 open-coded records. We consolidate these observations into a taxonomy of three high-level categories and twelve skill-use modes: skills work when noisy trajectories become procedural anchors that stabilize execution. Skills improve over Workflow Memory by 6.06 points in matched comparisons. Procedural anchoring accounts for 65.7% of skill cases, versus 4.5% for explicit knowledge injection, showing that skills stabilize action rather than inject missing facts. Retrieval is a separate bottleneck: as pools grow from 5 to 100, actual-use precision falls from 29.6% to 3.3%. Confusable distractors impair offline identification, yet downstream success remains stable; exact ground-truth invocation is neither sufficient nor necessary. Skills fail under brittle assumptions, incompatible contexts, or insufficient adaptation. These findings move evaluation beyond aggregate success rates and guide reliable self-evolving agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14036",
+      "pdf_url": "https://arxiv.org/pdf/2608.14036",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/zhiyuanjiang04/demystify-agent-skills"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14036",
+      "scraped_at": "2026-08-20T01:15:54.323467"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements",
+    "paper_url": "https://huggingface.co/papers/2608.17310",
+    "authors": [],
+    "stars": "26",
+    "details": {
+      "title": "Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements",
+      "abstract": "Will Agentic ESOpt Be the Future of Long-Horizon Agentic Fine-Tuning? Excited to share our new work on Arxiv. Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Memory Requirements As LLM agents become longer-horizon and more branching, conventional Agentic RL faces three growing bottlenecks: high training/memory cost and increasingly challenging long-horizon credit assignment. Our Agentic ESOpt approaches agent fine-tuning from the parameter space instead, targeting three advantages: ⚡ Model Scalability — only minimal inference-level GPU memory requirement 🔧 Flexibility — prompt/skill–parameter co-evolution ⏳ Long-Horizon Scalability — trajectory-level parameter attribution without horizon-wise decomposition",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.17310",
+      "pdf_url": "https://arxiv.org/pdf/2608.17310",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/zz1358m/Agentic-ESOpt"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.17310",
+      "scraped_at": "2026-08-20T01:15:56.211053"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution",
+    "paper_url": "https://huggingface.co/papers/2608.16157",
+    "authors": [],
+    "stars": "48",
+    "details": {
+      "title": "FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution",
+      "abstract": "Serve DeepSeek-V4-Flash on your gaming PC",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16157",
+      "pdf_url": "https://arxiv.org/pdf/2608.16157",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/FlashML-org/FreeToken"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16157",
+      "scraped_at": "2026-08-20T01:15:58.031970"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "ASI-Bench: At the Dawn of Artificial Superintelligence",
+    "paper_url": "https://huggingface.co/papers/2608.17271",
+    "authors": [
+      "plafle",
+      "zhouxueyang",
+      "cmwqfcmwqf",
+      "panjose",
+      "zjw49246"
+    ],
+    "stars": "32",
+    "details": {
+      "title": "ASI-Bench: At the Dawn of Artificial Superintelligence",
+      "abstract": "ASI-Bench evaluates AI agents' capabilities in innovative scientific exploration and autonomous project-level research across multiple domains.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.17271",
+      "pdf_url": "https://arxiv.org/pdf/2608.17271",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/apexin-ai/ASI-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.17271",
+      "scraped_at": "2026-08-20T01:16:00.079564"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "Embodied-Navigator: Point, Think, Memorize, and Align for Efficient Navigation",
+    "paper_url": "https://huggingface.co/papers/2608.17512",
+    "authors": [],
+    "stars": "215",
+    "details": {
+      "title": "Embodied-Navigator: Point, Think, Memorize, and Align for Efficient Navigation",
+      "abstract": "Efficient embodied navigation requires more than accurate action selection: an agent must also know when to reason, what to remember, and how to learn from environmental feedback. We introduce TAMP-Nav, where the model selects target points directly in images and projects them into 3D coordinates for execution by a SLAM system. It triggers Chain-of-Thought only at critical decision points, while Anchor-Trajectory Memory preserves important states and compresses routine paths. Two-Level GRPO further combines step-level feedback with trajectory-level outcomes to jointly optimize action selection and selective reasoning. Trained on only 90k trajectories, TAMP-Nav achieves success rates of 66.2% on R2R-CE and 65.7% on RxR-CE while reducing CoT calls by 73.7%. The resulting policy transfers zero-shot to real-world indoor and outdoor environments without real-robot fine-tuning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.17512",
+      "pdf_url": "https://arxiv.org/pdf/2608.17512",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ZJU-OmniAI/Embodied-Omni"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.17512",
+      "scraped_at": "2026-08-20T01:16:01.957414"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
+    "paper_url": "https://huggingface.co/papers/2608.12313",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
+      "abstract": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce cinematic-grade videos. A key challenge is the absence of a structured video representation that is both faithful to film content and directly usable for agentic reasoning and manipulation. To address the challenge, we propose the Agentic Video Auto-Encoder (AVA-Encoder), a framework for learning agent-native video representations via agentic auto-encoding. AVA-Encoder transforms a video into a knowledge graph (KG) representation and then reconstructs it back into video. Its hierarchy and state nodes store structured text, while a linked asset layer holds generated images, audio, and video. Typed edges preserve the relations between these text descriptions and assets in a form that agents can easily understand, query, and edit. The video reconstruction differences drive a textual-gradient optimization framework, which expresses evaluation feedback as natural-language update directions for Data-Independent Encoding Policy Pseudo-Training in the outer loop and optional Data-Dependent KG Representation Refinement in the test-time inner loop. Extensive experiments show that AVA-Encoder improves by 20.7 percentage points over the strongest external baseline. In the controlled policy-only setting, its pseudo-trained shot-level Agentic Video Encoder policy also outperforms a carefully human-tuned policy while using 74.3% fewer system-prompt tokens. We release the complete AVA-Encoder framework, a reliable agentic video reconstruction benchmark, and the first dataset of high-quality film KG representations.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.12313",
+      "pdf_url": "https://arxiv.org/pdf/2608.12313",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/HBDYW/AVA-Encoder"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.12313",
+      "scraped_at": "2026-08-20T01:16:03.772678"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "EDITBRIDGE: Towards Faithful and Efficient Ultra-High-Resolution Image Editing",
+    "paper_url": "https://huggingface.co/papers/2608.18063",
+    "authors": [
+      "Zhenxiong Tan",
+      "Yubo Huang",
+      "Shijie Huang",
+      "Jiayi Song",
+      "FangtaiWu"
+    ],
+    "stars": "7",
+    "details": {
+      "title": "EDITBRIDGE: Towards Faithful and Efficient Ultra-High-Resolution Image Editing",
+      "abstract": "EditBridge enables faithful and efficient ultra-high-resolution image editing by reformulating refinement as a structured data-to-data diffusion bridge, explicitly guided by the original high-resolution source. Our prior-guided block-wise sparse attention preserves aligned details while substantially reducing computational cost. EditBridge supports editing at resolutions up to 4K, achieves a 3.6–8.4× speedup at 2K, and completes practical 4K editing in 61 seconds.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.18063",
+      "pdf_url": "https://arxiv.org/pdf/2608.18063",
+      "github_links": [
+        "https://github.com/songyangyifei/editbridge",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.18063",
+      "scraped_at": "2026-08-20T01:16:05.559585"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "Agent Lightning v1.0: Towards Harnessed Agentic RL",
+    "paper_url": "https://huggingface.co/papers/2608.17528",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Agent Lightning v1.0: Towards Harnessed Agentic RL",
+      "abstract": "Modern agents do not operate as standalone LLMs. They run inside agent harnesses that manage tools, context, and control flow, which makes the harness a critical component. Our original Agent Lightning work introduced a disaggregated architecture that connects arbitrary agents to reinforcement learning (RL) training through an LLM endpoint proxy. Recent frameworks such as verl Uni-Agent, AReaL 2.0, slime v0.3.0, and Polar have followed this proxy-based approach. Such a proxy-based training approach enables RL training with the harness. In this work, we use the term harnessed agentic RL to describe this paradigm, in which the deploy-time harness is directly involved in model post-training, thereby narrowing the gap between training and actual use. We find that harnessed agentic RL differs fundamentally from traditional agentic RL and introduces a new set of challenges. In traditional agentic RL, the training engine owns the environment interaction loop. In harnessed agentic RL, the harness owns this loop, while the training engine observes only a sequence of LLM request-response pairs. How to model and assemble these calls into training samples remains an open question. Through a careful study, we identify several challenges of harnessed agentic RL, including retokenization, sample merging, advantage calculation, loss normalization, and training backend scheduling. We find that, if not properly addressed, these challenges can lead to ineffective or unstable training. Existing frameworks generally leave these issues underspecified. In this paper, we provide the first comprehensive elaboration of them. We further present Agent Lightning v1.0, a lightweight framework for harnessed agentic RL. We treat simplicity as a first principle, implementing the framework in only approximately 3,500 lines of code. Its compact design supports arbitrary agent harnesses and provides a practical testbed for studying these challenges. We validate Agent Lightning v1.0 on general instruction-following agent, search agent, and coding agent. For coding agent, we find that existing RL frameworks provide limited support, including a lack of data and complete training scripts, as well as a reliance on large-scale computational resources. To address this gap, we provide a complete data-cleaning pipeline and reproducible training scripts based on open-source dataset and models. Using only 6K training examples and modest compute, RL improves Qwen3.5-9B on SWE-bench Verified from 41.8% to 56.4%, an absolute 14.6% gain. We release the complete workflow and scripts to facilitate reproducible harnessed agentic RL in Agent Lightning v1.0.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.17528",
+      "pdf_url": "https://arxiv.org/pdf/2608.17528",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.17528",
+      "scraped_at": "2026-08-20T01:16:07.367982"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "DiSCO: Defending text-to-image generation through distribution-guided contrastive prompt optimization",
+    "paper_url": "https://huggingface.co/papers/2608.17067",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DiSCO: Defending text-to-image generation through distribution-guided contrastive prompt optimization",
+      "abstract": "As text-to-image generative models advance, they raise critical safety concerns, particularly the generation of Not-Safe-For-Work (NSFW) content such as violence and nudity, further exacerbated by red-teaming adversarial attacks. Existing defenses predominantly operate under white-box assumptions, relying on text encoder optimization, weight editing, or inference-time intervention, and fundamentally cannot scale to proprietary models. Black-box alternatives based on LLM prompt rewriting offer broader applicability, yet fail in a critical regime we identify as the \\textit{benign adversarial} problem: prompts that are linguistically safe but still trigger harmful generation due to the model's learned data distribution. We propose DiSCO, a zero-shot, strictly black-box defense that operates entirely at the prompt level as a plug-and-play module, requiring no model retraining, fine-tuning, or access to model internals. DiSCO performs distribution-guided suffix expansion via beam search, optimized through contrastive scoring over safe and unsafe image pools generated by the target model itself, with iterative adaptive feedback until safe content is produced. We demonstrate that DiSCO consistently enhances the safety of both undefended and defended models on the I2P benchmark under multiple red-teaming attacks, achieving 37.7% and 25.13% ASR reduction, respectively, while maintaining semantic fidelity and improving image coherence. As a black-box, architecture-agnostic module, DiSCO can be readily applied to any text-to-image system without necessitating any changes to the model itself.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.17067",
+      "pdf_url": "https://arxiv.org/pdf/2608.17067",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.17067",
+      "scraped_at": "2026-08-20T01:16:09.162241"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "V-RAE: Rethinking Video Latent Spaces for Generation",
+    "paper_url": "https://huggingface.co/papers/2608.13556",
+    "authors": [],
+    "stars": "43",
+    "details": {
+      "title": "V-RAE: Rethinking Video Latent Spaces for Generation",
+      "abstract": "V-RAE: Extending Representation Autoencoders to Video Generation Following the recent Representation Autoencoder (RAE) paradigm in image generation, we explore a natural question: Can pretrained visual representations also serve as effective latent spaces for video generation? Our answer is yes — but extending RAE from images to videos introduces several new challenges and, more importantly, reveals new properties of generative latent spaces. We introduce V-RAE (Video Representation Autoencoder) , extending representation-based latent modeling from images to videos by transforming pretrained visual features into compact and temporally coherent video latents. Key highlights: 🧠 From Image RAE to Video RAE. V-RAE extends the RAE paradigm to video generation, leveraging pretrained visual encoders such as DINOv3, SigLIP2, EUPE, and V-JEPA 2.1 instead of learning reconstruction-oriented latents from scratch. ⏱️ Video requires temporal compression. Unlike images, video representations contain substantial temporal redundancy. V-RAE introduces temporal aggregation to compress frame-level representations while preserving semantic and motion information. 🎯 Semantic latents remain highly effective for video generation. V-RAE preserves substantially richer semantic information than conventional video VAE latents and consistently improves downstream generation quality under matched generator settings. ⚡ Up to 6× faster convergence. Generative models learn V-RAE latents significantly faster, showing that semantically structured representations can make the video generation problem substantially easier to learn. 🔄 Good reconstruction ≠ good generation. A particularly important observation in video is that reconstruction quality does not reliably predict downstream generation quality. A latent space with lower rFVD can still be harder for a generator to model. 📏 tFVD better predicts generative utility. Motivated by this mismatch, we introduce tFVD , which captures temporal properties of the latent space and correlates substantially better with downstream generation performance than reconstruction FVD. 🔮 Beyond generation: future prediction. The advantages of V-RAE also transfer to future video prediction, suggesting that representation-based video latents are useful beyond standard video generation. Takeaway: V-RAE shows that the RAE paradigm extends naturally from images to videos, while revealing a video-specific insight: a good generative latent space should preserve semantic and temporal structure, not merely optimize reconstruction quality.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.13556",
+      "pdf_url": "https://arxiv.org/pdf/2608.13556",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/V-RAE/V-RAE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.13556",
+      "scraped_at": "2026-08-20T01:16:11.045321"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "CoinVE-200K: A Large-Scale High-Quality Dataset for Compositional Instruction-Guided Video Editing",
+    "paper_url": "https://huggingface.co/papers/2608.17566",
+    "authors": [],
+    "stars": "12",
+    "details": {
+      "title": "CoinVE-200K: A Large-Scale High-Quality Dataset for Compositional Instruction-Guided Video Editing",
+      "abstract": "CoinVE-200K: A Large-Scale High-Quality Dataset for Compositional Instruction-Guided Video Editing Project Page: https://coinve200k.github.io/ Code: https://github.com/coinve200k/CoinVE-200K Dataset: https://huggingface.co/datasets/FireCRT/CoinVE-200K Model: https://huggingface.co/FireCRT/CoinVE-Edit Bench: https://huggingface.co/datasets/FireCRT/CoinVE-Bench",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.17566",
+      "pdf_url": "https://arxiv.org/pdf/2608.17566",
+      "github_links": [
+        "https://github.com/coinve200k/CoinVE-200K",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.17566",
+      "scraped_at": "2026-08-20T01:16:12.869089"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "Dynamic Multi-Byte Prediction With Hierarchical Language Models",
+    "paper_url": "https://huggingface.co/papers/2608.15454",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Dynamic Multi-Byte Prediction With Hierarchical Language Models",
+      "abstract": "Byte-level hierarchical language models (LMs) have recently emerged as a robust alternative to their popular counterparts that use subword tokenization. However, generating one byte at a time remains a bottleneck for inference speed. To address this, we introduce multi-byte prediction (MBP), which generates multiple bytes in parallel, speeding up inference with minimal performance impact and no additional parameters. MBP builds on the popular multi-token prediction (MTP) paradigm with two crucial innovations. First, we introduce a variable-length prediction window that aligns with the latent tokens, or segments, of a hierarchical LM. Second, we implement a novel attention-masking scheme that enables parallel byte prediction without violating causality. We show that multi-byte prediction strikes a Pareto-optimal trade-off across multiple generative tasks, instruction following, question answering, summarization, and machine translation, achieving the best trade-off between performance and inference throughput.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.15454",
+      "pdf_url": "https://arxiv.org/pdf/2608.15454",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/skai-research/lca-multibyte"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.15454",
+      "scraped_at": "2026-08-20T01:16:14.688255"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding",
+    "paper_url": "https://huggingface.co/papers/2608.17402",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding",
+      "abstract": "Tweet: https://x.com/HuggingPapers/status/2089887693799084315",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.17402",
+      "pdf_url": "https://arxiv.org/pdf/2608.17402",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/facebookresearch/moe_vie"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.17402",
+      "scraped_at": "2026-08-20T01:16:16.615270"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents",
+    "paper_url": "https://huggingface.co/papers/2608.15008",
+    "authors": [
+      "Eric Hanchen Jiang",
+      "Yankai Chen",
+      "Yuchen Wu",
+      "Weizhi Zhang",
+      "Wei-Chieh Huang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents",
+      "abstract": "We present a controlled evaluation of memory substrates for memory-augmented LLM agents, covering dense and sparse retrieval, text and structural stores, hierarchical and refinement-based memories, parametric updates, and activation-compatible context mechanisms. Across three backbone models and four benchmark suites, we evaluate 26 performance and efficiency metrics under a unified harness. Our results show that no single memory substrate consistently dominates: different substrates excel under different tasks, context lengths, and operating regimes. These findings highlight substrate routing as an important direction for building adaptive and efficient long-term memory systems for LLM agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.15008",
+      "pdf_url": "https://arxiv.org/pdf/2608.15008",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.15008",
+      "scraped_at": "2026-08-20T01:16:18.401105"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation",
+    "paper_url": "https://huggingface.co/papers/2608.18076",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API VicEdit: Learning to Edit Videos from Visual In-Context Examples (2026) SeFi-Image: A Text-to-Image Foundation Model with Semantic-First Diffusion (2026) Unlocking the Potential of Image Editing via Concept Scaling and Dense Supervision (2026) StructGen: Disambiguating Multi-Reference Image Generation via Structured Context Modeling (2026) Poplar: A Scalable Pipeline for Human-Centric Image Dataset Synthesis (2026) CAPEval: A Decoupled Caption Evaluation across Understanding and Generation (2026) From Dense Prediction to Visual Editing: Structured Supervision for Unified Image and Video Creation (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.18076",
+      "pdf_url": "https://arxiv.org/pdf/2608.18076",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.18076",
+      "scraped_at": "2026-08-20T01:16:20.361859"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "StartupBench: Benchmarking General-Purpose Agents on Market-Validated End-to-End Workflows",
+    "paper_url": "https://huggingface.co/papers/2608.17800",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "StartupBench: Benchmarking General-Purpose Agents on Market-Validated End-to-End Workflows",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API OmniaBench: Benchmarking General AI Agents Across Diverse Scenarios (2026) DataClawEval: A Benchmark for Data Engineering Agents in Real Industrial Harness (2026) PolyWorkBench: Benchmarking LLM Agents for Cross-Lingual Long-Horizon Workflows (2026) SpreadsheetBench 2: Evaluating Agents on End-to-End Business Spreadsheet Workflows (2026) UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks (2026) ClawTrack: Towards Trace-Level Evaluation and Improvement of Real-World Autonomous Agents (2026) TUA-Bench: A Benchmark for General-Purpose Terminal-Use Agents (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.17800",
+      "pdf_url": "https://arxiv.org/pdf/2608.17800",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.17800",
+      "scraped_at": "2026-08-20T01:16:22.153959"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "Energy-Guided Flow Matching",
+    "paper_url": "https://huggingface.co/papers/2608.05811",
+    "authors": [
+      "Jingling Fu",
+      "Lichen Ma",
+      "Fang Li",
+      "Yu He",
+      "ysng"
+    ],
+    "stars": "16",
+    "details": {
+      "title": "Energy-Guided Flow Matching",
+      "abstract": "Pixel-space generative models bypass lossy latent compression, yet necessitate joint learning of global structure and fine-grained details in a high-dimensional space. Standard flow matching interpolates noise toward a fixed clean-image endpoint, leaving the spectral evolution to be learned implicitly. In this paper, we introduce Energy-Guided Flow Matching(EG-FM) that explicitly models a coarse-to-fine generative trajectory by moving endpoint. Specifically, EG-FM replaces the fixed endpoint with a heat-kernel-filtered endpoint that evolves smoothly from low-frequency image to clean image. The fraction of high-frequency signal in moving endpoint is released by an image-specific energy-guided scheduling, leading to the re-targeting of velocity in flow matching. Our framework requires no adaptation of the backbone and training data, bringing negligible cost on the training and inference stages. In our experiment, EG-FM consistently achieves lower FID on the ImageNet class-conditional image generation task at 256×256 with fewer epochs, reaching an FID of 1.55 at 200 epochs and 1.45 at 600 epochs. We continue training the generation task on the setting of 512×512 resolution, yielding a FID of 1.58 after only 40 high-resolution adaptation epochs. Furthermore, we transfer EG-FM on text-to-image generation and achieve 0.85 on GenEval score and 83.9 on DPG-Bench. Code is available at https://github.com/ysng123/EG-FM .",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.05811",
+      "pdf_url": "https://arxiv.org/pdf/2608.05811",
+      "github_links": [
+        "https://github.com/ysng123/EG-FM",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.05811",
+      "scraped_at": "2026-08-20T01:16:23.989764"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety",
+    "paper_url": "https://huggingface.co/papers/2608.17597",
+    "authors": [
+      "Sijia Liu",
+      "Xianfeng Wu",
+      "Jie Peng",
+      "Jinhao Duan",
+      "Yajing Bai"
+    ],
+    "stars": "7",
+    "details": {
+      "title": "HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety",
+      "abstract": "webpage: https://baiyajing.github.io/harness-risk/ , code: https://github.com/Baiyajing/HarnessRisk",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.17597",
+      "pdf_url": "https://arxiv.org/pdf/2608.17597",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Baiyajing/HarnessRisk"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.17597",
+      "scraped_at": "2026-08-20T01:16:25.782905"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "Abra: Scaling Diffusion Image Training",
+    "paper_url": "https://huggingface.co/papers/2608.17286",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Abra: Scaling Diffusion Image Training",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Chimera: Designing and Chinchilla-Scaling Hybrid Visual Diffusion Transformers (2026) LLaDA MoE v2: Scaling Mixture-of-Experts Diffusion Language Models (2026) Scaling Native Multimodal Pre-Training From Scratch (2026) Bridging Compute- and Data-Optimal Pretraining (2026) On the Nonlinearity of Learning Rate Scaling for LLM Training (2026) Skaling: Chinchilla's Exponents Meet Kaplan's Coupling (2026) Neural Scaling Universality: If Exponents Are Fixed, Time to Understand Coefficients (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.17286",
+      "pdf_url": "https://arxiv.org/pdf/2608.17286",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.17286",
+      "scraped_at": "2026-08-20T01:16:27.559823"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "From Sequence to Structure: Relational Uncertainty Propagation for LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2608.16002",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "From Sequence to Structure: Relational Uncertainty Propagation for LLM Agents",
+      "abstract": "RUPA models LLM-agent trajectories as relational graphs and propagates uncertainty across their dependencies, yielding more accurate and earlier failure detection and better uncertainty-guided execution than existing methods across diverse agent benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16002",
+      "pdf_url": "https://arxiv.org/pdf/2608.16002",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/icip-cas/RUPA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16002",
+      "scraped_at": "2026-08-20T01:16:29.353566"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "MathForm: Scaling Mathematical Autoformalization with Knowledge Retrieval and Verification-Guided Refinement",
+    "paper_url": "https://huggingface.co/papers/2608.14221",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "MathForm: Scaling Mathematical Autoformalization with Knowledge Retrieval and Verification-Guided Refinement",
+      "abstract": "Autoformalization is commonly framed as translating natural-language mathematical statements into machine-verifiable formal languages such as Lean 4. However, faithful formalization requires more than translation. Models must map mathematical concepts to the complex hierarchy of types and definitions in formal libraries such as Mathlib, while ensuring that generated statements preserve the meaning of the source propositions. Existing approaches struggle because they rely heavily on the model's parametric memory for library-specific knowledge, while common data construction pipelines often resort to filtering single-pass outputs and lack mechanisms for feedback-driven revision. To address these challenges, we introduce MathForm, an autoformalization framework for constructing verified training data through Mathlib knowledge retrieval and verification-guided iterative refinement. Before generation, a retrieval planner gathers relevant definitions and existing formalizations from Mathlib to guide the formalization generator. Generated statements are then revised using compiler diagnostics and semantic-consistency feedback. Using this framework, we construct FormalVerse, a Lean 4 dataset containing approximately 367K verified examples across diverse mathematical domains and sources. We then train MathForm-8B through supervised fine-tuning followed by reinforcement learning. Across six benchmarks, MathForm-8B achieves average Pass@8 rates of 88.06% under Syntax Check (SC) and 72.37% under Consistency Check (CC), outperforming multiple specialized 32B autoformalizers. On the challenging FATE-H and FATE-X subsets, it attains CC pass rates of 63% and 37%, exceeding the strongest specialized baselines in both cases. Github: https://github.com/OpenBMB/MathForm Model: https://huggingface.co/openbmb/MathForm-8B Dataset: https://huggingface.co/datasets/openbmb/FormalVerse",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14221",
+      "pdf_url": "https://arxiv.org/pdf/2608.14221",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/OpenBMB/MathForm"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14221",
+      "scraped_at": "2026-08-20T01:16:31.150087"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "Security Assessment of DeepSeek Harness with A.I.G: Evaluating Resistance to Indirect Prompt Injection",
+    "paper_url": "https://huggingface.co/papers/2608.16393",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Security Assessment of DeepSeek Harness with A.I.G: Evaluating Resistance to Indirect Prompt Injection",
+      "abstract": "We assess indirect prompt injection in DeepSeek Harness (DSH), using AI-Infra-Guard (A.I.G) to construct tests, deliver controlled taint, execute DSH, collect traces, and judge outcomes. The study covers 14,560 controlled executions over 16 indirect-content channels, text and file carrier modes, 35 payload objectives, one unmodified baseline, and 12 attack methods. The experiment preserves DSH's agent loop, tool registry, model adapter, and session-event path; source tools and sensitive sinks are local fixtures, so attempted actions are recorded without external side effects. We evaluate each trace with a deterministic rule-based judge, \\JudgeR{} (RuleJudge), and a semantic LLM-based judge, \\JudgeL{} (LLMJudge). The strongest observed attack success rates are 17.0% under \\JudgeL{} for fake-completion attack in text mode, 25.5% under \\JudgeR{} for hidden Unicode in file mode, and 16.0% under \\JudgeR{} for the skills channel in file mode. \\JudgeL{} also assigns partial compliance more often than \\JudgeR{} (7.3% versus 2.0%). We relate these results to DSH's treatment of tool results, additional contexts, and tool-call policy hooks, then identify controls that should sit between untrusted content and sensitive actions. Our code is available at this https URL .",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16393",
+      "pdf_url": "https://arxiv.org/pdf/2608.16393",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16393",
+      "scraped_at": "2026-08-20T01:16:32.971604"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "Cross-Model Memory Transfer via Target-Side Reader Adaptation",
+    "paper_url": "https://huggingface.co/papers/2608.17050",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Cross-Model Memory Transfer via Target-Side Reader Adaptation",
+      "abstract": "We study cross-model frozen-memory transfer, showing that target-side readers can extract and align representations across model architectures and tokenizers.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.17050",
+      "pdf_url": "https://arxiv.org/pdf/2608.17050",
+      "github_links": [
+        "https://github.com/OLAResearch/XMemTransfer",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.17050",
+      "scraped_at": "2026-08-20T01:16:34.773622"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "Personalized Auto-Research: Towards a True AI Co-Scientist",
+    "paper_url": "https://huggingface.co/papers/2608.14881",
+    "authors": [
+      "Nesreen K. Ahmed",
+      "Yu Wang",
+      "Hongjie Chen",
+      "Bo Ni",
+      "Franck-Dernoncourt"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Personalized Auto-Research: Towards a True AI Co-Scientist",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Diversifying Personalized Research Ideation against AI-Induced Homogenization (2026) FirstResearch: Auditable Question Formation for LLM Scientific Discovery Agents (2026) Towards a new paradigm of scientific discovery with socialized artificial intelligence (2026) FARS: A Fully Automated Research System Deployed at Scale (2026) Autonomous Research Agents: A Survey of AI Scientists and the Verification Gap (2026) Networked Intelligence: Active Shared Context Graphs for Human-AI Team Science (2026) Evidence-Based Scientific Question Discovery: A Framework with Historical Backtesting (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14881",
+      "pdf_url": "https://arxiv.org/pdf/2608.14881",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14881",
+      "scraped_at": "2026-08-20T01:16:36.558836"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "GS-Voxel: Fitting-Free Structured Latents for Large-Scale 3DGS Generation",
+    "paper_url": "https://huggingface.co/papers/2608.17988",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GS-Voxel: Fitting-Free Structured Latents for Large-Scale 3DGS Generation",
+      "abstract": "GS-Voxel converts pre-optimized 3D Gaussian Splatting reconstructions into sparse, structured latents without additional per-scene fitting. By combining a factorized geometry-and-attribute VAE with image-conditioned flow matching, it enables 3DGS generation and scalable large-area synthesis beyond a single training crop.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.17988",
+      "pdf_url": "https://arxiv.org/pdf/2608.17988",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.17988",
+      "scraped_at": "2026-08-20T01:16:38.367561"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "LEGO-RL: Harness-Native Reinforcement Learning for Coding Agents",
+    "paper_url": "https://huggingface.co/papers/2608.17393",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "LEGO-RL: Harness-Native Reinforcement Learning for Coding Agents",
+      "abstract": "We are happy to announce Lego-RL: an open-source framework for harness-native reinforcement learning of coding agents . All code, data, and models are available on GitHub and Hugging Face.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.17393",
+      "pdf_url": "https://arxiv.org/pdf/2608.17393",
+      "github_links": [
+        "https://github.com/LegoX/Lego-RL",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.17393",
+      "scraped_at": "2026-08-20T01:16:40.117019"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "aDSL: Agentic 3D Creation via Joint Agent-Program Design",
+    "paper_url": "https://huggingface.co/papers/2608.17975",
+    "authors": [
+      "Baoquan Chen",
+      "Heng-Yi Wei",
+      "Jia-Qi He",
+      "Si-Tong Wei",
+      "Rui-Huan Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "aDSL: Agentic 3D Creation via Joint Agent-Program Design",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API WorldClaw: Agentic 3D Open-World Generation at Scale (2026) SimWorlds: A Multi-Agent System for Dynamic 3D Scene Creation (2026) StateFlow: Building, Evolving, and Accessing 3D World States for Previsualization (2026) PhysAgent: Reflective Agentic Physics Control for Physically Plausible Video Generation (2026) Agentic Designer: Progressive Multi-Agent Collaboration for Structure-Aware Interior Layout Generation. (2026) OmniMech: All-in-one Multimodal Mechanical Benchmark for 3D Reconstruction (2026) GS-Agent: Creating 4D Physical Worlds With Generative Simulation (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.17975",
+      "pdf_url": "https://arxiv.org/pdf/2608.17975",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.17975",
+      "scraped_at": "2026-08-20T01:16:44.990978"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "The Problem Is the Problem: Towards Scalable Mathematical Discovery",
+    "paper_url": "https://huggingface.co/papers/2608.16977",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "The Problem Is the Problem: Towards Scalable Mathematical Discovery",
+      "abstract": "A step toward exponentiating mathematical discovery",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16977",
+      "pdf_url": "https://arxiv.org/pdf/2608.16977",
+      "github_links": [
+        "https://github.com/zeyu-zheng/FAR",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16977",
+      "scraped_at": "2026-08-20T01:16:46.877697"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "Unifying Graph Neural Networks Through a Common Layer Equation",
+    "paper_url": "https://huggingface.co/papers/2608.16097",
+    "authors": [
+      "Hongjie Chen",
+      "Bo Ni",
+      "Sai Karthik Navuluru",
+      "Franck-Dernoncourt",
+      "siddhartha047"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Unifying Graph Neural Networks Through a Common Layer Equation",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Graph Neural Networks Applications Across Domains: All Insights You Need (2026) Neural Message Passing on Structural Interaction Graphs for Fully-Inductive Graph Neural Networks (2026) Universality and Approximation Rates of Graph Neural Networks with Random Features (2026) CondPSE: A Polynomial-Filtered Structural Encoder with Conditional Modulation for Graphs (2026) X-LogSMask: Expand Transformer for Graph-Structured Data (2026) Benchmarking Sheaf Neural Networks for Inductive Tasks (2026) Dynamic Neural Graph Encoding of Inference Processes in Deep Weight Space (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16097",
+      "pdf_url": "https://arxiv.org/pdf/2608.16097",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16097",
+      "scraped_at": "2026-08-20T01:16:48.733168"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "PTXBench: Benchmark and Adapt LLMs for GPU Kernel Optimization with Architecture-specific PTX",
+    "paper_url": "https://huggingface.co/papers/2608.17379",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PTXBench: Benchmark and Adapt LLMs for GPU Kernel Optimization with Architecture-specific PTX",
+      "abstract": "We introduce PTXBench, a benchmark for evaluating and adapting large language models (LLMs) to use architecture-specific PTX for GPU kernel optimization. PTXBench measures functional correctness, whether selected target instructions execute at runtime, and speedup over frontier libraries across GEMM and attention workloads on H100 and B200 GPUs. Our evaluation shows that architecture-specific PTX capability remains uneven: success rates fall substantially on complex attention backward workloads, and executing the target instructions does not necessarily translate into competitive performance. No evaluated model consistently matches frontier libraries across the suite. We further adapt Qwen3.6-27B using supervised fine-tuning. Repair-conditioned training improves several tasks, but generalization remains uneven; data coverage, balance, and the quality of the reasoning teacher matter in addition to dataset size. PTXBench provides an auditable testbed for measuring and improving LLMs’ ability to exploit evolving GPU architectures.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.17379",
+      "pdf_url": "https://arxiv.org/pdf/2608.17379",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/zhang677/PTXBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.17379",
+      "scraped_at": "2026-08-20T01:16:50.658195"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "PixRestore: Unified Image Restoration via Pixel Diffusion Transformer",
+    "paper_url": "https://huggingface.co/papers/2608.16793",
+    "authors": [
+      "Qiaosi Yi",
+      "Jixin Zhao",
+      "Xiangtao Kong",
+      "Rongyuan Wu",
+      "Lingchen Sun"
+    ],
+    "stars": "32",
+    "details": {
+      "title": "PixRestore: Unified Image Restoration via Pixel Diffusion Transformer",
+      "abstract": "TL;DR: A VAE-free pixel-space DiT for unified image restoration. It applies flow matching to patchified RGB, uses adaptive DINO guidance, and is finetuned for one-step inference with ~50M parameters.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16793",
+      "pdf_url": "https://arxiv.org/pdf/2608.16793",
+      "github_links": [
+        "https://github.com/csslc/PixRestore",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16793",
+      "scraped_at": "2026-08-20T01:16:52.514924"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "CardioState-JEPA: Delay-Aware Cross-Modal Learning of a Shared Cardiac Representation",
+    "paper_url": "https://huggingface.co/papers/2608.12944",
+    "authors": [
+      "Jun Hu",
+      "Pan Zhou",
+      "Bin Zhu",
+      "Hung Manh Pham",
+      "hamzashafiq"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "CardioState-JEPA: Delay-Aware Cross-Modal Learning of a Shared Cardiac Representation",
+      "abstract": "CardioState-JEPA introduces a delay-aware cross-modal JEPA for learning a shared cardiac representation across ECG, PPG, and PCG using a single encoder. The key idea is to account explicitly for physiological timing offsets between electrical, mechanical, and hemodynamic cardiac signals while learning in a common latent space. We evaluate the frozen encoder across 25 downstream tasks spanning all three modalities. Compared with the strongest self-supervised signal baseline, CardioState-JEPA improves PPG classification by 8.2 AUROC points, PCG murmur detection by 18.8 points, and ECG classification by 15.5 points. Project page: https://hamzashafiq28.github.io/projects/cardiostate-jepa/ Code and pretrained model are publicly available.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.12944",
+      "pdf_url": "https://arxiv.org/pdf/2608.12944",
+      "github_links": [
+        "https://github.com/hamzashafiq28/CardioState-Jepa",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.12944",
+      "scraped_at": "2026-08-20T01:16:54.288107"
+    },
+    "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "FACET: Preserving Source Intent and Executable State in Terminal Task Synthesis",
+    "paper_url": "https://huggingface.co/papers/2608.18580",
+    "authors": [
+      "Ziao Zhang",
+      "Shiting Huang",
+      "Qisheng Su",
+      "Zun Wang",
+      "Kou Shi"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "FACET: Preserving Source Intent and Executable State in Terminal Task Synthesis",
+      "abstract": "Training terminal agents requires scalable executable supervision, yet synthesizing high-quality terminal tasks remains challenging. Each task couples an instruction, an initialized environment, a reference solution, and an executable verifier; if these artifacts are generated from inconsistent assumptions, the resulting task may be unsolvable or incorrectly evaluated. Meanwhile, multi-stage synthesis can discard the goals, dependencies, state transitions, and procedural constraints encoded in the original sources. We present FACET (Fine-grained Agentic Construction of Executable Tasks), a framework that addresses both information preservation and cross-artifact consistency. FACET reconstructs related agent skills into coherent, information-rich scenarios, then realizes and repairs the execution environment before generating the final task artifacts. The resulting container state serves as shared grounding for the instruction, solution, and verifier, while execution-based validation and targeted repair correct artifact-specific failures without unnecessarily regenerating valid components. FACET produces complex terminal tasks with dense executable checks, and successful trajectories collected from these tasks provide effective, data-efficient supervision. Fine-tuning models across multiple scales consistently improves performance on Terminal-Bench 2.1, while analyses of alternative generation schemes support the importance of environment-grounded construction for task validity and solution-verifier alignment. These results establish source-intent preservation and shared executable-state grounding as key principles for scalable terminal-task synthesis.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.18580",
+      "pdf_url": "https://arxiv.org/pdf/2608.18580",
+      "github_links": [
+        "https://github.com/StoKou/FACET-Terminal",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.18580",
+      "scraped_at": "2026-08-20T01:16:56.116402"
+    },
+    "scraped_date": "2026-08-20"
   }
 ]
