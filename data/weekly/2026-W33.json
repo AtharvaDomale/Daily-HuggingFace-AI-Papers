@@ -2943,5 +2943,473 @@
       "scraped_at": "2026-08-20T01:16:56.116402"
     },
     "scraped_date": "2026-08-20"
+  },
+  {
+    "title": "SemComp-Bench: Benchmarking Semantic Task Completion in Video Generation",
+    "paper_url": "https://huggingface.co/papers/2608.17426",
+    "authors": [],
+    "stars": "11",
+    "details": {
+      "title": "SemComp-Bench: Benchmarking Semantic Task Completion in Video Generation",
+      "abstract": "Can a video generator actually finish the task—not merely make a convincing video? SemComp-Bench evaluates outcome achievement together with task-relevant semantic grounding.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.17426",
+      "pdf_url": "https://arxiv.org/pdf/2608.17426",
+      "github_links": [
+        "https://github.com/Kelly372/SemComp-Bench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.17426",
+      "scraped_at": "2026-08-21T01:19:05.194077"
+    },
+    "scraped_date": "2026-08-21"
+  },
+  {
+    "title": "Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
+    "paper_url": "https://huggingface.co/papers/2608.16590",
+    "authors": [
+      "Zixuan Wang",
+      "Mingzhe Huang",
+      "Liang Mi",
+      "XXXXyu",
+      "Xin64"
+    ],
+    "stars": "186",
+    "details": {
+      "title": "Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
+      "abstract": "We present Zetta, a closed-loop embodied harness that evolves code-based runtime critics and recovery skills online while keeping the base policy frozen. Through three timescale-separated loops, Zetta provides action-frequency governance, rollout-level critic-recovery proposal, and validation-gated skill updates. Together with Z-Infra, a rollout infrastructure decoupling agent logic from heterogeneous execution resources, Zetta achieves state-of-the-art success on LIBERO-Pro and RoboCasa under our current rollout budget, reaching 90.8% and 93.6%, with an 11.1x inference speedup; success continues to scale with self-exploration experience; learned skills transfer zero-shot, and clear robotic \"Aha Moments\" emerge. These results show that closed-loop harness self-evolution opens a scaling path for reliable physical intelligence.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16590",
+      "pdf_url": "https://arxiv.org/pdf/2608.16590",
+      "github_links": [
+        "https://github.com/air-embodied-brain/Zetta-Embodiment",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16590",
+      "scraped_at": "2026-08-21T01:19:06.902457"
+    },
+    "scraped_date": "2026-08-21"
+  },
+  {
+    "title": "SemaPLC: A Project-Grounded, Verification-Gated Agent Harness for PLC Code Generation",
+    "paper_url": "https://huggingface.co/papers/2608.18565",
+    "authors": [],
+    "stars": "37",
+    "details": {
+      "title": "SemaPLC: A Project-Grounded, Verification-Gated Agent Harness for PLC Code Generation",
+      "abstract": "Project link： https://github.com/midea-ai/SemaPLC Document： https://midea-ai.github.io/SemaPLC/#/en/ SemaPLC turns AI-assisted PLC programming from \"generating code\" into \"delivering verified control logic.\" It provides a browser-based IDE for generating, editing, verifying, and simulating programs, and its verification-gated agent empirically surpasses prior systems, with the widest margin in dynamic runtime behavior.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.18565",
+      "pdf_url": "https://arxiv.org/pdf/2608.18565",
+      "github_links": [
+        "https://github.com/midea-ai/SemaPLC",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.18565",
+      "scraped_at": "2026-08-21T01:19:08.628988"
+    },
+    "scraped_date": "2026-08-21"
+  },
+  {
+    "title": "Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL",
+    "paper_url": "https://huggingface.co/papers/2608.17253",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL",
+      "abstract": "Reinforcement learning (RL) has emerged as a powerful approach for improving reasoning in language and vision-language models, yet its strongest successes still depend heavily on ground-truth supervision (e.g., verifiable reward). Such annotations are costly to obtain and become increasingly scarce as reasoning capabilities advance beyond what humans can reliably evaluate. Self-rewarding RL reduces this dependence by enabling models to derive reward signals from their own completions. However, training solely on self-generated feedback can reinforce existing biases and suboptimal behaviors, reduce response diversity, and ultimately lead to homogenized responses and training collapse. In this work, we show that unsupervised reasoning can emerge through cooperative multi-agent training. We introduce Co-RL, a framework in which multiple decoupled models, sharing no parameters, are simultaneously optimized through RL using rewards derived from their peers. We further show that increasing cohort diversity, through heterogeneous model families, sizes, and rephrased training samples, reduces the correlated errors that drive self-reinforcing feedback loops. This diversity consistently improves reasoning performance, maintains behavioral diversity, and mitigates training collapse. Across text-only and multimodal domains, Co-RL consistently outperforms the base models and prior label-free approaches, while matching or surpassing supervised methods, without access to any ground-truth labels. Concretely, Co-RL yields average gains of 3.0-8.6% across seven text-only benchmarks for LLMs and 2.3-7.2% across four multimodal benchmarks for VLMs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.17253",
+      "pdf_url": "https://arxiv.org/pdf/2608.17253",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/DrStranded/Co-RL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.17253",
+      "scraped_at": "2026-08-21T01:19:10.326410"
+    },
+    "scraped_date": "2026-08-21"
+  },
+  {
+    "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+    "paper_url": "https://huggingface.co/papers/2608.13558",
+    "authors": [],
+    "stars": "17",
+    "details": {
+      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API PaperClaw: Harnessing Agents for Autonomous Research and Human-in-the-Loop Refinement (2026) Scaling Scientific Discovery Environments for Turn-Level Agentic RL (2026) FirstResearch: Auditable Question Formation for LLM Scientific Discovery Agents (2026) FARS: A Fully Automated Research System Deployed at Scale (2026) LEDGERMIND: Provenance-Constrained Multimodal Agentic Reasoning with a Structured Evidence Ledger (2026) DSAgentBench: Can Agents Automate End-to-End Data-Science Workflows in Real Computer Environments? (2026) DataClawEval: A Benchmark for Data Engineering Agents in Real Industrial Harness (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.13558",
+      "pdf_url": "https://arxiv.org/pdf/2608.13558",
+      "github_links": [
+        "https://github.com/Omni-Scientist/OmniScientist",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.13558",
+      "scraped_at": "2026-08-21T01:19:12.089016"
+    },
+    "scraped_date": "2026-08-21"
+  },
+  {
+    "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+    "paper_url": "https://huggingface.co/papers/2608.19197",
+    "authors": [],
+    "stars": "16",
+    "details": {
+      "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+      "abstract": "We let the model do environment scaling on its own: one LLM writes its own executable, agentic training environments and learns to solve them, with hint-based regret keeping each one at the agent's frontier. +5.3 over the strongest fixed-environment baseline at 30B, and the margin grows with scale. Play 4,976 of them live: https://spade-rl.github.io",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.19197",
+      "pdf_url": "https://arxiv.org/pdf/2608.19197",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/spade-rl/spade"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.19197",
+      "scraped_at": "2026-08-21T01:19:13.846199"
+    },
+    "scraped_date": "2026-08-21"
+  },
+  {
+    "title": "Training Chemical Plausibility-Aware Large Language Models for Single-Step Retrosynthesis",
+    "paper_url": "https://huggingface.co/papers/2608.18940",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Training Chemical Plausibility-Aware Large Language Models for Single-Step Retrosynthesis",
+      "abstract": "This work extends the previously introduced ChemCensor framework for single-step retrosynthesis ( https://arxiv.org/abs/2602.03554 ). It addresses the one-to-many nature of retrosynthetic prediction, where a target molecule may have several chemically valid synthetic routes, making single-answer and exact-match evaluation insufficient. The study introduces Top‑K prompting and training to generate multiple diverse reaction proposals rather than a single predicted disconnection. A new C3LM version is trained on CREED-CCV-2+USPTO-XL, an expanded dataset of approximately 45.6 million verified reactions derived from expert-coded templates. Combined with the Top‑K strategy, this larger training set enables C3LM to compete with - and in some settings surpass - strong conventional, non-LLM retrosynthesis models on the URSA-expert-2026 benchmark. Moreover, the study shows that the chemical spaces of reactions generated by the new C3LM and the best conventional models are complementary rather than intersecting, making the contribution of the new model more substantial if the model is harnessed into a synthetic planning engine.",
+      "arxiv_page_url": "https://arxiv.org/abs/2602.03554",
+      "pdf_url": "https://arxiv.org/pdf/2608.18940",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.18940",
+      "scraped_at": "2026-08-21T01:19:15.545143"
+    },
+    "scraped_date": "2026-08-21"
+  },
+  {
+    "title": "Training Leaves Traces: Centered Residual Signatures for Language Model Lineage Verification",
+    "paper_url": "https://huggingface.co/papers/2608.14929",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Training Leaves Traces: Centered Residual Signatures for Language Model Lineage Verification",
+      "abstract": "Open-weight language models are fine-tuned, quantized, pruned, and merged, yet their provenance is often undocumented. We study data-free white-box lineage verification: can weights alone reveal whether two compatible model checkpoints share ancestry? Residual training produces a shared identity aligned component in branch products, so this structure alone cannot establish ancestry. We remove it and compare checkpoint-specific structure across residual blocks, yielding a symmetric lineage score calibrated against independent checkpoints. On residual-MLP and GPT2 benchmarks, the score separates fine-tuned, LoRA-merged, pruned, and quantized descendants from independent and distilled models (AUROC=1.0), distinguishing weight ancestry from behavioral similarity. Under function preserving checkpoint laundering experiments, weight-space baselines lose margin or fail; our score remains unchanged and runs 76× faster than the nearest robust baseline on GPT-2. The projection-pairing signal appears across six language-model families and beyond, and a case study correctly identifies 3 related and 7 unrelated LLaMA-2 public checkpoints. Collectively, these results establish a passive, data-free provenance signal for compatible open-weight language-model checkpoints.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14929",
+      "pdf_url": "https://arxiv.org/pdf/2608.14929",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14929",
+      "scraped_at": "2026-08-21T01:19:17.246323"
+    },
+    "scraped_date": "2026-08-21"
+  },
+  {
+    "title": "Decision-Metric Alignment in Latent World Models: Diagnostics and Action-Conditioned Objectives for MPC Planning",
+    "paper_url": "https://huggingface.co/papers/2608.18746",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Decision-Metric Alignment in Latent World Models: Diagnostics and Action-Conditioned Objectives for MPC Planning",
+      "abstract": "TL;DR: Strong latent representations are not necessarily good planning metrics. This paper introduces diagnostics for measuring whether latent distances reflect real task progress and shows that action-conditioned objectives substantially improve latent-space geometry and MPC performance—even when conventional representation probes remain unchanged.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.18746",
+      "pdf_url": "https://arxiv.org/pdf/2608.18746",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.18746",
+      "scraped_at": "2026-08-21T01:19:18.924041"
+    },
+    "scraped_date": "2026-08-21"
+  },
+  {
+    "title": "Looped Language Models Improve Compositional Tool Calling",
+    "paper_url": "https://huggingface.co/papers/2608.18171",
+    "authors": [
+      "Pietro Liò",
+      "Haitz Sáez de Ocáriz Borde",
+      "Andrei Cristian Popescu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Looped Language Models Improve Compositional Tool Calling",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.18171",
+      "pdf_url": "https://arxiv.org/pdf/2608.18171",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.18171",
+      "scraped_at": "2026-08-21T01:19:20.584996"
+    },
+    "scraped_date": "2026-08-21"
+  },
+  {
+    "title": "FM-Bench: A Benchmark for Long-Horizon Management with Competing Agents",
+    "paper_url": "https://huggingface.co/papers/2608.18423",
+    "authors": [
+      "Yinghao He",
+      "Chen Dong",
+      "Kezhen Chen",
+      "Chongyang Gao",
+      "Tianyou Wang"
+    ],
+    "stars": "16",
+    "details": {
+      "title": "FM-Bench: A Benchmark for Long-Horizon Management with Competing Agents",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.18423",
+      "pdf_url": "https://arxiv.org/pdf/2608.18423",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Analogy-AI/fm-bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.18423",
+      "scraped_at": "2026-08-21T01:19:22.234718"
+    },
+    "scraped_date": "2026-08-21"
+  },
+  {
+    "title": "The More Popular, The Harder to Forget: Adaptive Popularity for LLM Unlearning",
+    "paper_url": "https://huggingface.co/papers/2608.14229",
+    "authors": [
+      "Alexander Panchenko",
+      "Andrey Savchenko",
+      "tlenusik",
+      "SwetieePawsss"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "The More Popular, The Harder to Forget: Adaptive Popularity for LLM Unlearning",
+      "abstract": "Popular facts are memorised more deeply during pretraining and resist removal longer than rare ones, yet existing LLM unlearning methods apply uniform gradient pressure regardless of training-data frequency. We propose the AdaPop (Adaptive Popularity) method, which combines local token confidence with a per-fact popularity-dependent exponent derived from an external proxy (e.g., Wikidata sitelinks, LLM-as-Judge), and automates the forget-retain balance via a dual-ascent controller that adjusts the retain penalty each epoch. Across three model families and two benchmarks, AdaPop leaks ~5x less forgotten content than competing methods under paraphrased queries and ~1.6x less under adversarial reformulations. We support our analysis with internal metrics: under our method, forget-set hidden states move further from the pre-unlearning model's states than under other methods, while retain-set representations remain close.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14229",
+      "pdf_url": "https://arxiv.org/pdf/2608.14229",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14229",
+      "scraped_at": "2026-08-21T01:19:23.903231"
+    },
+    "scraped_date": "2026-08-21"
+  },
+  {
+    "title": "Scaling Creative Writing Beyond Story-Centric Data with Attribute-Guided Genre Expansion",
+    "paper_url": "https://huggingface.co/papers/2608.13947",
+    "authors": [
+      "Jinsik Lee",
+      "Yireun Kim",
+      "Heuiyeen Yeen",
+      "Yongil Kim",
+      "HwanChang0106"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Scaling Creative Writing Beyond Story-Centric Data with Attribute-Guided Genre Expansion",
+      "abstract": "High-quality creative writing data for language models remains dominated by story-centric data, limiting models’ ability to follow the structural and functional conventions of diverse creative formats. We propose an attribute-guided genre expansion framework for scaling creative writing data beyond story generation. By separating thematic breadth from genre-form control, our framework leverages human-authored story prompts as diverse creative seeds, while utilizing manually curated genre attributes to enforce distinct structural, stylistic, and formatting conventions. We combine these to prompt strong models for genre-faithful query–response pairs, which are then quality-filtered. Applying this framework, we construct the Multi-Genre Collection, a 50K-example corpus spanning 13 creative genres, including story, lyrics, game design, and other creative formats. Experiments demonstrate that models finetuned on our data consistently surpass not only base models and writing-specialized baselines, but also models trained on existing writing corpora. Genre-count ablations further indicate that genre expansion is a key driver of robust creative writing capability.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.13947",
+      "pdf_url": "https://arxiv.org/pdf/2608.13947",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.13947",
+      "scraped_at": "2026-08-21T01:19:25.571943"
+    },
+    "scraped_date": "2026-08-21"
+  },
+  {
+    "title": "SoftVTBench: A Deformation-Aware Visuo-Tactile Dataset and Benchmark for Deformable-Object Manipulation",
+    "paper_url": "https://huggingface.co/papers/2608.18701",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SoftVTBench: A Deformation-Aware Visuo-Tactile Dataset and Benchmark for Deformable-Object Manipulation",
+      "abstract": "SoftVTBench: A Deformation-Aware Visuo-Tactile Dataset and Benchmark for Deformable-Object Manipulation",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.18701",
+      "pdf_url": "https://arxiv.org/pdf/2608.18701",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.18701",
+      "scraped_at": "2026-08-21T01:19:27.264065"
+    },
+    "scraped_date": "2026-08-21"
+  },
+  {
+    "title": "LLMs Get Smarter from Targeted Synthetic Multilingual Data",
+    "paper_url": "https://huggingface.co/papers/2608.15964",
+    "authors": [
+      "Andreas Stolcke",
+      "Neha Gupta",
+      "Tanner Sorensen",
+      "Arkajyoti Charaborty",
+      "Ishika Agarwal"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "LLMs Get Smarter from Targeted Synthetic Multilingual Data",
+      "abstract": "Language-specific competency (LSC) is the phenomenon of a language model performing better or worse depending on the language of the prompt. In other words, a language model outputs different (and potentially incorrect) responses to the same semantic query when prompted in different languages. Prior work attributes this to an internal misalignment of semantic representation across languages. Currently, there are two main approaches to address LSC in the literature: (1) routing all queries through English, improving performance, but limiting language expressivity to English; or (2) training on language-balanced data, equalizing model performance across languages, but reducing overall performance. In this work, we take a data centric perspective and introduce HOTFIXR: Hardness Optimized Training data For Improving X-Lingual Reasoning. It is a data generation framework that uses models to probe and learn a student model's multilingual weaknesses, and generates data to mitigate them. HOTFIXR can generate multilingual synthetic training data that can improve multilingual performance. We evaluate on three in-distribution tasks, three out-of-distribution tasks, and four out-of-distribution languages. On average, HOTFIXR (1) improves in-distribution performance by 6.2%, (2) reduces catastrophic forgetting (induced by fine-tuning) on OOD tasks by 3.7%, and (3) on OOD languages by 7.1%. Overall, as many real-world applications requires multilingual LLMs, our work contributes to the efforts of making LLMs multilingually proficient. We will release code upon acceptance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.15964",
+      "pdf_url": "https://arxiv.org/pdf/2608.15964",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.15964",
+      "scraped_at": "2026-08-21T01:19:28.907774"
+    },
+    "scraped_date": "2026-08-21"
+  },
+  {
+    "title": "SkillGate: Training In-Policy Skill Selection in Long-Horizon Agents",
+    "paper_url": "https://huggingface.co/papers/2608.18852",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SkillGate: Training In-Policy Skill Selection in Long-Horizon Agents",
+      "abstract": "We introduce SkillGate, a training method for in-policy skill selection in long-horizon agents. It addresses selector credit starvation by separating outcome credit for execution tokens from an action-local advantage applied only to skill-naming tokens. On five agentic benchmarks with a 16-candidate slate, SkillGate improves a 9B policy from 40.8% to 53.2% trial success while reducing exposure to misleading skills by two thirds.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.18852",
+      "pdf_url": "https://arxiv.org/pdf/2608.18852",
+      "github_links": [
+        "https://github.com/DeepExperience/SkillGate",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.18852",
+      "scraped_at": "2026-08-21T01:19:30.595917"
+    },
+    "scraped_date": "2026-08-21"
+  },
+  {
+    "title": "Evaluating Music Context Preservation: A Multi-facet Framework for Music Editing Systems",
+    "paper_url": "https://huggingface.co/papers/2512.14629",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Evaluating Music Context Preservation: A Multi-facet Framework for Music Editing Systems",
+      "abstract": "If you want to evaluate how well the unedited parts of a music clip are preserved after music editing, feel free to try MuseCPEval !!! MuseCPEval introduces 12 metrics across 5 music facets: harmony, rhythm&meter, structure, melody&motif, and timbre. We comprehensively evaluate these metrics through both objective and subjective evaluations. Feel free to run pip install musecpeval and diagnose music editing techniques!",
+      "arxiv_page_url": "https://arxiv.org/abs/2512.14629",
+      "pdf_url": "https://arxiv.org/pdf/2512.14629",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Yashvishe13/MuseCPEval"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2512.14629",
+      "scraped_at": "2026-08-21T01:19:32.284191"
+    },
+    "scraped_date": "2026-08-21"
+  },
+  {
+    "title": "Towards Real-Time and Adaptable LiDAR Scene Completion",
+    "paper_url": "https://huggingface.co/papers/2608.16490",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Towards Real-Time and Adaptable LiDAR Scene Completion",
+      "abstract": "If you're tired of slow 3D scene completion pipelines, we built RapidLiDAR to hit 10 Hz in real-time. Drop your questions below!",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16490",
+      "pdf_url": "https://arxiv.org/pdf/2608.16490",
+      "github_links": [
+        "https://github.com/AzharSindhi/RapidLiDAR",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16490",
+      "scraped_at": "2026-08-21T01:19:33.948731"
+    },
+    "scraped_date": "2026-08-21"
+  },
+  {
+    "title": "Bounded Agents: Delegation Security for Multi-Agent AI Systems",
+    "paper_url": "https://huggingface.co/papers/2608.15888",
+    "authors": [
+      "xmuruaga"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Bounded Agents: Delegation Security for Multi-Agent AI Systems",
+      "abstract": "Bounded Agents introduces the Agentic Principal Chain (APC), an authorization model for multi-agent AI systems. APC carries authorization state across actions, agents and tools, narrows scope and budgets through delegation, and uses prior execution history when deciding whether a new action should be allowed. Enforcement remains outside the model. Across 3,154 evaluation instances, APC reduced AgentDojo exfiltration from 75–100% to 0% across all four domains, destruction from 38.6% to 4.0%, and manipulation from 90.5% to 12.1%. It blocked all 544 InjecAgent data-stealing cases and all disruptive Agent Security Bench cases, while validating 99/99 delegation chains from 2 to 8 hops. Authorization latency was 0.24 ms at the 99th percentile.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.15888",
+      "pdf_url": "https://arxiv.org/pdf/2608.15888",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/xmuruaga/bounded-agents"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.15888",
+      "scraped_at": "2026-08-21T01:19:35.647626"
+    },
+    "scraped_date": "2026-08-21"
+  },
+  {
+    "title": "Temporal Multi-Signal Fusion for Token-Level Hallucination Detection",
+    "paper_url": "https://huggingface.co/papers/2608.18115",
+    "authors": [
+      "Igor Itkin"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Temporal Multi-Signal Fusion for Token-Level Hallucination Detection",
+      "abstract": "code",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.18115",
+      "pdf_url": "https://arxiv.org/pdf/2608.18115",
+      "github_links": [
+        "https://github.com/YehudaItkin/temporal-hallucination-detection",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.18115",
+      "scraped_at": "2026-08-21T01:19:37.351461"
+    },
+    "scraped_date": "2026-08-21"
+  },
+  {
+    "title": "VA-Judger: Reward Modeling from Human Preference Feedback for Joint Video-Audio Generation",
+    "paper_url": "https://huggingface.co/papers/2608.18607",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "VA-Judger: Reward Modeling from Human Preference Feedback for Joint Video-Audio Generation",
+      "abstract": "🚀 We are excited to introduce VA-Judger: Reward Modeling from Human Preference Feedback for Joint Video-Audio Generation , the first reward model specifically designed for joint video-audio generation . Existing metrics typically evaluate video and audio separately, overlooking the holistic cross-modal coherence that shapes human preference. When used for post-training, these fragmented metrics may also lead to reward hacking, where metric scores improve without a corresponding improvement in perceptual quality. Our key contributions include: VA-Judger , a reasoning-based omni-modal reward model that jointly assesses visual and audio quality, text alignment, audio-video synchronization, semantic coherence, and overall human preference. VAPref-10K and VA-Judger-Bench , which provide human preference annotations and a challenging benchmark covering both in-domain and out-of-domain video-audio generation models. A complete reward-modeling and post-training framework that uses VA-Judger to improve joint video-audio generation. VA-Judger substantially outperforms single-dimensional metrics and omni-modal model baselines such as Qwen3-Omni. It also generalizes reliably to unseen closed-source generation models. When used to post-train LTX-2, the resulting model achieves a 62.30% human preference rate , compared with 27.63% for the OmniNFT-trained version and 10.08% for the original LTX-2. It also achieves the best performance on 11 out of 13 objective metrics . 🔗 Project: https://sharelab-sii.github.io/VA-Judger/ 📄 Paper: https://arxiv.org/abs/2608.18607 💻 Code: https://github.com/ShareLab-SII/VA-Judger 🤗 Models: https://huggingface.co/ShareLab-SII/VA-Judger 📊 Dataset: https://huggingface.co/datasets/ShareLab-SII/VA-Judger-Bench 🎮 Demo: https://www.youtube.com/watch?v=HUiEFLTY9-E Further training code and the full VAPref-10K dataset will be released soon. Stay tuned!",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.18607",
+      "pdf_url": "https://arxiv.org/pdf/2608.18607",
+      "github_links": [
+        "https://github.com/ShareLab-SII/VA-Judger",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.18607",
+      "scraped_at": "2026-08-21T01:19:39.077740"
+    },
+    "scraped_date": "2026-08-21"
+  },
+  {
+    "title": "SPK: Eliciting Structured Prior Knowledge for Interpretable Out-of-Distribution Detection in Real-Time Object Detection",
+    "paper_url": "https://huggingface.co/papers/2608.19080",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SPK: Eliciting Structured Prior Knowledge for Interpretable Out-of-Distribution Detection in Real-Time Object Detection",
+      "abstract": "Modern object detectors (e.g., YOLO, RT-DETR, and Faster R-CNN) can produce overconfident predictions for objects outside their training classes, which we refer to as out-of-distribution (OoD) objects, while the training classes are referred to as in-distribution (ID) classes. In practice, such predictions are semantically invalid: an OoD object is assigned a label from the object detector's ID classes with high confidence, even though the object falls outside the predefined label space. These failures can be viewed as instances of computer vision hallucination. SPK addresses a complementary limitation of existing state-of-the-art OoD detection methods, especially the post-hoc ones which typically make decisions in high-dimensional and opaque representation spaces produced by the target object detector. SPK aims to construct an interpretable and effective representation space for such methods. We find that this can be achieved by eliciting and structuring three complementary priors already encoded in the object detection model and its training data: a part-level semantic prior, indicating whether the predicted region supports the known class rather than proximal or background concepts; a geometric prior, capturing the plausibility of the object's relative scale; and a contextual prior, measuring whether the predicted class appears in a familiar visual environment. This strategy yields the low-dimensional, semantically grounded SPK space for OoD detection and mitigation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.19080",
+      "pdf_url": "https://arxiv.org/pdf/2608.19080",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.19080",
+      "scraped_at": "2026-08-21T01:19:40.725608"
+    },
+    "scraped_date": "2026-08-21"
   }
 ]
