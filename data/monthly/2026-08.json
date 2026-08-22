@@ -10925,5 +10925,537 @@
       "scraped_at": "2026-08-21T01:19:40.725608"
     },
     "scraped_date": "2026-08-21"
+  },
+  {
+    "title": "EnvHarness: Awakening Static Worlds for Agent Learning",
+    "paper_url": "https://huggingface.co/papers/2608.19880",
+    "authors": [],
+    "stars": "66",
+    "details": {
+      "title": "EnvHarness: Awakening Static Worlds for Agent Learning",
+      "abstract": "webpage: https://envharness.com/ code are all released.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.19880",
+      "pdf_url": "https://arxiv.org/pdf/2608.19880",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/google-research/envharness"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.19880",
+      "scraped_at": "2026-08-22T01:14:52.262386"
+    },
+    "scraped_date": "2026-08-22"
+  },
+  {
+    "title": "FACET: Preserving Source Intent and Executable State in Terminal Task Synthesis",
+    "paper_url": "https://huggingface.co/papers/2608.18580",
+    "authors": [],
+    "stars": "23",
+    "details": {
+      "title": "FACET: Preserving Source Intent and Executable State in Terminal Task Synthesis",
+      "abstract": "Training terminal agents requires scalable executable supervision, yet synthesizing high-quality terminal tasks remains challenging. Each task couples an instruction, an initialized environment, a reference solution, and an executable verifier; if these artifacts are generated from inconsistent assumptions, the resulting task may be unsolvable or incorrectly evaluated. Meanwhile, multi-stage synthesis can discard the goals, dependencies, state transitions, and procedural constraints encoded in the original sources. We present FACET (Fine-grained Agentic Construction of Executable Tasks), a framework that addresses both information preservation and cross-artifact consistency. FACET reconstructs related agent skills into coherent, information-rich scenarios, then realizes and repairs the execution environment before generating the final task artifacts. The resulting container state serves as shared grounding for the instruction, solution, and verifier, while execution-based validation and targeted repair correct artifact-specific failures without unnecessarily regenerating valid components. FACET produces complex terminal tasks with dense executable checks, and successful trajectories collected from these tasks provide effective, data-efficient supervision. Fine-tuning models across multiple scales consistently improves performance on Terminal-Bench 2.1, while analyses of alternative generation schemes support the importance of environment-grounded construction for task validity and solution-verifier alignment. These results establish source-intent preservation and shared executable-state grounding as key principles for scalable terminal-task synthesis.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.18580",
+      "pdf_url": "https://arxiv.org/pdf/2608.18580",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/StoKou/FACET-Terminal"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.18580",
+      "scraped_at": "2026-08-22T01:14:54.133575"
+    },
+    "scraped_date": "2026-08-22"
+  },
+  {
+    "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
+    "paper_url": "https://huggingface.co/papers/2608.20335",
+    "authors": [],
+    "stars": "162",
+    "details": {
+      "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
+      "abstract": "4DAnyone turns a casual monocular video into multi-view videos, enabling downstream 4DGS reconstruction.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.20335",
+      "pdf_url": "https://arxiv.org/pdf/2608.20335",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ant-research/4DAnyone"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.20335",
+      "scraped_at": "2026-08-22T01:14:56.047093"
+    },
+    "scraped_date": "2026-08-22"
+  },
+  {
+    "title": "SWE-bench Science: Can Coding Agents Resolve Engineering Tasks in Science?",
+    "paper_url": "https://huggingface.co/papers/2608.19799",
+    "authors": [],
+    "stars": "44",
+    "details": {
+      "title": "SWE-bench Science: Can Coding Agents Resolve Engineering Tasks in Science?",
+      "abstract": "Code: https://github.com/OpenMOSS/SWE-bench-Science Data: https://huggingface.co/datasets/OpenMOSS-Team/SWE-bench-Science Leaderboard: https://swescience.github.io",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.19799",
+      "pdf_url": "https://arxiv.org/pdf/2608.19799",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/OpenMOSS/SWE-bench-Science"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.19799",
+      "scraped_at": "2026-08-22T01:14:57.863982"
+    },
+    "scraped_date": "2026-08-22"
+  },
+  {
+    "title": "WithEveryone: Unified Planning and Identity Grounding for Group Image Generation",
+    "paper_url": "https://huggingface.co/papers/2608.20336",
+    "authors": [],
+    "stars": "40",
+    "details": {
+      "title": "WithEveryone: Unified Planning and Identity Grounding for Group Image Generation",
+      "abstract": "WithEveryone generates coherent group images from five to ten reference identities",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.20336",
+      "pdf_url": "https://arxiv.org/pdf/2608.20336",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/doby-xu/WithEveryone"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.20336",
+      "scraped_at": "2026-08-22T01:14:59.705819"
+    },
+    "scraped_date": "2026-08-22"
+  },
+  {
+    "title": "MemTrapBench: Benchmarking Cognitive Traps in LLM Memory Use",
+    "paper_url": "https://huggingface.co/papers/2608.20202",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "MemTrapBench: Benchmarking Cognitive Traps in LLM Memory Use",
+      "abstract": "Memory is NOT always what you need, as it may impair rather than enhance model capabilities.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.20202",
+      "pdf_url": "https://arxiv.org/pdf/2608.20202",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/zjunlp/MemTrapBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.20202",
+      "scraped_at": "2026-08-22T01:15:01.511637"
+    },
+    "scraped_date": "2026-08-22"
+  },
+  {
+    "title": "SkillEvo: Self-Renewing Evolution Gradients from Multi-Turn Interaction Feedback",
+    "paper_url": "https://huggingface.co/papers/2608.13120",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SkillEvo: Self-Renewing Evolution Gradients from Multi-Turn Interaction Feedback",
+      "abstract": "Up～",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.13120",
+      "pdf_url": "https://arxiv.org/pdf/2608.13120",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.13120",
+      "scraped_at": "2026-08-22T01:15:03.340130"
+    },
+    "scraped_date": "2026-08-22"
+  },
+  {
+    "title": "ForgeWM: Progressive Causal Training for Few-Step Action-Conditioned Video World Models",
+    "paper_url": "https://huggingface.co/papers/2608.14022",
+    "authors": [],
+    "stars": "89",
+    "details": {
+      "title": "ForgeWM: Progressive Causal Training for Few-Step Action-Conditioned Video World Models",
+      "abstract": "Train real-time, playable video world models. ForgeWM is fully open and reproducible, with keyboard, mouse, and gamepad control. 🔨",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.14022",
+      "pdf_url": "https://arxiv.org/pdf/2608.14022",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/asdfo123/ForgeWM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.14022",
+      "scraped_at": "2026-08-22T01:15:05.162798"
+    },
+    "scraped_date": "2026-08-22"
+  },
+  {
+    "title": "Repo0: Design-Driven Zero-to-All Code Generation",
+    "paper_url": "https://huggingface.co/papers/2608.19854",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Repo0: Design-Driven Zero-to-All Code Generation",
+      "abstract": "Repo0 doesn’t just generate code—it builds the architecture as it goes. It continuously reshapes the repository with cohesion and coupling until the structure truly makes sense.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.19854",
+      "pdf_url": "https://arxiv.org/pdf/2608.19854",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.19854",
+      "scraped_at": "2026-08-22T01:15:06.953533"
+    },
+    "scraped_date": "2026-08-22"
+  },
+  {
+    "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
+    "paper_url": "https://huggingface.co/papers/2608.19758",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
+      "abstract": "Long-context modeling is a pivotal capability for Large Language Models, yet the quadratic complexity of attention remains a critical bottleneck, particularly during the compute-intensive prefilling phase. Our previous work, FlashPrefill, mitigates this cost through instantaneous pattern discovery and max-based dynamic thresholding; however, it remains an algorithmic prototype that is still distant from production deployment. In this paper, we present FlashPrefill V2, which evolves FlashPrefill from a prototype toward practical long-context serving along three dimensions. First, we introduce a mean correction term that effectively suppresses the approximation error, keeping performance degradation manageable even at extreme sparsity levels. Second, we redesign the sparse attention operator with PackGQA memory access, warp specialization, and pingpong pipelining, fully aligning with the latest FlashAttention-3/4 implementations and supporting FP8 inference to meet practical quantization requirements. Third, FlashPrefill V2 natively supports paged KV cache and continuous batching, allowing integration as an attention backend in modern inference frameworks such as SGLang.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.19758",
+      "pdf_url": "https://arxiv.org/pdf/2608.19758",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/qhfan/FlashPrefillv2"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.19758",
+      "scraped_at": "2026-08-22T01:15:09.079193"
+    },
+    "scraped_date": "2026-08-22"
+  },
+  {
+    "title": "Thinking in a Low-Resource Language: What SFT Builds, What RL Fixes, What Accuracy Cannot See",
+    "paper_url": "https://huggingface.co/papers/2608.17744",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Thinking in a Low-Resource Language: What SFT Builds, What RL Fixes, What Accuracy Cannot See",
+      "abstract": "Author here 👋 We fine-tuned four MoE models (Qwen / gpt-oss / Nemotron families, 3.6–4.0B active params) to reason in Greek, and the headline is a null: accuracy barely moves. Worse, the benchmark can't see it anyway — changing only the random seed swings the score by 7.7 points, larger than every data and recipe effect we measured. If you're evaluating language-adaptation at this scale on accuracy alone, you're reading noise. The real change is elsewhere. Base models never think in Greek: 0 of 1,000 reasoning traces, even when the question is Greek. So the model answers correctly while reasoning in a form its user cannot read, audit, or correct. After SFT, every checkpoint reasons in the language of the question on ~98% of items — one family at 3× fewer tokens — with grammaticality up on all four and general ability within a few points of base. Nothing forgotten, fluency gained. What SFT can't do is fix its own defects: a quarter of answers skip the requested format, answers leak into the reasoning channel, and an explicit \"think in English\" is obeyed under half the time. RLVR, pre-registered before training, fixes the first two outright (fallback 24% → 2.5%, leak 3.5% → 0.0%, both against a flat random-reward control) and moves the third +9.1pp — while the Greek reasoning habit survives an accuracy-only gradient untouched. We also propose six behavioural dimensions to make this measurable, each gated to reject any metric correlating with output length, and we report how our own instruments lied : six failures, each caught by a control. That section is the one we'd most like feedback on. Five checkpoints released. The instruments, controls and pre-registration travel to any low-resource language — Greek is just the case that let us measure them. Happy to answer anything here.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.17744",
+      "pdf_url": "https://arxiv.org/pdf/2608.17744",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.17744",
+      "scraped_at": "2026-08-22T01:15:10.922751"
+    },
+    "scraped_date": "2026-08-22"
+  },
+  {
+    "title": "EXIMO: VLM Guided Exploration of VLA Policies",
+    "paper_url": "https://huggingface.co/papers/2608.19891",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "EXIMO: VLM Guided Exploration of VLA Policies",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.19891",
+      "pdf_url": "https://arxiv.org/pdf/2608.19891",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.19891",
+      "scraped_at": "2026-08-22T01:15:12.689114"
+    },
+    "scraped_date": "2026-08-22"
+  },
+  {
+    "title": "Inject, Align, Recover: Staged Post-Training for Retrieval-Free Document Knowledge Internalization",
+    "paper_url": "https://huggingface.co/papers/2608.20281",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Inject, Align, Recover: Staged Post-Training for Retrieval-Free Document Knowledge Internalization",
+      "abstract": "What happens when a language model must answer questions about a fixed document collection without receiving retrieved passages at inference time? We study this problem as document knowledge internalization and introduce IAR (Inject, Align, Recover) , a three-stage post-training framework: Inject transforms documents into continuation, rewrite, and instruction-conditioned reconstruction objectives for dense knowledge exposure. Align makes the injected knowledge accessible through answer-only QA supervision. Recover merges the adapted checkpoint with the original instruction model to restore general capabilities. Across two document corpora and four model families—Llama, Phi, Qwen, and SmolLM—IAR improves over Vanilla SFT on all four reported metrics in 7 of 8 dataset-model settings. On average, it gains 3.6 percentage points in domain QA accuracy and 12.1 points in general performance across IFEval, MMLU, and MSBench. Our central takeaway is that document exposure, QA accessibility, and capability recovery should be measured and optimized separately rather than treated as a single fine-tuning problem. We welcome discussion on retrieval-free knowledge acquisition, evaluation protocols, and the trade-off between domain internalization and general capability retention.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.20281",
+      "pdf_url": "https://arxiv.org/pdf/2608.20281",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.20281",
+      "scraped_at": "2026-08-22T01:15:14.504158"
+    },
+    "scraped_date": "2026-08-22"
+  },
+  {
+    "title": "Towards Quantifying Benchmark Optimization in ASR Models",
+    "paper_url": "https://huggingface.co/papers/2608.19936",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Towards Quantifying Benchmark Optimization in ASR Models",
+      "abstract": "New work from Hume AI on quantifying how an ASR model reproduces a benchmark's reference text rather than transcribing the audio",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.19936",
+      "pdf_url": "https://arxiv.org/pdf/2608.19936",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/HumeAI/asr-benchmark-optimization"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.19936",
+      "scraped_at": "2026-08-22T01:15:16.311603"
+    },
+    "scraped_date": "2026-08-22"
+  },
+  {
+    "title": "PolicyGuide: From Guarding One Action to Guiding the Whole Workflow for Policy-Compliant LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2608.19861",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PolicyGuide: From Guarding One Action to Guiding the Whole Workflow for Policy-Compliant LLM Agents",
+      "abstract": "PolicyGuide: From Guarding One Action to Guiding the Whole Workflow for Policy-Compliant LLM Agents",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.19861",
+      "pdf_url": "https://arxiv.org/pdf/2608.19861",
+      "github_links": [
+        "https://github.com/erjui/PolicyGuide",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.19861",
+      "scraped_at": "2026-08-22T01:15:18.175237"
+    },
+    "scraped_date": "2026-08-22"
+  },
+  {
+    "title": "Chain-of-Experience for Continual LLM Improvement",
+    "paper_url": "https://huggingface.co/papers/2608.18027",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Chain-of-Experience for Continual LLM Improvement",
+      "abstract": "Comprehensive investigation into LLM's learning from experience capabilities across several domains and tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.18027",
+      "pdf_url": "https://arxiv.org/pdf/2608.18027",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.18027",
+      "scraped_at": "2026-08-22T01:15:19.949284"
+    },
+    "scraped_date": "2026-08-22"
+  },
+  {
+    "title": "τ_0-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
+    "paper_url": "https://huggingface.co/papers/2608.16885",
+    "authors": [],
+    "stars": "514",
+    "details": {
+      "title": "τ_0-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
+      "abstract": "🤖 What if a robot could compare possible futures before deciding what to do next? We introduce τ₀-VLA , a hierarchical robot foundation model for long-horizon manipulation. Its high-level policy maintains execution memory and, when a decision is uncertain, allocates additional test-time computation to propose candidate subtasks, predict their visual consequences with a world model, and compare alternatives before committing. A generalist low-level VLA then executes the selected subtask across robot embodiments. Highlights: The low-level policy is trained on 40,115 hours of heterogeneous real-world robot data with multimodal co-training. Selective test-time computation improves next-subtask prediction accuracy by 15–24 percentage points across in-domain and distribution-shifted settings. We evaluate real-world manipulation tasks containing 13–25 ordered steps , with episodes lasting up to 12 minutes . Using the same low-level policy, hierarchical planning improves average closed-loop success from 27.5% to 45.0% across four long-horizon tasks. We release the official code and pretrained low-level VLA checkpoint, with high-level policy on the way. 🌐 Project page 💻 Code 🤗 Model checkpoint Questions and feedback are very welcome!",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16885",
+      "pdf_url": "https://arxiv.org/pdf/2608.16885",
+      "github_links": [
+        "https://github.com/sii-research/tau-0-vla",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16885",
+      "scraped_at": "2026-08-22T01:15:21.882884"
+    },
+    "scraped_date": "2026-08-22"
+  },
+  {
+    "title": "TinyCast: Probabilistic Zero-Shot Forecasting with Computed Periodicity",
+    "paper_url": "https://huggingface.co/papers/2608.15767",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "TinyCast: Probabilistic Zero-Shot Forecasting with Computed Periodicity",
+      "abstract": "TinyCast is a 146,505-parameter zero-shot time series foundation model. It is the smallest model on the GIFT-Eval board with a public per-configuration result and no declared test-data leakage, and below 1.4M parameters it is the only zero-shot entry that emits a predictive distribution rather than point forecasts. It is attention-free : dilated causal convolutions plus a zero-parameter spectral detector that computes each context's periodicity instead of learning it, so no capacity is spent rediscovering seasonality. Because every learned operation is a convolution, a matrix multiplication or a normalization, it exports to static INT8 and runs a full forecast end to end on a Cortex-M7 in 4.08 s within 731 KB of RAM, at a cost of about 2% of point accuracy. Weights, code and the training recipe are public.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.15767",
+      "pdf_url": "https://arxiv.org/pdf/2608.15767",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/raws-labs/tinycast"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.15767",
+      "scraped_at": "2026-08-22T01:15:23.703401"
+    },
+    "scraped_date": "2026-08-22"
+  },
+  {
+    "title": "NARU: A Benchmark for NARrative Evolution and Cultural Nuance Understanding in Japanese Extreme Long Video",
+    "paper_url": "https://huggingface.co/papers/2608.13210",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "NARU: A Benchmark for NARrative Evolution and Cultural Nuance Understanding in Japanese Extreme Long Video",
+      "abstract": "Long-form video understanding encompasses tasks that go beyond retrieving isolated events, including tracking an evolving narrative and interpreting social meaning that may remain implicit. However, existing benchmarks rarely evaluate these capabilities jointly, particularly in high-context, non-English media. To address this gap, we introduce NARU, a benchmark designed to evaluate Narrative evolution and Reasoning on cultural Understanding in Japanese long-form video. NARU consists of 1,481 questions grounded in 155 videos totaling 146.8 hours, spanning four narrative and five cultural dimensions. To construct the benchmark at this scale, we propose a hierarchical memory-based annotation pipeline that transforms raw video into structured event, narrative, and cultural annotations, then generates questions via task-oriented synthesis and iterative shortcut removal. The construction process includes two native-speaker verification stages involving 68 annotators. Evaluations across eight model configurations reveal substantial limitations in both long-range narrative integration and culturally grounded reasoning. By exposing these persistent gaps, NARU offers a systematic testing ground for developing MLLMs capable of reliably interpreting long-form, high-context video.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.13210",
+      "pdf_url": "https://arxiv.org/pdf/2608.13210",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/infinimind-inc/naru_benchmark"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.13210",
+      "scraped_at": "2026-08-22T01:15:25.471732"
+    },
+    "scraped_date": "2026-08-22"
+  },
+  {
+    "title": "Hierarchical Self-Improvement: A Framework for Task-Specific Evolvable Agent Harnesses",
+    "paper_url": "https://huggingface.co/papers/2608.08466",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "Hierarchical Self-Improvement: A Framework for Task-Specific Evolvable Agent Harnesses",
+      "abstract": "Researchers at HKUST developed Hierarchical Self-Improvement (HSI), a framework enabling a single, frozen LLM to autonomously evolve its task-specific operational harness and the strategy for its own evolution. The system achieved substantial performance increases, such as +39.3% on BabyAI and +33.0% on Crafter, showing held-out generalization on navigation tasks while identifying feedback fidelity and backbone capability as key limitations.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.08466",
+      "pdf_url": "https://arxiv.org/pdf/2608.08466",
+      "github_links": [
+        "https://github.com/TailinZhou/hsi",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.08466",
+      "scraped_at": "2026-08-22T01:15:27.238758"
+    },
+    "scraped_date": "2026-08-22"
+  },
+  {
+    "title": "GOAG: Generative and Object-Agnostic Grasp Planner for Dexterous Robotic Manipulation",
+    "paper_url": "https://huggingface.co/papers/2608.19759",
+    "authors": [
+      "Liming Chen",
+      "Mathieu Grossard",
+      "Boris Meden",
+      "JulienMERAND"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "GOAG: Generative and Object-Agnostic Grasp Planner for Dexterous Robotic Manipulation",
+      "abstract": "GOAG Paradigm: A successful grasp on an object induces dual contact zones on both object and gripper, at the intersection of the two geometries. Our method is built on this key observation: these contact zones are closely the same from either perspective. GOAG capitalizes on this by training exclusively on gripper geometry, allowing it to learn a robust and generalizable grasping strategy without ever being exposed to a grasp database with specific objects geometries.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.19759",
+      "pdf_url": "https://arxiv.org/pdf/2608.19759",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/CEA-LIST/GOAG"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.19759",
+      "scraped_at": "2026-08-22T01:15:29.017395"
+    },
+    "scraped_date": "2026-08-22"
+  },
+  {
+    "title": "CoToGrasp: Contact-Topology-Conditioned Dexterous Grasp Synthesis via Canonical Workspace Learning",
+    "paper_url": "https://huggingface.co/papers/2608.19776",
+    "authors": [
+      "Mathieu Grossard",
+      "Liming Chen",
+      "Boris Meden",
+      "JulienMERAND"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "CoToGrasp: Contact-Topology-Conditioned Dexterous Grasp Synthesis via Canonical Workspace Learning",
+      "abstract": "Our framework synthesizes stable, functionally diverse grasps for unseen objects by decoupling functional intent from geometry. By learning a latent manifold in a canonical workspace, we achieve zero-shot generalization across multiple contact topologies.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.19776",
+      "pdf_url": "https://arxiv.org/pdf/2608.19776",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/CEA-LIST/CoToGrasp"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.19776",
+      "scraped_at": "2026-08-22T01:15:30.811225"
+    },
+    "scraped_date": "2026-08-22"
+  },
+  {
+    "title": "The Embedder's Dilemma: LLMs Are Better, but at What Cost?",
+    "paper_url": "https://huggingface.co/papers/2608.12875",
+    "authors": [
+      "Jinhyuk Lee",
+      "Niklas Muennighoff",
+      "Adnan El Assadi"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "The Embedder's Dilemma: LLMs Are Better, but at What Cost?",
+      "abstract": "Embeddings vs LLMs ...",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.12875",
+      "pdf_url": "https://arxiv.org/pdf/2608.12875",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.12875",
+      "scraped_at": "2026-08-22T01:15:32.576757"
+    },
+    "scraped_date": "2026-08-22"
+  },
+  {
+    "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
+    "paper_url": "https://huggingface.co/papers/2608.13547",
+    "authors": [
+      "Yuanyuan Yang",
+      "Volker Tresp",
+      "Yao Zhang",
+      "lsamc"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
+      "abstract": "QuoteBench asks a deployment question that matched scores can hide: did the model generate a bad Bash command, or did the execution interface break it afterward? Across 56 execution-verified tasks, replaying the same reply through one added parser lowers success by 55.4–73.2 percentage points. Disclosing that boundary recovers 30.4–60.7 points in six of eight configurations. The results show why coding-agent evaluations should report the generation contract, execution path, operating point, and final-state validator—not just a matched score.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.13547",
+      "pdf_url": "https://arxiv.org/pdf/2608.13547",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/LeonardNJU/quoteBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.13547",
+      "scraped_at": "2026-08-22T01:15:34.365185"
+    },
+    "scraped_date": "2026-08-22"
+  },
+  {
+    "title": "Listening Forward: Next Patch Embedding Prediction Enables Scalable Audio Learners",
+    "paper_url": "https://huggingface.co/papers/2608.19863",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Listening Forward: Next Patch Embedding Prediction Enables Scalable Audio Learners",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.19863",
+      "pdf_url": "https://arxiv.org/pdf/2608.19863",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/umbertocappellazzo/nape"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.19863",
+      "scraped_at": "2026-08-22T01:15:36.136254"
+    },
+    "scraped_date": "2026-08-22"
+  },
+  {
+    "title": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills",
+    "paper_url": "https://huggingface.co/papers/2607.21596",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills",
+      "abstract": "This paper addresses a practical bottleneck in agent systems: useful workflows discovered during inference are usually discarded, while existing skill libraries are often static or built offline. FlowEvo closes this loop by turning verified successful workflows into persistent executable skills. These skills can be reused directly or guide the creation of new workflows, while harmful skills are identified and suppressed. Using GPT 4o mini, FlowEvo outperforms eight baselines across five benchmarks. On ALFWorld, it achieves an 85.6% success rate, 26.4 points above the strongest baseline, while using roughly one third of the tokens. Results across 10 base models further demonstrate its potential for building agents that improve continuously without additional training.",
+      "arxiv_page_url": "https://arxiv.org/abs/2607.21596",
+      "pdf_url": "https://arxiv.org/pdf/2607.21596",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/DEFENSE-SEU/FlowEvo"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2607.21596",
+      "scraped_at": "2026-08-22T01:15:37.895646"
+    },
+    "scraped_date": "2026-08-22"
   }
 ]
