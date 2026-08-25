@@ -530,5 +530,493 @@
       "scraped_at": "2026-08-24T01:20:00.843784"
     },
     "scraped_date": "2026-08-24"
+  },
+  {
+    "title": "Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence",
+    "paper_url": "https://huggingface.co/papers/2608.21156",
+    "authors": [
+      "Zerui Chen",
+      "Qichao Ma",
+      "Chaobin Yang",
+      "Zhishang Xiang",
+      "Yuyuan Feng"
+    ],
+    "stars": "50",
+    "details": {
+      "title": "Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence",
+      "abstract": "Large language models (LLMs) have rapidly evolved from language generation models into autonomous agents capable of solving increasingly complex and long-horizon tasks. This evolution has been accom- panied by a series of emerging engineering paradigms, including Prompt Engineering for eliciting model capabilities, Context Engineering for managing information access, Harness Engineering for organizing external tools and resources, and Loop Engineering for enabling continual reflection and self-improvement. However, as real-world tasks grow in complexity, a fundamental limitation of individual intelligence emerges: many tasks inherently require heterogeneous expertise, interdependent subtasks, parallel execution, independent verification, and persistent state, and these requirements exceed the organizational capacity of any single agent. Simply augmenting an individual agent’s capabilities or context cannot resolve this architectural mismatch. Instead, intelligence must be distributed across multiple specialized agents and organized at the system level. We refer to this capability as System Intelligence: the ability of an agent system to organize and coordinate multiple intelligent components into a coherent, adaptive whole that pursues a shared objective. Achieving System Intelligence, however, demands more than merely increasing the number of agents; it requires explicit structures for organizing work, coordinating heterogeneous agents, and maintaining evolving execution states. In this survey, we introduce Graph Engineering, an emerging paradigm for building next-generation agent systems. Unlike previous paradigms that primarily optimize individual interactions or agent-level behaviors, Graph Engineering focuses on constructing explicit, dynamic, and evolving graph structures that represent tasks, agents, and system states. Such graph-based abstractions provide a unified foundation for organizing complex objectives, orchestrating heterogeneous agents, modeling system dynamics, and enabling scalable agent evolution. In this paper, we systematically review the principles, methodologies, and applications of Graph Engineering in the era of LLM agents. All the related resources, including research papers, open-source data, and projects, are collected for the community at https://github.com/DEEP-JLU/Awesome-Graph-Engineering .",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.21156",
+      "pdf_url": "https://arxiv.org/pdf/2608.21156",
+      "github_links": [
+        "https://github.com/DEEP-JLU/Awesome-Graph-Engineering",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.21156",
+      "scraped_at": "2026-08-25T01:17:13.249069"
+    },
+    "scraped_date": "2026-08-25"
+  },
+  {
+    "title": "Let's Scale Step by Step: Compute-Efficient Hyperparameter Transfer for Large-Scale Mixture-of-Experts",
+    "paper_url": "https://huggingface.co/papers/2608.20061",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Let's Scale Step by Step: Compute-Efficient Hyperparameter Transfer for Large-Scale Mixture-of-Experts",
+      "abstract": "Training large Mixture-of-Experts (MoE) models on trillions of tokens makes conventional hyperparameter sweeps prohibitively expensive. In this work, we introduce a compute-efficient two-step framework that combines μP-based learning-rate transfer across model scales with token-horizon extrapolation from short-budget proxy runs. Using the predicted learning rate, we successfully pretrained a 155B-total / 17B-active-parameter foundation model from scratch for 10T tokens.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.20061",
+      "pdf_url": "https://arxiv.org/pdf/2608.20061",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.20061",
+      "scraped_at": "2026-08-25T01:17:14.990423"
+    },
+    "scraped_date": "2026-08-25"
+  },
+  {
+    "title": "InfinityEdit: Infinite Video Editing with a Lightweight Edit-Ignition Adapter",
+    "paper_url": "https://huggingface.co/papers/2608.20910",
+    "authors": [
+      "Didi Zhu",
+      "Shiyi Zhang",
+      "Canyu Zhao",
+      "Mushui Liu",
+      "Yunze Tong"
+    ],
+    "stars": "13",
+    "details": {
+      "title": "InfinityEdit: Infinite Video Editing with a Lightweight Edit-Ignition Adapter",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.20910",
+      "pdf_url": "https://arxiv.org/pdf/2608.20910",
+      "github_links": [
+        "https://github.com/YunzeTong/InfinityEdit",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.20910",
+      "scraped_at": "2026-08-25T01:17:16.693933"
+    },
+    "scraped_date": "2026-08-25"
+  },
+  {
+    "title": "ParaTempo: Efficient Parallel Reasoning via Temporal Confidence",
+    "paper_url": "https://huggingface.co/papers/2608.16425",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "ParaTempo: Efficient Parallel Reasoning via Temporal Confidence",
+      "abstract": "Efficient Parallel Reasoning 🔥",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16425",
+      "pdf_url": "https://arxiv.org/pdf/2608.16425",
+      "github_links": [
+        "https://github.com/ScottZhang812/ParaTempo",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16425",
+      "scraped_at": "2026-08-25T01:17:18.406841"
+    },
+    "scraped_date": "2026-08-25"
+  },
+  {
+    "title": "OmniAssistBench: Assistant-style Interaction Benchmark for Omni-LLMs",
+    "paper_url": "https://huggingface.co/papers/2608.21360",
+    "authors": [],
+    "stars": "20",
+    "details": {
+      "title": "OmniAssistBench: Assistant-style Interaction Benchmark for Omni-LLMs",
+      "abstract": "Recent advances in Omni-LLMs are paving the way for real-time video assistant applications, where models constantly perceive the environment and guide users to achieve certain goals through multi-turn conversations. However, evaluations under these assistant-style interaction scenarios are still challenging. OmniAssistBench aims at addressing this challenge by proposing an annotation pipeline which allows annotators to build test samples from existing Internet videos.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.21360",
+      "pdf_url": "https://arxiv.org/pdf/2608.21360",
+      "github_links": [
+        "https://github.com/XianyunSun/OmniAssistBench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.21360",
+      "scraped_at": "2026-08-25T01:17:20.101735"
+    },
+    "scraped_date": "2026-08-25"
+  },
+  {
+    "title": "Beyond Correctness: Benchmarking and Aligning Response Behaviors in Hybrid-Thinking MLLMs",
+    "paper_url": "https://huggingface.co/papers/2608.12781",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Beyond Correctness: Benchmarking and Aligning Response Behaviors in Hybrid-Thinking MLLMs",
+      "abstract": "PatternEval reveals widespread response-pattern misalignment between thinking and non-thinking modes in hybrid-thinking MLLMs, with non-thinking inference exhibiting substantially more failures such as chain-of-thought leakage, repetition, contradiction, and performative reasoning. PatternRL mitigates this cross-mode misalignment by incorporating pattern-specific penalties during reinforcement learning, with only a marginal trade-off in task performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.12781",
+      "pdf_url": "https://arxiv.org/pdf/2608.12781",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.12781",
+      "scraped_at": "2026-08-25T01:17:21.855664"
+    },
+    "scraped_date": "2026-08-25"
+  },
+  {
+    "title": "Every Coin Has Two Sides: On the Dual Nature of Generalization in On-Policy Distillation of Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2608.16647",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Every Coin Has Two Sides: On the Dual Nature of Generalization in On-Policy Distillation of Large Language Models",
+      "abstract": "On-policy distillation (OPD) transfers teacher capabilities by supervising trajectories sampled from the student's own policy, yet its generalization behavior remains poorly understood, as most studies evaluate OPD on a single domain and on benchmarks close to the training data. We present a controlled study that varies one generalization factor at a time, from in-domain distribution shifts to cross-domain transfer and the multi-teacher setting. We find that OPD transfers a teacher's reasoning behavior rather than its answers to particular problems: training difficulty barely matters, and even problems the teacher never solves are useful. Transfer depends strongly on the origin relationship between teacher and student: same-origin pairs bring the student close to the teacher across languages, reasoning horizons, and even other domains, whereas cross-origin pairs mostly fit the trained distribution. This broad reach is a double-edged sword: since routing prompts to domain experts cannot confine each teacher's influence, combining them yields a mixture-dependent seesaw among their capabilities. These results clarify when OPD generalizes and offer a useful perspective for diagnosing multi-teacher OPD.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16647",
+      "pdf_url": "https://arxiv.org/pdf/2608.16647",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16647",
+      "scraped_at": "2026-08-25T01:17:23.590208"
+    },
+    "scraped_date": "2026-08-25"
+  },
+  {
+    "title": "EviRank: Structured Relevance Evidence for Multimodal Image Re-ranking",
+    "paper_url": "https://huggingface.co/papers/2608.20886",
+    "authors": [
+      "Jinwen Luo",
+      "Xinyu Zuo",
+      "Zirong Chen",
+      "Siyi Liu",
+      "EnjunDu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "EviRank: Structured Relevance Evidence for Multimodal Image Re-ranking",
+      "abstract": "EMNLP 2026 main",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.20886",
+      "pdf_url": "https://arxiv.org/pdf/2608.20886",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.20886",
+      "scraped_at": "2026-08-25T01:17:25.288010"
+    },
+    "scraped_date": "2026-08-25"
+  },
+  {
+    "title": "UniSpace: Unified Visual Representation and Scalable Multimodal Modeling",
+    "paper_url": "https://huggingface.co/papers/2608.08676",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "UniSpace: Unified Visual Representation and Scalable Multimodal Modeling",
+      "abstract": "🚀 Can one vision encoder understand, reconstruct, and generate? UniSpace explores this question by reparameterizing the patch embedding of pretrained ViTs. Instead of adding separate semantic and reconstruction encoders, it keeps the original semantic pathway and introduces a reconstruction-aware pathway to recover fine-grained visual details. The key insight is fascinating: frozen ViT blocks may already contain rich visual information — the bottleneck is how we parameterize the input tokens. A step towards more unified visual representations for multimodal models!",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.08676",
+      "pdf_url": "https://arxiv.org/pdf/2608.08676",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yjb6/UniSpace"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.08676",
+      "scraped_at": "2026-08-25T01:17:27.009932"
+    },
+    "scraped_date": "2026-08-25"
+  },
+  {
+    "title": "AgentMercury: Your Agent Can Synthesize Verifiable Environments for Business Scenarios at scale",
+    "paper_url": "https://huggingface.co/papers/2608.20634",
+    "authors": [
+      "Chanwoong Yoon",
+      "Minbyul Jeong"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AgentMercury: Your Agent Can Synthesize Verifiable Environments for Business Scenarios at scale",
+      "abstract": "https://huggingface.co/collections/Minbyul/agentmercury",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.20634",
+      "pdf_url": "https://arxiv.org/pdf/2608.20634",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.20634",
+      "scraped_at": "2026-08-25T01:17:28.696624"
+    },
+    "scraped_date": "2026-08-25"
+  },
+  {
+    "title": "Daedalus-150M: A Convolution-Attention Hybrid Designed for CPU Inference",
+    "paper_url": "https://huggingface.co/papers/2608.20210",
+    "authors": [
+      "Unseen1980"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Daedalus-150M: A Convolution-Attention Hybrid Designed for CPU Inference",
+      "abstract": "Daedalus-150M is a 160M-parameter language model designed backwards from its deployment target: one user, one token at a time, 4-bit weights, an ordinary CPU. Only 6 of its 18 blocks use full attention; the other 12 use short depthwise convolutions whose recurrent state is two timesteps wide no matter how long the context gets, so two thirds of the network never re-reads a growing KV cache. Trained from scratch on 59.9B tokens, it scores 47.31 on a five-task benchmark (HellaSwag, ARC-Easy, PIQA, OpenBookQA, WinoGrande) against a bar of 42.20 that was fixed before training began. It beats GPT-2 124M, Pythia-160M, OPT-125M and GPT-Neo-125M — all trained on 3–6× more data — and exceeds MobileLLM-125M's published score despite that model seeing a trillion tokens. Validation bits-per-byte is 0.8685. To test the architecture rather than the training recipe, a parameter-matched all-attention twin was trained on identical data, with the winning condition written down before either arm was scored. The hybrid won the pre-registered quality metric by 0.81%, matched the twin on downstream tasks, produced a 6.3% smaller 4-bit file, and decoded 1.76× faster at 2048 tokens of context — 2.08× against an external 135M peer. In every measurement the speed advantage is near zero at empty context and grows with depth, which is what the mechanism predicts and what a merely leaner model would not show. A bandwidth-only cost model predicts just 1.17×, so memory volume alone does not explain the gap. The paper also reports what did not work: an unmitigated 4-bit quality cost after quantisation-aware training failed on its first step, roughly half the convolution channels ending up inert and impossible to prune under the stock runtime's shape checks, and a vocabulary larger than this model size warrants. Model: https://huggingface.co/Unseen1980/daedalus-150m-instruct Checkpoints: https://huggingface.co/Unseen1980/daedalus-checkpoints Code: https://github.com/unseen1980/daedalus",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.20210",
+      "pdf_url": "https://arxiv.org/pdf/2608.20210",
+      "github_links": [
+        "https://github.com/unseen1980/daedalus",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.20210",
+      "scraped_at": "2026-08-25T01:17:30.386176"
+    },
+    "scraped_date": "2026-08-25"
+  },
+  {
+    "title": "Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models",
+    "paper_url": "https://huggingface.co/papers/2608.18484",
+    "authors": [],
+    "stars": "14",
+    "details": {
+      "title": "Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models",
+      "abstract": "SparsePR is a training-free sparse attention method for accelerating video generation. It combines response-coupled partitioning with probe-fitted residual reconstruction to reduce attention computation while preserving generation quality. We evaluate it across multiple video world models (HunyuanVideo, Wan2.2, Cosmos2.5, and Cosmos3-Nano) and provide an efficient block-sparse GPU implementation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.18484",
+      "pdf_url": "https://arxiv.org/pdf/2608.18484",
+      "github_links": [
+        "https://github.com/PardisTaghavi/SparsePR",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.18484",
+      "scraped_at": "2026-08-25T01:17:32.074362"
+    },
+    "scraped_date": "2026-08-25"
+  },
+  {
+    "title": "Towards Faithful Simulation of Human Shopping Behavior",
+    "paper_url": "https://huggingface.co/papers/2608.20707",
+    "authors": [
+      "See-Kiong Ng",
+      "Yang Zhang",
+      "Jing Yu",
+      "Yan Mi",
+      "TangJiakai5704"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Towards Faithful Simulation of Human Shopping Behavior",
+      "abstract": "✨ RecVerse: Towards Faithful Simulation of Human Shopping Behavior 🛒 A GUI-grounded shopping agent that interacts with interfaces through screenshots 🖥️ like a real user, retains relevant information using a cognitively inspired hierarchical memory, and is trained end-to-end with trajectory-level reinforcement learning, producing simulated sessions that faithfully reflect how real people browse and shop online. 📄 Paper: Towards Faithful Simulation of Human Shopping Behavior (arXiv:2608.20707) 🏛️ Affiliations: Renmin University of China · UCAS · NUS · Alibaba Group 🤔 Why should you care? Faithful user simulators power 🛍️ offline evaluation, counterfactual analysis, and RL recommender training — without burning online A/B traffic. But current simulators still stumble on: 📚 Memory blow‑up across long sessions 🎯 Step‑wise imitation that reproduces noise and yields over‑active or overly passive behavior 💡RecVerse's Two Big Ideas 🧠 Cognitive‑Inspired Hierarchical Memory 👁️ Working Memory\trecent screenshots + mindset (FIFO) 📝 Episodic Memory\tsession‑level textual event trace ❤️ Preference Memory\tdistilled long‑term user intent 🪄 Memory‑as‑Action — the agent learns when and what to remember via RL. 🏹 Trajectory‑Aligned RL 📊 Macro reward aligns action‑type distributions 🔬 Micro reward uses a 3‑tier category tree for dense intent signals ✅ Format reward keeps outputs valid 🗂️ USB Benchmark The first interactive GUI benchmark supporting multi‑turn agentic RL. 🖼️ 5,274 trajectories 🎬 69,842 actions 🏷️ 90,095 items (41/517/2,256 categories) 👤 5,222 users 🏆 Results vs. STA (best GUI baseline): F1 +68%, HR +77%, HCO +41% 📈 Head‑to‑head human eval: RecVerse beats STA in 92% of cases 🥇 Falls within the high-fidelity behavioral band, while others remain in the over-active or over-passive zone.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.20707",
+      "pdf_url": "https://arxiv.org/pdf/2608.20707",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.20707",
+      "scraped_at": "2026-08-25T01:17:33.812485"
+    },
+    "scraped_date": "2026-08-25"
+  },
+  {
+    "title": "Llama-Mobile: Efficient 2.7-Bit Quantization of VLMs",
+    "paper_url": "https://huggingface.co/papers/2608.21134",
+    "authors": [
+      "Douglas Orr",
+      "Jeevan Bhoot",
+      "Luka Ribar"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Llama-Mobile: Efficient 2.7-Bit Quantization of VLMs",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.21134",
+      "pdf_url": "https://arxiv.org/pdf/2608.21134",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.21134",
+      "scraped_at": "2026-08-25T01:17:35.458653"
+    },
+    "scraped_date": "2026-08-25"
+  },
+  {
+    "title": "Hydra-0: Action Flow for Generalist World Modeling and Control",
+    "paper_url": "https://huggingface.co/papers/2608.18077",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Hydra-0: Action Flow for Generalist World Modeling and Control",
+      "abstract": "A generalist world model conditioned on action flow: robot actions represented as pixel motion. At deployment it runs as a hybrid simulator: a physics engine moves the robot, a learned video model predicts what the world does in response. One model trains across embodiments, simulates them, evaluates policies, and drives a real robot.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.18077",
+      "pdf_url": "https://arxiv.org/pdf/2608.18077",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.18077",
+      "scraped_at": "2026-08-25T01:17:37.176450"
+    },
+    "scraped_date": "2026-08-25"
+  },
+  {
+    "title": "Human-Centric Intelligence in the Era of Foundation Models: A Survey",
+    "paper_url": "https://huggingface.co/papers/2608.18184",
+    "authors": [
+      "Yihua Shao",
+      "Yilei Man",
+      "Xiaorui Jiang",
+      "Tianqi Wang",
+      "cseeychen"
+    ],
+    "stars": "12",
+    "details": {
+      "title": "Human-Centric Intelligence in the Era of Foundation Models: A Survey",
+      "abstract": "We are pleased to share Human-Centric Intelligence in the Era of Foundation Models: A Survey . This survey presents a full-spectrum view of human-centric intelligence through six interconnected context levels: visual appearance, spatial geometry, kinematic dynamics, interaction modeling, world simulation, and embodied agency. We systematically organize the methodological foundations, representative methods, datasets, benchmarks, evaluation metrics, and future directions of the field. We also maintain a continuously updated, community-driven collection of human-centric AI resources and warmly invite interested contributors to join us in expanding it. 🌐 Project Page: https://cseeyangchen.github.io/Human-Centric-AI/homepage/ 💻 GitHub Resources: https://github.com/cseeyangchen/Human-Centric-AI",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.18184",
+      "pdf_url": "https://arxiv.org/pdf/2608.18184",
+      "github_links": [
+        "https://github.com/cseeyangchen/Human-Centric-AI",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.18184",
+      "scraped_at": "2026-08-25T01:17:38.888413"
+    },
+    "scraped_date": "2026-08-25"
+  },
+  {
+    "title": "PhysCaP: Grounding Code-as-Policy Agent with Physics-Informed Exploration",
+    "paper_url": "https://huggingface.co/papers/2608.21031",
+    "authors": [
+      "Hung-An Chen",
+      "Hsueh-En Chang",
+      "Jing-Wen Chen",
+      "Chen-Yu Lin",
+      "cmhungsteve"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "PhysCaP: Grounding Code-as-Policy Agent with Physics-Informed Exploration",
+      "abstract": "We present PhysCaP, a Physics-Informed Code-as-Policy agent for active perception in robotic manipulation. While vision-language-action policies excel at imitating demonstrations, they rely on passive observation and fail to infer latent physical properties critical for manipulation. PhysCaP augments code-as-policy frameworks with a physics-informed exploration layer that enables explicit information-seeking through interaction. It introduces training-free physical property extraction modules that estimate object mass and stiffness from robot proprioception without additional sensors. To balance exploration costs and the efficiency of information obtained, PhysCaP employs a dual-agent design: a Planner that decides when to explore and when to stop, and a Prioritizer that filters implausible interactions and ranks the remainder using a heuristic priority score, enabling efficient, targeted exploration.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.21031",
+      "pdf_url": "https://arxiv.org/pdf/2608.21031",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.21031",
+      "scraped_at": "2026-08-25T01:17:40.557409"
+    },
+    "scraped_date": "2026-08-25"
+  },
+  {
+    "title": "CLEAR: Continuous Latent Adapter Routing for Utility-Preserving LLM Safety Alignment",
+    "paper_url": "https://huggingface.co/papers/2608.21278",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CLEAR: Continuous Latent Adapter Routing for Utility-Preserving LLM Safety Alignment",
+      "abstract": "Improving the safety of large language models (LLMs) often comes at the expense of utility, as globally applied safety tuning may affect model responses to both harmful and benign inputs. We propose \\textbf{C}ontinuous \\textbf{L}at\\textbf{E}nt \\textbf{A}dapter \\textbf{R}outing (CLEAR), a conditional safety adaptation framework that uses a lightweight hidden-state gate to continuously control the activation strength of a safety low-rank adapter. CLEAR aims to reduce harmful completions while avoiding unnecessary changes to the frozen backbone that could degrade performance on benign prompts. Experiments on widely used safety and utility benchmarks show that CLEAR improves robustness on HarmBench while reducing the utility degradation observed with globally applied safety tuning such as SFT or standard low-rank adaptation (LoRA). On Llama-3-8B-Instruct, CLEAR reduces HarmBench ASR from 32.3% to 0.5%, while retaining most of the base model's utility and achieving up to 7.1 percentage points higher GSM8K accuracy than globally applied SFT or LoRA. These results suggest that CLEAR is a promising mechanism for improving the safety--utility trade-off in LLM alignment.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.21278",
+      "pdf_url": "https://arxiv.org/pdf/2608.21278",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.21278",
+      "scraped_at": "2026-08-25T01:17:42.286394"
+    },
+    "scraped_date": "2026-08-25"
+  },
+  {
+    "title": "Peer-Voted LLM-Agent Stress Tests Find Feed-Induced Lexical Convergence but No Reliable Matched-Exposure Advantage for Distributed Sources",
+    "paper_url": "https://huggingface.co/papers/2608.20438",
+    "authors": [
+      "Dominic Williamson",
+      "Rana Muhammad Usman"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Peer-Voted LLM-Agent Stress Tests Find Feed-Induced Lexical Convergence but No Reliable Matched-Exposure Advantage for Distributed Sources",
+      "abstract": "What happens when AI agents start shaping each other’s feeds? Across 448 preregistered trials, we find that peer-ranked feeds make agents increasingly similar in language, while four coordinated sources are not reliably more influential than one when total exposure is fixed. The result suggests that in multi-agent systems, the feed itself can become part of the system’s behaviour.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.20438",
+      "pdf_url": "https://arxiv.org/pdf/2608.20438",
+      "github_links": [
+        "https://github.com/ranausmanai/synthetic-social-networks",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.20438",
+      "scraped_at": "2026-08-25T01:17:43.947226"
+    },
+    "scraped_date": "2026-08-25"
+  },
+  {
+    "title": "FlavourBench: Ranking Frontier Language Models with Executable Culinary Ground Truth",
+    "paper_url": "https://huggingface.co/papers/2608.20574",
+    "authors": [
+      "Erim Hayretci",
+      "josefchen"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "FlavourBench: Ranking Frontier Language Models with Executable Culinary Ground Truth",
+      "abstract": "BREAKING: world's first culinary intelligence benchmark for LLMs now on arXiv. We tested the strongest model from 16 labs across 534 executable culinary tasks powered by Epicure. Grok 4.6 leads the pack.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.20574",
+      "pdf_url": "https://arxiv.org/pdf/2608.20574",
+      "github_links": [
+        "https://github.com/josefchen/flavourbench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.20574",
+      "scraped_at": "2026-08-25T01:17:45.691789"
+    },
+    "scraped_date": "2026-08-25"
+  },
+  {
+    "title": "WorldMind: Decoupled Game World Model for State-Aware NPC Behavior",
+    "paper_url": "https://huggingface.co/papers/2608.21439",
+    "authors": [
+      "Yeying Jin",
+      "Danze Chen",
+      "Boran Zhang",
+      "Zhiyang Deng"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "WorldMind: Decoupled Game World Model for State-Aware NPC Behavior",
+      "abstract": "Game world models have recently demonstrated promising capabilities in generating visually coherent and action-controllable gameplay videos. However, non-player character (NPC) behavior in existing models is either implicitly entangled with video generation or explicitly prescribed through external control signals. Consequently, a game world model has to jointly understand the state, plan the NPC's response and render its visual outcome, limiting its ability to produce responsive and state-aware NPC behavior. The challenge lies in the lack of an explicit interface for state-grounded decision-making. To this end, we introduce WorldMind, to our knowledge the first decoupled framework for state-aware NPC behavior in game world models. WorldMind separates interactive world modeling into four layers: an Understanding Layer that constructs a compact state from generated frames; a Decision Layer that reasons over the compact state to plan the NPC's next action; a Control Layer that translates the actions into temporally aligned conditions; and a Generation Layer that synthesizes their visual outcomes. By reconnecting layers in a closed interaction loop, WorldMind grounds NPC behavior in the evolving game state. We further introduce BOSS-140K, a dataset of gameplay videos paired with rich internal game states, together with an agent that automates the collection at scale. Experiments on BOSS-140K demonstrate reliable compact state reconstruction and mechanics-grounded planning, with WorldMind preferred over the baselines in approximately 70% of pairwise comparisons for its more tactically appropriate and coherent NPC behavior.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.21439",
+      "pdf_url": "https://arxiv.org/pdf/2608.21439",
+      "github_links": [
+        "https://github.com/TeaWhiteBro/WorldMind",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.21439",
+      "scraped_at": "2026-08-25T01:17:47.608964"
+    },
+    "scraped_date": "2026-08-25"
+  },
+  {
+    "title": "Hadith computational science in the age of large language models: a critical narrative review",
+    "paper_url": "https://huggingface.co/papers/2608.20364",
+    "authors": [
+      "Riasat Islam",
+      "Md. Ashraful Haque"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Hadith computational science in the age of large language models: a critical narrative review",
+      "abstract": "new",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.20364",
+      "pdf_url": "https://arxiv.org/pdf/2608.20364",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.20364",
+      "scraped_at": "2026-08-25T01:17:49.260126"
+    },
+    "scraped_date": "2026-08-25"
   }
 ]
