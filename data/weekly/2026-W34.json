@@ -1018,5 +1018,744 @@
       "scraped_at": "2026-08-25T01:17:49.260126"
     },
     "scraped_date": "2026-08-25"
+  },
+  {
+    "title": "Apodex 1.1: Scaling Agentic Intelligence for Complex Work",
+    "paper_url": "https://huggingface.co/papers/2608.23283",
+    "authors": [],
+    "stars": "583",
+    "details": {
+      "title": "Apodex 1.1: Scaling Agentic Intelligence for Complex Work",
+      "abstract": "Meet Apodex 1.1: Scaling Agentic Intelligence for Complex Work Open Source Harness: https://github.com/ApodexAI/FrontierAgent Open Weights: https://huggingface.co/collections/apodex/apodex-11 We’re excited to introduce Apodex 1.1, our new model family built to scale agentic intelligence for professional work. 🧠 Frontier-level intelligence for complex work Apodex 1.1 brings frontier-level agentic performance across complex professional work, scientific research, financial analysis, and deep search. 🤝 Asynchronous Agent Team Apodex 1.1 can break down complex tasks, coordinate multiple agents in parallel, continuously integrate their findings, and let you step in to guide or redirect the work at any time. 🔬 Open-source research workbench We’re open-sourcing FrontierAgent—a locally deployable research workbench for the Apodex 1.1 family, including asynchronous Agent Team. Available now: 🔹 Apodex 1.1 — our most capable frontier model, available through the Apodex online workbench 🔹 Apodex 1.1 mini — open-weight model for running complex work locally 🔹 FrontierAgent — open-source, locally deployable research workbench 🌐 Live workbench: https://apodex.ai 🦾 API platform: https://platform.apodex.ai 📃 Paper: https://apodex.com/pdf/20260824",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.23283",
+      "pdf_url": "https://arxiv.org/pdf/2608.23283",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ApodexAI/FrontierAgent"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.23283",
+      "scraped_at": "2026-08-26T01:20:05.875841"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "EchoWM: Open and Enterable Omnimodal World Models",
+    "paper_url": "https://huggingface.co/papers/2608.23189",
+    "authors": [],
+    "stars": "1.9k",
+    "details": {
+      "title": "EchoWM: Open and Enterable Omnimodal World Models",
+      "abstract": "An omnimodal world model for generative media that responds to continuous navigation while video, environmental sound, music, and speech evolve together.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.23189",
+      "pdf_url": "https://arxiv.org/pdf/2608.23189",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/jd-opensource/JoyAI-Echo"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.23189",
+      "scraped_at": "2026-08-26T01:20:07.594427"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "TLive-Omni: An Omni-Modal Understanding Model for E-Commerce Live Streaming",
+    "paper_url": "https://huggingface.co/papers/2608.20958",
+    "authors": [],
+    "stars": "66",
+    "details": {
+      "title": "TLive-Omni: An Omni-Modal Understanding Model for E-Commerce Live Streaming",
+      "abstract": "✨ Highlights Timestamped Per-vGrid layout — Audio and video tokens are organized into timestamped grid with explicit boundaries, keeping audio segments adjacent to their corresponding visual content for fine-grained temporal alignment over long streams. Three-stage SFT recipe — Progressive training from audio-language alignment to full multimodal SFT, developing live-commerce understanding from omni-modal perception to instruction-following responses. Faithful-RFT — A reinforcement fine-tuning stage for faithful and real-time live-stream demands, suppressing explicit reasoning traces and directly optimizing answer quality for live-commerce tasks. Rich atomic capabilities — A scenario-oriented taxonomy covering speech recognition, speaker analysis, product visual grounding, text recognition, temporal grounding, video dense caption, and omni-modal QA, etc, supported by a compact data production engine. Strong live-commerce performance with competitive generalization — 4B and 9B variants demonstrate strong results across live-commerce audio, image, and video tasks, together with excellent generalization on general benchmarks. 📦 Resources & Code: https://github.com/TaoLiveAIGC/TLive-Omni",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.20958",
+      "pdf_url": "https://arxiv.org/pdf/2608.20958",
+      "github_links": [
+        "https://github.com/TaoLiveAIGC/TLive-Omni",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.20958",
+      "scraped_at": "2026-08-26T01:20:09.222141"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "Unlocking the Potential of Image Editing via Concept Scaling and Dense Supervision",
+    "paper_url": "https://huggingface.co/papers/2608.16812",
+    "authors": [],
+    "stars": "26",
+    "details": {
+      "title": "Unlocking the Potential of Image Editing via Concept Scaling and Dense Supervision",
+      "abstract": "🚀 ConceptEdit : Unlocking the Potential of Image Editing via Concept Scaling and Dense Supervision. 📄 arXiv 💻 GitHub 🤗 Dataset 🤗 Benchmark",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.16812",
+      "pdf_url": "https://arxiv.org/pdf/2608.16812",
+      "github_links": [
+        "https://github.com/inclusionAI/ConceptEdit",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.16812",
+      "scraped_at": "2026-08-26T01:20:10.797408"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "MobilePA-Bench: Benchmarking Mobile Planner Agents on Complex Real-World Tasks",
+    "paper_url": "https://huggingface.co/papers/2608.23035",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MobilePA-Bench: Benchmarking Mobile Planner Agents on Complex Real-World Tasks",
+      "abstract": "MobilePA-Bench",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.23035",
+      "pdf_url": "https://arxiv.org/pdf/2608.23035",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.23035",
+      "scraped_at": "2026-08-26T01:20:12.440231"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "Prime Agent: A Self-Improving RLM Harness",
+    "paper_url": "https://huggingface.co/papers/2608.23552",
+    "authors": [],
+    "stars": "18.4k",
+    "details": {
+      "title": "Prime Agent: A Self-Improving RLM Harness",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.23552",
+      "pdf_url": "https://arxiv.org/pdf/2608.23552",
+      "github_links": [
+        "https://github.com/PrimeIntellect-ai/prime-agent",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.23552",
+      "scraped_at": "2026-08-26T01:20:14.057838"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "The Mask Is Not the Model: Auditing Prefix Invariance in Attention, State-Space, and Hybrid Sequence Models",
+    "paper_url": "https://huggingface.co/papers/2608.22876",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "The Mask Is Not the Model: Auditing Prefix Invariance in Attention, State-Space, and Hybrid Sequence Models",
+      "abstract": "The field's default causality check — inspecting the attention mask — no longer covers most of the computation graph. Hybrid stacks mix attention with scans, and a scan has no mask. So we formalized the property the mask was standing in for: prefix invariance — the representation at position t must not depend on inputs after t. Causality is a graph-level property, not a mask property. The audit is two forward passes. Feed x and x' identical except at the last position, hook every layer, compare the prefix, report the first layer where Δ > τ. No training, no gradients, no labels. Runs on CPU in seconds. What we found 192 injected faults across 8 checkpoints. Attention-mask inspection detected 0. Our audit localized 192/192 to the exact layer. A static census of transformers 5.7.0 predicted, from source alone, which released models would leak. The reference modeling_mamba2.py reduces the inter-chunk recurrence over the input chunk axis; modeling_zamba2.py and modeling_nemotron_h.py reduce over the output chunk axis. One axis. The dynamic audit confirmed the prediction exactly. Zamba2-1.2B leaks starting at sequence length 256 — its declared chunk size. Nemotron-H-8B at 128 — its declared chunk size. Every conformant implementation we checked (Bamba-9B, Falcon-H1, Granite-4.0-H, Mamba2, RecurrentGemma) came back clean. Two norms this cost us to learn A CLEAN verdict is uninterpretable without a positive control on the same loaded checkpoint. We hit checkpoints that returned bit-identical outputs for different inputs — Δ = 0 everywhere, which looks perfect and means nothing. Audit length must exceed the architecture's chunk or window parameter. At our default T = 48, Zamba2 looks clean: its chunk is 256, so the buggy branch is never entered. We also re-audited two clean models at 3× their own window width, to confirm the positive findings were not an artifact of merely lengthening sequences. On why there is no code repository. This is deliberate, and Appendix A.1 explains it. The method is five lines of arithmetic on top of standard forward hooks — reimplementable in about an hour against any model whose layers are enumerable — and an independent reimplementation is a stronger reproduction than running our binary. So we release measurements instead: complete audit logs, exact checkpoint identifiers, per-layer delta arrays for every clean scan and every injected trial, and the injected-fault specifications. Everything needed to reproduce — or contest — any number in the paper is in that set. Scope, stated plainly: the defect lives in the PyTorch chunked-scan path (torch_forward / segment_sum) that executes when the optional fused kernels are absent. Several checkpoints could not be loaded in our environment, and we make no claim about those. Causal leakage does not crash. It lowers training loss and perplexity — it makes the very metrics you select models with look better. That asymmetry is why we think a causal-correctness certificate belongs next to the parameter count in a model release. Happy to discuss the threshold choice, the ε-sweep discriminator, or where else this metamorphic relation applies.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.22876",
+      "pdf_url": "https://arxiv.org/pdf/2608.22876",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.22876",
+      "scraped_at": "2026-08-26T01:20:15.637406"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "Block3D: Efficient Text-to-3D Generation via Block-Wise Diffusion",
+    "paper_url": "https://huggingface.co/papers/2608.19567",
+    "authors": [],
+    "stars": "24",
+    "details": {
+      "title": "Block3D: Efficient Text-to-3D Generation via Block-Wise Diffusion",
+      "abstract": "Block3D is an efficient text-to-3D generation framework that shifts the causal dependency of discrete shape tokens from individual tokens to contiguous blocks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.19567",
+      "pdf_url": "https://arxiv.org/pdf/2608.19567",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ziplab/Block3D"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.19567",
+      "scraped_at": "2026-08-26T01:20:17.258419"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "RISE: Adaptive Imagination for World Action Models",
+    "paper_url": "https://huggingface.co/papers/2608.20430",
+    "authors": [],
+    "stars": "38",
+    "details": {
+      "title": "RISE: Adaptive Imagination for World Action Models",
+      "abstract": "We introduce RISE, an adaptive imagination framework for World Action Models (WAMs) in autonomous driving. Instead of using a fixed rollout depth for every scene, RISE dynamically decides whether to continue imagining future latent states based on planning benefit, revealed risk, and computation cost.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.20430",
+      "pdf_url": "https://arxiv.org/pdf/2608.20430",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/COOWAI/RISE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.20430",
+      "scraped_at": "2026-08-26T01:20:18.864527"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "Towards a Densing Law for User Representation Learning at Billion-Scale Capacity",
+    "paper_url": "https://huggingface.co/papers/2608.23392",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Towards a Densing Law for User Representation Learning at Billion-Scale Capacity",
+      "abstract": "interesting work！",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.23392",
+      "pdf_url": "https://arxiv.org/pdf/2608.23392",
+      "github_links": [
+        "https://github.com/David-Dou/find-densing-law",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.23392",
+      "scraped_at": "2026-08-26T01:20:20.489356"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "Beyond the Stability-Exploration Dilemma: Environmental Regularization for LLM Policy Optimization",
+    "paper_url": "https://huggingface.co/papers/2608.23311",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "Beyond the Stability-Exploration Dilemma: Environmental Regularization for LLM Policy Optimization",
+      "abstract": "EMNLP’26 ✅ Query-KL Replaces Policy-KL ✅ Plug-and-Play with DAPO & Other RL Methods ✅ Stronger Reasoning Across 6 Benchmarks Moving regularization from responses to queries for more stable and exploratory LLM reasoning. 🚀",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.23311",
+      "pdf_url": "https://arxiv.org/pdf/2608.23311",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/AlibabaResearch/ERPO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.23311",
+      "scraped_at": "2026-08-26T01:20:22.051177"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
+    "paper_url": "https://huggingface.co/papers/2608.23565",
+    "authors": [],
+    "stars": "28",
+    "details": {
+      "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.23565",
+      "pdf_url": "https://arxiv.org/pdf/2608.23565",
+      "github_links": [
+        "https://github.com/zhifeichen097/ReWorld",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.23565",
+      "scraped_at": "2026-08-26T01:20:23.716584"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "ARC: Fair Relative Advantage Comparison in Open-Ended Real-World Interaction",
+    "paper_url": "https://huggingface.co/papers/2608.13622",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ARC: Fair Relative Advantage Comparison in Open-Ended Real-World Interaction",
+      "abstract": "ARC: Fair Relative Advantage Comparison in Open-Ended Real-World Interaction",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.13622",
+      "pdf_url": "https://arxiv.org/pdf/2608.13622",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.13622",
+      "scraped_at": "2026-08-26T01:20:25.317668"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "GameXpert-Bench: How Far Are Coding Agents from Expert Game Development?",
+    "paper_url": "https://huggingface.co/papers/2608.21833",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GameXpert-Bench: How Far Are Coding Agents from Expert Game Development?",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.21833",
+      "pdf_url": "https://arxiv.org/pdf/2608.21833",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.21833",
+      "scraped_at": "2026-08-26T01:20:26.877333"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "Quantization-Aware Healing: A Practical Recipe for Recovering Compressed, 4-Bit LLMs",
+    "paper_url": "https://huggingface.co/papers/2608.20953",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Quantization-Aware Healing: A Practical Recipe for Recovering Compressed, 4-Bit LLMs",
+      "abstract": "Shrinking a large language model usually means two things: cutting its parameter count, then squeezing what's left down to 4 bits. Both save real money on serving cost. Both also quietly cost you accuracy, so every efficient deployment needs a recovery step afterward, usually called healing. In our latest paper we show that the standard way of healing, retraining against the model's own already-degraded recovered version, caps how good the result can be. Our method, Quantization-Aware Healing, heals directly from the original uncompressed model instead. Applied to a GPT-OSS 120B model compressed to 60B parameters and quantized to 4 bits, the healed model beats its own full-precision version on 7 of 9 benchmarks. Smaller, cheaper to run, and more accurate, all at once.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.20953",
+      "pdf_url": "https://arxiv.org/pdf/2608.20953",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.20953",
+      "scraped_at": "2026-08-26T01:20:28.455331"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "One Success Isn't Reliability: Thinkingbox, a Sandbox and Benchmark for Agents in Stateful Business Workflows",
+    "paper_url": "https://huggingface.co/papers/2608.19741",
+    "authors": [],
+    "stars": "20",
+    "details": {
+      "title": "One Success Isn't Reliability: Thinkingbox, a Sandbox and Benchmark for Agents in Stateful Business Workflows",
+      "abstract": "Code: https://github.com/microsoft/thinkingbox",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.19741",
+      "pdf_url": "https://arxiv.org/pdf/2608.19741",
+      "github_links": [
+        "https://github.com/microsoft/thinkingbox",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.19741",
+      "scraped_at": "2026-08-26T01:20:30.040052"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "AutoResearch: Insight In, Hallucination Out",
+    "paper_url": "https://huggingface.co/papers/2608.17906",
+    "authors": [],
+    "stars": "71",
+    "details": {
+      "title": "AutoResearch: Insight In, Hallucination Out",
+      "abstract": "AutoResearch: Insight In, Hallucination Out. Many systems focus on making research more Auto. We focus on the Research: real experiments, evidence-based decisions, multi-stage reviews, and human oversight. Not just more Auto — better Research.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.17906",
+      "pdf_url": "https://arxiv.org/pdf/2608.17906",
+      "github_links": [
+        "https://github.com/EvoMap/AutoResearch",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.17906",
+      "scraped_at": "2026-08-26T01:20:31.621970"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "Beyond Imitation: Filtering On-Policy Distillation by Reasoning Progress",
+    "paper_url": "https://huggingface.co/papers/2608.19408",
+    "authors": [
+      "Danny H. K. Tsang",
+      "Yize Chen",
+      "Rengrong Xiong",
+      "Chen Yang",
+      "HY-Wan"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Beyond Imitation: Filtering On-Policy Distillation by Reasoning Progress",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.19408",
+      "pdf_url": "https://arxiv.org/pdf/2608.19408",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.19408",
+      "scraped_at": "2026-08-26T01:20:33.234608"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection",
+    "paper_url": "https://huggingface.co/papers/2608.20169",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection",
+      "abstract": "A major challenge for scaling recursive self-improvement, especially in harness optimization, is the cost of evolution. We introduce a fundamentally different approach that cuts the evolution cost of existing harness optimization by up to 80%. 🚀 Introducing Task-CoEvolve Existing approaches focus on using fewer candidates or fewer iterations. Task-CoEvolve takes an orthogonal direction: instead of reducing the search itself, we reduce the number of evaluation tasks at each iteration. 💡 The key idea is simple: not every validation task needs to be evaluated at every iteration. Task-CoEvolve co-evolves the validation tasks together with the harness: Select informative tasks based on the evolving harnesses Adaptively update which tasks are evaluated Estimate full-set performance from partial evaluations 📊 Results On online text classification and Terminal-Bench 2.1, Task-CoEvolve matches the performance of full-set search using only 20% of the evaluations (reducing the overall search cost by 67–80% in Terminal-Bench 2.1)🔥 📄 https://arxiv.org/abs/2608.20169 Github: https://github.com/Agent4Science-UTokyo/Task-CoEvolve",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.20169",
+      "pdf_url": "https://arxiv.org/pdf/2608.20169",
+      "github_links": [
+        "https://github.com/Agent4Science-UTokyo/Task-CoEvolve",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.20169",
+      "scraped_at": "2026-08-26T01:20:34.836112"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "LongWoF-Bench: Evaluating EvoMap Genes for Verifiable Long-Workflow Tasks",
+    "paper_url": "https://huggingface.co/papers/2608.23200",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LongWoF-Bench: Evaluating EvoMap Genes for Verifiable Long-Workflow Tasks",
+      "abstract": "New work: LongWoF-Bench: Evaluating EvoMap Genes for Verifiable Long-Workflow Tasks Skills tell agents what to do. Genes preserve what actually worked. Across 7 models, EvoMap Genes from verified execution experience outperform Skills by 8.7–15.5 points on long-workflow tasks. Don’t rediscover experience. Reuse it.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.23200",
+      "pdf_url": "https://arxiv.org/pdf/2608.23200",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.23200",
+      "scraped_at": "2026-08-26T01:20:36.379566"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "Better Retrieval, Worse Robustness:How Multi-hop RAG Amplifies Upstream ASR Errors",
+    "paper_url": "https://huggingface.co/papers/2608.22872",
+    "authors": [
+      "KingZ23"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Better Retrieval, Worse Robustness:How Multi-hop RAG Amplifies Upstream ASR Errors",
+      "abstract": "Speech interfaces put ASR in front of retrieval, so the query a RAG system sees is already corrupted. We test whether the standard multi-hop methods, entity-graph linking and iterative reformulation, absorb that corruption or amplify it. The findings suggest that they amplify it. The structurally richer configurations generally reach higher absolute F1 under ASR input, but they give up more of their clean-text advantage: the gap from clean text to the highest-WER accent is 36-67% larger under IRCoT+HippoRAG2 than under naive dense retrieval, on all three benchmarks. Corruption of one or more query entities is the dominant failure mode, accounting for 87-96% of degradation cases on 2WikiMultiHopQA across all four methods. Two lightweight surface-form mitigations, N-best decoding and phonetic entity correction, leave most of the gap intact, which points at retrieval structure rather than transcription surface form. We release the code and a transcript dataset covering 3 multi-hop QA benchmarks x 4 English accents (3,000 questions, 12,000 rows).",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.22872",
+      "pdf_url": "https://arxiv.org/pdf/2608.22872",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ZhenghuaBao/spoken-multihop-rag"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.22872",
+      "scraped_at": "2026-08-26T01:20:37.964095"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "Industrial-Instruction: An End-to-End Framework for Building Instruction-Tuning and Benchmark Datasets from Industrial Technical Reports",
+    "paper_url": "https://huggingface.co/papers/2608.22817",
+    "authors": [
+      "Moharram Challenger",
+      "Masoud Nasiripour",
+      "Alireza Khalilipour",
+      "Hassan Bashiri",
+      "Parssky"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Industrial-Instruction: An End-to-End Framework for Building Instruction-Tuning and Benchmark Datasets from Industrial Technical Reports",
+      "abstract": "We release Industrial-Instruction — two open QA datasets built from 906 real Panasonic technical PDFs (7,525 pages), for training and benchmarking RAG models on industrial documentation instead of general web text. Same pipeline, two generator models We built the same dataset twice with an identical pipeline: Qwen3-30B-A3B-Instruct Claude-Opus-4.6 Cost ≈ $3.2 (local compute) ≈ $330 (API usage) Raw samples filtered out 43% 0.5% The frontier model gave a much cleaner raw dataset and bigger downstream gains — but not proportional to 100× the cost . Results Fine-tuning Qwen3-4B lifts Set-Match Accuracy: 28.5% → 42.0% on the Qwen-generated data 40.9% → 56.4% on the Claude-generated data MMLU stays essentially flat for the Claude-trained model ( 72.13 → 72.08 ), with a small but measurable drop for the Qwen-trained one ( → 70.87 ). Each model is scored on its own held-out split — not a controlled head-to-head. Everything is released 📄 Paper https://arxiv.org/abs/2608.22817 📊 Dataset Parssky/industrial-instruction-dataset 🤖 Models qwen4b · qwen4b-claude 💻 Code parssky/industrial-instruction Datasets, both fine-tuned models, the FAISS index and the full pipeline are all public.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.22817",
+      "pdf_url": "https://arxiv.org/pdf/2608.22817",
+      "github_links": [
+        "https://github.com/parssky/industrial-instruction",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.22817",
+      "scraped_at": "2026-08-26T01:20:39.617818"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "One Polluted Page Is Enough: Evaluating Web Content Pollution in LLM Recommenders",
+    "paper_url": "https://huggingface.co/papers/2606.13610",
+    "authors": [
+      "Liang Chen",
+      "leoluo25933"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "One Polluted Page Is Enough: Evaluating Web Content Pollution in LLM Recommenders",
+      "abstract": "Accepted to EMNLP 2026 Findings.  A single polluted web page is enough to make production LLMs recommend a brand that does not exist — 27% at rank 1, 73.8% when the top three pages are swapped. Turning on reasoning makes it worse.",
+      "arxiv_page_url": "https://arxiv.org/abs/2606.13610",
+      "pdf_url": "https://arxiv.org/pdf/2606.13610",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2606.13610",
+      "scraped_at": "2026-08-26T01:20:41.178039"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration",
+    "paper_url": "https://huggingface.co/papers/2608.17336",
+    "authors": [
+      "Yan Huang",
+      "Heng Fan",
+      "Qinglei Cao",
+      "Qiao Zhang",
+      "Hanzhi Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration",
+      "abstract": "TileMix introduces tile-centric mixed-precision attention for long-context LLM inference. Instead of applying a single precision uniformly across attention, it routes hardware-aligned tile groups between FP16 and INT8 within the same fused FlashAttention-style kernel. This preserves dense attention without retraining or architectural changes, while recovering much of the quality lost by uniform INT8 and improving prefill efficiency over FP16.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.17336",
+      "pdf_url": "https://arxiv.org/pdf/2608.17336",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.17336",
+      "scraped_at": "2026-08-26T01:20:42.808968"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "The Laws of Context Allocation: Causal Measurement and Closed-Loop Orchestration in Generative Search",
+    "paper_url": "https://huggingface.co/papers/2608.23252",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "The Laws of Context Allocation: Causal Measurement and Closed-Loop Orchestration in Generative Search",
+      "abstract": "We found that the metrics the RAG community uses to check \"did the model actually use this document?\" are mostly measuring the wrong thing. On standard evaluation pools — where the negatives are passages retrieved for unrelated queries — BM25 and query–document cosine look essentially perfect at identifying the evidence a generator relied on (AUC 0.99). Swap the padding for same-query hard negatives that are topically dense but entail no answer, and they fall to chance (0.57). A causal leave-one-out probe barely moves (0.85 → 0.85). The apparent reliability was an artifact of the distractors being easy. That matters because these proxies are what people use to decide what goes into the context. Once we measure utilization causally instead, a clear allocation law shows up: for a fixed budget of k×T evidence slots, spending it on several narrow sequential contexts beats one wide context by 16.8–20.5 absolute points of portfolio recall, and the gap holds up to 32B. Widening the context mostly buys a slightly better single answer while leaving the rest of the answer space untouched. We close the loop with a submodular scheduler that reads the probe's feedback each round to demote saturated evidence and promote under-used evidence (+0.033 to +0.081 PR over every selection-style baseline, BH q < 0.001). Code and the causal measurements are released — including an 11.5K-record benchmark where the necessary evidence set is known by construction, so you can check whether your own attribution method survives the swap from off-query to same-query negatives. 📄 https://arxiv.org/abs/2608.23252 💻 https://github.com/PeiYangLiu/ascp 🤗 https://huggingface.co/datasets/PeiyangLiu/ascp-context-attribution",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.23252",
+      "pdf_url": "https://arxiv.org/pdf/2608.23252",
+      "github_links": [
+        "https://github.com/PeiYangLiu/ascp",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.23252",
+      "scraped_at": "2026-08-26T01:20:44.399376"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "Same Agent, Different Answers: A Repeat-Aware Audit of Corpus-Induced Answer Churn in Retrieval-Augmented QA",
+    "paper_url": "https://huggingface.co/papers/2608.22856",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Same Agent, Different Answers: A Repeat-Aware Audit of Corpus-Induced Answer Churn in Retrieval-Augmented QA",
+      "abstract": "Same Agent, Different Answers",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.22856",
+      "pdf_url": "https://arxiv.org/pdf/2608.22856",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.22856",
+      "scraped_at": "2026-08-26T01:20:45.997404"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "What AstroPT knows about galaxies, and what that can teach us about LLMs",
+    "paper_url": "https://huggingface.co/papers/2608.22614",
+    "authors": [
+      "Shashwat Sourav",
+      "Michael J. Smith",
+      "Aman Kumar",
+      "Kshitij Duraphe",
+      "UniverseTBD"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "What AstroPT knows about galaxies, and what that can teach us about LLMs",
+      "abstract": "Large language models are hard to interpret in part because their training data is broad, messy, and not grounded in known relations. Scientific foundation models promise a cleaner setting. In astronomy, many relationships in the data are already known from theory, observation, and long-standing empirical work. This perspective permits us to ask two questions which we attempt to answer in this work: when such a model is trained, does its hidden space recover known scientific structure? And can we use that structure as a tool to probe the model’s learning dynamics and internalized knowledge?",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.22614",
+      "pdf_url": "https://arxiv.org/pdf/2608.22614",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.22614",
+      "scraped_at": "2026-08-26T01:20:47.552349"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "From Generation to Simulation: How Far Are World Models from Being True Simulators?",
+    "paper_url": "https://huggingface.co/papers/2608.23070",
+    "authors": [
+      "Xiaohui Kuang",
+      "Yang He",
+      "Mucheng Yang",
+      "Huan Deng",
+      "frankw132"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "From Generation to Simulation: How Far Are World Models from Being True Simulators?",
+      "abstract": "We survey world-model papers from the perspective of simulation rather than generation, asking a simple question: how far are current world models from becoming true simulators? We organize the field around eight simulator capabilities and identify key gaps in physics, state feedback, long-horizon stability, and evaluation. Hope this perspective can help connect world models with embodied AI, robotics, and interactive simulation. Project page: https://github.com/AtongWang/world-model-simulators",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.23070",
+      "pdf_url": "https://arxiv.org/pdf/2608.23070",
+      "github_links": [
+        "https://github.com/AtongWang/world-model-simulators",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.23070",
+      "scraped_at": "2026-08-26T01:20:49.090876"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "RIBOSPAN: A Long-Context RNA Foundation Model for Versatile RNA Modeling",
+    "paper_url": "https://huggingface.co/papers/2608.22849",
+    "authors": [],
+    "stars": "11",
+    "details": {
+      "title": "RIBOSPAN: A Long-Context RNA Foundation Model for Versatile RNA Modeling",
+      "abstract": "https://github.com/GAIR-NLP/RIBOSPAN-FM",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.22849",
+      "pdf_url": "https://arxiv.org/pdf/2608.22849",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/GAIR-NLP/RIBOSPAN-FM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.22849",
+      "scraped_at": "2026-08-26T01:20:50.737255"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "ClawProBench: Trace-Aware Evaluation of AI Agents with Runtime Coverage and Frozen Workplace-Style Holdouts",
+    "paper_url": "https://huggingface.co/papers/2608.22510",
+    "authors": [
+      "xyh110sym"
+    ],
+    "stars": "822",
+    "details": {
+      "title": "ClawProBench: Trace-Aware Evaluation of AI Agents with Runtime Coverage and Frozen Workplace-Style Holdouts",
+      "abstract": "github repo： https://github.com/suyoumo/ClawProBench my website： https://suyoumo.github.io/bench/",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.22510",
+      "pdf_url": "https://arxiv.org/pdf/2608.22510",
+      "github_links": [
+        "https://github.com/suyoumo/ClawProBench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.22510",
+      "scraped_at": "2026-08-26T01:20:52.361680"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "Hybrid Quantum-inspired Kolmogorov-Arnold Networks for Privacy-Aware Federated Biosignal Learning",
+    "paper_url": "https://huggingface.co/papers/2608.13914",
+    "authors": [
+      "Kuo-Chung Peng",
+      "Yu-Chao Hsu",
+      "Samuel Yen-Chi Chen",
+      "Chun-Hua Lin",
+      "Jim137"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Hybrid Quantum-inspired Kolmogorov-Arnold Networks for Privacy-Aware Federated Biosignal Learning",
+      "abstract": "This paper investigates HQKAN as a compact classifier for federated ECG analysis, allowing hospitals and wearable devices to collaboratively train models while keeping raw biosignals local. Across the MIT-BIH and INCART datasets, HQKAN consistently improves macro-F1, Cohen’s κ, calibration, and robustness to non-IID client distributions compared with an MLP baseline. At the same time, it reduces trainable parameters by 37.35%–44.81% and per-round communication costs by 24.89%–36.41%. These results highlight the potential of quantum-inspired architectures for communication-efficient and robust healthcare AI at the intersection of federated learning, biosignal processing, and quantum-inspired machine learning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.13914",
+      "pdf_url": "https://arxiv.org/pdf/2608.13914",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.13914",
+      "scraped_at": "2026-08-26T01:20:53.923059"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "Tomatoes, Potatoes, and Onions: Questioning the Need for Faces in Face Presentation Attack Detection",
+    "paper_url": "https://huggingface.co/papers/2608.21455",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Tomatoes, Potatoes, and Onions: Questioning the Need for Faces in Face Presentation Attack Detection",
+      "abstract": "TPO contains 12,480 presentations of 78 vegetable identities (26 physically distinct specimens each of tomatoes, potatoes, and onions). Bona fide objects were captured indoors from four viewpoints at two scales with two devices (Microsoft Surface tablet, Samsung Galaxy smartphone). Print attacks were printed on A4 and recaptured; replay attacks were displayed on either device and recorded with either device. Source/capture device, source/capture scale, identity, and viewpoint are exhaustively crossed, so matched and mismatched recapture conditions are both covered.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.21455",
+      "pdf_url": "https://arxiv.org/pdf/2608.21455",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/gurayozgur/TPO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.21455",
+      "scraped_at": "2026-08-26T01:20:55.479274"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "WorldToken: Time-First Sequence Modeling for Robotic Imitation Learning",
+    "paper_url": "https://huggingface.co/papers/2608.22591",
+    "authors": [
+      "Chao Gao",
+      "Andong Yang",
+      "mepi31415"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "WorldToken: Time-First Sequence Modeling for Robotic Imitation Learning",
+      "abstract": "Can a robot read the physical world as a language model reads text? Inspired by this question, we introduce WorldToken, a time-first approach to robotic sequence modeling in which policy timesteps define the top-level temporal sequence. We study its scaling and temporal-context behavior across RoboCasa and RMBench, including controlled history truncation and extended rollouts that sustain ordered behavior for over 850 seconds.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.22591",
+      "pdf_url": "https://arxiv.org/pdf/2608.22591",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.22591",
+      "scraped_at": "2026-08-26T01:20:57.018733"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "EXPL-FR: Explaining Face Recognition Models via Vision-Language Alignment",
+    "paper_url": "https://huggingface.co/papers/2608.21486",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "EXPL-FR: Explaining Face Recognition Models via Vision-Language Alignment",
+      "abstract": "Face recognition (FR) models return a similarity score and no reason for it. EXPL-FR grounds natural-language explanations directly in a frozen FR model's own embedding space. A lightweight adapter (~1M parameters) aligns a frozen vision-language model's image encoder with the frozen FR space, trained on face images alone and never on text. Because the VLM's two encoders share one space, the same adapter also applies to the text encoder, so any written prompt becomes a direction in FR space. A face is then described by its cosine similarities to those directions, its semantic signature.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.21486",
+      "pdf_url": "https://arxiv.org/pdf/2608.21486",
+      "github_links": [
+        "https://github.com/gurayozgur/EXPL-FR",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.21486",
+      "scraped_at": "2026-08-26T01:20:58.559209"
+    },
+    "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "LongRCA Bench: Diagnosing Responsible Roles and Root Causes in Long-Horizon Agent Failures",
+    "paper_url": "https://huggingface.co/papers/2608.15242",
+    "authors": [
+      "Zhihuang Peng",
+      "Zexin Wang",
+      "Changhua Pei",
+      "Boyu Feng",
+      "CLoud5-real"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "LongRCA Bench: Diagnosing Responsible Roles and Root Causes in Long-Horizon Agent Failures",
+      "abstract": "We introduce LongRCA Bench, a benchmark for diagnosing responsible roles and root causes in long-horizon agent failures. It contains 1,140 real failed trajectories across five domains, with a median length of 145 steps and independently annotated responsible-role and earliest root-cause-step labels. We also present RCTA, a training-free method that achieves 51.1% responsible-role accuracy and 24.1% exact root-step accuracy. The dataset and leaderboard are publicly available for further research and evaluation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.15242",
+      "pdf_url": "https://arxiv.org/pdf/2608.15242",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.15242",
+      "scraped_at": "2026-08-26T01:21:00.114928"
+    },
+    "scraped_date": "2026-08-26"
   }
 ]
