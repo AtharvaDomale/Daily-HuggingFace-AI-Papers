@@ -1757,5 +1757,597 @@
       "scraped_at": "2026-08-26T01:21:00.114928"
     },
     "scraped_date": "2026-08-26"
+  },
+  {
+    "title": "FrontierChallenge: Evaluating Scientific Workflow Completion",
+    "paper_url": "https://huggingface.co/papers/2608.24979",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "FrontierChallenge: Evaluating Scientific Workflow Completion",
+      "abstract": "Everyone says AI agents can already analyze data, run code, generate figures, and write reports. But can they actually complete a scientific workflow? Today, we’re introducing FrontierChallenge, a new benchmark evaluating whether AI agents can complete real scientific workflows end to end and deliver complete, verifiable results. We evaluated 12 frontier models across 97 cross-domain tasks. The highest full-completion rate was only 20.6% (GPT-5.6 Sol + Codex and Grok 4.6 + Claude Code). In electrochemistry and environmental science, every evaluated system achieved a 0% pass rate. More strikingly, 75.5% of unsuccessful Claude Code runs still ended by claiming completion. Saying “done” is not the same as delivering. Agents that can advance scientific work are already here. Agents that can reliably complete scientific workflows are NOT. That’s why we built FrontierChallenge. 🏆 Leaderboard https://apodexai.github.io/FrontierAgent/benchmarks/FrontierChallenge/ 💻 GitHub https://github.com/ApodexAI/FrontierAgent/tree/main/benchmarks/frontierchallenge 🤗 Hugging Face https://huggingface.co/datasets/apodex/FrontierChallenge 📝 Blog https://www.apodex.com/blog/frontier-challenge-evaluating-scientific-workflow-completion",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.24979",
+      "pdf_url": "https://arxiv.org/pdf/2608.24979",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ApodexAI/FrontierAgent/tree/main/benchmarks/frontierchallenge"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.24979",
+      "scraped_at": "2026-08-27T07:56:37.974724"
+    },
+    "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "VoiceMem: Streaming Dual-Brain Memory for Real-Time Interaction",
+    "paper_url": "https://huggingface.co/papers/2608.26005",
+    "authors": [],
+    "stars": "28",
+    "details": {
+      "title": "VoiceMem: Streaming Dual-Brain Memory for Real-Time Interaction",
+      "abstract": "Memory foundation for real-time voice interaction. Project page: https://github.com/xzf-thu/VoiceMem Code: https://github.com/xzf-thu/VoiceMem Model: https://huggingface.co/zhifeixie/VoiceMem_MF_Qwen3_6_35B_A3B_Qlora Dataset: https://huggingface.co/datasets/zhifeixie/VoiceMem-ChatMem400k",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.26005",
+      "pdf_url": "https://arxiv.org/pdf/2608.26005",
+      "github_links": [
+        "https://github.com/xzf-thu/VoiceMem",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.26005",
+      "scraped_at": "2026-08-27T07:56:39.727458"
+    },
+    "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "WarpSAC: Towards the Pinnacle of Scalable Off-policy RL by Rethinking Exploration and Exploitation",
+    "paper_url": "https://huggingface.co/papers/2608.24479",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "WarpSAC: Towards the Pinnacle of Scalable Off-policy RL by Rethinking Exploration and Exploitation",
+      "abstract": "The project page provides an overview of WarpSAC, demonstrations, benchmark results, and sim-to-real evaluations. The GitHub repository contains the source code, installation instructions, training scripts, environment integrations, and experiment configurations.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.24479",
+      "pdf_url": "https://arxiv.org/pdf/2608.24479",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/wzhhasadream/warprl"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.24479",
+      "scraped_at": "2026-08-27T07:56:41.488687"
+    },
+    "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "VGI-BENCH: Probing Visual Intelligence in Video Generation Models",
+    "paper_url": "https://huggingface.co/papers/2608.19583",
+    "authors": [
+      "Yuxuan Zhang",
+      "Linrui Ma",
+      "Yuhao Cheng",
+      "Cong Wei",
+      "Xuan He"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "VGI-BENCH: Probing Visual Intelligence in Video Generation Models",
+      "abstract": "We introduce VGI-Bench, a benchmark for probing visual intelligence in video generation models beyond perceptual quality. It evaluates whether video generators can actually reason through evolving visual processes, with 27 tasks and 810 instances covering diverse reasoning skills. Our results show that current models exhibit promising visual reasoning capabilities, but remain far from reliable—even the strongest evaluated model reaches only 51.0%. We hope VGI-Bench can help reveal where video generation models truly reason, where they fail, and what is needed for the next generation of visually intelligent models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.19583",
+      "pdf_url": "https://arxiv.org/pdf/2608.19583",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/hexuan21/VGI-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.19583",
+      "scraped_at": "2026-08-27T07:56:43.249396"
+    },
+    "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "JIT-Agent: Scaling Harness Intelligence via Just-in-Time Harness Evolution",
+    "paper_url": "https://huggingface.co/papers/2608.25593",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "JIT-Agent: Scaling Harness Intelligence via Just-in-Time Harness Evolution",
+      "abstract": "Model-as-a-Harness; Harness Intelligence Model Website: https://bingreeky.github.io/JIT-site/ GitHub: https://github.com/bingreeky/JIT Hugging Face: https://huggingface.co/datasets/JIT-Agent/jit-meta-harness",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.25593",
+      "pdf_url": "https://arxiv.org/pdf/2608.25593",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/bingreeky/JIT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.25593",
+      "scraped_at": "2026-08-27T07:56:44.964213"
+    },
+    "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "Long-Horizon Audio-Visual Generation for Persistent Stories and Interactive Worlds",
+    "paper_url": "https://huggingface.co/papers/2608.23383",
+    "authors": [
+      "Weiyang Jin",
+      "Haoyang Huang",
+      "Nan Duan",
+      "JunhaoZhuang",
+      "jahnsonblack"
+    ],
+    "stars": "1.95k",
+    "details": {
+      "title": "Long-Horizon Audio-Visual Generation for Persistent Stories and Interactive Worlds",
+      "abstract": "JoyAI-Echo-1.5: Long-Horizon Audio-Visual Generation for Persistent Stories and Interactive Worlds",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.23383",
+      "pdf_url": "https://arxiv.org/pdf/2608.23383",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/jd-opensource/JoyAI-Echo"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.23383",
+      "scraped_at": "2026-08-27T07:56:46.741666"
+    },
+    "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "D^3-MOPD: Adaptive Dynamic Domain ScheDuling for Efficient Multi-Teacher Distillation",
+    "paper_url": "https://huggingface.co/papers/2608.24987",
+    "authors": [
+      "Mu Chuan",
+      "Juntao Li",
+      "Fei Zhao",
+      "Zhiwei Zhang",
+      "Zechen Sun"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "D^3-MOPD: Adaptive Dynamic Domain ScheDuling for Efficient Multi-Teacher Distillation",
+      "abstract": "Multi-teacher on-policy distillation trains a single student from several domain-expert teachers, but different domains converge at very different rates, so the fixed data mixtures used in prior work keep spending rollouts on domains that have already saturated while starving the ones that still have headroom. D³-MOPD reuses the per-domain reverse-KL that MOPD already computes as a progress signal: an off-process watcher tracks each domain's KL trajectory to estimate its remaining headroom and current improvement rate, and reallocates sampling ratios on the fly — no extra probes, no change to the training loop.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.24987",
+      "pdf_url": "https://arxiv.org/pdf/2608.24987",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.24987",
+      "scraped_at": "2026-08-27T07:56:48.454451"
+    },
+    "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "Agent-G^2: Gaussian Guidance for Agentic Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2608.23318",
+    "authors": [],
+    "stars": "18",
+    "details": {
+      "title": "Agent-G^2: Gaussian Guidance for Agentic Reinforcement Learning",
+      "abstract": "We propose Agent-G^2, a Gaussian guidance framework that draws the depth per task from a Gaussian whose center and spread are estimated online from rollouts already collected for policy optimization, requiring no probe rollouts or learned depth predictor.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.23318",
+      "pdf_url": "https://arxiv.org/pdf/2608.23318",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ZJU-REAL/Agent-G2"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.23318",
+      "scraped_at": "2026-08-27T07:56:50.200923"
+    },
+    "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning",
+    "paper_url": "https://huggingface.co/papers/2608.26105",
+    "authors": [
+      "Ran Ji",
+      "Maijunxian Wang",
+      "Fanyi Pu",
+      "Ruisi Wang",
+      "Junxiang Xu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning",
+      "abstract": "Homepage: https://video-reason.com/ Data and Models: https://huggingface.co/collections/Video-Reason/vbvr-pro-a-scalable-and-verifiable-suite-for-native-visual Training Code: https://github.com/Video-Reason/VBVR-Pro Eval Code: https://github.com/Video-Reason/VBVR-Pro-Bench",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.26105",
+      "pdf_url": "https://arxiv.org/pdf/2608.26105",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Video-Reason/VBVR-Pro",
+        "https://github.com/Video-Reason/VBVR-Pro-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.26105",
+      "scraped_at": "2026-08-27T07:56:51.976973"
+    },
+    "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models",
+    "paper_url": "https://huggingface.co/papers/2608.26067",
+    "authors": [
+      "Xianzhe Fan",
+      "Zhenya Yang",
+      "Yuxiang Lu",
+      "Jinghua Hou",
+      "Zhe Liu"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models",
+      "abstract": "Vision-Language-Action (VLA) models have demonstrated effectiveness in robot manipulation, yet state-of-the-art models such as pi0.5 operate under a single-frame paradigm, limiting their ability to retain past observations and develop precise spatial perception. In this paper, we propose StreamPI, a streaming multimodal temporal modeling framework that equips single-frame VLA with temporal reasoning capability without introducing any additional parameters. One core design is instruction-anchored temporal modeling. It treats each (visual observation, language instruction) pair as an atomic temporal unit: bidirectional attention within each pair enables cross-modal fusion, while causal attention across pairs preserves autoregressive streaming inference. This ensures the language instruction serves as a persistent semantic anchor throughout task execution. To bridge the gap between synchronous training and asynchronous real-robot deployment, we introduce a andom-interval streaming training strategy: a proper inter-frame interval (e.g., every 3 frames) enables faster and smoother action execution. Beyond this, randomizing the interval further improves robustness to frame-timing perturbations, supporting asynchronous deployment in practice. Furthermore, by leveraging the length extrapolation capability of the LLM backbone, StreamPI seamlessly inherits pretrained single-frame weights and supports flexible single-frame and multi-frame inference. Experiments on real-robot tasks spanning memory-dependent and precise perception scenarios, as well as the simulation benchmark LIBERO, demonstrate that StreamPI outperforms pi0.5 across diverse tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.26067",
+      "pdf_url": "https://arxiv.org/pdf/2608.26067",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/hku-sail/StreamPI"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.26067",
+      "scraped_at": "2026-08-27T07:56:53.733274"
+    },
+    "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "Open-MOPD: Diagnosing and Fixing Capability Imbalance in Multi-Teacher On-Policy Distillation",
+    "paper_url": "https://huggingface.co/papers/2608.19098",
+    "authors": [],
+    "stars": "43",
+    "details": {
+      "title": "Open-MOPD: Diagnosing and Fixing Capability Imbalance in Multi-Teacher On-Policy Distillation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.19098",
+      "pdf_url": "https://arxiv.org/pdf/2608.19098",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/BytedTsinghua-SIA/Open-MOPD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.19098",
+      "scraped_at": "2026-08-27T07:56:55.465574"
+    },
+    "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "Video-IFBench: Evaluating Instruction Following of Multimodal LLMs in Video Understanding Scenarios",
+    "paper_url": "https://huggingface.co/papers/2608.25529",
+    "authors": [
+      "Kai Zou",
+      "Peiyuan Zhang",
+      "Sihan Liu",
+      "Peixian Chen",
+      "Hongbo Liu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Video-IFBench: Evaluating Instruction Following of Multimodal LLMs in Video Understanding Scenarios",
+      "abstract": "Video-IFBench evaluates whether video MLLMs can follow complex user instructions with semantic, format, and conditional constraints, revealing substantial gaps beyond standard video understanding accuracy.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.25529",
+      "pdf_url": "https://arxiv.org/pdf/2608.25529",
+      "github_links": [
+        "https://github.com/Alexios-hub/Video-IFBench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.25529",
+      "scraped_at": "2026-08-27T07:56:57.180098"
+    },
+    "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "V-Rubrics: Visual Faithfulness via Rubric-Based Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2608.25580",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "V-Rubrics: Visual Faithfulness via Rubric-Based Reinforcement Learning",
+      "abstract": "Vision-language models can produce fluent answers that are visually wrong: a single unsupported object, chart value, or intermediate inference can invalidate an otherwise plausible response. We argue that this is a credit-assignment failure in multimodal post-training. Scalar outcome rewards say whether an answer is acceptable, but not which visual facts are grounded, which reasoning steps are valid, or which instruction constraints are missed. We introduce Visual Rubrics-Based Reinforcement Learning, which decomposes reference responses into atomic propositions and scores generated answers along Visual Faithfulness (VF), Reasoning Consistency (RC), and Instruction Following (IF). The resulting rubric items provide structured partial credit and localize rubric credit when supporting evidence spans are available. We first obtain an SFT checkpoint by fine-tuning Qwen3-VL-8B-Instruct on the public OpenMMReasoner-SFT-874K corpus, adapting OpenMMReasoner’s cold-start data recipe. We construct V-Rubrics 50K, a 50,248-example training set from 17 visually grounded sources, by applying rule-based filters before deriving example difficulty from rejection-sampling scores and then annotating every example with Gemini-3-Pro under the same structured prompt and protocol. The same SFT checkpoint supplies the rejection-sampling rollouts and initializes two GRPO variants using either scalar answer credit or component-wise, prefix-localized rubric credit. Rubric-based GRPO improves over both the shared SFT baseline and answer-only GRPO, with the largest gains on knowledge-oriented and visually grounded reasoning benchmarks. The results show rubrics as a useful reward abstraction for visual post-training.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.25580",
+      "pdf_url": "https://arxiv.org/pdf/2608.25580",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/shulin16/v-rubrics"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.25580",
+      "scraped_at": "2026-08-27T07:56:58.908476"
+    },
+    "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "Are Android GUI Agents Robust Against Runtime Anomalies? AnTrap: Evaluating Agents in Dynamic Adversarial Environments",
+    "paper_url": "https://huggingface.co/papers/2608.24099",
+    "authors": [
+      "Tingyu Song",
+      "Jinbiao Wei",
+      "Cong Chen",
+      "Yilun Zhao",
+      "Guo Gan"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "Are Android GUI Agents Robust Against Runtime Anomalies? AnTrap: Evaluating Agents in Dynamic Adversarial Environments",
+      "abstract": "We propose AnTrap, a dynamic adversarial evaluation framework that injects realistic runtime anomalies across State, Thinking, Action, and Round levels to stress-test Android GUI agents, uncovering universal performance degradation and intrinsic reasoning limitations under deep contextual traps.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.24099",
+      "pdf_url": "https://arxiv.org/pdf/2608.24099",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/gguogan/AnTrap"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.24099",
+      "scraped_at": "2026-08-27T07:57:00.638762"
+    },
+    "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "Is Next-Chunk Reasoning RL Really Better than SFT? Revisiting Training Strategies under no-CoT Data",
+    "paper_url": "https://huggingface.co/papers/2608.23256",
+    "authors": [
+      "Ziyi Wang",
+      "Jiangning Liu",
+      "Yanan Sun",
+      "Youqing Fang",
+      "Yinhao Tang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Is Next-Chunk Reasoning RL Really Better than SFT? Revisiting Training Strategies under no-CoT Data",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.23256",
+      "pdf_url": "https://arxiv.org/pdf/2608.23256",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.23256",
+      "scraped_at": "2026-08-27T07:57:02.326784"
+    },
+    "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "Rubrics as Visual-Repair Context for Self-Evolving UI-to-Code Generation",
+    "paper_url": "https://huggingface.co/papers/2608.24138",
+    "authors": [
+      "Ruichun Ma",
+      "Chung-Ching Lin",
+      "Xiaofei Wang",
+      "Zhengyuan Yang",
+      "Tianyi Xiong"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Rubrics as Visual-Repair Context for Self-Evolving UI-to-Code Generation",
+      "abstract": "Title: Rubrics as Visual-Repair Context for Self-Evolving UI-to-Code Generation This paper introduces RubSE, a rubric-guided self-evolution framework that structures visual feedback into typed, targeted rubrics to achieve stable and effective iterative refinement in UI-to-code generation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.24138",
+      "pdf_url": "https://arxiv.org/pdf/2608.24138",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.24138",
+      "scraped_at": "2026-08-27T07:57:04.034765"
+    },
+    "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "Code World Model: Coding Agent as World Brain",
+    "paper_url": "https://huggingface.co/papers/2608.25927",
+    "authors": [
+      "Chi Zhang",
+      "Guosheng Lin",
+      "Yiwen Chen"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Code World Model: Coding Agent as World Brain",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.25927",
+      "pdf_url": "https://arxiv.org/pdf/2608.25927",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.25927",
+      "scraped_at": "2026-08-27T07:57:05.746631"
+    },
+    "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "A Programming Paradigm for Spatiotemporal Composability",
+    "paper_url": "https://huggingface.co/papers/2608.25512",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "A Programming Paradigm for Spatiotemporal Composability",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.25512",
+      "pdf_url": "https://arxiv.org/pdf/2608.25512",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.25512",
+      "scraped_at": "2026-08-27T07:57:07.454120"
+    },
+    "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "The Handoff Tax: Continuing Non-Native Trajectories in LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2608.24358",
+    "authors": [
+      "Ron Litman",
+      "Adi Kalyanpur",
+      "Mor Shpigel Nacson",
+      "Roy Ganz"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "The Handoff Tax: Continuing Non-Native Trajectories in LLM Agents",
+      "abstract": "We study what happens when coding agents switch models mid-trajectory. Across Claude and GPT model pairs, escalation suffers a substantial “handoff tax,” while downshifting offers a more favorable cost–quality trade-off—and the best handoff interface depends on the switching direction.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.24358",
+      "pdf_url": "https://arxiv.org/pdf/2608.24358",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.24358",
+      "scraped_at": "2026-08-27T07:57:09.286533"
+    },
+    "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "MA-VLA: Multi-Arm Vision-Language-Action Model for Collaboration and Compositional Generalization",
+    "paper_url": "https://huggingface.co/papers/2608.25864",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "MA-VLA: Multi-Arm Vision-Language-Action Model for Collaboration and Compositional Generalization",
+      "abstract": "Multi-arm collaboration is becoming a core capability in embodied manipulation. Recent vision-language-action (VLA) models integrate perception, language, and control, but most represent language as a single global instruction and do not provide an explicit mechanism for assigning and composing arm-specific behaviors. This design limits transfer to collaboration patterns that differ from those observed during training. We present MA-VLA, a unified framework for multi-arm collaboration via atomic action assignment. MA-VLA decomposes cooperative behavior into mid-level atomic prompts and allocates them to individual arms, enabling explicit subgoal specification and compositional reuse across tasks. To reduce reliance on fixed execution roles, we introduce Arm Shuffle, a training-time permutation of the observation, state, and assigned atomic prompts for each arm. This permutation enforces role-agnostic instruction following and supports recomposition into unseen coordination patterns, which we term multi-arm compositional generalization. We also construct a benchmark in which test-time collaboration patterns are absent in training set. Across simulation and real-world evaluations, prior state-of-the-art VLAs largely fail under these unseen collaborations, while MA-VLA consistently succeeds. These results indicate that structured, per-arm atomic action assignment offers a practical route to scalable generalization in multi-arm embodied systems. Code, models, and data are available at https://github.com/zhangzaibin/future-robots",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.25864",
+      "pdf_url": "https://arxiv.org/pdf/2608.25864",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/zhangzaibin/future-robots"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.25864",
+      "scraped_at": "2026-08-27T07:57:11.004436"
+    },
+    "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "Gated Recurrent Transformers: Expressive Depth through Recurrent Modulation in Transformers",
+    "paper_url": "https://huggingface.co/papers/2608.15062",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Gated Recurrent Transformers: Expressive Depth through Recurrent Modulation in Transformers",
+      "abstract": "Hi, I really liked this paper and all the ablation studies you did, congrats! Do you plan to share the repo you used to train this model and the checkpoints? I wanted to check how does EBT (Energy based transformer) compared with the RecurrentGPT.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.15062",
+      "pdf_url": "https://arxiv.org/pdf/2608.15062",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Amr-Hegazy1/gated-recurrent-transformer"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.15062",
+      "scraped_at": "2026-08-27T07:57:12.721136"
+    },
+    "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "RetrievalRouter: Joint Modality and Architecture Selection for Document Retrieval",
+    "paper_url": "https://huggingface.co/papers/2608.25625",
+    "authors": [
+      "Noel Crespi",
+      "Reza Farahbakhsh",
+      "Mehmet Onur Keskin",
+      "Emre Kuru"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "RetrievalRouter: Joint Modality and Architecture Selection for Document Retrieval",
+      "abstract": "Accepted at EMNLP 2026",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.25625",
+      "pdf_url": "https://arxiv.org/pdf/2608.25625",
+      "github_links": [
+        "https://github.com/emrekuruu/retrieval-router",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.25625",
+      "scraped_at": "2026-08-27T07:57:14.438771"
+    },
+    "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "FIRM-Video: Check Before You Score for Reliable Text-to-Video Reward Modeling",
+    "paper_url": "https://huggingface.co/papers/2608.21839",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "FIRM-Video: Check Before You Score for Reliable Text-to-Video Reward Modeling",
+      "abstract": "FIRM-Video introduces a checklist-driven, check-before-score framework for reliable and efficient text-to-video reward modeling. It decomposes evaluation into verifiable criteria for instruction following, world coherence, and perceptual quality, and builds FIRM-Video-90K and FIRM-Video-Bench. FIRM-Video-8B achieves the best overall MAE on the benchmark and consistently improves Best-of-8 video selection across multiple generators.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.21839",
+      "pdf_url": "https://arxiv.org/pdf/2608.21839",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.21839",
+      "scraped_at": "2026-08-27T07:57:16.139816"
+    },
+    "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "Stream4D: 4D-Consistency for Streaming Autoregressive Diffusion Video Models",
+    "paper_url": "https://huggingface.co/papers/2608.19556",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Stream4D: 4D-Consistency for Streaming Autoregressive Diffusion Video Models",
+      "abstract": "https://banyuanhao.github.io/Stream4D/",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.19556",
+      "pdf_url": "https://arxiv.org/pdf/2608.19556",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.19556",
+      "scraped_at": "2026-08-27T07:57:17.820328"
+    },
+    "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "Super Star: Towards Streaming Real-time Interactive Agents for Digital Humans",
+    "paper_url": "https://huggingface.co/papers/2608.24909",
+    "authors": [
+      "Xin Wang",
+      "Yajing Chen",
+      "Haidi Fan",
+      "Youchen Xie",
+      "Wentao Jiang"
+    ],
+    "stars": "5",
+    "details": {
+      "title": "Super Star: Towards Streaming Real-time Interactive Agents for Digital Humans",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.24909",
+      "pdf_url": "https://arxiv.org/pdf/2608.24909",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/PeterIverson/Super-Star"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.24909",
+      "scraped_at": "2026-08-27T07:57:19.517064"
+    },
+    "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "Real-TurnTurk: A Multimodal Turkish Corpus for Turn-Taking Prediction",
+    "paper_url": "https://huggingface.co/papers/2608.22071",
+    "authors": [
+      "Alper Kaplan",
+      "Mustafa Sertaç Türkel",
+      "Bekir Berker Türker",
+      "Fatma Nur Korkmaz",
+      "Ahmet Tuğrul Bayrak"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Real-TurnTurk: A Multimodal Turkish Corpus for Turn-Taking Prediction",
+      "abstract": "Turn-taking is a basic organizational feature of human conversation and remains difficult to model in natural, synchronous dialog systems. While existing research has explored multimodal approaches and large language models for turn-ending prediction, there is a lack of naturalistic conversational corpora specifically addressing turn-taking dynamics in Turkish. This study introduces a multimodal Turkish conversational dataset of unscripted dyadic interactions, comprising synchronized front-facing video, per-speaker audio channels that allow overlapping speech to be attributed to individual speakers, and time-aligned transcriptions. Turn-taking prediction is formulated as a binary classification problem, and a Genetic Algorithm (GA) is employed to optimize interpretable decision rules derived from visual, acoustic, and linguistic features. A hybrid AND-OR rule representation is adopted in the proposed framework to represent the alternative cue combinations that precede a turn transition.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.22071",
+      "pdf_url": "https://arxiv.org/pdf/2608.22071",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.22071",
+      "scraped_at": "2026-08-27T07:57:21.200608"
+    },
+    "scraped_date": "2026-08-27"
   }
 ]
