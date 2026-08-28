@@ -14340,5 +14340,398 @@
       "scraped_at": "2026-08-27T07:57:21.200608"
     },
     "scraped_date": "2026-08-27"
+  },
+  {
+    "title": "PAWBench: How Far Are We from Probabilistically Aligned World Modeling?",
+    "paper_url": "https://huggingface.co/papers/2608.27345",
+    "authors": [
+      "Avram Đorđević",
+      "Gabriel Jorge Menezes",
+      "Le Zhuo",
+      "Yuandong Pu",
+      "sayakpaul"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "PAWBench: How Far Are We from Probabilistically Aligned World Modeling?",
+      "abstract": "We investigate the probabilistic failures in video generation models and present a reliable benchmark to measure it.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.27345",
+      "pdf_url": "https://arxiv.org/pdf/2608.27345",
+      "github_links": [
+        "https://github.com/Andrew0613/PAWBench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.27345",
+      "scraped_at": "2026-08-28T10:00:36.905834"
+    },
+    "scraped_date": "2026-08-28"
+  },
+  {
+    "title": "What Makes Good Agentic Data? An ACE Lens on Data Generation for LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2608.27260",
+    "authors": [
+      "Lingzhi Wang",
+      "Yuzhou Wu",
+      "Boju Zhang",
+      "Zishan Xu",
+      "Xingshan Zeng"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "What Makes Good Agentic Data? An ACE Lens on Data Generation for LLM Agents",
+      "abstract": "What makes generated data actually useful for training LLM agents? We organize agentic data generation around a common $(E,q,\\tau,v)$ formulation and propose the ACE lens—Accuracy, Complexity, and divErsity—to connect generation, verification, difficulty calibration, and coverage across agent domains. The key message is simple: scaling agentic data is not only about generating more trajectories, but about allocating valid, learnable, and non-redundant experience.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.27260",
+      "pdf_url": "https://arxiv.org/pdf/2608.27260",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.27260",
+      "scraped_at": "2026-08-28T10:00:38.645122"
+    },
+    "scraped_date": "2026-08-28"
+  },
+  {
+    "title": "TTPO: Test-Time Policy Optimization",
+    "paper_url": "https://huggingface.co/papers/2608.27448",
+    "authors": [
+      "Ying Liu",
+      "Shangke Lv",
+      "Jianze Wang",
+      "Aozhe Wang",
+      "LZXzju"
+    ],
+    "stars": "8",
+    "details": {
+      "title": "TTPO: Test-Time Policy Optimization",
+      "abstract": "We introduce TTPO, a label-free test-time training framework that remains robust even when majority-vote pseudo-labels are incorrect. TTPO uses an asymmetric objective: it distills agreeing rollouts while penalizing confident errors in disagreeing rollouts through grouped reinforcement learning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.27448",
+      "pdf_url": "https://arxiv.org/pdf/2608.27448",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ZJU-REAL/TTPO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.27448",
+      "scraped_at": "2026-08-28T10:00:40.401809"
+    },
+    "scraped_date": "2026-08-28"
+  },
+  {
+    "title": "Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report",
+    "paper_url": "https://huggingface.co/papers/2608.15763",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report",
+      "abstract": "✨ Highlights An end-to-end production Harness Agent system — A comprehensive technical report of a Harness Agent deployed in Taobao Live, covering modular Harness design, agent evaluation, training-free Harness Evolution, model training, offline evaluation, deployment inference optimization and validation, and online production A/B testing. Harness overfitting as a critical training challenge — Training a model on a fixed Harness encourages it to memorize configuration-specific surface forms, such as Skill names, tool schemas, and prompt templates, undermining its ability to adapt and evolve together with the inference-time changing Harness. Harness-Aware Training for evolving Harnesses — Harness-Aware Training (HAT) explicitly introduces a distribution of task-preserving Harness states into training through Harness-State Augmentation (HSA), with both offline evaluations and held-out Harness-edit experiments demonstrating its effectiveness in improving generalization across evolving Harness configurations.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.15763",
+      "pdf_url": "https://arxiv.org/pdf/2608.15763",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.15763",
+      "scraped_at": "2026-08-28T10:00:42.156542"
+    },
+    "scraped_date": "2026-08-28"
+  },
+  {
+    "title": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
+    "paper_url": "https://huggingface.co/papers/2608.27456",
+    "authors": [],
+    "stars": "17",
+    "details": {
+      "title": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
+      "abstract": "🏙️ UrbanGround turns a real-scale city into an interactive sandbox for multimodal agents. What can you do with UrbanGround? Explore a georegistered 3D replica of Hong Kong from a first-person view Connect MLLM agents for closed-loop perception and physical control Evaluate visual grounding, navigation, exploration, planning, and adaptation Test agents under different times of day, weather, road closures, and moving pedestrians Build new embodied urban tasks on top of the sandbox Key takeaways Current MLLMs are already strong at local urban perception, but this does not reliably translate into long-horizon spatial agency. As navigation becomes longer and more complex, small spatial errors accumulate and agents often fail to recover. Dynamic changes such as road closures and moving pedestrians remain particularly challenging. 🌆 The sandbox is available as web and native builds, together with the evaluation code and tasks. We hope UrbanGround can serve as a playground for studying what it takes to turn strong local perception into reliable city-scale agency.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.27456",
+      "pdf_url": "https://arxiv.org/pdf/2608.27456",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/UrbanGround/UrbanGround"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.27456",
+      "scraped_at": "2026-08-28T10:00:44.172919"
+    },
+    "scraped_date": "2026-08-28"
+  },
+  {
+    "title": "PILOT in the Loop: Live Self-Improvement for Long-Horizon Agents",
+    "paper_url": "https://huggingface.co/papers/2608.26530",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PILOT in the Loop: Live Self-Improvement for Long-Horizon Agents",
+      "abstract": "We propose PILOT, a supervisor–worker harness that makes agent self-improvement live rather than post-hoc. Two coupled mechanisms: a separate supervisor redirects or aborts the active worker mid-run (live steering), while runtime-discovered procedures and failure modes are distilled into reusable skills and memory (live self-evolution). With frozen GLM-5.1 and Kimi-K2.6 backbones, PILOT ranks first in 5 of 6 configurations across three benchmarks. In the self-improvement setting it gains +14.6 / +12.4 points while cutting mean output tokens by 42.9% / 47.4%, and successful evaluations per million tokens rise by 110.3% / 134.0%. Code will be released soon on GitHub.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.26530",
+      "pdf_url": "https://arxiv.org/pdf/2608.26530",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.26530",
+      "scraped_at": "2026-08-28T10:00:45.959475"
+    },
+    "scraped_date": "2026-08-28"
+  },
+  {
+    "title": "GameWAM: A World Action Model for Video Games",
+    "paper_url": "https://huggingface.co/papers/2608.26200",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "GameWAM: A World Action Model for Video Games",
+      "abstract": "Highlights A World Action Model for games: to our knowledge, GameWAM is the first WAM for native closed-loop gameplay and GUI control, jointly generating future visual observations and executable keyboard–mouse trajectories with parallel Video and Action DiTs, block-causal attention, and joint flow matching. Unified heterogeneous native control: continuous camera or cursor motion and concurrent discrete controls share one Action-DiT flow, while a learned per-action router selects gameplay- or GUI-specific predictions and continuous-action normalization at every action timestep. Long-horizon block–cycle control: each planning unit predicts beyond the committed horizon, executes only a short action prefix, and replans from new observations; a bounded within-cycle KV cache and hierarchical cross-cycle visual history preserve temporal continuity under bounded memory. Competitive closed-loop performance: across Minecraft and ViZDoom, GameWAM achieves competitive task performance; in Minecraft, it uses fewer executed native actions than the compared agents across all evaluated task categories. Low-Frequency Action Source Imprinting: GameWAM uncovers LASI, a source-sensitivity failure mode in which low-frequency components of the sampled action source steer coarse generated camera motion and can accumulate into persistent directional bias when reused across replanning steps.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.26200",
+      "pdf_url": "https://arxiv.org/pdf/2608.26200",
+      "github_links": [
+        "https://github.com/yunncheng/GameWAM",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.26200",
+      "scraped_at": "2026-08-28T10:00:47.844894"
+    },
+    "scraped_date": "2026-08-28"
+  },
+  {
+    "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+    "paper_url": "https://huggingface.co/papers/2608.26103",
+    "authors": [],
+    "stars": "100",
+    "details": {
+      "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+      "abstract": "Webiste: https://robbyant-research.github.io/Zero-WAM Code: https://github.com/robbyant-research/Zero-WAM Paper: https://arxiv.org/abs/2608.26103",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.26103",
+      "pdf_url": "https://arxiv.org/pdf/2608.26103",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/robbyant-research/Zero-WAM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.26103",
+      "scraped_at": "2026-08-28T10:00:49.630827"
+    },
+    "scraped_date": "2026-08-28"
+  },
+  {
+    "title": "Self-OPD: On-Policy Distillation for Flow Matching Models without Teacher",
+    "paper_url": "https://huggingface.co/papers/2608.26872",
+    "authors": [
+      "Siyu Zou",
+      "Wanggui He",
+      "Yunze Tong",
+      "Mushui Liu",
+      "Shiyi Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Self-OPD: On-Policy Distillation for Flow Matching Models without Teacher",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.26872",
+      "pdf_url": "https://arxiv.org/pdf/2608.26872",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.26872",
+      "scraped_at": "2026-08-28T10:00:51.347652"
+    },
+    "scraped_date": "2026-08-28"
+  },
+  {
+    "title": "Understanding Evolution Strategies for LLM Reasoning: Broader Reasoning Coverage than GRPO",
+    "paper_url": "https://huggingface.co/papers/2608.27351",
+    "authors": [
+      "Xialiang Tong",
+      "Jiaqing Li",
+      "Yue Xie",
+      "Yunpeng Ba",
+      "zz1358m"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Understanding Evolution Strategies for LLM Reasoning: Broader Reasoning Coverage than GRPO",
+      "abstract": "Evolution Strategies (ES) have recently emerged as a memory-efficient post-training paradigm for LLM reasoning. However, the optimization behavior of ES remains understudied, making it hard to define its advantage scope compared to mainstream post-training paradigms (e.g., Group Relative Policy Optimization (GRPO)). By systematically investigating ES dynamics and mechanisms, this paperfirst identifies a performance advantage of ES over GRPO, theoretically and empirically showing that ES can lead to broader reasoning coverage, thereby better exploiting the reasoning capabilities of pretrained LLMs. Theoretically, we show that verifier-projected Jensen–Shannon diversity across the ES population is helpful to higher Pass@K performances. Empirically, unlike GRPO, which exhibits entropy collapse, ES improves Pass@1 while attaining higher Pass@K than GRPO. We further develop a sequential GRPO–ES training strategy that combines GRPO’s strength in Pass@1 with ES’s gains in Pass@K. Second, we find that despite substantial whole-model parameter drift, the task-performance gains of ES are only contributed to a sparse subset of larger-magnitude updates. This functional sparsity suggests that large parameter movement need not imply widespread functional change, and held-out evaluations further show that it does not necessarily lead to catastrophic forgetting. Finally,we study how hyperparameter design affects the effectiveness of ES, demonstrating that ES requires a smaller population size in a larger LLM. These findings position ES as a distinct reasoning post-training paradigm rather than a less effective, memory-efficient alternative to GRPO.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.27351",
+      "pdf_url": "https://arxiv.org/pdf/2608.27351",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.27351",
+      "scraped_at": "2026-08-28T10:00:53.100252"
+    },
+    "scraped_date": "2026-08-28"
+  },
+  {
+    "title": "Magpie: Real-Time World Renderer for Interactive Games",
+    "paper_url": "https://huggingface.co/papers/2608.27168",
+    "authors": [
+      "Tengjiao Sun",
+      "Huanjie Zhu",
+      "Xiaohong Zhang",
+      "Xinyu Wang",
+      "Xiaoyu Zhan"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Magpie: Real-Time World Renderer for Interactive Games",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.27168",
+      "pdf_url": "https://arxiv.org/pdf/2608.27168",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.27168",
+      "scraped_at": "2026-08-28T10:00:54.794348"
+    },
+    "scraped_date": "2026-08-28"
+  },
+  {
+    "title": "Procedura: Agentic 3D Modeling with Procedural Control",
+    "paper_url": "https://huggingface.co/papers/2608.26238",
+    "authors": [],
+    "stars": "40",
+    "details": {
+      "title": "Procedura: Agentic 3D Modeling with Procedural Control",
+      "abstract": "Procedura turns a text prompt into an editable parametric 3D program, with optional per-part materials and articulation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.26238",
+      "pdf_url": "https://arxiv.org/pdf/2608.26238",
+      "github_links": [
+        "https://github.com/SpatiaOS/Procedura",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.26238",
+      "scraped_at": "2026-08-28T10:00:56.509337"
+    },
+    "scraped_date": "2026-08-28"
+  },
+  {
+    "title": "Thinking on Shots: Consistent Multi-Shot Video Editing with Agentic Reasoning",
+    "paper_url": "https://huggingface.co/papers/2608.26809",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Thinking on Shots: Consistent Multi-Shot Video Editing with Agentic Reasoning",
+      "abstract": "Project Page: https://wucy0519.github.io/MMLVE/ Source Codes: https://github.com/Wucy0519/MMLVE Benchmark: https://huggingface.co/datasets/wcy1234567/MMLVE-Bench",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.26809",
+      "pdf_url": "https://arxiv.org/pdf/2608.26809",
+      "github_links": [
+        "https://github.com/Wucy0519/MMLVE",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.26809",
+      "scraped_at": "2026-08-28T10:00:58.214378"
+    },
+    "scraped_date": "2026-08-28"
+  },
+  {
+    "title": "CaSKG: Counterfactual-Causal Skill Graphs for Scalable Agent Skill Retrieval",
+    "paper_url": "https://huggingface.co/papers/2608.25500",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CaSKG: Counterfactual-Causal Skill Graphs for Scalable Agent Skill Retrieval",
+      "abstract": "Reusable skill libraries allow large language model (LLM) agents to reuse procedural knowledge across tasks, but they also turn memory access into a challenging retrieval problem. Full-library prompting preserves coverage at high context cost, vector retrieval returns compact neighborhoods but treats skills as independent text, and graph-based retrieval can recover workflow context only when the edges that carry relevance are reliable. We propose CaSKG, a counterfactual-causal skill graph framework that calibrates procedural relations before retrieval. CaSKG first builds a high-recall directed candidate graph from semantic, lexical, input/output, and structural evidence, with repair evidence and an optional LLM judge further refining candidate scores. It then applies direction-conditioned textual counterfactual probes that remove, substitute, and reorder skill pairs, aggregates the evidence with Bayesian smoothing, and publishes a state-filtered weighted graph for task-conditioned expansion. The graph is constructed offline and used without changing the downstream agent policy or task interface. Across six LLM backbones on ALFWorld ID-140 and ScienceWorld U211, CaSKG achieves the highest task score in all twelve combinations of model and benchmark. Relative to Graph-of-Skills (GoS), it improves the six-model macro-average ScienceWorld score from 72.62 to 80.50 and ALFWorld success from 80.01% to 86.79%, while reducing mean environment steps on both benchmarks. Qualitative and ablation analyses further show that calibrated edges help retrieval preserve prerequisites, state-changing actions, verification routines, and final completion steps. These results position edge-confidence calibration as an effective route to compact and executable skill retrieval at scale.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.25500",
+      "pdf_url": "https://arxiv.org/pdf/2608.25500",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ZhiyuanLi218/Caskg"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.25500",
+      "scraped_at": "2026-08-28T10:00:59.913947"
+    },
+    "scraped_date": "2026-08-28"
+  },
+  {
+    "title": "CaRGo-T: Causal Reasoning Graph-of-Thought improves Multimodal Humor Comprehension",
+    "paper_url": "https://huggingface.co/papers/2608.23172",
+    "authors": [
+      "Manav Nitin Kapadnis",
+      "Rounak Saha",
+      "Aman Bansal",
+      "Rahul Seetharaman",
+      "Abhilash Nandy"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "CaRGo-T: Causal Reasoning Graph-of-Thought improves Multimodal Humor Comprehension",
+      "abstract": "https://arxiv.org/pdf/2608.23172 Large-scale vision-language models (VLMs) have demonstrated remarkable versatility across a wide range of multimodal tasks. However, understanding humor remains challenging because humorous content often depends on subtle interactions among entities, events, context, and implicit relationships across image and text modalities. These interactions can involve complex chains of reasoning that are difficult to capture through conventional prompting or linear chain-of-thought reasoning. In this work, we propose CaRGo-T (Causal Reasoning Graph-of-Thought), a reasoning framework that represents the causal and contextual relationships underlying multimodal humor as a lightweight graph-based reasoning structure. The graph is serialized into a code-based representation generated by a VLM, which can subsequently be interpreted by the same or a different VLM to produce the final prediction in zero-shot or in-context learning settings. We evaluate CaRGo-T on humor understanding and humor detection across four datasets spanning diverse forms of comedic content, including satire, sarcasm, and memes. Experiments with state-of-the-art commercial and open-source VLMs show that CaRGo-T consistently improves performance over existing reasoning-based baselines, achieving gains of approximately 1-20% on humor understanding and 1-3% on humor detection. Further analysis using mutual information indicates that the reasoning representations produced by CaRGo-T contain more information relevant to the target output than those generated by baseline reasoning approaches. Code is available at https://github.com/abhi1nandy2/CaRGo-T .",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.23172",
+      "pdf_url": "https://arxiv.org/pdf/2608.23172",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/abhi1nandy2/CaRGo-T"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.23172",
+      "scraped_at": "2026-08-28T10:01:01.616347"
+    },
+    "scraped_date": "2026-08-28"
+  },
+  {
+    "title": "Aphanta: Diagnosing Task-Aligned Image-Edited Intermediates for Multimodal Reasoning",
+    "paper_url": "https://huggingface.co/papers/2608.26993",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Aphanta: Diagnosing Task-Aligned Image-Edited Intermediates for Multimodal Reasoning",
+      "abstract": "Explicit visual intermediates can help multimodal large language models (MLLMs) externalize spatial evidence and updated visual states, but their utility depends on whether an image editor can faithfully realize the required transformation. We introduce Aphanta, an automated task-discovery and closed-loop diagnostic framework for the MLLM → image editor → MLLM pipeline. Aphanta evaluates three conditions: direct reasoning, reasoning with an editor-generated intermediate, and reasoning with an idealized reference intermediate. This allows us to distinguish the potential visual headroom from the practical utility of current image editors. Across 20 candidate tasks and multiple editor–MLLM combinations, we find that the utility of visual intermediates is strongly task-conditioned. The gains are concentrated in visual cue injection, grounding, and counterfactual state realization, whereas intermediates requiring symbol-sensitive construction or structural extrapolation are substantially less reliable. On the selected positive-task subset, our consolidated Qwen pipeline improves the mean task score from 0.343 to 0.445 (+10.2 points; +29.7% relative). Meanwhile, the full study also retains filtered and unsuccessful tasks to expose the boundary of when visual intermediates are useful. These results position image editing as a specialized visual workspace rather than a universal reasoning mechanism, and establish Aphanta as a reusable protocol for measuring task–representation alignment, editor realization, and downstream pipeline utility.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.26993",
+      "pdf_url": "https://arxiv.org/pdf/2608.26993",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.26993",
+      "scraped_at": "2026-08-28T10:01:03.345412"
+    },
+    "scraped_date": "2026-08-28"
+  },
+  {
+    "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+    "paper_url": "https://huggingface.co/papers/2608.27454",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.27454",
+      "pdf_url": "https://arxiv.org/pdf/2608.27454",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.27454",
+      "scraped_at": "2026-08-28T10:01:05.036352"
+    },
+    "scraped_date": "2026-08-28"
+  },
+  {
+    "title": "Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models",
+    "paper_url": "https://huggingface.co/papers/2608.25518",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models",
+      "abstract": "Thanks for InfRec.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.25518",
+      "pdf_url": "https://arxiv.org/pdf/2608.25518",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.25518",
+      "scraped_at": "2026-08-28T10:01:06.756054"
+    },
+    "scraped_date": "2026-08-28"
   }
 ]
