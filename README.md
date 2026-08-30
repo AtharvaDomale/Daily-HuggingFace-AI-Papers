@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-23-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-6093+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-6116+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">23</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">150</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">712</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">6093+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">173</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">735</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">6116+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** August 29, 2026
+**Last Updated:** August 30, 2026
 
 ---
 
@@ -140,27 +140,27 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.27345) • [📄 arXiv](https://arxiv.org/abs/2608.27345) • [📥 PDF](https://arxiv.org/pdf/2608.27345)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Andrew0613/PAWBench)
+**💻 Code:** [⭐ Code](https://github.com/Andrew0613/PAWBench) • [⭐ Code](https://github.com/huggingface)
 
 > We investigate the probabilistic failures in video generation models and present a reliable benchmark to measure it.
 
 </details>
 
 <details>
-<summary><b>3. UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City</b> ⭐ 42</summary>
+<summary><b>3. UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City</b> ⭐ 73</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.27456) • [📄 arXiv](https://arxiv.org/abs/2608.27456) • [📥 PDF](https://arxiv.org/pdf/2608.27456)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/UrbanGround/UrbanGround)
+**💻 Code:** [⭐ Code](https://github.com/UrbanGround/UrbanGround) • [⭐ Code](https://github.com/huggingface)
 
 > 🏙️ UrbanGround turns a real-scale city into an interactive sandbox for multimodal agents. What can you do with UrbanGround? Explore a georegistered 3D replica of Hong Kong from a first-person view Connect MLLM agents for closed-loop perception and...
 
 </details>
 
 <details>
-<summary><b>4. TTPO: Test-Time Policy Optimization</b> ⭐ 20</summary>
+<summary><b>4. TTPO: Test-Time Policy Optimization</b> ⭐ 24</summary>
 
 <br/>
 
@@ -168,7 +168,7 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.27448) • [📄 arXiv](https://arxiv.org/abs/2608.27448) • [📥 PDF](https://arxiv.org/pdf/2608.27448)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/ZJU-REAL/TTPO)
+**💻 Code:** [⭐ Code](https://github.com/ZJU-REAL/TTPO) • [⭐ Code](https://github.com/huggingface)
 
 > We introduce TTPO, a label-free test-time training framework that remains robust even when majority-vote pseudo-labels are incorrect. TTPO uses an asymmetric objective: it distills agreeing rollouts while penalizing confident errors in disagreeing...
 
@@ -194,7 +194,7 @@ getTodaysPapers();
 
 <br/>
 
-**👥 Authors:** Lingzhi Wang, Yuzhou Wu, Zishan Xu, Xingshan Zeng, clearwind0817
+**👥 Authors:** Yuzhou Wu, Zishan Xu, Xingshan Zeng, vivienlau, clearwind0817
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.27260) • [📄 arXiv](https://arxiv.org/abs/2608.27260) • [📥 PDF](https://arxiv.org/pdf/2608.27260)
 
@@ -218,13 +218,13 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>8. GameWAM: A World Action Model for Video Games</b> ⭐ 23</summary>
+<summary><b>8. GameWAM: A World Action Model for Video Games</b> ⭐ 25</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.26200) • [📄 arXiv](https://arxiv.org/abs/2608.26200) • [📥 PDF](https://arxiv.org/pdf/2608.26200)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/yunncheng/GameWAM)
+**💻 Code:** [⭐ Code](https://github.com/yunncheng/GameWAM) • [⭐ Code](https://github.com/huggingface)
 
 > Highlights A World Action Model for games: to our knowledge, GameWAM is the first WAM for native closed-loop gameplay and GUI control, jointly generating future visual observations and executable keyboard–mouse trajectories with parallel Video and...
 
@@ -244,7 +244,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>10. Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization</b> ⭐ 135</summary>
+<summary><b>10. Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization</b> ⭐ 158</summary>
 
 <br/>
 
@@ -285,7 +285,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>13. Procedura: Agentic 3D Modeling with Procedural Control</b> ⭐ 79</summary>
+<summary><b>13. Procedura: Agentic 3D Modeling with Procedural Control</b> ⭐ 96</summary>
 
 <br/>
 
@@ -298,7 +298,22 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>14. Magpie: Real-Time World Renderer for Interactive Games</b> ⭐ 0</summary>
+<summary><b>14. CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Ruichen Li, Lang Wei, Zhengyi Hu, Yinghui He, Yufan Wu
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.27455) • [📄 arXiv](https://arxiv.org/abs/2608.27455) • [📥 PDF](https://arxiv.org/pdf/2608.27455)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs). However, these methods typically rely on repeated generation or external verification. To address this limitation, we ...
+
+</details>
+
+<details>
+<summary><b>15. Magpie: Real-Time World Renderer for Interactive Games</b> ⭐ 0</summary>
 
 <br/>
 
@@ -313,7 +328,7 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>15. Luce: Relightable Gaussians for 3D Asset Generation</b> ⭐ 0</summary>
+<summary><b>16. Luce: Relightable Gaussians for 3D Asset Generation</b> ⭐ 0</summary>
 
 <br/>
 
@@ -322,21 +337,6 @@ getTodaysPapers();
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
 > High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance. To support relighting and integration into standard rendering pipelines, the representation should include physically based rendering (PB...
-
-</details>
-
-<details>
-<summary><b>16. CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Ruichen Li, Lang Wei, Zhengyi Hu, Yinghui He, Yufan Wu
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.27455) • [📄 arXiv](https://arxiv.org/abs/2608.27455) • [📥 PDF](https://arxiv.org/pdf/2608.27455)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs). However, these methods typically rely on repeated generation or external verification. To address this limitation, we ...
 
 </details>
 
@@ -362,7 +362,7 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.25500) • [📄 arXiv](https://arxiv.org/abs/2608.25500) • [📥 PDF](https://arxiv.org/pdf/2608.25500)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/ZhiyuanLi218/Caskg)
+**💻 Code:** [⭐ Code](https://github.com/ZhiyuanLi218/Caskg) • [⭐ Code](https://github.com/huggingface)
 
 > Reusable skill libraries allow large language model (LLM) agents to reuse procedural knowledge across tasks, but they also turn memory access into a challenging retrieval problem. Full-library prompting preserves coverage at high context cost, vec...
 
@@ -390,20 +390,20 @@ getTodaysPapers();
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.26809) • [📄 arXiv](https://arxiv.org/abs/2608.26809) • [📥 PDF](https://arxiv.org/pdf/2608.26809)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Wucy0519/MMLVE)
+**💻 Code:** [⭐ Code](https://github.com/Wucy0519/MMLVE) • [⭐ Code](https://github.com/huggingface)
 
 > Project Page: https://wucy0519.github.io/MMLVE/ Source Codes: https://github.com/Wucy0519/MMLVE Benchmark: https://huggingface.co/datasets/wcy1234567/MMLVE-Bench
 
 </details>
 
 <details>
-<summary><b>21. EditaLive! Unified Character Video Editing for Live Streaming</b> ⭐ 8</summary>
+<summary><b>21. EditaLive! Unified Character Video Editing for Live Streaming</b> ⭐ 11</summary>
 
 <br/>
 
 **🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.27123) • [📄 arXiv](https://arxiv.org/abs/2608.27123) • [📥 PDF](https://arxiv.org/pdf/2608.27123)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/GVCLab/EditaLive)
+**💻 Code:** [⭐ Code](https://github.com/GVCLab/EditaLive) • [⭐ Code](https://github.com/huggingface)
 
 > No abstract available.
 
@@ -446,27 +446,27 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 23 |
-| 📅 Today | [`2026-08-29.json`](data/daily/2026-08-29.json) | 23 |
-| 📆 This Week | [`2026-W34.json`](data/weekly/2026-W34.json) | 150 |
-| 🗓️ This Month | [`2026-08.json`](data/monthly/2026-08.json) | 712 |
+| 📅 Today | [`2026-08-30.json`](data/daily/2026-08-30.json) | 23 |
+| 📆 This Week | [`2026-W34.json`](data/weekly/2026-W34.json) | 173 |
+| 🗓️ This Month | [`2026-08.json`](data/monthly/2026-08.json) | 735 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-08-29 | 23 | [View JSON](data/daily/2026-08-29.json) |
+| 📌 2026-08-30 | 23 | [View JSON](data/daily/2026-08-30.json) |
+| 📄 2026-08-29 | 23 | [View JSON](data/daily/2026-08-29.json) |
 | 📄 2026-08-28 | 18 | [View JSON](data/daily/2026-08-28.json) |
 | 📄 2026-08-27 | 26 | [View JSON](data/daily/2026-08-27.json) |
 | 📄 2026-08-26 | 35 | [View JSON](data/daily/2026-08-26.json) |
 | 📄 2026-08-25 | 22 | [View JSON](data/daily/2026-08-25.json) |
 | 📄 2026-08-24 | 26 | [View JSON](data/daily/2026-08-24.json) |
-| 📄 2026-08-23 | 26 | [View JSON](data/daily/2026-08-23.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W34 | 150 | [View JSON](data/weekly/2026-W34.json) |
+| 📅 2026-W34 | 173 | [View JSON](data/weekly/2026-W34.json) |
 | 📅 2026-W33 | 213 | [View JSON](data/weekly/2026-W33.json) |
 | 📅 2026-W32 | 171 | [View JSON](data/weekly/2026-W32.json) |
 | 📅 2026-W31 | 102 | [View JSON](data/weekly/2026-W31.json) |
@@ -475,7 +475,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-08 | 712 | [View JSON](data/monthly/2026-08.json) |
+| 🗓️ 2026-08 | 735 | [View JSON](data/monthly/2026-08.json) |
 | 🗓️ 2026-07 | 366 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 782 | [View JSON](data/monthly/2026-05.json) |
