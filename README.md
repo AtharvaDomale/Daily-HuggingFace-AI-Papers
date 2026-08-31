@@ -1,3 +1,5 @@
+
+
 <div align="center">
 
 # 🤖 Daily HuggingFace AI Papers
@@ -413,6 +415,7 @@ This repository uses:
 
 - **[Crawl4AI](https://github.com/unclecode/crawl4ai)** - Modern web scraping framework
 - **[BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/)** - HTML parsing
+- **[Playwright](https://playwright.dev/)** - Browser automation for reliable scraping
 - **[GitHub Actions](https://github.com/features/actions)** - Automated daily runs
 - **Python 3.11+** - Data processing and generation
 
