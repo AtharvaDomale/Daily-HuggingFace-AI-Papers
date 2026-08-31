@@ -15739,5 +15739,251 @@
       "scraped_at": "2026-08-30T04:05:25.777601"
     },
     "scraped_date": "2026-08-30"
+  },
+  {
+    "title": "Code as Worlds: Agentic Discovery of Executable World Representations for Physical Reasoning",
+    "paper_url": "https://huggingface.co/papers/2608.27549",
+    "authors": [],
+    "stars": "202",
+    "details": {
+      "title": "Code as Worlds: Agentic Discovery of Executable World Representations for Physical Reasoning",
+      "abstract": "Pixels are evidence of the physical world, not its ontology. A pixel-level observation records how the world appears at a particular moment and from a particular viewpoint, but does not directly specify what exists within it, how it is structured, or what governs its evolution. Code-as-World introduces code as executable representations for the physical world and an agentic process for discovering them through iterative simulation and verification. In doing so, it turns raw abundant observations into reusable physical data: explicit states, dynamics, and mechanisms that capture not only what was seen, but the underlying world that could have produced it. This provides scalable physical supervision, enabling our models to achieve state-of-the-art performance on quantitative physical reasoning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.27549",
+      "pdf_url": "https://arxiv.org/pdf/2608.27549",
+      "github_links": [
+        "https://github.com/mirros-lab/code-as-world",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.27549",
+      "scraped_at": "2026-08-31T04:10:15.406646"
+    },
+    "scraped_date": "2026-08-31"
+  },
+  {
+    "title": "ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL",
+    "paper_url": "https://huggingface.co/papers/2608.28476",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL",
+      "abstract": "ContextPilot extends context management with planning, structured memory, and soft context offloading. Its context-aware partial rollout focuses exploration on sensitive context-editing decisions, while fine-grained credit assignment trains intermediate snapshots using the outcomes of their downstream branches. Experiments on long-context QA and deep search tasks show that ContextPilot achieves stronger performance with a more compact working context, outperforming existing baselines across various base models and benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.28476",
+      "pdf_url": "https://arxiv.org/pdf/2608.28476",
+      "github_links": [
+        "https://github.com/Tencent/ContextPilot",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.28476",
+      "scraped_at": "2026-08-31T04:10:17.142655"
+    },
+    "scraped_date": "2026-08-31"
+  },
+  {
+    "title": "J-Zero: Unified Challenger--Solver--Judge Co-Evolution from Zero Data",
+    "paper_url": "https://huggingface.co/papers/2608.26582",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "J-Zero: Unified Challenger--Solver--Judge Co-Evolution from Zero Data",
+      "abstract": "Frozen Judge set the upper bound of self-evolving LLMs. By co-evolving Judge with the current frontier of self-evolution, a highly performant and sustained self-evolution can be realized.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.26582",
+      "pdf_url": "https://arxiv.org/pdf/2608.26582",
+      "github_links": [
+        "https://github.com/GyoukChu/J-Zero",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.26582",
+      "scraped_at": "2026-08-31T04:10:18.858206"
+    },
+    "scraped_date": "2026-08-31"
+  },
+  {
+    "title": "Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models",
+    "paper_url": "https://huggingface.co/papers/2608.27550",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models",
+      "abstract": "Strong, open, and research-friendly. VLAct releases the data, models, and complete training/fine-tuning pipeline, with full continued pre-training requiring only 16 GPUs . It achieves 92.5% on RoboTwin 2.0 and ranks #6 on RoboDojo by Success Rate, outperforming all World Action Models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.27550",
+      "pdf_url": "https://arxiv.org/pdf/2608.27550",
+      "github_links": [
+        "https://github.com/starVLA/VLAct",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.27550",
+      "scraped_at": "2026-08-31T04:10:20.610139"
+    },
+    "scraped_date": "2026-08-31"
+  },
+  {
+    "title": "StepGuard: Learning Step-Level Guardrails with Scalable Supervision and Safety-Utility Balancing",
+    "paper_url": "https://huggingface.co/papers/2608.24777",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "StepGuard: Learning Step-Level Guardrails with Scalable Supervision and Safety-Utility Balancing",
+      "abstract": "LLM-based agents can interact with external environments through tool invocation, but this capability also introduces security risks such as file modification, information leakage, and unauthorized actions. Existing guardrails often evaluate completed trajectories, leaving pre-execution monitoring of step-level actions underexplored. We propose StepGuard, a step-level guard model that can audit completed agent trajectories and check tool actions before they are executed. To train StepGuard, we introduce StepGen, an automatic data engine that generates safe and unsafe trajectories with the same context but different actions at the risky step. To further reduce over-defense and under-defense, we propose Balance-GRPO, which dynamically balances learning between safe and unsafe actions based on their observed accuracy. Experiments show that StepGuard achieves the highest average accuracy among open-weight guard models, with performance comparable to GPT-5.4. When used to guard agents on AgentDojo and AgentDyn, StepGuard reduces mean attack success rate by 77.3% relative to the no-guard setting, while mean utility drops by only 2.8 percentage points. 🧑‍💻 Code: https://github.com/zheng977/StepGuard 🤗 Weight: https://huggingface.co/ninty-seven/StepGuard",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.24777",
+      "pdf_url": "https://arxiv.org/pdf/2608.24777",
+      "github_links": [
+        "https://github.com/zheng977/StepGuard",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.24777",
+      "scraped_at": "2026-08-31T04:10:22.352044"
+    },
+    "scraped_date": "2026-08-31"
+  },
+  {
+    "title": "Blind Men and the Elephant: Probing the Epistemic Myopia of LLMs under Long-Tail Divergent Knowledge",
+    "paper_url": "https://huggingface.co/papers/2608.28478",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Blind Men and the Elephant: Probing the Epistemic Myopia of LLMs under Long-Tail Divergent Knowledge",
+      "abstract": "ElephantBench is a closed-book knowledge probe for evaluating whether a language model remembers long-tail facts and whether it recalls the different verified accounts associated with those facts. The benchmark contains 1,094 questions using two formulation types: a named-entity form and a clue-based form.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.28478",
+      "pdf_url": "https://arxiv.org/pdf/2608.28478",
+      "github_links": [
+        "https://github.com/Tencent/ElephantBench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.28478",
+      "scraped_at": "2026-08-31T04:10:24.059440"
+    },
+    "scraped_date": "2026-08-31"
+  },
+  {
+    "title": "Revisiting Local Context for Long-Horizon Streaming 3D Reconstruction",
+    "paper_url": "https://huggingface.co/papers/2608.27529",
+    "authors": [],
+    "stars": "229",
+    "details": {
+      "title": "Revisiting Local Context for Long-Horizon Streaming 3D Reconstruction",
+      "abstract": "ABot-Recon turns a single continuous video into a globally consistent 3D reconstruction in real time. Whether walking around a building with a phone, driving through city streets with a dashcam, or flying a drone over a campus, it reconstructs long video streams using only a fixed 12-frame local context, composing current-frame geometry and adjacent relative poses without persistent learned long-range memory. It scales to 10,000 + frame sequences at 24.45 FPS with only 6.71 GB of GPU memory, enabling efficient real-time 3D reconstruction of large-scale environments.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.27529",
+      "pdf_url": "https://arxiv.org/pdf/2608.27529",
+      "github_links": [
+        "https://github.com/amap-cvlab/ABot-Recon",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.27529",
+      "scraped_at": "2026-08-31T04:10:25.899425"
+    },
+    "scraped_date": "2026-08-31"
+  },
+  {
+    "title": "Rubric-to-Code Credit Assignment for Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2608.27906",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Rubric-to-Code Credit Assignment for Reinforcement Learning",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.27906",
+      "pdf_url": "https://arxiv.org/pdf/2608.27906",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.27906",
+      "scraped_at": "2026-08-31T04:10:27.568601"
+    },
+    "scraped_date": "2026-08-31"
+  },
+  {
+    "title": "LMSM: LLM Security Framework Inspired by Linux Security Modules",
+    "paper_url": "https://huggingface.co/papers/2608.25697",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LMSM: LLM Security Framework Inspired by Linux Security Modules",
+      "abstract": "LMSM converts pluggable model-internal evidence into per-request decisions and selective enforcement under continuous batching. By separating evidence backends from policy and enforcement, it provides a stable path for adopting stronger interpretability methods as they emerge.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.25697",
+      "pdf_url": "https://arxiv.org/pdf/2608.25697",
+      "github_links": [
+        "https://github.com/xiuyuz/LMSM",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.25697",
+      "scraped_at": "2026-08-31T04:10:29.246308"
+    },
+    "scraped_date": "2026-08-31"
+  },
+  {
+    "title": "Video Generative Models as Geometry Learner",
+    "paper_url": "https://huggingface.co/papers/2608.28549",
+    "authors": [
+      "Jiankang Deng",
+      "Xiatian Zhu",
+      "Zhensong Zhang",
+      "Jifei Song",
+      "Haosen Yang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Video Generative Models as Geometry Learner",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.28549",
+      "pdf_url": "https://arxiv.org/pdf/2608.28549",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.28549",
+      "scraped_at": "2026-08-31T04:10:30.886071"
+    },
+    "scraped_date": "2026-08-31"
+  },
+  {
+    "title": "PonderPounce: A Pretrained MLLM as an Episode Context Engine for Robot Control",
+    "paper_url": "https://huggingface.co/papers/2608.24115",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "PonderPounce: A Pretrained MLLM as an Episode Context Engine for Robot Control",
+      "abstract": "We’re excited to share PonderPounce: A Pretrained MLLM as an Episode Context Engine for Robot Control . Many robot tasks require remembering information that is no longer visible, such as a briefly shown target, an earlier instruction, or a demonstration observed at the beginning of an episode. While pretrained MLLMs already have strong long-context reasoning capabilities, most vision-language-action models do not directly use this context as memory for control. PonderPounce connects two pretrained systems: Ponder , a System 2 MLLM, maintains observations, demonstrations, and prior cognition in its native causal context. Pounce , a fast System 1 action model, controls the robot using the current observation together with Ponder’s latest continuous cognition token and its age. Ponder and Pounce operate on decoupled clocks and are trained jointly end-to-end, without a purpose-built memory module or separate bridge pretraining. On RoboMME , PonderPounce achieves 60.83% average success with 1× training data and 75.54% with 9× data. This corresponds to 1.37× and 1.31× the performance of the strongest non-oracle baseline, respectively. 🌐 Project page: https://worv-ai.github.io/ponderpounce/ 📄 Paper: https://arxiv.org/abs/2608.24115",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.24115",
+      "pdf_url": "https://arxiv.org/pdf/2608.24115",
+      "github_links": [
+        "https://github.com/worv-ai/PonderPounce",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.24115",
+      "scraped_at": "2026-08-31T04:10:32.571999"
+    },
+    "scraped_date": "2026-08-31"
+  },
+  {
+    "title": "Training, learning and inference: unified dynamics of neural systems",
+    "paper_url": "https://huggingface.co/papers/2608.20965",
+    "authors": [
+      "wind342"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Training, learning and inference: unified dynamics of neural systems",
+      "abstract": "This work presents an experiment-first causal study of training, learning, inference, and feedback in realized neural networks. Across Transformer/Adam, ResNet/SGD momentum, and diffusion U-Net/AdamW systems, the same core relation structure is preserved: realized updates produce receiving-state-dependent nonlinear responses, learning persistently reorganizes distributed functional support, frozen inference recruits training-formed support, and feedback alters subsequent formation states. Only after completing these experiments and cross-system tests did I realize that I had experimentally demonstrated that neural networks are stateful dynamical systems. All protocols, experiments, independent checkers, and archived evidence are publicly available.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.20965",
+      "pdf_url": "https://arxiv.org/pdf/2608.20965",
+      "github_links": [
+        "https://github.com/wind342/gfg-training-learning-inference-experiments",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.20965",
+      "scraped_at": "2026-08-31T04:10:34.228141"
+    },
+    "scraped_date": "2026-08-31"
   }
 ]
