@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-12-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-6128+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-7-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-6135+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">12</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">12</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">747</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">6128+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">7</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">19</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">7</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">6135+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** August 31, 2026
+**Last Updated:** September 01, 2026
 
 ---
 
@@ -119,102 +119,80 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Code as Worlds: Agentic Discovery of Executable World Representations for Physical Reasoning</b> ⭐ 202</summary>
+<summary><b>1. Does On-Policy Distillation Really Distill? From Noisy Teacher to Self-Improvement</b> ⭐ 1</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.27549) • [📄 arXiv](https://arxiv.org/abs/2608.27549) • [📥 PDF](https://arxiv.org/pdf/2608.27549)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.31046) • [📄 arXiv](https://arxiv.org/abs/2608.31046) • [📥 PDF](https://arxiv.org/pdf/2608.31046)
 
-**💻 Code:** [⭐ Code](https://github.com/mirros-lab/code-as-world) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/DripNowhy/On-Policy-Self-Adaptation)
 
-> Pixels are evidence of the physical world, not its ontology. A pixel-level observation records how the world appears at a particular moment and from a particular viewpoint, but does not directly specify what exists within it, how it is structured,...
+> On-policy distillation can improve reasoning without meaningful teacher guidance: its gains largely come from suppressing unlikely tokens sampled by the student, motivating OPSA—a teacher-free method that uses the model’s own uncertainty for self-...
 
 </details>
 
 <details>
-<summary><b>2. ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL</b> ⭐ 2</summary>
+<summary><b>2. PaperGym: Rubric-Centered Evolution for Research-Plan Generation</b> ⭐ 2</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.28476) • [📄 arXiv](https://arxiv.org/abs/2608.28476) • [📥 PDF](https://arxiv.org/pdf/2608.28476)
+**👥 Authors:** Wenqi Zhang, Kaitao Song, Yuchen Yan, Zhengxi Lu, Yuhan Wang
 
-**💻 Code:** [⭐ Code](https://github.com/Tencent/ContextPilot) • [⭐ Code](https://github.com/huggingface)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.31119) • [📄 arXiv](https://arxiv.org/abs/2608.31119) • [📥 PDF](https://arxiv.org/pdf/2608.31119)
 
-> ContextPilot extends context management with planning, structured memory, and soft context offloading. Its context-aware partial rollout focuses exploration on sensitive context-editing decisions, while fine-grained credit assignment trains interm...
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/ZJU-REAL/PaperGym)
+
+> We propose PaperGym, a low-leakage benchmark that turns arXiv papers into training environments by separating each paper's research question from its answer. Rubrics score proposals on methodological innovation and experimental design, and the sam...
 
 </details>
 
 <details>
-<summary><b>3. J-Zero: Unified Challenger--Solver--Judge Co-Evolution from Zero Data</b> ⭐ 0</summary>
+<summary><b>3. Scaling Large Reasoning Models beyond Human Supervision: A Path toward Superintelligence</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.26582) • [📄 arXiv](https://arxiv.org/abs/2608.26582) • [📥 PDF](https://arxiv.org/pdf/2608.26582)
+**👥 Authors:** Yonggang Zhang, Hengyu Liu, Yuhan Liu, Jingwen Fu, Zhiqin Yang
 
-**💻 Code:** [⭐ Code](https://github.com/GyoukChu/J-Zero) • [⭐ Code](https://github.com/huggingface)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.31075) • [📄 arXiv](https://arxiv.org/abs/2608.31075) • [📥 PDF](https://arxiv.org/pdf/2608.31075)
 
-> Frozen Judge set the upper bound of self-evolving LLMs. By co-evolving Judge with the current frontier of self-evolution, a highly performant and sustained self-evolution can be realized.
+**💻 Code:** [⭐ Code](https://github.com/visitworld123/Awesome-Scaling-LRM-Beyond-Human-Supervision) • [⭐ Code](https://github.com/huggingface)
+
+> No abstract available.
 
 </details>
 
 <details>
-<summary><b>4. Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models</b> ⭐ 6</summary>
+<summary><b>4. Learning to Evaluate Before Improving: Automatic Rubric Induction for Automatic Research Agents</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.27550) • [📄 arXiv](https://arxiv.org/abs/2608.27550) • [📥 PDF](https://arxiv.org/pdf/2608.27550)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.31076) • [📄 arXiv](https://arxiv.org/abs/2608.31076) • [📥 PDF](https://arxiv.org/pdf/2608.31076)
 
-**💻 Code:** [⭐ Code](https://github.com/starVLA/VLAct) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/zjunlp/AutoSciRub) • [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/zjunlp/AutoSciRub%7D)
 
-> Strong, open, and research-friendly. VLAct releases the data, models, and complete training/fine-tuning pipeline, with full continued pre-training requiring only 16 GPUs . It achieves 92.5% on RoboTwin 2.0 and ranks #6 on RoboDojo by Success Rate,...
+> Autonomous scientific research agents are increasingly applied to end-to-end scientific workflows, including literature review, data analysis, experimentation, and report generation. However, open-ended research tasks often do not clearly specify ...
 
 </details>
 
 <details>
-<summary><b>5. StepGuard: Learning Step-Level Guardrails with Scalable Supervision and Safety-Utility Balancing</b> ⭐ 3</summary>
+<summary><b>5. MNIST-PRO: MNIST is Back as a Partially Observable World for AI Agents</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.24777) • [📄 arXiv](https://arxiv.org/abs/2608.24777) • [📥 PDF](https://arxiv.org/pdf/2608.24777)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.31022) • [📄 arXiv](https://arxiv.org/abs/2608.31022) • [📥 PDF](https://arxiv.org/pdf/2608.31022)
 
-**💻 Code:** [⭐ Code](https://github.com/zheng977/StepGuard) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> LLM-based agents can interact with external environments through tool invocation, but this capability also introduces security risks such as file modification, information leakage, and unauthorized actions. Existing guardrails often evaluate compl...
+> MNIST-PRO: MNIST is Back as a Partially Observable World for AI Agents
 
 </details>
 
 <details>
-<summary><b>6. Blind Men and the Elephant: Probing the Epistemic Myopia of LLMs under Long-Tail Divergent Knowledge</b> ⭐ 2</summary>
+<summary><b>6. BLARM: Animating 3D Objects from Video via Blending Latent Rigid Motion Primitives</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.28478) • [📄 arXiv](https://arxiv.org/abs/2608.28478) • [📥 PDF](https://arxiv.org/pdf/2608.28478)
-
-**💻 Code:** [⭐ Code](https://github.com/Tencent/ElephantBench) • [⭐ Code](https://github.com/huggingface)
-
-> ElephantBench is a closed-book knowledge probe for evaluating whether a language model remembers long-tail facts and whether it recalls the different verified accounts associated with those facts. The benchmark contains 1,094 questions using two f...
-
-</details>
-
-<details>
-<summary><b>7. Revisiting Local Context for Long-Horizon Streaming 3D Reconstruction</b> ⭐ 229</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.27529) • [📄 arXiv](https://arxiv.org/abs/2608.27529) • [📥 PDF](https://arxiv.org/pdf/2608.27529)
-
-**💻 Code:** [⭐ Code](https://github.com/amap-cvlab/ABot-Recon) • [⭐ Code](https://github.com/huggingface)
-
-> ABot-Recon turns a single continuous video into a globally consistent 3D reconstruction in real time. Whether walking around a building with a phone, driving through city streets with a dashcam, or flying a drone over a campus, it reconstructs lon...
-
-</details>
-
-<details>
-<summary><b>8. Rubric-to-Code Credit Assignment for Reinforcement Learning</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.27906) • [📄 arXiv](https://arxiv.org/abs/2608.27906) • [📥 PDF](https://arxiv.org/pdf/2608.27906)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.31113) • [📄 arXiv](https://arxiv.org/abs/2608.31113) • [📥 PDF](https://arxiv.org/pdf/2608.31113)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
@@ -223,58 +201,17 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>9. LMSM: LLM Security Framework Inspired by Linux Security Modules</b> ⭐ 0</summary>
+<summary><b>7. Cross-lingual Functional Vectors for Emotion Detection in Large Language Models</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.25697) • [📄 arXiv](https://arxiv.org/abs/2608.25697) • [📥 PDF](https://arxiv.org/pdf/2608.25697)
+**👥 Authors:** Shogo Okada, Minh Le Nguyen, Phuong Minh Nguyen, Jieying Xue
 
-**💻 Code:** [⭐ Code](https://github.com/xiuyuz/LMSM) • [⭐ Code](https://github.com/huggingface)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.29613) • [📄 arXiv](https://arxiv.org/abs/2608.29613) • [📥 PDF](https://arxiv.org/pdf/2608.29613)
 
-> LMSM converts pluggable model-internal evidence into per-request decisions and selective enforcement under continuous batching. By separating evidence backends from policy and enforcement, it provides a stable path for adopting stronger interpreta...
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/yingjie7/cross_lingual_fvs)
 
-</details>
-
-<details>
-<summary><b>10. Video Generative Models as Geometry Learner</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Jiankang Deng, Xiatian Zhu, Zhensong Zhang, Jifei Song, Haosen Yang
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.28549) • [📄 arXiv](https://arxiv.org/abs/2608.28549) • [📥 PDF](https://arxiv.org/pdf/2608.28549)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>11. PonderPounce: A Pretrained MLLM as an Episode Context Engine for Robot Control</b> ⭐ 2</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.24115) • [📄 arXiv](https://arxiv.org/abs/2608.24115) • [📥 PDF](https://arxiv.org/pdf/2608.24115)
-
-**💻 Code:** [⭐ Code](https://github.com/worv-ai/PonderPounce) • [⭐ Code](https://github.com/huggingface)
-
-> We’re excited to share PonderPounce: A Pretrained MLLM as an Episode Context Engine for Robot Control . Many robot tasks require remembering information that is no longer visible, such as a briefly shown target, an earlier instruction, or a demons...
-
-</details>
-
-<details>
-<summary><b>12. Training, learning and inference: unified dynamics of neural systems</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** wind342
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.20965) • [📄 arXiv](https://arxiv.org/abs/2608.20965) • [📥 PDF](https://arxiv.org/pdf/2608.20965)
-
-**💻 Code:** [⭐ Code](https://github.com/wind342/gfg-training-learning-inference-experiments) • [⭐ Code](https://github.com/huggingface)
-
-> This work presents an experiment-first causal study of training, learning, inference, and feedback in realized neural networks. Across Transformer/Adam, ResNet/SGD momentum, and diffusion U-Net/AdamW systems, the same core relation structure is pr...
+> We examine whether Functional Vectors extracted from a source language can steer task behavior in another language under both standard clean and perturbed zero-shot settings without providing demonstrations during inference.
 
 </details>
 
@@ -286,28 +223,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 12 |
-| 📅 Today | [`2026-08-31.json`](data/daily/2026-08-31.json) | 12 |
-| 📆 This Week | [`2026-W35.json`](data/weekly/2026-W35.json) | 12 |
-| 🗓️ This Month | [`2026-08.json`](data/monthly/2026-08.json) | 747 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 7 |
+| 📅 Today | [`2026-09-01.json`](data/daily/2026-09-01.json) | 7 |
+| 📆 This Week | [`2026-W35.json`](data/weekly/2026-W35.json) | 19 |
+| 🗓️ This Month | [`2026-09.json`](data/monthly/2026-09.json) | 7 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-08-31 | 12 | [View JSON](data/daily/2026-08-31.json) |
+| 📌 2026-09-01 | 7 | [View JSON](data/daily/2026-09-01.json) |
+| 📄 2026-08-31 | 12 | [View JSON](data/daily/2026-08-31.json) |
 | 📄 2026-08-30 | 23 | [View JSON](data/daily/2026-08-30.json) |
 | 📄 2026-08-29 | 23 | [View JSON](data/daily/2026-08-29.json) |
 | 📄 2026-08-28 | 18 | [View JSON](data/daily/2026-08-28.json) |
 | 📄 2026-08-27 | 26 | [View JSON](data/daily/2026-08-27.json) |
 | 📄 2026-08-26 | 35 | [View JSON](data/daily/2026-08-26.json) |
-| 📄 2026-08-25 | 22 | [View JSON](data/daily/2026-08-25.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W35 | 12 | [View JSON](data/weekly/2026-W35.json) |
+| 📅 2026-W35 | 19 | [View JSON](data/weekly/2026-W35.json) |
 | 📅 2026-W34 | 173 | [View JSON](data/weekly/2026-W34.json) |
 | 📅 2026-W33 | 213 | [View JSON](data/weekly/2026-W33.json) |
 | 📅 2026-W32 | 171 | [View JSON](data/weekly/2026-W32.json) |
@@ -316,12 +253,12 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
+| 🗓️ 2026-09 | 7 | [View JSON](data/monthly/2026-09.json) |
 | 🗓️ 2026-08 | 747 | [View JSON](data/monthly/2026-08.json) |
 | 🗓️ 2026-07 | 366 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |
 | 🗓️ 2026-05 | 782 | [View JSON](data/monthly/2026-05.json) |
 | 🗓️ 2026-04 | 450 | [View JSON](data/monthly/2026-04.json) |
-| 🗓️ 2026-03 | 604 | [View JSON](data/monthly/2026-03.json) |
 
 ---
 

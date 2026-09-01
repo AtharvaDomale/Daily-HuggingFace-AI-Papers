@@ -244,5 +244,161 @@
       "scraped_at": "2026-08-31T04:10:34.228141"
     },
     "scraped_date": "2026-08-31"
+  },
+  {
+    "title": "Does On-Policy Distillation Really Distill? From Noisy Teacher to Self-Improvement",
+    "paper_url": "https://huggingface.co/papers/2608.31046",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Does On-Policy Distillation Really Distill? From Noisy Teacher to Self-Improvement",
+      "abstract": "On-policy distillation can improve reasoning without meaningful teacher guidance: its gains largely come from suppressing unlikely tokens sampled by the student, motivating OPSA—a teacher-free method that uses the model’s own uncertainty for self-improvement.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.31046",
+      "pdf_url": "https://arxiv.org/pdf/2608.31046",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/DripNowhy/On-Policy-Self-Adaptation"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.31046",
+      "scraped_at": "2026-09-01T03:57:50.033406"
+    },
+    "scraped_date": "2026-09-01"
+  },
+  {
+    "title": "PaperGym: Rubric-Centered Evolution for Research-Plan Generation",
+    "paper_url": "https://huggingface.co/papers/2608.31119",
+    "authors": [
+      "Wenqi Zhang",
+      "Kaitao Song",
+      "Yuchen Yan",
+      "Zhengxi Lu",
+      "Yuhan Wang"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "PaperGym: Rubric-Centered Evolution for Research-Plan Generation",
+      "abstract": "We propose PaperGym, a low-leakage benchmark that turns arXiv papers into training environments by separating each paper's research question from its answer. Rubrics score proposals on methodological innovation and experimental design, and the same rubrics drive training via rubric-conditioned OPSD followed by rubric-rewarded GRPO.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.31119",
+      "pdf_url": "https://arxiv.org/pdf/2608.31119",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ZJU-REAL/PaperGym"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.31119",
+      "scraped_at": "2026-09-01T03:57:51.861540"
+    },
+    "scraped_date": "2026-09-01"
+  },
+  {
+    "title": "Scaling Large Reasoning Models beyond Human Supervision: A Path toward Superintelligence",
+    "paper_url": "https://huggingface.co/papers/2608.31075",
+    "authors": [
+      "Yonggang Zhang",
+      "Hengyu Liu",
+      "Yuhan Liu",
+      "Jingwen Fu",
+      "Zhiqin Yang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Scaling Large Reasoning Models beyond Human Supervision: A Path toward Superintelligence",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.31075",
+      "pdf_url": "https://arxiv.org/pdf/2608.31075",
+      "github_links": [
+        "https://github.com/visitworld123/Awesome-Scaling-LRM-Beyond-Human-Supervision",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.31075",
+      "scraped_at": "2026-09-01T03:57:53.670598"
+    },
+    "scraped_date": "2026-09-01"
+  },
+  {
+    "title": "Learning to Evaluate Before Improving: Automatic Rubric Induction for Automatic Research Agents",
+    "paper_url": "https://huggingface.co/papers/2608.31076",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Learning to Evaluate Before Improving: Automatic Rubric Induction for Automatic Research Agents",
+      "abstract": "Autonomous scientific research agents are increasingly applied to end-to-end scientific workflows, including literature review, data analysis, experimentation, and report generation. However, open-ended research tasks often do not clearly specify the analyses, methods, and success criteria required to complete the task. As a result, agents may miss important analyses, use inappropriate methods, or draw conclusions that are insufficiently supported by evidence. To address the problem, we present AutoSciRub, an evaluation-first framework that induces a task-specific executable rubric before research execution, and uses it to guide execution, criterion-level verification as well as iterative revision. AutoSciRub decomposes an underspecified instruction into atomic scientific goals, grounds them in relevant literature and task-visible data, and synthesizes specific, actionable, and verifiable criteria. The resulting rubric makes implicit experimental and evidential requirements explicit, providing  guidance for experiments and analyses. During revision, rubric-guided verification identifies unmet criteria and enables targeted refinement of the research report and its supporting artifacts. On ResearchClawBench, AutoSciRub consistently improves all tested configurations, with an average gain of 2.08 points across three backbone LLMs under the fixed Codex harness and 2.95 points across three agent harnesses using a fixed DeepSeek-V4-Flash backbone. On a randomly sampled 20-task subset of AstaBench E2E Discovery, AutoSciRub further achieves an average improvement of 16.8 points across three agent harnesses, while maintaining or increasing the number of successfully completed tasks. These results demonstrate that evaluation-first guidance provides an effective and generalizable control mechanism for autonomous scientific research (Code: \\url{ https://github.com/zjunlp/AutoSciRub} ).",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.31076",
+      "pdf_url": "https://arxiv.org/pdf/2608.31076",
+      "github_links": [
+        "https://github.com/zjunlp/AutoSciRub",
+        "https://github.com/huggingface",
+        "https://github.com/zjunlp/AutoSciRub%7D"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.31076",
+      "scraped_at": "2026-09-01T03:57:55.402845"
+    },
+    "scraped_date": "2026-09-01"
+  },
+  {
+    "title": "MNIST-PRO: MNIST is Back as a Partially Observable World for AI Agents",
+    "paper_url": "https://huggingface.co/papers/2608.31022",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MNIST-PRO: MNIST is Back as a Partially Observable World for AI Agents",
+      "abstract": "MNIST-PRO: MNIST is Back as a Partially Observable World for AI Agents",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.31022",
+      "pdf_url": "https://arxiv.org/pdf/2608.31022",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.31022",
+      "scraped_at": "2026-09-01T03:57:57.160578"
+    },
+    "scraped_date": "2026-09-01"
+  },
+  {
+    "title": "BLARM: Animating 3D Objects from Video via Blending Latent Rigid Motion Primitives",
+    "paper_url": "https://huggingface.co/papers/2608.31113",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "BLARM: Animating 3D Objects from Video via Blending Latent Rigid Motion Primitives",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2608.31113",
+      "pdf_url": "https://arxiv.org/pdf/2608.31113",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.31113",
+      "scraped_at": "2026-09-01T03:57:58.893046"
+    },
+    "scraped_date": "2026-09-01"
+  },
+  {
+    "title": "Cross-lingual Functional Vectors for Emotion Detection in Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2608.29613",
+    "authors": [
+      "Shogo Okada",
+      "Minh Le Nguyen",
+      "Phuong Minh Nguyen",
+      "Jieying Xue"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Cross-lingual Functional Vectors for Emotion Detection in Large Language Models",
+      "abstract": "We examine whether Functional Vectors extracted from a source language can steer task behavior in another language under both standard clean and perturbed zero-shot settings without providing demonstrations during inference.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.29613",
+      "pdf_url": "https://arxiv.org/pdf/2608.29613",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yingjie7/cross_lingual_fvs"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.29613",
+      "scraped_at": "2026-09-01T03:58:00.632481"
+    },
+    "scraped_date": "2026-09-01"
   }
 ]
