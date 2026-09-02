@@ -400,5 +400,338 @@
       "scraped_at": "2026-09-01T03:58:00.632481"
     },
     "scraped_date": "2026-09-01"
+  },
+  {
+    "title": "StudentSim: Training LLM-based Student Simulators",
+    "paper_url": "https://huggingface.co/papers/2609.01591",
+    "authors": [],
+    "stars": "10",
+    "details": {
+      "title": "StudentSim: Training LLM-based Student Simulators",
+      "abstract": "AI tutors are most useful when they adaptively respond to each student's strengths, weaknesses, and preferred kinds of guidance, but which guidance works for which student is a sparse signal, slow and costly to collect from real students. Student simulators can supply that signal as a proxy, yet existing ones cover only part of what this requires: state-tracking models fit how a student behaves but cannot digest a tutor's explanations or corrections well, while LLMs prompted to role-play a target student follow a tutor's guidance fluently but do not reliably reproduce the competence of the student they imitate. We present StudentSim, a training framework that turns sparse per-student data into an individualized simulator for each student through a two-stage pipeline of pooled training followed by per-student specialization, so that the simulator both mirrors the student's own responses and updates them under tutor guidance. To measure these two abilities fairly, we build StudentSimEval, a standardized protocol spanning 60 students across chess, second-language English writing, and mathematics, drawn from public learner datasets whose de-identified student records are shared for research. It scores every method on behavioral fidelity (F↑), how well a simulator matches a student's own responses, and guidance responsiveness (R↑), how readily it updates its response under a tutor's guidance, fitting each method on the same records and scoring it on the same held-out records so results are directly comparable; we release our construction and evaluation code so others can score new methods on the same benchmark and extend it. Across all three domains, our per-student simulators outperform GPT-5.4 on both metrics. In chess, for example, StudentSim reaches F=0.51 and R=0.91, compared with 0.23 and 0.72 for GPT-5.4 and 0.45 and 0.27 for Maia2, a skill-conditioned chess move prediction model. As a proof of concept that the framework also supports AI tutor improvement, a trained StudentSim used as the reward for tutor model reinforcement learning yields a chess tutor that expert humans rate as more accurate, better-guided, and more personalized than both a no-RL baseline and a tutor RL-trained against a GPT-5.4 simulator reward. Our code is available at https://github.com/microsoft/StudentSim .",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.01591",
+      "pdf_url": "https://arxiv.org/pdf/2609.01591",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/microsoft/StudentSim"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.01591",
+      "scraped_at": "2026-09-02T03:17:57.654021"
+    },
+    "scraped_date": "2026-09-02"
+  },
+  {
+    "title": "Hi-Q: Hierarchical Evidence-guided Query Refinement for Multi-Hop Question Answering",
+    "paper_url": "https://huggingface.co/papers/2608.30468",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Hi-Q: Hierarchical Evidence-guided Query Refinement for Multi-Hop Question Answering",
+      "abstract": "Multi-hop QA has a granularity problem: you ask at one level, the corpus stores evidence at another. Graph RAG, iterative retrieval, and program-executing agents all change how you retrieve — none of them checks whether the query they just issued was retrievable at all. Hi-Q checks, at every node. Resolved → stop. Unresolved → split into two dependency-ordered sub-queries, verify coverage, recurse. The query tree is shaped by corpus support signals, not by a fixed decomposition template or a graph built in advance. Under open-domain settings, Hi-Q reaches 52.3 EM / 64.0 F1 across three benchmarks: +15.1 EM over IRCoT, and +11.5 EM over PropRAG on MuSiQue-full, with no corpus-wide graph to build.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.30468",
+      "pdf_url": "https://arxiv.org/pdf/2608.30468",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.30468",
+      "scraped_at": "2026-09-02T03:17:59.333863"
+    },
+    "scraped_date": "2026-09-02"
+  },
+  {
+    "title": "Uncovering Understanding-Generation Synergy in Native Unified Multimodal Models: From Representation, Task to System",
+    "paper_url": "https://huggingface.co/papers/2609.01607",
+    "authors": [
+      "Dahua Lin",
+      "Lewei Lu",
+      "Weichen Fan",
+      "Haiwen Diao",
+      "Penghao Wu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Uncovering Understanding-Generation Synergy in Native Unified Multimodal Models: From Representation, Task to System",
+      "abstract": "We study when visual understanding and generation truly reinforce each other in native unified multimodal models, from representation to task to system.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.01607",
+      "pdf_url": "https://arxiv.org/pdf/2609.01607",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.01607",
+      "scraped_at": "2026-09-02T03:18:01.012330"
+    },
+    "scraped_date": "2026-09-02"
+  },
+  {
+    "title": "SMELT: Scaling Laws for Compute-Matched MoE Looped Transformers",
+    "paper_url": "https://huggingface.co/papers/2609.01343",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SMELT: Scaling Laws for Compute-Matched MoE Looped Transformers",
+      "abstract": "Looped Transformers increase effective depth by iterating a shared block of layers, but most evaluations compare at fixed model size, conflating architectural advantage with extra FLOPs. We study looping on Mixture-of-Experts Transformers while closely matching per-token FLOPs, total non-embedding parameters, and KV cache. Through a series of ablations, we arrive at a recipe we call SMELT (Sparse MoE Transformer, middle layers Loop Twice), which loops the middle half of layers twice while matching the unlooped Baseline on all three budgets. We scale SMELT across four sizes up to 54B non-embedding parameters and fit a separate Chinchilla-style scaling law for each architecture. SMELT's loss drops faster with compute, saving 6.8--18.0% of training FLOPs on the compute-optimal frontier. The advantage transfers to downstream benchmarks beyond what validation loss predicts, is largest on Code, and grows with sample length and the number of in-context examples. Mechanistic analysis shows that the second visit reduces the attention sink and redirects mass toward content-relevant tokens, an inductive bias that may underlie the observed performance gains. These results show that looping can improve Transformers even under budget matching, offering a practical recipe that turns depth reuse into measurable gains.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.01343",
+      "pdf_url": "https://arxiv.org/pdf/2609.01343",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.01343",
+      "scraped_at": "2026-09-02T03:18:02.766300"
+    },
+    "scraped_date": "2026-09-02"
+  },
+  {
+    "title": "Evaluating Multimodal LLMs as Generalist Vision-Language-Action Agents for Drone Control: Commanding, Approaching, Tracking and Searching",
+    "paper_url": "https://huggingface.co/papers/2609.01404",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Evaluating Multimodal LLMs as Generalist Vision-Language-Action Agents for Drone Control: Commanding, Approaching, Tracking and Searching",
+      "abstract": "Can an off-the-shelf multimodal LLM work as a VLA agent for drones? We drop MLLMs directly into a drone’s control loop with the entire action space declared in the prompt: point and go, rotate to search, think, and declare arrival. No fine-tuning, no function-calling schema, so any MLLM plugs in unchanged. DroneCATS benchmarks nine models in closed-loop simulation (GPT-5, Claude Opus 5, Gemini 3.7 Flash, Gemini Robotics-ER 2, the Qwen3.5 family at four sizes, and Cosmos3-Edge-2B) on approaching, tracking, searching, and commanding a four-drone fleet. The main finding: small models fly fine, sometimes reaching the target more reliably than frontier models. What breaks is the action protocol. Qwen3.5-9B enters the success radius in 90% of approaching episodes but converts only 35%, declaring arrival too early or never. In fleet commanding, small models paste one coordinate into four different views. An agent that cannot recognize its own completion cannot be delegated to, and closing that gap at onboard compute cost is the open problem DroneCATS measures. Code will be released at https://github.com/naver-ai/DroneCATS",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.01404",
+      "pdf_url": "https://arxiv.org/pdf/2609.01404",
+      "github_links": [
+        "https://github.com/naver-ai/DroneCATS",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.01404",
+      "scraped_at": "2026-09-02T03:18:04.454085"
+    },
+    "scraped_date": "2026-09-02"
+  },
+  {
+    "title": "ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training",
+    "paper_url": "https://huggingface.co/papers/2609.00188",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training",
+      "abstract": "We present ZimaBlue, framing video scaling as a practical route toward generalizable World Action Models, and provide empirical evidence that scaling video pre-training significantly improves zero-shot generalization and strengthens performance on challenging manipulation benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.00188",
+      "pdf_url": "https://arxiv.org/pdf/2609.00188",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ZimaBlue-WAM/ZimaBlue"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.00188",
+      "scraped_at": "2026-09-02T03:18:06.147724"
+    },
+    "scraped_date": "2026-09-02"
+  },
+  {
+    "title": "H3-World: Turning Language Understanding into World Control",
+    "paper_url": "https://huggingface.co/papers/2609.01560",
+    "authors": [
+      "Yeying Jin",
+      "Xingyi Yang",
+      "Ziyue Lin",
+      "Zeqing Wang",
+      "Danze Chen"
+    ],
+    "stars": "8",
+    "details": {
+      "title": "H3-World: Turning Language Understanding into World Control",
+      "abstract": "🚀 H3-World: Turning Language Understanding into World Control! Instead of learning a new action interface from scratch, H3-World turns keyboard controls into language that MiniMax-H3 already understands, then grounds each instruction to the right moment in the generated video. ✨ Highlights: Language-Native Control: Composes character and camera actions into textual instructions and injects them through MiniMax-H3’s pretrained text pathway. Temporally Grounded: Assigns one action prompt to each video latent interval, enabling precise control when actions change over time. Efficient & Generalizable: Uses only 8,000 gameplay samples, 10,000 LoRA steps, and 0.199% trainable parameters to achieve controllable character and camera motion, including unseen action compositions and visual scenarios. 👇 Dive in: 📄 ArXiv: https://arxiv.org/abs/2609.01560 💻 Code: https://github.com/Danzer1xxxxChan/H3-World 🏠 Project: https://github.com/Danzer1xxxxChan/H3-World 🤗 Model: https://huggingface.co/DANNY621/H3-World",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.01560",
+      "pdf_url": "https://arxiv.org/pdf/2609.01560",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Danzer1xxxxChan/H3-World"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.01560",
+      "scraped_at": "2026-09-02T03:18:07.991962"
+    },
+    "scraped_date": "2026-09-02"
+  },
+  {
+    "title": "UI-Venus-2 Technical Report",
+    "paper_url": "https://huggingface.co/papers/2609.00028",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "UI-Venus-2 Technical Report",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.00028",
+      "pdf_url": "https://arxiv.org/pdf/2609.00028",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.00028",
+      "scraped_at": "2026-09-02T03:18:09.648203"
+    },
+    "scraped_date": "2026-09-02"
+  },
+  {
+    "title": "EM^2Mem: Event-Centric Multimodal Memory for Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2609.00551",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "EM^2Mem: Event-Centric Multimodal Memory for Large Language Models",
+      "abstract": "Multimodal memory offers a scalable interface for long-video question answering, but existing methods often retrieve captions, frames, transcripts, summaries, or graph facts as isolated fragments. Although searchable, such fragments are not generation-ready: language models must reconstruct cross-modal and temporal alignments at inference time, when context is limited and attribution is difficult. We propose EM^2Mem, an event-centric multimodal memory framework that binds heterogeneous evidence to event anchors during memory construction. Each event-indexed memory cell aligns multimodal records, temporal context, graph-linked relations, semantic facts, and provenance, enabling compact evidence readout over grounded multimodal events rather than modality-specific fragments. Across three long-video QA benchmarks, EM^2Mem improves average accuracy over the strongest memory baseline by 2.0, 2.4, and 3.7 points, improves strict event-level Top-5 evidence recall by 7.0 points, and reduces per-query latency by 4.67 times and total inference tokens by 63.66% (The code will be integrated into \\url{ https://github.com/zjunlp/LightMem} ).",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.00551",
+      "pdf_url": "https://arxiv.org/pdf/2609.00551",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/zjunlp/LightMem%7D"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.00551",
+      "scraped_at": "2026-09-02T03:18:11.347666"
+    },
+    "scraped_date": "2026-09-02"
+  },
+  {
+    "title": "Control-Data Flow Separation: Stable Prompt Optimization in Multi-Agent LLMs",
+    "paper_url": "https://huggingface.co/papers/2609.00621",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Control-Data Flow Separation: Stable Prompt Optimization in Multi-Agent LLMs",
+      "abstract": "A simple problem we ran into: prompt optimization can improve a multi-agent system while quietly breaking its routing, formatting, or termination logic. We separate control flow into typed program objects and only optimize the natural-language data flow, which gives 100% eventual protocol validity while still improving task performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.00621",
+      "pdf_url": "https://arxiv.org/pdf/2609.00621",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yuntian-group/cdsep"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.00621",
+      "scraped_at": "2026-09-02T03:18:12.998670"
+    },
+    "scraped_date": "2026-09-02"
+  },
+  {
+    "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
+    "paper_url": "https://huggingface.co/papers/2609.00111",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.00111",
+      "pdf_url": "https://arxiv.org/pdf/2609.00111",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.00111",
+      "scraped_at": "2026-09-02T03:18:14.644226"
+    },
+    "scraped_date": "2026-09-02"
+  },
+  {
+    "title": "The Mechanics of Democratic Dominance: A System Dynamics Paradigm for Dynamic Consent Engineering",
+    "paper_url": "https://huggingface.co/papers/2608.27509",
+    "authors": [
+      "Muhammad Sukri Bin Ramli"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "The Mechanics of Democratic Dominance: A System Dynamics Paradigm for Dynamic Consent Engineering",
+      "abstract": "Dynamic Democratic Consent: A System Dynamics Framework for Public Trust, Political Communication, and Policy Feedback",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.27509",
+      "pdf_url": "https://arxiv.org/pdf/2608.27509",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.27509",
+      "scraped_at": "2026-09-02T03:18:16.347577"
+    },
+    "scraped_date": "2026-09-02"
+  },
+  {
+    "title": "Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement",
+    "paper_url": "https://huggingface.co/papers/2609.01481",
+    "authors": [
+      "Chen Zhang",
+      "Zhanhao Li",
+      "Hangfan Zhang",
+      "Min-le Su",
+      "Haoyang Yan"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.01481",
+      "pdf_url": "https://arxiv.org/pdf/2609.01481",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.01481",
+      "scraped_at": "2026-09-02T03:18:18.018332"
+    },
+    "scraped_date": "2026-09-02"
+  },
+  {
+    "title": "E-Commerce Bench: Evaluating LLM Agents on Long-Horizon Autonomous Business Operation",
+    "paper_url": "https://huggingface.co/papers/2608.30730",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "E-Commerce Bench: Evaluating LLM Agents on Long-Horizon Autonomous Business Operation",
+      "abstract": "E-Commerce Bench: Evaluating LLM Agents on Long-Horizon Autonomous Business Operation Presented as one of the demos in the Qwen3.8-Max Blog: https://qwen.ai/blog?id=qwen3.8",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.30730",
+      "pdf_url": "https://arxiv.org/pdf/2608.30730",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/QwenLM/E-CommerceBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.30730",
+      "scraped_at": "2026-09-02T03:18:19.773490"
+    },
+    "scraped_date": "2026-09-02"
+  },
+  {
+    "title": "InternReviewer & InternAdvocate: Objective Reward and Evaluation for Agentic Reinforcement Learning in Peer Review and Rebuttal",
+    "paper_url": "https://huggingface.co/papers/2608.28612",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "InternReviewer & InternAdvocate: Objective Reward and Evaluation for Agentic Reinforcement Learning in Peer Review and Rebuttal",
+      "abstract": "Generating professional scholarly content, such as peer reviews and rebuttals, requires an intricate synergy between domain reasoning and factual grounding. This work presents a comprehensive framework for the development and evaluation of specialized scholarly agents, InternReviewer and InternAdvocate. We first establish a large-scale, high-quality scholarly dataset and integrate a high-efficiency arXiv retrieval tool to enable active evidence gathering. To optimize these agents, we implement an agentic Reinforcement Learning (RL) paradigm driven by a unified objective metric and reward system. This system avoids the biases of subjective model-based judging by employing multi-dimensional criteria, including reference-anchored semantic alignment, structural compliance, and a strict verification mechanism that cross-checks citations against real-time interaction logs to eliminate hallucinations. Experimental results demonstrate that agents trained within this closed-loop framework exhibit significant improvements in reasoning depth and citation accuracy. Data Collection and Curation Leveraging the official OpenReview API ( https://github.com/openreview/openreview-py ), we systematically curate a large-scale collection of peer review and rebuttal trajectories for manuscripts published through 2025. Our collection encompasses flagship computer science conferences, specifically ICLR (2013–2025), NeurIPS (2021–2024), and ICML (2025), resulting in a total of 184,857 unique review-rebuttal pairs alongside their original manuscript PDFs. See figure below for the relevant review and rebuttal data collection and curation pipeline. Agentic Reinforcement Learning Framework The following figure presents the Agentic Reinforcement Learning framework behind InternReviewer and InternAdvocate. The framework enables agents to interact with a time-aware scholarly retrieval environment, perform evidence-grounded reasoning, and optimize their behaviors through a decomposed objective reward covering semantic quality, structural compliance, tool usage, and citation verification. This closed-loop RL paradigm trains specialized academic agents capable of generating more rigorous, grounded, and reliable peer reviews and rebuttals.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.28612",
+      "pdf_url": "https://arxiv.org/pdf/2608.28612",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/openreview/openreview-py"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.28612",
+      "scraped_at": "2026-09-02T03:18:21.488354"
+    },
+    "scraped_date": "2026-09-02"
+  },
+  {
+    "title": "ReFlowSET: Representation-Aligned Latent Flow Matching for SAR-to-EO Image Translation",
+    "paper_url": "https://huggingface.co/papers/2609.00968",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "ReFlowSET: Representation-Aligned Latent Flow Matching for SAR-to-EO Image Translation",
+      "abstract": "ReFlowSET, a representation-aligned latent flow-matching framework for SAR-to-EO image translation with code & checkpoints for all benchmarked methods fully released!",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.00968",
+      "pdf_url": "https://arxiv.org/pdf/2609.00968",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/KAIST-VICLab/ReFlowSET"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.00968",
+      "scraped_at": "2026-09-02T03:18:23.144957"
+    },
+    "scraped_date": "2026-09-02"
   }
 ]
