@@ -733,5 +733,247 @@
       "scraped_at": "2026-09-02T03:18:23.144957"
     },
     "scraped_date": "2026-09-02"
+  },
+  {
+    "title": "SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models",
+    "paper_url": "https://huggingface.co/papers/2609.02886",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models",
+      "abstract": "We present SolarWM , a fully open foundation for building interactive video world models from data preparation through scalable training and long-horizon inference. Open, reconfigurable data infrastructure. SolarWM converts 1.43 million canonical clips from 14 datasets into a unified, frame-aligned contract for observations, metric camera geometry, captions, quality metadata, selection, and provenance. Source processing is decoupled from training-mixture design. A scalable, backbone-native model family. One framework supports four 5B–33B models across Wan2.2, LTX-2.5, and MiniMax-H3 while preserving each backbone's native representation and objective. A simple three-stage training recipe. Bidirectional adaptation, teacher-forced autoregressive initialization, and distribution matching distillation form a shared route across heterogeneous video backbones, without specialized ODE or consistency-distillation initialization. Long-horizon interaction from short training clips. After training only on 5-second sequences, the resulting causal models support real-time interaction with rollouts spanning minutes to hours, without long-sequence fine-tuning or attention-sink mechanisms.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.02886",
+      "pdf_url": "https://arxiv.org/pdf/2609.02886",
+      "github_links": [
+        "https://github.com/Junchao-cs/SolarWM",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.02886",
+      "scraped_at": "2026-09-03T03:20:26.191782"
+    },
+    "scraped_date": "2026-09-03"
+  },
+  {
+    "title": "It Takes Two to Match: Co-Evolving Generative Retriever with Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2609.00638",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "It Takes Two to Match: Co-Evolving Generative Retriever with Reinforcement Learning",
+      "abstract": "Proud to share our work, CoGR (Co-evolving Generative Retrieval), where we train LLMs to generate retrieval keywords for both user queries and apps. CoGR follows a co-evolving training framework: we alternately optimize one side while keeping the other side fixed, allowing the query and app keywords to gradually adapt to each other. Through this iterative process, we observe steady improvements in retrieval performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.00638",
+      "pdf_url": "https://arxiv.org/pdf/2609.00638",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.00638",
+      "scraped_at": "2026-09-03T03:20:28.029839"
+    },
+    "scraped_date": "2026-09-03"
+  },
+  {
+    "title": "Cliff: Learning Process Rewards from the First Mistake",
+    "paper_url": "https://huggingface.co/papers/2609.02817",
+    "authors": [
+      "Gerald Friedland",
+      "Jie Hao",
+      "Ketan Ramaneti",
+      "Runhui Wang",
+      "Peixuan Han"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Cliff: Learning Process Rewards from the First Mistake",
+      "abstract": "A paper focusing on LLM RL and reward shaping",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.02817",
+      "pdf_url": "https://arxiv.org/pdf/2609.02817",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.02817",
+      "scraped_at": "2026-09-03T03:20:29.899250"
+    },
+    "scraped_date": "2026-09-03"
+  },
+  {
+    "title": "Language Models Can Control Their Own Attention",
+    "paper_url": "https://huggingface.co/papers/2609.02737",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Language Models Can Control Their Own Attention",
+      "abstract": "Language models can control their own attention. Zero-shot evaluation of Gemma 4 31B shows a 52% reduction is global attention cost during decoding across 15 long-context benchmarks with 1.52pp accuracy drop.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.02737",
+      "pdf_url": "https://arxiv.org/pdf/2609.02737",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.02737",
+      "scraped_at": "2026-09-03T03:20:31.706885"
+    },
+    "scraped_date": "2026-09-03"
+  },
+  {
+    "title": "On the Design Fundamentals of Pixel Text Representation Learning",
+    "paper_url": "https://huggingface.co/papers/2609.01147",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "On the Design Fundamentals of Pixel Text Representation Learning",
+      "abstract": "How do vision models learn to understand text directly from pixels? How can models pretrained on synthetic text rendered at ≤224×224 resolution generalize all the way to real-world 4K documents at test time? Pixel Linguist II answers these questions through controlled studies of pixel-text representation learning, identifying four key ingredients: spatial proxies for resolution generalization, multimodal grounding with natural images, layout-aware rendering to avoid visual shortcuts, and a two-stage multilingual curriculum. Building on these findings, Pixel Linguist II achieves state-of-the-art results on English, cross-lingual, and multilingual Visual STS and ViDoRe (Visual Document Retrieval), while also improving downstream MLLM performance by 2.75% on average over the Qwen2.5-ViT. Pixel Linguist II further demonstrates strong optical context compression capability: its representations remain robust under up to 80% visual-token compression, and with only 40% of visual tokens retained, it still outperforms the full-budget Qwen2.5-ViT on MLLM downstream tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.01147",
+      "pdf_url": "https://arxiv.org/pdf/2609.01147",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.01147",
+      "scraped_at": "2026-09-03T03:20:33.523963"
+    },
+    "scraped_date": "2026-09-03"
+  },
+  {
+    "title": "Influence-Directed Distillation: Solving the Diversity Bottleneck in Sampled-Token On-Policy Distillation",
+    "paper_url": "https://huggingface.co/papers/2608.29846",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Influence-Directed Distillation: Solving the Diversity Bottleneck in Sampled-Token On-Policy Distillation",
+      "abstract": "Sampled-token on-policy distillation (OPD) efficiently transfers capabilities from teacher to student using student-generated tokens, requiring teacher probabilities only for sampled tokens. Yet it frequently suffers from diversity distillation failure: the student's pass@1 improves while its pass@k plateaus, failing to inherit the teacher's diversity. To explain this, we introduce First-Order Local Entropy Influence, a signed first-order proxy that decouples each update's entropy effect into the teacher--student log-probability gap and the student's local probability structure, and empirically links entropy contraction to negative-influence positions. Motivated by this, we propose Influence-Directed Adaptive On-Policy Distillation (IDA-OPD): rather than relying on costly full-vocabulary Forward-KL objectives, it preserves entropy-expanding updates while replacing entropy-contracting ones with divergence-adaptive advantage shrinkage, using only the teacher's sampled-token log-probability. Experiments on reasoning-oriented distillation show IDA-OPD consistently improves pass@k, inheriting the teacher's diversity through distillation, matches the strongest teacher-informed methods at strictly lower cost, and broadly maintains vanilla OPD's pass@1, all without full-vocabulary teacher information.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.29846",
+      "pdf_url": "https://arxiv.org/pdf/2608.29846",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.29846",
+      "scraped_at": "2026-09-03T03:20:35.316067"
+    },
+    "scraped_date": "2026-09-03"
+  },
+  {
+    "title": "EarlyEval: Cheaper Agent Evaluation via Early Outcome Prediction",
+    "paper_url": "https://huggingface.co/papers/2609.02783",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "EarlyEval: Cheaper Agent Evaluation via Early Outcome Prediction",
+      "abstract": "Your agent evaluation can be cheaper!",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.02783",
+      "pdf_url": "https://arxiv.org/pdf/2609.02783",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.02783",
+      "scraped_at": "2026-09-03T03:20:37.086577"
+    },
+    "scraped_date": "2026-09-03"
+  },
+  {
+    "title": "Post-Training Language Models for Gold-Medal Performance in Coding Competitions",
+    "paper_url": "https://huggingface.co/papers/2609.02849",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Post-Training Language Models for Gold-Medal Performance in Coding Competitions",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.02849",
+      "pdf_url": "https://arxiv.org/pdf/2609.02849",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.02849",
+      "scraped_at": "2026-09-03T03:20:38.893425"
+    },
+    "scraped_date": "2026-09-03"
+  },
+  {
+    "title": "PaperCompiler: Faithful Paper-to-Code Generation via Repository-Level Specification Compilation",
+    "paper_url": "https://huggingface.co/papers/2609.02272",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PaperCompiler: Faithful Paper-to-Code Generation via Repository-Level Specification Compilation",
+      "abstract": ".",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.02272",
+      "pdf_url": "https://arxiv.org/pdf/2609.02272",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.02272",
+      "scraped_at": "2026-09-03T03:20:40.656759"
+    },
+    "scraped_date": "2026-09-03"
+  },
+  {
+    "title": "ExecRetrieval: Measuring the Functional-Correctness Gap in Code-Embedding Retrieval",
+    "paper_url": "https://huggingface.co/papers/2609.01865",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ExecRetrieval: Measuring the Functional-Correctness Gap in Code-Embedding Retrieval",
+      "abstract": "Excited to share ExecRetrieval ! We ask a simple question: can code embeddings actually distinguish correct code from near-identical buggy code? Across 939 tasks and 24 retrieval systems, the best system reaches 100% exec@10 but only 33.1% exec@1 , with most rank-1 failures being the query’s own near-clone buggy variants. Curious to hear thoughts on how we should close this functional-correctness gap in retrieval for coding agents and code RAG. ( arxiv.org ) Accepted to EMNLP 2026 - Main Conference (Budapest, October 2026)",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.01865",
+      "pdf_url": "https://arxiv.org/pdf/2609.01865",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.01865",
+      "scraped_at": "2026-09-03T03:20:42.417963"
+    },
+    "scraped_date": "2026-09-03"
+  },
+  {
+    "title": "Kirin: Animal Motion Generation from In-the-Wild Video",
+    "paper_url": "https://huggingface.co/papers/2609.01823",
+    "authors": [
+      "Shangzhe Wu",
+      "Jiajun Wu",
+      "James M. Rehg",
+      "Zhuoyang Pan",
+      "Brian Nlong Zhao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Kirin: Animal Motion Generation from In-the-Wild Video",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.01823",
+      "pdf_url": "https://arxiv.org/pdf/2609.01823",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.01823",
+      "scraped_at": "2026-09-03T03:20:44.190838"
+    },
+    "scraped_date": "2026-09-03"
+  },
+  {
+    "title": "MULTI3IR: A Benchmark for Multi-perspective Multi-domain Multi-modal Information Retrieval",
+    "paper_url": "https://huggingface.co/papers/2608.30949",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MULTI3IR: A Benchmark for Multi-perspective Multi-domain Multi-modal Information Retrieval",
+      "abstract": "EMNLP 2026; code is available at https://github.com/seokwon99/Multi3IR .",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.30949",
+      "pdf_url": "https://arxiv.org/pdf/2608.30949",
+      "github_links": [
+        "https://github.com/seokwon99/Multi3IR",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.30949",
+      "scraped_at": "2026-09-03T03:20:46.138170"
+    },
+    "scraped_date": "2026-09-03"
   }
 ]
