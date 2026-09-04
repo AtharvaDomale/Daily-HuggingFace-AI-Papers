@@ -975,5 +975,259 @@
       "scraped_at": "2026-09-03T03:20:46.138170"
     },
     "scraped_date": "2026-09-03"
+  },
+  {
+    "title": "LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes",
+    "paper_url": "https://huggingface.co/papers/2609.03796",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes",
+      "abstract": "LLaDA-Image is a competitive 6B-parameter open-source unified image generation and editing model family. It includes LLaDA-Image, a 50-step Base model for high-quality text-to-image generation and instruction-guided editing, and LLaDA-Image-Turbo, a 4-step distilled model for fast generation and editing. Both variants support practical text-to-image generation, VQ-conditioned generation, reference-image editing, and Chinese--English text rendering.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.03796",
+      "pdf_url": "https://arxiv.org/pdf/2609.03796",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/inclusionAI/LLaDA-Image"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.03796",
+      "scraped_at": "2026-09-04T03:17:52.260854"
+    },
+    "scraped_date": "2026-09-04"
+  },
+  {
+    "title": "LatentPress: Context Compression Beyond Text and Vision",
+    "paper_url": "https://huggingface.co/papers/2609.01507",
+    "authors": [
+      "Hejian Sang",
+      "Zhengze Zhou"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "LatentPress: Context Compression Beyond Text and Vision",
+      "abstract": "https://github.com/HJSang/LatentPress",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.01507",
+      "pdf_url": "https://arxiv.org/pdf/2609.01507",
+      "github_links": [
+        "https://github.com/HJSang/LatentPress",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.01507",
+      "scraped_at": "2026-09-04T03:17:53.975691"
+    },
+    "scraped_date": "2026-09-04"
+  },
+  {
+    "title": "Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM",
+    "paper_url": "https://huggingface.co/papers/2609.04098",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM",
+      "abstract": "Hi everyone, TL;DR: the community assumption for hybrid LLMs has been that the recurrent half (Gated DeltaNet) is too fragile for 4-bit — early quants of Qwen3.8-27B all kept it at 8/16-bit. We quantized all 496 linear layers to NVFP4 W4A4 — GDN and its gate projections included — with calibration-only PTQ (no QAT, no distillation), and it matches BF16 within seed noise on MMLU-Pro, GSM8K, AIME'25, GPQA-Diamond, LiveCodeBench, and RULER retrieval to 64K, while being ~2.9× smaller than BF16 and 14–19% faster at prefill than the partial quants. All four models were benchmarked head-to-head under one identical serving regime (vLLM, TP=1, single 96 GB Blackwell GPU): Qwen/Qwen3.8-27B — the BF16 baseline minima-ai/mnma_qwen3.8_27b_nvfp4 — ours, all 496 layers NVFP4 W4A4 unsloth/Qwen3.8-27B-NVFP4 — keeps GDN + attention at FP8 W8A8 RadixArk/Qwen3.8-27B-NVFP4 — likewise protects GDN/attention Three findings that surprised us: The \"fragile\" decay/write gates are actually the least sensitive layers in the model — their softplus/sigmoid parameterizations squash an ~11% GEMM error down to ~2% at the output. Quantization noise does not accumulate in the recurrent state. The delta rule overwrites the state along each new key direction, so an injected error is forgotten within hundreds of tokens — the 32K perplexity gap actually shrinks with position in the context. A serving trap: kernels that fuse GDN projections into one GEMM silently mis-scale per-module-calibrated NVFP4 checkpoints. We document the fix; our released checkpoint ships pre-harmonized and serves correctly out of the box. Weights (17.5 GiB, single Blackwell GPU): https://huggingface.co/minima-ai/mnma_qwen3.8_27b_nvfp4",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.04098",
+      "pdf_url": "https://arxiv.org/pdf/2609.04098",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.04098",
+      "scraped_at": "2026-09-04T03:17:55.740898"
+    },
+    "scraped_date": "2026-09-04"
+  },
+  {
+    "title": "Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning",
+    "paper_url": "https://huggingface.co/papers/2609.03430",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning",
+      "abstract": "Large language models achieve superior performance on tasks that require extended reasoning, but long chains of thought make the KV cache a severe memory bottleneck. Existing KV cache compression methods share one paradigm: score each cached token by some estimate of how much it will matter later, and keep the top-scoring ones. We show that the selection signal contributes almost nothing. Random Attention keeps the prompt and evicts uniformly at random within each attention head, computing no score at all; across four models and six reasoning tasks it matches the strongest prior evictor while serving 32-43% higher throughput than it in vLLM deployment. Controlled experiments explain this by showing that 1) the prompt is the fragile part of the cache, and most of the gap between selectors is just whether their selection signal happened to keep it; 2) the reasoning trace protects itself against eviction with redundancy at two levels, in the text (the model restates what it still needs as it works) and across attention heads (each keeps its own copy of the trace), so once the prompt is safe, a random draw retains enough copies of what the model still needs, and no score is required to pick them. Our code is publicly available at https://github.com/SalesforceAIResearch/Random-Attention .",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.03430",
+      "pdf_url": "https://arxiv.org/pdf/2609.03430",
+      "github_links": [
+        "https://github.com/SalesforceAIResearch/Random-Attention",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.03430",
+      "scraped_at": "2026-09-04T03:17:57.494360"
+    },
+    "scraped_date": "2026-09-04"
+  },
+  {
+    "title": "RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests",
+    "paper_url": "https://huggingface.co/papers/2608.27831",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests",
+      "abstract": "RealSWE is a benchmark and framework built around 381 multi-variant task families, each preserving the same task and gold patch while varying information composition and linguistic style.",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.27831",
+      "pdf_url": "https://arxiv.org/pdf/2608.27831",
+      "github_links": [
+        "https://github.com/gyuhyeong-x/RealSWE",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.27831",
+      "scraped_at": "2026-09-04T03:17:59.230445"
+    },
+    "scraped_date": "2026-09-04"
+  },
+  {
+    "title": "CORE: Improving Compositional Reasoning in MLLM Embedding via Reranker Distillation",
+    "paper_url": "https://huggingface.co/papers/2609.04083",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CORE: Improving Compositional Reasoning in MLLM Embedding via Reranker Distillation",
+      "abstract": "Hi, we publish new embedding models which perform well on fine-grained multimodal retrieval and compositional reasoning tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.04083",
+      "pdf_url": "https://arxiv.org/pdf/2609.04083",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.04083",
+      "scraped_at": "2026-09-04T03:18:00.964816"
+    },
+    "scraped_date": "2026-09-04"
+  },
+  {
+    "title": "Rethinking On-Policy Distillation of Large Language Models II: One Training Example",
+    "paper_url": "https://huggingface.co/papers/2609.04172",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Rethinking On-Policy Distillation of Large Language Models II: One Training Example",
+      "abstract": "We investigate the data side and the training dynamics of on-policy distillation (OPD), and try to answer how far the training set of OPD can be reduced, and find that a single training example already induces most of the states a full dataset visits. Check the repo: https://github.com/Thinking-Space/One-Shot-OPD",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.04172",
+      "pdf_url": "https://arxiv.org/pdf/2609.04172",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Thinking-Space/One-Shot-OPD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.04172",
+      "scraped_at": "2026-09-04T03:18:02.760029"
+    },
+    "scraped_date": "2026-09-04"
+  },
+  {
+    "title": "Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments",
+    "paper_url": "https://huggingface.co/papers/2609.04148",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.04148",
+      "pdf_url": "https://arxiv.org/pdf/2609.04148",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.04148",
+      "scraped_at": "2026-09-04T03:18:04.462929"
+    },
+    "scraped_date": "2026-09-04"
+  },
+  {
+    "title": "Environment Evolution for Terminal Agents",
+    "paper_url": "https://huggingface.co/papers/2609.04128",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Environment Evolution for Terminal Agents",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.04128",
+      "pdf_url": "https://arxiv.org/pdf/2609.04128",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.04128",
+      "scraped_at": "2026-09-04T03:18:06.159097"
+    },
+    "scraped_date": "2026-09-04"
+  },
+  {
+    "title": "WorldReward: Reward Modeling for Camera-Conditioned World Models",
+    "paper_url": "https://huggingface.co/papers/2609.03952",
+    "authors": [
+      "Yujie Zhou",
+      "Zhimin Li",
+      "Junshu Tang",
+      "Zehan Wang",
+      "Yibin Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "WorldReward: Reward Modeling for Camera-Conditioned World Models",
+      "abstract": "WorldReward: Reward Modeling for Camera-Conditioned World Models",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.03952",
+      "pdf_url": "https://arxiv.org/pdf/2609.03952",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.03952",
+      "scraped_at": "2026-09-04T03:18:07.887969"
+    },
+    "scraped_date": "2026-09-04"
+  },
+  {
+    "title": "Editable Visual Design",
+    "paper_url": "https://huggingface.co/papers/2609.04034",
+    "authors": [
+      "HaoDong Li",
+      "Zichen Wen",
+      "Dongzhi Jiang",
+      "Wei Liu",
+      "Junyan Ye"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Editable Visual Design",
+      "abstract": "Github: https://github.com/yejy53/Editable-Design",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.04034",
+      "pdf_url": "https://arxiv.org/pdf/2609.04034",
+      "github_links": [
+        "https://github.com/yejy53/Editable-Design",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.04034",
+      "scraped_at": "2026-09-04T03:18:09.583551"
+    },
+    "scraped_date": "2026-09-04"
+  },
+  {
+    "title": "Principia: Relational Physics Tests for Video Models",
+    "paper_url": "https://huggingface.co/papers/2609.04200",
+    "authors": [
+      "Anand Bhattad",
+      "Venkatesh Babu Radhakrishnan",
+      "Shivam Tripathi",
+      "Varun Varma Thozhiyoor"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Principia: Relational Physics Tests for Video Models",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.04200",
+      "pdf_url": "https://arxiv.org/pdf/2609.04200",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.04200",
+      "scraped_at": "2026-09-04T03:18:11.319712"
+    },
+    "scraped_date": "2026-09-04"
   }
 ]

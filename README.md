@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-12-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-6163+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-6175+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">12</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">47</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">35</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">6163+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">59</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">47</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">6175+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** September 03, 2026
+**Last Updated:** September 04, 2026
 
 ---
 
@@ -119,145 +119,104 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models</b> ⭐ 0</summary>
+<summary><b>1. LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.02886) • [📄 arXiv](https://arxiv.org/abs/2609.02886) • [📥 PDF](https://arxiv.org/pdf/2609.02886)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.03796) • [📄 arXiv](https://arxiv.org/abs/2609.03796) • [📥 PDF](https://arxiv.org/pdf/2609.03796)
 
-**💻 Code:** [⭐ Code](https://github.com/Junchao-cs/SolarWM) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/inclusionAI/LLaDA-Image)
 
-> We present SolarWM , a fully open foundation for building interactive video world models from data preparation through scalable training and long-horizon inference. Open, reconfigurable data infrastructure. SolarWM converts 1.43 million canonical ...
+> LLaDA-Image is a competitive 6B-parameter open-source unified image generation and editing model family. It includes LLaDA-Image, a 50-step Base model for high-quality text-to-image generation and instruction-guided editing, and LLaDA-Image-Turbo,...
 
 </details>
 
 <details>
-<summary><b>2. It Takes Two to Match: Co-Evolving Generative Retriever with Reinforcement Learning</b> ⭐ 0</summary>
+<summary><b>2. LatentPress: Context Compression Beyond Text and Vision</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.00638) • [📄 arXiv](https://arxiv.org/abs/2609.00638) • [📥 PDF](https://arxiv.org/pdf/2609.00638)
+**👥 Authors:** Hejian Sang, Zhengze Zhou
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.01507) • [📄 arXiv](https://arxiv.org/abs/2609.01507) • [📥 PDF](https://arxiv.org/pdf/2609.01507)
+
+**💻 Code:** [⭐ Code](https://github.com/HJSang/LatentPress) • [⭐ Code](https://github.com/huggingface)
+
+> https://github.com/HJSang/LatentPress
+
+</details>
+
+<details>
+<summary><b>3. Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.04098) • [📄 arXiv](https://arxiv.org/abs/2609.04098) • [📥 PDF](https://arxiv.org/pdf/2609.04098)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> Proud to share our work, CoGR (Co-evolving Generative Retrieval), where we train LLMs to generate retrieval keywords for both user queries and apps. CoGR follows a co-evolving training framework: we alternately optimize one side while keeping the ...
+> Hi everyone, TL;DR: the community assumption for hybrid LLMs has been that the recurrent half (Gated DeltaNet) is too fragile for 4-bit — early quants of Qwen3.8-27B all kept it at 8/16-bit. We quantized all 496 linear layers to NVFP4 W4A4 — GDN a...
 
 </details>
 
 <details>
-<summary><b>3. Cliff: Learning Process Rewards from the First Mistake</b> ⭐ 0</summary>
+<summary><b>4. Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Gerald Friedland, Jie Hao, Ketan Ramaneti, Runhui Wang, Peixuan Han
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.03430) • [📄 arXiv](https://arxiv.org/abs/2609.03430) • [📥 PDF](https://arxiv.org/pdf/2609.03430)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.02817) • [📄 arXiv](https://arxiv.org/abs/2609.02817) • [📥 PDF](https://arxiv.org/pdf/2609.02817)
+**💻 Code:** [⭐ Code](https://github.com/SalesforceAIResearch/Random-Attention) • [⭐ Code](https://github.com/huggingface)
+
+> Large language models achieve superior performance on tasks that require extended reasoning, but long chains of thought make the KV cache a severe memory bottleneck. Existing KV cache compression methods share one paradigm: score each cached token...
+
+</details>
+
+<details>
+<summary><b>5. RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.27831) • [📄 arXiv](https://arxiv.org/abs/2608.27831) • [📥 PDF](https://arxiv.org/pdf/2608.27831)
+
+**💻 Code:** [⭐ Code](https://github.com/gyuhyeong-x/RealSWE) • [⭐ Code](https://github.com/huggingface)
+
+> RealSWE is a benchmark and framework built around 381 multi-variant task families, each preserving the same task and gold patch while varying information composition and linguistic style.
+
+</details>
+
+<details>
+<summary><b>6. CORE: Improving Compositional Reasoning in MLLM Embedding via Reranker Distillation</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.04083) • [📄 arXiv](https://arxiv.org/abs/2609.04083) • [📥 PDF](https://arxiv.org/pdf/2609.04083)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> A paper focusing on LLM RL and reward shaping
+> Hi, we publish new embedding models which perform well on fine-grained multimodal retrieval and compositional reasoning tasks.
 
 </details>
 
 <details>
-<summary><b>4. Language Models Can Control Their Own Attention</b> ⭐ 0</summary>
+<summary><b>7. Rethinking On-Policy Distillation of Large Language Models II: One Training Example</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.02737) • [📄 arXiv](https://arxiv.org/abs/2609.02737) • [📥 PDF](https://arxiv.org/pdf/2609.02737)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.04172) • [📄 arXiv](https://arxiv.org/abs/2609.04172) • [📥 PDF](https://arxiv.org/pdf/2609.04172)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Thinking-Space/One-Shot-OPD)
 
-> Language models can control their own attention. Zero-shot evaluation of Gemma 4 31B shows a 52% reduction is global attention cost during decoding across 15 long-context benchmarks with 1.52pp accuracy drop.
+> We investigate the data side and the training dynamics of on-policy distillation (OPD), and try to answer how far the training set of OPD can be reduced, and find that a single training example already induces most of the states a full dataset vis...
 
 </details>
 
 <details>
-<summary><b>5. On the Design Fundamentals of Pixel Text Representation Learning</b> ⭐ 0</summary>
+<summary><b>8. Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.01147) • [📄 arXiv](https://arxiv.org/abs/2609.01147) • [📥 PDF](https://arxiv.org/pdf/2609.01147)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> How do vision models learn to understand text directly from pixels? How can models pretrained on synthetic text rendered at ≤224×224 resolution generalize all the way to real-world 4K documents at test time? Pixel Linguist II answers these questio...
-
-</details>
-
-<details>
-<summary><b>6. Influence-Directed Distillation: Solving the Diversity Bottleneck in Sampled-Token On-Policy Distillation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.29846) • [📄 arXiv](https://arxiv.org/abs/2608.29846) • [📥 PDF](https://arxiv.org/pdf/2608.29846)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> Sampled-token on-policy distillation (OPD) efficiently transfers capabilities from teacher to student using student-generated tokens, requiring teacher probabilities only for sampled tokens. Yet it frequently suffers from diversity distillation fa...
-
-</details>
-
-<details>
-<summary><b>7. EarlyEval: Cheaper Agent Evaluation via Early Outcome Prediction</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.02783) • [📄 arXiv](https://arxiv.org/abs/2609.02783) • [📥 PDF](https://arxiv.org/pdf/2609.02783)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> Your agent evaluation can be cheaper!
-
-</details>
-
-<details>
-<summary><b>8. Post-Training Language Models for Gold-Medal Performance in Coding Competitions</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.02849) • [📄 arXiv](https://arxiv.org/abs/2609.02849) • [📥 PDF](https://arxiv.org/pdf/2609.02849)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>9. PaperCompiler: Faithful Paper-to-Code Generation via Repository-Level Specification Compilation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.02272) • [📄 arXiv](https://arxiv.org/abs/2609.02272) • [📥 PDF](https://arxiv.org/pdf/2609.02272)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> .
-
-</details>
-
-<details>
-<summary><b>10. ExecRetrieval: Measuring the Functional-Correctness Gap in Code-Embedding Retrieval</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.01865) • [📄 arXiv](https://arxiv.org/abs/2609.01865) • [📥 PDF](https://arxiv.org/pdf/2609.01865)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> Excited to share ExecRetrieval ! We ask a simple question: can code embeddings actually distinguish correct code from near-identical buggy code? Across 939 tasks and 24 retrieval systems, the best system reaches 100% exec@10 but only 33.1% exec@1 ...
-
-</details>
-
-<details>
-<summary><b>11. Kirin: Animal Motion Generation from In-the-Wild Video</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Shangzhe Wu, Jiajun Wu, James M. Rehg, Zhuoyang Pan, Brian Nlong Zhao
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.01823) • [📄 arXiv](https://arxiv.org/abs/2609.01823) • [📥 PDF](https://arxiv.org/pdf/2609.01823)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.04148) • [📄 arXiv](https://arxiv.org/abs/2609.04148) • [📥 PDF](https://arxiv.org/pdf/2609.04148)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
@@ -266,15 +225,60 @@ getTodaysPapers();
 </details>
 
 <details>
-<summary><b>12. MULTI3IR: A Benchmark for Multi-perspective Multi-domain Multi-modal Information Retrieval</b> ⭐ 0</summary>
+<summary><b>9. Environment Evolution for Terminal Agents</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.30949) • [📄 arXiv](https://arxiv.org/abs/2608.30949) • [📥 PDF](https://arxiv.org/pdf/2608.30949)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.04128) • [📄 arXiv](https://arxiv.org/abs/2609.04128) • [📥 PDF](https://arxiv.org/pdf/2609.04128)
 
-**💻 Code:** [⭐ Code](https://github.com/seokwon99/Multi3IR) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> EMNLP 2026; code is available at https://github.com/seokwon99/Multi3IR .
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>10. WorldReward: Reward Modeling for Camera-Conditioned World Models</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Yujie Zhou, Zhimin Li, Junshu Tang, Zehan Wang, Yibin Wang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.03952) • [📄 arXiv](https://arxiv.org/abs/2609.03952) • [📥 PDF](https://arxiv.org/pdf/2609.03952)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> WorldReward: Reward Modeling for Camera-Conditioned World Models
+
+</details>
+
+<details>
+<summary><b>11. Editable Visual Design</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** HaoDong Li, Zichen Wen, Dongzhi Jiang, Wei Liu, Junyan Ye
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.04034) • [📄 arXiv](https://arxiv.org/abs/2609.04034) • [📥 PDF](https://arxiv.org/pdf/2609.04034)
+
+**💻 Code:** [⭐ Code](https://github.com/yejy53/Editable-Design) • [⭐ Code](https://github.com/huggingface)
+
+> Github: https://github.com/yejy53/Editable-Design
+
+</details>
+
+<details>
+<summary><b>12. Principia: Relational Physics Tests for Video Models</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Anand Bhattad, Venkatesh Babu Radhakrishnan, Shivam Tripathi, Varun Varma Thozhiyoor
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.04200) • [📄 arXiv](https://arxiv.org/abs/2609.04200) • [📥 PDF](https://arxiv.org/pdf/2609.04200)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> No abstract available.
 
 </details>
 
@@ -287,27 +291,27 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 12 |
-| 📅 Today | [`2026-09-03.json`](data/daily/2026-09-03.json) | 12 |
-| 📆 This Week | [`2026-W35.json`](data/weekly/2026-W35.json) | 47 |
-| 🗓️ This Month | [`2026-09.json`](data/monthly/2026-09.json) | 35 |
+| 📅 Today | [`2026-09-04.json`](data/daily/2026-09-04.json) | 12 |
+| 📆 This Week | [`2026-W35.json`](data/weekly/2026-W35.json) | 59 |
+| 🗓️ This Month | [`2026-09.json`](data/monthly/2026-09.json) | 47 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-09-03 | 12 | [View JSON](data/daily/2026-09-03.json) |
+| 📌 2026-09-04 | 12 | [View JSON](data/daily/2026-09-04.json) |
+| 📄 2026-09-03 | 12 | [View JSON](data/daily/2026-09-03.json) |
 | 📄 2026-09-02 | 16 | [View JSON](data/daily/2026-09-02.json) |
 | 📄 2026-09-01 | 7 | [View JSON](data/daily/2026-09-01.json) |
 | 📄 2026-08-31 | 12 | [View JSON](data/daily/2026-08-31.json) |
 | 📄 2026-08-30 | 23 | [View JSON](data/daily/2026-08-30.json) |
 | 📄 2026-08-29 | 23 | [View JSON](data/daily/2026-08-29.json) |
-| 📄 2026-08-28 | 18 | [View JSON](data/daily/2026-08-28.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W35 | 47 | [View JSON](data/weekly/2026-W35.json) |
+| 📅 2026-W35 | 59 | [View JSON](data/weekly/2026-W35.json) |
 | 📅 2026-W34 | 173 | [View JSON](data/weekly/2026-W34.json) |
 | 📅 2026-W33 | 213 | [View JSON](data/weekly/2026-W33.json) |
 | 📅 2026-W32 | 171 | [View JSON](data/weekly/2026-W32.json) |
@@ -316,7 +320,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-09 | 35 | [View JSON](data/monthly/2026-09.json) |
+| 🗓️ 2026-09 | 47 | [View JSON](data/monthly/2026-09.json) |
 | 🗓️ 2026-08 | 747 | [View JSON](data/monthly/2026-08.json) |
 | 🗓️ 2026-07 | 366 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |
