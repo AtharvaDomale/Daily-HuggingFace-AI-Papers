@@ -2311,5 +2311,212 @@
       "scraped_at": "2026-09-06T03:21:50.151528"
     },
     "scraped_date": "2026-09-06"
+  },
+  {
+    "title": "Iris: Climbing to the Search Frontier",
+    "paper_url": "https://huggingface.co/papers/2609.04304",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Iris: Climbing to the Search Frontier",
+      "abstract": "We present Iris-mini and Iris-pro, two search agents trained at the 35B-A3B and 397B-A17B scales, together with the data pipeline and training recipe behind them. Tasks are reverse-constructed from the hyperlink structure of a web corpus: we author multi-hop chains over an entity graph distilled from a seed page and its out-links, rewrite every non-answer entity into a descriptive reference so that no clue can be resolved by string matching, and admit only questions that a reference model fails closed-book yet solves once the supporting evidence is supplied. These questions are then turned into trajectories, which are filtered at both the trajectory and the turn level before SFT. The policy is then optimized by RL against live search, with the reward judge and the observation summarizer served inside the training cluster, and with over-long rollouts interrupted at the request level and resumed from their committed prefix at the next step. We alternate the two stages in a procedure we call SFT-RL climbing, returning the hardest solved and most efficient rollouts of each RL round to the next supervised pass. Because inference-time context management is worth more on these benchmarks than most reported differences between systems, we evaluate every benchmark both with and without it, holding the tool set, the context limit, and the judge fixed. All results come from a single ReAct agent, with no sub-agents and no test-time verification. With management enabled, on BrowseComp, BrowseComp-ZH, DeepSearchQA, and HLE the two models reach 82.2/84.8/86.9/52.3 and 88.6/85.1/92.9/56.4, the strongest overall results among open-source search agents in their respective parameter ranges. We plan to release the model weights together with the complete recipe for data construction, training, and evaluation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.04304",
+      "pdf_url": "https://arxiv.org/pdf/2609.04304",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/AllSpark-Research/Iris"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.04304",
+      "scraped_at": "2026-09-07T03:19:37.310257"
+    },
+    "scraped_date": "2026-09-07"
+  },
+  {
+    "title": "Ask Before You Optimize: Dynamic Pre-Formulation Clarification for Interactive Optimization",
+    "paper_url": "https://huggingface.co/papers/2609.05258",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Ask Before You Optimize: Dynamic Pre-Formulation Clarification for Interactive Optimization",
+      "abstract": "We introduce InterOpt, an open framework for improving the interaction between large language models and optimization solvers. While LLMs have shown promising capabilities in mathematical modeling, they often struggle with ambiguous problem descriptions, incomplete specifications, and unreliable formulations. InterOpt explores a solver-in-the-loop paradigm that enables LLMs to iteratively clarify optimization problems, refine formulations, and verify generated solutions through optimization feedback. We release: The InterOpt framework for LLM-based optimization modeling and interaction. OR-Clarify, a dataset designed to study ambiguity resolution and clarification in optimization problems. Open-source implementations and experiments to facilitate future research on LLMs for Operations Research. Project page: https://github.com/AIOR-Research/InterOpt Dataset: https://huggingface.co/datasets/AIOR-Research/OR-Clarify We hope InterOpt can serve as a step toward more reliable and interactive AI assistants for real-world optimization tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.05258",
+      "pdf_url": "https://arxiv.org/pdf/2609.05258",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/AIOR-Research/InterOpt"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.05258",
+      "scraped_at": "2026-09-07T03:19:39.068496"
+    },
+    "scraped_date": "2026-09-07"
+  },
+  {
+    "title": "MaxKernel: Agentic Kernel Generation for TPUs",
+    "paper_url": "https://huggingface.co/papers/2609.04523",
+    "authors": [],
+    "stars": "61",
+    "details": {
+      "title": "MaxKernel: Agentic Kernel Generation for TPUs",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.04523",
+      "pdf_url": "https://arxiv.org/pdf/2609.04523",
+      "github_links": [
+        "https://github.com/AI-Hypercomputer/accelerator-agents",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.04523",
+      "scraped_at": "2026-09-07T03:19:40.799763"
+    },
+    "scraped_date": "2026-09-07"
+  },
+  {
+    "title": "WorldSculpt: Generating Compositional Worlds from Grounded Videos",
+    "paper_url": "https://huggingface.co/papers/2609.05416",
+    "authors": [
+      "Yonghao Yu",
+      "Lian Fu",
+      "Ruihan Yu",
+      "Jixuan He",
+      "Muyao Niu"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "WorldSculpt: Generating Compositional Worlds from Grounded Videos",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.05416",
+      "pdf_url": "https://arxiv.org/pdf/2609.05416",
+      "github_links": [
+        "https://github.com/AlayaLab/WorldSculpt",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.05416",
+      "scraped_at": "2026-09-07T03:19:42.583231"
+    },
+    "scraped_date": "2026-09-07"
+  },
+  {
+    "title": "When Models Edit Too Much: On the Fidelity of Minimal Code Edits",
+    "paper_url": "https://huggingface.co/papers/2609.04061",
+    "authors": [],
+    "stars": "19",
+    "details": {
+      "title": "When Models Edit Too Much: On the Fidelity of Minimal Code Edits",
+      "abstract": "Code: https://github.com/nreHieW/over-editing",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.04061",
+      "pdf_url": "https://arxiv.org/pdf/2609.04061",
+      "github_links": [
+        "https://github.com/nreHieW/over-editing",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.04061",
+      "scraped_at": "2026-09-07T03:19:44.394964"
+    },
+    "scraped_date": "2026-09-07"
+  },
+  {
+    "title": "RISE: Recursive Improvement via Self-Extrapolating Policy Distillation",
+    "paper_url": "https://huggingface.co/papers/2609.05295",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "RISE: Recursive Improvement via Self-Extrapolating Policy Distillation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.05295",
+      "pdf_url": "https://arxiv.org/pdf/2609.05295",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.05295",
+      "scraped_at": "2026-09-07T03:19:46.091213"
+    },
+    "scraped_date": "2026-09-07"
+  },
+  {
+    "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
+    "paper_url": "https://huggingface.co/papers/2609.05275",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.05275",
+      "pdf_url": "https://arxiv.org/pdf/2609.05275",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.05275",
+      "scraped_at": "2026-09-07T03:19:47.840814"
+    },
+    "scraped_date": "2026-09-07"
+  },
+  {
+    "title": "When Quantization Breaks Memory: Recurrent-State Write-Back in Low-Precision Temporal Inference",
+    "paper_url": "https://huggingface.co/papers/2609.04490",
+    "authors": [
+      "Vikas Pandey",
+      "Xavier Intes",
+      "Ismail Erbas"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "When Quantization Breaks Memory: Recurrent-State Write-Back in Low-Precision Temporal Inference",
+      "abstract": "We show that quantization doesn't just make individual numbers less precise in recurrent networks; it can quietly break the network's memory itself. In GRUs and LSTMs, the internal state gets saved after every time step and fed back in for the next one. We found that when this state is stored with coarse 4-bit rounding, the network can keep proposing small updates in the same direction for dozens of steps in a row, but every single one of them gets rounded away. The state ends up frozen even though the network is still \"trying\" to move it, so it keeps computing on stale memory. We call this the recurrent-state write-back problem. On a time- resolved fluorescence lifetime imaging task, changing only this storage rule (with the trained model completely unchanged otherwise) increased estimation errors by roughly 70x and 300x for two key parameters. Interestingly, just giving the state more bits doesn't reliably fix this; a model trained around a 4-bit interface can actually get worse when you store its state more precisely, because it adapted to the coarse interface during training. What matters is compatibility between the learned dynamics and the storage rule, not bit-width alone. We also test some lightweight fixes: carrying the leftover rounding error forward, keeping a small residual, or just tracking the direction of repeated sub-threshold updates. All three recover most of the lost accuracy with zero retraining. We reproduce the same failure and rescue in an independently trained LSTM too, where the cell state turns out to be far more sensitive to this than the hidden state. Happy to answer questions about the method or the write-back interventions.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.04490",
+      "pdf_url": "https://arxiv.org/pdf/2609.04490",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.04490",
+      "scraped_at": "2026-09-07T03:19:49.613876"
+    },
+    "scraped_date": "2026-09-07"
+  },
+  {
+    "title": "Group Adaptive Clipping Policy Optimization",
+    "paper_url": "https://huggingface.co/papers/2609.00444",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "Group Adaptive Clipping Policy Optimization",
+      "abstract": "Group-relative policy optimization methods for reinforcement learning with verifiable rewards (RLVR) typically use a fixed importance-sampling (IS) ratio clipping boundary across all rollouts. We identify a key limitation of this design: rare correct rollouts on harder problems and abundant correct rollouts on easier problems are clipped at comparable rates, despite contributing very different learning signals. In particular, rollouts with low group success, few correct solutions within a rollout group, tend to exhibit larger IS ratios and carry stronger gradient signal for exploration and solving new problems, yet are disproportionately suppressed by uniform clipping. To address this issue, we propose \\textit{Group Adaptive Clipping Policy Optimization (GAPO)}, a simple plug-in modification to group-relative policy optimization that adapts the IS clipping boundary to the rollout advantage. GAPO is motivated by a reverse-KL trust-region perspective, which suggests that rollouts with larger learning signal should receive proportionally greater update headroom. Importantly, GAPO requires no reward shaping or objective modification, preserving the standard PPO/GSPO surrogate while adapting only the clipping threshold. Across Qwen and Llama base models, GAPO consistently improves both pass@1 and pass@k over fixed clipping and advantage-shaping baselines on mathematical reasoning benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.00444",
+      "pdf_url": "https://arxiv.org/pdf/2609.00444",
+      "github_links": [
+        "https://github.com/Sheng-J/GAPO",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.00444",
+      "scraped_at": "2026-09-07T03:19:51.356598"
+    },
+    "scraped_date": "2026-09-07"
+  },
+  {
+    "title": "Motion-Omni: End-to-End Joint Speech and Full-Body Motion for Spoken Dialogue",
+    "paper_url": "https://huggingface.co/papers/2609.04250",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Motion-Omni: End-to-End Joint Speech and Full-Body Motion for Spoken Dialogue",
+      "abstract": "Motion-Omni replaces the speech-then-motion cascade with one end-to-end model that natively generates dialogue speech together with explicit facial expression, hand, upper-body, and lower-body motion, all from the hidden states that produce the speech. It stays within 2% of the teacher cascade on reference-free motion metrics, runs 5.4× faster at RTF 0.78 (faster than real time), and reaches a 2.62% WER, the lowest among the omni-modal systems compared.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.04250",
+      "pdf_url": "https://arxiv.org/pdf/2609.04250",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/step-out/Motion-Omni"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.04250",
+      "scraped_at": "2026-09-07T03:19:53.098700"
+    },
+    "scraped_date": "2026-09-07"
   }
 ]
