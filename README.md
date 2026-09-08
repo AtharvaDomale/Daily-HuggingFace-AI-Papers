@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-10-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-6247+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-2-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-6249+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">10</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">10</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">119</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">6247+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">2</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">12</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">121</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">6249+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** September 07, 2026
+**Last Updated:** September 08, 2026
 
 ---
 
@@ -119,136 +119,32 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Iris: Climbing to the Search Frontier</b> ⭐ 2</summary>
+<summary><b>1. Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.04304) • [📄 arXiv](https://arxiv.org/abs/2609.04304) • [📥 PDF](https://arxiv.org/pdf/2609.04304)
+**👥 Authors:** Bin Liang, Kang Peng, Fei Zhao, Zechen Sun, Zhiwei Zhang
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/AllSpark-Research/Iris)
-
-> We present Iris-mini and Iris-pro, two search agents trained at the 35B-A3B and 397B-A17B scales, together with the data pipeline and training recipe behind them. Tasks are reverse-constructed from the hyperlink structure of a web corpus: we autho...
-
-</details>
-
-<details>
-<summary><b>2. Ask Before You Optimize: Dynamic Pre-Formulation Clarification for Interactive Optimization</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.05258) • [📄 arXiv](https://arxiv.org/abs/2609.05258) • [📥 PDF](https://arxiv.org/pdf/2609.05258)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/AIOR-Research/InterOpt)
-
-> We introduce InterOpt, an open framework for improving the interaction between large language models and optimization solvers. While LLMs have shown promising capabilities in mathematical modeling, they often struggle with ambiguous problem descri...
-
-</details>
-
-<details>
-<summary><b>3. MaxKernel: Agentic Kernel Generation for TPUs</b> ⭐ 61</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.04523) • [📄 arXiv](https://arxiv.org/abs/2609.04523) • [📥 PDF](https://arxiv.org/pdf/2609.04523)
-
-**💻 Code:** [⭐ Code](https://github.com/AI-Hypercomputer/accelerator-agents) • [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>4. WorldSculpt: Generating Compositional Worlds from Grounded Videos</b> ⭐ 3</summary>
-
-<br/>
-
-**👥 Authors:** Yonghao Yu, Lian Fu, Ruihan Yu, Jixuan He, Muyao Niu
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.05416) • [📄 arXiv](https://arxiv.org/abs/2609.05416) • [📥 PDF](https://arxiv.org/pdf/2609.05416)
-
-**💻 Code:** [⭐ Code](https://github.com/AlayaLab/WorldSculpt) • [⭐ Code](https://github.com/huggingface)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>5. When Models Edit Too Much: On the Fidelity of Minimal Code Edits</b> ⭐ 19</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.04061) • [📄 arXiv](https://arxiv.org/abs/2609.04061) • [📥 PDF](https://arxiv.org/pdf/2609.04061)
-
-**💻 Code:** [⭐ Code](https://github.com/nreHieW/over-editing) • [⭐ Code](https://github.com/huggingface)
-
-> Code: https://github.com/nreHieW/over-editing
-
-</details>
-
-<details>
-<summary><b>6. RISE: Recursive Improvement via Self-Extrapolating Policy Distillation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.05295) • [📄 arXiv](https://arxiv.org/abs/2609.05295) • [📥 PDF](https://arxiv.org/pdf/2609.05295)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.02998) • [📄 arXiv](https://arxiv.org/abs/2609.02998) • [📥 PDF](https://arxiv.org/pdf/2609.02998)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> No abstract available.
+> Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation
 
 </details>
 
 <details>
-<summary><b>7. Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference</b> ⭐ 0</summary>
+<summary><b>2. What Else Needs Fixing? Exploring Cost-Effective Test-Time Compute for Revision Propagation in Artifacts Generated Through Conversation</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.05275) • [📄 arXiv](https://arxiv.org/abs/2609.05275) • [📥 PDF](https://arxiv.org/pdf/2609.05275)
+**👥 Authors:** Daisuke Kikuta
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.03254) • [📄 arXiv](https://arxiv.org/abs/2609.03254) • [📥 PDF](https://arxiv.org/pdf/2609.03254)
 
-> No abstract available.
+**💻 Code:** [⭐ Code](https://github.com/ntt-dkiku/llm-revision-propagation) • [⭐ Code](https://github.com/huggingface)
 
-</details>
-
-<details>
-<summary><b>8. When Quantization Breaks Memory: Recurrent-State Write-Back in Low-Precision Temporal Inference</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Vikas Pandey, Xavier Intes, Ismail Erbas
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.04490) • [📄 arXiv](https://arxiv.org/abs/2609.04490) • [📥 PDF](https://arxiv.org/pdf/2609.04490)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> We show that quantization doesn't just make individual numbers less precise in recurrent networks; it can quietly break the network's memory itself. In GRUs and LSTMs, the internal state gets saved after every time step and fed back in for the nex...
-
-</details>
-
-<details>
-<summary><b>9. Group Adaptive Clipping Policy Optimization</b> ⭐ 5</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.00444) • [📄 arXiv](https://arxiv.org/abs/2609.00444) • [📥 PDF](https://arxiv.org/pdf/2609.00444)
-
-**💻 Code:** [⭐ Code](https://github.com/Sheng-J/GAPO) • [⭐ Code](https://github.com/huggingface)
-
-> Group-relative policy optimization methods for reinforcement learning with verifiable rewards (RLVR) typically use a fixed importance-sampling (IS) ratio clipping boundary across all rollouts. We identify a key limitation of this design: rare corr...
-
-</details>
-
-<details>
-<summary><b>10. Motion-Omni: End-to-End Joint Speech and Full-Body Motion for Spoken Dialogue</b> ⭐ 1</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.04250) • [📄 arXiv](https://arxiv.org/abs/2609.04250) • [📥 PDF](https://arxiv.org/pdf/2609.04250)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/step-out/Motion-Omni)
-
-> Motion-Omni replaces the speech-then-motion cascade with one end-to-end model that natively generates dialogue speech together with explicit facial expression, hand, upper-body, and lower-body motion, all from the hidden states that produce the sp...
+> In this paper, we propose RevPropBench, a benchmark for evaluating the ability of LLMs to propagate revisions across dependent elements in conversationally generated JSON artifacts when users specify only a local change. We also explore cost-effec...
 
 </details>
 
@@ -260,28 +156,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 10 |
-| 📅 Today | [`2026-09-07.json`](data/daily/2026-09-07.json) | 10 |
-| 📆 This Week | [`2026-W36.json`](data/weekly/2026-W36.json) | 10 |
-| 🗓️ This Month | [`2026-09.json`](data/monthly/2026-09.json) | 119 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 2 |
+| 📅 Today | [`2026-09-08.json`](data/daily/2026-09-08.json) | 2 |
+| 📆 This Week | [`2026-W36.json`](data/weekly/2026-W36.json) | 12 |
+| 🗓️ This Month | [`2026-09.json`](data/monthly/2026-09.json) | 121 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-09-07 | 10 | [View JSON](data/daily/2026-09-07.json) |
+| 📌 2026-09-08 | 2 | [View JSON](data/daily/2026-09-08.json) |
+| 📄 2026-09-07 | 10 | [View JSON](data/daily/2026-09-07.json) |
 | 📄 2026-09-06 | 31 | [View JSON](data/daily/2026-09-06.json) |
 | 📄 2026-09-05 | 31 | [View JSON](data/daily/2026-09-05.json) |
 | 📄 2026-09-04 | 12 | [View JSON](data/daily/2026-09-04.json) |
 | 📄 2026-09-03 | 12 | [View JSON](data/daily/2026-09-03.json) |
 | 📄 2026-09-02 | 16 | [View JSON](data/daily/2026-09-02.json) |
-| 📄 2026-09-01 | 7 | [View JSON](data/daily/2026-09-01.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W36 | 10 | [View JSON](data/weekly/2026-W36.json) |
+| 📅 2026-W36 | 12 | [View JSON](data/weekly/2026-W36.json) |
 | 📅 2026-W35 | 121 | [View JSON](data/weekly/2026-W35.json) |
 | 📅 2026-W34 | 173 | [View JSON](data/weekly/2026-W34.json) |
 | 📅 2026-W33 | 213 | [View JSON](data/weekly/2026-W33.json) |
@@ -290,7 +186,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-09 | 119 | [View JSON](data/monthly/2026-09.json) |
+| 🗓️ 2026-09 | 121 | [View JSON](data/monthly/2026-09.json) |
 | 🗓️ 2026-08 | 747 | [View JSON](data/monthly/2026-08.json) |
 | 🗓️ 2026-07 | 366 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |

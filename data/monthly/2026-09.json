@@ -2518,5 +2518,52 @@
       "scraped_at": "2026-09-07T03:19:53.098700"
     },
     "scraped_date": "2026-09-07"
+  },
+  {
+    "title": "Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation",
+    "paper_url": "https://huggingface.co/papers/2609.02998",
+    "authors": [
+      "Bin Liang",
+      "Kang Peng",
+      "Fei Zhao",
+      "Zechen Sun",
+      "Zhiwei Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation",
+      "abstract": "Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.02998",
+      "pdf_url": "https://arxiv.org/pdf/2609.02998",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.02998",
+      "scraped_at": "2026-09-08T03:26:39.310580"
+    },
+    "scraped_date": "2026-09-08"
+  },
+  {
+    "title": "What Else Needs Fixing? Exploring Cost-Effective Test-Time Compute for Revision Propagation in Artifacts Generated Through Conversation",
+    "paper_url": "https://huggingface.co/papers/2609.03254",
+    "authors": [
+      "Daisuke Kikuta"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "What Else Needs Fixing? Exploring Cost-Effective Test-Time Compute for Revision Propagation in Artifacts Generated Through Conversation",
+      "abstract": "In this paper, we propose RevPropBench, a benchmark for evaluating the ability of LLMs to propagate revisions across dependent elements in conversationally generated JSON artifacts when users specify only a local change. We also explore cost-effective test-time compute for this setting. Overview of RevPropBench. The upper half shows the benchmark construction process, while the lower half shows the evaluation process. Samples are generated via LLM-based synthetic sampling and human annotation. Links: arXiv: https://arxiv.org/abs/2609.03254 alphaXiv: https://www.alphaxiv.org/abs/2609.03254 Code & dataset: https://github.com/ntt-dkiku/llm-revision-propagation",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.03254",
+      "pdf_url": "https://arxiv.org/pdf/2609.03254",
+      "github_links": [
+        "https://github.com/ntt-dkiku/llm-revision-propagation",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.03254",
+      "scraped_at": "2026-09-08T03:26:41.016148"
+    },
+    "scraped_date": "2026-09-08"
   }
 ]
