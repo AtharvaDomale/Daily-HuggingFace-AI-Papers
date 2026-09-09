@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-2-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-6249+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-7-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-6256+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">2</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">12</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">121</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">6249+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">7</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">19</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">128</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">6256+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** September 08, 2026
+**Last Updated:** September 09, 2026
 
 ---
 
@@ -119,32 +119,95 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation</b> ⭐ 0</summary>
+<summary><b>1. DriveZero: End-to-End Driving Beyond Human Demonstrations</b> ⭐ 42</summary>
 
 <br/>
 
-**👥 Authors:** Bin Liang, Kang Peng, Fei Zhao, Zechen Sun, Zhiwei Zhang
+**👥 Authors:** Haisong Liu, Heng Zhang, Zirun Su, Chengcheng Hu, Hao He
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.02998) • [📄 arXiv](https://arxiv.org/abs/2609.02998) • [📥 PDF](https://arxiv.org/pdf/2609.02998)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.06055) • [📄 arXiv](https://arxiv.org/abs/2609.06055) • [📥 PDF](https://arxiv.org/pdf/2609.06055)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/XiaomiAutoL3/DriveZero)
 
-> Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation
+> DriveZero decomposes driving into an action model and a perception model, pretrains each in the regime best suited to it, and unifies them by distillation. DriveRL , the action model, learns to drive from scratch with closed-loop RL. It converts r...
 
 </details>
 
 <details>
-<summary><b>2. What Else Needs Fixing? Exploring Cost-Effective Test-Time Compute for Revision Propagation in Artifacts Generated Through Conversation</b> ⭐ 0</summary>
+<summary><b>2. NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness</b> ⭐ 33</summary>
 
 <br/>
 
-**👥 Authors:** Daisuke Kikuta
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.08183) • [📄 arXiv](https://arxiv.org/abs/2609.08183) • [📥 PDF](https://arxiv.org/pdf/2609.08183)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.03254) • [📄 arXiv](https://arxiv.org/abs/2609.03254) • [📥 PDF](https://arxiv.org/pdf/2609.03254)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/TokenRhythm/NeoHorse)
 
-**💻 Code:** [⭐ Code](https://github.com/ntt-dkiku/llm-revision-propagation) • [⭐ Code](https://github.com/huggingface)
+> Huggingface: https://huggingface.co/collections/TokenRhythm/neohorse-1 ; Github: https://github.com/TokenRhythm/NeoHorse
 
-> In this paper, we propose RevPropBench, a benchmark for evaluating the ability of LLMs to propagate revisions across dependent elements in conversationally generated JSON artifacts when users specify only a local change. We also explore cost-effec...
+</details>
+
+<details>
+<summary><b>3. MOLE: Detecting Insider Threats in AI Agents</b> ⭐ 1</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.06966) • [📄 arXiv](https://arxiv.org/abs/2609.06966) • [📥 PDF](https://arxiv.org/pdf/2609.06966)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/aashiqmuhamed/mole)
+
+> Dataset: https://huggingface.co/datasets/forgelab/mole Code: https://github.com/aashiqmuhamed/mole
+
+</details>
+
+<details>
+<summary><b>4. Agentic Visual Generation: From Generative Models to Agentic Control</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.06758) • [📄 arXiv](https://arxiv.org/abs/2609.06758) • [📥 PDF](https://arxiv.org/pdf/2609.06758)
+
+**💻 Code:** [⭐ Code](https://github.com/YinmingHuang/Awesome-agentic-visual-generation-model) • [⭐ Code](https://github.com/huggingface)
+
+> Visual generation is evolving from generative models used through a single invocation into agentic control processes that can plan, select tools, inspect intermediate synthesized outputs, revise failures, and reuse prior experience. In most existi...
+
+</details>
+
+<details>
+<summary><b>5. VidaForge: Open Research Infrastructure for Video Pretraining Data Recipes</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.06652) • [📄 arXiv](https://arxiv.org/abs/2609.06652) • [📥 PDF](https://arxiv.org/pdf/2609.06652)
+
+**💻 Code:** [⭐ Code](https://github.com/GAIR-NLP/VidaForge) • [⭐ Code](https://github.com/huggingface)
+
+> code: https://github.com/GAIR-NLP/VidaForge paper: https://arxiv.org/pdf/2609.06652
+
+</details>
+
+<details>
+<summary><b>6. SceneMosaic: Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.05594) • [📄 arXiv](https://arxiv.org/abs/2609.05594) • [📥 PDF](https://arxiv.org/pdf/2609.05594)
+
+**💻 Code:** [⭐ Code](https://github.com/rxjfighting/SceneMosaic) • [⭐ Code](https://github.com/huggingface)
+
+> SceneMosaic: Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution Existing agent-based scene generation yields high-quality layouts through iterative refinement, but is slow. Conversely, Image-to-3D methods a...
+
+</details>
+
+<details>
+<summary><b>7. What LLM Trading Agents Actually Do in Production: A Six-Month, Population-Scale Record from Two Fleets</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.05663) • [📄 arXiv](https://arxiv.org/abs/2609.05663) • [📥 PDF](https://arxiv.org/pdf/2609.05663)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/ProjectDXAI/continuous-record-llm-trading-agents)
+
+> This paper records the pre-alpha systems behind DXAP: 3,505 user-funded Base vaults and a 500-599-agent Hyperliquid fleet with 231,638 finalized turns. P&L varied widely across agents and over time. The useful result was how the system around the ...
 
 </details>
 
@@ -156,28 +219,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 2 |
-| 📅 Today | [`2026-09-08.json`](data/daily/2026-09-08.json) | 2 |
-| 📆 This Week | [`2026-W36.json`](data/weekly/2026-W36.json) | 12 |
-| 🗓️ This Month | [`2026-09.json`](data/monthly/2026-09.json) | 121 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 7 |
+| 📅 Today | [`2026-09-09.json`](data/daily/2026-09-09.json) | 7 |
+| 📆 This Week | [`2026-W36.json`](data/weekly/2026-W36.json) | 19 |
+| 🗓️ This Month | [`2026-09.json`](data/monthly/2026-09.json) | 128 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-09-08 | 2 | [View JSON](data/daily/2026-09-08.json) |
+| 📌 2026-09-09 | 7 | [View JSON](data/daily/2026-09-09.json) |
+| 📄 2026-09-08 | 2 | [View JSON](data/daily/2026-09-08.json) |
 | 📄 2026-09-07 | 10 | [View JSON](data/daily/2026-09-07.json) |
 | 📄 2026-09-06 | 31 | [View JSON](data/daily/2026-09-06.json) |
 | 📄 2026-09-05 | 31 | [View JSON](data/daily/2026-09-05.json) |
 | 📄 2026-09-04 | 12 | [View JSON](data/daily/2026-09-04.json) |
 | 📄 2026-09-03 | 12 | [View JSON](data/daily/2026-09-03.json) |
-| 📄 2026-09-02 | 16 | [View JSON](data/daily/2026-09-02.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W36 | 12 | [View JSON](data/weekly/2026-W36.json) |
+| 📅 2026-W36 | 19 | [View JSON](data/weekly/2026-W36.json) |
 | 📅 2026-W35 | 121 | [View JSON](data/weekly/2026-W35.json) |
 | 📅 2026-W34 | 173 | [View JSON](data/weekly/2026-W34.json) |
 | 📅 2026-W33 | 213 | [View JSON](data/weekly/2026-W33.json) |
@@ -186,7 +249,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-09 | 121 | [View JSON](data/monthly/2026-09.json) |
+| 🗓️ 2026-09 | 128 | [View JSON](data/monthly/2026-09.json) |
 | 🗓️ 2026-08 | 747 | [View JSON](data/monthly/2026-08.json) |
 | 🗓️ 2026-07 | 366 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |

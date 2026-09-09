@@ -2565,5 +2565,151 @@
       "scraped_at": "2026-09-08T03:26:41.016148"
     },
     "scraped_date": "2026-09-08"
+  },
+  {
+    "title": "DriveZero: End-to-End Driving Beyond Human Demonstrations",
+    "paper_url": "https://huggingface.co/papers/2609.06055",
+    "authors": [
+      "Haisong Liu",
+      "Heng Zhang",
+      "Zirun Su",
+      "Chengcheng Hu",
+      "Hao He"
+    ],
+    "stars": "42",
+    "details": {
+      "title": "DriveZero: End-to-End Driving Beyond Human Demonstrations",
+      "abstract": "DriveZero decomposes driving into an action model and a perception model, pretrains each in the regime best suited to it, and unifies them by distillation. DriveRL , the action model, learns to drive from scratch with closed-loop RL. It converts real nuPlan logs into mixed-agent interactive worlds, where each background actor receives its own behavior provider, so that log replay, rule-based behaviors, and learned policies coexist within one scene. In these worlds, a 5.7M-parameter privileged policy is trained with PPO. DriveVFM , the perception model, learns from massive raw images by distilling frozen vision foundation models. It consolidates DINOv3, SigLIP2, SAM, and Depth Anything V2 into a single driving backbone, with no task labels. DriveZero unifies the two. It encodes multi-view images with DriveVFM, decodes trajectory proposals, and learns them from DriveRL rollouts instead of human trajectories, including rollouts under augmented goals that the human log never contained. 🏆 DriveRL exceeds the log-replay expert on all six nuPlan closed-loop settings. DriveZero, trained only on DriveRL rollouts, surpasses the human driver on NAVSIMv1 and leads NAVSIMv2 and the true closed-loop HUGSIM benchmark.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.06055",
+      "pdf_url": "https://arxiv.org/pdf/2609.06055",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/XiaomiAutoL3/DriveZero"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.06055",
+      "scraped_at": "2026-09-09T03:30:22.389885"
+    },
+    "scraped_date": "2026-09-09"
+  },
+  {
+    "title": "NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness",
+    "paper_url": "https://huggingface.co/papers/2609.08183",
+    "authors": [],
+    "stars": "33",
+    "details": {
+      "title": "NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness",
+      "abstract": "Huggingface: https://huggingface.co/collections/TokenRhythm/neohorse-1 ; Github: https://github.com/TokenRhythm/NeoHorse",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.08183",
+      "pdf_url": "https://arxiv.org/pdf/2609.08183",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/TokenRhythm/NeoHorse"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.08183",
+      "scraped_at": "2026-09-09T03:30:24.324490"
+    },
+    "scraped_date": "2026-09-09"
+  },
+  {
+    "title": "MOLE: Detecting Insider Threats in AI Agents",
+    "paper_url": "https://huggingface.co/papers/2609.06966",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "MOLE: Detecting Insider Threats in AI Agents",
+      "abstract": "Dataset: https://huggingface.co/datasets/forgelab/mole Code: https://github.com/aashiqmuhamed/mole",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.06966",
+      "pdf_url": "https://arxiv.org/pdf/2609.06966",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/aashiqmuhamed/mole"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.06966",
+      "scraped_at": "2026-09-09T03:30:26.043415"
+    },
+    "scraped_date": "2026-09-09"
+  },
+  {
+    "title": "Agentic Visual Generation: From Generative Models to Agentic Control",
+    "paper_url": "https://huggingface.co/papers/2609.06758",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Agentic Visual Generation: From Generative Models to Agentic Control",
+      "abstract": "Visual generation is evolving from generative models used through a single invocation into agentic control processes that can plan, select tools, inspect intermediate synthesized outputs, revise failures, and reuse prior experience. In most existing systems, the controller is an LLM or VLM, while visual generation models serve as tools or executors. However, existing work lacks a consistent criterion for determining when a generation system becomes agentic. Planning depth, tool use, multi-role collaboration, and reinforcement learning are often treated as evidence of agenticity, even though none of them necessarily determines which generation decisions the controller can make. We organize the field according to what the controller can directly control in the generation process. At L1 Conditioning Control, the controller prepares the input to a predetermined generator but does not control which visual operation is executed. At L2 Execution Control, it selects and invokes actual generation, editing, rendering, or other content-modifying operations. At L3 Outcome-Adaptive Control, it observes an intermediate outcome and uses that observation to change a subsequent operation within the current task. At L4 Experience-Adaptive Control, it retains experience from completed tasks and uses that experience to change decisions on future tasks. L0 Fixed Support separately denotes generators, editors, evaluators, reward models, benchmarks, and fixed pipelines without a deployed controller that makes generation-level decisions. These levels describe a progressively broader decision-making scope rather than model size, system complexity, output quality, tool or role count, or training method. Applying this framework across image, video, editing, 3D, world, slide, and user-interface generation reveals how controller capabilities have evolved and how their mechanisms are distributed across levels. We further develop a level-conditioned evaluation framework that isolates the value of broadening the controller's decision-making scope by matching generators, tools, budgets, and evaluators across levels. Finally, we identify the key transitions from generative models to executable control, reliable outcome-driven revision, reusable cross-task experience, and a future generator-as-controller regime.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.06758",
+      "pdf_url": "https://arxiv.org/pdf/2609.06758",
+      "github_links": [
+        "https://github.com/YinmingHuang/Awesome-agentic-visual-generation-model",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.06758",
+      "scraped_at": "2026-09-09T03:30:27.748144"
+    },
+    "scraped_date": "2026-09-09"
+  },
+  {
+    "title": "VidaForge: Open Research Infrastructure for Video Pretraining Data Recipes",
+    "paper_url": "https://huggingface.co/papers/2609.06652",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "VidaForge: Open Research Infrastructure for Video Pretraining Data Recipes",
+      "abstract": "code: https://github.com/GAIR-NLP/VidaForge paper: https://arxiv.org/pdf/2609.06652",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.06652",
+      "pdf_url": "https://arxiv.org/pdf/2609.06652",
+      "github_links": [
+        "https://github.com/GAIR-NLP/VidaForge",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.06652",
+      "scraped_at": "2026-09-09T03:30:29.465777"
+    },
+    "scraped_date": "2026-09-09"
+  },
+  {
+    "title": "SceneMosaic: Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution",
+    "paper_url": "https://huggingface.co/papers/2609.05594",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SceneMosaic: Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution",
+      "abstract": "SceneMosaic: Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution Existing agent-based scene generation yields high-quality layouts through iterative refinement, but is slow. Conversely, Image-to-3D methods are fast, but frequently cause physical errors like collisions or floating objects. Crucially, both produce only a single output per input. SceneMosaic solves this by quickly establishing a reliable base scene, then using localized evolution and composition to efficiently generate multiple distinct, physically plausible 3D layouts. Key Highlights: Hybrid Generation: Uses image priors for fast initialization, followed by agentic iteration to refine spatial positioning—balancing speed, semantic logic, and physical plausibility. Local Evolution to Global Diversity: Decomposes scenes into local sub-units, evolves them independently, and combines them via Cartesian product to create vast layout variants. A perception-aware metric with dynamic Max-Min selection then isolates the most diverse, high-quality scenes. Efficient & Physically Sound: On SceneEval-100, SceneMosaic matches state-of-the-art agent baselines in semantic quality while achieving a 24x speedup and significantly reducing physical violations.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.05594",
+      "pdf_url": "https://arxiv.org/pdf/2609.05594",
+      "github_links": [
+        "https://github.com/rxjfighting/SceneMosaic",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.05594",
+      "scraped_at": "2026-09-09T03:30:31.160513"
+    },
+    "scraped_date": "2026-09-09"
+  },
+  {
+    "title": "What LLM Trading Agents Actually Do in Production: A Six-Month, Population-Scale Record from Two Fleets",
+    "paper_url": "https://huggingface.co/papers/2609.05663",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "What LLM Trading Agents Actually Do in Production: A Six-Month, Population-Scale Record from Two Fleets",
+      "abstract": "This paper records the pre-alpha systems behind DXAP: 3,505 user-funded Base vaults and a 500-599-agent Hyperliquid fleet with 231,638 finalized turns. P&L varied widely across agents and over time. The useful result was how the system around the model determined whether an agent carried out what its user wanted. We used those findings to rebuild the current DXAP Alpha around persistent strategy automation, new data and tools, and learning with users. Aggregate figure data and discussion notes are linked in the GitHub repository.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.05663",
+      "pdf_url": "https://arxiv.org/pdf/2609.05663",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ProjectDXAI/continuous-record-llm-trading-agents"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.05663",
+      "scraped_at": "2026-09-09T03:30:32.843609"
+    },
+    "scraped_date": "2026-09-09"
   }
 ]
