@@ -2711,5 +2711,193 @@
       "scraped_at": "2026-09-09T03:30:32.843609"
     },
     "scraped_date": "2026-09-09"
+  },
+  {
+    "title": "Show-Harness: Just a VLM Agent Can Play Robots",
+    "paper_url": "https://huggingface.co/papers/2609.10522",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Show-Harness: Just a VLM Agent Can Play Robots",
+      "abstract": "Project Page: https://showlab.github.io/Show-Harness/ GitHub: https://github.com/showlab/Show-Harness",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.10522",
+      "pdf_url": "https://arxiv.org/pdf/2609.10522",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/showlab/Show-Harness"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.10522",
+      "scraped_at": "2026-09-10T03:28:21.736266"
+    },
+    "scraped_date": "2026-09-10"
+  },
+  {
+    "title": "Programmable World Model",
+    "paper_url": "https://huggingface.co/papers/2609.10540",
+    "authors": [
+      "Ruihan Yu",
+      "Yi-Chuan Huang",
+      "Jiacheng Lin",
+      "Guixu Lin",
+      "Zheng-Hui Huang"
+    ],
+    "stars": "37",
+    "details": {
+      "title": "Programmable World Model",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.10540",
+      "pdf_url": "https://arxiv.org/pdf/2609.10540",
+      "github_links": [
+        "https://github.com/AlayaLab/pwm",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.10540",
+      "scraped_at": "2026-09-10T03:28:23.545072"
+    },
+    "scraped_date": "2026-09-10"
+  },
+  {
+    "title": "Scores Alone Do Not Prove Discovery: The Discovery Certification Protocol for Auditing AI Research Agents",
+    "paper_url": "https://huggingface.co/papers/2609.09219",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Scores Alone Do Not Prove Discovery: The Discovery Certification Protocol for Auditing AI Research Agents",
+      "abstract": "The Discovery Certification Protocol turns AI research claims into testable evidence. Validate the gain. Challenge its recovery. Measure the contribution of feedback.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.09219",
+      "pdf_url": "https://arxiv.org/pdf/2609.09219",
+      "github_links": [
+        "https://github.com/cxcscmu/Discovery-Certification-Protocol",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.09219",
+      "scraped_at": "2026-09-10T03:28:25.322742"
+    },
+    "scraped_date": "2026-09-10"
+  },
+  {
+    "title": "Revisiting Complete Reasoning Traces for Post-Training",
+    "paper_url": "https://huggingface.co/papers/2609.07103",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Revisiting Complete Reasoning Traces for Post-Training",
+      "abstract": "We study whether LLMs indeed benefit from learning complete reasoning traces. Interestingly, full reasoning traces provide only limited benefits, while partial traces remain effective even under heavy truncation. Through attention-based analyses and controlled token-removal studies, we show that intermediate parts of reasoning traces are often redundant. As a result, endpoint-based SFT (E-SFT), using only the beginning and ending parts, retains or even improves SFT performance. We further find that endpoint-based training changes reasoning behavior and benefits both reinforcement learning (e.g., GRPO) and distillation (e.g., OPD).",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.07103",
+      "pdf_url": "https://arxiv.org/pdf/2609.07103",
+      "github_links": [
+        "https://github.com/naver-ai/revisiting-trace",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.07103",
+      "scraped_at": "2026-09-10T03:28:27.074532"
+    },
+    "scraped_date": "2026-09-10"
+  },
+  {
+    "title": "Φ-Bench: Can Large Language Models Engineer the Infrastructure That Powers Them?",
+    "paper_url": "https://huggingface.co/papers/2609.10226",
+    "authors": [],
+    "stars": "54",
+    "details": {
+      "title": "Φ-Bench: Can Large Language Models Engineer the Infrastructure That Powers Them?",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.10226",
+      "pdf_url": "https://arxiv.org/pdf/2609.10226",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/one2piece2hello/faibench_Frontier_InfraBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.10226",
+      "scraped_at": "2026-09-10T03:28:28.801639"
+    },
+    "scraped_date": "2026-09-10"
+  },
+  {
+    "title": "Puppeteer: Object-Grounded Posture-Aware Co-Speech Gesture Generation",
+    "paper_url": "https://huggingface.co/papers/2609.00369",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Puppeteer: Object-Grounded Posture-Aware Co-Speech Gesture Generation",
+      "abstract": "Generating co-speech gestures that are temporally coherent, semantically aligned with speech, and grounded with surrounding objects remains challenging. Prior speech-driven gesture models emphasize audio-gesture alignment but do not explicitly account for posture constraints or surrounding objects, failing to capture the inherent correlation between body gestures and the physical space. We present Puppeteer, a posture-aware, object-grounded co-speech gesture diffusion model operating in a causal latent space. We decompose long gestures into structured primitives and learn a causal variational autoencoder that encodes them into temporally ordered latent tokens, each depending only on the past. We then perform conditional diffusion directly in the causal latent space, conditioning on speech signals, motion history, an initial posture reference, and object geometry to synthesize physically consistent gestures. This temporally ordered latent formulation enables explicit temporal control and supports tasks such as gesture in-betweening and gesture completion. To better assess co-speech gesture synthesis beyond existing measures, we introduce new evaluation metrics tailored to this task. We also created SceneGes, the first curated synthetic 3D dataset of embodied co-speech gestures and corresponding 3D objects, enabling object-grounded gesture generation. Experiments show that Puppeteer generates more diverse and temporally synchronized gestures than prior methods, while enabling object-grounded gesture synthesis.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.00369",
+      "pdf_url": "https://arxiv.org/pdf/2609.00369",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.00369",
+      "scraped_at": "2026-09-10T03:28:30.626853"
+    },
+    "scraped_date": "2026-09-10"
+  },
+  {
+    "title": "AgenticGen: Reward-Guided Agentic Video Generation for Advertising",
+    "paper_url": "https://huggingface.co/papers/2609.09187",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AgenticGen: Reward-Guided Agentic Video Generation for Advertising",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.09187",
+      "pdf_url": "https://arxiv.org/pdf/2609.09187",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.09187",
+      "scraped_at": "2026-09-10T03:28:32.313607"
+    },
+    "scraped_date": "2026-09-10"
+  },
+  {
+    "title": "RESCUE-BENCH: Towards Relation-Aware Multi-Party Emotional Support Conversation Systems",
+    "paper_url": "https://huggingface.co/papers/2609.09657",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "RESCUE-BENCH: Towards Relation-Aware Multi-Party Emotional Support Conversation Systems",
+      "abstract": "This paper introduces RESCUE-BENCH , a benchmark for studying relation-aware emotional support in multi-party conversations , an aspect largely overlooked by existing emotional support systems. The authors construct RESCUE from real couple and family interviews, containing 191 samples, 7,079 annotated turns, and 1,064.8 minutes of video . It defines six tasks covering two core capabilities: Relational Understanding and Relation-Sensitive Support . Experiments with 10 LLMs show that current models perform reasonably well on local emotional and intervention cues, but struggle with tasks requiring deeper reasoning about evolving interpersonal relationships, such as relationship-pattern prediction, viewpoint prediction, and support-strategy prediction. The results suggest that effective emotional support in multi-party settings requires models to explicitly capture and utilize dynamic relational information rather than focusing only on individual emotional states.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.09657",
+      "pdf_url": "https://arxiv.org/pdf/2609.09657",
+      "github_links": [
+        "https://github.com/Tomsawyerhu/RESCUE-bench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.09657",
+      "scraped_at": "2026-09-10T03:28:34.119858"
+    },
+    "scraped_date": "2026-09-10"
+  },
+  {
+    "title": "Difficulty-Adaptive Tree-Structured Policy Optimization for Expanding Reasoning Coverage in RLVR",
+    "paper_url": "https://huggingface.co/papers/2609.08650",
+    "authors": [
+      "Hwanjo Yu",
+      "Sanghwan Jang",
+      "colin31472"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Difficulty-Adaptive Tree-Structured Policy Optimization for Expanding Reasoning Coverage in RLVR",
+      "abstract": "Reinforcement Learning with Verifiable Rewards (RLVR) has been central to the recent success of Large Reasoning Models. However, while RLVR significantly improves single-sample accuracy, it often fails to expand the model's intrinsic reasoning coverage (pass@k) due to limited exploration during training. To address this, we optimize the structural design of train-time rollouts to enhance pass@k. Our analysis identifies three key design principles: (1) difficulty-adaptive rollout can play an important role in expanding pass@k, beyond serving as an efficiency heuristic; (2) tree-based rollout outperforms parallel sampling in discovering correct answers; and (3) sentence-entropy-guided forking overcomes the localization phenomenon of token-level branching to maximize semantic diversity. Building on these insights, we propose DATPO (Difficulty-Adaptive Sentence-entropy-guided Tree-structured Policy Optimization). DATPO integrates difficulty-adaptive tree search with a sibling-diversity advantage term, explicitly promoting semantic diversity to expand reasoning coverage during training. Experiments on mathematical reasoning benchmarks demonstrate that DATPO outperforms baselines especially in pass@k, which directly translates to superior test-time scaling performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.08650",
+      "pdf_url": "https://arxiv.org/pdf/2609.08650",
+      "github_links": [
+        "https://github.com/colin31472/DATPO",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.08650",
+      "scraped_at": "2026-09-10T03:28:35.925083"
+    },
+    "scraped_date": "2026-09-10"
   }
 ]
