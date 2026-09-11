@@ -2899,5 +2899,187 @@
       "scraped_at": "2026-09-10T03:28:35.925083"
     },
     "scraped_date": "2026-09-10"
+  },
+  {
+    "title": "NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction",
+    "paper_url": "https://huggingface.co/papers/2609.10715",
+    "authors": [
+      "Xu Cheng",
+      "Shuang Cheng",
+      "Chiyu Chen",
+      "Jiaqi Cao",
+      "NCP Team"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction",
+      "abstract": "A large-scale new architecture with latent space prediction.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.10715",
+      "pdf_url": "https://arxiv.org/pdf/2609.10715",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.10715",
+      "scraped_at": "2026-09-11T03:25:55.167006"
+    },
+    "scraped_date": "2026-09-11"
+  },
+  {
+    "title": "SpatialBlock: Enhancing Spatial Intelligence in LVLMs via Synthetic Block-Stacking Problem",
+    "paper_url": "https://huggingface.co/papers/2609.07064",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SpatialBlock: Enhancing Spatial Intelligence in LVLMs via Synthetic Block-Stacking Problem",
+      "abstract": "Large vision-language models describe what a scene contains well, yet still struggle to reconstruct the 3D structure behind a 2D image and reason about it — spatial intelligence. SpatialBlock takes the route human spatial cognition develops along — block play. We train LVLMs on SpatialBlock-15k, a fully synthetic, scalable set of 15,000 block-stacking problems spanning 3D-to-2D projection, viewpoint transformation and structural combination, extended with controlled color cues so that models learn to anchor their reasoning on task-relevant blocks. Two training strategies are released: a direct model that predicts the answer immediately, and a reason model that thinks before answering. Despite training only on synthetic data at a small scale, both transfer to real-scene spatial benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.07064",
+      "pdf_url": "https://arxiv.org/pdf/2609.07064",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/rsoohyun/SpatialBlock"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.07064",
+      "scraped_at": "2026-09-11T03:25:56.829084"
+    },
+    "scraped_date": "2026-09-11"
+  },
+  {
+    "title": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
+    "paper_url": "https://huggingface.co/papers/2609.11929",
+    "authors": [
+      "Jiangnan Chen",
+      "Hanming Deng",
+      "Chenjing Ding",
+      "Jiahao Wang",
+      "Haiwen Diao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
+      "abstract": "Github: https://github.com/OpenSenseNova/SenseNova-U1",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.11929",
+      "pdf_url": "https://arxiv.org/pdf/2609.11929",
+      "github_links": [
+        "https://github.com/OpenSenseNova/SenseNova-U1",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.11929",
+      "scraped_at": "2026-09-11T03:25:58.452074"
+    },
+    "scraped_date": "2026-09-11"
+  },
+  {
+    "title": "CARDEA: Auditable Reasoning Grounded in Spatial Evidence for End-to-End Coronary Angiography Interpretation",
+    "paper_url": "https://huggingface.co/papers/2609.06931",
+    "authors": [
+      "Shih-Sheng Chang",
+      "Wei-Chun Wang",
+      "Kee Koon Ng",
+      "Shih-Yen Hou",
+      "benbayibaurba"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "CARDEA: Auditable Reasoning Grounded in Spatial Evidence for End-to-End Coronary Angiography Interpretation",
+      "abstract": "English Existing AI systems can assist with coronary angiography interpretation, but most models still provide only the final prediction. The intermediate reasoning process remains largely a black box, making the output difficult to verify directly in clinical practice and thereby limiting trust in the model’s interpretation. CARDEA is designed to address this problem. Our goal is to use the reasoning trace produced by a large vision-language model before its final answer as a source of interpretability, while further guiding the model to indicate the image regions it attends to through Chain-of-Box (CoB), making it easier for clinicians to audit how the model reached its conclusions. CARDEA is trained in three stages. We first perform visual feature alignment to foundational CAG features, then use self-distillation to automatically synthesize CoB reasoning traces for cold-start training. Finally, during reinforcement learning with verifiable rewards, we introduce a reward mechanism that encourages both correct interpretation and CoB behavior. The model weights and inference code are publicly available. 中文 冠狀動脈攝影目前已有人工智慧系統能輔助判讀，但多數模型仍只輸出最終預測，中間的推理過程仍像黑箱，臨床上不容易直接驗證，也因此降低了對模型判讀結果的信任。 CARDEA 就是為了解決這個痛點。 我們的目標是讓大型視覺語言模型在輸出最終結果前的推理過程成為可解釋性的來源，並進一步引導模型在推理時指出它所關注的多個影像區域，也就是 Chain-of-Box，讓臨床人員更容易檢查模型的判斷依據。 CARDEA 採用三階段訓練。我們先進行基礎冠狀動脈攝影特徵對齊，再透過自我蒸餾自動合成帶有 CoB 的推理資料進行冷啟動訓練，最後在可驗證獎勵強化學習階段加入獎勵機制，同時鼓勵判讀正確性與 CoB 行為。 目前模型權重與推論程式碼皆已公開。",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.06931",
+      "pdf_url": "https://arxiv.org/pdf/2609.06931",
+      "github_links": [
+        "https://github.com/benbayibaurba/cardea",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.06931",
+      "scraped_at": "2026-09-11T03:26:00.091662"
+    },
+    "scraped_date": "2026-09-11"
+  },
+  {
+    "title": "Recursive Code World Models: Building Complex Worlds through Recursive Scene Programs",
+    "paper_url": "https://huggingface.co/papers/2609.11499",
+    "authors": [
+      "Bo Zhu",
+      "Yuxuan Liao",
+      "Zhiqi Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Recursive Code World Models: Building Complex Worlds through Recursive Scene Programs",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.11499",
+      "pdf_url": "https://arxiv.org/pdf/2609.11499",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.11499",
+      "scraped_at": "2026-09-11T03:26:01.674908"
+    },
+    "scraped_date": "2026-09-11"
+  },
+  {
+    "title": "HyQuant: Hybrid-Precision Quantization for LLM Attention",
+    "paper_url": "https://huggingface.co/papers/2608.27875",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "HyQuant: Hybrid-Precision Quantization for LLM Attention",
+      "abstract": "HyQuant: Hybrid-Precision Quantization for LLM Attention (EMNLP 2026 Main) Low-bit attention / KV-cache quantization often hurts long-context reasoning, because the error concentrates on a small set of tokens. Across Qwen3, Llama-3, Gemma 4 and Qwen3.5, we observe persistent \"vertical lines\" in attention maps: the top-5% key positions plus a 128-token local window capture 82-86% of the attention mass. HyQuant keeps these vertical-line tokens and the local window in FP16 and quantizes the rest to 4-bit (K4V4), with fused hybrid-precision kernels for both prefill and decode, saving memory by preventing KV cache materialization. Identifying the vertical lines costs only 3-5% of runtime. Highlights (single H100): Decode kernel up to 3.58x faster than FlashAttention-2 at 32K context; end-to-end decode 1.04-1.17x faster, while KIVI / KVTuner end up slower than FA2 (0.69-0.80x) Near-full-precision accuracy: LongBench avg 45.04 vs. 44.59 for FA2 on Qwen3-8B (thinking mode), vs. 37.7-40.5 for KIVI / SageAttention / KVTuner; results hold on Qwen3-32B, Llama-3.1-8B and GLM-4-9B Only method that still runs at batch 16 with a 32K prefix (231.6 tok/s); FA2, KIVI and KVTuner run out of memory Code: https://github.com/jerrysfls/HyQuant Happy to answer questions!",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.27875",
+      "pdf_url": "https://arxiv.org/pdf/2608.27875",
+      "github_links": [
+        "https://github.com/jerrysfls/HyQuant",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.27875",
+      "scraped_at": "2026-09-11T03:26:03.317832"
+    },
+    "scraped_date": "2026-09-11"
+  },
+  {
+    "title": "World in World: Explore the World with World Models",
+    "paper_url": "https://huggingface.co/papers/2609.11548",
+    "authors": [
+      "Chi Zhang",
+      "Yanming Yang",
+      "Chenxi Song"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "World in World: Explore the World with World Models",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.11548",
+      "pdf_url": "https://arxiv.org/pdf/2609.11548",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.11548",
+      "scraped_at": "2026-09-11T03:26:04.885433"
+    },
+    "scraped_date": "2026-09-11"
+  },
+  {
+    "title": "An Open Recipe for IMO Gold: Training Nemotron for Olympiad Mathematics",
+    "paper_url": "https://huggingface.co/papers/2609.10712",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "An Open Recipe for IMO Gold: Training Nemotron for Olympiad Mathematics",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.10712",
+      "pdf_url": "https://arxiv.org/pdf/2609.10712",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.10712",
+      "scraped_at": "2026-09-11T03:26:06.490287"
+    },
+    "scraped_date": "2026-09-11"
   }
 ]
