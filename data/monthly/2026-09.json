@@ -3081,5 +3081,564 @@
       "scraped_at": "2026-09-11T03:26:06.490287"
     },
     "scraped_date": "2026-09-11"
+  },
+  {
+    "title": "NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction",
+    "paper_url": "https://huggingface.co/papers/2609.10715",
+    "authors": [
+      "Shuang Cheng",
+      "Chiyu Chen",
+      "NCP Team",
+      "Rubin-Wei",
+      "Clover-Hill"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction",
+      "abstract": "A large-scale new architecture with latent space prediction.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.10715",
+      "pdf_url": "https://arxiv.org/pdf/2609.10715",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.10715",
+      "scraped_at": "2026-09-12T03:31:14.253009"
+    },
+    "scraped_date": "2026-09-12"
+  },
+  {
+    "title": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
+    "paper_url": "https://huggingface.co/papers/2609.11929",
+    "authors": [
+      "caizhongang",
+      "tongww",
+      "WRHC",
+      "TokenWang",
+      "Paranioar"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
+      "abstract": "Github: https://github.com/OpenSenseNova/SenseNova-U1",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.11929",
+      "pdf_url": "https://arxiv.org/pdf/2609.11929",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/OpenSenseNova/SenseNova-U1"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.11929",
+      "scraped_at": "2026-09-12T03:31:15.944647"
+    },
+    "scraped_date": "2026-09-12"
+  },
+  {
+    "title": "SpatialBlock: Enhancing Spatial Intelligence in LVLMs via Synthetic Block-Stacking Problem",
+    "paper_url": "https://huggingface.co/papers/2609.07064",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "SpatialBlock: Enhancing Spatial Intelligence in LVLMs via Synthetic Block-Stacking Problem",
+      "abstract": "Large vision-language models describe what a scene contains well, yet still struggle to reconstruct the 3D structure behind a 2D image and reason about it — spatial intelligence. SpatialBlock takes the route human spatial cognition develops along — block play. We train LVLMs on SpatialBlock-15k, a fully synthetic, scalable set of 15,000 block-stacking problems spanning 3D-to-2D projection, viewpoint transformation and structural combination, extended with controlled color cues so that models learn to anchor their reasoning on task-relevant blocks. Two training strategies are released: a direct model that predicts the answer immediately, and a reason model that thinks before answering. Despite training only on synthetic data at a small scale, both transfer to real-scene spatial benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.07064",
+      "pdf_url": "https://arxiv.org/pdf/2609.07064",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/rsoohyun/SpatialBlock"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.07064",
+      "scraped_at": "2026-09-12T03:31:17.629864"
+    },
+    "scraped_date": "2026-09-12"
+  },
+  {
+    "title": "EvoSafeHarness: Evolving Model- and Domain-Specific Harnesses for Securing Agents",
+    "paper_url": "https://huggingface.co/papers/2609.05903",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "EvoSafeHarness: Evolving Model- and Domain-Specific Harnesses for Securing Agents",
+      "abstract": "LLM agents now move money, edit files and act on real systems. Yet most safety harnesses are designed once by experts and reused for every model and every domain. One size does not fit all. 🚀 We are excited to introduce EvoSafeHarness, a framework that automatically evolves a safety harness for your model and your domain. It writes both the natural-language safety policy and the code that enforces it on every tool call, while the model itself stays frozen. Why this matters: the same harness can wipe out one model's usefulness while leaving another exposed, and a policy written for a file system has no idea what a wash trade is. Agent safety depends on the deployment. 📈 Across four agent benchmarks, the evolved harnesses beat expert-designed defenses such as CaMeL, DRIFT and Progent on the safety–utility trade-off. On DecodingTrust-Agent, attack success drops from 45.6% to 10.0% at a cost of only 3.3 utility points. 📄 Paper: https://arxiv.org/abs/2609.05903 💻 Code: https://github.com/SaFo-Lab/EvoSafeHarness",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.05903",
+      "pdf_url": "https://arxiv.org/pdf/2609.05903",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/SaFo-Lab/EvoSafeHarness"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.05903",
+      "scraped_at": "2026-09-12T03:31:19.315772"
+    },
+    "scraped_date": "2026-09-12"
+  },
+  {
+    "title": "Mi-Ripple: Restoring Images Degraded by Iterative AI Editing",
+    "paper_url": "https://huggingface.co/papers/2609.11317",
+    "authors": [],
+    "stars": "34",
+    "details": {
+      "title": "Mi-Ripple: Restoring Images Degraded by Iterative AI Editing",
+      "abstract": "We investigate “digital ripples” in AI-generated images, showing how resampling introduces periodic artifacts and why they can reappear after cleanup during subsequent editing.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.11317",
+      "pdf_url": "https://arxiv.org/pdf/2609.11317",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/miyang-ai/Mi-Ripple"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.11317",
+      "scraped_at": "2026-09-12T03:31:20.975312"
+    },
+    "scraped_date": "2026-09-12"
+  },
+  {
+    "title": "X-AuT: Progressive Audio-Encoder Compression for Speech LLMs with Cross-Scale Distillation",
+    "paper_url": "https://huggingface.co/papers/2609.11412",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "X-AuT: Progressive Audio-Encoder Compression for Speech LLMs with Cross-Scale Distillation",
+      "abstract": "Project website: xpeng-ai.github.io/x-aut Paper: arXiv:2609.11412 Source code: XPENG-AI/X-AuT Model weights: XPENG-AI/X-AuT",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.11412",
+      "pdf_url": "https://arxiv.org/pdf/2609.11412",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/XPENG-AI/X-AuT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.11412",
+      "scraped_at": "2026-09-12T03:31:22.668775"
+    },
+    "scraped_date": "2026-09-12"
+  },
+  {
+    "title": "Memory as Plans: World-Action Modeling with Memory-Grounded Planning",
+    "paper_url": "https://huggingface.co/papers/2609.11561",
+    "authors": [
+      "Huan Wang",
+      "Chenchu Zhang",
+      "Weiyu Zhao",
+      "hzxie",
+      "SizheZhao"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Memory as Plans: World-Action Modeling with Memory-Grounded Planning",
+      "abstract": "Project Page: https://sizhezhao.github.io/projects/MaP-WAM/ GitHub: https://github.com/aipixel/MaP-WAM",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.11561",
+      "pdf_url": "https://arxiv.org/pdf/2609.11561",
+      "github_links": [
+        "https://github.com/aipixel/MaP-WAM",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.11561",
+      "scraped_at": "2026-09-12T03:31:24.345833"
+    },
+    "scraped_date": "2026-09-12"
+  },
+  {
+    "title": "Recursive Code World Models: Building Complex Worlds through Recursive Scene Programs",
+    "paper_url": "https://huggingface.co/papers/2609.11499",
+    "authors": [
+      "Bo Zhu",
+      "Yuxuan Liao",
+      "Zhiqi Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Recursive Code World Models: Building Complex Worlds through Recursive Scene Programs",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API WorldClaw: Agentic 3D Open-World Generation at Scale (2026) FuncRoom-Agent: Sequential Feed-Forward 3D Functional Indoor Scene Generation (2026) NeoWorld-Pro: Programming Interactive Scenes from Monocular Images for Embodied Simulation (2026) Figures as Programs: Recursive Generation of Editable Scientific Figures (2026) aDSL: Agentic 3D Creation via Joint Agent-Program Design (2026) StateFlow: Building, Evolving, and Accessing 3D World States for Previsualization (2026) Beyond Placement and Articulation: Usage-Driven Code Scenes for Embodied Interaction (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.11499",
+      "pdf_url": "https://arxiv.org/pdf/2609.11499",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.11499",
+      "scraped_at": "2026-09-12T03:31:25.961638"
+    },
+    "scraped_date": "2026-09-12"
+  },
+  {
+    "title": "An Open Recipe for IMO Gold: Training Nemotron for Olympiad Mathematics",
+    "paper_url": "https://huggingface.co/papers/2609.10712",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "An Open Recipe for IMO Gold: Training Nemotron for Olympiad Mathematics",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Post-Training Language Models for Gold-Medal Performance in Coding Competitions (2026) SVR: Self-Verifying Refinement via Joint Verdict-Confidence Reinforcement Learning for Adaptive Test-Time Compute (2026) Instella-MoE Technical Report (2026) Two-Stage Reinforcement Learning for Sound and Adversarial Test Generation in Code LLMs (2026) ReToolSQL: Agentic Reinforcement Learning for Robust Text-to-SQL (2026) BaT: Towards Self-Evolving Medical Research Agent with Stage Rubrics (2026) CHORUS: Complementary Experts for High-Coverage Testbench Stimulus Generation (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.10712",
+      "pdf_url": "https://arxiv.org/pdf/2609.10712",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.10712",
+      "scraped_at": "2026-09-12T03:31:27.619316"
+    },
+    "scraped_date": "2026-09-12"
+  },
+  {
+    "title": "TempCloze: Can Video-LLMs Identify the Missing Middle?",
+    "paper_url": "https://huggingface.co/papers/2609.01515",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "TempCloze: Can Video-LLMs Identify the Missing Middle?",
+      "abstract": "Temporal reasoning benchmarks for Video-LLMs are often mediated by language, leaving room for linguistic shortcuts from option wording, answer correlations, or language priors. To reduce such shortcuts, we introduce TempCloze, a video cloze benchmark for evaluating visual temporal reasoning in Video-LLMs. Given the beginning and ending clips of a video, models must identify the true missing middle from four candidates. TempCloze contains 1,521 carefully filtered videos from seven sources, mainly long-take and egocentric videos. We construct same-source distractors along three dimensions: Semantic asks what event should happen, Alignment probes when it should occur, and Progression tests how it should unfold, while shared scenes and objects reduce appearance cues. Our evaluation of 10 proprietary and 21 open-source Video-LLMs reveals Alignment as the primary bottleneck: models often recognize plausible semantic content and local event progression but struggle with temporal alignment. We further conduct error pattern and behavioral sensitivity analyses on TempCloze-Mixed and TempCloze-Hard with four representative models to examine where errors arise and how candidate order, context direction, visible span, frame density, and test-time scaling influence model choices.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.01515",
+      "pdf_url": "https://arxiv.org/pdf/2609.01515",
+      "github_links": [
+        "https://github.com/CedricPei/Temporal-Cloze",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.01515",
+      "scraped_at": "2026-09-12T03:31:29.258424"
+    },
+    "scraped_date": "2026-09-12"
+  },
+  {
+    "title": "FreeFlow: A Bias-free Hierarchical Transformer for Optical Flow Estimation",
+    "paper_url": "https://huggingface.co/papers/2609.11486",
+    "authors": [
+      "Dmitriy Vatolin",
+      "Khaled Abud",
+      "Vladislav Bargatin",
+      "a-yakovenko"
+    ],
+    "stars": "8",
+    "details": {
+      "title": "FreeFlow: A Bias-free Hierarchical Transformer for Optical Flow Estimation",
+      "abstract": "State-of-the-art optical flow method without any task-specific biases.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.11486",
+      "pdf_url": "https://arxiv.org/pdf/2609.11486",
+      "github_links": [
+        "https://github.com/msu-video-group/freeflow",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.11486",
+      "scraped_at": "2026-09-12T03:31:30.922188"
+    },
+    "scraped_date": "2026-09-12"
+  },
+  {
+    "title": "World in World: Explore the World with World Models",
+    "paper_url": "https://huggingface.co/papers/2609.11548",
+    "authors": [
+      "Chi Zhang",
+      "Yanming Yang",
+      "Chenxi Song"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "World in World: Explore the World with World Models",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Matrix-Game 3.5: Enhancing Real-Time Streaming Interactive World Models with Patch Memory (2026) Programmable World Model (2026) Wonder: Video World Model Done Better (2026) AlayaWorld: Interactive Long-Horizon World Modeling - Full Technical Report (2026) EchoWM: Open and Enterable Omnimodal World Models (2026) TourPhysics: Bringing Physics to World Models for Exploration and Manipulation from a Single Image (2026) H3-World: Turning Language Understanding into World Control (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.11548",
+      "pdf_url": "https://arxiv.org/pdf/2609.11548",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.11548",
+      "scraped_at": "2026-09-12T03:31:32.569637"
+    },
+    "scraped_date": "2026-09-12"
+  },
+  {
+    "title": "Negative Self-Distillation: Learning to Reason by Avoiding Flaws",
+    "paper_url": "https://huggingface.co/papers/2609.11699",
+    "authors": [
+      "Wei-Lin Chen",
+      "Xinyu Zhu",
+      "Zhepei Wei",
+      "Tim-Xu",
+      "PassionPrc"
+    ],
+    "stars": "5",
+    "details": {
+      "title": "Negative Self-Distillation: Learning to Reason by Avoiding Flaws",
+      "abstract": "We propose Negative Self-Distillation (NSD), a label-free, fully self-bootstrapped framework that enhances reasoning capabilities by optimizing the model to diverge from self-generated flawed trajectories, eliminating the need for ground-truth solutions or an external teacher.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.11699",
+      "pdf_url": "https://arxiv.org/pdf/2609.11699",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Prongcan/NSD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.11699",
+      "scraped_at": "2026-09-12T03:31:34.197165"
+    },
+    "scraped_date": "2026-09-12"
+  },
+  {
+    "title": "Studying Image Tokenizers as Visual Languages in Unified Multimodal Models",
+    "paper_url": "https://huggingface.co/papers/2609.09143",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Studying Image Tokenizers as Visual Languages in Unified Multimodal Models",
+      "abstract": "Image tokenizers should be designed and evaluated as visual languages — not just as image compressors. 📄 Paper: https://arxiv.org/abs/2609.09143 💻 Code: https://github.com/amazon-far/Tokenizer_UMM 🌐 Website: https://lst627.github.io/tokenizers_as_visual_languages",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.09143",
+      "pdf_url": "https://arxiv.org/pdf/2609.09143",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/amazon-far/Tokenizer_UMM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.09143",
+      "scraped_at": "2026-09-12T03:31:35.872021"
+    },
+    "scraped_date": "2026-09-12"
+  },
+  {
+    "title": "CARDEA: Auditable Reasoning Grounded in Spatial Evidence for End-to-End Coronary Angiography Interpretation",
+    "paper_url": "https://huggingface.co/papers/2609.06931",
+    "authors": [
+      "Shih-Sheng Chang",
+      "Wei-Chun Wang",
+      "Kee Koon Ng",
+      "Shih-Yen Hou",
+      "benbayibaurba"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "CARDEA: Auditable Reasoning Grounded in Spatial Evidence for End-to-End Coronary Angiography Interpretation",
+      "abstract": "English Existing AI systems can assist with coronary angiography interpretation, but most models still provide only the final prediction. The intermediate reasoning process remains largely a black box, making the output difficult to verify directly in clinical practice and thereby limiting trust in the model’s interpretation. CARDEA is designed to address this problem. Our goal is to use the reasoning trace produced by a large vision-language model before its final answer as a source of interpretability, while further guiding the model to indicate the image regions it attends to through Chain-of-Box (CoB), making it easier for clinicians to audit how the model reached its conclusions. CARDEA is trained in three stages. We first perform visual feature alignment to foundational CAG features, then use self-distillation to automatically synthesize CoB reasoning traces for cold-start training. Finally, during reinforcement learning with verifiable rewards, we introduce a reward mechanism that encourages both correct interpretation and CoB behavior. The model weights and inference code are publicly available. 中文 冠狀動脈攝影目前已有人工智慧系統能輔助判讀，但多數模型仍只輸出最終預測，中間的推理過程仍像黑箱，臨床上不容易直接驗證，也因此降低了對模型判讀結果的信任。 CARDEA 就是為了解決這個痛點。 我們的目標是讓大型視覺語言模型在輸出最終結果前的推理過程成為可解釋性的來源，並進一步引導模型在推理時指出它所關注的多個影像區域，也就是 Chain-of-Box，讓臨床人員更容易檢查模型的判斷依據。 CARDEA 採用三階段訓練。我們先進行基礎冠狀動脈攝影特徵對齊，再透過自我蒸餾自動合成帶有 CoB 的推理資料進行冷啟動訓練，最後在可驗證獎勵強化學習階段加入獎勵機制，同時鼓勵判讀正確性與 CoB 行為。 目前模型權重與推論程式碼皆已公開。",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.06931",
+      "pdf_url": "https://arxiv.org/pdf/2609.06931",
+      "github_links": [
+        "https://github.com/benbayibaurba/cardea",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.06931",
+      "scraped_at": "2026-09-12T03:31:37.519090"
+    },
+    "scraped_date": "2026-09-12"
+  },
+  {
+    "title": "HyQuant: Hybrid-Precision Quantization for LLM Attention",
+    "paper_url": "https://huggingface.co/papers/2608.27875",
+    "authors": [],
+    "stars": "8",
+    "details": {
+      "title": "HyQuant: Hybrid-Precision Quantization for LLM Attention",
+      "abstract": "HyQuant: Hybrid-Precision Quantization for LLM Attention (EMNLP 2026 Main) Low-bit attention / KV-cache quantization often hurts long-context reasoning, because the error concentrates on a small set of tokens. Across Qwen3, Llama-3, Gemma 4 and Qwen3.5, we observe persistent \"vertical lines\" in attention maps: the top-5% key positions plus a 128-token local window capture 82-86% of the attention mass. HyQuant keeps these vertical-line tokens and the local window in FP16 and quantizes the rest to 4-bit (K4V4), with fused hybrid-precision kernels for both prefill and decode, saving memory by preventing KV cache materialization. Identifying the vertical lines costs only 3-5% of runtime. Highlights (single H100): Decode kernel up to 3.58x faster than FlashAttention-2 at 32K context; end-to-end decode 1.04-1.17x faster, while KIVI / KVTuner end up slower than FA2 (0.69-0.80x) Near-full-precision accuracy: LongBench avg 45.04 vs. 44.59 for FA2 on Qwen3-8B (thinking mode), vs. 37.7-40.5 for KIVI / SageAttention / KVTuner; results hold on Qwen3-32B, Llama-3.1-8B and GLM-4-9B Only method that still runs at batch 16 with a 32K prefix (231.6 tok/s); FA2, KIVI and KVTuner run out of memory Code: https://github.com/jerrysfls/HyQuant Happy to answer questions!",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.27875",
+      "pdf_url": "https://arxiv.org/pdf/2608.27875",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/jerrysfls/HyQuant"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.27875",
+      "scraped_at": "2026-09-12T03:31:39.158895"
+    },
+    "scraped_date": "2026-09-12"
+  },
+  {
+    "title": "MetroLLM-Bench: Evaluating Language Models as Transit Kiosk Runtimes",
+    "paper_url": "https://huggingface.co/papers/2609.10016",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MetroLLM-Bench: Evaluating Language Models as Transit Kiosk Runtimes",
+      "abstract": "Can a small language model run a transit kiosk offline, adapted through a prose prompt rather than code? MetroLLM-Bench tests that with 955 tool-calling cases across six real metro systems (Atlanta, Doha, San Francisco, Taipei, Chicago, Beijing) and eleven categories from routing and fares to disruptions, accessibility and adversarial input. A 2.6 GB QLoRA-tuned Qwen 3.5 4B model matches GPT-5.4 and exceeds GPT-5.6.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.10016",
+      "pdf_url": "https://arxiv.org/pdf/2609.10016",
+      "github_links": [
+        "https://github.com/continker/metrollm-bench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.10016",
+      "scraped_at": "2026-09-12T03:31:40.817678"
+    },
+    "scraped_date": "2026-09-12"
+  },
+  {
+    "title": "DRG-MAPPO: Hierarchical Dynamic Role-Graph Multi-Agent Reinforcement Learning for Cooperative Air Combat",
+    "paper_url": "https://huggingface.co/papers/2609.11155",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DRG-MAPPO: Hierarchical Dynamic Role-Graph Multi-Agent Reinforcement Learning for Cooperative Air Combat",
+      "abstract": "Multi-Agent Reinforcement Learning (MARL) has emerged as a pivotal paradigm for complex decision-making in autonomous systems and air combat. While MARL has demonstrated significant potential in air combat, achieving sophisticated tactical coordination remains a non-trivial challenge. This difficulty is largely attributed to two primary limitations: (1) the absence of structured relational modeling hinders agents from capturing complex, time-varying interactions among battlefield entities; and (2) conventional flat architectures often lack the capability to explicitly model tactical roles, leading to ambiguous task allocation in highly dynamic environments. To address these challenges, we propose Hierarchical Dynamic Role-Graph Multi-Agent Proximal Policy Optimization (DRG-MAPPO), a novel MARL framework that integrates graph-based relational modeling with dynamic role assignment. Specifically, DRG-MAPPO constructs a graph-based representation of battlefield interactions and leverages graph attention mechanisms to extract critical relational features among allies, enemies, and threats. Subsequently, a high-level policy employs a dynamic role assignment mechanism to determine tactical responsibilities (e.g., “leader” and “supporter”). Conditioned on these roles and encoded graph-relational features, a low-level policy executes discrete maneuver actions, facilitating the joint optimization of tactical strategy and collaborative execution. Furthermore, a target-priority auxiliary task is designed to foster the emergence of behaviors such as focus-fire. Experimental results demonstrate that DRG-MAPPO achieves a state-of-the-art win rate of 87%, suggesting that our framework effectively balances relational modeling, interpretability, and optimization stability for cooperative air combat.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.11155",
+      "pdf_url": "https://arxiv.org/pdf/2609.11155",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.11155",
+      "scraped_at": "2026-09-12T03:31:42.489135"
+    },
+    "scraped_date": "2026-09-12"
+  },
+  {
+    "title": "UniH^3: Unifying Hierarchical Homogeneity and Heterogeneity for All-in-One Medical Image Restoration",
+    "paper_url": "https://huggingface.co/papers/2609.11156",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "UniH^3: Unifying Hierarchical Homogeneity and Heterogeneity for All-in-One Medical Image Restoration",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.11156",
+      "pdf_url": "https://arxiv.org/pdf/2609.11156",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Yaziwel/UniH3"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.11156",
+      "scraped_at": "2026-09-12T03:31:44.160192"
+    },
+    "scraped_date": "2026-09-12"
+  },
+  {
+    "title": "Generative Late-Interaction Embeddings For Visual Document Retrieval",
+    "paper_url": "https://huggingface.co/papers/2609.11808",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Generative Late-Interaction Embeddings For Visual Document Retrieval",
+      "abstract": "Visual document retrieval typically stores around a thousand vectors per page. GLIE learns a compact code that retrieves pages and supports on-demand regeneration of their embeddings. A small refiner and decoder are trained while the document encoder stays frozen. Search uses the stored codes; in the reported evaluation, only the top 20 candidates are expanded and reranked with MaxSim.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.11808",
+      "pdf_url": "https://arxiv.org/pdf/2609.11808",
+      "github_links": [
+        "https://github.com/mohammad2012191/GLIE",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.11808",
+      "scraped_at": "2026-09-12T03:31:45.835897"
+    },
+    "scraped_date": "2026-09-12"
+  },
+  {
+    "title": "Think Before You Link: Rarity, Reasoning, and Retrieval in Multilingual Entity Linking",
+    "paper_url": "https://huggingface.co/papers/2609.10745",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Think Before You Link: Rarity, Reasoning, and Retrieval in Multilingual Entity Linking",
+      "abstract": "Previous work usually treats entity rarity as popularity. We propose a broader view of rarity with 15 Wikipedia and Wikidata notions of rarity spanning attention, documentation, knowledge-graph structure, and cross-lingual coverage. These notions identify very different entities and they reveal that existing evaluations substantially underestimate the long tail. State-of-the-art accuracy drops by 15.4–39.9% across the rare-entity slices they uncover. A simple training-free framework in which a vision-language model iteratively searches and reasons over Wikipedia, recovers a lot of this performance. Controlled experiments show that reasoning and retrieval are complementary : reasoning alone does not significantly improve rare-entity accuracy, while retrieval without reasoning helps rare entities but can hurt overall accuracy. Combining them performs best, improving multilingual multimodal entity linking by 6.9% overall and by up to 23.3% on rare-entity slices. We release MERLIN-Rare : 1,105 mentions across five languages, augmented with 15 rarity metrics, complete model predictions, and reasoning and search traces.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.10745",
+      "pdf_url": "https://arxiv.org/pdf/2609.10745",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/neulab/think-before-you-link"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.10745",
+      "scraped_at": "2026-09-12T03:31:47.475444"
+    },
+    "scraped_date": "2026-09-12"
+  },
+  {
+    "title": "Building Multilingual Bridges: Data Mixing as the Pillar of Generalization for In-Language Reasoning",
+    "paper_url": "https://huggingface.co/papers/2609.10445",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Building Multilingual Bridges: Data Mixing as the Pillar of Generalization for In-Language Reasoning",
+      "abstract": "Cohere Labs presents Tiny Aya L2-Thinker A 3.35B multilingual model that reasons in the language of the prompt instead of defaulting to English, reaching 93%+ in-language reasoning across 60 languages while keeping accuracy strong and reasoning efficient. Weights and multilingual reasoning data in 44 languages are open on HuggingFace: Tiny Aya L2-Thinker: https://huggingface.co/CohereLabs/tiny-aya-l2-thinker Tiny Aya En-Thinker: https://huggingface.co/CohereLabs/tiny-aya-en-thinker Data: https://huggingface.co/datasets/CohereLabs/tiny-aya-l2-thinker-multilingual-reasoning",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.10445",
+      "pdf_url": "https://arxiv.org/pdf/2609.10445",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.10445",
+      "scraped_at": "2026-09-12T03:31:49.136453"
+    },
+    "scraped_date": "2026-09-12"
+  },
+  {
+    "title": "Beyond Solver Verdicts: Generative Reward Models for Autoformalization",
+    "paper_url": "https://huggingface.co/papers/2609.11085",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Beyond Solver Verdicts: Generative Reward Models for Autoformalization",
+      "abstract": "Neurosymbolic systems rely on mathematical solvers to guarantee reasoning correctness, yet solvers are fundamentally blind to whether a formal translation maintains strict reference-equivalence to a designated formalization. We formalize this vulnerability as Verdict-Preserving-Unfaithfulness (VPU): a failure mode where an incorrect encoding executes successfully and matches the expected verdict. We theoretically prove that structural, verdict-only verification heuristics are mathematically bounded to chance-level detection on these deceptively valid traces. To resolve this, we introduce Generative Verification (GenV), which distills an offline Z3-equivalence oracle into a reference-free, continuous reference-equivalence score by repurposing the language model's native vocabulary space. Mechanistic analysis via decision-projected logit lenses and sparse autoencoders shows this generative readout natively extracts precise spatial error coordinates without explicit localization training. Empirically, our oracle-mined verifier (GenV+HN) achieves 0.961 AUROC in reference-equivalence verification, generalizes zero-shot across unseen translators and divergent formal styles, and yields an 11.3-point downstream accuracy gain in agentic test-time compute allocation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.11085",
+      "pdf_url": "https://arxiv.org/pdf/2609.11085",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.11085",
+      "scraped_at": "2026-09-12T03:31:50.760867"
+    },
+    "scraped_date": "2026-09-12"
+  },
+  {
+    "title": "Adaptive Bridge: A Proxy-Based Decoupling Layer for Mitigating DDS Backpressure in ROS 2",
+    "paper_url": "https://huggingface.co/papers/2608.15380",
+    "authors": [
+      "B. Thangaraju",
+      "puwar"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Adaptive Bridge: A Proxy-Based Decoupling Layer for Mitigating DDS Backpressure in ROS 2",
+      "abstract": "Github: https://github.com/KaushalrajPuwar/adaptive-bridge",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.15380",
+      "pdf_url": "https://arxiv.org/pdf/2608.15380",
+      "github_links": [
+        "https://github.com/KaushalrajPuwar/adaptive-bridge",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.15380",
+      "scraped_at": "2026-09-12T03:31:52.462754"
+    },
+    "scraped_date": "2026-09-12"
+  },
+  {
+    "title": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
+    "paper_url": "https://huggingface.co/papers/2609.10539",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
+      "abstract": "Excited to share IdeaAMBIG! We ask a simple question: when an AI system is given a research idea, can it tell whether the idea is actually specified well enough to implement? We introduce a benchmark of 660 evidence-grounded specification gaps and evaluate 13 LLMs on detecting, localizing, and resolving implementation-critical defects. Our most striking result: LLMs are much better at fixing a gap than finding it. On real-world cases, the best model achieves only 9.6% defect recovery, but 80.6% clarification success once the defect is given. Providing the gold resolution raises downstream codification readiness from 14% to 98%. This points to an important bottleneck for research agents: before asking models to implement an idea, we may first need them to reliably recognize what is missing, ambiguous, or inconsistent. Would love to hear the community’s thoughts on this!",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.10539",
+      "pdf_url": "https://arxiv.org/pdf/2609.10539",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Yiling-Ma/IdeaAMBIG"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.10539",
+      "scraped_at": "2026-09-12T03:31:54.126999"
+    },
+    "scraped_date": "2026-09-12"
+  },
+  {
+    "title": "ActReview: Rebuttal-Guided Training Data and Rubric Rewards for Actionable Peer Review Generation",
+    "paper_url": "https://huggingface.co/papers/2609.09076",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ActReview: Rebuttal-Guided Training Data and Rubric Rewards for Actionable Peer Review Generation",
+      "abstract": "🚀 Excited to share ActReview! We ask: Can LLM-generated peer reviews not only identify weaknesses, but also help authors revise their papers? Our key insight is that reviewer comments reveal what is wrong, while author rebuttals often reveal how the concern can be addressed. We use this signal to build ActReview-40K, aligning reviewer weaknesses with rebuttal responses and localized paper evidence. We train ActReview with multi-task SFT followed by GRPO using weakness-specific rubric rewards, and introduce ActReview-Bench, a human-curated benchmark of 1,000 examples. ActReview produces feedback that is more actionable and grounded than prior specialized review-generation models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.09076",
+      "pdf_url": "https://arxiv.org/pdf/2609.09076",
+      "github_links": [
+        "https://github.com/Yiling-Ma/ActReview",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.09076",
+      "scraped_at": "2026-09-12T03:31:55.754359"
+    },
+    "scraped_date": "2026-09-12"
   }
 ]
