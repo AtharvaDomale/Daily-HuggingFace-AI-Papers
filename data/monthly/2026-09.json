@@ -4199,5 +4199,131 @@
       "scraped_at": "2026-09-13T03:38:09.243144"
     },
     "scraped_date": "2026-09-13"
+  },
+  {
+    "title": "Breaking the Vision-Action Shortcut: Latent Interface Training for Generalizable Robotics Foundation Models",
+    "paper_url": "https://huggingface.co/papers/2609.12641",
+    "authors": [],
+    "stars": "24",
+    "details": {
+      "title": "Breaking the Vision-Action Shortcut: Latent Interface Training for Generalizable Robotics Foundation Models",
+      "abstract": "Robot foundation models achieve strong in-distribution performance but often degrade under visual distribution shifts. When learning to generate actions from pretrained visual representations, models may exploit task-irrelevant visual cues that correlate with demonstrated actions within the training distribution. Such vision-action shortcuts can undermine generalization when these correlations change under distribution shifts. Mitigating these shortcuts requires constraining how visual information is used for action generation while preserving task-relevant spatial information. We propose Latent Interface Training (LIT), a framework-agnostic two-stage strategy that first establishes a spatial-goal-conditioned action prior without images, then constrains visual conditioning through a pose-supervised latent interface. Stage 1 trains the action expert to generate action chunks conditioned on language, robot state, and each demonstrated chunk's terminal SE(3) end-effector pose, learning goal-directed action generation independently of visual cues. Stage 2 introduces a latent interface that aggregates visual and semantic representations and serves as the pretrained action expert's only visual conditioning pathway. The interface is supervised to reconstruct the terminal pose previously used to condition Stage 1, encouraging it to retain the goal-relevant spatial information needed for action generation. Across four vision-language-action and world-action architectures (Pi0.5, MolmoAct2, FAST-WAM, and ImageWAM), LIT improves overall LIBERO-Plus success by 3.87-10.70 percentage points while preserving or improving average LIBERO success. Real-world evaluations show 13.30-16.70 percentage-point gains in success aggregated across three tasks under unseen camera configurations, lighting variations, and distractors.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.12641",
+      "pdf_url": "https://arxiv.org/pdf/2609.12641",
+      "github_links": [
+        "https://github.com/MAGICLAB-NUS/LIT",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.12641",
+      "scraped_at": "2026-09-14T03:46:28.971282"
+    },
+    "scraped_date": "2026-09-14"
+  },
+  {
+    "title": "PLC-DPO: Posterior Label Correction in Noisy and Ambiguous Preference Optimization",
+    "paper_url": "https://huggingface.co/papers/2608.30597",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PLC-DPO: Posterior Label Correction in Noisy and Ambiguous Preference Optimization",
+      "abstract": "Preference datasets often contain incorrect preference directions or weak/ambiguous pairs. PLC-DPO introduces a latent clean, flip, or tie state for each pair and uses the calibrated policy–reference margin to infer posterior-like routing weights. These determine whether training reinforces, reverses, or suppresses a strong directional update. PLC-DPO combines forward, reverse-direction, and tie-regularizing losses using these weights, with EMA calibration, warm-up, and confidence gating for stable routing. Rather than simply filtering suspicious pairs, it attempts to correct their training signal while reusing the log-probabilities already required by DPO, without an auxiliary model or additional supervision. Across 57 dataset–model–benchmark cells, PLC-DPO achieves the best mean win rate against DPO (60.5%).",
+      "arxiv_page_url": "https://arxiv.org/abs/2608.30597",
+      "pdf_url": "https://arxiv.org/pdf/2608.30597",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/VennTum99/PLC-DPO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2608.30597",
+      "scraped_at": "2026-09-14T03:46:30.776654"
+    },
+    "scraped_date": "2026-09-14"
+  },
+  {
+    "title": "COBRA-Skills: Contextual Bandit-Guided Evolution for Agent Skill Optimization",
+    "paper_url": "https://huggingface.co/papers/2609.11682",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "COBRA-Skills: Contextual Bandit-Guided Evolution for Agent Skill Optimization",
+      "abstract": "COBRA-Skills: Contextual Bandits for Efficient Agent Skill Optimization 🚀 How can we optimize Agent Skills without repeatedly spending large amounts of computation on weak candidates and costly LLM-based refinement? COBRA-Skills treats skill optimization as a sequential budget-allocation problem: Which skill is most worth evaluating next? Instead of exhaustively trying and refining candidate skills, COBRA-Skills maintains a population of skills and uses: a neural predictor to estimate skill utility, LinearUCB to balance exploration and exploitation, target-agent execution feedback to update the bandit, scheduled evolution operators (regeneration, rollout mutation, and crossover) to evolve the skill population. Results We evaluate COBRA-Skills on 6 diverse agent benchmarks × 3 target models , covering search QA, spreadsheets, document understanding, mathematical reasoning, social reasoning, and embodied tasks. COBRA-Skills achieves: 🏆 the best average performance among the compared methods, 💰 ~55–58% lower optimization cost than SkillOpt, 📊 only 50 optimization examples per benchmark , 🔧 consistent effectiveness under Codex and Claude Code harnesses, 🤖 strong performance even when the target model itself generates and refines skills. An interesting finding is that the cost reduction does not mainly come from reducing target-agent executions. A large part comes from avoiding repeated LLM-based trajectory analysis and skill rewriting. 📄 Paper: https://arxiv.org/abs/2609.11682 💻 Code: https://github.com/Jerry-LuP/COBRA-Skills Feedback and discussions are very welcome!",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.11682",
+      "pdf_url": "https://arxiv.org/pdf/2609.11682",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Jerry-LuP/COBRA-Skills"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.11682",
+      "scraped_at": "2026-09-14T03:46:32.661596"
+    },
+    "scraped_date": "2026-09-14"
+  },
+  {
+    "title": "Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation",
+    "paper_url": "https://huggingface.co/papers/2609.11115",
+    "authors": [],
+    "stars": "193",
+    "details": {
+      "title": "Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation",
+      "abstract": "Benchmark radar is all you need when doing benchmark research! We kept running into new benchmarks while doing benchmark research, so we built a crawler that continuously collects benchmark-related signals from across the web. It pulls evidence from 37 public sources every day, and keeps updating. We also have a CLI tool, which can help you create LaTeX version related benchmark work in minutes from 12k+ benchmark/eval/dataset records.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.11115",
+      "pdf_url": "https://arxiv.org/pdf/2609.11115",
+      "github_links": [
+        "https://github.com/ktwu01/benchmark-radar",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.11115",
+      "scraped_at": "2026-09-14T03:46:34.478999"
+    },
+    "scraped_date": "2026-09-14"
+  },
+  {
+    "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
+    "paper_url": "https://huggingface.co/papers/2609.13141",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.13141",
+      "pdf_url": "https://arxiv.org/pdf/2609.13141",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Tencent-Hunyuan/Simple-Attention-Sparsification"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.13141",
+      "scraped_at": "2026-09-14T03:46:36.220226"
+    },
+    "scraped_date": "2026-09-14"
+  },
+  {
+    "title": "SNAP3D: Physically Grounded 3D Parts for Assembly from a Single Image",
+    "paper_url": "https://huggingface.co/papers/2609.13146",
+    "authors": [
+      "Xiaoxuan Ma",
+      "Kris Kitani",
+      "Nicolas Ugrinovic",
+      "Hao-Tang Tsui",
+      "Yu-Rou Tuan"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "SNAP3D: Physically Grounded 3D Parts for Assembly from a Single Image",
+      "abstract": "Video: https://www.youtube.com/watch?v=22yRDaWabwA",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.13146",
+      "pdf_url": "https://arxiv.org/pdf/2609.13146",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/LucyTuan/SNAP3D"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.13146",
+      "scraped_at": "2026-09-14T03:46:38.017928"
+    },
+    "scraped_date": "2026-09-14"
   }
 ]
