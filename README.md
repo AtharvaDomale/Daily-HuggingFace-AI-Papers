@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-6-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-6331+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-11-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-6342+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">6</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">6</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">203</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">6331+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">11</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">17</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">214</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">6342+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** September 14, 2026
+**Last Updated:** September 15, 2026
 
 ---
 
@@ -119,82 +119,151 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Breaking the Vision-Action Shortcut: Latent Interface Training for Generalizable Robotics Foundation Models</b> ⭐ 24</summary>
+<summary><b>1. Vidu S2: Real-Time Interactive, Editable, and Spatial Video Generation</b> ⭐ 253</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.12641) • [📄 arXiv](https://arxiv.org/abs/2609.12641) • [📥 PDF](https://arxiv.org/pdf/2609.12641)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.11638) • [📄 arXiv](https://arxiv.org/abs/2609.11638) • [📥 PDF](https://arxiv.org/pdf/2609.11638)
 
-**💻 Code:** [⭐ Code](https://github.com/MAGICLAB-NUS/LIT) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/shengshu-ai/Vidu-S) • [⭐ Code](https://github.com/huggingface)
 
-> Robot foundation models achieve strong in-distribution performance but often degrade under visual distribution shifts. When learning to generate actions from pretrained visual representations, models may exploit task-irrelevant visual cues that co...
+> 🚀 Thrilled to introduce Vidu S2: real-time AI video you can talk to, direct, and real-time editing. 🎙️ Vidu S2-Avatar Interactive characters at 720p and 25–42 FPS, with stronger instruction following, expressive full-body motion, and dancing. Intr...
 
 </details>
 
 <details>
-<summary><b>2. PLC-DPO: Posterior Label Correction in Noisy and Ambiguous Preference Optimization</b> ⭐ 0</summary>
+<summary><b>2. Dream-RSI: Recursive Self-Improvement through Evolving Worlds</b> ⭐ 4</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2608.30597) • [📄 arXiv](https://arxiv.org/abs/2608.30597) • [📥 PDF](https://arxiv.org/pdf/2608.30597)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.14858) • [📄 arXiv](https://arxiv.org/abs/2609.14858) • [📥 PDF](https://arxiv.org/pdf/2609.14858)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/VennTum99/PLC-DPO)
+**💻 Code:** [⭐ Code](https://github.com/zhengkid/Dream-RSI) • [⭐ Code](https://github.com/huggingface)
 
-> Preference datasets often contain incorrect preference directions or weak/ambiguous pairs. PLC-DPO introduces a latent clean, flip, or tie state for each pair and uses the calibrated policy–reference margin to infer posterior-like routing weights....
+> To recursively self-improve, agents need to dream. History can be the world they dream in. More Details: https://dream-rsi.com/
 
 </details>
 
 <details>
-<summary><b>3. COBRA-Skills: Contextual Bandit-Guided Evolution for Agent Skill Optimization</b> ⭐ 5</summary>
+<summary><b>3. PhysBrain 1.5: From Vision-Language Models to Physical Foundation Models</b> ⭐ 14</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.11682) • [📄 arXiv](https://arxiv.org/abs/2609.11682) • [📥 PDF](https://arxiv.org/pdf/2609.11682)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.14973) • [📄 arXiv](https://arxiv.org/abs/2609.14973) • [📥 PDF](https://arxiv.org/pdf/2609.14973)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Jerry-LuP/COBRA-Skills)
+**💻 Code:** [⭐ Code](https://github.com/DeepCybo-PhysAI/PhysBrain-1.5) • [⭐ Code](https://github.com/huggingface)
 
-> COBRA-Skills: Contextual Bandits for Efficient Agent Skill Optimization 🚀 How can we optimize Agent Skills without repeatedly spending large amounts of computation on weak candidates and costly LLM-based refinement? COBRA-Skills treats skill optim...
+> PhysBrain 1.5 is a unified embodied foundation model that understands the observed world, generates goal-directed actions, and predicts how the environment will evolve — all as discrete tokens under a single shared autoregressive backbone.
 
 </details>
 
 <details>
-<summary><b>4. Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation</b> ⭐ 193</summary>
+<summary><b>4. ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.11115) • [📄 arXiv](https://arxiv.org/abs/2609.11115) • [📥 PDF](https://arxiv.org/pdf/2609.11115)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.13356) • [📄 arXiv](https://arxiv.org/abs/2609.13356) • [📥 PDF](https://arxiv.org/pdf/2609.13356)
 
-**💻 Code:** [⭐ Code](https://github.com/ktwu01/benchmark-radar) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/zgcagi/ZGCM-1) • [⭐ Code](https://github.com/huggingface)
 
-> Benchmark radar is all you need when doing benchmark research! We kept running into new benchmarks while doing benchmark research, so we built a crawler that continuously collects benchmark-related signals from across the web. It pulls evidence fr...
+> A fully open 7B LLM, including model, training infra, data, and wandb. Match Qwen3-8B on general datasets and competitive with frontier models orders of magnitude larger, such as Qwen3-235B-A22B and GLM-5.1 on math and agentic search datasets. Its...
 
 </details>
 
 <details>
-<summary><b>5. SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking</b> ⭐ 3</summary>
+<summary><b>5. Discovery Foundation Models: Toward Open-Ended Discovery Intelligence</b> ⭐ 2</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.13141) • [📄 arXiv](https://arxiv.org/abs/2609.13141) • [📥 PDF](https://arxiv.org/pdf/2609.13141)
+**👥 Authors:** Yingcheng Wu, Zhenfei Yin, Ling Yang
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Tencent-Hunyuan/Simple-Attention-Sparsification)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.15973) • [📄 arXiv](https://arxiv.org/abs/2609.15973) • [📥 PDF](https://arxiv.org/pdf/2609.15973)
+
+**💻 Code:** [⭐ Code](https://github.com/Gen-Verse/DFM-Plans) • [⭐ Code](https://github.com/huggingface)
+
+> https://github.com/Gen-Verse/DFM-Plans
+
+</details>
+
+<details>
+<summary><b>6. BVB: Benchmarking Agentic Video Understanding via Programmatic Reconstruction in Blender</b> ⭐ 7</summary>
+
+<br/>
+
+**👥 Authors:** Pinxin Liu, Jing Bi, Jiayue Meng, Daiki Shimada, Yolo Y. Tang
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.15478) • [📄 arXiv](https://arxiv.org/abs/2609.15478) • [📥 PDF](https://arxiv.org/pdf/2609.15478)
+
+**💻 Code:** [⭐ Code](https://github.com/yunlong10/BVB) • [⭐ Code](https://github.com/huggingface)
+
+> If an agent truly understands a video, can it reconstruct it? Introducing BVB: benchmarking agentic video understanding via programmatic reconstruction in Blender. 288 real videos. 51 agent configurations. Paper, demos & leaderboard: https://yoloy...
+
+</details>
+
+<details>
+<summary><b>7. Omni-Streaming Thinking</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Yiwen Guo, Jingyu Li, Ziyu Zheng, Siyi Liu, Enjun Du
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.15128) • [📄 arXiv](https://arxiv.org/abs/2609.15128) • [📥 PDF](https://arxiv.org/pdf/2609.15128)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> https://enjundu.com/blog/ost/
+
+</details>
+
+<details>
+<summary><b>8. LLaDA-UI: Bringing Block-wise Diffusion to Vision-Language GUI Agents</b> ⭐ 9</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.13287) • [📄 arXiv](https://arxiv.org/abs/2609.13287) • [📥 PDF](https://arxiv.org/pdf/2609.13287)
+
+**💻 Code:** [⭐ Code](https://github.com/inclusionAI/LLaDA-UI) • [⭐ Code](https://github.com/huggingface)
+
+> model: https://huggingface.co/inclusionAI/LLaDA-UI
+
+</details>
+
+<details>
+<summary><b>9. Not All Prompts Are Equal: Exploration-Guided Prompt Scaffolding for Multimodal Reinforcement Post-Training</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.15051) • [📄 arXiv](https://arxiv.org/abs/2609.15051) • [📥 PDF](https://arxiv.org/pdf/2609.15051)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> In this paper, we introduce exploration-guided prompt scaffolding for multimodal RL post-training. Our Exploration Potential Score (EPS) identifies low-utility prompts from existing rollouts, guiding a teacher model to rewrite them into more infor...
+
+</details>
+
+<details>
+<summary><b>10. Kaininja: Extending Native 3D Generators to the Part Level</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.15659) • [📄 arXiv](https://arxiv.org/abs/2609.15659) • [📥 PDF](https://arxiv.org/pdf/2609.15659)
+
+**💻 Code:** [⭐ Code](https://github.com/AlayaLab/KaiNinja) • [⭐ Code](https://github.com/huggingface)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>6. SNAP3D: Physically Grounded 3D Parts for Assembly from a Single Image</b> ⭐ 1</summary>
+<summary><b>11. Attention-DP3: Spatially Object-aware 3D Diffusion Policy via Geometry-aligned Attentional Conditioning</b> ⭐ 4</summary>
 
 <br/>
 
-**👥 Authors:** Xiaoxuan Ma, Kris Kitani, Nicolas Ugrinovic, Hao-Tang Tsui, Yu-Rou Tuan
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.13318) • [📄 arXiv](https://arxiv.org/abs/2609.13318) • [📥 PDF](https://arxiv.org/pdf/2609.13318)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.13146) • [📄 arXiv](https://arxiv.org/abs/2609.13146) • [📥 PDF](https://arxiv.org/pdf/2609.13146)
+**💻 Code:** [⭐ Code](https://github.com/zhangzhongbo2213/Attention-DP3) • [⭐ Code](https://github.com/huggingface)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/LucyTuan/SNAP3D)
-
-> Video: https://www.youtube.com/watch?v=22yRDaWabwA
+> Attention-DP3 enhances 3D diffusion policies with object-aware geometric attention, improving target localization and robustness in cluttered scenes while keeping the DP3 backbone unchanged. It consistently outperforms DP3 across simulation and re...
 
 </details>
 
@@ -206,28 +275,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 6 |
-| 📅 Today | [`2026-09-14.json`](data/daily/2026-09-14.json) | 6 |
-| 📆 This Week | [`2026-W37.json`](data/weekly/2026-W37.json) | 6 |
-| 🗓️ This Month | [`2026-09.json`](data/monthly/2026-09.json) | 203 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 11 |
+| 📅 Today | [`2026-09-15.json`](data/daily/2026-09-15.json) | 11 |
+| 📆 This Week | [`2026-W37.json`](data/weekly/2026-W37.json) | 17 |
+| 🗓️ This Month | [`2026-09.json`](data/monthly/2026-09.json) | 214 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-09-14 | 6 | [View JSON](data/daily/2026-09-14.json) |
+| 📌 2026-09-15 | 11 | [View JSON](data/daily/2026-09-15.json) |
+| 📄 2026-09-14 | 6 | [View JSON](data/daily/2026-09-14.json) |
 | 📄 2026-09-13 | 26 | [View JSON](data/daily/2026-09-13.json) |
 | 📄 2026-09-12 | 26 | [View JSON](data/daily/2026-09-12.json) |
 | 📄 2026-09-11 | 8 | [View JSON](data/daily/2026-09-11.json) |
 | 📄 2026-09-10 | 9 | [View JSON](data/daily/2026-09-10.json) |
 | 📄 2026-09-09 | 7 | [View JSON](data/daily/2026-09-09.json) |
-| 📄 2026-09-08 | 2 | [View JSON](data/daily/2026-09-08.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W37 | 6 | [View JSON](data/weekly/2026-W37.json) |
+| 📅 2026-W37 | 17 | [View JSON](data/weekly/2026-W37.json) |
 | 📅 2026-W36 | 88 | [View JSON](data/weekly/2026-W36.json) |
 | 📅 2026-W35 | 121 | [View JSON](data/weekly/2026-W35.json) |
 | 📅 2026-W34 | 173 | [View JSON](data/weekly/2026-W34.json) |
@@ -236,7 +305,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-09 | 203 | [View JSON](data/monthly/2026-09.json) |
+| 🗓️ 2026-09 | 214 | [View JSON](data/monthly/2026-09.json) |
 | 🗓️ 2026-08 | 747 | [View JSON](data/monthly/2026-08.json) |
 | 🗓️ 2026-07 | 366 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |

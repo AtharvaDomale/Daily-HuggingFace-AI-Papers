@@ -124,5 +124,239 @@
       "scraped_at": "2026-09-14T03:46:38.017928"
     },
     "scraped_date": "2026-09-14"
+  },
+  {
+    "title": "Vidu S2: Real-Time Interactive, Editable, and Spatial Video Generation",
+    "paper_url": "https://huggingface.co/papers/2609.11638",
+    "authors": [],
+    "stars": "253",
+    "details": {
+      "title": "Vidu S2: Real-Time Interactive, Editable, and Spatial Video Generation",
+      "abstract": "🚀 Thrilled to introduce Vidu S2: real-time AI video you can talk to, direct, and real-time editing. 🎙️ Vidu S2-Avatar Interactive characters at 720p and 25–42 FPS, with stronger instruction following, expressive full-body motion, and dancing. Introduce new reference images anytime to change outfits, interact with objects, or switch scenes mid-conversation. 🎨 Vidu S2-Editing Transform an incoming video stream in real time while preserving motion and timing: style transfer, virtual try-on, character replacement, and background replacement. 🥽 Spatial video Bring generated characters and live video edits into stereoscopic video for immersive VR experiences. 🏆 SOTA results across all five public benchmarks in our evaluation, spanning avatar generation and video editing. 🎮 Try it: https://vidu.com/vidu-stream 🛠️ API: http://platform.vidu.com/vidu-stream/doc 📄 Technical report: https://arxiv.org/pdf/2609.11638",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.11638",
+      "pdf_url": "https://arxiv.org/pdf/2609.11638",
+      "github_links": [
+        "https://github.com/shengshu-ai/Vidu-S",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.11638",
+      "scraped_at": "2026-09-15T03:46:59.831233"
+    },
+    "scraped_date": "2026-09-15"
+  },
+  {
+    "title": "Dream-RSI: Recursive Self-Improvement through Evolving Worlds",
+    "paper_url": "https://huggingface.co/papers/2609.14858",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "Dream-RSI: Recursive Self-Improvement through Evolving Worlds",
+      "abstract": "To recursively self-improve, agents need to dream. History can be the world they dream in. More Details: https://dream-rsi.com/",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.14858",
+      "pdf_url": "https://arxiv.org/pdf/2609.14858",
+      "github_links": [
+        "https://github.com/zhengkid/Dream-RSI",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.14858",
+      "scraped_at": "2026-09-15T03:47:01.607673"
+    },
+    "scraped_date": "2026-09-15"
+  },
+  {
+    "title": "PhysBrain 1.5: From Vision-Language Models to Physical Foundation Models",
+    "paper_url": "https://huggingface.co/papers/2609.14973",
+    "authors": [],
+    "stars": "14",
+    "details": {
+      "title": "PhysBrain 1.5: From Vision-Language Models to Physical Foundation Models",
+      "abstract": "PhysBrain 1.5 is a unified embodied foundation model that understands the observed world, generates goal-directed actions, and predicts how the environment will evolve — all as discrete tokens under a single shared autoregressive backbone.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.14973",
+      "pdf_url": "https://arxiv.org/pdf/2609.14973",
+      "github_links": [
+        "https://github.com/DeepCybo-PhysAI/PhysBrain-1.5",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.14973",
+      "scraped_at": "2026-09-15T03:47:03.401567"
+    },
+    "scraped_date": "2026-09-15"
+  },
+  {
+    "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
+    "paper_url": "https://huggingface.co/papers/2609.13356",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
+      "abstract": "A fully open 7B LLM, including model, training infra, data, and wandb. Match Qwen3-8B on general datasets and competitive with frontier models orders of magnitude larger, such as Qwen3-235B-A22B and GLM-5.1 on math and agentic search datasets. Its highlight includes FP8 pretraining, MDP midtraining, and AI4AI. Code: https://github.com/zgcagi/ZGCM-1 Model: https://huggingface.co/zgcagi/ZGCM-1-7B Data: https://huggingface.co/datasets/zgcagi/ZGCM-1-Data",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.13356",
+      "pdf_url": "https://arxiv.org/pdf/2609.13356",
+      "github_links": [
+        "https://github.com/zgcagi/ZGCM-1",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.13356",
+      "scraped_at": "2026-09-15T03:47:05.238437"
+    },
+    "scraped_date": "2026-09-15"
+  },
+  {
+    "title": "Discovery Foundation Models: Toward Open-Ended Discovery Intelligence",
+    "paper_url": "https://huggingface.co/papers/2609.15973",
+    "authors": [
+      "Yingcheng Wu",
+      "Zhenfei Yin",
+      "Ling Yang"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Discovery Foundation Models: Toward Open-Ended Discovery Intelligence",
+      "abstract": "https://github.com/Gen-Verse/DFM-Plans",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.15973",
+      "pdf_url": "https://arxiv.org/pdf/2609.15973",
+      "github_links": [
+        "https://github.com/Gen-Verse/DFM-Plans",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.15973",
+      "scraped_at": "2026-09-15T03:47:06.978469"
+    },
+    "scraped_date": "2026-09-15"
+  },
+  {
+    "title": "BVB: Benchmarking Agentic Video Understanding via Programmatic Reconstruction in Blender",
+    "paper_url": "https://huggingface.co/papers/2609.15478",
+    "authors": [
+      "Pinxin Liu",
+      "Jing Bi",
+      "Jiayue Meng",
+      "Daiki Shimada",
+      "Yolo Y. Tang"
+    ],
+    "stars": "7",
+    "details": {
+      "title": "BVB: Benchmarking Agentic Video Understanding via Programmatic Reconstruction in Blender",
+      "abstract": "If an agent truly understands a video, can it reconstruct it? Introducing BVB: benchmarking agentic video understanding via programmatic reconstruction in Blender. 288 real videos. 51 agent configurations. Paper, demos & leaderboard: https://yoloytang.me/BVB/ Code: https://github.com/yunlong10/BVB Paper: https://arxiv.org/abs/2609.15478",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.15478",
+      "pdf_url": "https://arxiv.org/pdf/2609.15478",
+      "github_links": [
+        "https://github.com/yunlong10/BVB",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.15478",
+      "scraped_at": "2026-09-15T03:47:08.723766"
+    },
+    "scraped_date": "2026-09-15"
+  },
+  {
+    "title": "Omni-Streaming Thinking",
+    "paper_url": "https://huggingface.co/papers/2609.15128",
+    "authors": [
+      "Yiwen Guo",
+      "Jingyu Li",
+      "Ziyu Zheng",
+      "Siyi Liu",
+      "Enjun Du"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Omni-Streaming Thinking",
+      "abstract": "https://enjundu.com/blog/ost/",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.15128",
+      "pdf_url": "https://arxiv.org/pdf/2609.15128",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.15128",
+      "scraped_at": "2026-09-15T03:47:10.522587"
+    },
+    "scraped_date": "2026-09-15"
+  },
+  {
+    "title": "LLaDA-UI: Bringing Block-wise Diffusion to Vision-Language GUI Agents",
+    "paper_url": "https://huggingface.co/papers/2609.13287",
+    "authors": [],
+    "stars": "9",
+    "details": {
+      "title": "LLaDA-UI: Bringing Block-wise Diffusion to Vision-Language GUI Agents",
+      "abstract": "model: https://huggingface.co/inclusionAI/LLaDA-UI",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.13287",
+      "pdf_url": "https://arxiv.org/pdf/2609.13287",
+      "github_links": [
+        "https://github.com/inclusionAI/LLaDA-UI",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.13287",
+      "scraped_at": "2026-09-15T03:47:12.341191"
+    },
+    "scraped_date": "2026-09-15"
+  },
+  {
+    "title": "Not All Prompts Are Equal: Exploration-Guided Prompt Scaffolding for Multimodal Reinforcement Post-Training",
+    "paper_url": "https://huggingface.co/papers/2609.15051",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Not All Prompts Are Equal: Exploration-Guided Prompt Scaffolding for Multimodal Reinforcement Post-Training",
+      "abstract": "In this paper, we introduce exploration-guided prompt scaffolding for multimodal RL post-training. Our Exploration Potential Score (EPS) identifies low-utility prompts from existing rollouts, guiding a teacher model to rewrite them into more informative training inputs rather than providing answers to imitate. Integrated with GRPO, our approach achieves up to 9.7% relative improvement in-domain, with gains of 11.5% on MathVision and 11.1% on MMMU-Pro. 🌐 Project page: https://mqleet.github.io/EPS-ProjectPage/",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.15051",
+      "pdf_url": "https://arxiv.org/pdf/2609.15051",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.15051",
+      "scraped_at": "2026-09-15T03:47:14.094710"
+    },
+    "scraped_date": "2026-09-15"
+  },
+  {
+    "title": "Kaininja: Extending Native 3D Generators to the Part Level",
+    "paper_url": "https://huggingface.co/papers/2609.15659",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Kaininja: Extending Native 3D Generators to the Part Level",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.15659",
+      "pdf_url": "https://arxiv.org/pdf/2609.15659",
+      "github_links": [
+        "https://github.com/AlayaLab/KaiNinja",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.15659",
+      "scraped_at": "2026-09-15T03:47:15.941545"
+    },
+    "scraped_date": "2026-09-15"
+  },
+  {
+    "title": "Attention-DP3: Spatially Object-aware 3D Diffusion Policy via Geometry-aligned Attentional Conditioning",
+    "paper_url": "https://huggingface.co/papers/2609.13318",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "Attention-DP3: Spatially Object-aware 3D Diffusion Policy via Geometry-aligned Attentional Conditioning",
+      "abstract": "Attention-DP3 enhances 3D diffusion policies with object-aware geometric attention, improving target localization and robustness in cluttered scenes while keeping the DP3 backbone unchanged. It consistently outperforms DP3 across simulation and real-world benchmarks, with gains of up to 31% under heavy clutter. Attention-DP3 is accepted by ECCV 2026. Code is avaliable at https://github.com/zhangzhongbo2213/Attention-DP3 .",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.13318",
+      "pdf_url": "https://arxiv.org/pdf/2609.13318",
+      "github_links": [
+        "https://github.com/zhangzhongbo2213/Attention-DP3",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.13318",
+      "scraped_at": "2026-09-15T03:47:17.647184"
+    },
+    "scraped_date": "2026-09-15"
   }
 ]
