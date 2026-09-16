@@ -4559,5 +4559,262 @@
       "scraped_at": "2026-09-15T03:47:17.647184"
     },
     "scraped_date": "2026-09-15"
+  },
+  {
+    "title": "Continual Learning Mechanisms Compose for Long-Horizon Memorization",
+    "paper_url": "https://huggingface.co/papers/2609.06986",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "Continual Learning Mechanisms Compose for Long-Horizon Memorization",
+      "abstract": "Existing continual learning methods still suffer from catastrophic forgetting. Our recent work found a simple recipe to substantially improve 𝗹𝗼𝗻𝗴-𝗵𝗼𝗿𝗶𝘇𝗼𝗻 𝗺𝗲𝗺𝗼𝗿𝗶𝘇𝗮𝘁𝗶𝗼𝗻: Composing multiple continual learning mechanisms extends memory lifetime and raises average final retention from 1.2% to 34.9% across 3 datasets: a 28-fold improvement over naive sequential SFT.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.06986",
+      "pdf_url": "https://arxiv.org/pdf/2609.06986",
+      "github_links": [
+        "https://github.com/cozheyuanzhangde/compose-cl",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.06986",
+      "scraped_at": "2026-09-16T03:43:48.417108"
+    },
+    "scraped_date": "2026-09-16"
+  },
+  {
+    "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
+    "paper_url": "https://huggingface.co/papers/2609.11873",
+    "authors": [
+      "Haodong Chen",
+      "Ying Liu",
+      "zhouxh19",
+      "ShenYunTzr",
+      "DuanYi"
+    ],
+    "stars": "47",
+    "details": {
+      "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
+      "abstract": "RSI is the capability of an intelligent system to transform acquired experience and feedback into persistent changes to itself across interaction rounds, such that those changes can affect how later improvements are generated, evaluated, selected, and consolidated. The updated object may be model weights, prompts, code, memory, skills, task distributions, or the improvement mechanism itself. Levels capture autonomy over what is changed, how it is changed, and where later learning experience comes from; they are not paper-quality rankings. The survey introduces the Headroom-Closed Index (HCI), develops the RSI roadmap represented by the L1-L5 taxonomy, and examines RSI in scientific discovery, embodied intelligence, and software engineering. This repository provides the paper-level, auditable companion to that roadmap. The 491 baseline papers and 28 table-derived extensions in this collection are retained as RSI-related under the L1-L5 taxonomy. The taxonomy intentionally includes bounded forms and precursors: L1 - Autonomy over Improvement Execution: the system executes a human-defined improvement procedure, and its accepted results persist into later tasks or rounds. L2 - Autonomy over Improvement Strategies: the system chooses how to improve a specified target, while the objective, evaluation criterion, or acceptance rule remains external. L3 - Autonomy over Future Learning Experience: the learner's evolving state influences the experience, task, or curriculum acquired next. L4 - Autonomy in Deployment and Environmental Adaptation: reusable memory, skills, or deployed agent components are retained and alter later behavior within a fixed improvement process. L5 - From Environmental Adaptation to Meta-Improvement: the system improves the mechanism that produces future improvements, such as search, evaluation, or research-control policies. Thus, inclusion does not claim that every entry is a fully autonomous or open-ended RSI system. The L1 and L2 labels make their bounded autonomy explicit.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.11873",
+      "pdf_url": "https://arxiv.org/pdf/2609.11873",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/theseus-labs-rsi/awesome-rsi"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.11873",
+      "scraped_at": "2026-09-16T03:43:50.250664"
+    },
+    "scraped_date": "2026-09-16"
+  },
+  {
+    "title": "AI for Games in the Foundation Model Era",
+    "paper_url": "https://huggingface.co/papers/2609.16679",
+    "authors": [],
+    "stars": "23",
+    "details": {
+      "title": "AI for Games in the Foundation Model Era",
+      "abstract": "🎮 AI for Games in the Foundation Model Era The next move is more than playing. AI no longer only plays games. It models worlds and players, designs mechanics, writes and repairs game code, generates content during play, and tests what it helps build. Our 120-page survey maps this emerging landscape through six roles: 🎮 Play & Act 🧠 Model Players & Games 🎨 Design 💻 Build & Maintain ✨ Generate & Adapt at Runtime 🔍 Test & Evaluate The survey is supported by a living collection of 439 references. Rather than grouping systems only by model family, we ask what their outputs are actually used for. Across every role, we examine: what is supplied by the game or workflow—and what is assigned to AI; which artifacts and capabilities transfer across settings; what evidence supports the resulting claims. These roles are increasingly connected: gameplay trajectories train world models, learned environments provide experience for agents, design specifications drive executable implementations, and playtesting feedback guides revision. But a central takeaway is cautionary: artifact reuse is not capability transfer , and downstream benefits must be revalidated in the settings where they are used. Can generated worlds preserve persistent state? Can AI repair games without introducing regressions? Can automated playtesting cover the behavior of real players? Explore the interactive survey map, living bibliography, and six playable AI-crafted worlds. Joint work from the National University of Singapore and Nanyang Technological University . Feedback and suggested additions are welcome! 🚀",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.16679",
+      "pdf_url": "https://arxiv.org/pdf/2609.16679",
+      "github_links": [
+        "https://github.com/Eurekaleo/awesome-ai-for-games",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.16679",
+      "scraped_at": "2026-09-16T03:43:52.180526"
+    },
+    "scraped_date": "2026-09-16"
+  },
+  {
+    "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+    "paper_url": "https://huggingface.co/papers/2609.17523",
+    "authors": [
+      "Zhaochen Yu",
+      "Wenbin Li",
+      "Ziyuan Nan",
+      "Jianyuan Zhong",
+      "Shuhan Xue"
+    ],
+    "stars": "5",
+    "details": {
+      "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+      "abstract": "Website： http://science-buddy.io/ Code： https://github.com/Gen-Verse/ScienceBuddy",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.17523",
+      "pdf_url": "https://arxiv.org/pdf/2609.17523",
+      "github_links": [
+        "https://github.com/Gen-Verse/ScienceBuddy",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.17523",
+      "scraped_at": "2026-09-16T03:43:54.003164"
+    },
+    "scraped_date": "2026-09-16"
+  },
+  {
+    "title": "Disentangling Representation Evolution in Transformers through Directional Decomposition",
+    "paper_url": "https://huggingface.co/papers/2609.15975",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Disentangling Representation Evolution in Transformers through Directional Decomposition",
+      "abstract": "❓ Core Question: Are direction-preserving updates in Transformers merely redundant rescaling? We find that the answer depends strongly on where the geometry is defined. 🔍 What We Did & Found: We decompose learned transformations into components parallel and perpendicular to the current representation, across both residual space and attention value space. • Parallel components are widespread beyond the residual identity path, yet their functional role is highly space-dependent. • In value space, preserving the direct self-message while suppressing the non-self parallel component is markedly more robust than residual-space or perpendicular interventions. 🚀 Practical Applications: Model Compression 📉: Perpendicular error more clearly distinguishes pruning- and quantization-induced distortions. From-Scratch Pretraining ⚡: Full-aggregate parallel suppression lowers validation-loss trajectories and improves downstream task averages, with the value-space variant being the strongest. 🌐 Interactive Project Page & Studio: https://shwai-he.github.io/Transformer-Geometry/ 📜 arXiv Paper: https://arxiv.org/abs/2609.15975 💻 Code & Artifacts: https://github.com/Shwai-He/Transformer-Geometry",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.15975",
+      "pdf_url": "https://arxiv.org/pdf/2609.15975",
+      "github_links": [
+        "https://github.com/Shwai-He/Transformer-Geometry",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.15975",
+      "scraped_at": "2026-09-16T03:43:55.846588"
+    },
+    "scraped_date": "2026-09-16"
+  },
+  {
+    "title": "The Router Within: Eliciting Native Skill Routing from a Frozen LLM",
+    "paper_url": "https://huggingface.co/papers/2609.15982",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "The Router Within: Eliciting Native Skill Routing from a Frozen LLM",
+      "abstract": "⚖️ Gavel: skill routing without a skill catalog in your context. Hi everyone! I’m Ruishuo, the first author of Gavel . Progressive disclosure lets the agent choose skills by reading their metadata in context. We show that a frozen LLM can instead route through its own hidden states and candidate judgments, without preloading skill metadata into the agent’s context or adding a separate retrieval model . Gavel stands for Glance And Verdict from a frozen LLM : 🔍 Glance uses the model’s hidden states to shortlist skills from compact, precomputed skill banks. ⚖️ Verdict combines the glance score with the same LLM’s likelihood and yes/no judgments in a product of experts to select the final skill. 🧊 The backbone stays frozen. The two projections contain just 7.9M trainable parameters on Qwen3-32B. Each new skill is indexed with one frozen forward pass, with no per-skill training . We evaluate Gavel on three public benchmarks and introduce SkillTraj , which tests routing when the need for a skill arises amid the noisy context of an agent trajectory. If you’re building agents with growing skill libraries, we’d love to hear how you handle routing today. Happy to discuss the method, results, and deployment trade-offs!",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.15982",
+      "pdf_url": "https://arxiv.org/pdf/2609.15982",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.15982",
+      "scraped_at": "2026-09-16T03:43:57.629526"
+    },
+    "scraped_date": "2026-09-16"
+  },
+  {
+    "title": "Mind2Dialogue: Training Human-Aware Language Models by Simulating User Mental States",
+    "paper_url": "https://huggingface.co/papers/2609.15972",
+    "authors": [
+      "Chengjun Wu",
+      "Xinle Yu",
+      "Jinzhou Tang",
+      "Yufan Zhou",
+      "Zixuan Wang"
+    ],
+    "stars": "22",
+    "details": {
+      "title": "Mind2Dialogue: Training Human-Aware Language Models by Simulating User Mental States",
+      "abstract": "AI collaborators should understand the person behind the conversation: their beliefs, unspoken intentions, and evolving goals. Mind2Dialogue takes a step toward this vision by turning simulated user mental states into training supervision for human-aware assistants. The goal is to teach models to use that deep understanding to help people learn, reason, and make decisions over time. We’re sharing the dataset and code for the community to build on. Feedback and ideas are welcome! 🌐 Project page: https://wannabeyourfriend.github.io/mind2dialogue/ 💻 Code: https://github.com/wannabeyourfriend/mind2dialogue 🤗 Dataset: https://huggingface.co/datasets/wannabeyourfriend-hf/mind2dialogue",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.15972",
+      "pdf_url": "https://arxiv.org/pdf/2609.15972",
+      "github_links": [
+        "https://github.com/wannabeyourfriend/mind2dialogue",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.15972",
+      "scraped_at": "2026-09-16T03:43:59.422938"
+    },
+    "scraped_date": "2026-09-16"
+  },
+  {
+    "title": "Modality-Autoregressive World-Action Models",
+    "paper_url": "https://huggingface.co/papers/2609.17524",
+    "authors": [
+      "Jeffrey Ichnowski",
+      "Deva Ramanan",
+      "Bardienus P. Duisterhof",
+      "Adam Hung"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Modality-Autoregressive World-Action Models",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.17524",
+      "pdf_url": "https://arxiv.org/pdf/2609.17524",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.17524",
+      "scraped_at": "2026-09-16T03:44:01.191123"
+    },
+    "scraped_date": "2026-09-16"
+  },
+  {
+    "title": "PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control",
+    "paper_url": "https://huggingface.co/papers/2609.17521",
+    "authors": [
+      "Qiao Feng",
+      "Chen Wang",
+      "Chaoyang Wang",
+      "Peter Wonka",
+      "Chuhao Chen"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.17521",
+      "pdf_url": "https://arxiv.org/pdf/2609.17521",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.17521",
+      "scraped_at": "2026-09-16T03:44:02.938308"
+    },
+    "scraped_date": "2026-09-16"
+  },
+  {
+    "title": "Drift-Constrained Optimization: Only Direction Matters in Fine-Tuning Instruct Models",
+    "paper_url": "https://huggingface.co/papers/2609.13680",
+    "authors": [
+      "Shujian Huang",
+      "Yifeng Liu",
+      "Yilei Tu",
+      "Changjiang Gao",
+      "Fei Yuan"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Drift-Constrained Optimization: Only Direction Matters in Fine-Tuning Instruct Models",
+      "abstract": "We usually ask: How do we fine-tune an instruct model without behavioral drift? This work reverses the question: Given a behavioral drift budget, how should we fine-tune the model? This reversal predicts that where the model is allowed to move can qualitatively change the outcome. On Qwen3-8B and Qwen3-14B , under the exact same QA-only supervision, changing only the accessible update directions reverses fine-tuning failure preserving reasoning while improving the target task.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.13680",
+      "pdf_url": "https://arxiv.org/pdf/2609.13680",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.13680",
+      "scraped_at": "2026-09-16T03:44:04.754417"
+    },
+    "scraped_date": "2026-09-16"
+  },
+  {
+    "title": "Training Specialist Models without Reasoning Trajectories for Domain Expert Distillation",
+    "paper_url": "https://huggingface.co/papers/2609.13770",
+    "authors": [
+      "Fei Yuan",
+      "Jörg Tiedemann",
+      "Shaoxiong Ji",
+      "Zihao Li",
+      "Yilei Tu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Training Specialist Models without Reasoning Trajectories for Domain Expert Distillation",
+      "abstract": "A specialist is trained on answers only , with no reasoning supervision. So what determines the reasoning trajectories it later generates to teach a student? We find that specialist training itself implicitly selects these latent trajectories. Across 27 specialist–student pairs , students inherit their teachers’ specialization–generalization profiles—even across different model families. And by controlling how the specialist is trained, we can systematically control what kind of reasoning supervision gets passed downstream.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.13770",
+      "pdf_url": "https://arxiv.org/pdf/2609.13770",
+      "github_links": [
+        "https://github.com/CONE-MT/DCO",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.13770",
+      "scraped_at": "2026-09-16T03:44:06.491454"
+    },
+    "scraped_date": "2026-09-16"
   }
 ]
