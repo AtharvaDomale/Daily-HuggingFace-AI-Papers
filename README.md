@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-11-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-6353+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-6-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-6359+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">11</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">28</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">225</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">6353+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">6</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">34</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">231</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">6359+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** September 16, 2026
+**Last Updated:** September 17, 2026
 
 ---
 
@@ -119,159 +119,84 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Continual Learning Mechanisms Compose for Long-Horizon Memorization</b> ⭐ 4</summary>
+<summary><b>1. ScienceIDE: Turning World's Scientific Codebase into Agent Learnable Environments</b> ⭐ 5</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.06986) • [📄 arXiv](https://arxiv.org/abs/2609.06986) • [📥 PDF](https://arxiv.org/pdf/2609.06986)
+**👥 Authors:** Koutian Wu, Wenbin Li, Haoyang Li, Zesen Huang, Hejia Geng
 
-**💻 Code:** [⭐ Code](https://github.com/cozheyuanzhangde/compose-cl) • [⭐ Code](https://github.com/huggingface)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.19134) • [📄 arXiv](https://arxiv.org/abs/2609.19134) • [📥 PDF](https://arxiv.org/pdf/2609.19134)
 
-> Existing continual learning methods still suffer from catastrophic forgetting. Our recent work found a simple recipe to substantially improve 𝗹𝗼𝗻𝗴-𝗵𝗼𝗿𝗶𝘇𝗼𝗻 𝗺𝗲𝗺𝗼𝗿𝗶𝘇𝗮𝘁𝗶𝗼𝗻: Composing multiple continual learning mechanisms extends memory lifetime and r...
+**💻 Code:** [⭐ Code](https://github.com/aitofound/ScienceIDE) • [⭐ Code](https://github.com/huggingface)
+
+> Code: https://github.com/aitofound/ScienceIDE Models: https://huggingface.co/collections/AItonomy/scienceide-model-series
 
 </details>
 
 <details>
-<summary><b>2. The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement</b> ⭐ 47</summary>
+<summary><b>2. ProgramDistill: From Interactive Web Apps to Verifiable Reference-Guided SWE Tasks</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Haodong Chen, Ying Liu, zhouxh19, ShenYunTzr, DuanYi
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.11873) • [📄 arXiv](https://arxiv.org/abs/2609.11873) • [📥 PDF](https://arxiv.org/pdf/2609.11873)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/theseus-labs-rsi/awesome-rsi)
-
-> RSI is the capability of an intelligent system to transform acquired experience and feedback into persistent changes to itself across interaction rounds, such that those changes can affect how later improvements are generated, evaluated, selected,...
-
-</details>
-
-<details>
-<summary><b>3. AI for Games in the Foundation Model Era</b> ⭐ 23</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.16679) • [📄 arXiv](https://arxiv.org/abs/2609.16679) • [📥 PDF](https://arxiv.org/pdf/2609.16679)
-
-**💻 Code:** [⭐ Code](https://github.com/Eurekaleo/awesome-ai-for-games) • [⭐ Code](https://github.com/huggingface)
-
-> 🎮 AI for Games in the Foundation Model Era The next move is more than playing. AI no longer only plays games. It models worlds and players, designs mechanics, writes and repairs game code, generates content during play, and tests what it helps bui...
-
-</details>
-
-<details>
-<summary><b>4. ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents</b> ⭐ 5</summary>
-
-<br/>
-
-**👥 Authors:** Zhaochen Yu, Wenbin Li, Ziyuan Nan, Jianyuan Zhong, Shuhan Xue
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.17523) • [📄 arXiv](https://arxiv.org/abs/2609.17523) • [📥 PDF](https://arxiv.org/pdf/2609.17523)
-
-**💻 Code:** [⭐ Code](https://github.com/Gen-Verse/ScienceBuddy) • [⭐ Code](https://github.com/huggingface)
-
-> Website： http://science-buddy.io/ Code： https://github.com/Gen-Verse/ScienceBuddy
-
-</details>
-
-<details>
-<summary><b>5. Disentangling Representation Evolution in Transformers through Directional Decomposition</b> ⭐ 2</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.15975) • [📄 arXiv](https://arxiv.org/abs/2609.15975) • [📥 PDF](https://arxiv.org/pdf/2609.15975)
-
-**💻 Code:** [⭐ Code](https://github.com/Shwai-He/Transformer-Geometry) • [⭐ Code](https://github.com/huggingface)
-
-> ❓ Core Question: Are direction-preserving updates in Transformers merely redundant rescaling? We find that the answer depends strongly on where the geometry is defined. 🔍 What We Did & Found: We decompose learned transformations into components pa...
-
-</details>
-
-<details>
-<summary><b>6. The Router Within: Eliciting Native Skill Routing from a Frozen LLM</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.15982) • [📄 arXiv](https://arxiv.org/abs/2609.15982) • [📥 PDF](https://arxiv.org/pdf/2609.15982)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.18805) • [📄 arXiv](https://arxiv.org/abs/2609.18805) • [📥 PDF](https://arxiv.org/pdf/2609.18805)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> ⚖️ Gavel: skill routing without a skill catalog in your context. Hi everyone! I’m Ruishuo, the first author of Gavel . Progressive disclosure lets the agent choose skills by reading their metadata in context. We show that a frozen LLM can instead ...
+> For more information, please check out our: 📝 Blog: https://microsoft.github.io/debug-gym/blog/2026/09/programdistill/ 🔗 Paper: https://microsoft.github.io/debug-gym/static/papers/ProgramDistill_arxiv.pdf We’re working on a public release of the P...
 
 </details>
 
 <details>
-<summary><b>7. Mind2Dialogue: Training Human-Aware Language Models by Simulating User Mental States</b> ⭐ 22</summary>
+<summary><b>3. VC-Attention: Value Smoothing and Softmax Casting for Low-bit Attention</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Chengjun Wu, Xinle Yu, Jinzhou Tang, Yufan Zhou, Zixuan Wang
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.15972) • [📄 arXiv](https://arxiv.org/abs/2609.15972) • [📥 PDF](https://arxiv.org/pdf/2609.15972)
-
-**💻 Code:** [⭐ Code](https://github.com/wannabeyourfriend/mind2dialogue) • [⭐ Code](https://github.com/huggingface)
-
-> AI collaborators should understand the person behind the conversation: their beliefs, unspoken intentions, and evolving goals. Mind2Dialogue takes a step toward this vision by turning simulated user mental states into training supervision for huma...
-
-</details>
-
-<details>
-<summary><b>8. Modality-Autoregressive World-Action Models</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Jeffrey Ichnowski, Deva Ramanan, Bardienus P. Duisterhof, Adam Hung
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.17524) • [📄 arXiv](https://arxiv.org/abs/2609.17524) • [📥 PDF](https://arxiv.org/pdf/2609.17524)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.15810) • [📄 arXiv](https://arxiv.org/abs/2609.15810) • [📥 PDF](https://arxiv.org/pdf/2609.15810)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> No abstract available.
+> Low-bit attention is promising for fast video generation, but softmax remains a major bottleneck on B200 and B300. Our latest work, VC-Attention, addresses this with ExpCast-FP8: a simple linear mapping to FP8 codes that bypasses the expensive exp...
 
 </details>
 
 <details>
-<summary><b>9. PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control</b> ⭐ 0</summary>
+<summary><b>4. EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Qiao Feng, Chen Wang, Chaoyang Wang, Peter Wonka, Chuhao Chen
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.17521) • [📄 arXiv](https://arxiv.org/abs/2609.17521) • [📥 PDF](https://arxiv.org/pdf/2609.17521)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.17632) • [📄 arXiv](https://arxiv.org/abs/2609.17632) • [📥 PDF](https://arxiv.org/pdf/2609.17632)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> No abstract available.
+> We present EvolveTrade, a framework that lets LLM trading agents refine their own tool-use policies from trading experience. The agent revises how it gathers information, checks signals, and manages risk based on past decisions and outcomes. In a ...
 
 </details>
 
 <details>
-<summary><b>10. Drift-Constrained Optimization: Only Direction Matters in Fine-Tuning Instruct Models</b> ⭐ 0</summary>
+<summary><b>5. Gaze as Evidence for Common Grounding: A Cross-Corpus Analysis of MapTask and MUNDEX</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Shujian Huang, Yifeng Liu, Yilei Tu, Changjiang Gao, Fei Yuan
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.18011) • [📄 arXiv](https://arxiv.org/abs/2609.18011) • [📥 PDF](https://arxiv.org/pdf/2609.18011)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.13680) • [📄 arXiv](https://arxiv.org/abs/2609.13680) • [📥 PDF](https://arxiv.org/pdf/2609.13680)
+**💻 Code:** [⭐ Code](https://github.com/chnln/gaze-as-grounding-evidence) • [⭐ Code](https://github.com/huggingface)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> We usually ask: How do we fine-tune an instruct model without behavioral drift? This work reverses the question: Given a behavioral drift budget, how should we fine-tune the model? This reversal predicts that where the model is allowed to move can...
+> In collaborative tasks with asymmetric information — maps with different landmarks, or a board game only one side knows — mutual understanding has to be built through the interaction, and gaze is one of the few observable traces of that process. W...
 
 </details>
 
 <details>
-<summary><b>11. Training Specialist Models without Reasoning Trajectories for Domain Expert Distillation</b> ⭐ 0</summary>
+<summary><b>6. EventEgoHands++: Event-based Egocentric 3D Hand Mesh Reconstruction with Real Dataset</b> ⭐ 5</summary>
 
 <br/>
 
-**👥 Authors:** Fei Yuan, Jörg Tiedemann, Shaoxiong Ji, Zihao Li, Yilei Tu
+**👥 Authors:** Mariko Isogawa, Masashi Hatano, Wataru Ikeda, Ryosei Hara
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.13770) • [📄 arXiv](https://arxiv.org/abs/2609.13770) • [📥 PDF](https://arxiv.org/pdf/2609.13770)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.17189) • [📄 arXiv](https://arxiv.org/abs/2609.17189) • [📥 PDF](https://arxiv.org/pdf/2609.17189)
 
-**💻 Code:** [⭐ Code](https://github.com/CONE-MT/DCO) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/ryhara/EventEgoHandsV2) • [⭐ Code](https://github.com/huggingface)
 
-> A specialist is trained on answers only , with no reasoning supervision. So what determines the reasoning trajectories it later generates to teach a student? We find that specialist training itself implicitly selects these latent trajectories. Acr...
+> Accepted to IEEE Access.
 
 </details>
 
@@ -283,28 +208,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 11 |
-| 📅 Today | [`2026-09-16.json`](data/daily/2026-09-16.json) | 11 |
-| 📆 This Week | [`2026-W37.json`](data/weekly/2026-W37.json) | 28 |
-| 🗓️ This Month | [`2026-09.json`](data/monthly/2026-09.json) | 225 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 6 |
+| 📅 Today | [`2026-09-17.json`](data/daily/2026-09-17.json) | 6 |
+| 📆 This Week | [`2026-W37.json`](data/weekly/2026-W37.json) | 34 |
+| 🗓️ This Month | [`2026-09.json`](data/monthly/2026-09.json) | 231 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-09-16 | 11 | [View JSON](data/daily/2026-09-16.json) |
+| 📌 2026-09-17 | 6 | [View JSON](data/daily/2026-09-17.json) |
+| 📄 2026-09-16 | 11 | [View JSON](data/daily/2026-09-16.json) |
 | 📄 2026-09-15 | 11 | [View JSON](data/daily/2026-09-15.json) |
 | 📄 2026-09-14 | 6 | [View JSON](data/daily/2026-09-14.json) |
 | 📄 2026-09-13 | 26 | [View JSON](data/daily/2026-09-13.json) |
 | 📄 2026-09-12 | 26 | [View JSON](data/daily/2026-09-12.json) |
 | 📄 2026-09-11 | 8 | [View JSON](data/daily/2026-09-11.json) |
-| 📄 2026-09-10 | 9 | [View JSON](data/daily/2026-09-10.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W37 | 28 | [View JSON](data/weekly/2026-W37.json) |
+| 📅 2026-W37 | 34 | [View JSON](data/weekly/2026-W37.json) |
 | 📅 2026-W36 | 88 | [View JSON](data/weekly/2026-W36.json) |
 | 📅 2026-W35 | 121 | [View JSON](data/weekly/2026-W35.json) |
 | 📅 2026-W34 | 173 | [View JSON](data/weekly/2026-W34.json) |
@@ -313,7 +238,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-09 | 225 | [View JSON](data/monthly/2026-09.json) |
+| 🗓️ 2026-09 | 231 | [View JSON](data/monthly/2026-09.json) |
 | 🗓️ 2026-08 | 747 | [View JSON](data/monthly/2026-08.json) |
 | 🗓️ 2026-07 | 366 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |

@@ -615,5 +615,133 @@
       "scraped_at": "2026-09-16T03:44:06.491454"
     },
     "scraped_date": "2026-09-16"
+  },
+  {
+    "title": "ScienceIDE: Turning World's Scientific Codebase into Agent Learnable Environments",
+    "paper_url": "https://huggingface.co/papers/2609.19134",
+    "authors": [
+      "Koutian Wu",
+      "Wenbin Li",
+      "Haoyang Li",
+      "Zesen Huang",
+      "Hejia Geng"
+    ],
+    "stars": "5",
+    "details": {
+      "title": "ScienceIDE: Turning World's Scientific Codebase into Agent Learnable Environments",
+      "abstract": "Code: https://github.com/aitofound/ScienceIDE Models: https://huggingface.co/collections/AItonomy/scienceide-model-series",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.19134",
+      "pdf_url": "https://arxiv.org/pdf/2609.19134",
+      "github_links": [
+        "https://github.com/aitofound/ScienceIDE",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.19134",
+      "scraped_at": "2026-09-17T03:48:56.559519"
+    },
+    "scraped_date": "2026-09-17"
+  },
+  {
+    "title": "ProgramDistill: From Interactive Web Apps to Verifiable Reference-Guided SWE Tasks",
+    "paper_url": "https://huggingface.co/papers/2609.18805",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ProgramDistill: From Interactive Web Apps to Verifiable Reference-Guided SWE Tasks",
+      "abstract": "For more information, please check out our: 📝 Blog: https://microsoft.github.io/debug-gym/blog/2026/09/programdistill/ 🔗 Paper: https://microsoft.github.io/debug-gym/static/papers/ProgramDistill_arxiv.pdf We’re working on a public release of the ProgramDistill benchmark, so you'll be able to play with it yourself soon.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.18805",
+      "pdf_url": "https://arxiv.org/pdf/2609.18805",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.18805",
+      "scraped_at": "2026-09-17T03:48:58.351303"
+    },
+    "scraped_date": "2026-09-17"
+  },
+  {
+    "title": "VC-Attention: Value Smoothing and Softmax Casting for Low-bit Attention",
+    "paper_url": "https://huggingface.co/papers/2609.15810",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "VC-Attention: Value Smoothing and Softmax Casting for Low-bit Attention",
+      "abstract": "Low-bit attention is promising for fast video generation, but softmax remains a major bottleneck on B200 and B300. Our latest work, VC-Attention, addresses this with ExpCast-FP8: a simple linear mapping to FP8 codes that bypasses the expensive exponential and cast. V-Smooth further improves fidelity by reducing value quantization error. On MiniMax-H3, VC-Attention offers 1.6× attention speedup on B200 and 1.5× on B300 over BF16 FlashAttention4. No retraining needed, and it works with existing sparse attention methods. This work brings us closer to faster, more affordable multimodal inference at @NunchuxAI",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.15810",
+      "pdf_url": "https://arxiv.org/pdf/2609.15810",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.15810",
+      "scraped_at": "2026-09-17T03:49:00.170547"
+    },
+    "scraped_date": "2026-09-17"
+  },
+  {
+    "title": "EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents",
+    "paper_url": "https://huggingface.co/papers/2609.17632",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents",
+      "abstract": "We present EvolveTrade, a framework that lets LLM trading agents refine their own tool-use policies from trading experience. The agent revises how it gathers information, checks signals, and manages risk based on past decisions and outcomes. In a case study, EvolveTrade limited losses during NVIDIA’s 17% single-day drop by keeping exposure low under its refined risk-aware sizing policy, holding just 2.9% in NVDA compared with the static baseline’s 10.7%. Check out our paper for more details!",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.17632",
+      "pdf_url": "https://arxiv.org/pdf/2609.17632",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.17632",
+      "scraped_at": "2026-09-17T03:49:01.926018"
+    },
+    "scraped_date": "2026-09-17"
+  },
+  {
+    "title": "Gaze as Evidence for Common Grounding: A Cross-Corpus Analysis of MapTask and MUNDEX",
+    "paper_url": "https://huggingface.co/papers/2609.18011",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Gaze as Evidence for Common Grounding: A Cross-Corpus Analysis of MapTask and MUNDEX",
+      "abstract": "In collaborative tasks with asymmetric information — maps with different landmarks, or a board game only one side knows — mutual understanding has to be built through the interaction, and gaze is one of the few observable traces of that process. We compare two such tasks: HCRC MapTask, where perspectivist labels mark a reference as aligned only when speaker and addressee interpretations match, and MUNDEX, German game explanations with retrospective understanding judgments from both sides. Both annotate gaze as discrete behavioral categories rather than eye-tracking coordinates, but with different category sets (up/down/off; partner/table/away), so we map them into a shared partner/task/away vocabulary and compute gaze features around each grounding-labeled unit. The associations point the same way in both: aligned references and \"understood\" judgments come with more task-directed gaze, less partner-directed gaze, lower gaze entropy, and fewer gaze transitions — clearest for whoever leads the task (givers, explainers). In same-speaker MapTask reference chains, speaker gaze entropy drops at the mention where a referent becomes aligned. Effects are small and prediction gains over role/condition controls are modest, so we read gaze as one contributing cue to grounding rather than a standalone signal. Because the representation only needs discrete gaze labels, it should port to other corpora — happy to discuss, especially whether shared category names pick out the same interactional function across quite different tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.18011",
+      "pdf_url": "https://arxiv.org/pdf/2609.18011",
+      "github_links": [
+        "https://github.com/chnln/gaze-as-grounding-evidence",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.18011",
+      "scraped_at": "2026-09-17T03:49:03.674277"
+    },
+    "scraped_date": "2026-09-17"
+  },
+  {
+    "title": "EventEgoHands++: Event-based Egocentric 3D Hand Mesh Reconstruction with Real Dataset",
+    "paper_url": "https://huggingface.co/papers/2609.17189",
+    "authors": [
+      "Mariko Isogawa",
+      "Masashi Hatano",
+      "Wataru Ikeda",
+      "Ryosei Hara"
+    ],
+    "stars": "5",
+    "details": {
+      "title": "EventEgoHands++: Event-based Egocentric 3D Hand Mesh Reconstruction with Real Dataset",
+      "abstract": "Accepted to IEEE Access.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.17189",
+      "pdf_url": "https://arxiv.org/pdf/2609.17189",
+      "github_links": [
+        "https://github.com/ryhara/EventEgoHandsV2",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.17189",
+      "scraped_at": "2026-09-17T03:49:05.419208"
+    },
+    "scraped_date": "2026-09-17"
   }
 ]
