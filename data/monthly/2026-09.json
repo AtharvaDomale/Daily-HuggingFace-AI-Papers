@@ -4944,5 +4944,316 @@
       "scraped_at": "2026-09-17T03:49:05.419208"
     },
     "scraped_date": "2026-09-17"
+  },
+  {
+    "title": "An Empirical Study of Harness Design for Coding Agents",
+    "paper_url": "https://huggingface.co/papers/2609.20804",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "An Empirical Study of Harness Design for Coding Agents",
+      "abstract": "Coding agents rely on a harness to plan, use tools, and manage context. But which of these components actually help, and when? Most evaluations compare complete agent systems, making it difficult to separate the contributions of individual harness components. To study this, we build a modular coding harness that keeps the execution loop fixed while varying planning, tool interfaces, and context management. Across 176 experimental settings, we evaluate four models on SWE-Bench Verified and Terminal-Bench 2.1, measuring success rates, costs, and agent behavior to understand how each component’s value depends on the model, task, and context budget. What we found: Context management matters most when the context-window budget is tight: It prevents context overflow from prematurely terminating execution, allowing agents to progress to code modification and verification. Its accuracy benefit diminishes as the context window expands. Staging elision before LLM summarization provides the strongest efficiency among the context-management strategies: This strategy maintains mean success similar to the other managed strategies while controlling peak context and reducing reliance on summarization calls. Planning changes from an accuracy scaffold to an efficiency aid as model capability increases: For weaker models, planning keeps the trajectory alive long enough to attempt an edit, raising success at additional cost; for the stronger models, it mainly removes redundant post-edit verification, lowering cost with only small changes in accuracy. Predefined tools improve performance for bash-weak models, while bash-only interfaces reduce cost for bash-capable models: Predefined tools reduce reliance on shell commands, whereas bash-capable models can combine multiple operations per call. The resulting accuracy--cost trade-off varies by task type.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.20804",
+      "pdf_url": "https://arxiv.org/pdf/2609.20804",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.20804",
+      "scraped_at": "2026-09-18T03:35:41.139931"
+    },
+    "scraped_date": "2026-09-18"
+  },
+  {
+    "title": "JEPA-Anything: Learning Predictive Models across Different Worlds",
+    "paper_url": "https://huggingface.co/papers/2609.20800",
+    "authors": [
+      "Zhaochen Yu",
+      "Weiyang Liu",
+      "Xinyue Xu",
+      "Zhongyao Wang",
+      "Taoyong Cui"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "JEPA-Anything: Learning Predictive Models across Different Worlds",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.20800",
+      "pdf_url": "https://arxiv.org/pdf/2609.20800",
+      "github_links": [
+        "https://github.com/Gen-Verse/JEPA-Anything",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.20800",
+      "scraped_at": "2026-09-18T03:35:42.937136"
+    },
+    "scraped_date": "2026-09-18"
+  },
+  {
+    "title": "RiskChainBench: A Benchmark for Obfuscated Platform Message Restoration and Evidence-Grounded Web Investigation",
+    "paper_url": "https://huggingface.co/papers/2609.16900",
+    "authors": [
+      "Yifan Wang",
+      "Mengzheng Yang",
+      "Ying Zhang",
+      "Zhiming Ma",
+      "leonliuzx"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "RiskChainBench: A Benchmark for Obfuscated Platform Message Restoration and Evidence-Grounded Web Investigation",
+      "abstract": "We introduce RiskChainBench, a benchmark connecting obfuscated-message restoration with evidence-grounded web investigation. The paper evaluates 3,600 synthetic restoration inputs paired with 600 controlled web environments across ten models. Restoration and web investigation are scored separately, with frozen entry predictions applied as an offline gate for end-to-end analysis. Stable exploration and risk judgment emerge as the main bottlenecks. Task-specific public code and protocol snapshots: Task 1: https://github.com/mattheliu/riskchainbench-task1 Task 2: https://github.com/mattheliu/riskchainbench-task2 These repositories are not yet a complete reproduction package for the paper; full replay datasets and evaluator-only assets are not publicly available at present. Feedback and discussion are welcome!",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.16900",
+      "pdf_url": "https://arxiv.org/pdf/2609.16900",
+      "github_links": [
+        "https://github.com/mattheliu/riskchainbench-task1",
+        "https://github.com/mattheliu/riskchainbench-task2",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.16900",
+      "scraped_at": "2026-09-18T03:35:44.805064"
+    },
+    "scraped_date": "2026-09-18"
+  },
+  {
+    "title": "SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
+    "paper_url": "https://huggingface.co/papers/2609.20519",
+    "authors": [],
+    "stars": "2.19k",
+    "details": {
+      "title": "SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
+      "abstract": "As coding agents move from supervised code completion to unattended, around-the-clock exploration, their work expands from isolated predictions into long trajectories of reasoning, tool use, and feedback. Token efficiency therefore becomes important for scaling recursive self-improvement. We take an RSI-inspired approach at the harness layer, scaling auto-research loops across increasingly numerous and diverse environments for harness rollouts. At this scale, the process yields reusable improvements that transfer beyond their development setting, moving automated harness discovery toward production-level outcomes. Four mechanisms survive selection and form SoL-Pi, spanning action execution, context compaction, observation handling, and delegated reading. On the 51-task EdgeBench evaluation, SoL-Pi achieves performance comparable to Pi across GPT-5.6 Sol and Opus 5 while reducing recorded token traffic by 44.7-49.0% and API cost by about one third. In other words, estimated hourly savings are $8.75-$13.50 relative to native Codex and Claude Code harnesses, and $4.36-$5.71 relative to Pi.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.20519",
+      "pdf_url": "https://arxiv.org/pdf/2609.20519",
+      "github_links": [
+        "https://github.com/NVlabs/SoL-Pi",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.20519",
+      "scraped_at": "2026-09-18T03:35:46.608540"
+    },
+    "scraped_date": "2026-09-18"
+  },
+  {
+    "title": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+    "paper_url": "https://huggingface.co/papers/2609.19969",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.19969",
+      "pdf_url": "https://arxiv.org/pdf/2609.19969",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.19969",
+      "scraped_at": "2026-09-18T03:35:48.378483"
+    },
+    "scraped_date": "2026-09-18"
+  },
+  {
+    "title": "VABench: Measuring Embodied Spatial Intelligence through Visual Demonstrations, Active Perception, and Metric Control",
+    "paper_url": "https://huggingface.co/papers/2609.19554",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "VABench: Measuring Embodied Spatial Intelligence through Visual Demonstrations, Active Perception, and Metric Control",
+      "abstract": "Spatial intelligence requires more than describing object locations. Under incom\u0002plete observation, models must identify and acquire missing evidence, interpret it in a common spatial frame, and act on it. We introduce VA-BENCH to evalu\u0002ate the complete observe–reason–act–revise loop. General-purpose MLLMs learn procedural context from RGB-only demonstrations, actively select camera view\u0002points, issue metric Cartesian commands, and revise them from execution feed\u0002back. Models receive no privileged object poses, oracle trajectories, or learned action heads. A fixed model-agnostic controller executes only model-specified tar\u0002gets. VA-Bench contains 14 base task families (11 single-arm and three dual-arm), seven held-out geometry/layout variants, and a long-horizon five-object composi\u0002tion track. We evaluate 12 primary model conditions in three independent runs over the same 20 physically verified seeds per base task, reporting terminal suc\u0002cess, nine trajectory-level behavioral diagnostics, and subtask progress. First, the best-performing model scores 100.0% on target localization and 78.9% on spatial relations in the annotated run. Its three-run macro-average task success is only 53.93 ± 3.17%. Second, active camera control significantly improves task success over passive multi-view observation. In one matched comparison, success rises from 27.86% to 57.50%. Third, held-out geomet\u0002ric transfer can reduce task success by over 30 percentage points. No model completes a strict long-horizon episode, despite substantial partial progress. VA-Bench thus tests whether general-purpose MLLMs can turn visual demonstra\u0002tions and actively acquired evidence into successful embodied action. Code and benchmark: github.com/zhangzhongbo2213/VABench.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.19554",
+      "pdf_url": "https://arxiv.org/pdf/2609.19554",
+      "github_links": [
+        "https://github.com/zhangzhongbo2213/VABench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.19554",
+      "scraped_at": "2026-09-18T03:35:50.145770"
+    },
+    "scraped_date": "2026-09-18"
+  },
+  {
+    "title": "WeVisDoc: From Coverage to Capability for Robust End-to-End Document Parsing",
+    "paper_url": "https://huggingface.co/papers/2609.20423",
+    "authors": [],
+    "stars": "9",
+    "details": {
+      "title": "WeVisDoc: From Coverage to Capability for Robust End-to-End Document Parsing",
+      "abstract": "Document parsing converts document images into structured content and requires reliable performance across diverse layouts and acquisition conditions. Yet training corpora are biased toward common document types and clean digital pages, while expanding coverage alone does not specify how to address a parser's remaining weaknesses. We present WeVisDoc, a two-stage data-centric framework for robust end-to-end document parsing. Stage I broadens semantic, structural, and appearance coverage through heterogeneous data and structure-preserving degradation synthesis. Stage II uses a held-out probe to measure the Stage I parser's residual errors within fixed visual-structural clusters. These diagnostics guide targeted data construction and reallocation of the target-token budget. WeVisDoc-4B achieves an Overall score of 95.38 on OmniDocBench v1.6 and a mean Overall score of 75.54 across the three PureDocBench tracks, ranking first among the compared end-to-end parsers in all four settings. Compared with Stage I, Stage II improves Overall scores for the 2B and 4B models on both benchmarks, with larger gains on the degraded PureDocBench tracks, including a 4.03-point gain for the 4B model on the Real Degraded track.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.20423",
+      "pdf_url": "https://arxiv.org/pdf/2609.20423",
+      "github_links": [
+        "https://github.com/Tencent/WeVisDoc",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.20423",
+      "scraped_at": "2026-09-18T03:35:51.909643"
+    },
+    "scraped_date": "2026-09-18"
+  },
+  {
+    "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2609.20784",
+    "authors": [
+      "Aozhe Wang",
+      "Yichen Pan",
+      "Yizhou Liu",
+      "Zhengxi Lu",
+      "Yan Yu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
+      "abstract": "Rather than following a predefined distillation schedule, RetireOPD adopts Adaptive Retirement: the student drops the teacher on its own once their discrepancy stops shrinking and it reaches a target fraction of the teacher's success rate, after which training proceeds with RL alone.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.20784",
+      "pdf_url": "https://arxiv.org/pdf/2609.20784",
+      "github_links": [
+        "https://github.com/ZJU-REAL/SDAR",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.20784",
+      "scraped_at": "2026-09-18T03:35:53.646422"
+    },
+    "scraped_date": "2026-09-18"
+  },
+  {
+    "title": "When2Think: Learning Difficulty-Aware Length Control for Efficient Hybrid Reasoning Models",
+    "paper_url": "https://huggingface.co/papers/2609.19671",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "When2Think: Learning Difficulty-Aware Length Control for Efficient Hybrid Reasoning Models",
+      "abstract": "Efficient Reasoning models by RFT",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.19671",
+      "pdf_url": "https://arxiv.org/pdf/2609.19671",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.19671",
+      "scraped_at": "2026-09-18T03:35:55.395790"
+    },
+    "scraped_date": "2026-09-18"
+  },
+  {
+    "title": "Reflect, Revise, Reuse: Training-Free Skill Evolution for GUI Agents",
+    "paper_url": "https://huggingface.co/papers/2609.17653",
+    "authors": [
+      "Yong Du",
+      "Zhengxi Lu",
+      "Fei Tang",
+      "Boxuan Zhang",
+      "Bofan Chen"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "Reflect, Revise, Reuse: Training-Free Skill Evolution for GUI Agents",
+      "abstract": "We propose EvoSkill-GUI, a training-free framework in which each skill is a structured multi-file package containing retrieval metadata, executable plans, backup localization, failure-recovery rules, accessibility utilities, and failure cases.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.17653",
+      "pdf_url": "https://arxiv.org/pdf/2609.17653",
+      "github_links": [
+        "https://github.com/ZJU-REAL/EvoSkill-GUI",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.17653",
+      "scraped_at": "2026-09-18T03:35:57.188919"
+    },
+    "scraped_date": "2026-09-18"
+  },
+  {
+    "title": "What Does Privileged Information Add to On-Policy Self-Distillation?",
+    "paper_url": "https://huggingface.co/papers/2609.20612",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "What Does Privileged Information Add to On-Policy Self-Distillation?",
+      "abstract": "Giving the teacher more of the solution does not necessarily give the student more to learn. We introduce AMPLE-Math ( https://huggingface.co/datasets/xiuyuz/ample-math ) to isolate what privileged references add beyond the existing asymmetry in the OPSD training recipe, showing across two language-model families that their value depends on how the student is trained and evaluated.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.20612",
+      "pdf_url": "https://arxiv.org/pdf/2609.20612",
+      "github_links": [
+        "https://github.com/xiuyuz/opsd-reference-study",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.20612",
+      "scraped_at": "2026-09-18T03:35:58.952048"
+    },
+    "scraped_date": "2026-09-18"
+  },
+  {
+    "title": "UFO: Chain-of-Evaluation for Omni-Condition Alignment in Multi-Modal Image Generation",
+    "paper_url": "https://huggingface.co/papers/2609.12397",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "UFO: Chain-of-Evaluation for Omni-Condition Alignment in Multi-Modal Image Generation",
+      "abstract": "Multi‑modal image generation, particularly subject‑driven customization, has garnered growing attention in recent years. Despite the rapid advancement of generative models, their evaluation remains largely lagging. Existing methods, whether embedding‑based or Multi‑modal Large Language Model (MLLM)‑based, evaluate alignment with each modal condition in isolation, which contradicts the simultaneous condition alignment objective of multi‑modal image generation, leading to poor consistency with human judgments. To address this challenge, we propose UFO, the first UniFied framework for Omni‑condition alignment simultaneous evaluation. Specifically, UFO introduces a novel Atomized Chain‑of‑Evaluation paradigm, i.e., it first decomposes omni‑condition alignment into a sequential chain of fine‑grained, disentangled Atomic Evaluation Units (AEUs), categorizes them into distinct modality‑relevance classes, and then employs general or dedicated functional calls for accurate verification of different AEU types. Experimental results demonstrate that UFO achieves the highest correlation with human evaluation preferences, delivering an average improvement of 15.25%. Furthermore, we present UFO‑Bench, a dedicated benchmark designed to holistically evaluate the performance of existing customization models under the diverse mutual interactions of textual and visual conditions.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.12397",
+      "pdf_url": "https://arxiv.org/pdf/2609.12397",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.12397",
+      "scraped_at": "2026-09-18T03:36:00.695994"
+    },
+    "scraped_date": "2026-09-18"
+  },
+  {
+    "title": "Video DeltaNet: A Video-Native Hybrid Attention for Livestream Video Generation",
+    "paper_url": "https://huggingface.co/papers/2609.20744",
+    "authors": [
+      "Michael Liu",
+      "Yiwen Zhang",
+      "Hexu Zhao",
+      "Yiming Xie",
+      "Haocheng Xi"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Video DeltaNet: A Video-Native Hybrid Attention for Livestream Video Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.20744",
+      "pdf_url": "https://arxiv.org/pdf/2609.20744",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.20744",
+      "scraped_at": "2026-09-18T03:36:02.416951"
+    },
+    "scraped_date": "2026-09-18"
+  },
+  {
+    "title": "Region-Level Policy Optimization for Fine-grained MLLM Perception",
+    "paper_url": "https://huggingface.co/papers/2609.19745",
+    "authors": [
+      "Chang Xu",
+      "Minjing Dong",
+      "Xiaohuan Pei",
+      "Yuheng Shi"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Region-Level Policy Optimization for Fine-grained MLLM Perception",
+      "abstract": "Vision-RL²: Region-Level Policy Optimization for Fine-grained MLLM Perception Fine-grained perception in MLLMs usually means raising the resolution, which inflates visual-token and prefill cost. We show that localizing the region of interest tolerates roughly 3–4× stronger token compression than recognizing its content, so the two should not share one resolution. Vision-RL² trains a lightweight region proposal network on top of a frozen MLLM with region-level RL: coherent regions are the actions, and a frozen reader scores each one by how much its removal changes the answer likelihood. No region annotations, no response sampling, no reasoning traces. The refined proposal also enables a sparse visual encoding that keeps only foreground tokens. Across six fine-grained benchmarks (V*, ZoomBench, HR-Bench 4K/8K, MME-RealWorld EN/CN) and four backbones (Qwen3.5-4B/9B, Qwen2.5-VL-7B, and the encoder-free Gemma-4-12B), Vision-RL² improves over the base model at every visual-token budget, and outperforms prior methods that fully fine-tune the model while training an order of magnitude fewer parameters. Code: https://github.com/YuHengsss/VisionRL2 Checkpoints for all four backbones + training data: https://huggingface.co/collections/YuhengSSS/visionrl2 Project page with an interactive walkthrough of one training step on real samples: https://yuhengsss.github.io/VisionRL2/",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.19745",
+      "pdf_url": "https://arxiv.org/pdf/2609.19745",
+      "github_links": [
+        "https://github.com/YuHengsss/VisionRL2",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.19745",
+      "scraped_at": "2026-09-18T03:36:04.260608"
+    },
+    "scraped_date": "2026-09-18"
   }
 ]

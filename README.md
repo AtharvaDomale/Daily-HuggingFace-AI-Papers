@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-6-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-6359+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-14-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-6373+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">6</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">34</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">231</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">6359+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">14</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">48</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">245</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">6373+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** September 17, 2026
+**Last Updated:** September 18, 2026
 
 ---
 
@@ -119,84 +119,196 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. ScienceIDE: Turning World's Scientific Codebase into Agent Learnable Environments</b> ⭐ 5</summary>
+<summary><b>1. An Empirical Study of Harness Design for Coding Agents</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Koutian Wu, Wenbin Li, Haoyang Li, Zesen Huang, Hejia Geng
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.19134) • [📄 arXiv](https://arxiv.org/abs/2609.19134) • [📥 PDF](https://arxiv.org/pdf/2609.19134)
-
-**💻 Code:** [⭐ Code](https://github.com/aitofound/ScienceIDE) • [⭐ Code](https://github.com/huggingface)
-
-> Code: https://github.com/aitofound/ScienceIDE Models: https://huggingface.co/collections/AItonomy/scienceide-model-series
-
-</details>
-
-<details>
-<summary><b>2. ProgramDistill: From Interactive Web Apps to Verifiable Reference-Guided SWE Tasks</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.18805) • [📄 arXiv](https://arxiv.org/abs/2609.18805) • [📥 PDF](https://arxiv.org/pdf/2609.18805)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.20804) • [📄 arXiv](https://arxiv.org/abs/2609.20804) • [📥 PDF](https://arxiv.org/pdf/2609.20804)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> For more information, please check out our: 📝 Blog: https://microsoft.github.io/debug-gym/blog/2026/09/programdistill/ 🔗 Paper: https://microsoft.github.io/debug-gym/static/papers/ProgramDistill_arxiv.pdf We’re working on a public release of the P...
+> Coding agents rely on a harness to plan, use tools, and manage context. But which of these components actually help, and when? Most evaluations compare complete agent systems, making it difficult to separate the contributions of individual harness...
 
 </details>
 
 <details>
-<summary><b>3. VC-Attention: Value Smoothing and Softmax Casting for Low-bit Attention</b> ⭐ 0</summary>
+<summary><b>2. JEPA-Anything: Learning Predictive Models across Different Worlds</b> ⭐ 3</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.15810) • [📄 arXiv](https://arxiv.org/abs/2609.15810) • [📥 PDF](https://arxiv.org/pdf/2609.15810)
+**👥 Authors:** Zhaochen Yu, Weiyang Liu, Xinyue Xu, Zhongyao Wang, Taoyong Cui
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.20800) • [📄 arXiv](https://arxiv.org/abs/2609.20800) • [📥 PDF](https://arxiv.org/pdf/2609.20800)
+
+**💻 Code:** [⭐ Code](https://github.com/Gen-Verse/JEPA-Anything) • [⭐ Code](https://github.com/huggingface)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>3. RiskChainBench: A Benchmark for Obfuscated Platform Message Restoration and Evidence-Grounded Web Investigation</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Yifan Wang, Mengzheng Yang, Ying Zhang, Zhiming Ma, leonliuzx
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.16900) • [📄 arXiv](https://arxiv.org/abs/2609.16900) • [📥 PDF](https://arxiv.org/pdf/2609.16900)
+
+**💻 Code:** [⭐ Code](https://github.com/mattheliu/riskchainbench-task1) • [⭐ Code](https://github.com/mattheliu/riskchainbench-task2) • [⭐ Code](https://github.com/huggingface)
+
+> We introduce RiskChainBench, a benchmark connecting obfuscated-message restoration with evidence-grounded web investigation. The paper evaluates 3,600 synthetic restoration inputs paired with 600 controlled web environments across ten models. Rest...
+
+</details>
+
+<details>
+<summary><b>4. SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness</b> ⭐ 2.19k</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.20519) • [📄 arXiv](https://arxiv.org/abs/2609.20519) • [📥 PDF](https://arxiv.org/pdf/2609.20519)
+
+**💻 Code:** [⭐ Code](https://github.com/NVlabs/SoL-Pi) • [⭐ Code](https://github.com/huggingface)
+
+> As coding agents move from supervised code completion to unattended, around-the-clock exploration, their work expands from isolated predictions into long trajectories of reasoning, tool use, and feedback. Token efficiency therefore becomes importa...
+
+</details>
+
+<details>
+<summary><b>5. DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.19969) • [📄 arXiv](https://arxiv.org/abs/2609.19969) • [📥 PDF](https://arxiv.org/pdf/2609.19969)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> Low-bit attention is promising for fast video generation, but softmax remains a major bottleneck on B200 and B300. Our latest work, VC-Attention, addresses this with ExpCast-FP8: a simple linear mapping to FP8 codes that bypasses the expensive exp...
+> No abstract available.
 
 </details>
 
 <details>
-<summary><b>4. EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents</b> ⭐ 0</summary>
+<summary><b>6. VABench: Measuring Embodied Spatial Intelligence through Visual Demonstrations, Active Perception, and Metric Control</b> ⭐ 3</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.17632) • [📄 arXiv](https://arxiv.org/abs/2609.17632) • [📥 PDF](https://arxiv.org/pdf/2609.17632)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.19554) • [📄 arXiv](https://arxiv.org/abs/2609.19554) • [📥 PDF](https://arxiv.org/pdf/2609.19554)
+
+**💻 Code:** [⭐ Code](https://github.com/zhangzhongbo2213/VABench) • [⭐ Code](https://github.com/huggingface)
+
+> Spatial intelligence requires more than describing object locations. Under incomplete observation, models must identify and acquire missing evidence, interpret it in a common spatial frame, and act on it. We introduce VA-BENCH to evaluate the co...
+
+</details>
+
+<details>
+<summary><b>7. WeVisDoc: From Coverage to Capability for Robust End-to-End Document Parsing</b> ⭐ 9</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.20423) • [📄 arXiv](https://arxiv.org/abs/2609.20423) • [📥 PDF](https://arxiv.org/pdf/2609.20423)
+
+**💻 Code:** [⭐ Code](https://github.com/Tencent/WeVisDoc) • [⭐ Code](https://github.com/huggingface)
+
+> Document parsing converts document images into structured content and requires reliable performance across diverse layouts and acquisition conditions. Yet training corpora are biased toward common document types and clean digital pages, while expa...
+
+</details>
+
+<details>
+<summary><b>8. RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Aozhe Wang, Yichen Pan, Yizhou Liu, Zhengxi Lu, Yan Yu
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.20784) • [📄 arXiv](https://arxiv.org/abs/2609.20784) • [📥 PDF](https://arxiv.org/pdf/2609.20784)
+
+**💻 Code:** [⭐ Code](https://github.com/ZJU-REAL/SDAR) • [⭐ Code](https://github.com/huggingface)
+
+> Rather than following a predefined distillation schedule, RetireOPD adopts Adaptive Retirement: the student drops the teacher on its own once their discrepancy stops shrinking and it reaches a target fraction of the teacher's success rate, after w...
+
+</details>
+
+<details>
+<summary><b>9. When2Think: Learning Difficulty-Aware Length Control for Efficient Hybrid Reasoning Models</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.19671) • [📄 arXiv](https://arxiv.org/abs/2609.19671) • [📥 PDF](https://arxiv.org/pdf/2609.19671)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> We present EvolveTrade, a framework that lets LLM trading agents refine their own tool-use policies from trading experience. The agent revises how it gathers information, checks signals, and manages risk based on past decisions and outcomes. In a ...
+> Efficient Reasoning models by RFT
 
 </details>
 
 <details>
-<summary><b>5. Gaze as Evidence for Common Grounding: A Cross-Corpus Analysis of MapTask and MUNDEX</b> ⭐ 0</summary>
+<summary><b>10. Reflect, Revise, Reuse: Training-Free Skill Evolution for GUI Agents</b> ⭐ 3</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.18011) • [📄 arXiv](https://arxiv.org/abs/2609.18011) • [📥 PDF](https://arxiv.org/pdf/2609.18011)
+**👥 Authors:** Yong Du, Zhengxi Lu, Fei Tang, Boxuan Zhang, Bofan Chen
 
-**💻 Code:** [⭐ Code](https://github.com/chnln/gaze-as-grounding-evidence) • [⭐ Code](https://github.com/huggingface)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.17653) • [📄 arXiv](https://arxiv.org/abs/2609.17653) • [📥 PDF](https://arxiv.org/pdf/2609.17653)
 
-> In collaborative tasks with asymmetric information — maps with different landmarks, or a board game only one side knows — mutual understanding has to be built through the interaction, and gaze is one of the few observable traces of that process. W...
+**💻 Code:** [⭐ Code](https://github.com/ZJU-REAL/EvoSkill-GUI) • [⭐ Code](https://github.com/huggingface)
+
+> We propose EvoSkill-GUI, a training-free framework in which each skill is a structured multi-file package containing retrieval metadata, executable plans, backup localization, failure-recovery rules, accessibility utilities, and failure cases.
 
 </details>
 
 <details>
-<summary><b>6. EventEgoHands++: Event-based Egocentric 3D Hand Mesh Reconstruction with Real Dataset</b> ⭐ 5</summary>
+<summary><b>11. What Does Privileged Information Add to On-Policy Self-Distillation?</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Mariko Isogawa, Masashi Hatano, Wataru Ikeda, Ryosei Hara
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.20612) • [📄 arXiv](https://arxiv.org/abs/2609.20612) • [📥 PDF](https://arxiv.org/pdf/2609.20612)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.17189) • [📄 arXiv](https://arxiv.org/abs/2609.17189) • [📥 PDF](https://arxiv.org/pdf/2609.17189)
+**💻 Code:** [⭐ Code](https://github.com/xiuyuz/opsd-reference-study) • [⭐ Code](https://github.com/huggingface)
 
-**💻 Code:** [⭐ Code](https://github.com/ryhara/EventEgoHandsV2) • [⭐ Code](https://github.com/huggingface)
+> Giving the teacher more of the solution does not necessarily give the student more to learn. We introduce AMPLE-Math ( https://huggingface.co/datasets/xiuyuz/ample-math ) to isolate what privileged references add beyond the existing asymmetry in t...
 
-> Accepted to IEEE Access.
+</details>
+
+<details>
+<summary><b>12. UFO: Chain-of-Evaluation for Omni-Condition Alignment in Multi-Modal Image Generation</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.12397) • [📄 arXiv](https://arxiv.org/abs/2609.12397) • [📥 PDF](https://arxiv.org/pdf/2609.12397)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> Multi‑modal image generation, particularly subject‑driven customization, has garnered growing attention in recent years. Despite the rapid advancement of generative models, their evaluation remains largely lagging. Existing methods, whether embedd...
+
+</details>
+
+<details>
+<summary><b>13. Video DeltaNet: A Video-Native Hybrid Attention for Livestream Video Generation</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Michael Liu, Yiwen Zhang, Hexu Zhao, Yiming Xie, Haocheng Xi
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.20744) • [📄 arXiv](https://arxiv.org/abs/2609.20744) • [📥 PDF](https://arxiv.org/pdf/2609.20744)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>14. Region-Level Policy Optimization for Fine-grained MLLM Perception</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Chang Xu, Minjing Dong, Xiaohuan Pei, Yuheng Shi
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2609.19745) • [📄 arXiv](https://arxiv.org/abs/2609.19745) • [📥 PDF](https://arxiv.org/pdf/2609.19745)
+
+**💻 Code:** [⭐ Code](https://github.com/YuHengsss/VisionRL2) • [⭐ Code](https://github.com/huggingface)
+
+> Vision-RL²: Region-Level Policy Optimization for Fine-grained MLLM Perception Fine-grained perception in MLLMs usually means raising the resolution, which inflates visual-token and prefill cost. We show that localizing the region of interest toler...
 
 </details>
 
@@ -208,28 +320,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 6 |
-| 📅 Today | [`2026-09-17.json`](data/daily/2026-09-17.json) | 6 |
-| 📆 This Week | [`2026-W37.json`](data/weekly/2026-W37.json) | 34 |
-| 🗓️ This Month | [`2026-09.json`](data/monthly/2026-09.json) | 231 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 14 |
+| 📅 Today | [`2026-09-18.json`](data/daily/2026-09-18.json) | 14 |
+| 📆 This Week | [`2026-W37.json`](data/weekly/2026-W37.json) | 48 |
+| 🗓️ This Month | [`2026-09.json`](data/monthly/2026-09.json) | 245 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-09-17 | 6 | [View JSON](data/daily/2026-09-17.json) |
+| 📌 2026-09-18 | 14 | [View JSON](data/daily/2026-09-18.json) |
+| 📄 2026-09-17 | 6 | [View JSON](data/daily/2026-09-17.json) |
 | 📄 2026-09-16 | 11 | [View JSON](data/daily/2026-09-16.json) |
 | 📄 2026-09-15 | 11 | [View JSON](data/daily/2026-09-15.json) |
 | 📄 2026-09-14 | 6 | [View JSON](data/daily/2026-09-14.json) |
 | 📄 2026-09-13 | 26 | [View JSON](data/daily/2026-09-13.json) |
 | 📄 2026-09-12 | 26 | [View JSON](data/daily/2026-09-12.json) |
-| 📄 2026-09-11 | 8 | [View JSON](data/daily/2026-09-11.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W37 | 34 | [View JSON](data/weekly/2026-W37.json) |
+| 📅 2026-W37 | 48 | [View JSON](data/weekly/2026-W37.json) |
 | 📅 2026-W36 | 88 | [View JSON](data/weekly/2026-W36.json) |
 | 📅 2026-W35 | 121 | [View JSON](data/weekly/2026-W35.json) |
 | 📅 2026-W34 | 173 | [View JSON](data/weekly/2026-W34.json) |
@@ -238,7 +350,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-09 | 231 | [View JSON](data/monthly/2026-09.json) |
+| 🗓️ 2026-09 | 245 | [View JSON](data/monthly/2026-09.json) |
 | 🗓️ 2026-08 | 747 | [View JSON](data/monthly/2026-08.json) |
 | 🗓️ 2026-07 | 366 | [View JSON](data/monthly/2026-07.json) |
 | 🗓️ 2026-06 | 612 | [View JSON](data/monthly/2026-06.json) |
