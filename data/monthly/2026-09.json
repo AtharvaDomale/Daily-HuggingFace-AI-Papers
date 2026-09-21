@@ -6289,5 +6289,248 @@
       "scraped_at": "2026-09-20T03:49:15.109015"
     },
     "scraped_date": "2026-09-20"
+  },
+  {
+    "title": "RecreationWorld: Scalable and Verifiable Environments for Hybrid Computer-Use Agents",
+    "paper_url": "https://huggingface.co/papers/2609.22000",
+    "authors": [
+      "Xuhao Hu",
+      "Chang Gao",
+      "Yikun Fu",
+      "Jiayong Deng",
+      "Shuai Bai"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "RecreationWorld: Scalable and Verifiable Environments for Hybrid Computer-Use Agents",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.22000",
+      "pdf_url": "https://arxiv.org/pdf/2609.22000",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/QwenLM/RecreationWorld"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.22000",
+      "scraped_at": "2026-09-21T03:44:39.929764"
+    },
+    "scraped_date": "2026-09-21"
+  },
+  {
+    "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
+    "paper_url": "https://huggingface.co/papers/2609.22068",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
+      "abstract": "We present CodeMIDAS towards scaling agentic coding RL environments from code itself. https://mimo.xiaomi.com/rl/",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.22068",
+      "pdf_url": "https://arxiv.org/pdf/2609.22068",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.22068",
+      "scraped_at": "2026-09-21T03:44:41.685845"
+    },
+    "scraped_date": "2026-09-21"
+  },
+  {
+    "title": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
+    "paper_url": "https://huggingface.co/papers/2609.15779",
+    "authors": [],
+    "stars": "213",
+    "details": {
+      "title": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
+      "abstract": "EvoOntology: the First Self-Evolving Ontology Layer for Data Agents 🔌 Universal Agent Plugin as MCP: Seamlessly integrates with Claude Code, Codex, and other AI agents. 🧠 Automatic Ontology Construction: Builds a tailored ontology layer directly from your data. ♻️ Continuous Self-Evolution: Continuously evolves and refines the ontology layer based on interaction history.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.15779",
+      "pdf_url": "https://arxiv.org/pdf/2609.15779",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ruc-datalab/EvoOntology"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.15779",
+      "scraped_at": "2026-09-21T03:44:43.460370"
+    },
+    "scraped_date": "2026-09-21"
+  },
+  {
+    "title": "Grounded Skill Synthesis from Code at Scale for Agentic Intelligence",
+    "paper_url": "https://huggingface.co/papers/2609.05571",
+    "authors": [],
+    "stars": "10",
+    "details": {
+      "title": "Grounded Skill Synthesis from Code at Scale for Agentic Intelligence",
+      "abstract": "CodeSkillBank is a large-scale collection of reusable programming skills grounded in real source-code implementations. It is constructed with Code2Skill, an automated pipeline that transforms implementation evidence into structured procedural knowledge, and powers the accompanying DeveloperSkillHubs website. dataset: https://huggingface.co/datasets/ant-intl/DeveloperSkills-Code2Skill",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.05571",
+      "pdf_url": "https://arxiv.org/pdf/2609.05571",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ant-intl/Code2Skill"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.05571",
+      "scraped_at": "2026-09-21T03:44:45.210311"
+    },
+    "scraped_date": "2026-09-21"
+  },
+  {
+    "title": "GraphSkillEvo: Evolutionary Optimization of Graph-Structured Agent Skills",
+    "paper_url": "https://huggingface.co/papers/2609.21749",
+    "authors": [
+      "Zhichao Lu",
+      "Zhenkun Wang",
+      "Zhi Zheng",
+      "Rui Sun"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "GraphSkillEvo: Evolutionary Optimization of Graph-Structured Agent Skills",
+      "abstract": "Using Graph representation for 1. better skill representation 2. better search space for evolution.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.21749",
+      "pdf_url": "https://arxiv.org/pdf/2609.21749",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ruisun7/GraphSkillEvo"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.21749",
+      "scraped_at": "2026-09-21T03:44:46.948985"
+    },
+    "scraped_date": "2026-09-21"
+  },
+  {
+    "title": "Paint-Anything: Unified Any-Color Control for Image Generation and Editing",
+    "paper_url": "https://huggingface.co/papers/2609.20816",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Paint-Anything: Unified Any-Color Control for Image Generation and Editing",
+      "abstract": "Try Any-color control in Seedream 5.0 Pro 🤗 . Professional design requires any-color control: the ability to specify an object's target color with any 24-bit hex value for image generation and editing. Prior work has explored color generation, editing, and colorization, but often relies on dedicated color representations or specialized inference procedures. Advances in large language models offer a simpler starting point: even compact models can associate hex values with color semantics. We present Paint-Anything, which learns a shared hex-prompt interface for generation and editing through object-level color supervision. We develop a data pipeline that constructs Paint-500K from real images through object grounding, perceptual color labeling, and editing-pair synthesis. Since shadows make real-image labels only approximate colors, we complement this supervision with pure-color anchors whose pixels exactly match their paired hex values. These anchors are used only at high-noise timesteps, leaving low-noise training to natural images. We further introduce Any Color Benchmark (ACBench), comprising ACBench-T2I and ACBench-Edit, to measure object-level hex color fidelity across both tasks. On FLUX.2-4B, Paint-Anything improves ACBench-T2I and ACBench-Edit scores by 85.3% and 28.3%, respectively, relative to the base model, with ablations supporting the training recipe. It also achieves the highest average CompColor score among the compared methods.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.20816",
+      "pdf_url": "https://arxiv.org/pdf/2609.20816",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.20816",
+      "scraped_at": "2026-09-21T03:44:48.664655"
+    },
+    "scraped_date": "2026-09-21"
+  },
+  {
+    "title": "DeformSmith: Physics Harness-Guided Hierarchical Generation of Deformable Assets for Robot Manipulation",
+    "paper_url": "https://huggingface.co/papers/2609.18620",
+    "authors": [
+      "Lei Sun",
+      "Jingmin Chen",
+      "Zishun Deng",
+      "Jie Gu",
+      "Can Li"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "DeformSmith: Physics Harness-Guided Hierarchical Generation of Deformable Assets for Robot Manipulation",
+      "abstract": "Generate the object. Establish its physics. Put it into interaction.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.18620",
+      "pdf_url": "https://arxiv.org/pdf/2609.18620",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/CAN-Lee/DeformSmith"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.18620",
+      "scraped_at": "2026-09-21T03:44:50.412394"
+    },
+    "scraped_date": "2026-09-21"
+  },
+  {
+    "title": "OmniVBench: A Benchmark and Large-Scale Dataset for Omni Reference-to-Video Generation",
+    "paper_url": "https://huggingface.co/papers/2609.22069",
+    "authors": [
+      "Hualuo Liu",
+      "Junxian Cai",
+      "Haoyang Jiang",
+      "Peiyan Guan",
+      "Wenxue Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "OmniVBench: A Benchmark and Large-Scale Dataset for Omni Reference-to-Video Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.22069",
+      "pdf_url": "https://arxiv.org/pdf/2609.22069",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.22069",
+      "scraped_at": "2026-09-21T03:44:52.178945"
+    },
+    "scraped_date": "2026-09-21"
+  },
+  {
+    "title": "MintAct: A Unified Visual Agent for Digital Environments",
+    "paper_url": "https://huggingface.co/papers/2609.22083",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MintAct: A Unified Visual Agent for Digital Environments",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.22083",
+      "pdf_url": "https://arxiv.org/pdf/2609.22083",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.22083",
+      "scraped_at": "2026-09-21T03:44:53.892991"
+    },
+    "scraped_date": "2026-09-21"
+  },
+  {
+    "title": "When AI Reviews Train AI Reviewers: Scientific-Judgment Collapse and Mitigation",
+    "paper_url": "https://huggingface.co/papers/2609.20942",
+    "authors": [
+      "Furong Huang",
+      "Minghui Liu",
+      "Sy-Tuyen Ho"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "When AI Reviews Train AI Reviewers: Scientific-Judgment Collapse and Mitigation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.20942",
+      "pdf_url": "https://arxiv.org/pdf/2609.20942",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.20942",
+      "scraped_at": "2026-09-21T03:44:55.626365"
+    },
+    "scraped_date": "2026-09-21"
+  },
+  {
+    "title": "Learning Foresight without Explicit Trajectories for 3D Diffusion Policies",
+    "paper_url": "https://huggingface.co/papers/2609.20669",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Learning Foresight without Explicit Trajectories for 3D Diffusion Policies",
+      "abstract": "3D diffusion policies are strong at generating geometrically grounded actions from current observations, but successful manipulation requires not only knowing what motion is feasible now, but also anticipating where the interaction is heading. Existing policies largely leave such foresight to emerge implicitly from action learning. We introduce Movement Trend Guidance, a simple but effective way to provide this foresight without introducing an explicit plan. From a short observation history, the policy learns a compact latent representation of interaction evolution. During training, sparse future gripper states supervise this representation; at inference, only the latent is retained as future-oriented conditioning alongside the current observation. The latent provides global conditioning for action generation, while an additional gated FiLM branch is used only at the UNet bottleneck. Despite adding only 3.52% more parameters to DP3, our method preserves the original dense-action and receding-horizon formulation and consistently improves upon DP3 across RoboTwin2.0, LIBERO-40, and DexArt. It reaches 62.8% vs. 56.1% in 50-task RoboTwin2.0 mixed training, 71.93% vs. 37.08% on LIBERO-40, and 72.0% vs. 49.0% on five real-robot tasks. These results show that a diffusion policy can benefit substantially from knowing where an interaction is heading, without being told exactly where to move. Code is available at \\url{ https://github.com/zhangzhongbo2213/movement-trend-guidance} .",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.20669",
+      "pdf_url": "https://arxiv.org/pdf/2609.20669",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/zhangzhongbo2213/movement-trend-guidance",
+        "https://github.com/zhangzhongbo2213/movement-trend-guidance%7D"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.20669",
+      "scraped_at": "2026-09-21T03:44:57.392879"
+    },
+    "scraped_date": "2026-09-21"
   }
 ]
