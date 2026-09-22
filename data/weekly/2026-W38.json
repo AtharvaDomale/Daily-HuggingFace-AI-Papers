@@ -241,5 +241,224 @@
       "scraped_at": "2026-09-21T03:44:57.392879"
     },
     "scraped_date": "2026-09-21"
+  },
+  {
+    "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+    "paper_url": "https://huggingface.co/papers/2609.24972",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+      "abstract": "We released the Regularized Recursive Self-Improvement of Agent Harnesses! Check it out!",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.24972",
+      "pdf_url": "https://arxiv.org/pdf/2609.24972",
+      "github_links": [
+        "https://github.com/google-research/rrsi",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.24972",
+      "scraped_at": "2026-09-22T03:42:49.536592"
+    },
+    "scraped_date": "2026-09-22"
+  },
+  {
+    "title": "Transferring the Intelligence of VLMs to Robotic Control",
+    "paper_url": "https://huggingface.co/papers/2609.22966",
+    "authors": [
+      "Kejin Wang",
+      "Yi Zhang",
+      "Jia-Jun Wang",
+      "Zhe-Han Mo",
+      "Meng-Hao Guo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Transferring the Intelligence of VLMs to Robotic Control",
+      "abstract": "Three main findings Strong performance on RoboDojo: The method achieves over 47% success rate on the challenging RoboDojo benchmark, setting a strong baseline for long-horizon robot manipulation tasks. In-Context Learning works for robotics: The paper shows that robots can improve their behavior by leveraging examples and interaction history directly at inference time, demonstrating that In-Context Learning is an effective paradigm for embodied agents. Test-time scaling emerges naturally: The authors observe a clear test-time scaling effect: when the limit on reasoning or interaction steps is relaxed, performance keeps improving. This suggests that giving robots more inference-time compute can continuously enhance their capabilities.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.22966",
+      "pdf_url": "https://arxiv.org/pdf/2609.22966",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.22966",
+      "scraped_at": "2026-09-22T03:42:51.367685"
+    },
+    "scraped_date": "2026-09-22"
+  },
+  {
+    "title": "One to More, More to One: Category-Aware Iterative Expert Training for Software Engineering Agents",
+    "paper_url": "https://huggingface.co/papers/2609.23377",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "One to More, More to One: Category-Aware Iterative Expert Training for Software Engineering Agents",
+      "abstract": "We introduce category-aware training for software engineering agents: Refresh–Repair–Expand iteratively develops category experts, while label-routed MOPD consolidates them into one deployable model. It achieves 58.04% on Pro-618 and 59.00% on SWE-bench Multilingual, without external solution-trajectory teachers. The model is available on Hugging Face.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.23377",
+      "pdf_url": "https://arxiv.org/pdf/2609.23377",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.23377",
+      "scraped_at": "2026-09-22T03:42:53.253485"
+    },
+    "scraped_date": "2026-09-22"
+  },
+  {
+    "title": "Why Do Video Diffusion Models Violate Physics? Unveiling the Flaws in Attention Mechanisms",
+    "paper_url": "https://huggingface.co/papers/2609.23658",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Why Do Video Diffusion Models Violate Physics? Unveiling the Flaws in Attention Mechanisms",
+      "abstract": "How does a video diffusion model perform motion planning, and why does it often violate physical rules? We introduce an interpretability study of motion planning in video diffusion models, identifying that RoPE-induced spatial attention decay at early denoising steps leads to physically invalid motion trajectories. Based on this finding, we propose a lightweight step-dependent RoPE frequency scaling strategy to alleviate this issue, allowing the model to explore coherent physical motion without heavy training overhead.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.23658",
+      "pdf_url": "https://arxiv.org/pdf/2609.23658",
+      "github_links": [
+        "https://github.com/Siriuslala/physics",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.23658",
+      "scraped_at": "2026-09-22T03:42:55.105957"
+    },
+    "scraped_date": "2026-09-22"
+  },
+  {
+    "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
+    "paper_url": "https://huggingface.co/papers/2609.24984",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
+      "abstract": "We introduce WorldCrafter, a video world model with a camera-queryable implicit 3D-aware memory for consistent, long-horizon scene exploration. Starting from a single image or text prompt, WorldCrafter combines historical observations, recent temporal context, and few-step distillation to support streaming exploration with improved consistency and camera control. Project page: https://drexubery.github.io/WorldCrafter GitHub: https://github.com/TencentARC/WorldCrafter",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.24984",
+      "pdf_url": "https://arxiv.org/pdf/2609.24984",
+      "github_links": [
+        "https://github.com/TencentARC/WorldCrafter",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.24984",
+      "scraped_at": "2026-09-22T03:42:56.948168"
+    },
+    "scraped_date": "2026-09-22"
+  },
+  {
+    "title": "HuRo: Robotizing Human Videos for Scalable VLA Pretraining",
+    "paper_url": "https://huggingface.co/papers/2609.10706",
+    "authors": [],
+    "stars": "29",
+    "details": {
+      "title": "HuRo: Robotizing Human Videos for Scalable VLA Pretraining",
+      "abstract": "HuRo converts human egocentric videos into robot-aligned observations and actions via visual robotization and motion retargeting. Scaling HuRo data in VLA pretraining improves real-world manipulation performance and generalization, especially under OOD settings.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.10706",
+      "pdf_url": "https://arxiv.org/pdf/2609.10706",
+      "github_links": [
+        "https://github.com/3587jjh/HuRo",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.10706",
+      "scraped_at": "2026-09-22T03:42:58.840989"
+    },
+    "scraped_date": "2026-09-22"
+  },
+  {
+    "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
+    "paper_url": "https://huggingface.co/papers/2609.25001",
+    "authors": [
+      "Kaifeng Li",
+      "Guangzhi Wang",
+      "Junfu Pu",
+      "Xingyilang Yin",
+      "Yiran Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.25001",
+      "pdf_url": "https://arxiv.org/pdf/2609.25001",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/TencentARC/GameHorizon"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.25001",
+      "scraped_at": "2026-09-22T03:43:00.598909"
+    },
+    "scraped_date": "2026-09-22"
+  },
+  {
+    "title": "VideoGen-Agent: Reinforcing Video Generation Agents",
+    "paper_url": "https://huggingface.co/papers/2609.24997",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "VideoGen-Agent: Reinforcing Video Generation Agents",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.24997",
+      "pdf_url": "https://arxiv.org/pdf/2609.24997",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.24997",
+      "scraped_at": "2026-09-22T03:43:02.358473"
+    },
+    "scraped_date": "2026-09-22"
+  },
+  {
+    "title": "Think Like a World Model, Act Like a VLA: Distilling World-Model Representations into Compact Robot Policies",
+    "paper_url": "https://huggingface.co/papers/2609.24682",
+    "authors": [
+      "Yong Jae Lee",
+      "Joohyung Kim",
+      "Jaden Park",
+      "Sankalp Yamsani",
+      "Trung Dao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Think Like a World Model, Act Like a VLA: Distilling World-Model Representations into Compact Robot Policies",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.24682",
+      "pdf_url": "https://arxiv.org/pdf/2609.24682",
+      "github_links": [
+        "https://github.com/trungdt880/THAW-VLA",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.24682",
+      "scraped_at": "2026-09-22T03:43:04.159372"
+    },
+    "scraped_date": "2026-09-22"
+  },
+  {
+    "title": "Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents",
+    "paper_url": "https://huggingface.co/papers/2609.23986",
+    "authors": [
+      "Bingzhe Li",
+      "Yi Li",
+      "Dongming Jiang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents",
+      "abstract": "Jev-Mem introduces a System-One-controlled agentic memory architecture that separates frequent memory-management decisions from deeper language-model reasoning. On LoCoMo, it improves answer quality while substantially reducing memory-construction time and query latency. We have released the code and an interactive Hugging Face Space to support reproducibility and further research.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.23986",
+      "pdf_url": "https://arxiv.org/pdf/2609.23986",
+      "github_links": [
+        "https://github.com/libingzheren/Jev-Mem",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.23986",
+      "scraped_at": "2026-09-22T03:43:06.006232"
+    },
+    "scraped_date": "2026-09-22"
   }
 ]
