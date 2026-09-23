@@ -460,5 +460,213 @@
       "scraped_at": "2026-09-22T03:43:06.006232"
     },
     "scraped_date": "2026-09-22"
+  },
+  {
+    "title": "RULER: Instance-aware Rubric Rewards for SVG Generation",
+    "paper_url": "https://huggingface.co/papers/2609.25270",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "RULER: Instance-aware Rubric Rewards for SVG Generation",
+      "abstract": "Project Page: https://hangyuran.github.io/RULER/ Code: Will be released at https://github.com/ant-research/RULER",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.25270",
+      "pdf_url": "https://arxiv.org/pdf/2609.25270",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ant-research/RULER"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.25270",
+      "scraped_at": "2026-09-23T03:41:38.503367"
+    },
+    "scraped_date": "2026-09-23"
+  },
+  {
+    "title": "Circuit Hypernetworks for Quantum-Augmented Diffusion Language Models",
+    "paper_url": "https://huggingface.co/papers/2609.24657",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Circuit Hypernetworks for Quantum-Augmented Diffusion Language Models",
+      "abstract": "Language models can be adapted by changing the computations applied to individual tokens. Quantum circuits offer one such approach, but evaluating wider circuits inside a large model can be computationally demanding. Here we introduce HyperQ, which adds token-conditioned quantum residual branches to a frozen masked-diffusion language model. A quantum residual branch is a module in each transformer block that reads a token’s hidden state, emits the coordinates of that token’s circuit, executes it and adds the measured values back through a residual connection. The backbone remains frozen, and only the added branches are trained. Within each branch, a lightweight circuit hypernetwork emits tokenspecific rotation angles, coupling strengths and measurement axes in a shared sparse circuit structure. The required expectation values have an exact classical expression whose evaluation cost grows linearly with the qubit count, enabling circuits from 16 to 64 qubits to be trained within a 1.1-billion-parameter backbone. Across downstream benchmarks, increasing circuit width raises the average score from 47.65 to 54.30. At 64 qubits, HyperQ exceeds the backbone and its low-rank-adapted counterpart by 4.71 and 3.67 points, respectively. HyperQ is fine-tuned on 20,000 prompt-response pairs, compared with 200,000 for the classical baselines. These findings support token-conditioned circuit emission as a tractable architectural approach to quantum-augmented language modelling.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.24657",
+      "pdf_url": "https://arxiv.org/pdf/2609.24657",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.24657",
+      "scraped_at": "2026-09-23T03:41:40.083100"
+    },
+    "scraped_date": "2026-09-23"
+  },
+  {
+    "title": "GAE: Learning a Geometry-Native Latent Space for 3D-Consistent World Generation",
+    "paper_url": "https://huggingface.co/papers/2609.24981",
+    "authors": [],
+    "stars": "120",
+    "details": {
+      "title": "GAE: Learning a Geometry-Native Latent Space for 3D-Consistent World Generation",
+      "abstract": "We introduce GAE — Geometry-Native Autoencoder, which enables video generation directly in a geometry-native latent space. Built from geometry foundation model features, this compact representation serves as a shared space for perception and generation. With camera trajectories as conditioning, the video model generates a unified state that jointly decodes into RGB, depth, and 3D geometry. Project page: https://jiah-cloud.github.io/GAE.github.io/ GitHub: https://github.com/TencentARC/GAE-GeometricAutoEncoder",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.24981",
+      "pdf_url": "https://arxiv.org/pdf/2609.24981",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/TencentARC/GAE-GeometricAutoEncoder"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.24981",
+      "scraped_at": "2026-09-23T03:41:41.715909"
+    },
+    "scraped_date": "2026-09-23"
+  },
+  {
+    "title": "From Pattern Recognizers to Personalized Companions: A Survey of Large Language Models in Mental Health",
+    "paper_url": "https://huggingface.co/papers/2609.25186",
+    "authors": [
+      "Chiyuan Ma",
+      "Yingjian Zou",
+      "Qianning Wang",
+      "Yucheng Zhou",
+      "He Hu"
+    ],
+    "stars": "126",
+    "details": {
+      "title": "From Pattern Recognizers to Personalized Companions: A Survey of Large Language Models in Mental Health",
+      "abstract": "💌",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.25186",
+      "pdf_url": "https://arxiv.org/pdf/2609.25186",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Emo-gml/Awesome-Mental-Health-LLMs"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.25186",
+      "scraped_at": "2026-09-23T03:41:43.377809"
+    },
+    "scraped_date": "2026-09-23"
+  },
+  {
+    "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
+    "paper_url": "https://huggingface.co/papers/2609.26796",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
+      "abstract": "Problem: KV caching and parallel decoding in diffusion LLMs are usually studied separately, and repeated KV-cache reads and writes make inference memory-bound, which limits real speedups. Flash-Cache: A fused Triton kernel combines QKV projection, RoPE, and cache writes. Block-scheduled attention handles variable query lengths across a batch. Only newly decoded tokens and a fixed set of the most-attended decoded tokens are refreshed. Flash-Verify: A training-free draft-and-verify scheme in which the dLLM acts as its own drafter and verifier. It needs no auxiliary model and uses a two-view causal attention mask, which roughly doubles the tokens accepted per step. Results (LLaDA-1.5): 148–211 tokens/s, 22.3x –148.2x faster than greedy decoding without caching, and 5.1x/11.0x faster than Elastic-Cache on GSM8K/HumanEval. It also uses about 48% less GPU memory than Fast-dLLM and scales to batch size 32.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.26796",
+      "pdf_url": "https://arxiv.org/pdf/2609.26796",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/VILA-Lab/Flash-dLLM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.26796",
+      "scraped_at": "2026-09-23T03:41:45.039479"
+    },
+    "scraped_date": "2026-09-23"
+  },
+  {
+    "title": "Bellman Policy Optimization",
+    "paper_url": "https://huggingface.co/papers/2609.15987",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Bellman Policy Optimization",
+      "abstract": "Bellman Policy Optimization (BPO) is a critic-free policy optimization method derived from Policy Mirror Descent (PMD) and the Bellman equations. For autoregressive generation with terminal rewards, we use the Bellman equations to reformulate PMD into a trajectory-level objective that avoids estimating intermediate state values. We prove that the reformulated objective has the same unique optimal solution as the original PMD objective. By approximating the trajectory-level objective, we derive the BPO loss, which replaces the importance-sampling ratio in Group-Relative Policy Optimization (GRPO) with a smoothed ratio of complementary token probabilities.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.15987",
+      "pdf_url": "https://arxiv.org/pdf/2609.15987",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.15987",
+      "scraped_at": "2026-09-23T03:41:46.608244"
+    },
+    "scraped_date": "2026-09-23"
+  },
+  {
+    "title": "Ovis-Embedding: Pushing the Frontiers of Universal Omni-Modal Embeddings",
+    "paper_url": "https://huggingface.co/papers/2609.25165",
+    "authors": [
+      "Embedding Team"
+    ],
+    "stars": "19",
+    "details": {
+      "title": "Ovis-Embedding: Pushing the Frontiers of Universal Omni-Modal Embeddings",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.25165",
+      "pdf_url": "https://arxiv.org/pdf/2609.25165",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ATH-MaaS/Ovis-Omni-Embedding"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.25165",
+      "scraped_at": "2026-09-23T03:41:48.196731"
+    },
+    "scraped_date": "2026-09-23"
+  },
+  {
+    "title": "Recursive self-improvement of AI research agents",
+    "paper_url": "https://huggingface.co/papers/2609.26457",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Recursive self-improvement of AI research agents",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.26457",
+      "pdf_url": "https://arxiv.org/pdf/2609.26457",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.26457",
+      "scraped_at": "2026-09-23T03:41:49.781868"
+    },
+    "scraped_date": "2026-09-23"
+  },
+  {
+    "title": "All-in-One Multilingual Scene Text Recognition with Script-aware Mixture-of-Experts",
+    "paper_url": "https://huggingface.co/papers/2609.24058",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "All-in-One Multilingual Scene Text Recognition with Script-aware Mixture-of-Experts",
+      "abstract": "All-in-one multilingual scene text recognition with a script-aware sparse MoE: top-2 script-aligned experts plus a shared expert, trained on TextMuSS-10M (10 scripts, 229 languages). 82.06% on TextMuSS-Bench; CC-OCR F1 65.71% → 80.89%.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.24058",
+      "pdf_url": "https://arxiv.org/pdf/2609.24058",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/YesianRohn/ScriptMoE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.24058",
+      "scraped_at": "2026-09-23T03:41:51.357951"
+    },
+    "scraped_date": "2026-09-23"
+  },
+  {
+    "title": "Geometric and Semantic Coupling for Interaction Understanding in 3D Scenes",
+    "paper_url": "https://huggingface.co/papers/2609.25247",
+    "authors": [
+      "Xingyi Yang",
+      "Hanyang Kong"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Geometric and Semantic Coupling for Interaction Understanding in 3D Scenes",
+      "abstract": "A door and its handle tell a shared story. We use their physical relationship to understand what moves, how it moves, and where to interact.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.25247",
+      "pdf_url": "https://arxiv.org/pdf/2609.25247",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/HyoKong/Segment-Snap"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.25247",
+      "scraped_at": "2026-09-23T03:41:52.904621"
+    },
+    "scraped_date": "2026-09-23"
   }
 ]
