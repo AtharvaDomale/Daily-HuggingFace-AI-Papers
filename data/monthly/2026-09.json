@@ -6959,5 +6959,225 @@
       "scraped_at": "2026-09-23T03:41:52.904621"
     },
     "scraped_date": "2026-09-23"
+  },
+  {
+    "title": "The Past Frames the Future: Memory for Autoregressive Video Generation",
+    "paper_url": "https://huggingface.co/papers/2609.28466",
+    "authors": [
+      "Hongfei Zhang",
+      "Wen-Jie Shu",
+      "Disen Lan",
+      "Rongjin Guo",
+      "Harold Haodong Chen"
+    ],
+    "stars": "30",
+    "details": {
+      "title": "The Past Frames the Future: Memory for Autoregressive Video Generation",
+      "abstract": "The first survey on memory mechanisms for long video generation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.28466",
+      "pdf_url": "https://arxiv.org/pdf/2609.28466",
+      "github_links": [
+        "https://github.com/HaroldChen19/Awesome-AR-Video-Memory",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.28466",
+      "scraped_at": "2026-09-24T03:32:51.233199"
+    },
+    "scraped_date": "2026-09-24"
+  },
+  {
+    "title": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
+    "paper_url": "https://huggingface.co/papers/2609.26780",
+    "authors": [],
+    "stars": "70",
+    "details": {
+      "title": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
+      "abstract": "Excited to share our work on SpeakerMem-R1 ! Recent benchmarks reveal a surprising gap: general-purpose memory systems struggle with multi-party conversations and can even underperform simple BM25 retrieval in some settings. These limitations highlight two core challenges: message attribution and state reconstruction in long-term multi-party dialogue. We introduce SpeakerMem-R1 , a speaker-centered dual-track memory framework designed to address these challenges. 🧠 Two complementary memory tracks : keep speaker-labeled messages verbatim while organizing derived states into person- and group-level memories. At query time, combine both to recover evidence across people, events, and time. 📝 Learning to write better memories : SpeakerLevenshtein rewards and speaker-conditioned RL improve a Qwen2.5-3B Writer from 57.38% to 68.20% downstream QA accuracy in a controlled evaluation, with retrieval and answering frozen. 📊 Stronger results across three multi-party benchmarks : SpeakerMem-R1 improves accuracy over the strongest evaluated memory/retrieval baselines by 3.3, 12.4, and 9.4 percentage points on GroupMemBench, SocialMemBench, and EverMemBench, respectively. In our comparison with EverMind-AI’s publicly reported EverMemBench leaderboard , it achieves 62.33% accuracy , leading the compared systems, including EverOS ( 60.08% ) and RippleMem ( 54.75% ). Project page: https://2022hpsk.github.io/SpeakerMemR1/ Code: https://github.com/2022hpsk/SpeakerMemR1 We’d love to hear your thoughts and discuss the work!",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.26780",
+      "pdf_url": "https://arxiv.org/pdf/2609.26780",
+      "github_links": [
+        "https://github.com/2022hpsk/SpeakerMemR1",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.26780",
+      "scraped_at": "2026-09-24T03:32:53.039500"
+    },
+    "scraped_date": "2026-09-24"
+  },
+  {
+    "title": "RewardVerse: Rubric-Guided Policy Optimization for Video Reward Modeling",
+    "paper_url": "https://huggingface.co/papers/2609.22947",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "RewardVerse: Rubric-Guided Policy Optimization for Video Reward Modeling",
+      "abstract": "Reinforcement learning (RL) is vital for optimizing video generation models, with a robust reward model (RM) serving as the cornerstone. However, existing video reward models often produce unstable scalar scores because they directly map complex, subjective video quality into a single score without explicit evaluation criteria. This leads to scalar drift, where the scoring scale collapses or shifts across different prompts, making the reward unreliable for RL. Drawing inspiration from professional human annotation engineering, we address this problem with RewardVerse, a rubric-based video reward framework that introduces a dynamic rubric as an intermediate representation between the evaluation query and the scorer. Instead of unconstrained direct scoring, RewardVerse first generates explicit evaluation criteria and then performs rubric-guided scoring, providing a stable semantic anchor that mitigates scalar drift. To efficiently optimize this collaborative pipeline, we propose Rubric-Guided Policy Optimization (RGPO), a two-stage training algorithm. RGPO first warms up the scorer using self-evolving seed rubrics and then jointly optimizes the rubric generator to produce query-adaptive evaluation criteria while continuously aligning the scorer with human ratings. Extensive experiments on the 16-dimensional EvalVerse benchmark and external datasets demonstrate that RewardVerse mitigates scalar drift, achieves state-of-the-art performance on both pointwise and pairwise evaluation, and provides a robust and interpretable reward signal for RL in video generation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.22947",
+      "pdf_url": "https://arxiv.org/pdf/2609.22947",
+      "github_links": [
+        "https://github.com/2kxx/RewardVerse",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.22947",
+      "scraped_at": "2026-09-24T03:32:55.333774"
+    },
+    "scraped_date": "2026-09-24"
+  },
+  {
+    "title": "Schrödinger's Code Repository: Have LLMs Learned SWE-bench or Memorized It?",
+    "paper_url": "https://huggingface.co/papers/2609.27891",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "Schrödinger's Code Repository: Have LLMs Learned SWE-bench or Memorized It?",
+      "abstract": "What if a code repository were like Schrödinger’s cat—its final form only revealed when the agent opens the box? We introduce Schrödinger’s Repository : at evaluation time, the same SWE task “collapses” into a behavior-equivalent but unfamiliar repository representation, testing whether coding agents truly understand the code—or simply recognize what they have seen before.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.27891",
+      "pdf_url": "https://arxiv.org/pdf/2609.27891",
+      "github_links": [
+        "https://github.com/cslsolow/Schrodinger-Repo",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.27891",
+      "scraped_at": "2026-09-24T03:32:57.102184"
+    },
+    "scraped_date": "2026-09-24"
+  },
+  {
+    "title": "PACT: From Credit Assignment to Critic Alignment",
+    "paper_url": "https://huggingface.co/papers/2609.26355",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PACT: From Credit Assignment to Critic Alignment",
+      "abstract": "We characterize token-level credit through three conditions that uniquely determine its form, and use this perspective to understand RLOO, GAE, and on-policy distillation. These insights lead to PACT, which improves critic learning and alignment with the updated policy, with gains on both mathematical reasoning and coding tasks. Happy to discuss the theory, experiments, or implementation—feel free to comment here or reach me at fujiayan@live.com .",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.26355",
+      "pdf_url": "https://arxiv.org/pdf/2609.26355",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.26355",
+      "scraped_at": "2026-09-24T03:32:58.906615"
+    },
+    "scraped_date": "2026-09-24"
+  },
+  {
+    "title": "WhatWorkedBench: Benchmarking Experimental Understanding in AI Agents",
+    "paper_url": "https://huggingface.co/papers/2609.27490",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "WhatWorkedBench: Benchmarking Experimental Understanding in AI Agents",
+      "abstract": "Benchmarking Experimental Understanding in AI Agents",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.27490",
+      "pdf_url": "https://arxiv.org/pdf/2609.27490",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/EthanNing/WhatWorkedBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.27490",
+      "scraped_at": "2026-09-24T03:33:00.645961"
+    },
+    "scraped_date": "2026-09-24"
+  },
+  {
+    "title": "Hunyuan-A13B Technical Report",
+    "paper_url": "https://huggingface.co/papers/2609.27284",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Hunyuan-A13B Technical Report",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.27284",
+      "pdf_url": "https://arxiv.org/pdf/2609.27284",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.27284",
+      "scraped_at": "2026-09-24T03:33:02.343666"
+    },
+    "scraped_date": "2026-09-24"
+  },
+  {
+    "title": "Verifiable Hidden Dynamics Play: Generating Agentic RL Environments from Solved Mechanisms",
+    "paper_url": "https://huggingface.co/papers/2609.27321",
+    "authors": [
+      "Yang Su",
+      "Jianhong Tu",
+      "Xudong Guo",
+      "Wei Fan",
+      "Xinjie Shen"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Verifiable Hidden Dynamics Play: Generating Agentic RL Environments from Solved Mechanisms",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.27321",
+      "pdf_url": "https://arxiv.org/pdf/2609.27321",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.27321",
+      "scraped_at": "2026-09-24T03:33:04.044784"
+    },
+    "scraped_date": "2026-09-24"
+  },
+  {
+    "title": "InternW0: A Foundational Physical World Model for Efficient Real-World Interactions",
+    "paper_url": "https://huggingface.co/papers/2609.27656",
+    "authors": [
+      "Zhangzheng Tu",
+      "Zhe Cao",
+      "Ganlin Yang",
+      "Yao Mu",
+      "Jisong Cai"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "InternW0: A Foundational Physical World Model for Efficient Real-World Interactions",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.27656",
+      "pdf_url": "https://arxiv.org/pdf/2609.27656",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.27656",
+      "scraped_at": "2026-09-24T03:33:05.760550"
+    },
+    "scraped_date": "2026-09-24"
+  },
+  {
+    "title": "MemBodied: Recurrent Associative Memory for Vision-Language-Action Models",
+    "paper_url": "https://huggingface.co/papers/2609.28256",
+    "authors": [
+      "Jianfei Yang",
+      "Raphael Yee",
+      "Bryce Goh",
+      "Navonil Majumder",
+      "Tej Deep Pala"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "MemBodied: Recurrent Associative Memory for Vision-Language-Action Models",
+      "abstract": "Recurrent Associative Memory for VLAs",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.28256",
+      "pdf_url": "https://arxiv.org/pdf/2609.28256",
+      "github_links": [
+        "https://github.com/declare-lab/MemBodied",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.28256",
+      "scraped_at": "2026-09-24T03:33:07.523370"
+    },
+    "scraped_date": "2026-09-24"
   }
 ]
