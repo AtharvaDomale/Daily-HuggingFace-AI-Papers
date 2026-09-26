@@ -1178,5 +1178,484 @@
       "scraped_at": "2026-09-25T03:50:06.969983"
     },
     "scraped_date": "2026-09-25"
+  },
+  {
+    "title": "Training Object Permanence in World Models",
+    "paper_url": "https://huggingface.co/papers/2609.28654",
+    "authors": [],
+    "stars": "12",
+    "details": {
+      "title": "Training Object Permanence in World Models",
+      "abstract": "Object permanence is the foundation of human cognition. Here we present a very complete data infrastructure that's composed of a very diverse set of object permanence cognitive tasks, and with each task we have a Blender-based data generator that allows one to scale each task to at least 10,000 diverse data samples. We have shown the effectiveness of this data infrastructure in training video models and world models with object permanence.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.28654",
+      "pdf_url": "https://arxiv.org/pdf/2609.28654",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/hokindeng/object-permanence"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.28654",
+      "scraped_at": "2026-09-26T03:55:37.645705"
+    },
+    "scraped_date": "2026-09-26"
+  },
+  {
+    "title": "Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
+    "paper_url": "https://huggingface.co/papers/2609.29845",
+    "authors": [
+      "Nikita Dragunov",
+      "Matvey Mikhalchuk",
+      "Anton Korznikov",
+      "razzant",
+      "pashocles"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
+      "abstract": "Your LLM can hold two thoughts at once: when you average the embeddings of two unrelated texts, the model predicts the next token for both streams at the same time. This superposition comes from the architecture itself, since pretraining erodes it and a light fine-tune restores it. We show how to separate it again and decode two continuations from a single forward pass.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.29845",
+      "pdf_url": "https://arxiv.org/pdf/2609.29845",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.29845",
+      "scraped_at": "2026-09-26T03:55:39.479992"
+    },
+    "scraped_date": "2026-09-26"
+  },
+  {
+    "title": "WanPE: Towards Cinematic Prompt Enhancement for Modern Text-to-Video Generation",
+    "paper_url": "https://huggingface.co/papers/2609.30221",
+    "authors": [
+      "Kai Zhu",
+      "Zixun Fang",
+      "Ziyun Dai",
+      "Yawen Shao",
+      "Yubo Zhu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "WanPE: Towards Cinematic Prompt Enhancement for Modern Text-to-Video Generation",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API CAPE-T2V: Captioner-Anchored Prompt Enhancement toward Two-Sided Conditioning Alignment in Text-to-Video Generation (2026) PersonaShot: Benchmarking Person-Centric Narrative Continuity in Multi-Shot Video Generation (2026) InteracVid: Building a Real Interactive Audio-Visual Response Dataset from Live-Chat Videos (2026) VI-Bench: Benchmarking Prompt Inversion from AIGC Videos (2026) CamPilot: A Multi-Agent Cinematic Assistant for Camera-Controlled Movie Generation (2026) The Missing Temporal Link: Temporal Context Routing for Script-Driven Audio-Video Generation (2026) From Evaluation to Enhancement: Benchmarking and Improving Think-with-Video Reasoning for Video Generative Models (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.30221",
+      "pdf_url": "https://arxiv.org/pdf/2609.30221",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.30221",
+      "scraped_at": "2026-09-26T03:55:41.382073"
+    },
+    "scraped_date": "2026-09-26"
+  },
+  {
+    "title": "OmniEcho: Spatial Audio Understanding for Embodied Agents",
+    "paper_url": "https://huggingface.co/papers/2609.23407",
+    "authors": [],
+    "stars": "11",
+    "details": {
+      "title": "OmniEcho: Spatial Audio Understanding for Embodied Agents",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.23407",
+      "pdf_url": "https://arxiv.org/pdf/2609.23407",
+      "github_links": [
+        "https://github.com/PKU-VaLuE-Lab/OmniEcho",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.23407",
+      "scraped_at": "2026-09-26T03:55:43.230938"
+    },
+    "scraped_date": "2026-09-26"
+  },
+  {
+    "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2609.28416",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
+      "abstract": "Agent-Editing World Model (AEWM) rethinks world modeling for long-horizon LLM agents by shifting the objective from predicting environment observations to modeling how an agent’s reasoning and actions affect future task progress. AEWM combines Action Judge, which identifies critical, exploratory, and noisy decisions before execution, with State Revision, which directly edits noisy reasoning–action continuations. Its inference framework, EditAct, integrates these capabilities with real environment interaction and consistently improves agent performance across Search, Terminal, and Software Engineering tasks. AEWM achieves 70.5% macro-F1 on the Action Judge benchmark, outperforming the strongest frontier baseline by 10.6 points, while EditAct improves average performance by 3.2–6.7 points across six benchmarks and three agent backbones.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.28416",
+      "pdf_url": "https://arxiv.org/pdf/2609.28416",
+      "github_links": [
+        "https://github.com/RUCAIBox/Agent-Editing-World-Model",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.28416",
+      "scraped_at": "2026-09-26T03:55:45.054110"
+    },
+    "scraped_date": "2026-09-26"
+  },
+  {
+    "title": "Parts-of-Speech as Emergent Categories in SAE Latent Space",
+    "paper_url": "https://huggingface.co/papers/2609.29362",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Parts-of-Speech as Emergent Categories in SAE Latent Space",
+      "abstract": "Hi all! This is our new paper on how Sparse Autoencoders encode parts of speech, which was accepted at EMNLP 2026 🎉 SAE latents are often described as monosemantic features, so we tested whether linguistic categories like POS map onto individual latents. Using SAE activations from LLaMA-3-8B on the UD English GUM treebank, we found that: POS is highly recoverable from SAE activations , and not just through lexical memorisation. There's no one-latent-per-tag mapping . Each POS relies on a compact group of latents, and just 498 of them (out of ~130k) are enough for multi-class POS classification. Closed classes (DET, PRON, CCONJ) use small, focused groups, while open classes (NOUN, ADJ, ADV) spread over broader ones. These groups are stable on held-out data but overlap across related categories, so they also pick up surface form and context. In short: SAEs capture POS in a distributed, category-dependent way rather than through atomic grammatical features. Code: https://github.com/colinglab/pos-sae-latents Data: https://huggingface.co/datasets/colinglab/UD_English-GUM-Latents_Meta-Llama-3-8B_L30 Curious to hear what people think about the paper and wether this would hold up under causal interventions or with other SAE architectures!",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.29362",
+      "pdf_url": "https://arxiv.org/pdf/2609.29362",
+      "github_links": [
+        "https://github.com/colinglab/pos-sae-latents",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.29362",
+      "scraped_at": "2026-09-26T03:55:46.845071"
+    },
+    "scraped_date": "2026-09-26"
+  },
+  {
+    "title": "Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents",
+    "paper_url": "https://huggingface.co/papers/2609.29892",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents",
+      "abstract": "Qwen-Planner-Agent",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.29892",
+      "pdf_url": "https://arxiv.org/pdf/2609.29892",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.29892",
+      "scraped_at": "2026-09-26T03:55:48.666818"
+    },
+    "scraped_date": "2026-09-26"
+  },
+  {
+    "title": "IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis",
+    "paper_url": "https://huggingface.co/papers/2609.29444",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis",
+      "abstract": "IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis Deep-search agents that follow the ReAct recipe inherit two coupled bottlenecks: one policy has to plan, use evidence, and synthesize at the same time, while its context keeps growing until it suffocates — over 59% of ReAct trajectories on BrowseComp never even terminate within a 64K budget. Figure 1: multi-agent specialization, summarization-based context refreshment, and IterSynth — capability decoupling on a single shared policy. We propose IterSynth , a role-decoupled, summary-based paradigm that alternates two roles instantiated by a single shared parameter set : Planner — identifies unresolved information needs and formulates the next sub-query from a compact, persistent state; Synthesizer — integrates newly retrieved evidence into that summary, making summary updates a learned part of the search policy instead of an external compression module. Figure 2: the Planner–Synthesizer loop; each iteration reasons over a bounded, reconstructed workspace. To train it we introduce Role-Decoupled Policy Optimization (RDPO) : a terminal outcome reward augmented with turn-level rubric rewards, with group-relative advantages computed independently per role — more precise credit assignment with no algorithmic change beyond GRPO. Figure 3: RDPO blends the terminal outcome reward with per-turn rubric scores and normalizes advantages role by role. Results: IterSynth-8B reaches 50.7 avg on GAIA-text-only, xBench-2505/2510, BrowseComp and BrowseComp-ZH — +4.2 over the strongest prior ≤8B agent, and competitive with several 30B-scale agents at less than one third of the parameters. Training recipe ablation: SFT 44.1 → outcome-only GRPO 48.9 → RDPO 50.7 . Replacing the Planner with an untrained model costs ~41 points, showing that role decoupling is what turns the architecture into reliable long-horizon capability. It also works as a model-agnostic prompting paradigm : zero-shot gains over ReAct of +5.5 (Claude-4.5-Opus) and +4.5 (DeepSeek-V3.1) on average, up to +10.0 on BrowseComp-ZH. The bounded, reconstructed context translates into fewer search rounds (7–8 vs 12+), a <5% context-exhaustion rate, and 13–15% lower inference time than an equivalent dual-model deployment. Code: https://github.com/Tencent/IterSynth Feedback very welcome!",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.29444",
+      "pdf_url": "https://arxiv.org/pdf/2609.29444",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Tencent/IterSynth"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.29444",
+      "scraped_at": "2026-09-26T03:55:50.486052"
+    },
+    "scraped_date": "2026-09-26"
+  },
+  {
+    "title": "RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation",
+    "paper_url": "https://huggingface.co/papers/2609.29028",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation",
+      "abstract": "We introduce RGBD20K, a large-scale benchmark for RGB-D semantic segmentation with 20,000 RGB-D image pairs and 160 fine-grained semantic categories. We also provide high-quality re-annotated ground truth to address annotation noise in existing benchmarks. In addition, we propose Score-Purified Fusion (SPF), which achieves state-of-the-art performance across evaluated RGB-D benchmarks. The dataset and pretrained models are publicly available.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.29028",
+      "pdf_url": "https://arxiv.org/pdf/2609.29028",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ShaohuaDong2021/RGBD20K"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.29028",
+      "scraped_at": "2026-09-26T03:55:52.263550"
+    },
+    "scraped_date": "2026-09-26"
+  },
+  {
+    "title": "Rufus-Air: An Open LLM Post-Training Recipe",
+    "paper_url": "https://huggingface.co/papers/2609.29421",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Rufus-Air: An Open LLM Post-Training Recipe",
+      "abstract": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipeline of eight stages: SFT, Reasoning RL, Coding RL, Instruction-Following RL, General Agent, Coding Agent, Search Agent, and RLHF. We document the data, reward design, infrastructure, stage order, and stagewise results needed to reproduce the recipe. Stages progress from basic to advanced capabilities and from hard, verifiable rewards to softer judge-based signals. Training builds on open-source components and public data, much of it used as released, without new human annotation or an in-house distillation teacher. Our main findings are that (i) diverse, high-quality SFT establishes a strong capability floor; (ii) difficulty filtering keeps RL prompts within a productive learning range; (iii) reward reliability provides a practical principle for ordering stages; and (iv) infrastructure and engineering choices are part of the recipe, not just an implementation detail. Rufus-Air improves over the official GLM-4.5-Air post-trained release and is competitive with similarly sized open models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.29421",
+      "pdf_url": "https://arxiv.org/pdf/2609.29421",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.29421",
+      "scraped_at": "2026-09-26T03:55:54.083550"
+    },
+    "scraped_date": "2026-09-26"
+  },
+  {
+    "title": "Coding Agents for Generalized Task and Motion Planning Problems",
+    "paper_url": "https://huggingface.co/papers/2609.30233",
+    "authors": [],
+    "stars": "11",
+    "details": {
+      "title": "Coding Agents for Generalized Task and Motion Planning Problems",
+      "abstract": "How far can you get by asking a coding agent to write a robot policy? 🤖 We've seen some amazing one-off demos of Astra in robotics, but we need more systematic evaluations of these capabilities. We've spent months doing just that: 98,000 evaluations across 28 simulated environments, with clear access rules and some surprisingly clever physical reasoning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.30233",
+      "pdf_url": "https://arxiv.org/pdf/2609.30233",
+      "github_links": [
+        "https://github.com/tomsilver/robocode",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.30233",
+      "scraped_at": "2026-09-26T03:55:55.929763"
+    },
+    "scraped_date": "2026-09-26"
+  },
+  {
+    "title": "Neural Spectral Capacity: Measuring and Designing Architectures from Network Specification Alone",
+    "paper_url": "https://huggingface.co/papers/2609.23087",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Neural Spectral Capacity: Measuring and Designing Architectures from Network Specification Alone",
+      "abstract": "TL;DR: NSC scores a Transformer architecture from its specification alone — no model instantiation, no data, no gradients — and because the score is additive across layers, maximizing it under a budget is an exact dynamic program rather than a black-box search. Under standard random initialization, the Marchenko–Pastur law turns each weight matrix's singular-value spectrum into a closed-form function of its shape and initialization variance. Summing over the network gives NSC; a bounded-knapsack DP (NSC-DP) then returns the architecture that globally maximizes it under a parameter or FLOPs budget. Ranking: τ = 0.695 on FlexiBERT (500 BERT architectures), vs. 0.485 for #Params and 0.635 for W-PCA. On pairs whose #Params differ by <10%, NSC keeps τ = 0.505 where #Params collapses to 0.082. Search: a Transformer-XL architecture on WikiText-103 that beats the human-designed baseline (23.087 vs. 23.279 PPL), found in 2 seconds on one CPU core. Pruning: LLaMA-7B → 5.7B, best across eight commonsense tasks without any calibration data , ~5,900× faster than the strongest training-free proxy baseline. Accepted at NeurIPS 2026. Code: https://github.com/Optima-CityU/neural-spectral-capacity",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.23087",
+      "pdf_url": "https://arxiv.org/pdf/2609.23087",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Optima-CityU/neural-spectral-capacity"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.23087",
+      "scraped_at": "2026-09-26T03:55:57.734797"
+    },
+    "scraped_date": "2026-09-26"
+  },
+  {
+    "title": "AgentKernel: The Trust-Native Agentic Operating System",
+    "paper_url": "https://huggingface.co/papers/2609.29647",
+    "authors": [
+      "Shuo Li",
+      "Lepeng Zhao",
+      "Qiuyang Zhan",
+      "Sheng Guo",
+      "Zhenhua Zou"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AgentKernel: The Trust-Native Agentic Operating System",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API InterSAGE: The Secure and Verifiable Interoperability Protocol for An Internet of Agents (2026) Hardware Keystores for AI Agent Signing Workflows: A Zero-Trust MCP Enforcement Architecture (2026) When the Agent Becomes the Kernel: A Systematization of Security on the Path to AI-Native Operating Systems (2026) Delegation Without Trust: An Empirical Gap Analysis of Identity, Authorization, and Runtime Governance in Multi-Agent LLM Systems (2026) Trustworthy Agentic AI: A Comprehensive Cybersecurity and Systems Survey on Threat Landscapes, Defense Architectures, and Open Challenges (2026) Rethinking Agent Security as a Networking Problem (2026) Blockchain Empowered Trustworthy Agent Networks: Foundations, Taxonomy, and Future Directions (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.29647",
+      "pdf_url": "https://arxiv.org/pdf/2609.29647",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.29647",
+      "scraped_at": "2026-09-26T03:55:59.517099"
+    },
+    "scraped_date": "2026-09-26"
+  },
+  {
+    "title": "Learning to Discover Interesting Mathematics",
+    "paper_url": "https://huggingface.co/papers/2609.28603",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Learning to Discover Interesting Mathematics",
+      "abstract": "LLMs are now proving results that have resisted mathematicians for decades. Finding interesting theorems without human guidance is a new bottleneck. We show that we can teach an LLM to do it! TL;DR: → a quantitative notion of interestingness → 4.3× higher interestingness → a self-expanding discovery loop",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.28603",
+      "pdf_url": "https://arxiv.org/pdf/2609.28603",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.28603",
+      "scraped_at": "2026-09-26T03:56:01.278556"
+    },
+    "scraped_date": "2026-09-26"
+  },
+  {
+    "title": "PUBG Ally: A Conversational Embodied Agent as an AI Teammate",
+    "paper_url": "https://huggingface.co/papers/2609.29837",
+    "authors": [
+      "Eunchong Kim",
+      "Dongwon Kim",
+      "Dohyun Kim",
+      "Byeongju Kim",
+      "Beomsoo Kim"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "PUBG Ally: A Conversational Embodied Agent as an AI Teammate",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API AI for Games in the Foundation Model Era (2026) \"What Can I Do for You'': How Should AI Companions Provide Assistance to Players in Virtual Reality Games (2026) GameDirector: Decoupling Gameplay Logic from Rendering for Player-Configurable Game World Models (2026) WorldMind: Decoupled Game World Model for State-Aware NPC Behavior (2026) \"Pharos Night: Crown Pursuit\": An AI-Native Deck-Building and Tactical Arena Game Design Based on Multi-Agent Systems (2026) Homebot: A Personal AI Agent for Conversational Home Assistance and Automation (2026) AffAdapt: AFFect-driven ADAPTive AI Personas for Seamless Conversations (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.29837",
+      "pdf_url": "https://arxiv.org/pdf/2609.29837",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.29837",
+      "scraped_at": "2026-09-26T03:56:03.066045"
+    },
+    "scraped_date": "2026-09-26"
+  },
+  {
+    "title": "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
+    "paper_url": "https://huggingface.co/papers/2609.30199",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Can LLMs Discover Scientific Laws in Real and Parallel Worlds? (2026) ScienceIDE: Turning World's Scientific Codebase into Agent Learnable Environments (2026) Scaling Scientific Discovery Environments for Turn-Level Agentic RL (2026) The Greatness of Science Cannot Be Planned: Agentic Auto-Research is Fuzz Testing (2026) K-Bench: measuring model performance on real scientific agent requests (2026) TruthInsightBench: An Evidence-Grounded Benchmark for Automated Evaluation of Open-Ended Scientific Discovery Agents (2026) S3Gym: Can LLMs Turn Self-Testing and Self-Judging into Self-Improvement? (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.30199",
+      "pdf_url": "https://arxiv.org/pdf/2609.30199",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.30199",
+      "scraped_at": "2026-09-26T03:56:04.907163"
+    },
+    "scraped_date": "2026-09-26"
+  },
+  {
+    "title": "AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation",
+    "paper_url": "https://huggingface.co/papers/2609.29816",
+    "authors": [],
+    "stars": "13",
+    "details": {
+      "title": "AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation",
+      "abstract": "AV-GRPO, to our knowledge, is the first GRPO framework designed for joint audio-video generation models. It enables full-parameter training or LoRA training of the 22B LTX-2.3 model on just 8 A800 GPUs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.29816",
+      "pdf_url": "https://arxiv.org/pdf/2609.29816",
+      "github_links": [
+        "https://github.com/zhiyuxu03/AV-GRPO",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.29816",
+      "scraped_at": "2026-09-26T03:56:06.701734"
+    },
+    "scraped_date": "2026-09-26"
+  },
+  {
+    "title": "World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
+    "paper_url": "https://huggingface.co/papers/2609.29964",
+    "authors": [
+      "Bohan Zhou",
+      "Jianchong Su",
+      "Yifan Chang",
+      "Haojian Huang",
+      "Yehang Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Show-Harness: Just a VLM Agent Can Play Robots (2026) In-Context Robot Learning with VLM Agents (2026) ETA: A New Agentic Paradigm for Embodied Tasks (2026) 2AM: Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-Horizon Manipulation (2026) Transferring the Intelligence of VLMs to Robotic Control (2026) Teach and Grow: An Agent-Centered Architecture for General Robot Learning (2026) Self-Evolving Embodied Agents via Skill-Harness Evolution (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.29964",
+      "pdf_url": "https://arxiv.org/pdf/2609.29964",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.29964",
+      "scraped_at": "2026-09-26T03:56:08.466816"
+    },
+    "scraped_date": "2026-09-26"
+  },
+  {
+    "title": "Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures",
+    "paper_url": "https://huggingface.co/papers/2609.29429",
+    "authors": [
+      "Lida Zhao",
+      "Yuekang Li",
+      "Gelei Deng",
+      "Yi Liu",
+      "Ruoqi Guo"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures",
+      "abstract": "The first empirical study of RLCD models like Jev on detecting AI alignment failures.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.29429",
+      "pdf_url": "https://arxiv.org/pdf/2609.29429",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/sumleo/RLCDAlignBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.29429",
+      "scraped_at": "2026-09-26T03:56:10.591464"
+    },
+    "scraped_date": "2026-09-26"
+  },
+  {
+    "title": "DeltaWAM: Delta World Action Models for Bimanual Manipulation",
+    "paper_url": "https://huggingface.co/papers/2609.28811",
+    "authors": [
+      "Qilin Wang",
+      "Zeyu Zhang",
+      "Haokai Jiang",
+      "Zishang Xiang",
+      "coldyan"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "DeltaWAM: Delta World Action Models for Bimanual Manipulation",
+      "abstract": "Work in progress, authors are preparing the code 😉",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.28811",
+      "pdf_url": "https://arxiv.org/pdf/2609.28811",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/AIGeeksGroup/DeltaWAM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.28811",
+      "scraped_at": "2026-09-26T03:56:12.379002"
+    },
+    "scraped_date": "2026-09-26"
+  },
+  {
+    "title": "ViRDM: Taming Representation Distribution Matching for Few-Step Causal Video Generation",
+    "paper_url": "https://huggingface.co/papers/2609.28923",
+    "authors": [
+      "Huaizu Jiang",
+      "Yang Zhou",
+      "Chun-Hao P. Huang",
+      "Chongjian Ge",
+      "cr8br0ze"
+    ],
+    "stars": "7",
+    "details": {
+      "title": "ViRDM: Taming Representation Distribution Matching for Few-Step Causal Video Generation",
+      "abstract": "Hi everyone! 👋 We’re sharing ViRDM : A recipe for RDM-based few-step causal video post-training, along with the pitfalls and lessons learned (single-GPU training supported 💥) Inspired by the impressive results of FD Loss and RDM in image generation, we explored whether the same idea could work for few-step causal video generation: matching a precomputed representation distribution to update only the generator, without the online diffusion teacher and learned critic commonly used in DMD-based methods such as Self Forcing and Causal Forcing. The idea was straightforward, but getting it to work for video generation came with quite a few challenges 🥹 🔹 Making training fit in memory. Compared with one-step image generation, multi-step causal video generation has a much longer backward path, and backpropagating through the video VAE is particularly memory-intensive. We had to tackle OOM before anything else. 🔹 Rethinking population size and initialization. Image RDM uses very large generated populations and can start directly from a pretrained bidirectional model. For few-step causal video generation, we couldn’t simply carry over these choices. 🔹 Closing the motion dynamic gap. Even with video representation features, matching the feature distributions alone did not fully resolve the degraded dynamics issue. After working through ablated experiments, we put the working configurations, practical lessons, and pitfalls into a recipe. Hopefully, this saves some time for the community in exploring RDM for video generation 🔧 Our final four-step causal recipe achieves better results than the DMD-based baselines evaluated in our paper, with substantially less post-training time and lower peak memory: ✅ 84.87 VBench Total ✅ Only 20 generator updates ✅ Approximately 2 hours of post-training on 8×A100 . The recipe also supports training on a single 80GB A100 , a setup that is challenging for common DMD pipelines 💥 We’re releasing: ✔ Training and inference code ✔ Model weights and precomputed reference artifacts ✔ Reproduction configurations and evaluation scripts ✔ A single-80GB-GPU training launcher 🌐 Website & demos: https://neu-vi.github.io/ViRDM/ 💻 GitHub: https://github.com/neu-vi/ViRDM 📄 Paper: https://arxiv.org/abs/2609.28923 Many thanks to the authors of FD Loss, RDM, Self Forcing, Causal Forcing, and the other foundational works we build on 🙏 Stars 🌟, PRs, issues, and discussions are all welcome. We’d love to hear from others experimenting with ViRDM!🤗",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.28923",
+      "pdf_url": "https://arxiv.org/pdf/2609.28923",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/neu-vi/ViRDM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.28923",
+      "scraped_at": "2026-09-26T03:56:14.169099"
+    },
+    "scraped_date": "2026-09-26"
+  },
+  {
+    "title": "Rate-distortion optimization for full-reference image quality metrics via stochastic Hessian estimates",
+    "paper_url": "https://huggingface.co/papers/2609.30077",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Rate-distortion optimization for full-reference image quality metrics via stochastic Hessian estimates",
+      "abstract": "RDO with full-reference image quality assessment metrics.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.30077",
+      "pdf_url": "https://arxiv.org/pdf/2609.30077",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/sf219/RDO_IQA_FR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.30077",
+      "scraped_at": "2026-09-26T03:56:15.996433"
+    },
+    "scraped_date": "2026-09-26"
   }
 ]
