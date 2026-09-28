@@ -8427,5 +8427,153 @@
       "scraped_at": "2026-09-27T04:06:26.469271"
     },
     "scraped_date": "2026-09-27"
+  },
+  {
+    "title": "FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders",
+    "paper_url": "https://huggingface.co/papers/2609.31620",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders",
+      "abstract": "FuseReg: Mitigating the Reconstruction–Generation Gap in RAEs Representation Autoencoders fuse features from multiple encoder layers into a shared latent space. However, reconstruction and generation prefer different parts of the hierarchy: Decoder: prefers shallow, pixel-rich features. DiT: prefers deeper, more structured semantic features. This creates a reconstruction–generation mismatch. FuseReg FuseReg replaces fixed layer fusion with random layer-subset sampling during training . For a sampled subset (S), z S = 1 ∣ S ∣ ∑ k ∈ S h k . z_S = \\frac{1}{|S|}\\sum_{k\\in S} h_k. z S ​ = ∣ S ∣ 1 ​ k ∈ S ∑ ​ h k ​ . The normalized sampling keeps the latent mean unchanged: E [ z S ∣ x ] = h ˉ . \\mathbb{E}[z_S \\mid x] = \\bar h. E [ z S ​ ∣ x ] = h ˉ . Under a linear squared-loss surrogate, we further show that random subset sampling explicitly regularizes cross-layer disagreement . In short, FuseReg discourages models from relying too strongly on any particular layer composition. Robust across layer fusions A single FuseReg decoder remains effective across full, sparse, and even single-layer inputs, while fixed-fusion decoders degrade strongly outside their training fusion. Generation improvements FuseReg can be applied independently to the decoder and DiT. Decoder replacement only: unguided gFID 3.01 → 2.21 DiT-Base, joint FuseReg: unguided gFID 13.96 → 9.93 DiT-XL: unguided gFID 2.91 → 2.38 The same trend also holds across different pretrained encoder families. One decoder, many layer combinations The same FuseReg decoder can reconstruct from different layer subsets without retraining, including sparse and single-layer inputs. What changes? FuseReg distributes reconstruction information more evenly across encoder depth: lower dependence on individual layers; stronger reconstruction from single layers; more stable representations under changing layer compositions. Instead of searching for one optimal fusion, FuseReg trains the model to remain robust across a distribution of layer fusions.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.31620",
+      "pdf_url": "https://arxiv.org/pdf/2609.31620",
+      "github_links": [
+        "https://github.com/Hongyang-Du/FuseReg",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.31620",
+      "scraped_at": "2026-09-28T04:07:18.372159"
+    },
+    "scraped_date": "2026-09-28"
+  },
+  {
+    "title": "InternW0-Δ: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data",
+    "paper_url": "https://huggingface.co/papers/2609.31394",
+    "authors": [
+      "Tenghui Wang",
+      "Kaiwen Song",
+      "Baole Fang",
+      "Zizun Li",
+      "Xingyu Miao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "InternW0-Δ: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.31394",
+      "pdf_url": "https://arxiv.org/pdf/2609.31394",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.31394",
+      "scraped_at": "2026-09-28T04:07:20.192110"
+    },
+    "scraped_date": "2026-09-28"
+  },
+  {
+    "title": "Game Arena: Strategic LLM Evaluation in Competitive Environments",
+    "paper_url": "https://huggingface.co/papers/2609.31473",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Game Arena: Strategic LLM Evaluation in Competitive Environments",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.31473",
+      "pdf_url": "https://arxiv.org/pdf/2609.31473",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.31473",
+      "scraped_at": "2026-09-28T04:07:22.050889"
+    },
+    "scraped_date": "2026-09-28"
+  },
+  {
+    "title": "Block Sparse Attention with Log-Linear Complexity",
+    "paper_url": "https://huggingface.co/papers/2609.31093",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Block Sparse Attention with Log-Linear Complexity",
+      "abstract": "arxiv.org/abs/2609.31093",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.31093",
+      "pdf_url": "https://arxiv.org/pdf/2609.31093",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.31093",
+      "scraped_at": "2026-09-28T04:07:23.757836"
+    },
+    "scraped_date": "2026-09-28"
+  },
+  {
+    "title": "SLCA-GRPO: Resolving Cross-Segment Credit Misattribution in Tool-Calling RL",
+    "paper_url": "https://huggingface.co/papers/2609.29050",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "SLCA-GRPO: Resolving Cross-Segment Credit Misattribution in Tool-Calling RL",
+      "abstract": "Tool-calling RL often broadcasts one trajectory-level GRPO advantage across both tool-call and summary tokens, allowing summary rewards to distort tool decisions. SLCA-GRPO (Segment-Locked Credit Assignment) normalizes tool and summary rewards independently within each rollout group and routes each advantage only to its own tokens, with no additional rollout cost. Across three Qwen backbones and in- and out-of-distribution tool-calling benchmarks, it improves task success while reducing tool turns.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.29050",
+      "pdf_url": "https://arxiv.org/pdf/2609.29050",
+      "github_links": [
+        "https://github.com/SLCA-GRPO/SLCA-GRPO",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.29050",
+      "scraped_at": "2026-09-28T04:07:25.478879"
+    },
+    "scraped_date": "2026-09-28"
+  },
+  {
+    "title": "Morphometric Imitation: From Morphology and Contact Aware Hand Retargeting to Sim-to-Real Visuomotor Policy",
+    "paper_url": "https://huggingface.co/papers/2609.28660",
+    "authors": [],
+    "stars": "10",
+    "details": {
+      "title": "Morphometric Imitation: From Morphology and Contact Aware Hand Retargeting to Sim-to-Real Visuomotor Policy",
+      "abstract": "One human demonstration. Any multi-fingered hand. Zero-shot sim-to-real visuomotor policy. All videos are 1x speed fully autonomous, and we include continuous, uncut trials.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.28660",
+      "pdf_url": "https://arxiv.org/pdf/2609.28660",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/tsadja/morphometric"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.28660",
+      "scraped_at": "2026-09-28T04:07:27.225778"
+    },
+    "scraped_date": "2026-09-28"
+  },
+  {
+    "title": "AgentWorld: Benchmarking Long-Horizon Collaboration of Multi-agent LLMs",
+    "paper_url": "https://huggingface.co/papers/2609.31590",
+    "authors": [
+      "Yuan Yuan",
+      "Jin Mo Yang",
+      "Young Min Cho",
+      "Yusen Zhang",
+      "Raphael Shu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AgentWorld: Benchmarking Long-Horizon Collaboration of Multi-agent LLMs",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.31590",
+      "pdf_url": "https://arxiv.org/pdf/2609.31590",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.31590",
+      "scraped_at": "2026-09-28T04:07:28.886518"
+    },
+    "scraped_date": "2026-09-28"
   }
 ]
