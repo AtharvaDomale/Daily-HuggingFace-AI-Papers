@@ -1871,5 +1871,710 @@
       "scraped_at": "2026-09-30T04:25:30.435758"
     },
     "scraped_date": "2026-09-30"
+  },
+  {
+    "title": "Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI",
+    "paper_url": "https://huggingface.co/papers/2609.38143",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI",
+      "abstract": "ArXiv: https://arxiv.org/pdf/2609.38143 Code: https://github.com/qiancheng-apodex/MetaSkill-AI4AI",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.38143",
+      "pdf_url": "https://arxiv.org/pdf/2609.38143",
+      "github_links": [
+        "https://github.com/qiancheng-apodex/MetaSkill-AI4AI",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.38143",
+      "scraped_at": "2026-10-01T04:35:31.659760"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "The Teacher Is a Direction, Not a Destination: Extrapolating RL-Induced Representation Residuals in On-Policy Distillation",
+    "paper_url": "https://huggingface.co/papers/2609.36484",
+    "authors": [
+      "vaynetian",
+      "Donghanark",
+      "renweijie",
+      "chenmeijia30",
+      "LH2101"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "The Teacher Is a Direction, Not a Destination: Extrapolating RL-Induced Representation Residuals in On-Policy Distillation",
+      "abstract": "We introduce RIDE (RL-Induced Direction Extrapolation), an on-policy distillation method that treats an RL-trained teacher as a direction for learning. On student-generated trajectories, RIDE computes the layerwise hidden-state residual between the teacher and its pre-RL checkpoint, extrapolates targets beyond the teacher along that residual, and trains the student by representation regression. Across four base/teacher pairs, RIDE consistently improves over representation matching and output-space extrapolation, with mean performance approaching or exceeding the teacher on each pair. The paper includes an optimization interpretation, mechanistic analyses, and ablations. Our project page is linked below; training code and checkpoints are planned for release upon publication.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.36484",
+      "pdf_url": "https://arxiv.org/pdf/2609.36484",
+      "github_links": [
+        "https://github.com/xixixixixxxx/RIDE",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.36484",
+      "scraped_at": "2026-10-01T04:35:33.447537"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents",
+    "paper_url": "https://huggingface.co/papers/2609.40325",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents",
+      "abstract": "We introduce WorldAuditBench, a benchmark with 213 tasks across 13 interactive 3D environments that tests whether multimodal agents can explore, investigate, and identify world anomalies.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.40325",
+      "pdf_url": "https://arxiv.org/pdf/2609.40325",
+      "github_links": [
+        "https://github.com/UCSB-NLP-Chang/WorldAuditBench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.40325",
+      "scraped_at": "2026-10-01T04:35:35.279464"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "More Choices, Fewer Decisions: Ordinal-Scale Bias in JEV-like Direct-Decision Models",
+    "paper_url": "https://huggingface.co/papers/2609.38827",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "More Choices, Fewer Decisions: Ordinal-Scale Bias in JEV-like Direct-Decision Models",
+      "abstract": "Direct-decision models turn text into low-latency structured labels and scores, making them attractive for classification and automatic evaluation. Yet reliability requires more than accuracy: a model must also use the ordinal decision scale supplied by the user faithfully. We analyze JEV~1.13 and three open KEV models. Our investigation begins with ANLI, where JEV assigns 38.8% of all predictions and 51.3% of errors to Neutral despite 74.95% accuracy, nearly balanced gold labels, and balanced candidate positions. Across 36 ordinal datasets, final decisions use only 67--76% of the effective gold support, versus 87--102% on four nominal tasks. Randomizing candidate order weakens but does not remove this compression. Holding items and source scores fixed while balancing gold support and positions, we refine scales from K=2 to 14; utilization falls for every model and reaches 26--75% at K=14, although candidate probabilities remain broad for most models. Targeted BA-LoRA post-training raises gold-relative utilization from roughly 47% to 86% on eight supervised scales at both KEV sizes, showing that the compression is learned and modifiable rather than an immutable architectural limit. We call this ordinal scale-utilization bias: decision-stage candidate-space compression distinct from accuracy, gold imbalance, fixed position, and candidate count alone. The code and data are available at this https URL",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.38827",
+      "pdf_url": "https://arxiv.org/pdf/2609.38827",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.38827",
+      "scraped_at": "2026-10-01T04:35:36.991257"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "EvoDuet: Bilevel Co-Evolution of Web Searching and Task Solving for Scientific Discovery",
+    "paper_url": "https://huggingface.co/papers/2609.40340",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "EvoDuet: Bilevel Co-Evolution of Web Searching and Task Solving for Scientific Discovery",
+      "abstract": "Excited to introduce  🎶 EvoDuet: co-evolving web search and task solutions to push the state of the art across 8 scientific optimization tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.40340",
+      "pdf_url": "https://arxiv.org/pdf/2609.40340",
+      "github_links": [
+        "https://github.com/Open-Galapagos/EvoDuet",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.40340",
+      "scraped_at": "2026-10-01T04:35:38.734072"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "Agent Error Dataset: Scaling 50,000 Error--Diagnosis Pairs for Failure Analysis and Error-Aware Post-Training",
+    "paper_url": "https://huggingface.co/papers/2609.40111",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Agent Error Dataset: Scaling 50,000 Error--Diagnosis Pairs for Failure Analysis and Error-Aware Post-Training",
+      "abstract": "An unsuccessful LLM agent rollout contains more information than its final reward: the observations available to the agent, the actions it chose, and the environment’s responses. Reusing this experience for learning requires identifying a decision to revise and testing a concrete alternative. We introduce the Agent Error Dataset (AED), comprising 50,228 error–diagnosis pairs from 9,961 source tasks across 33 environments, 19harness families and 23 policy models in text-based agent systems. We retain source traces and execution metadata to support cross-setting failure analysis and re-diagnosis without repeating the original rollout. Our five-stage Agentic Error-to-Training (AET) pipeline collects natural failures, generates diagnoses and proposed corrections, and checks them against recorded evidence. Where replay is supported, we compare corrections with original-action retries from the same checkpoint under matched execution settings. We then construct separate training views for diagnosis and actor recovery. Across 3,062 matched replay pairs, first-proposal corrections raise verifier pass rates from 18.4% to 51.1%, a gain of 32.7 percentage points. Using a separately frozen diagnosis release, full-diagnosis fine-tuning on1,656 source tasks raises Qwen3-8B’s exact-step agreement with internal teacher labels from 47.2% to 63.6%, averaged over three seeds on a 943-case holdout. The strongest prompted reference in this comparison scores54.7%; mean agreement improves at each of four increasing training-set sizes. In a single-seed comparison of actor-training recipes, action-only repair training scores 6.67 percentage points higher on WebShop-lite than success-only training.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.40111",
+      "pdf_url": "https://arxiv.org/pdf/2609.40111",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.40111",
+      "scraped_at": "2026-10-01T04:35:40.486068"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "Systematically Exploring the Capabilities of GPT-6 Astra as Embodied Policies",
+    "paper_url": "https://huggingface.co/papers/2609.38537",
+    "authors": [],
+    "stars": "560",
+    "details": {
+      "title": "Systematically Exploring the Capabilities of GPT-6 Astra as Embodied Policies",
+      "abstract": "Systematically Exploring the Capabilities of GPT-6 Astra as Embodied Policies",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.38537",
+      "pdf_url": "https://arxiv.org/pdf/2609.38537",
+      "github_links": [
+        "https://github.com/anonymous-report-421/GPT-as-Policy",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.38537",
+      "scraped_at": "2026-10-01T04:35:42.317110"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "DC-SAE: Deep Compression Semantic Autoencoder for Faster Diffusion Convergence",
+    "paper_url": "https://huggingface.co/papers/2609.39222",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "DC-SAE: Deep Compression Semantic Autoencoder for Faster Diffusion Convergence",
+      "abstract": "High-compression tokenizers are essential for scaling latent image generative models. However, aggressive compression creates a fundamental tradeoff between reconstruction fidelity and generation efficiency: high compression image encoder always increases the learning difficulty of diffusion training, resulting in slow model convergence. Recent representation autoencoders speed up the diffusion training by improving the latent feature's expressive capability by replacing VAE encoders with pretrained semantic encoders, yet they are typically limited to moderate compression and lose pixel-level details necessary for faithful reconstruction. To achieve both high compression and fast diffusion training, we propose DC-SAE, a Decoupled Compact Semantic Autoencoder designed for high-compression image generation with accelerated diffusion model convergence. DC-SAE consists of two key components: (1) a macro-level architecture design that leverages semantic encoders to enable higher compression ratios, and (2) a pixel-level encoder that preserves low-level details, ensuring high-fidelity image reconstruction. We empirically demonstrate that DC-SAE performs strongly on image generation tasks, achieving both compact latent representations and efficient training dynamics. Specifically, on the ImageNet dataset with 512×512 resolution, DC-SAE achieves 32× spatial compression, with 29.79 PSNR and 3.37 gFID, substantially outperforming the previous state-of-the-art high-compression tokenizer baselines DC-AE by 13.5% and 54.9% on PSNR and gFID, respectively, maintaining comparable throughput and faster diffusion model training convergence. Beyond class-conditional generation, a 1.6B-parameter DiT using DC-SAE achieves 0.84 on GenEval and 86.007 on DPG-Bench for text-to-image generation at 1024×1024 resolution.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.39222",
+      "pdf_url": "https://arxiv.org/pdf/2609.39222",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/DAGroup-PKU/DCSAE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.39222",
+      "scraped_at": "2026-10-01T04:35:44.137280"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering",
+    "paper_url": "https://huggingface.co/papers/2609.38177",
+    "authors": [],
+    "stars": "16",
+    "details": {
+      "title": "Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.38177",
+      "pdf_url": "https://arxiv.org/pdf/2609.38177",
+      "github_links": [
+        "https://github.com/cvlab-kaist/Imagine3D-LLM",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.38177",
+      "scraped_at": "2026-10-01T04:35:45.871735"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement",
+    "paper_url": "https://huggingface.co/papers/2609.38721",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement",
+      "abstract": "Hi everyone, first author here! 👋 Can multimodal models improve image generation by learning from their own feedback? We introduce UniEvo-VL , an on-policy self-distillation training recipe for multimodal model self-improvement. Building on Qwen-image-2512, we improve GenEval from 0.747 to 0.808 . We also investigate the limits of this approach: stronger external critics suggest room for further improvement, while mixed text-rendering results show that gains do not transfer uniformly across tasks. We’d love to hear your thoughts: what makes a model’s own feedback reliable enough to learn from? Happy to discuss the method and experiments!",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.38721",
+      "pdf_url": "https://arxiv.org/pdf/2609.38721",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.38721",
+      "scraped_at": "2026-10-01T04:35:47.661860"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "AIM: Agentic Idea Management for Automated Research",
+    "paper_url": "https://huggingface.co/papers/2609.38445",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AIM: Agentic Idea Management for Automated Research",
+      "abstract": "Implementing and evaluating research ideas is expensive. As agents generate more candidates, choosing what to explore and learning from previous experiments becomes increasingly important. Numerous approaches have been proposed for automated research. We distinguish two ways to organize those approaches: solution-driven search, which searches directly over executable implementations, and idea-driven search, which explicitly selects research directions before delegating their implementation. In this work, we introduce the Agentic Idea Manager (AIM), a framework that makes managing these ideas a central part of the research process. This is what AIM does: 💡 Organizes evolving ideas into semantic clusters and estimates their promise using experimental evidence. 🔍 Balances exploration of new directions with refinement of promising ones. 🔧 Audits whether implementations faithfully realize their intended ideas. ⚙️ Adaptively allocates the experimental budget across parallel search branches. Across 10 AutoLab tasks, AIM improves average scores over the strongest baseline by: • +1.6 percentage points on System Optimization. • +4.9 percentage points on long-horizon Model Development & CUDA. It also reaches the best baseline performance up to 3.1x faster in wall-clock time. On top of empirical results, our theoretical analysis examines when idea-level search is useful, highlighting the value of broader coverage when plausible directions to study into are sparse.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.38445",
+      "pdf_url": "https://arxiv.org/pdf/2609.38445",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.38445",
+      "scraped_at": "2026-10-01T04:35:49.439503"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "RSIGame: Autonomous Agentic Game Development with Recursive Self-improvement",
+    "paper_url": "https://huggingface.co/papers/2609.39045",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "RSIGame: Autonomous Agentic Game Development with Recursive Self-improvement",
+      "abstract": "🎮 From game generation to autonomous game improvement. Recent advances in large language models have made automatic game generation increasingly feasible, yet reliably improving generated games beyond a playable version remains challenging. We introduce RSIGame, an autonomous agentic game development framework with recursive self-improvement. RSIGAME organizes development into complementary local and global loops, and internalize experience through training. Across 140 tasks, 2 engines, and 5 generators, RSIGame consistently improves game quality. After internalizing verified development experience, Qwen3.8-27B reaches GPT-5.5-level one-shot quality with 11× fewer generation tokens than before fine-tuning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.39045",
+      "pdf_url": "https://arxiv.org/pdf/2609.39045",
+      "github_links": [
+        "https://github.com/WenyiWU0111/RSIGame",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.39045",
+      "scraped_at": "2026-10-01T04:35:51.223829"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "RoboCoach: World Models as Active Coaches for Compositional Robot Skills",
+    "paper_url": "https://huggingface.co/papers/2609.39685",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "RoboCoach: World Models as Active Coaches for Compositional Robot Skills",
+      "abstract": "Long-horizon robot manipulation reuses skills across many task compositions, but improving these compositions with additional end-to-end demonstrations is costly. A practical self-improving system must decide both what to teach next and where to apply that supervision. We present ROBOCOACH, a world-model-guided coaching framework that uses imagined failures to guide demonstration requests and expert updates. Its Route-Imagine-Diagnose-Improve (RIDI) loop executes reusable skill experts inside COACHWORLD, our shared action-conditioned world model, and uses a progress judge to record the first subtask that fails to complete. Aggregated records select which subtask demonstrations to acquire and which expert adapters to update. Across two simulation suites and two real-robot platforms, imagined and deployed success correlate over 22 task-policy pairs (rho = 0.840). Controlled comparisons show that our coaching method outperforms matched baselines under matched data budgets and update schedules. With only 150 additional subtask demonstrations, success rises from 13.3% to 75.0% on Franka and from 40.0% to 83.8% on AgileX. The coached experts also transfer to four held-out compositions, achieving an average success of 35.0%, compared with 0% for a shared-policy baseline updated with uniformly acquired demonstrations. Together, these results show that world models can serve as active coaches, turning imagined failures into targeted supervision for modular policy improvement. Project Page: this https https://robocoach-ai.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.39685",
+      "pdf_url": "https://arxiv.org/pdf/2609.39685",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/RoboCoach-AI/CoachWorld"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.39685",
+      "scraped_at": "2026-10-01T04:35:52.996490"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "ThinkV2V: Unleashing the Reasoning Capability of MLLMs for Instruction-Guided Video Editing",
+    "paper_url": "https://huggingface.co/papers/2609.38541",
+    "authors": [
+      "Guisheng Liu",
+      "Hao Yang",
+      "Fan Zhang",
+      "Haoyang He",
+      "Donghao Zhou"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "ThinkV2V: Unleashing the Reasoning Capability of MLLMs for Instruction-Guided Video Editing",
+      "abstract": "Paper: https://arxiv.org/pdf/2609.38541 Code: https://github.com/Correr-Zhou/ThinkV2V Model (ThinkV2V-5B): https://huggingface.co/donghao-zhou/ThinkV2V-5B Dataset #1 (OpenVE-HQ-1M): https://huggingface.co/datasets/donghao-zhou/OpenVE-HQ-1M Dataset #2 (ThinkV2V-150K): https://huggingface.co/datasets/donghao-zhou/ThinkV2V-150K Benchmark (ThinkV2V-Bench): https://huggingface.co/datasets/donghao-zhou/ThinkV2V-Bench",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.38541",
+      "pdf_url": "https://arxiv.org/pdf/2609.38541",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Correr-Zhou/ThinkV2V"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.38541",
+      "scraped_at": "2026-10-01T04:35:55.082797"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
+    "paper_url": "https://huggingface.co/papers/2609.38288",
+    "authors": [],
+    "stars": "10",
+    "details": {
+      "title": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
+      "abstract": "Homepage: https://github.com/VectorSpaceLab/AREX-2 Models: https://huggingface.co/collections/BAAI/arex-2",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.38288",
+      "pdf_url": "https://arxiv.org/pdf/2609.38288",
+      "github_links": [
+        "https://github.com/VectorSpaceLab/AREX-2",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.38288",
+      "scraped_at": "2026-10-01T04:35:56.837349"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "DuoOPD: Learning from Joint Teacher-Student Outcomes for Multi-Task On-Policy Distillation",
+    "paper_url": "https://huggingface.co/papers/2609.33711",
+    "authors": [
+      "Rui Li",
+      "Linan Yue",
+      "Heng Zhou",
+      "Weibo Gao",
+      "Ao Yu"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "DuoOPD: Learning from Joint Teacher-Student Outcomes for Multi-Task On-Policy Distillation",
+      "abstract": "Hi HF community! 👋 Co-author here. A stronger teacher can still get questions wrong that its student gets right. Standard on-policy distillation can push down correct student responses, and these teacher–student disagreements vary across tasks. We introduce DuoOPD , which uses verified student correctness to determine whether to reinforce or suppress a response, then checks the teacher’s outcome to decide how: Teacher correct, student wrong: give the teacher its verified solution as context when scoring the student’s failed response. Student correct, teacher wrong: reinforce the entire successful response with a positive weight shared within the task. Both correct or both wrong: reinforce or suppress the response, with teacher preferences determining the strength. On biology, chemistry, and physics, DuoOPD improves macro accuracy over OPD by 2.58 percentage points on Qwen3 and 5.98 on Llama . Ablations show that handling disagreements accounts for most of the gain. We also see improvements on mixtures covering scientific calculation, instruction following, and code generation. Paper Code, configs, and cached teacher responses are available on GitHub . We’d love to hear your thoughts, especially on extending this to tasks with noisy or partial verification!",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.33711",
+      "pdf_url": "https://arxiv.org/pdf/2609.33711",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/YongYuanDeAo/DuoOPD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.33711",
+      "scraped_at": "2026-10-01T04:35:58.603151"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "A2Z GameSpec-Bench: How Faithfully Can Coding Agents Generate Games from Game Design Specifications?",
+    "paper_url": "https://huggingface.co/papers/2609.39564",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "A2Z GameSpec-Bench: How Faithfully Can Coding Agents Generate Games from Game Design Specifications?",
+      "abstract": "A2Z GameSpec-Bench evaluates how faithfully coding agents build complete games from 100 long-form Game Design Documents. Games may compile and execute successfully but fail to adhere to the intended design, especially when multiple requirements interact. We introduce Dependency-Aware Contracts that capture requirements and their prerequisite relationships, and agent-generated Test Policies that exercise them through scenario-based replay and adaptive playtesting. Source-code inspection, replay, and playtesting collectively assess the same requirements across implementation, rendered behavior, and player interactions. Our evaluations show that current agents struggle to satisfy interdependent requirements across code and actual play. The fixed contracts enable consistent comparison across agents, while requirement-level evidence pinpoints design violations that source-code checks alone may overlook.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.39564",
+      "pdf_url": "https://arxiv.org/pdf/2609.39564",
+      "github_links": [
+        "https://github.com/krafton-ai/a2z-gamespec-bench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.39564",
+      "scraped_at": "2026-10-01T04:36:00.409734"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "Decompose Radicals, Then Reward: Fine-Grained Inspection for Accurate Chinese Text Rendering",
+    "paper_url": "https://huggingface.co/papers/2609.37569",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Decompose Radicals, Then Reward: Fine-Grained Inspection for Accurate Chinese Text Rendering",
+      "abstract": "IDSpect: fine-grained structural credit from  Ideographic Description Sequences (IDS). Big gains on LongText / GenTextEval.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.37569",
+      "pdf_url": "https://arxiv.org/pdf/2609.37569",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.37569",
+      "scraped_at": "2026-10-01T04:36:02.117136"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "Thinking Outside the Box: Can Language Models Rely on External Guidance Selectively?",
+    "paper_url": "https://huggingface.co/papers/2609.39578",
+    "authors": [
+      "Fang kong",
+      "Yuxin Tao",
+      "Jinhang Zuo",
+      "Boyuan Wang",
+      "Minghan Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Thinking Outside the Box: Can Language Models Rely on External Guidance Selectively?",
+      "abstract": "Thinking Outside the Box: Can Language Models Rely on External Guidance Selectively? Language model agents increasingly rely on human designed workflows to solve complex tasks. Good workflows can substantially improve performance by providing useful intermediate steps and structure. But what happens when the workflow is worse than the model itself? As models become more capable, blindly following external guidance can become a limitation rather than an advantage. A strong agent should benefit from useful guidance while being able to override guidance when it becomes unreliable. We call this ability thinking outside the box . Measuring Selective Reliance To study this behavior, we introduce Box² Bench . The idea is simple: we keep the model and task fixed , but vary the reliability of the workflow. We compare how the same model performs with no workflow, a helpful workflow, and a misleading workflow. This lets us separate two abilities that are usually mixed together: Can the model use good guidance? And can it resist bad guidance? Across models and tasks, we find a consistent pattern. Reliable workflows often improve performance, but misleading workflows can still substantially hurt it. Even capable models remain sensitive to unreliable external guidance. Learning to Think Outside the Box We next ask whether selective reliance can be learned. We train two open weight models using only bad workflows , while reserving good workflows for evaluation. Counterfactual supervised fine tuning makes models substantially more robust to misleading guidance. Outcome based reinforcement learning can further shift their behavior toward making greater use of helpful workflows. Importantly, the models never see good workflows during training. Their improvement therefore suggests that training can shape a more general strategy for deciding how much to trust external guidance. Beyond Workflows This behavior is not limited to workflows. Models trained in our setting also improve when interacting with other forms of fallible external information. We observe better peer correction in multi agent reasoning and greater robustness to corrupted memory . These results point to a broader capability: agents need not only to use external information, but also to regulate their reliance on it. Toward More Reliable Agents Most agent evaluations ask whether a task was solved. Box² Bench asks an additional question: Does the model know when to listen? As agents increasingly operate with workflows, memories, tools, and other agents, selective reliance on fallible external information may become an important dimension of reliability that task performance alone does not capture. Sometimes the best use of a box is knowing when to step outside it.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.39578",
+      "pdf_url": "https://arxiv.org/pdf/2609.39578",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.39578",
+      "scraped_at": "2026-10-01T04:36:03.902090"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "Game-Guided Skill Discovery through Self-Play for Playable Agent Control",
+    "paper_url": "https://huggingface.co/papers/2609.40137",
+    "authors": [
+      "Sehoon Ha",
+      "Xue Bin Peng",
+      "Jeonghwan Kim",
+      "Seungeun Rho"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Game-Guided Skill Discovery through Self-Play for Playable Agent Control",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.40137",
+      "pdf_url": "https://arxiv.org/pdf/2609.40137",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.40137",
+      "scraped_at": "2026-10-01T04:36:05.602157"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model",
+    "paper_url": "https://huggingface.co/papers/2609.40358",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.40358",
+      "pdf_url": "https://arxiv.org/pdf/2609.40358",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.40358",
+      "scraped_at": "2026-10-01T04:36:07.316289"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "WUSH-KV: KV Cache Quantization with Data-Adaptive Transforms",
+    "paper_url": "https://huggingface.co/papers/2609.38121",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "WUSH-KV: KV Cache Quantization with Data-Adaptive Transforms",
+      "abstract": "KV cache memory and bandwidth costs grow with context length and batch size, which limits efficient long-context inference. To address this bottleneck, we introduce WUSH-KV for low-bit KV-cache quantization. It adapts WUSH, which constructs a data-aware transform from the second-order statistics of both factors in a matrix product to reduce quantization error. WUSH-KV uses calibration data to construct separate key and value transforms, with the value transform folded into the model weights and the key transform applied after RoPE. The transforms can be paired with clipped quantizers. For one such quantizer, QuEST INT, we show that, under mild assumptions, the WUSH transform is near-optimal. With this quantizer, WUSH-KV reduces layerwise reconstruction error and achieves the lowest end-to-end perplexity among other tested transforms. For end-to-end evaluation, we integrate WUSH-KV into SGLang using OSCAR-style percentile-clipped affine quantization. At 2-bit, WUSH-KV performs comparably to or outperforms the OSCAR transform across all evaluated models and downstream tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.38121",
+      "pdf_url": "https://arxiv.org/pdf/2609.38121",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.38121",
+      "scraped_at": "2026-10-01T04:36:09.048874"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "PivotOPD: Learning to Recover from Pivotal Mistakes in Multi-Turn Agents",
+    "paper_url": "https://huggingface.co/papers/2609.40285",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PivotOPD: Learning to Recover from Pivotal Mistakes in Multi-Turn Agents",
+      "abstract": "TL;DR: Multi-turn agents don't fail everywhere. Most failed rollouts hinge on one early pivotal mistake , the mistake is usually recoverable, and standard on-policy distillation can't repair it because the student never samples the recovery action. PivotOPD fixes that by concentrating distillation at the pivotal turn and the turns right after it. What we found (ALFWorld, oracle replay of failed Qwen3 8B–235B rollouts) 59% of failed rollouts contain a pivotal mistake, an action that moves the agent farther from the goal, at a median of turn 8–12 out of 30. The rest of the episode is wasted. Correcting that one turn lifts replayed success from 8% to 59%. Leaving the mistake in place and guiding only the two turns after it still reaches 58%. Standard OPD cuts overall failures from 79% to 56%, but failures after a pivotal mistake barely move (51% → 49%). The recovery action stays below 1% probability, so a group of 8 rollouts never samples it: no sample, no learning signal. How PivotOPD works Pivot detection. A teacher model reads each rollout in hindsight, picks candidate turns and names a gold action at each; a turn is pivotal when the student's action disagrees. The teacher then names a recovery action for each of the next K turns. It only ever names actions. Preventive distillation (reverse KL). The student's own response at the pivotal turn is re-scored against a privileged self-teacher , the frozen student hinted with the gold action. Recovery distillation (forward KL). The self-teacher writes recovery responses from the post-mistake state, and the unhinted student is trained on them. Forward KL is mass-covering, so it places probability on actions the student would never sample on its own. Both terms enter a single PPO update alongside standard group-based RL. Results Against 13 baselines on ALFWorld, WebShop and Search-based QA, PivotOPD wins all 8 per-benchmark averages for both Qwen3-1.7B and Qwen3-8B students (+5.5% / +5.9% over the strongest baseline on ALFWorld / Search-based QA with the 1.7B student). Replayed from the same 72 pivotal mistakes, it recovers 72.7% of the time vs. 8.3% for the base model and 20.3% for standard OPD, and in the fewest turns. It doesn't need a bigger teacher: with Qwen3-8B as its own teacher it's still best on all three benchmarks (+3.9% on average). The same principle extends to software engineering: a Nemotron-3.5 student with a Nemotron-3-Super teacher gains +3.2 points on SWE-Bench Verified, where standard OPD gains +0.2. 🌐 Project page: https://research.nvidia.com/labs/lpr/pivotopd/",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.40285",
+      "pdf_url": "https://arxiv.org/pdf/2609.40285",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.40285",
+      "scraped_at": "2026-10-01T04:36:10.907983"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "Working Around the Compute Ceiling: Byte-Exact Memory in Galahad Makes LLM Reading a One-Time Cost LLM Reading a One-Time Cost",
+    "paper_url": "https://huggingface.co/papers/2609.39358",
+    "authors": [
+      "Sietse Schelpe"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Working Around the Compute Ceiling: Byte-Exact Memory in Galahad Makes LLM Reading a One-Time Cost LLM Reading a One-Time Cost",
+      "abstract": "We built Galahad because we believe AI should have lasting memory that isn’t limited to what fits in a GPU’s VRAM. When models and agents repeatedly process the same context, we can end up paying for work they’ve already done. We wanted to keep that work useful. Galahad is a persistent memory layer for AI models and agents. It saves reusable model state—the KV cache—to disk, so matching context can be restored instead of computed again, including after a restart. It also provides document memory for applications to store and retrieve relevant knowledge, with integrations for inference stacks such as vLLM and SGLang",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.39358",
+      "pdf_url": "https://arxiv.org/pdf/2609.39358",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.39358",
+      "scraped_at": "2026-10-01T04:36:12.606074"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "Decision-Oriented Recommendation Reranking: An Empirical Study of Jev",
+    "paper_url": "https://huggingface.co/papers/2609.40241",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Decision-Oriented Recommendation Reranking: An Empirical Study of Jev",
+      "abstract": "Can decision-oriented models be a better fit for recommendation reranking than general-purpose LLMs? In this work, we study Jev, a decision-oriented “System One Model,” for personalized recommendation reranking. Across multiple domains and candidate-set sizes, we find that Jev occupies a distinct quality–latency operating regime compared with recommendation-specific models and pointwise/listwise LLM rerankers. We hope this study sparks more discussion around decision-oriented models for recommendation and other structured ranking tasks. Would love to hear your thoughts!",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.40241",
+      "pdf_url": "https://arxiv.org/pdf/2609.40241",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.40241",
+      "scraped_at": "2026-10-01T04:36:14.312946"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "SkillSeek: Revisiting Agent Skill Retrieval at Marketplace Scale",
+    "paper_url": "https://huggingface.co/papers/2609.38822",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SkillSeek: Revisiting Agent Skill Retrieval at Marketplace Scale",
+      "abstract": "Accepted at AACL-IJCNLP 2026, Findings. An Agent Skill is a folder with instructions that teach an AI agent one specific job. The agent reads a short summary of each skill at startup and opens the full text only when the job looks relevant. Public collections of these skills have grown fast. The most recent crawl counts 238,180 across the major distribution platforms. So anyone can write a skill. Choosing which ones to load is the hard part. ❌ Loading everything does not work. At a pool of only 192 skills, loading all of them leaves the agent exactly at its no-skill score while raising token use by 59%. ❌ Loading loosely does not work either. One relevant skill lifts the agent by 17.8 points. Two or three lift it by 18.6. Four or more drop it back to 5.9. So a retriever has to be right, not merely reasonable. The answer the field has settled on is to let the agent retrieve for itself: rewrite the query, look through candidates, and combine them into a new skill for the task. That answer has a real strength. On one task about splitting tensors across GPUs, the agent found two partly relevant skills and merged them into something neither one contained. A fixed retriever cannot do that. 🔍 So we asked how often that strength decides the outcome. We ran 11 retrieval methods across 4 settings, two pool sizes crossed with two language models, on an 89-task benchmark where a test suite decides whether the agent succeeded. 📊 Results. Pass rate is the share of the 89 tasks solved, so higher is better. ✅ BM25 alone, a keyword-matching method from the 1990s, matches or beats the agentic loop on 3 of the 4 settings ✅ A small cross-encoder closes the gap on the fourth, reaching the same 0.442 pass rate ✅ Cost per run: USD 27.41 with no skills, USD 27.54 with our retriever, USD 51.30 with the agentic loop ✅ Our retriever runs on CPU and spends zero language model tokens We are not arguing that agentic retrieval is wrong. We are arguing it should be the fallback, and the standard retrieval recipe should be what you try first. ⚠️ One limit we report in the paper: on the large pool, first-stage recall caps what any reranker can do, and that ceiling is where the agentic loop earns its cost. 🙏 Joint work with Wenlong Zhang, Tian Shi, and Ping Wang.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.38822",
+      "pdf_url": "https://arxiv.org/pdf/2609.38822",
+      "github_links": [
+        "https://github.com/guanqun-yang/SkillSeek",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.38822",
+      "scraped_at": "2026-10-01T04:36:16.028006"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "CoEvoWhen: Policy-Tool Coevolution for Ultra-Long Video Temporal Grounding",
+    "paper_url": "https://huggingface.co/papers/2609.40048",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CoEvoWhen: Policy-Tool Coevolution for Ultra-Long Video Temporal Grounding",
+      "abstract": "We introduce CoEvoWhen, a policy-tool coevolution framework for ultra-long video temporal grounding. Our key idea is to jointly evolve high-level policies and executable media tools from agentic reasoning trajectories, forming a reusable skill without updating VLM parameters. At inference, the frozen VLM uses the evolved skill to coordinate long-range image-based search and fine-grained video-based observations, without relying on a separate, stronger planning model. Experiments across five benchmarks and three VLMs demonstrate improved grounding accuracy and reduced visual token costs, as well as transfer to general long-video QA without additional task-specific evolution.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.40048",
+      "pdf_url": "https://arxiv.org/pdf/2609.40048",
+      "github_links": [
+        "https://github.com/aim-uofa/CoEvoWhen",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.40048",
+      "scraped_at": "2026-10-01T04:36:17.743938"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "EviRover: Reinforcing Agentic Perception Beyond a Glance",
+    "paper_url": "https://huggingface.co/papers/2609.40230",
+    "authors": [
+      "Manyuan Zhang",
+      "Yilei Jiang",
+      "Tianshuo Peng",
+      "Kaituo Feng",
+      "Kaixuan Fan"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "EviRover: Reinforcing Agentic Perception Beyond a Glance",
+      "abstract": "Visual perception is conventionally formulated as a one-shot prediction from a single glance at the image, under the assumption that the image content and the model's parametric knowledge suffice to resolve the query. This assumption often fails in real-world scenarios that hinge on fine-grained visual details or require knowledge-intensive and up-to-date information. We term such cases \\textit{perception under insufficient evidence} and formulate perception as an agentic process that can obtain information beyond a single glance. To address the absence of data for this setting, we design two dedicated data generation pipelines, yielding EviRover-SFT-5K and EviRover-RL-12K for training. We further construct EviLens, a human-verified benchmark comprising 688 instances across five perception categories. Building on these data, we present EviRover, to our knowledge the first perception agent explicitly trained to resolve perceptual queries through interaction, using supervised fine-tuning followed by agentic reinforcement learning. Experiments show that the 4B EviRover outperforms its backbone by 30 points on average on EviLens, reaching performance comparable to advanced proprietary models. The gains transfer beyond EviLens to WebEyes, conventional perception benchmarks, and general multimodal benchmarks, including a 15-point improvement on BrowseComp-VL. All code, models, and data are released.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.40230",
+      "pdf_url": "https://arxiv.org/pdf/2609.40230",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.40230",
+      "scraped_at": "2026-10-01T04:36:19.423997"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "Not Every Token Is Worth Distilling: Selective Supervision for Direct-OPD",
+    "paper_url": "https://huggingface.co/papers/2609.29142",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Not Every Token Is Worth Distilling: Selective Supervision for Direct-OPD",
+      "abstract": "S²D-OPD identifies that dense Direct-OPD supervision can include low-value states and proposes divergence-based selective supervision, achieving better reasoning transfer with only 10% retained states.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.29142",
+      "pdf_url": "https://arxiv.org/pdf/2609.29142",
+      "github_links": [
+        "https://github.com/Luli3220/S2D-OPD",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.29142",
+      "scraped_at": "2026-10-01T04:36:21.099099"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "See it, Say it, Sorted: Mechanistic Diagnosis and Parameter-Space Mitigation of Emergent Misalignment in LLMs",
+    "paper_url": "https://huggingface.co/papers/2609.34970",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "See it, Say it, Sorted: Mechanistic Diagnosis and Parameter-Space Mitigation of Emergent Misalignment in LLMs",
+      "abstract": "Safety-aligned LLMs can exhibit emergent misalignment (EM): narrow domain adaptation unexpectedly triggers catastrophic safety failures across unrelated domains. Prior static analyses leave training dynamics unmapped, while existing defenses rely on heuristics that degrade utility. We present a dynamic, second-order geometric study of EM. Tracking training trajectories reveals that directional Hessian curvature concentrates sharply on semantic pivot tokens. Grassmannian projections show that, in most settings, harmful-safe gap widens mainly because safe-gradient overlap declines. Leveraging these insights, we introduce a parameter-level Geometric Mitigation Framework that orthogonally projects empirical harmful gradient subspace out of parameter updates. On Qwen2.5-14B-IT, our defense suppresses free-generation EM by up to 80.0%; across the other three of four open-weight instruction-based model families (3B--20B), where single-layer behavioral EM is already near zero, teacher-forced evaluation shows same harmful subspace controls the conditional support of frozen EM responses. Crucially, these diagnostics unmask the illusion of behavioral safety: the same subspace remains measurable and steerable in models where behavioral EM is near zero.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.34970",
+      "pdf_url": "https://arxiv.org/pdf/2609.34970",
+      "github_links": [
+        "https://github.com/WeiqiaoQUE/mechanistic-emergent-misalignment",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.34970",
+      "scraped_at": "2026-10-01T04:36:22.962782"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "AdviSD: Learning to Advise Frontier LLMs via Targeted Multi-Turn Self-Distillation",
+    "paper_url": "https://huggingface.co/papers/2609.38142",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AdviSD: Learning to Advise Frontier LLMs via Targeted Multi-Turn Self-Distillation",
+      "abstract": "Training an advisor to the Frontier LLMs via targeted multi-turn self-distillation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.38142",
+      "pdf_url": "https://arxiv.org/pdf/2609.38142",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.38142",
+      "scraped_at": "2026-10-01T04:36:24.670355"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "PatchHolmes: Agentic Patch Retrieval via Listwise Selection",
+    "paper_url": "https://huggingface.co/papers/2609.38807",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "PatchHolmes: Agentic Patch Retrieval via Listwise Selection",
+      "abstract": "Accepted at AACL-IJCNLP 2026, Main Conference. Every software vulnerability needs to be paired with the commit that fixed it. Security advisories need that pairing. So do severity scores, affected-version trackers, and supply-chain scanners. ❌ In the GitHub Advisory Database and the National Vulnerability Database, 60% to 63% of entries do not have it. The search is hard for three reasons: ❌ The haystack is large. A repository can carry up to 1.4 million commits, and 49% of these vulnerabilities are filed against repositories with more than 5,000. ❌ The candidates are long. The average commit diff in our corpus runs about 15,000 tokens. The text encoders that earlier methods use read the first 512. ❌ The words do not match. The vulnerability report names the symptom, \"buffer overflow\". The commit that fixes it names the bug, \"out-of-bounds read\". 🔍 The failure that started this paper. The previous best agentic system scores each of 10 candidates in its own separate call: yes or no, plus a confidence. On CVE-2015-9251, a cross-site scripting bug in jQuery, it marks all ten \"yes\" at confidence 5. Nothing distinguishes them, so the rank-1 pick is whatever the list happened to put first. That was an unrelated refactor of the same code path. ✅ Our fix: let the agent see the whole list. PatchHolmes reads the top 100 candidates at once, then opens individual commits through four budgeted tools and submits a single answer. The search narrows in four steps: up to 1.4 million commits in the repository, 100 candidates after the first stage, 5 commits the agent actually opens, 1 answer submitted. On that jQuery case it reads five commits, in list order 1, 2, 9, 4, 3, and picks the one that blocks automatic execution of JavaScript responses. 📊 Results. Recall@1 is the share of vulnerabilities where the single submitted commit is the correct one, so higher is better. ✅ PatchHolmes 59.95%, against 34.61% for the pointwise system and 28.55% for a general retrieve-and-reason baseline ✅ On identical candidates, the agent lifts Recall@1 from 32.63% to 59.95% ✅ The same agent, moved unchanged to another benchmark's candidate pool, lifts Recall@1 from 24.28% to 39.86% ✅ Swapping the language model inside one family moves Recall@1 by under 1 point ✅ About 96,000 input tokens, 8 tool calls, and 5 commits read per vulnerability The whole system runs on a frozen open-weight model over a local Git clone. No fine-tuning and no paid search API, because both cost more as the backlog grows. 🙏 Joint work with Yingming Zhou, Jiangrui Zheng, Shudong Hao, and Xueqing Liu at Stevens Institute of Technology.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.38807",
+      "pdf_url": "https://arxiv.org/pdf/2609.38807",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Aizhouym/PatchHolmes"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.38807",
+      "scraped_at": "2026-10-01T04:36:26.432067"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "Understanding Multimodality in Generative Behavioral Cloning",
+    "paper_url": "https://huggingface.co/papers/2605.22493",
+    "authors": [],
+    "stars": "18",
+    "details": {
+      "title": "Understanding Multimodality in Generative Behavioral Cloning",
+      "abstract": "A little story about the paper: the idea goes back a while. Last December, I happened to be looking into ACT[Zhao]’s CVAE structure and its surprisingly high KL-regularization coefficient (β = 10 or even 100). Reading InfoVAE(an old gem by Stefano Ermon's group) made me suspect that the latent was little more than unstructured Gaussian noise. Some PCA analysis supported that suspicion. I then started experimenting with MMD and Sinkhorn regularization: I wanted a policy that could encode the supposed multimodality of BC data without the computational burden of diffusion or flow models. On the popular LIBERO manipulation benchmark, the results were disappointing: a KL-CVAE with β = 100 performed on par with the alternatives. So I removed the CVAE completely and trained a deterministic action transformer. The results were quite shocking: it matched previously reported SOTA results. I couldn’t understand it: since the start of my PhD, the literature (IBC[Florence], Diffusion Policy[Chi], VQ-BeT[Lee], QFAT[Sheebaelhamd]) had convinced me that expressive policies were essential on BC benchmarks. Ariel Rodríguez and I ran further experiments on LIBERO and Meta-World and wrote a quick paper, which got rejected because it didn’t really explain why this was happening. But I was still determined to find settings where the promised multimodality was observable. I developed a bunch of synthetic benchmarks with clearly separated trajectories from a fixed initial state. At this point, Massimiliano Datres made a huge contribution to shaping the theory, notation, and formalization of the ideas I had in mind. Together, we formalized multimodality in BC and derived bounds linking mode representation to KL regularization in CVAEs and the noise-to-action Lipschitz constant in diffusion/flow samplers. With Ariel’s help integrating the simulation benchmarks used in the previously mentioned works, I then ran the experiments, expecting deterministic regression to fail badly, and… well, it still performed solidly. We constructed a proof-of-concept bimodal manipulation task on the robot, and there, we finally observed mode collapse. Eventually, we decided to construct a conditional mode estimator based on GMM clustering for data without ground-truth mode labels. Our estimates suggested that all the simulation benchmarks we tested were pretty much unimodal across the sampled states! Deterministic regression remained competitive, often with lower inference latency. Looking back, this paper is a collection of failures that repeatedly went against what I expected. I’m happy we kept trying to understand them. It makes me confident that failures and the effort to understand them can lead to worthwhile science, and it’s nice that this paper came out of exactly that. See you in Sydney, and thanks to all co-authors for their contributions.",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.22493",
+      "pdf_url": "https://arxiv.org/pdf/2605.22493",
+      "github_links": [
+        "https://github.com/Lorenzo-Mazza/VersatIL",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2605.22493",
+      "scraped_at": "2026-10-01T04:36:28.192089"
+    },
+    "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "Almost Human, Except When It Matters: VoxParity and the Decisions a Voice Should Change",
+    "paper_url": "https://huggingface.co/papers/2609.35922",
+    "authors": [
+      "bhavikmangla"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Almost Human, Except When It Matters: VoxParity and the Decisions a Voice Should Change",
+      "abstract": "A caller agrees to a power disconnection while a medical monitor beeps in the background. All four leading systems we tested identify the monitor in their own probe; three schedule the disconnection, and none of the 28 systems applies the vulnerability hold that utility rules require. VoxParity measures whether voice agents act on what the audio tells them. In 183 scenarios from 14 sectors, the transcript stays fixed while the audio changes (emotional delivery, a second voice, a background sound, disfluency or silence, speaker age, sarcasm, a masked word), and with it the correct typed tool call. Scoring is deterministic on the executed call, with no LLM judge. We test 28 systems from 11 vendors, including 9 production realtime agents, with about 20 volunteers as a human reference. What we find: Errors run toward the words. When the audio calls for protection, all 28 systems carry out the routine request more often than they over-react on clean calls (41% vs 12% pooled; a words-only pipeline 58% vs 15%; descriptive). Half of the systems we could test show no measurable use of the audio. Their actions can't be told apart from a pipeline that never hears the call (12 of the 23 systems with a transcript path, including 6 of the 7 realtime agents). Facts move agents more than feelings. Given a one-word label of the cue, gemini-3.7-flash acts correctly on 1.00 of background-sound calls and 0.97 of second-voice calls, but 0.59 of emotional ones (exploratory; an upper bound). The frontier's loss is in deciding. For the four leading systems, perfect hearing would add 0.04 credit and perfect deciding 0.28 (exploratory). Resources: Code, judge-free scorer and bring-your-own-agent harness: https://github.com/bhavik-mangla/voxparity-bench Development split, 40 scenarios with audio (CC BY 4.0): https://huggingface.co/datasets/bhavikmangla/voxparity-dev Leaderboard with 95% intervals: https://bhavik-mangla.github.io/voxparity-bench/ The other 143 scenarios are held out with published hashes; evaluation on them is available on request.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.35922",
+      "pdf_url": "https://arxiv.org/pdf/2609.35922",
+      "github_links": [
+        "https://github.com/bhavik-mangla/voxparity-bench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.35922",
+      "scraped_at": "2026-10-01T04:36:30.157796"
+    },
+    "scraped_date": "2026-10-01"
   }
 ]
