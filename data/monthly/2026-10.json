@@ -703,5 +703,762 @@
       "scraped_at": "2026-10-01T04:36:30.157796"
     },
     "scraped_date": "2026-10-01"
+  },
+  {
+    "title": "Adaptive Reward Routing: Dynamic Multi-Reward Optimization for Joint Audio-Video Diffusion via Forward-Process RL",
+    "paper_url": "https://huggingface.co/papers/2609.37200",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Adaptive Reward Routing: Dynamic Multi-Reward Optimization for Joint Audio-Video Diffusion via Forward-Process RL",
+      "abstract": "Multi-reward guided reinforcement learning (i.e., RL) offers a promising way to improve joint audio-video diffusion models along several complementary objectives, including modality-specific quality, cross-modal semantic alignment, and temporal synchronization. Its effectiveness, however, depends on two quantities that change during training: where reward-driven updates should act, and how competing rewards should be combined. Existing methods tend to rely on fixed routing and reward weights, failing to track evolving model functions. To address these limitations, we propose Adaptive Reward Routing to jointly adapt update locations and reward coordination during forward-process RL (i.e., DiffusionNFT) of joint audio-video diffusion models. Our method consists of two components. (i) Cross-Modal Influence-Guided Routing (Localizing Updates): We use bidirectional cross-attention responses as an efficient proxy for evolving cross-modal influence, dynamically reweighting token-aware losses and scaling gradients across cross-modal layers without additional model interventions. (ii) Preference-Preserving Modality-Aware Reweighting (Coordinating Rewards): We preserve predefined weights as preference priors and use branch-specific reward-gradient interactions as residual corrections after warm-up. This resolves evolving conflicts without letting dominant rewards suppress weak but essential objectives. Extensive experiments demonstrate consistent improvements in modality quality, semantic consistency, and audio-video synchronization over strong RL baselines. Ablations and mechanism analyses further validate the complementary benefits of adaptive update routing and reward coordination.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.37200",
+      "pdf_url": "https://arxiv.org/pdf/2609.37200",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.37200",
+      "scraped_at": "2026-10-02T04:27:54.999283"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "Hierarchical Continuous Diffusion Language Models",
+    "paper_url": "https://huggingface.co/papers/2610.02193",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Hierarchical Continuous Diffusion Language Models",
+      "abstract": "HC-DLM couples discrete tokens with a persistent continuous latent state, preserving token dependencies during parallel denoising and improving reasoning and language modeling over discrete and continuous diffusion baselines.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.02193",
+      "pdf_url": "https://arxiv.org/pdf/2610.02193",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/rhfeiyang/HC-DLM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.02193",
+      "scraped_at": "2026-10-02T04:27:56.836007"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "AutoGUIWorld: Image Generators as Visual World Models for GUI Agent",
+    "paper_url": "https://huggingface.co/papers/2610.01215",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "AutoGUIWorld: Image Generators as Visual World Models for GUI Agent",
+      "abstract": "Image Generators as Visual World Models for GUI Agent github: https://github.com/ImYangC7/AutoGUIWorld full paper: https://huggingface.co/YangC777/AGW-35B/blob/main/AutoGUIWorld_Report.pdf",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.01215",
+      "pdf_url": "https://arxiv.org/pdf/2610.01215",
+      "github_links": [
+        "https://github.com/ImYangC7/AutoGUIWorld",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.01215",
+      "scraped_at": "2026-10-02T04:27:58.763862"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "ActiveSaddler: Automated Curriculum Learning for Agent Harness Optimization",
+    "paper_url": "https://huggingface.co/papers/2610.00906",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ActiveSaddler: Automated Curriculum Learning for Agent Harness Optimization",
+      "abstract": "https://github.com/microsoft/AutoSaddler/tree/feat/activesaddler",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.00906",
+      "pdf_url": "https://arxiv.org/pdf/2610.00906",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/microsoft/AutoSaddler/tree/feat/activesaddler"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.00906",
+      "scraped_at": "2026-10-02T04:28:00.583287"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "Retrieval-Augmented Skill Optimization via Cross-Harness Adaptation",
+    "paper_url": "https://huggingface.co/papers/2609.38024",
+    "authors": [
+      "Jeehye Na",
+      "Dohwan Ko",
+      "Jihwan Park",
+      "Ji Soo Lee",
+      "Jaewon Chu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Retrieval-Augmented Skill Optimization via Cross-Harness Adaptation",
+      "abstract": "Agent skills are becoming valuable repositories of reusable procedural knowledge, yet most skill optimization methods still learn each skill largely from scratch through costly agent rollouts. We introduce RASO, a framework that retrieves relevant knowledge from existing skills and adapts it to the target task and execution harness. RASO combines RASI, which builds a strong initial skill without rollouts, and RASU, which retrieves additional knowledge based on execution feedback to iteratively refine the skill. Across four agent benchmarks and two language models, RASO consistently outperforms retrieval-free optimization methods. Our results also show that directly reusing retrieved skills can be ineffective—or even harmful—when their tools and assumptions do not match the target environment. Cross-Harness Adaptation is therefore key: it transfers the underlying procedural insight while rewriting it in terms of the target harness. The broader takeaway is that publicly shared skills can serve as transferable prior knowledge for agent improvement—not by copying them verbatim, but by retrieving and adapting the right procedures.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.38024",
+      "pdf_url": "https://arxiv.org/pdf/2609.38024",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.38024",
+      "scraped_at": "2026-10-02T04:28:02.408570"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "Agent Priors-guided Policy Learning",
+    "paper_url": "https://huggingface.co/papers/2609.35690",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Agent Priors-guided Policy Learning",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.35690",
+      "pdf_url": "https://arxiv.org/pdf/2609.35690",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Agentics-robotics/Agent-Priors-guided-Policy-Learning"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.35690",
+      "scraped_at": "2026-10-02T04:28:04.245177"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "Beyond the Current Scene: Event-Referential Grasping with Active View Selection",
+    "paper_url": "https://huggingface.co/papers/2609.39375",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "Beyond the Current Scene: Event-Referential Grasping with Active View Selection",
+      "abstract": "BeyondCSe enables event-referential robotic grasping, allowing robots to identify and grasp objects referenced by past events even when they are no longer visible, through video reasoning and event-conditioned active view selection.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.39375",
+      "pdf_url": "https://arxiv.org/pdf/2609.39375",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/SNU-VGILab/BeyondCSe"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.39375",
+      "scraped_at": "2026-10-02T04:28:06.181683"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "World Observer: Joint Actor-Observer Generation for Persistent World Modeling",
+    "paper_url": "https://huggingface.co/papers/2610.02162",
+    "authors": [],
+    "stars": "10",
+    "details": {
+      "title": "World Observer: Joint Actor-Observer Generation for Persistent World Modeling",
+      "abstract": "How can a world model continuously observe regions beyond the actor's current view? Video world models simulate how an environment evolves from an agent's actions, yet remain actor-centric. Once an object leaves the actor's view, they lose direct evidence of its evolution, often failing to preserve its state and dynamics upon re-entry. To address this, we introduce World Observer, which decouples observing from acting by jointly generating a perspective actor for the agent-centric view with one or more panoramic observers that watch selected world regions. This allows objects that leave the actor's view to remain visually evolving in an observer, so their updated states are reflected when they re-enter. We ground the actor and observers by warping from a shared panoramic source for explicit geometric correspondence, and introduce an Observer Sink of high-resolution perspective references to restore fine appearance upon re-entry. Since the observers are decoupled from the actor, they can be placed freely across the scene, extended to multiple locations for broader coverage, and driven by control signals to steer out-of-view evolution. To evaluate out-of-view evolution, we further introduce world-space metrics and a benchmark spanning real and synthetic scenes. World Observer substantially improves out-of-view dynamics while remaining competitive in visual fidelity, camera control, and 3D adherence.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.02162",
+      "pdf_url": "https://arxiv.org/pdf/2610.02162",
+      "github_links": [
+        "https://github.com/cvlab-kaist/world-observer",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.02162",
+      "scraped_at": "2026-10-02T04:28:08.061779"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "ROWBench: Do Video Models Render What the Program Specifies?",
+    "paper_url": "https://huggingface.co/papers/2610.02205",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ROWBench: Do Video Models Render What the Program Specifies?",
+      "abstract": "A program runs the world; a video model renders it. PROWBench asks whether video models render what the program specifies — the right action, the right outcome, at the right time. 170 test cases, 200 camera views and 600 proxy inputs (Coarse 3D, Colored OBB, Semantic proxy), all compiled from engine-recorded world states 12 metrics, including Logic–Render Alignment, Interaction Success Rate, and Entity Control, grounded in the  recorded events Evaluates current video and world models across urban, indoor, nature, aquatic, aerial, racing, and fantasy worlds",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.02205",
+      "pdf_url": "https://arxiv.org/pdf/2610.02205",
+      "github_links": [
+        "https://github.com/AlayaLab/PROWBench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.02205",
+      "scraped_at": "2026-10-02T04:28:09.930076"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "GraphForge: Training Working Agents with Graph-Anchored Workspace Synthesis",
+    "paper_url": "https://huggingface.co/papers/2609.38923",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GraphForge: Training Working Agents with Graph-Anchored Workspace Synthesis",
+      "abstract": "The data and models are available at https://huggingface.co/collections/groundhogLLM/graphforge",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.38923",
+      "pdf_url": "https://arxiv.org/pdf/2609.38923",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.38923",
+      "scraped_at": "2026-10-02T04:28:12.025381"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "Scaling and Distilling Text Embeddings for Better Diffusibility",
+    "paper_url": "https://huggingface.co/papers/2610.01016",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Scaling and Distilling Text Embeddings for Better Diffusibility",
+      "abstract": "Glad to share our recent paper on the latent space for continuous diffusion language models (DLMs)! In this paper, we find that scaling text embeddings can greatly boost the performance of continuous DLMs; for instance, by replacing the T5-small embeddings used in the recent ELF models with the advanced T5Gemma-2-270M , we can reduce Gen. PPL by about 40%. But scaling alone is not enough, as the scaled embeddings can be hard to generate. They are so distinctive and informative that embeddings of similar and interchangeable words are far apart. Thus, continuous diffusion struggles to generate such separated and discrete targets. To mitigate this, we distill them into a more connected and robust latent space, making them easier for diffusion to generate. As a result, our medium-sized DLM achieves Gen. PPL 17.8 (against real-text PPL 15.4) at real-text entropy on OpenWebText, outperforming GPT-2-M on Gen. PPL. Our results shed light on language representation learning, and also on a reliable way to scale DLMs. Code and project page are released too: code | project page . Welcome to check them out!",
+      "arxiv_page_url": "https://arxiv.org/abs/2605.10938",
+      "pdf_url": "https://arxiv.org/pdf/2610.01016",
+      "github_links": [
+        "https://github.com/la0ka1/diffusing-scaled-text-embeddings",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.01016",
+      "scraped_at": "2026-10-02T04:28:13.878244"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "4Director: Controlling Video World Models with Rigid 3D Geometry",
+    "paper_url": "https://huggingface.co/papers/2610.02160",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "4Director: Controlling Video World Models with Rigid 3D Geometry",
+      "abstract": "4Director turns an image into an editable 3D scene. Every object becomes a complete mesh, placed in the same 3D space as the background and the camera. You place the camera, draw a rigid trajectory for each object, and can bring in new objects from other photos. We render the scene as a depth video, and a Motion Adapter turns it into the final shot, adding appearance, lighting, and non-rigid motion. Unlike 2D boxes or 3D blobs, a complete mesh already contains each object's hidden side, so it is not reinvented frame by frame when the object turns or the camera orbits. Interactive 3D scenes and comparisons are on the project page.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.02160",
+      "pdf_url": "https://arxiv.org/pdf/2610.02160",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/VVeiCao/4Director"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.02160",
+      "scraped_at": "2026-10-02T04:28:15.713466"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "Sharpening Tax in Post-Training",
+    "paper_url": "https://huggingface.co/papers/2610.01509",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Sharpening Tax in Post-Training",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.01509",
+      "pdf_url": "https://arxiv.org/pdf/2610.01509",
+      "github_links": [
+        "https://github.com/changdaeoh/sharpening-tax",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.01509",
+      "scraped_at": "2026-10-02T04:28:17.546578"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "Beyond Memory: Harnessing Long-Horizon Agents with Explicit Belief States",
+    "paper_url": "https://huggingface.co/papers/2610.01415",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "Beyond Memory: Harnessing Long-Horizon Agents with Explicit Belief States",
+      "abstract": "Long-horizon agents need to keep track of the current world state to guide their decisions. Yet maintaining a coherent belief alone does not ensure progress: agents can keep acting without meaningfully advancing their goals, a failure mode this paper calls Belief Trapping . This paper introduces PoS (Progression of States) , an inference-time framework that combines explicit belief maintenance with trapping detection, diagnosis, and recovery, without additional training. PoS represents the current world and unresolved information and task requirements, validates belief updates for consistency and evidential support, and monitors whether interactions advance the task. When progress stalls, it diagnoses both the trapping pattern—stagnation, cycles, or drift—and the blocked requirement, then composes targeted recovery constraints to guide subsequent actions. Across four benchmarks covering task execution and evidence-seeking diagnosis, PoS achieves the highest overall performance among the evaluated methods in all 12 benchmark–backbone combinations, with relative gains over the strongest same-backbone baseline reaching 22.68% on ALFWorld and 37.89% on RCA-100 joint accuracy . These results highlight the value of continually maintaining beliefs and restoring meaningful task progress for reliable long-horizon agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.01415",
+      "pdf_url": "https://arxiv.org/pdf/2610.01415",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/luoyu100/PoS"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.01415",
+      "scraped_at": "2026-10-02T04:28:19.346921"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "RPTune: Learned Context Curation for LLM Catalog Search",
+    "paper_url": "https://huggingface.co/papers/2610.00964",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "RPTune: Learned Context Curation for LLM Catalog Search",
+      "abstract": "For small merchant businesses (SMBs) whose catalogs fit within a long-context LLM, full-catalog prompting offers a compelling alternative to multi-stage retrieval designed primarily for large marketplaces with millions of items. However, fitting the full catalog into the context window does not ensure that the model can use it effectively, since LLMs do not exploit long contexts uniformly. We therefore study in-context catalog search through two complementary questions: (1) how to curate and present catalogs to the LLM, and (2) how to adapt the LLM for product selection on curated contexts. We propose RPTune, an end-to-end framework that couples learned catalog curation with LLM post-training using automatically generated, catalog-grounded supervision. An encoder-reorganizer curator orders and prunes products guided by downstream LLM feedback, while the resulting curated catalogs in turn improve the effectiveness of LLM post-training with a context-relative reward. We evaluate RPTune on 7 real merchants spanning distinct retail verticals, using 100 complex conversational queries per merchant. RPTune consistently improves search accuracy across both proprietary and open-weight LLMs, with context curation yielding gains of up to 31.4 percentage points and post-training adding a further 10.3 points on average.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.00964",
+      "pdf_url": "https://arxiv.org/pdf/2610.00964",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.00964",
+      "scraped_at": "2026-10-02T04:28:21.796981"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "AutoDataBench: A Data-centric Testbed for Accelerating Auto Research",
+    "paper_url": "https://huggingface.co/papers/2609.40097",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "AutoDataBench: A Data-centric Testbed for Accelerating Auto Research",
+      "abstract": "Existing auto-research benchmarks often entangle multiple sources of improvement, including training frameworks, hyperparameters, compute budgets, and data, making it difficult to attribute why one frontier agent outperforms another to specific research capabilities. We introduce AutoDataBench , a controlled testbed for evaluating Data Intelligence in LLM research agents. Data Intelligence: We study three complementary capabilities—data diagnosis & repair, data organization, and data construction—across tool use, retrieval, and knowledge injection. Understanding data interventions: Beyond whether an intervention works, we test whether agents can predict its effect before training and refine their understanding through experimental feedback. Benchmark as Data Engine: We reuse AutoDataBench research trajectories as mid-training data and find that they improve downstream coding performance, showing that benchmarks can also serve as sources of useful training data.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.40097",
+      "pdf_url": "https://arxiv.org/pdf/2609.40097",
+      "github_links": [
+        "https://github.com/AutoDataBench/AutoDataBench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.40097",
+      "scraped_at": "2026-10-02T04:28:23.713087"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "Do Audio LLMs Listen Before They Act? Diagnosing Acoustic-Context Gating in Voice Agents",
+    "paper_url": "https://huggingface.co/papers/2609.32536",
+    "authors": [
+      "Yushi Sun",
+      "Nanchen Hu",
+      "doudouwer"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Do Audio LLMs Listen Before They Act? Diagnosing Acoustic-Context Gating in Voice Agents",
+      "abstract": "We introduce VGBench, a 1,018-item diagnostic benchmark for action-level addressedness across side-talk, self-talk, and speaker-switch scenarios.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.32536",
+      "pdf_url": "https://arxiv.org/pdf/2609.32536",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.32536",
+      "scraped_at": "2026-10-02T04:28:25.492334"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "When Users Change Their Minds: Measuring and Repairing Intent Drift in LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2609.32520",
+    "authors": [
+      "Yushi Sun",
+      "Zixin Chen",
+      "Bowen Cao",
+      "doudouwer"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "When Users Change Their Minds: Measuring and Repairing Intent Drift in LLM Agents",
+      "abstract": "We introduce IntentFlux, an executable benchmark that converts verifiable tasks into dialogues with controlled intent changes while preserving their original graders. In a 627-case calibration, mean task score falls from 0.476 to 0.384 as dialogues contain more superseded and withdrawn information.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.32520",
+      "pdf_url": "https://arxiv.org/pdf/2609.32520",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.32520",
+      "scraped_at": "2026-10-02T04:28:27.257373"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "PixelDense: Dense Prediction as Representation Alignment for Pixel Diffusion",
+    "paper_url": "https://huggingface.co/papers/2610.00483",
+    "authors": [
+      "Yiqing Yang",
+      "Avery Li",
+      "Wenhao Zhang",
+      "Daiqing Qi",
+      "Lehan Yang"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "PixelDense: Dense Prediction as Representation Alignment for Pixel Diffusion",
+      "abstract": "NeurIPS 2026",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.00483",
+      "pdf_url": "https://arxiv.org/pdf/2610.00483",
+      "github_links": [
+        "https://github.com/Hansxsourse/PixelDense",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.00483",
+      "scraped_at": "2026-10-02T04:28:29.047828"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "A Missing Piece for Trustworthy AI Reviewers: From Benchmarking Rhetorical Robustness to SciCore Review",
+    "paper_url": "https://huggingface.co/papers/2609.39027",
+    "authors": [
+      "Han Chen",
+      "Jianpeng Chen",
+      "Chengrui Fan",
+      "Ming Li",
+      "Chenguang Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "A Missing Piece for Trustworthy AI Reviewers: From Benchmarking Rhetorical Robustness to SciCore Review",
+      "abstract": "AI reviewers can assign different judgments to manuscripts that report the same science in different wording, potentially rewarding rhetorical optimization over scientific improvement. We formulate Rhetorical Robustness as the joint requirement of stability across content-preserving rewrites and discrimination across papers.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.39027",
+      "pdf_url": "https://arxiv.org/pdf/2609.39027",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.39027",
+      "scraped_at": "2026-10-02T04:28:30.950054"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "FlexRouter: Learning Complementary Model Sets for Flexible LLM Routing",
+    "paper_url": "https://huggingface.co/papers/2609.38585",
+    "authors": [
+      "Hongjie Chen",
+      "Samyadeep Basu",
+      "Tiankai Yang",
+      "Harry Yang",
+      "Wang Wei"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "FlexRouter: Learning Complementary Model Sets for Flexible LLM Routing",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.38585",
+      "pdf_url": "https://arxiv.org/pdf/2609.38585",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.38585",
+      "scraped_at": "2026-10-02T04:28:32.797809"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "Controlled Decoding Attacks on Black-Box LLMs",
+    "paper_url": "https://huggingface.co/papers/2609.36956",
+    "authors": [
+      "Ryan A. Rossi",
+      "Franck Dernoncourt",
+      "Wei Yang",
+      "Shawn Li",
+      "Jesson Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Controlled Decoding Attacks on Black-Box LLMs",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.36956",
+      "pdf_url": "https://arxiv.org/pdf/2609.36956",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.36956",
+      "scraped_at": "2026-10-02T04:28:34.578068"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "Joint and Cross-Modal Video-Audio Generation and Editing: A Unified Formulation and Design Taxonomy",
+    "paper_url": "https://huggingface.co/papers/2609.34381",
+    "authors": [
+      "Daksh Dangi",
+      "Wang Wei",
+      "Sai Karthik Navuluru",
+      "Abhinav Sharma",
+      "Franck-Dernoncourt"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Joint and Cross-Modal Video-Audio Generation and Editing: A Unified Formulation and Design Taxonomy",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.34381",
+      "pdf_url": "https://arxiv.org/pdf/2609.34381",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.34381",
+      "scraped_at": "2026-10-02T04:28:36.414704"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "OmniSeek: Native Tool Integration for Multi-turn Audio-Visual Reasoning",
+    "paper_url": "https://huggingface.co/papers/2610.02181",
+    "authors": [
+      "Yuanjun Xiong",
+      "Jingru Yi",
+      "Jialu Li",
+      "Jiteng Mu",
+      "Haibo Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "OmniSeek: Native Tool Integration for Multi-turn Audio-Visual Reasoning",
+      "abstract": "We present OmniSeek, an agentic framework that transforms an Omni Large Language Model (Omni-LLM) into an active, multi-turn reasoning agent with native tool use. Rather than passively processing an entire audio-visual sequence in a single forward pass, OmniSeek makes evidence acquisition part of the reasoning process: it dynamically decides whether to look or listen, and over which temporal window, to retrieve sparse but critical evidence across different modalities within long contexts. Through an iterative multi-turn protocol, the retrieved raw audio or visual segments are appended back into the context to support subsequent reasoning. To cold-start this capability, we build a data engine that synthesizes OmniTraj-170K, a corpus of multi-hop Chain-of-Thought trajectories with interleaved audio and visual evidence. We first supervise the model on these trajectories to instill multi-turn tool-use behavior, and then further optimize the policy via a two-stage reinforcement learning with verifiable rewards. Moreover, we introduce an Audio-Visual Necessity objective that explicitly rewards successful trajectories whose reasoning depends on both modalities, discouraging single-modality shortcuts. Extensive experiments across a wide range of benchmarks demonstrate that OmniSeek learns adaptive cross-modal evidence seeking and consistently improves audio-visual reasoning performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.02181",
+      "pdf_url": "https://arxiv.org/pdf/2610.02181",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.02181",
+      "scraped_at": "2026-10-02T04:28:38.181661"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "Align Then Reason: A Multimodal Lip-Sync Judge for Dubbing",
+    "paper_url": "https://huggingface.co/papers/2610.00825",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Align Then Reason: A Multimodal Lip-Sync Judge for Dubbing",
+      "abstract": "Dubbing quality control requires a reference-free judge that can determine whether a candidate text line matches a speaker's visible articulation in both content and timing, using only silent video and text because dubbed audio may not yet exist. Existing visual speech recognizers and video-language models are poorly suited to this setting: even when fine-tuned to recover spoken content from lip motion, they remain largely insensitive to temporal errors. We introduce Align Then Reason (ATR), a multilingual lip-sync judge that first establishes a monotonic alignment between frame-level lip representations and the phonetic units of the candidate line, then reasons over this alignment to make the final judgment. An alignment scorer provides the LLM with both local evidence for each phonetic unit and a calibrated global alignment score, enabling it to reason jointly about content and timing. On a seven-language benchmark, our method improves mean AUC over the corresponding Qwen3.5 SFT baselines by 59.4%, 50.2%, and 50.8% with 2B, 4B, and 9B reasoners, respectively. The gains generalize across LLM families, reaching mean AUC improvements of 45.9% and 46.6% over the best baseline for LLaMA-3.1-8B and Mistral-7B, respectively. They also transfer across datasets to three unseen MuAViC languages. Furthermore, we evaluate on two downstream tasks built from real dubbing lines. On dub-line reranking, ATR-9B outperforms the best lip-reading baseline by 52.0%, while on script-to-clip assignment, ATR-9B improves over the best lip-reading baseline by 17.7%.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.00825",
+      "pdf_url": "https://arxiv.org/pdf/2610.00825",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.00825",
+      "scraped_at": "2026-10-02T04:28:39.964904"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "Predictive Credit: Measuring What Scientific Explanations Add to Experimental Forecasts",
+    "paper_url": "https://huggingface.co/papers/2610.00314",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Predictive Credit: Measuring What Scientific Explanations Add to Experimental Forecasts",
+      "abstract": "Measuring What Scientific Explanations Add to Experimental Forecasts",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.00314",
+      "pdf_url": "https://arxiv.org/pdf/2610.00314",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.00314",
+      "scraped_at": "2026-10-02T04:28:41.718059"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "Rules to Tools: Executable Checks for LLM Agents in Scientific Computing",
+    "paper_url": "https://huggingface.co/papers/2610.00313",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Rules to Tools: Executable Checks for LLM Agents in Scientific Computing",
+      "abstract": "Executable Checks for LLM Agents in Scientific Computing",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.00313",
+      "pdf_url": "https://arxiv.org/pdf/2610.00313",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.00313",
+      "scraped_at": "2026-10-02T04:28:43.473910"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "Argo-Bench: Evaluating Data Agents on Enterprise-Scale Workflows",
+    "paper_url": "https://huggingface.co/papers/2610.02122",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Argo-Bench: Evaluating Data Agents on Enterprise-Scale Workflows",
+      "abstract": "Hi everyone, first author here! We realized most established text-to-SQL benchmarks don't yet cover the most important care most companies care about: the agents' ability to make good decisions. While some benchmarks have been pretty good for this at a micro-level (e.g., Vending-Bench 2 by Andon Labs), none have had the ambition to test how well LLMs would do making day-to-day decisions across different areas, like forecasting or fraud prevention, at very large companies. We've gotten to some extremely interesting findings on what LLMs struggle with here, and are really excited to share our findings in the Argo-Bench preprint. A demo of the world is available on our project page – check it out!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.02122",
+      "pdf_url": "https://arxiv.org/pdf/2610.02122",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/TextQLLabs/Argo-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.02122",
+      "scraped_at": "2026-10-02T04:28:45.274479"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "Pay for the Fault, Not the Flow: Label-Free In-Flow Multi-Agent Workflow Optimization",
+    "paper_url": "https://huggingface.co/papers/2610.01017",
+    "authors": [
+      "Wei Cheng",
+      "Zach Chen",
+      "Shengyu Chen",
+      "Haoyu Wang",
+      "Xuehang Guo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Pay for the Fault, Not the Flow: Label-Free In-Flow Multi-Agent Workflow Optimization",
+      "abstract": "https://arxiv.org/abs/2610.01017",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.01017",
+      "pdf_url": "https://arxiv.org/pdf/2610.01017",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.01017",
+      "scraped_at": "2026-10-02T04:28:47.075794"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "Personalized Image Generation with Reasoning and Reflection",
+    "paper_url": "https://huggingface.co/papers/2610.00737",
+    "authors": [
+      "Seunghyun Yoon",
+      "Franck Dernoncourt",
+      "Qinwen Ge",
+      "Ngoc N. Tran",
+      "Bo Ni"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Personalized Image Generation with Reasoning and Reflection",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2610.00737",
+      "pdf_url": "https://arxiv.org/pdf/2610.00737",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.00737",
+      "scraped_at": "2026-10-02T04:28:48.912067"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "Prompt2Skill: Unsupervised Skill Optimization From Natural Language Instructions",
+    "paper_url": "https://huggingface.co/papers/2609.38593",
+    "authors": [
+      "Tyler Derr",
+      "Franck Dernoncourt",
+      "Ryan A. Rossi",
+      "Li Li",
+      "Bo Ni"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Prompt2Skill: Unsupervised Skill Optimization From Natural Language Instructions",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2609.38593",
+      "pdf_url": "https://arxiv.org/pdf/2609.38593",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.38593",
+      "scraped_at": "2026-10-02T04:28:50.687196"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "Pretrain Once, Route Anywhere: Towards a Foundation Model for LLM Routing",
+    "paper_url": "https://huggingface.co/papers/2609.37362",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Pretrain Once, Route Anywhere: Towards a Foundation Model for LLM Routing",
+      "abstract": "Most LLM routers are trained for a fixed workload and candidate pool, requiring retraining as the routing environment changes. RouteFM explores a different paradigm: pretrain the routing capability once and adapt to new environments through context alone. By inferring the capabilities of anonymous candidate models from a small amount of behavioral evidence, a single frozen RouteFM can transfer across new domains, modalities, model pools, and context budgets without environment-specific retraining. On the unseen MMR-Bench, it outperforms the strongest baseline by 2.23 quality points with only 8 observations per candidate.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.37362",
+      "pdf_url": "https://arxiv.org/pdf/2609.37362",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/LAMDA-Model-Reuse/RouteFM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.37362",
+      "scraped_at": "2026-10-02T04:28:52.484592"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "DexPolicy: Scheduled Exploration for Trajectory-Guided Dexterous Manipulation",
+    "paper_url": "https://huggingface.co/papers/2610.00360",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DexPolicy: Scheduled Exploration for Trajectory-Guided Dexterous Manipulation",
+      "abstract": "Code: https://github.com/AIGeeksGroup/DexPolicy",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.00360",
+      "pdf_url": "https://arxiv.org/pdf/2610.00360",
+      "github_links": [
+        "https://github.com/AIGeeksGroup/DexPolicy",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.00360",
+      "scraped_at": "2026-10-02T04:28:54.305806"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "Learning What to Recall: Adaptive Multi-Cue Episodic Memory for World Models",
+    "paper_url": "https://huggingface.co/papers/2609.34677",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Learning What to Recall: Adaptive Multi-Cue Episodic Memory for World Models",
+      "abstract": "More memory isn’t enough—world models need the right memory at the right time. Most retrieval methods rely on fixed heuristics such as recency, pose proximity, or visual similarity, but the most similar past observation is not always the one that best predicts what happens next. FAR instead learns which memories are predictively useful, and which retrieval cues to trust for each query. It beats hand-designed retrieval even with the same cues, while remaining future-blind at inference.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.34677",
+      "pdf_url": "https://arxiv.org/pdf/2609.34677",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/sony/far"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.34677",
+      "scraped_at": "2026-10-02T04:28:56.137860"
+    },
+    "scraped_date": "2026-10-02"
+  },
+  {
+    "title": "It Takes Workflows to Evolve Better Workflows",
+    "paper_url": "https://huggingface.co/papers/2610.01026",
+    "authors": [
+      "Zhenhailong Wang",
+      "Yangyi Chen",
+      "Haifeng Chen",
+      "Haoyu Wang",
+      "Xuehang Guo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "It Takes Workflows to Evolve Better Workflows",
+      "abstract": "https://arxiv.org/abs/2610.01026",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.01026",
+      "pdf_url": "https://arxiv.org/pdf/2610.01026",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.01026",
+      "scraped_at": "2026-10-02T04:28:57.874819"
+    },
+    "scraped_date": "2026-10-02"
   }
 ]
