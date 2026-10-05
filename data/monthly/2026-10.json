@@ -5094,5 +5094,398 @@
       "scraped_at": "2026-10-04T04:45:32.547517"
     },
     "scraped_date": "2026-10-04"
+  },
+  {
+    "title": "FrameMorrow: Future-guided Frame Selection with Prospective Tokens for Long-Horizon Video Generation",
+    "paper_url": "https://huggingface.co/papers/2609.38839",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "FrameMorrow: Future-guided Frame Selection with Prospective Tokens for Long-Horizon Video Generation",
+      "abstract": "We introduce FrameMorrow, a prospective frame selector for long-horizon video generation. Instead of selecting historical frames based only on their relevance to the present, FrameMorrow anticipates future information needs and uses them to identify useful history. It is plug-and-play across diverse video generators and consistently improves long-range consistency and visual quality across multiple benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.38839",
+      "pdf_url": "https://arxiv.org/pdf/2609.38839",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/YinBo0927/FrameMorrow"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.38839",
+      "scraped_at": "2026-10-05T04:30:06.095760"
+    },
+    "scraped_date": "2026-10-05"
+  },
+  {
+    "title": "World Embedding Benchmark",
+    "paper_url": "https://huggingface.co/papers/2610.03632",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "World Embedding Benchmark",
+      "abstract": "We introduce World Embedding Benchmark , a benchmark for studying how video representations capture and expose physical information. Building the benchmark requires substantial simulation engineering: we develop physics simulation pipelines spanning 80 physical families , systematically varying physical parameters and visual conditions to construct 8,000 controlled video-text cases with grounded physical annotations. Benchmarking physical representations. We evaluate physical representations through three complementary tasks—text-video retrieval, physical-property regression, and pair classification—across fluid mechanics, solid mechanics, dynamics, and optics & electromagnetism. What do embeddings actually encode? Pre-trained embeddings preserve recoverable physical signals but show weak cross-modal physical alignment. Physics-aware contrastive adaptation substantially improves retrieval and pair classification, yet degrades physical-property regression, revealing a trade-off between alignment and quantitative information recoverability. From representation to generation. We further study retrieval-augmented video generation , using different video retrieval models to retrieve physically relevant reference videos for MiniMax-H3. Better physics retrieval leads to more physically faithful generation, with the physics-adapted LCO-Embedding-Omni achieving the strongest retrieval-augmented generation performance, highlighting the value of physically grounded representations for generative world models. We will release all physics simulation engines, the complete benchmark dataset, evaluation code, and trained models/checkpoints to support future research on physically grounded representations and world models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.03632",
+      "pdf_url": "https://arxiv.org/pdf/2610.03632",
+      "github_links": [
+        "https://github.com/World-Representation-Lab/World-Embedding-Benchmark",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.03632",
+      "scraped_at": "2026-10-05T04:30:07.974751"
+    },
+    "scraped_date": "2026-10-05"
+  },
+  {
+    "title": "Source Preference in the Wild: How LLM Agents Favor Items by Source, and How to Reduce It",
+    "paper_url": "https://huggingface.co/papers/2610.03195",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Source Preference in the Wild: How LLM Agents Favor Items by Source, and How to Reduce It",
+      "abstract": "If two options meet your requirements equally well, will your AI agent favor the one from a source it prefers? Across 12 models and three domains---shopping, hotels, and scholarly search---we found that source preferences can sway your agents' choices. Same content, different choices: Agents favored particular sources among equally suitable options. Changing only the source label shifted selection rates. Rewarding better choices can teach source shortcuts: In controlled training experiments, agents learned to favor sources repeatedly associated with better results. Missing details leave room for source-based assumptions:: Agents could fill information gaps with source-based assumptions. Supplying the missing details or countering those assumptions reduced preference. When agents choose for us, their source preferences may shape where attention and spending go---and lead us toward options for reasons we may not even be aware of.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.03195",
+      "pdf_url": "https://arxiv.org/pdf/2610.03195",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.03195",
+      "scraped_at": "2026-10-05T04:30:09.780258"
+    },
+    "scraped_date": "2026-10-05"
+  },
+  {
+    "title": "Scaling Trajectories for Complex Tasks through Recursive Self-Rewrite",
+    "paper_url": "https://huggingface.co/papers/2610.02826",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Scaling Trajectories for Complex Tasks through Recursive Self-Rewrite",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2610.02826",
+      "pdf_url": "https://arxiv.org/pdf/2610.02826",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.02826",
+      "scraped_at": "2026-10-05T04:30:11.618713"
+    },
+    "scraped_date": "2026-10-05"
+  },
+  {
+    "title": "Science Utopia? Closed-Loop LLM Simulation of Academic Research Ecosystems",
+    "paper_url": "https://huggingface.co/papers/2610.01257",
+    "authors": [],
+    "stars": "18",
+    "details": {
+      "title": "Science Utopia? Closed-Loop LLM Simulation of Academic Research Ecosystems",
+      "abstract": "Top conferences now have over 30,000 submissions. What's next? AI is accelerating research. How can our institutions keep pace? 🔬 As the research community grows, peer review, funding, and career incentives help shape which ideas advance—and who can continue pursuing them. Our new paper, “Science Utopia? Closed-Loop LLM Simulation of Academic Research Ecosystems,” introduces SUTO: a persistent, large-scale simulation of a scientific community, where thousands of AI researchers navigate evolving institutions, collaboration networks, and a growing body of literature. Research choices, peer review, funding, and career trajectories unfold together over simulated decades—with each decision shaping the opportunities and constraints agents encounter next. This creates a testbed for studying how individual behaviors and institutional rules interact to produce long-term, system-wide outcomes. Across 61 simulated worlds with 40,000+ researcher agents, we found some interesting patterns: 📈 Allowing more submissions increased publication output, but also reduced the share of researchers who remained active over time—raising questions about how to support both productivity and sustained participation. 🧭 Cautious exploration beyond existing expertise offered a promising balance between citation impact and career success, while helping sustain topic diversity. ⚖️ Narrowly winning an early grant did not necessarily translate into a lasting funding edge. As AI expands what individual researchers can do, we hope SUTO can help us ask what a thriving scientific community needs. Which rule or incentive in academia would you test first?",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.01257",
+      "pdf_url": "https://arxiv.org/pdf/2610.01257",
+      "github_links": [
+        "https://github.com/Ahren09/ScienceUtopia",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.01257",
+      "scraped_at": "2026-10-05T04:30:13.455173"
+    },
+    "scraped_date": "2026-10-05"
+  },
+  {
+    "title": "PDE-JEPA: Predictive Representation Learning of Latent Dynamics Modeling for Parametric PDEs",
+    "paper_url": "https://huggingface.co/papers/2609.34715",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "PDE-JEPA: Predictive Representation Learning of Latent Dynamics Modeling for Parametric PDEs",
+      "abstract": "To our knowledge, we are the first to systematically investigate JEPA for parametric PDEs and to make it work effectively for PDE forecasting. We find that informative JEPA representations alone do not guarantee accurate rollout, and introduce PDE-JEPA to bridge this gap through physics-aligned latent geometry and structured latent prediction.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.34715",
+      "pdf_url": "https://arxiv.org/pdf/2609.34715",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Tanpig-X/PDE-JEPA"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.34715",
+      "scraped_at": "2026-10-05T04:30:15.258601"
+    },
+    "scraped_date": "2026-10-05"
+  },
+  {
+    "title": "DEFINE: Exemplar-Guided Accent Control for Zero-Shot TTS",
+    "paper_url": "https://huggingface.co/papers/2609.32777",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "DEFINE: Exemplar-Guided Accent Control for Zero-Shot TTS",
+      "abstract": "Zero-shot text-to-speech (TTS) can reproduce an unseen speaker from a short reference recording, but typically entangles speaker identity and accent within the same reference. We introduce DEFINE, an end-to-end framework that decouples these factors by conditioning speaker identity and target accent on separate audio exemplars. A single inference-time guidance weight continuously controls accent strength without retraining. Built on F5-TTS with parameter-efficient LoRA adaptation, DEFINE maps short accent exemplars into a conditioning space using an exemplar encoder supervised through learned accent prototypes, requiring neither accent labels at inference time nor post-synthesis waveform conversion. On seen accents, increasing accent guidance improves accent-probe accuracy from 6.5% to 19.6%. More importantly, a single DEFINE model generalizes accent control beyond its training accent set: on seen and out-of-domain accents, though not on held-out accents, it matches the accent transfer performance of a two-model TTS-voice-conversion cascade while achieving higher speaker similarity and comparable predicted speech quality. These results demonstrate that speaker identity and accent can be independently controlled from audio exemplars within a single zero-shot TTS model, including for accents unseen during training.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.32777",
+      "pdf_url": "https://arxiv.org/pdf/2609.32777",
+      "github_links": [
+        "https://github.com/AMAAI-Lab/define",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.32777",
+      "scraped_at": "2026-10-05T04:30:17.060714"
+    },
+    "scraped_date": "2026-10-05"
+  },
+  {
+    "title": "Diptych: Scoped, AI-Interpreted Comparison for Reference Listening in Music Production",
+    "paper_url": "https://huggingface.co/papers/2609.39963",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Diptych: Scoped, AI-Interpreted Comparison for Reference Listening in Music Production",
+      "abstract": "Reference listening is a common strategy in music production, but current comparison tools often obscure a key human judgment: deciding what should be compared. We present DipTych, an AI-assisted system that lets users define comparison scope across whole tracks or independently selected segments, while inspecting structured audio features and scope-specific AI interpretations. We evaluated DipTych in a within-participants study with 12 musicians, complemented by source-blinded ratings from four expert listeners. Participants used the system to surface additional differences, nine of ten of which received at least partial expert support, and reported good usability and greater clarity about possible next steps. These findings suggest that AI support for creative comparison should prioritize user-defined scope, inspectable evidence, and actionable guidance, while avoiding authoritative judgments that exceed what the evidence can support.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.39963",
+      "pdf_url": "https://arxiv.org/pdf/2609.39963",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.39963",
+      "scraped_at": "2026-10-05T04:30:18.840361"
+    },
+    "scraped_date": "2026-10-05"
+  },
+  {
+    "title": "Science or Slop?: Benchmarking and Mitigating Scientific Slop in AI-Generated Papers",
+    "paper_url": "https://huggingface.co/papers/2610.00531",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Science or Slop?: Benchmarking and Mitigating Scientific Slop in AI-Generated Papers",
+      "abstract": "Author here! New preprint: Science or Slop? ❓ Quiz: Every sentence passes the AI detector. Every citation is real. Human or AI? -> If you can’t tell, neither can the detectors. 😅 ✨ Findings: (define scientific slop) Slop at the level of scientific reasoning, not individual sentences. -> ICLR reviewers didn't realized, but already penalize these patterns: more slop, lower ratings, every year from 2017~2025. (new whole-paper benchmark) Compare full AI papers with human papers on the same research problem. -> Existing AI detectors reach only 68.7% (scientific slop reaches 85.9%). (new mitigate method) To mitigate scientific slop (more complex & contain scientific reasoning) without reward hacking, we introduce SciSlopHarness.  -> Existing prompting, even when given the definition of scientific slop, either poorly reduces slop or leads to reward hacking. 🙌 Be a slop finder Visit [Project page: https://lnkd.in/g_iwMbSs] Paste your arXiv link -> check your paper’s slop score. Browse the demo page and find something we don’t catch yet -> contribute a new slop type and be a \"co-author\" on v2. 🚀 We will run this on 60K ICLR submissions! Stay tuned. (And if you want to sponsor us, email me)",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.00531",
+      "pdf_url": "https://arxiv.org/pdf/2610.00531",
+      "github_links": [
+        "https://github.com/yerimoh/ScientificSlop",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.00531",
+      "scraped_at": "2026-10-05T04:30:20.675986"
+    },
+    "scraped_date": "2026-10-05"
+  },
+  {
+    "title": "MetaRubric: Learning to Reward for Rubric-Based Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2610.02824",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MetaRubric: Learning to Reward for Rubric-Based Reinforcement Learning",
+      "abstract": ".",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.02824",
+      "pdf_url": "https://arxiv.org/pdf/2610.02824",
+      "github_links": [
+        "https://github.com/metarubric/metarubric",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.02824",
+      "scraped_at": "2026-10-05T04:30:22.481488"
+    },
+    "scraped_date": "2026-10-05"
+  },
+  {
+    "title": "ProAR: Learning Prospective Reasoning with Autoregressive Video Models",
+    "paper_url": "https://huggingface.co/papers/2610.03664",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "ProAR: Learning Prospective Reasoning with Autoregressive Video Models",
+      "abstract": "ProAR: Learning prospective guidance to transform autoregressive video generation into a visual reasoning process.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.03664",
+      "pdf_url": "https://arxiv.org/pdf/2610.03664",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/luka-group/ProAR"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.03664",
+      "scraped_at": "2026-10-05T04:30:24.301350"
+    },
+    "scraped_date": "2026-10-05"
+  },
+  {
+    "title": "Covert Assistance: Helpful LLM Agents Evade Oversight in Multi-Agent Systems",
+    "paper_url": "https://huggingface.co/papers/2609.39050",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Covert Assistance: Helpful LLM Agents Evade Oversight in Multi-Agent Systems",
+      "abstract": "Would love your feedback and thoughts!",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.39050",
+      "pdf_url": "https://arxiv.org/pdf/2609.39050",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.39050",
+      "scraped_at": "2026-10-05T04:30:26.114644"
+    },
+    "scraped_date": "2026-10-05"
+  },
+  {
+    "title": "Triadic Linear Attention: Three-Dimensional Recurrent States for Long-Context Sequence Modeling",
+    "paper_url": "https://huggingface.co/papers/2609.36529",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Triadic Linear Attention: Three-Dimensional Recurrent States for Long-Context Sequence Modeling",
+      "abstract": "Recurrent neural networks (RNNs) compress the historical context into a memory state of fixed size, thus allowing for constant-time inference. The memory state size is a crucial factor in their performance, as exemplified by the strong performance and resurgence of linear attention, which extends the vector-valued hidden states of ordinary RNNs to matrix-valued hidden states. Crucially, linear attention does so in a parameter-efficient way, in particular by using an outer product of the key and value vectors to write to the matrix-valued hidden state. We generalize this construction and propose triadic linear attention, which writes the triadic outer product of a key, a second key, and a value, into a third-order (i.e., 3D) tensor state, and reads from it by contracting both key axes with two queries. An E-dimensional second key thus yields an E-fold increase in state size while adding only two projections. Triadic linear attention is compatible with data-dependent forgetting, the delta rule, and chunkwise-parallel training. Applied to Gated DeltaNet and scalar-gated linear attention, triadic linear attention substantially improves long-context language modeling and recall, outperforming alternatives that enlarge the state.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.36529",
+      "pdf_url": "https://arxiv.org/pdf/2609.36529",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/OliverSieberling/TriadicLinearAttention"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.36529",
+      "scraped_at": "2026-10-05T04:30:27.867269"
+    },
+    "scraped_date": "2026-10-05"
+  },
+  {
+    "title": "On-Policy Parameter Update Direction Underlies Generalization in LLM Post-Training",
+    "paper_url": "https://huggingface.co/papers/2609.36659",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "On-Policy Parameter Update Direction Underlies Generalization in LLM Post-Training",
+      "abstract": "Why does on-policy training generalize better than SFT? We show that the direction of parameter updates plays a crucial role. By extracting update directions from a few on-policy steps and constraining subsequent SFT updates to these directions, our OPSFT transfers the generalization benefits of on-policy training to SFT while preserving its efficiency and ability to learn from high-quality trajectories.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.36659",
+      "pdf_url": "https://arxiv.org/pdf/2609.36659",
+      "github_links": [
+        "https://github.com/ssfgunner/OPSFT",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.36659",
+      "scraped_at": "2026-10-05T04:30:29.667178"
+    },
+    "scraped_date": "2026-10-05"
+  },
+  {
+    "title": "GTR: Gated Token Recurrence for Efficient Dense Prediction",
+    "paper_url": "https://huggingface.co/papers/2609.26590",
+    "authors": [],
+    "stars": "38",
+    "details": {
+      "title": "GTR: Gated Token Recurrence for Efficient Dense Prediction",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.26590",
+      "pdf_url": "https://arxiv.org/pdf/2609.26590",
+      "github_links": [
+        "https://github.com/Intellindust-AI-Lab/GTR",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.26590",
+      "scraped_at": "2026-10-05T04:30:31.511000"
+    },
+    "scraped_date": "2026-10-05"
+  },
+  {
+    "title": "EditHero: A Benchmark for Long-Horizon Part-Level 3D Editing and Vibe Modeling",
+    "paper_url": "https://huggingface.co/papers/2610.02298",
+    "authors": [
+      "Lian Fu",
+      "Runyi Li",
+      "Muyao Niu",
+      "Yu-Ju Tsai",
+      "Ruihan Yu"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "EditHero: A Benchmark for Long-Horizon Part-Level 3D Editing and Vibe Modeling",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2610.02298",
+      "pdf_url": "https://arxiv.org/pdf/2610.02298",
+      "github_links": [
+        "https://github.com/AlayaLab/EditHero",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.02298",
+      "scraped_at": "2026-10-05T04:30:33.324198"
+    },
+    "scraped_date": "2026-10-05"
+  },
+  {
+    "title": "Octrees as an Explicit 3D Language",
+    "paper_url": "https://huggingface.co/papers/2610.02388",
+    "authors": [
+      "Yadong Mu",
+      "Wei Zhang",
+      "Pengfei Xiong",
+      "Si-Tong Wei",
+      "Ran Dan"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Octrees as an Explicit 3D Language",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2610.02388",
+      "pdf_url": "https://arxiv.org/pdf/2610.02388",
+      "github_links": [
+        "https://github.com/octree-nn/octllm",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.02388",
+      "scraped_at": "2026-10-05T04:30:35.229269"
+    },
+    "scraped_date": "2026-10-05"
+  },
+  {
+    "title": "Skill2Real: Agentic Skill Learning for Zero-Shot Sim-to-Real Robot Manipulation",
+    "paper_url": "https://huggingface.co/papers/2610.02788",
+    "authors": [
+      "Yanjia Huang",
+      "Yunuo Chen",
+      "Chang Yu",
+      "Siyu Ma",
+      "Xincheng He"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Skill2Real: Agentic Skill Learning for Zero-Shot Sim-to-Real Robot Manipulation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2610.02788",
+      "pdf_url": "https://arxiv.org/pdf/2610.02788",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.02788",
+      "scraped_at": "2026-10-05T04:30:36.997549"
+    },
+    "scraped_date": "2026-10-05"
+  },
+  {
+    "title": "Looping Beyond Twice: A Scalable Recipe for Looped Mixture-of-Experts",
+    "paper_url": "https://huggingface.co/papers/2610.01153",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Looping Beyond Twice: A Scalable Recipe for Looped Mixture-of-Experts",
+      "abstract": "An open-source recipe to scale loops beyond twice for Looped MoE at the ISO-FLOP setting.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.01153",
+      "pdf_url": "https://arxiv.org/pdf/2610.01153",
+      "github_links": [
+        "https://github.com/hed-ucas/LOOM",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.01153",
+      "scraped_at": "2026-10-05T04:30:38.770189"
+    },
+    "scraped_date": "2026-10-05"
   }
 ]
