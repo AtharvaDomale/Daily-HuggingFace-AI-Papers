@@ -5929,5 +5929,487 @@
       "scraped_at": "2026-10-06T05:16:48.784582"
     },
     "scraped_date": "2026-10-06"
+  },
+  {
+    "title": "DuoMatching: Joint-Marginal Distribution Matching for Few-Step Video Generation",
+    "paper_url": "https://huggingface.co/papers/2610.03543",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "DuoMatching: Joint-Marginal Distribution Matching for Few-Step Video Generation",
+      "abstract": "Hi HF community! I’m one of the authors of DuoMatching, our work on high-quality, real-time video generation with image priors. DuoMatching combines joint distribution matching from a video teacher with direct frame-level supervision from an image teacher. This improves visual quality and prompt alignment in few-step video generation, with motion dynamics largely preserved and no extra inference compute. Our code is released, and the project page includes video demos and side-by-side comparisons. We’d love to hear your feedback and are happy to answer questions!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.03543",
+      "pdf_url": "https://arxiv.org/pdf/2610.03543",
+      "github_links": [
+        "https://github.com/JohnZhan2023/DuoMatching",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.03543",
+      "scraped_at": "2026-10-07T04:45:48.630925"
+    },
+    "scraped_date": "2026-10-07"
+  },
+  {
+    "title": "AutoSciBench: Autonomous Benchmark Generation for Evaluating Scientific Agents",
+    "paper_url": "https://huggingface.co/papers/2610.05140",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AutoSciBench: Autonomous Benchmark Generation for Evaluating Scientific Agents",
+      "abstract": "Scientific agents usually take the tests. With AutoSciBench, they also help build them. The framework constructs questions, scientific data, and ground-truth answers, then uses solver feedback to revise task designs. Lessons from earlier runs inform the next tasks. We explored this across computational biology, materials science, and clinical imaging. Initial tasks were often easy for the generating agents to solve, but refinement and accumulated experience helped produce harder ones. The challenge also extended to other solver models, while the generated tasks received higher average quality ratings than human-curated benchmarks in our rubric-based evaluation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.05140",
+      "pdf_url": "https://arxiv.org/pdf/2610.05140",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.05140",
+      "scraped_at": "2026-10-07T04:45:50.508076"
+    },
+    "scraped_date": "2026-10-07"
+  },
+  {
+    "title": "HuatuoGPT-3: RL-Only Domain Adaptation from Base Models",
+    "paper_url": "https://huggingface.co/papers/2610.05966",
+    "authors": [],
+    "stars": "12",
+    "details": {
+      "title": "HuatuoGPT-3: RL-Only Domain Adaptation from Base Models",
+      "abstract": "HuatuoGPT-3 advances the HuatuoGPT line from medical data adaptation to training-paradigm innovation. Instead of following the conventional SFT-then-RL pipeline, it explores RL-only domain adaptation from base models through OnePO, using teacher outputs as temporary guidance while avoiding long-term imitation constraints. In this paper, we release an open-source medical LLM series whose 27B variant reaches 71.4 on HealthBench Professional. This makes HuatuoGPT-3 both a strong medical expert model family and a demonstration that specialized medical capabilities can be cultivated through direct policy optimization, reducing reliance on multi-stage supervised fine-tuning pipelines. The HuatuoGPT series presents a progressive research trajectory for medical large language models, moving from medical dialogue alignment to domain adaptation, multimodal understanding, complex reasoning, and reinforcement-learning-based specialization. HuatuoGPT first showed that combining ChatGPT-distilled data with real doctor-patient data and RLAIF can better align open LLMs with medical consultation needs [1]. HuatuoGPT-II then simplified medical domain adaptation by converting heterogeneous medical corpora and instruction data into a unified input-output format for one-stage training [2]. HuatuoGPT-Vision extended the series to medical multimodal intelligence by constructing PubMedVision and injecting large-scale medical visual knowledge into MLLMs [3]. HuatuoGPT-o1 further targeted complex medical reasoning through medical verifiable problems, verifier-guided reasoning-trajectory search, and reinforcement learning [4]. Building on this line, OnePO, accepted by ICML 2026, proposes direct one-stage policy optimization for SFT-free domain adaptation [5], and HuatuoGPT-3 scales this idea into an RL-only medical LLM series, marking a shift from data-centric medical adaptation toward training-paradigm innovation [6]. References [1] Hongbo Zhang, Junying Chen, Feng Jiang, Fei Yu, Zhihong Chen, Jianquan Li, Guiming Chen, Xiangbo Wu, Zhiyi Zhang, Qingying Xiao, Xiang Wan, Benyou Wang, and Haizhou Li. HuatuoGPT, Towards Taming Language Model to Be a Doctor. EMNLP Findings, 2023. [2] Junying Chen, Xidong Wang, Ke Ji, Anningzhe Gao, Feng Jiang, Shunian Chen, Hongbo Zhang, Dingjie Song, Wenya Xie, Chuyi Kong, Jianquan Li, Xiang Wan, Haizhou Li, and Benyou Wang. HuatuoGPT-II, One-stage Training for Medical Adaption of LLMs. COLM, 2024. [3] Junying Chen, Chi Gui, Ruyi Ouyang, Anningzhe Gao, Shunian Chen, Guiming Hardy Chen, Xidong Wang, Ruifei Zhang, Zhenyang Cai, Ke Ji, Guangjun Yu, Xiang Wan, and Benyou Wang. HuatuoGPT-Vision, Towards Injecting Medical Visual Knowledge into Multimodal LLMs at Scale. EMNLP, 2024. [4] Junying Chen, Zhenyang Cai, Ke Ji, Xidong Wang, Wanlong Liu, Rongsheng Wang, Jianye Hou, and Benyou Wang. HuatuoGPT-o1, Towards Medical Complex Reasoning with LLMs. arXiv, 2024. [5] Junying Chen, Xinyuan Xie, Ziniu Li, and Benyou Wang. OnePO: Direct One-stage Policy Optimization for SFT-free Domain Adaptation. ICML, 2026. [6] Junying Chen, Xinyuan Xie, Ziniu Li, Wenyuan Gu, Jianquan Li, Xiang Wan, Guangjun Yu, Ruoyu Sun, Haizhou Li, and Benyou Wang. HuatuoGPT-3: RL-Only Domain Adaptation from Base Models. arXiv, 2026.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.05966",
+      "pdf_url": "https://arxiv.org/pdf/2610.05966",
+      "github_links": [
+        "https://github.com/FreedomIntelligence/HuatuoGPT-3",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.05966",
+      "scraped_at": "2026-10-07T04:45:52.433753"
+    },
+    "scraped_date": "2026-10-07"
+  },
+  {
+    "title": "World Action Learning via Interaction-Centric Spectral Latent Guidance",
+    "paper_url": "https://huggingface.co/papers/2610.03607",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "World Action Learning via Interaction-Centric Spectral Latent Guidance",
+      "abstract": "How can egocentric human videos effectively benefit robot learning despite camera motion and human–robot execution differences? WING learns interaction-centric latent actions from ego videos and transfers them to robot policies through low-frequency spectral guidance , enabling strong ego-to-robot transfer across simulation and real-world tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.03607",
+      "pdf_url": "https://arxiv.org/pdf/2610.03607",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.03607",
+      "scraped_at": "2026-10-07T04:45:54.297053"
+    },
+    "scraped_date": "2026-10-07"
+  },
+  {
+    "title": "EVISKILL: Grounding Skill Evolution in Replayable Evidence",
+    "paper_url": "https://huggingface.co/papers/2610.05030",
+    "authors": [
+      "Xin Wang",
+      "Qinggang Zhang",
+      "Yiwei Dai",
+      "Yili Wang",
+      "Yan Zhou"
+    ],
+    "stars": "8",
+    "details": {
+      "title": "EVISKILL: Grounding Skill Evolution in Replayable Evidence",
+      "abstract": "Continual skill evolution enables LLM agents to accumulate and refine reusable procedural knowledge from interaction experience without updating model parameters. Its effectiveness depends on determining not only what to change, but also why a change is justified and when it should become persistent guidance. However, existing experience-driven methods can lose the behavioral evidence and task contexts supporting edits. Moreover, a global validation outcome provides an incomplete judgment of its constituent changes: locally supported corrections may be discarded with a rejected revision, while evidence may require further experience to inform useful updates. To this end, we introduce EVISKILL, an evidence-driven framework that organizes execution observations into Replayable Evidence Cards and synthesizes edits with explicit links to their supporting contexts. Targeted replay verifies these edits through re-execution and provides feedback for correction. Across epochs, EVISKILL preserves evidence and provisionally retains supported edits for further refinement, while global validation governs their incorporation into the final skill. Experiments on three interactive benchmarks across six LLM backbones demonstrate the effectiveness of this approach. Our code is available at https://github.com/Zhouyaner/Eviskill .",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.05030",
+      "pdf_url": "https://arxiv.org/pdf/2610.05030",
+      "github_links": [
+        "https://github.com/Zhouyaner/Eviskill",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.05030",
+      "scraped_at": "2026-10-07T04:45:56.065857"
+    },
+    "scraped_date": "2026-10-07"
+  },
+  {
+    "title": "Selection-Based Structured Reasoning: Toward Efficient Multimodal Search Agents",
+    "paper_url": "https://huggingface.co/papers/2610.01892",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "Selection-Based Structured Reasoning: Toward Efficient Multimodal Search Agents",
+      "abstract": "Multimodal agents commonly generate free-form reasoning before each action. For small models, limited model capacity can result in lengthy reasoning that provides little useful guidance for action generation while incurring substantial inference cost. To address this challenge, we introduce Selection-based Structured Reasoning (SSR), a framework that reformulates reasoning as selection instead of open-ended generation. SSR represents recurring high-level reasoning as pre-specified, reusable natural-language candidates. At each turn, the model selects from these reasoning candidates based on their likelihoods given the current context, without requiring an auxiliary task head. Using pre-specified reasoning traces enables parallel scoring, where teacher-forced prefilling computes token likelihoods concurrently within and across candidates using a shared context KV cache. We evaluate SSR on seven multimodal search benchmarks using 2B and 4B models. Across multiple reinforcement learning objectives and supervised fine-tuning, SSR delivers significant efficiency gains without sacrificing task performance. SSR achieves an average success rate competitive with leading search agents of the same scale, while reducing per-turn reasoning latency by over 90% and total per-question model inference latency by 28-54%. Project page: https://zfy0314.github.io/ssr-webpage/ .",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.01892",
+      "pdf_url": "https://arxiv.org/pdf/2610.01892",
+      "github_links": [
+        "https://github.com/zfy0314/ssr-unofficial",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.01892",
+      "scraped_at": "2026-10-07T04:45:57.981371"
+    },
+    "scraped_date": "2026-10-07"
+  },
+  {
+    "title": "DiVeR: Decision-Critical Verifier Learning for VLA Test-Time Scaling",
+    "paper_url": "https://huggingface.co/papers/2610.04933",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DiVeR: Decision-Critical Verifier Learning for VLA Test-Time Scaling",
+      "abstract": "DiVeR improves VLA test-time scaling by identifying sparse decision-critical states from action-representation dispersion and focusing verifier learning where action selection matters most.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.04933",
+      "pdf_url": "https://arxiv.org/pdf/2610.04933",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.04933",
+      "scraped_at": "2026-10-07T04:45:59.764453"
+    },
+    "scraped_date": "2026-10-07"
+  },
+  {
+    "title": "Making LLMs Say What They Think: Measuring and Improving CoT-Interpretability Alignment",
+    "paper_url": "https://huggingface.co/papers/2609.38972",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Making LLMs Say What They Think: Measuring and Improving CoT-Interpretability Alignment",
+      "abstract": "Do LLMs actually reason the way their chain-of-thought says they do? We introduce CoT-Interpretability Alignment (CIA), a metric that checks whether the reasoning written in a model's CoT matches the internal strategy detected by interpretability tools. Across two-hop QA, hint intervention, and integer multiplication on three LLMs, alignment is limited (44.8–75.9%). We then show that post-training with a reward combining task accuracy and faithfulness substantially improves alignment while maintaining or improving accuracy. Code and data: https://github.com/yihuaihong/CIA-minimal-repro",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.38972",
+      "pdf_url": "https://arxiv.org/pdf/2609.38972",
+      "github_links": [
+        "https://github.com/yihuaihong/CIA-minimal-repro",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.38972",
+      "scraped_at": "2026-10-07T04:46:01.539515"
+    },
+    "scraped_date": "2026-10-07"
+  },
+  {
+    "title": "GUI-HARVEST: Self-Improving GUI Agents through Evidence-Driven Harness Evolution",
+    "paper_url": "https://huggingface.co/papers/2610.00948",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "GUI-HARVEST: Self-Improving GUI Agents through Evidence-Driven Harness Evolution",
+      "abstract": "👋 We’re excited to share GUI-HARVEST , which enables GUI agents to improve automatically by evolving their execution harness while keeping model weights frozen. The idea: learn from what actually happens on screen. GUI-HARVEST compares screenshots and action traces across repeated runs, identifies recurring failures across tasks, and translates them into reusable code changes. Each change must pass checks on both task performance and its predicted behavioral effects. 📊 The figure highlights results on OSWorld-Verified: Six backbones, three step budgets: GUI-HARVEST achieves the highest score in every model–budget comparison shown. Optimize at 15 steps, evaluate at 15/50/100: the optimized harnesses remain frozen across evaluation budgets. Strong gains without weight updates: Qwen3-VL-32B improves by 12.33 percentage points over its initial harness at 15 steps, while Gemini 3.1 Pro reaches 79.14% at 100 steps. We hope this helps make GUI agents more capable through systematic learning from execution experience. Feedback and discussion are welcome! 💻 Code: https://github.com/GaryYang12345/GUI-HARVEST 📄 Paper: https://arxiv.org/abs/2610.00948",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.00948",
+      "pdf_url": "https://arxiv.org/pdf/2610.00948",
+      "github_links": [
+        "https://github.com/GaryYang12345/GUI-HARVEST",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.00948",
+      "scraped_at": "2026-10-07T04:46:03.411900"
+    },
+    "scraped_date": "2026-10-07"
+  },
+  {
+    "title": "Understanding and Enhancing Backdoor Persistency in LLM Agent Post-Training",
+    "paper_url": "https://huggingface.co/papers/2610.07510",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Understanding and Enhancing Backdoor Persistency in LLM Agent Post-Training",
+      "abstract": "Can benign post-training remove inherited backdoors in LLM agents? We find that supervised fine-tuning weakens backdoors, but subsequent RL often preserves—and sometimes amplifies—the remaining malicious behavior. Our method, PersistBD, increases backdoor survival: on Qwen2.5-Coder-7B, attack success after SFT + RL rises from 20% to 76%, with comparable benign task performance. This highlights a supply-chain risk when adapting third-party models into agents. Accepted to EMNLP 2026 Findings.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.07510",
+      "pdf_url": "https://arxiv.org/pdf/2610.07510",
+      "github_links": [
+        "https://github.com/uiuc-kang-lab/PersistBD",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.07510",
+      "scraped_at": "2026-10-07T04:46:05.273183"
+    },
+    "scraped_date": "2026-10-07"
+  },
+  {
+    "title": "TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language Models",
+    "paper_url": "https://huggingface.co/papers/2610.07767",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language Models",
+      "abstract": "Reinforcement learning (RL) for post-training large language models (LLMs) incurs substantial computation and memory overhead during rollout generation, which motivates low-precision rollout for efficient RL training. However, existing FP4 RL methods suffer from a key limitation: they primarily optimize quantization accuracy on the training and rollout paths independently rather than directly reducing the discrepancy between the two quantized execution paths. In this work, we propose TRACE (Train-Rollout Quantization Alignment via Compact GuidancE), an FP4 quantization framework for RL training of Mixture-of-Experts (MoE) language models that addresses the limitation of existing FP4 RL methods. TRACE incorporates rollout-guided quantization-aware training that uses rollout-side quantization outcomes to guide training-side FP4 rounding decisions, directly reducing train-rollout discrepancy. Moreover, TRACE adopts an efficient quantization-information caching scheme that selectively retains mantissa and scale information from deeper layers to reduce the storage and communication overhead introduced by rollout guidance. We evaluate TRACE on four large-scale MoE language models across reasoning, coding, and long-horizon RL tasks. Our results demonstrate that TRACE enables joint FP4 weight/activation and FP4 KV-cache rollout with RL performance comparable to BF16 rollout, while achieving up to 5.4xrollout speedup and strong final FP4 performance compared with post-hoc FP4 quantization of BF16-trained policies.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.07767",
+      "pdf_url": "https://arxiv.org/pdf/2610.07767",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.07767",
+      "scraped_at": "2026-10-07T04:46:07.074511"
+    },
+    "scraped_date": "2026-10-07"
+  },
+  {
+    "title": "ALIVE: Interaction-Aligned Object Insertion for First-Frame-Guided Video Editing",
+    "paper_url": "https://huggingface.co/papers/2610.08779",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "ALIVE: Interaction-Aligned Object Insertion for First-Frame-Guided Video Editing",
+      "abstract": "Make inserted objects “alive”: not merely visible, but part of the video’s world, responding to surrounding actions.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.08779",
+      "pdf_url": "https://arxiv.org/pdf/2610.08779",
+      "github_links": [
+        "https://github.com/zhouzhenghong-gt/ALIVE-code",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.08779",
+      "scraped_at": "2026-10-07T04:46:08.863913"
+    },
+    "scraped_date": "2026-10-07"
+  },
+  {
+    "title": "Personal-Agent Mediated Recommendation with Cross-Platform User History",
+    "paper_url": "https://huggingface.co/papers/2610.07588",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Personal-Agent Mediated Recommendation with Cross-Platform User History",
+      "abstract": "We study how a personal agent can selectively revise a strong platform ranking using cross-platform user history. Personal-Agent Mediated Recommendation: We formalize this new recommendation setting. MediateRec: We introduce a benchmark spanning controlled proxy platforms and a real cross-platform setting. Personal Attribution Mediation Optimization (PAMO): We propose a mediation optimization method that uses counterfactual personal evidence to learn when to intervene or defer.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.07588",
+      "pdf_url": "https://arxiv.org/pdf/2610.07588",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.07588",
+      "scraped_at": "2026-10-07T04:46:10.651342"
+    },
+    "scraped_date": "2026-10-07"
+  },
+  {
+    "title": "EmbodiedSmith: Scaling Embodied Data through Recursive Self-Improvement Flywheel in Simulation",
+    "paper_url": "https://huggingface.co/papers/2610.07969",
+    "authors": [
+      "Zepeng Lin",
+      "Wenxuan Song",
+      "Mingjian Liang",
+      "Yifei Deng",
+      "Yikai Qin"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "EmbodiedSmith: Scaling Embodied Data through Recursive Self-Improvement Flywheel in Simulation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2610.07969",
+      "pdf_url": "https://arxiv.org/pdf/2610.07969",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.07969",
+      "scraped_at": "2026-10-07T04:46:12.414224"
+    },
+    "scraped_date": "2026-10-07"
+  },
+  {
+    "title": "Hiding Tool Latency in On-Device Cascaded Voice Agent through Speculative Execution",
+    "paper_url": "https://huggingface.co/papers/2610.07641",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Hiding Tool Latency in On-Device Cascaded Voice Agent through Speculative Execution",
+      "abstract": "Tool-augmented speech assistants typically serialize automatic speech recognition, large language model inference, and external tool execution. As a result, tool latency is incurred only after the user has finished speaking and the LLM has identified the required tool calls. We present speculative tool execution for on-device cascaded voice agents, which predicts tool requests from partial ASR hypotheses and initiates tool execution while speech is still being received, thereby reducing end-to-end response latency. Our approach introduces a Predictor module that anticipates tool calls during speech recognition, executes them speculatively, and caches the results. The cached outputs are then injected into the LLM prompt, enabling faster responses. Additionally, to mitigate errors caused by user self-corrections during speech, we employ a rule-based validation mechanism that selectively injects only valid cached results. As a final safeguard, the LLM retains the ability to issue tool calls directly, ensuring that the latency of our framework is upper-bounded by the baseline serial execution pipeline in the worst case. We evaluate our method using live measurements from a fully implemented Android voice assistant. Our approach reduces the median time-to-first-audio from 5.79,s to 4.60,s and decreases the standard deviation from 3.49,s to 2.81,s, resulting in more predictable response latency.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.07641",
+      "pdf_url": "https://arxiv.org/pdf/2610.07641",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.07641",
+      "scraped_at": "2026-10-07T04:46:14.182857"
+    },
+    "scraped_date": "2026-10-07"
+  },
+  {
+    "title": "Attacca: Goal-Directed Control under State Continuity for Long-Horizon Embodied Agents",
+    "paper_url": "https://huggingface.co/papers/2610.07785",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Attacca: Goal-Directed Control under State Continuity for Long-Horizon Embodied Agents",
+      "abstract": ".",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.07785",
+      "pdf_url": "https://arxiv.org/pdf/2610.07785",
+      "github_links": [
+        "https://github.com/attacca-project/attacca",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.07785",
+      "scraped_at": "2026-10-07T04:46:16.008437"
+    },
+    "scraped_date": "2026-10-07"
+  },
+  {
+    "title": "Judged Useless, Queried Anyway: Tool-Using Agents Rarely Turn Their Own Evidence Judgments into Stopping Decisions",
+    "paper_url": "https://huggingface.co/papers/2610.06191",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Judged Useless, Queried Anyway: Tool-Using Agents Rarely Turn Their Own Evidence Judgments into Stopping Decisions",
+      "abstract": "We study whether tool-using agents actually act on their own judgments that retrieved evidence is useless. Across seven agents, they recognize failing-source results as useless 97–100% of the time, yet rarely stop querying. An enforced integration step makes stopping evidence-responsive and improves success across models.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.06191",
+      "pdf_url": "https://arxiv.org/pdf/2610.06191",
+      "github_links": [
+        "https://github.com/bennidict23/judged-useless-queried-anyway",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.06191",
+      "scraped_at": "2026-10-07T04:46:17.865828"
+    },
+    "scraped_date": "2026-10-07"
+  },
+  {
+    "title": "DistScene: Object-to-Scene Distillation for 3D Scene Generation",
+    "paper_url": "https://huggingface.co/papers/2610.06960",
+    "authors": [
+      "Tianyu Liu",
+      "Chengcheng Zhou",
+      "Ken Deng",
+      "Hongyu Yan",
+      "Kunming Luo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "DistScene: Object-to-Scene Distillation for 3D Scene Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2610.06960",
+      "pdf_url": "https://arxiv.org/pdf/2610.06960",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.06960",
+      "scraped_at": "2026-10-07T04:46:19.620179"
+    },
+    "scraped_date": "2026-10-07"
+  },
+  {
+    "title": "VeriFine: Scaling Verification for Self-Improvement in Embodied Reasoning",
+    "paper_url": "https://huggingface.co/papers/2610.08761",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "VeriFine: Scaling Verification for Self-Improvement in Embodied Reasoning",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2610.08761",
+      "pdf_url": "https://arxiv.org/pdf/2610.08761",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.08761",
+      "scraped_at": "2026-10-07T04:46:21.382934"
+    },
+    "scraped_date": "2026-10-07"
+  },
+  {
+    "title": "World Models' Last Exam in Physics",
+    "paper_url": "https://huggingface.co/papers/2610.08791",
+    "authors": [
+      "Ziming Qin",
+      "Xinjie Lin",
+      "Yuzhao Peng",
+      "Qingle Liu",
+      "Mingju Gao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "World Models' Last Exam in Physics",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2610.08791",
+      "pdf_url": "https://arxiv.org/pdf/2610.08791",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.08791",
+      "scraped_at": "2026-10-07T04:46:23.320745"
+    },
+    "scraped_date": "2026-10-07"
+  },
+  {
+    "title": "Building Rome from a Single Image",
+    "paper_url": "https://huggingface.co/papers/2610.08790",
+    "authors": [
+      "Quentin Herau",
+      "Depu Meng",
+      "Tianshuo Xu",
+      "Fang Li",
+      "Jiraphon Yenphraphai"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Building Rome from a Single Image",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.08790",
+      "pdf_url": "https://arxiv.org/pdf/2610.08790",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.08790",
+      "scraped_at": "2026-10-07T04:46:25.120634"
+    },
+    "scraped_date": "2026-10-07"
+  },
+  {
+    "title": "Harness Engineering for Software Engineering via Modular Executable Dev-Primitives",
+    "paper_url": "https://huggingface.co/papers/2610.07832",
+    "authors": [
+      "Haohan Wang",
+      "Peng Kuang",
+      "Xinjie Li",
+      "Haibo Jin"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Harness Engineering for Software Engineering via Modular Executable Dev-Primitives",
+      "abstract": "HERMES turns repository components into agent-native Dev-Primitives, enabling localized reasoning, natural-language inter-component communication, and diagnosis-driven revision for long-horizon software engineering.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.07832",
+      "pdf_url": "https://arxiv.org/pdf/2610.07832",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.07832",
+      "scraped_at": "2026-10-07T04:46:26.900466"
+    },
+    "scraped_date": "2026-10-07"
+  },
+  {
+    "title": "HiPLEX: Hierarchical Policy Factorization for Full Duplex Speech Language Models",
+    "paper_url": "https://huggingface.co/papers/2610.07727",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "HiPLEX: Hierarchical Policy Factorization for Full Duplex Speech Language Models",
+      "abstract": "Our method, HiPLEX (Hierarchical policy factorization for full-duPLEX SLMs), factorizes the policy into when to talk and what to talk. Plus, our credit assignment method causally attributes rewards to the correct or incorrect timing and semantic decisions. (See Figure 1 featuring the cute San character!)",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.07727",
+      "pdf_url": "https://arxiv.org/pdf/2610.07727",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.07727",
+      "scraped_at": "2026-10-07T04:46:28.660771"
+    },
+    "scraped_date": "2026-10-07"
   }
 ]
