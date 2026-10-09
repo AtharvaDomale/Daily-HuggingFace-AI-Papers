@@ -7257,5 +7257,738 @@
       "scraped_at": "2026-10-08T04:56:11.514373"
     },
     "scraped_date": "2026-10-08"
+  },
+  {
+    "title": "From Traces to Agentic Worlds: Agentic Language World Models for Interactive Environment Simulation",
+    "paper_url": "https://huggingface.co/papers/2610.06100",
+    "authors": [],
+    "stars": "17",
+    "details": {
+      "title": "From Traces to Agentic Worlds: Agentic Language World Models for Interactive Environment Simulation",
+      "abstract": "What if the environment itself were an agent ? Trace2Env is a training-free framework for agentic language world modeling . It builds world model agents that serve as environments for other task agents, aiming to support faithful, stateful, and long-horizon simulation of textual environments . Trace2Env does not recover the original executable system. Instead, it reconstructs environment dynamics from historical action–observation trajectories. During offline reconstruction, these traces are organized into a worldbook containing environment schemas, transition rules, constraints, invariants, grounded evidence, and demonstrations. Check out what a worldbook looks like here . At runtime, the world model agent actively calls tools to inspect the worldbook together with the maintained episode state and episodic memory. It infers the next observation together with the state changes that should persist, and a shared runtime harness verifies the proposal and commits the accepted changes, this allows the consequences of earlier actions to carry into later turns. 💡 Such reconstructed environments could be used to train agents without the real system, test agents in safe and reproducible sandboxes, build stateful mocks for tools and APIs, or reconstruct unavailable, private, or legacy environments. 💡 Trace2Env is not tied to a particular environment domain. The paper evaluates it on terminals, software repositories, Android and web apps, enterprise services, and text games. The same framework can be applied to other text-interactive systems, including internal enterprise tools, ticketing workflows, cloud and DevOps consoles, API and MCP backends, and other textual worlds. 🕹️ Try a “fake” Terminal built by Trace2Env: https://huggingface.co/spaces/Quanyu001/trace2env_demo ⭐ Code: https://github.com/ruyue0001/Trace2Env 🌐 Project: https://quanyulong.net/trace2env/",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.06100",
+      "pdf_url": "https://arxiv.org/pdf/2610.06100",
+      "github_links": [
+        "https://github.com/ruyue0001/Trace2Env",
+        "https://github.com/huggingface",
+        "https://github.com/ruyue0001/trace2env"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.06100",
+      "scraped_at": "2026-10-09T04:58:19.011568"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "SuperNav: An Agentic Navigation System for Any Task in Any Scene",
+    "paper_url": "https://huggingface.co/papers/2610.12126",
+    "authors": [],
+    "stars": "10",
+    "details": {
+      "title": "SuperNav: An Agentic Navigation System for Any Task in Any Scene",
+      "abstract": "SuperNav is an agentic navigation system for diverse tasks and scenes, from finding objects and visiting multiple targets to fulfilling high-level requests. A pretrained multimodal model directs navigation through tool use, task-progress tracking, and context management, without navigation-specific fine-tuning. Experiments show higher success rates than the evaluated baselines on single-object, multi-object, and demand-driven navigation, alongside real-world deployment on a quadruped robot.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.12126",
+      "pdf_url": "https://arxiv.org/pdf/2610.12126",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/zju3dv/SuperNav"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.12126",
+      "scraped_at": "2026-10-09T04:58:20.989264"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "TokenRouter: Efficient Serving System for Token-Level LLM Routing",
+    "paper_url": "https://huggingface.co/papers/2610.12242",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "TokenRouter: Efficient Serving System for Token-Level LLM Routing",
+      "abstract": "We present TokenRouter, an efficient LLM serving engine for token-level routing.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.12242",
+      "pdf_url": "https://arxiv.org/pdf/2610.12242",
+      "github_links": [
+        "https://github.com/thu-nics/TokenRouter",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.12242",
+      "scraped_at": "2026-10-09T04:58:22.810774"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "Learn2Play Bench: How Well Do LLM Agents Learn from Experience in Unfamiliar Environments?",
+    "paper_url": "https://huggingface.co/papers/2610.08215",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Learn2Play Bench: How Well Do LLM Agents Learn from Experience in Unfamiliar Environments?",
+      "abstract": "We introduce Learn2Play Bench, a benchmark of newly designed text-based games, whose rules are novel or counterintuitive, requiring agents to acquire knowledge through interaction rather than rely solely on pretrained knowledge.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.08215",
+      "pdf_url": "https://arxiv.org/pdf/2610.08215",
+      "github_links": [
+        "https://github.com/liushiliushi/Learn2Play-Bench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.08215",
+      "scraped_at": "2026-10-09T04:58:24.569916"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "Multi-Agent Egocentric World Model with Fine-Grained Embodied Interaction",
+    "paper_url": "https://huggingface.co/papers/2610.12299",
+    "authors": [],
+    "stars": "14",
+    "details": {
+      "title": "Multi-Agent Egocentric World Model with Fine-Grained Embodied Interaction",
+      "abstract": "Egocentric world models predict first-person observations conditioned on an agent's actions, but most focus on a single agent. Real embodied settings often involve multiple agents that act and interact within a shared environment. Existing multi-agent world models rely on coarse actions like locomotion, camera control, or discrete commands, leaving fine-grained embodied interactions underexplored. We formulate multi-agent egocentric world modeling as synchronized ego-stream generation for multiple agents interacting through fine-grained actions in a shared world. This requires cross-view action consistency, shared-environment consistency, and consistent propagation of interaction-induced state updates. We propose Multi-agent Egocentric World Model (ME-World), which jointly denoises multiple ego streams in a shared token sequence, conditions each stream on all agents' target-view poses, and grounds generation with shared environment memory. We train and evaluate on real and synthetic multi-agent data and introduce shared-world consistency metrics for environment, update, and identity consistency. Experiments show ME-World improves shared-world consistency, action control, identity preservation, and video quality over existing methods.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.12299",
+      "pdf_url": "https://arxiv.org/pdf/2610.12299",
+      "github_links": [
+        "https://github.com/cvlab-kaist/ME-World",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.12299",
+      "scraped_at": "2026-10-09T04:58:26.379492"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "AgentGarten: Code Worlds for Evolving Agents",
+    "paper_url": "https://huggingface.co/papers/2610.12374",
+    "authors": [],
+    "stars": "54",
+    "details": {
+      "title": "AgentGarten: Code Worlds for Evolving Agents",
+      "abstract": "Agents learn through interaction, and what they can learn is bounded by the environments they practice in. Those environments must be faithful, with consistent state, rules, and dynamics, and realistic, with observations that look like the real world. AgentGarten builds real-time interactive environments that are both: simulators and game engines keep the state and run the rules, while a shared neural renderer, distilled with our Adversarial Forcing, turns the geometry they export into the observations an agent sees. In these worlds, pretrained agents act on rendered frames, review each round, and write playbooks for the agents that follow. Revisiting hide-and-seek, hiders build shelters by round 4 and seekers use ramps by round 10. Because a new world is written as code and rendered through the same interface, environments can grow alongside their agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.12374",
+      "pdf_url": "https://arxiv.org/pdf/2610.12374",
+      "github_links": [
+        "https://github.com/MirroS-Lab/AgentGarten",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.12374",
+      "scraped_at": "2026-10-09T04:58:28.219040"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
+    "paper_url": "https://huggingface.co/papers/2610.12468",
+    "authors": [
+      "Mingchao Sun",
+      "Xiangshuo Liu",
+      "Yu Liu",
+      "Ruizhi Li",
+      "Junyan Li"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
+      "abstract": "We present DreamTrue, a multi-view, cross-embodiment robot world model for action-faithful and physically plausible video prediction. On AgiBot, DreamTrue attains state-of-the-art action following, while reducing the human-assessed interaction defect rate from 48.12% to 6.25%. Notably, our model ranks first in the world model track of the AgiBot World Challenge 2026.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.12468",
+      "pdf_url": "https://arxiv.org/pdf/2610.12468",
+      "github_links": [
+        "https://github.com/brave-eai/DreamTrue",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.12468",
+      "scraped_at": "2026-10-09T04:58:30.021287"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "In-context Robot Learning Made Simple: A Democratized Recipe for Manipulation Tasks",
+    "paper_url": "https://huggingface.co/papers/2609.38173",
+    "authors": [
+      "Xiangshuo Liu",
+      "Hanwen Wang",
+      "Weizhi Zhao",
+      "Minghao Han",
+      "Minxing Li"
+    ],
+    "stars": "6",
+    "details": {
+      "title": "In-context Robot Learning Made Simple: A Democratized Recipe for Manipulation Tasks",
+      "abstract": "We tackles a key ambiguity in robot in-context learning: what should a robot actually follow from a video demonstration? We defines the learning target across action, object, composition, and affordance semantics, then introduces a low-cost data recipe and a minimalist visual-prompt encoder and without massive pretraining. Experiments in simulation and on eight real-world tasks show strong zero-shot generalization and robustness. The data and training pipeline will be fully open-sourced.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.38173",
+      "pdf_url": "https://arxiv.org/pdf/2609.38173",
+      "github_links": [
+        "https://github.com/simpleicl/simple-icl",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.38173",
+      "scraped_at": "2026-10-09T04:58:31.792156"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "SparseDecoding: Decoding-Aware Pruning for Accurate and Efficient LLM Inference",
+    "paper_url": "https://huggingface.co/papers/2610.12327",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SparseDecoding: Decoding-Aware Pruning for Accurate and Efficient LLM Inference",
+      "abstract": "We introduce SparseDecoding, a principled decoding-aware LLM pruning framework, achieving 1.48x end-to-end wall-clock decoding speedup on A100 GPUs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.12327",
+      "pdf_url": "https://arxiv.org/pdf/2610.12327",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.12327",
+      "scraped_at": "2026-10-09T04:58:33.612931"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "What Did the Agent Actually Do? Evidence-Grounded Oversight for Long-Horizon Agents",
+    "paper_url": "https://huggingface.co/papers/2610.06406",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "What Did the Agent Actually Do? Evidence-Grounded Oversight for Long-Horizon Agents",
+      "abstract": "As AI Agents Become More Autonomous, How Can We Know What They Actually Did? As AI agents become increasingly capable, the tasks they undertake are evolving from simple question answering and tool use to autonomous workflows that may last for hours or even days. From software development and data analysis to scientific research, agents can independently plan, invoke tools, modify code, and continuously adjust their strategies based on intermediate results. Traditionally, research on AI interpretability has focused primarily on understanding the internal decision-making mechanisms of models . However, as agents take on increasingly complex, long-horizon tasks, a new challenge is emerging: not only are the internal mechanisms of AI models difficult to interpret, but their long-horizon behaviors are also becoming increasingly difficult to oversee. Giving an agent a goal does not mean that every constraint and decision along the way has been fully specified. For example: Underspecified requirements: When user instructions are incomplete, agents may autonomously fill in missing assumptions, which may not align with the user's actual intentions. Silent behavioral deviations: Agents may modify their original plans or implementations without informing users. Even when all tests pass, their actual behavior may still deviate from the intended requirements. Unverified consequential decisions: Seemingly reasonable decisions, such as changing evaluation metrics, filtering data, or adjusting experimental settings, may fundamentally affect the final outcome without ever being confirmed by the user. More importantly, as execution trajectories grow longer, critical evidence becomes scattered across extensive conversations, tool calls, and intermediate artifacts. Users cannot realistically inspect every step. Sometimes, they may not even know which consequential decisions the agent has made, when intervention is necessary, or what follow-up instructions they should provide. This creates a fundamental challenge for traditional Human-in-the-Loop paradigms: humans may remain part of the oversight process without genuinely understanding what the agent has actually done. Motivated by this problem, in our recent work, \"What Did the Agent Actually Do? Evidence-Grounded Oversight for Long-Horizon Agents,\" we explore a new direction: Can we build an independent, evidence-grounded oversight system that proactively identifies decisions worth human attention and verification, rather than requiring users to manually search through lengthy execution logs? We investigate this problem from two complementary perspectives: ① Alignment between Requirements and Behavior Does the agent's actual behavior align with the user's requirements? When user specifications leave important details unresolved, or when an agent silently deviates from the intended behavior, can an oversight system identify issues that warrant clarification or verification? ② Awareness and Verification of Consequential Decisions What consequential decisions has the agent made during autonomous execution? Even when these decisions are not necessarily incorrect, can an oversight system proactively surface them and provide sufficient evidence for users to assess whether they should be accepted? Building on these two dimensions, we introduce AgentMonBench , a benchmark comprising three subsets—SpecGAP, SilentSwap, and FeedbackTrace—to systematically evaluate the ability of LLMs to identify consequential decisions and localize supporting evidence. We further propose the Evidence-Grounded Behavior Graph (EBG) , which organizes evidence scattered across repositories and execution trajectories into a structured behavioral graph. This enables oversight models to interpret an agent's actual behavior in the context of task requirements, identify consequential decisions, and trace supporting evidence back to its original sources. Importantly, EBG is training-free . We also integrate it into the Codex Harness , introducing oversight checkpoints before execution, after consequential execution changes, and before final reporting. These checkpoints help users clarify requirements, review important behavioral changes, and verify outcomes based on evidence. Experiments across eight models show that EBG improves consequential decision identification and evidence localization in most evaluation settings. Case studies involving real research workflows further demonstrate its potential to support user verification and guide subsequent agent execution. More broadly, we hope this work encourages a shift in how we think about AI interpretability and oversight. Interpretability should not be limited to answering \"Why does a model reason this way internally?\" It should also address \"What did an agent actually do throughout a long-horizon task? Which decisions shaped the outcome? And what evidence do we have to trust those decisions?\" As AI agents become increasingly autonomous, effective human oversight may no longer mean participating in every step. Instead, it may mean empowering humans to understand, verify, and intervene at the moments that truly matter, with reliable evidence. From model-level interpretability to long-horizon behavioral oversight. From Human-in-the-Loop to meaningful Human Oversight. 📄 Paper: https://arxiv.org/abs/2610.06406 💻 Code: https://github.com/zhk-lab/EBG 📊 Benchmark: https://huggingface.co/datasets/ZhaoHongKang/AgentMonBench 🌐 Project Page: https://zhk-lab.github.io/agentmonbench-ebg/",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.06406",
+      "pdf_url": "https://arxiv.org/pdf/2610.06406",
+      "github_links": [
+        "https://github.com/zhk-lab/EBG",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.06406",
+      "scraped_at": "2026-10-09T04:58:35.530173"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "MC-Sparse: Deconstructing and Closing the Dense-Sparse Attention Gap in Diffusion Transformers",
+    "paper_url": "https://huggingface.co/papers/2610.06801",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MC-Sparse: Deconstructing and Closing the Dense-Sparse Attention Gap in Diffusion Transformers",
+      "abstract": "Sparse attention is a primary approach to reducing the latency of diffusion transformers in long-sequence generation tasks, such as video and high-resolution 3D asset generation. However, existing methods can degrade generation quality and fidelity at high sparsity levels. Through controlled oracle comparisons, we trace this degradation to three sources: constraints imposed by token grouping, inaccurate interaction selection, and the attention contributions lost when tokens are discarded. Guided by this analysis, we propose Meta-Cached Sparse Attention (MC-Sparse), a training-free framework that selects individual key-value (KV) tokens while organizing similar queries into tile-aligned groups for efficient GPU execution. MC-Sparse caches metadata comprising query groups, KV indices selected using exact attention probabilities, and residuals between dense and sparse attention outputs, and reuses them across subsequent denoising steps. Across video and 3D generation models, MC-Sparse achieves higher fidelity to dense-attention outputs and larger denoising speedups than existing sparse-attention baselines, without visible quality degradation. Relative to dense attention, it delivers a 1.80× denoising speedup on Minimax-H3-Base and a  2.32× speedup on 3D asset generation, both with negligible quality loss.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.06801",
+      "pdf_url": "https://arxiv.org/pdf/2610.06801",
+      "github_links": [
+        "https://github.com/dodododddo/mcsparse",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.06801",
+      "scraped_at": "2026-10-09T04:58:37.312316"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "Post-Training Frontier Text-to-Image Models by Composing Preference and Rubric Rewards",
+    "paper_url": "https://huggingface.co/papers/2610.02967",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Post-Training Frontier Text-to-Image Models by Composing Preference and Rubric Rewards",
+      "abstract": "Human preference alone isn’t enough for text-to-image post-training: an image can look appealing while missing prompt details or violating the requested style. This work combines a preference reward model trained on ~5 million human votes with rubric rewards for prompt faithfulness and constraint satisfaction. It also introduces anti-reward-hacking gates and combines complementary policies through weight averaging. The recipe improves already strong models in live, blind human evaluation: FLUX.2-dev gains 69 Arena points. Our post-trained Ideogram 4 surpasses all publicly listed open-source models on the Text-to-Image Arena leaderboard as of the September 4, 2026 snapshot. We’d love to hear your thoughts!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.02967",
+      "pdf_url": "https://arxiv.org/pdf/2610.02967",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.02967",
+      "scraped_at": "2026-10-09T04:58:39.084353"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation",
+    "paper_url": "https://huggingface.co/papers/2610.12442",
+    "authors": [],
+    "stars": "14",
+    "details": {
+      "title": "LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation",
+      "abstract": "Hi @ akhaliq and the HF Papers team, thank you for featuring our paper! Our teaser video is very wide (2.75:1), so the Daily Papers card crops out half of the result. Could you replace the media with the attached version, which is re-framed for the card? If replacing it is not possible, could you remove the paper from the feed so that I can resubmit it with the new video before the submission deadline (Oct 23)? Thank you!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.12442",
+      "pdf_url": "https://arxiv.org/pdf/2610.12442",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/suhwan-cho/LEGO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.12442",
+      "scraped_at": "2026-10-09T04:58:40.911951"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "VibeEdit: Image Editing with Canvas Instructions",
+    "paper_url": "https://huggingface.co/papers/2610.12229",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "VibeEdit: Image Editing with Canvas Instructions",
+      "abstract": "In text-guided image editing, describing the desired change is often straightforward, but identifying the intended object or region can be cumbersome, especially when several objects look alike. We introduce a new image editing interface that lets users place spatial marks and optional short notes directly on the image. Together, these annotations form a canvas instruction that specifies where to edit and what to change. Our editor, VibeEdit, follows these instructions to perform object addition, removal, replacement, attribute modification, and movement without a separate text prompt. We construct 1.55 million source-target edit pairs with object masks and structured edit descriptions, from which we render canvas instructions during training. We adapt Qwen-Image-Edit with layer-decoupled conditioning that separately encodes source images and canvas instructions for image editing. We train the model with region-weighted supervised fine-tuning, followed by rubric-guided reinforcement learning to improve edit completion, local edit quality, and preservation of unedited regions. We evaluate VibeEdit on an independently constructed, human-curated benchmark of 419 cases emphasizing target selection among similar objects. VibeEdit achieves a VLM rubric score of 79.9 and an outside-region PSNR of 32.8 dB, compared with 67.4 and 24.0 dB for FireRed, the highest-scoring text-instructed baseline in our evaluation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.12229",
+      "pdf_url": "https://arxiv.org/pdf/2610.12229",
+      "github_links": [
+        "https://github.com/ZhaoJingjing713/VibeEdit",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.12229",
+      "scraped_at": "2026-10-09T04:58:42.662709"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "TestPrism: Rethinking Test Evaluation Beyond a Single Reference",
+    "paper_url": "https://huggingface.co/papers/2610.12289",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "TestPrism: Rethinking Test Evaluation Beyond a Single Reference",
+      "abstract": "Large language model (LLM) coding agents have advanced test generation across diverse programming tasks. However, the common practice of evaluating tests against a single reference solution overlooks alternative valid implementations and can overstate test quality. We introduce TestPrism, comprising 300 test tasks from 17 sources and 3000 candidate implementations, evenly split between valid and invalid solutions. Its primary metric, Joint Success Function, requires the generated tests to fail on the initial program state, accept every valid candidate, and reject every invalid candidate. Across fourteen baseline coding agent configurations, Joint Success Function reaches only 28.00%, whereas single reference success reaches 59.67%. Our analysis reveals missed behaviors, unsupported assertions, and faulty test construction. To address these weaknesses, we introduce TestHelix, which combines heterogeneous synthesis of test and repair pairs with peer cross validation and recursive self improvement (RSI). Across two models, TestHelix improves Joint Success Function by 8.67 to 9.00 percentage points over the native harness comparators in the TestHelix evaluation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.12289",
+      "pdf_url": "https://arxiv.org/pdf/2610.12289",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.12289",
+      "scraped_at": "2026-10-09T04:58:44.400265"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "USDCraft: Geometrically Grounded Programmatic Modeling of Articulated 3D Assets for Simulation",
+    "paper_url": "https://huggingface.co/papers/2610.11322",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "USDCraft: Geometrically Grounded Programmatic Modeling of Articulated 3D Assets for Simulation",
+      "abstract": "USDCraft reconstructs real-world articulated objects for simulation with an agentic harness: give it text, an image, or a mesh, and it builds a simulation-ready articulated asset with working doors, drawers, and hinges. The assets load straight into Isaac Sim, and policies trained on them transfer directly to real robots. Project page: https://xingyoujun.github.io/usdcraft . Code will be open-sourced within two weeks, pending release approval.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.11322",
+      "pdf_url": "https://arxiv.org/pdf/2610.11322",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.11322",
+      "scraped_at": "2026-10-09T04:58:46.280142"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "ReSPO: Reshaped Sequence Policy Optimization for Gradient Starvation in Off-Policy Learning",
+    "paper_url": "https://huggingface.co/papers/2609.35433",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ReSPO: Reshaped Sequence Policy Optimization for Gradient Starvation in Off-Policy Learning",
+      "abstract": "Excited to share ReSPO, a new policy-optimization method designed for off-policy RL under high rollout staleness: a particularly difficult setting for large MoE models. ReSPO reshapes sequence-level importance weights to prevent gradient starvation, preserving useful learning signals from under-generated correct responses while suppressing unstable updates from extreme weights. It delivers stronger gains as the number of sampled responses increases and enables more stable, effective training at scale. Code is available at https://github.com/yhangchen/ReSPO-code .",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.35433",
+      "pdf_url": "https://arxiv.org/pdf/2609.35433",
+      "github_links": [
+        "https://github.com/yhangchen/ReSPO-code",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.35433",
+      "scraped_at": "2026-10-09T04:58:48.106881"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "Do LLMs Understand Sequential Structure? A Controlled Study of Inference and Generation",
+    "paper_url": "https://huggingface.co/papers/2610.04977",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Do LLMs Understand Sequential Structure? A Controlled Study of Inference and Generation",
+      "abstract": "Do LLMs truly understand sequential behavior, or do they simply reproduce surface-level patterns? We investigate this question through controlled experiments on strategy identification, Markov rule following, and higher-order sequential dependencies. Our findings reveal a critical gap between recognizing a strategy and faithfully simulating it: longer context does not necessarily help, and matching action distributions can hide fundamentally incorrect generative mechanisms. These results challenge how we evaluate LLMs as behavioral simulators and interactive agents. Paper: https://arxiv.org/abs/2610.04977",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.04977",
+      "pdf_url": "https://arxiv.org/pdf/2610.04977",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.04977",
+      "scraped_at": "2026-10-09T04:58:49.896846"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "From Prompting to Composing: A Spatial Canvas Interface for Poster Generation",
+    "paper_url": "https://huggingface.co/papers/2610.12230",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "From Prompting to Composing: A Spatial Canvas Interface for Poster Generation",
+      "abstract": "Introducing Compo , a poster generation model adapted from a pretrained image editing model without task-specific architecture design to interpret Spatial Canvas Interface and their associated Text Specifications . Our interface supports four complementary forms of binding: Semantic Binding associates a textual concept with a target region; Identity Binding associates a reference image with a region to preserve its visual identity; Text Binding specifies both an exact text string and its desired location; and Pixel Binding directly places visual content that should be preserved. All these elements, including bounding boxes, reference images, and textual identifiers, are directly rendered onto the Spatial Canvas to form a single unified image input.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.12230",
+      "pdf_url": "https://arxiv.org/pdf/2610.12230",
+      "github_links": [
+        "https://github.com/snowflakewang/Compo",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.12230",
+      "scraped_at": "2026-10-09T04:58:52.321427"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "OneSearch-VL: Unified Multimodal Deep Research Agent for Image and Video",
+    "paper_url": "https://huggingface.co/papers/2610.12419",
+    "authors": [
+      "Dian Zheng",
+      "Shu Chen",
+      "Kaituo Feng",
+      "Manyuan Zhang",
+      "Hongyu Li"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "OneSearch-VL: Unified Multimodal Deep Research Agent for Image and Video",
+      "abstract": "code: https://github.com/appletea233/OneSearch-VL data: https://huggingface.co/OneSearch-VL",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.12419",
+      "pdf_url": "https://arxiv.org/pdf/2610.12419",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/appletea233/OneSearch-VL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.12419",
+      "scraped_at": "2026-10-09T04:58:54.071174"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "SparseEngine: Sparse-First Inference Engine",
+    "paper_url": "https://huggingface.co/papers/2609.39068",
+    "authors": [
+      "Jun Yu",
+      "Qiang Huang",
+      "Quansheng Gu",
+      "Jitai Hao"
+    ],
+    "stars": "79",
+    "details": {
+      "title": "SparseEngine: Sparse-First Inference Engine",
+      "abstract": "Long-context LLM agents accumulate interaction histories that strain KV-cache memory and attention computation. Although sparse attention reduces these costs, heterogeneous cache representations and workflows hinder integration with existing inference engines, while prior sparse-serving abstractions support only specific layouts or workflows. We present SparseEngine, a ground-up, sparse-first inference engine whose shared lifecycle contract lets each method control its KV representation and computation while coordinating state transitions with common serving infrastructure. SparseEngine supports 15 methods across four categories and enables cross-request state management through Chain Cache, which resumes KV-eviction methods from retained history, and controllable Prefix-Cache Pruning, which removes KV from selected history regions while preserving logical-prefix matching. While maintaining method quality, SparseEngine delivers over 10x higher throughput with KV eviction, over 2.5x faster decoding at matched concurrency than vLLM, and over 2x end-to-end speedup on agent benchmarks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.39068",
+      "pdf_url": "https://arxiv.org/pdf/2609.39068",
+      "github_links": [
+        "https://github.com/CURRENTF/SparseEngine",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.39068",
+      "scraped_at": "2026-10-09T04:58:55.787772"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "SanSi: A Looped Typed Decision Model for System 1.5 Thinking",
+    "paper_url": "https://huggingface.co/papers/2610.07730",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "SanSi: A Looped Typed Decision Model for System 1.5 Thinking",
+      "abstract": "TL;DR: Our work is a looped typed decision model that returns a probability for each declared option and can be read after any of its eight loops, so one model serves every compute budget without generating reasoning tokens. With the same data and recipe, the 1.4B SanSi comes within 1.8 points of Qwen3.5-4B (three times its parameters) and, unlike it, solves reasoning chains longer than any seen in training.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.07730",
+      "pdf_url": "https://arxiv.org/pdf/2610.07730",
+      "github_links": [
+        "https://github.com/minnesotanlp/Sansi",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.07730",
+      "scraped_at": "2026-10-09T04:58:57.573621"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "Chaos in the Text: Revealing the Modality Preference in Mixed-Modality Retrievers",
+    "paper_url": "https://huggingface.co/papers/2610.11816",
+    "authors": [
+      "Zhipeng Xu",
+      "Zhenghao Liu",
+      "Yukun Yan",
+      "Chunyi Peng",
+      "Yubo Sun"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Chaos in the Text: Revealing the Modality Preference in Mixed-Modality Retrievers",
+      "abstract": "Dense retrievers have made significant progress on text and image corpora, but whether these capabilities extend reliably to mixed corpora containing text, image, and fused text-image documents remains unclear. In this paper, we systematically examine retrievers across architectures and find that their performance is highly sensitive to modality composition. As image documents are progressively replaced with semantically corresponding text representations, retrieval performance follows a pronounced V-shaped curve, remaining strong on single-modality corpora but degrading substantially when modalities coexist. In particular, irrelevant text causes more severe degradation than an equal number of irrelevant images, a phenomenon we term Chaos in the Text. Further analysis reveals modality preference, whereby text representations receive systematically higher similarity scores, allowing irrelevant text to outrank relevant images. To mitigate this bias, we introduce Trident, which constructs text, image, and fused text-image views of each document as co-equal positives and jointly optimizes relevance discrimination and positive-view balance through Multi-Positive View InfoNCE. Experiments across visual document and natural image benchmarks show that trident improves mixed-modality retrieval on both CLIP-based and VLM-based architectures, reduces sensitivity to modality composition and text distractors, and increases average single-modality retrieval performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.11816",
+      "pdf_url": "https://arxiv.org/pdf/2610.11816",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/OpenBMB/Trident"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.11816",
+      "scraped_at": "2026-10-09T04:58:59.348335"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "V-CoLA: Vision Token Compression with Linear Attention",
+    "paper_url": "https://huggingface.co/papers/2610.11251",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "V-CoLA: Vision Token Compression with Linear Attention",
+      "abstract": "Vision-language models (VLMs) have demonstrated impressive capabilities but suffer from substantial computational overhead, as vision tokens dominate the input sequence. This motivates vision token compression as a key direction to alleviate the burden. However, with the emergence of hybrid architectures incorporating linear attention (\\eg, Qwen3.5), prior methods designed for softmax attention struggle to generalize. Our analysis reveals that both attention- and similarity-based approaches suffer notable performance degradation, underscoring the urgent need for compression methods tailored to this regime. To this end, we propose \\textbf{V-CoLA}, an efficient training-free token compression framework specifically designed for linear attention. V-CoLA introduces a novel \\textit{uniqueness-aware importance criterion} for identifying critical vision tokens, coupled with an \\textit{adaptive token merging strategy} that performs compression. All components are optimized at the implementation level to remain compatible with the chunk-wise parallelism of linear attention, ensuring strong practical value. Extensive experiments across multiple benchmarks demonstrate the superiority of V-CoLA: it achieves 99.5% of the original performance with only 50.0% of vision tokens, and over 88.0% with as few as 12.5%, while delivering a 1.86× to 6.15× prefill speedup.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.11251",
+      "pdf_url": "https://arxiv.org/pdf/2610.11251",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.11251",
+      "scraped_at": "2026-10-09T04:59:01.139582"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "SpatialOPSD: Self-Distilling Spatial Intelligence from Verified Coding Agent Traces",
+    "paper_url": "https://huggingface.co/papers/2610.11366",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SpatialOPSD: Self-Distilling Spatial Intelligence from Verified Coding Agent Traces",
+      "abstract": "With the widespread adoption of coding agents, we explore an approach to distilling the spatial reasoning capabilities of coding agents into standalone MLLMs through on-policy self-distillation (OPSD).",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.11366",
+      "pdf_url": "https://arxiv.org/pdf/2610.11366",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.11366",
+      "scraped_at": "2026-10-09T04:59:02.841986"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict",
+    "paper_url": "https://huggingface.co/papers/2610.12360",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict",
+      "abstract": "When retrieved evidence contradicts an agent's prior beliefs, does it revise its answer, acknowledge uncertainty, or persist with an incorrect conclusion? Existing evaluations of agentic systems focus primarily on task success, offering limited insight into how agents handle such conflicts. We propose to evaluate agents on epistemic humility (EH): the agent's willingness to recognize, act on, and communicate uncertainty during task execution. We operationalize EH through three trajectory-level behavioral dimensions: Identify, Solve, and Escalate (ISE). Through knowledge conflict, situations where the backbone language model's parametric knowledge contradicts the evidence it encounters, or where two contextual sources disagree, we evaluate two conflict settings: (1) controlled conflict and (2) naturally occurring conflict during multi-step agentic execution, each paired with matched no-conflict controls. Evaluating four agents, we find that higher task accuracy does not necessarily correspond to greater epistemic humility: some high-accuracy configurations recognize conflicts during execution but do not communicate unresolved uncertainty in their incorrect final answers. Trajectory-level analysis further reveals that agents frequently detect conflicts in early steps of execution but fail to maintain or resolve them in later steps. Finally, we show that model-level interventions can improve EH, but often at the cost of task accuracy, suggesting that epistemic humility emerges from the interaction among the backbone model, agent harness, and evaluation environment.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.12360",
+      "pdf_url": "https://arxiv.org/pdf/2610.12360",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/KaiserWhoLearns/EpistemicHumilityLLMAgents"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.12360",
+      "scraped_at": "2026-10-09T04:59:04.576971"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "SpaceCast-Bench: Evaluating Predictive Spatial Reasoning in Vision-Language Models",
+    "paper_url": "https://huggingface.co/papers/2610.12402",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "SpaceCast-Bench: Evaluating Predictive Spatial Reasoning in Vision-Language Models",
+      "abstract": "This paper introduces SpaceCast-Bench, a benchmark for predictive spatial reasoning that evaluates whether vision-language models can infer unseen outcomes of spatial transformations, with 3,862 questions across 16 task types covering static perception, local prediction, and global prediction. 💻 Code: https://github.com/ZJU-REAL/SpaceCast-Bench 🤗 Dataset: https://huggingface.co/datasets/hongxingli/SpaceCast-Bench",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.12402",
+      "pdf_url": "https://arxiv.org/pdf/2610.12402",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ZJU-REAL/SpaceCast-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.12402",
+      "scraped_at": "2026-10-09T04:59:06.313824"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "ViSkill: Reinforcing VLM Agents with Evolving Visual-Native Skills",
+    "paper_url": "https://huggingface.co/papers/2610.12403",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "ViSkill: Reinforcing VLM Agents with Evolving Visual-Native Skills",
+      "abstract": "This paper proposes ViSkill, a visual-native skill learning framework that represents successful interactions as reusable visual skill cards and couples geometry-aware retrieval, skill-guided reinforcement learning, and online skill distillation in a closed loop, enabling VLM agents and their skill libraries to improve together. 💻 Code: https://github.com/ZJU-REAL/ViSkill",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.12403",
+      "pdf_url": "https://arxiv.org/pdf/2610.12403",
+      "github_links": [
+        "https://github.com/ZJU-REAL/ViSkill",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.12403",
+      "scraped_at": "2026-10-09T04:59:08.063451"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "Scaling to Tens of Thousands of Test-Time Iterations with Loop-Native Attention Residuals",
+    "paper_url": "https://huggingface.co/papers/2610.11570",
+    "authors": [
+      "Lu Yin",
+      "Guinan Su",
+      "Di He",
+      "Dilxat Muhtar",
+      "Pengxiang Li"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Scaling to Tens of Thousands of Test-Time Iterations with Loop-Native Attention Residuals",
+      "abstract": "1/ More loops ≠ better reasoning. On Sudoku-Extreme, TRM peaks at 62% and then drops as you keep looping. Puzzles it already solved get broken again. 2/ The culprit is “carry-last”: every iteration just overwrites the state with the latest output. One noisy step and the good answer is gone. 3/ InfiLoop keeps a running, attention-weighted average of past states instead. Each new update gets a learned step size. Good updates move the state; noisy ones barely touch it. Memory stays constant no matter how many loops you run. 4/ Results with 7M params: 97.9% on Sudoku-Extreme, 13.6% pass@2 on ARC-AGI-2, and it’s still improving at 20k+ effective steps. Not best everywhere (Maze-Hard is about on par with prior work), but the depth scaling is the point.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.11570",
+      "pdf_url": "https://arxiv.org/pdf/2610.11570",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/pixeli99/InfiLoop"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.11570",
+      "scraped_at": "2026-10-09T04:59:09.810670"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "Reasoning-Informed Visual Editing",
+    "paper_url": "https://huggingface.co/papers/2610.12343",
+    "authors": [],
+    "stars": "155",
+    "details": {
+      "title": "Reasoning-Informed Visual Editing",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.12343",
+      "pdf_url": "https://arxiv.org/pdf/2610.12343",
+      "github_links": [
+        "https://github.com/VisionXLab/RISEBench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.12343",
+      "scraped_at": "2026-10-09T04:59:11.623257"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "Retrieval-Centric Deep Learning in Growing Nonparametric Neural Networks",
+    "paper_url": "https://huggingface.co/papers/2610.03858",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Retrieval-Centric Deep Learning in Growing Nonparametric Neural Networks",
+      "abstract": "TLDR: A well-known duality connects training of linear layers by gradient descent with linear attention over training examples. This paper builds on this insight and proposes retrieval-centric deep learning which replaces the standard linear attention in this dual view with more expressive variants such as softmax attention, DeltaNet and the Mesa layer to obtain growing nonparametric layers and demonstrates the strong performance and sample efficiency of this new deep learning paradigm on simple regression and classic CIFAR image classification tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.03858",
+      "pdf_url": "https://arxiv.org/pdf/2610.03858",
+      "github_links": [
+        "https://github.com/paradigms-of-intelligence/rcdl",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.03858",
+      "scraped_at": "2026-10-09T04:59:13.368432"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "OmniCapBench: A Deep-Structured Evaluation Framework for Fine-Grained Audio-Visual Captioning",
+    "paper_url": "https://huggingface.co/papers/2610.12458",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "OmniCapBench: A Deep-Structured Evaluation Framework for Fine-Grained Audio-Visual Captioning",
+      "abstract": "We propose OmniCapBench, a benchmark that reformulates audio-video captioning as structured prediction, enabling deterministic constraint checks and local semantic judging for reliable, fine-grained diagnosis of model failures.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.12458",
+      "pdf_url": "https://arxiv.org/pdf/2610.12458",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.12458",
+      "scraped_at": "2026-10-09T04:59:15.111256"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "Embodied Turing Machines: Stateful Code for Robot Recursive Self-Improvement",
+    "paper_url": "https://huggingface.co/papers/2610.12369",
+    "authors": [
+      "Ziwei Liu",
+      "Zhaoxi Chen",
+      "Fangzhou Hong",
+      "Siyuan Hu",
+      "Kairui Hu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Embodied Turing Machines: Stateful Code for Robot Recursive Self-Improvement",
+      "abstract": "Most robot policies keep a model in the control loop: a VLA maps observations to actions, and an Agent Harness, such as Agent-as-Policy or Harness VLA queries a VLM for decision making at run time. We propose a different view: the embodied world is an Embodied Turing Machine, whose tape is the robot and environment state and rules are the policy. If this state can be represented accurately, the decision making can be written entirely in code. We therefore propose Code-Only-as-Policy (COAP): code measures and tracks the robot, environment, and task state from camera images and proprioception, and makes every decision from it. The same code applies across episodes, and different tasks share one library without a VLM or VLA in the loop. Compared with VLAs and Agent Harnesses, we analyze three advantages of COAP: (i) Explicit State: the state can be stored in code; (ii) Execution: code makes decision making controllable, recovers from failures flexibly, and runs fast and cheaply online; (iii) Extensibility: new tasks reuse, inherit, or extend the shared library, so capabilities can accumulate over tasks. These advantages make COAP a suitable medium for recursive self-improvement (RSI): coding agents develop the library in a closed loop, and each change is explicit and controllable. On RoboDojo's 42 bimanual tasks, the resulting library reaches a success rate of 70.24% without a model at test time. The upper bound of COAP lies in how accurately the state is represented for decision making and how robust the code logic is. We thus propose COAP as a new paradigm for embodied tasks; since it applies across episodes, it can also serve as an efficient data engine for VLAs and Agent Harnesses.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.12369",
+      "pdf_url": "https://arxiv.org/pdf/2610.12369",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.12369",
+      "scraped_at": "2026-10-09T04:59:16.855184"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "Distilling Routed 3D Privilege for Spatial Reasoning in Vision-Language Models",
+    "paper_url": "https://huggingface.co/papers/2610.12355",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Distilling Routed 3D Privilege for Spatial Reasoning in Vision-Language Models",
+      "abstract": "This paper proposes GPD, a geometry-privileged distillation framework that routes question-relevant 3D cues and reference answers to a teacher during on-policy self-distillation, augmenting GRPO with distillation on incorrect trajectories while keeping inference RGB-only. 💻 Code: https://github.com/ZJU-REAL/GPD 🤗 Model: https://huggingface.co/xinyili0624/GPD-4B 🤗 Dataset: https://huggingface.co/datasets/xinyili0624/GPD-15k",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.12355",
+      "pdf_url": "https://arxiv.org/pdf/2610.12355",
+      "github_links": [
+        "https://github.com/ZJU-REAL/GPD",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.12355",
+      "scraped_at": "2026-10-09T04:59:18.562814"
+    },
+    "scraped_date": "2026-10-09"
+  },
+  {
+    "title": "TerraVis: Towards Evaluation of World-Grounded Visual Consistency in Text-to-Image Generation via MLLM Workflows",
+    "paper_url": "https://huggingface.co/papers/2610.02959",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "TerraVis: Towards Evaluation of World-Grounded Visual Consistency in Text-to-Image Generation via MLLM Workflows",
+      "abstract": "Excited to share TerraVis , accepted to NeurIPS 2026 (Evaluations & Datasets Track)! 🎉🎉🎉 While existing T2I metrics primarily focus on prompt alignment and visual quality, TerraVis addresses a long-standing gap in text-to-image evaluation: world consistency , whether generated objects, interactions, and scenes obey real-world constraints. 🔍 18 interpretable violation types with evidence and severity 📊 13.5K human annotations for evaluation 🚀 Try our online evaluator: https://shyfoo.github.io/TerraVis-web/ Code, dataset, and demo are publicly available. Feedback and discussions are very welcome!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.02959",
+      "pdf_url": "https://arxiv.org/pdf/2610.02959",
+      "github_links": [
+        "https://github.com/ShyFoo/TerraVis",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.02959",
+      "scraped_at": "2026-10-09T04:59:20.335021"
+    },
+    "scraped_date": "2026-10-09"
   }
 ]
