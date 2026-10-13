@@ -11552,5 +11552,250 @@
       "scraped_at": "2026-10-12T04:45:10.592262"
     },
     "scraped_date": "2026-10-12"
+  },
+  {
+    "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
+    "paper_url": "https://huggingface.co/papers/2609.39601",
+    "authors": [],
+    "stars": "19",
+    "details": {
+      "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
+      "abstract": "🤖 GroundingPI: What foundation model does embodied AI need? 4B parameters. SOTA overall across 34 grounding benchmarks, surpassing GPT-6 Astra! By training precise perception as a native capability, GroundingPI achieves the best robot generalization and data efficiency among the VLA/WAM backbones evaluated in controlled experiments. Used Grounding DINO? 🎯Try the new leading grounding foundation model across model sizes! Just 4B parameters, with a complete inference stack for easy deployment. 📦 Code & model weights are open source 🌐 groundingpi.github.io",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.39601",
+      "pdf_url": "https://arxiv.org/pdf/2609.39601",
+      "github_links": [
+        "https://github.com/groundingpi/GroundingPI",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.39601",
+      "scraped_at": "2026-10-13T05:48:41.931077"
+    },
+    "scraped_date": "2026-10-13"
+  },
+  {
+    "title": "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
+    "paper_url": "https://huggingface.co/papers/2610.13166",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
+      "abstract": "Scaling Agentic Data for Long-Horizon Terminal Intelligence Website: https://zs1314.github.io/TerminalHorizon",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.13166",
+      "pdf_url": "https://arxiv.org/pdf/2610.13166",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.13166",
+      "scraped_at": "2026-10-13T05:48:43.619228"
+    },
+    "scraped_date": "2026-10-13"
+  },
+  {
+    "title": "Multi-Stream Attention Residuals",
+    "paper_url": "https://huggingface.co/papers/2610.13630",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Multi-Stream Attention Residuals",
+      "abstract": "Attention Residuals (AttnRes) enables content-dependent retrieval over network depth, which can be viewed as single-stream softmax attention along the depth axis. Inspired by the success of multi-head attention along the sequence axis, we introduce Multi-Stream Attention Residuals (MSAR) , an extension of AttnRes that generalizes this mechanism to multi-head depth attention, yielding substantial performance gains with minimal additional overhead. MSAR draws stream diversity from sequence context through multi-scale causal convolutions, allowing different heads to retrieve historical representations through distinct contextual views while preserving the integrity of the hidden representation. The retrieved streams are combined through lightweight adaptive mixing to generate the single-stream layer input. By retaining single-stream sources and expanding them on demand, MSAR supports multi-stream computation without requiring persistent multi-stream storage or communication. Across all 12 downstream benchmarks at the 18B and 28B MoE scales, MSAR consistently outperforms prior residual variants, including standard residual connections, manifold-constrained Hyper-Connections (mHC), and AttnRes. Scaling-law experiments yield an iso-loss compute speedup of 1.58× over the standard residual baseline, compared with 1.35× for AttnRes and 1.30× for mHC. These results make MSAR a promising residual architecture for large-scale pre-training.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.13630",
+      "pdf_url": "https://arxiv.org/pdf/2610.13630",
+      "github_links": [
+        "https://github.com/jianke0604/MSAR",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.13630",
+      "scraped_at": "2026-10-13T05:48:45.338091"
+    },
+    "scraped_date": "2026-10-13"
+  },
+  {
+    "title": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
+    "paper_url": "https://huggingface.co/papers/2610.13361",
+    "authors": [
+      "Zheng Liu",
+      "Jiajun Zhang",
+      "Yuyang Hu",
+      "Hongjin Qian",
+      "Jiahao Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
+      "abstract": "pdf: https://arxiv.org/pdf/2610.13361 Code & Dataset: https://github.com/VectorSpaceLab/AgentSWE",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.13361",
+      "pdf_url": "https://arxiv.org/pdf/2610.13361",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/VectorSpaceLab/AgentSWE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.13361",
+      "scraped_at": "2026-10-13T05:48:46.981560"
+    },
+    "scraped_date": "2026-10-13"
+  },
+  {
+    "title": "SpatialASM: Internalizing Active Mentalization for Spatial Reasoning",
+    "paper_url": "https://huggingface.co/papers/2610.13832",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "SpatialASM: Internalizing Active Mentalization for Spatial Reasoning",
+      "abstract": "With SpatialASM, we explore whether LVLMs can go beyond passively observing the given images and instead actively reason by planning task-relevant viewpoints and mentally imagining what should be visible from them. We introduce Active Spatial Mentalization (ASM) and build a scalable training framework around it. SpatialASM uses an allocentric novel-view generator as training-time scaffolding to synthesize explicit plan-imagine-reason trajectories and automatically verifiable perspective-taking tasks. In this way, models learn both when to seek missing spatial evidence and how to reconstruct it internally without requiring additional views or a renderer at inference time. This is our attempt to bring a more human-like form of active spatial exploration into LVLMs and alleviate the scarcity of high-quality spatial reasoning supervision. Across four LVLM backbones and seven spatial benchmarks, SpatialASM improves spatial reasoning performance while preserving general visual capabilities. We’d love to hear your thoughts and feedback!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.13832",
+      "pdf_url": "https://arxiv.org/pdf/2610.13832",
+      "github_links": [
+        "https://github.com/InternLM/SpatialASM",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.13832",
+      "scraped_at": "2026-10-13T05:48:48.651056"
+    },
+    "scraped_date": "2026-10-13"
+  },
+  {
+    "title": "GroundAnything: Reconciling Parallel Decoding with Precise Visual Grounding at Flash Speed",
+    "paper_url": "https://huggingface.co/papers/2609.39600",
+    "authors": [],
+    "stars": "20",
+    "details": {
+      "title": "GroundAnything: Reconciling Parallel Decoding with Precise Visual Grounding at Flash Speed",
+      "abstract": "⚡ Why locate objects one token at a time? SOTA grounding with a 4× speedup is here! Meet GroundAnything: an open-source 4B diffusion model that generates grounding predictions in parallel, delivering a 4× speedup over the autoregressive baseline running on vLLM. We rethink visual grounding as visual evidence extraction! More accurate 🎯 and faster ⚡ than pioneering models like Grounding DINO, Rex-Omni, and LocateAnything, with near-real-time inference! 📦 Code & weights are open source 🌐 Project page",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.39600",
+      "pdf_url": "https://arxiv.org/pdf/2609.39600",
+      "github_links": [
+        "https://github.com/groundingpi/GroundAnything",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.39600",
+      "scraped_at": "2026-10-13T05:48:50.470514"
+    },
+    "scraped_date": "2026-10-13"
+  },
+  {
+    "title": "Systematic Multi-Agent Vision-and-Language Navigation: Formulation, Benchmark, and Method",
+    "paper_url": "https://huggingface.co/papers/2609.35965",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "Systematic Multi-Agent Vision-and-Language Navigation: Formulation, Benchmark, and Method",
+      "abstract": "Vision-and-Language Navigation (VLN) has largely focused on a single agent following a single instruction, yet many real-world applications require teams of robots to tackle tasks beyond the capabilities of any individual agent. We present Systematic Multi-Agent Vision-and-Language Navigation, the first systematic formalization of multi-agent VLN as a constrained coordination problem: each mission consists of subtasks carrying dependency and resource constraints (presence locks and holding chains). MAVLN is a benchmark built with a verified four-stage crafting pipeline. It contains 11,724 episodes across 145 HM3D scenes, with teams of up to four agents under three instruction regimes, and comes with constraint-aware metrics. TRISS is a coordination-ready navigation system. It couples an LLM-based subtask scheduler, a shared topological memory that turns each agent's exploration into team knowledge, and a conflict-aware execution mechanism that realizes simultaneous intentions as collision-free routes. Extensive experiments establish TRISS as a comprehensive baseline and reveal substantial room for improvement across scheduling, navigation, and execution.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.35965",
+      "pdf_url": "https://arxiv.org/pdf/2609.35965",
+      "github_links": [
+        "https://github.com/xyz9911/MA-VLN",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.35965",
+      "scraped_at": "2026-10-13T05:48:52.143323"
+    },
+    "scraped_date": "2026-10-13"
+  },
+  {
+    "title": "Thinking Inertia: LLMs Keep Thinking When Told Not To",
+    "paper_url": "https://huggingface.co/papers/2610.11765",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Thinking Inertia: LLMs Keep Thinking When Told Not To",
+      "abstract": "Today’s LLMs are used to thinking longer. But can they stop when explicitly told NOT to? Excited to share our #NeurIPS2026 work: LLMs Keep Thinking When Told Not To We observe persistent “Thinking Inertia” : LLMs keep reasoning even when explicitly told not to. They may get the answer right, yet fail to follow the no-thinking instruction. 💡 Knowing when NOT to think may be just as important as knowing how to think. Project Page: 🌐 https://thinking-inertia.github.io",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.11765",
+      "pdf_url": "https://arxiv.org/pdf/2610.11765",
+      "github_links": [
+        "https://github.com/thinking-inertia/code",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.11765",
+      "scraped_at": "2026-10-13T05:48:53.804945"
+    },
+    "scraped_date": "2026-10-13"
+  },
+  {
+    "title": "T3lescope: Arbitrary-Resolution High-Fidelity Generative Surface Reconstruction from Images",
+    "paper_url": "https://huggingface.co/papers/2610.03308",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "T3lescope: Arbitrary-Resolution High-Fidelity Generative Surface Reconstruction from Images",
+      "abstract": "T3lescope 🔭 is a high-fidelity 3D mesh reconstruction method from images. It is a generalizable reconstruction model: a single model reconstructs surface geometry of unseen scenes without optimizing a 3D representation per scene.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.03308",
+      "pdf_url": "https://arxiv.org/pdf/2610.03308",
+      "github_links": [
+        "https://github.com/pfnet-research/t3lescope",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.03308",
+      "scraped_at": "2026-10-13T05:48:55.608117"
+    },
+    "scraped_date": "2026-10-13"
+  },
+  {
+    "title": "ARCS: Towards Precise Text-to-SQL via Structured Disambiguation",
+    "paper_url": "https://huggingface.co/papers/2610.09396",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "ARCS: Towards Precise Text-to-SQL via Structured Disambiguation",
+      "abstract": "ARCS ( A mbiguity R esolution C orpus for S QL) is a text-to-SQL benchmark featuring naturally occurring, unconstrained ambiguities over real-world databases, with complete annotations of valid ambiguity points, interpretations, and SQL queries. Website: https://megagonlabs.github.io/tabulaflow/research/arcs/ Paper: https://arxiv.org/pdf/2610.09396 Dataset: https://huggingface.co/datasets/megagonlabs/arcs Demo: https://megagonlabs.github.io/tabulaflow/#demo-disambiguation",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.09396",
+      "pdf_url": "https://arxiv.org/pdf/2610.09396",
+      "github_links": [
+        "https://github.com/megagonlabs/tabulaflow",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.09396",
+      "scraped_at": "2026-10-13T05:48:57.242530"
+    },
+    "scraped_date": "2026-10-13"
+  },
+  {
+    "title": "Learning More by Training Less: Uncertainty-Guided Progressive Contraction for Efficient Reasoning Post-Training",
+    "paper_url": "https://huggingface.co/papers/2610.12933",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Learning More by Training Less: Uncertainty-Guided Progressive Contraction for Efficient Reasoning Post-Training",
+      "abstract": "Large language models have achieved remarkable advances in complex reasoning. However, scaling reasoning post-training with ever-larger corpora can substantially increase training cost without proportional performance gains. In this study, we therefore ask: how far can reasoning supervision be compressed without sacrificing capability? To this end, we propose an uncertainty-guided progressive contraction framework that concentrates supervision and optimization on the reasoning trajectories most valuable for learning. Specifically, rather than treating a teacher-generated chain-of-thought (CoT) as a single realized path, we construct uncertainty-profiled reasoning supervision by building Monte Carlo reasoning trees around intermediate reasoning states to expose process-level uncertainty. This uncertainty first contracts the original corpus into a compact teacher-informed pool. A second, learner-aware contraction then performs online routing during SFT, concentrating optimization according to the student's evolving learning state. Together, the two stages progressively contract both supervision and optimization, substantially reducing the student training budget. Experiments across diverse reasoning benchmarks and LLM families show that our method uses as little as 0.22% of the optimization budget of full-data SFT, over 450x less training exposure, while maintaining or improving reasoning performance. Notably, our framework generalizes well across heterogeneous student families, black-box teachers, and weak-to-strong transfer. This indicates that it is not only a way to accelerate training but can also enhance reasoning capability.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.12933",
+      "pdf_url": "https://arxiv.org/pdf/2610.12933",
+      "github_links": [
+        "https://github.com/Jackbrocp/Learning-More-by-Training-Less",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.12933",
+      "scraped_at": "2026-10-13T05:48:58.960228"
+    },
+    "scraped_date": "2026-10-13"
+  },
+  {
+    "title": "Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents",
+    "paper_url": "https://huggingface.co/papers/2609.33304",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents",
+      "abstract": "ExpActivator activates the experience that applies to the current screen, time, and scenario. A training-free framework for personalized GUI execution and proactive suggestions.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.33304",
+      "pdf_url": "https://arxiv.org/pdf/2609.33304",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/fyzhang1/ExpActivator"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.33304",
+      "scraped_at": "2026-10-13T05:49:00.638116"
+    },
+    "scraped_date": "2026-10-13"
   }
 ]
