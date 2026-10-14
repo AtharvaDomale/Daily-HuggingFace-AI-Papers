@@ -11797,5 +11797,440 @@
       "scraped_at": "2026-10-13T05:49:00.638116"
     },
     "scraped_date": "2026-10-13"
+  },
+  {
+    "title": "DoSA: Dots Sparse Attention",
+    "paper_url": "https://huggingface.co/papers/2610.13990",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "DoSA: Dots Sparse Attention",
+      "abstract": "DoSA skips unnecessary indexer scoring while preserving exact Top-K token selection. It uses score bounds to reject candidates early and fully scores only those still eligible. It achieves up to 2.74× Indexer speedup and 1.94× time-to-first-token speedup.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.13990",
+      "pdf_url": "https://arxiv.org/pdf/2610.13990",
+      "github_links": [
+        "https://github.com/llm-sys/flash-indexer",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.13990",
+      "scraped_at": "2026-10-14T03:51:53.727088"
+    },
+    "scraped_date": "2026-10-14"
+  },
+  {
+    "title": "LeWAM: End-to-End World and Action Modeling with JEPAs",
+    "paper_url": "https://huggingface.co/papers/2610.12818",
+    "authors": [],
+    "stars": "228",
+    "details": {
+      "title": "LeWAM: End-to-End World and Action Modeling with JEPAs",
+      "abstract": "JEPAs can 𝐧𝐨𝐰 jointly imagine what happens and what to do next! Meet 𝐋𝐞𝐖𝐀𝐌: A JEPA for the real world with 32.3× faster planning, 19 ms per plan Improves success 28.6% → 89.7% on contact-rich manipulations But also ... 🫶 a WAM for everyone with 17M · 1 GPU · 1 hyperparameter Works on a real robot, not just in simulation!! Check it out! 🌐 Project: https://le-wam.github.io/ 📄 Paper: https://arxiv.org/html/2610.12818v1 💻 Code: https://github.com/MinghaoFu/lewam 🤗 Data & Checkpoints: https://huggingface.co/LeWAM",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.12818",
+      "pdf_url": "https://arxiv.org/pdf/2610.12818",
+      "github_links": [
+        "https://github.com/MinghaoFu/lewam",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.12818",
+      "scraped_at": "2026-10-14T03:51:55.385457"
+    },
+    "scraped_date": "2026-10-14"
+  },
+  {
+    "title": "Harness^2: Recursive Agent Harnessing for an Open World",
+    "paper_url": "https://huggingface.co/papers/2610.14224",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "Harness^2: Recursive Agent Harnessing for an Open World",
+      "abstract": "TLDR: Harness² brings recursive self-improvement to open-world agents, improving the current task’s execution harness and learning from those edits to improve future harnessing, without ground-truth feedback.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.14224",
+      "pdf_url": "https://arxiv.org/pdf/2610.14224",
+      "github_links": [
+        "https://github.com/google-research/harness2",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.14224",
+      "scraped_at": "2026-10-14T03:51:57.005707"
+    },
+    "scraped_date": "2026-10-14"
+  },
+  {
+    "title": "UltraBERT: Beyond the Limit of BERT Pre-Training",
+    "paper_url": "https://huggingface.co/papers/2610.15028",
+    "authors": [
+      "Jaewoo Kang",
+      "Taewhoo Lee",
+      "Jungwoo Park"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "UltraBERT: Beyond the Limit of BERT Pre-Training",
+      "abstract": "Also please check out our blog ! Collection: dmis-lab/ultrabert UltraBERT-150M : pre-trained encoder, 32K context UltraBERT-380M : pre-trained encoder, 32K context UltraBERT-Embed-150M : ready-to-use embedding model",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.15028",
+      "pdf_url": "https://arxiv.org/pdf/2610.15028",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.15028",
+      "scraped_at": "2026-10-14T03:51:58.704502"
+    },
+    "scraped_date": "2026-10-14"
+  },
+  {
+    "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+    "paper_url": "https://huggingface.co/papers/2610.14118",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+      "abstract": "A self-improving agent running inside Claw-like harness for its own performance on general-purpose tasks",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.14118",
+      "pdf_url": "https://arxiv.org/pdf/2610.14118",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.14118",
+      "scraped_at": "2026-10-14T03:52:00.322397"
+    },
+    "scraped_date": "2026-10-14"
+  },
+  {
+    "title": "PANINI-DR: Controlled Deep Research through Generative Semantic Workspaces",
+    "paper_url": "https://huggingface.co/papers/2610.15208",
+    "authors": [
+      "Kartik Sharma",
+      "Chenda Duan",
+      "M. Efe Lorasdagi",
+      "Shreyas Rajesh",
+      "M. Yigit Turali"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "PANINI-DR: Controlled Deep Research through Generative Semantic Workspaces",
+      "abstract": "Deep research requires connecting multiple steps of search, reasoning, and computation, with intermediate findings guiding what to investigate next. As investigations grow, agents must maintain research state across model calls and check findings before errors propagate into subsequent work. We introduce Panini-DR, a multi-agent harness that separates coordination of the overall investigation from the research and verification of individual subquestions. A shared workspace, built on the Generative Semantic Workspace representation, records subquestions, their dependencies, findings, and supporting evidence. Researchers investigate individual subquestions, while a separate verification agent checks proposed answers against those subquestions and their evidence. Verification feedback guides further investigation, and recorded findings inform subsequent assignments. We evaluate Panini-DR on BrowseComp-Plus, FRAMES, and MoNaCo against seven baseline implementations using a shared language-model backbone and frozen corpora. Panini-DR achieves the strongest average performance across the three benchmarks, with strong gains on harder questions. On BrowseComp-Plus, Panini-DR achieves 73.3% accuracy, outperforming the next-best baseline by 16.0 percentage points, at higher inference cost. Its advantage is strongest on harder investigations, correctly answering 26 of 50 hard questions—nearly twice as many as the next-best baseline. Our ablation studies further show that structured planning and persistent state improve performance, as does verification combined with evidence checks. To assess whether correct answers are supported by the research performed, we also analyze the evidence retained by each system. Panini-DR achieves the highest answer recoverability from saved evidence on all three benchmarks, while complementary claim-support audits show stronger evidence-backed answers. Accounting for this evidence changes how systems compare and further strengthens Panini-DR's advantage over existing approaches.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.15208",
+      "pdf_url": "https://arxiv.org/pdf/2610.15208",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.15208",
+      "scraped_at": "2026-10-14T03:52:01.959590"
+    },
+    "scraped_date": "2026-10-14"
+  },
+  {
+    "title": "PhyProbe: Rethinking Physical Consistency Evaluation in Generated Videos",
+    "paper_url": "https://huggingface.co/papers/2609.38377",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PhyProbe: Rethinking Physical Consistency Evaluation in Generated Videos",
+      "abstract": "pip install phyprobe PhyProbe scores how severely a generated video violates physical consistency. It extracts features with a frozen spatiotemporal encoder (PE-Core-G14-448) and maps them to a single score with a lightweight (~1M-parameter) head. It needs only the video — no prompt or reference. https://www.youtube.com/watch?v=EjP1-Sd9nlw",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.38377",
+      "pdf_url": "https://arxiv.org/pdf/2609.38377",
+      "github_links": [
+        "https://github.com/vinesmsuic/PhyProbe",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.38377",
+      "scraped_at": "2026-10-14T03:52:03.617942"
+    },
+    "scraped_date": "2026-10-14"
+  },
+  {
+    "title": "TPPO: Tracking-Value PPO For Language Model Reasoning",
+    "paper_url": "https://huggingface.co/papers/2610.16794",
+    "authors": [
+      "Zhi Wang",
+      "Yun Luo",
+      "Jianhao Yan",
+      "Chenxi Li",
+      "Futing Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "TPPO: Tracking-Value PPO For Language Model Reasoning",
+      "abstract": "Relative token-level credit is determined by how value evolves along the trajectory, yet PPO's critic never models it — so we analyze successive prefix values, find a Bayesian decomposition with additive updates in log-odds space, and build TPPO on that structure. Check it out! 🌐 Paper: https://arxiv.org/pdf/2610.16794 💻 Code: https://github.com/LINs-lab/TPPO",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.16794",
+      "pdf_url": "https://arxiv.org/pdf/2610.16794",
+      "github_links": [
+        "https://github.com/LINs-lab/TPPO",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.16794",
+      "scraped_at": "2026-10-14T03:52:05.210712"
+    },
+    "scraped_date": "2026-10-14"
+  },
+  {
+    "title": "Scoring Higher, Answering Worse: Mitigating Reward Hacking in Rubric-Based RL via Protocol-Level Rubrics",
+    "paper_url": "https://huggingface.co/papers/2609.38847",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Scoring Higher, Answering Worse: Mitigating Reward Hacking in Rubric-Based RL via Protocol-Level Rubrics",
+      "abstract": "Can an AI get a better score by giving a worse answer? Surprisingly, yes. Imagine asking whether to call 911—and getting 2,000+ characters of explanation before the model tells you to call. The answer checks plenty of boxes, but misses what matters: getting the urgent advice to you immediately. We found that rubric-based RL can encourage this behavior. When checklist scores simply add up, models can earn points for extra details that compensate for a critical mistake. ProRubric changes how those points are earned. Related requirements must pass together, and a critical failure wipes out the group’s credit. On Qwen3-4B, this improves appropriateness by 10.8 points over standard Rubric-RL without sacrificing rubric coverage. The takeaway: better checklists are only half the story—how we score them matters too.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.38847",
+      "pdf_url": "https://arxiv.org/pdf/2609.38847",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.38847",
+      "scraped_at": "2026-10-14T03:52:06.823913"
+    },
+    "scraped_date": "2026-10-14"
+  },
+  {
+    "title": "UniForge3D: Joint 3D Reconstruction and Generation in a Shared Anchor-Guided Space",
+    "paper_url": "https://huggingface.co/papers/2610.15357",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "UniForge3D: Joint 3D Reconstruction and Generation in a Shared Anchor-Guided Space",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.15357",
+      "pdf_url": "https://arxiv.org/pdf/2610.15357",
+      "github_links": [
+        "https://github.com/xibushu/UniForge3D",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.15357",
+      "scraped_at": "2026-10-14T03:52:08.517025"
+    },
+    "scraped_date": "2026-10-14"
+  },
+  {
+    "title": "RSIPO: Recursive Self-Improving Policy Optimization for Agentic Reinforcement Learning via Skill-Policy Co-Evolution",
+    "paper_url": "https://huggingface.co/papers/2610.15772",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "RSIPO: Recursive Self-Improving Policy Optimization for Agentic Reinforcement Learning via Skill-Policy Co-Evolution",
+      "abstract": "RSIPO is a self-evolving agentic RL framework that enables skill-policy co-evolution and trust-calibrated self-distillation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.15772",
+      "pdf_url": "https://arxiv.org/pdf/2610.15772",
+      "github_links": [
+        "https://github.com/zfkarl/RSIPO",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.15772",
+      "scraped_at": "2026-10-14T03:52:10.208910"
+    },
+    "scraped_date": "2026-10-14"
+  },
+  {
+    "title": "Spectral-Driven Adaptive-Rank Optimizer for Large Language Model Reinforcement Learning with Verifiable Rewards",
+    "paper_url": "https://huggingface.co/papers/2610.16533",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Spectral-Driven Adaptive-Rank Optimizer for Large Language Model Reinforcement Learning with Verifiable Rewards",
+      "abstract": "We observe a fundamental difference between RLVR and SFT: RLVR gradients progressively concentrate in a low-dimensional subspace, revealing a unique optimization geometry. Building on this insight, we propose Ares, an adaptive-rank optimizer that dynamically aligns optimization with the evolving gradient structure. We hope this work inspires a new perspective on optimizer design for LLM reinforcement learning!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.16533",
+      "pdf_url": "https://arxiv.org/pdf/2610.16533",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.16533",
+      "scraped_at": "2026-10-14T03:52:11.827929"
+    },
+    "scraped_date": "2026-10-14"
+  },
+  {
+    "title": "Controlled Acquisition and Abstention in Three-Channel Score Conflicts",
+    "paper_url": "https://huggingface.co/papers/2610.10808",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Controlled Acquisition and Abstention in Three-Channel Score Conflicts",
+      "abstract": "First paper deal with multimodal information conflict.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.10808",
+      "pdf_url": "https://arxiv.org/pdf/2610.10808",
+      "github_links": [
+        "https://github.com/MENGZHEGENG/audio-video-text-conflicts",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.10808",
+      "scraped_at": "2026-10-14T03:52:13.471480"
+    },
+    "scraped_date": "2026-10-14"
+  },
+  {
+    "title": "Agent Sociodrama: Social-Dynamics-Guided Persona Recasting for LLM Agent Teams",
+    "paper_url": "https://huggingface.co/papers/2610.15788",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Agent Sociodrama: Social-Dynamics-Guided Persona Recasting for LLM Agent Teams",
+      "abstract": ".",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.15788",
+      "pdf_url": "https://arxiv.org/pdf/2610.15788",
+      "github_links": [
+        "https://github.com/lululu896/Agent-Sociodrama",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.15788",
+      "scraped_at": "2026-10-14T03:52:15.120173"
+    },
+    "scraped_date": "2026-10-14"
+  },
+  {
+    "title": "Vela: User Behavior as Supervision Sparks LLM Intelligence",
+    "paper_url": "https://huggingface.co/papers/2610.14709",
+    "authors": [],
+    "stars": "9",
+    "details": {
+      "title": "Vela: User Behavior as Supervision Sparks LLM Intelligence",
+      "abstract": "Hi HF community! I'm Yang Xiao , the first author of Vela. As LLMs are deployed across more real-world scenarios, they must be able to learn from long-term context, understand users' evolving preferences and intent, and make decisions grounded in behavioral evidence. These capabilities provide a foundation for organizations deploying LLMs in high-value real-world scenarios, including complex decision-making, long-term planning and autonomous agent execution. Vela explores anonymized user behavior as supervision to develop these capabilities and strengthen broader LLM intelligence . Vela converts behavior histories from 100K users into tasks across 91 templates. Filtering and trajectory selection retain approximately 75K training examples. Fine-tuning Qwen3.6-35B-A3B improves performance on all ten evaluated benchmarks. Compared with the base model, Vela gains 11.5 points on VelaBench , with average gains of 6.2 points across four independent user-related benchmarks and 4.0 points across five general benchmarks . Behavior records were anonymized before task construction. Their use was platform-authorized and underwent privacy and ethics review. Happy to discuss the method, evaluation and applications!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.14709",
+      "pdf_url": "https://arxiv.org/pdf/2610.14709",
+      "github_links": [
+        "https://github.com/AllSpark-Research/Vela",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.14709",
+      "scraped_at": "2026-10-14T03:52:16.772257"
+    },
+    "scraped_date": "2026-10-14"
+  },
+  {
+    "title": "Diffusion Editing with Soft Mask: Pixel Level Redo of Image and Video with Adjustable Strength",
+    "paper_url": "https://huggingface.co/papers/2610.00359",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Diffusion Editing with Soft Mask: Pixel Level Redo of Image and Video with Adjustable Strength",
+      "abstract": "🎨🎨🎨 Introduces a soft-mask guided diffusion editing framework that enables pixel-level, fine-grained control over the balance between content preservation and regeneration for image and video editing, without requiring retraining 🎨🎨🎨",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.00359",
+      "pdf_url": "https://arxiv.org/pdf/2610.00359",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.00359",
+      "scraped_at": "2026-10-14T03:52:18.369086"
+    },
+    "scraped_date": "2026-10-14"
+  },
+  {
+    "title": "AutoEnvScaling: Automating the Data Flywheel with Terminal Agents",
+    "paper_url": "https://huggingface.co/papers/2610.14163",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AutoEnvScaling: Automating the Data Flywheel with Terminal Agents",
+      "abstract": "Recursive self-improvement needs agents that can build their own training environments. But researchers still sit in the loop, limiting it to scale. We introduce AutoEnvScaling, which turns env design into a terminal task: a proposer agent builds complete Harbor tasks, each with a Docker image, instruction, solution, and tests. It runs and debugs them just like human researchers before submission. This enables self-play RL for terminal agents: a single model improves as both environment builder and solver, without humans writing each new task and its tests.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.14163",
+      "pdf_url": "https://arxiv.org/pdf/2610.14163",
+      "github_links": [
+        "https://github.com/MSR-Orchard/AutoEnvScaling",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.14163",
+      "scraped_at": "2026-10-14T03:52:20.039459"
+    },
+    "scraped_date": "2026-10-14"
+  },
+  {
+    "title": "CIViC: Evidence Gates for Audio-Conditioned Visual Prediction on Proxy Tasks",
+    "paper_url": "https://huggingface.co/papers/2610.15327",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CIViC: Evidence Gates for Audio-Conditioned Visual Prediction on Proxy Tasks",
+      "abstract": "Excellent work on audio-to-video generation",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.15327",
+      "pdf_url": "https://arxiv.org/pdf/2610.15327",
+      "github_links": [
+        "https://github.com/MENGZHEGENG/Audio-to-Video",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.15327",
+      "scraped_at": "2026-10-14T03:52:21.654966"
+    },
+    "scraped_date": "2026-10-14"
+  },
+  {
+    "title": "CURIO: Curiosity-Driven Test-Time Learning for Open-Ended Discovery",
+    "paper_url": "https://huggingface.co/papers/2610.04851",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CURIO: Curiosity-Driven Test-Time Learning for Open-Ended Discovery",
+      "abstract": "CURIO: Curiosity-Driven Test-Time Learning for Open-Ended Discovery Test-time RL lets an LLM actually learn from its own attempts on a discovery problem, but reward-only updates tend to collapse onto early high-reward trajectories and kill off directions that look bad now but could pay off later. CURIO adds a curiosity signal to test-time RL : 🧠 Intrinsic Curiosity World Model (ICWM): learns transitions in the policy’s own hidden-state space and gives prediction-error bonuses to sampled tokens outside the policy’s top-k, rewarding genuinely novel reasoning instead of random noise. ⚖️ Stable integration: epoch-wise normalization and an annealed curiosity weight keep the bonus as a complement to task reward, so it doesn’t override it. Results (Qwen3-8B to 235B) : 📐 Beats a matched task-only RL baseline on 5 of 6 math discovery objectives, and matches the best reported result on Circle Packing 🧬 Improves single-cell denoising Score and MSE on both held-out corpora at every scale tested 📈 Up to +18.3% on Hadamard and +10.8% on denoising Score 🌱 Generated programs are measurably more structurally diverse",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.04851",
+      "pdf_url": "https://arxiv.org/pdf/2610.04851",
+      "github_links": [
+        "https://github.com/ft2023/CURIO",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.04851",
+      "scraped_at": "2026-10-14T03:52:23.286547"
+    },
+    "scraped_date": "2026-10-14"
+  },
+  {
+    "title": "ShellElastic: Scalable Elastic Pretraining with Simultaneous Maximal Updates and Hyperparameter Transfer",
+    "paper_url": "https://huggingface.co/papers/2610.15124",
+    "authors": [
+      "Mingze Xu",
+      "Chongjian Ge",
+      "Yifan Gong",
+      "Yan Kang",
+      "Can Jin"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "ShellElastic: Scalable Elastic Pretraining with Simultaneous Maximal Updates and Hyperparameter Transfer",
+      "abstract": "Foundation models need to support diverse inference budgets, yet training a separate model for each budget duplicates pretraining effort. Elastic models train several nested sub-networks inside one weight-shared supernet, but existing recipes face three obstacles: variable per-step workloads that hinder distributed scaling, limited hyperparameter (HP) transfer across model sizes, and no guarantee that all sub-networks are maximally updated at once. We present ShellElastic, an elastic transformer that organizes hidden dimensions into a dense core and successive shells, so that every hidden matrix is block lower triangular. One full-width forward pass contains every sub-network's exact hidden states as prefixes, so joint training keeps a fixed computation graph and costs about as much per step as training the widest sub-network alone. We further introduce $\\mu$-Elastic, an extension of maximal update parameterization ($\\mu$P) to ShellElastic and other elastic architectures. Its scaling rules provably keep all sub-networks of a supernet maximally updated simultaneously ($\\mu$-Internal), and keep doing so when the supernet is widened or given more shells; sweeps confirm that HPs tuned on a small non-elastic proxy stay near-optimal for elastic families and larger supernets ($\\mu$-Transfer). A single ShellElastic run produces sub-networks that outperform MatFormer and fully elastic baselines at matched parameter counts, and approach separately trained models that together take several times the steps.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.15124",
+      "pdf_url": "https://arxiv.org/pdf/2610.15124",
+      "github_links": [
+        "https://github.com/jincan333/ShellElastic",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.15124",
+      "scraped_at": "2026-10-14T03:52:24.982557"
+    },
+    "scraped_date": "2026-10-14"
+  },
+  {
+    "title": "SALD: Self-Referenced Advantage Learning for Diffusion Models",
+    "paper_url": "https://huggingface.co/papers/2610.01496",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SALD: Self-Referenced Advantage Learning for Diffusion Models",
+      "abstract": "The proposed Advantage-Guided Diffusion (AGD), Temporal Advantage Memory (TAM), and Spectral Advantage Decomposition (SAD) show strong potential to improve Diffusion Image generation. Code will be released soon....",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.01496",
+      "pdf_url": "https://arxiv.org/pdf/2610.01496",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.01496",
+      "scraped_at": "2026-10-14T03:52:26.650303"
+    },
+    "scraped_date": "2026-10-14"
   }
 ]
