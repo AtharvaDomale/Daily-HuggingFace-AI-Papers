@@ -1,0 +1,430 @@
+[
+  {
+    "title": "Pack Light, CarryOn: Building Object-Oriented Context for Long-Horizon Agents",
+    "paper_url": "https://huggingface.co/papers/2610.18784",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Pack Light, CarryOn: Building Object-Oriented Context for Long-Horizon Agents",
+      "abstract": "Long-horizon agents often keep revisiting how work was done, even when the results are already preserved in files and task state. We introduce CarryOn, an object-oriented context runtime that enables agents to continue from reusable task progress rather than repeatedly compressing interaction histories. On OSWorld 2.0 and BrowseComp-Plus, CarryOn improves performance by 5.8 and 7.0 percentage points, while reducing total token usage by 51.9% and 22.9%, respectively. Project: https://ethannju.github.io/carryon/",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.18784",
+      "pdf_url": "https://arxiv.org/pdf/2610.18784",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.18784",
+      "scraped_at": "2026-10-19T03:36:44.276561"
+    },
+    "scraped_date": "2026-10-19"
+  },
+  {
+    "title": "Has GPT-6-Astra Achieved Embodied Intelligence?",
+    "paper_url": "https://huggingface.co/papers/2610.22471",
+    "authors": [],
+    "stars": "76",
+    "details": {
+      "title": "Has GPT-6-Astra Achieved Embodied Intelligence?",
+      "abstract": "Has GPT-6-Astra Achieved Embodied Intelligence? Embodied competence — largely yes. Practical embodied intelligence — not yet.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.22471",
+      "pdf_url": "https://arxiv.org/pdf/2610.22471",
+      "github_links": [
+        "https://github.com/OpenSenseNova/SenseNova-RoboRSI",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.22471",
+      "scraped_at": "2026-10-19T03:36:46.185247"
+    },
+    "scraped_date": "2026-10-19"
+  },
+  {
+    "title": "BizBench: Unveiling Hidden Challenges in Deploying Long-Horizon Agents for Real-World Business",
+    "paper_url": "https://huggingface.co/papers/2610.20424",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "BizBench: Unveiling Hidden Challenges in Deploying Long-Horizon Agents for Real-World Business",
+      "abstract": "AI agents are moving from answering questions to executing business workflows, where actions change business states, commit resources, and shape later decisions. We introduce BizAgentBench, a long-horizon benchmark grounded in workflows from a global payments company. Agents complete tasks through customer dialogue, document retrieval, and tool use in a stateful simulated environment. Its design centers on three business insights. First, rule applicability depends on the business event. Guidance is scattered across manuals, FAQs, and operational notices. Historical and current instructions coexist, and apparent conflicts may reflect differences in product, region, or effective period. An expired insurance policy, for example, may still cover an incident that occurred during its coverage period. Agents must establish which sources are authoritative and which rules govern the event they are handling. Second, compliance depends on authorization and business state at the moment of execution. A customer’s general consent does not authorize every operation: approval must cover the specific action and its terms, come from someone with the required authority, and precede execution. A tool may accept an operation that breaches a reserve requirement or interrupts required coverage. Restoring the balance later does not erase the earlier violation; critical constraints must hold throughout the workflow. Third, waiting can make a task infeasible. Reviews, refunds, or settlements may finish after another obligation requires action. A priority delivery booking window, for example, may close before warehouse confirmation arrives, making timely delivery impossible if the agent waits. Agents must coordinate information gathering and action while accounting for shared resources and existing commitments. A locally reasonable decision can consume funds or time needed elsewhere. BizAgentBench translates these insights into deterministic checks of goal attainment, process compliance, and prohibited side effects, while accepting different valid strategies. GPT-6 Sol achieves only 61.3% strict success, with just 40% of tasks completed successfully in all three runs. The benchmark brings evaluation closer to the demands of business execution: identifying the right rules, acting at the right time, and maintaining valid execution throughout.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.20424",
+      "pdf_url": "https://arxiv.org/pdf/2610.20424",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ant-intl/BizAgentBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.20424",
+      "scraped_at": "2026-10-19T03:36:47.972381"
+    },
+    "scraped_date": "2026-10-19"
+  },
+  {
+    "title": "Into the Unknown: Benchmarking AI agents on open scientific research problems",
+    "paper_url": "https://huggingface.co/papers/2610.19159",
+    "authors": [],
+    "stars": "12",
+    "details": {
+      "title": "Into the Unknown: Benchmarking AI agents on open scientific research problems",
+      "abstract": "Can AI agents carry out research on open scientific problems? We introduce Into the Unknown, a benchmark that provides an agent with a science paper along with a research direction to pursue and tasks it to write a follow-up paper. We work with scientists at US Department of Energy (DOE) national laboratories, who each contribute an unpublished follow-up direction from their own work together with the necessary conditions a submission must meet. While assessing the quality of a follow-up paper is challenging in general, using these conditions to form a rubric makes evaluation more tractable for research problems that have no reference answer. We have nine frontier agents write 15 follow-ups each, spanning quantum computing, plasma physics, computational chemistry, materials science, and scientific machine learning domains. None of the 135 submissions satisfies all the conditions, and 114 fail our integrity check, most often because the paper claims work that was never done or reports numbers that contradict the recorded evidence. Overall, agents readily produce papers that look like follow-ups, but none meets the standard of the domain scientist, leaving substantial headroom. Our code and data are publicly available.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.19159",
+      "pdf_url": "https://arxiv.org/pdf/2610.19159",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/prometheus-eval/into-the-unknown"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.19159",
+      "scraped_at": "2026-10-19T03:36:49.891137"
+    },
+    "scraped_date": "2026-10-19"
+  },
+  {
+    "title": "HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents",
+    "paper_url": "https://huggingface.co/papers/2610.23479",
+    "authors": [],
+    "stars": "22",
+    "details": {
+      "title": "HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents",
+      "abstract": "A thin harness in which a coding agent drives a robot from RGB images and writes its own tools; frozen tools for the 42 RoboDojo tasks",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.23479",
+      "pdf_url": "https://arxiv.org/pdf/2610.23479",
+      "github_links": [
+        "https://github.com/HexaFuture/HexaShell",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.23479",
+      "scraped_at": "2026-10-19T03:36:51.735527"
+    },
+    "scraped_date": "2026-10-19"
+  },
+  {
+    "title": "Tree-Aware Posterior Distillation for Long-Horizon Agentic Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2610.23181",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Tree-Aware Posterior Distillation for Long-Horizon Agentic Reinforcement Learning",
+      "abstract": "We are excited to share TreeOPSD (Tree-Aware Posterior Distillation for Long-Horizon Agentic Reinforcement Learning). Training long-horizon LLM agents with verifiable rewards faces two practical bottlenecks: terminal rewards alone make turn-level credit assignment sparse and high-variance, while sequential mini-batch updates on a fixed rollout batch introduce policy staleness as the current policy drifts from the behavior policy. Existing remedies either add extra components (learned critics, process annotations, or stronger external teachers) or rely on importance-ratio clipping, which restricts step size without defining a finite target where updates should stop. TreeOPSD addresses both challenges in a critic-free, self-distillation framework. Treating each interaction turn as a tree node, it branches alternative continuations from shared prefixes and recursively backs up terminal rewards into implicit turn-level credit. It then maps each backed-up credit to a closed-form, bounded teacher distribution parameterized by the turn-level likelihood ratio relative to the frozen behavior policy. Minimizing the Forward KL divergence between this teacher and the student policy recovers the exact tree policy-gradient direction as its tangent at the behavior policy, while bounding updates toward a finite target across sequential mini-batches. Across Multi-Hop QA and Deep Research benchmarks (from 1.7B to 30B-A3B models), TreeOPSD consistently outperforms GRPO, GSPO, and fixed-credit tree policy gradients under matched rollout budgets, improving Qwen3-30B-A3B-Thinking-2507 by +4.97 points on average in the Deep Research setting.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.23181",
+      "pdf_url": "https://arxiv.org/pdf/2610.23181",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.23181",
+      "scraped_at": "2026-10-19T03:36:53.603429"
+    },
+    "scraped_date": "2026-10-19"
+  },
+  {
+    "title": "OpenMobile-2: Building Versatile Mobile Agents with Scalable Environments and App-Native Tools",
+    "paper_url": "https://huggingface.co/papers/2610.14157",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "OpenMobile-2: Building Versatile Mobile Agents with Scalable Environments and App-Native Tools",
+      "abstract": "🚀 Introducing OpenMobile-2: Building Versatile Mobile Agents with Scalable Environments and App-Native Tools We're excited to share OpenMobile-2 , our latest work on mobile agents, with environments, data, benchmarks, and models fully open-sourced! We explore two key directions in mobile agent research: 1. Scalable Training Environments. Existing emulator-based environments are heavyweight and cover limited apps, especially commercial ones. We introduce MobileGym++ , featuring 35 high-fidelity, fully controllable commercial-style apps with cross-app workflow, built through human–coding agent collaboration. Together with emulator-based apps, we provide an open playground of 110+ diverse apps for scalable data synthesis and agentic RL. You can try our apps directly on the project website! 2. Hybrid GUI & CLI. While hybrid computer use is gaining traction, mobile agents remain largely limited to GUI interactions. We explore a new setting where mobile apps expose app-native tools, enabling agents to interleave GUI actions and tool calls within a task. We also introduce MobileGym++ Bench , supporting both GUI-only and hybrid evaluation on challenging commercial-app tasks. OpenMobile-2 achieves competitive results on established benchmarks and nearly 2× performance on real-device mobile tasks . 🔥 Everything is open-source! We'd appreciate your support with an HF Paper upvote and GitHub star! 🌐 Project (try apps online): https://os-copilot.github.io/OpenMobile2-Home/ 🤗 HF Paper: https://huggingface.co/papers/2610.14157 💻 GitHub: https://github.com/OpenMobile2/OpenMobile2-Code 📊 MobileGym++: https://github.com/OpenMobile2/MobileGym-plusplus",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.14157",
+      "pdf_url": "https://arxiv.org/pdf/2610.14157",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/OpenMobile2/OpenMobile2-Code",
+        "https://github.com/OpenMobile2/MobileGym-plusplus"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.14157",
+      "scraped_at": "2026-10-19T03:36:55.551793"
+    },
+    "scraped_date": "2026-10-19"
+  },
+  {
+    "title": "DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses",
+    "paper_url": "https://huggingface.co/papers/2610.23839",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses",
+      "abstract": "Code: https://github.com/Gen-Verse/DiscoveryRSI",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.23839",
+      "pdf_url": "https://arxiv.org/pdf/2610.23839",
+      "github_links": [
+        "https://github.com/Gen-Verse/DiscoveryRSI",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.23839",
+      "scraped_at": "2026-10-19T03:36:57.424855"
+    },
+    "scraped_date": "2026-10-19"
+  },
+  {
+    "title": "DLite: History-free Speculative Decoding for Agentic AI",
+    "paper_url": "https://huggingface.co/papers/2610.23787",
+    "authors": [],
+    "stars": "13",
+    "details": {
+      "title": "DLite: History-free Speculative Decoding for Agentic AI",
+      "abstract": "Speculative decoding has become a mainstream technique for accelerating large language model (LLM) inference by using a lightweight draft model to generate candidate tokens that are subsequently verified by the target model. However, agentic workloads introduce long and continuously evolving contexts and frequent multi-turn interactions. Under such workloads, we observe that existing draft models suffer from up to an 80% degradation in acceptance length, while maintaining their historical KV cache introduces substantial system overhead. In this paper, we identify the growing historical context as a common source of both problems and introduce DLite, a history-free speculative decoding framework for agentic AI. DLite directly reuses contextual hidden states from the target model and performs local speculative prediction without explicitly maintaining the historical context, transforming an increasingly complex modeling problem into local simple prediction problem. A lightweight sequential head further restores intra-block causal dependencies with low overhead. To effectively train this heterogeneous history-free architecture, we introduce a tailored two-stage training strategy. Experiments on general-purpose, long-context and agentic workloads show that DLite achieves 2-6 acceptance length and outperforms the state-of-the-art speculative decoding method, DSpark, up to 70%.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.23787",
+      "pdf_url": "https://arxiv.org/pdf/2610.23787",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/SJTU-DAI-Sys/DLite"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.23787",
+      "scraped_at": "2026-10-19T03:36:59.310197"
+    },
+    "scraped_date": "2026-10-19"
+  },
+  {
+    "title": "From Research Goals to Scientific Closure: Evaluating Agents Through Evidence-Supported Physics Research",
+    "paper_url": "https://huggingface.co/papers/2610.21767",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "From Research Goals to Scientific Closure: Evaluating Agents Through Evidence-Supported Physics Research",
+      "abstract": "Can AI agents do more than produce plausible calculations—can they establish a well-supported scientific answer? PhysClosureBench leaves the investigation to the agent. Across 50 physics tasks, we evaluate both the scientific work accomplished and whether the research question is actually resolved.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.21767",
+      "pdf_url": "https://arxiv.org/pdf/2610.21767",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/uncertainty2019/PhysClosureBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.21767",
+      "scraped_at": "2026-10-19T03:37:01.162458"
+    },
+    "scraped_date": "2026-10-19"
+  },
+  {
+    "title": "OS-Helix: Unifying GUI Interaction and Code Execution in Native Computer-Using Agents",
+    "paper_url": "https://huggingface.co/papers/2610.22234",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "OS-Helix: Unifying GUI Interaction and Code Execution in Native Computer-Using Agents",
+      "abstract": "Hi everyone! We introduce OS-Helix , a computer-using agent trained to coordinate GUI interaction and code execution within a single policy. Desktop tasks often need both: the GUI exposes what users see, while code can work precisely with files and system state. Simply giving a GUI agent a code tool does not teach it when to use each one, so we train that coordination directly. We build reproducible desktop environments by pairing applications with authentic artifacts, generate verifiable tasks, and use filtered GUI/code trajectories for supervised training. We then train online with Step-balanced GSPO, which addresses optimization imbalance between GUI and code actions. OS-Helix-27B-RL reaches 66.44% on OSWorld-Verified and 63.87% on WindowsAgentArena, without Windows-specific training data. Project page · Models · Dataset . We’re organizing the training and evaluation code for release. We’d welcome your feedback and questions!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.22234",
+      "pdf_url": "https://arxiv.org/pdf/2610.22234",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/OS-Copilot/OS-Helix"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.22234",
+      "scraped_at": "2026-10-19T03:37:02.993771"
+    },
+    "scraped_date": "2026-10-19"
+  },
+  {
+    "title": "DuoDiscover: Scaling Autonomous Discovery Beyond the Evaluation Bottleneck",
+    "paper_url": "https://huggingface.co/papers/2610.17184",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DuoDiscover: Scaling Autonomous Discovery Beyond the Evaluation Bottleneck",
+      "abstract": "Agents can write a code change in seconds, but real evals take hours (85 min for vLLM, up to 28 h for CPU design). DuoDiscover has each agent find a target to optimize and a fast eval for it, keeps those evals honest against the real one, and scales as a bottom-up fleet. #1 on NVIDIA SOL-ExecBench, 2× human experts on SWE-fficiency, and merged PRs in FreeToken. Joint work from Google, UC Berkeley and Stanford.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.17184",
+      "pdf_url": "https://arxiv.org/pdf/2610.17184",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.17184",
+      "scraped_at": "2026-10-19T03:37:04.869969"
+    },
+    "scraped_date": "2026-10-19"
+  },
+  {
+    "title": "Game2Real-Bench: Do Toy Games Reveal and Transfer to Real-World Visual Reasoning?",
+    "paper_url": "https://huggingface.co/papers/2610.18834",
+    "authors": [
+      "Xinzhe Han",
+      "Yujie Cheng",
+      "Yue Zhu",
+      "Juntong Feng",
+      "Qingan Liu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Game2Real-Bench: Do Toy Games Reveal and Transfer to Real-World Visual Reasoning?",
+      "abstract": "Visual reasoning is an important capability for vision-language models (VLMs) to understand visual evidence, spatial structure, constraints, and state changes. Existing evaluations mainly rely on either real-world data or procedurally generated tasks. Real-world data preserve the complexity of natural scenes, while procedural games provide controllable generation and verifiable solutions. However, it remains unclear whether the abilities measured in toy games correspond to those required in real-world visual reasoning, and whether game examples can provide useful signals for solving real-world tasks. We introduce Game2Real-Bench, a benchmark for studying these connections across four capability groups, including fine-grained perception, spatial reasoning, constraint reasoning, and sequential planning. On the game side, we construct 1,000 independently generated samples from executable task specifications and verify their answers programmatically. On the real-world side, we curate and construct 400 samples from diverse real-world sources. We connect the two settings according to shared reasoning requirements, including visual evidence, spatial operations, constraints, and state transitions, rather than visual similarity. We evaluate 25 representative VLMs across both settings. Performance on game and real-world tasks shows consistent cross-setting trends, with a Pearson correlation of 0.935 and a Spearman correlation of 0.935. We further examine game-to-real transfer through one-shot in-context learning on four models. The effect varies across capabilities and models. Constraint reasoning shows positive gains for several models, while fine-grained perception consistently declines with game demonstrations. These results show that toy games can reflect some reasoning patterns observed in real-world tasks and can provide useful demonstrations in selected settings. To further support model training, we construct Game2Real-Dataset, comprising nearly 24K game samples across 18 tasks and 65 QA families. These samples are generated from executable task specifications and verified programmatically. Our benchmark, dataset, and code are available at https://github.com/QingAnLiu/Game2Real-Bench .",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.18834",
+      "pdf_url": "https://arxiv.org/pdf/2610.18834",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/QingAnLiu/Game2Real-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.18834",
+      "scraped_at": "2026-10-19T03:37:06.746598"
+    },
+    "scraped_date": "2026-10-19"
+  },
+  {
+    "title": "ReaDy: Recurrent States as Dynamic Context for Speculative Drafting in Hybrid Linear Attention Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2610.20503",
+    "authors": [
+      "Ngai Wong",
+      "Jianjin Li",
+      "Lie24",
+      "zunhai",
+      "Bohansss"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ReaDy: Recurrent States as Dynamic Context for Speculative Drafting in Hybrid Linear Attention Large Language Models",
+      "abstract": "Speculative decoding accelerates autoregressive generation by drafting multiple tokens per step, yet feature-based drafters rely on target hidden features whose contextual emphasis may not align with the needs of subsequent draft positions. Hybrid linear attention (HLA) models maintain compact recurrent states that accumulate historical associations, offering an efficient source of complementary context for speculative drafting. We introduce ReaDy, the first speculative decoding method, to the best of our knowledge, to leverage HLA recurrent states for position-specific context retrieval during drafting. ReaDy equips each draft position with a learned query to retrieve supplementary context directly from the target's committed recurrent states. A lightweight state reader integrates this context into draft representations through residual updates, while low-rank state reads and fused operators keep additional computation and I/O overhead low. Building on DSpark's parallel backbone and sequential prediction head, ReaDy employs a lightweight two-stage adaptation strategy, with reader capacity, state sources, and residual placement examined through ablation studies. Across seven benchmarks spanning mathematics, code generation, and dialogue, ReaDy achieves an average 3.16× decoding speedup over autoregressive decoding with Qwen3.8-27B on a single NVIDIA B200 GPU. It outperforms DSpark on every benchmark, improving throughput by 7.97% and acceptance length by 8.50% on average.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.20503",
+      "pdf_url": "https://arxiv.org/pdf/2610.20503",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/StartLuxLabs/ReaDy"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.20503",
+      "scraped_at": "2026-10-19T03:37:08.555536"
+    },
+    "scraped_date": "2026-10-19"
+  },
+  {
+    "title": "DuET: Note-Frame Dual Encoding for Piano Performance-to-Score Transcription",
+    "paper_url": "https://huggingface.co/papers/2610.21467",
+    "authors": [],
+    "stars": "13",
+    "details": {
+      "title": "DuET: Note-Frame Dual Encoding for Piano Performance-to-Score Transcription",
+      "abstract": "🎹 Excited to share DuET, our piano transcription model! DuET converts expressive piano performances into readable sheet music by jointly modeling note-level transcription and beat tracking. Try DuET and explore our resources: 🎹 Online Demo: https://huggingface.co/spaces/Wayne42/DuET-demo 💻 GitHub: https://github.com/wei-zeng98/DuET We're also planning to release our Gangqinpu dataset, which contains over 18,000 piano performance–score pairs, including a substantial amount of popular piano music. We welcome any feedback, suggestions, or questions. Feel free to try DuET and share your thoughts!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.21467",
+      "pdf_url": "https://arxiv.org/pdf/2610.21467",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/wei-zeng98/DuET"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.21467",
+      "scraped_at": "2026-10-19T03:37:10.398495"
+    },
+    "scraped_date": "2026-10-19"
+  },
+  {
+    "title": "Speculative Sampling in Interactive Video Generation",
+    "paper_url": "https://huggingface.co/papers/2610.20556",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "Speculative Sampling in Interactive Video Generation",
+      "abstract": "Speculative Sampling is a serving method for autoregressive video generation. It preserves the strong modeling capability of large bidirectional attention windows while retaining the low-latency interaction of small bidirectional attention windows. Speculative Sampling is training-free and has the potential to be incorporated into any interactive video generation system!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.20556",
+      "pdf_url": "https://arxiv.org/pdf/2610.20556",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Yubo-Shankui/SpeculativeSampling"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.20556",
+      "scraped_at": "2026-10-19T03:37:12.336076"
+    },
+    "scraped_date": "2026-10-19"
+  },
+  {
+    "title": "GeoState: Learning View-Decoupled Geometry States for 3D World Modeling",
+    "paper_url": "https://huggingface.co/papers/2610.22343",
+    "authors": [],
+    "stars": "9",
+    "details": {
+      "title": "GeoState: Learning View-Decoupled Geometry States for 3D World Modeling",
+      "abstract": "Existing geometry-based world models often rely on view-dependent features, entangling scene dynamics with camera-induced variations. GeoState addresses this by learning a view-decoupled scene state, allowing the world model to focus on scene dynamics while a camera-conditioned geometry decoder handles viewpoint-dependent observations. GeoState improves long-horizon depth forecasting on Waymo, enables geometrically consistent cross-view querying, and generalizes zero-shot to KITTI and nuScenes. Ablation studies further show that view decoupling improves state predictability compared to directly forecasting geometry foundation model features.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.22343",
+      "pdf_url": "https://arxiv.org/pdf/2610.22343",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Hongchang-Liu/GeoState"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.22343",
+      "scraped_at": "2026-10-19T03:37:14.246574"
+    },
+    "scraped_date": "2026-10-19"
+  },
+  {
+    "title": "StopWatch: Goal Grounding for Object-goal Navigation",
+    "paper_url": "https://huggingface.co/papers/2610.23841",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "StopWatch: Goal Grounding for Object-goal Navigation",
+      "abstract": "Why do navigation policies walk past a goal that is already in view? We introduce StopWatch, which explicitly grounds the navigation goal by predicting whether it is visible and how far away it is. We find that goal grounding is the dominant failure in the VLM navigation policies we study. Explicit grounding improves performance across six benchmarks, while giving the same policy ground-truth grounding nearly closes the gap to the demonstration expert.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.23841",
+      "pdf_url": "https://arxiv.org/pdf/2610.23841",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.23841",
+      "scraped_at": "2026-10-19T03:37:16.199193"
+    },
+    "scraped_date": "2026-10-19"
+  },
+  {
+    "title": "Persistent Planar Memory for Video World Models",
+    "paper_url": "https://huggingface.co/papers/2610.23795",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Persistent Planar Memory for Video World Models",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2610.23795",
+      "pdf_url": "https://arxiv.org/pdf/2610.23795",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/robbyant-research/PPMem"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.23795",
+      "scraped_at": "2026-10-19T03:37:18.159354"
+    },
+    "scraped_date": "2026-10-19"
+  },
+  {
+    "title": "PRISM: PRIvileged Sibling-guided Multi-Agent Topology Design",
+    "paper_url": "https://huggingface.co/papers/2610.20628",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PRISM: PRIvileged Sibling-guided Multi-Agent Topology Design",
+      "abstract": "The novel topology design method for multi-agent system",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.20628",
+      "pdf_url": "https://arxiv.org/pdf/2610.20628",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.20628",
+      "scraped_at": "2026-10-19T03:37:19.958984"
+    },
+    "scraped_date": "2026-10-19"
+  },
+  {
+    "title": "Sparse Autoencoders Are a Shared Coordinate System for Symbolic Matching",
+    "paper_url": "https://huggingface.co/papers/2610.19636",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Sparse Autoencoders Are a Shared Coordinate System for Symbolic Matching",
+      "abstract": "TL;DR: An LLM's sparse autoencoder works as a shared coordinate system for matching symbols across heterogeneous systems (formal provers, code, table schemas, knowledge graphs, ontologies), with no training and no aligned pairs. How SAE-IDF works An LLM reads each symbol in its native context (e.g., a KG class with its instances, a Lean 4 statement). The SAE encodes the hidden states into a sparse code of named features. Each feature is weighted by its rarity (IDF, as in classic text retrieval), and candidates are ranked by cosine. Results Beats the same LLM's dense hidden states on all 12 tasks with Gemma-2-9B, and on all but one with Llama-3.1-8B Biggest gains where notations differ most: Lean 4 → Metamath 0.21 → 0.66 MRR, Lean 4 → HOL Light 0.54 → 0.90 Scales with the dictionary: HOL Light MRR rises from 0.82 to 0.94 as the SAE grows from 16k to 1M features Both ingredients matter: without IDF the SAE code mostly trails dense, and a random dictionary with the same IDF stays below dense on every task Interpretable by construction: the cosine decomposes exactly over features, so every match reads as a few named concepts. For example, in NELL trainstation → DBpedia RailwayStation , 93% of the match comes from two features about railroads and stations. A first step toward a universal symbolic backbone for neuro-symbolic models at LLM scale.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.19636",
+      "pdf_url": "https://arxiv.org/pdf/2610.19636",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/AI-Interpretability-Illinois/Symbolic-Merge"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.19636",
+      "scraped_at": "2026-10-19T03:37:21.799540"
+    },
+    "scraped_date": "2026-10-19"
+  }
+]
