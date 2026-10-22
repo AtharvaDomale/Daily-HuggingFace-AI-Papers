@@ -1333,5 +1333,596 @@
       "scraped_at": "2026-10-21T03:39:06.437266"
     },
     "scraped_date": "2026-10-21"
+  },
+  {
+    "title": "Agent World Model in the Wild: Computer-Use Agent Environment Synthesis",
+    "paper_url": "https://huggingface.co/papers/2610.26828",
+    "authors": [],
+    "stars": "50",
+    "details": {
+      "title": "Agent World Model in the Wild: Computer-Use Agent Environment Synthesis",
+      "abstract": "We introduce WildAWM (Agent World Model in the Wild), a scalable pipeline that synthesizes executable computer-use agent (CUA) environments and tasks for training general CUA, powered entirely by open-source models. Core contributions: Worlds: persona-driven, multi-day personal computers where websites, MCP services, and local files share one state, so agents can combine GUI, MCP, and CLI, and the whole pipeline is powered by open-source models, without any reliance on proprietary frontier models. Tasks: execution-based quality gates (heterogeneous agent rollouts, cross-judge consistency checks, and counterfactual probes) keep tasks solvable, challenging, and reliably verified. We release 341 environment–task pairs; some need over 100 agent steps, and GPT-6-Astra solves only about 60%. Results: trained exclusively in these synthetic worlds, Qwen3.6-35B-A3B and Qwen3.5-4B improve on all 8 out-of-distribution benchmarks spanning web, claw, and computer-use agents, by +10.58 and +8.21 points on average. Paper: https://arxiv.org/abs/2610.26828 Project page: https://msr-orchard.github.io/WildAWM/ GitHub: https://github.com/MSR-Orchard/WildAWM Data & models: https://huggingface.co/collections/ChilleD/agent-world-model-in-the-wild Harbor dataset: https://hub.harborframework.com/datasets/wildawm",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.26828",
+      "pdf_url": "https://arxiv.org/pdf/2610.26828",
+      "github_links": [
+        "https://github.com/MSR-Orchard/WildAWM",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.26828",
+      "scraped_at": "2026-10-22T03:37:53.686241"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "Cache Engineering for Agents",
+    "paper_url": "https://huggingface.co/papers/2610.28577",
+    "authors": [],
+    "stars": "12",
+    "details": {
+      "title": "Cache Engineering for Agents",
+      "abstract": "We let agents manage their KV cache directly, proactively dropping what they no longer need without rewriting their conversation history or recomputing the remaining cache. We built AKV serving system to support this efficiently, reducing cache for long-running agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.28577",
+      "pdf_url": "https://arxiv.org/pdf/2610.28577",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/thu-nics/AKV"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.28577",
+      "scraped_at": "2026-10-22T03:37:55.334719"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "Socratic Skill Learning: Interleaving Teaching and Practice for Transferable Agent Skills",
+    "paper_url": "https://huggingface.co/papers/2610.17860",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Socratic Skill Learning: Interleaving Teaching and Practice for Transferable Agent Skills",
+      "abstract": "Agent Skills improve LLM agents by making task knowledge reusable across sessions. Learning transferable Skills requires evidence about a procedure and its conditions of use, which a successful task attempt can leave untested. We introduce Socratic Skill Learning (SSL), which interleaves expert teaching with Student practice. An Educator guides investigation while the Student remains the sole environment operator and Skill author, able to question, test, and adapt advice. To test reuse beyond the learning task, we construct SKILLTRANSFERBENCH, with 35 task families and 408 executable cases, pairing public variation specifications with held-out evaluation in fresh solver sessions. On the main 22-family, 155-case cohort, Fixed-Window SSL reaches 0.801 utility, versus 0.723 without a Skill, 0.761 for adapted Trace2Skill (trajectory distillation), and 0.751 for adapted SKILL-KD (contrastive distillation). Across three model pairs on shared families, interleaved guidance outperforms expert authoring and post-hoc teaching. Process analysis links guidance to Student writing and package revision; a case study shows the Student testing and refining a proposed procedure for later reuse. As demand for new lessons falls, the cost of fixed-window review grows. Issue-Guided SSL tracks unresolved questions across Skill revisions to select and focus review, reaching 0.805 utility with 61.7% fewer Educator tokens and 16.9% fewer total acquisition tokens than Fixed-Window SSL on the main cohort",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.17860",
+      "pdf_url": "https://arxiv.org/pdf/2610.17860",
+      "github_links": [
+        "https://github.com/NJU-LINK/Socratic-Skill-Learning",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.17860",
+      "scraped_at": "2026-10-22T03:37:57.013383"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
+    "paper_url": "https://huggingface.co/papers/2610.29989",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
+      "abstract": "🔭 Introducing Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation — teaching autoregressive video models to learn how the world evolves and better anticipate future dynamics through generative future prediction. Our method delivers: 🌏 Better physical plausibility: +11.2% (I2V) and +9.4% (V2V) on Physics-IQ. ⚡ Higher training efficiency: 57.9% less compute and 63.4% less data. Learn more: 💻 GitHub: https://github.com/TencentARC/Looking-Ahead 🌐 Project page: https://hellorpg.github.io/looking-ahead/",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.29989",
+      "pdf_url": "https://arxiv.org/pdf/2610.29989",
+      "github_links": [
+        "https://github.com/TencentARC/Looking-Ahead",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.29989",
+      "scraped_at": "2026-10-22T03:37:58.721819"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "AgenticRoboRL: Bringing Coding-Agent Post-Training to Agentic Robotics",
+    "paper_url": "https://huggingface.co/papers/2610.28589",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "AgenticRoboRL: Bringing Coding-Agent Post-Training to Agentic Robotics",
+      "abstract": "AgenticRoboRL trains the planner model of a robot harness inside the harness itself. A harness pairs a language model planner with robot tools: the planner may call a VLA policy as a skill, or write Python against the harness's robot APIs. The harness keeps its tools and its control loop, and only the planner is trained. SFT on a stronger teacher's successful trajectories, each turn rendered as the request the student would receive. Multi-turn RL with the simulator's success verdict as the reward. Rollouts run in the harness, and a proxy between the harness and the model server records every planner call with its token ids and log-probabilities. One pipeline for different harnesses. A harness is connected through a short adapter that reports which episodes form a group and how each one ended. This repository connects two harnesses, one that calls a VLA policy (RPent) and one that generates control code (CaP-X). Code: https://github.com/xinxinliu-ai/AgenticRoboRL Model: https://huggingface.co/ciciciciliu/AgenticRoboRL-Qwen3.5-9B Project Page: https://xinxinliu-ai.github.io/AgenticRoboRL/",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.28589",
+      "pdf_url": "https://arxiv.org/pdf/2610.28589",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/xinxinliu-ai/AgenticRoboRL"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.28589",
+      "scraped_at": "2026-10-22T03:38:00.423649"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "Memory-Centric Continual Learning for AI Agents",
+    "paper_url": "https://huggingface.co/papers/2610.29357",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Memory-Centric Continual Learning for AI Agents",
+      "abstract": "Memory-Centric Continual Learning for AI Agents",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.29357",
+      "pdf_url": "https://arxiv.org/pdf/2610.29357",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.29357",
+      "scraped_at": "2026-10-22T03:38:02.131653"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "Building AI Research Teams for Autonomous Discovery of Linear Attention Architectures",
+    "paper_url": "https://huggingface.co/papers/2610.28887",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Building AI Research Teams for Autonomous Discovery of Linear Attention Architectures",
+      "abstract": "We build a team of agents with diverse scientific backgrounds that collaborate to discover better linear attention architectures.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.28887",
+      "pdf_url": "https://arxiv.org/pdf/2610.28887",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.28887",
+      "scraped_at": "2026-10-22T03:38:03.851504"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "TraceForge: Distilling with Your Own Thinking",
+    "paper_url": "https://huggingface.co/papers/2610.29680",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "TraceForge: Distilling with Your Own Thinking",
+      "abstract": "🔧 TraceForge: feed it a context and an answer from Claude or GPT, and it writes the missing reasoning trace in the Qwen family's own voice. 📈 It beats the real thing. With questions and teacher answers held fixed, students trained on TraceForge CoT beat those trained on Claude CoT (+3.7 / +7.1 on HumanEval+ / MBPP+) — and beat Qwen3.8-Max CoT by a wide margin (+21 / +35). ✅ And it's fully legal: trained only on data synthesized from Qwen3.8-Max. Zero Claude or GPT tokens enter the pipeline. Go ahead and generate your training data with it.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.29680",
+      "pdf_url": "https://arxiv.org/pdf/2610.29680",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.29680",
+      "scraped_at": "2026-10-22T03:38:05.654390"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "Real In, Real Out: What If We Only Use Real Data for Scene Text Editing?",
+    "paper_url": "https://huggingface.co/papers/2610.27592",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Real In, Real Out: What If We Only Use Real Data for Scene Text Editing?",
+      "abstract": "TextRIRO lifts STE to realistic, reliable, and widely applicable new levels.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.27592",
+      "pdf_url": "https://arxiv.org/pdf/2610.27592",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/YesianRohn/TextRIRO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.27592",
+      "scraped_at": "2026-10-22T03:38:07.343890"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "Harness Scaling for Generalizable Agentic Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2610.29458",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Harness Scaling for Generalizable Agentic Reinforcement Learning",
+      "abstract": "Excited to share our work Harness Scaling for Generalizable Agentic Reinforcement Learning ! Most existing agentic RL methods train through a single fixed harness, potentially limiting generalization across different execution configurations. We introduce Harness Scaling , a new scaling dimension for agentic RL that focuses on how agents execute , complementing traditional scaling over tasks and environments. Our approach organizes harness diversity through five components (system prompt, tool interface, observation, context management, and workflow), combining structured configuration selection with cross-harness RL. Key findings: Harness Scaling consistently improves generalization to unseen harness configurations across models, benchmarks, and RL algorithms. Structured harness selection and locality-aware training are more effective than simply increasing the number of training configurations. Remarkably, training across diverse white-box harnesses transfers effectively to unseen black-box harnesses such as Claude Code, even outperforming direct black-box RL training. Our results highlight that not only harness diversity, but how it is organized, matters for generalizable agentic RL. Feedback and discussions are very welcome!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.29458",
+      "pdf_url": "https://arxiv.org/pdf/2610.29458",
+      "github_links": [
+        "https://github.com/RUCAIBox/Harness-Scaling",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.29458",
+      "scraped_at": "2026-10-22T03:38:08.995091"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "Spectral-Spatial Interpretation",
+    "paper_url": "https://huggingface.co/papers/2610.21114",
+    "authors": [
+      "Philip Townsend",
+      "Ruqi Yang",
+      "Hunter26666666"
+    ],
+    "stars": "4",
+    "details": {
+      "title": "Spectral-Spatial Interpretation",
+      "abstract": "🔥🔥🔥Which spectral channels matter, and where? SSI explains a model score with signed attributions for each spatial cell and channel. It keeps the surrounding image fixed while allocating a cell's contribution among its channels using Shapley values. A channel's contribution can change across an image. SSI asks how the channels within one spatial cell affect the chosen model score, conditioned on the observed values of all other cells. ✅ SSI has the best reported mean for all three metrics on all three datasets under both masking baselines. For example, mean-baseline HLS joint deletion is .1545 for SSI versus .2096 for KernelSHAP, the strongest non-SSI method on that metric. ✅ SSI leads the compared methods in spatial localization, spectral Hit@K, and channel deletion across the evaluated datasets.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.21114",
+      "pdf_url": "https://arxiv.org/pdf/2610.21114",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/AtheavenMa/Spectral-Spatial-Interpretation"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.21114",
+      "scraped_at": "2026-10-22T03:38:10.696026"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "StreamEval: Evaluating Interactive Streaming Video Generation Models",
+    "paper_url": "https://huggingface.co/papers/2610.28402",
+    "authors": [
+      "StreamEval Team"
+    ],
+    "stars": "129",
+    "details": {
+      "title": "StreamEval: Evaluating Interactive Streaming Video Generation Models",
+      "abstract": "TL;DR: We introduce StreamEval, the first benchmark for interactive streaming video generation . It evaluates whether models can handle incrementally arriving multimodal requests while executing specified state changes and preserving content throughout an ongoing stream. Benchmark: 300 scripted test cases lasting 15 to 300 seconds, with defined initial assets and timed interaction requirements across five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. Findings: Strong visual quality and identity retention do not necessarily coincide with reliable request execution or sustained state consistency. The highest Following scores are 36.90 for avatar performance and 25.93 for text conditioned world generation. Executing requests under timing and preservation constraints remains a central challenge for real time omnimodal interactive systems. 💻 Code: https://github.com/StreamEval/StreamEval 🎬 Data: https://huggingface.co/datasets/StreamEval/StreamEval 🏠 Leaderboard: https://streameval.ai",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.28402",
+      "pdf_url": "https://arxiv.org/pdf/2610.28402",
+      "github_links": [
+        "https://github.com/StreamEval/StreamEval",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.28402",
+      "scraped_at": "2026-10-22T03:38:12.362681"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "Which Agent's Skill Should Change? Group-Relative Credit Assignment for Evolving Multi-Agent Teams",
+    "paper_url": "https://huggingface.co/papers/2610.27227",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Which Agent's Skill Should Change? Group-Relative Credit Assignment for Evolving Multi-Agent Teams",
+      "abstract": "🚀 We present GRSE (Group-Relative Skill Evolution), a framework that tackles a fundamental question in multi-agent learning: When a team succeeds or fails, which agent's skill should actually change? Instead of rewarding all skills involved in successful trajectories, GRSE performs group-relative credit assignment across multiple executions to identify the skills that truly drive outcomes. Key highlights: 🎯 Assigns credit at the agent-skill level 🔍 Identifies causal contributors through trajectory comparison 🤝 Supports continual multi-agent skill evolution 📈 Outperforms existing skill-learning methods on HotpotQA and LoCoMo 🛡️ Remains robust under noisy and corrupted skill libraries We believe GRSE is an important step toward scalable and self-improving multi-agent systems. 📄 Paper: https://arxiv.org/abs/2610.27227 💻 Code: https://github.com/yananma1029/GRSE-Skills",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.27227",
+      "pdf_url": "https://arxiv.org/pdf/2610.27227",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yananma1029/GRSE-Skills"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.27227",
+      "scraped_at": "2026-10-22T03:38:14.020696"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "SpatialBrain: Spatial Intelligence Growing from Experience",
+    "paper_url": "https://huggingface.co/papers/2610.29317",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SpatialBrain: Spatial Intelligence Growing from Experience",
+      "abstract": "Spatial reasoning requires more than access to geometric tools: a reasoner must decide when direct observation is sufficient and when to reconstruct, measure, or change reference frames. We present SpatialBrain, a framework that retains experience about these decisions while keeping its vision-language backbone fixed. The key distinction is between evidence about a scene and experience about how to reason with that evidence. 3DFusionMemory fuses current-scene observations into queryable spatial relations. A Spatial Skill Library provides reusable tool procedures, and Spatial Cognition associates task conditions with experience about when and how to use memory and skills. Completed trajectories are abstracted into process records and consolidated between task blocks, allowing later decisions to draw on earlier execution without transferring scene coordinates or reference answers. Across five spatial-reasoning benchmarks, SpatialBrain improves on direct answers from the same backbone on four and ties on the fifth. Component comparisons, experience-coverage curves, and traced resource decisions characterize how the framework accumulates and uses these resources.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.29317",
+      "pdf_url": "https://arxiv.org/pdf/2610.29317",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.29317",
+      "scraped_at": "2026-10-22T03:38:15.663395"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "ACE-Brain-0.6: Scaling Spatial Grounding for Physical Foundation Models",
+    "paper_url": "https://huggingface.co/papers/2610.27040",
+    "authors": [],
+    "stars": "7",
+    "details": {
+      "title": "ACE-Brain-0.6: Scaling Spatial Grounding for Physical Foundation Models",
+      "abstract": "General-purpose multimodal models, including GPT-6 Astra and Claude Opus 5.5, demonstrate broad capabilities in embodied manipulation. Our analysis indicates that this generality is accompanied by strong spatial perception, as Astra can determine where to interact with task-relevant entities amid visual distractors. Because spatial perception connects high-level reasoning to the physical scene, we investigate scaling visual grounding to strengthen the perceptual foundation of general embodied operation. We develop a unified data pipeline that combines robot manipulation recordings with complementary visual data from diverse sources. After automatically annotating the robot recordings, the pipeline converts the collected data into verifiable grounding supervision. Fine-tuning Qwen3.5-9B on approximately 1.5 million samples produced by this pipeline yields ACE-Brain-0.6. The model outperforms GPT-6 Astra on four of seven public grounding benchmarks, with an overall average score of 75.41 compared with Astra's 73.68. Under a fixed Qwen3.5-9B fine-tuning setup, aggregate grounding performance improves steadily as successive data releases expand the training collection to cover a broader range of grounding scenarios. These results show that scaling verifiable grounding supervision from diverse sources can strengthen the spatial perception of an open 9B model for general embodied operation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.27040",
+      "pdf_url": "https://arxiv.org/pdf/2610.27040",
+      "github_links": [
+        "https://github.com/DAXIAORobotics/ACE-Brain-0.6",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.27040",
+      "scraped_at": "2026-10-22T03:38:17.310435"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "Sparsity Should Be ALLOTted by Output: Training-Free Allocation of Block-Sparse Attention for Video Diffusion Transformers",
+    "paper_url": "https://huggingface.co/papers/2610.29441",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Sparsity Should Be ALLOTted by Output: Training-Free Allocation of Block-Sparse Attention for Video Diffusion Transformers",
+      "abstract": "We introduce ALLOT, a training-free sparsity allocation method for block-sparse attention in video Diffusion Transformers. Our approach estimates each layer–step cell’s final-video sensitivity and jointly allocates densities under a measured-latency budget. At matched or shorter wall-clock time, it achieves an 11.8 dB PSNR gain over XAttention’s default on HunyuanVideo and outperforms or ties the defaults in all nine settings across four additional published pipelines.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.29441",
+      "pdf_url": "https://arxiv.org/pdf/2610.29441",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.29441",
+      "scraped_at": "2026-10-22T03:38:19.330886"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "ALPS: Visual State Encoders for World Models",
+    "paper_url": "https://huggingface.co/papers/2610.30120",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "ALPS: Visual State Encoders for World Models",
+      "abstract": "World models often predict and plan over the tokens of a frozen visual encoder, so the encoder determines what they can see. We introduce ALPS (A Language-aligned, Pixel-renderable State encoder), a ViT-B/16 pretrained from scratch using only still images and text. A single set of frozen patch tokens supports physical-state information, native language alignment, and pixel reconstruction . We first establish language, pixel, and spatial capabilities through joint pretraining, then strengthen state representations via cross-view self-distillation. Key results: State: Lowest aggregate LIBERO state-probe error among ViT-B encoders (compared with 15 public encoders), matching the 3.5× larger V-JEPA 2-L. Language: Strong native language alignment, achieving 93.2% Flickr30k and 70.2% COCO image-to-text Recall@1. Pixels: Accurate pixel reconstruction from frozen tokens, including direct rendering of predicted world-model futures. Control & Planning: Highest mean LIBERO policy success (85.5%) with its native text tower; matches or exceeds leading encoders on PushT, Wall, and Granular. Open release: Both checkpoints (Stage 1 & ALPS), eight LIBERO policies, and JAX / PyTorch training and evaluation code. 🌐 Project: https://ucsc-vlaa.github.io/ALPS/ 💻 Code: https://github.com/UCSC-VLAA/ALPS 🤗 Weights: https://huggingface.co/UCSC-VLAA/ALPS",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.30120",
+      "pdf_url": "https://arxiv.org/pdf/2610.30120",
+      "github_links": [
+        "https://github.com/UCSC-VLAA/ALPS",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.30120",
+      "scraped_at": "2026-10-22T03:38:21.012605"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "Answering in the User's Variety: Calibrated Accommodation Pairs for Post-Training",
+    "paper_url": "https://huggingface.co/papers/2610.28474",
+    "authors": [
+      "Jingshu Peng",
+      "Junyu Luo",
+      "Jian Yang",
+      "Heming Li",
+      "Zhizhuo Kou"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Answering in the User's Variety: Calibrated Accommodation Pairs for Post-Training",
+      "abstract": "People adapt how they talk to the person in front of them. However, chat models tend to respond in Standard English regardless of the dialect used by the user. A uniform answer can hide whether training treats these users alike, and output audits cannot tell as well. We trace how each post-training stage, from supervised fine-tuning (SFT) to preference optimization (DPO) and reinforcement learning, changes a model's tendency to match the user, and read what each update prefers from two content-matched replies, one matching the user and one not. Across 10 open model lineages, post-training standardizes replies to every informal cue, yet after adjusting for how likely each reply already was, the DPO update still favours matching British and Australian spelling over AAE and Singlish on 10 lineages, and models still produce AAE features when asked. We then introduce calibrated accommodation pairs (CAP), preference data that reward matching users' dialect density while preserving Standard English for Standard-English users. On a fully open model, CAP raises convergence on features it was not trained on without a detectable increase in dialect for Standard-English users or a cost in instruction following. In contrast, one-sided pairs reach a similar gain only by overshooting the user and imposing dialect. Our findings show that uniform replies can hide selective updates and audits should read the update as well as the output.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.28474",
+      "pdf_url": "https://arxiv.org/pdf/2610.28474",
+      "github_links": [
+        "https://github.com/kouzhizhuo/cap-accommodation",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.28474",
+      "scraped_at": "2026-10-22T03:38:22.753580"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+    "paper_url": "https://huggingface.co/papers/2610.28698",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.28698",
+      "pdf_url": "https://arxiv.org/pdf/2610.28698",
+      "github_links": [
+        "https://github.com/THUSI-Lab/GameScaling",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.28698",
+      "scraped_at": "2026-10-22T03:38:24.420996"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "DeLoop: Repeated Actions as Self-Supervision for Long-Horizon Agents",
+    "paper_url": "https://huggingface.co/papers/2610.19376",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DeLoop: Repeated Actions as Self-Supervision for Long-Horizon Agents",
+      "abstract": "TL DR: LLM agents often re-issue a tool call they already made and get the same observation back. We call this a loop . DeLoop turns each loop into a free training pair from the agent's own rollout: the repeated call is the rejected action, and the agent's first later loop-breaking action is the chosen one. We train on these pairs with DPO. No task reward, gold answer, or LLM judge needed. Why it matters: loops get much worse when the history is compressed. On CodeGym, Qwen3-8B loops in 29.0% of runs with the full history and in 57.3% under summarization. Summaries that explicitly track past actions don't fix it, because the agent often ignores a record it already has. Results Qwen3-8B on CodeGym: loop rate 57.3% → 6.1% (9.4×), steps per task 15.0 → 4.7 , tokens −47%, with similar task success Qwen3-14B / 32B: task success +7.2 / +7.1 points (45.1 → 52.3 , 37.7 → 44.8 ) With cross-domain pairs (DeLoop-Mix): Qwen3-8B success 25.1 → 30.3 . Loops also drop under 7 memory policies, in ALFWorld, Open-AgentRL, AppWorld, ScienceWorld, and BrowseComp-Plus (22.4% → 1.2%) 🔗 Project page (with an interactive example of a loop forming): https://cskyl.github.io/deloop/ 📄 arXiv: https://arxiv.org/abs/2610.19376 💻 Code and data: coming soon at https://github.com/cskyl/deloop",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.19376",
+      "pdf_url": "https://arxiv.org/pdf/2610.19376",
+      "github_links": [
+        "https://github.com/cskyl/deloop",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.19376",
+      "scraped_at": "2026-10-22T03:38:26.079518"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "Qwen-Audio-3.1-ASR Technical Report",
+    "paper_url": "https://huggingface.co/papers/2610.28711",
+    "authors": [
+      "Chong Deng",
+      "Zhigao Chen",
+      "Peixin Chen",
+      "Daren Chen",
+      "Chuanmeng Bian"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Qwen-Audio-3.1-ASR Technical Report",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2610.28711",
+      "pdf_url": "https://arxiv.org/pdf/2610.28711",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.28711",
+      "scraped_at": "2026-10-22T03:38:27.752821"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "Evolving with Open Worlds: Towards Recursive Self-Improvement for Future Forecasting",
+    "paper_url": "https://huggingface.co/papers/2610.29784",
+    "authors": [
+      "Lingyun Feng",
+      "Hongkang Zhao",
+      "Yanxi Chen",
+      "Yunsen Liang",
+      "Zhipeng Chen"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Evolving with Open Worlds: Towards Recursive Self-Improvement for Future Forecasting",
+      "abstract": "What does it take for AI agents to continuously improve themselves? We argue that the environment is not merely a place for training or evaluation, but a fundamental driver of recursive self-improvement (RSI). We introduce DeepEvolve, a system in which agents co-evolve with a living environment that continually generates new, verifiable real-world event prediction tasks, adapts to the agent’s weaknesses, and provides feedback for sustained capability growth. Through parameter-level learning and reusable skill evolution, DeepEvolve turns experience into lasting improvements while addressing information leakage in open-world learning. Experiments demonstrate consistent improvements in real-world event prediction, highlighting evolving environments as a key foundation for self-improving AI.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.29784",
+      "pdf_url": "https://arxiv.org/pdf/2610.29784",
+      "github_links": [
+        "https://github.com/RUCAIBox/DeepEvolve",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.29784",
+      "scraped_at": "2026-10-22T03:38:29.470222"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "Agentic World Action Models",
+    "paper_url": "https://huggingface.co/papers/2610.30136",
+    "authors": [
+      "Jing Wang",
+      "Boning Shao",
+      "Botong Zhang",
+      "Dantong Niu",
+      "Zhuoyang Liu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Agentic World Action Models",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2610.30136",
+      "pdf_url": "https://arxiv.org/pdf/2610.30136",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.30136",
+      "scraped_at": "2026-10-22T03:38:31.155253"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "CulturalRiddles: A Multicultural Benchmark of Riddles",
+    "paper_url": "https://huggingface.co/papers/2610.29968",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "CulturalRiddles: A Multicultural Benchmark of Riddles",
+      "abstract": "A new benchmark testing cultural awareness and cultural reasoning of LLMs with riddles from 62 cultures (45 countries, 51 languages). The paper describes the participatory data creation process, human evaluation, automatic evaluation metric tuning, and analyzes the scores on the benchmark by 28  LLMs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.29968",
+      "pdf_url": "https://arxiv.org/pdf/2610.29968",
+      "github_links": [
+        "https://github.com/Cohere-Labs-Community/CulturalRiddles",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.29968",
+      "scraped_at": "2026-10-22T03:38:32.829685"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "RubatoCodec: Budgeted Adaptive Speech Tokenization with Streaming Decoding",
+    "paper_url": "https://huggingface.co/papers/2610.29434",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "RubatoCodec: Budgeted Adaptive Speech Tokenization with Streaming Decoding",
+      "abstract": "Code: https://github.com/third-intelligence/RubatoCodec Model: https://huggingface.co/third-intelligence/RubatoCodec",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.29434",
+      "pdf_url": "https://arxiv.org/pdf/2610.29434",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/third-intelligence/RubatoCodec"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.29434",
+      "scraped_at": "2026-10-22T03:38:34.477565"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "Toward Part-Aware Choral Transcription with singing voice assignment",
+    "paper_url": "https://huggingface.co/papers/2610.09861",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Toward Part-Aware Choral Transcription with singing voice assignment",
+      "abstract": "Hi everyone! I’m one of the authors of this paper. We introduce PawCT, an end-to-end framework that transcribes mixed choral audio into separate soprano, alto, tenor, and bass (SATB) note tracks. We also present PagCT, a part-agnostic variant that produces a single merged note track. Code and demos are available through the GitHub repository and project page linked here. We also plan to release the model checkpoints on the Hugging Face Hub after verifying the checkpoints and their corresponding configurations. Happy to answer questions and hear your feedback. Thanks for checking out our work!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.09861",
+      "pdf_url": "https://arxiv.org/pdf/2610.09861",
+      "github_links": [
+        "https://github.com/Multimodal-Music-Research-Lab/Paw_Choral_AMT",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.09861",
+      "scraped_at": "2026-10-22T03:38:36.114493"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "VX-One: Typed, Calibrated Decision Heads for Real-Time Perimeter Triage - An empirical study of unknown-attack honesty, cascade gray zones, and calibration under drift",
+    "paper_url": "https://huggingface.co/papers/2610.30090",
+    "authors": [
+      "Juan S. Santillana"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "VX-One: Typed, Calibrated Decision Heads for Real-Time Perimeter Triage - An empirical study of unknown-attack honesty, cascade gray zones, and calibration under drift",
+      "abstract": "Perimeter triage faces a latency/semantics trade-off: signature engines are fast and format-safe but blind to unseen attacks, while generative models are semantic but slow and produce unparseable output. In late 2026 a class of commercial System One decision models (TypeSafe Jev; Microsoft-Decision-1) began selling typed decision primitives - binary gates, closed-set choices, ordinal scores - as product APIs, with no academic treatment. We present VX-One: a small multi-head network (100K-10M parameters) whose outputs are these primitives - a calibrated gate, a choice over a closed candidate set that always includes an explicit unknown option, and an ordinal score, trained multi-task, temperature-calibrated per head (~0.7-1.7 ms p50 on CPU). We evaluate it on UNSW-NB15, CIC-IDS2017, EMBER2024 against calibrated XGBoost, Random-Forest, MLP, Kitsune, and measure a two-phase cascade (Suricata with 52,674 Emerging-Threats rules -> VX-One) over five days of CIC-IDS2017. Findings: (i) VX-One wins detection (AUROC/FPR@95%TPR) on UNSW-NB15 and under temporal drift on CIC-IDS2017 (0.711 vs 0.637), but XGBoost wins multi-class attribution on all three benchmarks; (ii) leave-one-family-out gate detects never-seen families on 9/9 UNSW folds yet drops below chance on CIC recon family, and abstention threshold transfers poorly across benchmarks; (iii) on payload-less reconstructions signature engines resolve ~0.1% of flows - gray zone ~99.9% of traffic, recovered by Phase 2 (combined recall >=0.978); (iv) calibration collapses under temporal drift (ECE 0.04->0.40) for every method while ranking partially survives. We provide a measured account of where typed calibrated decisions help perimeter triage, and where they fail.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.30090",
+      "pdf_url": "https://arxiv.org/pdf/2610.30090",
+      "github_links": [
+        "https://github.com/vectrayx/vx-one",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.30090",
+      "scraped_at": "2026-10-22T03:38:37.745879"
+    },
+    "scraped_date": "2026-10-22"
+  },
+  {
+    "title": "Entertain, then Cancel: How Thinking Makes Reasoning Models Read Some and Or Literally",
+    "paper_url": "https://huggingface.co/papers/2610.21204",
+    "authors": [
+      "Jingshu Peng",
+      "Junyu Luo",
+      "Pengfei Hao",
+      "Jian Yang",
+      "Zhizhuo Kou"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Entertain, then Cancel: How Thinking Makes Reasoning Models Read Some and Or Literally",
+      "abstract": "When a speaker says ``some students passed'', listeners infer that not all of them did. Reasoning models now let users decide how long a model thinks before it answers, but we do not know what extra thinking does to such everyday inferences. We study this directly: we keep a model's weights fixed, change only how much it thinks, and record which reading it chooses. A second tool cuts the model's own reasoning at successive points and asks for an answer, showing where the reading changes. Thinking makes models read logical words as logic: it cancels the implicatures of some (not all) and or (not both) in most tested open reasoning models and in GPT-5, while context-driven inferences such as indirect answers improve. The trace shows why: models first entertain the enriched reading and cancel it later. Answering from that early reading, an exploratory inference-time remedy, recovers these implicatures without losing literal accuracy. Evaluations of reasoning models should measure how they interpret, not only how accurate they are.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.21204",
+      "pdf_url": "https://arxiv.org/pdf/2610.21204",
+      "github_links": [
+        "https://github.com/kouzhizhuo/entertain-then-cancel",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.21204",
+      "scraped_at": "2026-10-22T03:38:39.467387"
+    },
+    "scraped_date": "2026-10-22"
   }
 ]
