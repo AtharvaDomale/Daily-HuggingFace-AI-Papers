@@ -1,0 +1,296 @@
+[
+  {
+    "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+    "paper_url": "https://huggingface.co/papers/2610.30926",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+      "abstract": "Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large language models (MLLMs) offer useful priors for both capabilities, but their representations are not automatically actionable for video generation: a Video Diffusion Transformer (DiT) may bypass them through native conditioning pathways, and using them does not ensure either factor-aware control or generation-compatible temporal prediction. We propose Factor-Aware Predictive Learning (FAPL), which establishes effective MLLM latent use as a shared prerequisite and then targets the two capabilities with complementary learning signals. First, latent-only generator grounding trains the DiT with a frozen MLLM and connector, strengthening the DiT's use of MLLM latents for generation. Second, for factor-aware control, paired videos specify a target-factor change and non-target preservation, and factor-span replacement trains the DiT to realize this relationship in its output. Third, for temporal inference, text-only and text-plus-complete-video observations share a video target, and the trained DiT is then frozen while the MLLM and connector are optimized through it. This final stage trains limited-input representations for generation while retaining complete-observation reconstruction as a complementary training mode. Extensive experiments demonstrate our consistently better performance on three cinematic video generation tasks (i.e., sparse-to-video, factor-aware editing, and multi-shot generation) over baselines and validate FAPL's contributions to MLLM feature use, temporal control, and factor coordination.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.30926",
+      "pdf_url": "https://arxiv.org/pdf/2610.30926",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.30926",
+      "scraped_at": "2026-10-23T03:42:52.349628"
+    },
+    "scraped_date": "2026-10-23"
+  },
+  {
+    "title": "Meta Expert: Cross-Layer Expert Sharing for Storage- and Retrieval-Efficient MoE",
+    "paper_url": "https://huggingface.co/papers/2610.27598",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Meta Expert: Cross-Layer Expert Sharing for Storage- and Retrieval-Efficient MoE",
+      "abstract": "A comparison between the Vanilla and Meta-Expert models shows that, when trained under the optimal settings of the Vanilla model at varying depths and scales, models with Meta Experts achieve loss comparable to the Vanilla baselines while using only 70–80% as many experts, or 75–90% as many parameters. Notably, the savings in both experts and parameters grow as the models become deeper and larger, demonstrating the favorable scalability of Meta Experts. The proposed method has been scaled up in Intern-S2-Mobius, which is available at https://github.com/InternLM/Intern-S2-Mobius and https://huggingface.co/internlm/Intern-S2-Mobius .",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.27598",
+      "pdf_url": "https://arxiv.org/pdf/2610.27598",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/InternLM/Intern-S2-Mobius"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.27598",
+      "scraped_at": "2026-10-23T03:42:54.018253"
+    },
+    "scraped_date": "2026-10-23"
+  },
+  {
+    "title": "Deep Search in Real-World Web Environments",
+    "paper_url": "https://huggingface.co/papers/2610.30181",
+    "authors": [
+      "Shao-Rong Su",
+      "Shilin Yan",
+      "Zhe Huang",
+      "Hongliang Chen",
+      "Xiaomin Yu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Deep Search in Real-World Web Environments",
+      "abstract": "Deep Search in the Real-World Web Environments",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.30181",
+      "pdf_url": "https://arxiv.org/pdf/2610.30181",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.30181",
+      "scraped_at": "2026-10-23T03:42:55.738144"
+    },
+    "scraped_date": "2026-10-23"
+  },
+  {
+    "title": "Beyond Watching and Searching: Benchmarking Agents for Video-centered Deep Research Reports",
+    "paper_url": "https://huggingface.co/papers/2610.31158",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Beyond Watching and Searching: Benchmarking Agents for Video-centered Deep Research Reports",
+      "abstract": "OmniDR-Bench",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.31158",
+      "pdf_url": "https://arxiv.org/pdf/2610.31158",
+      "github_links": [
+        "https://github.com/marinero4972/OmniDR-Bench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.31158",
+      "scraped_at": "2026-10-23T03:42:57.414293"
+    },
+    "scraped_date": "2026-10-23"
+  },
+  {
+    "title": "LaLa-World: Scaling Latent World Models with Natural Language Actions",
+    "paper_url": "https://huggingface.co/papers/2610.27851",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "LaLa-World: Scaling Latent World Models with Natural Language Actions",
+      "abstract": "TL;DR A La nguage-conditioned La tent World model ( LaLa-World ) uses natural language as a shared action interface to learn from simulation, robotics, images, and videos. It predicts future visual representations for efficient planning across domains and can be fine-tuned into LaLa-Policy , which jointly predicts robot actions and future representations. Key results: One LaLa-World predictor trained across domains beats per-domain LWMs on average MPC planning performance Adding image/video data further improves planning and robustness to action phrasing vs. an RAEv2-based video generation baseline: comparable planning with 6× less training cost and 13.9× faster planning LaLa-Policy , initialized from LaLa-World, is competitive with Cosmos Policy on LIBERO and RoboCasa with up to 5.5× faster inference Project page: https://june-page.github.io/lala-world/ Code: https://github.com/junha1125/LaLa-World alphaXiv: https://www.alphaxiv.org/abs/2610.27851 arXiv: https://arxiv.org/abs/2610.27851 Presentation: https://june-page.github.io/lala-world-slides/",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.27851",
+      "pdf_url": "https://arxiv.org/pdf/2610.27851",
+      "github_links": [
+        "https://github.com/junha1125/LaLa-World",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.27851",
+      "scraped_at": "2026-10-23T03:42:59.146607"
+    },
+    "scraped_date": "2026-10-23"
+  },
+  {
+    "title": "Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V",
+    "paper_url": "https://huggingface.co/papers/2610.28416",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V",
+      "abstract": "We introduce Code2Video-Compass, a comprehensive benchmark for general-purpose code-based video generation across text-to-video, image-to-video, and video-to-video settings. The benchmark comprises 2,104 tasks spanning 10 categories and 24 subtypes, covering scene construction, dynamic animation, and state dependency. We evaluate 15 MLLMs using complementary objective metrics and MLLM-based judgments, revealing substantial performance gaps across input settings and task complexities, as well as a disconnect between visual quality and execution reliability. We welcome feedback and discussion!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.28416",
+      "pdf_url": "https://arxiv.org/pdf/2610.28416",
+      "github_links": [
+        "https://github.com/code2video-compass/Code2Video-Compass",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.28416",
+      "scraped_at": "2026-10-23T03:43:00.820630"
+    },
+    "scraped_date": "2026-10-23"
+  },
+  {
+    "title": "Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought",
+    "paper_url": "https://huggingface.co/papers/2610.30755",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought",
+      "abstract": "RAW-RAG challenges the necessity of complex agentic memory for long-term conversation understanding. By combining dense retrieval and reranking over raw history, it ranks first among compared memory systems in six of seven settings across four benchmarks. Its analyses highlight evidence coverage and relational completeness as key drivers of performance, establishing naive RAG as an essential baseline.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.30755",
+      "pdf_url": "https://arxiv.org/pdf/2610.30755",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.30755",
+      "scraped_at": "2026-10-23T03:43:02.560568"
+    },
+    "scraped_date": "2026-10-23"
+  },
+  {
+    "title": "Policy-Mask: Budget-Aware Adaptation of Diffusion Features to Discriminative Tasks",
+    "paper_url": "https://huggingface.co/papers/2610.28889",
+    "authors": [
+      "Aibek Alanov",
+      "maksim64",
+      "Ivan1008"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Policy-Mask: Budget-Aware Adaptation of Diffusion Features to Discriminative Tasks",
+      "abstract": "TLDR: Policy-Mask trains a REINFORCE policy that jointly picks the timestep, layer, and exactly b channels of a frozen diffusion model, then distills the selected features into a student that runs without the teacher. At 128 of 1280 channels, it beats full-width features from a fixed (t, l) by 1.2–1.6 mIoU on four segmentation benchmarks and outperforms RepFusion.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.28889",
+      "pdf_url": "https://arxiv.org/pdf/2610.28889",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.28889",
+      "scraped_at": "2026-10-23T03:43:04.253720"
+    },
+    "scraped_date": "2026-10-23"
+  },
+  {
+    "title": "Rethinking Sequence Compression with Test-time Regression",
+    "paper_url": "https://huggingface.co/papers/2610.31574",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Rethinking Sequence Compression with Test-time Regression",
+      "abstract": "Hi everyone! We introduce TTR-Compressor, a superior and fully practical alternative to standard pooling and projection-based compression. It shows strong empirical gains both as a compressor for block-wise sparse attention in efficient LLMs and as a VL projector (merger) in MLLMs. Beyond that, it opens up many exciting applications to explore: temporal compression for video/audio, training natively efficient ViTs from scratch, depth-wise compression for better depth scaling...",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.31574",
+      "pdf_url": "https://arxiv.org/pdf/2610.31574",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Sphere-AI-Lab/ttr-compressor"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.31574",
+      "scraped_at": "2026-10-23T03:43:05.925863"
+    },
+    "scraped_date": "2026-10-23"
+  },
+  {
+    "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+    "paper_url": "https://huggingface.co/papers/2610.31668",
+    "authors": [
+      "Shuicheng Yan",
+      "Ziwei Liu",
+      "Bobo Li",
+      "Meng Luo",
+      "Shengqiong Wu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2610.31668",
+      "pdf_url": "https://arxiv.org/pdf/2610.31668",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.31668",
+      "scraped_at": "2026-10-23T03:43:07.576792"
+    },
+    "scraped_date": "2026-10-23"
+  },
+  {
+    "title": "Inherited, Not Invented: Tracing the Provenance of Wait in Reasoning Models",
+    "paper_url": "https://huggingface.co/papers/2610.30882",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Inherited, Not Invented: Tracing the Provenance of Wait in Reasoning Models",
+      "abstract": "Reinforcement learning (RL) is credited with teaching reasoning models to write {wait} before reconsidering a step, yet large RL accuracy gains do not require the word. This view can confuse what RL discovers with what a model inherits from its training data. We trace the word through open models' training histories, reading it with label-free indices of frequency, position, form and usage and an injected-error test, all computed from sampled outputs. We find that zero-RL almost never coins the marker: on bases that lack the word, RL raises MATH-500 accuracy substantially while {wait} stays near absent. It arrives with training data: mid-training in OLMo-3, and fine-tuning on reasoning traces installs it in most models whose base lacks it. Where the base already uses it, both released RL-Zero recipes (OLMo-3, MiMo) multiply it, whereas KL-free GRPO from the same base does not; OLMo-3's recipe wears down its form and makes it a more sensitive but more liberal alarm; RL after supervised fine-tuning barely changes it, and our GRPO recipe erases a marker seeded by fine-tuning. Finally, we show that marker frequency alone does not indicate RL-induced reasoning and caution against LLM-as-a-judge revision metrics, as automated judges can reverse human-labelled trends.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.30882",
+      "pdf_url": "https://arxiv.org/pdf/2610.30882",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/kouzhizhuo/wait-provenance"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.30882",
+      "scraped_at": "2026-10-23T03:43:09.243653"
+    },
+    "scraped_date": "2026-10-23"
+  },
+  {
+    "title": "Skeleton-Grounded Latent Action Model for Robot World Models",
+    "paper_url": "https://huggingface.co/papers/2610.31474",
+    "authors": [
+      "Xiang Deng",
+      "Jianzong Wang",
+      "Yuxin Jiang",
+      "Jiayi Lin",
+      "Qi Lv"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Skeleton-Grounded Latent Action Model for Robot World Models",
+      "abstract": "SkeLAM learns structured latent actions from visual transitions with skeleton supervision, separating robot motion from complementary visual changes. This structure supports action-conditioned world modeling and robot action adaptation through a shared kinematic representation. Learn more at https://aopolin-lv.github.io/SkeLAM/ .",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.31474",
+      "pdf_url": "https://arxiv.org/pdf/2610.31474",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.31474",
+      "scraped_at": "2026-10-23T03:43:10.888708"
+    },
+    "scraped_date": "2026-10-23"
+  },
+  {
+    "title": "SCOPE: Compiling Natural-Language Policies into Neurosymbolic Predicate Programs",
+    "paper_url": "https://huggingface.co/papers/2610.31062",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SCOPE: Compiling Natural-Language Policies into Neurosymbolic Predicate Programs",
+      "abstract": "Dataset: https://huggingface.co/datasets/Plurai/SCOPE",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.31062",
+      "pdf_url": "https://arxiv.org/pdf/2610.31062",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.31062",
+      "scraped_at": "2026-10-23T03:43:12.569897"
+    },
+    "scraped_date": "2026-10-23"
+  },
+  {
+    "title": "Foundation4D: Towards a unified perception and reconstruction model for autonomous vehicles",
+    "paper_url": "https://huggingface.co/papers/2610.30340",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Foundation4D: Towards a unified perception and reconstruction model for autonomous vehicles",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2610.30340",
+      "pdf_url": "https://arxiv.org/pdf/2610.30340",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.30340",
+      "scraped_at": "2026-10-23T03:43:14.234056"
+    },
+    "scraped_date": "2026-10-23"
+  }
+]
