@@ -21456,5 +21456,243 @@
       "scraped_at": "2026-10-25T03:35:21.396395"
     },
     "scraped_date": "2026-10-25"
+  },
+  {
+    "title": "UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents",
+    "paper_url": "https://huggingface.co/papers/2610.30932",
+    "authors": [
+      "Jian Wu",
+      "Wen Chen",
+      "Jing Yu",
+      "Jiakai Tang",
+      "Jujia Zhao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents",
+      "abstract": "Can simulated shoppers faithfully reproduce real users’ behavior over long shopping interactions? We introduce UserArena , an interactive benchmark grounded in real-world e-commerce data: 64,729 sessions from 11,010 users , covering 566,102 items and 13 action types. Its five-level evaluation goes beyond next-action accuracy to assess sequential behavior, personalization, and outcomes. It also validates offline policy comparisons against a controlled production A/B test. We further propose On-Policy Trajectory Distillation (OPTD) , which uses trajectory-level intent to guide dense token-level teacher supervision on student-generated responses. Among the evaluated simulators, OPTD achieves the strongest overall fidelity and most closely reproduces the policy effect observed in production. 💻 Code & data: https://github.com/RecGPT-Team/UserArena 🌐 Project: https://recgpt-team.github.io/UserArena-Page",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.30932",
+      "pdf_url": "https://arxiv.org/pdf/2610.30932",
+      "github_links": [
+        "https://github.com/RecGPT-Team/UserArena",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.30932",
+      "scraped_at": "2026-10-26T03:36:51.332041"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "RSIHub: A Composable Framework for Agent-Evolution Methods",
+    "paper_url": "https://huggingface.co/papers/2610.32253",
+    "authors": [],
+    "stars": "186",
+    "details": {
+      "title": "RSIHub: A Composable Framework for Agent-Evolution Methods",
+      "abstract": "Hi everyone! We’re sharing RSIHub, an open-source framework for building and comparing agent-evolution methods. RSIHub lets researchers compose reusable operators to improve agent prompts, skills, tools, and orchestration, while keeping evaluation protected and candidate histories traceable. We implement AHE, Hyperagents, A-Evolve, and GEPA on shared infrastructure and evaluate them with MiniSWE and Codex on Terminal Bench 2 and τ³ Banking. Our goal is to make agent self-improvement experiments easier to reproduce, compare, and extend. We’d love feedback, contributions, and ideas for new evolution methods and benchmarks! 💻 Code: https://github.com/simple-agent-lab/RSIHub 🌐 Project: https://simpleagentlab.com/rsihub/",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.32253",
+      "pdf_url": "https://arxiv.org/pdf/2610.32253",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/simple-agent-lab/RSIHub"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.32253",
+      "scraped_at": "2026-10-26T03:36:53.160166"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "RynnUnify: Towards Unified Embodied Brain",
+    "paper_url": "https://huggingface.co/papers/2610.32965",
+    "authors": [
+      "Yinzhou Tang",
+      "Zixuan Wang",
+      "Kun Xiang",
+      "Bohan Hou",
+      "Minghao Zhu"
+    ],
+    "stars": "7",
+    "details": {
+      "title": "RynnUnify: Towards Unified Embodied Brain",
+      "abstract": "Introduction We present RynnUnify , a Mixture-of-Transformers architecture with an autoregressive Reasoner and a rectified-flow video Generator . Built on Cosmos3, RynnUnify connects embodied understanding, spatial grounding, and long-horizon visual planning through interleaved video-language reasoning. Unified Embodied Brain. RynnUnify brings embodied cognition, spatial grounding, and video generation into one architecture, connecting scene understanding with predictions of how the physical world evolves. Interleaved Visual Planning. RynnUnify alternates subtask reasoning with video prediction, using each generated outcome to plan the next step. Cross-chunk scene memory, self-forcing training, and adaptive durations support coherent visual planning over long horizons. Agentic Interleaved Thinking. An RL-trained agent learns when to answer directly and when to generate visual evidence. Through BCPO, it learns to formulate generation requests, interpret predicted outcomes, and select the reasoning path that benefits the task. Connect Prediction to Action. The World-Action Model ( WAM ) extension translates predictive world representations into robot control through joint video-action training, supporting composite manipulation tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.32965",
+      "pdf_url": "https://arxiv.org/pdf/2610.32965",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/alibaba-damo-academy/RynnUnify"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.32965",
+      "scraped_at": "2026-10-26T03:36:54.906516"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
+    "paper_url": "https://huggingface.co/papers/2610.27103",
+    "authors": [],
+    "stars": "94",
+    "details": {
+      "title": "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
+      "abstract": "Paper: https://arxiv.org/abs/2610.27103 Code: https://github.com/ZiiJianLiu/Omni-Woodpecker",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.27103",
+      "pdf_url": "https://arxiv.org/pdf/2610.27103",
+      "github_links": [
+        "https://github.com/ZiiJianLiu/Omni-Woodpecker",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.27103",
+      "scraped_at": "2026-10-26T03:36:56.732976"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "Echo: Coupled Action and Task Status Signal Denoising for Vision Language Action Models",
+    "paper_url": "https://huggingface.co/papers/2610.31569",
+    "authors": [
+      "Hang Yu",
+      "Xinyi Wang",
+      "Juntu Zhao",
+      "Bohao Fan",
+      "Yufeng Liu"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Echo: Coupled Action and Task Status Signal Denoising for Vision Language Action Models",
+      "abstract": "Recognizing task completion and failure enables robots to stop upon success and initiate recovery or replanning after failure. Existing methods augment Vision Language Action (VLA) policies with task status signal prediction to support these execution decisions. However, learning and integrating these signals can require fine-grained supervision, external monitoring models, or complex architectural designs. Moreover, the potential of task status signals to directly guide action generation remains underexplored. We present Echo, a framework that combines task status signal learning without frame-level progress annotations with a compact design for status prediction and action generation within a single VLA. Specifically, Echo represents task status with stop and failure signals, added as two dimensions of each action chunk and denoised together with robot actions. Their combination distinguishes ongoing execution, successful completion, and failure. To learn these signals without fine-grained progress annotations, Echo constructs successful, failed, and recovery trajectories with complementary supervision properties. To enable status signal-guided action generation, Echo controls interactions between the signals and actions and denoises the signals faster than the actions. These allow later action denoising steps to condition on cleaner status estimates while preserving accurate signal prediction. Extensive real-world manipulation experiments show that Echo accurately predicts task status and consistently improves policy performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.31569",
+      "pdf_url": "https://arxiv.org/pdf/2610.31569",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/lyfeng001/Echo-Sim"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.31569",
+      "scraped_at": "2026-10-26T03:36:58.544046"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "FLOMSS: Generative Music Source Separation by Flow Matching",
+    "paper_url": "https://huggingface.co/papers/2610.17821",
+    "authors": [
+      "Qiyu Wu",
+      "Koichi Saito",
+      "Keisuke Toyama",
+      "Zhi Zhong",
+      "ik4sumii"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "FLOMSS: Generative Music Source Separation by Flow Matching",
+      "abstract": "FLOMSS systematically investigates flow matching for full-band stereo music source separation (MSS). Systematic design study: We investigate prediction targets, flow paths, single- vs. multi-source modeling, and mixture consistency. Optimal Transport-CFM with x-prediction provides the most balanced performance across the evaluated metrics. Beyond SDR: We evaluate MSS with signal-level, spectral, embedding-based, distributional, and subjective metrics, revealing a distributional–reconstruction trade-off: flow-matching models improve spectral and embedding-based similarity while generally sacrificing some SDR. Strong generative MSS performance: FLOMSS-S outperforms prior generative baselines on most spectral and perceptual metrics. Competitive subjective quality: Scaling to FLOMSS-M improves every reported objective metric over FLOMSS-S and ranks #2 overall in the listening test, despite its lower SDR than strong discriminative separators. These results highlight flow matching as a promising direction for generative music source separation with competitive perceptual quality.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.17821",
+      "pdf_url": "https://arxiv.org/pdf/2610.17821",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.17821",
+      "scraped_at": "2026-10-26T03:37:00.374965"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "Easy-3Dfy: Object-Level Geometric Composition for Single-Image 3D Scene Construction",
+    "paper_url": "https://huggingface.co/papers/2610.32250",
+    "authors": [
+      "Xintong Han",
+      "Jiachen Xu",
+      "Zehan Wang",
+      "Wenyou Yi",
+      "Ziang Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Easy-3Dfy: Object-Level Geometric Composition for Single-Image 3D Scene Construction",
+      "abstract": "Easy-3Dfy: Object-Level Geometric Composition for Single-Image 3D Scene Construction",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.32250",
+      "pdf_url": "https://arxiv.org/pdf/2610.32250",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.32250",
+      "scraped_at": "2026-10-26T03:37:02.166798"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "Generalized CycleGRPO for Fine-Grained Multimodal Understanding and Grounding",
+    "paper_url": "https://huggingface.co/papers/2610.29552",
+    "authors": [],
+    "stars": "8",
+    "details": {
+      "title": "Generalized CycleGRPO for Fine-Grained Multimodal Understanding and Grounding",
+      "abstract": "Extension of CycleGRPO (ECCV26: https://devinxzhang.github.io/CycleGRPO-Page/ )",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.29552",
+      "pdf_url": "https://arxiv.org/pdf/2610.29552",
+      "github_links": [
+        "https://github.com/devinxzhang/CycleGRPO",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.29552",
+      "scraped_at": "2026-10-26T03:37:03.994153"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "DirCast: Live Esports Directing and Commentary with a Single Streaming Video-Language Model",
+    "paper_url": "https://huggingface.co/papers/2610.31734",
+    "authors": [
+      "Ziqi Cai",
+      "Xiangcheng Cao",
+      "Penghao Luo",
+      "Lixin Xiu",
+      "Zixian Gao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "DirCast: Live Esports Directing and Commentary with a Single Streaming Video-Language Model",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2610.31734",
+      "pdf_url": "https://arxiv.org/pdf/2610.31734",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.31734",
+      "scraped_at": "2026-10-26T03:37:05.789810"
+    },
+    "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "HoloBoxing: A Simple Recipe for Humanoid Boxing with 7 Minutes of Single-GPU Training",
+    "paper_url": "https://huggingface.co/papers/2610.32909",
+    "authors": [
+      "Ziyue Liu",
+      "Yuhan Bao",
+      "Boxiong Li",
+      "Bo Zhang",
+      "Xihan Ma"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "HoloBoxing: A Simple Recipe for Humanoid Boxing with 7 Minutes of Single-GPU Training",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2610.32909",
+      "pdf_url": "https://arxiv.org/pdf/2610.32909",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.32909",
+      "scraped_at": "2026-10-26T03:37:07.602996"
+    },
+    "scraped_date": "2026-10-26"
   }
 ]
