@@ -236,5 +236,409 @@
       "scraped_at": "2026-10-26T03:37:07.602996"
     },
     "scraped_date": "2026-10-26"
+  },
+  {
+    "title": "Trajectory2Gym: Decision-Grounded Compositional Interaction Synthesis for Tool-Use Agents",
+    "paper_url": "https://huggingface.co/papers/2610.33568",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Trajectory2Gym: Decision-Grounded Compositional Interaction Synthesis for Tool-Use Agents",
+      "abstract": "Trajectory2Gym is a framework for scaling tool-use agents through compositional coverage and decision-grounded supervision. It constructs executable interactions that capture multi-step dependencies and trains agents on decisions supported by their visible interaction history. Across five Qwen3 model scales, Trajectory2Gym consistently improves performance on τ-bench, τ²-bench, and BFCL, achieving +16.9 to +29.8 percentage points in the average benchmark score.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.33568",
+      "pdf_url": "https://arxiv.org/pdf/2610.33568",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yihaohu0118/Trajectory2Gym"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.33568",
+      "scraped_at": "2026-10-27T04:01:38.024170"
+    },
+    "scraped_date": "2026-10-27"
+  },
+  {
+    "title": "StreamVibe: Proactive Video Agents for Evolving User Intent",
+    "paper_url": "https://huggingface.co/papers/2610.34662",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "StreamVibe: Proactive Video Agents for Evolving User Intent",
+      "abstract": "Vision-language models are shifting from offline passive understanding toward online proactive interaction. However, prevailing methods largely rely on explicit requests while overlooking implicit user intents (e.g., “where should I click next?” when a user is navigating a website) and fail to continuously update their understanding as user intents evolve. These limitations make them less suitable for intent-aware interaction in real-world scenarios. To address these challenges, we introduce StreamVibe-Bench, a new benchmark that serves as a testbed for user intent understanding and interaction, comprising 4.1K evaluation samples and 85K training samples spanning explicit, implicit, and dynamic intents. Building on this benchmark, we develop StreamVibe-VL, a streaming proactive model that infers implicit user intents from continuous observations and dynamically adapts its interactions as these intents evolve. We further introduce StreamVibe-Harness, which maintains user intents as persistent states with flexible lifecycles through hierarchical memory, enabling it to track the latest user intents and environmental states. Our experiments reveal three key findings: (i) StreamVibe-VL preserves strong general video understanding capabilities while improving response timing and answer quality by 10.7% over existing baselines; (ii) existing proactive models remain limited in understanding user intents and determining when to respond, especially under implicit and dynamic intents; and (iii) StreamVibe-Harness further improves response consistency and adaptation during sustained interactions, resulting in a 12.3% gain in proactive interaction performance.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.34662",
+      "pdf_url": "https://arxiv.org/pdf/2610.34662",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.34662",
+      "scraped_at": "2026-10-27T04:01:39.912102"
+    },
+    "scraped_date": "2026-10-27"
+  },
+  {
+    "title": "WorldCast: World-Consistent Character Video Generation with Large-Angle Camera Control",
+    "paper_url": "https://huggingface.co/papers/2610.33135",
+    "authors": [
+      "Fei Wang",
+      "Peng Zhang",
+      "Wenhua Liao",
+      "Yu Liu",
+      "Lei Cao"
+    ],
+    "stars": "17",
+    "details": {
+      "title": "WorldCast: World-Consistent Character Video Generation with Large-Angle Camera Control",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.33135",
+      "pdf_url": "https://arxiv.org/pdf/2610.33135",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/PixCtrol/WorldCast"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.33135",
+      "scraped_at": "2026-10-27T04:01:41.599930"
+    },
+    "scraped_date": "2026-10-27"
+  },
+  {
+    "title": "Trial by Trace: Benchmarking AI Agent Harnesses for Reliability and Failure Attribution",
+    "paper_url": "https://huggingface.co/papers/2610.32285",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "Trial by Trace: Benchmarking AI Agent Harnesses for Reliability and Failure Attribution",
+      "abstract": "Task success does not always mean the agent harness worked reliably. We introduce TraceTrial-Bench, a benchmark that evaluates agent task performance and harness reliability separately, using 95 mechanism-oriented tasks across seven components: context, execution, governance, lifecycle, observability, tools, and verification. Across 4 harnesses, 9 models, and 3,420 runs, 31.1% of runs achieve task success despite failing at least one harness criterion. Our framework combines trajectory tracing, multi-source evidence, and two-layer evaluation to support auditable reliability assessment and evidence-based failure analysis. We welcome feedback from researchers and developers working on agent harnesses, evaluation, and reliability!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.32285",
+      "pdf_url": "https://arxiv.org/pdf/2610.32285",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/TraceLite-AI/TraceTrial-Bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.32285",
+      "scraped_at": "2026-10-27T04:01:43.310927"
+    },
+    "scraped_date": "2026-10-27"
+  },
+  {
+    "title": "World-in-Context: Interactive Video World Modeling with In-Context Conditioning",
+    "paper_url": "https://huggingface.co/papers/2610.33169",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "World-in-Context: Interactive Video World Modeling with In-Context Conditioning",
+      "abstract": "World-in-Context: Interactive Video World Modeling with In-Context Conditioning",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.33169",
+      "pdf_url": "https://arxiv.org/pdf/2610.33169",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/aigc3d/World-in-Context"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.33169",
+      "scraped_at": "2026-10-27T04:01:45.104971"
+    },
+    "scraped_date": "2026-10-27"
+  },
+  {
+    "title": "Qwen-Image-PE: Learning Visual Design for Text-to-Image Prompt Enhancement",
+    "paper_url": "https://huggingface.co/papers/2610.33472",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Qwen-Image-PE: Learning Visual Design for Text-to-Image Prompt Enhancement",
+      "abstract": "We train a T2I prompt enhancer for visual design.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.33472",
+      "pdf_url": "https://arxiv.org/pdf/2610.33472",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.33472",
+      "scraped_at": "2026-10-27T04:01:46.849064"
+    },
+    "scraped_date": "2026-10-27"
+  },
+  {
+    "title": "InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants",
+    "paper_url": "https://huggingface.co/papers/2610.33966",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants",
+      "abstract": "InteractiveWorld is the first environment that realistically simulates a human and a wearable AI assistant interacting in the physical world: the assistant sees through the human’s eyes and talks, the human decides and acts, and the world responds.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.33966",
+      "pdf_url": "https://arxiv.org/pdf/2610.33966",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/facebookresearch/InteractiveWorld"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.33966",
+      "scraped_at": "2026-10-27T04:01:48.670035"
+    },
+    "scraped_date": "2026-10-27"
+  },
+  {
+    "title": "Δτ-Bench: Pushing Agents Toward a Moving Capability",
+    "paper_url": "https://huggingface.co/papers/2610.34238",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Δτ-Bench: Pushing Agents Toward a Moving Capability",
+      "abstract": "In this paper, we introduce △τ-Bench, an executable agent benchmark that models the structural evolution of large tool ecosystems.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.34238",
+      "pdf_url": "https://arxiv.org/pdf/2610.34238",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/zjunlp/delta-tau-bench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.34238",
+      "scraped_at": "2026-10-27T04:01:50.415425"
+    },
+    "scraped_date": "2026-10-27"
+  },
+  {
+    "title": "Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents",
+    "paper_url": "https://huggingface.co/papers/2610.33956",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents",
+      "abstract": "🚀 Introducing Continual Learning Exam (CLE): Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents! 🧠 Can LLM agents truly learn from experience and continuously improve over time? Most existing agent benchmarks focus on whether agents can solve individual tasks. But real-world intelligence requires more than task completion: agents should learn from past successes and failures, accumulate experience, and transfer acquired knowledge, strategies, and skills to future challenges. To bridge this gap, we introduce Continual Learning Exam (CLE), a large-scale benchmark designed to evaluate long-horizon continual learning and experience-driven self-improvement in LLM agents. 🌟 Key Highlights: 🔹 Built with 50+ domain experts, covering 120 real-world professional tasks, 600 progressive levels, and 89 occupations across 12 domains. 🔹 Realistic professional environments, featuring ~24K real-world files, 19 stateful applications, and 16K+ human-authored evaluation criteria. 🔹 Game-like Task Ladders, where agents must complete each level to unlock the next. Later levels require agents to reuse and build upon knowledge, strategies, and skills acquired through earlier experience. 📊 Key Findings: We evaluated 17 frontier agent configurations. Even the strongest system, Claude Code + Opus 5, achieves only: • 47.7% level completion rate • 23.3% full Task Ladder completion rate These results reveal a substantial gap between solving individual tasks and achieving genuine long-term continual learning. We hope CLE can serve as a realistic and verifiable benchmark to advance research on Agent Continual Learning, Memory, Skill Learning, and Recursive Self-Improvement (RSI). 💡 Beyond Task Solving: Towards Continual Learning and Experience-Driven Self-Improvement. We welcome feedback, discussions, and collaborations from the community!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.33956",
+      "pdf_url": "https://arxiv.org/pdf/2610.33956",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/haoyu-zhao/Continual-Learning-Exam"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.33956",
+      "scraped_at": "2026-10-27T04:01:52.194519"
+    },
+    "scraped_date": "2026-10-27"
+  },
+  {
+    "title": "Work Agents: Systems, Capabilities, and Optimization",
+    "paper_url": "https://huggingface.co/papers/2610.35845",
+    "authors": [
+      "Junhao Shen",
+      "Cheng Yang",
+      "Mingqi Gao",
+      "Enjun Du",
+      "Zishan Xu"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Work Agents: Systems, Capabilities, and Optimization",
+      "abstract": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To address this gap, we present a work-centric, system-level perspective that views work agents as systems combining foundation models and runtime harnesses to execute tasks in stateful workspaces and deliver verifiable outcomes. We introduce two complementary dimensions, work persistence and work openness, to characterize working conditions, and classify digital work into five forms according to task scope and organization. Building on this framework, we identify five core capability families required for reliable work execution and examine approaches to model optimization, harness optimization, and their joint optimization. We further analyze existing evaluation methods and metrics from the perspective of work outcomes. Finally, we discuss future research directions, including sustained work delegation, adaptation to open environments, and the interaction between work execution and capability improvement. This paper provides a unified framework for understanding, optimizing, and evaluating work agents, supporting the development of systems capable of delivering reliable, verifiable, and practically valuable work outcomes.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.35845",
+      "pdf_url": "https://arxiv.org/pdf/2610.35845",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/EnjunDu/awesome-working-agent"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.35845",
+      "scraped_at": "2026-10-27T04:01:53.903170"
+    },
+    "scraped_date": "2026-10-27"
+  },
+  {
+    "title": "DynaFlow: Learning Free-Form Multi-Agent Orchestration",
+    "paper_url": "https://huggingface.co/papers/2610.34467",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DynaFlow: Learning Free-Form Multi-Agent Orchestration",
+      "abstract": "GitHub: https://github.com/amiya-special/Dynaflow Arxiv: https://arxiv.org/abs/2610.34467 Project Page: https://amiya-special.github.io/DynaFlow-website",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.34467",
+      "pdf_url": "https://arxiv.org/pdf/2610.34467",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/amiya-special/Dynaflow"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.34467",
+      "scraped_at": "2026-10-27T04:01:55.623985"
+    },
+    "scraped_date": "2026-10-27"
+  },
+  {
+    "title": "Novel or Not? PatEx-Gym: Agentic Prior-Art Search for Novelty Assessment in Patent Examination",
+    "paper_url": "https://huggingface.co/papers/2610.33503",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Novel or Not? PatEx-Gym: Agentic Prior-Art Search for Novelty Assessment in Patent Examination",
+      "abstract": "PatEx-Gym introduces the first long-horizon agentic task in the patent domain, requiring agents to autonomously search for prior art, inspect technical evidence, iteratively refine their search strategies, and produce evidence-grounded Office Actions. Moving beyond static documents and predefined candidate pools, PatEx-Gym evaluates the complete search–reasoning–assessment process in an interactive tool environment spanning over 1 million patents and 52,000 scientific papers. If you find our work interesting, we would greatly appreciate your support and upvote! 🌿🚀 Paper: https://arxiv.org/abs/2610.33503 GitHub: https://github.com/AIforIP/PatEx-Gym Project page: https://patex-gym.wangqiyao.me/",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.33503",
+      "pdf_url": "https://arxiv.org/pdf/2610.33503",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/AIforIP/PatEx-Gym"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.33503",
+      "scraped_at": "2026-10-27T04:01:57.335013"
+    },
+    "scraped_date": "2026-10-27"
+  },
+  {
+    "title": "Principia: Test-Time Hypotheses to Principle Construction for Scientific Discovery",
+    "paper_url": "https://huggingface.co/papers/2610.32195",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Principia: Test-Time Hypotheses to Principle Construction for Scientific Discovery",
+      "abstract": "We introduce PRINCIPIA, an automatic framework for scientific knowledge construction at test time. By observing and interpreting experimental outcomes, PRINCIPIA forms hypotheses, generalizes them into  empirical principles, and revises hypotheses from new observations.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.32195",
+      "pdf_url": "https://arxiv.org/pdf/2610.32195",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.32195",
+      "scraped_at": "2026-10-27T04:01:59.061727"
+    },
+    "scraped_date": "2026-10-27"
+  },
+  {
+    "title": "AgentProofBench: Benchmarking Reusable Verifiers for Web Agents",
+    "paper_url": "https://huggingface.co/papers/2610.34634",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AgentProofBench: Benchmarking Reusable Verifiers for Web Agents",
+      "abstract": "Benchmarking Reusable Verifiers for Web Agents",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.34634",
+      "pdf_url": "https://arxiv.org/pdf/2610.34634",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/EthanNing/AgentProofBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.34634",
+      "scraped_at": "2026-10-27T04:02:00.712768"
+    },
+    "scraped_date": "2026-10-27"
+  },
+  {
+    "title": "ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2610.18683",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning",
+      "abstract": "We argue against the limitations of the traditional GRPO-type credit assignment, such as (1) the unreasonable reinforcement of unreasonable actions within the positively advantaged trajectory,  and (2) the fact that actions within the negatively advantaged trajectory are penalized with the same magnitude regardless of how much the remaining course deviates. Based on such insights, we propose ``ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning''.   It calibrates the GRPO-type credit assignment and results in the improvement of effectiveness and efficiency under multiple setups.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.18683",
+      "pdf_url": "https://arxiv.org/pdf/2610.18683",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/LINs-lab/ProAS"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.18683",
+      "scraped_at": "2026-10-27T04:02:02.423951"
+    },
+    "scraped_date": "2026-10-27"
+  },
+  {
+    "title": "Extreme Compression of Per-Layer Embeddings via Cross-Layer Latent Vector Quantization",
+    "paper_url": "https://huggingface.co/papers/2610.31309",
+    "authors": [
+      "Xinyi Shang",
+      "Peng Sun",
+      "Xiaohan Zhao",
+      "Yaxin Luo",
+      "Jiacheng Liu"
+    ],
+    "stars": "3",
+    "details": {
+      "title": "Extreme Compression of Per-Layer Embeddings via Cross-Layer Latent Vector Quantization",
+      "abstract": "Recent work shows that increasing embedding capacity can improve language models, making it a promising direction for scaling. As more capacity goes into embedding tables, extreme compression becomes increasingly important: we want to keep the benefits of larger embeddings while fitting models into limited deployment memory. We study this in Gemma 4, where per-layer embeddings (PLE) account for 35.2% of E4B's parameters. At 100× compression, only about five bytes remain for each token–layer vector. Encoding every vector independently gives each one a tiny code and misses the opportunity to share storage across layers. Our method, OPTIC, gives each token one quantized code shared across all layers. Layer-specific affine decoders reconstruct the different PLE vectors from that shared code. We also fit the representation to its effect after the gate and output projection, so the compression objective reflects how the model actually uses the embeddings. At about 100× PLE compression, OPTIC retains 97.8% of BF16 E4B performance across seven benchmarks, compared with 66.3% for product quantization. Serving BF16 E4B directly from the compact codes reduces GPU memory by 29.7%, with at most 0.40% more wall time on an RTX 4090 with the same 1 GiB KV cache. It also works alongside backbone weight quantization. Paper · Code and method walkthrough · Released 100× PLE artifact",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.31309",
+      "pdf_url": "https://arxiv.org/pdf/2610.31309",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/VILA-Lab/optic"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.31309",
+      "scraped_at": "2026-10-27T04:02:04.187840"
+    },
+    "scraped_date": "2026-10-27"
+  },
+  {
+    "title": "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
+    "paper_url": "https://huggingface.co/papers/2610.29139",
+    "authors": [
+      "Yun Zhou",
+      "Yawei Wang",
+      "Youzhi Luo",
+      "Han Ding",
+      "Jiongxiao Wang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
+      "abstract": "Exploring selective world-model guidance in the agent loop for anticipating and avoiding future failures.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.29139",
+      "pdf_url": "https://arxiv.org/pdf/2610.29139",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.29139",
+      "scraped_at": "2026-10-27T04:02:05.884415"
+    },
+    "scraped_date": "2026-10-27"
+  },
+  {
+    "title": "Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges",
+    "paper_url": "https://huggingface.co/papers/2610.35193",
+    "authors": [
+      "Tongyu Wen",
+      "Qipeng Wang",
+      "Jinyi Bai",
+      "Ang Gao",
+      "Jiayue Pu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges",
+      "abstract": "AI systems built around large models increasingly use experience and feedback to make persistent changes to models, prompts, memories, tools, and workflows. Recursive self-improvement (RSI) extends this process to inductive biases and to the mechanisms that govern future updates, which can themselves be revised and reused across improvement cycles. Yet self-modification alone does not guarantee trustworthy improvement. Reported gains may reflect flawed evaluations, previously acquired capabilities may deteriorate, and compliance with behavioral constraints may weaken. Compromised artifacts or sensitive information may also persist in successor systems. Changes to improvement mechanisms may invalidate earlier verification results and make human oversight less effective. This survey presents an operational definition and process framework for RSI and organizes the requirements for trustworthy RSI into four interconnected themes: genuine and sustained improvement; behavioral constraints, alignment, and fairness; system security and privacy; and transparency and controllability. We examine these themes from three perspectives: Improvement Validity, Constraint Preservation, and Effective Oversight. This analysis covers improvement diagnosis, proposal generation, proposal evaluation, and update implementation (S1--S4), including the recursive application of these stages to improvement mechanisms (RI). We review risks, safeguards, and evaluation evidence for individual updates, effects inherited by successor systems, and revisions to improvement mechanisms, while distinguishing direct RSI findings from evidence in related systems. Finally, we examine evaluation settings, identify requirements for independent and longitudinal assessment, and discuss applications and open research problems.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.35193",
+      "pdf_url": "https://arxiv.org/pdf/2610.35193",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.35193",
+      "scraped_at": "2026-10-27T04:02:07.630580"
+    },
+    "scraped_date": "2026-10-27"
+  },
+  {
+    "title": "miniTE: Diagnosing and Bridging the Execution Gap in Native NVFP4 Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2610.23928",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "miniTE: Diagnosing and Bridging the Execution Gap in Native NVFP4 Reinforcement Learning",
+      "abstract": "🚀 Can we really train LLMs with native FP4 reinforcement learning — without sacrificing stability? Excited to share miniTE , our open-source framework for stable and efficient native NVFP4 (W4A4) RL! One surprising finding: Same weights + same precision ≠ same policy. Even when both the learner and rollout engine use NVFP4, subtle differences in numerical execution can introduce significant training–inference mismatch and eventually destabilize RL. With miniTE, we tackle this challenge from both numerical and systems perspectives: 🔬 Diagnose & align: Identify cross-engine execution differences and bring training–inference log-probability gaps down to ~1e-8 in our strict-alignment setting. ⚡ Make FP4 actually fast: Optimize native NVFP4 kernels, scaling, and grouped GEMMs, achieving up to 1.39× BF16 learner throughput on 8×B300 GPUs. 📈 Keep learning stable: Demonstrate long-horizon RL on Qwen3-30B-A3B with downstream performance close to BF16. Beyond the results, we're releasing the framework, kernels, diagnostics, and training recipes to make native low-bit RL easier to reproduce and extend. FP4 is not just about using fewer bits — it's about making every bit work. 🔥 📄 Paper: https://arxiv.org/abs/2610.23928 💻 Details: https://infix.io/research/miniTE We'd love to hear your thoughts, feedback, and ideas for pushing low-precision RL further!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.23928",
+      "pdf_url": "https://arxiv.org/pdf/2610.23928",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.23928",
+      "scraped_at": "2026-10-27T04:02:09.376038"
+    },
+    "scraped_date": "2026-10-27"
   }
 ]
