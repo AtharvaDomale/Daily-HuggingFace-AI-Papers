@@ -1223,5 +1223,104 @@
       "scraped_at": "2026-10-28T04:27:18.589384"
     },
     "scraped_date": "2026-10-28"
+  },
+  {
+    "title": "DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models",
+    "paper_url": "https://huggingface.co/papers/2610.35201",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models",
+      "abstract": "Which tokens contribute most to a diffusion language model’s response? As tokens are revealed during denoising, they help shape predictions at the remaining masked positions. However, final-answer rewards provide little information about these individual contributions. People often prioritize major word classes such as nouns and verbs when thinking about a topic, and diffusion language models may show a similar pattern with different POS contributing unequally. DTCA thus derives POS-based token-level credit from confidence gains during denoising, so that learning signals reflect each token’s estimated contribution to the rest of the response.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.35201",
+      "pdf_url": "https://arxiv.org/pdf/2610.35201",
+      "github_links": [
+        "https://github.com/ZJU-OmniAI/DTCA",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.35201",
+      "scraped_at": "2026-10-29T04:44:33.547619"
+    },
+    "scraped_date": "2026-10-29"
+  },
+  {
+    "title": "OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images",
+    "paper_url": "https://huggingface.co/papers/2610.35684",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images",
+      "abstract": "OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images What OmniShowcase offers: 🔄 Every side, consistently: Generate videos of a subject from just 4 reference images , keeping identity and 3D shape consistent even through full 360° orbits . 🏭 3D-consistent data pipeline: Render the subject from one 3D asset along 88 camera trajectories and inpaint only the background, so unseen sides are never hallucinated. 📐 Geometry-aware conditioning: Feed the video model a surface-normal turntable reconstructed from the references, with no frame-wise alignment and no per-subject optimization. 📊 Results: Roughly halve geometric error vs. the best multi-view baseline on both ShowcaseBench and real-world NAVI objects ( −52% / −46% ). 📦 Open resources: Showcase-4K (4,000 training videos), ShowcaseBench (with GT meshes & cameras), and the code will be publicly released. 🌐 Project page: https://justin4ai.github.io/OmniShowcase/ 💻 Code: https://github.com/justin4ai/OmniShowcase 📄 Paper: https://arxiv.org/abs/2610.35684 Feedback and questions are very welcome!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.35684",
+      "pdf_url": "https://arxiv.org/pdf/2610.35684",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/justin4ai/OmniShowcase"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.35684",
+      "scraped_at": "2026-10-29T04:44:35.240011"
+    },
+    "scraped_date": "2026-10-29"
+  },
+  {
+    "title": "Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes",
+    "paper_url": "https://huggingface.co/papers/2610.32749",
+    "authors": [],
+    "stars": "13",
+    "details": {
+      "title": "Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes",
+      "abstract": "Falcon is a causal audio-visual target speaker extraction model that uses the target speaker's mouth video to extract their voice from noisy, overlapping speech. It combines a single-pass multi-scale time-frequency separator with an encoder-space speaker contrastive loss that reduces interfering-speaker leakage without adding inference cost. The paper also introduces RealSSA, a benchmark covering varied speaker counts, near- and far-field interference, reverberation, and sudden noise, with both simulated scenes and a held-out real-recorded evaluation set. Compared with causal AV-TFGridNet, Falcon reduces trainable parameters by 91.9%, computation by 20.2×, and GPU inference latency by 11.1× in the reported evaluation. Code, model weights, datasets, and interactive demos are available on the project page.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.32749",
+      "pdf_url": "https://arxiv.org/pdf/2610.32749",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/JusperLee/Falcon"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.32749",
+      "scraped_at": "2026-10-29T04:44:36.921390"
+    },
+    "scraped_date": "2026-10-29"
+  },
+  {
+    "title": "TAO: Tool-Aware Joint Scheduling for LLM-Based Agentic Serving",
+    "paper_url": "https://huggingface.co/papers/2610.37230",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "TAO: Tool-Aware Joint Scheduling for LLM-Based Agentic Serving",
+      "abstract": "DeepInfer recently open-sourced how DeepSeek manages the KV cache with 3FS and balances prefill and decode loads. Since some of those load balancers remain unreleased, they propose their own effective router, TAO—a tool-aware joint scheduling framework designed for bursty agentic workloads under tight KV cache budgets. Targeting agentic workloads that alternate between clustered GPUs and distributed CPU tools, TAO improves scheduling in three steps: Tool-Boundary Interruption: Pauses sessions during external tool calls to free up GPU capacity and places them into a shared waiting pool. Triplet Session Valuation: Scores each session–node pair without manual weight tuning by prioritizing time-decayed KV-cache credit, near-term tool-return readiness (predicted from runtime hints and historical tool durations), and token footprint. Joint DP Placement: Replaces greedy per-session routing with an asynchronous dynamic program (under 0.12% runtime overhead) that jointly selects and places waiting sessions under GPU capacity limits. Tested on DeepSeek-V4 Flash, Qwen3-32B, and GLM-4.7, TAO cuts latency by up to 26.8%, lowers mean TTFT by up to 36.3%, and boosts decode throughput by up to 29.5% over leading baselines.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.37230",
+      "pdf_url": "https://arxiv.org/pdf/2610.37230",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.37230",
+      "scraped_at": "2026-10-29T04:44:38.547275"
+    },
+    "scraped_date": "2026-10-29"
+  },
+  {
+    "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+    "paper_url": "https://huggingface.co/papers/2610.31670",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+      "abstract": "The Platonic Representation Hypothesis (Huh et al, 2024) argues that as vision and language models scale, their representation spaces converge toward a shared statistical model of reality. The idea is that images and text are different projections of the same underlying world. As models recover that world more faithfully, they begin to agree on which inputs are similar. For example, if a vision model places two images close together in the representation space, a language model tends to place their captions close together too. In this work, we bring PRH to robotics and ask: can physical robot motion be viewed as another projection of that same world, such that more capable embodied models better align their vision and language representations with the structure of motion trajectories? Our evidence suggests the answer is yes. To test this, we use Sensorimotor Alignment (S²), which measures the overlap between neighborhoods of a model's sensory representations and neighborhoods of end-effector trajectories. Higher alignment means episodes nearby in sensory representation space are also nearby in motor representation space. Our first finding is that S² is positively related to downstream robot task success. We test a range of Vision-Language-Action models (VLAs) and World Action Models (WAMs) in simulation, as well as policies on real robots. Across these settings, models with higher S² tend to achieve higher task success rates. This pattern provides empirical support for extending PRH to robotics. S² also explains, at the representation level, several phenomena that prior work has observed only through closed-loop results. For example, VLAs often ignore the language instruction and act mainly on what they see. We find that their task success correlates with the S² of their vision features, not their text features. In practice, S² can serve as a low-cost offline proxy for identifying which models are likely to achieve higher task success before closed-loop evaluation. For instance, it can identify promising vision-language model (VLM) backbones even before costly VLA fine-tuning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.31670",
+      "pdf_url": "https://arxiv.org/pdf/2610.31670",
+      "github_links": [
+        "https://github.com/yunfeixie233/sensorimotor-alignment",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.31670",
+      "scraped_at": "2026-10-29T04:44:40.218353"
+    },
+    "scraped_date": "2026-10-29"
   }
 ]
