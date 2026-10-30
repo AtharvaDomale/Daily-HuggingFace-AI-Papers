@@ -1,0 +1,205 @@
+[
+  {
+    "title": "VibeGame: Prompt-to-Game Development with AI-Native Engine and Self-Evolving Adversarial Agent Team",
+    "paper_url": "https://huggingface.co/papers/2610.33106",
+    "authors": [],
+    "stars": "284",
+    "details": {
+      "title": "VibeGame: Prompt-to-Game Development with AI-Native Engine and Self-Evolving Adversarial Agent Team",
+      "abstract": "Excited to share VibeGame, a framework that turns prompts (text and optional reference images) into complete, playable 2D game projects! To let agents build a complete, vivid game with no given assets, we build an AI-native game engine that agents can read and control frame by frame. On top of it, a self-evolving team of eight agents designs the game, creates its own art and animations, writes the code, and plays and reviews the result until it passes. On 30 GameCraft-Bench tasks, VibeGame outperforms the strongest baseline harness by 11.70 points with GPT-5.6-Luna and by 4.19 points with GPT-6.1-Sol.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.33106",
+      "pdf_url": "https://arxiv.org/pdf/2610.33106",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/tettethu/VibeGame"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.33106",
+      "scraped_at": "2026-10-30T04:44:08.025900"
+    },
+    "scraped_date": "2026-10-30"
+  },
+  {
+    "title": "WeVisCut: The Whole Editing Room in One Agent From Narration to Long-Form Video",
+    "paper_url": "https://huggingface.co/papers/2610.38352",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "WeVisCut: The Whole Editing Room in One Agent From Narration to Long-Form Video",
+      "abstract": "WeVisCut connects tool execution with policy learning for long-form script-to-video production. Editing inversion and verified replay recover executable supervision from 3,750 finished projects, yielding 134,771 training examples for a single 9B policy. On 100 held-out tasks, it achieves a 90.5 overall score and uses about 33× fewer generated tokens than Claude Opus 5 per successful output minute.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.38352",
+      "pdf_url": "https://arxiv.org/pdf/2610.38352",
+      "github_links": [
+        "https://github.com/Tencent/WeVisCut",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.38352",
+      "scraped_at": "2026-10-30T04:44:09.874700"
+    },
+    "scraped_date": "2026-10-30"
+  },
+  {
+    "title": "IntReal: A Real-World Dataset and Benchmark for Multimodal Interleaved Generation",
+    "paper_url": "https://huggingface.co/papers/2610.38425",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "IntReal: A Real-World Dataset and Benchmark for Multimodal Interleaved Generation",
+      "abstract": "Paper: https://arxiv.org/abs/2610.38425 Project Page: http://yushaohan.github.io/IntReal/ Dataset: https://huggingface.co/datasets/yushaohan/IntReal-100K Fine-tuned Models: https://huggingface.co/collections/yushaohan/intreal Leaderboard: https://huggingface.co/spaces/yushaohan/IntReal-Leaderboard Github: https://github.com/yushaohan/IntReal",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.38425",
+      "pdf_url": "https://arxiv.org/pdf/2610.38425",
+      "github_links": [
+        "https://github.com/yushaohan/IntReal",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.38425",
+      "scraped_at": "2026-10-30T04:44:11.764251"
+    },
+    "scraped_date": "2026-10-30"
+  },
+  {
+    "title": "WebAnything: From the Wild Web to Scalable Agent Environments",
+    "paper_url": "https://huggingface.co/papers/2610.37786",
+    "authors": [
+      "Bingxuan Li",
+      "Pinxue Guo",
+      "Chaoyun Zhang",
+      "Zikun Cai",
+      "Tianci Xie"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "WebAnything: From the Wild Web to Scalable Agent Environments",
+      "abstract": "Making any url as an web agent environment!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.37786",
+      "pdf_url": "https://arxiv.org/pdf/2610.37786",
+      "github_links": [
+        "https://github.com/china-qijizhifeng/Web-Anything",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.37786",
+      "scraped_at": "2026-10-30T04:44:13.636823"
+    },
+    "scraped_date": "2026-10-30"
+  },
+  {
+    "title": "WorkFactory: Turning Professional Intents into Executable Work for Scalable Agent Training",
+    "paper_url": "https://huggingface.co/papers/2610.37161",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "WorkFactory: Turning Professional Intents into Executable Work for Scalable Agent Training",
+      "abstract": "Excited to share WorkFactory, a scalable framework for synthesizing coherent and executable professional tasks to train Working Agents! WorkFactory combines professional intent synthesis, information support graphs, and execution-guided repair to construct high-quality tasks that enable reliable expert demonstrations. We build 112,686 tasks spanning 612 occupations and train the WorkPilot model family at 4B, 27B, and 35B-A3B scales. All three models achieve consistent improvements across four professional-work benchmarks, with WorkPilot-35B-A3B improving from 879 to 1565 Elo on GDPval-AA v2.1. We hope this work contributes to scaling general-purpose agents for real-world professional tasks!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.37161",
+      "pdf_url": "https://arxiv.org/pdf/2610.37161",
+      "github_links": [
+        "https://github.com/IQuestLab/WorkFactory",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.37161",
+      "scraped_at": "2026-10-30T04:44:15.530253"
+    },
+    "scraped_date": "2026-10-30"
+  },
+  {
+    "title": "EditAgent: Rethinking Agentic Image Editing",
+    "paper_url": "https://huggingface.co/papers/2610.39664",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "EditAgent: Rethinking Agentic Image Editing",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2610.39664",
+      "pdf_url": "https://arxiv.org/pdf/2610.39664",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.39664",
+      "scraped_at": "2026-10-30T04:44:17.361601"
+    },
+    "scraped_date": "2026-10-30"
+  },
+  {
+    "title": "A Broader Look into MLLM's Retrieval Heads",
+    "paper_url": "https://huggingface.co/papers/2610.32411",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "A Broader Look into MLLM's Retrieval Heads",
+      "abstract": "We study how omni-modal LLMs retrieve relevant evidence, focusing on how retrieval mechanisms extend from text and vision to audio-visual inputs. Across 18 model checkpoints, including eight omni-modal models, we find that retrieval relies on a sparse set of attention heads that are largely preserved from language or vision-language backbones. By presenting the same evidence as speech or on-screen text, we show that audio and visual retrieval largely recruit the same heads. Ablating the shared subset, comprising fewer than 2% of all attention heads, also degrades document understanding, spatial perception, and visual mathematics, revealing its role in broader multimodal capabilities. Building on these findings, we optimize retrieval-head attention with a ranking objective for document retrieval, improving Qwen3-VL-8B’s page Recall@1 on MMDocIR by 6.03 percentage points over the untrained scorer, with gains across three model families.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.32411",
+      "pdf_url": "https://arxiv.org/pdf/2610.32411",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.32411",
+      "scraped_at": "2026-10-30T04:44:19.237798"
+    },
+    "scraped_date": "2026-10-30"
+  },
+  {
+    "title": "Co-Design Bench: Multimodal Collaborative Coding Evaluation for Agentic Models",
+    "paper_url": "https://huggingface.co/papers/2610.35138",
+    "authors": [],
+    "stars": "24",
+    "details": {
+      "title": "Co-Design Bench: Multimodal Collaborative Coding Evaluation for Agentic Models",
+      "abstract": "Can a coding agent turn a real user's multimodal request into a complete, working application revision? We're sharing Co-Design Bench: Multimodal Collaborative Coding Evaluation for Agentic Models , a benchmark built around real users' requests to revise existing applications. Each task starts with a runnable application and asks the agent to understand the user's intent, make the necessary changes, and satisfy every acceptance criterion. Real requests, multimodal inputs, and connected changes. Co-Design Bench contains 273 tasks and 2,331 expert-authored acceptance criteria , curated from 37,463 deduplicated queries across 26,314 real user coding sessions . It covers two complementary tracks: Multimodal Editing (100 tasks): localized revisions grounded in annotated screenshots and optional image, audio, video, or document inputs. Repository Editing (173 tasks): coordinated changes across components, routes, state, data flow, and content. Requests can involve reproducing distinct text animations from a video, correcting a dashboard from a receipt and updating its dependent totals, or coordinating layout and interaction changes across an application. Tasks span Grounded Understanding, UI Transformation, and Functional Implementation , often combining several capabilities within one request. Evaluate the running application, with evidence for each requirement. Our reference-free judge-then-refute protocol assesses hidden acceptance criteria using source code and browser evidence. A separate verifier challenges positive judgments for stubs, hardcoded outputs, unreachable functionality, and requirement mismatches. Evidence audits require screenshots for visual claims and recorded browser actions for interaction claims. No gold implementation or target screenshot is required. Partial requirement satisfaction and complete delivery tell different stories. Across 10 model endpoints under a shared agentic harness , the strongest endpoint, gpt-6-astra , passes an average of 69.9% of criteria per task , yet fully satisfies only 26.4% of tasks . All ten endpoints achieve lower criterion completion on repository requests spanning three or four edit types than on those spanning one or two. Qwen3.8-27B reaches 64.4% overall strict completion , ranking fourth overall, and 64.5% on Repository Editing , ranking second on that track in this evaluation. It also leads the text-only Multimodal Editing subset at 77.9% . Rankings vary with the editing setting; the small repository-track score differences do not establish a general model advantage. The ME-96 subset comprises 96 Multimodal Editing tasks and 521 acceptance criteria , a distinct scope from the full 273-task paper evaluation. Explore the real cases, demonstrations, evaluation tools, and results: Project & demos · Paper · Code & evaluation · Dataset We welcome researchers and builders working on coding agents, multimodal grounding, and reliable application editing to try the benchmark and share their findings!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.35138",
+      "pdf_url": "https://arxiv.org/pdf/2610.35138",
+      "github_links": [
+        "https://github.com/Wiselnn570/Co-Design-Bench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.35138",
+      "scraped_at": "2026-10-30T04:44:21.149542"
+    },
+    "scraped_date": "2026-10-30"
+  },
+  {
+    "title": "AskStream: When and What to Ask Proactively under Uncertainty in Streaming Video Understanding",
+    "paper_url": "https://huggingface.co/papers/2610.38678",
+    "authors": [],
+    "stars": "9",
+    "details": {
+      "title": "AskStream: When and What to Ask Proactively under Uncertainty in Streaming Video Understanding",
+      "abstract": "Recent advances in multimodal large language models have increased interest in interaction paradigms for video understanding. The evolution from offline to streaming and proactive interaction has gradually shifted models from passive responders toward more proactive agents that can decide when to answer. However, existing proactive paradigms typically assume that the information required to answer a query is complete, leaving models to only wait or answer. In the real world, however, information is often incomplete due to uncertainty from either the video or the user. In proactive paradigms, such uncertainty can cause the model to wait forever or generate highly hallucinatory responses. We therefore argue that proactive interaction should be redefined with a third action: ask, allowing models to actively ask for missing information. To study when and what models should ask before answering, we introduce AskStream, the first multi-turn benchmark spanning video and user uncertainty for streaming video understanding, with four task categories and eight subtasks. It contains 438 videos with 2,714 manually annotated frame-level time windows across three types: wait, ask, and answer. Across both multiple-choice and open-ended settings, even the strongest model attains only 52.18% on our proposed Ask-F1 metric, highlighting substantial limitations in proactive information seeking under uncertainty.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.38678",
+      "pdf_url": "https://arxiv.org/pdf/2610.38678",
+      "github_links": [
+        "https://github.com/wanglu-cs/AskStream",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.38678",
+      "scraped_at": "2026-10-30T04:44:22.962810"
+    },
+    "scraped_date": "2026-10-30"
+  },
+  {
+    "title": "After One-Click Video: The Inflow of Service-Type Content, the Failure of the Recommendation Pool Mechanism, and the BoLe System",
+    "paper_url": "https://huggingface.co/papers/2610.37695",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "After One-Click Video: The Inflow of Service-Type Content, the Failure of the Recommendation Pool Mechanism, and the BoLe System",
+      "abstract": "One-click video tools now let anyone make good-looking content fast. Most of it is service-type content: people watch it to meet a need, not to enjoy the content itself. Before competing, creators, tool builders and model researchers should first ask which kind they are making, because the two kinds win by different rules. Our paper draws this line, and uses a simple model to show why the free platform’s trial-viewing pool stops working when service-type content keeps pouring in. Try the demo: set AI output to 100x and watch one year.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.37695",
+      "pdf_url": "https://arxiv.org/pdf/2610.37695",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.37695",
+      "scraped_at": "2026-10-30T04:44:24.909781"
+    },
+    "scraped_date": "2026-10-30"
+  }
+]

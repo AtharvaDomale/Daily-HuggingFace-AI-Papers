@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-5-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-7679+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-10-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-7689+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">5</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">61</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">1071</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">7679+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">10</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">71</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">1081</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">7689+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** October 29, 2026
+**Last Updated:** October 30, 2026
 
 ---
 
@@ -119,67 +119,134 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models</b> ⭐ 3</summary>
+<summary><b>1. VibeGame: Prompt-to-Game Development with AI-Native Engine and Self-Evolving Adversarial Agent Team</b> ⭐ 284</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.35201) • [📄 arXiv](https://arxiv.org/abs/2610.35201) • [📥 PDF](https://arxiv.org/pdf/2610.35201)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.33106) • [📄 arXiv](https://arxiv.org/abs/2610.33106) • [📥 PDF](https://arxiv.org/pdf/2610.33106)
 
-**💻 Code:** [⭐ Code](https://github.com/ZJU-OmniAI/DTCA) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/tettethu/VibeGame)
 
-> Which tokens contribute most to a diffusion language model’s response? As tokens are revealed during denoising, they help shape predictions at the remaining masked positions. However, final-answer rewards provide little information about these ind...
+> Excited to share VibeGame, a framework that turns prompts (text and optional reference images) into complete, playable 2D game projects! To let agents build a complete, vivid game with no given assets, we build an AI-native game engine that agents...
 
 </details>
 
 <details>
-<summary><b>2. OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images</b> ⭐ 4</summary>
+<summary><b>2. WeVisCut: The Whole Editing Room in One Agent From Narration to Long-Form Video</b> ⭐ 2</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.35684) • [📄 arXiv](https://arxiv.org/abs/2610.35684) • [📥 PDF](https://arxiv.org/pdf/2610.35684)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.38352) • [📄 arXiv](https://arxiv.org/abs/2610.38352) • [📥 PDF](https://arxiv.org/pdf/2610.38352)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/justin4ai/OmniShowcase)
+**💻 Code:** [⭐ Code](https://github.com/Tencent/WeVisCut) • [⭐ Code](https://github.com/huggingface)
 
-> OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images What OmniShowcase offers: 🔄 Every side, consistently: Generate videos of a subject from just 4 reference images , keeping identity and 3D shape consistent eve...
+> WeVisCut connects tool execution with policy learning for long-form script-to-video production. Editing inversion and verified replay recover executable supervision from 3,750 finished projects, yielding 134,771 training examples for a single 9B p...
 
 </details>
 
 <details>
-<summary><b>3. Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes</b> ⭐ 13</summary>
+<summary><b>3. IntReal: A Real-World Dataset and Benchmark for Multimodal Interleaved Generation</b> ⭐ 2</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.32749) • [📄 arXiv](https://arxiv.org/abs/2610.32749) • [📥 PDF](https://arxiv.org/pdf/2610.32749)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.38425) • [📄 arXiv](https://arxiv.org/abs/2610.38425) • [📥 PDF](https://arxiv.org/pdf/2610.38425)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/JusperLee/Falcon)
+**💻 Code:** [⭐ Code](https://github.com/yushaohan/IntReal) • [⭐ Code](https://github.com/huggingface)
 
-> Falcon is a causal audio-visual target speaker extraction model that uses the target speaker's mouth video to extract their voice from noisy, overlapping speech. It combines a single-pass multi-scale time-frequency separator with an encoder-space ...
+> Paper: https://arxiv.org/abs/2610.38425 Project Page: http://yushaohan.github.io/IntReal/ Dataset: https://huggingface.co/datasets/yushaohan/IntReal-100K Fine-tuned Models: https://huggingface.co/collections/yushaohan/intreal Leaderboard: https://...
 
 </details>
 
 <details>
-<summary><b>4. TAO: Tool-Aware Joint Scheduling for LLM-Based Agentic Serving</b> ⭐ 0</summary>
+<summary><b>4. WebAnything: From the Wild Web to Scalable Agent Environments</b> ⭐ 1</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.37230) • [📄 arXiv](https://arxiv.org/abs/2610.37230) • [📥 PDF](https://arxiv.org/pdf/2610.37230)
+**👥 Authors:** Bingxuan Li, Pinxue Guo, Chaoyun Zhang, Zikun Cai, Tianci Xie
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.37786) • [📄 arXiv](https://arxiv.org/abs/2610.37786) • [📥 PDF](https://arxiv.org/pdf/2610.37786)
+
+**💻 Code:** [⭐ Code](https://github.com/china-qijizhifeng/Web-Anything) • [⭐ Code](https://github.com/huggingface)
+
+> Making any url as an web agent environment!
+
+</details>
+
+<details>
+<summary><b>5. WorkFactory: Turning Professional Intents into Executable Work for Scalable Agent Training</b> ⭐ 5</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.37161) • [📄 arXiv](https://arxiv.org/abs/2610.37161) • [📥 PDF](https://arxiv.org/pdf/2610.37161)
+
+**💻 Code:** [⭐ Code](https://github.com/IQuestLab/WorkFactory) • [⭐ Code](https://github.com/huggingface)
+
+> Excited to share WorkFactory, a scalable framework for synthesizing coherent and executable professional tasks to train Working Agents! WorkFactory combines professional intent synthesis, information support graphs, and execution-guided repair to ...
+
+</details>
+
+<details>
+<summary><b>6. EditAgent: Rethinking Agentic Image Editing</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.39664) • [📄 arXiv](https://arxiv.org/abs/2610.39664) • [📥 PDF](https://arxiv.org/pdf/2610.39664)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> DeepInfer recently open-sourced how DeepSeek manages the KV cache with 3FS and balances prefill and decode loads. Since some of those load balancers remain unreleased, they propose their own effective router, TAO—a tool-aware joint scheduling fram...
+> No abstract available.
 
 </details>
 
 <details>
-<summary><b>5. Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success</b> ⭐ 0</summary>
+<summary><b>7. A Broader Look into MLLM's Retrieval Heads</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.31670) • [📄 arXiv](https://arxiv.org/abs/2610.31670) • [📥 PDF](https://arxiv.org/pdf/2610.31670)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.32411) • [📄 arXiv](https://arxiv.org/abs/2610.32411) • [📥 PDF](https://arxiv.org/pdf/2610.32411)
 
-**💻 Code:** [⭐ Code](https://github.com/yunfeixie233/sensorimotor-alignment) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> The Platonic Representation Hypothesis (Huh et al, 2024) argues that as vision and language models scale, their representation spaces converge toward a shared statistical model of reality. The idea is that images and text are different projections...
+> We study how omni-modal LLMs retrieve relevant evidence, focusing on how retrieval mechanisms extend from text and vision to audio-visual inputs. Across 18 model checkpoints, including eight omni-modal models, we find that retrieval relies on a sp...
+
+</details>
+
+<details>
+<summary><b>8. Co-Design Bench: Multimodal Collaborative Coding Evaluation for Agentic Models</b> ⭐ 24</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.35138) • [📄 arXiv](https://arxiv.org/abs/2610.35138) • [📥 PDF](https://arxiv.org/pdf/2610.35138)
+
+**💻 Code:** [⭐ Code](https://github.com/Wiselnn570/Co-Design-Bench) • [⭐ Code](https://github.com/huggingface)
+
+> Can a coding agent turn a real user's multimodal request into a complete, working application revision? We're sharing Co-Design Bench: Multimodal Collaborative Coding Evaluation for Agentic Models , a benchmark built around real users' requests to...
+
+</details>
+
+<details>
+<summary><b>9. AskStream: When and What to Ask Proactively under Uncertainty in Streaming Video Understanding</b> ⭐ 9</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.38678) • [📄 arXiv](https://arxiv.org/abs/2610.38678) • [📥 PDF](https://arxiv.org/pdf/2610.38678)
+
+**💻 Code:** [⭐ Code](https://github.com/wanglu-cs/AskStream) • [⭐ Code](https://github.com/huggingface)
+
+> Recent advances in multimodal large language models have increased interest in interaction paradigms for video understanding. The evolution from offline to streaming and proactive interaction has gradually shifted models from passive responders to...
+
+</details>
+
+<details>
+<summary><b>10. After One-Click Video: The Inflow of Service-Type Content, the Failure of the Recommendation Pool Mechanism, and the BoLe System</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.37695) • [📄 arXiv](https://arxiv.org/abs/2610.37695) • [📥 PDF](https://arxiv.org/pdf/2610.37695)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> One-click video tools now let anyone make good-looking content fast. Most of it is service-type content: people watch it to meet a need, not to enjoy the content itself. Before competing, creators, tool builders and model researchers should first ...
 
 </details>
 
@@ -191,28 +258,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 5 |
-| 📅 Today | [`2026-10-29.json`](data/daily/2026-10-29.json) | 5 |
-| 📆 This Week | [`2026-W43.json`](data/weekly/2026-W43.json) | 61 |
-| 🗓️ This Month | [`2026-10.json`](data/monthly/2026-10.json) | 1071 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 10 |
+| 📅 Today | [`2026-10-30.json`](data/daily/2026-10-30.json) | 10 |
+| 📆 This Week | [`2026-W43.json`](data/weekly/2026-W43.json) | 71 |
+| 🗓️ This Month | [`2026-10.json`](data/monthly/2026-10.json) | 1081 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-10-29 | 5 | [View JSON](data/daily/2026-10-29.json) |
+| 📌 2026-10-30 | 10 | [View JSON](data/daily/2026-10-30.json) |
+| 📄 2026-10-29 | 5 | [View JSON](data/daily/2026-10-29.json) |
 | 📄 2026-10-28 | 27 | [View JSON](data/daily/2026-10-28.json) |
 | 📄 2026-10-27 | 19 | [View JSON](data/daily/2026-10-27.json) |
 | 📄 2026-10-26 | 10 | [View JSON](data/daily/2026-10-26.json) |
 | 📄 2026-10-25 | 49 | [View JSON](data/daily/2026-10-25.json) |
 | 📄 2026-10-24 | 50 | [View JSON](data/daily/2026-10-24.json) |
-| 📄 2026-10-23 | 14 | [View JSON](data/daily/2026-10-23.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W43 | 61 | [View JSON](data/weekly/2026-W43.json) |
+| 📅 2026-W43 | 71 | [View JSON](data/weekly/2026-W43.json) |
 | 📅 2026-W42 | 204 | [View JSON](data/weekly/2026-W42.json) |
 | 📅 2026-W41 | 287 | [View JSON](data/weekly/2026-W41.json) |
 | 📅 2026-W40 | 282 | [View JSON](data/weekly/2026-W40.json) |
@@ -221,7 +288,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-10 | 1071 | [View JSON](data/monthly/2026-10.json) |
+| 🗓️ 2026-10 | 1081 | [View JSON](data/monthly/2026-10.json) |
 | 🗓️ 2026-09 | 480 | [View JSON](data/monthly/2026-09.json) |
 | 🗓️ 2026-08 | 747 | [View JSON](data/monthly/2026-08.json) |
 | 🗓️ 2026-07 | 366 | [View JSON](data/monthly/2026-07.json) |
