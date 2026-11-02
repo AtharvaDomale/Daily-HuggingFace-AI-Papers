@@ -1,0 +1,298 @@
+[
+  {
+    "title": "Does Scaling Toward AGI Depend on What System-1 Lets System-2 Execute?",
+    "paper_url": "https://huggingface.co/papers/2610.39497",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Does Scaling Toward AGI Depend on What System-1 Lets System-2 Execute?",
+      "abstract": "Progress toward artificial general intelligence (AGI) has largely relied on scaling a resource-intensive executive, System-2, through larger models, more data and compute, longer reasoning, and more agents. We ask whether the next stage may come instead from co-designing it with System-1, a lightweight, semantically aware predictor that evaluates candidate interactions before execution, so that System-2 acts only on those worth their cost. Our answer is a qualified yes. We study conditional interaction, a predict--gate--execute--update loop: System-1 estimates each candidate's utility, System-2 executes those admitted by an adaptive threshold, and the outcomes update System-1. The loop spans training, test-time reasoning, adaptive decision-making, and agentic tool use, with utility and cost defined by the application. Under ideal screening and equal execution costs, execution compute falls by a factor approaching $1/\\rho_u$, where $\\rho_u$ is the density of utility-relevant interactions (cost-weighted when costs differ); prediction errors, exploration, and distribution shift reduce the saving. We bound selection regret by predictor error and the utility margin. These results motivate our central hypothesis: $\\rho_u$ is a measurable coordinate of scaling efficiency and makes informative compute a better description of scaling than total compute.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.39497",
+      "pdf_url": "https://arxiv.org/pdf/2610.39497",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.39497",
+      "scraped_at": "2026-11-02T04:49:56.984790"
+    },
+    "scraped_date": "2026-11-02"
+  },
+  {
+    "title": "R^2Orch: Recursive Self-Improvement for Agent Orchestration via Self-Play within a Skill-Internalization Loop",
+    "paper_url": "https://huggingface.co/papers/2610.22740",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "R^2Orch: Recursive Self-Improvement for Agent Orchestration via Self-Play within a Skill-Internalization Loop",
+      "abstract": "R²Orch (Recursive Self-Play Orchestration) trains an agent orchestrator without a hand-designed curriculum: an inner self-play loop improves the orchestrator on tasks a Proposer picks, and an outer loop improves how that inner loop learns. The Proposer is rewarded for tasks whose rollouts keep reaching different outcomes as skills are withdrawn (Recursive Learnability), and each skill is withdrawn once self-play shows the orchestrator does as well without it (Skill Withdrawal), moving it toward zero-skill deployment. Tested with zero skills, a 9B orchestrator is best on all twelve benchmarks across QA, math, code, and interactive tasks, raising the average over the strongest baseline from 86.0 to 89.8 in distribution and from 76.1 to 78.8 out of distribution (AIME 2026: 74.0 → 81.3). Code: https://github.com/beita6969/R2Orch Model: https://huggingface.co/beita6969/R2Orch-9b",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.22740",
+      "pdf_url": "https://arxiv.org/pdf/2610.22740",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/beita6969/R2Orch"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.22740",
+      "scraped_at": "2026-11-02T04:49:58.849142"
+    },
+    "scraped_date": "2026-11-02"
+  },
+  {
+    "title": "CEPO: A General Framework for Improving Prompt Optimization in Multi-Agent Systems",
+    "paper_url": "https://huggingface.co/papers/2610.34722",
+    "authors": [
+      "Hyunwoo J. Kim",
+      "Jinsung Yoon",
+      "Jonathan Minho Chung",
+      "Seohyun Lee",
+      "jonghakim"
+    ],
+    "stars": "8",
+    "details": {
+      "title": "CEPO: A General Framework for Improving Prompt Optimization in Multi-Agent Systems",
+      "abstract": "Multi-agent systems (MAS) require both effective coordination and specialized task execution. Existing prompt optimization approaches typically couple these functions within agent-specific prompts. We introduce Coordinator-Executor Prompt Optimization (CEPO), a general framework for improving prompt optimization in MAS. CEPO separates system-level coordination from agent-level execution through a shared coordinator prompt and agent-specific executor prompts, and guides their updates according to their respective roles. This structure allows shared coordination rules to be refined consistently across agents while keeping execution instructions separately adjustable. CEPO provides the prompt structure and optimization guidance, while existing prompt optimizers perform the underlying search. Extensive experiments spanning 11 benchmarks across four domains demonstrate that applying CEPO to four existing prompt optimizers consistently improves their performance. Ablations and qualitative analyses support the proposed design, while controlled studies on a document-understanding MAS further demonstrate improved optimization budget efficiency and performance scaling with the number of agents.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.34722",
+      "pdf_url": "https://arxiv.org/pdf/2610.34722",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/mlvlab/CEPO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.34722",
+      "scraped_at": "2026-11-02T04:50:00.593772"
+    },
+    "scraped_date": "2026-11-02"
+  },
+  {
+    "title": "HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model",
+    "paper_url": "https://huggingface.co/papers/2610.40373",
+    "authors": [
+      "Fan Zhang",
+      "Xudong Wang",
+      "Kehong Wu",
+      "Hongyu Qu",
+      "Rongxing Ding"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model",
+      "abstract": "Vision-Language-Action (VLA) models have demonstrated promising capabilities in robotic manipulation by integrating visual perception, language understanding, and action generation. Recent advances have further incorporated future prediction to enhance the understanding of environmental dynamics and task progression. However, existing methods often model short-term dynamics and long-term task objectives separately, while directly incorporating predicted futures into action policies without sufficiently considering their relevance to current action requirements. To address these limitations, we propose HiFOR, a hierarchical foresight framework with action-guided world retrieval. Specifically, Hierarchical Foresight Prediction jointly predicts short-term state evolution, semantic milestones, and final goal states through a Hierarchical Dependency Mask (HDM), establishing dependencies across temporal horizons. Building upon these predictions, Structure-Aware Latent World Modeling organizes future latent representations along the horizon, view, and spatial dimensions to facilitate fine-grained retrieval. Furthermore, Action-Guided Factorized World Retrieval adaptively retrieves relevant future information from the structured latent world based on evolving action representations during denoising, providing targeted guidance for action generation. Extensive experiments on two simulation benchmarks and six real-world robotic manipulation tasks demonstrate the effectiveness of our approach.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.40373",
+      "pdf_url": "https://arxiv.org/pdf/2610.40373",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.40373",
+      "scraped_at": "2026-11-02T04:50:02.371581"
+    },
+    "scraped_date": "2026-11-02"
+  },
+  {
+    "title": "FrameForge: Harnessing Priors of Video Foundation Models for Unified Image Generation",
+    "paper_url": "https://huggingface.co/papers/2610.36545",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "FrameForge: Harnessing Priors of Video Foundation Models for Unified Image Generation",
+      "abstract": "Unified conditional image generation requires a single model to preserve different aspects of a visual input while producing a target image that follows textual guidance. Pretrained video models provide a promising foundation by encoding visual transformations across time, yet existing approaches typically assign the condition and target to fixed temporal positions. We observe that condition-target relationships vary substantially across generation tasks, while video models naturally encode visual transformations at different temporal scales. This motivates us to model conditional generation through input-adaptive virtual temporal relations. We propose FrameForge, which captures two complementary aspects of such relations. Mixture of Temporal Experts (MoTE) models how far the target lies from the condition by dynamically selecting temporal RoPE experts with different virtual intervals. Chain of Temporal Reasoning (CoTR) models how the condition is transformed into the target through a latent intermediate state, with a reasoning-bottleneck attention mask encouraging information propagation through this pathway. Experiments on DreamBench, COCO2017, and GEdit-Bench show that FrameForge achieves superior performance in subject-driven generation, canny-to-image generation, and image editing among the compared methods.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.36545",
+      "pdf_url": "https://arxiv.org/pdf/2610.36545",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Lyne1/FrameForge"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.36545",
+      "scraped_at": "2026-11-02T04:50:04.201932"
+    },
+    "scraped_date": "2026-11-02"
+  },
+  {
+    "title": "Wizard: Manipulate Any World in Real Time via Agentic Control",
+    "paper_url": "https://huggingface.co/papers/2610.40339",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Wizard: Manipulate Any World in Real Time via Agentic Control",
+      "abstract": "🪄 Wizard: Manipulate Any World in Real Time via Agentic Control! Existing game world models produce realistic visuals but remain constrained by familiar environments and predefined motions. Control largely focuses on locomotion, with limited support for articulated actions. Can a world model follow an unseen character swinging a sword, spreading its wings, or transforming mid-battle? Wizard decouples character animation, scene manipulation, and gameplay logic from visual generation. Agents control articulated skeletons and scene geometry through structured visual proxies, while explicit world states support adaptive boss behavior and mechanics-consistent combat. We construct 50.3 hours of aligned proxy–video pairs spanning 750 scenes and 178 characters. Character-aware adaptive masking preserves reference appearance, while causal adaptation and few-step distillation enable interaction at 24 FPS, with zero-shot generalization to unseen scenes, characters, and motions. From world exploration and character summoning to transformation and scene manipulation, Wizard gives players greater freedom to create and control their own game worlds. Code coming soon!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.40339",
+      "pdf_url": "https://arxiv.org/pdf/2610.40339",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.40339",
+      "scraped_at": "2026-11-02T04:50:05.996785"
+    },
+    "scraped_date": "2026-11-02"
+  },
+  {
+    "title": "WorldBridge: Bridging Video and Action for Task Generalization in World Action Models",
+    "paper_url": "https://huggingface.co/papers/2610.40748",
+    "authors": [
+      "Yaoxu Lyu",
+      "Liangkai Li",
+      "Hao Li",
+      "Yubo Guo",
+      "Jun Cen"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "WorldBridge: Bridging Video and Action for Task Generalization in World Action Models",
+      "abstract": "Project Page: https://worldbridge-jd.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.40748",
+      "pdf_url": "https://arxiv.org/pdf/2610.40748",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.40748",
+      "scraped_at": "2026-11-02T04:50:07.764698"
+    },
+    "scraped_date": "2026-11-02"
+  },
+  {
+    "title": "Probing Spatial State Representations in Visual Foundation Models",
+    "paper_url": "https://huggingface.co/papers/2610.40636",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Probing Spatial State Representations in Visual Foundation Models",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.40636",
+      "pdf_url": "https://arxiv.org/pdf/2610.40636",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.40636",
+      "scraped_at": "2026-11-02T04:50:09.525836"
+    },
+    "scraped_date": "2026-11-02"
+  },
+  {
+    "title": "RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory",
+    "paper_url": "https://huggingface.co/papers/2610.42141",
+    "authors": [
+      "Hao Zhu",
+      "Ria Doshi",
+      "Cherie Ho",
+      "Suning Huang",
+      "Shengguang Wu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory",
+      "abstract": "RoboArchitect automatically designs and continually improves a robotic agent around a frozen robot policy, without updating any weights. These agents develop their own control routines. Most converge on a dynamic split between the VLA policy and code-as-policy, and nearly all build a persistent memory across episodes. Average success rises substantially on unseen scenes and tasks. RoboArchitect also manages to evolve a unified agent across different robot platforms. Code and demos: https://roboarchitect-ai.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.42141",
+      "pdf_url": "https://arxiv.org/pdf/2610.42141",
+      "github_links": [
+        "https://github.com/roboarchitect-ai/RoboArchitect",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.42141",
+      "scraped_at": "2026-11-02T04:50:11.282796"
+    },
+    "scraped_date": "2026-11-02"
+  },
+  {
+    "title": "CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents",
+    "paper_url": "https://huggingface.co/papers/2610.40799",
+    "authors": [],
+    "stars": "32",
+    "details": {
+      "title": "CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents",
+      "abstract": "Across coding, web, and tool-use tasks, language-model agents are now routinely trained with the same recipe: supervised fine-tuning (SFT) to learn the interface, then multi-turn reinforcement learning (RL) to master it. Code-aspolicy (CaP) puts robot manipulation in the same form, as the policy writes code against robot APIs and reads back the results, so the same recipe should apply. Yet, existing CaP agents sidestep training: they either prompt closed frontier models or delegate manipulation to pre-trained vision-language-action models (VLAs) and high-level skills, while small open vision-language models (VLMs) fail outright. We present CaPtain, an open post-training pipeline that brings this recipe to CaP and turns a small open VLM into a capable CaP agent, with no VLA, frontier model, or privileged state at test time. CaPtain trains and deploys the policy inside CaPtain-Harness, which exposes low-level perception, geometry, and guarded-motion primitives across simulation and real hardware. Within this harness, we first align the base model via SFT on synthetic trajectories generated with GPT-6 Astra, and then apply multi-turn RL. Multi-turn RL, however, must credit tens of requests from the agent, whose physical effects often surface several turns later, with a single outcome observed only at the end of the episode. Since training runs in simulation, we introduce a physical critic that reads the privileged physical state in simulator, which the policy never sees, and credits each request by how much it changes the predicted chance of success. Starting from Qwen3.5-4B (0% zero-shot), CaPtain-4B achieves 55.4% held-out LIBERO success after SFT and 73.8% after RL. On LIBERO-PRO, it reaches 78.5%, surpassing several frontier-model agents, and its RL gains persist across three perturbation suites (+17.6 to +21.2 points). Without target-domain training, it attains 83.3% on SimplerEnv WidowX, exceeds frontier models on CaP-Bench, and runs on a real robot after simulation-only adaptation. We release all code, data, and model weights.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.40799",
+      "pdf_url": "https://arxiv.org/pdf/2610.40799",
+      "github_links": [
+        "https://github.com/waltstephen/CaPtain",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.40799",
+      "scraped_at": "2026-11-02T04:50:13.091503"
+    },
+    "scraped_date": "2026-11-02"
+  },
+  {
+    "title": "On the Origin and Evolution of Training-Inference Mismatch in LLM Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2610.40945",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "On the Origin and Evolution of Training-Inference Mismatch in LLM Reinforcement Learning",
+      "abstract": "We split the training-inference mismatch in LLM RL into a numerical discrepancy, which stays nearly constant, and a policy lag, which compounds through the trainer's own updates. From this split we derive the discrepancy-lag correction (DLC), which keeps stale-sampler training within the noise of on-policy runs.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.40945",
+      "pdf_url": "https://arxiv.org/pdf/2610.40945",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Skylanding/Training-Inference-Mismatch"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.40945",
+      "scraped_at": "2026-11-02T04:50:14.840054"
+    },
+    "scraped_date": "2026-11-02"
+  },
+  {
+    "title": "CausalWAM: Learning the Causes of Actions in World Action Models",
+    "paper_url": "https://huggingface.co/papers/2610.42096",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CausalWAM: Learning the Causes of Actions in World Action Models",
+      "abstract": "Introducing CWAM (Causal WAM), a world action model that provably learns the true causes of actions.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.42096",
+      "pdf_url": "https://arxiv.org/pdf/2610.42096",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.42096",
+      "scraped_at": "2026-11-02T04:50:16.597810"
+    },
+    "scraped_date": "2026-11-02"
+  },
+  {
+    "title": "WeFair: Fidelity-Aware Alignment from Human Feedback for Personalized Query Rewriting in Short-Video Search",
+    "paper_url": "https://huggingface.co/papers/2610.16927",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "WeFair: Fidelity-Aware Alignment from Human Feedback for Personalized Query Rewriting in Short-Video Search",
+      "abstract": "Personalization should clarify user intent, not overwrite it. How can we build a compact query rewriter that understands users' personalized intent while avoiding intent drift? We introduce WeFair , a fidelity-aware alignment framework for personalized query rewriting in short-video search. The key idea is to align different types of human feedback with different stages of training: Demonstration (SFT): Learn from large-scale search-session data and real user reformulations. Preference (DPO): Capture user preferences from subsequent consumption behavior. Verification (GRPO): Use exact human reformulations and preservation targets to enforce intent fidelity. One of our key findings is that richer behavioral rewards do not necessarily lead to more faithful rewriting. Strict, verifiable human feedback proves more effective for preventing intent drift during on-policy optimization. Results are encouraging: WeFair-2B outperforms strong baselines in offline overall accuracy and intent preservation. Online A/B testing achieves a +2.593% relative lift in effective video-view rate and a 2.350% relative reduction in query reformulation rate . The model is deployed in WeChat short-video search, serving 100M+ queries per day . We hope this work offers useful insights into building efficient, reliable, and intent-faithful language models for real-world search systems. 📄 Paper: https://arxiv.org/abs/2610.16927v2",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.16927v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.16927",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.16927",
+      "scraped_at": "2026-11-02T04:50:18.378029"
+    },
+    "scraped_date": "2026-11-02"
+  },
+  {
+    "title": "Apriel Voice 27B Preview: An Open Model for Speech, Reasoning, and Tool Use",
+    "paper_url": "https://huggingface.co/papers/2610.40738",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Apriel Voice 27B Preview: An Open Model for Speech, Reasoning, and Tool Use",
+      "abstract": "Apriel Voice 27B Preview is an open speech-language model that integrates speech understanding, reasoning, and tool use within a shared backbone, achieving strong results on audio benchmarks through a two-stage training procedure with online distillation. MODEL",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.40738",
+      "pdf_url": "https://arxiv.org/pdf/2610.40738",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.40738",
+      "scraped_at": "2026-11-02T04:50:20.180538"
+    },
+    "scraped_date": "2026-11-02"
+  }
+]
