@@ -8,7 +8,7 @@
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
 [![Papers Today](https://img.shields.io/badge/Papers%20Today-14-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-7781+-orange?style=for-the-badge&logo=academia)](data/)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-7795+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -104,13 +104,13 @@ getTodaysPapers();
 <table>
 <tr>
 <td align="center"><b>📄 Today</b><br/><font size="5">14</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">14</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">53</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">7781+</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">28</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">67</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">7795+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** November 02, 2026
+**Last Updated:** November 03, 2026
 
 ---
 
@@ -119,192 +119,194 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Does Scaling Toward AGI Depend on What System-1 Lets System-2 Execute?</b> ⭐ 0</summary>
+<summary><b>1. Wave Forcing: Towards Speed-of-Light Streaming Video Generation</b> ⭐ 68</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.39497) • [📄 arXiv](https://arxiv.org/abs/2610.39497) • [📥 PDF](https://arxiv.org/pdf/2610.39497)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.00859) • [📄 arXiv](https://arxiv.org/abs/2611.00859) • [📥 PDF](https://arxiv.org/pdf/2611.00859)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/SJTU-DENG-Lab/WaveForcing)
 
-> Progress toward artificial general intelligence (AGI) has largely relied on scaling a resource-intensive executive, System-2, through larger models, more data and compute, longer reasoning, and more agents. We ask whether the next stage may come i...
+> We introduce Wave Forcing, a training and execution framework for streaming video generation. The key idea is wavefront scheduling: later video chunks begin denoising before earlier chunks finish, using their cleaner intermediate states as causal ...
 
 </details>
 
 <details>
-<summary><b>2. R^2Orch: Recursive Self-Improvement for Agent Orchestration via Self-Play within a Skill-Internalization Loop</b> ⭐ 0</summary>
+<summary><b>2. Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement</b> ⭐ 30</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.22740) • [📄 arXiv](https://arxiv.org/abs/2610.22740) • [📥 PDF](https://arxiv.org/pdf/2610.22740)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.40191) • [📄 arXiv](https://arxiv.org/abs/2610.40191) • [📥 PDF](https://arxiv.org/pdf/2610.40191)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/beita6969/R2Orch)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/agentic-videogen/awesome-agentic-videogen)
 
-> R²Orch (Recursive Self-Play Orchestration) trains an agent orchestrator without a hand-designed curriculum: an inner self-play loop improves the orchestrator on tasks a Proposer picks, and an outer loop improves how that inner loop learns. The Pro...
+> Video generation is evolving from end-to-end synthesis toward agentic systems that integrate planning, tool use, and feedback. Meanwhile, video world models are enabling interactive, action-conditioned environments for agents. In this survey, we e...
 
 </details>
 
 <details>
-<summary><b>3. CEPO: A General Framework for Improving Prompt Optimization in Multi-Agent Systems</b> ⭐ 8</summary>
+<summary><b>3. Democratizing Robot-Use Agents: A Unified Harness with Open Models</b> ⭐ 7</summary>
 
 <br/>
 
-**👥 Authors:** Hyunwoo J. Kim, Jinsung Yoon, Jonathan Minho Chung, Seohyun Lee, jonghakim
+**👥 Authors:** Kwanyoung Park, Wenbo Zhang, Xiaoyu Huang, Yuxin Zuo, Jiarui Yuan
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.34722) • [📄 arXiv](https://arxiv.org/abs/2610.34722) • [📥 PDF](https://arxiv.org/pdf/2610.34722)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.01560) • [📄 arXiv](https://arxiv.org/abs/2611.01560) • [📥 PDF](https://arxiv.org/pdf/2611.01560)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/mlvlab/CEPO)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Open-RUA/uni-robot-agent)
 
-> Multi-agent systems (MAS) require both effective coordination and specialized task execution. Existing prompt optimization approaches typically couple these functions within agent-specific prompts. We introduce Coordinator-Executor Prompt Optimiza...
+> We introduce uni-robot-agent, a unified harness for robot-use agents with open-weight models, designed to support further training. Without privileged inputs, out-of-the-box Qwen3.8-Flash-Next achieves a RoboDojo Score of 31.39, exceeding the publ...
 
 </details>
 
 <details>
-<summary><b>4. HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model</b> ⭐ 0</summary>
+<summary><b>4. From Fragmentation to Fusion: A Survey and Roadmap for Omnimodal Embeddings</b> ⭐ 19</summary>
 
 <br/>
 
-**👥 Authors:** Fan Zhang, Xudong Wang, Kehong Wu, Hongyu Qu, Rongxing Ding
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.00172) • [📄 arXiv](https://arxiv.org/abs/2611.00172) • [📥 PDF](https://arxiv.org/pdf/2611.00172)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.40373) • [📄 arXiv](https://arxiv.org/abs/2610.40373) • [📥 PDF](https://arxiv.org/pdf/2610.40373)
+**💻 Code:** [⭐ Code](https://github.com/codefuse-ai/Awesome-Omnimodal-Embeddings) • [⭐ Code](https://github.com/huggingface)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> Vision-Language-Action (VLA) models have demonstrated promising capabilities in robotic manipulation by integrating visual perception, language understanding, and action generation. Recent advances have further incorporated future prediction to en...
+> Despite shared mathematical foundations, embedding research across text, vision, audio, graphs, tables, and time series remains largely fragmented into modality-specific silos. This survey and position paper argues that embedding research is quiet...
 
 </details>
 
 <details>
-<summary><b>5. FrameForge: Harnessing Priors of Video Foundation Models for Unified Image Generation</b> ⭐ 0</summary>
+<summary><b>5. NorthCUA Technical Report: Turbocharging Computer-Use Agents through Experience at Scale</b> ⭐ 14</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.36545) • [📄 arXiv](https://arxiv.org/abs/2610.36545) • [📥 PDF](https://arxiv.org/pdf/2610.36545)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.02102) • [📄 arXiv](https://arxiv.org/abs/2611.02102) • [📥 PDF](https://arxiv.org/pdf/2611.02102)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Lyne1/FrameForge)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/beipo-ai/NorthCUA)
 
-> Unified conditional image generation requires a single model to preserve different aspects of a visual input while producing a target image that follows textual guidance. Pretrained video models provide a promising foundation by encoding visual tr...
+> Worlds in mind. Wonders at your fingertips. Turn intent into work — across Desktop and Web
 
 </details>
 
 <details>
-<summary><b>6. Wizard: Manipulate Any World in Real Time via Agentic Control</b> ⭐ 0</summary>
+<summary><b>6. Diagnosing the Reference Gap: What Visual Scaffolds Can and Cannot Fix in Multimodal Reasoning</b> ⭐ 1</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.40339) • [📄 arXiv](https://arxiv.org/abs/2610.40339) • [📥 PDF](https://arxiv.org/pdf/2610.40339)
+**👥 Authors:** Hou Pong Chan, Anh Tuan Luu, Wotao Yin, Weiwen Xu, Guizhen Chen
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.39419) • [📄 arXiv](https://arxiv.org/abs/2610.39419) • [📥 PDF](https://arxiv.org/pdf/2610.39419)
 
-> 🪄 Wizard: Manipulate Any World in Real Time via Agentic Control! Existing game world models produce realistic visuals but remain constrained by familiar environments and predefined motions. Control largely focuses on locomotion, with limited suppo...
-
-</details>
-
-<details>
-<summary><b>7. WorldBridge: Bridging Video and Action for Task Generalization in World Action Models</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Yaoxu Lyu, Liangkai Li, Hao Li, Yubo Guo, Jun Cen
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.40748) • [📄 arXiv](https://arxiv.org/abs/2610.40748) • [📥 PDF](https://arxiv.org/pdf/2610.40748)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> Project Page: https://worldbridge-jd.github.io/
-
-</details>
-
-<details>
-<summary><b>8. Probing Spatial State Representations in Visual Foundation Models</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.40636) • [📄 arXiv](https://arxiv.org/abs/2610.40636) • [📥 PDF](https://arxiv.org/pdf/2610.40636)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/regap-bench/ReGap-Bench) • [⭐ Code](https://github.com/huggingface)
 
 > No abstract available.
 
 </details>
 
 <details>
-<summary><b>9. RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory</b> ⭐ 0</summary>
+<summary><b>7. DeFT-RAG: Decomposing Multi-Hop Questions into Self-Contained Sub-Questions with Reusable Answers</b> ⭐ 1</summary>
 
 <br/>
 
-**👥 Authors:** Hao Zhu, Ria Doshi, Cherie Ho, Suning Huang, Shengguang Wu
+**👥 Authors:** Bingzhe Li, Dingy-Kang
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.42141) • [📄 arXiv](https://arxiv.org/abs/2610.42141) • [📥 PDF](https://arxiv.org/pdf/2610.42141)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.37826) • [📄 arXiv](https://arxiv.org/abs/2610.37826) • [📥 PDF](https://arxiv.org/pdf/2610.37826)
 
-**💻 Code:** [⭐ Code](https://github.com/roboarchitect-ai/RoboArchitect) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Dingyi-Kang/DeFT-RAG)
 
-> RoboArchitect automatically designs and continually improves a robotic agent around a frozen robot policy, without updating any weights. These agents develop their own control routines. Most converge on a dynamic split between the VLA policy and c...
+> DeFT-RAG asks a different question about multi-hop RAG: instead of planning all sub-questions and their dependencies in advance, what if the LLM writes just one self-contained sub-question at a time? Each sub-question names every entity it asks ab...
 
 </details>
 
 <details>
-<summary><b>10. CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents</b> ⭐ 32</summary>
+<summary><b>8. DecisionRank: On-Policy Distillation for Decision-Model Rerankers</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.40799) • [📄 arXiv](https://arxiv.org/abs/2610.40799) • [📥 PDF](https://arxiv.org/pdf/2610.40799)
-
-**💻 Code:** [⭐ Code](https://github.com/waltstephen/CaPtain) • [⭐ Code](https://github.com/huggingface)
-
-> Across coding, web, and tool-use tasks, language-model agents are now routinely trained with the same recipe: supervised fine-tuning (SFT) to learn the interface, then multi-turn reinforcement learning (RL) to master it. Code-aspolicy (CaP) puts r...
-
-</details>
-
-<details>
-<summary><b>11. On the Origin and Evolution of Training-Inference Mismatch in LLM Reinforcement Learning</b> ⭐ 2</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.40945) • [📄 arXiv](https://arxiv.org/abs/2610.40945) • [📥 PDF](https://arxiv.org/pdf/2610.40945)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Skylanding/Training-Inference-Mismatch)
-
-> We split the training-inference mismatch in LLM RL into a numerical discrepancy, which stays nearly constant, and a policy lag, which compounds through the trainer's own updates. From this split we derive the discrepancy-lag correction (DLC), whic...
-
-</details>
-
-<details>
-<summary><b>12. CausalWAM: Learning the Causes of Actions in World Action Models</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.42096) • [📄 arXiv](https://arxiv.org/abs/2610.42096) • [📥 PDF](https://arxiv.org/pdf/2610.42096)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.42128) • [📄 arXiv](https://arxiv.org/abs/2610.42128) • [📥 PDF](https://arxiv.org/pdf/2610.42128)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> Introducing CWAM (Causal WAM), a world action model that provably learns the true causes of actions.
+> Decision models target structured tasks by directly predicting choices or scores, avoiding autoregressive decoding latency. However, transferring a generative LLM's ranking knowledge to a decision model remains challenging: the teacher expresses p...
 
 </details>
 
 <details>
-<summary><b>13. WeFair: Fidelity-Aware Alignment from Human Feedback for Personalized Query Rewriting in Short-Video Search</b> ⭐ 0</summary>
+<summary><b>9. Lost in Recovery: Demystifying Recovery Behavior of Computer-Use Agents via Goal-Oriented Action Replay</b> ⭐ 3</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.16927) • [📄 arXiv](https://arxiv.org/abs/2610.16927v2) • [📥 PDF](https://arxiv.org/pdf/2610.16927)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.27954) • [📄 arXiv](https://arxiv.org/abs/2610.27954) • [📥 PDF](https://arxiv.org/pdf/2610.27954)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/BangProx/ReTRACE)
 
-> Personalization should clarify user intent, not overwrite it. How can we build a compact query rewriter that understands users' personalized intent while avoiding intent drift? We introduce WeFair , a fidelity-aware alignment framework for persona...
+> We investigate the recovery problem in computer-use agents and present RETRACE, a scalable pipeline for conducting the first systematic study of autonomous, model-based recovery behavior.
 
 </details>
 
 <details>
-<summary><b>14. Apriel Voice 27B Preview: An Open Model for Speech, Reasoning, and Tool Use</b> ⭐ 0</summary>
+<summary><b>10. TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents</b> ⭐ 3</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.40738) • [📄 arXiv](https://arxiv.org/abs/2610.40738) • [📥 PDF](https://arxiv.org/pdf/2610.40738)
+**👥 Authors:** Mengqi Guo, Seunghun Lee, Guanli Hou, Xiaoxu Zheng, Kehong Gong
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.41216) • [📄 arXiv](https://arxiv.org/abs/2610.41216) • [📥 PDF](https://arxiv.org/pdf/2610.41216)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Garfield-kh/TinyAstral)
+
+> TinyAstral evolves the harness (tools, feedback, memory, recovery) of a frozen ~180B robot teacher through recursive self-improvement (33.4% → 63.6% on RoboTwin), then distills it into 0.8B–4B students that run in the same harness. The 4B student ...
+
+</details>
+
+<details>
+<summary><b>11. MAServeBench: Benchmarking Multi-Agent LLM Serving Systems with Hierarchical Collaboration Workloads</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.40293) • [📄 arXiv](https://arxiv.org/abs/2610.40293) • [📥 PDF](https://arxiv.org/pdf/2610.40293)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/ShengxuanQiu/MAServeBench)
+
+> Multi-agent collaboration fundamentally reshapes LLM serving workloads through dynamic dependencies, synchronization, and context sharing—beyond what conventional request-level benchmarks can capture. We introduce MAServeBench , a benchmark featur...
+
+</details>
+
+<details>
+<summary><b>12. Self-Improvement with Auxiliary Rewards: Learning from Verified Traces and Evaluating Transfer</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.41296) • [📄 arXiv](https://arxiv.org/abs/2610.41296) • [📥 PDF](https://arxiv.org/pdf/2610.41296)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> Apriel Voice 27B Preview is an open speech-language model that integrates speech understanding, reasoning, and tool use within a shared backbone, achieving strong results on audio benchmarks through a two-stage training procedure with online disti...
+> Pushing self-improvement in small language models with auxiliary rewards
+
+</details>
+
+<details>
+<summary><b>13. On-Policy Self-Distillation with Teacher Evolution</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.38637) • [📄 arXiv](https://arxiv.org/abs/2610.38637) • [📥 PDF](https://arxiv.org/pdf/2610.38637)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> We wanted to solve a frustrating problem in On-Policy Self-Distillation (OPSD): the "self-teacher" model often gets blinded by the privileged context and gives pretty unreliable, overconfident token-level guidance, which ends up misleading the stu...
+
+</details>
+
+<details>
+<summary><b>14. ProVe: Proposer-Verifier Decoding</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Qi She, Yujie Zhong, Jiaxi Li, Weiwen Xu, Ziqi Jin
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.27815) • [📄 arXiv](https://arxiv.org/abs/2610.27815) • [📥 PDF](https://arxiv.org/pdf/2610.27815)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface)
+
+> Speculative decoding lets a small model draft and a large model verify. ProVe reverses the roles: the large model proposes a block of 16 tokens in one forward pass, and a verifier reads it in one more.
 
 </details>
 
@@ -317,27 +319,27 @@ getTodaysPapers();
 | Type | Link | Papers |
 |------|------|--------|
 | 🕐 Latest | [`latest.json`](data/latest.json) | 14 |
-| 📅 Today | [`2026-11-02.json`](data/daily/2026-11-02.json) | 14 |
-| 📆 This Week | [`2026-W44.json`](data/weekly/2026-W44.json) | 14 |
-| 🗓️ This Month | [`2026-11.json`](data/monthly/2026-11.json) | 53 |
+| 📅 Today | [`2026-11-03.json`](data/daily/2026-11-03.json) | 14 |
+| 📆 This Week | [`2026-W44.json`](data/weekly/2026-W44.json) | 28 |
+| 🗓️ This Month | [`2026-11.json`](data/monthly/2026-11.json) | 67 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-11-02 | 14 | [View JSON](data/daily/2026-11-02.json) |
+| 📌 2026-11-03 | 14 | [View JSON](data/daily/2026-11-03.json) |
+| 📄 2026-11-02 | 14 | [View JSON](data/daily/2026-11-02.json) |
 | 📄 2026-11-01 | 39 | [View JSON](data/daily/2026-11-01.json) |
 | 📄 2026-10-31 | 39 | [View JSON](data/daily/2026-10-31.json) |
 | 📄 2026-10-30 | 10 | [View JSON](data/daily/2026-10-30.json) |
 | 📄 2026-10-29 | 5 | [View JSON](data/daily/2026-10-29.json) |
 | 📄 2026-10-28 | 27 | [View JSON](data/daily/2026-10-28.json) |
-| 📄 2026-10-27 | 19 | [View JSON](data/daily/2026-10-27.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W44 | 14 | [View JSON](data/weekly/2026-W44.json) |
+| 📅 2026-W44 | 28 | [View JSON](data/weekly/2026-W44.json) |
 | 📅 2026-W43 | 149 | [View JSON](data/weekly/2026-W43.json) |
 | 📅 2026-W42 | 204 | [View JSON](data/weekly/2026-W42.json) |
 | 📅 2026-W41 | 287 | [View JSON](data/weekly/2026-W41.json) |
@@ -346,7 +348,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-11 | 53 | [View JSON](data/monthly/2026-11.json) |
+| 🗓️ 2026-11 | 67 | [View JSON](data/monthly/2026-11.json) |
 | 🗓️ 2026-10 | 1120 | [View JSON](data/monthly/2026-10.json) |
 | 🗓️ 2026-09 | 480 | [View JSON](data/monthly/2026-09.json) |
 | 🗓️ 2026-08 | 747 | [View JSON](data/monthly/2026-08.json) |
