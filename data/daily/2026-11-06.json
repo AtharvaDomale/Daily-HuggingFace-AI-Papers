@@ -1,0 +1,166 @@
+[
+  {
+    "title": "Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand",
+    "paper_url": "https://huggingface.co/papers/2611.00883",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand",
+      "abstract": "Evaluating models on full benchmarks is often expensive. Benchmark compression reduces this cost by using small subsets to approximate full-benchmark results. This paper theoretically explains why random sampling works surprisingly well for benchmark compression but can be unstable, and introduces BestRand, a simple, stable, and low-cost solution. Across 70+ benchmarks, BestRand reduces high-error risk by 50.2% and estimation error by 16.4%, while requiring only 51.3% of the construction cost of competing methods.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.00883",
+      "pdf_url": "https://arxiv.org/pdf/2611.00883",
+      "github_links": [
+        "https://github.com/George-Ling3/BestRand",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.00883",
+      "scraped_at": "2026-11-06T05:29:30.279519"
+    },
+    "scraped_date": "2026-11-06"
+  },
+  {
+    "title": "Towards Foundation Decision Models: Drex",
+    "paper_url": "https://huggingface.co/papers/2611.07854",
+    "authors": [],
+    "stars": "88",
+    "details": {
+      "title": "Towards Foundation Decision Models: Drex",
+      "abstract": "We present Drex, a family of four open decision models that return a calibrated probability distribution over user-defined options in a single forward pass, without autoregressive decoding. Each request pairs a state (a document, record, or agent context, optionally with images) with questions asking for a choice, a yes/no judgment, or a score on an ordered scale. The family spans 8B (DLM), 9B (v1.5), 35B-A3B (v2.0), and 27B (Max) parameters. Training combines supervised fine-tuning with our in-house RL recipe, reinforcement learning from adjusted feedback (RLAF), which blends verified outcomes with a reasoning judge under a KL constraint; ablations show RLAF raises accuracy while consistency losses cut option-order flips from 6.3% to 4.2%. Drex Max sets a new state of the art among decision models on Decision Index 0.4.1 (67.52 vs. 60.70 for Jev 1.14.0) and holds its score on maintainer-run private tests (66.60). On the independently run Artificial Analysis Decision Index, Max has the second-highest score among decision models, and Drex is among the most widely used decision models on OpenRouter. All weights and inference code are open: github.com/nace-ai/drex-decision-models",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.07854",
+      "pdf_url": "https://arxiv.org/pdf/2611.07854",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/nace-ai/drex-decision-models"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.07854",
+      "scraped_at": "2026-11-06T05:29:32.138805"
+    },
+    "scraped_date": "2026-11-06"
+  },
+  {
+    "title": "EDGAR: Efficient Diffusion-Driven Gaussian Avatar Refinement via Synthetic Failure",
+    "paper_url": "https://huggingface.co/papers/2611.07909",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "EDGAR: Efficient Diffusion-Driven Gaussian Avatar Refinement via Synthetic Failure",
+      "abstract": "Accepted to ACM Transactions on Graphics",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.07909",
+      "pdf_url": "https://arxiv.org/pdf/2611.07909",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/kwanyun/edgar-code"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.07909",
+      "scraped_at": "2026-11-06T05:29:33.953100"
+    },
+    "scraped_date": "2026-11-06"
+  },
+  {
+    "title": "VisSearch-Bench: Evaluating Long Horizon Visual Search in Multimodal Agents",
+    "paper_url": "https://huggingface.co/papers/2611.04894",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "VisSearch-Bench: Evaluating Long Horizon Visual Search in Multimodal Agents",
+      "abstract": "VisSearch-Bench evaluates how multimodal agents organize and use visual evidence during long-horizon web search. It contains 204 human-written tasks across five search categories, spanning 7 domains and 25 subdomains. The tasks require agents to connect information across images, objects, and search steps to compare candidates, follow visual clues, and produce complete answers. Each task includes a reference answer, traceable evidence, and scoring rules. Evaluation measures both full task success and the correctness and completeness of individual results. Across 16 multimodal models, the best system fully solves only 26.47% of tasks, highlighting the challenge of managing visual context even with search tools.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.04894",
+      "pdf_url": "https://arxiv.org/pdf/2611.04894",
+      "github_links": [
+        "https://github.com/antins-labs/VisSearch-Bench-v1",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.04894",
+      "scraped_at": "2026-11-06T05:29:35.734408"
+    },
+    "scraped_date": "2026-11-06"
+  },
+  {
+    "title": "Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models",
+    "paper_url": "https://huggingface.co/papers/2611.06817",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models",
+      "abstract": "Hi everyone! We’re the authors of Open-HumanWAM , an open recipe for scaling human and robot experience for embodied foundation models. We study how human experience can improve robot learning, using Open-HumanWAM-50K , a 50,000-hour egocentric corpus with hand-motion and language annotations. 📈 HumanWAM-Vanilla — scaling human experience: our exploration studies show that scaling egocentric pretraining improves generalization to unseen scenes and randomized environments. Greater data diversity strengthens the scaling trend, while human pretraining improves robot demonstration efficiency. The final model achieves 92.08% Clean / 68.88% Random , averaging 80.48% on RoboTwin 2.0 . 🤖 HumanWAM-Goal — zero-shot transfer: combining human and robot experience improves zero-shot generalization in simulation and the real world. Visual goals enable robots to follow human demonstrations and adapt their behavior through in-context conditioning, without target-task parameter updates. 🏆 RoboTwin 2.0 Rank #1: after post-training, HumanWAM-Goal achieves 92.70% Clean / 84.60% Random , averaging 88.65% . We’re releasing the corpus, checkpoints, and code, with uploads and documentation updates ongoing. We’d love to hear your thoughts and questions! 🌐 Project & demos · 💻 Code · 🤗 Corpus · 🤗 Models",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.06817",
+      "pdf_url": "https://arxiv.org/pdf/2611.06817",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/DAGroup-PKU/HumanNet/tree/open-humanscale"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.06817",
+      "scraped_at": "2026-11-06T05:29:37.723890"
+    },
+    "scraped_date": "2026-11-06"
+  },
+  {
+    "title": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
+    "paper_url": "https://huggingface.co/papers/2611.04277",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
+      "abstract": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains effective under the original harness. Directional Harness Evolution develops specialized sibling harnesses along distinct repair directions, forming a reusable Sibling Harness Pool that remains fixed during policy training. Complementary Harness Rescue Training invokes this pool only when all initial attempts under the base harness fail. The same policy generates fresh rollouts under selected auxiliary harnesses, and these trajectories replace the failed group for reinforcement learning. An Adaptive Harness Router selects the Top-k variants using Harness Behavior Profiles and voting across multiple LLMs. Policy-aware profile re-anchoring refreshes this evidence as the policy learns. Across AppWorld, SWE-Gym, and DBBench, the trained policy substantially outperforms policy-only training when returned to the original base harness. Behavioral analyses and held-out cases support the transfer of harness-elicited behaviors into the policy itself. Reusing the router for Rank-1 inference provides additional gains at the same executor rollout count.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.04277",
+      "pdf_url": "https://arxiv.org/pdf/2611.04277",
+      "github_links": [
+        "https://github.com/DeepExperience/Harness-S",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.04277",
+      "scraped_at": "2026-11-06T05:29:39.516914"
+    },
+    "scraped_date": "2026-11-06"
+  },
+  {
+    "title": "WeLM-Image: A Unified Image Generation Model towards Visual Intelligence",
+    "paper_url": "https://huggingface.co/papers/2611.07392",
+    "authors": [
+      "Hongyang Wei",
+      "Hao Lu",
+      "Guohui Zhang",
+      "Chen Li",
+      "Canmiao Fu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "WeLM-Image: A Unified Image Generation Model towards Visual Intelligence",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2611.07392",
+      "pdf_url": "https://arxiv.org/pdf/2611.07392",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.07392",
+      "scraped_at": "2026-11-06T05:29:41.340763"
+    },
+    "scraped_date": "2026-11-06"
+  },
+  {
+    "title": "NPCBench: A Clinical Apprenticeship Benchmark for Multimodal Care-Pathway Reasoning in Nasopharyngeal Carcinoma",
+    "paper_url": "https://huggingface.co/papers/2611.08369",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "NPCBench: A Clinical Apprenticeship Benchmark for Multimodal Care-Pathway Reasoning in Nasopharyngeal Carcinoma",
+      "abstract": "Current medical benchmarks typically break down clinical competence into isolated factual questions, single-image tasks, or static case vignettes. These tests score individual answers, but reveal less about whether a model can integrate subspecialty knowledge with multimodal evidence and track a patient's condition throughout a course of care. To close this gap, we introduce NPCBench, a clinical apprenticeship benchmark for nasopharyngeal carcinoma (NPC). NPCBench mirrors specialist training, from guideline and foundational knowledge to case planning, longitudinal review, CarePath integration, and open-ended consultation. It contains 4,777 component and consultation items and a 100-patient CarePath cohort with 417 scored diagnostic and care tasks. The episode-level evaluation tests whether diagnostic and care answers are jointly correct within a care pathway. By linking stepwise tasks to patient-level care trajectories, NPCBench evaluates whether models ground decisions in visual evidence, interpret changes in patient state, and meet clinical requirements in consultation. Across 30 evaluated models, we observe a composition gap: strong performance on individual tasks does not ensure jointly correct diagnostic and care answers for the same patient. Among 21 multimodal models, strict CarePath success reaches at most 23%. Paired controls and physician calibration further examine evidence grounding, longitudinal revision, and consultation judging. Overall, NPCBench broadens the evaluation of medical artificial intelligence beyond static question-answering paradigms to an apprenticeship-oriented assessment of clinical workflows, thereby offering a testbed for evidence-based and temporally coherent reasoning in oncology care.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.08369",
+      "pdf_url": "https://arxiv.org/pdf/2611.08369",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.08369",
+      "scraped_at": "2026-11-06T05:29:43.108111"
+    },
+    "scraped_date": "2026-11-06"
+  }
+]
