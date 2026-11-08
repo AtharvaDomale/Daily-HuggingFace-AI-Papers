@@ -1,0 +1,658 @@
+[
+  {
+    "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+    "paper_url": "https://huggingface.co/papers/2611.08449",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Jag: Direct Box Prediction for Efficient Visual Grounding (2026) PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations (2026) VITAL: From Visual Motion to Precise Action (2026) Forward Dynamics Models (2026) ObjDream: Guiding Vision-Language-Action Models with Object-Level Understanding and Future State Prediction (2026) Planning in the Backbone: DiffAdapterVLA for Native Continuous Trajectory Generation with Driving VLMs (2026) Memory as Plans: World-Action Modeling with Memory-Grounded Planning (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.08449",
+      "pdf_url": "https://arxiv.org/pdf/2611.08449",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.08449",
+      "scraped_at": "2026-11-08T04:51:45.870065"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+    "paper_url": "https://huggingface.co/papers/2611.05376",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+      "abstract": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence For a decade, AI progress has been measured by how much a machine can do on its own. Agents now write code and run multistep tasks for us, yet people still forget what they once knew, miss what they are not looking at, and face hard choices without their own history. As AI moves into the physical world, attention has settled on one kind of intelligent individual, the embodied robot. This perspective paper argues that the era of Physical AI holds a second kind of equal importance: the person augmented by AI. What the paper covers: 🧠 AHI alongside AGI: AGI asks how intelligent a machine can be; AI-Augmented Human Intelligence (AHI) asks how much intelligence a machine can enable in a particular person. 🎧 The cognitive symbiont: a lifelong, embedded, real-time, private, low-friction, and proactive companion that senses what the person senses through external devices, keeps their context across years, and takes part in their thinking at the right moment. 📏 The cognitive gap: the conceptual core, the distance between what a person could bring to a situation and what they can hold in working memory. 🔄 The symbiosis loop: sensing, keeping, understanding, living alongside, acting for and thinking with the person, and growing, enclosed by a personal runtime and by trust. 🪜 A ladder of assistance: getting things done, thinking and feeling with the person, and living among others with the person, up to the meeting of two symbionts. ⚖️ Risk and governance: from covert assistance in examinations to pressure on everyone to adopt it, with 23 open problems and the conditions that would prove the paper wrong. 🌐 Project page: https://cognitive-symbiont.github.io Feedback and discussion are very welcome!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.05376",
+      "pdf_url": "https://arxiv.org/pdf/2611.05376",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.05376",
+      "scraped_at": "2026-11-08T04:51:47.563837"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+    "paper_url": "https://huggingface.co/papers/2611.08373",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+      "abstract": "Welcome to the era of Spatial-Language-Action (SLA) models. Forget VLAs and WAMs. Take control of your robot with SLA. Arxiv: https://arxiv.org/pdf/2611.08373 Homepage: https://embodiedsla.github.io/ Github: https://github.com/OpenHelix-Team/Spatial-Forcing",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.08373",
+      "pdf_url": "https://arxiv.org/pdf/2611.08373",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/OpenHelix-Team/Spatial-Forcing"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.08373",
+      "scraped_at": "2026-11-08T04:51:49.246574"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
+    "paper_url": "https://huggingface.co/papers/2611.04277",
+    "authors": [],
+    "stars": "57",
+    "details": {
+      "title": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
+      "abstract": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains effective under the original harness. Directional Harness Evolution develops specialized sibling harnesses along distinct repair directions, forming a reusable Sibling Harness Pool that remains fixed during policy training. Complementary Harness Rescue Training invokes this pool only when all initial attempts under the base harness fail. The same policy generates fresh rollouts under selected auxiliary harnesses, and these trajectories replace the failed group for reinforcement learning. An Adaptive Harness Router selects the Top-k variants using Harness Behavior Profiles and voting across multiple LLMs. Policy-aware profile re-anchoring refreshes this evidence as the policy learns. Across AppWorld, SWE-Gym, and DBBench, the trained policy substantially outperforms policy-only training when returned to the original base harness. Behavioral analyses and held-out cases support the transfer of harness-elicited behaviors into the policy itself. Reusing the router for Rank-1 inference provides additional gains at the same executor rollout count.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.04277",
+      "pdf_url": "https://arxiv.org/pdf/2611.04277",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/DeepExperience/Harness-S"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.04277",
+      "scraped_at": "2026-11-08T04:51:50.985653"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand",
+    "paper_url": "https://huggingface.co/papers/2611.00883",
+    "authors": [],
+    "stars": "8",
+    "details": {
+      "title": "Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand",
+      "abstract": "Evaluating models on full benchmarks is often expensive. Benchmark compression reduces this cost by using small subsets to approximate full-benchmark results. This paper theoretically explains why random sampling works surprisingly well for benchmark compression but can be unstable, and introduces BestRand, a simple, stable, and low-cost solution. Across 70+ benchmarks, BestRand reduces high-error risk by 50.2% and estimation error by 16.4%, while requiring only 51.3% of the construction cost of competing methods.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.00883",
+      "pdf_url": "https://arxiv.org/pdf/2611.00883",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/George-Ling3/BestRand"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.00883",
+      "scraped_at": "2026-11-08T04:51:52.665972"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "WeLM-Image: A Unified Image Generation Model towards Visual Intelligence",
+    "paper_url": "https://huggingface.co/papers/2611.07392",
+    "authors": [
+      "Hao Lu",
+      "Guohui Zhang",
+      "Chen Li",
+      "Canmiao Fu",
+      "AlexZhou2"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "WeLM-Image: A Unified Image Generation Model towards Visual Intelligence",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API SenseNova-U1.5: Towards Native Unified Visual Intelligence (2026) FrameForge: Harnessing Priors of Video Foundation Models for Unified Image Generation (2026) PixelUMM: Encoder-Free Unified Image and Video Understanding and Generation (2026) MOSS-Image Technical Report (2026) Multimodal Flow: Unified Flow Modeling of Language and Vision in Embedding Spaces (2026) KwaiMind Technical Report (2026) IronViT: Toward Efficient Generalist Visual Representation Learning (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.07392",
+      "pdf_url": "https://arxiv.org/pdf/2611.07392",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.07392",
+      "scraped_at": "2026-11-08T04:51:54.285368"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
+    "paper_url": "https://huggingface.co/papers/2611.06741",
+    "authors": [],
+    "stars": "44",
+    "details": {
+      "title": "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
+      "abstract": "TailSteer introduces a final refinement stage after SFT, RL, or OPD to unlock persistent multi-turn editing. It substantially reduces long-horizon drift while preserving the base model's original generative and editing capabilities, without changing its architecture or inference pipeline. Watch the synchronized 20-turn dance comparison below. Code, model weights, and datasets are available on our project page.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.06741",
+      "pdf_url": "https://arxiv.org/pdf/2611.06741",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Lyricccco/tailsteer"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.06741",
+      "scraped_at": "2026-11-08T04:51:56.002635"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "EvoMemState: Evolving Memory State for Personal Agents",
+    "paper_url": "https://huggingface.co/papers/2611.03743",
+    "authors": [
+      "Junkai Chen",
+      "Zhongqiao Liu",
+      "Yunbo Tang",
+      "Zhishang Xiang",
+      "sihuichuibuqi"
+    ],
+    "stars": "25",
+    "details": {
+      "title": "EvoMemState: Evolving Memory State for Personal Agents",
+      "abstract": "Long-term memory enables large language model (LLM) agents to provide continuous personalized assistance by retaining user information across interactions. Existing systems support this process through fact extraction, organization, updating, and retrieval, but largely maintain memories as independent facts. This fact-centric paradigm may overlook how new facts update, constrain, or conflict with earlier ones, while leaving their applicability, role, and priority for the current request implicit. In this paper, we introduce EvoMemState, a state-centric framework that augments persistent facts with two complementary states: Relational States that capture how facts remain valid and relate to one another as memory evolves, and a Reasoning State that determines how these facts should be applied to the current request. Specifically, EVOMEMSTATE consists of three key components: (i) Ontology-Guided Memory State Induction extracts Persistent Facts and constructs Relational States that maintain their validity, scope, and evolving relations. (ii) RL-Based State Evolution internalizes memory-use experience into a policy through reinforcement learning to generate a request-specific Reasoning State. (iii) State-Aware Reasoning then combines the relevant facts with their Relational States and the generated Reasoning State to guide the personal agent. Extensive experiments on long-term dialogue and memory-use benchmarks demonstrate consistent improvements over existing memory systems in retrieval completeness and memory-grounded response accuracy. Our code and implementation details are available at https://github.com/XMUDeepLIT/EvoMemState.git .",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.03743",
+      "pdf_url": "https://arxiv.org/pdf/2611.03743",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/XMUDeepLIT/EvoMemState.git",
+        "https://github.com/XMUDeepLIT/EvoMemState"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.03743",
+      "scraped_at": "2026-11-08T04:51:57.743801"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "VisSearch-Bench: Evaluating Long Horizon Visual Search in Multimodal Agents",
+    "paper_url": "https://huggingface.co/papers/2611.04894",
+    "authors": [],
+    "stars": "59",
+    "details": {
+      "title": "VisSearch-Bench: Evaluating Long Horizon Visual Search in Multimodal Agents",
+      "abstract": "VisSearch-Bench evaluates how multimodal agents organize and use visual evidence during long-horizon web search. It contains 204 human-written tasks across five search categories, spanning 7 domains and 25 subdomains. The tasks require agents to connect information across images, objects, and search steps to compare candidates, follow visual clues, and produce complete answers. Each task includes a reference answer, traceable evidence, and scoring rules. Evaluation measures both full task success and the correctness and completeness of individual results. Across 16 multimodal models, the best system fully solves only 26.47% of tasks, highlighting the challenge of managing visual context even with search tools.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.04894",
+      "pdf_url": "https://arxiv.org/pdf/2611.04894",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/antins-labs/VisSearch-Bench-v1"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.04894",
+      "scraped_at": "2026-11-08T04:51:59.388916"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "Towards Foundation Decision Models: Drex",
+    "paper_url": "https://huggingface.co/papers/2611.07854",
+    "authors": [],
+    "stars": "115",
+    "details": {
+      "title": "Towards Foundation Decision Models: Drex",
+      "abstract": "We present Drex, a family of four open decision models that return a calibrated probability distribution over user-defined options in a single forward pass, without autoregressive decoding. Each request pairs a state (a document, record, or agent context, optionally with images) with questions asking for a choice, a yes/no judgment, or a score on an ordered scale. The family spans 8B (DLM), 9B (v1.5), 35B-A3B (v2.0), and 27B (Max) parameters. Training combines supervised fine-tuning with our in-house RL recipe, reinforcement learning from adjusted feedback (RLAF), which blends verified outcomes with a reasoning judge under a KL constraint; ablations show RLAF raises accuracy while consistency losses cut option-order flips from 6.3% to 4.2%. Drex Max sets a new state of the art among decision models on Decision Index 0.4.1 (67.52 vs. 60.70 for Jev 1.14.0) and holds its score on maintainer-run private tests (66.60). On the independently run Artificial Analysis Decision Index, Max has the second-highest score among decision models, and Drex is among the most widely used decision models on OpenRouter. All weights and inference code are open: github.com/nace-ai/drex-decision-models",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.07854",
+      "pdf_url": "https://arxiv.org/pdf/2611.07854",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/nace-ai/drex-decision-models"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.07854",
+      "scraped_at": "2026-11-08T04:52:01.049560"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models",
+    "paper_url": "https://huggingface.co/papers/2611.06817",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models",
+      "abstract": "Hi everyone! We’re the authors of Open-HumanWAM , an open recipe for scaling human and robot experience for embodied foundation models. We study how human experience can improve robot learning, using Open-HumanWAM-50K , a 50,000-hour egocentric corpus with hand-motion and language annotations. 📈 HumanWAM-Vanilla — scaling human experience: our exploration studies show that scaling egocentric pretraining improves generalization to unseen scenes and randomized environments. Greater data diversity strengthens the scaling trend, while human pretraining improves robot demonstration efficiency. The final model achieves 92.08% Clean / 68.88% Random , averaging 80.48% on RoboTwin 2.0 . 🤖 HumanWAM-Goal — zero-shot transfer: combining human and robot experience improves zero-shot generalization in simulation and the real world. Visual goals enable robots to follow human demonstrations and adapt their behavior through in-context conditioning, without target-task parameter updates. 🏆 RoboTwin 2.0 Rank #1: after post-training, HumanWAM-Goal achieves 92.70% Clean / 84.60% Random , averaging 88.65% . We’re releasing the corpus, checkpoints, and code, with uploads and documentation updates ongoing. We’d love to hear your thoughts and questions! 🌐 Project & demos · 💻 Code · 🤗 Corpus · 🤗 Models",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.06817",
+      "pdf_url": "https://arxiv.org/pdf/2611.06817",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/DAGroup-PKU/HumanNet/tree/open-humanscale"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.06817",
+      "scraped_at": "2026-11-08T04:52:02.830130"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "On the Opportunities and Challenges of Prefill-to-Autoregressive Cross-Model Transfer",
+    "paper_url": "https://huggingface.co/papers/2611.06976",
+    "authors": [],
+    "stars": "10",
+    "details": {
+      "title": "On the Opportunities and Challenges of Prefill-to-Autoregressive Cross-Model Transfer",
+      "abstract": "How much can a small model benefit from a larger model that only processes the prompt—and what actually drives the improvement? We explore these questions in this new paper. In prefill-to-autoregressive cross-model transfer (PACT), a larger sender processes the prompt and passes internal representations to a smaller receiver, which then generates the response independently. We introduce PLatour, a simple and scalable framework that connects frozen models through lightweight linear bridges trained directly with reinforcement learning. It also supports hybrid-attention architectures. On generation tasks, PLatour substantially outperforms the evaluated open-source PACT baselines. Using a 35B sender, it also exceeds Mostik AI’s reported results on shared math and coding benchmarks, compared with Mostik's 753B sender—although the training setups may differ. But stronger benchmark results do not, by themselves, establish useful information transfer. On some tasks, replacing sender representations with question-independent signals or training the receiver alone reproduces much of the improvement. Trainable bridges can provide substantial adaptation capacity even when both model backbones are frozen. The evidence is task-dependent: controls nearly match PLatour on GSM8K, while PLatour retains gains beyond all tested controls on Chemistry with chain-of-thought generation. To examine this systematically, we introduce PACT-Check. It combines interventions on sender information with separately trained adaptation baselines. PACT-Score measures the accuracy margin over the strongest applicable control. Our takeaway: PACT shows promising performance, but understanding its benefits requires distinguishing useful sender information from gains achievable through adaptation. We hope PLatour and PACT-Check help the community investigate when prefill-only communication helps—and how to make those benefits more reliable.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.06976",
+      "pdf_url": "https://arxiv.org/pdf/2611.06976",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/zhenyi4/platour"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.06976",
+      "scraped_at": "2026-11-08T04:52:04.534315"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "EDGAR: Efficient Diffusion-Driven Gaussian Avatar Refinement via Synthetic Failure",
+    "paper_url": "https://huggingface.co/papers/2611.07909",
+    "authors": [],
+    "stars": "18",
+    "details": {
+      "title": "EDGAR: Efficient Diffusion-Driven Gaussian Avatar Refinement via Synthetic Failure",
+      "abstract": "Accepted to ACM Transactions on Graphics",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.07909",
+      "pdf_url": "https://arxiv.org/pdf/2611.07909",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/kwanyun/edgar-code"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.07909",
+      "scraped_at": "2026-11-08T04:52:06.204858"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling",
+    "paper_url": "https://huggingface.co/papers/2611.08237",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling",
+      "abstract": "GPT-6 Astra and Claude Fable 5.1 barely pass!? Today's LLM agents are strong when the problem is already well posed — write code, solve a math problem, call an API. The real world never hands you a problem that way. Nobody defines your variables, tells you which model to build, where the constraints are, how dirty the data is, or whether the conclusion survives contact with reality. Compressing a messy real-world situation into a model that is computable, verifiable, and defensible — that is mathematical modeling. It is the interface layer an LLM agent must cross to go from solving exercises to doing real work, and it is the least adequately measured layer we have. TB-MathModel is evaluation infrastructure built for exactly that layer. We use CUMCM/MCM contest problems as the entry point, and not because we care about contests: they are one of the very few public corpora that bundle a complete, unstructured real-world problem with genuine attachments, official figures, and human expert solutions. Eighteen of them go straight into containerized terminals — read the statement, open the spreadsheets, look at the figures, write code, run the solver, emit one structured JSON. That is a miniature of real modeling work. Three design choices make this layer measurable: We do not grade the report — we check the numbers. Each task anchors on the numeric core of the final question, scored direction-aware and one-sided: beating the human paper never costs you points. Not one reference answer — 94 of them. Modeling has no unique solution, so every Outstanding-award paper gets a vote: a model has to land close to many human experts at once, not memorize one answer. Feasibility verified independently, and machine-checkable. A programmatic gate over six decidable invariant forms plus 624 kernel-checked Lean 4 obligations — no Mathlib, no sorry. Reporting a number is not enough; it has to survive the physics. The result: the best entry, GPT-6 Astra, reaches only 64.6%; Fable 5.1 reaches 63.1%; a $2.54 open model holds 59.8% at 1/100 the cost. We are still far from agents that can handle real-world problems. And what that road needs is a uniform environment, a verifiable reward, and an agent-trajectory corpus that compounds — precisely what TB-MathModel sets out to provide. Code and data: https://github.com/wxj630/terminal-bench-math-modeling",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.08237",
+      "pdf_url": "https://arxiv.org/pdf/2611.08237",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/wxj630/terminal-bench-math-modeling"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.08237",
+      "scraped_at": "2026-11-08T04:52:07.882403"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
+    "paper_url": "https://huggingface.co/papers/2611.08376",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
+      "abstract": "Muir co-designs gated delta-rule linear attention with sensitivity-allocated low-rank gating (+30.4% wider FFN at iso-params), matched-filter readout to fix 100x slow-channel \"glare\" (+19.6 pts 5-hop Variable Tracking root retention at 1.34B), and a division-free block-Neumann kernel for wide-matrix-unit accelerators (TPUs). Consequently, Muir lowers perplexity across 166M-1.34B and streams 10M tokens in a constant 25 MB state (99.4% 1M passkey with static readout) while training 2.7x faster than Splash Attention at 32K.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.08376",
+      "pdf_url": "https://arxiv.org/pdf/2611.08376",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.08376",
+      "scraped_at": "2026-11-08T04:52:09.557454"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "Future Representation Distillation for Imagination-free World Action Models",
+    "paper_url": "https://huggingface.co/papers/2611.04527",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Future Representation Distillation for Imagination-free World Action Models",
+      "abstract": "Can we scale up imagination-free WAMs (e.g., Fast-WAM)? Excited to share DreamFree — an imagination-free WAM that improves with stronger video models and more video data, running at 11 Hz with a 14B video backbone. Video models learn how the world changes, providing useful knowledge for robot control. But generating future videos is costly, and prediction errors can affect actions. Imagination-free WAMs, e.g., Fast-WAM, enable robot control without generating future videos. But for Fast-WAM, stronger video priors don't automatically mean better control. In our experiments, scaling from 5B to 14B did not improve success. How can we make imagination-free WAMs benefit from stronger video models? Our key idea: turn the pretrained video model into a predictive visual encoder A frozen video teacher sees the future. The encoder learns to predict the teacher’s representation from the current view. This teaches the encoder to anticipate scene changes without generating future videos. Training the encoder needs only videos, without using action labels. Next, we train the action DiT using robot demonstrations with action labels. From the encoder’s visual representation, a readout learns to extract action-relevant information. An action decoder uses this information to predict robot actions. What we find: Real-world performance: Trained on DROID alone, DreamFree achieves 64% success across 10 real-world tasks, outperforming DreamZero at 56% and π0.5 at 16%. We evaluate the policies without task-specific fine-tuning. Fast inference: A 14B video backbone runs at 11 Hz on a single H200, with 17.8× faster inference than DreamZero. Memory efficiency: With a 14B video backbone, DreamFree fits on a single A6000 GPU with 48 GB of memory, without future-video generation or classifier-free guidance at inference. Better scaling: Scaling the video backbone from 5B to 14B significantly improves performance, enabling real-world manipulation on DROID and bimanual YAM. More video data further improves control without additional action labels. Video-only task transfer: DreamFree learns new task sequences from videos, including demonstrations from a different robot embodiment, without action labels for the new tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.04527",
+      "pdf_url": "https://arxiv.org/pdf/2611.04527",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.04527",
+      "scraped_at": "2026-11-08T04:52:11.256641"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+    "paper_url": "https://huggingface.co/papers/2611.08483",
+    "authors": [],
+    "stars": "8",
+    "details": {
+      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+      "abstract": "Author here! SwarmEvolve is an LLM-guided evolutionary search framework for mathematical discovery and optimization . Unlike many existing frameworks, SwarmEvolve runs swarms of hundreds of small agents that use latent reasoning and communicate through KV cache transfer, so they never write text. As a result, SwarmEvolve is much faster, more scalable, and more diverse in the ideas it explores. With open-weight Qwen3 8B, 14B and 32B, SwarmEvolve takes only minutes to reach the scores that other frameworks reach in an hour, and it improves on AlphaEvolve's results on a few problems! Like our agents, we think better as a swarm, so questions and ideas are very welcome!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.08483",
+      "pdf_url": "https://arxiv.org/pdf/2611.08483",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Qile-J/SwarmEvolve"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.08483",
+      "scraped_at": "2026-11-08T04:52:12.978187"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "SAE Interprets MoE: Sparse AutoEncoders Reveal That MoE Experts Exhibit Human-Interpretable Fine-Grained Specialization",
+    "paper_url": "https://huggingface.co/papers/2611.08089",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "SAE Interprets MoE: Sparse AutoEncoders Reveal That MoE Experts Exhibit Human-Interpretable Fine-Grained Specialization",
+      "abstract": "TL;DR : We train a TopK SAE with 2^20 latents and k = 100 on the MoE block output of Qwen3-30B-A3B at layers 4, 30 and 46. Because the SAE encoder is affine and the MoE output is a weighted sum of expert outputs, the activation of each latent decomposes exactly over the activated experts. Aggregating this decomposition over 1.5B tokens gives every expert a dominant set of latents that it principally drives. This lets us read what each expert does without any predefined domain taxonomy. Key findings: Contribution is far more concentrated than gating. Most latents have only one or two dominators. Dominant sets are largely private to each expert. Experts specialize below coarse domains. A Java expert sits next to a separate expert for front end web code, and a geometry expert sits next to one for arithmetic and polynomials. Grouping the 128 experts of layer 30 gives 11 domains of very unequal size. Some domains are not subject areas at all, such as text form, language, and entities and identifiers. Code, the three SAEs, and an interactive explorer of all 128 experts of layer 30 are released. Happy to answer questions!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.08089",
+      "pdf_url": "https://arxiv.org/pdf/2611.08089",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ByteDance-Seed/SAE-interprets-MoE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.08089",
+      "scraped_at": "2026-11-08T04:52:14.643377"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "HeLM: Hierarchical Explicit Language Memory for Non-Markovian Manipulation",
+    "paper_url": "https://huggingface.co/papers/2611.02660",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "HeLM: Hierarchical Explicit Language Memory for Non-Markovian Manipulation",
+      "abstract": "🤖 HeLM: Hierarchical Explicit Language Memory for Non-Markovian Manipulation How can robots track task progress when the current observation alone is insufficient? We introduce HeLM, a hierarchical VLM–VLA framework that maintains task-relevant history in explicit language memory. Two key aspects of our work: 🧠 Event-triggered memory updates: HeLM separates visual event detection from memory updates. The HLP updates memory and generates the next action command only when a task-relevant event is detected or the instruction changes. 🔄 Inter-episode memory: We introduce tasks where robots must remember information acquired under previous instructions, such as a human-demonstrated button sequence. We evaluate HeLM on 10 real-world non-Markovian tasks (56 variants) . Our two-stage inference improves average intra-episode subtask success from 67.7% to 85.7% compared with a one-stage variant. We also provide detailed failure analyses and evaluations of memory scalability. We welcome feedback and discussions on memory for robot learning!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.02660",
+      "pdf_url": "https://arxiv.org/pdf/2611.02660",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/kimspacehuni/HeLM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.02660",
+      "scraped_at": "2026-11-08T04:52:16.322691"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "Reducing Representational Interference in Retrieval Embeddings with Trainable Prefix Tokens",
+    "paper_url": "https://huggingface.co/papers/2611.07298",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Reducing Representational Interference in Retrieval Embeddings with Trainable Prefix Tokens",
+      "abstract": "This is an automated message from the Librarian Bot . I found the following papers similar to this paper. The following papers were recommended by the Semantic Scholar API Selecting What Matters: Semantic Compression-Guided Selective Pooling for Long-Context Embeddings (2026) ShiftRAG: Bypassing the Textual Bottleneck via Decoupled Learning and Continuous Soft Tokens (2026) RandSlot: Learning Compact Visual Document Representations with Random Soft Tokens (2026) ResComEmb: Effective and Efficient Multimodal Embedding via Residual Homogeneity Compression (2026) Bottlenecked semantic compression by representation reconstruction (2026) Compressing Long Context into Answer-Aligned Memory Embeddings for LLM Inference (2026) FLAT: Resampling Image and Text into 1D Flexible-Length Aligned Transmodal Tokens for Retrieval and Generation (2026) Please give a thumbs up to this comment if you found it helpful! If you want recommendations for any Paper on Hugging Face checkout this Space You can directly ask Librarian Bot for paper recommendations by tagging it in a comment: @librarian-bot recommend",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.07298",
+      "pdf_url": "https://arxiv.org/pdf/2611.07298",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.07298",
+      "scraped_at": "2026-11-08T04:52:18.010738"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "Towards Real-Time Full-Waveform LiDAR Transformers via Intensity-Guided Token Reduction and Physics-Aware Augmentation",
+    "paper_url": "https://huggingface.co/papers/2611.07613",
+    "authors": [
+      "Mariko Isogawa",
+      "Ryo Yoshida",
+      "Kazuma Ikeda",
+      "Kotaro Oishi",
+      "ryhara"
+    ],
+    "stars": "6",
+    "details": {
+      "title": "Towards Real-Time Full-Waveform LiDAR Transformers via Intensity-Guided Token Reduction and Physics-Aware Augmentation",
+      "abstract": "Accepted to NeurIPS 2026 (Main)",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.07613",
+      "pdf_url": "https://arxiv.org/pdf/2611.07613",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Keio-CSG/FWL-ToPM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.07613",
+      "scraped_at": "2026-11-08T04:52:19.659345"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "Decode Before You Hear: Speculative Listening for Chunk-Interleaved Full-Duplex Speech Language Models",
+    "paper_url": "https://huggingface.co/papers/2611.06982",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Decode Before You Hear: Speculative Listening for Chunk-Interleaved Full-Duplex Speech Language Models",
+      "abstract": "Decode Before You Hear: Speculative Listening for Full-Duplex Speech Language Models Most existing full-duplex speech models alternate between listening and speaking in fixed time chunks, which leaves the load across chunks highly uneven: compute sits idle during \"listening\", while \"speaking\" and tool calls miss their deadlines and fall behind because they generate many tokens serially. We observe that with silence as the hypothesized input, the output of 95.3% of chunks is identical to the output produced from the real audio, and 88% of divergences appear at the very first token. Building on this, Speculative Listening uses the idle compute of listening to draft the next chunk before the real audio arrives, using silence and the runner-up first-token candidate. All drafts are then verified together once the audio arrives, which requires no additional training and guarantees lossless output. Speed: On TickTock-Bench, the eight-task evaluation suite we built, speaking chunks are accelerated by 2.6–2.8×, and tool-call chunks by up to 23.4×. Latency: Decoding latency before a response begins drops by 73% on average, to 74–241 ms, close to the 200 ms turn-taking gap in human conversation. The maximum lag behind real time is reduced by 94.4%.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.06982",
+      "pdf_url": "https://arxiv.org/pdf/2611.06982",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.06982",
+      "scraped_at": "2026-11-08T04:52:21.352292"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "Tools Need Not Speak in Text: Latent Context Compression for Agents",
+    "paper_url": "https://huggingface.co/papers/2611.06500",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "Tools Need Not Speak in Text: Latent Context Compression for Agents",
+      "abstract": "We introduce Coca-Cola (Context Compression via Continuous Latent Tokens) , a method that lets LLM agents consume tool observations as compact latent representations instead of lengthy text. Rather than reconstructing the original tool output, Coca-Cola learns to preserve the information that matters for the agent’s next decision. Our Action-Preserving Training aligns next-action distributions under full and compressed observations, while keeping the target agent frozen. Across four web-search QA benchmarks—Natural Questions, TriviaQA, 2WikiMultiHopQA, and HotpotQA—and two model families (Qwen and GLM), Coca-Cola achieves: 70.01%–89.24% lower total agent token consumption 24.45%–55.97% shorter end-to-end runtime Higher answer EM and F1 than the uncompressed agent in every evaluated setting The key idea: tool observations need to support the agent’s decisions; they do not have to remain readable text. We welcome feedback and discussion, especially on extending latent tool observations to other agent workflows!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.06500",
+      "pdf_url": "https://arxiv.org/pdf/2611.06500",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/THU-Agent/Coca-cola"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.06500",
+      "scraped_at": "2026-11-08T04:52:23.041311"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation",
+    "paper_url": "https://huggingface.co/papers/2611.06498",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation",
+      "abstract": "We study the text-vector integrity gap in offline RAG: signed knowledge packs carry text and precomputed embeddings, but a signature proves who published a pack, not that its vectors encode its text (evaluated on five corpora and two embedding models, plus an end-to-end attack on a Raspberry Pi 5 running a local LLM). Key findings: A verifier that accepts recomputed vectors within a cosine tolerance concedes exactly the queries whose angular retrieval margin falls below it (the margin law). A floating-point-noise tolerance leaves up to 5.5% of queries exposed (at most 1.2% in any corpus once exact duplicate documents are excluded); a threshold calibrated from CPU INT8-FP32 differences leaves 98-100% exposed. Common floating-point and dynamic-INT8 inference pipelines are not bit-reproducible across batch sizes or architectures, so some tolerance is unavoidable. On the Pi 5, such an attack lowers correct answers from 0.75 to 0.39. On a FAISS product-quantisation index over 57,638 documents, tampered vectors that all pass the integrity audit put the attacker's document first for 25% of targets. Verifying quantisation codes instead, with verifier-decided ambiguity, a calibrated guard band and canonicalisation, accepted every honest vector on three platforms and left the publisher no choice. Code, data, and pre-registered negative results (abstention, context pruning, semantic screening) are open (DOI and GitHub links above).",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.06498",
+      "pdf_url": "https://arxiv.org/pdf/2611.06498",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/securagenai/signed-but-steerable"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.06498",
+      "scraped_at": "2026-11-08T04:52:24.732248"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "StepX-OPD: Rethinking Multi-Teacher On-Policy Distillation in Diffusion Models",
+    "paper_url": "https://huggingface.co/papers/2611.04386",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "StepX-OPD: Rethinking Multi-Teacher On-Policy Distillation in Diffusion Models",
+      "abstract": "A deployable text-to-image diffusion model must hold several capabilities at once, such as instruction following, text rendering and human preference, and must sample in a few steps. Capabilities and few-step sampling are built in separate stages: a full-step model first consolidates capabilities through multi-teacher on-policy distillation, then serves as a fixed teacher for step distillation. Every full-step model we evaluate scores lower once compressed, and the second stage cannot begin until the first finishes. We introduce StepX-OPD, which merges the two stages: one student acquires every capability while learning to sample in a few steps, so frozen specialists supervise it on the states its own rollout visits rather than on a longer trajectory it never runs. Because a decomposition of the rollout's KL weights velocity mismatch most heavily near the clean end, we also regress the student's velocity on the low-noise part of the rollout. Separately, we find that capability integration makes models write prompt words into images on prompts that never asked for text, and we give a variant that lowers it. We evaluate on SD3.5-Medium and FLUX.1-dev across instruction following, text rendering, image quality and human preference. On both architectures, StepX-OPD attains the highest normalized average score among the four-step methods compared and exceeds the forty-step Flow-OPD model, and on SD3.5-Medium it trains with about 37% fewer GPU-hours than sequential DiffusionOPD followed by step distillation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.04386",
+      "pdf_url": "https://arxiv.org/pdf/2611.04386",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/WinterCCC/StepX-OPD"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.04386",
+      "scraped_at": "2026-11-08T04:52:26.371453"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+    "paper_url": "https://huggingface.co/papers/2610.37739",
+    "authors": [
+      "Tong Zhang",
+      "Ruida Wang",
+      "Jiarui Yao"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+      "abstract": "Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems remains challenging. We introduce OpenFrontiers, a cross-disciplinary resource that combines a structured corpus of open research problems with a retrospective benchmark of recently resolved problems in mathematics. The corpus records problem statements, context, progress, and other information for 12,151 problems. The benchmark contains 200 problems, 110 resolved in 2026 and 90 still open, each with a Lean~4 statement checked by automated probes and two independent reviews; a subset HQ-50 further filters based on quality score, etc. Our evaluation protocol grades formal proofs with two independent checkers in an isolated sandbox under closed-book, frozen-retrieval, and live-web conditions. Evaluating seven LLM agents on the HQ-50 subset under a standardized budget, we find that closed-book rediscovery is rare, at most 7 of 40 resolved problems, whereas live-web success mostly reflects retrieval of published solutions. By linking a broad research-problem corpus to a formally graded evaluation subset with documented solutions, OpenFrontiers provides a foundation for measuring research-level rediscovery and studying progress toward solving currently open scientific problems. The dataset and benchmark could be found in https://huggingface.co/collections/FlippyDora/openfrontiers .",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.37739",
+      "pdf_url": "https://arxiv.org/pdf/2610.37739",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.37739",
+      "scraped_at": "2026-11-08T04:52:28.033066"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents",
+    "paper_url": "https://huggingface.co/papers/2611.02075",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents",
+      "abstract": "We introduce Decoupled Predictive Decision Making (DPDM) , an architecture that turns historical experience into predictions for agent decisions through a shared pretrained learner. The key idea is to separate semantic representation from empirical inference. An LLM represents current and historical records, while a conditional predictor uses the represented evidence to predict task-defined targets. This brings together two complementary capabilities: semantic knowledge from language pretraining and empirical inference from structured-data pretraining. Tool judgments, candidate preferences, and reasoning assessments share the same evidence-and-query interface, with predictions converted into choices by a decision rule. We use a single frozen LimiX-2 predictor across all five evaluated task categories, without updating either model’s neural parameters at deployment. Key results: Across 50 benchmarks: With Qwen3.5-27B as the semantic encoder, mean accuracy rises from 78.80% with few-shot prompting to 84.92% with DPDM at the methods’ respective evaluated history budgets. With identical histories and queries, DPDM reaches 82.33% . Tool-use assessment: On ToolPRMBench’s BFCL and ToolSandbox tasks, accuracy improves over few-shot prompting by 34.26 and 28.87 percentage points , respectively, at the methods’ respective evaluated history budgets. Accuracy also improves as history grows. Imbalanced histories: With identical imbalanced histories, DPDM improves mean balanced accuracy over few-shot prompting by 14.51 percentage points across five reasoning-step assessment tasks and four encoders. DPDM makes learning from experience an independently improvable foundation-model capability: advances in a shared conditional predictor can improve decisions across agent tasks. We welcome feedback and discussion!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.02075",
+      "pdf_url": "https://arxiv.org/pdf/2611.02075",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.02075",
+      "scraped_at": "2026-11-08T04:52:29.705931"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "Information Games: Strategic Crowding and Firm Repositioning in Language-Model Space",
+    "paper_url": "https://huggingface.co/papers/2609.37820",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Information Games: Strategic Crowding and Firm Repositioning in Language-Model Space",
+      "abstract": "The recent work by Jan LeCunn and Randall Balestriero \"Proving and Improving the Platonic Representation Hypothesis with JEPAs\", begs some deep question about the role of representation learning in the study of body natural and social phenomenon - might measures of similarity be an intrinsic economic property, and if so in efficient markets might movements in information space reveal something fundamental about competition and incentive? To economists this is a deep and fascinating question, but to machine learning researchers, I think this begs a question as to whether evals can be market-driven: distributed and leakage proof? Might this be the future of measurement or reward.",
+      "arxiv_page_url": "https://arxiv.org/abs/2609.37820",
+      "pdf_url": "https://arxiv.org/pdf/2609.37820",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2609.37820",
+      "scraped_at": "2026-11-08T04:52:31.334822"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "Identically Trained Language Models Break on Different Jailbreaks",
+    "paper_url": "https://huggingface.co/papers/2610.34074",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Identically Trained Language Models Break on Different Jailbreaks",
+      "abstract": "I'll tell you what, only 27% of model pairs kept the same best attack template after a new pretraining seed, against 67% after a new post-training seed. For a bank that buys a vendor model and gets silent base-model refreshes, that reads like a red-team result is tied to one pretraining run, not to the model name on the contract. Is that how you would read it? And could the fingerprint work as a cheap, FAST check? If a random 50 prompts identify the pretraining run 98% of the time among your 75 runs, a \"same model\" update that no longer matches would be the signal that a full re-test is due.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.34074",
+      "pdf_url": "https://arxiv.org/pdf/2610.34074",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/cerulean-works/castor"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.34074",
+      "scraped_at": "2026-11-08T04:52:33.194040"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "Hard Sample-Conditioned Decorrelated Attention for Robust Face Recognition",
+    "paper_url": "https://huggingface.co/papers/2610.41789",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Hard Sample-Conditioned Decorrelated Attention for Robust Face Recognition",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2501.13420",
+      "pdf_url": "https://arxiv.org/pdf/2610.41789",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.41789",
+      "scraped_at": "2026-11-08T04:52:34.851127"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "NPCBench: A Clinical Apprenticeship Benchmark for Multimodal Care-Pathway Reasoning in Nasopharyngeal Carcinoma",
+    "paper_url": "https://huggingface.co/papers/2611.08369",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "NPCBench: A Clinical Apprenticeship Benchmark for Multimodal Care-Pathway Reasoning in Nasopharyngeal Carcinoma",
+      "abstract": "Current medical benchmarks typically break down clinical competence into isolated factual questions, single-image tasks, or static case vignettes. These tests score individual answers, but reveal less about whether a model can integrate subspecialty knowledge with multimodal evidence and track a patient's condition throughout a course of care. To close this gap, we introduce NPCBench, a clinical apprenticeship benchmark for nasopharyngeal carcinoma (NPC). NPCBench mirrors specialist training, from guideline and foundational knowledge to case planning, longitudinal review, CarePath integration, and open-ended consultation. It contains 4,777 component and consultation items and a 100-patient CarePath cohort with 417 scored diagnostic and care tasks. The episode-level evaluation tests whether diagnostic and care answers are jointly correct within a care pathway. By linking stepwise tasks to patient-level care trajectories, NPCBench evaluates whether models ground decisions in visual evidence, interpret changes in patient state, and meet clinical requirements in consultation. Across 30 evaluated models, we observe a composition gap: strong performance on individual tasks does not ensure jointly correct diagnostic and care answers for the same patient. Among 21 multimodal models, strict CarePath success reaches at most 23%. Paired controls and physician calibration further examine evidence grounding, longitudinal revision, and consultation judging. Overall, NPCBench broadens the evaluation of medical artificial intelligence beyond static question-answering paradigms to an apprenticeship-oriented assessment of clinical workflows, thereby offering a testbed for evidence-based and temporally coherent reasoning in oncology care.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.08369",
+      "pdf_url": "https://arxiv.org/pdf/2611.08369",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.08369",
+      "scraped_at": "2026-11-08T04:52:36.524731"
+    },
+    "scraped_date": "2026-11-08"
+  },
+  {
+    "title": "SynthFaces: Balanced Large Scale Human Dataset",
+    "paper_url": "https://huggingface.co/papers/2610.40119",
+    "authors": [
+      "Aibek Alanov",
+      "Kirill Morozov",
+      "Denis Bobkov",
+      "shredder67"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "SynthFaces: Balanced Large Scale Human Dataset",
+      "abstract": "Face datasets are heavily skewed across age, race and gender, and large real-world collections include people who never agreed to be used for training. We propose SynthFaces, a synthetic alternative that is balanced by design. A label-conditional flow matching model, ID-Flow, samples new identities for any chosen demographic group. An identity-conditioned generator turns them into face images, which are then placed into varied, captioned scenes. The result is a large dataset of non-existent people, with about 10 images per identity. It can be used to train and fine-tune fairer identity-preserving models without real personal data. Accepted to BMVC 2026.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.40119",
+      "pdf_url": "https://arxiv.org/pdf/2610.40119",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ControlGenAI/SynthFaces"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.40119",
+      "scraped_at": "2026-11-08T04:52:38.180636"
+    },
+    "scraped_date": "2026-11-08"
+  }
+]
