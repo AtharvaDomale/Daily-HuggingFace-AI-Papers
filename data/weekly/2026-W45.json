@@ -1,0 +1,230 @@
+[
+  {
+    "title": "Beneath the Surface: What We Overlook When We Talk About Agent Evolution",
+    "paper_url": "https://huggingface.co/papers/2611.07624",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Beneath the Surface: What We Overlook When We Talk About Agent Evolution",
+      "abstract": "Does a higher benchmark score really mean an agent is getting better? 🤔 In our paper, we go beyond surface-level benchmark evaluations to investigate what actually happens during agent evolution and why improvements do not always translate into better agents. We systematically study agent evolution from three perspectives, Phenomenology, Generalization, and Mechanisms , and further dissect four key stages: Select, Analyze, Mutate, and Gate . Building on these insights, we introduce EvoAudit and Audit-Guided Evolution (AGE) , moving toward more reliable, evidence-driven agent self-improvement. 💻 Code: https://github.com/simple-agent-lab/RSIHub",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.07624",
+      "pdf_url": "https://arxiv.org/pdf/2611.07624",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/simple-agent-lab/RSIHub"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.07624",
+      "scraped_at": "2026-11-09T04:59:35.414937"
+    },
+    "scraped_date": "2026-11-09"
+  },
+  {
+    "title": "EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models",
+    "paper_url": "https://huggingface.co/papers/2611.06748",
+    "authors": [
+      "Haoxuan Che",
+      "Xiaozhuan Liang",
+      "Zhixuan Chen",
+      "Dengyang Jiang",
+      "Tommy-Bie"
+    ],
+    "stars": "15",
+    "details": {
+      "title": "EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models",
+      "abstract": "We are excited to introduce EvoWorld, a video generation framework for out-of-sight world evolution. EvoWorld combines a VLM brain with a visual renderer, enabling off-screen entities to remain active participants in an evolving world. Within a bidirectional autoregressive paradigm, EvoWorld supports event-triggered world evolution, subject and scene revisitation, and out-of-sight dynamics rendering through model reasoning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.06748",
+      "pdf_url": "https://arxiv.org/pdf/2611.06748",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Tommy-Bie/EvoWorld"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.06748",
+      "scraped_at": "2026-11-09T04:59:37.151804"
+    },
+    "scraped_date": "2026-11-09"
+  },
+  {
+    "title": "Video-Coder: Reinforcing Agentic Coding for Video Generation",
+    "paper_url": "https://huggingface.co/papers/2611.09894",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Video-Coder: Reinforcing Agentic Coding for Video Generation",
+      "abstract": "Recent years have witnessed remarkable progress in video generation in terms of visual quality and temporal consistency. However, generating videos with precise spatial structure, coherent motion dynamics, and controllable scene composition remains challenging. In this paper, we introduce Video-Coder, the first attempt to train a code-driven video generation agent, which autonomously writes and executes code to construct a dynamic 3D scene (Draft Video) that provides structure and motion signals to downstream video generators. To support this paradigm, we design a dedicated data pipeline and curate two high-quality datasets, Video-Coder-SFT-6k and Video-Coder-RL-2k, which contain diverse prompts and ground-truth reference videos. We further develop the Video- Coder Harness, a unified interactive environment integrating code execution, 3D scene rendering, and execution feedback for agent training and inference. We then train Video-Coder with SFT fol- lowed by harness-native agentic reinforcement learning with dual reward feedback, which combines execution-based and video-based rewards. Additionally, we design an annealing training strategy that gradually reduces the execution reward over time, allowing the model to rely more on the video reward in the later training stages. Experiments show that Video-Coder achieves significant gains, improving Minimax-H3 by approximately 7 points on PhyGenBench and 24 points on VBench-2.0. We hope this work can serve as an open foundation for coding agents in video generation, and we fully open-source our data, models, and code",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.09894",
+      "pdf_url": "https://arxiv.org/pdf/2611.09894",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/CYWang735/Video-Coder"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.09894",
+      "scraped_at": "2026-11-09T04:59:38.815751"
+    },
+    "scraped_date": "2026-11-09"
+  },
+  {
+    "title": "Exploring Weight-Space Programming: Capabilities, Generalization, and Limitations",
+    "paper_url": "https://huggingface.co/papers/2611.09382",
+    "authors": [
+      "Chun-Mei Feng",
+      "Hongze Zhu",
+      "Wei Li",
+      "Cheng Tang",
+      "Junru Hu"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "Exploring Weight-Space Programming: Capabilities, Generalization, and Limitations",
+      "abstract": "We systematically evaluate Weight-Space Programming through 16 editing trajectories across seven benchmarks and two model scales. Our results show uneven cross-task transfer, substantial variation across independent searches, and more limited gains on the larger model. Feedback and discussion are welcome.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.09382",
+      "pdf_url": "https://arxiv.org/pdf/2611.09382",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/WSP-Scope/WSP-Scope-Project"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.09382",
+      "scraped_at": "2026-11-09T04:59:40.456737"
+    },
+    "scraped_date": "2026-11-09"
+  },
+  {
+    "title": "Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription",
+    "paper_url": "https://huggingface.co/papers/2611.06043",
+    "authors": [],
+    "stars": "868",
+    "details": {
+      "title": "Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription",
+      "abstract": "Excited to share Confucius4-R2T2 , our stable-prefix streaming ASR model designed for real-time applications! Unlike conventional streaming ASR systems that repeatedly revise partial transcripts, R2T2 produces append-only, stable text that downstream systems such as voice agents and simultaneous translators can consume immediately. The key idea is Longest Stable Prefix (LSP) supervision, which enables us to transform a full-context ASR model into a streaming one through post-training, without architectural modifications. Built on Qwen3-ASR-1.7B, R2T2 achieves near-offline recognition accuracy with low emission latency, supports configurable streaming chunk sizes, and demonstrates promising cross-lingual generalization. We've made the model and implementation publicly available: 🤗 Model: https://huggingface.co/netease-youdao/Confucius4-R2T2 💻 GitHub: https://github.com/netease-youdao/Confucius4-R2T2 🎙️ Live demo: https://r2t2.youdao.com/demo We'd love to hear your feedback and see what the community builds with it!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.06043",
+      "pdf_url": "https://arxiv.org/pdf/2611.06043",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/netease-youdao/Confucius4-R2T2"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.06043",
+      "scraped_at": "2026-11-09T04:59:42.206495"
+    },
+    "scraped_date": "2026-11-09"
+  },
+  {
+    "title": "AgentBaton: Efficient Model Collaboration in Agentic Tasks",
+    "paper_url": "https://huggingface.co/papers/2610.35959",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AgentBaton: Efficient Model Collaboration in Agentic Tasks",
+      "abstract": "https://research.nvidia.com/labs/lpr/agentbaton/",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.35959",
+      "pdf_url": "https://arxiv.org/pdf/2610.35959",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.35959",
+      "scraped_at": "2026-11-09T04:59:43.824275"
+    },
+    "scraped_date": "2026-11-09"
+  },
+  {
+    "title": "Frontier3DBench: Benchmarking Coding Agents for 3D Creation across Objects, Scenes, and Interactive Open Worlds",
+    "paper_url": "https://huggingface.co/papers/2611.09017",
+    "authors": [
+      "Xiaoqiu Wang",
+      "John Lam",
+      "Wenyi Li",
+      "Qingle Liu",
+      "Xinjie Lin"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Frontier3DBench: Benchmarking Coding Agents for 3D Creation across Objects, Scenes, and Interactive Open Worlds",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2611.09017",
+      "pdf_url": "https://arxiv.org/pdf/2611.09017",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.09017",
+      "scraped_at": "2026-11-09T04:59:45.470035"
+    },
+    "scraped_date": "2026-11-09"
+  },
+  {
+    "title": "OmniLatent: Unified Latent for 3D Part Modeling",
+    "paper_url": "https://huggingface.co/papers/2611.09055",
+    "authors": [
+      "Minxiu Wang",
+      "Jiachen Xu",
+      "Zeqiang Lai",
+      "Yunfei Zhao",
+      "Yunhan Yang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "OmniLatent: Unified Latent for 3D Part Modeling",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2611.09055",
+      "pdf_url": "https://arxiv.org/pdf/2611.09055",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.09055",
+      "scraped_at": "2026-11-09T04:59:47.065732"
+    },
+    "scraped_date": "2026-11-09"
+  },
+  {
+    "title": "The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks",
+    "paper_url": "https://huggingface.co/papers/2611.07461",
+    "authors": [
+      "Xiaopeng Yuan",
+      "Peng Kuang",
+      "Haibo Jin",
+      "haohanw",
+      "YaoningYu"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks",
+      "abstract": "How can AI agents reliably solve real-world tasks end to end? We introduce Agent-Native Primitives, reusable building blocks that equip tools, code, knowledge, and other resources with their own LLM-powered experts. Building on this idea, HEELO dynamically composes task-specific agent harnesses from eight families of primitives. Across 20+ benchmarks and 46 real-world tasks, HEELO substantially improves agent performance. On our real-world tasks, connecting existing agent systems to HEELO increases completed tasks from 9 to 39 for Claude Code and from 9 to 35 for Codex.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.07461",
+      "pdf_url": "https://arxiv.org/pdf/2611.07461",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.07461",
+      "scraped_at": "2026-11-09T04:59:48.797239"
+    },
+    "scraped_date": "2026-11-09"
+  },
+  {
+    "title": "Sketchpad: certified exact arithmetic with a small vision-language model",
+    "paper_url": "https://huggingface.co/papers/2611.04434",
+    "authors": [
+      "mohsenvand"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Sketchpad: certified exact arithmetic with a small vision-language model",
+      "abstract": "Author here. Can a small model be proven exact at arithmetic on inputs of every length? 🧮 The theory If each step of a model reads only a bounded view of an external memory, exactness at all lengths reduces to exactness on a finite set of views . Proved in Lean, along with: Necessity: once steps can also read earlier steps, no finite test suffices . Robustness: the guarantee survives bounded numerical error. Composition: certified procedures stay certified when combined. ⚙️ In practice Qwen3.5-0.8B + a small adapter passes all 2,446 views on a laptop GPU, in the browser. It is certified for + − × ÷ √ gcd at any length. 220 pre-registered problems Score Sketchpad (0.8B) 220 GPT-6.1 Sol · Claude Opus 5.5 · Gemini 4 Argon 217 · 216 · 207 Five open-weight models 149–199 Qwen3.5-27B · Qwen3.5-0.8B (base) 121 · 23 On 1,000-digit sums : Sketchpad 20/20; frontier models 19, 17, 9; every open-weight model ≤ 2. 🔗 Live demo · Code",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.04434",
+      "pdf_url": "https://arxiv.org/pdf/2611.04434",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/NeoVand/sketchpad"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.04434",
+      "scraped_at": "2026-11-09T04:59:50.547761"
+    },
+    "scraped_date": "2026-11-09"
+  }
+]
