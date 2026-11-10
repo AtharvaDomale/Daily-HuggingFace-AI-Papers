@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-10-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-7910+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-9-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-7919+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">10</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">10</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">182</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">7910+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">9</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">19</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">191</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">7919+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** November 09, 2026
+**Last Updated:** November 10, 2026
 
 ---
 
@@ -119,144 +119,123 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Beneath the Surface: What We Overlook When We Talk About Agent Evolution</b> ⭐ 0</summary>
+<summary><b>1. WorldFoundry: Towards Unified Infrastructure for World Intelligence</b> ⭐ 322</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.07624) • [📄 arXiv](https://arxiv.org/abs/2611.07624) • [📥 PDF](https://arxiv.org/pdf/2611.07624)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.10771) • [📄 arXiv](https://arxiv.org/abs/2611.10771) • [📥 PDF](https://arxiv.org/pdf/2611.10771)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/simple-agent-lab/RSIHub)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/OpenEnvision/WorldFoundry)
 
-> Does a higher benchmark score really mean an agent is getting better? 🤔 In our paper, we go beyond surface-level benchmark evaluations to investigate what actually happens during agent evolution and why improvements do not always translate into be...
+> Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical ...
 
 </details>
 
 <details>
-<summary><b>2. EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models</b> ⭐ 15</summary>
+<summary><b>2. ReproBridge: Building Reproducibility into ML Research Artifacts</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Haoxuan Che, Xiaozhuan Liang, Zhixuan Chen, Dengyang Jiang, Tommy-Bie
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.06748) • [📄 arXiv](https://arxiv.org/abs/2611.06748) • [📥 PDF](https://arxiv.org/pdf/2611.06748)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Tommy-Bie/EvoWorld)
-
-> We are excited to introduce EvoWorld, a video generation framework for out-of-sight world evolution. EvoWorld combines a VLM brain with a visual renderer, enabling off-screen entities to remain active participants in an evolving world. Within a bi...
-
-</details>
-
-<details>
-<summary><b>3. Video-Coder: Reinforcing Agentic Coding for Video Generation</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.09894) • [📄 arXiv](https://arxiv.org/abs/2611.09894) • [📥 PDF](https://arxiv.org/pdf/2611.09894)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/CYWang735/Video-Coder)
-
-> Recent years have witnessed remarkable progress in video generation in terms of visual quality and temporal consistency. However, generating videos with precise spatial structure, coherent motion dynamics, and controllable scene composition remain...
-
-</details>
-
-<details>
-<summary><b>4. Exploring Weight-Space Programming: Capabilities, Generalization, and Limitations</b> ⭐ 1</summary>
-
-<br/>
-
-**👥 Authors:** Chun-Mei Feng, Hongze Zhu, Wei Li, Cheng Tang, Junru Hu
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.09382) • [📄 arXiv](https://arxiv.org/abs/2611.09382) • [📥 PDF](https://arxiv.org/pdf/2611.09382)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/WSP-Scope/WSP-Scope-Project)
-
-> We systematically evaluate Weight-Space Programming through 16 editing trajectories across seven benchmarks and two model scales. Our results show uneven cross-task transfer, substantial variation across independent searches, and more limited gain...
-
-</details>
-
-<details>
-<summary><b>5. Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription</b> ⭐ 868</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.06043) • [📄 arXiv](https://arxiv.org/abs/2611.06043) • [📥 PDF](https://arxiv.org/pdf/2611.06043)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/netease-youdao/Confucius4-R2T2)
-
-> Excited to share Confucius4-R2T2 , our stable-prefix streaming ASR model designed for real-time applications! Unlike conventional streaming ASR systems that repeatedly revise partial transcripts, R2T2 produces append-only, stable text that downstr...
-
-</details>
-
-<details>
-<summary><b>6. AgentBaton: Efficient Model Collaboration in Agentic Tasks</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.35959) • [📄 arXiv](https://arxiv.org/abs/2610.35959) • [📥 PDF](https://arxiv.org/pdf/2610.35959)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.08452) • [📄 arXiv](https://arxiv.org/abs/2611.08452) • [📥 PDF](https://arxiv.org/pdf/2611.08452)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> https://research.nvidia.com/labs/lpr/agentbaton/
+> ReproBridge starts from a simple question: when a coding agent reproduces a paper, how much of its success comes from the released artifacts, and how much from the agent filling in what the paper and code leave implicit? What we built Refined repr...
 
 </details>
 
 <details>
-<summary><b>7. Frontier3DBench: Benchmarking Coding Agents for 3D Creation across Objects, Scenes, and Interactive Open Worlds</b> ⭐ 0</summary>
+<summary><b>3. Flide: Accelerating Decision Inference with Exact State Forking</b> ⭐ 291</summary>
 
 <br/>
 
-**👥 Authors:** Xiaoqiu Wang, John Lam, Wenyi Li, Qingle Liu, Xinjie Lin
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.42148) • [📄 arXiv](https://arxiv.org/abs/2610.42148) • [📥 PDF](https://arxiv.org/pdf/2610.42148)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.09017) • [📄 arXiv](https://arxiv.org/abs/2611.09017) • [📥 PDF](https://arxiv.org/pdf/2611.09017)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/OmniJev/Flide)
+
+> Hi everyone! I'm one of the authors of Flide. We built Flide from scratch, an open-source inference engine for Jev-like decision models. The key idea is exact state forking, which allows multiple questions to share computation while preserving exa...
+
+</details>
+
+<details>
+<summary><b>4. TRIO: Task Refinement with Individual Optimization for Retrieval-Augmented Generation</b> ⭐ 2</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.02810) • [📄 arXiv](https://arxiv.org/abs/2611.02810) • [📥 PDF](https://arxiv.org/pdf/2611.02810)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/yingtaoren/TRIO)
+
+> Can three specialized agents make RAG more accurate than a single powerful reasoning model? 🚀 Introducing TRIO , a multi-agent RAG framework that improves retrieval-augmented reasoning through specialized agent optimization. TRIO jointly coordinat...
+
+</details>
+
+<details>
+<summary><b>5. JoVox: Joint Hierarchical Flow Matching for Lightweight Voxel Generation</b> ⭐ 1</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.10690) • [📄 arXiv](https://arxiv.org/abs/2611.10690) • [📥 PDF](https://arxiv.org/pdf/2611.10690)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/yuyujunjun/JoVox)
+
+> JoVox generates voxel structures with one discrete flow matching model that learns all hierarchy levels jointly (4³ → 16³ → 64³), instead of one level at a time. Compared with TRELLIS.2 using the same backbone: 8× training throughput, 1/15 FLOPs p...
+
+</details>
+
+<details>
+<summary><b>6. Horizon-Scalable Q-Learning</b> ⭐ 2</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.10987) • [📄 arXiv](https://arxiv.org/abs/2611.10987) • [📥 PDF](https://arxiv.org/pdf/2611.10987)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/ryanxhr/hql)
+
+> Learning accurate off-policy state-action value functions (Q-functions) from offline datasets becomes harder as the task horizon grows. One-step temporal-difference (TD) learning bootstraps after every transition, so small per-step errors accumula...
+
+</details>
+
+<details>
+<summary><b>7. PhysioWave-T: Token-Efficient Wavelet Foundation Models for Biosignals</b> ⭐ 215</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.08969) • [📄 arXiv](https://arxiv.org/abs/2611.08969) • [📥 PDF](https://arxiv.org/pdf/2611.08969)
+
+**💻 Code:** [⭐ Code](https://github.com/ForeverBlue816/PhysioWave) • [⭐ Code](https://github.com/huggingface)
+
+> We introduce PhysioWave-T, an efficient biosignal foundation model for EEG, ECG, and surface EMG. Scaling across these signals requires handling diverse recording setups and varying signal quality. Our Dynamic Scale Folding adapts to heterogeneous...
+
+</details>
+
+<details>
+<summary><b>8. AutoVend: Benchmarking LLM Agents on Long-Horizon Autonomous Vending Operations</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Sinuo Wang, Rui Sun, Beidi Luan, Yikun Li, Qiming Shi
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.36980) • [📄 arXiv](https://arxiv.org/abs/2610.36980) • [📥 PDF](https://arxiv.org/pdf/2610.36980)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> No abstract available.
+> 🤖 Can an LLM agent run a vending business for 180 days? Many commercial tasks end when a transaction is completed. Running a business is different: today’s decisions determine tomorrow’s stock availability, costs, and cash position. We introduce A...
 
 </details>
 
 <details>
-<summary><b>8. OmniLatent: Unified Latent for 3D Part Modeling</b> ⭐ 0</summary>
+<summary><b>9. FlyHash for LLM Agent Memory: An Empirical Validation and a New Application</b> ⭐ 1</summary>
 
 <br/>
 
-**👥 Authors:** Minxiu Wang, Jiachen Xu, Zeqiang Lai, Yunfei Zhao, Yunhan Yang
+**👥 Authors:** Chrisogonas O. Odhiambo, pranamhan
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.09055) • [📄 arXiv](https://arxiv.org/abs/2611.09055) • [📥 PDF](https://arxiv.org/pdf/2611.09055)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.05791) • [📄 arXiv](https://arxiv.org/abs/2611.05791) • [📥 PDF](https://arxiv.org/pdf/2611.05791)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/mohanji/flyhash-agent-memory)
 
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>9. The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Xiaopeng Yuan, Peng Kuang, Haibo Jin, haohanw, YaoningYu
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.07461) • [📄 arXiv](https://arxiv.org/abs/2611.07461) • [📥 PDF](https://arxiv.org/pdf/2611.07461)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
-
-> How can AI agents reliably solve real-world tasks end to end? We introduce Agent-Native Primitives, reusable building blocks that equip tools, code, knowledge, and other resources with their own LLM-powered experts. Building on this idea, HEELO dy...
-
-</details>
-
-<details>
-<summary><b>10. Sketchpad: certified exact arithmetic with a small vision-language model</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** mohsenvand
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.04434) • [📄 arXiv](https://arxiv.org/abs/2611.04434) • [📥 PDF](https://arxiv.org/pdf/2611.04434)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/NeoVand/sketchpad)
-
-> Author here. Can a small model be proven exact at arithmetic on inputs of every length? 🧮 The theory If each step of a model reads only a bounded view of an external memory, exactness at all lengths reduces to exactness on a finite set of views . ...
+> Hi everyone, I'm one of the authors. We tested FlyHash, a fruit-fly-inspired sparse hash, against SimHash for retrieving memories in LLM agents, using matched bit budgets and a labeled benchmark we released (6,000 memories, 150 queries). Main resu...
 
 </details>
 
@@ -268,28 +247,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 10 |
-| 📅 Today | [`2026-11-09.json`](data/daily/2026-11-09.json) | 10 |
-| 📆 This Week | [`2026-W45.json`](data/weekly/2026-W45.json) | 10 |
-| 🗓️ This Month | [`2026-11.json`](data/monthly/2026-11.json) | 182 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 9 |
+| 📅 Today | [`2026-11-10.json`](data/daily/2026-11-10.json) | 9 |
+| 📆 This Week | [`2026-W45.json`](data/weekly/2026-W45.json) | 19 |
+| 🗓️ This Month | [`2026-11.json`](data/monthly/2026-11.json) | 191 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-11-09 | 10 | [View JSON](data/daily/2026-11-09.json) |
+| 📌 2026-11-10 | 9 | [View JSON](data/daily/2026-11-10.json) |
+| 📄 2026-11-09 | 10 | [View JSON](data/daily/2026-11-09.json) |
 | 📄 2026-11-08 | 32 | [View JSON](data/daily/2026-11-08.json) |
 | 📄 2026-11-07 | 32 | [View JSON](data/daily/2026-11-07.json) |
 | 📄 2026-11-06 | 8 | [View JSON](data/daily/2026-11-06.json) |
 | 📄 2026-11-05 | 13 | [View JSON](data/daily/2026-11-05.json) |
 | 📄 2026-11-04 | 20 | [View JSON](data/daily/2026-11-04.json) |
-| 📄 2026-11-03 | 14 | [View JSON](data/daily/2026-11-03.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W45 | 10 | [View JSON](data/weekly/2026-W45.json) |
+| 📅 2026-W45 | 19 | [View JSON](data/weekly/2026-W45.json) |
 | 📅 2026-W44 | 133 | [View JSON](data/weekly/2026-W44.json) |
 | 📅 2026-W43 | 149 | [View JSON](data/weekly/2026-W43.json) |
 | 📅 2026-W42 | 204 | [View JSON](data/weekly/2026-W42.json) |
@@ -298,7 +277,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-11 | 182 | [View JSON](data/monthly/2026-11.json) |
+| 🗓️ 2026-11 | 191 | [View JSON](data/monthly/2026-11.json) |
 | 🗓️ 2026-10 | 1120 | [View JSON](data/monthly/2026-10.json) |
 | 🗓️ 2026-09 | 480 | [View JSON](data/monthly/2026-09.json) |
 | 🗓️ 2026-08 | 747 | [View JSON](data/monthly/2026-08.json) |

@@ -1,0 +1,189 @@
+[
+  {
+    "title": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
+    "paper_url": "https://huggingface.co/papers/2611.10771",
+    "authors": [],
+    "stars": "322",
+    "details": {
+      "title": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
+      "abstract": "Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions. The absence of a shared operational basis, together with perception-centric benchmarks and fragmented workflows, obscures the distinction between generative foundation models and generative world models and hinders reproducible assessment of dynamics, controllability, and interactive utility. We define a generative world model as a predictive dynamical system that maintains a persistent, history-conditioned representation of an environment, updates that representation in response to actions or interventions, and generates temporally coherent trajectories that reflect outcomes under observed and counterfactual interventions. From this definition, we derive an intelligence-oriented framework spanning perceptual grounding, persistent state modeling, controllable transformation, dynamics-aware prediction, and closed-loop interaction. We further present WorldFoundry, open-source infrastructure for reproducible inference and evaluation across video, 3D and 4D, embodied action, and interactive world systems. WorldFoundry unifies model and benchmark discovery, runtime and asset preparation, execution orchestration, artifact management, and interactive visualization, while modality-specific adapters preserve native inputs, execution semantics, output representations, and evaluation protocols. Explicit manifests, durable artifact contracts, and evidence-aware scorecards separate execution readiness from evaluative claims, making each claim traceable to its supporting artifacts. The current catalog contains 270 model entries, 74 benchmarks, and 62 registered metric entries, with integration readiness and execution evidence recorded separately for each entry. By coupling world modeling with evidence-grounded executable infrastructure, WorldFoundry enables reproducible comparison of persistent, controllable dynamics across heterogeneous systems, advancing the field from perceptual synthesis toward measurable world intelligence.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.10771",
+      "pdf_url": "https://arxiv.org/pdf/2611.10771",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/OpenEnvision/WorldFoundry"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.10771",
+      "scraped_at": "2026-11-10T06:16:24.688777"
+    },
+    "scraped_date": "2026-11-10"
+  },
+  {
+    "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
+    "paper_url": "https://huggingface.co/papers/2611.08452",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
+      "abstract": "ReproBridge starts from a simple question: when a coding agent reproduces a paper, how much of its success comes from the released artifacts, and how much from the agent filling in what the paper and code leave implicit? What we built Refined reproducible artifact (RRA): refined code, environment setup, experiment launchers, and a reproduction guide that records the rationale behind each setting and repair. ReproBridge: an agent workflow that constructs RRAs from a paper and its official repository (Specify → Execute → Preserve, with an independent Reviewer). ReproBridge-Bench: 1,029 tasks from 387 experiments across 36 ICML 2026 papers, each anchored by five human-verified reference scores. Key results (four coding agents, fresh sessions, raw code vs. RRA) Mean success 76.4% → 92.6%; downstream API spending −19.7% Cross-model spread 21.6 → 3.9 pp; all four models above 90% Every component matters in the ablation, code and environment the most External check on CORE-Bench Hard: capsule success 62.2% → 73.3%, cost per successful capsule 4.34 How we evaluate research agents Published scores are single observations → compatibility intervals from five independent human reproductions, applied in both directions. Numbers can match for the wrong reasons → an Auditor traces each value to output files, execution records and scripts; against two human reviewers it reaches 88.6% precision / 79.5% recall (818 outcomes). Hold the task fixed and vary only the handoff → this separates artifact quality from agent ability. 🌐 Project page with interactive results, a 36-paper explorer and case studies: https://wyyyb.github.io/reprobridge_website/ Code and data are under internal review and will be released once approved. Happy to answer questions!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.08452",
+      "pdf_url": "https://arxiv.org/pdf/2611.08452",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.08452",
+      "scraped_at": "2026-11-10T06:16:26.384103"
+    },
+    "scraped_date": "2026-11-10"
+  },
+  {
+    "title": "Flide: Accelerating Decision Inference with Exact State Forking",
+    "paper_url": "https://huggingface.co/papers/2610.42148",
+    "authors": [],
+    "stars": "291",
+    "details": {
+      "title": "Flide: Accelerating Decision Inference with Exact State Forking",
+      "abstract": "Hi everyone! I'm one of the authors of Flide. We built Flide from scratch, an open-source inference engine for Jev-like decision models. The key idea is exact state forking, which allows multiple questions to share computation while preserving exact decision semantics. In our testing, Flide achieves up to 9.5× faster inference than vLLM and SGLang. We support 30+ open-source decision models on Decision Index 0.4.1 , with support for more models on the way. Get started with one line: pip install flide Code: https://github.com/OmniJev/Flide Docs: https://docs.flide.org/ Arxiv: https://arxiv.org/abs/2610.42148 We'd love to hear your feedback, questions, and ideas!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.42148",
+      "pdf_url": "https://arxiv.org/pdf/2610.42148",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/OmniJev/Flide"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.42148",
+      "scraped_at": "2026-11-10T06:16:28.213869"
+    },
+    "scraped_date": "2026-11-10"
+  },
+  {
+    "title": "TRIO: Task Refinement with Individual Optimization for Retrieval-Augmented Generation",
+    "paper_url": "https://huggingface.co/papers/2611.02810",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "TRIO: Task Refinement with Individual Optimization for Retrieval-Augmented Generation",
+      "abstract": "Can three specialized agents make RAG more accurate than a single powerful reasoning model? 🚀 Introducing TRIO , a multi-agent RAG framework that improves retrieval-augmented reasoning through specialized agent optimization. TRIO jointly coordinates three agents, each optimized for a distinct role: Query Agent: Learns to retrieve evidence that directly improves downstream answer quality. Judge Agent: Determines whether the retrieved evidence is sufficient to answer the question. Answer Agent: Develops robust reasoning capabilities over noisy retrieved contexts through reward-driven curriculum learning. Key highlights: Top average Exact Match across five QA benchmarks , outperforming strong RAG baselines, including Search-R1. 76.6% accuracy on unseen PubMedQA , demonstrating promising cross-domain generalization. Strong performance with compact 4B and 8B models , highlighting the potential of specialized multi-agent optimization. Key insight: Effective RAG depends on how well retrieval, evidence assessment, and answer generation work together. Optimizing each agent for its specific role can substantially improve end-to-end reasoning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.02810",
+      "pdf_url": "https://arxiv.org/pdf/2611.02810",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yingtaoren/TRIO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.02810",
+      "scraped_at": "2026-11-10T06:16:29.921169"
+    },
+    "scraped_date": "2026-11-10"
+  },
+  {
+    "title": "JoVox: Joint Hierarchical Flow Matching for Lightweight Voxel Generation",
+    "paper_url": "https://huggingface.co/papers/2611.10690",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "JoVox: Joint Hierarchical Flow Matching for Lightweight Voxel Generation",
+      "abstract": "JoVox generates voxel structures with one discrete flow matching model that learns all hierarchy levels jointly (4³ → 16³ → 64³), instead of one level at a time. Compared with TRELLIS.2 using the same backbone: 8× training throughput, 1/15 FLOPs per forward pass (0.82 vs. 12.2 TFLOPs) trained on 4 H100 GPUs instead of 32 11% lower Chamfer distance on 1000 Toys4k objects (image-conditioned) Code, the 64³ model and an image-to-mesh script (via the second stage of TRELLIS.2) are released.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.10690",
+      "pdf_url": "https://arxiv.org/pdf/2611.10690",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yuyujunjun/JoVox"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.10690",
+      "scraped_at": "2026-11-10T06:16:31.727401"
+    },
+    "scraped_date": "2026-11-10"
+  },
+  {
+    "title": "Horizon-Scalable Q-Learning",
+    "paper_url": "https://huggingface.co/papers/2611.10987",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Horizon-Scalable Q-Learning",
+      "abstract": "Learning accurate off-policy state-action value functions (Q-functions) from offline datasets becomes harder as the task horizon grows. One-step temporal-difference (TD) learning bootstraps after every transition, so small per-step errors accumulate along the horizon, and early states can be badly misvalued even when the TD loss is small. Multi-step TD shortens this chain by following the dataset trajectory for several steps; however, since the behavior policy is often suboptimal, every followed action adds a bias, and no fixed number of steps suits a whole trajectory. In this paper, we propose Horizon-Scalable Q-Learning (HQL), a simple method that enables accurate long-horizon value learning by automatically balancing between one-step and multi-step returns. HQL extends a target through a dataset action only when the critic values it at least as highly as the best-of-N actions sampled from the BC policy, and otherwise falls back to a one-step target. We show that this rule is a principled off-policy correction that needs no action densities, which makes HQL compatible with expressive flow and diffusion policies. Experiments show that HQL avoids the failures of both one-step and multi-step TD on a combination-lock task across horizons, and outperforms prior horizon-reduction methods on long-horizon OGBench and OCBench tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.10987",
+      "pdf_url": "https://arxiv.org/pdf/2611.10987",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ryanxhr/hql"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.10987",
+      "scraped_at": "2026-11-10T06:16:33.462541"
+    },
+    "scraped_date": "2026-11-10"
+  },
+  {
+    "title": "PhysioWave-T: Token-Efficient Wavelet Foundation Models for Biosignals",
+    "paper_url": "https://huggingface.co/papers/2611.08969",
+    "authors": [],
+    "stars": "215",
+    "details": {
+      "title": "PhysioWave-T: Token-Efficient Wavelet Foundation Models for Biosignals",
+      "abstract": "We introduce PhysioWave-T, an efficient biosignal foundation model for EEG, ECG, and surface EMG. Scaling across these signals requires handling diverse recording setups and varying signal quality. Our Dynamic Scale Folding adapts to heterogeneous channel counts and sampling rates, delivering up to 7.2× faster inference and 12.7× lower memory usage. For multimodal applications, Reliability-Aware Latent Fusion dynamically weights independently pretrained encoders according to signal quality, improving robustness in tasks such as wearable seizure detection. Together, these advances bring scalable biosignal modeling closer to practical deployment.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.08969",
+      "pdf_url": "https://arxiv.org/pdf/2611.08969",
+      "github_links": [
+        "https://github.com/ForeverBlue816/PhysioWave",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.08969",
+      "scraped_at": "2026-11-10T06:16:35.185859"
+    },
+    "scraped_date": "2026-11-10"
+  },
+  {
+    "title": "AutoVend: Benchmarking LLM Agents on Long-Horizon Autonomous Vending Operations",
+    "paper_url": "https://huggingface.co/papers/2610.36980",
+    "authors": [
+      "Sinuo Wang",
+      "Rui Sun",
+      "Beidi Luan",
+      "Yikun Li",
+      "Qiming Shi"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "AutoVend: Benchmarking LLM Agents on Long-Horizon Autonomous Vending Operations",
+      "abstract": "🤖 Can an LLM agent run a vending business for 180 days? Many commercial tasks end when a transaction is completed. Running a business is different: today’s decisions determine tomorrow’s stock availability, costs, and cash position. We introduce AutoVend , a benchmark where one LLM agent operates 20 vending machines across five site types for 180 simulated days through a digital operating interface. 📦 Digital decisions meet physical constraints The agent chooses products, sets prices, orders inventory, and plans replenishment. A data-grounded simulator combines heterogeneous local demand with shared inventory and cash, procurement lead times, paid on-site replenishment, product expiration, and recurring operating costs. Stock in the warehouse cannot satisfy customers until it reaches machine shelves. 🔍 What does AutoVend test? Coordinating shared resources across sites with different demand. Planning procurement and replenishment under delays and costs. Using accumulated feedback to revise operating decisions over time. 📊 What do we find? Four of five evaluated LLM agents fall short of a rule-based inventory-control baseline. Better individual operating metrics do not consistently translate into stronger economic returns, and accounting for inference costs changes model rankings. AutoVend examines whether agents can turn repeated decisions into sustained business performance—and helps diagnose where that process breaks down.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.36980",
+      "pdf_url": "https://arxiv.org/pdf/2610.36980",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.36980",
+      "scraped_at": "2026-11-10T06:16:36.923045"
+    },
+    "scraped_date": "2026-11-10"
+  },
+  {
+    "title": "FlyHash for LLM Agent Memory: An Empirical Validation and a New Application",
+    "paper_url": "https://huggingface.co/papers/2611.05791",
+    "authors": [
+      "Chrisogonas O. Odhiambo",
+      "pranamhan"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "FlyHash for LLM Agent Memory: An Empirical Validation and a New Application",
+      "abstract": "Hi everyone, I'm one of the authors. We tested FlyHash, a fruit-fly-inspired sparse hash, against SimHash for retrieving memories in LLM agents, using matched bit budgets and a labeled benchmark we released (6,000 memories, 150 queries). Main result: at equal bits, FlyHash ranks the right memories much higher (mAP 0.271 vs 0.105 at k=32). The caveats are in the paper too: at equal bits its codes are larger and slower to compare, and an HNSW index beats both hash methods at ordinary scale. So it's a quality-per-bit result, not a drop-in replacement. There's an interactive demo that ranks one question at a time (the GIF is one of 12 random questions, where FlyHash wins 11), and the code reproduces every number. Critique and questions are welcome.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.05791",
+      "pdf_url": "https://arxiv.org/pdf/2611.05791",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/mohanji/flyhash-agent-memory"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.05791",
+      "scraped_at": "2026-11-10T06:16:38.635454"
+    },
+    "scraped_date": "2026-11-10"
+  }
+]

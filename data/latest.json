@@ -1,230 +1,189 @@
 [
   {
-    "title": "Beneath the Surface: What We Overlook When We Talk About Agent Evolution",
-    "paper_url": "https://huggingface.co/papers/2611.07624",
+    "title": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
+    "paper_url": "https://huggingface.co/papers/2611.10771",
+    "authors": [],
+    "stars": "322",
+    "details": {
+      "title": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
+      "abstract": "Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions. The absence of a shared operational basis, together with perception-centric benchmarks and fragmented workflows, obscures the distinction between generative foundation models and generative world models and hinders reproducible assessment of dynamics, controllability, and interactive utility. We define a generative world model as a predictive dynamical system that maintains a persistent, history-conditioned representation of an environment, updates that representation in response to actions or interventions, and generates temporally coherent trajectories that reflect outcomes under observed and counterfactual interventions. From this definition, we derive an intelligence-oriented framework spanning perceptual grounding, persistent state modeling, controllable transformation, dynamics-aware prediction, and closed-loop interaction. We further present WorldFoundry, open-source infrastructure for reproducible inference and evaluation across video, 3D and 4D, embodied action, and interactive world systems. WorldFoundry unifies model and benchmark discovery, runtime and asset preparation, execution orchestration, artifact management, and interactive visualization, while modality-specific adapters preserve native inputs, execution semantics, output representations, and evaluation protocols. Explicit manifests, durable artifact contracts, and evidence-aware scorecards separate execution readiness from evaluative claims, making each claim traceable to its supporting artifacts. The current catalog contains 270 model entries, 74 benchmarks, and 62 registered metric entries, with integration readiness and execution evidence recorded separately for each entry. By coupling world modeling with evidence-grounded executable infrastructure, WorldFoundry enables reproducible comparison of persistent, controllable dynamics across heterogeneous systems, advancing the field from perceptual synthesis toward measurable world intelligence.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.10771",
+      "pdf_url": "https://arxiv.org/pdf/2611.10771",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/OpenEnvision/WorldFoundry"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.10771",
+      "scraped_at": "2026-11-10T06:16:24.688777"
+    },
+    "scraped_date": "2026-11-10"
+  },
+  {
+    "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
+    "paper_url": "https://huggingface.co/papers/2611.08452",
     "authors": [],
     "stars": "0",
     "details": {
-      "title": "Beneath the Surface: What We Overlook When We Talk About Agent Evolution",
-      "abstract": "Does a higher benchmark score really mean an agent is getting better? 🤔 In our paper, we go beyond surface-level benchmark evaluations to investigate what actually happens during agent evolution and why improvements do not always translate into better agents. We systematically study agent evolution from three perspectives, Phenomenology, Generalization, and Mechanisms , and further dissect four key stages: Select, Analyze, Mutate, and Gate . Building on these insights, we introduce EvoAudit and Audit-Guided Evolution (AGE) , moving toward more reliable, evidence-driven agent self-improvement. 💻 Code: https://github.com/simple-agent-lab/RSIHub",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.07624",
-      "pdf_url": "https://arxiv.org/pdf/2611.07624",
+      "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
+      "abstract": "ReproBridge starts from a simple question: when a coding agent reproduces a paper, how much of its success comes from the released artifacts, and how much from the agent filling in what the paper and code leave implicit? What we built Refined reproducible artifact (RRA): refined code, environment setup, experiment launchers, and a reproduction guide that records the rationale behind each setting and repair. ReproBridge: an agent workflow that constructs RRAs from a paper and its official repository (Specify → Execute → Preserve, with an independent Reviewer). ReproBridge-Bench: 1,029 tasks from 387 experiments across 36 ICML 2026 papers, each anchored by five human-verified reference scores. Key results (four coding agents, fresh sessions, raw code vs. RRA) Mean success 76.4% → 92.6%; downstream API spending −19.7% Cross-model spread 21.6 → 3.9 pp; all four models above 90% Every component matters in the ablation, code and environment the most External check on CORE-Bench Hard: capsule success 62.2% → 73.3%, cost per successful capsule 4.34 How we evaluate research agents Published scores are single observations → compatibility intervals from five independent human reproductions, applied in both directions. Numbers can match for the wrong reasons → an Auditor traces each value to output files, execution records and scripts; against two human reviewers it reaches 88.6% precision / 79.5% recall (818 outcomes). Hold the task fixed and vary only the handoff → this separates artifact quality from agent ability. 🌐 Project page with interactive results, a 36-paper explorer and case studies: https://wyyyb.github.io/reprobridge_website/ Code and data are under internal review and will be released once approved. Happy to answer questions!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.08452",
+      "pdf_url": "https://arxiv.org/pdf/2611.08452",
       "github_links": [
-        "https://github.com/huggingface",
-        "https://github.com/simple-agent-lab/RSIHub"
+        "https://github.com/huggingface"
       ],
       "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.07624",
-      "scraped_at": "2026-11-09T04:59:35.414937"
+      "page_url": "https://huggingface.co/papers/2611.08452",
+      "scraped_at": "2026-11-10T06:16:26.384103"
     },
-    "scraped_date": "2026-11-09"
+    "scraped_date": "2026-11-10"
   },
   {
-    "title": "EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models",
-    "paper_url": "https://huggingface.co/papers/2611.06748",
+    "title": "Flide: Accelerating Decision Inference with Exact State Forking",
+    "paper_url": "https://huggingface.co/papers/2610.42148",
+    "authors": [],
+    "stars": "291",
+    "details": {
+      "title": "Flide: Accelerating Decision Inference with Exact State Forking",
+      "abstract": "Hi everyone! I'm one of the authors of Flide. We built Flide from scratch, an open-source inference engine for Jev-like decision models. The key idea is exact state forking, which allows multiple questions to share computation while preserving exact decision semantics. In our testing, Flide achieves up to 9.5× faster inference than vLLM and SGLang. We support 30+ open-source decision models on Decision Index 0.4.1 , with support for more models on the way. Get started with one line: pip install flide Code: https://github.com/OmniJev/Flide Docs: https://docs.flide.org/ Arxiv: https://arxiv.org/abs/2610.42148 We'd love to hear your feedback, questions, and ideas!",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.42148",
+      "pdf_url": "https://arxiv.org/pdf/2610.42148",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/OmniJev/Flide"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.42148",
+      "scraped_at": "2026-11-10T06:16:28.213869"
+    },
+    "scraped_date": "2026-11-10"
+  },
+  {
+    "title": "TRIO: Task Refinement with Individual Optimization for Retrieval-Augmented Generation",
+    "paper_url": "https://huggingface.co/papers/2611.02810",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "TRIO: Task Refinement with Individual Optimization for Retrieval-Augmented Generation",
+      "abstract": "Can three specialized agents make RAG more accurate than a single powerful reasoning model? 🚀 Introducing TRIO , a multi-agent RAG framework that improves retrieval-augmented reasoning through specialized agent optimization. TRIO jointly coordinates three agents, each optimized for a distinct role: Query Agent: Learns to retrieve evidence that directly improves downstream answer quality. Judge Agent: Determines whether the retrieved evidence is sufficient to answer the question. Answer Agent: Develops robust reasoning capabilities over noisy retrieved contexts through reward-driven curriculum learning. Key highlights: Top average Exact Match across five QA benchmarks , outperforming strong RAG baselines, including Search-R1. 76.6% accuracy on unseen PubMedQA , demonstrating promising cross-domain generalization. Strong performance with compact 4B and 8B models , highlighting the potential of specialized multi-agent optimization. Key insight: Effective RAG depends on how well retrieval, evidence assessment, and answer generation work together. Optimizing each agent for its specific role can substantially improve end-to-end reasoning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.02810",
+      "pdf_url": "https://arxiv.org/pdf/2611.02810",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yingtaoren/TRIO"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.02810",
+      "scraped_at": "2026-11-10T06:16:29.921169"
+    },
+    "scraped_date": "2026-11-10"
+  },
+  {
+    "title": "JoVox: Joint Hierarchical Flow Matching for Lightweight Voxel Generation",
+    "paper_url": "https://huggingface.co/papers/2611.10690",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "JoVox: Joint Hierarchical Flow Matching for Lightweight Voxel Generation",
+      "abstract": "JoVox generates voxel structures with one discrete flow matching model that learns all hierarchy levels jointly (4³ → 16³ → 64³), instead of one level at a time. Compared with TRELLIS.2 using the same backbone: 8× training throughput, 1/15 FLOPs per forward pass (0.82 vs. 12.2 TFLOPs) trained on 4 H100 GPUs instead of 32 11% lower Chamfer distance on 1000 Toys4k objects (image-conditioned) Code, the 64³ model and an image-to-mesh script (via the second stage of TRELLIS.2) are released.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.10690",
+      "pdf_url": "https://arxiv.org/pdf/2611.10690",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yuyujunjun/JoVox"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.10690",
+      "scraped_at": "2026-11-10T06:16:31.727401"
+    },
+    "scraped_date": "2026-11-10"
+  },
+  {
+    "title": "Horizon-Scalable Q-Learning",
+    "paper_url": "https://huggingface.co/papers/2611.10987",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Horizon-Scalable Q-Learning",
+      "abstract": "Learning accurate off-policy state-action value functions (Q-functions) from offline datasets becomes harder as the task horizon grows. One-step temporal-difference (TD) learning bootstraps after every transition, so small per-step errors accumulate along the horizon, and early states can be badly misvalued even when the TD loss is small. Multi-step TD shortens this chain by following the dataset trajectory for several steps; however, since the behavior policy is often suboptimal, every followed action adds a bias, and no fixed number of steps suits a whole trajectory. In this paper, we propose Horizon-Scalable Q-Learning (HQL), a simple method that enables accurate long-horizon value learning by automatically balancing between one-step and multi-step returns. HQL extends a target through a dataset action only when the critic values it at least as highly as the best-of-N actions sampled from the BC policy, and otherwise falls back to a one-step target. We show that this rule is a principled off-policy correction that needs no action densities, which makes HQL compatible with expressive flow and diffusion policies. Experiments show that HQL avoids the failures of both one-step and multi-step TD on a combination-lock task across horizons, and outperforms prior horizon-reduction methods on long-horizon OGBench and OCBench tasks.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.10987",
+      "pdf_url": "https://arxiv.org/pdf/2611.10987",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ryanxhr/hql"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.10987",
+      "scraped_at": "2026-11-10T06:16:33.462541"
+    },
+    "scraped_date": "2026-11-10"
+  },
+  {
+    "title": "PhysioWave-T: Token-Efficient Wavelet Foundation Models for Biosignals",
+    "paper_url": "https://huggingface.co/papers/2611.08969",
+    "authors": [],
+    "stars": "215",
+    "details": {
+      "title": "PhysioWave-T: Token-Efficient Wavelet Foundation Models for Biosignals",
+      "abstract": "We introduce PhysioWave-T, an efficient biosignal foundation model for EEG, ECG, and surface EMG. Scaling across these signals requires handling diverse recording setups and varying signal quality. Our Dynamic Scale Folding adapts to heterogeneous channel counts and sampling rates, delivering up to 7.2× faster inference and 12.7× lower memory usage. For multimodal applications, Reliability-Aware Latent Fusion dynamically weights independently pretrained encoders according to signal quality, improving robustness in tasks such as wearable seizure detection. Together, these advances bring scalable biosignal modeling closer to practical deployment.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.08969",
+      "pdf_url": "https://arxiv.org/pdf/2611.08969",
+      "github_links": [
+        "https://github.com/ForeverBlue816/PhysioWave",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.08969",
+      "scraped_at": "2026-11-10T06:16:35.185859"
+    },
+    "scraped_date": "2026-11-10"
+  },
+  {
+    "title": "AutoVend: Benchmarking LLM Agents on Long-Horizon Autonomous Vending Operations",
+    "paper_url": "https://huggingface.co/papers/2610.36980",
     "authors": [
-      "Haoxuan Che",
-      "Xiaozhuan Liang",
-      "Zhixuan Chen",
-      "Dengyang Jiang",
-      "Tommy-Bie"
+      "Sinuo Wang",
+      "Rui Sun",
+      "Beidi Luan",
+      "Yikun Li",
+      "Qiming Shi"
     ],
-    "stars": "15",
-    "details": {
-      "title": "EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models",
-      "abstract": "We are excited to introduce EvoWorld, a video generation framework for out-of-sight world evolution. EvoWorld combines a VLM brain with a visual renderer, enabling off-screen entities to remain active participants in an evolving world. Within a bidirectional autoregressive paradigm, EvoWorld supports event-triggered world evolution, subject and scene revisitation, and out-of-sight dynamics rendering through model reasoning.",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.06748",
-      "pdf_url": "https://arxiv.org/pdf/2611.06748",
-      "github_links": [
-        "https://github.com/huggingface",
-        "https://github.com/Tommy-Bie/EvoWorld"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.06748",
-      "scraped_at": "2026-11-09T04:59:37.151804"
-    },
-    "scraped_date": "2026-11-09"
-  },
-  {
-    "title": "Video-Coder: Reinforcing Agentic Coding for Video Generation",
-    "paper_url": "https://huggingface.co/papers/2611.09894",
-    "authors": [],
     "stars": "0",
     "details": {
-      "title": "Video-Coder: Reinforcing Agentic Coding for Video Generation",
-      "abstract": "Recent years have witnessed remarkable progress in video generation in terms of visual quality and temporal consistency. However, generating videos with precise spatial structure, coherent motion dynamics, and controllable scene composition remains challenging. In this paper, we introduce Video-Coder, the first attempt to train a code-driven video generation agent, which autonomously writes and executes code to construct a dynamic 3D scene (Draft Video) that provides structure and motion signals to downstream video generators. To support this paradigm, we design a dedicated data pipeline and curate two high-quality datasets, Video-Coder-SFT-6k and Video-Coder-RL-2k, which contain diverse prompts and ground-truth reference videos. We further develop the Video- Coder Harness, a unified interactive environment integrating code execution, 3D scene rendering, and execution feedback for agent training and inference. We then train Video-Coder with SFT fol- lowed by harness-native agentic reinforcement learning with dual reward feedback, which combines execution-based and video-based rewards. Additionally, we design an annealing training strategy that gradually reduces the execution reward over time, allowing the model to rely more on the video reward in the later training stages. Experiments show that Video-Coder achieves significant gains, improving Minimax-H3 by approximately 7 points on PhyGenBench and 24 points on VBench-2.0. We hope this work can serve as an open foundation for coding agents in video generation, and we fully open-source our data, models, and code",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.09894",
-      "pdf_url": "https://arxiv.org/pdf/2611.09894",
+      "title": "AutoVend: Benchmarking LLM Agents on Long-Horizon Autonomous Vending Operations",
+      "abstract": "🤖 Can an LLM agent run a vending business for 180 days? Many commercial tasks end when a transaction is completed. Running a business is different: today’s decisions determine tomorrow’s stock availability, costs, and cash position. We introduce AutoVend , a benchmark where one LLM agent operates 20 vending machines across five site types for 180 simulated days through a digital operating interface. 📦 Digital decisions meet physical constraints The agent chooses products, sets prices, orders inventory, and plans replenishment. A data-grounded simulator combines heterogeneous local demand with shared inventory and cash, procurement lead times, paid on-site replenishment, product expiration, and recurring operating costs. Stock in the warehouse cannot satisfy customers until it reaches machine shelves. 🔍 What does AutoVend test? Coordinating shared resources across sites with different demand. Planning procurement and replenishment under delays and costs. Using accumulated feedback to revise operating decisions over time. 📊 What do we find? Four of five evaluated LLM agents fall short of a rule-based inventory-control baseline. Better individual operating metrics do not consistently translate into stronger economic returns, and accounting for inference costs changes model rankings. AutoVend examines whether agents can turn repeated decisions into sustained business performance—and helps diagnose where that process breaks down.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.36980",
+      "pdf_url": "https://arxiv.org/pdf/2610.36980",
       "github_links": [
-        "https://github.com/huggingface",
-        "https://github.com/CYWang735/Video-Coder"
+        "https://github.com/huggingface"
       ],
       "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.09894",
-      "scraped_at": "2026-11-09T04:59:38.815751"
+      "page_url": "https://huggingface.co/papers/2610.36980",
+      "scraped_at": "2026-11-10T06:16:36.923045"
     },
-    "scraped_date": "2026-11-09"
+    "scraped_date": "2026-11-10"
   },
   {
-    "title": "Exploring Weight-Space Programming: Capabilities, Generalization, and Limitations",
-    "paper_url": "https://huggingface.co/papers/2611.09382",
+    "title": "FlyHash for LLM Agent Memory: An Empirical Validation and a New Application",
+    "paper_url": "https://huggingface.co/papers/2611.05791",
     "authors": [
-      "Chun-Mei Feng",
-      "Hongze Zhu",
-      "Wei Li",
-      "Cheng Tang",
-      "Junru Hu"
+      "Chrisogonas O. Odhiambo",
+      "pranamhan"
     ],
     "stars": "1",
     "details": {
-      "title": "Exploring Weight-Space Programming: Capabilities, Generalization, and Limitations",
-      "abstract": "We systematically evaluate Weight-Space Programming through 16 editing trajectories across seven benchmarks and two model scales. Our results show uneven cross-task transfer, substantial variation across independent searches, and more limited gains on the larger model. Feedback and discussion are welcome.",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.09382",
-      "pdf_url": "https://arxiv.org/pdf/2611.09382",
+      "title": "FlyHash for LLM Agent Memory: An Empirical Validation and a New Application",
+      "abstract": "Hi everyone, I'm one of the authors. We tested FlyHash, a fruit-fly-inspired sparse hash, against SimHash for retrieving memories in LLM agents, using matched bit budgets and a labeled benchmark we released (6,000 memories, 150 queries). Main result: at equal bits, FlyHash ranks the right memories much higher (mAP 0.271 vs 0.105 at k=32). The caveats are in the paper too: at equal bits its codes are larger and slower to compare, and an HNSW index beats both hash methods at ordinary scale. So it's a quality-per-bit result, not a drop-in replacement. There's an interactive demo that ranks one question at a time (the GIF is one of 12 random questions, where FlyHash wins 11), and the code reproduces every number. Critique and questions are welcome.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.05791",
+      "pdf_url": "https://arxiv.org/pdf/2611.05791",
       "github_links": [
         "https://github.com/huggingface",
-        "https://github.com/WSP-Scope/WSP-Scope-Project"
+        "https://github.com/mohanji/flyhash-agent-memory"
       ],
       "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.09382",
-      "scraped_at": "2026-11-09T04:59:40.456737"
+      "page_url": "https://huggingface.co/papers/2611.05791",
+      "scraped_at": "2026-11-10T06:16:38.635454"
     },
-    "scraped_date": "2026-11-09"
-  },
-  {
-    "title": "Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription",
-    "paper_url": "https://huggingface.co/papers/2611.06043",
-    "authors": [],
-    "stars": "868",
-    "details": {
-      "title": "Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription",
-      "abstract": "Excited to share Confucius4-R2T2 , our stable-prefix streaming ASR model designed for real-time applications! Unlike conventional streaming ASR systems that repeatedly revise partial transcripts, R2T2 produces append-only, stable text that downstream systems such as voice agents and simultaneous translators can consume immediately. The key idea is Longest Stable Prefix (LSP) supervision, which enables us to transform a full-context ASR model into a streaming one through post-training, without architectural modifications. Built on Qwen3-ASR-1.7B, R2T2 achieves near-offline recognition accuracy with low emission latency, supports configurable streaming chunk sizes, and demonstrates promising cross-lingual generalization. We've made the model and implementation publicly available: 🤗 Model: https://huggingface.co/netease-youdao/Confucius4-R2T2 💻 GitHub: https://github.com/netease-youdao/Confucius4-R2T2 🎙️ Live demo: https://r2t2.youdao.com/demo We'd love to hear your feedback and see what the community builds with it!",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.06043",
-      "pdf_url": "https://arxiv.org/pdf/2611.06043",
-      "github_links": [
-        "https://github.com/huggingface",
-        "https://github.com/netease-youdao/Confucius4-R2T2"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.06043",
-      "scraped_at": "2026-11-09T04:59:42.206495"
-    },
-    "scraped_date": "2026-11-09"
-  },
-  {
-    "title": "AgentBaton: Efficient Model Collaboration in Agentic Tasks",
-    "paper_url": "https://huggingface.co/papers/2610.35959",
-    "authors": [],
-    "stars": "0",
-    "details": {
-      "title": "AgentBaton: Efficient Model Collaboration in Agentic Tasks",
-      "abstract": "https://research.nvidia.com/labs/lpr/agentbaton/",
-      "arxiv_page_url": "https://arxiv.org/abs/2610.35959",
-      "pdf_url": "https://arxiv.org/pdf/2610.35959",
-      "github_links": [
-        "https://github.com/huggingface"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2610.35959",
-      "scraped_at": "2026-11-09T04:59:43.824275"
-    },
-    "scraped_date": "2026-11-09"
-  },
-  {
-    "title": "Frontier3DBench: Benchmarking Coding Agents for 3D Creation across Objects, Scenes, and Interactive Open Worlds",
-    "paper_url": "https://huggingface.co/papers/2611.09017",
-    "authors": [
-      "Xiaoqiu Wang",
-      "John Lam",
-      "Wenyi Li",
-      "Qingle Liu",
-      "Xinjie Lin"
-    ],
-    "stars": "0",
-    "details": {
-      "title": "Frontier3DBench: Benchmarking Coding Agents for 3D Creation across Objects, Scenes, and Interactive Open Worlds",
-      "abstract": null,
-      "arxiv_page_url": "https://arxiv.org/abs/2611.09017",
-      "pdf_url": "https://arxiv.org/pdf/2611.09017",
-      "github_links": [
-        "https://github.com/huggingface"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.09017",
-      "scraped_at": "2026-11-09T04:59:45.470035"
-    },
-    "scraped_date": "2026-11-09"
-  },
-  {
-    "title": "OmniLatent: Unified Latent for 3D Part Modeling",
-    "paper_url": "https://huggingface.co/papers/2611.09055",
-    "authors": [
-      "Minxiu Wang",
-      "Jiachen Xu",
-      "Zeqiang Lai",
-      "Yunfei Zhao",
-      "Yunhan Yang"
-    ],
-    "stars": "0",
-    "details": {
-      "title": "OmniLatent: Unified Latent for 3D Part Modeling",
-      "abstract": null,
-      "arxiv_page_url": "https://arxiv.org/abs/2611.09055",
-      "pdf_url": "https://arxiv.org/pdf/2611.09055",
-      "github_links": [
-        "https://github.com/huggingface"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.09055",
-      "scraped_at": "2026-11-09T04:59:47.065732"
-    },
-    "scraped_date": "2026-11-09"
-  },
-  {
-    "title": "The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks",
-    "paper_url": "https://huggingface.co/papers/2611.07461",
-    "authors": [
-      "Xiaopeng Yuan",
-      "Peng Kuang",
-      "Haibo Jin",
-      "haohanw",
-      "YaoningYu"
-    ],
-    "stars": "0",
-    "details": {
-      "title": "The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks",
-      "abstract": "How can AI agents reliably solve real-world tasks end to end? We introduce Agent-Native Primitives, reusable building blocks that equip tools, code, knowledge, and other resources with their own LLM-powered experts. Building on this idea, HEELO dynamically composes task-specific agent harnesses from eight families of primitives. Across 20+ benchmarks and 46 real-world tasks, HEELO substantially improves agent performance. On our real-world tasks, connecting existing agent systems to HEELO increases completed tasks from 9 to 39 for Claude Code and from 9 to 35 for Codex.",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.07461",
-      "pdf_url": "https://arxiv.org/pdf/2611.07461",
-      "github_links": [
-        "https://github.com/huggingface"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.07461",
-      "scraped_at": "2026-11-09T04:59:48.797239"
-    },
-    "scraped_date": "2026-11-09"
-  },
-  {
-    "title": "Sketchpad: certified exact arithmetic with a small vision-language model",
-    "paper_url": "https://huggingface.co/papers/2611.04434",
-    "authors": [
-      "mohsenvand"
-    ],
-    "stars": "0",
-    "details": {
-      "title": "Sketchpad: certified exact arithmetic with a small vision-language model",
-      "abstract": "Author here. Can a small model be proven exact at arithmetic on inputs of every length? 🧮 The theory If each step of a model reads only a bounded view of an external memory, exactness at all lengths reduces to exactness on a finite set of views . Proved in Lean, along with: Necessity: once steps can also read earlier steps, no finite test suffices . Robustness: the guarantee survives bounded numerical error. Composition: certified procedures stay certified when combined. ⚙️ In practice Qwen3.5-0.8B + a small adapter passes all 2,446 views on a laptop GPU, in the browser. It is certified for + − × ÷ √ gcd at any length. 220 pre-registered problems Score Sketchpad (0.8B) 220 GPT-6.1 Sol · Claude Opus 5.5 · Gemini 4 Argon 217 · 216 · 207 Five open-weight models 149–199 Qwen3.5-27B · Qwen3.5-0.8B (base) 121 · 23 On 1,000-digit sums : Sketchpad 20/20; frontier models 19, 17, 9; every open-weight model ≤ 2. 🔗 Live demo · Code",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.04434",
-      "pdf_url": "https://arxiv.org/pdf/2611.04434",
-      "github_links": [
-        "https://github.com/huggingface",
-        "https://github.com/NeoVand/sketchpad"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.04434",
-      "scraped_at": "2026-11-09T04:59:50.547761"
-    },
-    "scraped_date": "2026-11-09"
+    "scraped_date": "2026-11-10"
   }
 ]
