@@ -413,5 +413,235 @@
       "scraped_at": "2026-11-10T06:16:38.635454"
     },
     "scraped_date": "2026-11-10"
+  },
+  {
+    "title": "dNaViT: Discrete Codes are General-Purpose Visual Representations",
+    "paper_url": "https://huggingface.co/papers/2611.12426",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "dNaViT: Discrete Codes are General-Purpose Visual Representations",
+      "abstract": "We introduce dNaViT: Discrete Codes are General-Purpose Visual Representations. dNaViT is a native-resolution visual tokenizer that combines residual modulation, grouped product quantization, and progressive three-stage training to preserve both semantic and pixel-level information. Its shared discrete visual codes support high-fidelity reconstruction, visual understanding, generation, and editing. Code and the project page are now available!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.12426",
+      "pdf_url": "https://arxiv.org/pdf/2611.12426",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.12426",
+      "scraped_at": "2026-11-11T05:00:49.688881"
+    },
+    "scraped_date": "2026-11-11"
+  },
+  {
+    "title": "World In-Context Learning for Agentic Robot Manipulation",
+    "paper_url": "https://huggingface.co/papers/2611.12885",
+    "authors": [],
+    "stars": "36",
+    "details": {
+      "title": "World In-Context Learning for Agentic Robot Manipulation",
+      "abstract": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording task steps and object roles rather than visual appearance, so experience gathered in one world transfers to another. Based on this insight, we propose World In-Context Learning (WICL), a paradigm in which a frozen model starts from a demonstration, rehearses the task in a world such as a simulator, and writes the feedback into its context rather than its weights. We build RoboScript, a modular infrastructure that implements WICL for agentic manipulation. From a single demonstration, RoboScript learns each task through rehearsal in simulation, freezes the learned knowledge as a Task Memory, and deploys the frozen memory on new scenes with data isolation that ensures every deployment input is available on a real robot. On all 50 tasks of RoboTwin 2.0, RoboScript reaches 83.4% mean success across clean and randomized settings with one demonstration per task and no gradient updates, exceeding the strongest trained action policy by over 20 points. The method generalizes across visual distributions, improves through reflection, scales with the foundation model, and transfers to a physical dual-arm robot through cross-embodiment memory adaptation. With a world in the loop, a robot can learn a manipulation task in its context as well as it learns one in its weights. All code is available.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.12885",
+      "pdf_url": "https://arxiv.org/pdf/2611.12885",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ArcheOne-AI/RoboScript"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.12885",
+      "scraped_at": "2026-11-11T05:00:51.321009"
+    },
+    "scraped_date": "2026-11-11"
+  },
+  {
+    "title": "Few-Step Streaming Video Generation via Condition Shifting",
+    "paper_url": "https://huggingface.co/papers/2611.14033",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Few-Step Streaming Video Generation via Condition Shifting",
+      "abstract": "Hi everyone! We’re sharing our latest work extending APEX from image generation to few-step streaming video generation . Condition Shifting lets the generator and fake estimator share one network, removing the separate fake-score network and reducing training overhead. On 180-second videos , APEX achieves +30.0% net human preference for instruction following over S2-Avatar. Under matched training settings, it reduces peak GPU memory by 4.4% and average iteration time by 9.2% compared with DMD. We welcome feedback and HF upvotes! 🤗 📑 arXiv 🎬 Project Page 💻 Code",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.14033",
+      "pdf_url": "https://arxiv.org/pdf/2611.14033",
+      "github_links": [
+        "https://github.com/shengshu-ai/Vidu-S",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.14033",
+      "scraped_at": "2026-11-11T05:00:52.919833"
+    },
+    "scraped_date": "2026-11-11"
+  },
+  {
+    "title": "DepthGraft: Structural Regularization through Hierarchical Cross-Layer KV Reconstruction",
+    "paper_url": "https://huggingface.co/papers/2611.03142",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DepthGraft: Structural Regularization through Hierarchical Cross-Layer KV Reconstruction",
+      "abstract": "Scaling depth is a key route to stronger large language models, but Pre-LN architectures often suffer from depth-wise information dilution, limiting the effective use of deep layers. While cross-layer connectivity has proven effective at mitigating this problem, existing designs usually introduce additional computation or memory access. We revisit cross-layer KV sharing as an efficient form of such connectivity. Beyond cache compression, each KV reuse edge creates a direct gradient path from deep layers to source KV projections, turning KV sharing into an implicit structural regularizer for KV representation geometry. We provide a systematic analysis of this mechanism, showing that proper sharing topologies sharpen key retrieval directions while enriching the value content subspace, whereas existing adjacent or global-anchor designs do not fully exploit this effect. Motivated by this, we propose DepthGraft, a hierarchical KV-sharing architecture that reconstructs deep-layer KV from stride-aligned shallow-middle source pairs. DepthGraft distributes non-local gradient flow across source layers, while preserving prefill early completion and reducing KV cache by roughly one third. Experiments on dense and MoE models from 0.5B to 16B parameters show consistent downstream improvements under both GQA and MLA. Notably, on the 16B MoE model, DepthGraft achieves a 7.0% absolute improvement on MMLU-Pro, along with gains of 6.6% on CMMLU and 6.4% on C3. These results validate the potential of DepthGraft as a scalable design for large-scale pretraining. The project page is available at https://github.com/jianke0604/DepthGraft .",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.03142",
+      "pdf_url": "https://arxiv.org/pdf/2611.03142",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/jianke0604/DepthGraft"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.03142",
+      "scraped_at": "2026-11-11T05:00:54.593147"
+    },
+    "scraped_date": "2026-11-11"
+  },
+  {
+    "title": "PhysOPSD: Code as Privilege for Physically Plausible Video Generation",
+    "paper_url": "https://huggingface.co/papers/2611.12411",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "PhysOPSD: Code as Privilege for Physically Plausible Video Generation",
+      "abstract": "Empowering generation with coding agents: Recent approaches use coding agents to replace parts of the video generation process. We explore how coding agents can empower the generator itself. Executable code supplies structured physical supervision during post-training. The resulting capabilities stay in the model, with no simulator required at inference .",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.12411",
+      "pdf_url": "https://arxiv.org/pdf/2611.12411",
+      "github_links": [
+        "https://github.com/aigc3d/PhysOPSD",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.12411",
+      "scraped_at": "2026-11-11T05:00:56.124479"
+    },
+    "scraped_date": "2026-11-11"
+  },
+  {
+    "title": "ExRL: Sample-Efficient Online Adaptation of Long-Chunk Policies via Execution Length Control",
+    "paper_url": "https://huggingface.co/papers/2611.13482",
+    "authors": [
+      "Zijin Hong",
+      "Junlin Xie",
+      "Hao Wu",
+      "Jiaying Yang",
+      "Xu Luo"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "ExRL: Sample-Efficient Online Adaptation of Long-Chunk Policies via Execution Length Control",
+      "abstract": "ExRL enables sample-efficient online improvement of long-chunk robot policies by RL. It learns how much of each predicted chunk to execute using a lightweight RL policy, improving task performance across simulation and the real world.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.13482",
+      "pdf_url": "https://arxiv.org/pdf/2611.13482",
+      "github_links": [
+        "https://github.com/Frankluox/ExRL",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.13482",
+      "scraped_at": "2026-11-11T05:00:57.752828"
+    },
+    "scraped_date": "2026-11-11"
+  },
+  {
+    "title": "ProTEUS: A mutation-resolved world model for closed-loop protein evolution",
+    "paper_url": "https://huggingface.co/papers/2611.13348",
+    "authors": [
+      "Wojciech Matusik",
+      "Peter Yichen Chen",
+      "Guangxue Xu",
+      "Minghao Guo",
+      "Yikun Zhang"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "ProTEUS: A mutation-resolved world model for closed-loop protein evolution",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.13348",
+      "pdf_url": "https://arxiv.org/pdf/2611.13348",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yikunpku/ProTEUS"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.13348",
+      "scraped_at": "2026-11-11T05:00:59.420742"
+    },
+    "scraped_date": "2026-11-11"
+  },
+  {
+    "title": "DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight",
+    "paper_url": "https://huggingface.co/papers/2611.11166",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight",
+      "abstract": "Excited to share DexForesight , our latest work from the Sharpa Foundation Model Team ! Project Page: https://dexforesight.github.io/ Most existing dexterous manipulation models rely primarily on RGB observations. However, even in simple pick-and-place tasks, the robot's fingers—the parts that actually interact with objects—are often occluded by the object or the back of the hand, making them difficult to observe from both third-person and wrist-mounted cameras. Even with depth observations, it remains challenging for the model to understand the hand's physical structure, geometry, and how it interacts with the environment. DexForesight addresses this by injecting hand geometry into a world model , enabling it to explicitly imagine the future motion of the dexterous hand and its interactions with the environment. More importantly, DexForesight transfers this capability to a standard VLA policy through learned World Queries . This allows a policy that takes only images and language as input to develop hand-aware spatial imagination during high-level planning, without explicitly generating future observations at inference time! Check out our project!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.11166",
+      "pdf_url": "https://arxiv.org/pdf/2611.11166",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.11166",
+      "scraped_at": "2026-11-11T05:01:01.009619"
+    },
+    "scraped_date": "2026-11-11"
+  },
+  {
+    "title": "Predictive Surprise as Self-Grounding Concept Bottleneck for Interpretable Time Series",
+    "paper_url": "https://huggingface.co/papers/2611.12955",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Predictive Surprise as Self-Grounding Concept Bottleneck for Interpretable Time Series",
+      "abstract": "CONCEPTTIME uses predictive surprise from a frozen probabilistic forecaster to jointly identify segment boundaries and learn an interpretable vocabulary of temporal concepts. A lightweight classifier predicts from the concept sequence, while distance to the nearest concept provides a reliability signal for abstaining when evidence is weak. Across 17 benchmarks, it matches state-of-the-art black-box accuracy and outperforms interpretable baselines without expert annotations or language model calls.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.12955",
+      "pdf_url": "https://arxiv.org/pdf/2611.12955",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Sachithx/ConceptTime"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.12955",
+      "scraped_at": "2026-11-11T05:01:02.574559"
+    },
+    "scraped_date": "2026-11-11"
+  },
+  {
+    "title": "Learning to Act with World Models by Valuing What Comes Next",
+    "paper_url": "https://huggingface.co/papers/2611.12200",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Learning to Act with World Models by Valuing What Comes Next",
+      "abstract": "TL;DR. A sparse terminal reward says little about individual steps, yet each state transition can change the chances of success long before the reward arrives. WM-PPO learns from this information: a world model trained on real transitions predicts what each sampled action would change, and PPO's own critic values the predicted successor by the current policy's probability of success. Highlights Learning from actions that were never executed. For every action the policy samples, executed or not, the value of its predicted successor enters training twice: comparisons among the candidates give the policy auxiliary advantages (policy channel), and their mean gives the critic a one-step target (value channel). Grounded in real outcomes. A shared gate weights both channels by how reliably comparisons with similar value margins predicted real branch outcomes earlier in training. A minimal addition to PPO. The world model is the only learned component added. No teacher model or privileged information is used, and only the policy runs at inference. Results. With a comparable number of real environment steps, success rises from PPO's 63.5% to 87.5% on ALFWorld and from 39.3% to 52.9% on ScienceWorld. WM-PPO matches the strongest PPO refinements we tested on ALFWorld, exceeds the best of them by 6.5 points on ScienceWorld, and also surpasses the teacher-based methods we tested. On text Sokoban, it reaches 87.0% against 77.3% for ProAct's MC-PPO. Behavior. The trained policy more often completes prerequisite steps, such as heating, cooling or cleaning an object, before placing it or committing to an answer. 📄 Paper: https://arxiv.org/abs/2611.12200 · 💻 Code: https://github.com/nuskonghou/wm-ppo · 🤗 Checkpoints: https://huggingface.co/nuskonghou/wm-ppo",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.12200",
+      "pdf_url": "https://arxiv.org/pdf/2611.12200",
+      "github_links": [
+        "https://github.com/nuskonghou/wm-ppo",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.12200",
+      "scraped_at": "2026-11-11T05:01:04.134290"
+    },
+    "scraped_date": "2026-11-11"
+  },
+  {
+    "title": "Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies",
+    "paper_url": "https://huggingface.co/papers/2611.14488",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies",
+      "abstract": "We asked a robot to repeat a task three times. Two 5-second pauses made it stop after two. On RoboMME, those pauses cut a released memory VLA’s success from 47/50 to 16/50. Hide the same pause frames from memory, and success returns to 45/50. The surprising part: removing timestamps does not fix it. A memory sampled by time still gives uneventful frames a share of its slots. Event-indexed memory recovers much of the loss without retraining. Code · Five trained checkpoints",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.14488",
+      "pdf_url": "https://arxiv.org/pdf/2611.14488",
+      "github_links": [
+        "https://github.com/bennidict23/memory-clock",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.14488",
+      "scraped_at": "2026-11-11T05:01:05.680002"
+    },
+    "scraped_date": "2026-11-11"
   }
 ]

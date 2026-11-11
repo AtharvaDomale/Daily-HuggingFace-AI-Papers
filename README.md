@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-9-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-7919+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-11-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-7930+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">9</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">19</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">191</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">7919+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">11</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">30</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">202</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">7930+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** November 10, 2026
+**Last Updated:** November 11, 2026
 
 ---
 
@@ -119,123 +119,149 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. WorldFoundry: Towards Unified Infrastructure for World Intelligence</b> ⭐ 322</summary>
+<summary><b>1. dNaViT: Discrete Codes are General-Purpose Visual Representations</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.10771) • [📄 arXiv](https://arxiv.org/abs/2611.10771) • [📥 PDF](https://arxiv.org/pdf/2611.10771)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/OpenEnvision/WorldFoundry)
-
-> Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical ...
-
-</details>
-
-<details>
-<summary><b>2. ReproBridge: Building Reproducibility into ML Research Artifacts</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.08452) • [📄 arXiv](https://arxiv.org/abs/2611.08452) • [📥 PDF](https://arxiv.org/pdf/2611.08452)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.12426) • [📄 arXiv](https://arxiv.org/abs/2611.12426) • [📥 PDF](https://arxiv.org/pdf/2611.12426)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> ReproBridge starts from a simple question: when a coding agent reproduces a paper, how much of its success comes from the released artifacts, and how much from the agent filling in what the paper and code leave implicit? What we built Refined repr...
+> We introduce dNaViT: Discrete Codes are General-Purpose Visual Representations. dNaViT is a native-resolution visual tokenizer that combines residual modulation, grouped product quantization, and progressive three-stage training to preserve both s...
 
 </details>
 
 <details>
-<summary><b>3. Flide: Accelerating Decision Inference with Exact State Forking</b> ⭐ 291</summary>
+<summary><b>2. World In-Context Learning for Agentic Robot Manipulation</b> ⭐ 36</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.42148) • [📄 arXiv](https://arxiv.org/abs/2610.42148) • [📥 PDF](https://arxiv.org/pdf/2610.42148)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.12885) • [📄 arXiv](https://arxiv.org/abs/2611.12885) • [📥 PDF](https://arxiv.org/pdf/2611.12885)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/OmniJev/Flide)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/ArcheOne-AI/RoboScript)
 
-> Hi everyone! I'm one of the authors of Flide. We built Flide from scratch, an open-source inference engine for Jev-like decision models. The key idea is exact state forking, which allows multiple questions to share computation while preserving exa...
+> Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recor...
 
 </details>
 
 <details>
-<summary><b>4. TRIO: Task Refinement with Individual Optimization for Retrieval-Augmented Generation</b> ⭐ 2</summary>
+<summary><b>3. Few-Step Streaming Video Generation via Condition Shifting</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.02810) • [📄 arXiv](https://arxiv.org/abs/2611.02810) • [📥 PDF](https://arxiv.org/pdf/2611.02810)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.14033) • [📄 arXiv](https://arxiv.org/abs/2611.14033) • [📥 PDF](https://arxiv.org/pdf/2611.14033)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/yingtaoren/TRIO)
+**💻 Code:** [⭐ Code](https://github.com/shengshu-ai/Vidu-S) • [⭐ Code](https://github.com/huggingface)
 
-> Can three specialized agents make RAG more accurate than a single powerful reasoning model? 🚀 Introducing TRIO , a multi-agent RAG framework that improves retrieval-augmented reasoning through specialized agent optimization. TRIO jointly coordinat...
+> Hi everyone! We’re sharing our latest work extending APEX from image generation to few-step streaming video generation . Condition Shifting lets the generator and fake estimator share one network, removing the separate fake-score network and reduc...
 
 </details>
 
 <details>
-<summary><b>5. JoVox: Joint Hierarchical Flow Matching for Lightweight Voxel Generation</b> ⭐ 1</summary>
+<summary><b>4. DepthGraft: Structural Regularization through Hierarchical Cross-Layer KV Reconstruction</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.10690) • [📄 arXiv](https://arxiv.org/abs/2611.10690) • [📥 PDF](https://arxiv.org/pdf/2611.10690)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.03142) • [📄 arXiv](https://arxiv.org/abs/2611.03142) • [📥 PDF](https://arxiv.org/pdf/2611.03142)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/yuyujunjun/JoVox)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/jianke0604/DepthGraft)
 
-> JoVox generates voxel structures with one discrete flow matching model that learns all hierarchy levels jointly (4³ → 16³ → 64³), instead of one level at a time. Compared with TRELLIS.2 using the same backbone: 8× training throughput, 1/15 FLOPs p...
+> Scaling depth is a key route to stronger large language models, but Pre-LN architectures often suffer from depth-wise information dilution, limiting the effective use of deep layers. While cross-layer connectivity has proven effective at mitigatin...
 
 </details>
 
 <details>
-<summary><b>6. Horizon-Scalable Q-Learning</b> ⭐ 2</summary>
+<summary><b>5. PhysOPSD: Code as Privilege for Physically Plausible Video Generation</b> ⭐ 1</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.10987) • [📄 arXiv](https://arxiv.org/abs/2611.10987) • [📥 PDF](https://arxiv.org/pdf/2611.10987)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.12411) • [📄 arXiv](https://arxiv.org/abs/2611.12411) • [📥 PDF](https://arxiv.org/pdf/2611.12411)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/ryanxhr/hql)
+**💻 Code:** [⭐ Code](https://github.com/aigc3d/PhysOPSD) • [⭐ Code](https://github.com/huggingface)
 
-> Learning accurate off-policy state-action value functions (Q-functions) from offline datasets becomes harder as the task horizon grows. One-step temporal-difference (TD) learning bootstraps after every transition, so small per-step errors accumula...
+> Empowering generation with coding agents: Recent approaches use coding agents to replace parts of the video generation process. We explore how coding agents can empower the generator itself. Executable code supplies structured physical supervision...
 
 </details>
 
 <details>
-<summary><b>7. PhysioWave-T: Token-Efficient Wavelet Foundation Models for Biosignals</b> ⭐ 215</summary>
+<summary><b>6. ExRL: Sample-Efficient Online Adaptation of Long-Chunk Policies via Execution Length Control</b> ⭐ 1</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.08969) • [📄 arXiv](https://arxiv.org/abs/2611.08969) • [📥 PDF](https://arxiv.org/pdf/2611.08969)
+**👥 Authors:** Zijin Hong, Junlin Xie, Hao Wu, Jiaying Yang, Xu Luo
 
-**💻 Code:** [⭐ Code](https://github.com/ForeverBlue816/PhysioWave) • [⭐ Code](https://github.com/huggingface)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.13482) • [📄 arXiv](https://arxiv.org/abs/2611.13482) • [📥 PDF](https://arxiv.org/pdf/2611.13482)
 
-> We introduce PhysioWave-T, an efficient biosignal foundation model for EEG, ECG, and surface EMG. Scaling across these signals requires handling diverse recording setups and varying signal quality. Our Dynamic Scale Folding adapts to heterogeneous...
+**💻 Code:** [⭐ Code](https://github.com/Frankluox/ExRL) • [⭐ Code](https://github.com/huggingface)
+
+> ExRL enables sample-efficient online improvement of long-chunk robot policies by RL. It learns how much of each predicted chunk to execute using a lightweight RL policy, improving task performance across simulation and the real world.
 
 </details>
 
 <details>
-<summary><b>8. AutoVend: Benchmarking LLM Agents on Long-Horizon Autonomous Vending Operations</b> ⭐ 0</summary>
+<summary><b>7. ProTEUS: A mutation-resolved world model for closed-loop protein evolution</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Sinuo Wang, Rui Sun, Beidi Luan, Yikun Li, Qiming Shi
+**👥 Authors:** Wojciech Matusik, Peter Yichen Chen, Guangxue Xu, Minghao Guo, Yikun Zhang
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.36980) • [📄 arXiv](https://arxiv.org/abs/2610.36980) • [📥 PDF](https://arxiv.org/pdf/2610.36980)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.13348) • [📄 arXiv](https://arxiv.org/abs/2611.13348) • [📥 PDF](https://arxiv.org/pdf/2611.13348)
+
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/yikunpku/ProTEUS)
+
+> No abstract available.
+
+</details>
+
+<details>
+<summary><b>8. DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.11166) • [📄 arXiv](https://arxiv.org/abs/2611.11166) • [📥 PDF](https://arxiv.org/pdf/2611.11166)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> 🤖 Can an LLM agent run a vending business for 180 days? Many commercial tasks end when a transaction is completed. Running a business is different: today’s decisions determine tomorrow’s stock availability, costs, and cash position. We introduce A...
+> Excited to share DexForesight , our latest work from the Sharpa Foundation Model Team ! Project Page: https://dexforesight.github.io/ Most existing dexterous manipulation models rely primarily on RGB observations. However, even in simple pick-and-...
 
 </details>
 
 <details>
-<summary><b>9. FlyHash for LLM Agent Memory: An Empirical Validation and a New Application</b> ⭐ 1</summary>
+<summary><b>9. Predictive Surprise as Self-Grounding Concept Bottleneck for Interpretable Time Series</b> ⭐ 1</summary>
 
 <br/>
 
-**👥 Authors:** Chrisogonas O. Odhiambo, pranamhan
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.12955) • [📄 arXiv](https://arxiv.org/abs/2611.12955) • [📥 PDF](https://arxiv.org/pdf/2611.12955)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.05791) • [📄 arXiv](https://arxiv.org/abs/2611.05791) • [📥 PDF](https://arxiv.org/pdf/2611.05791)
+**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Sachithx/ConceptTime)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/mohanji/flyhash-agent-memory)
+> CONCEPTTIME uses predictive surprise from a frozen probabilistic forecaster to jointly identify segment boundaries and learn an interpretable vocabulary of temporal concepts. A lightweight classifier predicts from the concept sequence, while dista...
 
-> Hi everyone, I'm one of the authors. We tested FlyHash, a fruit-fly-inspired sparse hash, against SimHash for retrieving memories in LLM agents, using matched bit budgets and a labeled benchmark we released (6,000 memories, 150 queries). Main resu...
+</details>
+
+<details>
+<summary><b>10. Learning to Act with World Models by Valuing What Comes Next</b> ⭐ 1</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.12200) • [📄 arXiv](https://arxiv.org/abs/2611.12200) • [📥 PDF](https://arxiv.org/pdf/2611.12200)
+
+**💻 Code:** [⭐ Code](https://github.com/nuskonghou/wm-ppo) • [⭐ Code](https://github.com/huggingface)
+
+> TL;DR. A sparse terminal reward says little about individual steps, yet each state transition can change the chances of success long before the reward arrives. WM-PPO learns from this information: a world model trained on real transitions predicts...
+
+</details>
+
+<details>
+<summary><b>11. Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies</b> ⭐ 0</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.14488) • [📄 arXiv](https://arxiv.org/abs/2611.14488) • [📥 PDF](https://arxiv.org/pdf/2611.14488)
+
+**💻 Code:** [⭐ Code](https://github.com/bennidict23/memory-clock) • [⭐ Code](https://github.com/huggingface)
+
+> We asked a robot to repeat a task three times. Two 5-second pauses made it stop after two. On RoboMME, those pauses cut a released memory VLA’s success from 47/50 to 16/50. Hide the same pause frames from memory, and success returns to 45/50. The ...
 
 </details>
 
@@ -247,28 +273,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 9 |
-| 📅 Today | [`2026-11-10.json`](data/daily/2026-11-10.json) | 9 |
-| 📆 This Week | [`2026-W45.json`](data/weekly/2026-W45.json) | 19 |
-| 🗓️ This Month | [`2026-11.json`](data/monthly/2026-11.json) | 191 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 11 |
+| 📅 Today | [`2026-11-11.json`](data/daily/2026-11-11.json) | 11 |
+| 📆 This Week | [`2026-W45.json`](data/weekly/2026-W45.json) | 30 |
+| 🗓️ This Month | [`2026-11.json`](data/monthly/2026-11.json) | 202 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-11-10 | 9 | [View JSON](data/daily/2026-11-10.json) |
+| 📌 2026-11-11 | 11 | [View JSON](data/daily/2026-11-11.json) |
+| 📄 2026-11-10 | 9 | [View JSON](data/daily/2026-11-10.json) |
 | 📄 2026-11-09 | 10 | [View JSON](data/daily/2026-11-09.json) |
 | 📄 2026-11-08 | 32 | [View JSON](data/daily/2026-11-08.json) |
 | 📄 2026-11-07 | 32 | [View JSON](data/daily/2026-11-07.json) |
 | 📄 2026-11-06 | 8 | [View JSON](data/daily/2026-11-06.json) |
 | 📄 2026-11-05 | 13 | [View JSON](data/daily/2026-11-05.json) |
-| 📄 2026-11-04 | 20 | [View JSON](data/daily/2026-11-04.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W45 | 19 | [View JSON](data/weekly/2026-W45.json) |
+| 📅 2026-W45 | 30 | [View JSON](data/weekly/2026-W45.json) |
 | 📅 2026-W44 | 133 | [View JSON](data/weekly/2026-W44.json) |
 | 📅 2026-W43 | 149 | [View JSON](data/weekly/2026-W43.json) |
 | 📅 2026-W42 | 204 | [View JSON](data/weekly/2026-W42.json) |
@@ -277,7 +303,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-11 | 191 | [View JSON](data/monthly/2026-11.json) |
+| 🗓️ 2026-11 | 202 | [View JSON](data/monthly/2026-11.json) |
 | 🗓️ 2026-10 | 1120 | [View JSON](data/monthly/2026-10.json) |
 | 🗓️ 2026-09 | 480 | [View JSON](data/monthly/2026-09.json) |
 | 🗓️ 2026-08 | 747 | [View JSON](data/monthly/2026-08.json) |
