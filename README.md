@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-11-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-7930+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-3-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-7933+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">11</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">30</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">202</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">7930+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">3</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">33</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">205</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">7933+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** November 11, 2026
+**Last Updated:** November 12, 2026
 
 ---
 
@@ -119,149 +119,43 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. dNaViT: Discrete Codes are General-Purpose Visual Representations</b> ⭐ 0</summary>
+<summary><b>1. Incentivizing Self-Learning in Large Language Models via Reinforcement Learning</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.12426) • [📄 arXiv](https://arxiv.org/abs/2611.12426) • [📥 PDF](https://arxiv.org/pdf/2611.12426)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.39671) • [📄 arXiv](https://arxiv.org/abs/2610.39671) • [📥 PDF](https://arxiv.org/pdf/2610.39671)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> We introduce dNaViT: Discrete Codes are General-Purpose Visual Representations. dNaViT is a native-resolution visual tokenizer that combines residual modulation, grouped product quantization, and progressive three-stage training to preserve both s...
+> We study self-learning—autonomously retrieving, studying, and applying knowledge from long-form reference materials on the fly.
 
 </details>
 
 <details>
-<summary><b>2. World In-Context Learning for Agentic Robot Manipulation</b> ⭐ 36</summary>
+<summary><b>2. GTAGym: Real AAA Game Tasks Environment for Evaluation and Reinforcement Learning</b> ⭐ 1</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.12885) • [📄 arXiv](https://arxiv.org/abs/2611.12885) • [📥 PDF](https://arxiv.org/pdf/2611.12885)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.13028) • [📄 arXiv](https://arxiv.org/abs/2611.13028) • [📥 PDF](https://arxiv.org/pdf/2611.13028)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/ArcheOne-AI/RoboScript)
+**💻 Code:** [⭐ Code](https://github.com/ljbro/GTAGym) • [⭐ Code](https://github.com/huggingface)
 
-> Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recor...
+> Code: https://github.com/ljbro/GTAGym Data: https://huggingface.co/datasets/OpenMOSS-Team/GTAVBench
 
 </details>
 
 <details>
-<summary><b>3. Few-Step Streaming Video Generation via Condition Shifting</b> ⭐ 0</summary>
+<summary><b>3. Ensemble Routing for Prompt-Adaptive Cost-Aware LLM Inference</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.14033) • [📄 arXiv](https://arxiv.org/abs/2611.14033) • [📥 PDF](https://arxiv.org/pdf/2611.14033)
+**👥 Authors:** Matteo Mordacchini, Patrizio Dazzi, Emanuele Carlini, SaulUrso
 
-**💻 Code:** [⭐ Code](https://github.com/shengshu-ai/Vidu-S) • [⭐ Code](https://github.com/huggingface)
-
-> Hi everyone! We’re sharing our latest work extending APEX from image generation to few-step streaming video generation . Condition Shifting lets the generator and fake estimator share one network, removing the separate fake-score network and reduc...
-
-</details>
-
-<details>
-<summary><b>4. DepthGraft: Structural Regularization through Hierarchical Cross-Layer KV Reconstruction</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.03142) • [📄 arXiv](https://arxiv.org/abs/2611.03142) • [📥 PDF](https://arxiv.org/pdf/2611.03142)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/jianke0604/DepthGraft)
-
-> Scaling depth is a key route to stronger large language models, but Pre-LN architectures often suffer from depth-wise information dilution, limiting the effective use of deep layers. While cross-layer connectivity has proven effective at mitigatin...
-
-</details>
-
-<details>
-<summary><b>5. PhysOPSD: Code as Privilege for Physically Plausible Video Generation</b> ⭐ 1</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.12411) • [📄 arXiv](https://arxiv.org/abs/2611.12411) • [📥 PDF](https://arxiv.org/pdf/2611.12411)
-
-**💻 Code:** [⭐ Code](https://github.com/aigc3d/PhysOPSD) • [⭐ Code](https://github.com/huggingface)
-
-> Empowering generation with coding agents: Recent approaches use coding agents to replace parts of the video generation process. We explore how coding agents can empower the generator itself. Executable code supplies structured physical supervision...
-
-</details>
-
-<details>
-<summary><b>6. ExRL: Sample-Efficient Online Adaptation of Long-Chunk Policies via Execution Length Control</b> ⭐ 1</summary>
-
-<br/>
-
-**👥 Authors:** Zijin Hong, Junlin Xie, Hao Wu, Jiaying Yang, Xu Luo
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.13482) • [📄 arXiv](https://arxiv.org/abs/2611.13482) • [📥 PDF](https://arxiv.org/pdf/2611.13482)
-
-**💻 Code:** [⭐ Code](https://github.com/Frankluox/ExRL) • [⭐ Code](https://github.com/huggingface)
-
-> ExRL enables sample-efficient online improvement of long-chunk robot policies by RL. It learns how much of each predicted chunk to execute using a lightweight RL policy, improving task performance across simulation and the real world.
-
-</details>
-
-<details>
-<summary><b>7. ProTEUS: A mutation-resolved world model for closed-loop protein evolution</b> ⭐ 0</summary>
-
-<br/>
-
-**👥 Authors:** Wojciech Matusik, Peter Yichen Chen, Guangxue Xu, Minghao Guo, Yikun Zhang
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.13348) • [📄 arXiv](https://arxiv.org/abs/2611.13348) • [📥 PDF](https://arxiv.org/pdf/2611.13348)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/yikunpku/ProTEUS)
-
-> No abstract available.
-
-</details>
-
-<details>
-<summary><b>8. DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.11166) • [📄 arXiv](https://arxiv.org/abs/2611.11166) • [📥 PDF](https://arxiv.org/pdf/2611.11166)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.10193) • [📄 arXiv](https://arxiv.org/abs/2611.10193) • [📥 PDF](https://arxiv.org/pdf/2611.10193)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> Excited to share DexForesight , our latest work from the Sharpa Foundation Model Team ! Project Page: https://dexforesight.github.io/ Most existing dexterous manipulation models rely primarily on RGB observations. However, even in simple pick-and-...
-
-</details>
-
-<details>
-<summary><b>9. Predictive Surprise as Self-Grounding Concept Bottleneck for Interpretable Time Series</b> ⭐ 1</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.12955) • [📄 arXiv](https://arxiv.org/abs/2611.12955) • [📥 PDF](https://arxiv.org/pdf/2611.12955)
-
-**💻 Code:** [⭐ Code](https://github.com/huggingface) • [⭐ Code](https://github.com/Sachithx/ConceptTime)
-
-> CONCEPTTIME uses predictive surprise from a frozen probabilistic forecaster to jointly identify segment boundaries and learn an interpretable vocabulary of temporal concepts. A lightweight classifier predicts from the concept sequence, while dista...
-
-</details>
-
-<details>
-<summary><b>10. Learning to Act with World Models by Valuing What Comes Next</b> ⭐ 1</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.12200) • [📄 arXiv](https://arxiv.org/abs/2611.12200) • [📥 PDF](https://arxiv.org/pdf/2611.12200)
-
-**💻 Code:** [⭐ Code](https://github.com/nuskonghou/wm-ppo) • [⭐ Code](https://github.com/huggingface)
-
-> TL;DR. A sparse terminal reward says little about individual steps, yet each state transition can change the chances of success long before the reward arrives. WM-PPO learns from this information: a world model trained on real transitions predicts...
-
-</details>
-
-<details>
-<summary><b>11. Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies</b> ⭐ 0</summary>
-
-<br/>
-
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.14488) • [📄 arXiv](https://arxiv.org/abs/2611.14488) • [📥 PDF](https://arxiv.org/pdf/2611.14488)
-
-**💻 Code:** [⭐ Code](https://github.com/bennidict23/memory-clock) • [⭐ Code](https://github.com/huggingface)
-
-> We asked a robot to repeat a task three times. Two 5-second pauses made it stop after two. On RoboMME, those pauses cut a released memory VLA’s success from 47/50 to 16/50. Hide the same pause frames from memory, and success returns to 45/50. The ...
+> Most LLM routing approaches select a single model per prompt, while ensembling introduces a different question: which models should we combine, and how many are actually worth invoking? In this paper, we introduce PISA, a cost-aware single-model r...
 
 </details>
 
@@ -273,28 +167,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 11 |
-| 📅 Today | [`2026-11-11.json`](data/daily/2026-11-11.json) | 11 |
-| 📆 This Week | [`2026-W45.json`](data/weekly/2026-W45.json) | 30 |
-| 🗓️ This Month | [`2026-11.json`](data/monthly/2026-11.json) | 202 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 3 |
+| 📅 Today | [`2026-11-12.json`](data/daily/2026-11-12.json) | 3 |
+| 📆 This Week | [`2026-W45.json`](data/weekly/2026-W45.json) | 33 |
+| 🗓️ This Month | [`2026-11.json`](data/monthly/2026-11.json) | 205 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-11-11 | 11 | [View JSON](data/daily/2026-11-11.json) |
+| 📌 2026-11-12 | 3 | [View JSON](data/daily/2026-11-12.json) |
+| 📄 2026-11-11 | 11 | [View JSON](data/daily/2026-11-11.json) |
 | 📄 2026-11-10 | 9 | [View JSON](data/daily/2026-11-10.json) |
 | 📄 2026-11-09 | 10 | [View JSON](data/daily/2026-11-09.json) |
 | 📄 2026-11-08 | 32 | [View JSON](data/daily/2026-11-08.json) |
 | 📄 2026-11-07 | 32 | [View JSON](data/daily/2026-11-07.json) |
 | 📄 2026-11-06 | 8 | [View JSON](data/daily/2026-11-06.json) |
-| 📄 2026-11-05 | 13 | [View JSON](data/daily/2026-11-05.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W45 | 30 | [View JSON](data/weekly/2026-W45.json) |
+| 📅 2026-W45 | 33 | [View JSON](data/weekly/2026-W45.json) |
 | 📅 2026-W44 | 133 | [View JSON](data/weekly/2026-W44.json) |
 | 📅 2026-W43 | 149 | [View JSON](data/weekly/2026-W43.json) |
 | 📅 2026-W42 | 204 | [View JSON](data/weekly/2026-W42.json) |
@@ -303,7 +197,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-11 | 202 | [View JSON](data/monthly/2026-11.json) |
+| 🗓️ 2026-11 | 205 | [View JSON](data/monthly/2026-11.json) |
 | 🗓️ 2026-10 | 1120 | [View JSON](data/monthly/2026-10.json) |
 | 🗓️ 2026-09 | 480 | [View JSON](data/monthly/2026-09.json) |
 | 🗓️ 2026-08 | 747 | [View JSON](data/monthly/2026-08.json) |

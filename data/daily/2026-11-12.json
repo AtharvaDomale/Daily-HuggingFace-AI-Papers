@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Incentivizing Self-Learning in Large Language Models via Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2610.39671",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Incentivizing Self-Learning in Large Language Models via Reinforcement Learning",
+      "abstract": "We study self-learning—autonomously retrieving, studying, and applying knowledge from long-form reference materials on the fly.",
+      "arxiv_page_url": "https://arxiv.org/abs/2610.39671",
+      "pdf_url": "https://arxiv.org/pdf/2610.39671",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2610.39671",
+      "scraped_at": "2026-11-12T06:04:16.487979"
+    },
+    "scraped_date": "2026-11-12"
+  },
+  {
+    "title": "GTAGym: Real AAA Game Tasks Environment for Evaluation and Reinforcement Learning",
+    "paper_url": "https://huggingface.co/papers/2611.13028",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "GTAGym: Real AAA Game Tasks Environment for Evaluation and Reinforcement Learning",
+      "abstract": "Code: https://github.com/ljbro/GTAGym Data: https://huggingface.co/datasets/OpenMOSS-Team/GTAVBench",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.13028",
+      "pdf_url": "https://arxiv.org/pdf/2611.13028",
+      "github_links": [
+        "https://github.com/ljbro/GTAGym",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.13028",
+      "scraped_at": "2026-11-12T06:04:18.330693"
+    },
+    "scraped_date": "2026-11-12"
+  },
+  {
+    "title": "Ensemble Routing for Prompt-Adaptive Cost-Aware LLM Inference",
+    "paper_url": "https://huggingface.co/papers/2611.10193",
+    "authors": [
+      "Matteo Mordacchini",
+      "Patrizio Dazzi",
+      "Emanuele Carlini",
+      "SaulUrso"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Ensemble Routing for Prompt-Adaptive Cost-Aware LLM Inference",
+      "abstract": "Most LLM routing approaches select a single model per prompt, while ensembling introduces a different question: which models should we combine, and how many are actually worth invoking? In this paper, we introduce PISA, a cost-aware single-model router, and PISA-E, which extends routing to ensembles with prompt-adaptive composition and size. PISA-E estimates ensemble utility from individual model capability predictions, without requiring ensemble-specific training. It then selects the models to invoke based on the prompt and a configurable cost–quality preference. We evaluate both methods across four routing benchmarks under in-distribution and out-of-distribution settings. PISA achieves the highest macro-average cost–performance hypervolume among the evaluated single-model routers. PISA-E achieves the highest macro-average ensemble task performance when prioritizing quality, while also offering operating points with higher performance at approximately 36% (ID) and 25% (OOD) lower average inference cost than the strongest competing ensembles. Feedback and discussion are welcome, particularly on the ensemble-selection formulation and adaptive ensemble cardinality.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.10193",
+      "pdf_url": "https://arxiv.org/pdf/2611.10193",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.10193",
+      "scraped_at": "2026-11-12T06:04:20.023987"
+    },
+    "scraped_date": "2026-11-12"
+  }
+]
