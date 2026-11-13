@@ -706,5 +706,132 @@
       "scraped_at": "2026-11-12T06:04:20.023987"
     },
     "scraped_date": "2026-11-12"
+  },
+  {
+    "title": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
+    "paper_url": "https://huggingface.co/papers/2611.14815",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
+      "abstract": "BirdDreams: A driving world model with accurate ego control and traffic that can react. BirdDreams is a driving world model that generates driving video and a bird’s-eye view of the scene from a single camera image.  It follows input ego trajectories precisely while predicting how surrounding traffic reacts to ego motion.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.14815",
+      "pdf_url": "https://arxiv.org/pdf/2611.14815",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.14815",
+      "scraped_at": "2026-11-13T05:28:16.939956"
+    },
+    "scraped_date": "2026-11-13"
+  },
+  {
+    "title": "On the Design of Hyper-Connections: Simplification, Stability, and Scalability",
+    "paper_url": "https://huggingface.co/papers/2611.05984",
+    "authors": [],
+    "stars": "20",
+    "details": {
+      "title": "On the Design of Hyper-Connections: Simplification, Stability, and Scalability",
+      "abstract": "We introduce SimpleHC, one of the fastest Hyper-Connections variants to date, reducing repeated memory access through a simpler design. It adds just 2.4% training overhead at the largest tested width while maintaining competitive performance with mHC at 15B and 30B MoE scales.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.05984",
+      "pdf_url": "https://arxiv.org/pdf/2611.05984",
+      "github_links": [
+        "https://github.com/aHapBean/SimpleHC",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.05984",
+      "scraped_at": "2026-11-13T05:28:18.579428"
+    },
+    "scraped_date": "2026-11-13"
+  },
+  {
+    "title": "Duo: A Reciprocal World Model for Full-Duplex Interaction",
+    "paper_url": "https://huggingface.co/papers/2611.15131",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Duo: A Reciprocal World Model for Full-Duplex Interaction",
+      "abstract": "arXiv: https://arxiv.org/abs/2611.15131 Homepage: https://duo-v1.github.io/ Github: https://github.com/inclusionAI/Duo Hugging Face Model: https://huggingface.co/collections/inclusionAI/duo-v1",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.15131",
+      "pdf_url": "https://arxiv.org/pdf/2611.15131",
+      "github_links": [
+        "https://github.com/inclusionAI/Duo",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.15131",
+      "scraped_at": "2026-11-13T05:28:20.263584"
+    },
+    "scraped_date": "2026-11-13"
+  },
+  {
+    "title": "G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation",
+    "paper_url": "https://huggingface.co/papers/2611.13004",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation",
+      "abstract": "Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a fixed nominal information budget, group size should scale quadratically with the per-axis spatial compression factor. Building on this principle, we propose GSTAR, a spatial--group co-scaling framework that enables 32x and even effective 64x compression while preserving strong reconstruction, understanding, and generation performance. Since larger groups introduce intra-group dependencies that must be modeled efficiently, we analyze their impact on inference latency and generation quality and introduce a semi-autoregressive decoder that combines parallel feature computation with lightweight causal modeling. With these designs, our highly compressed models perform competitively with leading models across five representative text-to-image benchmarks (GenEval, DPG-Bench, PRISM, LongText-Bench, and Qwen-Image-Bench). At 1024x1024resolution, our model delivers a 20x speedup over prior discrete autoregressive models, generating each image in 2.5 seconds on a single NVIDIA H200. Together, these results show that highly compressed discrete representations can enable high-quality autoregressive generation at low latency.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.13004",
+      "pdf_url": "https://arxiv.org/pdf/2611.13004",
+      "github_links": [
+        "https://github.com/DAGroup-PKU/G-STAR",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.13004",
+      "scraped_at": "2026-11-13T05:28:21.928223"
+    },
+    "scraped_date": "2026-11-13"
+  },
+  {
+    "title": "From Large Language Models to Efficient System One Models via Adaptive Computation",
+    "paper_url": "https://huggingface.co/papers/2611.16321",
+    "authors": [
+      "Minh-Anh Nguyen"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "From Large Language Models to Efficient System One Models via Adaptive Computation",
+      "abstract": "Transferring LLMs into System One decision models typically replaces the language modeling head with a decision head while retaining the full backbone, making every decision pay for all layers. Yet it remains unclear how much depth such decisions require. We find that decision information is concentrated in intermediate layers, with early layers building essential features and the final six layers removable without loss, while independently trained smaller models largely mimic the full model rather than developing specialized decision capabilities. These findings suggest that efficiency requires not simply smaller backbones, but shared computation across different depths. Building on this, we propose NESTONE, which jointly trains a full model with prefix submodels that share its final layers and decision head through self-distillation. A lightweight gate reads the hidden state at each exit to determine whether additional computation is needed, allowing one model to operate at multiple layers. Across seven decision benchmarks, our approach matches or outperforms independently trained models at every depth, while achieving better accuracy-efficiency trade-offs through adaptive computation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.16321",
+      "pdf_url": "https://arxiv.org/pdf/2611.16321",
+      "github_links": [
+        "https://github.com/minhkks/NestOne",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.16321",
+      "scraped_at": "2026-11-13T05:28:23.561962"
+    },
+    "scraped_date": "2026-11-13"
+  },
+  {
+    "title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
+    "paper_url": "https://huggingface.co/papers/2611.16748",
+    "authors": [
+      "Kewei Zhang",
+      "Juncheng Ma",
+      "Hao Chen",
+      "Xiaojie Li",
+      "Yuxuan Chen"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
+      "abstract": "PhysLoop is a physics-aware harness for building controllable video training data and repairing physically inconsistent video at inference time. The project video shows how the harness works and presents examples of video generation and repair. Code release is pending company policy review.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.16748",
+      "pdf_url": "https://arxiv.org/pdf/2611.16748",
+      "github_links": [
+        "https://github.com/DAGroup-PKU/PhysLoop",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.16748",
+      "scraped_at": "2026-11-13T05:28:25.149779"
+    },
+    "scraped_date": "2026-11-13"
   }
 ]

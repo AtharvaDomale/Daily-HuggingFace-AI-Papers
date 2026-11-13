@@ -7,8 +7,8 @@
 > **Never miss groundbreaking AI research again!** Get daily updates on the hottest papers from HuggingFace, automatically curated and archived. Perfect for researchers, ML engineers, and AI enthusiasts. 🔥
 
 [![Update Daily](https://img.shields.io/badge/Update-Daily-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/actions)
-[![Papers Today](https://img.shields.io/badge/Papers%20Today-3-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
-[![Total Papers](https://img.shields.io/badge/Total%20Papers-7933+-orange?style=for-the-badge&logo=academia)](data/)
+[![Papers Today](https://img.shields.io/badge/Papers%20Today-6-blue?style=for-the-badge&logo=arxiv)](data/latest.json)
+[![Total Papers](https://img.shields.io/badge/Total%20Papers-7939+-orange?style=for-the-badge&logo=academia)](data/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/AtharvaDomale/Daily-HuggingFace-AI-Papers?style=social)](https://github.com/AtharvaDomale/Daily-HuggingFace-AI-Papers/stargazers)
 
@@ -103,14 +103,14 @@ getTodaysPapers();
 
 <table>
 <tr>
-<td align="center"><b>📄 Today</b><br/><font size="5">3</font><br/>papers</td>
-<td align="center"><b>📅 This Week</b><br/><font size="5">33</font><br/>papers</td>
-<td align="center"><b>📆 This Month</b><br/><font size="5">205</font><br/>papers</td>
-<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">7933+</font><br/>papers</td>
+<td align="center"><b>📄 Today</b><br/><font size="5">6</font><br/>papers</td>
+<td align="center"><b>📅 This Week</b><br/><font size="5">39</font><br/>papers</td>
+<td align="center"><b>📆 This Month</b><br/><font size="5">211</font><br/>papers</td>
+<td align="center"><b>🗄️ Total Archive</b><br/><font size="5">7939+</font><br/>papers</td>
 </tr>
 </table>
 
-**Last Updated:** November 12, 2026
+**Last Updated:** November 13, 2026
 
 ---
 
@@ -119,43 +119,84 @@ getTodaysPapers();
 > Latest AI research papers from HuggingFace Papers, updated daily
 
 <details>
-<summary><b>1. Incentivizing Self-Learning in Large Language Models via Reinforcement Learning</b> ⭐ 0</summary>
+<summary><b>1. BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model</b> ⭐ 0</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2610.39671) • [📄 arXiv](https://arxiv.org/abs/2610.39671) • [📥 PDF](https://arxiv.org/pdf/2610.39671)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.14815) • [📄 arXiv](https://arxiv.org/abs/2611.14815) • [📥 PDF](https://arxiv.org/pdf/2611.14815)
 
 **💻 Code:** [⭐ Code](https://github.com/huggingface)
 
-> We study self-learning—autonomously retrieving, studying, and applying knowledge from long-form reference materials on the fly.
+> BirdDreams: A driving world model with accurate ego control and traffic that can react. BirdDreams is a driving world model that generates driving video and a bird’s-eye view of the scene from a single camera image.  It follows input ego trajector...
 
 </details>
 
 <details>
-<summary><b>2. GTAGym: Real AAA Game Tasks Environment for Evaluation and Reinforcement Learning</b> ⭐ 1</summary>
+<summary><b>2. On the Design of Hyper-Connections: Simplification, Stability, and Scalability</b> ⭐ 20</summary>
 
 <br/>
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.13028) • [📄 arXiv](https://arxiv.org/abs/2611.13028) • [📥 PDF](https://arxiv.org/pdf/2611.13028)
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.05984) • [📄 arXiv](https://arxiv.org/abs/2611.05984) • [📥 PDF](https://arxiv.org/pdf/2611.05984)
 
-**💻 Code:** [⭐ Code](https://github.com/ljbro/GTAGym) • [⭐ Code](https://github.com/huggingface)
+**💻 Code:** [⭐ Code](https://github.com/aHapBean/SimpleHC) • [⭐ Code](https://github.com/huggingface)
 
-> Code: https://github.com/ljbro/GTAGym Data: https://huggingface.co/datasets/OpenMOSS-Team/GTAVBench
+> We introduce SimpleHC, one of the fastest Hyper-Connections variants to date, reducing repeated memory access through a simpler design. It adds just 2.4% training overhead at the largest tested width while maintaining competitive performance with ...
 
 </details>
 
 <details>
-<summary><b>3. Ensemble Routing for Prompt-Adaptive Cost-Aware LLM Inference</b> ⭐ 0</summary>
+<summary><b>3. Duo: A Reciprocal World Model for Full-Duplex Interaction</b> ⭐ 0</summary>
 
 <br/>
 
-**👥 Authors:** Matteo Mordacchini, Patrizio Dazzi, Emanuele Carlini, SaulUrso
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.15131) • [📄 arXiv](https://arxiv.org/abs/2611.15131) • [📥 PDF](https://arxiv.org/pdf/2611.15131)
 
-**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.10193) • [📄 arXiv](https://arxiv.org/abs/2611.10193) • [📥 PDF](https://arxiv.org/pdf/2611.10193)
+**💻 Code:** [⭐ Code](https://github.com/inclusionAI/Duo) • [⭐ Code](https://github.com/huggingface)
 
-**💻 Code:** [⭐ Code](https://github.com/huggingface)
+> arXiv: https://arxiv.org/abs/2611.15131 Homepage: https://duo-v1.github.io/ Github: https://github.com/inclusionAI/Duo Hugging Face Model: https://huggingface.co/collections/inclusionAI/duo-v1
 
-> Most LLM routing approaches select a single model per prompt, while ensembling introduces a different question: which models should we combine, and how many are actually worth invoking? In this paper, we introduce PISA, a cost-aware single-model r...
+</details>
+
+<details>
+<summary><b>4. G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation</b> ⭐ 4</summary>
+
+<br/>
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.13004) • [📄 arXiv](https://arxiv.org/abs/2611.13004) • [📥 PDF](https://arxiv.org/pdf/2611.13004)
+
+**💻 Code:** [⭐ Code](https://github.com/DAGroup-PKU/G-STAR) • [⭐ Code](https://github.com/huggingface)
+
+> Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces repr...
+
+</details>
+
+<details>
+<summary><b>5. From Large Language Models to Efficient System One Models via Adaptive Computation</b> ⭐ 1</summary>
+
+<br/>
+
+**👥 Authors:** Minh-Anh Nguyen
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.16321) • [📄 arXiv](https://arxiv.org/abs/2611.16321) • [📥 PDF](https://arxiv.org/pdf/2611.16321)
+
+**💻 Code:** [⭐ Code](https://github.com/minhkks/NestOne) • [⭐ Code](https://github.com/huggingface)
+
+> Transferring LLMs into System One decision models typically replaces the language modeling head with a decision head while retaining the full backbone, making every decision pay for all layers. Yet it remains unclear how much depth such decisions ...
+
+</details>
+
+<details>
+<summary><b>6. PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models</b> ⭐ 0</summary>
+
+<br/>
+
+**👥 Authors:** Kewei Zhang, Juncheng Ma, Hao Chen, Xiaojie Li, Yuxuan Chen
+
+**🔗 Links:** [🤗 HuggingFace](https://huggingface.co/papers/2611.16748) • [📄 arXiv](https://arxiv.org/abs/2611.16748) • [📥 PDF](https://arxiv.org/pdf/2611.16748)
+
+**💻 Code:** [⭐ Code](https://github.com/DAGroup-PKU/PhysLoop) • [⭐ Code](https://github.com/huggingface)
+
+> PhysLoop is a physics-aware harness for building controllable video training data and repairing physically inconsistent video at inference time. The project video shows how the harness works and presents examples of video generation and repair. Co...
 
 </details>
 
@@ -167,28 +208,28 @@ getTodaysPapers();
 
 | Type | Link | Papers |
 |------|------|--------|
-| 🕐 Latest | [`latest.json`](data/latest.json) | 3 |
-| 📅 Today | [`2026-11-12.json`](data/daily/2026-11-12.json) | 3 |
-| 📆 This Week | [`2026-W45.json`](data/weekly/2026-W45.json) | 33 |
-| 🗓️ This Month | [`2026-11.json`](data/monthly/2026-11.json) | 205 |
+| 🕐 Latest | [`latest.json`](data/latest.json) | 6 |
+| 📅 Today | [`2026-11-13.json`](data/daily/2026-11-13.json) | 6 |
+| 📆 This Week | [`2026-W45.json`](data/weekly/2026-W45.json) | 39 |
+| 🗓️ This Month | [`2026-11.json`](data/monthly/2026-11.json) | 211 |
 
 ### 📜 Recent Days
 
 | Date | Papers | Link |
 |------|--------|------|
-| 📌 2026-11-12 | 3 | [View JSON](data/daily/2026-11-12.json) |
+| 📌 2026-11-13 | 6 | [View JSON](data/daily/2026-11-13.json) |
+| 📄 2026-11-12 | 3 | [View JSON](data/daily/2026-11-12.json) |
 | 📄 2026-11-11 | 11 | [View JSON](data/daily/2026-11-11.json) |
 | 📄 2026-11-10 | 9 | [View JSON](data/daily/2026-11-10.json) |
 | 📄 2026-11-09 | 10 | [View JSON](data/daily/2026-11-09.json) |
 | 📄 2026-11-08 | 32 | [View JSON](data/daily/2026-11-08.json) |
 | 📄 2026-11-07 | 32 | [View JSON](data/daily/2026-11-07.json) |
-| 📄 2026-11-06 | 8 | [View JSON](data/daily/2026-11-06.json) |
 
 ### 📚 Weekly Archives
 
 | Week | Papers | Link |
 |------|--------|------|
-| 📅 2026-W45 | 33 | [View JSON](data/weekly/2026-W45.json) |
+| 📅 2026-W45 | 39 | [View JSON](data/weekly/2026-W45.json) |
 | 📅 2026-W44 | 133 | [View JSON](data/weekly/2026-W44.json) |
 | 📅 2026-W43 | 149 | [View JSON](data/weekly/2026-W43.json) |
 | 📅 2026-W42 | 204 | [View JSON](data/weekly/2026-W42.json) |
@@ -197,7 +238,7 @@ getTodaysPapers();
 
 | Month | Papers | Link |
 |------|--------|------|
-| 🗓️ 2026-11 | 205 | [View JSON](data/monthly/2026-11.json) |
+| 🗓️ 2026-11 | 211 | [View JSON](data/monthly/2026-11.json) |
 | 🗓️ 2026-10 | 1120 | [View JSON](data/monthly/2026-10.json) |
 | 🗓️ 2026-09 | 480 | [View JSON](data/monthly/2026-09.json) |
 | 🗓️ 2026-08 | 747 | [View JSON](data/monthly/2026-08.json) |
