@@ -1,0 +1,256 @@
+[
+  {
+    "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+    "paper_url": "https://huggingface.co/papers/2611.18359",
+    "authors": [
+      "Yiheng Lyu",
+      "Siyao Li",
+      "Duo Li",
+      "Qingfeng Lan",
+      "Grid Robotics"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.18359",
+      "pdf_url": "https://arxiv.org/pdf/2611.18359",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.18359",
+      "scraped_at": "2026-11-16T05:10:21.431947"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+    "paper_url": "https://huggingface.co/papers/2611.18397",
+    "authors": [
+      "Zhihao Yang",
+      "Yukun Chen",
+      "Qi Deng",
+      "Kuan Zhang",
+      "Run Luo"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.18397",
+      "pdf_url": "https://arxiv.org/pdf/2611.18397",
+      "github_links": [
+        "https://github.com/RainBowLuoCS/Gamer",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.18397",
+      "scraped_at": "2026-11-16T05:10:23.362265"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "Loopback Transformer: Towards a Unified View of Residual Looped Transformers",
+    "paper_url": "https://huggingface.co/papers/2611.07226",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Loopback Transformer: Towards a Unified View of Residual Looped Transformers",
+      "abstract": "In this paper, we study how residual connections should retain and reuse information when the same Transformer blocks run repeatedly. Inspired by recurrent memory, we develop a unified view of residual connections as memory operating along network depth . The write–transport–read formulation lets us compare different residual designs through what they store, how they carry information forward, and how they retrieve it for subsequent computation. Guided by this view, we introduce Loopback Transformer . Loopback stores individual block updates, uses geometric forgetting to progressively discount earlier passes, and learns content-dependent attention over the stored updates. This allows the model to retrieve useful information from earlier computation. At matched training tokens and executed depth, Loopback achieves lower validation loss and higher mean accuracy across 13 zero-shot tasks than Standard Transformers at both 1.4B and 3B, retaining only 68% and 75% of their Transformer parameters , respectively. At 3B, validation loss improves from 2.0005 to 1.9849 , mean accuracy rises from 48.56% to 49.45% , and Loopback scores higher on 11 of 13 tasks . In our main comparisons at 191M, 374M, and 778M, it also achieves the lowest validation loss and highest thirteen-task mean among Standard and seven looped residual baselines. Parameter counts exclude token embeddings and the output head. Our results highlight residual design as an important part of parameter-efficient modeling: sharing computation works better when the model also learns how to retain and reuse its outputs. We welcome feedback and discussion!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.07226",
+      "pdf_url": "https://arxiv.org/pdf/2611.07226",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yancyou/Loopback"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.07226",
+      "scraped_at": "2026-11-16T05:10:25.331625"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
+    "paper_url": "https://huggingface.co/papers/2611.14504",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
+      "abstract": "Bonbon is a vertical foundation model for biology that independently learned the hidden relationships governing molecular interactions, just as LLMs learned math without being explicitly trained on it. Accepted to the NeurIPS 2026 main track as an Oral (top 0.4% of submissions). Trained on sequences alone, with no structure, physics, task-specific labels, or supervision, Bonbon developed emergent biological capabilities as we scaled it from 42M to 1.6B parameters. Pretraining loss fell smoothly, while new capabilities appeared sharply at the largest scale: What it does: predicts mechanism of action across six classes, including which molecules switch the same target on and which switch it off. Today this requires functional lab assays. Where it happens: localizes the binding site and distinguishes orthosteric from allosteric engagement on the same target. How it bonds: recognizes covalent binding and pinpoints the residue involved, without being told covalency is present. Which atoms matter: identifies the active moiety at single-bond resolution, work that usually takes many rounds of making and testing analogs. All capabilities were evaluated zero-shot on held-out proteins and molecules. The same representation space reaches state-of-the-art performance on widely used binding and affinity benchmarks, and runs at 2,500 molecular interactions per second on a single H100, about 50,000× faster than a leading co-folding model. In blinded dose-response assays at an external CRO, de novo molecules ranked by Bonbon achieved a 61.5% hit rate across nine disease targets in seven protein families, compared with the ~0.1% typical of high-throughput screening. Every molecule was less than 60% similar to anything in training. Some examples: HDAC6: most known inhibitors rely on hydroxamate chemistry linked to toxicity. Bonbon found novel non-hydroxamate inhibitors. MNK2: novel inhibitors outside the documented chemical space for this cancer target. VEGFR2 and ELANE: both absent from training, yet Bonbon found confirmed inhibitors for each. Why it matters Most AI in drug discovery answers one narrow question: does a molecule fit a protein? But a molecule can fit perfectly and still do nothing, or the opposite of what you need. What it does, where it acts, how it holds, and which atoms drive it are usually answered through a long chain of separate assays and lab iterations. Bonbon answers these questions together, in a single inference pass, at the scale biology demands. That collapses months of sequential experiments into one step, opens chemistry beyond known scaffolds, and puts the hardest drug programs within reach, including targets with no good starting points. More broadly, it shows that the rules of molecular biology are learnable from sequence alone and emerge with scale. That is the foundation for moving from single interactions to pathways, cells, and understanding biology as a complex system.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.14504",
+      "pdf_url": "https://arxiv.org/pdf/2611.14504",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.14504",
+      "scraped_at": "2026-11-16T05:10:27.391475"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "MEM-SQL: Memory-Empowered Text-to-SQL",
+    "paper_url": "https://huggingface.co/papers/2611.18338",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MEM-SQL: Memory-Empowered Text-to-SQL",
+      "abstract": "Most Text-to-SQL benchmarks overlook a common scenario where a new request can reuse parts of an earlier query. For example, this month’s revenue report by region can use the same joins and revenue calculation as last month’s, with only the date range changing. We built HARE to benchmark this kind of reuse and MEM-SQL to carry it out using verified query history.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.18338",
+      "pdf_url": "https://arxiv.org/pdf/2611.18338",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.18338",
+      "scraped_at": "2026-11-16T05:10:29.272064"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "HALO: Human-Aligned Data Collection for WhoLe-body MObile Manipulation",
+    "paper_url": "https://huggingface.co/papers/2611.16439",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "HALO: Human-Aligned Data Collection for WhoLe-body MObile Manipulation",
+      "abstract": "What if you could teach a mobile robot by walking with it and guiding its grippers by hand? HALO collects demonstrations up to 2.9× faster. The learned policies grasp and steer a chair precisely while staying in motion, pull apart tightly fitted LEGO pieces in different configurations, guide a tiny zip-tie tip through its locking head, and coordinate both arms and the moving base to pack boxes quickly on a conveyor line, cycle after cycle.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.16439",
+      "pdf_url": "https://arxiv.org/pdf/2611.16439",
+      "github_links": [
+        "https://github.com/robbyant-research/Lingbot-ALOHA",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.16439",
+      "scraped_at": "2026-11-16T05:10:31.226149"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "AI Reviews Are Biased Towards the Appendix",
+    "paper_url": "https://huggingface.co/papers/2611.17811",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AI Reviews Are Biased Towards the Appendix",
+      "abstract": "Large language models (LLMs) are increasingly used by reviewers to highlight weaknesses during the reviewing process, and their outputs often shape the reviews that humans submit. Prior work studies how LLM reviews align with human ones, yet we know little about which parts of a paper these models actually criticize. In this work, we investigate 2,000 papers from ACL, EMNLP, COLM, and ICLR, and show that the latest GPT and Claude models draw about 50% or more of their review weaknesses from the appendix. This behavior holds across the API, coding-agent, and web access methods for using LLMs to review a paper. In contrast, we find that humans draw only 8.4% of their weaknesses from the appendix, and these weaknesses primarily revolve around a paper’s presentation and content related to its core idea. Meanwhile, LLMs draw weaknesses from deep in the appendix that concern fine-grained technical details not central to the paper’s contributions. We anticipate that our analysis will contribute to the scholarly discourse on AI reviews.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.17811",
+      "pdf_url": "https://arxiv.org/pdf/2611.17811",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/cincynlp/review_appendix"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.17811",
+      "scraped_at": "2026-11-16T05:10:33.103687"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "JVT: Just Video Transformer makes pixel-space video diffusion simple",
+    "paper_url": "https://huggingface.co/papers/2611.18549",
+    "authors": [
+      "Haoyu Guo",
+      "Hua Geng",
+      "Jianjun Zhou"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "JVT: Just Video Transformer makes pixel-space video diffusion simple",
+      "abstract": "Direct diffusion modeling of high-dimensional raw video data is challenging, and existing pixel-space methods often rely on specialized architectures. We introduce JVT (Just Video Transformer), a simple large-patch DiT-style Transformer for pixel-space video diffusion, without a pretrained autoencoder, auxiliary detailers, cascaded stages, or U-Net-style skip connections. We systematically examine video patch embeddings, register tokens, and adaptive layer normalization to identify design choices that balance generation quality and computational efficiency. The resulting JVT design achieves generation quality competitive with latent diffusion baselines in both class-conditioned and unconditional settings. The pixel-space formulation of JVT also naturally supports joint generation of pixel-aligned modalities. We demonstrate this capability through camera-conditioned RGB-disparity generation, which improves camera following relative to RGB-only baselines and yields explicit scene geometry without an additional reconstruction model at inference. These results highlight the potential of simple DiT-style Transformers for pixel-space video diffusion, and we hope our findings offer useful insights and practical guidance for future research.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.18549",
+      "pdf_url": "https://arxiv.org/pdf/2611.18549",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ZhouTimeMachine/JVT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.18549",
+      "scraped_at": "2026-11-16T05:10:35.030115"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "Rethinking in Spikes: Mitigating Hallucinations in MDLMs with Step-Aware Decoding",
+    "paper_url": "https://huggingface.co/papers/2611.12901",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Rethinking in Spikes: Mitigating Hallucinations in MDLMs with Step-Aware Decoding",
+      "abstract": "• We analyze the relationship between entropy spike steps and hallucinations in multimodal diffusion models from the perspective of uncertainty dynamics across denoising steps. • We propose StepRefine, a plug-and-play decoding approach that mitigates hallucinations through entropy spike detection and step-aware mode switching. • Extensive evaluations across four MDLM backbones and diverse multimodal benchmarks show the superior performance of StepRefine, offering an effective solution for multimodal diffusion hallucinations.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.12901",
+      "pdf_url": "https://arxiv.org/pdf/2611.12901",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.12901",
+      "scraped_at": "2026-11-16T05:10:36.911346"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "Aligning AI Teams",
+    "paper_url": "https://huggingface.co/papers/2611.17820",
+    "authors": [
+      "Erik Jones",
+      "Jascha Sohl-Dickstein",
+      "Morgan Jane Matthews",
+      "Siddarth Srinivasan"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Aligning AI Teams",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2611.17820",
+      "pdf_url": "https://arxiv.org/pdf/2611.17820",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.17820",
+      "scraped_at": "2026-11-16T05:10:38.745093"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "GH-AWTrace: A Large-Scale Dataset of GitHub Agentic Workflow Execution Logs",
+    "paper_url": "https://huggingface.co/papers/2611.06866",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "GH-AWTrace: A Large-Scale Dataset of GitHub Agentic Workflow Execution Logs",
+      "abstract": "A dataset ( https://huggingface.co/datasets/jaykay9999/GHAWTrace ) containing agent trajectories from real-world agentic workflows in software projects. You can use the dataset to study: single-agent vs. multi-agent memory collaboration & communication cost ...",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.06866",
+      "pdf_url": "https://arxiv.org/pdf/2611.06866",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.06866",
+      "scraped_at": "2026-11-16T05:10:40.637590"
+    },
+    "scraped_date": "2026-11-16"
+  },
+  {
+    "title": "CANTraj: Recovering Vehicle Trajectories from CAN Signals in Naturalistic Driving",
+    "paper_url": "https://huggingface.co/papers/2611.18442",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CANTraj: Recovering Vehicle Trajectories from CAN Signals in Naturalistic Driving",
+      "abstract": "TL;DR: Removing GPS from vehicle logs does not protect location privacy: we introduce CANTraj (3,940 naturalistic drives paired with GNSS trajectories) and CANTraj-Bench (1,380 hours, 85,919 km) to benchmark six re-implemented route-inference attacks and new baselines under unified protocols, showing that combining CAN steering signals with road-network constraints recovers 87%–88% of 5-minute routes with a median error of just 37–43 m—even under signal quantization.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.18442",
+      "pdf_url": "https://arxiv.org/pdf/2611.18442",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.18442",
+      "scraped_at": "2026-11-16T05:10:42.575626"
+    },
+    "scraped_date": "2026-11-16"
+  }
+]
