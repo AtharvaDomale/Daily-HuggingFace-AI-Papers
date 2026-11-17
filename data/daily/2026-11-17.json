@@ -1,0 +1,211 @@
+[
+  {
+    "title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
+    "paper_url": "https://huggingface.co/papers/2611.21003",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
+      "abstract": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond. The models lead or are competitive with strong open models of their size on agentic and coding benchmarks. On the modeling side, to strengthen reasoning, we introduce Mixture-of-Value Attention (MoVA), applying MoE to attention value projections, and softplus attention gating, a more flexible, theoretically motivated gate. Our 36B-A4B model uses both and nearly matches a 32B dense model trained on the same data, with one-seventh the active parameters. We also introduce Uno, lossless diffusion adapters that speed up decoding by up to 2.2× without a separate draft model. Our release follows the LLM360 definition of open source for transparency and reproducibility: the full development history, including intermediate checkpoints from every training stage, pre-training data, training logs, and all training, evaluation, and infrastructure code, notably our production-scale xLLM framework for dense and MoE training and the RL360 reinforcement-learning stack. Beyond the data itself, we release and document in detail every pipeline that built it, the part of model development that open releases most rarely disclose. These pipelines produced roughly 10T synthetic pre-training tokens, showing that synthetic data can be a major ingredient of pre-training at scale. Four of the models share one 22T-token pre-training corpus and recipe, revealing consistent scaling behavior and enabling controlled studies of scale and sparsity. All artifacts are available at https://ifm.ai/k2/ .",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.21003",
+      "pdf_url": "https://arxiv.org/pdf/2611.21003",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.21003",
+      "scraped_at": "2026-11-17T06:55:41.362989"
+    },
+    "scraped_date": "2026-11-17"
+  },
+  {
+    "title": "PaperCritic: Training AI Reviewers to Assess the Soundness of Papers",
+    "paper_url": "https://huggingface.co/papers/2611.17834",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "PaperCritic: Training AI Reviewers to Assess the Soundness of Papers",
+      "abstract": "As AI conference submissions grow rapidly, AI reviewers are being considered as an alternative. However, simply imitating human reviewing is problematic because reviewing serves multiple purposes, including evaluating papers' soundness, interestingness, and clarity, the last two of which are subjective. In this work, we focus solely on evaluating soundness, the most important and objective criterion, and define the learning objective as jointly maximizing (1) precision, based on the soundness and substantiveness of review points, and (2) recall, the coverage of high-quality reference review points. Under this problem formulation, we construct a quality-labeled review point dataset, PaperSound-23K, using 1K ICLR submissions and 23K human-written and LLM-generated review points. Using this dataset, we train an AI reviewer model, PaperCritic, through reinforcement learning with the F1 score of precision and recall as the reward. Our experiments show that PaperCritic outperforms frontier models and models trained with other AI reviewer training methods on an in-domain test set. Surprisingly, learning to review ICLR submissions also transfers to reviewing Nature-family papers and even to out-of-domain reviewing tasks (e.g., code review, legal contract review, and feedback on story writing).",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.17834",
+      "pdf_url": "https://arxiv.org/pdf/2611.17834",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.17834",
+      "scraped_at": "2026-11-17T06:55:42.919540"
+    },
+    "scraped_date": "2026-11-17"
+  },
+  {
+    "title": "AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data",
+    "paper_url": "https://huggingface.co/papers/2611.19937",
+    "authors": [
+      "Qianyu Julie Zhu",
+      "Leon Liangyu Chen",
+      "Yu Cen",
+      "Yuchen Xie",
+      "Annan Wang"
+    ],
+    "stars": "1",
+    "details": {
+      "title": "AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data",
+      "abstract": "Project Page: https://allocflow.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.19937",
+      "pdf_url": "https://arxiv.org/pdf/2611.19937",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/allocflow/AllocFlow"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.19937",
+      "scraped_at": "2026-11-17T06:55:44.475685"
+    },
+    "scraped_date": "2026-11-17"
+  },
+  {
+    "title": "SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection",
+    "paper_url": "https://huggingface.co/papers/2611.07222",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection",
+      "abstract": "Keep your LLM and AI agents. Add SPILLWAY. SPILLWAY 1.0.0, a real-time safety guard for AI agents, is the only one of seven prompt-injection defenses on AgentDojo with zero in-scope attack success in all 12 backbone-by-suite cells, and it has the highest mean utility under attack, 48.9% (next best 45.3%). It checks every tool call before it runs. An instruction hidden in an email or a web page can tell an agent to send your files or money to an attacker. SPILLWAY admits an action's recipient, account or URL when it appears in the user's request or in a typed field that a read-only tool returned, such as an email's sender. An address found only in free text, such as an email body, is refused unless the request delegates it. This check is a set lookup with no model call. An optional local judge may restore a refused call, never one whose target came from injected text the sanitizer removed. Standard attack, 3 backbones x 4 suites, judge on: 0 of 2,847 in-scope attack successes. Every other defense leaks in 3 to 12 of the 12 cells (ROPE 3, DRIFT 7, MELON 10, PI detector 10, Progent 11, Spotlighting 12). Mean utility is 53.9% without attack and 48.9% under attack, compared with DRIFT's 45.3%, ROPE's 34.5% and MELON's 31.4% under attack. Stronger attacks: zero under ChatInject's forged chat template (0 of 665), AutoDojo (0 of 389) and an attacker who sends the injected email (0 of 126). Under PISmith's released RL attacker (gpt-4o-mini, four suites, ASR@1), 0.5% mean in-scope attack success (4 of 949) at 25.7% utility. Against a frontier router: on 7 suites from AgentDojo and AgentDyn (gpt-4o-mini agent), SPILLWAY keeps zero in-scope attack success and more utility than ROPE on every suite, with ROPE routing through its authors' Claude Opus 4.8. ROPE leaks on 3. Cost: the optional judge, a local 4-bit Gemma 4 31B, checks selected calls. On benign qwen3:8b Workspace and Slack episodes, SPILLWAY adds 0.19 to 0.39 model calls per episode, judge included, 13 to 50 times fewer than MELON, Progent and DRIFT. It adds at most 500 ms per task on average compared with the undefended agent, against 1,600 to 10,500 ms for those three. No defense step re-runs the backbone. SPILLWAY's AgentDojo results use the code released as spillway-guard 1.0.0. The comparison defenses, the AgentDyn portion of the router comparison and the cost study retain their original measurements. Connect it where your tools run. The repository has recipes for LangChain and LangGraph, the OpenAI Agents SDK, any MCP host and Claude Code hooks. In the recorded Slack episode on the project page, SPILLWAY is the only one of eight runs that posts the reply the user asked for without sending the injected link. Paper: https://arxiv.org/abs/2611.07222 Code and per-cell records: https://github.com/saintmachines/spillway Project page and recorded example: https://saintmachines.github.io/spillway/ Install: pip install -U spillway-guard Author here, happy to answer questions.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.07222",
+      "pdf_url": "https://arxiv.org/pdf/2611.07222",
+      "github_links": [
+        "https://github.com/saintmachines/spillway",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.07222",
+      "scraped_at": "2026-11-17T06:55:46.057687"
+    },
+    "scraped_date": "2026-11-17"
+  },
+  {
+    "title": "Calpha: Toward Native Biomolecular Intelligence in a General-Purpose Language Model",
+    "paper_url": "https://huggingface.co/papers/2611.20986",
+    "authors": [],
+    "stars": "14",
+    "details": {
+      "title": "Calpha: Toward Native Biomolecular Intelligence in a General-Purpose Language Model",
+      "abstract": "Excited to share Calpha , our open-source effort to bring native protein structure prediction into general-purpose LLMs! Instead of calling an external folding tool, Calpha equips Qwen3.5-9B with a flow-matching structure head that generates all-atom coordinates directly from the model's hidden states. Our initial results reach TM-scores of 0.807 on FoldBench-334, 0.635 on CASP16, and 0.900 on CAMEO-2025 . We're still at an early stage, and the model currently relies on pretrained ESM2 and SimpleFold components. But we believe this is a promising step toward LLMs that can not only understand biological sequences, but also reason about and generate molecular structures. We're open-sourcing the research process itself , including experiments, failures, and lessons learned. We'd love to hear your thoughts, critiques, and ideas! 🌐 https://calpha-ai.com",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.20986",
+      "pdf_url": "https://arxiv.org/pdf/2611.20986",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yliust/Calpha"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.20986",
+      "scraped_at": "2026-11-17T06:55:47.648351"
+    },
+    "scraped_date": "2026-11-17"
+  },
+  {
+    "title": "VoxMel TTS Technical Report",
+    "paper_url": "https://huggingface.co/papers/2611.20254",
+    "authors": [],
+    "stars": "75",
+    "details": {
+      "title": "VoxMel TTS Technical Report",
+      "abstract": "VoxMel explores a different path for autoregressive TTS: generating directly in the continuous Mel spectrogram space, without relying on learned acoustic tokenizers. The key idea is to use wavelet decomposition to model acoustic information at different scales. Feedback and discussions are very welcome!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.20254",
+      "pdf_url": "https://arxiv.org/pdf/2611.20254",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/VoxDance-Lab/VoxMel"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.20254",
+      "scraped_at": "2026-11-17T06:55:49.210471"
+    },
+    "scraped_date": "2026-11-17"
+  },
+  {
+    "title": "MovieRoll: A Systematic Framework for Rolling Out Long-Form Videos",
+    "paper_url": "https://huggingface.co/papers/2611.21339",
+    "authors": [
+      "Qi Tian",
+      "Yue Wu",
+      "Ryan Xu",
+      "Weijie Kong",
+      "Yunyang Ge"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "MovieRoll: A Systematic Framework for Rolling Out Long-Form Videos",
+      "abstract": "Streaming video generation must sustain quality beyond the training horizon while handling self-generated history and growing cache costs. To address these challenges, we present MovieRoll, a base-to-distilled framework that connects streaming fine-tuning, long-rollout distillation, and long-horizon inference. We first establish a robust multi-step base through Window-wise Teacher Forcing (WinTF), which jointly denoises chunks at progressive noise levels with bidirectional attention within each window and causal access to preceding history. To retain historical context efficiently, hierarchical KV-cache compression (HieraKV) exploits layer-wise attention patterns, retaining full history in shallow layers and sink--recent history in deeper layers. This reduces cache memory by up to 78% while improving generation quality. Building on this base, cumulative long tuning with distribution matching distillation (CuLT-DMD) holds parameters fixed throughout each long self-rollout and averages local gradients before updating. Each update therefore combines supervision across temporal positions while retaining only one local computation graph, enabling efficient long-rollout training of a few-step generator. To extend generation beyond the training horizon, KV recomputation bounds context for both models, while guidance annealing (AnnealCFG) reduces guidance toward the clean endpoint to stabilize MovieRoll-Base. Complementing these modeling advances, FBCA attention and PS-VAE decoding support efficient training and streaming output. On HeliosBench, MovieRoll-Base remains competitive at 30s after training on videos of up to 15s, and MovieRoll-Distilled achieves the highest total scores among the compared methods across single- and multi-event evaluations up to 60s, combining sustained naturalness with active motion.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.21339",
+      "pdf_url": "https://arxiv.org/pdf/2611.21339",
+      "github_links": [
+        "https://github.com/Tencent-Hunyuan/MovieRoll",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.21339",
+      "scraped_at": "2026-11-17T06:55:50.799031"
+    },
+    "scraped_date": "2026-11-17"
+  },
+  {
+    "title": "LoopFill: Pipelined Multi-Token Speculative Decoding for Looped Transformers",
+    "paper_url": "https://huggingface.co/papers/2611.19649",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "LoopFill: Pipelined Multi-Token Speculative Decoding for Looped Transformers",
+      "abstract": "Looped Transformers improve parameter effi- ciency by repeatedly applying the same Trans- former layers. During autoregressive decoding, however, generating each token requires several sequential passes through these layers, leading to high decoding latency. Pipelined self-speculative methods use shallow-loop predictions to process tokens at different loops in the same batch, but each token must reach the drafting depth before the next can enter the pipeline. We introduce LoopFill, a training-free speculative decoding al- gorithm for looped LLM that combines multi- token suffix drafts with shallow-loop predictions in a single draft tree. Both drafters contribute to one tree, so a suffix lookup can immediately extend a shallow prediction and several future to- kens can enter the pipeline together. The shared block computes the highest-scoring draft candi- dates at different loop depths in one batch, and full-depth verification preserves the model’s au- toregressive output distribution. Across seven benchmarks, LoopFill’s average speedup over greedy autoregressive decoding is 5.85×on Ouro- 2.6B and 5.13×on Huginn-3.5B. The speedups exceed those of LoopAhead, the strongest base- line, by 40% on Ouro-2.6B and 25% on Huginn- 3.5B.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.19649",
+      "pdf_url": "https://arxiv.org/pdf/2611.19649",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.19649",
+      "scraped_at": "2026-11-17T06:55:52.337519"
+    },
+    "scraped_date": "2026-11-17"
+  },
+  {
+    "title": "Latent Feedback Is a Compute and Data Amplifier",
+    "paper_url": "https://huggingface.co/papers/2611.20404",
+    "authors": [],
+    "stars": "20",
+    "details": {
+      "title": "Latent Feedback Is a Compute and Data Amplifier",
+      "abstract": "Code, data, checkpoints: https://github.com/ifm-ai/LoRM",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.20404",
+      "pdf_url": "https://arxiv.org/pdf/2611.20404",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ifm-ai/LoRM"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.20404",
+      "scraped_at": "2026-11-17T06:55:53.885434"
+    },
+    "scraped_date": "2026-11-17"
+  },
+  {
+    "title": "Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos",
+    "paper_url": "https://huggingface.co/papers/2611.13685",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos",
+      "abstract": "Can inexpensive, readily available human egocentric videos benefit embodied tasks without explicit action annotations? We design an architecture to uncover the implicit mutual information between actions and video, and explore its potential for generalization and scaling. Project Page: https://llong-cs.github.io/EgoGuidance/",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.13685",
+      "pdf_url": "https://arxiv.org/pdf/2611.13685",
+      "github_links": [
+        "https://github.com/llong-cs/EgoGuidance",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.13685",
+      "scraped_at": "2026-11-17T06:55:55.407995"
+    },
+    "scraped_date": "2026-11-17"
+  }
+]
