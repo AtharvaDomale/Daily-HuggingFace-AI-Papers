@@ -1388,5 +1388,374 @@
       "scraped_at": "2026-11-19T06:19:26.944214"
     },
     "scraped_date": "2026-11-19"
+  },
+  {
+    "title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
+    "paper_url": "https://huggingface.co/papers/2611.21373",
+    "authors": [],
+    "stars": "25",
+    "details": {
+      "title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
+      "abstract": "We present WeVisForensics, an agentic framework for AI-generated video detection in which a main investigator agent coordinates a self-evolving library of forensic inspector sub-agents spanning visual and audio cues. Github: https://github.com/Tencent/WeVisForensics Model: https://huggingface.co/tencent/WeVisForensics Project page: https://tencent.github.io/WeVisForensics",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.21373",
+      "pdf_url": "https://arxiv.org/pdf/2611.21373",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Tencent/WeVisForensics"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.21373",
+      "scraped_at": "2026-11-20T06:01:42.143617"
+    },
+    "scraped_date": "2026-11-20"
+  },
+  {
+    "title": "TuringSpace: Grounding Spatial Intelligence in Action with Interactive CAPTCHAs",
+    "paper_url": "https://huggingface.co/papers/2611.25387",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "TuringSpace: Grounding Spatial Intelligence in Action with Interactive CAPTCHAs",
+      "abstract": "MLLMs perform well on 2D perception but remain far behind humans in 3D spatial understanding, which makes space a natural basis for CAPTCHAs now that computer-use agents solve conventional ones. Yet existing spatial CAPTCHAs and benchmarks are mostly multiple choice, and where actions exist they are text commands or labeled DOM elements. Spatial reasoning is a loop: read the 3D scene, act, and adjust after seeing the result. TuringSpace tests this loop with 125 interactive spatial CAPTCHAs across five abilities, all solved by clicking and dragging in a real browser. The best model, GPT-6 Astra, solves 74.1% versus 94.1% for humans, and most failures come from misreading the screen, even when it shows the feedback of the model's own action. Each task is a program that generates fresh instances and replays its oracle solution into a verified trajectory, so the same tasks form a training gym. Fine-tuning Qwen3.5-9B on 55K such trajectories lifts it from 1.6% to 33.1% and transfers to other CAPTCHA, spatial understanding and robotic pointing benchmarks, including +9.9 points on real-world videos from VSI-Bench.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.25387",
+      "pdf_url": "https://arxiv.org/pdf/2611.25387",
+      "github_links": [
+        "https://github.com/os-cua-framework/TuringSpace",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.25387",
+      "scraped_at": "2026-11-20T06:01:43.993796"
+    },
+    "scraped_date": "2026-11-20"
+  },
+  {
+    "title": "The Mask Is Not the Object: Volumetric Supervision for 3D Gaussian Segmentation",
+    "paper_url": "https://huggingface.co/papers/2611.21383",
+    "authors": [],
+    "stars": "6",
+    "details": {
+      "title": "The Mask Is Not the Object: Volumetric Supervision for 3D Gaussian Segmentation",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.21383",
+      "pdf_url": "https://arxiv.org/pdf/2611.21383",
+      "github_links": [
+        "https://github.com/jhxcho/voda",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.21383",
+      "scraped_at": "2026-11-20T06:01:45.894357"
+    },
+    "scraped_date": "2026-11-20"
+  },
+  {
+    "title": "WAM-Policy: World Action Models with On-Policy Distillation for Quadrupedal Loco-Manipulation",
+    "paper_url": "https://huggingface.co/papers/2611.24011",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "WAM-Policy: World Action Models with On-Policy Distillation for Quadrupedal Loco-Manipulation",
+      "abstract": "open-sourced.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.24011",
+      "pdf_url": "https://arxiv.org/pdf/2611.24011",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/AIGeeksGroup/WAM-Policy"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.24011",
+      "scraped_at": "2026-11-20T06:01:47.684456"
+    },
+    "scraped_date": "2026-11-20"
+  },
+  {
+    "title": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
+    "paper_url": "https://huggingface.co/papers/2611.26595",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
+      "abstract": "Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics. However, how to construct proxies and prompts for optimal downstream quality remains underexplored, as do the capabilities and limitations of this paradigm. Through controlled experiments and blinded human evaluation, we study proxy granularity, physics simulation, and prompting. The results reveal task-dependent trade-offs: coarse proxies favor natural motion, while medium-grained proxies favor consistency. Physics simulation and proxy-aligned prompting further improve average quality. Guided by these findings, we introduce Coda-DaVinci, a task-adaptive agentic framework for Code2Video generation that selects between proxy-guided and direct generation, adapts modeling granularity to each entity, and coordinates simulation with proxy-grounded prompting. Its multi-agent harness preserves scene assets and guides repairs through visual inspection and independent review. Experiments demonstrate leading instruction following on VTR and scene consistency on R2M, improved physical plausibility over direct generation, and higher visual realism than the compared Code2Video baselines. Long-video evaluations further show gains in event structure and consistency across successive interactions, while revealing limitations in transition stability and adherence to scene settings.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.26595",
+      "pdf_url": "https://arxiv.org/pdf/2611.26595",
+      "github_links": [
+        "https://github.com/FrankYang-17/Coda",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.26595",
+      "scraped_at": "2026-11-20T06:01:49.432425"
+    },
+    "scraped_date": "2026-11-20"
+  },
+  {
+    "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+    "paper_url": "https://huggingface.co/papers/2611.26409",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+      "abstract": "Technical report of the WeMM-Video family.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.26409",
+      "pdf_url": "https://arxiv.org/pdf/2611.26409",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/Tencent/WeMM-Video"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.26409",
+      "scraped_at": "2026-11-20T06:01:51.183607"
+    },
+    "scraped_date": "2026-11-20"
+  },
+  {
+    "title": "On-Policy Morphing into Hybrid Attention Models",
+    "paper_url": "https://huggingface.co/papers/2611.24809",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "On-Policy Morphing into Hybrid Attention Models",
+      "abstract": "Hybrid attention models combine full and linear attention to achieve a better quality--efficiency trade-off. Converting pretrained Transformers into such models requires identifying which layers should retain full attention under a prescribed budget. We identify two off-policy mismatches in FlashMorph's layer selection: (i) continuous branch interpolation and teacher-forced hidden states differ from discrete hybrid computation; and (ii) frozen model weights fail to account for parameter adaptation during subsequent recovery. We introduce FlashMorph2, an on-policy layer-selection method that (I) evaluates sampled discrete hybrid architectures end to end using their own hidden states, and (II) jointly optimizes layer-selection scores and model weights under the recovery objective to reflect post-adaptation performance. Experiments across Qwen3 model scales and linear-attention variants show that FlashMorph2 consistently outperforms existing layer-selection methods, improving average scores over FlashMorph by +2.42 points on RULER, +1.08 on LongBench, and +0.76 on recall-intensive tasks, while completing layer selection in only 0.72--3.57 GPU hours across 0.6B--8B models, demonstrating high efficiency and scalability.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.24809",
+      "pdf_url": "https://arxiv.org/pdf/2611.24809",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.24809",
+      "scraped_at": "2026-11-20T06:01:52.926439"
+    },
+    "scraped_date": "2026-11-20"
+  },
+  {
+    "title": "Posterior Matching Distillation",
+    "paper_url": "https://huggingface.co/papers/2611.26629",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Posterior Matching Distillation",
+      "abstract": "Project Page: https://pmd-distillation.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.26629",
+      "pdf_url": "https://arxiv.org/pdf/2611.26629",
+      "github_links": [
+        "https://github.com/yesiltepe-hidir/PMD",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.26629",
+      "scraped_at": "2026-11-20T06:01:54.692650"
+    },
+    "scraped_date": "2026-11-20"
+  },
+  {
+    "title": "EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning",
+    "paper_url": "https://huggingface.co/papers/2611.26380",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning",
+      "abstract": "Egocentric video captioning requires fine-grained detail and accurate timing, yet current multimodal large language models (MLLMs) often miss brief actions, confuse their order, or misinterpret the wearer's motion. Existing caption formats also offer limited support for combining detailed narration with precise timing. We present EgoCaptioner, which pairs a video-level overview of the setting, participants, and the wearer's overall activity with timed steps whose narration adapts to varying perceptual demands and marks key moments at specific timestamps. We develop a coarse-to-fine annotation pipeline that establishes event structure before expanding step descriptions, yielding 50,000 training examples from eight egocentric video sources. Complementary rewards assess factual accuracy and coverage, measure step-level temporal alignment, and penalize fragmented or redundant narration, guiding caption refinement through Group Relative Policy Optimization (GRPO). To improve the reliability of factual supervision, we supplement caption references with pose-derived motion facts when sensor data are available. Across five egocentric benchmarks, EgoCaptioner achieves leading performance among evaluated open-source models in caption quality, caption-conditioned question answering, and temporal alignment. It also surpasses Gemini 3.1 Pro on PhysCapBench and all evaluated proprietary baselines on Minerva-Ego under the caption-to-QA protocol. Ablations support the complementary roles of factual and temporal rewards and show that coarse-to-fine annotation provides more effective supervision than single-pass annotation.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.26380",
+      "pdf_url": "https://arxiv.org/pdf/2611.26380",
+      "github_links": [
+        "https://github.com/cactusqq/EgoCaptioner",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.26380",
+      "scraped_at": "2026-11-20T06:01:56.473210"
+    },
+    "scraped_date": "2026-11-20"
+  },
+  {
+    "title": "AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher",
+    "paper_url": "https://huggingface.co/papers/2611.26510",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher",
+      "abstract": "Task success does not guarantee good teaching . Even successful agent trajectories may contain undesirable behaviors that SFT can inadvertently reinforce. We introduce AutoMaster , an autonomous post-training framework that makes the same model a better teacher through Skill-FT . AutoMaster autonomously analyzes behavioral patterns, designs and refines natural-language skills to shape teacher rollouts, and selects valuable demonstrations through iterative feedback. Across Terminal, Search, and SWE benchmarks with 4B and 9B models, AutoMaster outperforms Vanilla SFT by 1.42–8.99 percentage points , with the teacher, task pool, training set size, and SFT recipe held fixed. Our analysis reveals two key insights: (1) skill guidance improves demonstrated behaviors even when both guided and unguided trajectories succeed; (2) retaining skill instructions during SFT improves performance by 2.15–4.01 points over removing them, highlighting the importance of skill context for behavioral internalization. Better post-training requires shaping what teachers demonstrate, not merely selecting successful trajectories .",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.26510",
+      "pdf_url": "https://arxiv.org/pdf/2611.26510",
+      "github_links": [
+        "https://github.com/RUCAIBox/AutoMaster",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.26510",
+      "scraped_at": "2026-11-20T06:01:58.282758"
+    },
+    "scraped_date": "2026-11-20"
+  },
+  {
+    "title": "WM^MLLM: Turning MLLMs into World Models",
+    "paper_url": "https://huggingface.co/papers/2611.24193",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "WM^MLLM: Turning MLLMs into World Models",
+      "abstract": "WM^MLLM rethinks world modeling by moving the world state out of the generator. The scene is stored as an explicit panorama with version history, and MLLMs plan, place and verify each edit. This makes consistency a built-in guarantee: revisits are pixel-exact and local edits stay contained, which directly addresses the drift common in video-based world models. Results are strong across MBench-A, CompBench and blind edit evaluations. An open question is how well the panorama representation extends to large, multi-room or dynamic 3D scenes.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.24193",
+      "pdf_url": "https://arxiv.org/pdf/2611.24193",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ztMotaLee/WM_mllm"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.24193",
+      "scraped_at": "2026-11-20T06:02:00.026642"
+    },
+    "scraped_date": "2026-11-20"
+  },
+  {
+    "title": "VSpark: Speculative Decoding for Autoregressive Vision-Language-Action Models",
+    "paper_url": "https://huggingface.co/papers/2611.22666",
+    "authors": [],
+    "stars": "5",
+    "details": {
+      "title": "VSpark: Speculative Decoding for Autoregressive Vision-Language-Action Models",
+      "abstract": "Our aim is to accelerate autoregressive vision-language-action models (VLAs), which generate robot actions one token at a time. Speculative decoding makes this possible: a lightweight draft model proposes several tokens at once, and the VLA verifies them in a single pass, accepting only those that match its own predictions, so decoding remains lossless. The speedup, however, is limited in robot control, where many different tokens encode nearly the same motion and a draft close to the correct action is still rejected. To address this, our approach, VSpark, is built upon three design choices: (i) rollouts collected with calibrated action noise, which expose the draft to a wider range of robot states; (ii) feature alignment, which trains the draft to match the VLA’s hidden features rather than its output tokens alone; and (iii) continuation reuse, which keeps the predictions the VLA has already computed along rejected drafts as candidates for the next verification step, instead of discarding them.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.22666",
+      "pdf_url": "https://arxiv.org/pdf/2611.22666",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/suho-yoo/VSpark"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.22666",
+      "scraped_at": "2026-11-20T06:02:01.799009"
+    },
+    "scraped_date": "2026-11-20"
+  },
+  {
+    "title": "CompoundingKernel: Self-Improving from Zero to First",
+    "paper_url": "https://huggingface.co/papers/2611.19230",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "CompoundingKernel: Self-Improving from Zero to First",
+      "abstract": "A self-improving agent system that writes GPU kernels by search, starting from only the PyTorch spec. As of Nov 11, 2026 it was #1 on all three public SOL-ExecBench leaderboards (L1, L2, Quantization) on NVIDIA B200: all 235 kernels correct on the site, 4.40× faster than the baseline on the 209 public tasks. Arxiv: https://arxiv.org/abs/2611.19230 Kernels + code: https://huggingface.co/spaces/QianQu/CompoundingKernel-Explorer",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.19230",
+      "pdf_url": "https://arxiv.org/pdf/2611.19230",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.19230",
+      "scraped_at": "2026-11-20T06:02:03.630205"
+    },
+    "scraped_date": "2026-11-20"
+  },
+  {
+    "title": "DailySafe: Benchmarking Dynamic Safety Awareness in Everyday Multi-Turn Multimodal Interactions",
+    "paper_url": "https://huggingface.co/papers/2611.26298",
+    "authors": [
+      "Siyuan Liang",
+      "Ziheng Peng",
+      "Wenzhang Jiang",
+      "Xinhao Deng",
+      "Xuankun Rong"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "DailySafe: Benchmarking Dynamic Safety Awareness in Everyday Multi-Turn Multimodal Interactions",
+      "abstract": "As multimodal large language models (MLLMs) become increasingly integrated into everyday life, their ability to provide safe and reliable assistance in realistic daily activities remains insufficiently explored. Existing safety benchmarks primarily focus on isolated harmful requests or adversarial scenarios, overlooking the safety risks that may arise as ordinary tasks unfold. In practice, users pursue legitimate goals through multi-turn, multimodal interactions, where seemingly benign requests may become safetycritical when considered alongside earlier actions and visual observations. This calls for Dynamic Safety Awareness, the ability to track evolving task conditions, recognize implicit contextual risks, and provide safe and helpful assistance. To systematically evaluate this capability, we introduce DailySafe, a benchmark comprising 195 naturalistic multi-turn, multi-image interactions across 10 everyday domains and 42 task categories. Grounded in authentic user dialogue topics and documented safety knowledge, DailySafe captures realistic scenarios where safety-critical evidence is progressively revealed across conversational turns and visual observations. Using case-specific safety annotations, DailySafe assesses whether MLLMs can recognize and appropriately address evolving risks while supporting users’ legitimate goals, bringing multimodal safety evaluation closer to real-world everyday AI assistance. DailySafe is publicly available at: https://github.com/XuankunRong/DailySafe .",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.26298",
+      "pdf_url": "https://arxiv.org/pdf/2611.26298",
+      "github_links": [
+        "https://github.com/XuankunRong/DailySafe",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.26298",
+      "scraped_at": "2026-11-20T06:02:05.389215"
+    },
+    "scraped_date": "2026-11-20"
+  },
+  {
+    "title": "NarrowSpec: Draft Hidden Width Need Not Match the Target in Speculative Decoding",
+    "paper_url": "https://huggingface.co/papers/2611.23835",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "NarrowSpec: Draft Hidden Width Need Not Match the Target in Speculative Decoding",
+      "abstract": "Speculative decoding is widely used to speed up generation in large language models (LLMs), with a small draft model proposing tokens that one forward pass of the target model verifies. Draft models that read the target's hidden states, such as DFlash and EAGLE-3, typically inherit the target's hidden width. We show that the draft's whole residual stream can run at half or a quarter of that width while largely preserving acceptance. For DFlash, which borrows the target's vocabulary projection, the trained output adapter folds into it, giving one narrower projection with logits unchanged up to floating-point rounding. We test two drafter families, DFlash and EAGLE-3, on two targets, Qwen3-8B (NVFP4) and GPT-OSS-20B (MXFP4), in SGLang on a B200 and a DGX Spark (GB10). At batch size 1 and temperature 0, narrowing the draft to half or a quarter width speeds up end-to-end decoding by 1.06-1.12x on B200 and 1.13-1.44x on GB10. The speedup holds at larger batch sizes. From batch 32 to the largest batch each GPU fits, narrowing reaches up to 1.21x on both GPUs, and no narrow draft is slower than full width.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.23835",
+      "pdf_url": "https://arxiv.org/pdf/2611.23835",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.23835",
+      "scraped_at": "2026-11-20T06:02:07.154614"
+    },
+    "scraped_date": "2026-11-20"
+  },
+  {
+    "title": "Suppressing the Shortcut Hidden Behind the Gains of VideoLLM Fine-Tuning",
+    "paper_url": "https://huggingface.co/papers/2611.25776",
+    "authors": [
+      "Junmo Kim",
+      "Jongsuk Kim",
+      "Youngwoo Shin"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Suppressing the Shortcut Hidden Behind the Gains of VideoLLM Fine-Tuning",
+      "abstract": "SFT raises the accuracy of VideoLLMs, yet behind this rise the model increasingly relies on textual regularities of the training data, a shortcut that bypasses the video. VETO suppresses this shortcut by projecting the fine-tuning update onto the orthogonal complement of the subspace the text alone occupies, so the model keeps the gains of SFT while grounding its answer in both the video and the text.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.25776",
+      "pdf_url": "https://arxiv.org/pdf/2611.25776",
+      "github_links": [
+        "https://github.com/Youngwoo-git/VETO",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.25776",
+      "scraped_at": "2026-11-20T06:02:08.866160"
+    },
+    "scraped_date": "2026-11-20"
+  },
+  {
+    "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
+    "paper_url": "https://huggingface.co/papers/2611.26624",
+    "authors": [
+      "Weihao Cheng"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
+      "abstract": "PlayCraft is an automated framework for designing engaging games that give players a path from beginner play to mastery. PlayCraft alternates between playing and crafting: A player agent watches the game screen, uses the controls, and pursues the game objective over repeated episodes while retaining memory. A crafter agent then uses the experience from the player agent to revise the game, aiming to reward better decisions and execution.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.26624",
+      "pdf_url": "https://arxiv.org/pdf/2611.26624",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/xt4d/PlayCraft"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.26624",
+      "scraped_at": "2026-11-20T06:02:10.591106"
+    },
+    "scraped_date": "2026-11-20"
+  },
+  {
+    "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
+    "paper_url": "https://huggingface.co/papers/2611.26603",
+    "authors": [],
+    "stars": "17",
+    "details": {
+      "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
+      "abstract": "Depth Pro 2 estimates the depth of every pixel, in meters, from images taken with an ordinary camera. One network handles a single photo, a whole video, or a live camera feed, at the input's full resolution. Its depth is sharp at object edges and steady from frame to frame.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.26603",
+      "pdf_url": "https://arxiv.org/pdf/2611.26603",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/apple-aiml-research/ml-depth-pro-2"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.26603",
+      "scraped_at": "2026-11-20T06:02:12.408678"
+    },
+    "scraped_date": "2026-11-20"
   }
 ]
