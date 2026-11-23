@@ -1,0 +1,251 @@
+[
+  {
+    "title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+    "paper_url": "https://huggingface.co/papers/2611.27193",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+      "abstract": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual propagation by constraining stream-mixing residual matrices to the Birkhoff polytope, the set of doubly stochastic matrices. In this work, we investigate how to effectively mix residual streams within the Birkhoff polytope . We reveal a mixing trade-off : when under-mixed residual matrices stay close to the vertices of the Birkhoff polytope, hyper-connections will degenerate into a set of nearly independent streams; when over-mixe d residual matrices are concentrated around the uniform barycenter of the polytope, streams will become less distinguishable from each other. We theoretically validate our findings by bounding the cumulative residual mixing, stream difference and gradient difference of mixing coefficients across layers. Motivated by these findings, we propose Contraction for Manifold-Constrained Hyper-Connections (cmHC), an exact doubly stochastic method which geometrically contracts the Birkhoff polytope toward its interior. This contraction mitigates under-mixing by forcing the residual matrices to explore deeper into the polytope, with a provable stream mixing bound and no new parameterization. Moreover, we apply a moderate contraction at the shallow layers to prevent over-mixing, enabling stable gradient propagation on extremely large-scale model pretraining. Extensive experiments across dense and mixture-of-experts models at various parameter scales demonstrate the effectiveness and scalability of cmHC. We also develop fused operators for cmHC on Ascend NPUs, reducing hyper-connection execution latency by up to 44.8%.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.27193",
+      "pdf_url": "https://arxiv.org/pdf/2611.27193",
+      "github_links": [
+        "https://github.com/Newiz430/cmHC",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.27193",
+      "scraped_at": "2026-11-23T06:08:57.907005"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "Non-penetrating World Models",
+    "paper_url": "https://huggingface.co/papers/2611.27963",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Non-penetrating World Models",
+      "abstract": "🚧 World models can generate amazing worlds, but they still walk through walls! 👻 🎮 Today's video world models can generate impressive interactive environments, but they often fail to respect basic physical boundaries. For example, when you press W toward a wall, the model may simply walk straight through it! 💡 We introduce NoPeWorld , a lightweight framework that helps video world models stop at obstacles instead of walking through them . Interestingly, we find that world models already encode collision information in their hidden states. NoPeWorld leverages this information to prevent physical violations without retraining the entire world model. 📊 We also introduce NoPeBench , a benchmark for evaluating whether world models respect physical boundaries. 🚀 Check out our demos and open-source resources! 🌐 Project & Demos | 💻 Code | 🤗 Dataset | 📄 Paper",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.27963",
+      "pdf_url": "https://arxiv.org/pdf/2611.27963",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yuhangdai427/NoPeWorld"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.27963",
+      "scraped_at": "2026-11-23T06:08:59.915308"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "Clover-35B-A3B-Preview Technical Report",
+    "paper_url": "https://huggingface.co/papers/2611.24636",
+    "authors": [],
+    "stars": "161",
+    "details": {
+      "title": "Clover-35B-A3B-Preview Technical Report",
+      "abstract": "Clover-35B-A3B-Preview Technical Report",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.24636",
+      "pdf_url": "https://arxiv.org/pdf/2611.24636",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/DiffuSpace/Clover-35B-A3B-Preview"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.24636",
+      "scraped_at": "2026-11-23T06:09:01.955721"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "Reading the Unreadable: Text-Aware Image Super-Resolution Needs Reasoning",
+    "paper_url": "https://huggingface.co/papers/2611.15449",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Reading the Unreadable: Text-Aware Image Super-Resolution Needs Reasoning",
+      "abstract": "[TL;DR] Text-aware image super-resolution (TAISR) needs reasoning! Humans can often read badly degraded text by reasoning over context: a word repeated elsewhere in the image, neighboring numbers on a ruler, or a familiar logo. Super-resolution (SR) models rely on local visual evidence alone, so they struggle with exactly this kind of text. 🔍 ReasonText is a human-curated benchmark that separates reasoning-required text from locally recoverable text, paired with GTTCA , a recognition-based metric that measures text restoration without text-detection errors. Across 12 recent SR models, including TAISR models built for text, accuracy on reasoning-required text stays below 25%. 💡 RTC (Reasoning Transfer via Captioning) is a training-free plug-in. An MLLM reasons out the degraded text and writes it into the caption of a frozen text-conditioned SR model. RTC improves all six text-conditioned SR models we tested, especially on reasoning-required text (e.g., DiT4SR: 24.5% → 45.8%). Surprisingly, DiT4SR + RTC, a general real-world SR model, outperforms UniT + RTC, a TAISR model built on the same backbone with extra text-aware modules. This suggests that reasoning should be a core design axis for future TAISR. 🤗 Dataset: https://huggingface.co/datasets/Jasonleex1995/ReasonText 🌐 Project page: https://jasonleex1995.github.io/TAISR_needs_Reasoning/ 💻 Code: https://github.com/jasonleex1995/TAISR_needs_Reasoning 📍 Accepted to NeurIPS 2026. Poster in Sydney: Wed, Dec 9 · Hall 1-4 · #S3613. Happy to answer questions here!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.15449",
+      "pdf_url": "https://arxiv.org/pdf/2611.15449",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/jasonleex1995/TAISR_needs_Reasoning"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.15449",
+      "scraped_at": "2026-11-23T06:09:04.007892"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
+    "paper_url": "https://huggingface.co/papers/2611.27973",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
+      "abstract": "MemOnce is a scalable foundation memory architecture for large language models that caches compact memory states once, retrieves relevant memory once per query, and decodes them into layer-specific KV caches on demand — eliminating multi-layer KV explosion while preserving fine-grained recall.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.27973",
+      "pdf_url": "https://arxiv.org/pdf/2611.27973",
+      "github_links": [
+        "https://github.com/Clare-Nie/MemOnce",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.27973",
+      "scraped_at": "2026-11-23T06:09:05.974629"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "Lost in the Hallway: Benchmarking Persistent Spatial Memory Across Revisits",
+    "paper_url": "https://huggingface.co/papers/2611.21485",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Lost in the Hallway: Benchmarking Persistent Spatial Memory Across Revisits",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.21485",
+      "pdf_url": "https://arxiv.org/pdf/2611.21485",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.21485",
+      "scraped_at": "2026-11-23T06:09:07.943092"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "AeroRSI: Recursive Self-Improvement for Aerial Vision-Language Navigation",
+    "paper_url": "https://huggingface.co/papers/2611.24077",
+    "authors": [],
+    "stars": "4",
+    "details": {
+      "title": "AeroRSI: Recursive Self-Improvement for Aerial Vision-Language Navigation",
+      "abstract": "Hi everyone, we're the authors! AeroRSI lets a drone navigation policy fix its own failures: before each failure, it flies on from every candidate action, learns the ones it actually completes, and repeats on the failures that remain, since each repair uncovers the next one. Three rounds take a 2B VLA policy on TravelUAV from 46.4% to 67.5% success and halve its collisions, 10.6 points above AeroDPO (the prior SOTA baseline), with no extra human labels or inference cost. 🌐 Project page (with demo video): https://starsholic.github.io/AeroRSI/ 💻 Code: https://github.com/starsholic/AeroRSI 🤗 Models: https://huggingface.co/DavidWu1116/AeroRSI Happy to answer any questions!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.24077",
+      "pdf_url": "https://arxiv.org/pdf/2611.24077",
+      "github_links": [
+        "https://github.com/starsholic/AeroRSI",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.24077",
+      "scraped_at": "2026-11-23T06:09:09.905543"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "PURE: A Diagnostic Benchmark for Multi-Granularity Multimodal Identity Matching",
+    "paper_url": "https://huggingface.co/papers/2611.22343",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "PURE: A Diagnostic Benchmark for Multi-Granularity Multimodal Identity Matching",
+      "abstract": "Hi HF community! 👋 I’m one of the authors of PURE. Same design, different color: should two product listings count as a match? The answer depends on whether we care about the underlying product design or the specific variant. We introduce PURE , a diagnostic benchmark built from real-world e-commerce matching pairs , with 1,457 multiple-choice questions verified by domain experts across 14 tasks. It examines four capabilities involved in multimodal identity matching: Perception, Understanding, Reasoning, and Evidence-grounded Judgment , with explicit distinctions between base-level and variant-level matching. A few interesting findings from our evaluation of 10 multimodal LLMs: Understanding scores highest on average, while evidence-grounded judgment scores lowest. Locating visual differences and applying variant-level matching rules remain challenging. Models can incorrectly report attribute conflicts between records that actually match. The pattern changes with granularity: most models recognize matching pairs more accurately than non-matching pairs at the base level, while the reverse holds at the variant level. We hope PURE helps the community identify weaknesses that aggregate matching accuracy can hide, and provides a useful testbed for improving multimodal grounding and matching. 📊 Dataset and evaluation code We’d love to hear your thoughts and see how your models perform!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.22343",
+      "pdf_url": "https://arxiv.org/pdf/2611.22343",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/alibaba-multimodal-industrial-ai/PURE"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.22343",
+      "scraped_at": "2026-11-23T06:09:11.797878"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+    "paper_url": "https://huggingface.co/papers/2611.26613",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+      "abstract": "🤖 Can frontier agents control robots directly with low-level actions? And how do we actually tell how good they are? 📉 Existing evaluations focus on episode-level scores such as success rates. They hide the action-level feedback that is key to improving embodied agents! 💡 We introduce AgentRoboCritic . The policy agent states a local intent alongside each action, and a critic evaluates every action against it. For a failed action, the critic also returns its failure mode. With GPT-6 Astra as the critic, we annotate 12,844 actions across 12 manipulation benchmarks. 🔍 What the action-level feedback reveals: Closed-loop recovery: 49.8% of successful episodes contain at least one failed action, and 57.7% of failed actions are recovered by the end of the episode. Reliable semantic grounding: acting on the wrong object, order or category accounts for only 0.2% of failed actions. Strong zero-shot manipulation: GPT-6 Astra succeeds in 91% of RoboTwin 2.0 and 90% of YAMLab episodes, where π0.5 reaches 6% and 0%. The remaining bottleneck is physical execution: Grasp is the leading failure mode on most benchmarks. 🚀 To make action-level feedback low-cost, we release the 12,844 annotated actions, a 400-action human-annotated benchmark, and a fine-tuned Muse-Glimmer-30B critic. Its failure-mode accuracy rises from 32.6% to 74.2%, at over 30× lower cost than GPT-6 Astra. 🌐 Project page | 💻 Code | 🤗 Dataset | 📊 Benchmark | 🧠 Critic model | 📄 Paper",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.26613",
+      "pdf_url": "https://arxiv.org/pdf/2611.26613",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/cxcscmu/AgentRoboCritic"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.26613",
+      "scraped_at": "2026-11-23T06:09:13.798851"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "Prune to Expand: Training Prompt Enhancers with Less to Imitate",
+    "paper_url": "https://huggingface.co/papers/2611.27229",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Prune to Expand: Training Prompt Enhancers with Less to Imitate",
+      "abstract": "We show that dense captions yielding larger gains in image generation do not necessarily provide better supervision for prompt enhancement, and introduce Prune to Expand (P2E), which removes sentences weakly related to user intent from training captions to improve visual quality and human preference scores across multiple image generators.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.27229",
+      "pdf_url": "https://arxiv.org/pdf/2611.27229",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.27229",
+      "scraped_at": "2026-11-23T06:09:15.670747"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "Explicit Style Extraction for Personalized Long-Form Text Generation",
+    "paper_url": "https://huggingface.co/papers/2611.27211",
+    "authors": [
+      "Abhinav Sharma",
+      "Anisa Dye",
+      "Amulya Rayasam",
+      "Sameeksha Kini",
+      "Jenitha Reddy Patel"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Explicit Style Extraction for Personalized Long-Form Text Generation",
+      "abstract": null,
+      "arxiv_page_url": "https://arxiv.org/abs/2611.27211",
+      "pdf_url": "https://arxiv.org/pdf/2611.27211",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.27211",
+      "scraped_at": "2026-11-23T06:09:17.614103"
+    },
+    "scraped_date": "2026-11-23"
+  },
+  {
+    "title": "Duopra: From Full-Duplex Conversation to Full-Duplex Agency",
+    "paper_url": "https://huggingface.co/papers/2611.25773",
+    "authors": [
+      "Can Liu",
+      "Xiaocheng Li",
+      "Yuezhao Ma",
+      "Pengzhou Cheng",
+      "Chechen123"
+    ],
+    "stars": "35",
+    "details": {
+      "title": "Duopra: From Full-Duplex Conversation to Full-Duplex Agency",
+      "abstract": "We introduce Duopra , a full-duplex speech model that brings task agency into real-time conversational interaction. Duopra learns to invoke tools and delegate tasks while preserving natural turn-taking and interruption handling. On Full-Duplex-Bench v3, Duopra achieves 47.7% Pass@1 with direct tool execution and 49.3% with a DeepSeek backend, demonstrating that conversational agency and task agency can coexist. Project & Demo: https://cychen2003.github.io/duopra/ Code: https://github.com/cyChen2003/duopra Model: https://huggingface.co/Chechen123/Duopra",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.25773",
+      "pdf_url": "https://arxiv.org/pdf/2611.25773",
+      "github_links": [
+        "https://github.com/cyChen2003/duopra",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.25773",
+      "scraped_at": "2026-11-23T06:09:19.552799"
+    },
+    "scraped_date": "2026-11-23"
+  }
+]
