@@ -12162,5 +12162,276 @@
       "scraped_at": "2026-11-26T07:11:33.502044"
     },
     "scraped_date": "2026-11-26"
+  },
+  {
+    "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+    "paper_url": "https://huggingface.co/papers/2611.34051",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+      "abstract": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, enhancing state-update expressiveness and in-context retrieval, yet it suffers from training failures during long-context training. We trace these failures to the asymmetry between reading and modification directions during erasure, which yields non-normal erase operators whose directional gains accumulate across tokens, triggering exponential state growth even without new writes. To resolve this, we propose Stable GDN-2, employing symmetric erasure to ensure non-expansive state propagation and decay-regulated residual writing to preserve writing flexibility. Theoretically, we establish an O(√T) upper bound on recurrent state growth while retaining chunkwise parallel computation. Experiments on ~1.6B parameter models show that Stable GDN-2 achieves stable training alongside improved long-context retrieval. Compared to GDN-2, it boosts the 128K average RULER score by 6.80 points in the recurrent setting and average accuracy across nine downstream tasks by 0.62 points in the hybrid setting.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.34051",
+      "pdf_url": "https://arxiv.org/pdf/2611.34051",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.34051",
+      "scraped_at": "2026-11-27T07:06:11.402686"
+    },
+    "scraped_date": "2026-11-27"
+  },
+  {
+    "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+    "paper_url": "https://huggingface.co/papers/2611.34232",
+    "authors": [],
+    "stars": "29",
+    "details": {
+      "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+      "abstract": "NeurIPS 2026",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.34232",
+      "pdf_url": "https://arxiv.org/pdf/2611.34232",
+      "github_links": [
+        "https://github.com/OS-Copilot/OS-Omni",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.34232",
+      "scraped_at": "2026-11-27T07:06:13.279281"
+    },
+    "scraped_date": "2026-11-27"
+  },
+  {
+    "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+    "paper_url": "https://huggingface.co/papers/2611.34457",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+      "abstract": "Recent video generators produce realistic videos, yet controlling how scenes unfold remains challenging. Structural proxies, such as animated 3D blockouts, guide generation by specifying scene layout, motion, camera behavior, and event order. However, these coarse inputs leave details unspecified and may contain artifacts that should not be reproduced. Successful proxy-guided generation must therefore Preserve intended structure, Complete missing content and correct proxy artifacts, and Bind text, image, and audio conditions to the right entities and events. We introduce ProxyGenBench to study these interacting requirements, with 312 evaluation cases from 60 scenes across three scene tasks and controlled variations in proxy fidelity, text detail, and multimodal inputs. We evaluate five video generators using verified, case-specific checklists. Experiments show that proxies improve spatiotemporal control, but greater proxy detail can coincide with poorer completion, while strong structural adherence does not ensure correct binding.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.34457",
+      "pdf_url": "https://arxiv.org/pdf/2611.34457",
+      "github_links": [
+        "https://github.com/2kxx/ProxyGenBench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.34457",
+      "scraped_at": "2026-11-27T07:06:15.157120"
+    },
+    "scraped_date": "2026-11-27"
+  },
+  {
+    "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+    "paper_url": "https://huggingface.co/papers/2611.34290",
+    "authors": [
+      "Yanwen Ma",
+      "Haoran Li",
+      "Yijing Guo",
+      "Xuying Zhang",
+      "Modi Jin"
+    ],
+    "stars": "38",
+    "details": {
+      "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+      "abstract": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challenges because continual planning and repair accumulate context, while reference updates remain limited. We introduce StateWeaver, which combines Active States and Hierarchical Collaboration to connect review-driven visual reference updates with cross-shot state inheritance. Active States translate state discrepancies identified during review into concrete visual asset requirements that guide reference construction, validation, and regeneration, preserving identity and already-correct content while repairing target attributes. Confirmed generation results are linked to the corresponding asset states, story time, and reference versions for verification and reuse by subsequent shots. Hierarchical Collaboration isolates execution contexts by task, clip, and repair round, and uses hierarchical memory to organize this process across multiple sets. Across multiple benchmarks, StateWeaver outperforms existing methods and produces long videos with sustained cross-shot consistency under predefined and autonomously planned storyboards.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.34290",
+      "pdf_url": "https://arxiv.org/pdf/2611.34290",
+      "github_links": [
+        "https://github.com/ghost233lism/StateWeaver",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.34290",
+      "scraped_at": "2026-11-27T07:06:17.032861"
+    },
+    "scraped_date": "2026-11-27"
+  },
+  {
+    "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
+    "paper_url": "https://huggingface.co/papers/2611.34693",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
+      "abstract": "Real-Time on a Single H100: Distilled to 3 denoising steps (AnyFlow + Self-Forcing) and paired with FlashAttention-3, CUDA graphs, and fused commit kernels, the optimized path runs all 8 candidates in ~228 ms/step—fitting inside the 250 ms budget at 16 fps. Everything is open-sourced under Apache 2.0: Paper: https://arxiv.org/abs/2611.34693 Code & Browser Demo: https://github.com/showlab/ShowNow Model (ShowNow-5B-8F): https://huggingface.co/songyiren/ShowNow-5B-8F Dataset (ShowNow-MultiFuture, 21,964 8-future forks): https://huggingface.co/datasets/songyiren/ShowNow-MultiFuture Would love to hear your thoughts or feedback if you try out the demo or weights!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.34693",
+      "pdf_url": "https://arxiv.org/pdf/2611.34693",
+      "github_links": [
+        "https://github.com/showlab/ShowNow",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.34693",
+      "scraped_at": "2026-11-27T07:06:18.886436"
+    },
+    "scraped_date": "2026-11-27"
+  },
+  {
+    "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
+    "paper_url": "https://huggingface.co/papers/2611.31619",
+    "authors": [
+      "therealram18",
+      "Skider"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
+      "abstract": "A foundation model for time series is pre-trained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a few public leaderboards carry most comparisons, yet none of them states how small a difference its datasets can detect. We call that quantity the resolution of a board and introduce Vernier , a tool that computes it from the files a board already publishes. Vernier also reports which entries a board cannot separate from its leader and whether its order changes when unrelated parties submit. GIFT-Eval resolves 6.8 rank places, and its displayed neighbours sit 0.91 apart. The ten places of its top ten hold fewer than two resolvable steps. fev-bench, Chronos Benchmark II and TIME show the same pattern: their resolution is 3.6 to 19 times the gap between neighbours. With each of its 2,554 series as an independent source, BOOM is the one board that resolves its top ten. Below the resolution the order depends on who else submitted: across four boards, rules that rank against the pool reversed 43 top-ten pairs with neither entry rerun, in one update in seven. Boards also do not record how much history a model receives. On 70 configurations, shortening it raised the error of three of four open models, two of them by 15%. We release Vernier, which runs this report with one command on any leaderboard that publishes per-dataset scores: https://github.com/therealram18/vernier",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.31619",
+      "pdf_url": "https://arxiv.org/pdf/2611.31619",
+      "github_links": [
+        "https://github.com/therealram18/vernier",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.31619",
+      "scraped_at": "2026-11-27T07:06:20.758560"
+    },
+    "scraped_date": "2026-11-27"
+  },
+  {
+    "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+    "paper_url": "https://huggingface.co/papers/2611.34852",
+    "authors": [],
+    "stars": "19",
+    "details": {
+      "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+      "abstract": "How much of the relevant knowledge does a deep research agent actually cover? We built DRBench Pro to answer this question. For each case, we derive a research query and evidence-grounded rubrics from the same Wikipedia-derived knowledge tree. This structure lets us measure breadth across major research directions and depth along related chains of knowledge. DRBench Pro includes 144 research cases across 24 domains and 44,102 rubrics . In our evaluation of 16 agent configurations, we found that similar overall coverage scores can mask distinct strengths in breadth and depth. If you evaluate your own agent with DRBench Pro, we'd love to see your results and hear what you think. Project & leaderboard · Code · Dataset",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.34852",
+      "pdf_url": "https://arxiv.org/pdf/2611.34852",
+      "github_links": [
+        "https://github.com/ZJU-REAL/DRBenchPro",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.34852",
+      "scraped_at": "2026-11-27T07:06:22.570024"
+    },
+    "scraped_date": "2026-11-27"
+  },
+  {
+    "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+    "paper_url": "https://huggingface.co/papers/2611.34813",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+      "abstract": "Same first frame, same prompt, same evaluator: instead of generating pixels, a coding agent writes a program that renders the answer video. On VBVR-Pro-Bench, Codex, Claude Code and Gemini CLI score 0.92 / 0.89 / 0.89, more than 0.22 above the strongest video model. Program synthesis is currently the more reliable route to visual reasoning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.34813",
+      "pdf_url": "https://arxiv.org/pdf/2611.34813",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.34813",
+      "scraped_at": "2026-11-27T07:06:24.463869"
+    },
+    "scraped_date": "2026-11-27"
+  },
+  {
+    "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
+    "paper_url": "https://huggingface.co/papers/2611.32238",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
+      "abstract": "TL;DR: When a multimodal LLM agent calls a learned visuomotor policy (e.g., a VLA), the system often fails at the handoff : the agent invokes the policy from states where the policy is not reliable. We call the region where the policy is reliable its handoff boundary , and propose Boundary-Aware Policy Learning . It shapes this boundary through training instead of leaving the agent to guess where it lies. Boundary-Explicit Training: fine-tune the policy only on contact segments, starting from diverse poses. This makes the boundary wide and simple enough to describe to the agent in a short handoff protocol. Boundary-Expanding Self-Improvement: curate the system's own successful rollouts and retrain the policy on them. This extends the boundary to earlier task stages, so the agent hands over sooner and makes fewer LLM calls. Results 98.4% success in randomized RoboTwin 2.0 scenes, +26.4 points over the strongest baseline; 69.2% on RoboDojo, +28.4 points. Self-improvement cuts API cost by 41.3% and execution time by 37.5% on average, with no drop in success. 91.1% of the agent's first handoffs land within 40 mm of the policy's training trajectories. Project page with a 2-minute video: https://kaipengfang.github.io/bapl-agentic-manip/",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.32238",
+      "pdf_url": "https://arxiv.org/pdf/2611.32238",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.32238",
+      "scraped_at": "2026-11-27T07:06:26.263161"
+    },
+    "scraped_date": "2026-11-27"
+  },
+  {
+    "title": "When an AI agent makes a mistake in a database, what decides the damage?",
+    "paper_url": "https://huggingface.co/papers/2611.30483",
+    "authors": [],
+    "stars": "2",
+    "details": {
+      "title": "When an AI agent makes a mistake in a database, what decides the damage?",
+      "abstract": "We gave a minimal tool-calling agent database tasks with hazards in them (free up disk space, clean up tables, an instruction injected into the data, a superuser password left in an application table) and ran six small open-weight models against nine engines: PostgreSQL, MySQL, SQLite, ClickHouse, Cassandra, MongoDB, Valkey, Kafka and OpenSearch. 9,468 trials, preregistered. Some results: Under least privilege, agents used the planted superuser password in 24 of 4,032 trials, all but one after the engine had refused their own account. Out of the box, in 215 of 392 trials that lost data, the only thing lost was a backup copy the agent could reach. The engine mattered most in what it lets you undo. Cassandra's default snapshot before TRUNCATE and DROP undid every such loss (0 of 432 trials). Model choice moved loss about as much as engine choice: 3.0% to 16.8% out of the box. Three of the seven preregistered hypotheses met their decision rule. Every trial record, with per-turn model reasoning, is on Zenodo: https://doi.org/10.5281/zenodo.24445015",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.30483",
+      "pdf_url": "https://arxiv.org/pdf/2611.30483",
+      "github_links": [
+        "https://github.com/libredb/agent-blast-radius",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.30483",
+      "scraped_at": "2026-11-27T07:06:28.140939"
+    },
+    "scraped_date": "2026-11-27"
+  },
+  {
+    "title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
+    "paper_url": "https://huggingface.co/papers/2611.34719",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
+      "abstract": "arXiv: https://arxiv.org/abs/2611.34719 code: https://github.com/yunncheng/ReMoT",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.34719",
+      "pdf_url": "https://arxiv.org/pdf/2611.34719",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yunncheng/ReMoT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.34719",
+      "scraped_at": "2026-11-27T07:06:29.908325"
+    },
+    "scraped_date": "2026-11-27"
+  },
+  {
+    "title": "Generation as Reverse Encoding",
+    "paper_url": "https://huggingface.co/papers/2611.34782",
+    "authors": [
+      "Pietro Lio",
+      "Yipeng Qin",
+      "Hanzhong Guo",
+      "Sibei Yang",
+      "Cheng Shi"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Generation as Reverse Encoding",
+      "abstract": "",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.34782",
+      "pdf_url": "https://arxiv.org/pdf/2611.34782",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.34782",
+      "scraped_at": "2026-11-27T07:06:31.685949"
+    },
+    "scraped_date": "2026-11-27"
+  },
+  {
+    "title": "Decision-Native Multimodal Clinical Modeling via Anatomical Grounding and Confidence Calibration",
+    "paper_url": "https://huggingface.co/papers/2611.32993",
+    "authors": [],
+    "stars": "11",
+    "details": {
+      "title": "Decision-Native Multimodal Clinical Modeling via Anatomical Grounding and Confidence Calibration",
+      "abstract": "Radev addresses uncalibrated autoregressive decoding in 3D medical VLMs through a structured, decision-native approach. A few notable aspects: 1️⃣ Decision-native design: Estimating candidate probabilities in a single forward pass improves both inference efficiency and calibration reliability. 2️⃣ Anatomical grounding: Dynamically using frozen 3D organ features to query relevant 2D slices bridges global context and fine-grained details without overloading the LLM backbone. 3️⃣ CCT: Encouraging confidence to drop only when target-organ evidence is removed, while penalizing over-reaction to unrelated-organ removal—provides a practical way to enforce anatomically grounded reasoning. 4️⃣ CT-Verdict: A multi-task benchmark spanning in-distribution and external cohorts offers a useful evaluation standard for the community.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.32993",
+      "pdf_url": "https://arxiv.org/pdf/2611.32993",
+      "github_links": [
+        "https://github.com/juntaoJianggavin/Radev",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.32993",
+      "scraped_at": "2026-11-27T07:06:33.586629"
+    },
+    "scraped_date": "2026-11-27"
   }
 ]
