@@ -14,138 +14,29 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.34051",
-      "scraped_at": "2026-11-27T07:06:11.402686"
+      "scraped_at": "2026-11-28T06:40:15.775132"
     },
-    "scraped_date": "2026-11-27"
+    "scraped_date": "2026-11-28"
   },
   {
     "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
     "paper_url": "https://huggingface.co/papers/2611.34232",
     "authors": [],
-    "stars": "29",
+    "stars": "106",
     "details": {
       "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
       "abstract": "NeurIPS 2026",
       "arxiv_page_url": "https://arxiv.org/abs/2611.34232",
       "pdf_url": "https://arxiv.org/pdf/2611.34232",
       "github_links": [
-        "https://github.com/OS-Copilot/OS-Omni",
-        "https://github.com/huggingface"
+        "https://github.com/huggingface",
+        "https://github.com/OS-Copilot/OS-Omni"
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.34232",
-      "scraped_at": "2026-11-27T07:06:13.279281"
+      "scraped_at": "2026-11-28T06:40:17.529746"
     },
-    "scraped_date": "2026-11-27"
-  },
-  {
-    "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
-    "paper_url": "https://huggingface.co/papers/2611.34457",
-    "authors": [],
-    "stars": "2",
-    "details": {
-      "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
-      "abstract": "Recent video generators produce realistic videos, yet controlling how scenes unfold remains challenging. Structural proxies, such as animated 3D blockouts, guide generation by specifying scene layout, motion, camera behavior, and event order. However, these coarse inputs leave details unspecified and may contain artifacts that should not be reproduced. Successful proxy-guided generation must therefore Preserve intended structure, Complete missing content and correct proxy artifacts, and Bind text, image, and audio conditions to the right entities and events. We introduce ProxyGenBench to study these interacting requirements, with 312 evaluation cases from 60 scenes across three scene tasks and controlled variations in proxy fidelity, text detail, and multimodal inputs. We evaluate five video generators using verified, case-specific checklists. Experiments show that proxies improve spatiotemporal control, but greater proxy detail can coincide with poorer completion, while strong structural adherence does not ensure correct binding.",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.34457",
-      "pdf_url": "https://arxiv.org/pdf/2611.34457",
-      "github_links": [
-        "https://github.com/2kxx/ProxyGenBench",
-        "https://github.com/huggingface"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.34457",
-      "scraped_at": "2026-11-27T07:06:15.157120"
-    },
-    "scraped_date": "2026-11-27"
-  },
-  {
-    "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
-    "paper_url": "https://huggingface.co/papers/2611.34290",
-    "authors": [
-      "Yanwen Ma",
-      "Haoran Li",
-      "Yijing Guo",
-      "Xuying Zhang",
-      "Modi Jin"
-    ],
-    "stars": "38",
-    "details": {
-      "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
-      "abstract": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challenges because continual planning and repair accumulate context, while reference updates remain limited. We introduce StateWeaver, which combines Active States and Hierarchical Collaboration to connect review-driven visual reference updates with cross-shot state inheritance. Active States translate state discrepancies identified during review into concrete visual asset requirements that guide reference construction, validation, and regeneration, preserving identity and already-correct content while repairing target attributes. Confirmed generation results are linked to the corresponding asset states, story time, and reference versions for verification and reuse by subsequent shots. Hierarchical Collaboration isolates execution contexts by task, clip, and repair round, and uses hierarchical memory to organize this process across multiple sets. Across multiple benchmarks, StateWeaver outperforms existing methods and produces long videos with sustained cross-shot consistency under predefined and autonomously planned storyboards.",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.34290",
-      "pdf_url": "https://arxiv.org/pdf/2611.34290",
-      "github_links": [
-        "https://github.com/ghost233lism/StateWeaver",
-        "https://github.com/huggingface"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.34290",
-      "scraped_at": "2026-11-27T07:06:17.032861"
-    },
-    "scraped_date": "2026-11-27"
-  },
-  {
-    "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
-    "paper_url": "https://huggingface.co/papers/2611.34693",
-    "authors": [],
-    "stars": "3",
-    "details": {
-      "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
-      "abstract": "Real-Time on a Single H100: Distilled to 3 denoising steps (AnyFlow + Self-Forcing) and paired with FlashAttention-3, CUDA graphs, and fused commit kernels, the optimized path runs all 8 candidates in ~228 ms/step—fitting inside the 250 ms budget at 16 fps. Everything is open-sourced under Apache 2.0: Paper: https://arxiv.org/abs/2611.34693 Code & Browser Demo: https://github.com/showlab/ShowNow Model (ShowNow-5B-8F): https://huggingface.co/songyiren/ShowNow-5B-8F Dataset (ShowNow-MultiFuture, 21,964 8-future forks): https://huggingface.co/datasets/songyiren/ShowNow-MultiFuture Would love to hear your thoughts or feedback if you try out the demo or weights!",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.34693",
-      "pdf_url": "https://arxiv.org/pdf/2611.34693",
-      "github_links": [
-        "https://github.com/showlab/ShowNow",
-        "https://github.com/huggingface"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.34693",
-      "scraped_at": "2026-11-27T07:06:18.886436"
-    },
-    "scraped_date": "2026-11-27"
-  },
-  {
-    "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
-    "paper_url": "https://huggingface.co/papers/2611.31619",
-    "authors": [
-      "therealram18",
-      "Skider"
-    ],
-    "stars": "0",
-    "details": {
-      "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
-      "abstract": "A foundation model for time series is pre-trained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a few public leaderboards carry most comparisons, yet none of them states how small a difference its datasets can detect. We call that quantity the resolution of a board and introduce Vernier , a tool that computes it from the files a board already publishes. Vernier also reports which entries a board cannot separate from its leader and whether its order changes when unrelated parties submit. GIFT-Eval resolves 6.8 rank places, and its displayed neighbours sit 0.91 apart. The ten places of its top ten hold fewer than two resolvable steps. fev-bench, Chronos Benchmark II and TIME show the same pattern: their resolution is 3.6 to 19 times the gap between neighbours. With each of its 2,554 series as an independent source, BOOM is the one board that resolves its top ten. Below the resolution the order depends on who else submitted: across four boards, rules that rank against the pool reversed 43 top-ten pairs with neither entry rerun, in one update in seven. Boards also do not record how much history a model receives. On 70 configurations, shortening it raised the error of three of four open models, two of them by 15%. We release Vernier, which runs this report with one command on any leaderboard that publishes per-dataset scores: https://github.com/therealram18/vernier",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.31619",
-      "pdf_url": "https://arxiv.org/pdf/2611.31619",
-      "github_links": [
-        "https://github.com/therealram18/vernier",
-        "https://github.com/huggingface"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.31619",
-      "scraped_at": "2026-11-27T07:06:20.758560"
-    },
-    "scraped_date": "2026-11-27"
-  },
-  {
-    "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
-    "paper_url": "https://huggingface.co/papers/2611.34852",
-    "authors": [],
-    "stars": "19",
-    "details": {
-      "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
-      "abstract": "How much of the relevant knowledge does a deep research agent actually cover? We built DRBench Pro to answer this question. For each case, we derive a research query and evidence-grounded rubrics from the same Wikipedia-derived knowledge tree. This structure lets us measure breadth across major research directions and depth along related chains of knowledge. DRBench Pro includes 144 research cases across 24 domains and 44,102 rubrics . In our evaluation of 16 agent configurations, we found that similar overall coverage scores can mask distinct strengths in breadth and depth. If you evaluate your own agent with DRBench Pro, we'd love to see your results and hear what you think. Project & leaderboard · Code · Dataset",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.34852",
-      "pdf_url": "https://arxiv.org/pdf/2611.34852",
-      "github_links": [
-        "https://github.com/ZJU-REAL/DRBenchPro",
-        "https://github.com/huggingface"
-      ],
-      "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.34852",
-      "scraped_at": "2026-11-27T07:06:22.570024"
-    },
-    "scraped_date": "2026-11-27"
+    "scraped_date": "2026-11-28"
   },
   {
     "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
@@ -162,9 +53,118 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.34813",
-      "scraped_at": "2026-11-27T07:06:24.463869"
+      "scraped_at": "2026-11-28T06:40:19.339189"
     },
-    "scraped_date": "2026-11-27"
+    "scraped_date": "2026-11-28"
+  },
+  {
+    "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
+    "paper_url": "https://huggingface.co/papers/2611.31619",
+    "authors": [
+      "therealram18",
+      "Skider"
+    ],
+    "stars": "10",
+    "details": {
+      "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
+      "abstract": "A foundation model for time series is pre-trained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a few public leaderboards carry most comparisons, yet none of them states how small a difference its datasets can detect. We call that quantity the resolution of a board and introduce Vernier , a tool that computes it from the files a board already publishes. Vernier also reports which entries a board cannot separate from its leader and whether its order changes when unrelated parties submit. GIFT-Eval resolves 6.8 rank places, and its displayed neighbours sit 0.91 apart. The ten places of its top ten hold fewer than two resolvable steps. fev-bench, Chronos Benchmark II and TIME show the same pattern: their resolution is 3.6 to 19 times the gap between neighbours. With each of its 2,554 series as an independent source, BOOM is the one board that resolves its top ten. Below the resolution the order depends on who else submitted: across four boards, rules that rank against the pool reversed 43 top-ten pairs with neither entry rerun, in one update in seven. Boards also do not record how much history a model receives. On 70 configurations, shortening it raised the error of three of four open models, two of them by 15%. We release Vernier, which runs this report with one command on any leaderboard that publishes per-dataset scores: https://github.com/therealram18/vernier",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.31619",
+      "pdf_url": "https://arxiv.org/pdf/2611.31619",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/therealram18/vernier"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.31619",
+      "scraped_at": "2026-11-28T06:40:21.163158"
+    },
+    "scraped_date": "2026-11-28"
+  },
+  {
+    "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+    "paper_url": "https://huggingface.co/papers/2611.34457",
+    "authors": [],
+    "stars": "8",
+    "details": {
+      "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+      "abstract": "Recent video generators produce realistic videos, yet controlling how scenes unfold remains challenging. Structural proxies, such as animated 3D blockouts, guide generation by specifying scene layout, motion, camera behavior, and event order. However, these coarse inputs leave details unspecified and may contain artifacts that should not be reproduced. Successful proxy-guided generation must therefore Preserve intended structure, Complete missing content and correct proxy artifacts, and Bind text, image, and audio conditions to the right entities and events. We introduce ProxyGenBench to study these interacting requirements, with 312 evaluation cases from 60 scenes across three scene tasks and controlled variations in proxy fidelity, text detail, and multimodal inputs. We evaluate five video generators using verified, case-specific checklists. Experiments show that proxies improve spatiotemporal control, but greater proxy detail can coincide with poorer completion, while strong structural adherence does not ensure correct binding.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.34457",
+      "pdf_url": "https://arxiv.org/pdf/2611.34457",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/2kxx/ProxyGenBench"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.34457",
+      "scraped_at": "2026-11-28T06:40:22.936398"
+    },
+    "scraped_date": "2026-11-28"
+  },
+  {
+    "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+    "paper_url": "https://huggingface.co/papers/2611.34290",
+    "authors": [
+      "Yanwen Ma",
+      "Haoran Li",
+      "Yijing Guo",
+      "Xuying Zhang",
+      "Modi Jin"
+    ],
+    "stars": "49",
+    "details": {
+      "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+      "abstract": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challenges because continual planning and repair accumulate context, while reference updates remain limited. We introduce StateWeaver, which combines Active States and Hierarchical Collaboration to connect review-driven visual reference updates with cross-shot state inheritance. Active States translate state discrepancies identified during review into concrete visual asset requirements that guide reference construction, validation, and regeneration, preserving identity and already-correct content while repairing target attributes. Confirmed generation results are linked to the corresponding asset states, story time, and reference versions for verification and reuse by subsequent shots. Hierarchical Collaboration isolates execution contexts by task, clip, and repair round, and uses hierarchical memory to organize this process across multiple sets. Across multiple benchmarks, StateWeaver outperforms existing methods and produces long videos with sustained cross-shot consistency under predefined and autonomously planned storyboards.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.34290",
+      "pdf_url": "https://arxiv.org/pdf/2611.34290",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/ghost233lism/StateWeaver"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.34290",
+      "scraped_at": "2026-11-28T06:40:24.727277"
+    },
+    "scraped_date": "2026-11-28"
+  },
+  {
+    "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
+    "paper_url": "https://huggingface.co/papers/2611.34693",
+    "authors": [],
+    "stars": "10",
+    "details": {
+      "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
+      "abstract": "Real-Time on a Single H100: Distilled to 3 denoising steps (AnyFlow + Self-Forcing) and paired with FlashAttention-3, CUDA graphs, and fused commit kernels, the optimized path runs all 8 candidates in ~228 ms/step—fitting inside the 250 ms budget at 16 fps. Everything is open-sourced under Apache 2.0: Paper: https://arxiv.org/abs/2611.34693 Code & Browser Demo: https://github.com/showlab/ShowNow Model (ShowNow-5B-8F): https://huggingface.co/songyiren/ShowNow-5B-8F Dataset (ShowNow-MultiFuture, 21,964 8-future forks): https://huggingface.co/datasets/songyiren/ShowNow-MultiFuture Would love to hear your thoughts or feedback if you try out the demo or weights!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.34693",
+      "pdf_url": "https://arxiv.org/pdf/2611.34693",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/showlab/ShowNow"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.34693",
+      "scraped_at": "2026-11-28T06:40:26.479867"
+    },
+    "scraped_date": "2026-11-28"
+  },
+  {
+    "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+    "paper_url": "https://huggingface.co/papers/2611.34852",
+    "authors": [],
+    "stars": "22",
+    "details": {
+      "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+      "abstract": "How much of the relevant knowledge does a deep research agent actually cover? We built DRBench Pro to answer this question. For each case, we derive a research query and evidence-grounded rubrics from the same Wikipedia-derived knowledge tree. This structure lets us measure breadth across major research directions and depth along related chains of knowledge. DRBench Pro includes 144 research cases across 24 domains and 44,102 rubrics . In our evaluation of 16 agent configurations, we found that similar overall coverage scores can mask distinct strengths in breadth and depth. If you evaluate your own agent with DRBench Pro, we'd love to see your results and hear what you think. Project & leaderboard · Code · Dataset",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.34852",
+      "pdf_url": "https://arxiv.org/pdf/2611.34852",
+      "github_links": [
+        "https://github.com/ZJU-REAL/DRBenchPro",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.34852",
+      "scraped_at": "2026-11-28T06:40:28.224501"
+    },
+    "scraped_date": "2026-11-28"
   },
   {
     "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
@@ -181,9 +181,29 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.32238",
-      "scraped_at": "2026-11-27T07:06:26.263161"
+      "scraped_at": "2026-11-28T06:40:29.908001"
     },
-    "scraped_date": "2026-11-27"
+    "scraped_date": "2026-11-28"
+  },
+  {
+    "title": "Revisiting LLMs as Context Engineers",
+    "paper_url": "https://huggingface.co/papers/2611.30494",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "Revisiting LLMs as Context Engineers",
+      "abstract": "LLMs can engineer contexts via task-specific training, but no single method can achieve the best performance in all datasets at test time. Scaling helps but cannot reverse existing failures of LCEs. Even scaling to newer generations and more parameters remains insufficient to make LCEs more effective across different settings. When&How: Through aggregate analysis, we find that LCEs work better when facing less diverse failure modes of reasoning. Case studies show that the ability to abstract principled contexts from heterogeneous failures is the major bottleneck and that the success of some LCE methods is attributed to the improvement in adherence to (format) instruction rather than reasoning.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.30494",
+      "pdf_url": "https://arxiv.org/pdf/2611.30494",
+      "github_links": [
+        "https://github.com/costa-nus/LCEBench",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.30494",
+      "scraped_at": "2026-11-28T06:40:31.690042"
+    },
+    "scraped_date": "2026-11-28"
   },
   {
     "title": "When an AI agent makes a mistake in a database, what decides the damage?",
@@ -201,29 +221,47 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.30483",
-      "scraped_at": "2026-11-27T07:06:28.140939"
+      "scraped_at": "2026-11-28T06:40:33.493967"
     },
-    "scraped_date": "2026-11-27"
+    "scraped_date": "2026-11-28"
   },
   {
-    "title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
-    "paper_url": "https://huggingface.co/papers/2611.34719",
+    "title": "LayoutRecall: Preserving Appearance in Multi-Round 3D Layout-Controlled Image Editing",
+    "paper_url": "https://huggingface.co/papers/2611.33885",
     "authors": [],
-    "stars": "1",
+    "stars": "0",
     "details": {
-      "title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
-      "abstract": "arXiv: https://arxiv.org/abs/2611.34719 code: https://github.com/yunncheng/ReMoT",
-      "arxiv_page_url": "https://arxiv.org/abs/2611.34719",
-      "pdf_url": "https://arxiv.org/pdf/2611.34719",
+      "title": "LayoutRecall: Preserving Appearance in Multi-Round 3D Layout-Controlled Image Editing",
+      "abstract": "Project Page: https://ykchizs.github.io/layoutrecall.github.io/",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.33885",
+      "pdf_url": "https://arxiv.org/pdf/2611.33885",
       "github_links": [
-        "https://github.com/huggingface",
-        "https://github.com/yunncheng/ReMoT"
+        "https://github.com/huggingface"
       ],
       "metadata": {},
-      "page_url": "https://huggingface.co/papers/2611.34719",
-      "scraped_at": "2026-11-27T07:06:29.908325"
+      "page_url": "https://huggingface.co/papers/2611.33885",
+      "scraped_at": "2026-11-28T06:40:35.205785"
     },
-    "scraped_date": "2026-11-27"
+    "scraped_date": "2026-11-28"
+  },
+  {
+    "title": "Guarding with Judgment: Learning to Intervene for Multimodal Safety",
+    "paper_url": "https://huggingface.co/papers/2611.28849",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Guarding with Judgment: Learning to Intervene for Multimodal Safety",
+      "abstract": "New Guard！",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.28849",
+      "pdf_url": "https://arxiv.org/pdf/2611.28849",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.28849",
+      "scraped_at": "2026-11-28T06:40:36.953864"
+    },
+    "scraped_date": "2026-11-28"
   },
   {
     "title": "Generation as Reverse Encoding",
@@ -246,9 +284,91 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.34782",
-      "scraped_at": "2026-11-27T07:06:31.685949"
+      "scraped_at": "2026-11-28T06:40:38.664832"
     },
-    "scraped_date": "2026-11-27"
+    "scraped_date": "2026-11-28"
+  },
+  {
+    "title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
+    "paper_url": "https://huggingface.co/papers/2611.34719",
+    "authors": [],
+    "stars": "1",
+    "details": {
+      "title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
+      "abstract": "arXiv: https://arxiv.org/abs/2611.34719 code: https://github.com/yunncheng/ReMoT",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.34719",
+      "pdf_url": "https://arxiv.org/pdf/2611.34719",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yunncheng/ReMoT"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.34719",
+      "scraped_at": "2026-11-28T06:40:40.379891"
+    },
+    "scraped_date": "2026-11-28"
+  },
+  {
+    "title": "Damped Atomic Wave Integration Neurons (DAWIN): A Universal Primitive for Continuous-Time Spatiotemporal Learning",
+    "paper_url": "https://huggingface.co/papers/2611.30025",
+    "authors": [
+      "Justin Kim",
+      "yumakemore"
+    ],
+    "stars": "2",
+    "details": {
+      "title": "Damped Atomic Wave Integration Neurons (DAWIN): A Universal Primitive for Continuous-Time Spatiotemporal Learning",
+      "abstract": "👋 Hi everyone! Author here sharing Damped Atomic Wave Integration Neurons (DAWIN) — a solver-free, continuous-time neural primitive designed to replace standard perceptrons across MLPs, Transformers, and GNNs when modeling irregularly sampled spatiotemporal data. Key Motivation — Why DAWIN? Conventional neurons ( y = σ(wᵀx + b) ) decouple spatial feature aggregation from continuous physical time, forcing models on asynchronous event streams to rely on slow numerical ODE/CDE solvers or task-specific sequence wrappers. Atomic Spatiotemporal Wave Integration: Each DAWIN unit fuses spatial projection ( kₘᵀ xᵢ ) and Zero-Order Hold (ZOH) interval scaling ( αₘ(Δtᵢ) ) into an indivisible complex wave packet, integrating it directly into a local state governed by a continuous-time damper evolution operator exp(-(γₘ + iωₘ)Δtᵢ) . Provable Stability & Exact Generalization: Uniform Bounded-Input Bounded-Output (BIBO) stability holds for any damping rate γₘ > 0 without inner-loop normalization, while strictly generalizing static sinusoidal perceptrons ( γₘ → ∞ ) and memoryless wave neurons. Fused Triton Associative Scan ( O(log L) Parallel Depth): By proving exact associativity of atomic wave integration, our paired-real Triton prefix-scan kernel ( DAWINLinear ) eliminates serial recurrence bottlenecks with strict FP32 accumulation. Key 10-Seed Results (NVIDIA B200, Strict ±2% Parameter Parity) Clinical Time Series ( PhysioNet-12 ): DAWIN-Transformer achieves the best overall accuracy on dense clinical dynamics ( 0.9531 NRMSE , winning 10/10 seeds, Holm p = 0.010) and ties for top mortality prediction ( 0.9993 AUROC ). Cross-Task Accuracy & Causal Timing: Outperforms Neural CDE on 9/11 tasks and parameter-matched ReLU-MLP on 8/11 tasks. Shuffling elapsed intervals Δt degrades test error by +58.2% to +77.4% on physical dynamics tasks vs. +0.06% on a Δt -irrelevant control. Hardware Scaling: Accelerates inference by up to 2,630× over serial wave recurrence and 18.6×–802.3× over S5, Mamba, and Neural CDE, while reducing peak GPU VRAM by up to 97.6% . Try DAWIN in 30 Seconds Install via PyPI: pip install dawin — https://pypi.org/project/dawin/ Interactive Google Colab Quickstart: https://colab.research.google.com/github/yumakemore/DAWIN/blob/main/DAWIN_Quickstart.ipynb Hugging Face Model Card & Sample Weights: https://huggingface.co/yumakemore/DAWIN GitHub Code & 11-Task Benchmark Suite: https://github.com/yumakemore/DAWIN Questions, benchmarks on new asynchronous datasets, or feedback are very welcome!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.30025",
+      "pdf_url": "https://arxiv.org/pdf/2611.30025",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/yumakemore/DAWIN"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.30025",
+      "scraped_at": "2026-11-28T06:40:42.198878"
+    },
+    "scraped_date": "2026-11-28"
+  },
+  {
+    "title": "BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models",
+    "paper_url": "https://huggingface.co/papers/2611.30723",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models",
+      "abstract": "Hi everyone! We are excited to share BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models ( arXiv:2611.30723 ). 🎧 Listen to Live Audio Demos: https://seekmind-lab.github.io/bisat-demo/ (zero-shot TTS & speech reconstruction samples) 🚀 Open-Source Release Coming Soon: We are actively preparing the public release of both the source code and pretrained checkpoints for BiSAT ( BiSAT-32k , BiSAT-64k ) and BiSAT-TTS ( BiSAT-TTS-32k , BiSAT-TTS-64k ). Like seekmind-lab/bisat-paper or follow SeekMind Lab to be notified! Audio Demos (Live): https://seekmind-lab.github.io/bisat-demo/ Blog Article (Full Walkthrough): https://huggingface.co/blog/zenkingsama/bisat Paper Companion & Release Tracker: https://huggingface.co/seekmind-lab/bisat-paper Organization: SeekMind Lab 1. Beyond Reconstruction: Why Code Structure Matters Evaluating discrete speech tokenizers by clean reconstruction WER alone can be misleading: X-Codec2 (50 Hz, 800 bps, adversarial waveform decoder) nearly matches BiSAT-32k (25 Hz, 375 bps, no adversarial training) on LibriSpeech-PC ( 2.27% vs. 2.15% WER ), yet degrades sharply on frozen-code understanding probes ( 8.82% vs. 1.92% PR PER , 87.7% vs. 24.4% zero-shot FLEURS EN WER , 5.6% vs. 40.4% VoxCeleb1 SID ). 2. How BiSAT Works: Separate Continuous Spaces, One Shared Index Inspired by TokenFlow's shared-index principle, BiSAT keeps acoustic (mel reconstruction without adversarial training) and semantic (CTC + layer-9 intermediate CTC) branches separate in continuous space , coupling them through a shared-index vector quantizer (SVQ) that selects one shared index per 25 Hz frame without a frozen semantic teacher. Two-stage training + spherical k-means initialization + rotation trick + shared-count EMA + dead-code reseeding yield 100% utilization at 32k ( 375 bps ) and 99.8% at 64k ( 400 bps ). 3. Inside the Paired Codebooks Joint training steadily reduces excess quantization distortion $r_b$ across both branches while maintaining asymmetric neighborhood correspondence well below the random baseline ($p = 0.005$). TreeSHAP attribution confirms clean branch specialization: Pitch ($F_0$, 80.8% ) and Energy ( 80.0% ) rely on $\\boldsymbol{c}_a$, Phonemes ( 76.0% ) rely on $\\boldsymbol{c}_s$, and Speaker ID ( 71.0% / 29.0% ) and Emotion ( 68.0% / 32.0% ) draw on both. 4. BiSAT-TTS: Zero-Shot TTS with 1/8th the Data of CosyVoice 3 Pairing a MiniCPM4-0.5B AR text-speech LM with a 22-block DiT conditional flow-matching acoustic decoder (supporting both offline and streaming decoding) trained on 122k hours across 11 languages, BiSAT-TTS achieves 1.50% WER on LibriSpeech-PC, 1.21% WER on Seed-TTS ( test-en ), and 1.27% CER on Seed-TTS ( test-zh ) with a 0.016% failure rate. 🎧 Hear the samples yourself: https://seekmind-lab.github.io/bisat-demo/ — we welcome any questions or feedback on the paper!",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.30723",
+      "pdf_url": "https://arxiv.org/pdf/2611.30723",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.30723",
+      "scraped_at": "2026-11-28T06:40:44.020066"
+    },
+    "scraped_date": "2026-11-28"
+  },
+  {
+    "title": "Pretrained Tabular Features and the Measurement of Financial Proximity",
+    "paper_url": "https://huggingface.co/papers/2611.31491",
+    "authors": [],
+    "stars": "0",
+    "details": {
+      "title": "Pretrained Tabular Features and the Measurement of Financial Proximity",
+      "abstract": "Much of the excitement around foundation models in finance concerns their predictive capabilities. But what can their internal representations tell us about the economy itself? In our new paper, Pretrained Tabular Features and the Measurement of Financial Proximity, we explore foundation models as instruments of economic measurement. Spatial Arbitrage Pricing Theory (S-APT) extends conventional factor models to account for financial linkages between firms. Central to this framework is a deceptively simple question: what makes two firms financially similar? Building on Fernández's (2011) work in Quantitative Finance, we compare traditional measures of financial proximity with the frozen representations of four tabular foundation models, isolating the contribution of pretraining by benchmarking against direct distances on identical financial inputs. With broader financial disclosures, all four models show improvements in estimated return fit, with TabPFN's advantage surviving controls for the Fama-French five factors and momentum. These findings open up new possibilities for peer selection, risk attribution and network-based asset pricing. Perhaps what foundation models have learned is as interesting as what they can predict.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.31491",
+      "pdf_url": "https://arxiv.org/pdf/2611.31491",
+      "github_links": [
+        "https://github.com/marcusinthesky/free-foundations",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.31491",
+      "scraped_at": "2026-11-28T06:40:45.882950"
+    },
+    "scraped_date": "2026-11-28"
   },
   {
     "title": "Decision-Native Multimodal Clinical Modeling via Anatomical Grounding and Confidence Calibration",
@@ -266,8 +386,71 @@
       ],
       "metadata": {},
       "page_url": "https://huggingface.co/papers/2611.32993",
-      "scraped_at": "2026-11-27T07:06:33.586629"
+      "scraped_at": "2026-11-28T06:40:47.604828"
     },
-    "scraped_date": "2026-11-27"
+    "scraped_date": "2026-11-28"
+  },
+  {
+    "title": "Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries",
+    "paper_url": "https://huggingface.co/papers/2611.27112",
+    "authors": [
+      "sandeepdhuriauthor"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries",
+      "abstract": "Four coding agents, one 278-word rules file. One agent's hidden-test pass rate fell from 99.0 to 67.7 percent. A network gate blocked all 5 attempts to cross a boundary. Pre-registered, open data and transcripts.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.27112",
+      "pdf_url": "https://arxiv.org/pdf/2611.27112",
+      "github_links": [
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.27112",
+      "scraped_at": "2026-11-28T06:40:49.442343"
+    },
+    "scraped_date": "2026-11-28"
+  },
+  {
+    "title": "InitFree-SfM: When Initialization-Free Bundle Adjustment meets Learned Structure-from-Motion",
+    "paper_url": "https://huggingface.co/papers/2611.31516",
+    "authors": [],
+    "stars": "3",
+    "details": {
+      "title": "InitFree-SfM: When Initialization-Free Bundle Adjustment meets Learned Structure-from-Motion",
+      "abstract": "Initialization-free bundle adjustment (InitFree BA) aims to jointly recover camera poses and scene structure without requiring an initial global estimate. It is a very challenging problem, especially compared to traditional BA where a good estimation is assumed. While recent methods optimize surrogate Object Space Error (OSE) objectives from random initialization, a low objective value does not necessarily yield an accurate reconstruction, revealing a gap between optimization and reconstruction. We show that existing InitFree BA pipelines struggle to produce accurate 3D reconstructions on modern SfM benchmarks, and demonstrate that incorporating learned metric depth substantially improves their practical feasibility. We introduce InitFree-SfM, a complete initialization-free SfM pipeline combining learned correspondences, metric depth, depth-consistent track construction, and joint metric refinement. Within this framework, we propose a simple depth-augmented OSE (dOSE), which complements the directional constraints of OSE by constraining landmark positions along their viewing rays. Our approach substantially outperforms existing InitFree BA methods and achieves competitive accuracy with established SfM pipelines, including on challenging low-overlap image collections. Importantly, our analysis challenges the prevailing emphasis on surrogate objectives in previous InitFree BA research, revealing that geometric constraints play a central role in accurate reconstruction, while OSE-based optimization provides further improvements.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.31516",
+      "pdf_url": "https://arxiv.org/pdf/2611.31516",
+      "github_links": [
+        "https://github.com/huggingface",
+        "https://github.com/simonwebertum/initfree-sfm"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.31516",
+      "scraped_at": "2026-11-28T06:40:51.385827"
+    },
+    "scraped_date": "2026-11-28"
+  },
+  {
+    "title": "So Many Ways to Multiply 3times3 Matrices: A Large Dataset of Rank-23 Schemes",
+    "paper_url": "https://huggingface.co/papers/2611.31155",
+    "authors": [
+      "Andrew Igorevich Perminov"
+    ],
+    "stars": "0",
+    "details": {
+      "title": "So Many Ways to Multiply 3times3 Matrices: A Large Dataset of Rank-23 Schemes",
+      "abstract": "Dataset of rank-23 schemes for 3x3 matrix multiplication with pairwise distinct rank patterns. The dataset currently contains 62029 schemes, one for every rank pattern found, so no two schemes of the dataset are equivalent. The coefficients are ternary (ZT, values in {-1, 0, 1}), integer (Z) or rational (Q). Each scheme is stored in three formats: JSON, plain text and Maple.",
+      "arxiv_page_url": "https://arxiv.org/abs/2611.31155",
+      "pdf_url": "https://arxiv.org/pdf/2611.31155",
+      "github_links": [
+        "https://github.com/dronperminov/rank23_3x3_dataset",
+        "https://github.com/huggingface"
+      ],
+      "metadata": {},
+      "page_url": "https://huggingface.co/papers/2611.31155",
+      "scraped_at": "2026-11-28T06:40:53.119457"
+    },
+    "scraped_date": "2026-11-28"
   }
 ]
